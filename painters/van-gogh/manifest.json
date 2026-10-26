@@ -1,0 +1,47 @@
+{
+  "audit_changes_v0.2": [
+    "名单编号 #38 修正为 #39（v2 #38 是塞尚）",
+    "删除未核实引文“1888 年 9 月致提奥信：单股厚涂流”，改引已核实的 1888-04-12 致贝尔纳信原文",
+    "“厚涂 2–4 mm”改为“数毫米级隆起”，标注待核对",
+    "删除“夜比白天色彩更丰富（致妹妹信）”的信件归属，改为画面印象",
+    "conflicts.md 由 4 条扩至 8 条，补褪色研究出处与《向日葵》版本事实",
+    "manifest.json 补全 sources / verification / known_gaps / audit_changes_v0.2，升版 v0.2"
+  ],
+  "colour_note": "按刚画完的鲜亮态蒸；铬黄变暗 / 茜素湖褪色问题见 conflicts.md 第 1 条（梵高博物馆研究）",
+  "date": "2026-10-26",
+  "dates": "1853-1890",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "known_gaps": [
+    "厚涂隆起精确厚度（毫米数）待博物馆技法报告核对",
+    "“夜比白天色彩更丰富”信件出处待核对",
+    "《星夜》月相与金星是否与 1889 年 6 月实际天象相符待天文核对"
+  ],
+  "list_position": "v2 #39, 后印象派",
+  "next_step": "用 style.md 的测试提示词跑 1 张图像 + 按 process.md 排 1 条 60-90 秒延时，对照检查笔触方向与黄蓝对撞是否成立",
+  "painter": "Vincent van Gogh",
+  "painter_zh": "梵高",
+  "school": "后印象派",
+  "scope": "只蒸作品（画作本身 + 关于画作的公开文字 + 博物馆技法分析），不蒸私生活",
+  "source_works": [
+    "星夜",
+    "向日葵",
+    "鸢尾花",
+    "麦田群鸦"
+  ],
+  "sources": [
+    "摩根图书馆藏致贝尔纳信 1888-04-12（不规则笔触、厚涂、未覆盖画布角落原文） https://www.themorgan.org/collection/vincent-van-gogh/letter/3/page/2",
+    "梵高博物馆《向日葵》修复研究（Ella Hendriks：geranium lake 褪色 + chrome yellow 变暗；5 个版本，1888 年 8 月原作 / 1889 年 1 月复制）",
+    "MoMA《星夜》说明（1889 年 6 月，圣雷米）",
+    "1888-10-08 致提奥信（自己买布、自己备底）"
+  ],
+  "status": "pilot draft v0.2",
+  "style_period": "晚期（阿尔勒—圣雷米）高饱和厚涂风格；早期土色暗调不在本 pilot 范围内",
+  "template": "painters-top100-draft.md 第 3 节",
+  "test_prompt": "便利店夜景（见 style.md 第 7 节）",
+  "verification": "2026-10-26 审计核对：致贝尔纳信原文、铬黄/茜素湖褪色、《星夜》1889 年 6 月、《向日葵》5 个版本已核实；v0.1 两处未核实断言已修正（见 SKILL.md 核对记录）",
+  "version": "0.2"
+}
