@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-26",
+  "dates": "1654–1722",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "taxation",
+  "known_gaps": [
+    "冻结后各省人丁税额的执行差异无完整档案；蠲免的具体次数与数额各说不一",
+    "人口数字本身为估算，非精确普查"
+  ],
+  "language_samples": [
+    {
+      "level": "artifact",
+      "source": "康熙五十一年诏（转述大意）",
+      "text": "盛世滋生人丁，永不加赋（诏令大意，通行转述，非逐字校勘本直引）"
+    }
+  ],
+  "list_position": "tax-top100-draft v1 #16",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查税基、税率、归宿与收束是否成立",
+  "school": "清·人丁税改革",
+  "scope": "只蒸税收成就（税收理论 / 税制改革 / 税法 / 征管制度），不蒸私生活与一般经济学成就",
+  "source_works": [
+    "盛世滋生人丁永不加赋",
+    "人丁税额冻结",
+    "蠲免钱粮"
+  ],
+  "sources": [
+    "tax-top100-draft.md 第 2 节 #16",
+    "《清史稿·食货志》",
+    "《康熙起居注》相关转述"
+  ],
+  "status": "draft v0.1",
+  "tax_figure": "Kangxi",
+  "tax_figure_zh": "康熙帝",
+  "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "为外卖平台骑手设计一套简易所得税（见 style.md 第 7 节）",
+  "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}

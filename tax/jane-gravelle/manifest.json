@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "dates": "生年未核实",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "taxation",
+  "known_gaps": [
+    "生年未核实，检索未找到出生年份",
+    "各报告的发表时序未逐项核对"
+  ],
+  "language_samples": [
+    {
+      "level": "artifact",
+      "source": "《The Economic Effects of Taxing Capital Income》(MIT Press, 1994)",
+      "text": "名义税率不是负担，归宿才是答案：资本所得税负由资本与劳动分担（要点意译）"
+    },
+    {
+      "level": "artifact",
+      "source": "CRS 报告《Corporate Tax Reform: Issues for Congress》(2008)",
+      "text": "法案打分须比较有效边际税率，而非名义税率（要点意译）"
+    }
+  ],
+  "list_position": "tax-top100-draft v1 #89",
+  "living_person": true,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查税基、税率与归宿是否成立",
+  "school": "美国·国会税收分析",
+  "scope": "只蒸税收成就（只蒸其国会税收分析与归宿实证成就，不蒸其个人生平。），不蒸私生活与一般经济学成就",
+  "source_works": [
+    "《The Economic Effects of Taxing Capital Income》(MIT Press, 1994)",
+    "《Corporate Tax Reform: Issues for Congress》(CRS, 2008，与 Thomas L. Hungerford 合著)",
+    "国会研究服务部（CRS）税收报告系列"
+  ],
+  "sources": [
+    "税收史与公共财政史通说（Wikipedia / Britannica 共识）",
+    "草稿 tax-top100-draft.md 第 6 节（画家模板改编）"
+  ],
+  "status": "draft v0.1",
+  "tax_figure": "Jane Gravelle",
+  "tax_figure_zh": "简·格拉维尔",
+  "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "为某国降低公司名义税率的法案打分（见 style.md 第 7 节）",
+  "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
+  "version": "0.1"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "dates": "1723–1790",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "古典·税收四原则",
+  "known_gaps": [
+    "四原则引文以《国富论》通行英文本为准，未逐字核对 1776 年初版本文",
+    "归宿论的具体数值例证未逐项核对"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《国富论》第五卷第二章（1776），四原则开篇",
+      "text": "The subjects of every state ought to contribute towards the support of the government, as nearly as possible, in proportion to their respective abilities"
+    },
+    {
+      "level": "verbatim",
+      "source": "《国富论》第五卷第二章（1776），便利原则",
+      "text": "Every tax ought to be levied at the time, or in the manner, in which it is most likely to be convenient for the contributor to pay it"
+    }
+  ],
+  "list_position": "tax-top100-draft v1 #35",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查税基、税率、征管与论证方式是否成立",
+  "school": "古典·税收四原则",
+  "scope": "只蒸其税收成就（《国富论》税收四原则与归宿论），不蒸其一般经济学与道德哲学",
+  "source_works": [
+    "《国富论》（1776）第五卷第二章",
+    "税收四原则",
+    "税负归宿论"
+  ],
+  "sources": [
+    "《国富论》第五卷第二章通行本",
+    "草稿 tax-top100-draft.md 第 2 节 #35 与第 6 节",
+    "古典税收史通说（四原则）"
+  ],
+  "status": "draft v0.1",
+  "tax_figure": "Adam Smith",
+  "tax_figure_zh": "亚当·斯密",
+  "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}
