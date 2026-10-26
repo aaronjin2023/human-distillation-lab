@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "dates": "约前 8 世纪",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "poet",
+  "known_gaps": [
+    "希腊原文的校勘本版本未逐一核对",
+    "程式化修饰语的统计未做词频实测"
+  ],
+  "language_samples": [
+    {
+      "level": "artifact",
+      "source": "《伊利亚特》开篇（希腊原文参照，译文非 verbatim）",
+      "text": "女神啊，请歌唱裴琉斯之子阿喀琉斯的愤怒。"
+    },
+    {
+      "level": "artifact",
+      "source": "《奥德赛》开篇（希腊原文参照，译文非 verbatim）",
+      "text": "缪斯啊，请歌唱那位足智多谋的英雄。"
+    }
+  ],
+  "list_position": "poets-top100-draft v1 #60",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查意象、韵律与收束是否成立",
+  "poet": "Homer",
+  "poet_zh": "荷马",
+  "school": "古希腊·史诗",
+  "scope": "只蒸作品（诗歌本身 + 关于写诗的公开文字 + 评论/研究），不蒸私生活",
+  "source_works": [
+    "《伊利亚特》",
+    "《奥德赛》"
+  ],
+  "sources": [
+    "poets-top100-draft.md 第 2 节",
+    "各代表作通行本与权威选本",
+    "2026-10-26 网络核对（存疑项已记入 conflicts.md）"
+  ],
+  "status": "draft v0.1",
+  "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
+  "test_prompt": "一只坐在地铁里的约克夏犬",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}
