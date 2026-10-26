@@ -1,0 +1,40 @@
+{
+  "philosopher": "Mary Wollstonecraft",
+  "philosopher_zh": "玛丽·沃斯通克拉夫特",
+  "dates": "1759–1797",
+  "school": "启蒙·女权哲学",
+  "list_position": "philosophers-top100-draft v1 #61",
+  "living_person": false,
+  "version": "0.1",
+  "status": "draft v0.1",
+  "date": "2026-10-26",
+  "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
+  "scope": "只蒸著作与理论（著作本身 + 关于著作的公开文字 + 评论/研究），不蒸私生活",
+  "source_works": [
+    "《女权辩护》",
+    "《人类权利辩护》"
+  ],
+  "sources": [
+    "philosophers-top100-draft.md 第 2 节",
+    "Wikipedia / Britannica / SEP 通说（关键事实已核对）"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "language_samples": [
+    {
+      "level": "impression",
+      "source": "学界通说（无可安全引用的短句，故不引原文）",
+      "text": ""
+    }
+  ],
+  "known_gaps": [
+    "未核对《女权辩护》第二版修订细节",
+    "《玛丽亚》遗稿未系统蒸馏（小说，非本类重点）"
+  ],
+  "test_prompt": "现代题材：自助结账机漏扫了一件商品，当事人是否该付款",
+  "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+}

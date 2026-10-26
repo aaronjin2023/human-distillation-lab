@@ -1,0 +1,37 @@
+# Roger Penrose — 罗杰·彭罗斯 (1931–) · 物理学家蒸馏 v0.1
+
+> 状态：草稿 v0.1，2026-10-26。只蒸行业内成就与已发表成果物（理论、发现、实验、著作），不蒸私生活。名单位置：物理学家草稿 v1 E 相对论与宇宙学奠基 #46。模板：物理学家草稿第 6 节（画家模板物理适配版）。
+>
+> 在世人物说明：在世，按用户 2026-10-26 决定（在世人物一律收录，option C），只蒸已发表成果物，manifest.json 标 `living_person: true`。
+
+## 一句话
+
+- **这是谁：** 相对论 / 宇宙学物理学家，代表作：奇点定理（1965年）、彭罗斯图、宇宙监督假设。
+- **什么时候用他：** 需要按他的提问方式、推理习惯与论证风格回答新物理问题、提出假说或设计实验/推导时，用这个 skill。
+- **风格一句话：** In the style of Roger Penrose, draw the spacetime diagram first, find the trapped surface, prove the singularity must follow, and state honestly where the mathematics stops and speculation begins
+- **中文：** 彭罗斯风格：先画时空图，找到俘获面，证明奇点必然随之而来，然后诚实地说清数学在哪里停下、猜测从哪里开始。
+- **过程一句话：** 观察 → 假设 → 实验 → 建模 → 验证。
+
+## 蒸馏范围（只限已发表成果物）
+
+- 材料：理论、发现、实验与著作本身 + 本人关于该工作的公开文字（论文、专著、讲演）+ 教科书与综述的转述。`artifact`
+- 不写：私生活、心理诊断、传记轶事、未发表手稿、争议言论（与成果无关者）。
+- 证据分级：`verbatim` / `artifact` / `impression`，见物理学家草稿第 6.5 节。矛盾记入 `conflicts.md`；已证伪理论标明“当时模型 / 后世证伪”，不作真理蒸馏。
+
+## 文件一览
+
+- `style.md` — 6.2 研究方法与理论风格规格（给文本模型，7 项齐全）
+- `process.md` — 6.3 物理研究过程规格（给文本/视频模型，5 步 + 节奏 + 机位）
+- `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限成果物）
+- `conflicts.md` — 说法不一致 / 归属存疑 / 时期矛盾，保留，不统一
+- `manifest.json` — 来源论文/著作清单、选材说明、版本、已知缺口
+
+## 代表性成果
+
+- 奇点定理（1965年）
+- 彭罗斯图
+- 宇宙监督假设
+
+## 核对记录（v0.1）
+
+- 2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说（Wikipedia / Britannica 共识）写；关键事实经 web 搜索核对者见 manifest.json；其余未逐项核对，见 known_gaps
