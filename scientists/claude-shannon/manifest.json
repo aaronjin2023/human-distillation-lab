@@ -1,0 +1,32 @@
+{
+  "scientist": "Claude Shannon",
+  "scientist_zh": "克劳德·香农",
+  "dates": "1916–2001",
+  "field": "信息 / 工程",
+  "list_position": "科学家草稿 v1 J 现代交叉 #95",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "scientists-top100-draft.md 第5节（画家模板科学家适配版）",
+  "scope": "只蒸行业内成就与成果物（理论、发现、实验、著作），不蒸私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "信息论（《通信的数学理论》, 1948）",
+    "比特与信道容量",
+    "开关电路的布尔代数应用（1938硕士论文）"
+  ],
+  "sources": [
+    "Wikipedia 'Claude Shannon'"
+  ],
+  "test_prompt": "In the style of Claude Shannon, judge a compression algorithm claimed to beat the theoretical limit: write down its source model and entropy, compare its rate with the proven bound, and ask which assumption it quietly changed",
+  "test_question_zh": "一种新压缩算法声称突破了理论极限，怎么判断？",
+  "known_gaps": [
+    "1948年论文的定理表述版本待原文核对",
+    "1956年滥用警告的原文待核对"
+  ],
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+}

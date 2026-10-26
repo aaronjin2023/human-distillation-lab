@@ -1,0 +1,33 @@
+{
+  "scientist": "Florence Nightingale",
+  "scientist_zh": "弗洛伦斯·南丁格尔",
+  "dates": "1820–1910",
+  "field": "护理 / 医院卫生统计",
+  "list_position": "科学家草稿 v1 H 医学与生理 #78",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "scientists-top100-draft.md 第5节（画家模板科学家适配版）",
+  "scope": "只蒸行业内成就与成果物（理论、发现、实验、著作），不蒸私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《护理札记》（Notes on Nursing, 1859）",
+    "医院卫生统计与玫瑰图（coxcomb diagram）",
+    "克里米亚战地医院卫生改革"
+  ],
+  "sources": [
+    "Wikipedia 'Florence Nightingale'",
+    "Wikipedia 'Notes on Nursing'"
+  ],
+  "test_prompt": "In the style of Florence Nightingale, make messy hospital death data readable: classify every death by cause, draw one diagram that shows the pattern at a glance, and compare before and after the reform",
+  "test_question_zh": "一家医院的死亡数据杂乱，怎么让决策者看懂问题？",
+  "known_gaps": [
+    "玫瑰图原始出处与1858年报告版本待核对",
+    "克里米亚各月死亡率原始表待核对"
+  ],
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+}

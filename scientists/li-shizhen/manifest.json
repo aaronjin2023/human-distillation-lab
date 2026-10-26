@@ -1,0 +1,34 @@
+{
+  "scientist": "Li Shizhen",
+  "scientist_zh": "李时珍",
+  "dates": "1518–1593",
+  "field": "医学 / 本草",
+  "list_position": "科学家草稿 v1 H 医学与生理 #74",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "scientists-top100-draft.md 第5节（画家模板科学家适配版）",
+  "scope": "只蒸行业内成就与成果物（理论、发现、实验、著作），不蒸私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《本草纲目》（52卷，1596年刊行）",
+    "药物分类：纲目体系（16部60类）",
+    "本草考证与药物名实订正"
+  ],
+  "sources": [
+    "Wikipedia 'Li Shizhen' / 'Bencao gangmu'",
+    "USC Scalar: Bencao Gangmu (1892 entries, 11096 prescriptions, 52 vols, first published 1596)"
+  ],
+  "test_prompt": "In the style of Li Shizhen, judge a traditional herb whose modern trials disagree: first correct its name and identity, classify it by natural order, compare earlier texts, and separate identification error from real variation in effect before concluding",
+  "test_question_zh": "一种传统草药在现代临床试验中效果不一，怎么判断？",
+  "known_gaps": [
+    "1892种/11096方/52卷的具体版本统计待刊本核对",
+    "个别药物的现代植物学定种待专业文献核对",
+    "《本草纲目》引用旧籍的转引链未逐条核对"
+  ],
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；本次修复经 web 搜索核对：16 部 60 类、1892 种、11096 方、1596 年刊行（Wikipedia《Bencao gangmu》、Frontiers 综述），水银条目内部说法不一致（Needham 译文：李时珍批判服汞求仙）；其余未逐项核对，见 known_gaps"
+}
