@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "dates": "1882–1941",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "known_gaps": [
+    "《海浪》六个人物的独白分配未逐章核对",
+    "《一个人的房间》的论述结构引自通说，未逐段核对"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《达洛维夫人》开篇（英文原文）；注：中文译文参照：‘达洛维夫人说她要亲自去买花。’",
+      "text": "Mrs. Dalloway said she would buy the flowers herself."
+    },
+    {
+      "level": "verbatim",
+      "source": "《到灯塔去》结尾附近（英文原文，莉莉·布里斯科的收束句）；注：中文译文参照：‘是的，她想，极度疲倦地放下画笔，我已经看到了我的幻象。’",
+      "text": "Yes, she thought, laying down her brush in extreme fatigue, I have had my vision."
+    }
+  ],
+  "list_position": "writers-top100-draft.md #81",
+  "next_step": "用 style.md 的测试提示词跑 1 段文本 + 按 process.md 排 1 条 60–90 秒延时，对照检查风格是否成立；成批完成后统一推送 GitHub（本任务不推送）",
+  "school": "英国·现代主义小说",
+  "scope": "只蒸作品（作品本身 + 关于作品的公开文字 + 评论/研究），不蒸私生活；蒸馏以原文为准，译本只作参照",
+  "source_works": [
+    "《达洛维夫人》",
+    "《到灯塔去》",
+    "《奥兰多》"
+  ],
+  "sources": [
+    "writers-top100-draft.md（名单、生卒、代表作；生卒按文学史通说）",
+    "Wikipedia / Britannica 共识（生卒与代表作，未逐条贴链接）"
+  ],
+  "status": "draft v0.1",
+  "template": "writers-top100-draft.md 第 6 节（画家模板改文学家）",
+  "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
+  "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
+  "version": "0.1",
+  "writer": "Virginia Woolf",
+  "writer_zh": "弗吉尼亚·伍尔夫"
+}

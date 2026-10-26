@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "dates": "1882–1941",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "known_gaps": [
+    "《尤利西斯》各章文体对应的奥德赛章节，个别章节的对应关系学界有分歧，未逐章核对",
+    "《都柏林人》十五篇的成篇顺序与删改细节未逐篇核对"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《尤利西斯》结尾，莫莉独白（英文原文）；注：无标点的意识长流的收束句。",
+      "text": "yes I said yes I will Yes."
+    },
+    {
+      "level": "verbatim",
+      "source": "《都柏林人·死者》（英文原文，结尾名句，译文参照：‘雪，普降于整个爱尔兰。’）；注：顿悟式结尾的代表句。",
+      "text": "snow was general all over Ireland."
+    }
+  ],
+  "list_position": "writers-top100-draft.md #77",
+  "next_step": "用 style.md 的测试提示词跑 1 段文本 + 按 process.md 排 1 条 60–90 秒延时，对照检查风格是否成立；成批完成后统一推送 GitHub（本任务不推送）",
+  "school": "爱尔兰·现代主义小说",
+  "scope": "只蒸作品（作品本身 + 关于作品的公开文字 + 评论/研究），不蒸私生活；蒸馏以原文为准，译本只作参照",
+  "source_works": [
+    "《尤利西斯》",
+    "《都柏林人》",
+    "《一个青年艺术家的画像》"
+  ],
+  "sources": [
+    "writers-top100-draft.md（名单、生卒、代表作；生卒按文学史通说）",
+    "Wikipedia / Britannica 共识（生卒与代表作，未逐条贴链接）"
+  ],
+  "status": "draft v0.1",
+  "template": "writers-top100-draft.md 第 6 节（画家模板改文学家）",
+  "test_prompt": "一个人在深夜便利店买关东煮（见 style.md 第 7 节）",
+  "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
+  "version": "0.1",
+  "writer": "James Joyce",
+  "writer_zh": "詹姆斯·乔伊斯"
+}

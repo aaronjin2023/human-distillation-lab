@@ -1,0 +1,31 @@
+# Bertolt Brecht — 贝托尔特·布莱希特 (1898–1956) · 试蒸草稿 v0.1
+
+> 状态：试蒸草稿 v0.1，2026-10-26。只蒸作品，不蒸私生活。名单位置：writers-top100-draft.md #82，德国·剧。
+> 模板：`writers-top100-draft.md` 第 6 节（画家模板改文学家）；画家模板原文见 `painters-top100-draft.md` 第 220–337 行。
+
+## 一句话
+
+- **这是谁：** 德国·剧作家，代表作《伽利略传》、《四川好人》、《大胆妈妈和她的孩子们》。
+- **什么时候用他：** 需要按他的风格写其他题材的文本（小说、诗、剧本、散文）时，用这个 skill。
+- **风格一句话：** In the style of Bertolt Brecht: epic theatre, alienation effect, songs that interrupt the action, placards and direct address, a parable that asks the audience to judge, not to weep
+- **过程一句话：** 1 场次表 → 2 对白初稿 → 3 排练式修改 → 4 舞台提示补写 → 5 定稿，不补、不改结构。
+
+## 蒸馏范围（只限成果物）
+
+- 材料：作品本身（《伽利略传》、《四川好人》、《大胆妈妈和她的孩子们》为主）+ 作家本人关于写作的公开文字 + 权威选本说明与评论研究。`artifact`
+- 不写：私生活、心理诊断、传记轶事。
+- 证据分级：`verbatim` / `artifact` / `impression`，同画家模板。矛盾记入 `conflicts.md`。
+- 蒸馏以原文为准，译本只作参照；`verbatim` 证据须能指认到具体作品与段落 / 诗行。
+
+## 文件一览
+
+- `style.md` — 6.2 写作风格规格（给文本模型，7 项齐全）
+- `process.md` — 6.3 写作过程规格（给文本 / 视频模型，5 步 + 节奏 + 机位）
+- `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限作品）
+- `conflicts.md` — 归属、版本、译名、年代争议，保留，不统一
+- `manifest.json` — 来源文本清单、选材说明、版本、语言样本
+
+## 核对记录（v0.1，2026-10-26）
+
+- 生卒与代表作按 `writers-top100-draft.md` 第 1–2 节与文学史通说（Wikipedia / Britannica 共识）写；未逐条贴原文出处者见 `manifest.json` 的 `known_gaps`。
+- 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
