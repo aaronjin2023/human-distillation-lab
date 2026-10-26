@@ -1,0 +1,48 @@
+{
+    "date": "2026-10-26",
+    "dates": "1891–1974",
+    "evidence_levels": [
+        "verbatim",
+        "artifact",
+        "impression"
+    ],
+    "genre": "美国·最高法院",
+    "jurist": "Earl Warren",
+    "jurist_zh": "沃伦",
+    "known_gaps": [
+        "沃伦各案判决的评议过程无完整记录，评议环节按判决结构反推",
+        "沃伦法院各案的社会科学证据来源未逐项核对原文出处"
+    ],
+    "language_samples": [
+        {
+            "level": "verbatim",
+            "source": "《布朗诉教育委员会案》（Brown v. Board of Education, 1954）",
+            "text": "Separate educational facilities are inherently unequal."
+        },
+        {
+            "level": "artifact",
+            "source": "《米兰达诉亚利桑那州案》（Miranda v. Arizona, 1966）所确立的米兰达警告（判决要求告知的内容，非判决书原句）",
+            "text": "You have the right to remain silent.（米兰达警告标准表述，源自本案判决的告知要求）"
+        }
+    ],
+    "list_position": "jurists-top100-draft v1 #54",
+    "living_person": false,
+    "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证结构、句式与价值排序是否成立",
+    "school": "美国·最高法院",
+    "scope": "只蒸法律成就与成果物（法律著作、判例意见、立法草案与条约文本），不蒸私生活与政治八卦",
+    "source_works": [
+        "布朗诉教育委员会案",
+        "米兰达诉亚利桑那州案",
+        "吉迪恩诉温赖特案"
+    ],
+    "sources": [
+        "《布朗诉教育委员会案》判决书（U.S. Reports）",
+        "《米兰达诉亚利桑那州案》判决书（U.S. Reports）",
+        "草稿 jurists-top100-draft.md 第 6 节"
+    ],
+    "status": "draft v0.1",
+    "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
+    "test_prompt": "在线教育资源不均的平等保护（见 style.md 第 7 节）",
+    "verification": "2026-10-26 通说核对：生卒 1891–1974、两案引文为学界通行引文；米兰达警告句为判决所确立的告知内容；未核对项见 conflicts.md 与 known_gaps",
+    "version": "0.1"
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "dates": "1936–2016",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "jurist / 法官",
+  "jurist": "Antonin Scalia",
+  "jurist_zh": "安东宁·斯卡利亚",
+  "known_gaps": [
+    "《法律的解释》各讲版本差异未核对",
+    "晚期异议意见的具体出处未逐条核对"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《法律的解释》(A Matter of Interpretation, 1997)",
+      "text": "A constitution is not a living organism; it is a legal document."
+    },
+    {
+      "level": "artifact",
+      "source": "District of Columbia v. Heller, 554 U.S. 570 (2008)",
+      "text": "第二修正案保障个人持有与携带武器的权利：以文本与历史解释为基础的多数意见（判决要旨概括，非逐字引文）"
+    }
+  ],
+  "list_position": "jurists-top100-draft v1 #79",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证方式、原则排序与禁区写法是否成立",
+  "school": "美国·原旨主义 / 最高法院",
+  "scope": "只蒸法律成就与成果物（法律著作/判例/立法），不蒸私生活与政治八卦",
+  "source_works": [
+    "《法律的解释》",
+    "《赫勒案多数意见》",
+    "《原旨主义》"
+  ],
+  "sources": [
+    "jurists-top100-draft.md（名单、生卒与代表作）",
+    "Wikipedia / Britannica 通说（2026-10-26 网络核对，存疑项见 conflicts.md）"
+  ],
+  "status": "draft v0.1",
+  "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "斯卡利亚风格：一份文本主义解释，论社交媒体平台删帖规则：文本说了什么、没说什么？宪法是法律文件而非活的有机体，平台规则同样是文本而非情绪。",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}

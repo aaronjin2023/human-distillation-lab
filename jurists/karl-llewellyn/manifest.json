@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "dates": "1893–1962",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "jurist / 法学家",
+  "jurist": "Karl Llewellyn",
+  "jurist_zh": "卡尔·卢埃林",
+  "known_gaps": [
+    "《统一商法典》起草中卢埃林的具体贡献未逐项核对",
+    "《普通法传统》的情境类型清单未完整核对"
+  ],
+  "language_samples": [
+    {
+      "level": "artifact",
+      "source": "《荆棘丛》(The Bramble Bush, 1930)",
+      "text": "法律是官员对纠纷所做的事：以法院实际做法而非纸面规则定义法律（命题概括，非逐字引文）"
+    },
+    {
+      "level": "artifact",
+      "source": "《普通法传统》(The Common Law Tradition, 1960)",
+      "text": "情境类型：按交易情境归纳规则的分析方法（内容概括，非逐字引文）"
+    }
+  ],
+  "list_position": "jurists-top100-draft v1 #73",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证方式、原则排序与禁区写法是否成立",
+  "school": "法律现实主义",
+  "scope": "只蒸法律成就与成果物（法律著作/判例/立法），不蒸私生活与政治八卦",
+  "source_works": [
+    "《荆棘丛》",
+    "《普通法传统》",
+    "《契约法》"
+  ],
+  "sources": [
+    "jurists-top100-draft.md（名单、生卒与代表作）",
+    "Wikipedia / Britannica 通说（2026-10-26 网络核对，存疑项见 conflicts.md）"
+  ],
+  "status": "draft v0.1",
+  "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "卢埃林风格：一份情境类型分析，论外卖骑手劳动合同：法院实际怎么处理这类纠纷，而不是纸面规则怎么说？按情境类型分类，不按抽象教义。",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}

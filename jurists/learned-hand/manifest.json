@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "dates": "1872–1961",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "美国·上诉法院",
+  "jurist": "Learned Hand",
+  "jurist_zh": "汉德",
+  "known_gaps": [
+    "汉德各案意见的评议过程无完整记录，评议环节按意见结构反推",
+    "汉德公式在《卡罗尔拖船公司案》之外的适用未逐案展开"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《自由的精神》（The Spirit of Liberty）演讲，1944 年 5 月 21 日",
+      "text": "The spirit of liberty is the spirit which is not too sure that it is right; the spirit of liberty is the spirit which seeks to understand the minds of other men and women; the spirit of liberty is the spirit which weighs their interests alongside its own without bias."
+    },
+    {
+      "level": "artifact",
+      "source": "《卡罗尔拖船公司案》（United States v. Carroll Towing Co., 1947）",
+      "text": "汉德公式：若预防负担（B）小于事故概率（P）乘损失（L），则未采取预防者有过失。"
+    }
+  ],
+  "list_position": "jurists-top100-draft v1 #52",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证结构、句式与价值排序是否成立",
+  "school": "美国·上诉法院",
+  "scope": "只蒸法律成就与成果物（法律著作、判例意见、立法草案与条约文本），不蒸私生活与政治八卦",
+  "source_works": [
+    "卡罗尔拖船公司案",
+    "马西斯出版公司案",
+    "自由的精神"
+  ],
+  "sources": [
+    "《自由的精神》（The Spirit of Liberty）演讲原文",
+    "《卡罗尔拖船公司案》判决书",
+    "草稿 jurists-top100-draft.md 第 6 节"
+  ],
+  "status": "draft v0.1",
+  "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "外卖机器人的注意义务（见 style.md 第 7 节）",
+  "verification": "2026-10-26 网络核对：自由精神引文见 Columbia Law School 与 Duke Judicature 所载 1944 年演讲原文；生卒 1872–1961 为通说；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}
