@@ -1,0 +1,40 @@
+{
+  "astronomer": "Aristarchus of Samos",
+  "astronomer_zh": "阿里斯塔克斯",
+  "data_sample": [
+    "月亮半圆时刻的日月角距约 87°（实为 89°51′）",
+    "距离比 19:1（错误）与 390:1（现代值）的对照"
+  ],
+  "date": "2026-10-26",
+  "dates": "c.310–c.230 BCE",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "field": "古希腊·日心说先驱",
+  "known_gaps": [
+    "《论日月的大小和距离》原文未逐句核对",
+    "日心说的阿基米德转述原文未核对",
+    "角距 87° 的具体出处未逐项核对"
+  ],
+  "list_position": "天文学家草稿 v1 A 古代·古典天文 #3",
+  "living_person": false,
+  "scope": "只蒸已发表成果物：发现、理论、观测记录、星表、历法、著作；不碰未发表手稿与私人生活",
+  "source_works": [
+    "日心说：地球绕太阳运行、地球自转（据阿基米德《数沙者》转述）",
+    "《论日月的大小和距离》：以几何方法测日月距离比",
+    "日月距离比约为 19:1（方法正确、数值错，实为约 390:1）"
+  ],
+  "sources": [
+    "Wikipedia 'Aristarchus of Samos'",
+    "Wikipedia 'On the Sizes and Distances (Aristarchus)'",
+    "Archimedes, The Sand Reckoner（转述日心说）"
+  ],
+  "status": "draft v0.1",
+  "template": "astronomers-top100-draft.md 第6节（画家模板天文适配版）",
+  "test_prompt": "In the style of Aristarchus of Samos, estimate a planet-to-star size ratio from modern transit data: pick the geometrically special moment, triangulate from it, show every step, and state how a 3-degree error would change the answer",
+  "test_question_zh": "用阿里斯塔克斯的方法分析现代系外行星凌星数据，估计行星与恒星的大小比",
+  "verification": "2026-10-26：日心说、日月距离比 19:1（实为约 390:1）、角距约 87° 经 web 搜索核对；日心说仅见阿基米德转述已记入 conflicts。",
+  "version": "0.1"
+}

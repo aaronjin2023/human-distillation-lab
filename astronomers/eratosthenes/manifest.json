@@ -1,0 +1,41 @@
+{
+  "astronomer": "Eratosthenes",
+  "astronomer_zh": "埃拉托斯特尼",
+  "data_sample": [
+    "夏至正午影角差约 1/50 圆周",
+    "两城距离 5,000 斯塔德（取整）",
+    "周长 252,000 斯塔德（每度 700 斯塔德）"
+  ],
+  "date": "2026-10-26",
+  "dates": "c.276–c.194 BCE",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "field": "古希腊·大地测量",
+  "known_gaps": [
+    "原始著作已佚，测量细节为后人转述",
+    "斯塔德长度未核对原始文献",
+    "卒年前 194 与前 196 两说未核对原始出处"
+  ],
+  "list_position": "天文学家草稿 v1 A 古代·古典天文 #4",
+  "living_person": false,
+  "scope": "只蒸已发表成果物：发现、理论、观测记录、星表、历法、著作；不碰未发表手稿与私人生活",
+  "source_works": [
+    "地球周长测量：252,000 斯塔德（夏至正午亚历山大与塞恩的日影差）",
+    "黄道倾角测定（约 23°51′）",
+    "地理与天文测量：以日晷影长定纬度差"
+  ],
+  "sources": [
+    "Wikipedia 'Eratosthenes'",
+    "Vitruvius 转述：周长 252,000 斯塔德",
+    "Wikipedia 'Hipparchus'（对照：岁差归喜帕恰斯）"
+  ],
+  "status": "draft v0.1",
+  "template": "astronomers-top100-draft.md 第6节（画家模板天文适配版）",
+  "test_prompt": "In the style of Eratosthenes, estimate Earth's circumference from modern shadow data in two cities: measure the same noon in both, take the angle difference as a fraction of a circle, scale up, and list every assumption the scaling depends on",
+  "test_question_zh": "用埃拉托斯特尼的方法，从现代两地日影数据估计地球周长",
+  "verification": "2026-10-26：周长 252,000 斯塔德、两城距离 5,000 斯塔德、影角 1/50 圆周经 web 搜索核对；草稿“岁差观测”已证为误归。",
+  "version": "0.1"
+}

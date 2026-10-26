@@ -1,0 +1,35 @@
+{
+  "astronomer": "Johannes Kepler",
+  "astronomer_zh": "开普勒",
+  "date": "2026-10-26",
+  "dates": "1571–1630",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "field": "德国·行星运动",
+  "known_gaps": [
+    "《新天文学》原文（拉丁文）未逐句核对",
+    "8 角分残差的具体计算过程待原文核对",
+    "《鲁道夫星表》的具体条目未逐项核对"
+  ],
+  "list_position": "天文学家草稿 v1 D 望远镜革命·天体力学 #37",
+  "living_person": false,
+  "scope": "只蒸已发表成果物：论文、星表、观测记录、著作；不碰未发表手稿与私人生活",
+  "source_works": [
+    "行星运动三定律：椭圆轨道定律、面积定律、调和定律",
+    "《新天文学》（Astronomia Nova, 1609）：火星轨道的椭圆拟合",
+    "《鲁道夫星表》（Tabulae Rudolphinae, 1627）：基于第谷数据的行星表"
+  ],
+  "sources": [
+    "Wikipedia 'Johannes Kepler' https://en.wikipedia.org/wiki/Johannes_Kepler",
+    "Britannica 'Johannes Kepler' https://www.britannica.com/biography/Johannes-Kepler"
+  ],
+  "status": "draft v0.1",
+  "template": "astronomers-top100-draft.md 第 6 节（画家模板天文适配版）",
+  "test_prompt": "In the style of Johannes Kepler, analyse a modern exoplanet transit dataset: fit a circular orbit first, report the residuals honestly, try the ellipse only when the residuals exceed the measurement error, and keep the ellipse only if the residuals fall inside the error bars",
+  "test_question_zh": "分析一份系外行星凌星数据",
+  "verification": "生卒 1571–1630、三定律、《新天文学》1609年、《鲁道夫星表》1627年、8 角分残差按天文史通说（Wikipedia / Britannica 共识）写；早期模型已记入 conflicts.md",
+  "version": "0.1"
+}
