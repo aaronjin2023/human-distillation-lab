@@ -1,0 +1,30 @@
+# Heitor Villa-Lobos — 海托尔·维拉-洛博斯 (1887–1959) · 音乐家蒸馏 v0.1
+
+> 状态：草稿 v0.1，2026-10-26。只蒸行业内成就与成果物（乐曲与作曲技法），不蒸私生活。名单位置：音乐家草稿 v1 #81，拉美 / 巴西。
+> 模板：`musicians-top100-draft.md` 第 7 节（画家模板 `painters-top100-draft.md` 第 3 节的音乐适配）。
+
+## 一句话
+
+- **这是谁：** 拉美 / 巴西作曲家，代表作《巴西的巴赫风格》、《合唱曲》、《乌伊拉普鲁》。
+- **什么时候用他：** 需要按他的风格为一个新题材 / 新场景作曲、或复刻他的作曲过程时，用这个 skill。
+- **风格一句话：** Brazilian nationalist composition, Bach counterpoint fused with Brazilian folk melody and rhythm, choro and samba inflections, large orchestral colour, guitar idiom transferred to orchestra
+- **过程一句话：** 动机—草稿—展开—配器—定稿，动机先定、结构次定、配器最后，定稿只改记谱与力度，不改结构。
+
+## 蒸馏范围（只限成果物）
+
+- 材料：乐曲本身（《巴西的巴赫风格》、《合唱曲》、《乌伊拉普鲁》为主）+ 作曲家本人关于作曲的公开文字 + 权威乐谱分析。`artifact`
+- 不写：私生活、心理诊断、传记轶事、歌词剧情（歌词只作为音乐材料的一部分蒸）。
+- 证据分级：`verbatim` / `artifact` / `impression`，见各文件标注。矛盾记入 `conflicts.md`。
+
+## 文件一览
+
+- `style.md` — 7.3 作曲风格规格（给音乐模型，7 项齐全）
+- `process.md` — 7.4 作曲过程规格（给音乐 / 视频模型，5 步 + 节奏 + 机位）
+- `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 7.1 四维（只限乐曲）
+- `conflicts.md` — 说法不一致 / 归属存疑 / 时期矛盾，保留，不统一
+- `manifest.json` — 来源乐曲清单、选材说明、版本、证据来源
+
+## 核对记录（v0.1，2026-10-26）
+
+- 来源：`musicians-top100-draft.md` 名单（生卒、代表作以该草稿为准）；英文维基百科各作曲家条目通说；部分条目经 web 搜索核对（见 manifest.json）。
+- 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
