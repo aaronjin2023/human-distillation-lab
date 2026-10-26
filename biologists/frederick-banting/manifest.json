@@ -1,0 +1,33 @@
+{
+  "biologist": "Frederick Banting",
+  "biologist_zh": "班廷",
+  "dates": "1891–1941",
+  "field": "生理学 / 医学",
+  "list_position": "biologists-top100-draft v1 #90, I. 生理学与医学",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "胰岛素提取",
+    "糖尿病治疗",
+    "胰岛素纯化"
+  ],
+  "sources": [
+    "Wikipedia 'Frederick Banting' https://en.wikipedia.org/wiki/Frederick_Banting"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：一种新激素声称能降血糖，怎么从发现走到临床？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "胰岛素论文原文版本未逐项核对",
+    "血糖测定的具体数据以通说为准，未核对原文"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

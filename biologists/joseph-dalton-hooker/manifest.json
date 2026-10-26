@@ -1,0 +1,34 @@
+{
+  "biologist": "Joseph Dalton Hooker",
+  "biologist_zh": "约瑟夫·胡克",
+  "dates": "1817–1911",
+  "field": "植物学 / 植物地理",
+  "list_position": "biologists-top100-draft v1 #80, H. 植物学",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "植物地理学",
+    "《植物属志》（Genera Plantarum）",
+    "邱园植物收藏"
+  ],
+  "sources": [
+    "Wikipedia 'Joseph Dalton Hooker' https://en.wikipedia.org/wiki/Joseph_Dalton_Hooker",
+    "《植物属志》Genera Plantarum (1862–1883, 与本瑟姆合著)"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：一种植物只在两座相隔很远的山上出现，怎么解释？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "《植物属志》各卷出版年份未逐项核对",
+    "喜马拉雅考察的具体路线与标本数以通说为准"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

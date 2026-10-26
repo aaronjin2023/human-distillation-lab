@@ -1,0 +1,34 @@
+{
+  "biologist": "Donald Johanson",
+  "biologist_zh": "约翰森",
+  "dates": "1943–",
+  "field": "古人类学",
+  "list_position": "biologists-top100-draft v1 #100, J. 古生物学与人类演化",
+  "living_person": true,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活；在世者只蒸已发表作品",
+  "source_works": [
+    "露西化石",
+    "南方古猿阿法种",
+    "人类演化研究"
+  ],
+  "sources": [
+    "Wikipedia 'Donald Johanson' https://en.wikipedia.org/wiki/Donald_Johanson"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：发现一具不完整的古人类骨架，怎么判断它是否直立行走？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；在世者只蒸已发表作品；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "露西论文原文版本未逐项核对",
+    "骨架完整度（约 40%）以通说为准，未核对原文",
+    "在世者只蒸已发表作品，未发表手稿不在范围"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

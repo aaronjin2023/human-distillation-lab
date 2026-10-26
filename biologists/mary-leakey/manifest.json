@@ -1,0 +1,33 @@
+{
+  "biologist": "Mary Leakey",
+  "biologist_zh": "玛丽·利基",
+  "dates": "1913–1996",
+  "field": "人类演化 / 古人类学",
+  "list_position": "biologists-top100-draft v1 #99, J. 古生物学与人类演化",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "莱托利足迹",
+    "南方古猿化石",
+    "奥杜威峡谷发掘"
+  ],
+  "sources": [
+    "Wikipedia 'Mary Leakey' https://en.wikipedia.org/wiki/Mary_Leakey"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：在一处遗址发现一串疑似足迹，怎么证明它是直立行走的证据？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "莱托利足迹报告原文版本未逐项核对",
+    "足迹年代的具体数据以通说为准，未核对原文"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

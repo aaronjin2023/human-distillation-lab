@@ -1,0 +1,33 @@
+{
+  "biologist": "Othniel Charles Marsh",
+  "biologist_zh": "马什",
+  "dates": "1831–1899",
+  "field": "古生物学",
+  "list_position": "biologists-top100-draft v1 #96, J. 古生物学与人类演化",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "恐龙化石发掘",
+    "马的进化序列",
+    "北美古生物学"
+  ],
+  "sources": [
+    "Wikipedia 'Othniel Charles Marsh' https://en.wikipedia.org/wiki/Othniel_Charles_Marsh"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：在一片新地层里发现一串马类化石，怎么排它的进化顺序？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "发掘报告原文版本未逐项核对",
+    "马进化序列的具体标本数据以通说为准，未核对原文"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

@@ -1,0 +1,33 @@
+{
+  "biologist": "Louis Leakey",
+  "biologist_zh": "路易斯·利基",
+  "dates": "1903–1972",
+  "field": "人类演化 / 古人类学",
+  "list_position": "biologists-top100-draft v1 #98, J. 古生物学与人类演化",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "奥杜威峡谷发掘",
+    "人类演化研究",
+    "灵长类田野研究提倡"
+  ],
+  "sources": [
+    "Wikipedia 'Louis Leakey' https://en.wikipedia.org/wiki/Louis_Leakey"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：在一处新遗址发现石器与疑似人科化石，怎么论证它们有关？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；未逐项核对原文出处，见 known_gaps。",
+  "known_gaps": [
+    "奥杜威发掘报告原文版本未逐项核对",
+    "化石年代的具体数据以通说为准，未核对原文"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

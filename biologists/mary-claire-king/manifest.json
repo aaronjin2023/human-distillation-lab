@@ -1,0 +1,34 @@
+{
+  "biologist": "Mary-Claire King",
+  "biologist_zh": "玛丽-克莱尔·金",
+  "date": "2026-10-26",
+  "dates": "1946–",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "field": "遗传学",
+  "known_gaps": [
+    "BRCA1 定位论文（1990 年《科学》）的 LOD 值与家系数目未逐项核对原文",
+    "人猿比较 1975 年论文的差异度计算细节未核对原文"
+  ],
+  "list_position": "生物学家草稿 v1 C 遗传学 #32",
+  "living_person": true,
+  "scope": "只蒸已发表成果物：论文、著作、实验与田野记录；不碰未发表手稿与私人生活",
+  "source_works": [
+    "BRCA1 基因定位（17 号染色体长臂，1990）",
+    "人类与黑猩猩基因差异研究（1975）",
+    "乳腺癌遗传学与家系连锁分析"
+  ],
+  "sources": [
+    "Wikipedia 'Mary-Claire King' https://en.wikipedia.org/wiki/Mary-Claire_King",
+    "Wikipedia 'BRCA1' https://en.wikipedia.org/wiki/BRCA1"
+  ],
+  "status": "draft v0.1",
+  "template": "biologists-top100-draft.md 第6节（画家模板生物学家适配版）",
+  "test_prompt": "In the style of Mary-Claire King, judge whether an unknown variant is harmful: collect families carrying it, test co-segregation with disease, compare its frequency in cases and controls, and report a probability before calling it pathogenic",
+  "test_question_zh": "一段基因序列出现未知突变，怎么判断它是否有害？",
+  "verification": "生卒 1946–、BRCA1 定位 1990（17q21）、人猿比较 1975 按生物学史通说写；LOD 值与家系数目未逐项核对原文，见 known_gaps",
+  "version": "0.1"
+}

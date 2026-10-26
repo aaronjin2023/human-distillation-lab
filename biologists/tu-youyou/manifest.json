@@ -1,0 +1,34 @@
+{
+  "biologist": "Tu Youyou",
+  "biologist_zh": "屠呦呦",
+  "dates": "1930–",
+  "field": "药学 / 寄生虫学",
+  "list_position": "biologists-top100-draft v1 #93, I. 生理学与医学",
+  "living_person": true,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活；在世者只蒸已发表作品",
+  "source_works": [
+    "青蒿素发现",
+    "青蒿素类抗疟药物",
+    "青蒿素耐药性研究"
+  ],
+  "sources": [
+    "Wikipedia 'Tu Youyou' https://en.wikipedia.org/wiki/Tu_Youyou"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：一味古方声称能治某种新发传染病，怎么验证？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；科学家类已核对过屠呦呦，沿用其结论；在世者只蒸已发表作品；原文版本未逐项核对，见 known_gaps。",
+  "known_gaps": [
+    "青蒿素论文原文版本未逐项核对",
+    "筛选的具体数据以通说为准，未核对原文",
+    "在世者只蒸已发表作品，未发表手稿不在范围"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}

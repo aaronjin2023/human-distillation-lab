@@ -1,0 +1,33 @@
+{
+  "biologist": "Ivan Pavlov",
+  "biologist_zh": "巴甫洛夫",
+  "dates": "1849–1936",
+  "field": "生理学",
+  "list_position": "biologists-top100-draft v1 #88, I. 生理学与医学",
+  "living_person": false,
+  "scope": "只蒸行业内成就与成果物（发现、理论、著作），不蒸私生活",
+  "source_works": [
+    "条件反射",
+    "消化腺生理",
+    "巴甫洛夫实验"
+  ],
+  "sources": [
+    "Wikipedia 'Ivan Pavlov' https://en.wikipedia.org/wiki/Ivan_Pavlov"
+  ],
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "template": "biologists-top100-draft.md 第 6 节",
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "test_prompt": "现代问题：手机提示音一响就忍不住看手机，是条件反射吗？",
+  "verification": "生卒与成果名以生物学家草稿 v1（英文 Wikipedia 主条目通说）为准；科学家类已核对过巴甫洛夫，沿用其结论；原文版本未逐项核对，见 known_gaps。",
+  "known_gaps": [
+    "条件反射论文的原文版本未逐项核对",
+    "具体实验数据以通说为准，未核对原文"
+  ],
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+}
