@@ -1,0 +1,35 @@
+{
+ "chemist": "Henry Cavendish",
+ "chemist_zh": "亨利·卡文迪许",
+ "dates": "1731–1810",
+ "field": "气体化学",
+ "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #11",
+ "living_person": false,
+ "status": "draft v0.1",
+ "version": "0.1",
+ "date": "2026-10-26",
+ "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+ "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+ "evidence_levels": [
+  "verbatim",
+  "artifact",
+  "impression"
+ ],
+ "source_works": [
+  "氢气（可燃空气）的研究",
+  "水的组成测定",
+  "空气成分测定"
+ ],
+ "sources": [
+  "Wikipedia 'Henry Cavendish' https://en.wikipedia.org/wiki/Henry_Cavendish",
+  "Britannica 'Henry Cavendish' https://www.britannica.com/biography/Henry-Cavendish"
+ ],
+ "test_prompt": "In the style of Henry Cavendish, design a plan to measure the composition of a gas mixture: repeat volume measurements until they agree, cross-check with weighing, and state what disagreement would make you redo the work.",
+ "test_question_zh": "如何精密测定一种混合气体的组成？",
+ "verification": "2026-10-26：生卒、氢气、水组成、空气成分按化学史通说写，未逐项核对原文出处，见 known_gaps",
+ "known_gaps": [
+  "卡文迪许生前发表极少，大量实验据后世整理本，原文年代核对有限",
+  "水组成实验的具体数值未逐项核对原始记录",
+  "与瓦特、拉瓦锡的优先权原始文献未逐一核对"
+ ]
+}

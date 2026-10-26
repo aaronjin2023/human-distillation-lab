@@ -1,0 +1,37 @@
+# Huang Minglong — 黄鸣龙 (1898–1979) · 化学家蒸馏 v0.1
+
+> 状态：草稿 v0.1，2026-10-26。只蒸行业内成就与已发表成果物（发现、理论、方法、合成、表征），不蒸私生活。名单位置：化学家草稿 v1 I 中国化学家 #89。模板：化学家草稿第 6 节（画家模板化学家适配版）。
+>
+> 已故人物：只蒸已发表成果物，manifest.json 标 `living_person: false`。
+
+## 一句话
+
+- **这是谁：** 有机化学 / 药物化学，代表作：黄鸣龙还原法（Wolff-Kishner 黄鸣龙改进法）、甾体药物合成、可的松合成。
+- **什么时候用他：** 需要按他的研究方法、理论风格与论证习惯设计实验、推导机理或解决新化学问题时，用这个 skill。
+- **风格一句话：** In the style of Huang Minglong, improve a classic reaction by watching what actually happens in the flask: let the water escape, let the temperature rise, and turn an accident into a standard method
+- **中文：** 黄鸣龙风格：盯着烧瓶里实际发生的事改进经典反应——让水蒸出去，让温度升上来，把一次意外变成标准方法。
+- **过程一句话：** 观察 → 假设 → 实验 → 表征 → 理论。
+
+## 蒸馏范围（只限已发表成果物）
+
+- 材料：发现、理论、方法、合成、表征本身 + 本人关于该工作的公开文字（论文、专著、专利、实验记录）+ 教科书与综述的转述。`artifact`
+- 不写：私生活、心理诊断、传记轶事、未发表手稿、争议言论（与成果无关者）。
+- 证据分级：`verbatim` / `artifact` / `impression`，见化学家草稿第 6.5 节。矛盾记入 `conflicts.md`；已证伪理论标明“当时模型 / 后世证伪”，不作真理蒸馏。
+
+## 文件一览
+
+- `style.md` — 6.2 研究方法与理论风格规格（给文本/科学模型，7 项齐全）
+- `process.md` — 6.3 化学研究过程规格（给文本/视频模型，5 步 + 节奏 + 机位）
+- `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限成果物）
+- `conflicts.md` — 说法不一致 / 归属存疑 / 时期矛盾，保留，不统一
+- `manifest.json` — 来源文献清单、选材说明、版本、已知缺口
+
+## 代表性成果
+
+- 黄鸣龙还原法（Wolff-Kishner 黄鸣龙改进法）
+- 甾体药物合成
+- 可的松合成
+
+## 核对记录（v0.1）
+
+- 2026-10-26：生卒（1898–1979，柏林大学博士 1924、中科院学部委员 1955）、黄鸣龙还原法、1946 年 JACS 论文、甾体药物合成经 web 搜索（Wikipedia、laitimes、NIBS 讲义）核对；其余未逐项核对，见 known_gaps

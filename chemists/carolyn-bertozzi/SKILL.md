@@ -1,0 +1,37 @@
+# Carolyn Bertozzi — 卡罗琳·贝尔托齐 (1966–) · 化学家蒸馏 v0.1
+
+> 状态：草稿 v0.1，2026-10-26。只蒸行业内成就与已发表成果物（发现、理论、方法、合成、表征），不蒸私生活。名单位置：化学家草稿 v1 G 生物化学与化学生物学 #76。模板：化学家草稿第 6 节（画家模板化学家适配版）。
+>
+> 在世人物说明：Carolyn Bertozzi在世，按用户 2026-10-26 决定（在世人物一律收录，option C），只蒸已发表成果物，manifest.json 标 `living_person: true`。
+
+## 一句话
+
+- **这是谁：** 化学生物学 / 生物正交化学，代表作：生物正交化学（无铜点击化学 SPAAC）、斯陶丁格连接反应（Staudinger ligation）、聚糖化学生物学。
+- **什么时候用他：** 需要按他的研究方法、理论风格与论证习惯设计实验、推导机理或解决新化学问题时，用这个 skill。
+- **风格一句话：** In the style of Carolyn Bertozzi, design a reaction that ignores everything in a living cell except its one chosen target, and prove it works inside the organism, not just in a flask
+- **中文：** 贝尔托齐风格：设计一个在活细胞里只认一个目标、对其余一切都视而不见的反应，并在活体中证明它有效，而不只在烧瓶里有效。
+- **过程一句话：** 观察 → 假设 → 实验 → 表征 → 理论。
+
+## 蒸馏范围（只限已发表成果物）
+
+- 材料：发现、理论、方法、合成、表征本身 + 本人关于该工作的公开文字（论文、专著、专利、实验记录）+ 教科书与综述的转述。`artifact`
+- 不写：私生活、心理诊断、传记轶事、未发表手稿、争议言论（与成果无关者）。
+- 证据分级：`verbatim` / `artifact` / `impression`，见化学家草稿第 6.5 节。矛盾记入 `conflicts.md`；已证伪理论标明“当时模型 / 后世证伪”，不作真理蒸馏。
+
+## 文件一览
+
+- `style.md` — 6.2 研究方法与理论风格规格（给文本/科学模型，7 项齐全）
+- `process.md` — 6.3 化学研究过程规格（给文本/视频模型，5 步 + 节奏 + 机位）
+- `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限成果物）
+- `conflicts.md` — 说法不一致 / 归属存疑 / 时期矛盾，保留，不统一
+- `manifest.json` — 来源文献清单、选材说明、版本、已知缺口
+
+## 代表性成果
+
+- 生物正交化学（无铜点击化学 SPAAC）
+- 斯陶丁格连接反应（Staudinger ligation）
+- 聚糖化学生物学
+
+## 核对记录（v0.1）
+
+- 2026-10-26：生卒（1966–，在世）、生物正交化学、SPAAC、2022 年诺贝尔化学奖（与梅尔达尔、夏普莱斯共享）经草稿第 7 节与 NobelPrize.org 共识核对；其余未逐项核对，见 known_gaps
