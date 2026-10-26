@@ -1,0 +1,40 @@
+{
+  "dates": "1805–1865",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "H. 科学与测量航海",
+  "known_gaps": [
+    "小猎犬号各段测绘的具体定位误差未逐段核对",
+    "天气预报初创期的预警准确率无完整统计"
+  ],
+  "list_position": "navigators-top100-draft v1 #77",
+  "living_person": false,
+  "navigation_samples": [
+    {
+      "level": "artifact",
+      "source": "小猎犬号日志体例",
+      "text": "每日登记：日期、纬度、经度、风向、气压、海况、测绘进度；气压下降即记风暴预警。"
+    }
+  ],
+  "navigator": "Robert FitzRoy",
+  "navigator_zh": "罗伯特·菲茨罗伊",
+  "school": "H. 科学与测量航海",
+  "scope": "只蒸航海成果（日志、海图、著作 + 关于航行的公开文字 + 评论/研究），不蒸私生活",
+  "source_works": [
+    "《小猎犬号航行记》（Narrative of the Surveying Voyages, 1839）",
+    "天气预报与风暴预警系统"
+  ],
+  "sources": [
+    "《小猎犬号航行记》（1839）",
+    "英国皇家海军海道测量记录",
+    "英文维基 Robert FitzRoy 条目"
+  ],
+  "status": "draft v0.1",
+  "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "In the style of Robert FitzRoy, an uncrewed cargo ship crosses the Pacific in 2026. Daily log entries give latitude, longitude, wind and barometer readings. A storm warning is issued from falling pressure before any cloud is seen. Plain factual language, no embellishment.",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
+  "version": "0.1"
+}
