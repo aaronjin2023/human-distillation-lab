@@ -2,7 +2,7 @@
 
 > v0.1（2026-10-26）。四维之 memory：只按著作与实践序列说变化，不按人生事件解释变化。
 
-- 宇宙即吾心。`verbatim`
+- 宇宙即吾心。`artifact`
 - 发明本心。`artifact`
 - 易简。`artifact`
 - 先立乎其大者。`artifact`

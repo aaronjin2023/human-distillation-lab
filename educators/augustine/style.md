@@ -10,7 +10,7 @@
 ## (2) 教育理念
 
 - 核心主张：教师只是路标：外在教师以言语为记号，内在之师（真理）在心中教导；爱为教育之本。`artifact`
-- 儿童观/学生观：学生心中已有真理之光，须以爱点醒；‘你为自己造了我们，我们的心若不安息在你怀中，便不会安宁’。`verbatim`
+- 儿童观/学生观：学生心中已有真理之光，须以爱点醒；‘你为自己造了我们，我们的心若不安息在你怀中，便不会安宁’。`artifact`
 - 目的排序：爱（德育）先于记诵；个人归向上帝与教会生活同进。`artifact`
 
 ## (3) 教学方法
@@ -38,7 +38,7 @@
 - 内在之师：真理在心中教导。`artifact`
 - 爱为教育之本。`artifact`
 - 忏悔：自述即教材。`artifact`
-- 不安之心：心不安息便无安宁。`verbatim`
+- 不安之心：心不安息便无安宁。`artifact`
 - 不该教：不教无爱之言、不教无心之学、不教只记不信、不教以言语代真理。
 - Negative prompt: `No teaching without love, no words without the heart, no memorisation without faith, no signs in place of truth`
 
