@@ -1,0 +1,91 @@
+{
+  "id": "real:epistemic-rationalism",
+  "slug": "epistemic-rationalism",
+  "kind": "real",
+  "title": "认识论理性主义",
+  "aliases": [
+    "Rationalism"
+  ],
+  "family": "认识论视角",
+  "scope": "限近代理性主义关于知识来源的主张；不代表所有重视理性的人。",
+  "summary": "某些概念和知识可以超出感官经验而获得。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "仅凭知识来源的理性主义，不能决定世界究竟是物质、精神或二元；代表人物在本体论上并不一致。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "knowledge",
+      "text": "某些认识可以不依赖感官经验而得到；直觉和有效演绎是主要候选途径，但是否存在及适用领域仍须论证。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "行动者能够检查推理是否有效、前提是否必要，不必只等待新样本；但主观确信不能自行充当可靠直觉。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "认识论立场本身未规定共同的最高善；不能从先验知识直接推出某套伦理。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "order",
+      "text": "本条材料不确立一种统一政体；理性主义不是专家获得不受约束统治权的理由。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "change",
+      "text": "改变认识可以通过暴露前提矛盾、区分概念和重新演绎实现；经验材料仍可能揭示原有推理应用不当。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://plato.stanford.edu/entries/rationalism-empiricism/",
+      "title": "Rationalism vs. Empiricism",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "locator": "导论；§1.1—2",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "authoritative_secondary",
+      "access_method": "web_open",
+      "support_note": "理性主义重视超出感觉经验的知识、直觉和演绎，也不必拒绝所有经验。"
+    }
+  ],
+  "boundaries": [
+    "同经验主义存在交叉，不是所有思想家都能按两派整齐分开。",
+    "本条是可与其他伦理政治视角组合的认识论模块，不是完备世界观。"
+  ],
+  "tensions": [
+    "所谓直觉如何避免只是文化习惯，需要解释。",
+    "从必然关系走向现实存在时，可能出现推论越界。"
+  ],
+  "application": {
+    "steps": [
+      "列出需要证明的命题。",
+      "明确前提与推理规则。",
+      "区分逻辑有效和现实前提是否成立。"
+    ],
+    "scenario": "虚构建筑团队争论某排班规则是否可能满足全部限制。",
+    "example": "团队先证明约束是否互相矛盾，再收集实际出勤数据，不把多跑几次模拟当作不可能性的证明。",
+    "scope": "original_synthesis"
+  },
+  "related_worldview_ids": [
+    "real:empiricism",
+    "real:kant-transcendental-idealism"
+  ]
+}

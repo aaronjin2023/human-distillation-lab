@@ -1,0 +1,94 @@
+{
+  "id": "real:critical-rationalism",
+  "slug": "critical-rationalism",
+  "kind": "real",
+  "title": "批判理性主义",
+  "aliases": [
+    "Critical rationalism",
+    "波普尔取向"
+  ],
+  "family": "科学哲学与政治哲学",
+  "scope": "以波普尔的可错论、科学方法及开放社会论述为限。",
+  "summary": "知识通过提出猜想、认真批评和修正错误而增长。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "批判理性主义以存在可被错误理论描述的现实为探究前提；承认客观问题，不把个人确信或集体赞同当成真理保证。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "科学理论应冒被反驳的风险；通过检验只得到暂时支持。观察也受理论影响，异常还须排除测量偏差和辅助假设问题。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "人可以主动提出问题、设计检验并修改猜想；不存在保证发现真理的机械方法，诚实承认错误是理性行动的重要条件。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "以可错论为基础，应珍惜批评和纠错条件；这是一种规范承诺，不能把能够证伪误当作道德善恶的通用测量仪。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "开放社会以允许批评和民主纠错为核心政治取向；其辩护反对把历史视为可预知宿命并据此赋予统治者绝对权力。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "改革宜将方案作为可能失败的尝试，检查后果再修正；从知识可错推出制度可修订，是对其认识论和政治论的综合。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://plato.stanford.edu/entries/popper/",
+      "title": "Karl Popper",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "locator": "§3—4；社会哲学与可错论部分",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "authoritative_secondary",
+      "access_method": "web_open_and_search_excerpt",
+      "support_note": "可证伪性、暂时确证、观察误差与开放社会；政治部分亦核对搜索摘录。"
+    }
+  ],
+  "boundaries": [
+    "不可证伪不等于无意义或邪恶；数学、伦理和形而上学须分别判断。",
+    "单一反常观察在真实研究中不自动构成理论的决定性反驳。"
+  ],
+  "tensions": [
+    "彻底可错与行动必须暂时停止检验之间存在实际张力。",
+    "大型研究纲领依赖辅助假设，简单证伪图景可能不足。"
+  ],
+  "application": {
+    "steps": [
+      "把主张改写为可能失败的预测。",
+      "预先列出反证及测量误差检查。",
+      "保留经得起检验的解释，同时安排复审。"
+    ],
+    "scenario": "虚构物流团队声称新调度策略永远不会延迟。",
+    "example": "团队取消绝对宣传，设置高峰负载反例；发现雨天表现变差后修正适用范围。",
+    "scope": "original_synthesis"
+  }
+}

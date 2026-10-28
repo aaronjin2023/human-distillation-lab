@@ -15,6 +15,7 @@
 | `human-patterns/frameworks/` | 24 个行为、认知、情绪、社会、文化、发展、群体与身体情境框架 | [说明与选用](human-patterns/README.md) · [浏览目录](human-patterns/CATALOG.md) · [机器目录](human-patterns/catalog.json) |
 | `fictional-characters/` | 文学与影视角色的性格、动机、价值与行为资料；独立保留各叙事版本及情节证据 | [使用说明](fictional-characters/README.md) · [作品目录](fictional-characters/CATALOG.md) · [实际完成数](fictional-characters/verification/build.json) |
 | `commentary-personas/` | DATUMOJ 评论区角色：72 个编号，69 份公开人设及 3 个未揭晓隐藏位；用于互动风格与内容压力测试 | [角色目录](commentary-personas/CATALOG.md) · [加载入口](commentary-personas/SKILL.md) · [来源与范围](commentary-personas/README.md) |
+| `worldviews/` | 100 条：50 种现实思想与信念视角、50 个虚构世界；包含来源、限定版本、六维观察与原创应用 | [世界观目录](worldviews/CATALOG.md) · [加载入口](worldviews/SKILL.md) · [收录口径](worldviews/README.md) |
 | `people/` | 已核对的跨目录人物关联；当前覆盖范围有限，不自动合并同名条目 | [人物索引](people/index.json) |
 | `profiles/` | 专家方法与行为设定的组合，不给专家本人补造性格 | [研究协作者示例](profiles/research-collaborator/SKILL.md) |
 | `docs/` | 蒸馏工具来源、适配方法和跨层组合 | [工具说明](docs/distillation-tools.md) · [组合指南](docs/composition-guide.md) |

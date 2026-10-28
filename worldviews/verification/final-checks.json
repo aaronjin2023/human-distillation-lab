@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-28T12:18:31.890483+00:00",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/build_worldviews.py",
+        "self-test"
+      ],
+      "exit_code": 0,
+      "output_tail": "Worldview self-test passed: duplicates, references, dimensions, paths and scope\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_worldviews.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "output_tail": "{\"status\": \"passed\", \"worldviews\": {\"real\": 50, \"fictional\": 50}, \"claims\": {\"source_summary\": 293, \"synthesis\": 258, \"unknown\": 49}, \"source_records\": 116, \"unique_source_urls\": 114, \"checks\": [\"unique scoped IDs\", \"six dimensions\", \"resolved source IDs\", \"source metadata\", \"version scope\", \"original application label\", \"character work references\", \"generated content equality\", \"local links\"], \"input_sha256\": {\"real.json\": \"a559934307b9f0e8d684a50286844aeea338aa297d5f778ddff34d7644b8a123\", \"fictional.json\": \"989d4e28790980d964823564793db42fbdb479f4c68054090045c5404b03d57a\"}}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_library.py"
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"frameworks\": 43,\n  \"collections\": {\n    \"personalities\": 19,\n    \"human-patterns\": 24\n  },\n  \"source_records\": 88,\n  \"reviewed_people\": 1,\n  \"profiles\": 1,\n  \"local_links\": 198,\n  \"status\": \"passed\"\n}\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_tail": ""
+    }
+  ],
+  "review_input_hashes_verified": true,
+  "script_review_boundary": {
+    "reviewed_sha256": "f77b7f5359e95eb6af7fdc27d21c8f04e31360aa5b080a34e792519e336588b6",
+    "final_sha256": "874640bee38323d2ce67d8e49557e1ec0d0f28bf27d7bdf0becddcf8e0b144fd",
+    "only_post_review_change": "Removed extra blank line at end of generated CATALOG.md; verified by reconstructing the exact reviewed script hash. Primary build, self-test and staged whitespace check passed."
+  },
+  "prior_work_commit": "006b241c20c401829541ef136851cd735458813d",
+  "skill_frontmatter_receipt": "skill-validation.json",
+  "text_call_receipt": "skill-smoke.json",
+  "content_review_receipt": "content-review.json",
+  "credential_pattern_check": "No private-key, GitHub-token or API-token pattern found in the 213 staged task files checked before writing this receipt; not a general security audit.",
+  "source_scope": "Reviewer recorded 38 source spot checks; not full-text verification of every work or sentence."
+}

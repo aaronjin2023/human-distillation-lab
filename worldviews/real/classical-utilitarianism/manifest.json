@@ -1,0 +1,95 @@
+{
+  "id": "real:classical-utilitarianism",
+  "slug": "classical-utilitarianism",
+  "kind": "real",
+  "title": "古典功利主义",
+  "aliases": [
+    "Classical utilitarianism"
+  ],
+  "family": "规范伦理视角",
+  "scope": "限边沁、密尔、西季威克相关的古典快乐主义总体后果框架；现代分支另论。",
+  "summary": "以所有受影响者的净幸福后果评价行动。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "本伦理框架不决定宇宙由什么构成；感受如何实现与道德评价不能混为一题。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "knowledge",
+      "text": "判断需要估计可选行动对全部受影响者的后果；实际、可预见和期望后果之间的区别会改变决策方法。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "行动者应比较可选方案所产生的净善，而非只满足个人偏好；承诺的道德作用也可通过破坏信任的未来后果解释。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "古典版本把快乐作为内在善、痛苦作为内在恶，并平等考虑相似利益；多数人获益不保证总净善最大。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "制度可按其整体福利效果检验，但这一标准不自动确定唯一政体；权利和稳定规则也可能因后果重要而被支持。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "改善要求比较替代方案的长期及间接后果；若只看短期人数，会忽略少数人可能遭受的更严重损失。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://plato.stanford.edu/entries/consequentialism/",
+      "title": "Consequentialism",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "locator": "§1 Classic Utilitarianism",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "authoritative_secondary",
+      "access_method": "web_open",
+      "support_note": "快乐与痛苦、总体净善、平等考虑；多数人数口号不准确，后果主义分支多样。"
+    }
+  ],
+  "boundaries": [
+    "不是所有后果主义都以快乐为唯一善，也不是简单多数表决。",
+    "同墨家有后果取向相似性，但价值列表与宗教基础不同。"
+  ],
+  "tensions": [
+    "总福利最大化可能与不可侵犯的个人权利冲突。",
+    "估计并比较不同人的福利和长期后果有实际困难。"
+  ],
+  "application": {
+    "steps": [
+      "列出可行方案与全部受影响者。",
+      "比较利益损害的强度及不确定性。",
+      "纳入信任和长期规则效果再决定。"
+    ],
+    "scenario": "虚构社区有预算修一处休息亭或为少数老人修坡道。",
+    "example": "评估者比较生活影响强度，不因休息亭使用人数多就自动胜出；坡道若显著降低失去出行能力的损害，应获得更高权重。",
+    "scope": "original_synthesis"
+  },
+  "related_worldview_ids": [
+    "real:mohism",
+    "real:pragmatism"
+  ]
+}

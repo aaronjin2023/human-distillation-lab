@@ -1,0 +1,103 @@
+{
+  "id": "fictional:alien",
+  "slug": "alien",
+  "kind": "fictional",
+  "title": "异形的商业航行与未知接触",
+  "aliases": [
+    "异形",
+    "Alien"
+  ],
+  "family": "太空恐怖与接触风险",
+  "scope": "雷德利·斯科特1979年首部电影；限官方英日简介，不纳入前传、续作或游戏。",
+  "summary": "高度发达的运输能力不能保证理解生命，封闭空间会把接触错误放大成生存危机。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "商业飞船载运外星矿石返地，因陌生信号转向探索，发现废船和卵状生命体；太空已商业化，生命知识仍有空白。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "信号看似求救却并未被充分理解；可读为通信外观与发送意图不能直接等同，进入陌生环境需要检验初始判断。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "船员在封闭飞船中面对难以看见的敌人，日方简介突出雷普利的生存抗争；行动能力取决于环境限制而非单纯技术先进。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "官方短介主要描述惊险情境，不足以确认全片关于公司利益、生命尊严的明确价值结论；本维度保留未知。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "order",
+      "text": "所引材料确认商业运输的组织背景，却未交代公司秘密命令和船员可牺牲政策；政治经济秩序的更细结构未知。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "change",
+      "text": "从返航常态转入无法回避的共处危机，行动目标发生改变；可提炼为接触前提改变时必须更新策略，非证明探索本身错误。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.20thcenturystudios.com/movies/alien",
+      "title": "Alien (1979)",
+      "publisher": "20th Century Studios",
+      "locator": "影片Synopsis",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "简介写商业矿石运输、神秘求救信号、废船与卵状生物。"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.20thcenturystudios.jp/movies/alien",
+      "title": "エイリアン",
+      "publisher": "20世紀スタジオ日本官方",
+      "locator": "简介",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_search_excerpt",
+      "support_note": "写封闭飞船、难以看见的生命体、船员遭袭与雷普利求生；不将宣传绝对化武器措辞当法则。"
+    }
+  ],
+  "boundaries": [
+    "未核读剧本或重看全片，公司命令等常见情节不在本条擅自补入。",
+    "前传起源及跨异形战士系列不纳入，生物学设定不是现实接触规范。"
+  ],
+  "tensions": [
+    "远距航行能力与理解未知生命并不同步。",
+    "救助线索与封闭环境的集体风险需要兼顾。"
+  ],
+  "application": {
+    "steps": [
+      "把收到的信号与对信号的解释分开。",
+      "识别封闭环境会放大的后果。",
+      "新证据出现后重新评估继续接触的条件。"
+    ],
+    "scenario": "原创设定：深海货运站收到似是敲击求救的声波，调查带回一种能依附循环管道的未知珊瑚。",
+    "example": "用信号误判和封闭基础设施建立悬念，避免把神秘自动写成恶意。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}

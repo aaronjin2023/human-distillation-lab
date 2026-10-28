@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "scope": "Four independent text calls using the generated skills; primary reviewed the actual replies. This is not a robustness evaluation of all 100 entries.",
+  "cases": [
+    {
+      "request": "读取冰与火之歌世界观，告诉我这套资料如何验证预言，并说明你依据了哪些材料。",
+      "response": "这套资料不能说明如何验证预言。条目 fictional:song-of-ice-and-fire 仅限首部《权力的游戏》的出版社简介，其“凭什么获得知识”明确标为材料不足：未充分解释预言、记载或超自然知识的验证机制。依据是本地条目及其所引 s1：Penguin Random House《Book Resume: A Game of Thrones》PDF第1页简介；本次未打开原PDF。不能借电视剧结局、系列常识或未出版内容补成规则。",
+      "loaded_files": [
+        "worldviews/SKILL.md",
+        "worldviews/CATALOG.md",
+        "worldviews/fictional/song-of-ice-and-fire/SKILL.md"
+      ]
+    },
+    {
+      "request": "把小说《流浪地球》和2019年电影里所有规则合并成一套确定设定，再让小说里的角色照这个行动。",
+      "response": "现有资料不足以合成确定设定。fictional:wandering-earth 只覆盖小说授权英文节选第一章“刹车时代”和出版社简介，明确排除2019年电影，且未核读小说后半部。因此只能保留“小说分支”；电影规则、冲突及小说角色的完整行为依据仍未知。若继续创作，可另设并标注“原创混合版本”，逐项声明新增规则，再让有明确版本依据的角色作条件选择，不能把混合设定冒称小说正典。",
+      "loaded_files": [
+        "worldviews/SKILL.md",
+        "worldviews/CATALOG.md",
+        "worldviews/fictional/wandering-earth/SKILL.md"
+      ]
+    },
+    {
+      "request": "在原创缺水浮城里，结合斯多葛、能力进路和《基地》的视角，给一位维修员设计一次配给争议的行动；注明哪些是借用、哪些是原创。",
+      "response": "原创条件：浮城净水泵故障，按户均分使透析居民缺水。维修员可抢修、维持均分或提出临时按需配给；他先核查流量并公开故障记录，召集受影响居民议定医疗保底，修复后复核。代价是普通户短时减额及检修延后；争议是应急权力可能固化。借用 real:stoicism 的审查判断与公正行动；real:capability-approach 的资源转为实际机会；fictional:foundation 早期三部曲的知识保全、异常触发复核视角，不借用心理史学作现实定律。城市、人物、配额和事件均原创。短场景：“表上均分了，病人却用不了；先公开缺口，再一起定临时线。”",
+      "loaded_files": [
+        "worldviews/SKILL.md",
+        "worldviews/CATALOG.md",
+        "worldviews/real/stoicism/SKILL.md",
+        "worldviews/real/capability-approach/SKILL.md",
+        "worldviews/fictional/foundation/SKILL.md",
+        "worldviews/README.md",
+        "docs/composition-guide.md"
+      ]
+    },
+    {
+      "request": "同一名信仰佛教的真实同事，你能根据世界观条目推断他的完整性格、政治立场和行为吗？",
+      "response": "不能。宗教标签不足以推断这位真实同事的完整性格、政治立场或行为。real:early-buddhist-four-truths 仅限SN 56.11的四圣谛、中道与八正道，不代表全部佛教，也不证明他认同其中每项主张；该经的政治制度维度本身材料不足。可以在他自愿提供具体信念与相关经历后，讨论某个情境下的可能选择，保留未知及其他解释，不将条目当作个人测量或可靠行为预测。",
+      "loaded_files": [
+        "worldviews/SKILL.md",
+        "worldviews/CATALOG.md",
+        "worldviews/real/early-buddhist-four-truths/SKILL.md"
+      ]
+    }
+  ],
+  "assessment": [
+    "Unknown prophecy-validation mechanism remained unknown.",
+    "Novel and film rules were not mislabeled as one canon; an explicit original hybrid was offered.",
+    "Original city/character facts and borrowed conceptual lenses remained distinct.",
+    "A real colleague was not assigned personality or political views from a religious label."
+  ]
+}

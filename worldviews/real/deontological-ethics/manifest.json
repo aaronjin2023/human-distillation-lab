@@ -1,0 +1,95 @@
+{
+  "id": "real:deontological-ethics",
+  "slug": "deontological-ethics",
+  "kind": "real",
+  "title": "义务论伦理",
+  "aliases": [
+    "Deontological ethics"
+  ],
+  "family": "规范伦理视角",
+  "scope": "限选择之必须、禁止和许可不单由后果决定的理论家族；非仅康德一种版本。",
+  "summary": "有些行为约束不能仅靠总收益抵消。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "义务论不要求统一物质或精神本体论；规范如何成立属于另一个论证层面。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "knowledge",
+      "text": "判断应识别行动类型、关系和权利等约束，再考虑后果；不同义务论对这些理由的来源有不同解释。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "人须对自己选择做什么承担责任，不只是对世界最终状态打分；某些行动即使能改善总结果也可能被禁止。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "正当与善的关系不能简化为最大化总体利益；义务、许可和禁止的结构保护了某些不能任意权衡的要求。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "制度应说明不能侵犯的资格和行为边界；不过义务论本身不指定一整套统一宪制或完全无例外规则。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "改革要同时检查目标和手段的正当性；改善后果不能直接洗去欺骗、强迫或侵害权利的独立问题。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://plato.stanford.edu/entries/ethics-deontological/",
+      "title": "Deontological Ethics",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "locator": "导论；§1—2",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "authoritative_secondary",
+      "access_method": "web_open",
+      "support_note": "道义理论评价选择；同后果主义对照及行动者、承受者、契约论不同路线。"
+    }
+  ],
+  "boundaries": [
+    "不等于盲从命令；法律、组织规章和道德义务可能冲突。",
+    "契约论可归入义务论的一些分类，本组相关条目有重叠而非互斥。"
+  ],
+  "tensions": [
+    "绝对禁止在灾难性后果面前是否容许阈值，是争论。",
+    "不同义务相互冲突时，需要能解释优先性的判断。"
+  ],
+  "application": {
+    "steps": [
+      "识别所有受影响者的权利。",
+      "列出手段本身的禁止与义务。",
+      "在允许范围内比较后果及替代选择。"
+    ],
+    "scenario": "虚构负责人想伪造志愿者同意书，以快速获得公益拨款。",
+    "example": "团队拒绝以公益收益抵消欺骗，改为补齐真实授权并重新安排时间。",
+    "scope": "original_synthesis"
+  },
+  "related_worldview_ids": [
+    "real:scanlon-contractualism",
+    "real:classical-utilitarianism"
+  ]
+}

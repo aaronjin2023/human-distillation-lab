@@ -1,0 +1,729 @@
+{
+  "status": "content_review_complete_no_open_issues",
+  "review_date": "2026-10-28",
+  "scope": "现实50条+虚构50条全部600项claims及scope/boundaries逐条语义审阅；来源有界抽查，不是全部原作逐句事实认证。",
+  "checked_ids": [
+    "real:scientific-naturalism",
+    "real:critical-rationalism",
+    "real:pragmatism",
+    "real:stoicism",
+    "real:existentialism",
+    "real:camus-absurdism",
+    "real:analects-confucianism",
+    "real:laozi-daoism",
+    "real:mohism",
+    "real:early-buddhist-four-truths",
+    "real:advaita-vedanta",
+    "real:nicene-christianity",
+    "real:quranic-core",
+    "real:jewish-covenant-ethics",
+    "real:jainism",
+    "real:sikh-oneness-service",
+    "real:secular-humanism",
+    "real:historical-materialism",
+    "real:deep-ecology",
+    "real:ubuntu-relational-ethics",
+    "real:epistemic-rationalism",
+    "real:empiricism",
+    "real:kant-transcendental-idealism",
+    "real:hegel-recognition",
+    "real:phenomenology",
+    "real:process-philosophy",
+    "real:postmodern-critique",
+    "real:social-construction",
+    "real:scientific-realism",
+    "real:instrumentalism",
+    "real:panpsychism",
+    "real:mind-body-dualism",
+    "real:physicalism",
+    "real:liberalism",
+    "real:republicanism",
+    "real:communitarianism",
+    "real:anarchism",
+    "real:market-socialism",
+    "real:burkean-conservatism",
+    "real:classical-utilitarianism",
+    "real:deontological-ethics",
+    "real:virtue-ethics",
+    "real:care-ethics",
+    "real:capability-approach",
+    "real:contractarianism",
+    "real:scanlon-contractualism",
+    "real:libertarianism",
+    "real:philosophical-skepticism",
+    "real:ecofeminist-philosophy",
+    "real:critical-theory",
+    "fictional:journey-to-the-west",
+    "fictional:investiture-of-the-gods",
+    "fictional:classic-of-mountains-and-seas",
+    "fictional:three-body",
+    "fictional:wandering-earth",
+    "fictional:liaozhai",
+    "fictional:middle-earth",
+    "fictional:dune",
+    "fictional:earthsea",
+    "fictional:narnia",
+    "fictional:wizarding-world",
+    "fictional:star-wars",
+    "fictional:star-trek",
+    "fictional:pandora",
+    "fictional:foundation",
+    "fictional:nineteen-eighty-four",
+    "fictional:brave-new-world",
+    "fictional:hunger-games",
+    "fictional:attack-on-titan",
+    "fictional:fullmetal-alchemist",
+    "fictional:wonderland",
+    "fictional:oz",
+    "fictional:neverland",
+    "fictional:gullivers-travels",
+    "fictional:frankenstein",
+    "fictional:dracula",
+    "fictional:time-machine",
+    "fictional:flatland",
+    "fictional:hitchhikers-guide",
+    "fictional:discworld",
+    "fictional:his-dark-materials",
+    "fictional:witcher",
+    "fictional:song-of-ice-and-fire",
+    "fictional:cosmere-mistborn",
+    "fictional:matrix",
+    "fictional:blade-runner",
+    "fictional:terminator",
+    "fictional:mad-max",
+    "fictional:alien",
+    "fictional:doctor-who",
+    "fictional:expanse",
+    "fictional:one-piece",
+    "fictional:naruto",
+    "fictional:dragon-ball",
+    "fictional:demon-slayer",
+    "fictional:evangelion",
+    "fictional:ghost-in-the-shell",
+    "fictional:psycho-pass",
+    "fictional:death-note",
+    "fictional:twelve-kingdoms"
+  ],
+  "checked_record_sha256": {
+    "real:scientific-naturalism": "5c57899ae6efb84b84dc0419648398d8815376a51667788ae08396f188d62bd3",
+    "real:critical-rationalism": "6037ec79e46bdb40f39d1659c4cb69acbf718ec8e79614ebca12d366b04f48b4",
+    "real:pragmatism": "d0fbace9759dbd127e847813470fd4d14c7e5f2cce787782e25d4ad986af5f75",
+    "real:stoicism": "c5ec9fc211759a556e65f09fdc27b9fc54dc1eaf31b14075ea41242b29ae5c3f",
+    "real:existentialism": "639dbf99e891179031a7b93e0a6e82aacf4c03264b201604c89164dd7c601f53",
+    "real:camus-absurdism": "5599ae8baf483ea58d962fff63bfc4e7130c761d07ba52fac6535adacfea75eb",
+    "real:analects-confucianism": "9b874f6410184b8729e85ba62f6b977846203b24031a0872d86fc04b6e03da14",
+    "real:laozi-daoism": "015d6073bbc680bbe78abfa87c832052d80cab02afede2af35051c594aaca393",
+    "real:mohism": "c7330b8d6ec254ee4c48758384cbe4b9408927070a502069dc46c091fd53d486",
+    "real:early-buddhist-four-truths": "cc118e3ad55d8cabd6fe1450723a0dda2b697c39caaa6079dcb055b08a06b6bd",
+    "real:advaita-vedanta": "900e57247410984c582bfa58525b1263918072b9509eff7fb993db02ea0a7c14",
+    "real:nicene-christianity": "c479d1d66972b1680638ed5791f3925cd38ebf3583c431f011b39b38ba8d5d0c",
+    "real:quranic-core": "1310b794c0500b6d43db6174b3d2797d4fa17ae267854a3ac7c06d34113a497d",
+    "real:jewish-covenant-ethics": "a5108db58012e08f3480ec477aec5d0c0ab96ae29f41e3899872335b08e44ce7",
+    "real:jainism": "996f2445f6c493821049772cb9b631fba50c2d28781a273a1a67a87f7acdb63f",
+    "real:sikh-oneness-service": "4aaa8294d0998c7194132674b9b2d6c54cf99efdbd2e15bd36bb6cb5ce346560",
+    "real:secular-humanism": "43757cdcbb82f8c7da0d1befcb6784fd36086202c2b2b7ce8ecf0be8e56ec293",
+    "real:historical-materialism": "c0adf9bd30f18b9112fe0786b32474c72ecb0e24e70f5770dfe4065db491f0b5",
+    "real:deep-ecology": "ff49b638172b388c9377378f00e019f0db854e15dafce01b1ae2a1ed5b692efc",
+    "real:ubuntu-relational-ethics": "e8f29b494235d1f75e267bc094ae608bfe66131cceb4e6e3abd3284a948dafd2",
+    "real:epistemic-rationalism": "a996680c8325900e3355668f2f786ac1e53efd08ed5fbffa5f18bc3d8761f4f1",
+    "real:empiricism": "d799877c7ffee769ed34995b7c63abc27cc8cb6c97fce269dac68ea4fbecdee3",
+    "real:kant-transcendental-idealism": "fc644cdbc69b645364cf5858c1f660c945f0ac4114a35c392724938f9e0317ec",
+    "real:hegel-recognition": "99ce819e9c2981584e0ea25ea448404cec9fad8d3c7dcf425ccea3e22b694ba9",
+    "real:phenomenology": "8411755f77012cea705d7d489ecb41a2bcdfebeb36e288819118bca6651541f2",
+    "real:process-philosophy": "6085241f87accf23dfa66d1aedb265b8d84dca0294038b0c61a88458c77c2e3f",
+    "real:postmodern-critique": "f984fc2a9fc30e81ac6aa595e5e338b4c7864c79ebedec9f6bf7d2429fa27331",
+    "real:social-construction": "2402cd3c6ef060a4bd8879c60b018a0c6ed55b4f2e8146b87c94f2d360d766c7",
+    "real:scientific-realism": "f163271dfc661cfec7a5f6388940f588329a7cee4c767296473a02b7fc99fd7a",
+    "real:instrumentalism": "a23b8a19b065043a8c10f93c1f0767f28345a225539a668a5da77eeb6d6b47ac",
+    "real:panpsychism": "4208fad222ca4d80b0dbee21161d30d4bcdb3344a0af297bd244a29765147988",
+    "real:mind-body-dualism": "2eb0515f4434b7e22f9ec95bb33fdd5875829a4d5f79c2b4be72bee779516ffd",
+    "real:physicalism": "9cb8ba278059cae0f7ce85fab17dd8c81637d5c5107d1f3564761c74ecc64e0e",
+    "real:liberalism": "d8de391ad16adbf5a07faa4518c4fc044c8f7c2310bdf037b077502910284847",
+    "real:republicanism": "cd47995abde38cadf2941201c17861f1e052b32fc96e857dbdd1f2a0f1858008",
+    "real:communitarianism": "ed3c3c0b173b8535aac7233aaead4394862f53f4e6a5a0c68d4855d8d4417dee",
+    "real:anarchism": "0adbbcb5292d617c1b02d885084d0337dfcb98696da832910b2436759f693ed0",
+    "real:market-socialism": "09a97e807030885588c7737f47cc84dcf8eaebd8abb673ff7c78678a5ddd1cc6",
+    "real:burkean-conservatism": "08758e576eb8a425be89449b8b15b5f7b32edd3cbedebf68e270125920b4b387",
+    "real:classical-utilitarianism": "6239b57da83bd61d029c55a6fdf6d9209863c0ebd163ae469715b873630812bf",
+    "real:deontological-ethics": "1faa0a2c2c7ef1209601e1736fab4957ed9f0fdc8b263f7404001e4f66222e6f",
+    "real:virtue-ethics": "ece8592b8f81a6b64174e86d52efa23454d480389ead977b340d1d69c906f4cc",
+    "real:care-ethics": "6a2613ce52f2a13a2fe26d33fb7b816bae597f2b3ccff6f416227e805ab4176d",
+    "real:capability-approach": "44ec41779b2d2c0bf06b103943612fe35d318043abf732a149e72b71c8b2169f",
+    "real:contractarianism": "a098ae94a888666409eb399bc9989d81f1996c273c6bfbe2dc456ac78967727c",
+    "real:scanlon-contractualism": "bbf0d9d11240fbc6efad2c768dfaf9c905f2975d38b5a2fb2923dfc4bae71d68",
+    "real:libertarianism": "d932e0c76bce7d1cfb9f58aec08a5b0bed876128b7ea91fa7dafe7d40fa53994",
+    "real:philosophical-skepticism": "9c1842111027b35471e0906100240986edae50788538194bd9c36d95b6a29800",
+    "real:ecofeminist-philosophy": "243e70a9f827471c180b053596ccd4641684a407d1aad951ea067fa2aaf84a88",
+    "real:critical-theory": "76072ca34a03b6ccc8dc7648b7e53e28e0590a6f263195e18e23441c13b91f1e",
+    "fictional:journey-to-the-west": "36f6c5c63ec26f3e82e9c9988167a84e526ab9027dea29097d982b16fe076a40",
+    "fictional:investiture-of-the-gods": "f93ecb2974af53226f9686b6c168e0a6556441a217e289eca2506599b6aa8570",
+    "fictional:classic-of-mountains-and-seas": "096611ae5bdd4f1d82b93824251826a9efe6597d256358c432a4fd7bc8450a86",
+    "fictional:three-body": "34dc16f113d1561845b971869b82071e7c8fa6e2c7543f779cf66f281195f530",
+    "fictional:wandering-earth": "10b6a4724fc8f77eb1a32d03dd6b85de9e749f6a1726a0fd596025c34aa63821",
+    "fictional:liaozhai": "885689cc15bfe690851c1385fca6b026ff15bdf0df39d94af2ee16e91134bb1a",
+    "fictional:middle-earth": "ffa8043425f878c292149a8377ca1e46d39cbda17c6e854fde570c84cf7cba60",
+    "fictional:dune": "f86ad9a6b1f35477479c970023e207b063d369290db66996323c7dd8a4658540",
+    "fictional:earthsea": "7c726996683a70357c2a0cee83fdccb47b3d1396f5adbd5507d4e0a566ca63f6",
+    "fictional:narnia": "0edef74d898d8a449b55be2847c81d936f357df9086c10bcc538890b6deb9322",
+    "fictional:wizarding-world": "a591aa51c9e5f18db27bd14c67bace1195893e36f350ec35ed56065f111bd9ff",
+    "fictional:star-wars": "a8295323a36335fbd0b0d63d0201b9d4546df4b9346119d7599f8e544e76f536",
+    "fictional:star-trek": "d316a12b3a6db6fa2c1d0767c47044e141f1121ce225239cfec21e9f2a436710",
+    "fictional:pandora": "1eb08cdc03ccea5948e0012d1180bbc278843d7b8740ddad0195374aa30111e3",
+    "fictional:foundation": "7dc64388821920be89d3f0c1cdcc58605e329ba5e5013bb085a693abc09674dc",
+    "fictional:nineteen-eighty-four": "eb4e80497421161c0592e75a6e03960d0ebb764278b34dcbe90fe8fdf7698af4",
+    "fictional:brave-new-world": "4f9ba61c15b9cd107f324e6e763a572254e2d1731542facc22f4d3307e23b508",
+    "fictional:hunger-games": "cdc5acdf4fd55ea8f16220a1ab291b079bc58fa516b0fe9f694e801d5fbed156",
+    "fictional:attack-on-titan": "3d9af96df2a5e1a4966515146862a1cc07ea899e8df3294c73ecc13a76cf682b",
+    "fictional:fullmetal-alchemist": "819df969ec915f94d836ca26f3d5eb5c8a3a49b0db196050354968dd9edbb0a0",
+    "fictional:wonderland": "a77aadaecd2ab7dabe07f3e20454dcb5b518bacbbd763a65eddf65bcc8099518",
+    "fictional:oz": "53f31c87c7859b0d8bb59e67cd14eebd10f6d0b96aa3051301d759234ea49ac1",
+    "fictional:neverland": "bee757630cbd5829f6bee0d4f28bc77634195f0eb97411d85e1fe62f84e80ac1",
+    "fictional:gullivers-travels": "e98aa6d505ca01e1a163a306d35918dffc2253f8405027183a9e0e12c6053276",
+    "fictional:frankenstein": "0acc33b238373f9423859ba294e03737623c2107111fa8746019db4c5cfec7d2",
+    "fictional:dracula": "76fd849e1859c923c90804777f198309eb34c83a8625bbb61e83f6ea2a520572",
+    "fictional:time-machine": "eda1ee8818b8289417be738743702011c1fba22208b115ca9cf2f67c6efb6b3a",
+    "fictional:flatland": "cdc3cb84e65ed4a70817e5295b0a741c683b894ff758c47601409e2903af3329",
+    "fictional:hitchhikers-guide": "f32fe2192acb537e7a372b46895b43135db3d9259a6a82c67c7473b6c846ce33",
+    "fictional:discworld": "cf8190d57587099055227d5cdd1f6aa4c1706e10eb54a33aa7a0c97cd54df549",
+    "fictional:his-dark-materials": "fac1680b5d7bbbc1d471f253c43e774e3509926aa87a1ed8b10451b9288e4d14",
+    "fictional:witcher": "6a732f2438d5691ea25ee8fd2be40aab88671c048f137da5be6f2a0c710bf30c",
+    "fictional:song-of-ice-and-fire": "6ac047916a66404c59e6e7f933a0b2051828ae893e2d6318a755c1684aeb3c70",
+    "fictional:cosmere-mistborn": "3c02e18c1d753c005650398b5f5c61716f9cfd98960d375d2c9f99d2620f3f59",
+    "fictional:matrix": "1d2637926c4c25e75ab5b0cba57fdf4ed5286fc4e80f57a6272d5501f17b43bd",
+    "fictional:blade-runner": "46d9b88b5985de420b7af27843033bd57202f4be276526c10077d5456706ce06",
+    "fictional:terminator": "53a5d54b00f7d1d10286498d95109b9145c92eed4e2ff83955b775abedb7dad9",
+    "fictional:mad-max": "0fc7d3c9cc69c8ebfa890bbf6441a17e4300a4cb8d0428a458ec7c0645e4b46a",
+    "fictional:alien": "24e8a1ab91c9c1e3c8adc64b43f798d2c61e19dffbb524a2076de9ff9ae48016",
+    "fictional:doctor-who": "8c2956db493fa2aa58f19b11713cb7159d25d97ee6434af8bf460b9cc780467b",
+    "fictional:expanse": "9d8c9f49dfb11298de397a03d12421028a54f42d68d24f5cee176d541ae708f2",
+    "fictional:one-piece": "9e52b1b8afffca8b25e499bf2f279f0950ac22c0fb3e9044e472529b963e193c",
+    "fictional:naruto": "8fbf7483b9573ccd52978ac16c5a7323534ff36e358b2a3659958cb7ed4bf11d",
+    "fictional:dragon-ball": "1eef6886be76c68867fc0dc386f3080200536621a9aa7faa59b8b4380fbc4029",
+    "fictional:demon-slayer": "81dc8f7b5ca16586447a724a265b9d413f8a95f4fe49f6f7b714c222ec058752",
+    "fictional:evangelion": "8310373ab590b9d247699c2bb26f9148e2c21cd5cdcfd3e94d864789dfa5605c",
+    "fictional:ghost-in-the-shell": "0fd171b2f548e5dd5e04a6e7dc294e69ecf9b1484e3361e901f7b3460d08af1e",
+    "fictional:psycho-pass": "19315521a00a6e7b46a40913063b620da4ce786c926e1820865c4cd8bb83d53c",
+    "fictional:death-note": "ae93f28c43ab3627560009a1ef6c00416f73f829b142e3e7b5a2681da97bd300",
+    "fictional:twelve-kingdoms": "6632959bc0399a4e183a223ef600a4ab7304ddbfd9a92750a3593cfdfd927158"
+  },
+  "script_sha256": "f77b7f5359e95eb6af7fdc27d21c8f04e31360aa5b080a34e792519e336588b6",
+  "issues": [],
+  "resolved_during_review": [
+    {
+      "id": "script:release-cardinality",
+      "field": "run",
+      "severity": "medium",
+      "issue": "原脚本未限制50+50，局部输入可能获得passed回执。",
+      "suggested_fix": "发布入口强制目标计数。",
+      "resolution": "主代理增加TARGETS；只读调用run已确认40条拒绝，错误为Collection does not meet the requested 50 + 50 scope。"
+    },
+    {
+      "id": "script:application-steps",
+      "field": "check_records/application",
+      "severity": "low",
+      "issue": "原检查允许三字符字符串abc作三步，生成器逐字符渲染。",
+      "suggested_fix": "显式检查列表和非空字符串。",
+      "resolution": "主代理增加类型检查；复测abc已被Invalid application steps拒绝。"
+    },
+    {
+      "id": "real:sikh-oneness-service",
+      "field": "sources[0].evidence_kind",
+      "severity": "low",
+      "issue": "机构自述现标authoritative_secondary，但README将机构自述列为primary；内容本身得到该页支持。",
+      "suggested_fix": "改为primary，并保留机构自述不能穷尽所有锡克群体的现有边界。",
+      "source_url": "https://www.sikhcoalition.org/about-sikhs/beliefs/",
+      "resolution": "最终输入已读回确认evidence_kind=primary；原有机构自述范围边界保留。"
+    },
+    {
+      "id": "fictional:one-piece",
+      "field": "sources[s2].evidence_kind",
+      "severity": "low",
+      "issue": "Bandai游戏发行方的原作篇章回顾被标为漫画范围的一手资料。",
+      "suggested_fix": "标为authoritative_secondary并注明并非漫画一手文本。",
+      "source_url": "https://www.bandainamcoent.com/news/one-piece-odyssey-water-seven-full-story",
+      "resolution": "已实网核对相关回顾段支持奥哈拉、CP9和营救情节；主代理已改为authoritative_secondary并更新support_note，复读确认。"
+    },
+    {
+      "id": "fictional:doctor-who",
+      "field": "scope",
+      "severity": "low",
+      "issue": "截至2023的说法容易把文章发布日期混为取得的历史网页快照。",
+      "suggested_fix": "分别说明2023发布及2026-10-28访问，声明未取得历史快照。",
+      "source_url": "https://www.doctorwho.tv/news-and-features/what-is-the-tardis",
+      "resolution": "最新scope已明确两种日期和未取得历史快照；重生资料以官方域名检索摘录核查，没有新事实错误。"
+    }
+  ],
+  "source_spot_checks": [
+    {
+      "id": "real:scientific-naturalism",
+      "url": "https://plato.stanford.edu/entries/naturalism/",
+      "method_or_result": "opened",
+      "observation": "导论、§1.1：支持本体/方法区分及物理构成的限定；未发现错误。"
+    },
+    {
+      "id": "real:analects-confucianism",
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "method_or_result": "opened_and_find",
+      "observation": "§4 明确列出仁义礼智信为《论语》核心德性，排除了误将五常后期术语硬套原典的疑点。"
+    },
+    {
+      "id": "real:quranic-core",
+      "url": "https://quran.com/al-baqarah/177",
+      "method_or_result": "opened",
+      "observation": "2:177英文译文支持施舍、被俘者释放、承诺与坚忍；未核对112章。"
+    },
+    {
+      "id": "real:sikh-oneness-service",
+      "url": "https://www.sikhcoalition.org/about-sikhs/beliefs/",
+      "method_or_result": "opened",
+      "observation": "正文第1—6段支持六维主要内容；来源为机构信仰自述。"
+    },
+    {
+      "id": "real:jainism",
+      "url": "https://plato.stanford.edu/entries/jaina-philosophy/",
+      "method_or_result": "opened_and_find",
+      "observation": "导论及§1.2支持灵魂、不害、多面性和直接/委托/认可伤害；修行严格程度有明确边界。"
+    },
+    {
+      "id": "real:nicene-christianity",
+      "url": "https://www.usccb.org/beliefs-and-teachings/what-we-believe",
+      "method_or_result": "opened",
+      "observation": "所载西方信经确含父及子发出、教会、洗礼、复活；条目注明东西方差异。未抽查马太福音。"
+    },
+    {
+      "id": "real:advaita-vedanta",
+      "url": "https://plato.stanford.edu/entries/shankara/",
+      "method_or_result": "opened",
+      "observation": "导论支持梵我不二、八世纪及听闻反思沉思；未逐段重核全部认识论。"
+    },
+    {
+      "id": "real:deep-ecology",
+      "url": "https://plato.stanford.edu/entries/ethics-environmental/",
+      "method_or_result": "opened_and_find",
+      "observation": "§3.1支持早期生物圈平等与关系场域；条目限定早期并未混作整个环境科学。"
+    },
+    {
+      "id": "real:early-buddhist-four-truths",
+      "url": "https://www.dhammatalks.org/suttas/SN/SN56_11.html",
+      "method_or_result": "opened",
+      "observation": "全文正文支持中道、八正道、四谛任务及不再后有；政治order留unknown合理。"
+    },
+    {
+      "id": "real:ubuntu-relational-ethics",
+      "url": "https://www.ahrlj.up.ac.za/metz-t",
+      "method_or_result": "open_timeout",
+      "observation": "HTML页访问超时；不作为来源不存在或内容错误证据。"
+    },
+    {
+      "id": "real:ubuntu-relational-ethics",
+      "url": "https://www.ahrlj.up.ac.za/images/ahrlj/2011/ahrlj_vol11_no2_2011_thadeus_metz.pdf",
+      "method_or_result": "search_excerpt_then_opened",
+      "observation": "同刊2011原文摘要及p538检索摘录支持认同/团结、匿名援助及关系能力尊严；进一步consensus检索超时，未覆盖全部政治主张。"
+    },
+    {
+      "id": "real:secular-humanism",
+      "url": "https://humanists.international/what-is-humanism/the-amsterdam-declaration/",
+      "method_or_result": "open_timeout",
+      "observation": "本轮未成功重核宣言正文。"
+    },
+    {
+      "id": "fictional:wizarding-world",
+      "url": "https://www.harrypotter.com/features/what-makes-a-witch-or-wizard-powerful",
+      "method_or_result": "opened",
+      "observation": "正文支持牺牲保护、理解伏地魔、拒绝部长及权力诱惑；已避开同页神奇动物电影段落。"
+    },
+    {
+      "id": "fictional:star-wars",
+      "url": "https://www.starwars.com/databank/the-force",
+      "method_or_result": "opened",
+      "observation": "主定义与Related段支持原力、绝地/西斯价值、清洗；有后续动画信息但条目未取相关新增设定。"
+    },
+    {
+      "id": "fictional:fullmetal-alchemist",
+      "url": "https://www.viz.com/fullmetal-alchemist",
+      "method_or_result": "opened",
+      "observation": "系列及首卷简介确含盔甲灵魂、机械义肢、军方命令甚至杀戮；本条没有无出处补写等价交换细则。"
+    },
+    {
+      "id": "fictional:star-trek",
+      "url": "https://www.startrek.com/news/first-contacts-across-star-trek",
+      "method_or_result": "opened",
+      "observation": "Galaxy’s Child案例支持不干涉与救援冲突；条目标为synthesis。未重核s1入门页。"
+    },
+    {
+      "id": "fictional:pandora",
+      "url": "https://www.avatar.com/pandorapedia/the-tree-of-voices",
+      "method_or_result": "opened",
+      "observation": "正文确含部族记忆、植物动物记忆与仪式神经连接，Appearances为Avatar；未重核星体s1。"
+    },
+    {
+      "id": "fictional:earthsea",
+      "url": "https://www.ursulakleguin.com/the-books-of-earthsea",
+      "method_or_result": "opened",
+      "observation": "六部书介及作者后记支持平衡、身份、照护、女性/独身制度质疑；后期追问有明确分层。"
+    },
+    {
+      "id": "fictional:dune",
+      "url": "https://www.penguinrandomhouse.com/books/352036/dune-movie-tie-in-by-frank-herbert/9780143111580/",
+      "method_or_result": "opened",
+      "observation": "确为赫伯特小说电影封面版；原作简介支持唯一资源、托管及隐藏身份复仇。未重核香料性质s2。"
+    },
+    {
+      "id": "fictional:nineteen-eighty-four",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/",
+      "method_or_result": "opened",
+      "observation": "基金会两段简介支持改写报纸、核心词和权力主题；更多制度分析均明确synthesis。"
+    },
+    {
+      "id": "fictional:three-body",
+      "url": "https://us.macmillan.com/books/9781427273321/thedarkforest/",
+      "method_or_result": "opened",
+      "observation": "出版社简介支持四百年、智子信息暴露、人心秘密与面壁授权；未混入电视剧。"
+    },
+    {
+      "id": "fictional:classic-of-mountains-and-seas",
+      "url": "https://zh.wikisource.org/wiki/山海經/海內經",
+      "method_or_result": "opened",
+      "observation": "原文转录支持凤鸟德顺仁义、方位谱系及鲧禹治水；条目说明复合编纂，不强制整合成统一宇宙。"
+    },
+    {
+      "id": "fictional:middle-earth",
+      "url": "https://www.tolkienestate.com/letters/letter-to-eileen-elgar-september-1963/",
+      "method_or_result": "opened",
+      "observation": "书信支持佛罗多承受极限、怜悯及对咕噜仁慈；作者解释和综合阅读有分层。"
+    },
+    {
+      "id": "fictional:brave-new-world",
+      "url": "https://cdip.bnf.fr/GEDKP/196717991499/9781405882583_FS_12_07.pdf",
+      "method_or_result": "open_timeout",
+      "observation": "本轮未成功重核教育资料；现有边界明确它是分级读物资料，未冒充原著逐页核读。"
+    },
+    {
+      "id": "fictional:his-dark-materials",
+      "url": "https://www.penguinrandomhouse.com/books/136447/his-dark-materials-the-golden-compass-book-1-by-philip-pullman/",
+      "method_or_result": "open_intermittent_timeout_then_search_excerpt",
+      "observation": "出版社检索返回Book Description完整情境段，支持动物精灵、平行世界、罗杰失踪、儿童实验传闻、自由/无知冲突及帮助/背叛；无投毒与真理仪全知主张。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:his-dark-materials",
+      "url": "https://www.penguinrandomhouse.com/books/136447/his-dark-materials-the-golden-compass-book-1-by-philip-pullman/readers-guide/",
+      "method_or_result": "opened_and_find",
+      "observation": "导言及问题3、5、7、11、13支持尘埃、真理仪学习、教会权力与开放伦理问题；新条目已把解释及问题区别于原作唯一答案。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:cosmere-mistborn",
+      "url": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "method_or_result": "opened",
+      "observation": "首部Synopsis支持灰雾、团队魔法、财力削弱军队及薇恩成长；scope保留宣传设问边界，全库只计一个寰宇条目。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:witcher",
+      "url": "https://orbitworks.net/titles/none/the-last-wish/9780316618960/",
+      "method_or_result": "opened",
+      "observation": "页属Hachette/Orbit并列2027年新版，书介支持训练药剂、被敬畏憎恨及外貌善恶区分；条目准确说明新版预告而非已读未来译本。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:doctor-who",
+      "url": "https://www.doctorwho.tv/news-and-features/what-is-regeneration",
+      "method_or_result": "open_timeouts_then_official_search_excerpt",
+      "observation": "官方搜索返回正文，支持外貌性格变化、保留记忆、重生过程中仍可死亡及有限能量；并非成功open正文，未逐集核验。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:doctor-who",
+      "url": "https://www.doctorwho.tv/news-and-features/what-is-the-tardis",
+      "method_or_result": "opened",
+      "observation": "日期为2023-08-02，正文支持活体、翻译、内部更大、盗走机器及能源歧义；当前页外围内容已至2026，故不能称历史快照。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:ghost-in-the-shell",
+      "url": "https://www.production-ig.co.jp/works/ghost-in-the-shell",
+      "method_or_result": "opened",
+      "observation": "1995年电影日期及日文简介支持2029、记忆/行为脑入侵、国家未消失及双向接近；未引入漫画/SAC规则。",
+      "stage": "final_100"
+    },
+    {
+      "id": "real:market-socialism",
+      "url": "https://plato.stanford.edu/entries/socialism/",
+      "method_or_result": "opened_and_find",
+      "observation": "§4.2确述Schweickart工人管理、国家出租生产资料、商品市场与公共投资；现有摘要没有把它误称全部社会主义。",
+      "stage": "final_100"
+    },
+    {
+      "id": "real:philosophical-skepticism",
+      "url": "https://plato.stanford.edu/entries/skepticism/",
+      "method_or_result": "opened",
+      "observation": "§1区分相信/否认/悬置及未形成态度，§2区分休谟式与笛卡尔式范围；新版agency不再推定可任意选择信念。",
+      "stage": "final_100"
+    },
+    {
+      "id": "real:contractarianism",
+      "url": "https://plato.stanford.edu/entries/contractarianism/",
+      "method_or_result": "opened",
+      "observation": "导论与§1支持互利/自利、同意正当化、假想协议边界及与contractualism的实质区别。",
+      "stage": "final_100"
+    },
+    {
+      "id": "real:scanlon-contractualism",
+      "url": "https://plato.stanford.edu/entries/contractualism/",
+      "method_or_result": "opened",
+      "observation": "§1—2支持合理拒绝、相互承认、平等资格和对他人的正当化；非同名翻译凑数。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:one-piece",
+      "url": "https://www.bandainamcoent.com/news/one-piece-odyssey-water-seven-full-story",
+      "method_or_result": "opened",
+      "observation": "回顾文章相关三节实际支持卡片所用情节；网页不是漫画文本，已要求并确认来源类型改为二手。未把游戏改编设为另一个世界观。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:twelve-kingdoms",
+      "url": "https://www.shinchosha.co.jp/12kokuki/",
+      "method_or_result": "opened_without_claim_body",
+      "observation": "本轮抽取仅取得导航和图片等结构，find麒麟未取得正文；不声称独立重核了其世界介绍，也不因此认定作者原访问记录虚假。",
+      "stage": "final_100"
+    },
+    {
+      "id": "fictional:evangelion",
+      "url": "https://gkids.com/films/end-of-evangelion/",
+      "method_or_result": "opened_without_claim_body_then_find_timeout",
+      "observation": "本轮页面抽取未取得Synopsis，进一步find超时；剧情和替代结局范围仅做文本一致性审阅。",
+      "stage": "final_100"
+    }
+  ],
+  "content_assessment": {
+    "material_errors_found": 0,
+    "reviewed_aspects": [
+      "六维主张与source_summary/synthesis/unknown分层",
+      "宗教规范与经验事实区别",
+      "宗派和族群非等同",
+      "作品/电影/续作版本范围",
+      "同义或近义思想是否存在独立范围",
+      "官网简介和全文阅读边界"
+    ],
+    "findings": "100条均已语义审阅。抽查未发现需撤回的实质事实错误、明显跨版本混写或同宇宙重复计数。现实类互利契约与Scanlon契约、认识论与本体论、一般伦理家族与特定传统有实质范围区别；并非100个互斥完备体系。来源不足处的unknown及synthesis通常明确。",
+    "unresolved_material_errors_found": 0
+  },
+  "script_checks": {
+    "baseline_40_records": "passed check_records",
+    "string_steps_rejected": true,
+    "partial_release_rejected": true,
+    "initial_20_generated_paths": "均为相对且无..片段，slug校验阻止路径穿越",
+    "remaining_limitations": [
+      "accessed_at/access_method目前只验证非空，不验证日期格式或实际访问；这不是网页来源的独立证明。",
+      "本地Markdown链接校验只检查文件存在，不校验锚点；生成器相对目录关系经静态检查无误。",
+      "未测试恶意文件系统符号链接；当前为受控本地仓库重建。"
+    ],
+    "baseline_100_records": "独立只读check_records通过",
+    "first_build_receipt_dependency": "静态复核：仅build模式且resolve后的精确目标为verification/build.json时可视作pending；其他本地文件仍检查存在，receipt写入位于其余检查后；validate仍读回比较。未执行新的写入型build。",
+    "reported_by_main_not_independently_repeated": "主代理报告最终build/self-test/validate、101份Skill及4次smoke通过；本内容审阅不把这些等同事实准确性验证。"
+  },
+  "not_covered": [
+    "未逐条重新打开每一项来源，source_spot_checks保存38项实际核查及失败/受限结果。",
+    "未通读全部原作，也未逐句验证全部600项claims；官网和出版简介能够支持的边界保留。",
+    "本轮未成功抽取十二国记和EVA来源正文；初审的Amsterdam与美丽新世界来源超时仍未重试。",
+    "未独立验证全部译本异文、剧集例外和改编差别；日期声明不是历史网页快照。",
+    "未执行Git、外部写入或写入型构建；唯一输出为本审阅JSON。"
+  ],
+  "review_history": [
+    {
+      "stage": "interim_40",
+      "checked_ids": [
+        "real:scientific-naturalism",
+        "real:critical-rationalism",
+        "real:pragmatism",
+        "real:stoicism",
+        "real:existentialism",
+        "real:camus-absurdism",
+        "real:analects-confucianism",
+        "real:laozi-daoism",
+        "real:mohism",
+        "real:early-buddhist-four-truths",
+        "real:advaita-vedanta",
+        "real:nicene-christianity",
+        "real:quranic-core",
+        "real:jewish-covenant-ethics",
+        "real:jainism",
+        "real:sikh-oneness-service",
+        "real:secular-humanism",
+        "real:historical-materialism",
+        "real:deep-ecology",
+        "real:ubuntu-relational-ethics",
+        "fictional:journey-to-the-west",
+        "fictional:investiture-of-the-gods",
+        "fictional:classic-of-mountains-and-seas",
+        "fictional:three-body",
+        "fictional:wandering-earth",
+        "fictional:liaozhai",
+        "fictional:middle-earth",
+        "fictional:dune",
+        "fictional:earthsea",
+        "fictional:narnia",
+        "fictional:wizarding-world",
+        "fictional:star-wars",
+        "fictional:star-trek",
+        "fictional:pandora",
+        "fictional:foundation",
+        "fictional:nineteen-eighty-four",
+        "fictional:brave-new-world",
+        "fictional:hunger-games",
+        "fictional:attack-on-titan",
+        "fictional:fullmetal-alchemist"
+      ],
+      "checked_record_sha256": {
+        "real:scientific-naturalism": "9ef225a1fed068bfb74ac407bbed9c2babed9b60818a8332d6fe9f908c6d1fdb",
+        "real:critical-rationalism": "6037ec79e46bdb40f39d1659c4cb69acbf718ec8e79614ebca12d366b04f48b4",
+        "real:pragmatism": "c06f19e122405fb2163c326fd8a709c5c45c60245952bb6b4a5392d29e020bcc",
+        "real:stoicism": "f1a2332c2ff7fe6a0fbd3e20667eba3e90536c1add5320436482da1db6cbb668",
+        "real:existentialism": "639dbf99e891179031a7b93e0a6e82aacf4c03264b201604c89164dd7c601f53",
+        "real:camus-absurdism": "5599ae8baf483ea58d962fff63bfc4e7130c761d07ba52fac6535adacfea75eb",
+        "real:analects-confucianism": "1efb19be08dea3121c21dc809099dd23a86dbfe182c8f129da7ff0a3652d15e0",
+        "real:laozi-daoism": "015d6073bbc680bbe78abfa87c832052d80cab02afede2af35051c594aaca393",
+        "real:mohism": "c7330b8d6ec254ee4c48758384cbe4b9408927070a502069dc46c091fd53d486",
+        "real:early-buddhist-four-truths": "cc118e3ad55d8cabd6fe1450723a0dda2b697c39caaa6079dcb055b08a06b6bd",
+        "real:advaita-vedanta": "900e57247410984c582bfa58525b1263918072b9509eff7fb993db02ea0a7c14",
+        "real:nicene-christianity": "c479d1d66972b1680638ed5791f3925cd38ebf3583c431f011b39b38ba8d5d0c",
+        "real:quranic-core": "1310b794c0500b6d43db6174b3d2797d4fa17ae267854a3ac7c06d34113a497d",
+        "real:jewish-covenant-ethics": "a5108db58012e08f3480ec477aec5d0c0ab96ae29f41e3899872335b08e44ce7",
+        "real:jainism": "996f2445f6c493821049772cb9b631fba50c2d28781a273a1a67a87f7acdb63f",
+        "real:sikh-oneness-service": "17e5139f5da2d1a1d0452918c03d7f2e5fbe298dcb1616e9ad45280ac728c246",
+        "real:secular-humanism": "43757cdcbb82f8c7da0d1befcb6784fd36086202c2b2b7ce8ecf0be8e56ec293",
+        "real:historical-materialism": "5d918c0faa61f2fa105848152caa9a964cf50a742cfff33b6a38f535f522daf4",
+        "real:deep-ecology": "a162ff93c1b57cd7675a4a9c043059a17f4ff1e662577553114c16c664e85711",
+        "real:ubuntu-relational-ethics": "2c6b03beb6d2914e5d2332125536835a88ef672fb2f5c9e8666751bd8cdc9c77",
+        "fictional:journey-to-the-west": "36f6c5c63ec26f3e82e9c9988167a84e526ab9027dea29097d982b16fe076a40",
+        "fictional:investiture-of-the-gods": "f93ecb2974af53226f9686b6c168e0a6556441a217e289eca2506599b6aa8570",
+        "fictional:classic-of-mountains-and-seas": "096611ae5bdd4f1d82b93824251826a9efe6597d256358c432a4fd7bc8450a86",
+        "fictional:three-body": "34dc16f113d1561845b971869b82071e7c8fa6e2c7543f779cf66f281195f530",
+        "fictional:wandering-earth": "10b6a4724fc8f77eb1a32d03dd6b85de9e749f6a1726a0fd596025c34aa63821",
+        "fictional:liaozhai": "885689cc15bfe690851c1385fca6b026ff15bdf0df39d94af2ee16e91134bb1a",
+        "fictional:middle-earth": "ffa8043425f878c292149a8377ca1e46d39cbda17c6e854fde570c84cf7cba60",
+        "fictional:dune": "f86ad9a6b1f35477479c970023e207b063d369290db66996323c7dd8a4658540",
+        "fictional:earthsea": "7c726996683a70357c2a0cee83fdccb47b3d1396f5adbd5507d4e0a566ca63f6",
+        "fictional:narnia": "0edef74d898d8a449b55be2847c81d936f357df9086c10bcc538890b6deb9322",
+        "fictional:wizarding-world": "a591aa51c9e5f18db27bd14c67bace1195893e36f350ec35ed56065f111bd9ff",
+        "fictional:star-wars": "a8295323a36335fbd0b0d63d0201b9d4546df4b9346119d7599f8e544e76f536",
+        "fictional:star-trek": "d316a12b3a6db6fa2c1d0767c47044e141f1121ce225239cfec21e9f2a436710",
+        "fictional:pandora": "1eb08cdc03ccea5948e0012d1180bbc278843d7b8740ddad0195374aa30111e3",
+        "fictional:foundation": "7dc64388821920be89d3f0c1cdcc58605e329ba5e5013bb085a693abc09674dc",
+        "fictional:nineteen-eighty-four": "eb4e80497421161c0592e75a6e03960d0ebb764278b34dcbe90fe8fdf7698af4",
+        "fictional:brave-new-world": "4f9ba61c15b9cd107f324e6e763a572254e2d1731542facc22f4d3307e23b508",
+        "fictional:hunger-games": "cdc5acdf4fd55ea8f16220a1ab291b079bc58fa516b0fe9f694e801d5fbed156",
+        "fictional:attack-on-titan": "3d9af96df2a5e1a4966515146862a1cc07ea899e8df3294c73ecc13a76cf682b",
+        "fictional:fullmetal-alchemist": "819df969ec915f94d836ca26f3d5eb5c8a3a49b0db196050354968dd9edbb0a0"
+      },
+      "issues": [
+        {
+          "id": "real:sikh-oneness-service",
+          "field": "sources[0].evidence_kind",
+          "severity": "low",
+          "issue": "机构自述现标authoritative_secondary，但README将机构自述列为primary；内容本身得到该页支持。",
+          "suggested_fix": "改为primary，并保留机构自述不能穷尽所有锡克群体的现有边界。",
+          "source_url": "https://www.sikhcoalition.org/about-sikhs/beliefs/"
+        }
+      ],
+      "resolved_during_review": [
+        {
+          "id": "script:release-cardinality",
+          "field": "run",
+          "severity": "medium",
+          "issue": "原脚本未限制50+50，局部输入可能获得passed回执。",
+          "suggested_fix": "发布入口强制目标计数。",
+          "resolution": "主代理增加TARGETS；只读调用run已确认40条拒绝，错误为Collection does not meet the requested 50 + 50 scope。"
+        },
+        {
+          "id": "script:application-steps",
+          "field": "check_records/application",
+          "severity": "low",
+          "issue": "原检查允许三字符字符串abc作三步，生成器逐字符渲染。",
+          "suggested_fix": "显式检查列表和非空字符串。",
+          "resolution": "主代理增加类型检查；复测abc已被Invalid application steps拒绝。"
+        },
+        {
+          "id": "real:sikh-oneness-service",
+          "field": "sources[0].evidence_kind",
+          "severity": "low",
+          "issue": "机构自述现标authoritative_secondary，但README将机构自述列为primary；内容本身得到该页支持。",
+          "suggested_fix": "改为primary，并保留机构自述不能穷尽所有锡克群体的现有边界。",
+          "source_url": "https://www.sikhcoalition.org/about-sikhs/beliefs/",
+          "resolution": "最终输入已读回确认evidence_kind=primary；原有机构自述范围边界保留。"
+        },
+        {
+          "id": "fictional:one-piece",
+          "field": "sources[s2].evidence_kind",
+          "severity": "low",
+          "issue": "Bandai游戏发行方的原作篇章回顾被标为漫画范围的一手资料。",
+          "suggested_fix": "标为authoritative_secondary并注明并非漫画一手文本。",
+          "source_url": "https://www.bandainamcoent.com/news/one-piece-odyssey-water-seven-full-story",
+          "resolution": "已实网核对相关回顾段支持奥哈拉、CP9和营救情节；主代理已改为authoritative_secondary并更新support_note，复读确认。"
+        },
+        {
+          "id": "fictional:doctor-who",
+          "field": "scope",
+          "severity": "low",
+          "issue": "截至2023的说法容易把文章发布日期混为取得的历史网页快照。",
+          "suggested_fix": "分别说明2023发布及2026-10-28访问，声明未取得历史快照。",
+          "source_url": "https://www.doctorwho.tv/news-and-features/what-is-the-tardis",
+          "resolution": "最新scope已明确两种日期和未取得历史快照；重生资料以官方域名检索摘录核查，没有新事实错误。"
+        }
+      ],
+      "source_spot_check_count": 24
+    },
+    {
+      "stage": "final_100",
+      "new_record_count": 60,
+      "changed_prior_ids": [
+        "real:scientific-naturalism",
+        "real:pragmatism",
+        "real:stoicism",
+        "real:analects-confucianism",
+        "real:sikh-oneness-service",
+        "real:historical-materialism",
+        "real:deep-ecology",
+        "real:ubuntu-relational-ethics"
+      ],
+      "added_source_spot_checks": 14,
+      "resolved_ids": [
+        "real:sikh-oneness-service",
+        "fictional:one-piece",
+        "fictional:doctor-who"
+      ],
+      "open_issue_count": 0
+    }
+  ],
+  "input_sha256": {
+    "real.json": "a559934307b9f0e8d684a50286844aeea338aa297d5f778ddff34d7644b8a123",
+    "fictional.json": "989d4e28790980d964823564793db42fbdb479f4c68054090045c5404b03d57a"
+  },
+  "final_pass": {
+    "new_records_read": 60,
+    "prior_records_changed_and_reread": [
+      "real:scientific-naturalism",
+      "real:pragmatism",
+      "real:stoicism",
+      "real:analects-confucianism",
+      "real:sikh-oneness-service",
+      "real:historical-materialism",
+      "real:deep-ecology",
+      "real:ubuntu-relational-ethics"
+    ],
+    "latest_fixes_reread": [
+      "fictional:one-piece",
+      "fictional:doctor-who",
+      "real:sikh-oneness-service"
+    ],
+    "final_counts": {
+      "real": 50,
+      "fictional": 50
+    },
+    "excluded_philippullman_domain_occurrences": 0,
+    "cosmere_count": 1,
+    "checks": "全部条目按文字核对scope、source_summary/synthesis/unknown、版本排除和相关概念边界。规范思想并非互斥的完整宇宙论；亲缘、上下位理论不被误称同义。"
+  }
+}

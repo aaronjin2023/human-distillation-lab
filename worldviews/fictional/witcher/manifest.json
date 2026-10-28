@@ -1,0 +1,94 @@
+{
+  "id": "fictional:witcher",
+  "slug": "witcher",
+  "kind": "fictional",
+  "title": "猎魔人的怪物边界与职业判断",
+  "aliases": [
+    "猎魔人",
+    "巫师",
+    "The Witcher"
+  ],
+  "family": "斯拉夫风格奇幻与道德分类",
+  "scope": "萨普科夫斯基《最后的愿望》故事集；只采用原著书介，不混入游戏与Netflix改编。",
+  "summary": "以猎杀怪物为职业的人，也必须不断检验怪物这个分类本身。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "世界中存在伤害人类的怪物与拥有魔力的猎魔人；杰洛特的战斗能力由长期训练和神秘药剂增强。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "出版社明确提醒丑恶外形不保证邪恶、美丽外表不保证善；认识他者需越过表面分类，不能以视觉印象代替判断。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "杰洛特有强大职业能力，却既受敬畏也被憎恨；可读为承担危险工作并不自动得到社会承认或免于选择压力。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "从外貌与善恶被拆开可提炼出按行为判断的伦理方向；不将职业猎杀的口号等同于每次杀戮都正当。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "短介没有充分交代各国法权、种族制度或猎魔人的正式治理关系；此维度未知，不由游戏中的政治设定填补。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "change",
+      "text": "重新判断谁是怪物会改变行动对象，但所引书介未给出一套稳定的两害选择算法；改变需保留具体情境责任。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://orbitworks.net/titles/none/the-last-wish/9780316618960/",
+      "title": "The Last Wish — Description",
+      "publisher": "Orbit / Hachette Book Group",
+      "locator": "Description第69、75—76行",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "简介说明训练药剂、猎魔职业、被敬畏憎恨及外貌善恶并不一致。"
+    }
+  ],
+  "boundaries": [
+    "页面为原著新版预告，采用情境简介，不宣称已读未来新译本。",
+    "未核读所有短篇，未将游戏角色关系、抉择路线或怪物数据库纳入。"
+  ],
+  "tensions": [
+    "保护人类的职业使命与对被称怪物者的公正可能冲突。",
+    "社会需要某种能力并不意味着尊重其拥有者。"
+  ],
+  "application": {
+    "steps": [
+      "分开外貌标签、行为证据与实际危险。",
+      "明确委托人利益和职业者责任。",
+      "在采取不可逆行动前检查分类是否成立。"
+    ],
+    "scenario": "原创设定：山村雇佣驱雾者清除长角访客，驱雾者发现损毁粮仓的并非它而是村中的储粮装置。",
+    "example": "以查证伤害来源替代按外貌处置，让职业技能服务于重新判断委托。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}

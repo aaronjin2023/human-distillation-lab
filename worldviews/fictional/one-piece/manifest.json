@@ -1,0 +1,107 @@
+{
+  "id": "fictional:one-piece",
+  "slug": "one-piece",
+  "kind": "fictional",
+  "title": "海贼王的伙伴、历史与自由",
+  "aliases": [
+    "海贼王",
+    "航海王",
+    "One Piece"
+  ],
+  "family": "海洋冒险与反压迫奇幻",
+  "scope": "尾田荣一郎漫画，以早期开端和水之都／司法岛叙事为窗口；不纳入真人版或游戏原创设定。",
+  "summary": "海上自由既依赖伙伴，也会同控制历史解释的国家力量发生冲突。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "路飞拥有橡胶般伸展的身体，却付出无法游泳的代价；海洋冒险中的超常能力自带环境脆弱性，不能只按战力理解。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "奥哈拉学者的古文研究被世界政府视作危险而遭毁灭，罗宾因解读能力被追捕；历史知识本身成为政治斗争对象。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "路飞团队主动营救罗宾，罗宾也在恐惧中重新表达生存愿望；能动性不仅是强者救人，还包括受压者能够选择接受关系。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "伙伴不被抛弃与个体想活下来的愿望构成这一篇章的价值核心；不宜把海贼身份本身直接等同道德正义。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "世界政府有情报机构、杀人许可和毁灭性舰队行动；司法名义与国家强制可侵入学术和私人关系，需分别审视。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "救援通过结盟与公开挑战权威展开，原本互有冲突的群体也能协作；改变并不意味着整个世界制度已随一场胜利被解决。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.viz.com/one-piece",
+      "title": "One Piece — Official Manga Page",
+      "publisher": "VIZ Media",
+      "locator": "系列简介第28—32行",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "说明寻宝、海贼王愿望、橡胶身体与不能游泳的代价。"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.bandainamcoent.com/news/one-piece-odyssey-water-seven-full-story",
+      "title": "The Full Story of Water Seven",
+      "publisher": "Bandai Namco Entertainment",
+      "locator": "The World Government’s Involvement；Robin’s Memories；The Fight for a Nakama",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "authoritative_secondary",
+      "access_method": "web_open",
+      "support_note": "授权游戏官方对原作篇章的回顾，非漫画一手文本；支持奥哈拉、CP9与司法岛营救线索，不纳入游戏原创剧情。"
+    }
+  ],
+  "boundaries": [
+    "第二来源是游戏发行方回顾，限定与原作篇章相符内容，不将游戏改编视为漫画独立世界。",
+    "未核查后期果实真相、世界政府最终秘密或未完结结局。"
+  ],
+  "tensions": [
+    "自由冒险与共同承担伙伴风险无法完全分开。",
+    "国家正义名义与维护历史真相可能冲突。"
+  ],
+  "application": {
+    "steps": [
+      "区分身份标签与实际行为。",
+      "追踪被禁止的知识和禁止者利益。",
+      "让受救援者表达愿望，并记录联盟各方承担。"
+    ],
+    "scenario": "原创设定：群岛航海队营救会读旧潮表的译员，港口当局因其知识影响税权而宣布她为危险人物。",
+    "example": "把营救与译员自己的选择连接，让伙伴关系同时承载自由和历史保存。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}

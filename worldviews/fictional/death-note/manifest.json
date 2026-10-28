@@ -1,0 +1,93 @@
+{
+  "id": "fictional:death-note",
+  "slug": "death-note",
+  "kind": "fictional",
+  "title": "死亡笔记的私人裁决与正义诱惑",
+  "aliases": [
+    "死亡笔记",
+    "Death Note"
+  ],
+  "family": "超自然推理与权力伦理",
+  "scope": "大场鸫、小畑健原作漫画开端；限VIZ主系列简介，不合并电影、短篇或试作规则。",
+  "summary": "突然获得不受常规制衡的致死能力，会把惩恶愿望变成对裁判资格的考验。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "死神遗落的笔记使写入名字的人死亡，夜神月取得这种力量；官方简介只概述核心，不在此补入具体时间和脸孔规则。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "简介没有说明夜神月判断谁邪恶的证据渠道或推理验证方法；知识维度未知，不能把优秀学生身份等同可靠裁判。",
+      "basis": "unknown",
+      "source_ids": []
+    },
+    {
+      "dimension": "agency",
+      "text": "月由无聊学生转为主动使用力量改变世界的人，能动性骤增；但获得能力与具备正当授权是不同的问题。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "月发誓消除邪恶，官方简介同时追问他是否成为自己反对之物；正义目标与行使杀人权的伦理风险被明确并置。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "笔记把致死决定集中在单个持有者手中，形成常规程序之外的权力；本条不据短介补写警方、死神界的完整法权。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "角色可能被使用力量的过程改变，因而不能只评价最初愿望；这是官网提出的叙事问题，不能冒充已核实的完整结局。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.viz.com/death-note",
+      "title": "Death Note — Official Series Page",
+      "publisher": "VIZ Media",
+      "locator": "主系列简介第28—31行",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "写死神笔记、名字致死、优秀而无聊的学生、消除邪恶目标与自我腐化问题。"
+    }
+  ],
+  "boundaries": [
+    "仅核读开端官方简介，未将笔记所有条款、L的具体策略或结局纳入。",
+    "角色自称正义不代表作品为其授权；同页短篇与动画推广未作设定来源。"
+  ],
+  "tensions": [
+    "惩恶目标与不受制衡的裁判权可能相互侵蚀。",
+    "能力越直接，核对证据和承担错误的空间可能越小。"
+  ],
+  "application": {
+    "steps": [
+      "先写出谁被认为有罪及理由。",
+      "分开事实确认、裁判授权与执行能力。",
+      "让错误不可逆性改变决策门槛。"
+    ],
+    "scenario": "原创设定：城中学生得到能永久注销公民身份的印章，准备清除骗子，却只能从匿名举报判断对象。",
+    "example": "用证据不完整与不可逆后果检验私人正义，让好意不能替代授权和复核。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}

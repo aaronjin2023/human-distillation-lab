@@ -1,0 +1,106 @@
+{
+  "id": "fictional:star-trek",
+  "slug": "star-trek",
+  "kind": "fictional",
+  "title": "星际迷航的探索与不干涉",
+  "aliases": [
+    "星际迷航",
+    "Star Trek"
+  ],
+  "family": "探索型科幻与制度伦理",
+  "scope": "主时间线联邦与星际舰队的共同制度理念，以《下一代》首次接触讨论作例；不合并镜像宇宙。",
+  "summary": "好奇与合作推动成长，但拥有技术并不自动获得支配他者发展的权利。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "曲速使人类与外星文明接触成为可能，宇宙存在多样生命和政治共同体；官方介绍以探索、科学与外交组织这些相遇。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "知识通过航行、科学发现和异文化接触增长；瓦肯的多样性理念使不同视角成为成长条件，而非必须被统一清除的噪声。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "舰队军官拥有技术与执行能力，却受最高指导原则约束；能动性体现为在能力、职责和他者发展权之间作判断。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "联邦公开追求生命的基本权利、尊严和价值；这是一种制度理想，不能把宣传式简介当全部剧集中已实现的状态。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "联邦是行星政府共同组成的星际共和国，舰队兼有探索、援助和防务任务；不干涉规范为强者的行动设置边界。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "首次接触能改变自我认识，但援救又可能构成干涉；官方回顾以皮卡德的取舍展示规范冲突，改变需要具体情境论证。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.startrek.com/en-un/get-to-know",
+      "title": "Get To Know Star Trek",
+      "publisher": "StarTrek.com官方",
+      "locator": "What is Star Trek；From the Stars, Knowledge；missions",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "写明曲速、首次接触、生命权利、舰队任务及最高指导原则。"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.startrek.com/news/first-contacts-across-star-trek",
+      "title": "First Contacts Across Star Trek",
+      "publisher": "StarTrek.com官方",
+      "locator": "关于Galaxy’s Child与非干涉政策的段落",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_search_excerpt",
+      "support_note": "回顾皮卡德为帮助生命体而面临违反最高指导原则的情况。"
+    }
+  ],
+  "boundaries": [
+    "官方入门页对无贫穷无战争等表述属理想性概述，本条不当成全时段事实。",
+    "未逐集核对规则例外，不覆盖凯尔文或镜像宇宙。"
+  ],
+  "tensions": [
+    "紧急救助与尊重他者自主发展可能直接冲突。",
+    "开放探索与防务组织的强制能力需要制衡。"
+  ],
+  "application": {
+    "steps": [
+      "先确认对方是否拥有真实选择与发言机会。",
+      "区分救助请求、强行改造和必要防卫。",
+      "记录干预和不干预各自可预见的后果。"
+    ],
+    "scenario": "原创设定：远航调查船能修复陌生星球的潮汐装置，但当地两个自治城对是否接受帮助意见相反。",
+    "example": "先核实授权主体与影响范围，再提出可撤回的小规模协作，检验善意干预的边界。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}

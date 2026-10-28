@@ -1,0 +1,108 @@
+{
+  "id": "fictional:dune",
+  "slug": "dune",
+  "kind": "fictional",
+  "title": "沙丘的生态资源与统治",
+  "aliases": [
+    "沙丘",
+    "Dune"
+  ],
+  "family": "政治生态科幻",
+  "scope": "弗兰克·赫伯特1965年首部《沙丘》小说；不使用续作或电影补充规则。",
+  "summary": "稀缺资源将生态、家族政治和救主想象锁在同一套权力关系中。",
+  "claims": [
+    {
+      "dimension": "reality",
+      "text": "厄拉科斯是沙漠行星，也是香料的唯一来源；香料具有延寿和增强意识的性质，使环境条件具有跨星球政治后果。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "dimension": "knowledge",
+      "text": "香料能改变意识，而贵族对地方的认识又受资源利益牵引；可把认知与物质依赖连读，但不将预知写成绝对无误。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "dimension": "agency",
+      "text": "保罗从受托治理家族的继承人变成阴谋幸存者，需隐藏身份寻求行动空间；个人选择同时受家族和殖民资源结构限制。",
+      "basis": "source_summary",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "values",
+      "text": "环境主义、复仇和政治理想在同一故事中并行；由此可分析生存与统治目标如何冲突，不能把主人公获权当自动的道德胜利。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "order",
+      "text": "贵族受命管理唯一香料产地，说明统治依赖资源节点控制；表面的家族身份与实际物质垄断需要同时考察。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "dimension": "change",
+      "text": "改变既是个人反击，也是重分配对资源世界的支配；生态约束使权力更替不能单靠更换一个统治者就得到完整解释。",
+      "basis": "synthesis",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.penguinrandomhouse.com/books/352036/dune-movie-tie-in-by-frank-herbert/9780143111580/",
+      "title": "Dune — Book Description",
+      "publisher": "Penguin Random House / Ace",
+      "locator": "Book Description",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_open",
+      "support_note": "明确保罗家族受命治理、沙漠香料唯一产地、背叛阴谋与环境政治主题；书为小说电影封面版。"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.penguinrandomhouse.com/series/AU8/dune/",
+      "title": "Dune Series",
+      "publisher": "Penguin Random House",
+      "locator": "Dune简介",
+      "accessed_at": "2026-10-28",
+      "evidence_kind": "primary",
+      "access_method": "web_search_excerpt",
+      "support_note": "写明香料延寿及增强意识，厄拉科斯为不宜居世界。"
+    }
+  ],
+  "boundaries": [
+    "所用页面含电影封面版标签，但描述对象为赫伯特原著小说。",
+    "未核读完整原著，未细述后续圣战、预知机制或续作生态变化。"
+  ],
+  "tensions": [
+    "资源开发利益与当地生存条件不易一致。",
+    "反压迫的行动可能再次形成个人化统治。"
+  ],
+  "application": {
+    "steps": [
+      "列出稀缺物、依赖者和控制入口。",
+      "追问政治承诺需要什么生态条件才能兑现。",
+      "比较换统治者与改变资源制度的不同后果。"
+    ],
+    "scenario": "原创设定：荒漠城邦的记忆药只能从盐湖提取，流亡继承人与盐工结盟后必须决定产地归属。",
+    "example": "让联盟围绕水、药与治理权谈判，检验复仇完成后普通人的处境是否改善。",
+    "scope": "original_synthesis"
+  },
+  "related_work_ids": []
+}
