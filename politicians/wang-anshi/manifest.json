@@ -1,0 +1,74 @@
+{
+  "id": "wang-anshi",
+  "name": "Wang Anshi",
+  "name_zh": "王安石",
+  "kind": "expert-method",
+  "domain": "politics",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "living_person": false,
+  "scope": "北宋奏议中的制度与人才联动、改革答辩；与原税制条目关联，不能据此认定新法整体成败。",
+  "source_works": [
+    "《上仁宗皇帝言事书》：制度与人才",
+    "《答司马谏议书》：改革答辩"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "上仁宗皇帝言事书",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E4%BB%81%E5%AE%97%E7%9A%87%E5%B8%9D%E8%A8%80%E4%BA%8B%E6%9B%B8",
+      "publisher": "王安石；维基文库转录",
+      "source_type": "primary-text",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读制度、人才及教养取任相关段落；未与影印底本逐字校勘。",
+      "supports": [
+        "法度须随情势调整",
+        "培养、供养、选拔、任用人才之间的关系"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "答司马谏议书",
+      "url": "https://zh.wikisource.org/wiki/%E7%AD%94%E5%8F%B8%E9%A6%AC%E8%AB%AB%E8%AD%B0%E6%9B%B8",
+      "publisher": "王安石；维基文库转录",
+      "source_type": "primary-text",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读书信正文，页面标有异文；是改革者答辩，不是效果评估。",
+      "supports": [
+        "逐项回应侵官、生事、征利、拒谏等指责",
+        "改革目标与争议的区分"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "与王介甫书",
+      "url": "https://zh.wikisource.org/wiki/%E8%88%87%E7%8E%8B%E4%BB%8B%E7%94%AB%E6%9B%B8",
+      "publisher": "司马光；维基文库转录",
+      "source_type": "primary-text",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读对青苗、均输及信息反馈的批评段落；这是政见不同者的指控，不直接当作已证实统计。",
+      "supports": [
+        "改革的民生负担争议",
+        "反对意见可能被过滤的风险"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "原创中文方法摘要与应用练习；只列公开来源，不复制长段原文。原作、现代整理与机构页面的重用条件分别以原站为准。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "未全面核验青苗、募役等政策的地方执行、数量数据和长期成效。",
+    "转录文本未与宋刻本或现代校勘本逐字核对；争论双方所称民意不是代表性调查。"
+  ],
+  "distillation_method": "公开文本的artifact证据、对照材料与原创操作化分开；不从演说直接推断成效或私人性格。",
+  "legacy_refs": [
+    "tax/wang-anshi"
+  ]
+}

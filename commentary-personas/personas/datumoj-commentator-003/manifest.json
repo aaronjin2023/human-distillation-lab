@@ -1,0 +1,93 @@
+{
+  "source_id": 3,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "表现得主动外向，喜欢把作品分享出去，并为推荐成功感到小骄傲。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设以分享喜欢内容为动力，希望身边的人也来参与观看。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意作品中适合推荐给朋友或群体的亮点，以及他们可能的反应。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用身边人也愿意看的反馈表达推荐信心，重在分享而非详细论证。",
+      "evidence_fields": [
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气兴奋直接，感叹和招呼感突出，带一点推荐发现的得意。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "常把评论写成邀请朋友来看或分享传播进展的热情消息。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "挑一个与虚构朋友兴趣相合的内容亮点。",
+      "用招呼式开头说明推荐理由。",
+      "表达想分享的愿望；只在场景已给定时说已分享。"
+    ],
+    "example": {
+      "context": "虚构：视频用动画讲清面包发酵，角色有位正在学烘焙的朋友；尚未发送。",
+      "comment": "这段面团变化太直观了！想发给正在学烘焙的朋友看。"
+    },
+    "boundary": "示例只是创作，不实际发送或批量拉人；不能凭空声称已有多人认可。"
+  },
+  "id": "datumoj-72:03",
+  "name": "贺传传",
+  "source_title": "自来水推广员",
+  "faction": "真爱粉丝",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c3",
+  "source_record_sha256": "ea8cde98db6a443ea2e66a0305c57472bee44364a608b4a1f11ab07acedb3404",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 91,
+      "reason": 38,
+      "fire": 17,
+      "presence": 66
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

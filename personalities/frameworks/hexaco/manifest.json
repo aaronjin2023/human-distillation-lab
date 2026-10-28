@@ -1,0 +1,92 @@
+{
+  "id": "hexaco",
+  "name": "HEXACO 人格结构模型",
+  "kind": "trait-model",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "honesty_humility",
+      "name": "诚实-谦逊",
+      "description": "真诚、公平、谦逊及较少利用他人谋私。"
+    },
+    {
+      "id": "emotionality",
+      "name": "情绪性",
+      "description": "恐惧、焦虑、依恋和情感性；与大五神经质并非完全同义。"
+    },
+    {
+      "id": "extraversion",
+      "name": "外向性",
+      "description": "社会自信、社交活力与积极情绪。"
+    },
+    {
+      "id": "agreeableness",
+      "name": "宜人性（对愤怒）",
+      "description": "宽容、温和、愿意妥协及控制愤怒。"
+    },
+    {
+      "id": "conscientiousness",
+      "name": "尽责性",
+      "description": "组织、勤勉、审慎与精确。"
+    },
+    {
+      "id": "openness",
+      "name": "开放性",
+      "description": "审美、好奇、创造与非传统兴趣。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "HEXACO-PI-R 官方材料与使用条件",
+      "url": "https://hexaco.org/hexaco-inventory",
+      "publisher": "Lee & Ashton",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "六维工具、可用版本、研究用途限制"
+      ],
+      "access_note": "已打开作者官方页面并核对可见条目与用途条件。"
+    },
+    {
+      "id": "S2",
+      "title": "Psychometric Properties of the HEXACO Personality Inventory",
+      "url": "https://doi.org/10.1207/s15327906mbr3902_8",
+      "publisher": "Lee & Ashton, 2004",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "初版六因素、24面向及样本验证结果"
+      ],
+      "access_note": "出版页搜索结果展示摘要；未取得全文。"
+    },
+    {
+      "id": "S3",
+      "title": "HEXACO history",
+      "url": "https://hexaco.org/history",
+      "publisher": "Lee & Ashton",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "量表发展、面向增补与版本演进"
+      ],
+      "access_note": "已打开作者历史页并核对量表发展概述。"
+    }
+  ],
+  "rights": {
+    "summary": "作者网站允许免费下载60/100题本仅用于非营利学术研究，并限制公开可搜索应用；非学术用途需联系作者。本文不复制题目或评分钥匙。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "不同版本的题数、面向覆盖与计分材料不一致；原始样本验证不证明所有文化群体等值。应避免将HEXACO域分数与大五域直接互换或合并。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

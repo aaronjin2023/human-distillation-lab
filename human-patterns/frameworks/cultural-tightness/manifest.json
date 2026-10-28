@@ -1,0 +1,56 @@
+{
+  "id": "cultural-tightness",
+  "name": "文化紧密—宽松：规范强度与偏离容忍",
+  "kind": "culture-framework",
+  "domain": "culture",
+  "analysis_level": "multilevel",
+  "population_scope": "原研究覆盖的33个国家与其抽样时期；群体层模式不是每位居民的属性，组织场景需要另外收集证据。",
+  "evidence_summary": "S1为原始33国论文的机构摘要，呈现多层理论与跨国关联；论文全文下载受限，本条不提取国家排名、效应量或问卷。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "norm-strength",
+      "name": "规范强度",
+      "description": "规则有多明确，成员有多大程度共享行为期待。"
+    },
+    {
+      "id": "deviation-tolerance",
+      "name": "偏离容忍",
+      "description": "偏离行为在具体情境中被容许到什么程度。"
+    },
+    {
+      "id": "situation-strength",
+      "name": "情境强度",
+      "description": "场景对可接受行动范围的限制；属于关联机制，不是第三个国家量表。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Differences between Tight and Loose Cultures: A 33-Nation Study (2011)",
+      "url": "https://ecommons.cornell.edu/entities/publication/e994b6e3-d2bc-4b61-a9e4-e2639f365fd1",
+      "publisher": "Gelfand et al. / Cornell repository",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取机构摘要、题录与版权声明；PDF返回429。",
+      "supports": [
+        "规范强度、偏离容忍及多层系统"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "机构记录说明AAAS保留版权；仅原创概述，不复制量表、论文图表或国家排名。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1"
+    ]
+  },
+  "known_gaps": [
+    "原论文机构PDF返回429，未逐项核查方法、量表或稳健性。",
+    "历史生态解释未在本库进行因果验证；不作为政策效果保证。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

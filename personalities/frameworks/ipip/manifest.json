@@ -1,0 +1,75 @@
+{
+  "id": "ipip",
+  "name": "International Personality Item Pool（IPIP）",
+  "kind": "item-bank",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "外向性",
+      "description": "不同 IPIP 量表可用各自条目表示社交活跃、表达或积极情绪。"
+    },
+    {
+      "id": "agreeableness",
+      "name": "宜人性",
+      "description": "可能涉及体谅、合作、信任等内容。"
+    },
+    {
+      "id": "conscientiousness",
+      "name": "尽责性",
+      "description": "可能涉及组织、责任感、自律等。"
+    },
+    {
+      "id": "emotionality",
+      "name": "情绪性",
+      "description": "按具体量表定义，可能对应神经质或情绪稳定性。"
+    },
+    {
+      "id": "intellect_openness",
+      "name": "智性/开放性",
+      "description": "不同尺度对智力兴趣、想象、审美的覆盖不一。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "International Personality Item Pool 官方首页",
+      "url": "https://ipip.ori.org/",
+      "publisher": "Oregon Research Institute / IPIP",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "资源库性质、条目/量表数量及公开领域声明"
+      ],
+      "access_note": "已打开官方页面并核对可见正文。"
+    },
+    {
+      "id": "S2",
+      "title": "How to format and administer IPIP measures",
+      "url": "https://ipip.ori.org/newFormat.htm",
+      "publisher": "IPIP 官方网站",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "量表需按其具体尺度选择、施测及计分"
+      ],
+      "access_note": "已打开官方页面并核对可见正文。"
+    }
+  ],
+  "rights": {
+    "summary": "IPIP 官方首页声明其条目与量表为公有领域，可复制、编辑、翻译及使用；本库仍不收录整套条目或评分钥匙。具体翻译、第三方页面和派生量表可能另有条件，需逐项查证。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "条目库不断增补，目录和尺度分配会变化；“公开领域”不代表任意自制组合已验证。必须记录具体尺度名称、版本、语言、来源与计分规则。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演",
+  "dimension_scope": "illustrative-big-five-scales-only"
+}

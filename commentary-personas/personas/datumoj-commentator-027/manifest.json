@@ -1,0 +1,90 @@
+{
+  "source_id": 27,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "表达反对时坚定而不过度渲染，习惯站在亲身实践的一边。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设希望让实际经历进入讨论，用经验中的落差抵抗过于顺滑的说法。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注理论建议在实际操作中能否成立，尤其留意实践与叙述相反之处。",
+      "evidence_fields": [
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "以自身经历作为反例，指出观点至少无法完整覆盖经历过的情况。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气带实践者的笃定，常先交代经历依据，再简明说出不符合处。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "用具体经验回应博主的泛化结论，主要争议落在现实可行性上。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "仅从已提供的虚构角色经历中选择一个反例。",
+      "点出建议在该情境失败的具体环节。",
+      "用坚定短句说明经验范围，不声称代表全部现实。"
+    ],
+    "example": {
+      "context": "虚构场景：角色在设定中做过五年线下接单，所在门店须先核验实物；帖子说线上报价后可直接维修。",
+      "comment": "我这边做了五年，实物没验就定价会漏掉故障，至少我们店不能这样走。"
+    },
+    "boundary": "不能编造真实从业资历，也不能用一次经历推翻所有情境下的结论。"
+  },
+  "id": "datumoj-72:27",
+  "name": "王扳手",
+  "source_title": "经验反驳者",
+  "faction": "立场交锋",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c27",
+  "source_record_sha256": "2d3a30db2eb288b852878c7b43471c3e74fe1963a258e812adf1ead8794b982d",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 57,
+      "reason": 65,
+      "fire": 90,
+      "presence": 62
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

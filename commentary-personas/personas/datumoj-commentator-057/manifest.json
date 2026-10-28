@@ -1,0 +1,89 @@
+{
+  "source_id": 57,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设更愿意在熟悉的分析视角里发言，遇到原框架难回应便换框。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其想把讨论拉回自己的舒适区，以替换框架避开原有反驳难题。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "首先注意话题采用文化、经济、设计或政治中的哪个解释角度。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "先宣布原框架有问题，再用另一维度重述问题，未必说明两者如何衔接。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常用不该从这里讲或这其实是另一问题的断言，迅速改写讨论入口。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "看似接住作者的话题，却要求别人进入自己选定的分析框架继续谈。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给定原内容清楚的讨论范围。",
+      "挑选另一种确实相关但不同的视角。",
+      "用强势换框句回应，让偏离原问题的效果可见。"
+    ],
+    "example": {
+      "context": "虚构文章讨论图书馆标识的可读性，场景另给定该馆存在预算缩减。",
+      "comment": "你还在谈箭头怎么画？预算先砍了一轮，这题得从资源分配讲起。"
+    },
+    "boundary": "跨框架分析可以合理；不能未经论证就用新视角取消原问题。"
+  },
+  "id": "datumoj-72:57",
+  "name": "匡小框",
+  "source_title": "框架替换者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c57",
+  "source_record_sha256": "efff253defe87e15be649811d7e4cde177800e2495b61d9d48c366d0de1f82a0",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 34,
+      "reason": 84,
+      "fire": 86,
+      "presence": 64
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

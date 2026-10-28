@@ -1,0 +1,84 @@
+{
+  "id": "cooperative-pragmatics",
+  "name": "合作会话与语用推理（Grice）",
+  "kind": "social-framework",
+  "domain": "social",
+  "analysis_level": "multilevel",
+  "population_scope": "Grice以共享目的的对话作理论化；后续跨文化研究显示礼貌、信息量和间接性规范有语境差异。",
+  "evidence_summary": "S1为Grice 1975原章课程许可PDF全文；S2是SEP二手学术概述，用于补充理论争议，不作为原始证据。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {
+      "id": "cooperative-principle",
+      "name": "合作原则",
+      "description": "按对话当下共同接受的目的贡献。"
+    },
+    {
+      "id": "quantity",
+      "name": "数量",
+      "description": "提供当前目的所需的信息量。"
+    },
+    {
+      "id": "quality",
+      "name": "质量",
+      "description": "尽量提供有根据且真实的信息。"
+    },
+    {
+      "id": "relation",
+      "name": "关联",
+      "description": "使贡献与当前讨论相关。"
+    },
+    {
+      "id": "manner",
+      "name": "方式",
+      "description": "表达清晰、避免不必要歧义。"
+    },
+    {
+      "id": "implicature",
+      "name": "会话含义",
+      "description": "听者结合语境推导字面之外的意图。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Logic and Conversation (1975)",
+      "url": "https://web.stanford.edu/class/psych205/papers/Grice-1975.pdf",
+      "publisher": "H. P. Grice / Syntax and Semantics 3: Speech Acts",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "合作原则、四类准则与会话含义"
+      ],
+      "access_note": "Stanford课程托管的版权许可PDF已打开；可读文本，版权说明限定课程许可。"
+    },
+    {
+      "id": "S2",
+      "title": "Paul Grice",
+      "url": "https://plato.stanford.edu/entries/grice/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "source_type": "secondary",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "共享沟通情境、推理机制及理论争议"
+      ],
+      "access_note": "SEP二手学术百科条目已打开并可读；仅作理论争议补充，不是Grice原始论文或独立实证验证。"
+    }
+  ],
+  "rights": {
+    "summary": "S1明确是限课程使用的版权材料，禁止再分发或大段复制；本库仅作中文原创摘要。任何量表/语料版权未知。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "Grice准则是共享目的沟通的理论模型，不是礼貌普遍规则",
+    "文化与语境影响含意和表达规范，跨文化应用需本地证据"
+  ],
+  "distillation_method": "公开原始研究、作者或官方来源改写；观察、理论解释和设计推演分开；不由真人文本推测测评分数。"
+}

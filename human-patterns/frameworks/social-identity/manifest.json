@@ -1,0 +1,27 @@
+{
+  "id": "social-identity",
+  "name": "社会认同与群际行为理论",
+  "kind": "social-framework",
+  "domain": "social",
+  "analysis_level": "multilevel",
+  "population_scope": "理论关注群体身份和群际比较；已读实证摘要包含最低群体分类研究与62名14至15岁学生的奖励分配实验，不代表所有文化、年龄或现实群体冲突。",
+  "evidence_summary": "S1为Tajfel与Turner原章节PDF（无法抽取正文，仅索引片段）；S2 Turner 1975作者论文摘要可读，提出身份与群际比较/社会竞争解释；S3 Turner、Brown、Tajfel 1979原始实验摘要可读。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开理论原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {"id":"categorization","name":"社会分类","description":"特定社会类别在情境中被凸显；作者章节索引片段将类别与自我定位相连，但完整定义未能直接核读。"},
+    {"id":"identification","name":"社会认同","description":"群体归属与自我理解相关；不能由旁观者贴标签替代当事人的身份认同证据。"},
+    {"id":"comparison","name":"群际比较","description":"Turner 1975摘要把社会比较与群体差异化、积极群体身份联系起来；不是所有群际偏袒的唯一原因。"},
+    {"id":"context","name":"比较与利益情境","description":"Turner等1979研究显示相关外群体可比性和利益结构与该实验的群际分配有关；不把实验因素等同于普遍规律。"}
+  ],
+  "sources": [
+    {"id":"S1","title":"The Social Identity Theory of Intergroup Behavior","url":"https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Intergroup_Conflict/Tajfel_%26_Turner_Psych_of_Intergroup_Relations_CH1_Social_Identity_Theory.pdf","publisher":"Henri Tajfel & John C. Turner / Psychology of Intergroup Relations","source_type":"author","accessed_at":"2026-10-28","supports":["理论原章；索引片段涉及群体身份的自我定义及群际比较"],"access_note":"10页PDF已打开但正文提取失败；仅读到搜索索引返回的作者章节片段，不称全文核验。"},
+    {"id":"S2","title":"Social comparison and social identity: Some prospects for intergroup behaviour (1975)","url":"https://onlinelibrary.wiley.com/doi/10.1002/ejsp.2420050102","publisher":"John C. Turner / European Journal of Social Psychology","source_type":"author","accessed_at":"2026-10-28","supports":["作者摘要提出社会比较、积极群体身份与群际差异化的关系","作者摘要区分社会竞争与现实利益竞争"],"access_note":"Wiley作者论文页面已打开并读到完整摘要；全文访问受限，摘要以外不作断言。"},
+    {"id":"S3","title":"Social comparison and group interest in ingroup favouritism (1979)","url":"https://onlinelibrary.wiley.com/doi/10.1002/ejsp.2420090207","publisher":"J. C. Turner, R. J. Brown & H. Tajfel / European Journal of Social Psychology","source_type":"primary-study","accessed_at":"2026-10-28","supports":["原始摘要报告奖励金额、外群体可比性、内群体偏袒与个人/群体利益的实验关系","摘要报告62名14至15岁学生实验及具体分配结果"],"access_note":"Wiley原始研究页面已打开并读到完整摘要；全文方法与分析未核读。"}
+  ],
+  "rights": {"summary":"理论章节与论文受版权保护；仅作原创概述，不转载长段内容或测量材料；PDF再发布许可未知。","item_reproduction":"not-included","source_ids":["S1","S2","S3"]},
+  "known_gaps": ["Tajfel与Turner理论章节正文不可提取，故其细分概念保持保守","摘要和实验为特定历史样本；理论构件不能替代个体访谈、结构资料或跨文化证据"],
+  "distillation_method":"公开作者或原始研究改写；把可见理论摘要、特定研究结果与应用推演分开；不由真人文本推测测评分数。"
+}

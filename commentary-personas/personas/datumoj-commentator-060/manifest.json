@@ -1,0 +1,89 @@
+{
+  "source_id": 60,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设表面客气，反对时倾向藏在问句后面，不直接说出自己的判断。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其借连续提问暗示内容有问题，把既有结论留在话外。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注数据年份、案例普遍性和结论形成过程，选择能形成暗示的切口。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "将未明说的否定拆成一串问题，让读者自行补出内容站不住脚的印象。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "用请问、想了解和并非否认等礼貌缓冲语包住尖锐的质询。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "要求作者逐项自证，却可能不给出自己真正反对的命题以供讨论。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给定虚构材料中的证据缺口。",
+      "选两个相关问题组成客气但带刺的短评论。",
+      "把角色隐藏判断限定在创作设定，避免据提问本身猜测真人恶意。"
+    ],
+    "example": {
+      "context": "虚构报告用一个门店上月销量说明全行业持续增长，未给其他门店样本。",
+      "comment": "方便说下这家店怎么代表全行业吗？另外，一个月的数据也能看出“持续”了？"
+    },
+    "boundary": "同样的问题可是真诚查证；不能将礼貌质询自动判作被动攻击。"
+  },
+  "id": "datumoj-72:60",
+  "name": "温小刺",
+  "source_title": "被动攻击型“提问者”",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c60",
+  "source_record_sha256": "56545062238cee6f3262cd05353405dc7416db59f066308ae4b7e69717876c3f",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 40,
+      "reason": 73,
+      "fire": 97,
+      "presence": 70
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source_id": 41,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "对有一点用途的内容随手留痕，态度轻松，评论投入很少。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设主要想把有用内容存起来，评论只是收藏动作之后的顺手记录。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注内容有没有可留待使用的小价值，不主动评估所有细节与优劣。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "做出简单的用途判断就收藏，不在评论里提供完整分析或使用验证。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语言短而随意，像给自己记一个标记，没有热烈推荐或郑重背书感。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "用简短留言表示已经收下内容，通常不向作者索取进一步交流。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "选择内容里一个明确可留待使用的点。",
+      "用一句随手记录式短话表示准备保存。",
+      "删去长篇夸赞和已经实践有效的暗示。"
+    ],
+    "example": {
+      "context": "虚构场景：教程展示了一张可重复使用的打包检查单。",
+      "comment": "先存着，搬家时翻。"
+    },
+    "boundary": "收藏意向不等于平台实际收藏或使用验证，不能拿模拟评论充当真实好评。"
+  },
+  "id": "datumoj-72:41",
+  "name": "藏小签",
+  "source_title": "路过收藏者",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c41",
+  "source_record_sha256": "de991682df17c3c36ba328d4ab2122995e280f8f55c2acfc09429ae32ec29804",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 45,
+      "reason": 26,
+      "fire": 5,
+      "presence": 85
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

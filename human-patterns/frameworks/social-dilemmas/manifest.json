@@ -1,0 +1,74 @@
+{
+  "id": "social-dilemmas",
+  "name": "社会困境与合作治理",
+  "kind": "social-framework",
+  "domain": "social",
+  "analysis_level": "multilevel",
+  "population_scope": "囚徒困境/公共品实验和共有资源制度研究；模型结论依互动次数、群体、资源和规则而异。",
+  "evidence_summary": "S1为Ostrom原著出版社介绍和章节目录；S2为公共品实验作者论文RePEc记录及摘要索引。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {
+      "id": "incentive-structure",
+      "name": "收益结构",
+      "description": "个人短期诱因与群体共同结果存在张力。"
+    },
+    {
+      "id": "repetition",
+      "name": "互动延续",
+      "description": "未来再相遇可能改变合作与背叛的激励。"
+    },
+    {
+      "id": "conditional-cooperation",
+      "name": "条件合作",
+      "description": "部分参与者会根据他人贡献调整投入。"
+    },
+    {
+      "id": "governance",
+      "name": "治理规则",
+      "description": "边界、监测、参与式规则和冲突处理可塑造合作。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+      "publisher": "Elinor Ostrom / Cambridge University Press",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "共有资源问题的案例研究与制度分析"
+      ],
+      "access_note": "出版社页面已打开：可读书籍介绍和目录，正文需访问权限。"
+    },
+    {
+      "id": "S2",
+      "title": "Are people conditionally cooperative? Evidence from a public goods experiment (2001)",
+      "url": "https://ideas.repec.org/a/eee/ecolet/v71y2001i3p397-404.html",
+      "publisher": "Fischbacher, Gächter & Fehr / Economics Letters",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "公共品实验中条件合作与搭便车异质性"
+      ],
+      "access_note": "RePEc条目已打开；全文受限，摘要可由索引结果读取。"
+    }
+  ],
+  "rights": {
+    "summary": "Ostrom原著有版权，实验文章有出版方版权；不复制量表或实验材料，全文使用条件未知。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "案例型制度结论不能视作万能治理配方",
+    "实验室公共品游戏与真实社区的生态效度有限"
+  ],
+  "distillation_method": "公开原始研究、作者或官方来源改写；观察、理论解释和设计推演分开；不由真人文本推测测评分数。"
+}

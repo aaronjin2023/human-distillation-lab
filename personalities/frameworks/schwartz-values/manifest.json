@@ -1,0 +1,112 @@
+{
+  "id": "schwartz-values",
+  "name": "Schwartz 基本人类价值观",
+  "kind": "values-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架摘要与原创设计推演；不提供测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "self-direction",
+      "name": "自主",
+      "description": "重视独立思考与选择"
+    },
+    {
+      "id": "stimulation",
+      "name": "刺激",
+      "description": "重视新奇与挑战"
+    },
+    {
+      "id": "hedonism",
+      "name": "享乐",
+      "description": "重视愉悦体验"
+    },
+    {
+      "id": "achievement",
+      "name": "成就",
+      "description": "重视符合社会标准的成功"
+    },
+    {
+      "id": "power",
+      "name": "权力",
+      "description": "重视地位与资源控制"
+    },
+    {
+      "id": "security",
+      "name": "安全",
+      "description": "重视个人与共同生活的稳定"
+    },
+    {
+      "id": "conformity",
+      "name": "遵从",
+      "description": "约束可能破坏交往规范的行为"
+    },
+    {
+      "id": "tradition",
+      "name": "传统",
+      "description": "重视传承习俗与观念"
+    },
+    {
+      "id": "benevolence",
+      "name": "仁爱",
+      "description": "重视亲近群体成员的福祉"
+    },
+    {
+      "id": "universalism",
+      "name": "普遍关怀",
+      "description": "重视更广泛的人与自然"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "An Overview of the Schwartz Theory of Basic Values（2012）",
+      "url": "https://scholarworks.gvsu.edu/orpc/vol2/iss1/11/",
+      "publisher": "Shalom H. Schwartz / IACCP",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "十价值、环状结构、SVS与PVQ、文章许可"
+      ],
+      "access_note": "出版页与摘要；本站PDF返回403，正文经S2镜像查阅"
+    },
+    {
+      "id": "S2",
+      "title": "作者原文PDF镜像：An Overview of the Schwartz Theory of Basic Values",
+      "url": "https://www.rwlnetwork.org/media/66744/an_overview_of_the_schwartz_theory_of_basic_values.pdf",
+      "publisher": "Shalom H. Schwartz；Real World Learning Network镜像",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "十价值的定义与相对优先级"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Refining the theory of basic individual values（机构收录）",
+      "url": "https://cris.huji.ac.il/en/publications/refining-the-theory-of-basic-individual-values-2/",
+      "publisher": "Schwartz et al. / Hebrew University",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "19价值精细化模型的摘要及研究范围"
+      ],
+      "access_note": "机构收录摘要；未读十九价值研究全文"
+    }
+  ],
+  "rights": {
+    "summary": "S1标注文章CC BY-NC-ND 3.0；不将这一许可泛化到所有SVS/PVQ题本或译本。本库仅作简要原创概念说明和设计推演，不提供文章译本、量表或评分键。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "19价值版本仅核对机构摘要，未逐项蒸馏；本条维度明确采用十价值版本。",
+    "未建立中文版常模，也未复核所有PVQ/SVS版本的授权。"
+  ],
+  "distillation_method": "公开来源改写；参考 immortal-skill 与 steamer-skill；设计推演另标"
+}

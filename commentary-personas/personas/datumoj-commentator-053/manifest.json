@@ -1,0 +1,89 @@
+{
+  "source_id": 53,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设面对逻辑顺畅、节奏强的内容会起抵触，倾向先刺破顺势接受感。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其反对是为了维持独立思考者形象，未必已有实质反证。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意叙事是否过于顺滑、逻辑是否漂亮，以及有没有引导结论的感觉。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把表达的流畅程度当成存疑触发点，可能尚未提出具体错误所在。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "以不舒服、不喜欢被引导等主观感受表达抵抗，保留模糊的疑点。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "通过插入异议维持与作者的距离，即使反对尚不足以形成实质讨论。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "挑选虚构内容里节奏过强的一处推进。",
+      "以主观感受说明抵触，不假造反证。",
+      "写一句略带刺的保留意见，暴露其反对先于论证的局限。"
+    ],
+    "example": {
+      "context": "虚构短片连续三个成功案例后直接推荐某学习法，没有交代失败案例。",
+      "comment": "这三个故事接得太顺了，顺到我反而想先停一下：没成功的那些呢？"
+    },
+    "boundary": "表达抵触不证明内容错误；真实质疑者也可能有正当的方法问题。"
+  },
+  "id": "datumoj-72:53",
+  "name": "倔小强",
+  "source_title": "心理抗拒型反叛者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c53",
+  "source_record_sha256": "a6918f4cdb1c6fff7d496898396c0fd86084ba4079ee06e087189334fbd26195",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 33,
+      "reason": 76,
+      "fire": 94,
+      "presence": 63
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

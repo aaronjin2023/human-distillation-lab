@@ -1,0 +1,70 @@
+{
+  "id": "bis-bas",
+  "name": "Carver–White BIS/BAS 动机敏感性",
+  "kind": "motivation-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架摘要与原创设计推演；不提供测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "bis",
+      "name": "行为抑制敏感性",
+      "description": "对不利后果线索的担忧与抑制倾向"
+    },
+    {
+      "id": "bas-drive",
+      "name": "BAS 驱动力",
+      "description": "持续追求目标的倾向"
+    },
+    {
+      "id": "bas-reward-responsiveness",
+      "name": "BAS 奖赏反应",
+      "description": "对预期或获得奖赏的积极反应"
+    },
+    {
+      "id": "bas-fun-seeking",
+      "name": "BAS 乐趣寻求",
+      "description": "寻求新奖赏与迅速接近机会的倾向"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Behavioral Inhibition, Behavioral Activation, and Affective Responses to Impending Reward and Punishment（1994）",
+      "url": "https://scholarship.miami.edu/esploro/outputs/journalArticle/Behavioral-Inhibition-Behavioral-Activation-and-Affective/991031613687602976",
+      "publisher": "Carver & White / University of Miami",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "原始开发研究摘要及BIS/BAS定位"
+      ],
+      "access_note": "机构页面摘要；未读原始论文全文"
+    },
+    {
+      "id": "S2",
+      "title": "A closer look at Carver and White's BIS/BAS scales: Factor analysis and age group differences（2016）",
+      "url": "https://pureadmin.qub.ac.uk/ws/portalfiles/portal/24494952/A_closer_look_at_carver_and_White_s_BISBAS_scales.pdf",
+      "publisher": "Gray, Hanna, Gillen & Rushe / Queen's University Belfast",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "四量表结构、修订RST区别、年龄样本与因素结构限制"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "S2作者稿标注CC BY-NC-ND 4.0；这一论文许可不等于原始BIS/BAS量表许可。原作者旧量表网页本次不可访问，题本复制、翻译与商业使用权利待核；本库仅概述，不收录题项。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "S1只读取机构摘要；未全文复核1994原始研究。",
+    "原作者旧网页不可访问，原始量表使用条件未确认。",
+    "未验证中文量表、年龄等值性或新版RST测量工具。"
+  ],
+  "distillation_method": "公开来源改写；参考 immortal-skill 与 steamer-skill；设计推演另标"
+}

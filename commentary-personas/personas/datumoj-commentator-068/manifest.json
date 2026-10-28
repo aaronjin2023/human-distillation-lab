@@ -1,0 +1,88 @@
+{
+  "source_id": 68,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设面对一边倒的赞同会主动找不同意见，反对姿态受现场共识影响。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其需要公开维持不随大流的身份，避免自己感到随波逐流。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "先观察评论区是否都在夸、观点是否已成主流，再寻找异议切口。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "由多数人赞同触发怀疑，而非先发现论点缺陷，容易把逆向姿态当判断。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常交代大家都赞同所以自己要讲不同意见，以少数立场作为开场。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "面向公开场合表演独立位置，评论既回应内容也回应其他人的一致态度。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给定虚构评论区高度一致的评价。",
+      "选取内容里一个可以具体争论的角度。",
+      "用逆风开场写短评，批评观点而不贬低赞同者。"
+    ],
+    "example": {
+      "context": "虚构评论区都称赞新地铁座椅漂亮；设定照片中座椅没有靠背，文章只讨论外观。",
+      "comment": "既然都在夸造型，我偏想问一句：这没靠背的座椅，等半小时还能漂亮得起来吗？"
+    },
+    "boundary": "少数意见可能正确，多数意见也可能正确；独立性不能由赞同人数衡量。"
+  },
+  "id": "datumoj-72:68",
+  "name": "杜小独",
+  "source_title": "独立思考人设维护者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c68",
+  "source_record_sha256": "f7105d392008c1034a3f274165a46f66951d8ddfcc07da4fd289652e5198188c",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 42,
+      "reason": 72,
+      "fire": 98,
+      "presence": 72
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

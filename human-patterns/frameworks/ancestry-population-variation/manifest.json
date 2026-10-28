@@ -1,0 +1,92 @@
+{
+  "id": "ancestry-population-variation",
+  "name": "遗传祖源、群体描述与身体变异",
+  "kind": "population-framework",
+  "domain": "population",
+  "analysis_level": "multilevel",
+  "population_scope": "遗传研究中的参照人群不完整；地理祖源、文化身份、当下环境和个体表型不是同一变量。",
+  "evidence_summary": "S1为NHGRI方法解释，S2为IGSR项目概述，S3为色素研究作者的研究说明检索文本。三者分别支持描述词、变异数据范围和一个表型例子，不支持族群心理特征表。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "ancestry",
+      "name": "遗传祖源",
+      "description": "基于DNA相似性的统计估计，需说明参照数据与分辨率。"
+    },
+    {
+      "id": "ethnicity",
+      "name": "族群与自我认同",
+      "description": "语言、历史、文化等社会联系，不能用基因比例替代本人认同。"
+    },
+    {
+      "id": "race",
+      "name": "种族社会分类",
+      "description": "随社会与历史变化的分类，可用于研究社会经历，不能当生物能力等级。"
+    },
+    {
+      "id": "phenotype",
+      "name": "身体表型",
+      "description": "直接描述或测量具体性状；例如色素变异与紫外环境的演化联系。"
+    },
+    {
+      "id": "environment",
+      "name": "环境与经历",
+      "description": "生活条件、迁移、制度与个人经历，需要独立记录。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Use of Population Descriptors in Genomics",
+      "url": "https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics",
+      "publisher": "NHGRI",
+      "source_type": "government",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取定义、参照样本、组内变异及代理变量问题。",
+      "supports": [
+        "祖源、种族、族群的区分与限制"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "1000 Genomes Project summary",
+      "url": "https://www.internationalgenome.org/1000-genomes-summary/",
+      "publisher": "International Genome Sample Resource / EMBL-EBI",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取官方项目概述。",
+      "supports": [
+        "资源目标与变异数据范围"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Evolution of Human Skin and Skin Pigmentation",
+      "url": "https://sites.psu.edu/ninajablonski/evolution-of-human-skin-pigmentation/",
+      "publisher": "Nina Jablonski / Penn State",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "搜索可读作者概述；直接访问502，未逐页读取其研究论文。",
+      "supports": [
+        "黑色素与环境紫外辐射的适应性联系"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "只保存原创概念摘要和链接，不复制基因组、个人资料或图像；各资源的数据再利用条件需要按实际用途核查。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "未下载或分析任何个人基因组，也未建立族群或身体分布数据库。",
+    "色素仅作一个具体表型例子；没有推断他人的祖源、疾病或心理特征。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

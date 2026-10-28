@@ -1,0 +1,70 @@
+{
+  "id": "virginia-apgar",
+  "name": "Virginia Apgar",
+  "name_zh": "维吉尼亚·阿普加",
+  "kind": "expert-method",
+  "domain": "medicine",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "仅提取Apgar公开的新生儿标准化观察与记录设计；不对现实婴儿打分、诊断、建议复苏或推断个体远期结局。",
+  "source_works": [
+    "Apgar V. A Proposal for a New Method of Evaluation of the Newborn Infant. Current Researches in Anesthesia and Analgesia. 1953;32:260–267."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "A Proposal for a New Method of Evaluation of the Newborn Infant",
+      "url": "https://neonatology.net/history/classic-books/a-proposal-apgar/",
+      "publisher": "Neonatology on the Web（1953原文转录；原刊 Current Researches in Anesthesia and Analgesia）",
+      "source_type": "primary_article_transcription",
+      "accessed_at": "2026-10-28",
+      "access_note": "实际打开并阅读原文转录全文；二级网站托管，页面标明原刊、卷页和演讲日期。历史分组数据仅视为原文时代材料，不外推现代预测结论。",
+      "supports": [
+        "五项可观察表现及0至2记录方式",
+        "标准化短时观察用于交流和比较的原始目的"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Biography: Dr. Virginia Apgar",
+      "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_virginia_apgar.html?id=item-13",
+      "publisher": "U.S. National Library of Medicine",
+      "source_type": "official_institutional_biography",
+      "accessed_at": "2026-10-28",
+      "access_note": "实际打开并阅读相关全文；用于历史贡献背景，不用来替代当代临床限制。",
+      "supports": [
+        "Apgar设计的标准化新生儿转归评估历史背景及五项观察"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Apgar Score, Committee Opinion No. 644",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/10/the-apgar-score",
+      "publisher": "American College of Obstetricians and Gynecologists 与 American Academy of Pediatrics",
+      "source_type": "joint_professional_guidance",
+      "accessed_at": "2026-10-28",
+      "access_note": "搜索结果返回该官方指南摘要与相关全文段落；直接打开正文返回402限制。仅按可见官方文字记录：不能预测个体死亡/神经结局，不能单独诊断窒息，也不应作为决定初始复苏步骤的工具。",
+      "supports": [
+        "当代临床限制：不用于个体长期结局预测/单独诊断窒息",
+        "复苏期间评分与自主呼吸状态评分不可等同"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "仅写基于来源可见内容的原创摘要与方法推演；原始论文、书籍、机构网页的版权/许可各异，本条目不主张转授或开放许可。详细权利状态待逐项核验。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "这是一份来源有限的研究蒸馏草稿，不替代完整专著/当前指南或专业判断。",
+    "权利条款未逐项核验；未复制量表、计分钥匙或大段来源原文。",
+    "所引2015年专业意见本轮仅核可见内容，未核验其现行状态及全部后续规范。"
+  ],
+  "distillation_method": "只据列明的公开原始论述与权威机构材料进行中文原创归纳；推演内容在正文标记为原创设计推演，不蒸私生活、不做诊断。",
+  "legacy_refs": []
+}

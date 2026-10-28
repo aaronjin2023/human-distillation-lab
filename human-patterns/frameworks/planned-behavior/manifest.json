@@ -1,0 +1,78 @@
+{
+  "id": "planned-behavior",
+  "name": "计划行为理论（Theory of Planned Behavior）",
+  "kind": "behavior-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要与明确标注的设计推演；不是对真人施测、诊断或分数推断",
+  "domain": "behavior",
+  "analysis_level": "individual",
+  "evidence_summary": "1991原文的摘要主张在多类行为研究中态度、规范和感知控制可预测意向，意向与控制可解释行为差异；作者也讨论未决问题。此为模型论文概述，不代表个体或所有行为均能被准确预测。",
+  "population_scope": "研究跨越多种行为与样本，但预测精度取决于目标行为、群体与可控条件。面对制度约束、习惯行为或团队协同行为时，需纳入客观情境变量。",
+  "dimensions": [
+    {
+      "id": "attitude",
+      "name": "行为态度",
+      "description": "对执行特定行为后果的评价，包含工具性与体验性判断。"
+    },
+    {
+      "id": "subjective_norm",
+      "name": "主观规范",
+      "description": "个体感知到重要他人是否赞成/期待该行为。"
+    },
+    {
+      "id": "perceived_control",
+      "name": "感知行为控制",
+      "description": "个体认为自己能否掌控执行条件；不等于客观资源。"
+    },
+    {
+      "id": "intention",
+      "name": "行为意向",
+      "description": "对未来执行目标行为的准备或计划。"
+    },
+    {
+      "id": "behavior",
+      "name": "行为",
+      "description": "有明确行为、目标、情境与时间指向的实际行动。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The theory of planned behavior（1991）",
+      "url": "https://people.umass.edu/aizen/obhdp.html",
+      "publisher": "Icek Ajzen, author website",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "原文题录及个人/商业使用许可提示"
+      ],
+      "access_note": "已打开作者网站，读取论文题录与版权提示；原文全文需通过页面申请，本条未据此声称通读。"
+    },
+    {
+      "id": "S2",
+      "title": "The theory of planned behavior",
+      "url": "https://www.sciencedirect.com/science/article/pii/074959789190020T",
+      "publisher": "Ajzen, Organizational Behavior and Human Decision Processes, 1991",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "期刊页摘要所述态度、规范、控制与意向/行为关系及未决问题"
+      ],
+      "access_note": "检索结果显示期刊页摘要；未打开全文。"
+    }
+  ],
+  "rights": {
+    "summary": "Ajzen作者页说明原文个人用途可申请，进一步分发、出版或商业用途需出版社许可；本条只做原创概述，不复用论文全文或测量题目。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "经典模型主要组织意向预测变量，变量间关系取决于行为定义和情境；意向行为鸿沟与客观控制会限制预测。作者页面说明1991原文版权条件，正式测量须遵从来源方法，不将理论组件变成未经验证的自制量表。"
+  ],
+  "distillation_method": "访问公开作者/原始研究/官方来源后原创改写；对专家组合规则明确标为设计推演"
+}

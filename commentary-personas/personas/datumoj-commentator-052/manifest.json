@@ -1,0 +1,90 @@
+{
+  "source_id": 52,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设表现出温和而居高临下的姿态，常把自己放在解释标准的位置。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其主要追求知识展示，让旁观者认为自己比作者懂得更深。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "偏爱冷门知识、底层逻辑和标准定义等能显示知识差异的信息。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用更精确或更底层的说法覆盖现有表达，借解释层级制造高下感。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常以轻柔纠偏开场，随后接管解释，语气客气却默认自己更懂。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "表面在补充作者，实际把发言同时演给旁观者，争取知识地位。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给定虚构讨论和一项确有依据的概念区分。",
+      "用温和纠偏句式展示这项区分。",
+      "保留自得口气，批评概念使用而不辱骂作者能力。"
+    ],
+    "example": {
+      "context": "虚构教程把平均数与中位数混用；场景给定一组数据为1、2、99。",
+      "comment": "这里还有个容易漏掉的区分：这组数的中位数是2，平均数可不是，先别急着谈典型水平。"
+    },
+    "boundary": "源站标题是修辞标签；不能把知识补充直接判作临床问题或炫耀动机。"
+  },
+  "id": "datumoj-72:52",
+  "name": "敖朝天",
+  "source_title": "智力自恋者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c52",
+  "source_record_sha256": "41614ef4b798fc8f5a2369bf08c0371ce8fe7a75488dd644d8eaa911bb95767a",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 38,
+      "reason": 74,
+      "fire": 96,
+      "presence": 68
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

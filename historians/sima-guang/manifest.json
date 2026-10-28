@@ -1,0 +1,75 @@
+{
+  "id": "sima-guang",
+  "name": "Sima Guang",
+  "name_zh": "司马光",
+  "kind": "expert-method",
+  "domain": "history",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "只提取《通鉴》《考异》可见文本中的编年、异文处理和史论结构，不写个人心理画像。",
+  "source_works": [
+    "《资治通鉴》",
+    "《资治通鉴考异》",
+    "《进资治通鉴表》"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "《进资治通鉴表》",
+      "url": "https://www.shidianguji.com/book/SK0742/chapter/1kfe1n3xjh63q",
+      "publisher": "识典古籍；宋司马光原文",
+      "source_type": "primary-text",
+      "access_note": "页面实际打开并通读进书表段落。司马光自述编纂缘起、奉诏选属官、置局、借书及《考异》；电子转录本，不是宋刊影印校勘。",
+      "supports": [
+        "全书按年编排和取舍君臣事迹的目标",
+        "编纂涉及官属、书局和多馆藏书",
+        "司马光自述旁采小说、考订群书，并承认抵牾不能自保"
+      ],
+      "accessed_at": "2026-10-28"
+    },
+    {
+      "id": "S2",
+      "title": "《资治通鉴》卷一·周纪一",
+      "url": "https://www.shidianguji.com/book/SBCK029/chapter/SBCK029_2",
+      "publisher": "识典古籍；司马光撰、胡三省音注",
+      "source_type": "primary-text",
+      "access_note": "卷一可读原文已打开，重点核读晋国三家获命为诸侯后的史事与“臣光曰”论赞；现代网页转录，未核纸本版刻异文。",
+      "supports": [
+        "编年史事后附作者评论的结构",
+        "作者以“礼、分、名”解释威烈王命三晋为诸侯的政治后果"
+      ],
+      "accessed_at": "2026-10-28"
+    },
+    {
+      "id": "S3",
+      "title": "《资治通鉴考异》",
+      "url": "https://zh.wikisource.org/zh-hans/資治通鑑考異",
+      "publisher": "宋司马光原著；维基文库《四库全书》底本转录",
+      "source_type": "primary-text",
+      "access_note": "目录及书目说明已打开；页面注明文字据文渊阁四库本校正、标点未人工通校。该页面本轮未能提取各卷正文，具体操作由S1中作者对《考异》的自述支撑。",
+      "supports": [
+        "《考异》作为配套三十卷的书目与编排信息",
+        "转录、标点和底本存在版本限制"
+      ],
+      "accessed_at": "2026-10-28"
+    }
+  ],
+  "rights": {
+    "summary": "本条为原创中文方法摘要；史书原文及学术文章各有其版权或公版状态，具体重用条件按来源页面为准。未复制长段原文、私人材料或题库。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "直接读到《进资治通鉴表》和卷一；《考异》仅核对目录及版本说明，未逐卷读正文。",
+    "进书表是作者的呈进文字，兼有自谦、谢恩和申请阅览语境，不等同于现代工作日志。"
+  ],
+  "distillation_method": "实际打开原文或作者/机构学术材料后进行原创摘要；将作者主张、后世研究、文本局限和本条设计推演分开。",
+  "legacy_refs": [
+    "landscape-designers/sima-guang"
+  ]
+}

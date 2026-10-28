@@ -1,0 +1,11 @@
+{
+  "finding": "P2: retained tension support omitted from export",
+  "resolution": "Export complete frozen model-input synopsis; label tension notes as whole-excerpt review without individual sentence indices. Validate unit count, consecutive indices and content hash.",
+  "checks": {
+    "goldfinch_s24_present_in_evidence_and_card": true,
+    "all_40_goldfinch_source_units_retained": true,
+    "missing_s24_rejected_by_validator": true
+  },
+  "status": "fixed-and-locally-verified",
+  "independent_review": "delivery-audit-astra.md; no second Astra invocation performed"
+}

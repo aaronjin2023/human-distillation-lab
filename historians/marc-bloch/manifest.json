@@ -1,0 +1,58 @@
+{
+  "id": "marc-bloch",
+  "name": "Marc Bloch",
+  "name_zh": "马克·布洛赫",
+  "kind": "expert-method",
+  "domain": "history",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "只蒸馏可见方法论文本及手稿研究，不从布洛赫的战争经历臆测心理；所有重构规则注明作者原文、编辑整理或本条推演。",
+  "source_works": [
+    "《为历史辩护：历史学家的技艺》",
+    "《奇异的失败》"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Apologie pour l’histoire ou métier d’historien（1941稿本，电子版导言与全文下载）",
+      "url": "https://classiques.uqam.ca/classiques/bloch_marc/apologie_histoire/apologie_histoire_intro.html",
+      "publisher": "Marc Bloch原文；Les Classiques des sciences sociales / Université du Québec à Chicoutimi数字馆藏",
+      "source_type": "primary-text",
+      "access_note": "导言已实际打开并读到布洛赫自述因战时无法使用图书馆、需依赖笔记且承认查证缺口；馆藏页另提供116页全文PDF/RTF下载。本轮未逐页通读全部下载正文。",
+      "supports": [
+        "史学方法须说明如何工作以及历史解释的合法性",
+        "布洛赫对自身资料条件、核查限制的明示",
+        "目录显示原著涵盖历史观察、证言、批判与理解"
+      ],
+      "accessed_at": "2026-10-28"
+    },
+    {
+      "id": "S2",
+      "title": "Le manuscrit interrompu : Métier d'historien de Marc Bloch (1989)",
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1989_num_44_1_283581",
+      "publisher": "Massimo Mastrogregori / Annales，Persée数字平台",
+      "source_type": "scholarly",
+      "access_note": "研究论文页面与正文片段已打开。研究者重建手稿进度，指出现存稿本在第四章之后未完成；属后来的手稿研究，不是布洛赫自述。",
+      "supports": [
+        "原著经历多轮写作与结构修订",
+        "现存《历史学家的技艺》稿本未完成，编辑出版文本不能被误称为作者最终定稿"
+      ],
+      "accessed_at": "2026-10-28"
+    }
+  ],
+  "rights": {
+    "summary": "本条为原创中文方法摘要；史书原文及学术文章各有其版权或公版状态，具体重用条件按来源页面为准。未复制长段原文、私人材料或题库。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "实际直接阅读了原著电子版导言，而未逐页通读全书；正文全文下载可得但本轮未做全文核验。",
+    "手稿未完成的具体进度依据Mastrogregori的研究，编辑出版层次和原稿不完全等同。"
+  ],
+  "distillation_method": "实际打开原文或作者/机构学术材料后进行原创摘要；将作者主张、后世研究、文本局限和本条设计推演分开。",
+  "legacy_refs": []
+}

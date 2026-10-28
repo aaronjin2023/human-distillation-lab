@@ -1,0 +1,63 @@
+{
+  "id": "16personalities",
+  "name": "16Personalities NERIS",
+  "kind": "trait-model",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要，不是测评服务或真人画像。",
+  "dimensions": [
+    {
+      "id": "energy",
+      "name": "Energy",
+      "description": "外倾与内倾"
+    },
+    {
+      "id": "mind",
+      "name": "Mind",
+      "description": "观察与直觉"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "description": "思考与情感"
+    },
+    {
+      "id": "tactics",
+      "name": "Tactics",
+      "description": "判断与展望"
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "description": "坚定A与动荡T；不等于MBTI维度"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Our Framework",
+      "url": "https://www.16personalities.com/articles/our-theory",
+      "publisher": "16Personalities",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "核心维度定义",
+        "框架边界"
+      ],
+      "access_note": "已打开来源页面的框架说明；未独立复核完整技术手册或所有效度研究"
+    }
+  ],
+  "rights": {
+    "summary": "NERIS虽采用相似字母呈现，但不是MBTI正式测量；不可跨量表换算。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1"
+    ]
+  },
+  "known_gaps": [
+    "需要按具体商业版本进一步核实材料许可与测量证据",
+    "来源机构材料不自动构成独立验证"
+  ],
+  "distillation_method": "公开来源原创中文摘要；参考 immortal-skill 与 steamer-skill；行为应用另标为设计推演"
+}

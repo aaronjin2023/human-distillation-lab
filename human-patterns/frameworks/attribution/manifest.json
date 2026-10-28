@@ -1,0 +1,26 @@
+{
+  "id": "attribution",
+  "name": "归因与因果解释框架",
+  "kind": "social-framework",
+  "domain": "social",
+  "analysis_level": "individual",
+  "population_scope": "Heider日常人际解释理论及Kelley因果归因论述；只适用于具体行为和当时可得信息，不推断群体或稳定人格。",
+  "evidence_summary": "S1仅是Heider原著书目；S2 Kelley 1973作者论文预览可读到理论目的、共变/构型两种陈述及个人与情境例子，全文不可读。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {"id":"person-situation","name":"个人与情境解释","description":"对同一行为并列考虑行动者特征与情境压力；这是竞争解释，不是二选一的确定裁决。"},
+    {"id":"covariation","name":"共变陈述","description":"Kelley将共变作为一种因果解释框架；重复观察的操作化细节不在本条已读片段中展开。"},
+    {"id":"configuration","name":"构型陈述","description":"Kelley与共变并列讨论构型解释；此处不把具体规则伪装成已独立复核的标准算法。"},
+    {"id":"uncertainty","name":"证据不确定性","description":"前见、新信息、复杂图式和归因错觉都可能影响判断。"}
+  ],
+  "sources": [
+    {"id":"S1","title":"The Psychology of Interpersonal Relations (1958)","url":"https://ndlsearch.ndl.go.jp/books/R100000136-I1362544419057178368","publisher":"Fritz Heider / John Wiley & Sons","source_type":"author","accessed_at":"2026-10-28","supports":["Heider原著作者、年代与书目主题"],"access_note":"NDL书目页已打开；只核实书目信息，未读原书正文。"},
+    {"id":"S2","title":"The processes of causal attribution (1973)","url":"https://www.researchgate.net/publication/235413106_The_processes_of_causal_attribution","publisher":"Harold H. Kelley / American Psychologist（APA publisher preview）","source_type":"author","accessed_at":"2026-10-28","supports":["作者摘要明确并列共变与构型两种归因理论陈述","预览正文将归因定义为回答为何，并举人物特征/情境压力及能力/试题难度的竞争解释","摘要提及先前观念、新信息、因果图式与归因错觉"],"access_note":"作者论文APA出版方预览已实际打开并读到摘要及前几页概念段落；平台说明全文需向作者申请，故非全文核验。"}
+  ],
+  "rights": {"summary":"原书与论文版权归出版方/权利人；只作中文原创概述，不复制题项、计分钥匙或长段原文；再使用许可未知。","item_reproduction":"not-included","source_ids":["S1","S2"]},
+  "known_gaps": ["Heider原著未读；Kelley仅读到预览，不声称掌握其全文全部原则","该框架描述解释过程，不能由族群、一次结果或刻板印象推定原因"],
+  "distillation_method":"公开作者或原始来源改写；区分观察、理论解释与设计推演；不由真人文本推测测评分数。"
+}

@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-10-28T08:56:38.165766+00:00",
+  "status": "pass",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/build_commentary_personas.py",
+        "self-test"
+      ],
+      "exit_code": 0,
+      "output_tail": "Self-test passed: evidence binding, unique dimensions/IDs, hidden slots excluded\n",
+      "output_sha256": "5bcbc071c472b9c1ef832095802c7251f8f21fd01a5b04a2ed89e216a3e1521f"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_commentary_personas.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "output_tail": "Commentary persona validation passed\n",
+      "output_sha256": "b480eddb41cf6051b3809422ca5bbfa9e3404acfc40e7afa30f2eaf5fdcd2414"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_library.py"
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"frameworks\": 43,\n  \"collections\": {\n    \"personalities\": 19,\n    \"human-patterns\": 24\n  },\n  \"source_records\": 88,\n  \"reviewed_people\": 1,\n  \"profiles\": 1,\n  \"local_links\": 192,\n  \"status\": \"passed\"\n}\n",
+      "output_sha256": "2326568c85f5ae6d80f4e829f5bd8de6085e5a1b9ca6cad1df064f96c772f522"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_experts.py"
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"domains\": {\n    \"medicine\": {\n      \"existing\": 20,\n      \"new\": 4,\n      \"total\": 24\n    },\n    \"history\": {\n      \"existing\": 6,\n      \"new\": 6,\n      \"total\": 12\n    },\n    \"education\": {\n      \"existing\": 100,\n      \"new\": 0,\n      \"total\": 100\n    },\n    \"politics\": {\n      \"existing\": 20,\n      \"new\": 12,\n      \"total\": 32\n    }\n  },\n  \"new_experts\": 22,\n  \"new_source_records\": 67,\n  \"local_links\": 398,\n  \"status\": \"passed\"\n}\n",
+      "output_sha256": "97ff68590486b768ab8bffd2160303d57a33b9a2bba5d5523ab2a290595774ab"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_characters.py",
+        "validate",
+        "--complete"
+      ],
+      "exit_code": 0,
+      "output_tail": "Character library validation passed\n",
+      "output_sha256": "ec9ed76fb1c7c46860360171826011e7f0ccd5f18d0152a532e3bead48875cf3"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_tail": "",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "existing-serena-python",
+        "skill-creator/quick_validate.py",
+        "commentary-personas root and 69 cards"
+      ],
+      "exit_code": 0,
+      "output_tail": "Skills checked: 70 Passed: 70\n",
+      "output_sha256": "f24eb2eff5949334c01736ee637b9e60cd06623e0f17e75d333a47acfde9d98c"
+    }
+  ]
+}

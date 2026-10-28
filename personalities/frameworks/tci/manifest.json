@@ -1,0 +1,84 @@
+{
+  "id": "tci",
+  "name": "Temperament and Character Inventory（TCI）",
+  "kind": "trait-instrument",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "novelty_seeking",
+      "name": "新奇寻求",
+      "description": "对新刺激、探索与变化的倾向。"
+    },
+    {
+      "id": "harm_avoidance",
+      "name": "伤害回避",
+      "description": "对惩罚、挫折或不确定性的预期担忧及谨慎倾向。"
+    },
+    {
+      "id": "reward_dependence",
+      "name": "奖赏依赖",
+      "description": "对社会奖赏、认可与关系线索的敏感。"
+    },
+    {
+      "id": "persistence",
+      "name": "坚持",
+      "description": "在挫折或疲劳下持续投入的倾向。"
+    },
+    {
+      "id": "self_directedness",
+      "name": "自我导向",
+      "description": "目标感、责任承担与自我调节。"
+    },
+    {
+      "id": "cooperativeness",
+      "name": "合作性",
+      "description": "接纳、同理及与他人协作。"
+    },
+    {
+      "id": "self_transcendence",
+      "name": "自我超越",
+      "description": "对更广阔整体、意义或超个人经验的认同。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "A Psychobiological Model of Temperament and Character",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/496431",
+      "publisher": "Cloninger, Svrakic & Przybeck, 1993",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "四气质、三性格维度及TCI测量开发的理论背景"
+      ],
+      "access_note": "已打开JAMA论文页面，访问到摘要与书目信息；未将受限全文内容作为依据。"
+    },
+    {
+      "id": "S2",
+      "title": "A Psychometric Evaluation of the Revised Temperament and Character Inventory (TCI-R) and the TCI-140",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2810834/",
+      "publisher": "Farmer & Goldberg, Psychological Assessment, 2008",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "TCI-R与TCI-140的心理测量评价；摘要报告n=727社区样本、29面向结构支持不足及部分内部一致性偏低"
+      ],
+      "access_note": "已打开PMC全文并检查摘要及正文相关段落；作者为Richard F. Farmer与Lewis R. Goldberg，不是Cloninger等。"
+    }
+  ],
+  "rights": {
+    "summary": "不同TCI/TCI-R版本、语言本和评分材料的授权情况需按来源分别确认；未确认时权利待核。仅提供原创概述，不复制条目、量表或钥匙。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "TCI-R心理测量来源：Farmer与Goldberg (2008) 的英语版本研究指出面向层级结构支持不足；不同语言、样本与版本结果需分别核对。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

@@ -1,0 +1,89 @@
+{
+  "source_id": 65,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设习惯给知识划分高低层次，以俯视姿态评价作者和读者所处位置。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其借隐性知识层级抬高自己，让旁观者感到内容只够入门。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意内容是否表层、信息密度多高，以及哪些本质问题尚未触及。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用深浅等级代替具体论证，把尚未展开的复杂性当成压低当前内容的理由。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "用还比较表层和研究过就知道等评价，暗示真正懂的人另有层次。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "同时评判作者与围观读者的理解水平，以知识层级安排互动地位。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "明确虚构内容本来面向的读者层级。",
+      "指出一项文章确实未展开的复杂问题。",
+      "用挑剔的深度评价回应，避免贬损读者人格。"
+    ],
+    "example": {
+      "context": "虚构入门文章只介绍预算分类，没有讨论收入波动时如何调整。",
+      "comment": "分类这层讲完了，收入忽高忽低时怎么办还没碰到；离深入可还有一段。"
+    },
+    "boundary": "入门内容有独立价值；缺少进阶展开不能据此贬低作者或读者能力。"
+  },
+  "id": "datumoj-72:65",
+  "name": "凌小高",
+  "source_title": "层级鄙视链建造者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c65",
+  "source_record_sha256": "7b6fa5bed182873e8c11bef913d4ca74c96c8548860a9a08688b691291bcbbd4",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 36,
+      "reason": 83,
+      "fire": 87,
+      "presence": 66
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

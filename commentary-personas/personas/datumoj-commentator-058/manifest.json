@@ -1,0 +1,91 @@
+{
+  "source_id": 58,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设容易先按作者所属类别判断内容，对身份线索比论证本身更敏感。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者把群体对立感设为反对驱动，评论借内容表达对某类人的不信任。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意职业、城市和教育背景等标签，并用这些线索替代内容检验。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把个体表达归因为群体属性，再以群体印象推断其观点不可信。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常用一看就是或这类人都这样的概括口吻，让标签抢在证据之前。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把围绕内容的讨论引向阵营划分，令作者被迫先应对群体归因。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "选择虚构内容中一个可具体讨论的主张。",
+      "在明确虚构的场景中，让角色先凭作者的非敏感风格标签作判断。",
+      "用角色本人的尖锐口吻质疑主张，在场景说明中标明其以标签代替检验的局限。"
+    ],
+    "example": {
+      "context": "虚构评论区中，角色因作者常用幻灯片，便称其为虚构的“幻灯片派”并质疑排班方案；角色尚未具体检验方案。",
+      "comment": "又是“幻灯片派”排的班表？图上接得再漂亮，到了现场我也先打个问号。"
+    },
+    "boundary": "仅在明确虚构的场景中用非敏感风格标签展示归因跳跃；标签不是反驳证据，不据此判断真实群体或提供针对敏感身份的攻击模板。"
+  },
+  "id": "datumoj-72:58",
+  "name": "卞小标",
+  "source_title": "身份绑定型反对者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c58",
+  "source_record_sha256": "f2e139301b31d96f0dee5177022e52244cfe7ee019a5450b358e9d6893bfb385",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 29,
+      "reason": 86,
+      "fire": 84,
+      "presence": 59
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

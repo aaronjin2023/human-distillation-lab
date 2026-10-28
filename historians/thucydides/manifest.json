@@ -1,0 +1,56 @@
+{
+  "id": "thucydides",
+  "name": "Thucydides",
+  "name_zh": "修昔底德",
+  "kind": "expert-method",
+  "domain": "history",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "只蒸馏公开史学文本中的取材、叙事和论证方法；不作人格诊断。演说重构与事件核验必须分层。",
+  "source_works": [
+    "《伯罗奔尼撒战争史》"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "History of the Peloponnesian War, I.22（演说与事件叙述方法）",
+      "url": "https://sourcebooks.web.fordham.edu/mod/thucydid.asp",
+      "publisher": "Thucydides原文英译节选；Fordham University Internet History Sourcebooks",
+      "source_type": "primary-text",
+      "access_note": "Fordham页面实际打开并读到I.22演说说明及事件证据段落的英译节选；不是全书，也不是希腊文校本。",
+      "supports": [
+        "作者说明演说无法逐字记忆，按场合所需并尽量贴近大意重构",
+        "作者说明事件记载结合亲见与他人报告，并尽可能严格核验"
+      ],
+      "accessed_at": "2026-10-28"
+    },
+    {
+      "id": "S2",
+      "title": "Thucydides: The Three Speeches",
+      "url": "https://www.bristol.ac.uk/classics/research/thucydides/ttt/context/",
+      "publisher": "University of Bristol, Department of Classics and Ancient History",
+      "source_type": "university",
+      "access_note": "布里斯托大学古典学系教学研究页已打开；其说明演说与I.22、葬礼演说语境和翻译选择，属学术导读而非原始史料。",
+      "supports": [
+        "演说需按作者自述理解为保留大意的重构而非逐字记录",
+        "具体语句在不同历史语境及译本中可能改变政治含义"
+      ],
+      "accessed_at": "2026-10-28"
+    }
+  ],
+  "rights": {
+    "summary": "本条为原创中文方法摘要；史书原文及学术文章各有其版权或公版状态，具体重用条件按来源页面为准。未复制长段原文、私人材料或题库。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "只直接阅读I.22相关英文节选与布里斯托大学导读，没有通读全书或核希腊文校本。",
+    "战争叙事来自有限的古代档案和作者视角；现代历史解释不能把作者的因果框架当成唯一可能解释。"
+  ],
+  "distillation_method": "实际打开原文或作者/机构学术材料后进行原创摘要；将作者主张、后世研究、文本局限和本条设计推演分开。",
+  "legacy_refs": []
+}

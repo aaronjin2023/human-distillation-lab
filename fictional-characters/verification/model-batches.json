@@ -1,0 +1,3315 @@
+[
+  {
+    "group": "chinese-literature",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 158.1,
+      "usage": {
+        "input_tokens": 65796,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6331,
+        "reasoning_output_tokens": 338
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 76.8,
+      "usage": {
+        "input_tokens": 76414,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2603,
+        "reasoning_output_tokens": 1497
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 20
+  },
+  {
+    "group": "chinese-literature",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 181.9,
+      "usage": {
+        "input_tokens": 90699,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7530,
+        "reasoning_output_tokens": 424
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 70.2,
+      "usage": {
+        "input_tokens": 99993,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2509,
+        "reasoning_output_tokens": 1186
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 21
+  },
+  {
+    "group": "chinese-literature",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 41.1,
+      "usage": {
+        "input_tokens": 34270,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1106,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 15.8,
+      "usage": {
+        "input_tokens": 35712,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 352,
+        "reasoning_output_tokens": 150
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 1,
+    "rejected": 1,
+    "characters": 2
+  },
+  {
+    "group": "chinese-supplement",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 245.4,
+      "usage": {
+        "input_tokens": 55981,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7043,
+        "reasoning_output_tokens": 456
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 127.7,
+      "usage": {
+        "input_tokens": 64696,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3318,
+        "reasoning_output_tokens": 1753
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 10,
+    "rejected": 4,
+    "characters": 20
+  },
+  {
+    "group": "chinese-recovered",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 92.2,
+      "usage": {
+        "input_tokens": 48287,
+        "cached_input_tokens": 13440,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2535,
+        "reasoning_output_tokens": 291
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 45.0,
+      "usage": {
+        "input_tokens": 49148,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1725,
+        "reasoning_output_tokens": 516
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 3,
+    "rejected": 1,
+    "characters": 7
+  },
+  {
+    "group": "global-literature",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 36.3,
+      "usage": {
+        "input_tokens": 40304,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3961,
+        "reasoning_output_tokens": 469
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 82.5,
+      "usage": {
+        "input_tokens": 50150,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3246,
+        "reasoning_output_tokens": 924
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 5,
+    "rejected": 3,
+    "characters": 12
+  },
+  {
+    "group": "global-literature",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 57.6,
+      "usage": {
+        "input_tokens": 43049,
+        "cached_input_tokens": 22016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5754,
+        "reasoning_output_tokens": 169
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 237.2,
+      "usage": {
+        "input_tokens": 52718,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8392,
+        "reasoning_output_tokens": 4142
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 24
+  },
+  {
+    "group": "global-literature",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "usage": {
+        "input_tokens": 43701,
+        "cached_input_tokens": 22016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6024,
+        "reasoning_output_tokens": 0
+      },
+      "note": "Recovered actual successful model output; underfilled work rejected at validation boundary."
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 149.4,
+      "usage": {
+        "input_tokens": 55969,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5674,
+        "reasoning_output_tokens": 2558
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 20
+  },
+  {
+    "group": "global-literature",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 41873,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4622,
+        "reasoning_output_tokens": 158
+      },
+      "elapsed_seconds": null,
+      "manual_structure_repair": [
+        {
+          "work_id": "global-the-lost-symbol",
+          "character": "Peter Solomon",
+          "removed_duplicate_dimension": "values",
+          "omitted_claim": "将宗教文本理解为发掘人类潜能的寓言而非神命",
+          "reason": "Keep the first entry for this axis; omit the second without changing evidence or inventing another axis."
+        }
+      ],
+      "original_candidate_preserved": "0003.extract.candidate.json"
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 109.0,
+      "usage": {
+        "input_tokens": 48048,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2917,
+        "reasoning_output_tokens": 1777
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 15
+  },
+  {
+    "group": "global-literature",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 103.4,
+      "usage": {
+        "input_tokens": 41040,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4561,
+        "reasoning_output_tokens": 320
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 48.3,
+      "usage": {
+        "input_tokens": 46938,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2028,
+        "reasoning_output_tokens": 846
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 14
+  },
+  {
+    "group": "global-literature",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 176.2,
+      "usage": {
+        "input_tokens": 46595,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5292,
+        "reasoning_output_tokens": 219
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 73.5,
+      "usage": {
+        "input_tokens": 53584,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1903,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 17
+  },
+  {
+    "group": "global-literature",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 143.7,
+      "usage": {
+        "input_tokens": 45213,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4517,
+        "reasoning_output_tokens": 268
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 79.0,
+      "usage": {
+        "input_tokens": 51214,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2244,
+        "reasoning_output_tokens": 1013
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 15
+  },
+  {
+    "group": "global-literature",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 143.3,
+      "usage": {
+        "input_tokens": 39591,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4301,
+        "reasoning_output_tokens": 336
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 84.2,
+      "usage": {
+        "input_tokens": 45162,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2000,
+        "reasoning_output_tokens": 1286
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 6,
+    "rejected": 0,
+    "characters": 13
+  },
+  {
+    "group": "series-literature",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 198.0,
+      "usage": {
+        "input_tokens": 56790,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7122,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 78.3,
+      "usage": {
+        "input_tokens": 65737,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3029,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 26
+  },
+  {
+    "group": "series-literature",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 232.0,
+      "usage": {
+        "input_tokens": 62048,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8687,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 82.3,
+      "usage": {
+        "input_tokens": 73051,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3194,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 35
+  },
+  {
+    "group": "series-literature",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 231.3,
+      "usage": {
+        "input_tokens": 64317,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9079,
+        "reasoning_output_tokens": 377
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 219.3,
+      "usage": {
+        "input_tokens": 75742,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6356,
+        "reasoning_output_tokens": 3818
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 32
+  },
+  {
+    "group": "series-literature",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 312.4,
+      "usage": {
+        "input_tokens": 62587,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10218,
+        "reasoning_output_tokens": 676
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 119.8,
+      "usage": {
+        "input_tokens": 75013,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3714,
+        "reasoning_output_tokens": 1373
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 31
+  },
+  {
+    "group": "series-literature",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 238.1,
+      "usage": {
+        "input_tokens": 61429,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7949,
+        "reasoning_output_tokens": 433
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 104.4,
+      "usage": {
+        "input_tokens": 71487,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2836,
+        "reasoning_output_tokens": 1451
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 30
+  },
+  {
+    "group": "series-literature",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 322.7,
+      "usage": {
+        "input_tokens": 60680,
+        "cached_input_tokens": 60544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10166,
+        "reasoning_output_tokens": 427
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 166.9,
+      "usage": {
+        "input_tokens": 73426,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4453,
+        "reasoning_output_tokens": 2855
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 36
+  },
+  {
+    "group": "series-literature",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 222.9,
+      "usage": {
+        "input_tokens": 61284,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7301,
+        "reasoning_output_tokens": 248
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 137.8,
+      "usage": {
+        "input_tokens": 70751,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3900,
+        "reasoning_output_tokens": 1859
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 26
+  },
+  {
+    "group": "series-literature",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 199.8,
+      "usage": {
+        "input_tokens": 59968,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8597,
+        "reasoning_output_tokens": 266
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 120.0,
+      "usage": {
+        "input_tokens": 71044,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4474,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 32
+  },
+  {
+    "group": "series-literature",
+    "batch": "0008.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 278.9,
+      "usage": {
+        "input_tokens": 54079,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8177,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 113.5,
+      "usage": {
+        "input_tokens": 64141,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3713,
+        "reasoning_output_tokens": 1531
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 11,
+    "rejected": 5,
+    "characters": 25
+  },
+  {
+    "group": "series-literature",
+    "batch": "0009.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 320.5,
+      "usage": {
+        "input_tokens": 68842,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10199,
+        "reasoning_output_tokens": 418
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 116.4,
+      "usage": {
+        "input_tokens": 81733,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3440,
+        "reasoning_output_tokens": 1427
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 37
+  },
+  {
+    "group": "series-literature",
+    "batch": "0010.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 295.6,
+      "usage": {
+        "input_tokens": 66195,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9008,
+        "reasoning_output_tokens": 400
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 121.9,
+      "usage": {
+        "input_tokens": 77463,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3557,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 29
+  },
+  {
+    "group": "series-literature",
+    "batch": "0011.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 152.4,
+      "usage": {
+        "input_tokens": 41560,
+        "cached_input_tokens": 13440,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4465,
+        "reasoning_output_tokens": 368
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 60.3,
+      "usage": {
+        "input_tokens": 49810,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1859,
+        "reasoning_output_tokens": 934
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 6,
+    "rejected": 1,
+    "characters": 13
+  },
+  {
+    "group": "literature-corrections",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 104.3,
+      "usage": {
+        "input_tokens": 36561,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2953,
+        "reasoning_output_tokens": 280
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 77.8,
+      "usage": {
+        "input_tokens": 40586,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1765,
+        "reasoning_output_tokens": 1015
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 5,
+    "rejected": 0,
+    "characters": 10
+  },
+  {
+    "group": "literature",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 47.7,
+      "usage": {
+        "input_tokens": 43763,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5733,
+        "reasoning_output_tokens": 251
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 125.9,
+      "usage": {
+        "input_tokens": 55437,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5367,
+        "reasoning_output_tokens": 225
+      }
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 17
+  },
+  {
+    "group": "literature",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 52.2,
+      "usage": {
+        "input_tokens": 36834,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5645,
+        "reasoning_output_tokens": 105
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 115.3,
+      "usage": {
+        "input_tokens": 48806,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5671,
+        "reasoning_output_tokens": 286
+      }
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 20
+  },
+  {
+    "group": "literature",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 44.9,
+      "usage": {
+        "input_tokens": 42269,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4232,
+        "reasoning_output_tokens": 236
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 113.7,
+      "usage": {
+        "input_tokens": 52425,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4379,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 16
+  },
+  {
+    "group": "literature",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 130.9,
+      "usage": {
+        "input_tokens": 45654,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5496,
+        "reasoning_output_tokens": 335
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 63.3,
+      "usage": {
+        "input_tokens": 52747,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2093,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 18
+  },
+  {
+    "group": "literature",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 125.1,
+      "usage": {
+        "input_tokens": 38327,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5192,
+        "reasoning_output_tokens": 313
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 78.1,
+      "usage": {
+        "input_tokens": 45006,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3042,
+        "reasoning_output_tokens": 1537
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 16
+  },
+  {
+    "group": "literature",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 109.1,
+      "usage": {
+        "input_tokens": 40551,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4616,
+        "reasoning_output_tokens": 179
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 61.9,
+      "usage": {
+        "input_tokens": 46733,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2240,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 15
+  },
+  {
+    "group": "literature",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 127.5,
+      "usage": {
+        "input_tokens": 43530,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5055,
+        "reasoning_output_tokens": 244
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 67.9,
+      "usage": {
+        "input_tokens": 50177,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2317,
+        "reasoning_output_tokens": 1256
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 17
+  },
+  {
+    "group": "literature",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 120.6,
+      "usage": {
+        "input_tokens": 39635,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4423,
+        "reasoning_output_tokens": 251
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 56.9,
+      "usage": {
+        "input_tokens": 45493,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1928,
+        "reasoning_output_tokens": 745
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 6,
+    "rejected": 2,
+    "characters": 14
+  },
+  {
+    "group": "literature",
+    "batch": "0008.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 136.7,
+      "usage": {
+        "input_tokens": 42987,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4783,
+        "reasoning_output_tokens": 199
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 62.8,
+      "usage": {
+        "input_tokens": 49348,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2101,
+        "reasoning_output_tokens": 1031
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 16
+  },
+  {
+    "group": "literature",
+    "batch": "0009.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 104.4,
+      "usage": {
+        "input_tokens": 40119,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3842,
+        "reasoning_output_tokens": 263
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 71.4,
+      "usage": {
+        "input_tokens": 45197,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2158,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 5,
+    "rejected": 3,
+    "characters": 12
+  },
+  {
+    "group": "literature",
+    "batch": "0010.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 96.9,
+      "usage": {
+        "input_tokens": 38064,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3536,
+        "reasoning_output_tokens": 185
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 54.4,
+      "usage": {
+        "input_tokens": 42874,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1838,
+        "reasoning_output_tokens": 740
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 5,
+    "rejected": 3,
+    "characters": 11
+  },
+  {
+    "group": "literature",
+    "batch": "0011.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 129.2,
+      "usage": {
+        "input_tokens": 38092,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4252,
+        "reasoning_output_tokens": 481
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 79.1,
+      "usage": {
+        "input_tokens": 43453,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2542,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 5,
+    "rejected": 3,
+    "characters": 11
+  },
+  {
+    "group": "literature",
+    "batch": "0012.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 131.2,
+      "usage": {
+        "input_tokens": 43763,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4719,
+        "reasoning_output_tokens": 252
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 65.6,
+      "usage": {
+        "input_tokens": 49995,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1988,
+        "reasoning_output_tokens": 1003
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "literature",
+    "batch": "0013.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 139.2,
+      "usage": {
+        "input_tokens": 41308,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4632,
+        "reasoning_output_tokens": 257
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 90.6,
+      "usage": {
+        "input_tokens": 47281,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2839,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 6,
+    "rejected": 2,
+    "characters": 12
+  },
+  {
+    "group": "literature",
+    "batch": "0014.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 145.1,
+      "usage": {
+        "input_tokens": 41983,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5504,
+        "reasoning_output_tokens": 376
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 103.5,
+      "usage": {
+        "input_tokens": 49032,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2723,
+        "reasoning_output_tokens": 1446
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 18
+  },
+  {
+    "group": "literature",
+    "batch": "0015.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 130.5,
+      "usage": {
+        "input_tokens": 44825,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4429,
+        "reasoning_output_tokens": 348
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 109.5,
+      "usage": {
+        "input_tokens": 50644,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3019,
+        "reasoning_output_tokens": 2002
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 6,
+    "rejected": 2,
+    "characters": 16
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 192.5,
+      "usage": {
+        "input_tokens": 51557,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6620,
+        "reasoning_output_tokens": 299
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 85.3,
+      "usage": {
+        "input_tokens": 60014,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2926,
+        "reasoning_output_tokens": 1243
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 10,
+    "rejected": 6,
+    "characters": 21
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 222.9,
+      "usage": {
+        "input_tokens": 50536,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8189,
+        "reasoning_output_tokens": 298
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 107.6,
+      "usage": {
+        "input_tokens": 60932,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3621,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 11,
+    "rejected": 5,
+    "characters": 26
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 278.2,
+      "usage": {
+        "input_tokens": 54622,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9473,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 137.3,
+      "usage": {
+        "input_tokens": 66400,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3868,
+        "reasoning_output_tokens": 2070
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 32
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 283.8,
+      "usage": {
+        "input_tokens": 55323,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9308,
+        "reasoning_output_tokens": 1034
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 85.8,
+      "usage": {
+        "input_tokens": 66247,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2995,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 29
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 267.3,
+      "usage": {
+        "input_tokens": 50933,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8018,
+        "reasoning_output_tokens": 452
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 107.5,
+      "usage": {
+        "input_tokens": 60987,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3202,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 26
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 238.9,
+      "usage": {
+        "input_tokens": 53115,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7062,
+        "reasoning_output_tokens": 362
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 76.4,
+      "usage": {
+        "input_tokens": 62063,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2759,
+        "reasoning_output_tokens": 859
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 10,
+    "rejected": 6,
+    "characters": 23
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 128.1,
+      "usage": {
+        "input_tokens": 47410,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7611,
+        "reasoning_output_tokens": 467
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 131.0,
+      "usage": {
+        "input_tokens": 57047,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3463,
+        "reasoning_output_tokens": 1871
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 27
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 245.8,
+      "usage": {
+        "input_tokens": 46319,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7899,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 99.9,
+      "usage": {
+        "input_tokens": 56358,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3498,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 31
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0008.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 281.9,
+      "usage": {
+        "input_tokens": 51241,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8460,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 112.2,
+      "usage": {
+        "input_tokens": 61608,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4203,
+        "reasoning_output_tokens": 1112
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 25
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0009.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 266.9,
+      "usage": {
+        "input_tokens": 49383,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8326,
+        "reasoning_output_tokens": 349
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 97.4,
+      "usage": {
+        "input_tokens": 59958,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2933,
+        "reasoning_output_tokens": 1017
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 28
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0010.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 314.8,
+      "usage": {
+        "input_tokens": 51350,
+        "cached_input_tokens": 51200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9168,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 112.5,
+      "usage": {
+        "input_tokens": 62746,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3919,
+        "reasoning_output_tokens": 2070
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 30
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0011.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 306.6,
+      "usage": {
+        "input_tokens": 51516,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9412,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 93.4,
+      "usage": {
+        "input_tokens": 63119,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2761,
+        "reasoning_output_tokens": 1028
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 29
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0012.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 305.0,
+      "usage": {
+        "input_tokens": 54881,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9381,
+        "reasoning_output_tokens": 495
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 101.4,
+      "usage": {
+        "input_tokens": 66591,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2650,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 28
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0013.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 359.5,
+      "usage": {
+        "input_tokens": 53284,
+        "cached_input_tokens": 53120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10678,
+        "reasoning_output_tokens": 366
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 121.8,
+      "usage": {
+        "input_tokens": 64112,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3535,
+        "reasoning_output_tokens": 1363
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 36
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0014.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 236.4,
+      "usage": {
+        "input_tokens": 55363,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8802,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 127.5,
+      "usage": {
+        "input_tokens": 66199,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4022,
+        "reasoning_output_tokens": 1742
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 10,
+    "rejected": 6,
+    "characters": 27
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0015.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 281.1,
+      "usage": {
+        "input_tokens": 49888,
+        "cached_input_tokens": 49664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8406,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 108.1,
+      "usage": {
+        "input_tokens": 60186,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3878,
+        "reasoning_output_tokens": 1168
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 25
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0016.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 294.1,
+      "usage": {
+        "input_tokens": 54871,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8757,
+        "reasoning_output_tokens": 303
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 103.2,
+      "usage": {
+        "input_tokens": 65891,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3312,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 11,
+    "rejected": 5,
+    "characters": 28
+  },
+  {
+    "group": "literature-tail",
+    "batch": "0017.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 211.9,
+      "usage": {
+        "input_tokens": 50799,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7544,
+        "reasoning_output_tokens": 402
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 96.1,
+      "usage": {
+        "input_tokens": 60199,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3513,
+        "reasoning_output_tokens": 1455
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 11,
+    "rejected": 5,
+    "characters": 23
+  },
+  {
+    "group": "film",
+    "batch": "0000.input",
+    "extraction": {
+      "batch": "0000.input",
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 32.3,
+      "accepted": 8,
+      "rejected": 0,
+      "characters": 16,
+      "usage": {
+        "input_tokens": 42939,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3755,
+        "reasoning_output_tokens": 232
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 91.9,
+      "usage": {
+        "input_tokens": 52401,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4236,
+        "reasoning_output_tokens": 204
+      }
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0001.input",
+    "extraction": {
+      "batch": "0001.input",
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 59.5,
+      "accepted": 8,
+      "rejected": 0,
+      "characters": 25,
+      "usage": {
+        "input_tokens": 44952,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6563,
+        "reasoning_output_tokens": 366
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 147.7,
+      "usage": {
+        "input_tokens": 57681,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6570,
+        "reasoning_output_tokens": 388
+      }
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 25
+  },
+  {
+    "group": "film",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 60.5,
+      "usage": {
+        "input_tokens": 47007,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6290,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 134.6,
+      "usage": {
+        "input_tokens": 59749,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6044,
+        "reasoning_output_tokens": 329
+      }
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 19
+  },
+  {
+    "group": "film",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 70.8,
+      "usage": {
+        "input_tokens": 44252,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6880,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 156.8,
+      "usage": {
+        "input_tokens": 57856,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7869,
+        "reasoning_output_tokens": 516
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 24
+  },
+  {
+    "group": "film",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 52.2,
+      "usage": {
+        "input_tokens": 43004,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6118,
+        "reasoning_output_tokens": 306
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 158.2,
+      "usage": {
+        "input_tokens": 55755,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7069,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 23
+  },
+  {
+    "group": "film",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 56.8,
+      "usage": {
+        "input_tokens": 42873,
+        "cached_input_tokens": 12800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6724,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 127.6,
+      "usage": {
+        "input_tokens": 56332,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6541,
+        "reasoning_output_tokens": 516
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 23
+  },
+  {
+    "group": "film",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 51.6,
+      "usage": {
+        "input_tokens": 41559,
+        "cached_input_tokens": 22016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5423,
+        "reasoning_output_tokens": 152
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 130.0,
+      "usage": {
+        "input_tokens": 53382,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5986,
+        "reasoning_output_tokens": 1513
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 23
+  },
+  {
+    "group": "film",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 39.3,
+      "usage": {
+        "input_tokens": 40770,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4294,
+        "reasoning_output_tokens": 145
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 85.2,
+      "usage": {
+        "input_tokens": 51096,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4638,
+        "reasoning_output_tokens": 300
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0008.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 41.9,
+      "usage": {
+        "input_tokens": 40970,
+        "cached_input_tokens": 22016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4067,
+        "reasoning_output_tokens": 179
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 126.9,
+      "usage": {
+        "input_tokens": 50988,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5415,
+        "reasoning_output_tokens": 2546
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0009.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 43.2,
+      "usage": {
+        "input_tokens": 41246,
+        "cached_input_tokens": 12800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4616,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 99.0,
+      "usage": {
+        "input_tokens": 49549,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5195,
+        "reasoning_output_tokens": 435
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0010.input",
+    "extraction": {
+      "model": "gpt-6-luna",
+      "elapsed_seconds": 48.2,
+      "usage": {
+        "input_tokens": 39953,
+        "cached_input_tokens": 22016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6357,
+        "reasoning_output_tokens": 415
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 99.1,
+      "usage": {
+        "input_tokens": 52405,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5817,
+        "reasoning_output_tokens": 479
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 21
+  },
+  {
+    "group": "film",
+    "batch": "0011.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 133.3,
+      "usage": {
+        "input_tokens": 44681,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5167,
+        "reasoning_output_tokens": 255
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 49.3,
+      "usage": {
+        "input_tokens": 51450,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1629,
+        "reasoning_output_tokens": 476
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 17
+  },
+  {
+    "group": "film",
+    "batch": "0012.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 137.4,
+      "usage": {
+        "input_tokens": 44690,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5109,
+        "reasoning_output_tokens": 275
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 64.9,
+      "usage": {
+        "input_tokens": 51504,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1878,
+        "reasoning_output_tokens": 947
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 20
+  },
+  {
+    "group": "film",
+    "batch": "0013.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 115.2,
+      "usage": {
+        "input_tokens": 44423,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4872,
+        "reasoning_output_tokens": 186
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 93.4,
+      "usage": {
+        "input_tokens": 50913,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2999,
+        "reasoning_output_tokens": 1426
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0014.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 156.3,
+      "usage": {
+        "input_tokens": 45257,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5218,
+        "reasoning_output_tokens": 208
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 91.7,
+      "usage": {
+        "input_tokens": 52144,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2855,
+        "reasoning_output_tokens": 1530
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 18
+  },
+  {
+    "group": "film",
+    "batch": "0015.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 169.2,
+      "usage": {
+        "input_tokens": 43923,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6035,
+        "reasoning_output_tokens": 257
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 119.4,
+      "usage": {
+        "input_tokens": 51815,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3596,
+        "reasoning_output_tokens": 2391
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 22
+  },
+  {
+    "group": "film",
+    "batch": "0016.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 149.0,
+      "usage": {
+        "input_tokens": 44504,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5228,
+        "reasoning_output_tokens": 274
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 59.1,
+      "usage": {
+        "input_tokens": 51353,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1658,
+        "reasoning_output_tokens": 690
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 18
+  },
+  {
+    "group": "film",
+    "batch": "0017.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 152.5,
+      "usage": {
+        "input_tokens": 44713,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4956,
+        "reasoning_output_tokens": 147
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 76.5,
+      "usage": {
+        "input_tokens": 51468,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2489,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 19
+  },
+  {
+    "group": "film",
+    "batch": "0018.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 150.2,
+      "usage": {
+        "input_tokens": 44477,
+        "cached_input_tokens": 13440,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5840,
+        "reasoning_output_tokens": 258
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 100.0,
+      "usage": {
+        "input_tokens": 54656,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3620,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 20
+  },
+  {
+    "group": "film",
+    "batch": "0019.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 140.8,
+      "usage": {
+        "input_tokens": 44319,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5476,
+        "reasoning_output_tokens": 229
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 51.5,
+      "usage": {
+        "input_tokens": 51620,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1510,
+        "reasoning_output_tokens": 840
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 21
+  },
+  {
+    "group": "film",
+    "batch": "0020.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 137.4,
+      "usage": {
+        "input_tokens": 43639,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4675,
+        "reasoning_output_tokens": 272
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 68.7,
+      "usage": {
+        "input_tokens": 49846,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1969,
+        "reasoning_output_tokens": 1021
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0021.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 145.7,
+      "usage": {
+        "input_tokens": 43487,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5129,
+        "reasoning_output_tokens": 176
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 61.1,
+      "usage": {
+        "input_tokens": 50286,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2327,
+        "reasoning_output_tokens": 912
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film",
+    "batch": "0022.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 153.0,
+      "usage": {
+        "input_tokens": 44283,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5306,
+        "reasoning_output_tokens": 344
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 92.3,
+      "usage": {
+        "input_tokens": 51115,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2360,
+        "reasoning_output_tokens": 1403
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film-tail",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 259.3,
+      "usage": {
+        "input_tokens": 61550,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9137,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 116.6,
+      "usage": {
+        "input_tokens": 73009,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3666,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 32
+  },
+  {
+    "group": "film-tail",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 295.1,
+      "usage": {
+        "input_tokens": 57669,
+        "cached_input_tokens": 57472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8662,
+        "reasoning_output_tokens": 832
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 87.4,
+      "usage": {
+        "input_tokens": 68236,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2527,
+        "reasoning_output_tokens": 968
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 32
+  },
+  {
+    "group": "film-tail",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 275.4,
+      "usage": {
+        "input_tokens": 58743,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8423,
+        "reasoning_output_tokens": 222
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 139.4,
+      "usage": {
+        "input_tokens": 69705,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4481,
+        "reasoning_output_tokens": 2070
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 32
+  },
+  {
+    "group": "film-tail",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 276.3,
+      "usage": {
+        "input_tokens": 58999,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8954,
+        "reasoning_output_tokens": 201
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 159.0,
+      "usage": {
+        "input_tokens": 70796,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5237,
+        "reasoning_output_tokens": 2070
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 36
+  },
+  {
+    "group": "film-tail",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 286.7,
+      "usage": {
+        "input_tokens": 56888,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8881,
+        "reasoning_output_tokens": 251
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 96.2,
+      "usage": {
+        "input_tokens": 68327,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2635,
+        "reasoning_output_tokens": 967
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 30
+  },
+  {
+    "group": "film-tail",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 286.6,
+      "usage": {
+        "input_tokens": 59596,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8748,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 131.1,
+      "usage": {
+        "input_tokens": 70615,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3695,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 32
+  },
+  {
+    "group": "film-tail",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 262.4,
+      "usage": {
+        "input_tokens": 61382,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8618,
+        "reasoning_output_tokens": 226
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 134.3,
+      "usage": {
+        "input_tokens": 70045,
+        "cached_input_tokens": 13568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3045,
+        "reasoning_output_tokens": 1379
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 32
+  },
+  {
+    "group": "film-tail",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 95.0,
+      "usage": {
+        "input_tokens": 37360,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2618,
+        "reasoning_output_tokens": 281
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 38.4,
+      "usage": {
+        "input_tokens": 40953,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 846,
+        "reasoning_output_tokens": 450
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 4,
+    "rejected": 0,
+    "characters": 8
+  },
+  {
+    "group": "film-regional",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 150.6,
+      "usage": {
+        "input_tokens": 44264,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5773,
+        "reasoning_output_tokens": 309
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 65.1,
+      "usage": {
+        "input_tokens": 51693,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2485,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 19
+  },
+  {
+    "group": "film-regional",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 126.5,
+      "usage": {
+        "input_tokens": 46029,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4904,
+        "reasoning_output_tokens": 222
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 78.4,
+      "usage": {
+        "input_tokens": 52615,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2263,
+        "reasoning_output_tokens": 1034
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 19
+  },
+  {
+    "group": "film-regional",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 121.2,
+      "usage": {
+        "input_tokens": 44817,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4229,
+        "reasoning_output_tokens": 194
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 57.3,
+      "usage": {
+        "input_tokens": 50606,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1757,
+        "reasoning_output_tokens": 757
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 16
+  },
+  {
+    "group": "film-regional",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 156.9,
+      "usage": {
+        "input_tokens": 45998,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5533,
+        "reasoning_output_tokens": 190
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 80.2,
+      "usage": {
+        "input_tokens": 53272,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2694,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 17
+  },
+  {
+    "group": "film-regional",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 139.3,
+      "usage": {
+        "input_tokens": 44596,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5648,
+        "reasoning_output_tokens": 358
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 87.8,
+      "usage": {
+        "input_tokens": 51840,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2729,
+        "reasoning_output_tokens": 1528
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 18
+  },
+  {
+    "group": "film-regional",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 148.2,
+      "usage": {
+        "input_tokens": 46463,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5243,
+        "reasoning_output_tokens": 129
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 90.2,
+      "usage": {
+        "input_tokens": 53458,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2842,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 17
+  },
+  {
+    "group": "film-regional",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 142.7,
+      "usage": {
+        "input_tokens": 41415,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5260,
+        "reasoning_output_tokens": 375
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 66.5,
+      "usage": {
+        "input_tokens": 48192,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1976,
+        "reasoning_output_tokens": 929
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 8,
+    "rejected": 0,
+    "characters": 18
+  },
+  {
+    "group": "film-regional",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 160.3,
+      "usage": {
+        "input_tokens": 45244,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5267,
+        "reasoning_output_tokens": 229
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 98.4,
+      "usage": {
+        "input_tokens": 52136,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3045,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 16
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 197.6,
+      "usage": {
+        "input_tokens": 57839,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10186,
+        "reasoning_output_tokens": 339
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 97.4,
+      "usage": {
+        "input_tokens": 70683,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3305,
+        "reasoning_output_tokens": 937
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 34
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 262.4,
+      "usage": {
+        "input_tokens": 51796,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7998,
+        "reasoning_output_tokens": 348
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 90.2,
+      "usage": {
+        "input_tokens": 61953,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2526,
+        "reasoning_output_tokens": 933
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 12,
+    "rejected": 4,
+    "characters": 26
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0002.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 290.0,
+      "usage": {
+        "input_tokens": 56460,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9111,
+        "reasoning_output_tokens": 495
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 111.1,
+      "usage": {
+        "input_tokens": 68002,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3023,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 34
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0003.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 258.2,
+      "usage": {
+        "input_tokens": 59413,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7975,
+        "reasoning_output_tokens": 222
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 125.2,
+      "usage": {
+        "input_tokens": 69735,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4002,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 14,
+    "rejected": 2,
+    "characters": 28
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0004.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 198.5,
+      "usage": {
+        "input_tokens": 62423,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10257,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 178.6,
+      "usage": {
+        "input_tokens": 75105,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5485,
+        "reasoning_output_tokens": 2925
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 13,
+    "rejected": 3,
+    "characters": 32
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0005.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 271.8,
+      "usage": {
+        "input_tokens": 58384,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8327,
+        "reasoning_output_tokens": 360
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 126.1,
+      "usage": {
+        "input_tokens": 68998,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3650,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 30
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0006.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 308.9,
+      "usage": {
+        "input_tokens": 57638,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9594,
+        "reasoning_output_tokens": 516
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 125.0,
+      "usage": {
+        "input_tokens": 69549,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3380,
+        "reasoning_output_tokens": 1477
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 32
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0007.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 282.4,
+      "usage": {
+        "input_tokens": 56204,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9345,
+        "reasoning_output_tokens": 320
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 119.1,
+      "usage": {
+        "input_tokens": 65655,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3703,
+        "reasoning_output_tokens": 1542
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 35
+  },
+  {
+    "group": "film-regional-tail",
+    "batch": "0008.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 100.2,
+      "usage": {
+        "input_tokens": 42090,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4462,
+        "reasoning_output_tokens": 192
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 107.8,
+      "usage": {
+        "input_tokens": 48006,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3077,
+        "reasoning_output_tokens": 1345
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 7,
+    "rejected": 1,
+    "characters": 14
+  },
+  {
+    "group": "film-backup",
+    "batch": "0000.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 327.4,
+      "usage": {
+        "input_tokens": 58035,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9527,
+        "reasoning_output_tokens": 499
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 126.2,
+      "usage": {
+        "input_tokens": 69969,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3722,
+        "reasoning_output_tokens": 1552
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 16,
+    "rejected": 0,
+    "characters": 35
+  },
+  {
+    "group": "film-backup",
+    "batch": "0001.input",
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 293.1,
+      "usage": {
+        "input_tokens": 59985,
+        "cached_input_tokens": 26752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9045,
+        "reasoning_output_tokens": 447
+      }
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "elapsed_seconds": 190.8,
+      "usage": {
+        "input_tokens": 71324,
+        "cached_input_tokens": 26880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4957,
+        "reasoning_output_tokens": 3103
+      },
+      "mode": "all-claims-reviewed; only evidence corrections returned"
+    },
+    "accepted": 15,
+    "rejected": 1,
+    "characters": 30
+  }
+]

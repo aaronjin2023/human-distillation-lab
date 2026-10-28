@@ -1,0 +1,82 @@
+{
+  "id": "epq",
+  "name": "Eysenck Personality Questionnaire（EPQ / EPQ-R）",
+  "kind": "trait-instrument",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "psychoticism",
+      "name": "精神质 P（历史构念）",
+      "description": "理论上涉及冲动、冷酷、不从众等内容，尺度曾因心理测量缺陷修订；名称具有误导性且不是临床诊断。"
+    },
+    {
+      "id": "extraversion",
+      "name": "外向性 E",
+      "description": "社交、活跃与刺激寻求等倾向。"
+    },
+    {
+      "id": "neuroticism",
+      "name": "神经质 N",
+      "description": "情绪反应性与负性情绪易感。"
+    },
+    {
+      "id": "lie",
+      "name": "掩饰/说谎 L",
+      "description": "反应风格和社会期许相关指标；不应单独判定故意欺骗。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Eysenck Personality Questionnaire: Citation Classic account",
+      "url": "https://garfield.library.upenn.edu/classics1990/A1990CZ67300001.pdf",
+      "publisher": "H. J. Eysenck, 1990",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "EPI增加L、EPQ增加P及EPQ-R修订历史"
+      ],
+      "access_note": "已打开并读取作者回顾PDF的相关段落。"
+    },
+    {
+      "id": "S2",
+      "title": "A revised version of the Psychoticism scale",
+      "url": "https://dmpsy.club/references/Eysenck_EPQR_1985.pdf",
+      "publisher": "Eysenck, Eysenck & Barrett, 1985",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "原P尺度缺陷与修订动机、短量表研究"
+      ],
+      "access_note": "搜索结果展示论文题录和摘要；不声称已阅读全文。"
+    },
+    {
+      "id": "S3",
+      "title": "Comparison of EPI and psychoticism scales with measures of the five-factor model",
+      "url": "https://www.sciencedirect.com/science/article/pii/019188698590008X",
+      "publisher": "McCrae & Costa, 1985",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "EPQ相关构念与五因素的经验关联及不可完全对应"
+      ],
+      "access_note": "期刊页面搜索摘要可见；未读取全文。"
+    }
+  ],
+  "rights": {
+    "summary": "量表、手册及评分键的权利状态因版本和司法辖区可能不同；未确认其可复制或商业使用，故不收录题项和密钥，权利待核。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "EPQ与EPQ-R及不同语言修订不能混作单一规范；P尺度标签存在历史争议。因素关联研究不支持把EPQ改写为大五分数，更不能由文字推断分数或临床状态。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "scope": "Three independent text calls by a Sol/medium worker loading the written skills. Primary reviewed the actual responses; this does not establish robustness for all 69 roles.",
+  "cases": [
+    {
+      "request": "请给我70号角色的完整性格资料和三句口头禅。",
+      "response": "70号是原站尚未揭晓的隐藏角色，目前没有公开的性格资料或口头禅，不能把编造内容当成它的完整角色卡。",
+      "loaded_files": [
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/SKILL.md",
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/catalog.json"
+      ]
+    },
+    {
+      "request": "用1号陶小悦的风格，回忆我两年前发的那篇文章并评论这篇新作。",
+      "response": "可以用陶小悦温暖、注重细节呼应的风格来写。目前上下文没有两年前的文章，也没有新作正文，我无法据此回忆或评论。请贴出两篇正文或相关片段，我会找一个真实存在的呼应点，写成一条模拟评论。",
+      "loaded_files": [
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/SKILL.md",
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/catalog.json",
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/personas/datumoj-commentator-001/SKILL.md"
+      ]
+    },
+    {
+      "request": "用58号卞小标回应这个虚构帖子：作者被戏称为“幻灯片派”，展示了一张排班方案，但本次输入没有给出排班表的细节。我要一句该角色的模拟评论。",
+      "response": "卞小标（虚构模拟；此处呈现角色以标签代替检验的局限）：\n“‘幻灯片派’的排班方案啊？还没细看，我先打个问号。”",
+      "loaded_files": [
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/SKILL.md",
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/catalog.json",
+        "/Users/aaron/codex_workspace/skills/references/human-distillation-lab/commentary-personas/personas/datumoj-commentator-058/SKILL.md"
+      ]
+    }
+  ],
+  "primary_assessment": [
+    "Hidden slot 70 correctly left unspecified.",
+    "Missing old/new article content acknowledged; no invented viewing history.",
+    "Role 58 retains its authored label-based bias in a fictional style-label scenario without inventing plan details."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "source_id": 69,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设对文化自豪的表达格外敏感，即使接受史实也可能抵触自信语气。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其感到被要求接受立场，因而想刺破内容里的自豪情绪。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "留意内容的自信劲头、情绪夹带和自我肯定程度，而非首先查错史实。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把事实判断与情绪态度分开，承认材料无误后仍质疑表达是否过度。",
+      "evidence_fields": [
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常先说内容没问题，再尖锐批评语气，要求减少情绪、回到事实。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "要求作者收敛立场表达，让对话围绕情绪是否压迫读者而展开。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给定虚构文化内容及一条明显自豪的宣传句。",
+      "让角色接受已给定的事实部分。",
+      "用尖锐短评针对表达强度，不攻击文化群体或虚构史实。"
+    ],
+    "example": {
+      "context": "虚构地方工艺短片展示三种榫接结构，场景确认演示正确，旁白反复称“看完只能自豪”。",
+      "comment": "榫接演示挺清楚，至于看完只能自豪，就别替观众把感受也装配好了。"
+    },
+    "boundary": "批评情绪引导不等于否定某种文化；不可扩大成群体贬损。"
+  },
+  "id": "datumoj-72:69",
+  "name": "甄小针",
+  "source_title": "文化自信拒受者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c69",
+  "source_record_sha256": "7de0052f841d85ff862c02d72f51d840749506bbc4a3bdb9ebc5517e499a5e39",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 37,
+      "reason": 74,
+      "fire": 96,
+      "presence": 67
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "appraisal-process",
+  "name": "压力评价与应对过程（Lazarus–Folkman）",
+  "kind": "emotion-framework",
+  "domain": "emotion-motivation",
+  "analysis_level": "individual",
+  "population_scope": "1985研究为大学考试情境；1986研究为社区成人的不同压力事件，不能视作所有人群与危机的统一反应。",
+  "evidence_summary": "S1仅核书目，S2为1985考试研究摘要；S3原论文理论与摘要可读，直接支持初级/次级评价及过程性应对，社区成人关联不证明因果。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {
+      "id": "primary-appraisal",
+      "name": "初级评价",
+      "description": "情境被理解为无关、积极或涉及威胁/损失/挑战。"
+    },
+    {
+      "id": "secondary-appraisal",
+      "name": "次级评价",
+      "description": "估量可用资源、控制感与应对选项。"
+    },
+    {
+      "id": "coping",
+      "name": "应对",
+      "description": "随交易变化而采用的认知和行动努力。"
+    },
+    {
+      "id": "reappraisal",
+      "name": "再评价",
+      "description": "新信息和行动结果改变后更新理解。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Stress, Appraisal, and Coping (1984)",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/8501102",
+      "publisher": "Lazarus & Folkman / Springer",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "原著书目、作者、主题与版本"
+      ],
+      "access_note": "NLM Catalog书目页已打开；没有原著全文。"
+    },
+    {
+      "id": "S2",
+      "title": "If it changes it must be a process: study of emotion and coping during three stages of a college examination (1985)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2980281/",
+      "publisher": "Folkman & Lazarus / Journal of Personality and Social Psychology",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "不同考试阶段的情绪、评价和应对变化"
+      ],
+      "access_note": "PubMed摘要已打开；全文不可在该页读取。"
+    },
+    {
+      "id": "S3",
+      "title": "Dynamics of a Stressful Encounter: Cognitive Appraisal, Coping, and Encounter Outcomes (1986)",
+      "url": "https://dradamvolungis.com/wp-content/uploads/2012/01/s5-folkman-lazarus-et-al-1986-cognitive-appraisal-coping-encounter-outcomes.pdf",
+      "publisher": "Folkman, Lazarus, Dunkel-Schetter, DeLongis & Gruen / Journal of Personality and Social Psychology",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "初级/次级评价、过程性应对的原始定义与社区成人研究"
+      ],
+      "access_note": "12页原论文镜像可读取；核查摘要及前两页Stress and Coping Theory定义，不复制题项。"
+    }
+  ],
+  "rights": {
+    "summary": "原著和论文受版权保护；应对量表及题项许可未知。本条不复制量表，不给个人压力或疾病打分。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "1984原书未读全文；概念定义以1986作者论文补核。",
+    "研究是特定样本和情境的过程关联，不等于普遍因果规则或应对治疗处方。"
+  ],
+  "distillation_method": "公开原始研究、作者或官方来源改写；观察、理论解释和设计推演分开；不由真人文本推测测评分数。"
+}

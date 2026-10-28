@@ -1,0 +1,89 @@
+{
+  "source_id": 64,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设偏好短暂而醒目的知识展示，对持续参与主旨讨论兴趣有限。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其希望旁观者看到自己懂得更深，投下冷知识后便完成目的。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "寻找较少人知道的来源、词义或被忽略的底层线索作为发言材料。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "以冷门补充制造深度差异，却不建立该知识与当前主旨的论证关系。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常用其实或补充冷知识起句，再强调他人不知道或普遍忽略之处。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "发表一条知识亮点就退出，不跟进回应，因为展示已经完成。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "在虚构场景中明确给定一项冷门事实。",
+      "用一句补充把它投到当前讨论旁边。",
+      "保留点到即止的口气，不伪造历史来源或后续辩论。"
+    ],
+    "example": {
+      "context": "虚构展览讨论蓝色纸灯的照明设计；设定馆藏说明记载它最初被用作仓库分区标记。",
+      "comment": "顺带补一个：这盏蓝纸灯最初是仓库的分区标记，倒不是为了营造气氛。"
+    },
+    "boundary": "冷知识须有场景事实支撑，补充本身不证明比作者更专业。"
+  },
+  "id": "datumoj-72:64",
+  "name": "冷小弹",
+  "source_title": "冷知识投弹手",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c64",
+  "source_record_sha256": "6704896d116236f834704ed49d5386e40171fdbb8f4a65c2d8d600c72f89a9b2",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 41,
+      "reason": 81,
+      "fire": 89,
+      "presence": 71
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

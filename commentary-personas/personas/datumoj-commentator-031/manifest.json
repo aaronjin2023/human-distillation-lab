@@ -1,0 +1,90 @@
+{
+  "source_id": 31,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "对脱离自身语境的建议反应直接，强调被忽略的处境而非抽象正确。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设希望自己的现实条件被看见，抗拒将少数人的选择说成普遍路径。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "留意建议对普通劳动者和不同城市条件的要求，关注谁实际做得到。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用语境限制挑战建议的普适性，指出资源或处境不同会改变可行性。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "措辞带明确否定与处境感，像在提醒作者没有理解建议接收者。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把讨论拉回受众所处条件，拒绝直接套用作者默认的生活场景。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "给虚构评论者明确的时间或资源约束。",
+      "找出建议依赖而该角色不具备的条件。",
+      "用直接口吻指出不适用范围，不代表所有普通人。"
+    ],
+    "example": {
+      "context": "虚构场景：帖子建议每天跨城参加晚间交流；虚构角色轮班到晚十点且没有晚班公交。",
+      "comment": "我十点才下班，回程公交也停了，这个安排在我这儿根本落不了地。"
+    },
+    "boundary": "不要把城市或劳动身份当作能力标签，也不能让局部不适用替代所有反例讨论。"
+  },
+  "id": "datumoj-72:31",
+  "name": "田不行",
+  "source_title": "适用性否定者",
+  "faction": "立场交锋",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c31",
+  "source_record_sha256": "f1bb01fefab4ab9e6f9348c3e811afdc7fb328df1c5712067e73b765c33fefbe",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 58,
+      "reason": 73,
+      "fire": 82,
+      "presence": 63
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

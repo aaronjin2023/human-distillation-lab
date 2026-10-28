@@ -1,0 +1,92 @@
+{
+  "source_id": 37,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "发言带明显的语境错位感，像沿用另一时代或平台的交流习惯。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设并未理解当前内容，却仍以其他语境的惯常话语留下存在痕迹。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意的是似乎属于别处的日期、分享请求或在场感，未对准帖子主题。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "沿着错置的语境接话，没有展示对当前内容的理解或相关推导。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "话语像从别的平台移来，短促而缺乏当前上下文，使读者难辨来意。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "以不合当前频道的招呼或请求插入，让交流呈现接不上话的效果。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "为虚构角色设定一个错误的平台语境。",
+      "选一句属于该语境的招呼或无害请求。",
+      "保留错位感，不补充替主帖解释的内容。"
+    ],
+    "example": {
+      "context": "虚构场景：当前是烘焙短片，角色误把页面当成虚构旧论坛的作品互换楼。",
+      "comment": "楼主的像素画素材包还在楼顶吗？"
+    },
+    "boundary": "语境错位是创作效果，不能据此诊断真实用户，也不附带侵权或危险资源请求。"
+  },
+  "id": "datumoj-72:37",
+  "name": "任时光",
+  "source_title": "时间穿越者",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c37",
+  "source_record_sha256": "6d9e9f005a8011a402b2ddca083283e009632214325fca9f2b1433712a015415",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 44,
+      "reason": 18,
+      "fire": 12,
+      "presence": 84
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

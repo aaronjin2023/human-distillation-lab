@@ -1,0 +1,74 @@
+{
+  "id": "neo-pi-3",
+  "name": "NEO Personality Inventory–3（NEO-PI-3）",
+  "kind": "trait-instrument",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "neuroticism",
+      "name": "神经质",
+      "description": "焦虑、敌意、抑郁、自我意识、冲动与脆弱等六面向。"
+    },
+    {
+      "id": "extraversion",
+      "name": "外向性",
+      "description": "温暖、合群、主张、活动、寻求刺激、积极情绪。"
+    },
+    {
+      "id": "openness",
+      "name": "开放性",
+      "description": "幻想、审美、情感、行动、思想、价值。"
+    },
+    {
+      "id": "agreeableness",
+      "name": "宜人性",
+      "description": "信任、坦率、利他、顺从、谦逊、温情。"
+    },
+    {
+      "id": "conscientiousness",
+      "name": "尽责性",
+      "description": "能力感、秩序、尽责、成就追求、自律、审慎。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "NEO-PI-3 Normative Update 产品与技术信息",
+      "url": "https://www.parinc.com/products/NEO-PI-3-NU",
+      "publisher": "PAR",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "240题、五域30面向、2024样本更新及发行方公布的信度信息"
+      ],
+      "access_note": "已打开PAR产品页面并核对页面公开技术信息；发行方主张标记为产品方资料。"
+    },
+    {
+      "id": "S2",
+      "title": "NEO-PI-3 domains and facets",
+      "url": "https://www.parinc.com/docs/default-source/product-resources/par-white-paper-neo-pi-3_neo-ffi-3-spanish-translation.pdf",
+      "publisher": "PAR",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "五域和30面向名称；发行方资料"
+      ],
+      "access_note": "可见发行方PDF搜索摘要中的域/面向表；未核读PDF全文。"
+    }
+  ],
+  "rights": {
+    "summary": "NEO-PI-3题本、手册、报告和计分受发行方许可及专业使用条件约束。只作原创摘要；不复制条目、常模表、解释报告或评分材料。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "发行方公布的数据属于产品技术资料，不能代替独立复核；新版规范、语言版与旧版需区分。题目版本/常模不能混用，具体施测与解释应依授权手册及资质要求。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

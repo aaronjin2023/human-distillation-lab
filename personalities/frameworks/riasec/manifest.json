@@ -1,0 +1,90 @@
+{
+  "id": "riasec",
+  "name": "Holland RIASEC / O*NET Interest Profiler",
+  "kind": "interest-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架摘要与原创设计推演；不提供测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "realistic",
+      "name": "现实型 R",
+      "description": "动手操作、工具与实物活动"
+    },
+    {
+      "id": "investigative",
+      "name": "研究型 I",
+      "description": "分析、探索与求解活动"
+    },
+    {
+      "id": "artistic",
+      "name": "艺术型 A",
+      "description": "创作、表达与开放任务"
+    },
+    {
+      "id": "social",
+      "name": "社会型 S",
+      "description": "教学、帮助与服务他人"
+    },
+    {
+      "id": "enterprising",
+      "name": "企业型 E",
+      "description": "说服、组织与推动行动"
+    },
+    {
+      "id": "conventional",
+      "name": "常规型 C",
+      "description": "结构化记录、秩序与数据事务"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "O*NET Interest Profiler",
+      "url": "https://www.onetcenter.org/IP.html",
+      "publisher": "National Center for O*NET Development",
+      "source_type": "government",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "六兴趣领域、30/60题版本及职业探索用途"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "O*NET Interest Profiler Manual（2021）",
+      "url": "https://www.onetcenter.org/reports/IP_Manual.html",
+      "publisher": "National Center for O*NET Development",
+      "source_type": "government",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "Holland模型依据、工具发展及技术手册范围"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "O*NET Career Exploration Tools Content License",
+      "url": "https://www.onetcenter.org/license_tools.html",
+      "publisher": "U.S. Department of Labor / O*NET",
+      "source_type": "government",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "工具原样分发与改编两类许可及条件"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "O*NET工具原样分发采用CC BY-ND 4.0；修改工具采用另行的Tools Developer License，含署名及验证条件。本文是概念摘要，不分发或改编测验。其他Holland测验的授权不由此覆盖。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "known_gaps": [
+    "未复核全部技术手册、中文版适配与日本/中国职业常模。",
+    "兴趣结果不能替代能力、资格、工作条件与机会信息。"
+  ],
+  "distillation_method": "公开来源改写；参考 immortal-skill 与 steamer-skill；设计推演另标"
+}

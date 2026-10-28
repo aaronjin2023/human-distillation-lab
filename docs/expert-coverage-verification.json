@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-28",
+  "scope": "Medicine, history and education expert coverage and missing-method additions",
+  "validation": {
+    "domains": {
+      "medicine": {
+        "existing": 20,
+        "new": 4,
+        "total": 24
+      },
+      "history": {
+        "existing": 6,
+        "new": 6,
+        "total": 12
+      },
+      "education": {
+        "existing": 100,
+        "new": 0,
+        "total": 100
+      }
+    },
+    "new_experts": 10,
+    "new_source_records": 28,
+    "local_links": 227,
+    "status": "passed"
+  },
+  "files_added_in_expert_packages": 90,
+  "new_skill_formats": "10 passed",
+  "validator_self_test": "passed",
+  "legacy_review": "136 selected domain entries checked for nine nonempty files; old source assertions and teaching/medical efficacy not comprehensively re-reviewed",
+  "behavioral_smoke": [
+    {
+      "case": "Hill association/causation and Sackett population applicability",
+      "result": "Rejected numeric criteria scoring and universal adoption; separated design, bias, applicability and decision values"
+    },
+    {
+      "case": "Apgar observation versus lifelong intelligence or resuscitation timing",
+      "result": "Kept limits of the observation method; did not provide scoring-based prognosis or emergency procedures"
+    },
+    {
+      "case": "Thucydides speeches and authorship of Zizhi Tongjian / Hanshu",
+      "result": "Distinguished reconstructed speech, team compilation and later continuation; retained edition uncertainty"
+    },
+    {
+      "case": "Braudel timescales and Chen Yinke poetry as evidence",
+      "result": "Produced a source/chronology/comparison plan; did not infer long-term causation or a secret meeting from two fragments"
+    }
+  ],
+  "review_repairs": [
+    "Added missing source links and access dates",
+    "Made medical skill descriptions discriminating and supporting files clickable",
+    "Separated Apgar authored work from later professional guidance",
+    "Replaced unverified present-day wording with the cited 2015 source date"
+  ],
+  "limits": [
+    "Local source-grounded drafts, not current clinical guidance",
+    "Some sources available only as institutional quotations, abstracts or search excerpts",
+    "No complete historical-text collation or independent effectiveness validation",
+    "No GitHub commit, push or publication"
+  ]
+}

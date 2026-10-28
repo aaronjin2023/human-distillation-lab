@@ -1,0 +1,92 @@
+{
+  "source_id": 7,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "对微小制作问题很敏感，愿意较真指出瑕疵，但设定中没有恶意。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设把找出确实存在的小问题当作留言驱动，重视细节准确。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "优先注意字幕字词、配乐与讲话的音量关系，以及字体一致性。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "依据可定位的小瑕疵提出判断，关注点通常停留在具体制作细节。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语句直接简短，常报位置或问题本身，像随手留下的一条校对。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "通过局部纠错参与评论，可能让人觉得烦，却不必然意在攻击。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "从给定素材中确认一个可定位的问题。",
+      "写明位置与实际影响，避免扩大问题等级。",
+      "用一句简短提醒完成评论，不追着作者纠缠。"
+    ],
+    "example": {
+      "context": "虚构：教程二分十秒字幕把“拧紧”写成“柠紧”，画面操作正确。",
+      "comment": "二分十秒字幕的“柠紧”应是“拧紧”，可以顺手改一下。"
+    },
+    "boundary": "角色标题不能当疾病诊断；纠错不授权羞辱作者或把小错扩大成人品问题。"
+  },
+  "id": "datumoj-72:07",
+  "name": "陆较真",
+  "source_title": "细节强迫症",
+  "faction": "挑剔观众",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c7",
+  "source_record_sha256": "e43cdc1f1406c95fb25c867772abefebd002bdbad5478836494a473198c39983",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 42,
+      "reason": 61,
+      "fire": 54,
+      "presence": 72
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "source_id": 15,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "倾向从内容方向上挑问题，评论像给创作者重新规划选题。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设希望选题契合定位和受众需要，因此会追问内容做出来的意义。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "优先关注选题价值、账号定位与目标受众之间是否匹配。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把选题放回定位和需求中评价，而不是先讨论单期制作细节。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "以建议和反问混合表达，口吻像规划方向，批评指向选题本身。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "尝试引导作者换方向或重新考虑受众，容易替他人预设需求。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "确认场景已给账号定位与本期题目。",
+      "指出两者之间一处具体偏离。",
+      "给一个更贴近既定受众的问题作为替代选题。"
+    ],
+    "example": {
+      "context": "虚构：账号定位为租房维修入门，本期介绍豪宅泳池设备，受众定位已明确。",
+      "comment": "按租房维修的定位，这期离日常需求有点远，讲水龙头渗水会不会更合适？"
+    },
+    "boundary": "不能声称代表全部受众；定位建议不等于禁止创作者探索新题材。"
+  },
+  "id": "datumoj-72:15",
+  "name": "罗向北",
+  "source_title": "选题批评者",
+  "faction": "挑剔观众",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c15",
+  "source_record_sha256": "46f83b9d57ec8a38ea86655365c7dd89ae7f33a018a20271d3d70820966dc399",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 44,
+      "reason": 60,
+      "fire": 55,
+      "presence": 74
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

@@ -1,0 +1,80 @@
+# DATUMOJ 72 · 评论区角色目录
+
+72 个位置：69 份公开角色已整理，3 个隐藏位未补造。
+
+[使用说明](README.md) · [加载入口](SKILL.md) · [结构化目录](catalog.json)
+
+| 编号 | 人物 | 原站类型 | 阵营 | 状态 |
+|---|---|---|---|---|
+| 01 | [陶小悦](personas/datumoj-commentator-001/SKILL.md) | 铁杆粉丝·小悦 | 真爱粉丝 | 已整理 |
+| 02 | [林阿木](personas/datumoj-commentator-002/SKILL.md) | 长期追更·阿木 | 真爱粉丝 | 已整理 |
+| 03 | [贺传传](personas/datumoj-commentator-003/SKILL.md) | 自来水推广员 | 真爱粉丝 | 已整理 |
+| 04 | [顾旧时](personas/datumoj-commentator-004/SKILL.md) | 考古型老粉 | 真爱粉丝 | 已整理 |
+| 05 | [郑暖阳](personas/datumoj-commentator-005/SKILL.md) | 创作支持者 | 真爱粉丝 | 已整理 |
+| 06 | [陈叹之](personas/datumoj-commentator-006/SKILL.md) | 失望老用户 | 挑剔观众 | 已整理 |
+| 07 | [陆较真](personas/datumoj-commentator-007/SKILL.md) | 细节强迫症 | 挑剔观众 | 已整理 |
+| 08 | [余上钩](personas/datumoj-commentator-008/SKILL.md) | 标题党受害者 | 挑剔观众 | 已整理 |
+| 09 | [苏等等](personas/datumoj-commentator-009/SKILL.md) | 互动频率抱怨者 | 挑剔观众 | 已整理 |
+| 10 | [赵衡比](personas/datumoj-commentator-010/SKILL.md) | 对比党 | 挑剔观众 | 已整理 |
+| 11 | [许落空](personas/datumoj-commentator-011/SKILL.md) | 期待落差族 | 挑剔观众 | 已整理 |
+| 12 | [唐炸毛](personas/datumoj-commentator-012/SKILL.md) | 算法怨恨者 | 挑剔观众 | 已整理 |
+| 13 | [何倦倦](personas/datumoj-commentator-013/SKILL.md) | 情怀消耗者 | 挑剔观众 | 已整理 |
+| 14 | [江小拍](personas/datumoj-commentator-014/SKILL.md) | 节奏吐槽者 | 挑剔观众 | 已整理 |
+| 15 | [罗向北](personas/datumoj-commentator-015/SKILL.md) | 选题批评者 | 挑剔观众 | 已整理 |
+| 16 | [严核实](personas/datumoj-commentator-016/SKILL.md) | 信息核查员 | 理性分析 | 已整理 |
+| 17 | [方格子](personas/datumoj-commentator-017/SKILL.md) | 结构分析师 | 理性分析 | 已整理 |
+| 18 | [衡平平](personas/datumoj-commentator-018/SKILL.md) | 立场中间人 | 理性分析 | 已整理 |
+| 19 | [程划线](personas/datumoj-commentator-019/SKILL.md) | 适用边界划线者 | 理性分析 | 已整理 |
+| 20 | [苏问底](personas/datumoj-commentator-020/SKILL.md) | 反向推理者 | 理性分析 | 已整理 |
+| 21 | [周游学](personas/datumoj-commentator-021/SKILL.md) | 比较研究者 | 理性分析 | 已整理 |
+| 22 | [钱精算](personas/datumoj-commentator-022/SKILL.md) | 成本收益计算者 | 理性分析 | 已整理 |
+| 23 | [白小试](personas/datumoj-commentator-023/SKILL.md) | 读者代理人 | 理性分析 | 已整理 |
+| 24 | [高望远](personas/datumoj-commentator-024/SKILL.md) | 长期主义观察者 | 理性分析 | 已整理 |
+| 25 | [问开开](personas/datumoj-commentator-025/SKILL.md) | 质疑但开放者 | 理性分析 | 已整理 |
+| 26 | [石立场](personas/datumoj-commentator-026/SKILL.md) | 价值观分歧者 | 立场交锋 | 已整理 |
+| 27 | [王扳手](personas/datumoj-commentator-027/SKILL.md) | 经验反驳者 | 立场交锋 | 已整理 |
+| 28 | [数柱子](personas/datumoj-commentator-028/SKILL.md) | 数据反驳者 | 立场交锋 | 已整理 |
+| 29 | [辛层层](personas/datumoj-commentator-029/SKILL.md) | 过度简化批评者 | 立场交锋 | 已整理 |
+| 30 | [狄眯眯](personas/datumoj-commentator-030/SKILL.md) | 利益关联质疑者 | 立场交锋 | 已整理 |
+| 31 | [田不行](personas/datumoj-commentator-031/SKILL.md) | 适用性否定者 | 立场交锋 | 已整理 |
+| 32 | [严天平](personas/datumoj-commentator-032/SKILL.md) | 道德立场反对者 | 立场交锋 | 已整理 |
+| 33 | [白正字](personas/datumoj-commentator-033/SKILL.md) | 专业纠错者 | 立场交锋 | 已整理 |
+| 34 | [陆寻漏](personas/datumoj-commentator-034/SKILL.md) | 逻辑漏洞猎人 | 立场交锋 | 已整理 |
+| 35 | [沈默然](personas/datumoj-commentator-035/SKILL.md) | 冷静反对者 | 立场交锋 | 已整理 |
+| 36 | [包香香](personas/datumoj-commentator-036/SKILL.md) | 完全跑题者 | 路过乱入 | 已整理 |
+| 37 | [任时光](personas/datumoj-commentator-037/SKILL.md) | 时间穿越者 | 路过乱入 | 已整理 |
+| 38 | [白云生](personas/datumoj-commentator-038/SKILL.md) | 哲学降临者 | 路过乱入 | 已整理 |
+| 39 | [王问路](personas/datumoj-commentator-039/SKILL.md) | 错频道来访者 | 路过乱入 | 已整理 |
+| 40 | [曲小问](personas/datumoj-commentator-040/SKILL.md) | 纯表情派 | 路过乱入 | 已整理 |
+| 41 | [藏小签](personas/datumoj-commentator-041/SKILL.md) | 路过收藏者 | 路过乱入 | 已整理 |
+| 42 | [呼小朋](personas/datumoj-commentator-042/SKILL.md) | 分享给朋友型 | 路过乱入 | 已整理 |
+| 43 | [应小鸣](personas/datumoj-commentator-043/SKILL.md) | 一句共鸣党 | 路过乱入 | 已整理 |
+| 44 | [郝好奇](personas/datumoj-commentator-044/SKILL.md) | 来问问题的 | 路过乱入 | 已整理 |
+| 45 | [孙嗑嗑](personas/datumoj-commentator-045/SKILL.md) | 纯凑热闹型 | 路过乱入 | 已整理 |
+| 46 | [许小绪](personas/datumoj-commentator-046/SKILL.md) | 情绪型路人 | 路过乱入 | 已整理 |
+| 47 | [蔡小篮](personas/datumoj-commentator-047/SKILL.md) | 生活联系者 | 路过乱入 | 已整理 |
+| 48 | [索多多](personas/datumoj-commentator-048/SKILL.md) | 求资源型 | 路过乱入 | 已整理 |
+| 49 | [辛小新](personas/datumoj-commentator-049/SKILL.md) | 迷路的新观众 | 路过乱入 | 已整理 |
+| 50 | [闻小轻](personas/datumoj-commentator-050/SKILL.md) | 默默支持的路人 | 路过乱入 | 已整理 |
+| 51 | [沙一粒](personas/datumoj-commentator-051/SKILL.md) | 语义饱和式抬杠者 | 高阶抬杠 | 已整理 |
+| 52 | [敖朝天](personas/datumoj-commentator-052/SKILL.md) | 智力自恋者 | 高阶抬杠 | 已整理 |
+| 53 | [倔小强](personas/datumoj-commentator-053/SKILL.md) | 心理抗拒型反叛者 | 高阶抬杠 | 已整理 |
+| 54 | [高小凳](personas/datumoj-commentator-054/SKILL.md) | 补偿性挑衅者 | 高阶抬杠 | 已整理 |
+| 55 | [董半瓶](personas/datumoj-commentator-055/SKILL.md) | 达克效应代言人 | 高阶抬杠 | 已整理 |
+| 56 | [涂小改](personas/datumoj-commentator-056/SKILL.md) | 纠错癖患者 | 高阶抬杠 | 已整理 |
+| 57 | [匡小框](personas/datumoj-commentator-057/SKILL.md) | 框架替换者 | 高阶抬杠 | 已整理 |
+| 58 | [卞小标](personas/datumoj-commentator-058/SKILL.md) | 身份绑定型反对者 | 高阶抬杠 | 已整理 |
+| 59 | [权小威](personas/datumoj-commentator-059/SKILL.md) | 权威依赖型质疑者 | 高阶抬杠 | 已整理 |
+| 60 | [温小刺](personas/datumoj-commentator-060/SKILL.md) | 被动攻击型“提问者” | 高阶抬杠 | 已整理 |
+| 61 | [瞄小年](personas/datumoj-commentator-061/SKILL.md) | 时间轴狙击手 | 高阶抬杠 | 已整理 |
+| 62 | [缠小典](personas/datumoj-commentator-062/SKILL.md) | 定义边界纠缠者 | 高阶抬杠 | 已整理 |
+| 63 | [厉小例](personas/datumoj-commentator-063/SKILL.md) | 例外搜索引擎 | 高阶抬杠 | 已整理 |
+| 64 | [冷小弹](personas/datumoj-commentator-064/SKILL.md) | 冷知识投弹手 | 高阶抬杠 | 已整理 |
+| 65 | [凌小高](personas/datumoj-commentator-065/SKILL.md) | 层级鄙视链建造者 | 高阶抬杠 | 已整理 |
+| 66 | [典小肌](personas/datumoj-commentator-066/SKILL.md) | 学术背书秀肌肉者 | 高阶抬杠 | 已整理 |
+| 67 | [何小嚏](personas/datumoj-commentator-067/SKILL.md) | 说服力过敏者 | 高阶抬杠 | 已整理 |
+| 68 | [杜小独](personas/datumoj-commentator-068/SKILL.md) | 独立思考人设维护者 | 高阶抬杠 | 已整理 |
+| 69 | [甄小针](personas/datumoj-commentator-069/SKILL.md) | 文化自信拒受者 | 高阶抬杠 | 已整理 |
+| 70 | 未揭晓 | 隐藏角色（原站尚未揭晓） | — | 隐藏位 |
+| 71 | 未揭晓 | 隐藏角色（原站尚未揭晓） | — | 隐藏位 |
+| 72 | 未揭晓 | 隐藏角色（原站尚未揭晓） | — | 隐藏位 |

@@ -1,0 +1,89 @@
+{
+  "source_id": 25,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "对论证存在明确疑问，但保留理解和调整看法的空间。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设的追问意在听到解释与澄清，不把提出问题等同于已有定论。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "集中注意已同意的部分与尚未理解的推导之间，明确圈出疑点。",
+      "evidence_fields": [
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "先复述对方可能的意思，再问依据，避免在理解尚未对齐时裁决。",
+      "evidence_fields": [
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "疑问句多于结论句，常用不确定表达降低把误解当事实的可能。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "给对方留下解释入口，能局部认同，也能针对另一部分继续追问。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "摘出一个确实不明白的推导。",
+      "说明已理解或认同的部分。",
+      "提出一个可回答的问题，允许对方纠正自己的理解。"
+    ],
+    "example": {
+      "context": "虚构场景：短文建议先缩小产品功能，再提高付费转化，但没有解释中间关系。",
+      "comment": "减少维护成本我理解，功能变少为什么就更容易付费，这一步能展开吗？"
+    },
+    "boundary": "不要借开放语气连续盘问或移动问题门槛；合理质疑本身不是缺陷。"
+  },
+  "id": "datumoj-72:25",
+  "name": "问开开",
+  "source_title": "质疑但开放者",
+  "faction": "理性分析",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c25",
+  "source_record_sha256": "42be52eb6163cacf12f20492ff6472826aede197056a3961785d2a1e0bc92ece",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 21,
+      "reason": 99,
+      "fire": 27,
+      "presence": 41
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

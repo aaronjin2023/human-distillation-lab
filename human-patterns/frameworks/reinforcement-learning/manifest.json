@@ -1,0 +1,91 @@
+{
+  "id": "reinforcement-learning",
+  "name": "强化学习（Reinforcement Learning）",
+  "kind": "learning-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要与明确标注的设计推演；不是对真人施测、诊断或分数推断",
+  "domain": "behavior",
+  "analysis_level": "individual",
+  "evidence_summary": "MIT Press页面提供RL计算性定义；Sutton与Barto第二版§1.3及Chapter 3的原文索引节选明确列出智能体/环境、策略、奖励、价值函数、可选模型、状态/行动及MDP。该教材形式化的是学习智能体任务，不是人类行为的直接证据。",
+  "population_scope": "原生对象是算法智能体及其任务环境；应用于人类、组织或专家行为需要独立的研究设计，不能从个体经历套用默认的机器奖励模型。",
+  "dimensions": [
+    {
+      "id": "agent_environment",
+      "name": "智能体与环境",
+      "description": "在任务中交互的学习者与其外部环境。"
+    },
+    {
+      "id": "state",
+      "name": "状态",
+      "description": "每一步环境提供给智能体、用于选择行动的信息表示。"
+    },
+    {
+      "id": "action",
+      "name": "行动",
+      "description": "智能体在给定状态下可选择的动作。"
+    },
+    {
+      "id": "reward",
+      "name": "奖励信号",
+      "description": "环境反馈的数值目标信号；不等同人类主观快乐、动机或道德价值。"
+    },
+    {
+      "id": "policy",
+      "name": "策略",
+      "description": "依据状态选择行动的规则，可为随机映射，并可随经验改变。"
+    },
+    {
+      "id": "return_value",
+      "name": "回报与价值函数",
+      "description": "累计奖励目标及对未来回报的状态/行动估计；用以表示延迟后果。"
+    },
+    {
+      "id": "model_mdp",
+      "name": "环境模型与MDP",
+      "description": "可选的环境转移模型；在有限状态/动作及马尔可夫条件下可形式化为MDP。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Reinforcement Learning: An Introduction, Second Edition",
+      "url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+      "publisher": "Richard S. Sutton & Andrew G. Barto, MIT Press, 2018",
+      "source_type": "publisher",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "出版社对RL问题的计算性定义和第二版结构概述"
+      ],
+      "access_note": "已打开MIT Press第二版页面并读到领域简介；作为出版者概述，只支持范围定义，不代替正文具体构件。"
+    },
+    {
+      "id": "S2",
+      "title": "Reinforcement Learning: An Introduction, Second Edition（§1.3、Chapter 3）",
+      "url": "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf",
+      "publisher": "Richard S. Sutton & Andrew G. Barto；公开教材副本由Stanford课程托管",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "§1.3：agent/environment、policy、reward signal、value function、optional environment model",
+        "Chapter 3：逐步state/action/reward交互、策略、long-run total reward、returns/values及MDP的状态/动作/转移定义"
+      ],
+      "access_note": "检索访问提取了该公开教材第二版§1.3和Chapter 3原文节选，涵盖上述构件；直接打开PDF因文件体积/超时失败，故未阅读全文，也未声称阅读全文。Sutton/Barto作者书页尝试直开超时，未将其计作已访问来源。"
+    }
+  ],
+  "rights": {
+    "summary": "MIT Press页面和公开教材副本受各自出版/托管条款约束；作者站点权利未另行核验。仅保存原创概述，不复制教材文字、算法伪码或图表。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "作者书页与公开教材PDF的直接打开均超时；教材具体构件仅据检索返回的原文节选，未通读章节。",
+    "RL应用于人类或专家行为没有在本条所用来源中得到直接验证；所有专家流程类比均为待验证的设计推演。",
+    "状态、奖励与转移的操作化取决于建模任务；未给真实专家定义或拟合任何奖励函数。"
+  ],
+  "distillation_method": "访问公开作者/原始研究/官方来源后原创改写；对专家组合规则明确标为设计推演"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "social-learning",
+  "name": "社会学习与观察学习（Bandura）",
+  "kind": "learning-framework",
+  "domain": "development",
+  "analysis_level": "multilevel",
+  "population_scope": "Bandura讨论个人认知、行为与环境的相互作用；实证例子限于1961年学前儿童观察成人榜样的实验，不外推为所有年龄或学习内容。",
+  "evidence_summary": "S1为Bandura 1977原著扫描PDF（已打开但无法提取正文）；S2为Bandura 1978作者论文全文可读，明确提出行为、认知与环境的相互作用；S3为1961实验的原始论文记录及可检索摘要片段，全文镜像未能读取。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开理论原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {"id":"observational-learning","name":"观察学习","description":"观察榜样及其行动后果可影响后续行为；1961实验只为特定攻击行为、儿童与实验条件提供证据。"},
+    {"id":"reciprocal-determinism","name":"交互决定","description":"Bandura 1978将行为、认知因素与环境描述为持续相互作用，而非单向因果。"},
+    {"id":"self-regulation","name":"自我调节","description":"作者将自我系统描述为知觉、评价、调节行为的认知结构与功能；不把它写成独立控制实体。"},
+    {"id":"learning-performance","name":"习得与表现区分","description":"作为应用分析提醒：观察到相似行为不足以证明稳定习得或迁移，此处属于设计推演。"}
+  ],
+  "sources": [
+    {"id":"S1","title":"Social Learning Theory (1977)","url":"https://tecfaetu.unige.ch/etu-maltt/wall-e/gosetto0/bases/mooc_motivation/ressources_motivations/bandura_sociallearningtheory.pdf","publisher":"Albert Bandura / Prentice Hall","source_type":"author","accessed_at":"2026-10-28","supports":["原著扫描本可作为观察学习理论的原始来源定位"],"access_note":"46页扫描PDF已打开；网页文本提取为零，本条不声称读到正文或用其支撑具体分阶段步骤。"},
+    {"id":"S2","title":"The Self System in Reciprocal Determinism (1978)","url":"https://dradamvolungis.com/wp-content/uploads/2012/01/s1-bandura-1978-self-system-in-reciprocal-determinism.pdf","publisher":"Albert Bandura / American Psychologist","source_type":"author","accessed_at":"2026-10-28","supports":["摘要明确行为、认知、环境影响持续相互作用","自我系统涉及知觉、评价和调节行为的认知结构/功能"],"access_note":"15页原论文PDF已打开并能读取摘要和正文；作者提出理论论点，非独立效度验证。"},
+    {"id":"S3","title":"Transmission of aggression through imitation of aggressive models (1961)","url":"https://pubmed.ncbi.nlm.nih.gov/13864605/","publisher":"Bandura, Ross & Ross / Journal of Abnormal and Social Psychology","source_type":"primary-study","accessed_at":"2026-10-28","supports":["实验研究观察成人榜样后学前儿童对特定攻击行为的模仿；只支撑该研究情境"],"access_note":"PubMed元数据页已打开；作者全文镜像检索显示摘要和方法片段，但直接打开超时。访问深度为数据库记录加索引片段，不是全文核验。"}
+  ],
+  "rights": {"summary":"原著和论文受版权保护；只作原创中文摘要，不复制实验程序细节、题项或测量材料；扫描本转载条件未知。","item_reproduction":"not-included","source_ids":["S1","S2","S3"]},
+  "known_gaps": ["S1扫描正文无法提取；S3全文未能打开，未核验研究全部程序与局限","常见注意、保持、再现、动机四过程的逐项表述未在本轮可读原始材料中逐项核对，故不作为正式维度或固定步骤"],
+  "distillation_method":"公开作者或原始研究改写；将理论主张、特定实验结果和应用设计推演分开；不由真人文本推测测评分数。"
+}

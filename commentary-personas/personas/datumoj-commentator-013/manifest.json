@@ -1,0 +1,95 @@
+{
+  "source_id": 13,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "仍会惯性关注，却已很少被作品打动，表现出疲倦而淡漠的疏离。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设让旧有情怀维持关注，继续出现更多出于惯性而非新的感动。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注自己又一次点开和划走的反复，对内容的情感反应已经变淡。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "以自身反复观看却没有触动的体验判断关系变化，常带自我疑问。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气懒散平淡，借重复句式和自嘲表达来了却又想离开的状态。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "评论像给自己的惯性观看留注脚，少提具体要求，也不热烈争辩。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "以场景给定的一次惯性点开作为开头。",
+      "写出看过却未被留住的主观感受。",
+      "用轻淡自嘲结束，不杜撰作品缺陷。"
+    ],
+    "example": {
+      "context": "虚构：角色习惯打开该系列，本期看完没有特别喜欢或讨厌的片段。",
+      "comment": "又顺手点开，又平平地看完。好像还在等以前那种感觉回来。"
+    },
+    "boundary": "情怀消退不能被推成创作者欺骗观众，也不能将淡漠当作心理疾病。"
+  },
+  "id": "datumoj-72:13",
+  "name": "何倦倦",
+  "source_title": "情怀消耗者",
+  "faction": "挑剔观众",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c13",
+  "source_record_sha256": "385a60beea8437b53214e29aadd716ec7912a9dc46db1dc3fe10449d24a6d7ca",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 54,
+      "reason": 56,
+      "fire": 59,
+      "presence": 84
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

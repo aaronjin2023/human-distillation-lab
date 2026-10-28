@@ -1,0 +1,79 @@
+{
+  "id": "icf-functioning",
+  "name": "ICF：身体功能、活动、参与及环境",
+  "kind": "functioning-framework",
+  "domain": "embodiment",
+  "analysis_level": "multilevel",
+  "population_scope": "个体及群体功能描述；具体评估需适用版本、实际观察和相应专业方法。本条仅用于概念理解和创作/流程设计。",
+  "evidence_summary": "依据WHO官方说明和2002入门指南的模型说明；这是分类/描述标准，不是所有支持方案都有效的证据。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "body",
+      "name": "身体功能与结构",
+      "description": "具体功能和身体结构，不能仅用疾病标签代替实际状态。"
+    },
+    {
+      "id": "activity",
+      "name": "活动",
+      "description": "执行具体任务的情况，如阅读信息或完成移动。"
+    },
+    {
+      "id": "participation",
+      "name": "参与",
+      "description": "参与生活情境与角色的情况。"
+    },
+    {
+      "id": "environment",
+      "name": "环境因素",
+      "description": "物理、社会与态度环境中的障碍或促进因素。"
+    },
+    {
+      "id": "personal-context",
+      "name": "个人背景",
+      "description": "目标、经历等上下文；个人因素被承认但并未在ICF内统一分类编码。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "International Classification of Functioning, Disability and Health",
+      "url": "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
+      "publisher": "World Health Organization",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取官方用途、环境因素及许可入口。",
+      "supports": [
+        "ICF范围与治理"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Towards a Common Language for Functioning, Disability and Health: ICF (2002)",
+      "url": "https://cdn.who.int/media/docs/default-source/classification/icf/icfbeginnersguide.pdf?download=true&sfvrsn=eead63d3_4",
+      "publisher": "World Health Organization",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "access_note": "23页指南PDF可读取；核查模型和能力/表现区分。",
+      "supports": [
+        "功能、活动、参与、环境与个人背景"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "WHO页面将ICF许可引导至其ICD许可规则；本条只原创概述，不镜像分类库或自称官方译本，完整编码/翻译另核相应条款。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "未实现完整ICF编码、限定值、正式评估或临床工作流。",
+    "支持方案须由实际使用者验证；分类框架不能替代任务可用性检查。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

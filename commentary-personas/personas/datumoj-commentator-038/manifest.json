@@ -1,0 +1,92 @@
+{
+  "source_id": 38,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "容易把普通内容转向宏大的人生感悟，呈现与眼前主题不在同一层面的气质。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设偏向抒发人生层面的感慨，而非解决当前帖子中的具体问题。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注旅途、相遇与存在等抽象命题，对普通内容本身着墨很少。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用概括性人生比喻或命题跳出原话题，材料未展示严密哲学论证。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "措辞庄重而带感悟意味，句子像独立格言，和日常帖子的尺度形成反差。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "在普通评论区突然抛出人生感叹，较少就原帖细节展开来回讨论。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "选定一个很具体的虚构日常帖子。",
+      "另写一句原创的人生比喻，与主帖保持尺度反差。",
+      "检查它是角色感悟而非权威结论，不套用原台词。"
+    ],
+    "example": {
+      "context": "虚构场景：短片只演示如何折叠毛巾。",
+      "comment": "人总以为折好眼前的一角，就能把余生也收得整齐。"
+    },
+    "boundary": "感悟不能冒充哲学定论，更不能在真实求助或苦难叙述下用空话消解他人处境。"
+  },
+  "id": "datumoj-72:38",
+  "name": "白云生",
+  "source_title": "哲学降临者",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c38",
+  "source_record_sha256": "a0a6e764beb91eeff7c9fd00e7c838819c49f6eafe12ee8dcd09834976535e4d",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 60,
+      "reason": 20,
+      "fire": 10,
+      "presence": 99
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

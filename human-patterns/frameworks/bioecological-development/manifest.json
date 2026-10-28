@@ -1,0 +1,61 @@
+{
+  "id": "bioecological-development",
+  "name": "生物生态发展模型（PPCT）",
+  "kind": "development-framework",
+  "domain": "development",
+  "analysis_level": "multilevel",
+  "population_scope": "章节重点涉及儿童青少年与家庭发展，模型讨论生命历程；跨年龄与文化应用需验证具体机制。",
+  "evidence_summary": "S1为提出者的原始理论章节，可读取36页PDF，核查PPCT、近端过程及系统定义；属于理论组织框架，不是一套已验证的个体预测器。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "process",
+      "name": "过程",
+      "description": "反复发生、逐渐复杂的个人与人、物、符号的互动。"
+    },
+    {
+      "id": "person",
+      "name": "个人",
+      "description": "影响互动的动机、资源及引发环境回应的特点。"
+    },
+    {
+      "id": "context",
+      "name": "情境",
+      "description": "直接场所、场所间联系及更广的制度环境。"
+    },
+    {
+      "id": "time",
+      "name": "时间",
+      "description": "单次互动、重复周期与生命/历史时期。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Bioecological Model of Human Development (2006)",
+      "url": "https://childhelp.org/wp-content/uploads/2015/07/Bronfenbrenner-U.-and-P.-Morris-2006-The-Bioecological-Model-of-Human-Development.pdf",
+      "publisher": "Urie Bronfenbrenner & Pamela A. Morris / Wiley",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "原始章节的公开镜像；正文可读取，核查模型与近端过程部分。",
+      "supports": [
+        "PPCT、近端过程和层次/时间含义"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "章节版权归出版方，镜像可读不代表开放再分发；只保存原创摘要，不复制原图或整段文字。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1"
+    ]
+  },
+  "known_gaps": [
+    "未核查近年各类PPCT干预或预测模型的效果。",
+    "本条未给出因果识别设计，观察到共同变化不等于确立因果。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

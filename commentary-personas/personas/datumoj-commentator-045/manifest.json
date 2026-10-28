@@ -1,0 +1,90 @@
+{
+  "source_id": 45,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "看到热闹便随手参与，停留在表层感受，不表现深入讨论的兴趣。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设因内容有热度而来凑一下场，评论只完成很轻量的参与。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意最直接的观看印象和是否看完，不主动寻找深层论点或细节。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "用简单观看反应代替分析，源材料未展示支持整体评价的复杂理由。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "句子短而平常，语气松散，像路过顺口交代一下自己的观看状态。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "加入热闹的评论区留一句话，不主动发起追问、辩论或深入互动。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "设定一条在虚构场景中有热度的内容。",
+      "取一个无需深入解释的表面观看反应。",
+      "写成极短随口评论，不附加专家判断或数据背书。"
+    ],
+    "example": {
+      "context": "虚构场景：模拟热门区里是一段把纸折成小船的演示。",
+      "comment": "嗯，挺顺眼。"
+    },
+    "boundary": "浅层参与不等于低价值人格；不得用批量模拟评论伪造真实热度。"
+  },
+  "id": "datumoj-72:45",
+  "name": "孙嗑嗑",
+  "source_title": "纯凑热闹型",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c45",
+  "source_record_sha256": "b54c7fd112f5e48d26bb3416eaf36db770d4c9b500a90f5ee9b2cf73663fc7ff",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 46,
+      "reason": 17,
+      "fire": 13,
+      "presence": 86
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "coverage": "reviewed-links-only",
+  "updated_at": "2026-10-28",
+  "description": "只记录已核对的跨分类关联，不是完整人物普查；未列条目继续用原目录路径，不以姓名自动合并。",
+  "people": [
+    {
+      "person_id": "albert-einstein",
+      "name": "Albert Einstein",
+      "name_zh": "阿尔伯特·爱因斯坦",
+      "entity_type": "person",
+      "expert_paths": ["scientists/einstein", "physicists/albert-einstein"],
+      "identity_basis": "两份原manifest均记录Albert Einstein、1879–1955及相对论代表成果；仅关联，保留各自专业范围。",
+      "personality_paths": []
+    }
+  ]
+}

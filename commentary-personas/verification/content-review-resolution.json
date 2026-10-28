@@ -1,0 +1,27 @@
+{
+  "status": "all-findings-applied",
+  "findings": 7,
+  "affected_source_ids": [
+    1,
+    58,
+    68
+  ],
+  "method": "Primary agent checked each current value and source meaning before applying exact-field replacements; original drafts retained in local intake.",
+  "configured_models": {
+    "extraction": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "tasks": [
+        "commentators_01_23",
+        "commentators_24_46",
+        "commentators_47_69"
+      ]
+    },
+    "review": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "task": "commentator_review"
+    }
+  },
+  "note": "Model names are the explicit collaboration launch settings; no token/billing amount is inferred."
+}

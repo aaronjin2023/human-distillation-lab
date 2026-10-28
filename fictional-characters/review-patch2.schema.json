@@ -1,0 +1,199 @@
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "work_id": {
+            "type": "string"
+          },
+          "source_sufficient": {
+            "type": "boolean"
+          },
+          "replacements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "original_name": {
+                  "type": "string"
+                },
+                "character": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "aliases": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "role": {
+                      "type": "string",
+                      "enum": [
+                        "protagonist",
+                        "co-lead",
+                        "central-antagonist",
+                        "major-support"
+                      ]
+                    },
+                    "identity_hint": {
+                      "type": "string"
+                    },
+                    "traits": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "dimension": {
+                            "type": "string",
+                            "enum": [
+                              "personality",
+                              "motivation",
+                              "values",
+                              "decision_style",
+                              "emotion",
+                              "relationships",
+                              "communication",
+                              "development"
+                            ]
+                          },
+                          "claim": {
+                            "type": "string"
+                          },
+                          "basis": {
+                            "type": "string",
+                            "enum": [
+                              "explicit",
+                              "interpretation"
+                            ]
+                          },
+                          "evidence_sentences": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": [
+                          "dimension",
+                          "claim",
+                          "basis",
+                          "evidence_sentences"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "tensions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "aliases",
+                    "role",
+                    "identity_hint",
+                    "traits",
+                    "tensions"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "original_name",
+                "character"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "trait_fixes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "character_name": {
+                  "type": "string"
+                },
+                "previous_dimension": {
+                  "type": "string"
+                },
+                "trait": {
+                  "type": "object",
+                  "properties": {
+                    "dimension": {
+                      "type": "string",
+                      "enum": [
+                        "personality",
+                        "motivation",
+                        "values",
+                        "decision_style",
+                        "emotion",
+                        "relationships",
+                        "communication",
+                        "development"
+                      ]
+                    },
+                    "claim": {
+                      "type": "string"
+                    },
+                    "basis": {
+                      "type": "string",
+                      "enum": [
+                        "explicit",
+                        "interpretation"
+                      ]
+                    },
+                    "evidence_sentences": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "required": [
+                    "dimension",
+                    "claim",
+                    "basis",
+                    "evidence_sentences"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "character_name",
+                "previous_dimension",
+                "trait"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "work_id",
+          "source_sufficient",
+          "replacements",
+          "limitations",
+          "trait_fixes"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "results"
+  ],
+  "additionalProperties": false
+}

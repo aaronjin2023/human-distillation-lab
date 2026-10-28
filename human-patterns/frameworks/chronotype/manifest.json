@@ -1,0 +1,74 @@
+{
+  "id": "chronotype",
+  "name": "昼夜节律与时间型（MCTQ概念）",
+  "kind": "biological-rhythm-framework",
+  "domain": "embodiment",
+  "analysis_level": "individual",
+  "population_scope": "先导自报睡眠数据及MCTQ适用条件；轮班、儿童和强制自由日作息不可直接套同一解释。",
+  "evidence_summary": "S1为作者开发研究的PubMed检索摘要，500份先导问卷；S2为作者项目的MCTQ说明检索文本。仅概述代理测量及条件，不提供正式施测。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "sleep-timing",
+      "name": "睡眠时间",
+      "description": "入睡、醒来和睡眠中点；不是仅记录上床时间。"
+    },
+    {
+      "id": "work-free",
+      "name": "工作日与自由日",
+      "description": "区分外部作息约束与相对自由条件。"
+    },
+    {
+      "id": "sleep-debt",
+      "name": "睡眠债与补偿",
+      "description": "工作日不足会影响自由日睡眠，因此不能简单当稳定偏好。"
+    },
+    {
+      "id": "light-context",
+      "name": "光照及情境",
+      "description": "记录光照、轮班、照料和闹钟等因素。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Life between clocks: daily temporal patterns of human chronotypes (2003)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12568247/",
+      "publisher": "Roenneberg, Wirz-Justice & Merrow / Journal of Biological Rhythms",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "access_note": "搜索可读完整摘要；直接打开出现验证码。",
+      "supports": [
+        "工作日/自由日、500份先导问卷与多因素影响"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "MCTQ: questionnaire and evaluation",
+      "url": "https://www.thewep.org/documentations/mctq/item/mctq",
+      "publisher": "Roenneberg and colleagues / The WeP",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "搜索可读作者页面正文；直接页面两次超时。",
+      "supports": [
+        "自由日无闹钟条件、时间型代理、使用需申请"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "作者页面要求邮件申请MCTQ使用许可；不收录题本、译本或完整计算规则，也未购买评估服务。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "来源直接访问遇验证码/超时，使用检索可见摘要与作者说明；未检查最新全部版本。",
+    "未使用真实睡眠日志、计算常模或建立疾病/职业能力推断。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

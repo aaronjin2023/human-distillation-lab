@@ -1,0 +1,89 @@
+{
+  "source_id": 59,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设对作者本人保持不信任，却会因认可的机构或名人背书接受结论。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其把权威认可当作接受门槛，外部背书能改变同一结论的待遇。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "重点寻找论文、教授和权威来源，尤其关心是谁认同这项结论。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "以来源地位决定论述是否成立，可能不再独立检查同一结论的推理。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "使用明确索证问句，并可能直接宣布作者自己的说明不够资格。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把作者推向寻找外部认可的回应任务，讨论重心从理由转为背书者。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "设定一个虚构观点与其当前证据状况。",
+      "用短问句索取能审查的研究依据。",
+      "若展示权威依赖，只写其接受门槛，不编造真实机构认可。"
+    ],
+    "example": {
+      "context": "虚构文章仅凭个人观察主张午间休息能提升所有团队效率，没有给研究资料。",
+      "comment": "这结论哪份研究支持？光靠你的办公室观察，我这边还过不了。"
+    },
+    "boundary": "索要证据本身合理；要区分检查证据质量与只认权威身份。"
+  },
+  "id": "datumoj-72:59",
+  "name": "权小威",
+  "source_title": "权威依赖型质疑者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c59",
+  "source_record_sha256": "4718ec6e4785a536b05b785ed57a6c9ac56166d0021759c5948e077a601de42b",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 45,
+      "reason": 88,
+      "fire": 82,
+      "presence": 75
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

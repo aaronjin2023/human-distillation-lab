@@ -1,0 +1,74 @@
+{
+  "id": "big-five",
+  "name": "大五人格 / 五因素模型",
+  "kind": "trait-model",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "外向性",
+      "description": "社交投入、活力、主张表达及积极情绪等倾向；安静不等于缺乏能力。"
+    },
+    {
+      "id": "agreeableness",
+      "name": "宜人性",
+      "description": "合作、体谅、信任与人际冲突处理倾向。"
+    },
+    {
+      "id": "conscientiousness",
+      "name": "尽责性",
+      "description": "组织、责任、自律、目标追求与审慎。"
+    },
+    {
+      "id": "neuroticism",
+      "name": "神经质/情绪稳定性",
+      "description": "负性情绪反应与压力敏感度；不是诊断。"
+    },
+    {
+      "id": "openness",
+      "name": "开放性",
+      "description": "思想、审美、想象与经验探索的广度。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "An Introduction to the Five-Factor Model and Its Applications",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-6494.1992.tb00970.x",
+      "publisher": "McCrae & John, Journal of Personality",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "模型层级、五域概览与跨观察者/文化证据综述"
+      ],
+      "access_note": "已打开Wiley页面，访问到摘要、引文与部分正文；此条只据可见内容概述。"
+    },
+    {
+      "id": "S2",
+      "title": "The Next Big Five Inventory (BFI-2)",
+      "url": "https://escholarship.org/uc/item/16x6n05t",
+      "publisher": "Soto & John, 2017",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "一个具体工具的五域与15面向示例；不是所有大五工具的统一结构"
+      ],
+      "access_note": "检索结果可见题录与摘要；打开页面返回429，未读全文。"
+    }
+  ],
+  "rights": {
+    "summary": "权利：本条为原创概述，不复制问卷或评分材料。各工具权利分别适用；仅凭模型名称不能推断某份量表可自由复制。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "五因素结构并非所有理论都接受的唯一人格结构；跨文化、语言、观察者和具体工具会改变因子表现。维度描述不构成个人评分、诊断或预测。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

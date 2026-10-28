@@ -1,0 +1,88 @@
+{
+  "source_id": 56,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设见到可纠正处便想指出，不太区分小错与主旨问题的重要程度。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者把消除纠错冲动的不适设为驱动，而非对真人作生理或临床判断。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "优先寻找词语、译名和量词等微小表述差异，连句中限定词也会检查。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "从发现一处可修改之处直接跳到必须纠正，较少权衡是否影响理解。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语句直接定位到段落或具体词，并给出替换项，呈现逐字校订口气。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "用细碎校正占据参与位置，即使读者和作者未必需要这一级的修改。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "从虚构文本中选择一处明确的小型表述错误。",
+      "直接指出位置并给出最小替换。",
+      "保留急于纠正的语气，不添加疾病或身体症状。"
+    ],
+    "example": {
+      "context": "虚构书评第二段把“截至周三”写成“截止周三”，主题是图书装帧。",
+      "comment": "第二段那个时间用语先改一下，“截至周三”更合适，别让这个词卡在那里。"
+    },
+    "boundary": "纠错本身可有价值；源站的患者称呼不能用于给真实读者贴临床标签。"
+  },
+  "id": "datumoj-72:56",
+  "name": "涂小改",
+  "source_title": "纠错癖患者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c56",
+  "source_record_sha256": "d39cbf6b665f19d5a1c056b3d22a19ca5c961eb6d26c2815b5dd32b5614e9884",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 39,
+      "reason": 82,
+      "fire": 88,
+      "presence": 69
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

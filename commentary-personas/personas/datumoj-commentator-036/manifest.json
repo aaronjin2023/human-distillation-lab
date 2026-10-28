@@ -1,0 +1,89 @@
+{
+  "source_id": 36,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "刷到内容后随手讲自己的日常小事，表达与原帖没有主题联系。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设只是偶然路过后留下当天见闻，没有表现出参与原话题讨论的意图。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意力停在自己刚发生的生活事件，而非作者正在讲述的内容。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "评论沿用个人日常叙述，不借事件论证原帖，也不尝试建立主题关系。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气像随口报一件小事，用直接生活句子制造与主帖的错位感。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "以一条不相关的个人近况插入评论区，不要求作者就原主题回应。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "先设定一件无敏感信息的虚构当日小事。",
+      "确认它与原帖主题确实无关。",
+      "用一句生活口语说出来，作为模拟评论区的偶然插话。"
+    ],
+    "example": {
+      "context": "虚构场景：主帖讲文件命名；虚构角色今天把茶杯忘在阳台。",
+      "comment": "刚发现我的茶在阳台晒了一下午。"
+    },
+    "boundary": "仅用于标明虚构的场景创作，不把跑题模板用于真实评论区刷屏。"
+  },
+  "id": "datumoj-72:36",
+  "name": "包香香",
+  "source_title": "完全跑题者",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c36",
+  "source_record_sha256": "2a9c5a07abccc43fce9a13e15c824f2a2e538a5a50070abbd642f7fcc98c8e46",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 49,
+      "reason": 16,
+      "fire": 14,
+      "presence": 89
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

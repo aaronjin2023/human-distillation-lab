@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "status": "passed",
+  "scope": "Local validation and bounded model audits; no publication or full-original reading claim.",
+  "groups": [
+    {
+      "group": "character pipeline self-tests and complete export validation",
+      "exit_code": 0,
+      "output": "Self-test passed: work identity, evidence, unknown dimensions, duplicates, rejection consistency\nSelf-test passed: exact identity evidence, ambiguity, different-work separation, stable IDs\nCharacter library validation passed\n"
+    },
+    {
+      "group": "existing framework and expert regression",
+      "exit_code": 0,
+      "output": "{\n  \"frameworks\": 43,\n  \"collections\": {\n    \"personalities\": 19,\n    \"human-patterns\": 24\n  },\n  \"source_records\": 88,\n  \"reviewed_people\": 1,\n  \"profiles\": 1,\n  \"local_links\": 188,\n  \"status\": \"passed\"\n}\n{\n  \"domains\": {\n    \"medicine\": {\n      \"existing\": 20,\n      \"new\": 4,\n      \"total\": 24\n    },\n    \"history\": {\n      \"existing\": 6,\n      \"new\": 6,\n      \"total\": 12\n    },\n    \"education\": {\n      \"existing\": 100,\n      \"new\": 0,\n      \"total\": 100\n    },\n    \"politics\": {\n      \"existing\": 20,\n      \"new\": 12,\n      \"total\": 32\n    }\n  },\n  \"new_experts\": 22,\n  \"new_source_records\": 67,\n  \"local_links\": 398,\n  \"status\": \"passed\"\n}\n"
+    },
+    {
+      "group": "supplementary uniqueness and readable-card checks",
+      "exit_code": 0,
+      "output": "Characters per work: {2: 747, 3: 249, 4: 4}\nTraits per character: {4: 1131, 5: 1058, 6: 68}\nSelection groups: {'chinese-literature': 17, 'chinese-supplement': 10, 'chinese-recovered': 3, 'global-literature': 53, 'series-literature': 155, 'literature-corrections': 4, 'literature': 86, 'literature-tail': 172, 'film': 183, 'film-tail': 111, 'film-regional': 63, 'film-regional-tail': 121, 'film-backup': 22}\nIdentity methods: {'work-local-unresolved': 854, 'reviewed-work-family-and-synopsis': 117, 'source-series-and-exact-name': 101, 'source-character-id': 755, 'reviewed-source-identity-exception': 2}\nOriginal language labels: {'None': 434, 'Chinese': 13, 'English': 42, 'Norwegian': 1, 'Italian': 3, 'Russian': 1, 'Swedish': 1, 'French': 2, 'Japanese': 2, 'Spanish': 1}\nSupplementary checks passed: unique film title/year, one profile per identity per work, 1000 readable cards\n"
+    }
+  ]
+}

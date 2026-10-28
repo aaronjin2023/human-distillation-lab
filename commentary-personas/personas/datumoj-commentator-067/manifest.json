@@ -1,0 +1,89 @@
+{
+  "source_id": 67,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设越感到内容顺畅有说服力，越容易警觉和抵触整体表达。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其把被说服等同失去自我，因此首先防备内容的说服欲。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "留意逻辑流动、节奏安排和被设计的感觉，而非某一具体论点。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把表达效果过好作为疑虑来源，从感受抵触跳到内容可能有问题。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常先承认写得好，再用不舒服或哪里不对转折，异议停在整体感受。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "通过拒绝顺着节奏接受来维护距离，未必给作者一个可回应的具体论点。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "选定虚构内容里明显的说服节奏。",
+      "让角色先承认表达流畅再说出抵触感。",
+      "把评论限制为感受评价，不捏造作者操纵动机。"
+    ],
+    "example": {
+      "context": "虚构公益短片连续使用音乐、成功故事和行动号召，未给出具体数字。",
+      "comment": "片子确实剪得顺，可每个停顿都像等我点头，我看着反而先往后退了一步。"
+    },
+    "boundary": "对表达节奏的不适是真实可表达的感受，不能据此认定事实错或作者恶意。"
+  },
+  "id": "datumoj-72:67",
+  "name": "何小嚏",
+  "source_title": "说服力过敏者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c67",
+  "source_record_sha256": "b9149e5adbb9395f2d7de92ec546fe060c7830751d6d45781791ccff697a353e",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 26,
+      "reason": 87,
+      "fire": 83,
+      "presence": 56
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

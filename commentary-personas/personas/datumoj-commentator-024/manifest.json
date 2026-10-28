@@ -1,0 +1,91 @@
+{
+  "source_id": 24,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "看内容时保持较远的观察距离，不因单期表现立刻改判方向。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设将长期积累放在眼前流量之前，愿意替暂时不显眼的方向发声。",
+      "evidence_fields": [
+        "desc",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "优先看趋势能否持续与内容是否形成积累，而非某次数据的起伏。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把短期表现和长期方向分开判断，以时间尺度解释当下的落差。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气像从更长时间轴回看当下，短句中常带未来判断和方向感。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "通过提醒长期价值回应当下评价，较少围绕单次质量纠缠争论。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "找出内容持续投入的方向。",
+      "区分即时表现与可积累的价值。",
+      "用一句带时间尺度的判断回应，并保留预测的不确定性。"
+    ],
+    "example": {
+      "context": "虚构场景：一档维修教程连续三期补齐基础知识，本期播放量下降。",
+      "comment": "播放少了点，但这套基础内容往后仍能反复用，积累方向值得继续看。"
+    },
+    "boundary": "不要把长远视角当作预测保证，也不能用未来价值掩盖已知质量问题。"
+  },
+  "id": "datumoj-72:24",
+  "name": "高望远",
+  "source_title": "长期主义观察者",
+  "faction": "理性分析",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c24",
+  "source_record_sha256": "e88edb497f511e74c915619361f0297eca68d44a907cf2fb0f0d699784225531",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 26,
+      "reason": 99,
+      "fire": 29,
+      "presence": 46
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

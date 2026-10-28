@@ -1,0 +1,84 @@
+{
+  "id": "cultural-dimensions",
+  "name": "Hofstede 国家文化维度与分析层级",
+  "kind": "culture-framework",
+  "domain": "culture",
+  "analysis_level": "group",
+  "population_scope": "社会间匹配样本的比较；历史来源和国家内异质性限制当前个人与团队解释。",
+  "evidence_summary": "S1为模型维护方说明，S2为作者站VSM使用边界。它们说明模型与使用条件，不是独立重复验证；不导入国家分数榜。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "power-distance",
+      "name": "权力距离",
+      "description": "对权力不平等的社会期待与接受程度。"
+    },
+    {
+      "id": "individualism",
+      "name": "个体主义与集体主义",
+      "description": "个人选择与群体义务的文化期待。"
+    },
+    {
+      "id": "masculinity",
+      "name": "竞争成就与关怀取向",
+      "description": "原模型称masculinity/femininity，描述社会期待，不是生理性别。"
+    },
+    {
+      "id": "uncertainty-avoidance",
+      "name": "不确定性回避",
+      "description": "面对模糊与未知的文化反应；不等同于风险厌恶。"
+    },
+    {
+      "id": "long-term-orientation",
+      "name": "长期取向",
+      "description": "变化、未来准备与传统取向的比较。"
+    },
+    {
+      "id": "indulgence",
+      "name": "放纵与克制",
+      "description": "对欲求表达与约束的社会期待。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The 6D model of national culture",
+      "url": "https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/",
+      "publisher": "Geert Hofstede author site",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取页面六维解释与国家内差异说明。",
+      "supports": [
+        "六维概念和聚合层级"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Research and VSM",
+      "url": "https://geerthofstede.com/research-and-vsm/",
+      "publisher": "Geert Hofstede author site",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "已读取用途、匹配样本及学术/商业使用要求。",
+      "supports": [
+        "不能给个人或组织施测、研究条件"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "VSM学术研究有良好实践条件，商业研究须联系权利方；本条不收录问卷、计分公式或国家数据矩阵。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "未审查跨时代测量等值性与独立效度研究。",
+    "六维并非文化的完整划分；原始性别化命名不代表男女天性。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

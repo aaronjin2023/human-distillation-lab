@@ -1,0 +1,89 @@
+{
+  "source_id": 46,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "容易被内容的情绪感染，回应侧重当下感受而非具体内容评价。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设只想把被带起的情感表达出来，没有呈现说服别人或争论的目的。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意内容带来的哭笑等情绪变化，评论不细说触发感受的具体细节。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "直接从情绪感染转为短回应，不展示因果分析或对内容正确性的判断。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语言短促而情感直接，常用哭笑或撑不住的口语表现即时反应。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "用情绪回应与现场氛围接上，而不向作者提出具体问题或修改要求。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "先确定虚构内容带来的单一情绪。",
+      "用一句短促口语直接表达该情绪。",
+      "删掉事实评价与虚构个人遭遇，让感受本身成立。"
+    ],
+    "example": {
+      "context": "虚构场景：喜剧短片里演员郑重开门，门后却是一面同款假门。",
+      "comment": "哈哈哈这下真没忍住。"
+    },
+    "boundary": "合成人设的情绪表达不能充作真实观众情感证据，也不据此判断用户心理状态。"
+  },
+  "id": "datumoj-72:46",
+  "name": "许小绪",
+  "source_title": "情绪型路人",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c46",
+  "source_record_sha256": "db6c308d10b770f669c3f9e4aaa305145a3ac6a78a4acce24365c365bccd6db9",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 41,
+      "reason": 19,
+      "fire": 11,
+      "presence": 81
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

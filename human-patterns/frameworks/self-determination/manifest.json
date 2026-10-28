@@ -1,0 +1,75 @@
+{
+  "id": "self-determination",
+  "name": "自我决定理论（SDT）",
+  "kind": "motivation-framework",
+  "domain": "emotion-motivation",
+  "analysis_level": "individual",
+  "population_scope": "主要用于教育、工作、健康等动机情境；基础理论跨生命周期与文化提出，实际适配依场景验证。",
+  "evidence_summary": "S1为Ryan与Deci的理论综述全文（作者公开PDF）；S2为APA对框架的编辑性概述。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {
+      "id": "autonomy",
+      "name": "自主",
+      "description": "行动体验为自愿、有选择；不是独立行事或拒绝关系。"
+    },
+    {
+      "id": "competence",
+      "name": "胜任",
+      "description": "感到能有效行动、学习并取得进展。"
+    },
+    {
+      "id": "relatedness",
+      "name": "关系联结",
+      "description": "感到与他人有真实连接和归属。"
+    },
+    {
+      "id": "motivation-quality",
+      "name": "动机调节",
+      "description": "区分兴趣驱动及外在要求被内化的不同程度。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being (2000)",
+      "url": "https://www.selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf",
+      "publisher": "Ryan & Deci / American Psychologist",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "自主、胜任、关系需要",
+        "社会情境与动机调节"
+      ],
+      "access_note": "作者机构托管的论文PDF已打开并读全文。"
+    },
+    {
+      "id": "S2",
+      "title": "Self-determination theory: A quarter century of human motivation research",
+      "url": "https://www.apa.org/research-practice/conduct-research/self-determination-theory.html",
+      "publisher": "American Psychological Association",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "三项需要的定义与应用背景"
+      ],
+      "access_note": "APA专题网页已打开；编辑性二手概述。"
+    }
+  ],
+  "rights": {
+    "summary": "S1标有APA版权；S2为机构网页。只作原创摘要，不复制题目、量表、计分规则；量表许可按具体开发者核实，未知。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "不同子理论及文化情境未逐项展开",
+    "本摘要不评估任何个人需要满足程度"
+  ],
+  "distillation_method": "公开原始研究、作者或官方来源改写；观察、理论解释和设计推演分开；不由真人文本推测测评分数。"
+}

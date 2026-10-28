@@ -1,0 +1,100 @@
+{
+  "id": "bfi-2",
+  "name": "Big Five Inventory–2（BFI-2）",
+  "kind": "trait-instrument",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "外向性",
+      "description": "社交性、主张性、活力。"
+    },
+    {
+      "id": "agreeableness",
+      "name": "宜人性",
+      "description": "同情心、尊重、信任。"
+    },
+    {
+      "id": "conscientiousness",
+      "name": "尽责性",
+      "description": "组织性、效率/产出、责任感。"
+    },
+    {
+      "id": "negative_emotionality",
+      "name": "负性情绪性",
+      "description": "焦虑、抑郁情绪、情绪波动。"
+    },
+    {
+      "id": "open_mindedness",
+      "name": "开放心态",
+      "description": "求知兴趣、审美敏感、创造想象。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Next Big Five Inventory (BFI-2)",
+      "url": "https://escholarship.org/uc/item/16x6n05t",
+      "publisher": "Soto & John, 2017",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "BFI-2开发、层级结构与15面向"
+      ],
+      "access_note": "检索结果可见题录、摘要和页面摘要；打开全文页返回429，未声称阅读全文。"
+    },
+    {
+      "id": "S2",
+      "title": "Big Five Inventory – Berkeley Personality Lab",
+      "url": "https://www.ocf.berkeley.edu/~johnlab/bfi",
+      "publisher": "Berkeley Personality Lab",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "作者实验室的BFI-2介绍及使用/商业用途咨询说明"
+      ],
+      "access_note": "主对话已打开作者实验室页面核对60题、五域15面向与用途条件；网页短版段落混有旧BFI信息，不用它决定BFI-2短版规格"
+    },
+    {
+      "id": "S3",
+      "title": "Short and extra-short forms of the Big Five Inventory-2 (2017)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0092656616301325",
+      "publisher": "Soto & John, Journal of Research in Personality",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "30题S与15题XS的用途区别",
+        "30题短版在大样本中面向测量的条件"
+      ],
+      "access_note": "搜索返回原始论文摘要和highlights；直接打开403，未读付费全文"
+    },
+    {
+      "id": "S4",
+      "title": "The Norwegian Adaptation of the Big Five Inventory-2 (2022)",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.858920/full",
+      "publisher": "Frontiers in Psychology 原始研究",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "S版每面向两题、XS版只解释五域的版本说明"
+      ],
+      "access_note": "主对话打开原始研究页面并核对短版规格段落；未复算研究数据"
+    }
+  ],
+  "rights": {
+    "summary": "实验室对BFI-2条目和材料列有版权及用途说明；商业用途需向实验室申请。本摘要不复制题项、反向题表或评分钥匙。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "30题BFI-2-S每面向两题，在大样本研究中可有面向用途；15题BFI-2-XS面向五域解释，不用于推断15面向的个体排名。研究结论依赖具体样本与语言，公开人物文字不能代填回答。",
+    "Berkeley网页的短版FAQ混有旧BFI信息，短版规格以S3/S4研究为准。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

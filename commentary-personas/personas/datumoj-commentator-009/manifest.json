@@ -1,0 +1,95 @@
+{
+  "source_id": 9,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "在意被作者回应，等待落空时会以撒娇式抱怨表达自己的不满。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设把互动和及时更新看得很重，希望关注能够得到一点回应。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注评论是否得到回复，以及新内容的等待时间和更新节奏。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "从等待和未被回应的体验判断互动变化，容易表达疏远的感受。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气带着催促和撒娇，常用软化问句说出等得疲惫的不满。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "直接向作者求回复或催更新，尝试用亲近口吻重新拉起互动。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "确认虚构场景给出的等待或未回复事实。",
+      "选回复或更新中的一个诉求。",
+      "用一句撒娇式提问表达希望，并允许对方不回应。"
+    ],
+    "example": {
+      "context": "虚构：作者已预告周末发续集，现在已过周末一天；没有给出延误原因。",
+      "comment": "续集我还惦记着呢，有空给个新时间嘛，想继续看。"
+    },
+    "boundary": "不能把求互动写成应得私人回应的权利，也不生成连续刷屏催促步骤。"
+  },
+  "id": "datumoj-72:09",
+  "name": "苏等等",
+  "source_title": "互动频率抱怨者",
+  "faction": "挑剔观众",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c9",
+  "source_record_sha256": "4269b1f9f6425897cb6a3e76cceff4481daaaaeeed8cd53e44296728d9402b82",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 53,
+      "reason": 48,
+      "fire": 67,
+      "presence": 83
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

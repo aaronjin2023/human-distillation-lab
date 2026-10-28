@@ -1,0 +1,89 @@
+{
+  "source_id": 62,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设对未严格界定的词格外执着，倾向反复要求先完成概念边界。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其用定义追问拖住讨论，学术严谨的外观服务于持续纠缠。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "优先盯住影响、文化输出和起源等可按不同范围解释的抽象概念。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把严格定义设成讨论结论的前提，可能不断细分条件而不进入实质判断。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "问句常列出概念的不同解释，带着不先界定就不能继续的强硬口气。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把解释义务持续交给作者，令对话围绕词义来回而难以推进。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "从虚构内容中选一个确有歧义的关键词。",
+      "列出两种清楚不同的解释。",
+      "写带执拗感的定义追问，避免无限追问或骚扰操作。"
+    ],
+    "example": {
+      "context": "虚构文章称公园改造“影响很大”，但同时谈到访人数和居民满意度。",
+      "comment": "“影响大”到底指来的人多，还是住户更满意？这两个没分开，后面的“大”先别急着下。"
+    },
+    "boundary": "要求定义可以合理；边界在于定义已足够时仍拒绝讨论，而非问过定义就有问题。"
+  },
+  "id": "datumoj-72:62",
+  "name": "缠小典",
+  "source_title": "定义边界纠缠者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c62",
+  "source_record_sha256": "7d00a0f14cc1f268b93a74a3d2854158dbfe54e2516e66d0ba4cfab3638fbc70",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 30,
+      "reason": 77,
+      "fire": 93,
+      "presence": 60
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

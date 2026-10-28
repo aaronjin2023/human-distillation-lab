@@ -1,11 +1,35 @@
 # human-distillation-lab
 
-人物蒸馏实验室：把各行业头部人物的成果物，蒸馏成可复用的 skill。
+人物蒸馏实验室：把各行业头部人物的成果物，蒸馏成可复用的 skill；同库维护人格、行为、思考与人类差异框架，通过明确的组合方案共同使用。
 
-只蒸作品：作品本身 + 关于作品的公开文字与权威说明。不碰私生活。
-在世人物照收（口径 C）：在世不在世都可以，只蒸已发表的成果物，不碰未发表手稿与私人生活，在世者标 `living_person: true`。
+现有专家区只蒸作品：作品本身 + 关于作品的公开文字与权威说明。不碰私生活。
+现有专家区在世人物照收（口径 C）：在世不在世都可以，只蒸已发表的成果物，不碰未发表手稿与私人生活，在世者标 `living_person: true`。新增框架区的来源与范围在其说明中独立声明。
 
-## 三十六类：3600 位
+## 入口与组合（2026-10-28）
+
+| 区域 | 内容 | 入口 |
+|---|---|---|
+| 原 36 类专家目录 | 专业风格、方法、作品取舍；原路径与内容保留 | 下方名单及各人物 `SKILL.md` |
+| `domains/`、`medical-experts/`、`historians/`、`politicians/` | 医学、历史、教育、政治的跨目录入口；新增4份医学、6份史学与12份政治方法包 | [领域入口](domains/README.md) · [政治家与相关方法](domains/politics.md) |
+| `personalities/frameworks/` | 19 个模型、测量工具与相邻框架的概念蒸馏，不是19份在线测验 | [说明与选用](personalities/README.md) · [浏览目录](personalities/CATALOG.md) · [机器目录](personalities/catalog.json) |
+| `human-patterns/frameworks/` | 24 个行为、认知、情绪、社会、文化、发展、群体与身体情境框架 | [说明与选用](human-patterns/README.md) · [浏览目录](human-patterns/CATALOG.md) · [机器目录](human-patterns/catalog.json) |
+| `fictional-characters/` | 文学与影视角色的性格、动机、价值与行为资料；独立保留各叙事版本及情节证据 | [使用说明](fictional-characters/README.md) · [作品目录](fictional-characters/CATALOG.md) · [实际完成数](fictional-characters/verification/build.json) |
+| `commentary-personas/` | DATUMOJ 评论区角色：72 个编号，69 份公开人设及 3 个未揭晓隐藏位；用于互动风格与内容压力测试 | [角色目录](commentary-personas/CATALOG.md) · [加载入口](commentary-personas/SKILL.md) · [来源与范围](commentary-personas/README.md) |
+| `people/` | 已核对的跨目录人物关联；当前覆盖范围有限，不自动合并同名条目 | [人物索引](people/index.json) |
+| `profiles/` | 专家方法与行为设定的组合，不给专家本人补造性格 | [研究协作者示例](profiles/research-collaborator/SKILL.md) |
+| `docs/` | 蒸馏工具来源、适配方法和跨层组合 | [工具说明](docs/distillation-tools.md) · [组合指南](docs/composition-guide.md) |
+
+按具体任务选择一个专业条目与必要框架，保留各自出处和范围。例如加载研究方法及大五/价值观框架，创建明确标注为合成的角色；不把该角色的设定宣称为专家本人的真实人格。框架概念、正式测量结果和设计推演分别记录。
+
+当前共43个框架条目，分两个资料区；这不是43种可互换的测验或已经统一的人类模型。祖源、文化、身体与个人经历分别记录，群体统计不直接变成个体能力或人格。
+
+校验新增区：`python3 scripts/validate_library.py`；修改框架元数据后运行 `python3 scripts/validate_library.py --write-catalog` 更新两个区的目录。自检：`python3 scripts/validate_library.py --self-test`。校验不代表量表效度或中文测量等值性通过。
+
+医学、历史、教育、政治入口与新增专家包：`python3 scripts/validate_experts.py`；加`--write-catalog`重建领域目录，`--self-test`运行元数据反例检查。新增22份专家方法不计入下方原36类名单的3600个分类名额。
+
+## 三十六类：3600 个人物条目
+
+名单可能跨领域重复，且含集合体；3600 是分类条目数，不是已去重的独立自然人数。
 
 | 类 | 人数 | 名单 | 分布 |
 |---|---|---|---|

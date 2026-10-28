@@ -1,0 +1,75 @@
+{
+  "id": "emotion-regulation",
+  "name": "情绪调节过程框架",
+  "kind": "emotion-framework",
+  "domain": "emotion-motivation",
+  "analysis_level": "individual",
+  "population_scope": "Gross模型及Gross与John研究涉及一般成年人及实验/问卷情境；不直接外推临床诊断或所有文化。",
+  "evidence_summary": "S1为Gross与John论文全文；S2为作者Gross的同行评审综述摘要。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要及设计推演，不是人格诊断或真人评分。",
+  "dimensions": [
+    {
+      "id": "situation",
+      "name": "情境选择/改变",
+      "description": "选择或改变可能引发情绪的情境。"
+    },
+    {
+      "id": "attention",
+      "name": "注意部署",
+      "description": "调整关注情境中的哪些信息。"
+    },
+    {
+      "id": "reappraisal",
+      "name": "认知重评",
+      "description": "改变对情境意义的解释。"
+    },
+    {
+      "id": "response-modulation",
+      "name": "反应调节",
+      "description": "情绪反应出现后调整表达、体验或生理反应。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Individual Differences in Two Emotion Regulation Processes: Implications for Affect, Relationships, and Well-Being (2003)",
+      "url": "https://emotrab.ufba.br/wp-content/uploads/2019/07/Gross-James-Individual-Differences-in-Two-Emotion-Regulation-Processes....pdf",
+      "publisher": "Gross & John / Journal of Personality and Social Psychology",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "过程模型与认知重评/表达抑制",
+        "五项研究的策略关联"
+      ],
+      "access_note": "论文PDF已打开，全文可读；聚焦重评与抑制两策略。"
+    },
+    {
+      "id": "S2",
+      "title": "Emotion regulation: Affective, cognitive, and social consequences",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1017/S0048577201393198",
+      "publisher": "James J. Gross / Psychophysiology",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "早期重评与后期抑制的过程差异"
+      ],
+      "access_note": "期刊页面已打开，只有摘要可读；全文需权限。"
+    }
+  ],
+  "rights": {
+    "summary": "论文受出版方版权保护，量表与量表题项使用许可未核；只保留原创概述，不复制ERQ或题目。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "策略效果依赖情境、目标与评价指标",
+    "Gross与John研究不能证明压抑在所有情境皆有害"
+  ],
+  "distillation_method": "公开原始研究、作者或官方来源改写；观察、理论解释和设计推演分开；不由真人文本推测测评分数。"
+}

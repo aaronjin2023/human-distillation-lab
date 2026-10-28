@@ -1,0 +1,92 @@
+{
+  "source_id": 39,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "带着另一个地方的求助意图误入评论区，问题和当前内容明显无关。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设想找到某个具体答案，只是把提问留在了不相干的位置。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意自己待解决的事务或题目，对当前频道的主题没有形成回应。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "直接提出需要别人回答的问题，不尝试从原帖内容推导相关结论。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气像普通问路或求助，使用具体问题与请求，缺少主题衔接。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把评论区当成可寻求答案的地点，向在场的人发出跨频道求助。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "设置一个与主帖无关的无害具体疑问。",
+      "用普通求助口吻直接提问。",
+      "让错频道关系在场景中可见，不伪造真实地理信息或办事规则。"
+    ],
+    "example": {
+      "context": "虚构场景：主帖是画画演示，虚构角色原本想在社区工具讨论区提问。",
+      "comment": "借问一句，旧螺丝拧花了该用哪种起子？"
+    },
+    "boundary": "不要把错频道求助扩成真实用户的定向骚扰，也不编造法律、签证等实务答案。"
+  },
+  "id": "datumoj-72:39",
+  "name": "王问路",
+  "source_title": "错频道来访者",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c39",
+  "source_record_sha256": "48d177559435b9a86b8b0dc19e4e6b62b0ce8dc50d6daa2050edbe093d8d98b1",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 55,
+      "reason": 22,
+      "fire": 8,
+      "presence": 95
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

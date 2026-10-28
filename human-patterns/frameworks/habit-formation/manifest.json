@@ -1,0 +1,78 @@
+{
+  "id": "habit-formation",
+  "name": "习惯形成：情境线索与自动化",
+  "kind": "behavior-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要与明确标注的设计推演；不是对真人施测、诊断或分数推断",
+  "domain": "behavior",
+  "analysis_level": "individual",
+  "evidence_summary": "一项真实生活重复测量研究（招募96人，82人数据可用于分析）以每日自报估计自动化增长；是特定行为、场景和样本下的观测模型，不是每个人的标准时间表。",
+  "population_scope": "研究对象为自愿参与者选择的日常饮食、饮水或活动行为，持续12周；不能直接外推到高风险、复杂专业判断或缺少稳定线索的任务。",
+  "dimensions": [
+    {
+      "id": "cue_context",
+      "name": "线索与情境",
+      "description": "行为前可重复识别的时间、地点、前序行为或环境提示。"
+    },
+    {
+      "id": "repetition",
+      "name": "重复执行",
+      "description": "同一行为在相似情境中反复发生的机会。"
+    },
+    {
+      "id": "automaticity",
+      "name": "自动化",
+      "description": "线索出现后无需大量重新权衡即可启动的主观/行为倾向。"
+    },
+    {
+      "id": "context_stability",
+      "name": "情境稳定性",
+      "description": "提示线索在观察期内保持一致的程度。"
+    },
+    {
+      "id": "disruption",
+      "name": "中断与恢复",
+      "description": "情境改变、漏做后行为是否恢复，揭示线索依赖而非意志定性。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "url": "https://openresearch.surrey.ac.uk/esploro/outputs/99783513802346",
+      "publisher": "Lally, van Jaarsveld, Potts & Wardle, European Journal of Social Psychology, 2010",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "研究题录、样本与现实生活习惯研究范围"
+      ],
+      "access_note": "已打开Surrey机构研究页，核对题录与作者；摘要内容不完整。"
+    },
+    {
+      "id": "S2",
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "url": "https://repositorio.ispa.pt/bitstream/10400.12/3364/1/IJSP_998-1009.pdf",
+      "publisher": "Lally et al., 2010",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "搜索可见研究摘要：96人招募、82人纳入自动化分析、84日重复测量"
+      ],
+      "access_note": "搜索结果展示论文PDF摘要与方法；打开PDF时遇到验证码，未读取全文。"
+    }
+  ],
+  "rights": {
+    "summary": "摘要与量表/原文受出版方权利约束，本文仅原创概述，不复制Self-Report Habit Index题项、研究图表或全文。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "Lally等人的现实场景研究让志愿者选择每日饮食、饮水或活动行为并记录12周；样本自选、样本量有限，自动化曲线存在个体差异，不能推出统一形成天数。习惯受环境和行为可行性影响，框架不涵盖所有复杂目标。"
+  ],
+  "distillation_method": "访问公开作者/原始研究/官方来源后原创改写；对专家组合规则明确标为设计推演"
+}

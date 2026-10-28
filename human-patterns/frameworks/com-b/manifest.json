@@ -1,0 +1,73 @@
+{
+  "id": "com-b",
+  "name": "COM-B 行为系统与行为改变轮",
+  "kind": "behavior-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要与明确标注的设计推演；不是对真人施测、诊断或分数推断",
+  "domain": "behavior",
+  "analysis_level": "individual",
+  "evidence_summary": "原始方法论文提出COM-B并以行为改变轮组织干预功能；本条依据作者机构记录及论文摘要所示方法框架，不主张其本身提供普遍因果效度或某一干预的效果量。",
+  "population_scope": "框架面向具体行为与其物理/社会情境的分析；不同人群、机构和政策环境需重新诊断。它并非为测量稳定个体差异或给真人定性而开发。",
+  "dimensions": [
+    {
+      "id": "capability",
+      "name": "能力",
+      "description": "身体或心理上执行行为所需的能力、知识与技能。"
+    },
+    {
+      "id": "opportunity",
+      "name": "机会",
+      "description": "使行为可能或提示行为的物理与社会环境条件。"
+    },
+    {
+      "id": "motivation",
+      "name": "动机",
+      "description": "反思性计划与自动化过程共同形成的行为驱动力。"
+    },
+    {
+      "id": "behavior",
+      "name": "行为",
+      "description": "需明确目标行为、场景、执行者与时间窗口，作为系统中的结果和反馈。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The behaviour change wheel: a new method for characterising and designing behaviour change interventions",
+      "url": "https://research.vu.nl/en/publications/the-behaviour-change-wheel-a-new-method-for-characterising-and-de/",
+      "publisher": "Michie, van Stralen & West, Implementation Science, 2011",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "COM-B系统与行为改变轮论文书目及作者机构记录"
+      ],
+      "access_note": "已打开作者机构的研究成果页，核对题录、DOI与出版信息；未从该页读取论文正文。"
+    },
+    {
+      "id": "S2",
+      "title": "The behaviour change wheel: a new method for characterising and designing behaviour change interventions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3096582/",
+      "publisher": "Michie, van Stralen & West, 2011",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "摘要对COM-B三条件相互作用及BCW的说明"
+      ],
+      "access_note": "检索结果可见摘要；直接打开时遇到验证码，未阅读全文。"
+    }
+  ],
+  "rights": {
+    "summary": "本条原创概述。原论文版权/开放许可依出版记录适用；行为改变轮图表和工具使用权利需按原作者/出版方当前条款核验，未知时不复用图形或完整工具。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "框架提供分类与设计步骤，类别边界在真实行为中可能交叠。核心论文报告框架发展方法而非证明每个分类或干预因果有效；目标行为、群体、环境变化都会改变诊断。BCW的干预功能/政策轮是相关扩展，不应当成COM-B维度。"
+  ],
+  "distillation_method": "访问公开作者/原始研究/官方来源后原创改写；对专家组合规则明确标为设计推演"
+}

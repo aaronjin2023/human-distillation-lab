@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "framework_count": 24,
+  "frameworks": [
+    {
+      "id": "ancestry-population-variation",
+      "name": "遗传祖源、群体描述与身体变异",
+      "kind": "population-framework",
+      "path": "human-patterns/frameworks/ancestry-population-variation",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 3,
+      "domain": "population",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "appraisal-process",
+      "name": "压力评价与应对过程（Lazarus–Folkman）",
+      "kind": "emotion-framework",
+      "path": "human-patterns/frameworks/appraisal-process",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 3,
+      "domain": "emotion-motivation",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "attribution",
+      "name": "归因与因果解释框架",
+      "kind": "social-framework",
+      "path": "human-patterns/frameworks/attribution",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "social",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "bioecological-development",
+      "name": "生物生态发展模型（PPCT）",
+      "kind": "development-framework",
+      "path": "human-patterns/frameworks/bioecological-development",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 1,
+      "domain": "development",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "bounded-rationality",
+      "name": "有限理性与满意化搜索",
+      "kind": "cognition-framework",
+      "path": "human-patterns/frameworks/bounded-rationality",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "cognition",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "chronotype",
+      "name": "昼夜节律与时间型（MCTQ概念）",
+      "kind": "biological-rhythm-framework",
+      "path": "human-patterns/frameworks/chronotype",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "embodiment",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "com-b",
+      "name": "COM-B 行为系统与行为改变轮",
+      "kind": "behavior-framework",
+      "path": "human-patterns/frameworks/com-b",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "behavior",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "cooperative-pragmatics",
+      "name": "合作会话与语用推理（Grice）",
+      "kind": "social-framework",
+      "path": "human-patterns/frameworks/cooperative-pragmatics",
+      "version": "0.1.0",
+      "dimension_count": 6,
+      "source_count": 2,
+      "domain": "social",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "cultural-dimensions",
+      "name": "Hofstede 国家文化维度与分析层级",
+      "kind": "culture-framework",
+      "path": "human-patterns/frameworks/cultural-dimensions",
+      "version": "0.1.0",
+      "dimension_count": 6,
+      "source_count": 2,
+      "domain": "culture",
+      "analysis_level": "group"
+    },
+    {
+      "id": "cultural-tightness",
+      "name": "文化紧密—宽松：规范强度与偏离容忍",
+      "kind": "culture-framework",
+      "path": "human-patterns/frameworks/cultural-tightness",
+      "version": "0.1.0",
+      "dimension_count": 3,
+      "source_count": 1,
+      "domain": "culture",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "dual-process",
+      "name": "双加工理论族（Dual-Process Accounts）",
+      "kind": "cognition-framework",
+      "path": "human-patterns/frameworks/dual-process",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "cognition",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "emotion-regulation",
+      "name": "情绪调节过程框架",
+      "kind": "emotion-framework",
+      "path": "human-patterns/frameworks/emotion-regulation",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "emotion-motivation",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "executive-functions",
+      "name": "执行功能：抑制、工作记忆与转换",
+      "kind": "cognition-framework",
+      "path": "human-patterns/frameworks/executive-functions",
+      "version": "0.1.0",
+      "dimension_count": 3,
+      "source_count": 2,
+      "domain": "cognition",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "habit-formation",
+      "name": "习惯形成：情境线索与自动化",
+      "kind": "behavior-framework",
+      "path": "human-patterns/frameworks/habit-formation",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "behavior",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "icf-functioning",
+      "name": "ICF：身体功能、活动、参与及环境",
+      "kind": "functioning-framework",
+      "path": "human-patterns/frameworks/icf-functioning",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "embodiment",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "lifespan-soc",
+      "name": "生命历程的选择—优化—补偿（SOC）",
+      "kind": "development-framework",
+      "path": "human-patterns/frameworks/lifespan-soc",
+      "version": "0.1.0",
+      "dimension_count": 3,
+      "source_count": 2,
+      "domain": "development",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "metacognition",
+      "name": "元认知与认知监控（Flavell）",
+      "kind": "cognition-framework",
+      "path": "human-patterns/frameworks/metacognition",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "cognition",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "planned-behavior",
+      "name": "计划行为理论（Theory of Planned Behavior）",
+      "kind": "behavior-framework",
+      "path": "human-patterns/frameworks/planned-behavior",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "behavior",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "prospect-theory",
+      "name": "前景理论（Prospect Theory）",
+      "kind": "cognition-framework",
+      "path": "human-patterns/frameworks/prospect-theory",
+      "version": "0.1.0",
+      "dimension_count": 5,
+      "source_count": 2,
+      "domain": "cognition",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "强化学习（Reinforcement Learning）",
+      "kind": "learning-framework",
+      "path": "human-patterns/frameworks/reinforcement-learning",
+      "version": "0.1.0",
+      "dimension_count": 7,
+      "source_count": 2,
+      "domain": "behavior",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "self-determination",
+      "name": "自我决定理论（SDT）",
+      "kind": "motivation-framework",
+      "path": "human-patterns/frameworks/self-determination",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "emotion-motivation",
+      "analysis_level": "individual"
+    },
+    {
+      "id": "social-dilemmas",
+      "name": "社会困境与合作治理",
+      "kind": "social-framework",
+      "path": "human-patterns/frameworks/social-dilemmas",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 2,
+      "domain": "social",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "social-identity",
+      "name": "社会认同与群际行为理论",
+      "kind": "social-framework",
+      "path": "human-patterns/frameworks/social-identity",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 3,
+      "domain": "social",
+      "analysis_level": "multilevel"
+    },
+    {
+      "id": "social-learning",
+      "name": "社会学习与观察学习（Bandura）",
+      "kind": "learning-framework",
+      "path": "human-patterns/frameworks/social-learning",
+      "version": "0.1.0",
+      "dimension_count": 4,
+      "source_count": 3,
+      "domain": "development",
+      "analysis_level": "multilevel"
+    }
+  ]
+}

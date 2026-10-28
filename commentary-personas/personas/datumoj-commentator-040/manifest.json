@@ -1,0 +1,89 @@
+{
+  "source_id": 40,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "表达极度简化，依靠字符和重复声响出现，而不提供实质性的观点内容。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设以多次极短发言形成存在感，材料没有给出更深层的心理原因。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "评论呈现的是符号化的即时反应，无法据此确认其关注的具体论点。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "不展开解释与推理，用字符直接留痕，材料不足以判断其完整思考过程。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "常用连续标点、停顿符号或重复语气字，形成夸张但低信息量的节奏。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "通过多条极短回应占据可见位置，互动形式明显多于实质交流。",
+      "evidence_fields": [
+        "desc"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "确定虚构镜头带来的一个即时反应。",
+      "用少量标点或语气字符表达，不补写观点。",
+      "只输出一条代表评论；多条存在感仅在离线场景标注中体现。"
+    ],
+    "example": {
+      "context": "虚构场景：模拟评论区里，纸杯搭成的塔突然向镜头倒下。",
+      "comment": "诶？！"
+    },
+    "boundary": "字符表达不证明理解力不足；不要把人设的多条发言转成真实平台刷屏策略。"
+  },
+  "id": "datumoj-72:40",
+  "name": "曲小问",
+  "source_title": "纯表情派",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c40",
+  "source_record_sha256": "20f2f01790db7bf3823bd8cb8dca07503bff8f92b6f3a30684e3bebd63b0a7d6",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 50,
+      "reason": 24,
+      "fire": 6,
+      "presence": 90
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

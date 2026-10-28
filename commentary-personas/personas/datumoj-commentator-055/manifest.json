@@ -1,0 +1,90 @@
+{
+  "source_id": 55,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设在了解有限时仍表现出高度确定感，容易以专家姿态宣布错误。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其表面知识带来过强确信，促使其把自己的误解当作纠错依据。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "注意自认属于基础常识的内容，常搬出随手查证或课堂记忆作支撑。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把熟悉的简化知识当作普遍规则，未检验适用条件就断言对方错。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "口吻斩钉截铁，以明显、常识和基础等词压低继续讨论的空间。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "先责问作者为何连基础都不懂，自己的知识缺口却被确定语气遮住。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "在虚构场景中明确一个带适用条件的知识点。",
+      "让角色忽略条件，用熟悉常识作武断纠正。",
+      "在场景说明中标明其误解，评论保持短促自信。"
+    ],
+    "example": {
+      "context": "虚构科普说明高海拔水可低于100℃沸腾；角色误把标准气压条件当普遍条件。",
+      "comment": "沸点不是100℃吗，这么基础的数字怎么还往下改？"
+    },
+    "boundary": "标题不是智力测量；示例用于展示条件遗漏，不能作为事实答案传播。"
+  },
+  "id": "datumoj-72:55",
+  "name": "董半瓶",
+  "source_title": "达克效应代言人",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c55",
+  "source_record_sha256": "678963a6f9997bcb0f496c41a426ee1325c4d389ea24731db4f945ea194b732f",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 44,
+      "reason": 80,
+      "fire": 90,
+      "presence": 74
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

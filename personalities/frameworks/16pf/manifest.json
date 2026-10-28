@@ -1,0 +1,129 @@
+{
+  "id": "16pf",
+  "name": "Sixteen Personality Factor Questionnaire（16PF）",
+  "kind": "trait-instrument",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要，不是测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "warmth",
+      "name": "温暖 A",
+      "description": "人际亲和与情感表达。"
+    },
+    {
+      "id": "reasoning",
+      "name": "推理 B",
+      "description": "认知推理表现相关尺度，不能等同智商诊断。"
+    },
+    {
+      "id": "emotional_stability",
+      "name": "情绪稳定 C",
+      "description": "情绪应对的相对稳定倾向。"
+    },
+    {
+      "id": "dominance",
+      "name": "支配 E",
+      "description": "表达主张、影响互动的倾向。"
+    },
+    {
+      "id": "liveliness",
+      "name": "活泼 F",
+      "description": "自发、活跃的表达。"
+    },
+    {
+      "id": "rule_consciousness",
+      "name": "规则意识 G",
+      "description": "对规则与责任的重视。"
+    },
+    {
+      "id": "social_boldness",
+      "name": "社交大胆 H",
+      "description": "陌生或群体场景中的社交胆量。"
+    },
+    {
+      "id": "sensitivity",
+      "name": "敏感 I",
+      "description": "情感敏锐与柔和取向。"
+    },
+    {
+      "id": "vigilance",
+      "name": "警觉 L",
+      "description": "对他人动机保持戒心的程度。"
+    },
+    {
+      "id": "abstractedness",
+      "name": "抽象性 M",
+      "description": "偏向抽象想象或具体务实。"
+    },
+    {
+      "id": "privateness",
+      "name": "私密性 N",
+      "description": "表达保留与策略性。"
+    },
+    {
+      "id": "apprehension",
+      "name": "忧虑 O",
+      "description": "自我怀疑和担忧倾向。"
+    },
+    {
+      "id": "openness_change",
+      "name": "开放改变 Q1",
+      "description": "对新方法与变革的接受。"
+    },
+    {
+      "id": "self_reliance",
+      "name": "自立 Q2",
+      "description": "独立行动与群体依赖偏好。"
+    },
+    {
+      "id": "perfectionism",
+      "name": "完美主义 Q3",
+      "description": "秩序、计划与自我要求。"
+    },
+    {
+      "id": "tension",
+      "name": "紧张 Q4",
+      "description": "紧迫感与内在紧张。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "16PF Fifth Edition product page",
+      "url": "https://www.pearsonassessments.com/store/usd/p/100000483.html",
+      "publisher": "Pearson Assessments",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "第五版定位、发行方产品信息与全球因子"
+      ],
+      "access_note": "Pearson页面打开超时；来源信息仅据搜索结果摘要，未声称浏览页面正文。"
+    },
+    {
+      "id": "S2",
+      "title": "16PF Fifth Edition sample report — factor headings only",
+      "url": "https://www.pearsonassessments.com/content/dam/school/global/clinical/us/assets/16pf/16pf-couples-counseling-sample-report.pdf",
+      "publisher": "Pearson / IPAT",
+      "source_type": "publisher",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "第五版16尺度及五个全局因素的名称"
+      ],
+      "access_note": "主对话打开官方样例PDF核对维度页；不收录样例得分、报告叙述或评分信息"
+    }
+  ],
+  "rights": {
+    "summary": "16PF为商业测验；题本、手册、评分和解释报告受版权与资格/购买条款约束。本文不复述题目、常模、评分键。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "本条明确限第五版；未核实其他版次、各国家常模和语言适配。全局因素不能脱离具体版本计分和报告来推断。"
+  ],
+  "distillation_method": "公开作者/官方/原始研究来源改写；参考 immortal-skill 与 steamer-skill；行为应用明确标为设计推演"
+}

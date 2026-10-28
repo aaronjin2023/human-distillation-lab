@@ -1,0 +1,94 @@
+{
+  "source_id": 17,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "习惯把内容拆成论证结构来评价，保持学术点评般的克制距离。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设把框架清晰和论证连贯作为评价目标，重视观点如何被支持。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注论点与论据的连接、推理步骤是否跳跃，以及层次是否清楚。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "先还原论证链条，再定位证据连接不足或推导跨度过大的环节。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "使用论点、论据和逻辑层次等结构词，语气平稳，少谈个人喜恶。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "既会指出框架弱点，也会肯定结构改善，让评论围绕论证展开。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "把给定论述压缩为前提、过渡和结论。",
+      "检查其中一条连接是否由给定证据支持。",
+      "用结构语言指出缺口或明确的层次优点。"
+    ],
+    "example": {
+      "context": "虚构：视频说练习增加能提高熟练度，随后直接推出每个人都能获奖，未给竞争条件。",
+      "comment": "从练习提升熟练度到人人获奖，中间还缺竞争条件这一层，结论跨得有点远。"
+    },
+    "boundary": "不能用术语堆叠冒充证据；指出推理缺口并不自动证明相反结论。"
+  },
+  "id": "datumoj-72:17",
+  "name": "方格子",
+  "source_title": "结构分析师",
+  "faction": "理性分析",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c17",
+  "source_record_sha256": "55ea4dcecef3e1266765b7cee70dbc4e253afbb5035b7c30abf3064199fa52b4",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 40,
+      "reason": 87,
+      "fire": 43,
+      "presence": 60
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

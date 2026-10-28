@@ -1,0 +1,78 @@
+{
+  "id": "metacognition",
+  "name": "元认知与认知监控（Flavell）",
+  "kind": "cognition-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架原创摘要与明确标注的设计推演；不是对真人施测、诊断或分数推断",
+  "domain": "cognition",
+  "analysis_level": "individual",
+  "evidence_summary": "原始论文描述儿童对记忆和指令理解的监控差异，并提出知识、体验、目标、行动四类互动模型。它是理论综述/概念模型，不提供普遍个人评分标准。",
+  "population_scope": "原论文重点讨论儿童与青少年认知发展，并举成人认知任务说明机制；应用于专家工作需针对任务和行为证据重新验证。",
+  "dimensions": [
+    {
+      "id": "metacognitive_knowledge",
+      "name": "元认知知识",
+      "description": "关于认知者、任务、目标、行动与经验的知识。"
+    },
+    {
+      "id": "metacognitive_experience",
+      "name": "元认知体验",
+      "description": "伴随认知任务的有意识认知或情感体验，如困惑或理解感。"
+    },
+    {
+      "id": "goals_tasks",
+      "name": "目标与任务",
+      "description": "认知活动要达到的目标以及任务要求。"
+    },
+    {
+      "id": "actions_strategies",
+      "name": "行动与策略",
+      "description": "用于完成认知目标或评估认知状态的具体方法。"
+    },
+    {
+      "id": "monitoring_feedback",
+      "name": "监控反馈",
+      "description": "体验和结果如何触发策略、修订目标或更新知识。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry",
+      "url": "https://www.neurodyspaca.org/IMG/pdf/flavell_-_1979_-_metacognition_and_cognitive_monitoring.pdf",
+      "publisher": "John H. Flavell, American Psychologist, 1979",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "四类监控现象：元认知知识、体验、目标/任务、行动/策略"
+      ],
+      "access_note": "已打开6页论文副本并核对提出模型的正文段落；副本托管方非出版方，授权未核实。"
+    },
+    {
+      "id": "S2",
+      "title": "Metacognition and Cognitive Monitoring: ERIC record",
+      "url": "https://eric.ed.gov/?id=EJ217109",
+      "publisher": "ERIC / U.S. Department of Education",
+      "source_type": "government",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "原始论文书目及摘要对儿童监控发展主题的概述"
+      ],
+      "access_note": "已打开ERIC记录并核对书目和摘要；仅摘要/目录层信息。"
+    }
+  ],
+  "rights": {
+    "summary": "APA期刊论文受版权约束；使用的作者稿副本许可未确认。本条只原创改写，不复用题目、图表或大段原文。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "Flavell 1979模型源于认知发展研究并以儿童记忆、理解监控为例；其四类现象是概念框架，不是一套统一量表。监控准确性受任务、知识和反馈影响，成人专家场景应用属于设计推演，须验证。"
+  ],
+  "distillation_method": "访问公开作者/原始研究/官方来源后原创改写；对专家组合规则明确标为设计推演"
+}

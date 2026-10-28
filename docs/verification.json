@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "baseline_commit": "cfc59a359f8a8a0d2bdcd2f1a126360a08c27ab8",
+  "scope": "New personality framework layer, one synthetic composition, and two installed distillation skills",
+  "library": {
+    "frameworks": 19,
+    "source_records": 38,
+    "reviewed_person_links": 1,
+    "synthetic_profiles": 1
+  },
+  "checks": {
+    "manifest_and_reference_validation": "passed",
+    "catalog_consistency": "passed",
+    "local_markdown_links": "passed",
+    "validator_negative_self_tests": "passed",
+    "new_skill_formats": "20 passed",
+    "installed_skill_formats": "2 passed",
+    "immortal_cli_help_and_platform_list": "passed",
+    "immortal_temporary_synthetic_text_import": "passed",
+    "independent_behavioral_smoke": "3 scenarios passed; ambiguous BFI-2 short-form wording found and corrected from sources"
+  },
+  "behavior_scenarios": [
+    {
+      "task": "Create an original island research collaborator using expert methods and selected frameworks",
+      "observed": "Produced an explicitly synthetic character with testable hypotheses; did not assign invented personality to Einstein"
+    },
+    {
+      "task": "Infer a real expert's personality from writing an abstract and speaking quietly",
+      "observed": "Kept MBTI type, HEXACO scores and ability scores unknown; separated observations from test results"
+    },
+    {
+      "task": "Interpret NERIS INTJ-T and infer BFI-2 facets from the extra-short form",
+      "observed": "Distinguished NERIS from MBTI; did not infer fifteen facet rankings from BFI-2-XS"
+    }
+  ],
+  "limits": [
+    "Source-grounded drafts, not a systematic evidence review or psychometric validation",
+    "No official test administration, normative scoring or licensed question banks included",
+    "Identity links cover one reviewed person, not all legacy entries",
+    "External collectors, accounts, private chat imports and paid APIs not tested",
+    "Local changes only; no GitHub push or publication"
+  ],
+  "initial_batch": "personality-frameworks-2026-10-28",
+  "latest_library": {
+    "frameworks": 43,
+    "collections": {
+      "personalities": 19,
+      "human-patterns": 24
+    },
+    "source_records": 88,
+    "reviewed_people": 1,
+    "profiles": 1,
+    "local_links": 182,
+    "status": "passed"
+  },
+  "human_patterns_extension": {
+    "date": "2026-10-28",
+    "new_frameworks": 24,
+    "new_source_records": 50,
+    "scope": "Behavior, cognition, emotion and motivation, social interaction, culture, development, population descriptors, functioning and daily rhythms",
+    "checks": {
+      "new_and_updated_skill_formats": "25 passed",
+      "cross_collection_catalogs_references_and_links": "passed",
+      "validator_negative_and_integration_self_tests": "passed",
+      "git_diff_check": "passed",
+      "tracked_legacy_expert_content": "no changes; tracked diff only README.md"
+    },
+    "behavioral_smoke": [
+      {
+        "case": "Island researcher: failed communication followed by constrained option search",
+        "observed": "Separated opportunity from motivation; retained raw evidence and withheld candidates missing necessary water-quality evidence"
+      },
+      {
+        "case": "Three residents with ancestry backgrounds only",
+        "observed": "Did not infer ability or compliance; offered explicitly synthetic experience-based alternatives with unknowns"
+      },
+      {
+        "case": "Alarm and infant care on nominal free days",
+        "observed": "Kept natural chronotype unknown and did not infer management skill"
+      },
+      {
+        "case": "Strict harbor rules and improvisational arts festival; pigmentation adaptation",
+        "observed": "Used situation-specific norms and limited pigmentation claims to the physical trait"
+      },
+      {
+        "case": "Satisficing stopping-rule regression after independent review",
+        "observed": "Did not reject adequate deployed A merely because B also exceeded threshold; reopened evaluation when A lacked necessary evidence"
+      }
+    ],
+    "repairs": [
+      "Strengthened attribution, social learning, social identity, appraisal and RL source coverage",
+      "Fixed literal paragraph breaks in three files",
+      "Clarified that an alternative exceeding a threshold alone does not invalidate satisficing"
+    ],
+    "limits": [
+      "Not an exhaustive model of humanity or systematic literature review",
+      "Some sources accessible only as abstract, record or search excerpt; recorded per source",
+      "No personal genetic data, clinical testing, sensitive-person inference or group ability rankings",
+      "Behavioral examples do not establish psychometric validity or prediction performance",
+      "No commit, GitHub push or publication"
+    ]
+  }
+}

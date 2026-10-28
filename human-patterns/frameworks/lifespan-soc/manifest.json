@@ -1,0 +1,69 @@
+{
+  "id": "lifespan-soc",
+  "name": "生命历程的选择—优化—补偿（SOC）",
+  "kind": "development-framework",
+  "domain": "development",
+  "analysis_level": "individual",
+  "population_scope": "老年适应理论与特定青年样本；职业、资源条件及个人目标差异需要单独核对。",
+  "evidence_summary": "S1为提出者的理论综述摘要，S2为206名25–36岁青年专业人员研究的出版方检索摘要。可支持框架与使用范围，不提供普遍因果收益。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "selection",
+      "name": "选择",
+      "description": "在资源有限时确定或调整目标。"
+    },
+    {
+      "id": "optimization",
+      "name": "优化",
+      "description": "为目标积累和使用有效资源与练习。"
+    },
+    {
+      "id": "compensation",
+      "name": "补偿",
+      "description": "原有手段受限时采用其他途径维持重要目标。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The many faces of human ageing: toward a psychological culture of old age (1991)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1780400/",
+      "publisher": "Paul B. Baltes / Psychological Medicine",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "已打开PubMed并读取摘要。",
+      "supports": [
+        "选择、优化、补偿理论"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Selection, Optimization, and Compensation: An Action-Related Approach to Work and Partnership (2000)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001879100917524",
+      "publisher": "Wiese, Freund & Baltes / Journal of Vocational Behavior",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "access_note": "搜索可见出版方摘要和样本；直接页面403，未读全文。",
+      "supports": [
+        "青年工作与伴侣目标应用及样本范围"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "未核实原量表授权；只保留理论摘要与原创场景，不收录问卷和评分标准。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "S1、S2均未逐页阅读全文；不提供量表与效果量。",
+    "成功老龄化的价值标准需要本人参与界定，不能当社会价值排名。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

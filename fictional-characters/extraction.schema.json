@@ -1,0 +1,124 @@
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "work_id": {
+            "type": "string"
+          },
+          "source_sufficient": {
+            "type": "boolean"
+          },
+          "characters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "aliases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "protagonist",
+                    "co-lead",
+                    "central-antagonist",
+                    "major-support"
+                  ]
+                },
+                "identity_hint": {
+                  "type": "string"
+                },
+                "traits": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "dimension": {
+                        "type": "string",
+                        "enum": [
+                          "personality",
+                          "motivation",
+                          "values",
+                          "decision_style",
+                          "emotion",
+                          "relationships",
+                          "communication",
+                          "development"
+                        ]
+                      },
+                      "claim": {
+                        "type": "string"
+                      },
+                      "basis": {
+                        "type": "string",
+                        "enum": [
+                          "explicit",
+                          "interpretation"
+                        ]
+                      },
+                      "evidence_sentences": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    "required": [
+                      "dimension",
+                      "claim",
+                      "basis",
+                      "evidence_sentences"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "tensions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "aliases",
+                "role",
+                "identity_hint",
+                "traits",
+                "tensions"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "work_id",
+          "source_sufficient",
+          "characters",
+          "limitations"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "results"
+  ],
+  "additionalProperties": false
+}

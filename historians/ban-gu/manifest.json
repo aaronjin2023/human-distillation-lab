@@ -1,0 +1,58 @@
+{
+  "id": "ban-gu",
+  "name": "Ban Gu",
+  "name_zh": "班固",
+  "kind": "expert-method",
+  "domain": "history",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "聚焦班氏史书的断代结构、家学传承和多阶段成书；不复制司马迁条目，也不虚构班氏作者群内部的具体分工。",
+  "source_works": [
+    "《汉书·叙传》",
+    "《汉书》",
+    "《后汉书·列女传·班昭》"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "《汉书》卷一百上·叙传",
+      "url": "https://zh.wikisource.org/zh-hans/漢書/卷100上",
+      "publisher": "班固原文；维基文库《汉书》转录",
+      "source_type": "primary-text",
+      "access_note": "网页已打开并直接阅读卷末班氏家世与班固自叙段落。为古籍转录，未核定本各异文；叙传属于作者自述结构，须考虑自我呈现。",
+      "supports": [
+        "叙传把家世、学术继承与作者自我定位放入著作末尾",
+        "班固自述呈现其承接班氏世业与汉代史学传统"
+      ],
+      "accessed_at": "2026-10-28"
+    },
+    {
+      "id": "S2",
+      "title": "《后汉书》卷八十四·列女传·班昭",
+      "url": "https://zh.wikisource.org/zh-hans/後漢書/卷84",
+      "publisher": "范晔原文；维基文库《后汉书》转录",
+      "source_type": "primary-text",
+      "access_note": "已打开并读到班昭条。范晔成书晚于班昭，属于后出的传记叙述而非班固或班昭自述；网页未核纸本异文。",
+      "supports": [
+        "记载班昭续成未竟八表与天文志，并提到马续继成",
+        "显示《汉书》成书涉及家庭传承、宫廷藏书与后续校读"
+      ],
+      "accessed_at": "2026-10-28"
+    }
+  ],
+  "rights": {
+    "summary": "本条为原创中文方法摘要；史书原文及学术文章各有其版权或公版状态，具体重用条件按来源页面为准。未复制长段原文、私人材料或题库。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "直接阅读《汉书》叙传与范晔《后汉书》班昭条；后者是后出记载，不是同时代工作底稿。",
+    "本轮未进行全书校勘，不能为《汉书》各篇作者归属和不同版本层次作全面结论。"
+  ],
+  "distillation_method": "实际打开原文或作者/机构学术材料后进行原创摘要；将作者主张、后世研究、文本局限和本条设计推演分开。",
+  "legacy_refs": []
+}

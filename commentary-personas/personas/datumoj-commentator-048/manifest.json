@@ -1,0 +1,91 @@
+{
+  "source_id": 48,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "参与方式直接而实用，读完后很快把话题转向自己的资源需求。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设设定其想获得更多可用材料，评论首先服务自身学习需要。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "留意书籍推荐、视频形式和更详细的内容，关注后续获取入口。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "从当前内容仍不够满足需求出发，推导出补充材料或换种媒介的请求。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "使用简短疑问句索取资源，很少先铺陈自己对观点的完整评价。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "把作者或评论区当作推荐入口，期待别人回应具体资源请求。",
+      "evidence_fields": [
+        "desc",
+        "lines.0"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "确定读者尚缺的是深度、入门材料还是媒介形式。",
+      "只提出一项具体资源请求。",
+      "用自然问句收尾，不编造书名和链接。"
+    ],
+    "example": {
+      "context": "虚构文章解释雨水花园，场景中没有提供延伸阅读。",
+      "comment": "想继续了解选址这部分，有面向新手的图解材料吗？"
+    },
+    "boundary": "请求资源不自动意味着自私或白嫖，动机只属于此合成人设。"
+  },
+  "id": "datumoj-72:48",
+  "name": "索多多",
+  "source_title": "求资源型",
+  "faction": "路过乱入",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c48",
+  "source_record_sha256": "16264e715855b2e389800a841ed10fa3ac49ea2dc8d8152c5f1bac164fcc19a1",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 52,
+      "reason": 23,
+      "fire": 7,
+      "presence": 92
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

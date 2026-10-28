@@ -1,0 +1,69 @@
+{
+  "id": "executive-functions",
+  "name": "执行功能：抑制、工作记忆与转换",
+  "kind": "cognition-framework",
+  "domain": "cognition",
+  "analysis_level": "individual",
+  "population_scope": "实验结果受年龄、样本、任务和语言负担影响；该研究的大学生结构不能直接移植至所有年龄或临床人群。",
+  "evidence_summary": "S1为作者综述；S2为137名大学生的潜变量研究，支持相关但可区分的过程及任务不纯问题。并非普适的三项人类能力测验。",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架概念蒸馏与明确标注的原创设计推演，不是正式施测或真人画像",
+  "dimensions": [
+    {
+      "id": "inhibition",
+      "name": "抑制控制",
+      "description": "在任务要求下抑制优势反应或干扰。"
+    },
+    {
+      "id": "working-memory",
+      "name": "工作记忆",
+      "description": "暂时保持并操作与目标相关的信息。"
+    },
+    {
+      "id": "flexibility",
+      "name": "认知灵活性",
+      "description": "在规则或目标改变时调整策略和视角。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Executive Functions (2013)",
+      "url": "https://www.devcogneuro.com/Publications/ExecutiveFunctions2013.pdf",
+      "publisher": "Adele Diamond / Annual Review of Psychology",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "access_note": "作者站37页PDF可读取；核查摘要、构件及任务解释段落。",
+      "supports": [
+        "三核心过程及状态影响"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Unity and Diversity of Executive Functions (2000)",
+      "url": "https://www.columbia.edu/cu/psychology/tor/Papers/Unity_Diversity_Exec_Functions.pdf",
+      "publisher": "Miyake et al. / Cognitive Psychology",
+      "source_type": "primary-study",
+      "accessed_at": "2026-10-28",
+      "access_note": "52页原论文PDF可读取；核查样本、摘要与task impurity讨论。",
+      "supports": [
+        "三过程相关且可区分、任务不纯问题"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "论文保留出版方版权；仅原创概述，不复制测验刺激、评分表或受限题本。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "未做训练干预的系统证据复核；不承诺跨任务迁移。",
+    "任务成绩包含其他能力与情境影响，不能单项定位脑区或病症。"
+  ],
+  "distillation_method": "沿用immortal-skill/steamer-skill的来源追踪与范围区分；概念原创改写，设计推演另标"
+}

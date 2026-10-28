@@ -1,0 +1,58 @@
+{
+  "id": "mbti",
+  "name": "MBTI",
+  "kind": "type-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "公开框架原创摘要，不是测评服务或真人画像。",
+  "dimensions": [
+    {
+      "id": "ei",
+      "name": "外倾 / 内倾",
+      "description": "注意力与精力偏向外部互动或内在反思"
+    },
+    {
+      "id": "sn",
+      "name": "实感 / 直觉",
+      "description": "偏重具体经验或模式与可能性"
+    },
+    {
+      "id": "tf",
+      "name": "思考 / 情感",
+      "description": "判断时偏重逻辑原则或价值与人的影响"
+    },
+    {
+      "id": "jp",
+      "name": "判断 / 知觉",
+      "description": "对外部生活偏好形成安排或保留选择"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "MBTI Preferences",
+      "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+      "publisher": "Myers & Briggs Foundation",
+      "source_type": "official",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "核心维度定义",
+        "框架边界"
+      ],
+      "access_note": "已打开来源页面的框架说明；未独立复核完整技术手册或所有效度研究"
+    }
+  ],
+  "rights": {
+    "summary": "公式性类型工具与非正式四字母测试不同；只作自我反思，不可凭作品判型。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1"
+    ]
+  },
+  "known_gaps": [
+    "需要按具体商业版本进一步核实材料许可与测量证据",
+    "来源机构材料不自动构成独立验证"
+  ],
+  "distillation_method": "公开来源原创中文摘要；参考 immortal-skill 与 steamer-skill；行为应用另标为设计推演"
+}

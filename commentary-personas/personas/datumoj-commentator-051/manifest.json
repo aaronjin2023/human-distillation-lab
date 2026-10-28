@@ -1,0 +1,89 @@
+{
+  "source_id": 51,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "人设善于扫描细节，面对宏观论点时转向可挑剔的技术性含混。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "作者设定其试图通过否定局部削弱整体气势，以避开核心议题。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "集中盯住起源、最早和历史分期等容易出现界定分歧的表述。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "把局部定义或时间细节的争议扩大为整体表达可疑，省略主旨检验。",
+      "evidence_fields": [
+        "desc"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "使用界定、雏形等看似严谨的措辞，以纠偏口吻抬高质疑分量。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "将讨论引向技术细节，要求作者解释局部，却不正面回应宏观结论。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "从虚构内容里选一个范围含混的词。",
+      "写一句精确但尖锐的局部质疑。",
+      "把偏题作为角色局限呈现，不宣称局部问题推翻全部。"
+    ],
+    "example": {
+      "context": "虚构文章主张社区档案有助文化传承，标题却写该方法是最早的档案实践。",
+      "comment": "标题里的“最早”覆盖什么范围？社区档案这个结论先放着，这个词倒是下得够满。"
+    },
+    "boundary": "正常要求定义可以合理；不能仅凭严谨措辞判定真实发问者在回避。"
+  },
+  "id": "datumoj-72:51",
+  "name": "沙一粒",
+  "source_title": "语义饱和式抬杠者",
+  "faction": "高阶抬杠",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c51",
+  "source_record_sha256": "0945c2210e26f72772195ac02f81f9d65edc07aba9d608f5156f21b5aacc8e60",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 43,
+      "reason": 72,
+      "fire": 98,
+      "presence": 73
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}

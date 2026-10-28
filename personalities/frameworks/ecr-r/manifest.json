@@ -1,0 +1,58 @@
+{
+  "id": "ecr-r",
+  "name": "ECR-R 成人亲密关系依恋维度",
+  "kind": "relationship-framework",
+  "version": "0.1.0",
+  "updated_at": "2026-10-28",
+  "status": "source-grounded-draft",
+  "scope": "框架摘要与原创设计推演；不提供测评服务或真人画像",
+  "dimensions": [
+    {
+      "id": "attachment-anxiety",
+      "name": "依恋焦虑",
+      "description": "对关系被拒绝、失去回应的担心"
+    },
+    {
+      "id": "attachment-avoidance",
+      "name": "依恋回避",
+      "description": "对亲近、依赖和自我表露的不适"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Information on the ECR-R Adult Attachment Questionnaire",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/measures/ecrr.htm",
+      "publisher": "R. Chris Fraley / University of Illinois",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "双连续维度、类别化限制、旧常模限制与非商业研究使用条件"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Relationship Structures (ECR-RS) Questionnaire",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/measures/relstructures.htm",
+      "publisher": "R. Chris Fraley / University of Illinois",
+      "source_type": "author",
+      "accessed_at": "2026-10-28",
+      "supports": [
+        "关系对象差异、ECR-RS与ECR-R区别及后来使用更新"
+      ]
+    }
+  ],
+  "rights": {
+    "summary": "作者FAQ允许非商业研究使用ECR-R无需逐次联系作者，商业使用须获许可；不将FAQ中的public domain措辞解释成无限制商业授权。此处不复制问卷或评分键，ECR-RS及译本按各自材料另核。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "本次未逐项复核原始IRT开发论文或中文版测量等值性。",
+    "ECR-R与ECR-RS不共用题数、施测说明或结果解释；只概述后者供区分。"
+  ],
+  "distillation_method": "公开来源改写；参考 immortal-skill 与 steamer-skill；设计推演另标"
+}

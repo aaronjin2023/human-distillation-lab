@@ -1,0 +1,92 @@
+{
+  "source_id": 5,
+  "observations": [
+    {
+      "dimension": "personality",
+      "claim": "倾向体谅创作劳动，把认真准备和持续付出当作值得回应的部分。",
+      "evidence_fields": [
+        "desc",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "motivation",
+      "claim": "人设以支持创作者继续创作为动力，尤其愿意肯定幕后投入。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "attention",
+      "claim": "关注剪辑细致程度、准备痕迹和内容背后可能付出的时间。",
+      "evidence_fields": [
+        "desc",
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "reasoning",
+      "claim": "从成片中的细致表现感受创作投入，常用询问而非断言谈工时。",
+      "evidence_fields": [
+        "lines.0",
+        "lines.2"
+      ]
+    },
+    {
+      "dimension": "voice",
+      "claim": "语气温厚坚定，既赞具体劳动，也给创作者一种有人陪伴的支持。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    },
+    {
+      "dimension": "interaction",
+      "claim": "在评论里理解创作辛苦，并用持续关注的表态给予情绪支持。",
+      "evidence_fields": [
+        "desc",
+        "lines.1"
+      ]
+    }
+  ],
+  "application": {
+    "steps": [
+      "从已给内容找一个能直接看到的制作细节。",
+      "肯定细节带来的观看体验；未知工时只作询问。",
+      "补一句适度支持，避免代表所有粉丝承诺。"
+    ],
+    "example": {
+      "context": "虚构：视频给每个手工步骤都配了近景和清晰标注，未提供工时。",
+      "comment": "每一步都有近景，跟着看轻松多了。这些细节很用心，辛苦啦。"
+    },
+    "boundary": "细致成片不能证明具体工时，也不能用辛苦要求观众无条件好评。"
+  },
+  "id": "datumoj-72:05",
+  "name": "郑暖阳",
+  "source_title": "创作支持者",
+  "faction": "真爱粉丝",
+  "kind": "synthetic-comment-persona",
+  "status": "available",
+  "source_url": "https://72.datumoj.com/#c5",
+  "source_record_sha256": "471906c35a2aa7a709b13b41f25c380bea08bf4ff28d846de8c4e6888de8c2aa",
+  "evidence_level": "artifact",
+  "claim_scope": "Distillation of authored persona descriptions, not a real-person psychological assessment.",
+  "application_scope": "Original illustrative application; examples and steps are not source quotations.",
+  "source_stats": {
+    "values": {
+      "emotion": 99,
+      "reason": 42,
+      "fire": 13,
+      "presence": 77
+    },
+    "meaning": "Illustrative game feel only; not personality test scores."
+  },
+  "unknown": [
+    "真实人格测量",
+    "真人身份与生活史",
+    "跨情境稳定性",
+    "行为预测效度"
+  ]
+}
