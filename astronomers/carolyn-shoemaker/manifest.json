@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Carolyn Shoemaker, design a plate-scanning survey for near-Earth asteroids: set a nightly plate plan, scan each pair through a stereoscope, and recheck every moving candidate before reporting it",
   "test_question_zh": "怎样系统巡天才能稳定发现近地小行星？",
   "verification": "生卒 1929–2021、2021 年 8 月 13 日去世、32 颗彗星经 web 搜索核对（AAS DPS、Sky & Telescope）；小行星发现数见 conflicts",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q231618",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carolyn Shoemaker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2021",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231618"
+            ],
+            "statement_id": "q231618$51d602e0-4f35-da12-827d-06c3c27b9f10",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-06-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231618"
+            ],
+            "statement_id": "Q231618$fab63b24-434b-2e83-5dfc-568c248bc1ee",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q231618"
+        ],
+        "statement_id": "q231618$A14BAECC-A8D7-44A1-BBA3-BEEE6B8C2BE2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q577981",
+        "label": "蓋洛普",
+        "label_en": "Gallup",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q231618"
+        ],
+        "statement_id": "q231618$8BD2C915-BEEB-4A29-A5F7-92C704738B77",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·彗星搜寻"
+    },
+    "sources": [
+      {
+        "id": "WD:Q231618",
+        "title": "Wikidata Q231618 / 卡罗琳·舒梅克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q231618&oldid=2555912126",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555912126,
+        "modified_at": "2026-10-11T15:32:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

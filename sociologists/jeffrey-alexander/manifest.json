@@ -56,5 +56,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场直播带货的翻车",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2711710",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jeffrey C. Alexander",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2711710"
+            ],
+            "statement_id": "Q2711710$F6196AE2-C68D-42EC-85B6-D625DE518415",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2711710"
+        ],
+        "statement_id": "Q2711710$42E041FF-A4D5-42CE-A9C2-69FB01E56896",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q37836",
+        "label": "密尔沃基",
+        "label_en": "Milwaukee",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2711710"
+        ],
+        "statement_id": "q2711710$1D3D8224-740B-4359-B49C-CDF7E6AF7B61",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新功能主义·文化社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2711710",
+        "title": "Wikidata Q2711710 / 杰弗里·亚历山大",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2711710&oldid=2529261763",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529261763,
+        "modified_at": "2026-08-09T15:56:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

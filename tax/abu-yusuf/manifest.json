@@ -39,5 +39,112 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为外卖平台骑手设计一套简易所得税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q220697",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abu Yusuf",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "731–798",
+      "birth_year": {
+        "value": 731,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q220697"
+            ],
+            "statement_id": "Q220697$de2d5bbb-405c-fcda-c9af-13bbb8c6faaf",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 731,
+            "raw_time": "+0731-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q220697"
+            ],
+            "statement_id": "Q220697$FC672433-5AA1-4E1F-9EDE-AC0D9DA16AB7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 798,
+            "raw_time": "+0798-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q220697"
+        ],
+        "statement_id": "Q220697$6ea56a80-44dd-6a9d-6531-3bfd11d183bd",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q186234",
+        "label": "库费",
+        "label_en": "Kufa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊斯兰·哈拉吉税法",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q220697",
+        "title": "Wikidata Q220697 / 阿布·優素福",
+        "url": "https://www.wikidata.org/w/index.php?title=Q220697&oldid=2553930020",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553930020,
+        "modified_at": "2026-10-06T12:53:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

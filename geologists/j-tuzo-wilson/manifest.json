@@ -31,5 +31,117 @@
   "test_prompt": "In the style of J. Tuzo Wilson, explain the bend in the Hawaiian–Emperor chain: treat the hotspot as fixed, read the age gradient along the chain, and let the bend mark a change in plate motion direction",
   "test_question_zh": "夏威夷—皇帝海山链为什么会在中途拐弯？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q472056",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "J. Tuzo Wilson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1993",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q472056"
+            ],
+            "statement_id": "q472056$5DEA05A9-6D87-42E1-A62D-5D123B27579A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q472056"
+            ],
+            "statement_id": "q472056$6BCA79BD-B7F9-4F58-8907-219ADAC940A3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q472056"
+        ],
+        "statement_id": "q472056$57F53493-6975-4135-B789-6FE45A056795",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1930",
+        "label": "渥太华",
+        "label_en": "Ottawa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q472056"
+        ],
+        "statement_id": "q472056$736A5912-84BE-49A6-9BB2-0B221830F63C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "构造地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q472056",
+        "title": "Wikidata Q472056 / 约翰·图佐·威尔逊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q472056&oldid=2551773020",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551773020,
+        "modified_at": "2026-10-01T12:52:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

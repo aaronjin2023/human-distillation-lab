@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Robert H. Grubbs, test a claimed general catalyst: set practical standards first, run it across a broad substrate scope with real functional groups, tabulate yields and failures, and accept generality only when scope and stability hold",
   "test_question_zh": "一种新催化剂号称通用，怎么检验它？",
   "verification": "2026-10-26：生卒 1942–2021（2021 年 12 月 19 日去世）、2005 年诺贝尔化学奖经 web 搜索核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q202140",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert H. Grubbs",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1942–2021",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q202140"
+            ],
+            "statement_id": "Q202140$8B262EBD-F4B6-4E48-BE2F-58402089165A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q202140"
+            ],
+            "statement_id": "Q202140$b3039892-4847-4183-d324-9295aac8725b",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-12-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q202140"
+        ],
+        "statement_id": "Q202140$5179E0BA-D035-404A-8EF2-C6C20B9A37D4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q7233456",
+        "label": "波瑟姆特羅特",
+        "label_en": "Possum Trot",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q202140"
+        ],
+        "statement_id": "q202140$D8B2782F-48B3-4414-A42F-3C1C03984636",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机金属催化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q202140",
+        "title": "Wikidata Q202140 / 罗伯特·格拉布",
+        "url": "https://www.wikidata.org/w/index.php?title=Q202140&oldid=2558226274",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558226274,
+        "modified_at": "2026-10-18T03:10:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

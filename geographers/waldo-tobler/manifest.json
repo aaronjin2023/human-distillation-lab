@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Waldo Tobler, interpolate a surface of delivery-order density between measured blocks, let near blocks weigh more than distant ones, and test whether the computed pattern matches the riders' night.",
   "test_question_zh": "一张外卖订单密度的插值图",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；第一定律与 1970 年底特律模拟为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7961579",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Waldo Tobler",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2018",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7961579"
+            ],
+            "statement_id": "Q7961579$091e3b05-4e56-d15f-66a4-143095537d59",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7961579"
+            ],
+            "statement_id": "Q7961579$0bd881e1-4a4a-7bd5-a959-3609f38cac93",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7961579"
+        ],
+        "statement_id": "Q7961579$418AF82B-EF9B-477A-9FDF-F96374A63CA7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6106",
+        "label": "波特兰",
+        "label_en": "Portland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7961579"
+        ],
+        "statement_id": "Q7961579$63AE4B2B-730F-4F68-82D8-09E6BE1778A3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·计量制图"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7961579",
+        "title": "Wikidata Q7961579 / 瓦尔多·托布勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7961579&oldid=2558275785",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558275785,
+        "modified_at": "2026-10-18T05:52:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

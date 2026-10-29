@@ -45,5 +45,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51114",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Ford",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1894–1973",
+      "birth_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51114"
+            ],
+            "statement_id": "q51114$F993D04E-E498-48D5-9C32-A865DA627EF9",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51114"
+            ],
+            "statement_id": "q51114$C1B383FD-CE85-4A9B-9A87-67A307AFBEF7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51114"
+        ],
+        "statement_id": "q51114$F5A9BEFE-3E67-4E56-A159-DC264FB04FBE",
+        "rank": "normal",
+        "reference_count": 8,
+        "qualifiers": {},
+        "qid": "Q1034417",
+        "label": "开普伊丽莎白",
+        "label_en": "Cape Elizabeth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51114"
+        ],
+        "statement_id": "q51114$517C1064-010B-40FC-AEFF-9BFFDABC421A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·西部片 / 史诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51114",
+        "title": "Wikidata Q51114 / 約翰·福特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51114&oldid=2557989549",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557989549,
+        "modified_at": "2026-10-17T13:24:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

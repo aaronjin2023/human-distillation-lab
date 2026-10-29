@@ -46,5 +46,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Albert Bandura, analyse a person who cannot stop scrolling short videos late at night. Describe observational learning from influencers as models, vicarious reinforcement from likes and comments, and low self-efficacy for stopping; behaviour, personal factors and environment shape each other.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153753",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Albert Bandura",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2021",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153753"
+            ],
+            "statement_id": "q153753$4A5F73B5-1466-42CA-A211-CF0B6A119A12",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153753"
+            ],
+            "statement_id": "Q153753$fbd92d87-4ec9-f707-ed0a-7844ffb755f0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153753"
+        ],
+        "statement_id": "Q153753$734AB477-6D58-4C6F-809C-35E57261CBF8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2376218",
+        "label": "Mundare",
+        "label_en": "Mundare",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153753"
+        ],
+        "statement_id": "Q153753$5C73D633-7D89-41AC-9AC4-F546F9C07B3D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153753"
+        ],
+        "statement_id": "Q153753$cb2f4bb6-4841-c5fa-6c0c-07d4226ff386",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会学习理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153753",
+        "title": "Wikidata Q153753 / 阿尔波特·班杜拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153753&oldid=2557622658",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557622658,
+        "modified_at": "2026-10-16T09:07:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

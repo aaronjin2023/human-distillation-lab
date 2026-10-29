@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q470848",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mel Tormé",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–1999",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q470848"
+            ],
+            "statement_id": "q470848$E66A0FF6-1102-49A7-B36D-B363A5C8BF98",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q470848"
+            ],
+            "statement_id": "q470848$AD58A7F2-E2AF-4D5F-951C-C192A3C2DB08",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q470848"
+        ],
+        "statement_id": "q470848$EA6AF32A-4E17-45A1-8B9C-083113AF124D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q470848"
+        ],
+        "statement_id": "Q470848$B4313444-E98C-44B5-A38E-DEB23F60C594",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q470848"
+          ],
+          "statement_id": "Q470848$fc0e2533-4974-05bf-d3c9-a819b7661525",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q32360797",
+          "label": "Russian Jews",
+          "label_en": "Russian Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·流行标准曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q470848",
+        "title": "Wikidata Q470848 / 梅尔·托尔梅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q470848&oldid=2558165647",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558165647,
+        "modified_at": "2026-10-17T23:51:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

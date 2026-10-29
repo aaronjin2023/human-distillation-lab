@@ -43,5 +43,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5284",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bill Gates",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1955–",
+      "birth_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5284"
+            ],
+            "statement_id": "q5284$407EE15E-5B82-405D-9288-EBEB0644D6D9",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5284"
+        ],
+        "statement_id": "q5284$5B5CF4D7-653B-4F98-A6DF-5C82408F62FB",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q5083",
+        "label": "西雅图",
+        "label_en": "Seattle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5284"
+        ],
+        "statement_id": "q5284$7D25ED05-7585-4746-AE75-3908BCA2268A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "软件"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5284",
+        "title": "Wikidata Q5284 / 比尔·盖茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5284&oldid=2557990737",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557990737,
+        "modified_at": "2026-10-17T13:26:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

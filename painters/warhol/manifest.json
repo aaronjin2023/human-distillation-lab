@@ -30,5 +30,184 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5603",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Andy Warhol",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1987",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5603"
+            ],
+            "statement_id": "q5603$E72CB571-F7C5-4672-9E23-609498F14906",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-08-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5603"
+            ],
+            "statement_id": "q5603$A766B9DB-87B6-4E33-AD7D-BB3AD88D16F0",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5603"
+        ],
+        "statement_id": "q5603$1A2CBF7E-C2F6-4848-914D-772922440F7D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1342",
+        "label": "匹兹堡",
+        "label_en": "Pittsburgh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5603"
+        ],
+        "statement_id": "Q5603$2AAE250D-793B-46FE-9043-C05BFB3BCE91",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5603"
+        ],
+        "statement_id": "Q5603$0B418445-5669-40EA-BEA0-0E7911AE51E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1342",
+        "label": "匹兹堡",
+        "label_en": "Pittsburgh",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5603"
+        ],
+        "statement_id": "Q5603$BED8DD5F-6EF1-4875-8F3C-52CB19960810",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5603"
+        ],
+        "statement_id": "q5603$11E5E896-BD56-4A92-BC72-3759F16BC1A4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5603"
+          ],
+          "statement_id": "Q5603$58aa9769-4b48-ae05-b835-e4f1291b941a",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q837881",
+          "label": "蘭科人",
+          "label_en": "Lemkos",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q5603"
+          ],
+          "statement_id": "Q5603$20dbe630-4299-8587-8f43-1f49009edc86",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49078",
+          "label": "美国白人",
+          "label_en": "White Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "波普艺术"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5603",
+        "title": "Wikidata Q5603 / 安迪·沃霍尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5603&oldid=2557763898",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557763898,
+        "modified_at": "2026-10-16T22:28:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

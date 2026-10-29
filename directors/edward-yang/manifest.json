@@ -44,5 +44,132 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q716700",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edward Yang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1947–2007",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q716700"
+            ],
+            "statement_id": "Q716700$1B797258-7379-44F3-BEA5-A0234AC8AA31",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q716700"
+            ],
+            "statement_id": "Q716700$40423881-A9CD-4545-8D64-6CCFD228AA3A",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q716700"
+        ],
+        "statement_id": "Q716700$5979AE44-423F-4F09-A4AE-9E884414B93F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q716700"
+        ],
+        "statement_id": "Q716700$2860127C-2BD6-4344-9BE2-76A12DB78D38",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q716700"
+        ],
+        "statement_id": "Q716700$13883CA2-75A4-49E3-AC1A-1EAC03B66A34",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "台湾·都市现代主义",
+      "genre": "台湾·都市现代主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q716700",
+        "title": "Wikidata Q716700 / 杨德昌",
+        "url": "https://www.wikidata.org/w/index.php?title=Q716700&oldid=2561152550",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561152550,
+        "modified_at": "2026-10-26T18:58:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

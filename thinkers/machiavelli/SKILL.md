@@ -27,3 +27,7 @@
 
 - 来源：英文 Wikipedia / Britannica 通说；《君主论》成书与出版年份为学界通说。
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

@@ -44,5 +44,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜的出租车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189758",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marvin Gaye",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1939–1984",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189758"
+            ],
+            "statement_id": "q189758$9FBA620F-A366-438E-8307-47E6DAE126C0",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-04-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189758"
+            ],
+            "statement_id": "q189758$09947E6E-E338-40DB-8B63-F2C932A397D5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-04-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189758"
+        ],
+        "statement_id": "q189758$cf394238-4b10-9d4a-772e-120152a173a7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189758"
+        ],
+        "statement_id": "q189758$591DF86B-6B4D-4E4A-A0A1-ACA09F71933A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q189758"
+          ],
+          "statement_id": "Q189758$FAED33DC-DDA5-4BF0-8B24-9FEF9A1C5A7A",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂·R&B",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189758",
+        "title": "Wikidata Q189758 / 马文·盖伊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189758&oldid=2561736044",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561736044,
+        "modified_at": "2026-10-28T16:35:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

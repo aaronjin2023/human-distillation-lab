@@ -37,5 +37,117 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a letter to oneself ten years from now",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q627442",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xie Lingyun",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "385–433",
+      "birth_year": {
+        "value": 385,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q627442"
+            ],
+            "statement_id": "Q627442$B1B6636E-D416-4AC9-A57F-B6304DDE5E9F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 385,
+            "raw_time": "+0385-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 433,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q627442"
+            ],
+            "statement_id": "Q627442$EB034EF8-D736-41A8-A672-7ADDA780480C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 433,
+            "raw_time": "+0433-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q627442"
+        ],
+        "statement_id": "Q627442$53D111BF-843A-4CDA-843B-F2035E1DF474",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q662019",
+        "label": "太康县",
+        "label_en": "Taikang County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q627442"
+        ],
+        "statement_id": "Q627442$1C061658-6A03-4487-9539-8707E577B42D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "南朝·山水诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q627442",
+        "title": "Wikidata Q627442 / 谢灵运",
+        "url": "https://www.wikidata.org/w/index.php?title=Q627442&oldid=2561554091",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561554091,
+        "modified_at": "2026-10-27T22:14:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

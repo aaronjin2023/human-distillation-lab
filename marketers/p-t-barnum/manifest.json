@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for a plant-based burger",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q223766",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "P. T. Barnum",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1810–1891",
+      "birth_year": {
+        "value": 1810,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q223766"
+            ],
+            "statement_id": "q223766$DFAF6F66-8016-4EA2-9479-178AFFBE78B9",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1810,
+            "raw_time": "+1810-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q223766"
+            ],
+            "statement_id": "q223766$1541EACC-8BA0-453B-940A-24B2BB40523D",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q223766"
+        ],
+        "statement_id": "q223766$3E523B60-45F1-4B63-9E89-9DEBDC74E27C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q263912",
+        "label": "贝塞尔",
+        "label_en": "Bethel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q223766"
+        ],
+        "statement_id": "q223766$A57F4F77-4CE9-4964-9B6F-3D30E35DC15D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告先驱 / 宣传"
+    },
+    "sources": [
+      {
+        "id": "WD:Q223766",
+        "title": "Wikidata Q223766 / 菲尼亚斯·泰勒·巴纳姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q223766&oldid=2558216324",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216324,
+        "modified_at": "2026-10-18T02:37:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

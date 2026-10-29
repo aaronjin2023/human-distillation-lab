@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Thomas Hunt Morgan, test whether a new fruit-fly mutation is sex-linked: set up reciprocal crosses with wild type, count male and female offspring separately, and explain any deviation from independent assortment by linkage before invoking a new mechanism",
   "test_question_zh": "一种新发现的果蝇突变只在雄性中出现，怎么判断它是不是伴性遗传？",
   "verification": "生卒 1866–1945、白眼果蝇、连锁理论、《基因论》1926、1933 年诺贝尔生理学或医学奖按生物学史通说写；白眼突变 1910 年未逐项核对原始论文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q177681",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Hunt Morgan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1866–1945",
+      "birth_year": {
+        "value": 1866,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177681"
+            ],
+            "statement_id": "q177681$01498CD3-9EC3-4264-BBE6-EA1B5D7920E1",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1866,
+            "raw_time": "+1866-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177681"
+            ],
+            "statement_id": "q177681$EADE5932-2C77-4428-B382-DCE61669ADEE",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q177681"
+        ],
+        "statement_id": "q177681$9E8FE331-B7A3-4D8C-BAEE-D4C78EECFF43",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q49241",
+        "label": "列克星敦",
+        "label_en": "Lexington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q177681"
+        ],
+        "statement_id": "q177681$D25FBAEF-6F43-486A-990A-971EA81F0559",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "遗传学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q177681",
+        "title": "Wikidata Q177681 / 托马斯·亨特·摩尔根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q177681&oldid=2558256588",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558256588,
+        "modified_at": "2026-10-18T04:55:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

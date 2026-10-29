@@ -43,5 +43,56 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q183528",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Philip Johnson",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1906–2005",
+      "birth_year": {
+        "value": 1906,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际风格 / 后现代",
+      "genre": "architect"
+    },
+    "sources": []
+  }
 }

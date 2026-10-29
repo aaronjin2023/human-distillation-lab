@@ -35,5 +35,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Thor Heyerdahl, a small Yorkshire terrier rides the subway on a raft of driftwood. It follows the current of commuters, not the timetable, and proves that an ancient route can still carry a modern passenger.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q133622",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thor Heyerdahl",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–2002",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133622"
+            ],
+            "statement_id": "q133622$82B6EEE4-284D-4BBA-8721-43CCF20D3931",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133622"
+            ],
+            "statement_id": "q133622$5EE46E2C-F18E-4FDE-9BC1-9B632CD457BA",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q133622"
+        ],
+        "statement_id": "q133622$710A261D-71C8-41F4-8413-2CCA4372CDDE",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q156125",
+        "label": "拉尔维克",
+        "label_en": "Larvik",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q133622"
+        ],
+        "statement_id": "q133622$9B8765A9-3F15-40BC-B968-49CC7D4B592A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "J. 现代航海·海洋探索与传统导航复兴",
+      "genre": "J. 现代航海·海洋探索与传统导航复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q133622",
+        "title": "Wikidata Q133622 / 托尔·海尔达尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q133622&oldid=2558951343",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558951343,
+        "modified_at": "2026-10-19T22:23:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

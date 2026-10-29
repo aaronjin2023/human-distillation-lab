@@ -43,5 +43,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "凌晨机场（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233951",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Birgit Nilsson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2005",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233951"
+            ],
+            "statement_id": "Q233951$10313BC4-D9D8-48D9-9451-9234C25DD168",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-05-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233951"
+            ],
+            "statement_id": "Q233951$F7A7A02B-A2F4-4B5A-9864-5E8AB3E0D10C",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233951"
+        ],
+        "statement_id": "q233951$711E0E11-F3E2-4B2C-8DAF-2A9939FE1F60",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q10718286",
+        "label": "Västra Karup",
+        "label_en": "Västra Karup",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233951"
+        ],
+        "statement_id": "Q233951$9DFB4067-3706-418E-9258-48AC0B59734A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "歌剧·戏剧女高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233951",
+        "title": "Wikidata Q233951 / 比尔吉特·尼尔森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233951&oldid=2557815862",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557815862,
+        "modified_at": "2026-10-17T01:31:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

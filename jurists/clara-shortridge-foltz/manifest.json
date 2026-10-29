@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "福尔茨风格：一份论证，论无力聘请律师的被告人应获公设辩护人：让刑事法院以精确、平等而免费的正义重组；法律既是盾也是剑。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5126040",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clara Shortridge Foltz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1849–1934",
+      "birth_year": {
+        "value": 1849,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5126040"
+            ],
+            "statement_id": "Q5126040$393377BB-F696-4C5D-A994-790B6A18EB57",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1849,
+            "raw_time": "+1849-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5126040"
+            ],
+            "statement_id": "Q5126040$7DAF8743-F9E2-4313-B272-BDFDD9ABFC41",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5126040"
+        ],
+        "statement_id": "Q5126040$7E0702A3-4788-4B28-87B7-E021781E9FBD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7009858",
+        "label": "新里斯本 (印地安納州)",
+        "label_en": "New Lisbon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5126040"
+        ],
+        "statement_id": "Q5126040$B50BF084-C04A-4FF6-8E6E-BC5394C9B883",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·公设辩护人制度",
+      "genre": "lawyer / 律师"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5126040",
+        "title": "Wikidata Q5126040 / Clara Shortridge Foltz",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5126040&oldid=2554555362",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554555362,
+        "modified_at": "2026-10-07T13:25:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

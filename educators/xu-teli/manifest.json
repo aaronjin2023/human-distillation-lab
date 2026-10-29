@@ -43,5 +43,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘为社区做一件实事’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单核对；引文为转述，标 artifact",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8293496",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Teli",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1877–1968",
+      "birth_year": {
+        "value": 1877,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8293496"
+            ],
+            "statement_id": "Q8293496$FC52A84E-5B6C-4E44-BEDD-B166AEF7CE10",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1877,
+            "raw_time": "+1877-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8293496"
+            ],
+            "statement_id": "Q8293496$39BDE970-610D-4B89-9DC2-940E6C08CD34",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8293496"
+        ],
+        "statement_id": "Q8293496$B0704B53-6510-42A8-A045-964062274ECA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1062120",
+        "label": "长沙县",
+        "label_en": "Changsha County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8293496"
+        ],
+        "statement_id": "Q8293496$151423B4-FAE6-4425-8034-A5736B86FB17",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·师范与延安教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8293496",
+        "title": "Wikidata Q8293496 / 徐特立",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8293496&oldid=2554578534",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554578534,
+        "modified_at": "2026-10-07T14:21:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

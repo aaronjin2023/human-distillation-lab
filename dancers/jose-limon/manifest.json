@@ -40,5 +40,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of José Limón, a small Yorkshire terrier sitting on a subway seat, weight and fall-recovery, sculptural ensemble, humanist drama, dignity and passion, grounded and monumental",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q785199",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "José Limón",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1972",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q785199"
+            ],
+            "statement_id": "Q785199$52801D1B-08FA-4600-A592-80BB8ADBB76B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q785199"
+            ],
+            "statement_id": "Q785199$4F756CAE-F461-4D14-8E76-8E353F06792D",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q785199"
+        ],
+        "statement_id": "Q785199$3198A0C7-A80F-411E-AEAF-55732AF85095",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q211760",
+        "label": "库利亚坎",
+        "label_en": "Culiacán",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q785199"
+        ],
+        "statement_id": "q785199$947E750A-ED04-41C4-8D9F-35A9FDB06087",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q785199",
+        "title": "Wikidata Q785199 / 约瑟·林蒙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q785199&oldid=2558037807",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558037807,
+        "modified_at": "2026-10-17T17:08:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

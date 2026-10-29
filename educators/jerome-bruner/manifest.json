@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "八岁儿童人工智能螺旋课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为《教育过程》的通行名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q114867",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jerome Bruner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–2016",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q114867"
+            ],
+            "statement_id": "q114867$28F13F16-631E-4B73-81E0-DFD83ABE1E56",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q114867"
+            ],
+            "statement_id": "Q114867$37691fd4-406e-86b0-f931-a2b979e021d6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q114867"
+        ],
+        "statement_id": "q114867$CBA9A448-8B21-4E3F-A198-78ED4FC43C65",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q114867"
+        ],
+        "statement_id": "q114867$551BCF7B-B4F2-47D7-877B-5C1195BD600A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·认知与课程理论",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q114867",
+        "title": "Wikidata Q114867 / 杰罗姆·布鲁纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q114867&oldid=2560216392",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560216392,
+        "modified_at": "2026-10-24T06:01:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

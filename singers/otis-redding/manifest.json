@@ -44,5 +44,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "阳台上的绿植（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q217839",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Otis Redding",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1941–1967",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q217839"
+            ],
+            "statement_id": "Q217839$50AD016D-DC8C-4B41-9241-8B69691ABFF0",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q217839"
+            ],
+            "statement_id": "Q217839$2A9D4631-8E51-4856-8283-FF860FE98227",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-12-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q217839"
+        ],
+        "statement_id": "Q217839$1810E108-72AB-4220-B68F-A322F53A4B2E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1028058",
+        "label": "道森",
+        "label_en": "Dawson",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q217839"
+        ],
+        "statement_id": "Q217839$B0092178-7266-44D2-B01A-EC4F5A41089E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q217839"
+          ],
+          "statement_id": "Q217839$32E30369-127C-4B34-8C72-39FECE3AB077",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q217839",
+        "title": "Wikidata Q217839 / 奥蒂斯·雷丁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q217839&oldid=2558202613",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558202613,
+        "modified_at": "2026-10-18T01:53:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

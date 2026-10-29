@@ -33,5 +33,145 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "跨三城地震救援后勤筹划",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q115652",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antoine-Henri Jomini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1779–1869",
+      "birth_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q115652"
+            ],
+            "statement_id": "Q115652$D92B6F53-3484-46B4-9F30-683919199873",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q115652"
+            ],
+            "statement_id": "Q115652$5881B480-16CB-446C-BA2C-0BFE955ABEFE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q115652"
+            ],
+            "statement_id": "Q115652$1136FD76-D899-489E-8039-CF659A0DFA0E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q115652"
+        ],
+        "statement_id": "q115652$EA96F4FA-A644-43AA-B1B7-7D080C07E928",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q69525",
+        "label": "帕耶讷",
+        "label_en": "Payerne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q115652"
+        ],
+        "statement_id": "q115652$629612A3-A2A0-4C14-ABBC-3285847CE8D8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q115652"
+        ],
+        "statement_id": "q115652$DAD4DED2-4B4B-4311-B140-55C3F966F4B9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "瑞士—法国·战争理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q115652",
+        "title": "Wikidata Q115652 / 安东莞·亨利·约米尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q115652&oldid=2560178599",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560178599,
+        "modified_at": "2026-10-24T01:55:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

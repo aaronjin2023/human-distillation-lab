@@ -40,5 +40,131 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "农村青年太阳能板安装维修职业课程（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说（Wikipedia / Britannica 共识）；引文为通行引用的职业教育宗旨，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5925773",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Huang Yanpei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1878–1965",
+      "birth_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5925773"
+            ],
+            "statement_id": "Q5925773$0714F0E6-05BF-4395-B67B-08A4AE2A54DA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5925773"
+            ],
+            "statement_id": "Q5925773$B15AA810-496E-4FEB-A874-ED606D83ED20",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-12-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5925773"
+        ],
+        "statement_id": "Q5925773$40C0E6C0-D2E3-4951-B11C-BFC29521AC19",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28411809",
+        "label": "江苏省 (清朝)",
+        "label_en": "Jiangsu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5925773"
+        ],
+        "statement_id": "Q5925773$AA0DA54C-3E9E-41C2-93D5-A185722A2C17",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5925773"
+        ],
+        "statement_id": "Q5925773$BAC2936C-85E2-4A1E-A797-8A662DD303F3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·职业教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5925773",
+        "title": "Wikidata Q5925773 / 黄炎培",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5925773&oldid=2516278421",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516278421,
+        "modified_at": "2026-07-11T13:50:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

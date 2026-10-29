@@ -31,5 +31,230 @@
   "test_prompt": "In the style of Chen-Ning Yang, explain a quantum computer: start from the symmetry the system almost keeps, write the allowed operations as a gauge-like structure, and end with the experiment that would break the symmetry",
   "test_question_zh": "解释一台量子计算机",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q181369",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chen-Ning Yang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–2025",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q181369"
+            ],
+            "statement_id": "q181369$C9C7105F-55DF-4E41-832F-2D0638F7F859",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q181369"
+            ],
+            "statement_id": "Q181369$ba105481-443f-0a5c-0e55-6c5ef73b0cb3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q181369"
+        ],
+        "statement_id": "q181369$5A0037EF-A694-4C1B-A879-71D94DEE6BCB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q185684",
+        "label": "合肥市",
+        "label_en": "Hefei",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q181369"
+        ],
+        "statement_id": "q181369$D4D477D6-E0AB-4D85-B2EE-AB590A6144E8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2015-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q181369"
+        ],
+        "statement_id": "Q181369$c7d237dc-4f00-dd8e-c4e4-244789d4c2e1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1964-03-23T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+2015-04-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q181369"
+        ],
+        "statement_id": "Q181369$b491211e-4aba-daa4-7b8b-eb9ffbec4768",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1922-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q181369"
+        ],
+        "statement_id": "Q181369$a3583075-47b5-4cb4-2ccf-0f7a1a440385",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+2015-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "粒子物理 / 统计物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q181369",
+        "title": "Wikidata Q181369 / 杨振宁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q181369&oldid=2559498540",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559498540,
+        "modified_at": "2026-10-21T13:29:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

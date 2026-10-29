@@ -43,5 +43,125 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "巴克西风格：一份公益诉讼论证，论零工劳动者权利：人权是待争取的未来，法院须听见弱者，第三世界实践亦是法源。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7898239",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Upendra Baxi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7898239"
+            ],
+            "statement_id": "Q7898239$7B31AC4F-39BC-42ED-9839-EED4C0E6FB1F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-11-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7898239"
+        ],
+        "statement_id": "Q7898239$AC6888B0-61AD-4530-BB8C-F47E7D33121D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7898239"
+        ],
+        "statement_id": "Q7898239$3109036D-8B94-465D-BCCE-88613F74211B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7898239"
+        ],
+        "statement_id": "Q7898239$8AEAB345-1A6B-4369-8A60-E8DEAF39C2E7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·人权法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7898239",
+        "title": "Wikidata Q7898239 / Upendra Baxi",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7898239&oldid=2547373589",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547373589,
+        "modified_at": "2026-09-18T09:33:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

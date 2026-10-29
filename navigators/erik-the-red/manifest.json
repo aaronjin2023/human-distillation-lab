@@ -36,5 +36,126 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Erik the Red, an uncrewed vessel prospects an unknown coast in 2026, looking for a place to winter and stay, naming the green valleys to draw settlers after it.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q172345",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erik the Red",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.950–c.1003",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172345"
+            ],
+            "statement_id": "Q172345$1c7748e1-4ccb-272e-fe66-48fe5da52671",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 950,
+            "raw_time": "+0950-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172345"
+            ],
+            "statement_id": "Q172345$cd56ea30-4457-a0bc-1e98-ec69bb506b3a",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1003,
+            "raw_time": "+1003-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q172345"
+        ],
+        "statement_id": "Q172345$a651e65b-4f53-07f5-2aaa-24ed998254bb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q647927",
+        "label": "耶伦",
+        "label_en": "Jæren",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q172345"
+        ],
+        "statement_id": "q172345$BF62CD17-54D9-4C89-A304-D6554E3DFDA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "挪威—格陵兰·北大西洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q172345",
+        "title": "Wikidata Q172345 / 红胡子埃里克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q172345&oldid=2554394188",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554394188,
+        "modified_at": "2026-10-07T06:45:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

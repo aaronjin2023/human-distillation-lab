@@ -31,5 +31,74 @@
   "test_prompt": "In the method of Donald Uhlmann, design a flexible conductive glass for a wearable device: draw the time-temperature-transformation diagram first, choose a cooling-rate window that keeps the glass amorphous, and measure crystallization kinetics before claiming stability",
   "test_question_zh": "为可穿戴设备设计一种柔性导电材料",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对（Wikipedia / NobelPrize.org / 机构来源共识）；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q24248189",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Donald R. Uhlmann",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1936–",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q24248189"
+            ],
+            "statement_id": "Q24248189$4d9dbe2d-43b5-4531-b2e8-994a1c34a0af",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1936
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "玻璃科学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q24248189",
+        "title": "Wikidata Q24248189 / Donald R. Uhlmann",
+        "url": "https://www.wikidata.org/w/index.php?title=Q24248189&oldid=2523374945",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2523374945,
+        "modified_at": "2026-07-27T11:32:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

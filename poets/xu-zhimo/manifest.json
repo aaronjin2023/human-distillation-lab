@@ -42,5 +42,152 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q557551",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Zhimo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1897–1931",
+      "birth_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557551"
+            ],
+            "statement_id": "q557551$F0F6A09D-3464-4CC9-AA82-BD70A0B9A957",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557551"
+            ],
+            "statement_id": "q557551$9C6891C5-AAA7-4F77-9280-D8D46E61E9A3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-11-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q557551"
+        ],
+        "statement_id": "q557551$E64933D6-2FA5-40A5-A445-59D768D144C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q286266",
+        "label": "海宁市",
+        "label_en": "Haining",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q557551"
+        ],
+        "statement_id": "q557551$23329E75-06A8-4134-8225-1EAB26F7AD0D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q557551"
+        ],
+        "statement_id": "Q557551$cbe8fb86-4e1c-760f-029d-a2d0511e627d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新月派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q557551",
+        "title": "Wikidata Q557551 / 徐志摩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q557551&oldid=2555693442",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555693442,
+        "modified_at": "2026-10-10T21:44:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

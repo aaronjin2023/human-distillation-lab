@@ -37,5 +37,139 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43252",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sophia Loren",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1934–",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43252"
+            ],
+            "statement_id": "q43252$084D72BC-F311-45B5-B13C-7F544248BDBF",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-09-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43252"
+        ],
+        "statement_id": "Q43252$23490961-7100-4DD5-A274-A324D1965C3B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q43252"
+        ],
+        "statement_id": "Q43252$E3D331BD-76E2-4F0B-9DBA-B3543BEB6F72",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43252"
+        ],
+        "statement_id": "q43252$4D28A627-7FFC-4C25-B2B9-D03BC62C217C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43252"
+        ],
+        "statement_id": "Q43252$84b8e9c7-4bf5-267f-e6d4-c918bbb09026",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1965-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43252",
+        "title": "Wikidata Q43252 / 索菲娅·罗兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43252&oldid=2561597855",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561597855,
+        "modified_at": "2026-10-28T05:23:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

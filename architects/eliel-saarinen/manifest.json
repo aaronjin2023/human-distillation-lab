@@ -43,5 +43,256 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312028",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eliel Saarinen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1873–1950",
+      "birth_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312028"
+            ],
+            "statement_id": "Q312028$91157D07-3364-424A-B46B-2D48E4E5128B",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312028"
+            ],
+            "statement_id": "q312028$FDB10299-ABE6-44DD-88DC-DF382A2A70E4",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "q312028$CFC649CB-C8C1-4F09-A025-28CA5154FA1E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1025745",
+        "label": "兰塔萨尔米",
+        "label_en": "Rantasalmi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$91a92b6c-45b5-f96c-c954-9b19686a6411",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1757",
+        "label": "赫尔辛基",
+        "label_en": "Helsinki",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$bade9951-478b-2262-d7f9-e4e28dd030e2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q14657",
+        "label": "维堡",
+        "label_en": "Vyborg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$1df7de82-4777-f8fe-08a7-7eb7b7adf688",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q196397",
+        "label": "索尔塔瓦拉",
+        "label_en": "Sortavala",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$f10438f8-4fe7-12b9-6105-59ebc807e222",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1770",
+        "label": "塔林",
+        "label_en": "Tallinn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$066cd3f4-45dd-557b-98bc-16cc73cc73c9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q885355",
+        "label": "布隆菲尔德山",
+        "label_en": "Bloomfield Hills",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$fe2dd307-438a-3e21-1b29-5e5559fa3ba0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3609412",
+        "label": "Hvitträsk",
+        "label_en": "Hvitträsk",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "q312028$35413591-4918-4327-BDF9-F75A0F06512D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1917-12-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q33",
+        "label": "芬兰",
+        "label_en": "Finland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$DC6D0BB6-822F-496C-A405-072D91BD65F0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1940-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q312028"
+        ],
+        "statement_id": "Q312028$8DEE1CEB-84B5-4404-831B-18244418111E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1917-12-05T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q62633",
+        "label": "芬兰大公国",
+        "label_en": "Grand Duchy of Finland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "民族浪漫主义 / 装饰艺术",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312028",
+        "title": "Wikidata Q312028 / 埃列爾·薩里寧",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312028&oldid=2557865895",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557865895,
+        "modified_at": "2026-10-17T04:52:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

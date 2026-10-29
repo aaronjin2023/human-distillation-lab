@@ -42,5 +42,132 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8159",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Bocuse",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2018",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8159"
+            ],
+            "statement_id": "Q8159$58DD4BB4-3E1D-4335-B860-4A3C4876B5D5",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8159"
+            ],
+            "statement_id": "Q8159$31af71cd-4c3b-6287-3a3b-a17266baa3ff",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8159"
+        ],
+        "statement_id": "q8159$8F02EED4-2E4C-4890-97FF-DEE5F1EC69C2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1469657",
+        "label": "科隆日欧蒙多尔",
+        "label_en": "Collonges-au-Mont-d'Or",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q8159"
+        ],
+        "statement_id": "Q8159$bbc2e80d-7b9a-402d-a988-7aa3ecf693a1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q456",
+        "label": "里昂",
+        "label_en": "Lyon",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8159"
+        ],
+        "statement_id": "q8159$9420CBB2-9147-47ED-AC1C-DB70E13F5C10",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8159",
+        "title": "Wikidata Q8159 / 保羅·博基茲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8159&oldid=2558206300",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558206300,
+        "modified_at": "2026-10-18T02:04:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

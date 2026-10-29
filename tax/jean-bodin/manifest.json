@@ -38,5 +38,132 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190944",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Bodin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1530–1596",
+      "birth_year": {
+        "value": 1530,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190944"
+            ],
+            "statement_id": "Q190944$52dfa621-4885-5726-1267-29c1cf57aec3",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1530,
+            "raw_time": "+1530-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1596,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190944"
+            ],
+            "statement_id": "Q190944$D6A026CF-2A8A-4353-AC25-917A8708BFAE",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1596,
+            "raw_time": "+1596-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190944"
+        ],
+        "statement_id": "q190944$F635E3A0-CDE2-4B10-8439-9DA1B8C21647",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q38380",
+        "label": "昂热",
+        "label_en": "Angers",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q190944"
+        ],
+        "statement_id": "Q190944$1542E484-5423-4329-921E-D70E5DEF38A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7880",
+        "label": "图卢兹",
+        "label_en": "Toulouse",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q190944"
+        ],
+        "statement_id": "q190944$B3A541A8-2821-442F-AFF1-9B4275FD50A4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "早期近代·税收主权论",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q190944",
+        "title": "Wikidata Q190944 / 让·博丹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190944&oldid=2557957489",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557957489,
+        "modified_at": "2026-10-17T10:53:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

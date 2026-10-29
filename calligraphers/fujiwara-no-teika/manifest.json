@@ -43,5 +43,117 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q378425",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fujiwara no Teika",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1162–1241",
+      "birth_year": {
+        "value": 1162,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378425"
+            ],
+            "statement_id": "Q378425$4D0ADC05-6464-413E-9B7F-AC10BEDF92DA",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1162,
+            "raw_time": "+1162-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1241,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378425"
+            ],
+            "statement_id": "q378425$CCDA3E5D-3A06-450E-A464-2A63E4C76296",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1241,
+            "raw_time": "+1241-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q378425"
+        ],
+        "statement_id": "Q378425$AEE59D8B-23FA-4695-9B1D-315C40BD8288",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q378425"
+        ],
+        "statement_id": "q378425$A39BE387-50CE-4A94-A48A-97630B1AA4CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·假名 / 和样"
+    },
+    "sources": [
+      {
+        "id": "WD:Q378425",
+        "title": "Wikidata Q378425 / 藤原定家",
+        "url": "https://www.wikidata.org/w/index.php?title=Q378425&oldid=2558947118",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558947118,
+        "modified_at": "2026-10-19T22:09:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

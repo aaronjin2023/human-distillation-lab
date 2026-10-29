@@ -43,5 +43,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q296042",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Philip Zimbardo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2024",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296042"
+            ],
+            "statement_id": "q296042$9717155B-3DCF-45DB-8412-A6DD103B6B00",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296042"
+            ],
+            "statement_id": "Q296042$190122e2-4af0-f4b9-f7c2-c2dc5785cc4f",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q296042"
+        ],
+        "statement_id": "q296042$07388381-B713-45BD-8F8D-D08EAFEC45EE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q296042"
+        ],
+        "statement_id": "q296042$4206574A-52F1-41C5-98F2-F5DD7CC95219",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会心理学 / 情境心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q296042",
+        "title": "Wikidata Q296042 / 菲利普·津巴多",
+        "url": "https://www.wikidata.org/w/index.php?title=Q296042&oldid=2558216056",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216056,
+        "modified_at": "2026-10-18T02:36:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

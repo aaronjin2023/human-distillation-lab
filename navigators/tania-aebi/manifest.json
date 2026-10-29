@@ -35,5 +35,115 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Tania Aebi, a small Yorkshire terrier rides the subway alone at eighteen stops old. It fixes its position by the station signs, writes down every mistake honestly, and learns the line as it rides it.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q124934",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tania Aebi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1966–",
+      "birth_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q124934"
+            ],
+            "statement_id": "Q124934$9DFA255C-3425-4DB4-BDAC-E5AAC3E595E2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q124934"
+        ],
+        "statement_id": "Q124934$299B53E5-00F3-459A-807C-DAFB1F9C7360",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q124934"
+        ],
+        "statement_id": "q124934$4E7FE938-1D22-4241-874B-0474D3F5C240",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q124934"
+        ],
+        "statement_id": "Q124934$0B7D7042-510A-4B16-A6FB-0F80C8FD959D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "I. 环球与单人航海",
+      "genre": "I. 环球与单人航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q124934",
+        "title": "Wikidata Q124934 / Tania Aebi",
+        "url": "https://www.wikidata.org/w/index.php?title=Q124934&oldid=2542453382",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542453382,
+        "modified_at": "2026-09-08T20:46:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

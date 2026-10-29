@@ -46,5 +46,131 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Amos Tversky, analyse a person who cannot stop scrolling short videos late at night. Availability makes the last video feel typical; anchoring makes the first video set the night's price; preference reverses when choosing versus pricing the same evening.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q474333",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Amos Tversky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1937–1996",
+      "birth_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q474333"
+            ],
+            "statement_id": "q474333$7513A3D1-3FBD-476B-902A-786D2D79A9A8",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q474333"
+            ],
+            "statement_id": "q474333$6F9D18A8-B0E7-407A-8E31-171429A33854",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-06-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q474333"
+        ],
+        "statement_id": "Q474333$15FD770B-4246-4A7D-B20A-83366387A723",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q41621",
+        "label": "海法",
+        "label_en": "Haifa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q474333"
+        ],
+        "statement_id": "Q474333$D544C604-F0DB-443D-AECD-FC27C8FC74EE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174158",
+        "label": "耶路撒冷希伯来大学",
+        "label_en": "Hebrew University of Jerusalem",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q474333"
+        ],
+        "statement_id": "Q474333$930C0EB8-1456-45D9-8F47-2EF017F10CEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "判断与决策"
+    },
+    "sources": [
+      {
+        "id": "WD:Q474333",
+        "title": "Wikidata Q474333 / 阿摩司·納坦·特沃斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q474333&oldid=2559433785",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559433785,
+        "modified_at": "2026-10-21T04:46:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,205 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "锡南风格：现代城市街角的一座社区图书馆，石砌八角支撑中央穹顶，半穹顶层层跌落，细长塔楼，伊兹尼克蓝瓷砖，层层窗洞柔光。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5600",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mimar Sinan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1488–1588",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5600"
+            ],
+            "statement_id": "Q5600$DA6FC228-812D-478A-AC24-FB078C9A39AF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1490,
+            "raw_time": "+1490-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1588,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5600"
+            ],
+            "statement_id": "q5600$B3FA8FCD-4B89-492D-AF27-EBE7D73F2EDF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1588,
+            "raw_time": "+1588-07-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$A4489F3D-E72A-4B4E-971E-ED284B1F0476",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1892504",
+        "label": "阿伊爾納斯",
+        "label_en": "Ağırnas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$bd19d500-4dbb-8522-bd53-c2e0e96df443",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q406",
+        "label": "伊斯坦布尔",
+        "label_en": "Istanbul",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$0fdf6640-4894-6a6e-abf9-1e26b40d0a84",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43387",
+        "label": "埃迪尔内",
+        "label_en": "Edirne",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$b939d775-416f-0bc4-5921-e22801b438d4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q85",
+        "label": "开罗",
+        "label_en": "Cairo",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$874e4c09-4191-2442-ff66-01091849bb73",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q41183",
+        "label": "阿勒颇",
+        "label_en": "Aleppo",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$5ad562e8-4a37-b16a-fc02-f9dd092248af",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q239266",
+        "label": "维舍格勒",
+        "label_en": "Višegrad",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$a59228bb-4041-162f-a728-0f9bfe7031d0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q406",
+        "label": "伊斯坦布尔",
+        "label_en": "Istanbul",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5600"
+        ],
+        "statement_id": "Q5600$902B816F-E650-4C47-90FD-3FD67FBC4C2F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12560",
+        "label": "奥斯曼帝国",
+        "label_en": "Ottoman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼古典",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5600",
+        "title": "Wikidata Q5600 / 米馬爾·希南",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5600&oldid=2553828899",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553828899,
+        "modified_at": "2026-10-06T08:34:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

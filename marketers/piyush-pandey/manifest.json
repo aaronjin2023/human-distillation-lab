@@ -36,5 +36,104 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款印度香料品牌的家庭幽默战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7199801",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Piyush Pandey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1955–2024",
+      "birth_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7199801"
+            ],
+            "statement_id": "Q7199801$29b74171-47ba-3d4c-968b-0061bbae93be",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7199801"
+            ],
+            "statement_id": "Q7199801$cdb0371d-4f13-7ed7-95d5-dde4664a5537",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-10-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 2024
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7199801"
+        ],
+        "statement_id": "Q7199801$6638F80F-6BEE-425E-98E2-DE85298F2DB1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7199801",
+        "title": "Wikidata Q7199801 / Piyush Pandey",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7199801&oldid=2538915422",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2538915422,
+        "modified_at": "2026-09-01T04:30:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

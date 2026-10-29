@@ -31,5 +31,55 @@
   "test_prompt": "In the style of Saskia Sassen, read a new district's delivery platforms as a global-city fragment: trace the flows of capital, data and labour through it, and ask who is expelled when the network thickens.",
   "test_question_zh": "新城区外卖平台的全球城市碎片",
   "verification": "2026-10-26（抽样自检）：生年 1947 更正为 1949 年 1 月 5 日（Prince of Asturias 奖官网、Encyclopedia.com）；2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q239419",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Saskia Sassen",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1949–",
+      "birth_year": {
+        "value": 1949,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "荷兰—美国·全球城市"
+    },
+    "sources": []
+  }
 }

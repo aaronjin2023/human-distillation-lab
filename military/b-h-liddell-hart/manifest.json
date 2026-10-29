@@ -33,5 +33,131 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "对行业巨头的商业逆袭筹划",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q299431",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "B. H. Liddell Hart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1970",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299431"
+            ],
+            "statement_id": "q299431$E715B4B7-387A-4169-A42F-4C58E4992172",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299431"
+            ],
+            "statement_id": "q299431$D322E51A-2FB2-4CC1-89E5-CDAE80D6319D",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-01-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q299431"
+        ],
+        "statement_id": "q299431$FDD5A01C-2F1A-4F1E-974B-518FBCC6A2B2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q270230",
+        "label": "巴黎第八区",
+        "label_en": "8th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q299431"
+        ],
+        "statement_id": "Q299431$43E757A1-2EFD-4C54-B2CC-499058B70BB6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12770",
+        "label": "索姆省",
+        "label_en": "Somme",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q299431"
+        ],
+        "statement_id": "q299431$455F7CD0-C2F9-42CC-B230-2311BDEEF427",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·间接路线"
+    },
+    "sources": [
+      {
+        "id": "WD:Q299431",
+        "title": "Wikidata Q299431 / B·H·李德·哈特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q299431&oldid=2559449402",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559449402,
+        "modified_at": "2026-10-21T08:16:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,154 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己、从未寄出的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6240",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hafez",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1315–1390",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6240"
+            ],
+            "statement_id": "Q6240$472d7d80-456b-da28-5f05-65a4ab48b660",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1325,
+            "raw_time": "+1325-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1389,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6240"
+            ],
+            "statement_id": "Q6240$4A5B3226-6CCC-4200-958F-098B6A489B39",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1389,
+            "raw_time": "+1389-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1390
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6240"
+        ],
+        "statement_id": "Q6240$EAA29D77-2CAD-4C2C-83C0-2284C33EE9FC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6397066",
+        "label": "设拉子",
+        "label_en": "Shiraz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q6240"
+        ],
+        "statement_id": "Q6240$C0AF80C7-16B9-44A6-9C66-95F314485C0D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3746183",
+        "label": "佩里斯",
+        "label_en": "Persis",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6240"
+        ],
+        "statement_id": "Q6240$3e950e98-4c10-363c-668f-944ef026b1bf",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q877670",
+        "label": "莫扎法尔王朝",
+        "label_en": "Muzaffarids of Iran",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6240"
+        ],
+        "statement_id": "Q6240$d1e1c3e5-4c27-00f7-a356-e4fe3ceb45a2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q484195",
+        "label": "帖木儿帝国",
+        "label_en": "Timurid Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波斯·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6240",
+        "title": "Wikidata Q6240 / 哈菲兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6240&oldid=2555634275",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555634275,
+        "modified_at": "2026-10-10T16:36:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

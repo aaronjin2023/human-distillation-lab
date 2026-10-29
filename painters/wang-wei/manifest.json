@@ -34,5 +34,55 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "深夜拉面店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q313605",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Wang Wei",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "699–759",
+      "birth_year": {
+        "value": 699,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 759,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·山水/文人画先驱"
+    },
+    "sources": []
+  }
 }

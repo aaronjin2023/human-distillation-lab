@@ -38,5 +38,132 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "维尼奥拉风格：现代城市街角的一座社区图书馆，宽阔筒形拱顶大厅，五柱式成法，侧室成排如礼拜堂，涡卷立面，石与白灰泥。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q297565",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giacomo Barozzi da Vignola",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1507–1573",
+      "birth_year": {
+        "value": 1507,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297565"
+            ],
+            "statement_id": "q297565$F60ADFE6-DC64-4922-A7BB-8AFD85CAF1A8",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1507,
+            "raw_time": "+1507-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1573,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297565"
+            ],
+            "statement_id": "q297565$57368A25-C1FD-4D88-A4C2-3624AC67D5E5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1573,
+            "raw_time": "+1573-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q297565"
+        ],
+        "statement_id": "q297565$223DC5E8-184F-4D1F-B4A7-EDFB34D75720",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q100111",
+        "label": "维尼奥拉",
+        "label_en": "Vignola",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q297565"
+        ],
+        "statement_id": "Q297565$784CC9DE-B72B-4532-920A-E59135244431",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q297565"
+        ],
+        "statement_id": "Q297565$1527c318-4e04-651e-aab2-0ea1c3c7b84a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q170174",
+        "label": "教皇国",
+        "label_en": "Papal States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴 / 矫饰主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q297565",
+        "title": "Wikidata Q297565 / 贾科莫·巴罗齐·达·维尼奥拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q297565&oldid=2557895864",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557895864,
+        "modified_at": "2026-10-17T06:31:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

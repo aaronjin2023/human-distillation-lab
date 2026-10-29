@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Henry Darcy, judge whether Darcy's law applies to a new well field: test flow against head difference in the local sand, measure the permeability, and state where the linear law breaks down",
   "test_question_zh": "一片新井场，达西定律还能直接用吗？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q438507",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Darcy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1803–1858",
+      "birth_year": {
+        "value": 1803,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q438507"
+            ],
+            "statement_id": "Q438507$472D59BD-A963-41E1-BAE4-86DADED48F2D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1803,
+            "raw_time": "+1803-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q438507"
+            ],
+            "statement_id": "Q438507$958E9CBD-25C3-4F35-B3AC-71F3598D4A89",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q438507"
+        ],
+        "statement_id": "q438507$1E524779-3F85-4CAF-9E50-B558A60520C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7003",
+        "label": "第戎",
+        "label_en": "Dijon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q438507"
+        ],
+        "statement_id": "Q438507$55AE4323-EAA1-40A7-AC6C-638084D37678",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "水文地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q438507",
+        "title": "Wikidata Q438507 / 亨利·達西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q438507&oldid=2529914638",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529914638,
+        "modified_at": "2026-08-11T06:41:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

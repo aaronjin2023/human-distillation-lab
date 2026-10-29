@@ -30,5 +30,125 @@
   "test_prompt": "In the style of Svante Arrhenius, study a new electrolyte: measure conductivity across concentrations and temperatures, infer ionisation from the data, fit the rate law, and accept the model only when new measurements confirm its predictions",
   "test_question_zh": "一种新电解质溶液的导电行为不明，怎么研究？",
   "verification": "2026-10-26：生卒 1859–1927、电离理论、电离方程、1903 年诺贝尔化学奖经通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q80956",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Svante Arrhenius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1859–1927",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80956"
+            ],
+            "statement_id": "q80956$13977806-80F7-4F57-9EC3-70482115F6DF",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1859,
+            "raw_time": "+1859-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80956"
+            ],
+            "statement_id": "q80956$339A7A31-6680-44DE-93E4-14D2E27A78B0",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q80956"
+        ],
+        "statement_id": "q80956$F4A5EFB3-9362-4E72-96E2-EA33162ED016",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1543476",
+        "label": "威克堡",
+        "label_en": "Wik Castle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q80956"
+        ],
+        "statement_id": "q80956$AF01FD5E-08E5-4699-9B71-8C8E1AB9CD4D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电离理论 / 反应速率"
+    },
+    "sources": [
+      {
+        "id": "WD:Q80956",
+        "title": "Wikidata Q80956 / 斯凡特·奥古斯特·阿伦尼乌斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q80956&oldid=2560770428",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560770428,
+        "modified_at": "2026-10-25T17:36:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

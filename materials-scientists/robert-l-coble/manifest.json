@@ -30,5 +30,103 @@
   "test_prompt": "In the method of Robert L. Coble, design a creep-resistant transparent ceramic for a deep-sea probe window. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "为深海探测器窗口设计一种抗蠕变透明陶瓷",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4457941",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert L. Coble",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1992",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4457941"
+            ],
+            "statement_id": "Q4457941$7C3ED495-61B4-496D-9B39-72FA4074E869",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-01-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4457941"
+            ],
+            "statement_id": "Q4457941$7EC22F8A-81CA-46E8-8085-A3DB96E0E95D",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-08-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4457941"
+        ],
+        "statement_id": "Q4457941$356C40CD-1B8B-49E6-B6AD-0B3C737C83B0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "烧结 / 蠕变"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4457941",
+        "title": "Wikidata Q4457941 / Robert L. Coble",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4457941&oldid=2541349189",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541349189,
+        "modified_at": "2026-09-06T22:42:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

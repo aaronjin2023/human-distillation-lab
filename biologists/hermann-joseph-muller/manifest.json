@@ -30,5 +30,403 @@
   "test_prompt": "In the style of Hermann Joseph Muller, test whether a new chemical induces mutations: expose fruit flies at graded doses with an unexposed control, count heritable mutations, subtract the spontaneous rate, and report the dose-response curve before claiming it is a mutagen",
   "test_question_zh": "一种新的化学物质据说能诱发突变，怎么设计实验验证？",
   "verification": "生卒 1890–1967、X 射线诱变 1927、1946 年诺贝尔生理学或医学奖按生物学史通说写；具体剂量数值未核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83598",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hermann Joseph Muller",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1967",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83598"
+            ],
+            "statement_id": "q83598$A5A3E712-74E7-4171-87EE-2A848505E9F7",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-12-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83598"
+            ],
+            "statement_id": "q83598$02157E36-3729-4C8A-93EA-40582BAB14C1",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$5E8CB818-0C65-4270-8CA5-E0697A1DE510",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$7d7ff7b5-4d26-d2bc-68b2-f90985f92753",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1915-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1918-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q16555",
+        "label": "休斯敦",
+        "label_en": "Houston",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$4145a736-4fc1-57d0-640e-70263d94a90d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$49f6399e-4d15-a7f0-17b2-a8b2f84ecc16",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1920-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1932-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q16559",
+        "label": "奥斯汀",
+        "label_en": "Austin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$e8231e2f-4523-017c-1e4d-2ed3099083e0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1932-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1933-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$371f692c-46dc-ca11-d496-4f24875b6cc1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1933-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1934-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$bd53ec8f-4df2-08a5-15f3-134502013974",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1934-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1937-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$5d332938-40be-9270-966d-b8332f3936a7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1937-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1940-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q23436",
+        "label": "爱丁堡",
+        "label_en": "Edinburgh",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$c35df607-4261-ace9-c4d9-bad0867ea80f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1940-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q49164",
+        "label": "安默斯特",
+        "label_en": "Amherst",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "Q83598$7e1fa50b-4913-0cdc-10a4-c2f7e731a74f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1964-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q490385",
+        "label": "布卢明顿",
+        "label_en": "Bloomington",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83598"
+        ],
+        "statement_id": "q83598$DC6E137A-48A8-4E45-BA30-65C418DD6106",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "遗传学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83598",
+        "title": "Wikidata Q83598 / 赫尔曼·约瑟夫·马勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83598&oldid=2560246404",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560246404,
+        "modified_at": "2026-10-24T09:06:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

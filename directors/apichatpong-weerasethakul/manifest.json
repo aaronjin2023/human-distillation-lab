@@ -44,5 +44,116 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q445198",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Apichatpong Weerasethakul",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1970–（在世）",
+      "birth_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q445198"
+            ],
+            "statement_id": "Q445198$13119D0F-6121-419A-BC81-3697D64996E3",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q445198"
+        ],
+        "statement_id": "Q445198$12B97614-674E-44F4-8AE1-18BD8B9D5567",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1861",
+        "label": "曼谷",
+        "label_en": "Bangkok",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q445198"
+        ],
+        "statement_id": "Q445198$5B124463-B10D-46D3-904D-966EE14B28B1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1861",
+        "label": "曼谷",
+        "label_en": "Bangkok",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q445198"
+        ],
+        "statement_id": "Q445198$BC3F41EE-A643-4E82-84DC-88283E4F31A3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q869",
+        "label": "泰国",
+        "label_en": "Thailand",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "泰国·诗意魔幻",
+      "genre": "泰国·诗意魔幻"
+    },
+    "sources": [
+      {
+        "id": "WD:Q445198",
+        "title": "Wikidata Q445198 / 阿彼察邦·韦拉斯哈古",
+        "url": "https://www.wikidata.org/w/index.php?title=Q445198&oldid=2556517849",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556517849,
+        "modified_at": "2026-10-13T07:47:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

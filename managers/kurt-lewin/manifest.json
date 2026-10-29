@@ -43,5 +43,141 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q77106",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kurt Lewin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1947",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77106"
+            ],
+            "statement_id": "q77106$C3E3FB7D-9DC6-4700-A4AB-88C2FAE660F3",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77106"
+            ],
+            "statement_id": "q77106$982E6B3F-3FB7-47E0-9780-6C2ADD26DB16",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q77106"
+        ],
+        "statement_id": "q77106$22BAE8A9-2ED1-4658-9898-E3E211AC202D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q325627",
+        "label": "莫吉尔诺",
+        "label_en": "Mogilno",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q77106"
+        ],
+        "statement_id": "q77106$7C21BB12-9891-4689-B434-1CF32B6FD013",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1933-08-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q77106"
+        ],
+        "statement_id": "Q77106$366ED2BE-AF54-4782-B67D-F188948D9461",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "变革理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q77106",
+        "title": "Wikidata Q77106 / 库尔特·扎德克·勒温",
+        "url": "https://www.wikidata.org/w/index.php?title=Q77106&oldid=2559592014",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559592014,
+        "modified_at": "2026-10-21T21:52:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

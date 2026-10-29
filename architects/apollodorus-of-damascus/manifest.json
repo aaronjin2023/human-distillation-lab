@@ -39,5 +39,132 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "阿波罗多罗斯风格：现代城市街角的一座社区图书馆，石与混凝土的帝国广场序列，宏大轴线入口，螺旋浮雕高柱作地标，大理石柱廊。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189375",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Apollodorus of Damascus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.60–c.130",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189375"
+            ],
+            "statement_id": "Q189375$11122719-4435-8624-1a85-6dbbd81de7ed",
+            "rank": "preferred",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 50,
+            "raw_time": "+0050-00-00T00:00:00Z",
+            "precision": 7,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189375"
+            ],
+            "statement_id": "Q189375$1ae47fba-48c0-a351-d81e-2a40bc527604",
+            "rank": "preferred",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 120,
+            "raw_time": "+0120-00-00T00:00:00Z",
+            "precision": 8,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189375"
+        ],
+        "statement_id": "q189375$0DBED112-9087-416B-965E-C8EBEAA5C34B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3766",
+        "label": "大马士革",
+        "label_en": "Damascus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q189375"
+        ],
+        "statement_id": "Q189375$42E21BC2-3793-439C-9AD7-E7302EC5593F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189375"
+        ],
+        "statement_id": "Q189375$D040CEB8-320D-4637-BC26-26358D19B8D0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189375",
+        "title": "Wikidata Q189375 / 大马士革的阿波罗多洛斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189375&oldid=2557788828",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557788828,
+        "modified_at": "2026-10-16T23:50:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

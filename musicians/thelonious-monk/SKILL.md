@@ -24,3 +24,7 @@
 - `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 7.1 四维（只限乐曲）
 - `conflicts.md` — 说法不一致 / 归属存疑 / 时期矛盾，保留，不统一
 - `manifest.json` — 来源乐曲清单、选材说明、版本、证据来源
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

@@ -30,5 +30,152 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿第 8 节来源与英文维基通说核对；作品编号 / 调性 / 版本争议记 conflicts.md，不绑定单一版本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7315",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pyotr Ilyich Tchaikovsky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1840–1893",
+      "birth_year": {
+        "value": 1840,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7315"
+            ],
+            "statement_id": "q7315$0C52841C-9843-476F-B198-59A074FFEB90",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1840,
+            "raw_time": "+1840-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7315"
+            ],
+            "statement_id": "q7315$C19CDC39-692B-4F2D-9D14-F9D1981E5F69",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                }
+              ]
+            },
+            "value": 1893,
+            "raw_time": "+1893-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7315"
+        ],
+        "statement_id": "q7315$D5F32195-AF92-4F02-B4AE-233779EA3A01",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q133838",
+        "label": "沃特金斯克",
+        "label_en": "Votkinsk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7315"
+        ],
+        "statement_id": "Q7315$d483a710-40ed-f702-ff1f-3add3f02a53f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7315"
+        ],
+        "statement_id": "Q7315$80d066b1-4855-30a2-f12b-846400a80c58",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7315"
+        ],
+        "statement_id": "q7315$19825E73-454E-4887-B908-D06AD6EAFE86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 俄国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7315",
+        "title": "Wikidata Q7315 / 彼得·伊里奇·柴可夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7315&oldid=2561708479",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561708479,
+        "modified_at": "2026-10-28T15:06:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

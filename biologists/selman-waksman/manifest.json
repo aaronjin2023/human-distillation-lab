@@ -29,5 +29,168 @@
     "沙茨争议的原始文献细节未逐项核对；已记入 conflicts.md",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q232308",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Selman Waksman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1973",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232308"
+            ],
+            "statement_id": "q232308$9C635621-1403-415B-A118-E63C1359A382",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-07-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232308"
+            ],
+            "statement_id": "q232308$64E4B714-48E6-431D-B7A7-3742ECDF9479",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q232308"
+        ],
+        "statement_id": "q232308$2083B747-D1F7-491B-A7EE-DD46953A5C63",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q192558",
+        "label": "新普里盧卡",
+        "label_en": "Nova Pryluka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q232308"
+        ],
+        "statement_id": "q232308$2E0C1723-5D61-4CD5-99F5-378B0F411FF7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1916-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q232308"
+        ],
+        "statement_id": "Q232308$7027E781-55DE-4975-A59A-93E522F32BC3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q232308"
+        ],
+        "statement_id": "Q232308$7314225B-0ABC-4416-96C7-CAD102ACE44A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q232308"
+          ],
+          "statement_id": "Q232308$0761625c-4b1e-c914-0c19-f3a3c8de7ffb",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q44806",
+          "label": "乌克兰人",
+          "label_en": "Ukrainians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "微生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q232308",
+        "title": "Wikidata Q232308 / 赛尔曼·A·瓦克斯曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q232308&oldid=2546568613",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546568613,
+        "modified_at": "2026-09-16T07:56:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

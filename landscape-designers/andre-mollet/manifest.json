@@ -43,5 +43,104 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "大学校园里的雨水花园（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（英文维基 André Mollet）：代表作订正为圣詹姆斯公园、胡姆勒花园、《乐园花园》，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q358618",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André Mollet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1600–1665",
+      "birth_year": {
+        "value": 1600,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q358618"
+            ],
+            "statement_id": "Q358618$FD64E00D-3E6C-4727-BE2B-F86548E74B37",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1600,
+            "raw_time": "+1600-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1665,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q358618"
+            ],
+            "statement_id": "Q358618$2506F3AC-15B2-42A2-8621-4CD9DA96F1C9",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1665,
+            "raw_time": "+1665-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q358618"
+        ],
+        "statement_id": "q358618$D7E2CCA4-22C7-4072-9F58-121D28594F7F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国—英国·古典园林",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q358618",
+        "title": "Wikidata Q358618 / André Mollet",
+        "url": "https://www.wikidata.org/w/index.php?title=Q358618&oldid=2523490786",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2523490786,
+        "modified_at": "2026-07-27T15:58:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

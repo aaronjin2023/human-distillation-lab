@@ -31,5 +31,130 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q49481",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sergei Prokofiev",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1953",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q49481"
+            ],
+            "statement_id": "q49481$2020E601-2542-41C5-BF9A-6A9B4B52EC8C",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-04-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q49481"
+            ],
+            "statement_id": "q49481$1b7c4dd2-467f-9679-ccee-a5d89a25c6df",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q49481"
+        ],
+        "statement_id": "q49481$8cf41d30-4d51-6eb2-48bc-3a30fa2a775a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4238606",
+        "label": "Sontsivka",
+        "label_en": "Sontsivka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q49481"
+        ],
+        "statement_id": "q49481$d50f523a-48f6-f365-9ed9-fad2d249d0a5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q49481"
+        ],
+        "statement_id": "Q49481$3DB78872-B253-4E22-8F89-FDCF1772A304",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义 / 苏联"
+    },
+    "sources": [
+      {
+        "id": "WD:Q49481",
+        "title": "Wikidata Q49481 / 谢尔盖·普罗科菲耶夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q49481&oldid=2558234954",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558234954,
+        "modified_at": "2026-10-18T03:45:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,152 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q103774",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ravi Shankar",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2012",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103774"
+            ],
+            "statement_id": "q103774$A43BECD7-42C0-4A7B-B7D9-B1AA44D710EA",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103774"
+            ],
+            "statement_id": "q103774$CEF02F9E-13D0-4EE0-A740-F9ADF03D50A7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q103774"
+        ],
+        "statement_id": "q103774$C57C3FFC-4215-4C6E-B4CF-9573E1979391",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q79980",
+        "label": "瓦拉纳西",
+        "label_en": "Varanasi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q103774"
+        ],
+        "statement_id": "Q103774$D59E6DC7-556E-4344-BC75-B5469A890AB1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q103774"
+        ],
+        "statement_id": "q103774$2CD0D5A1-3539-46C7-A88C-F9C922181F86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度 / 北印度古典"
+    },
+    "sources": [
+      {
+        "id": "WD:Q103774",
+        "title": "Wikidata Q103774 / 拉维·香卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q103774&oldid=2558221803",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558221803,
+        "modified_at": "2026-10-18T02:55:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

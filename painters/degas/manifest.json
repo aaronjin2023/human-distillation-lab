@@ -29,5 +29,170 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《蓝衣舞者》粉彩、约 1895 年、普希金美术馆藏；德加 1834–1917",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q46373",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edgar Degas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1834–1917",
+      "birth_year": {
+        "value": 1834,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46373"
+            ],
+            "statement_id": "q46373$2BF0A809-8BB7-4E42-81FD-42FAFFCBB254",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1834,
+            "raw_time": "+1834-07-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46373"
+            ],
+            "statement_id": "q46373$6E0BE9AF-06EA-434B-BC49-CD0AD79ECAE0",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-09-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "q46373$09606212-7CBC-4826-8153-F6C7B1C75866",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "Q46373$1C1586CB-F52C-4E63-A5A3-095D4BF12D0A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "Q46373$DFD747BC-C935-402A-9CA5-4A715D32B8D3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "Q46373$A0F2B9FF-EBB2-49C0-AE5A-D4C98B38ECCC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "Q46373$5DC05B5F-B0DA-4C18-83D0-0298A229BBC7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q46373"
+        ],
+        "statement_id": "q46373$8D1073D5-0EC9-4FC5-98A7-92E3FE6A393A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q46373",
+        "title": "Wikidata Q46373 / 埃德加·德加",
+        "url": "https://www.wikidata.org/w/index.php?title=Q46373&oldid=2561607132",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561607132,
+        "modified_at": "2026-10-28T06:42:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

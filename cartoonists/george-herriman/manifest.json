@@ -38,5 +38,180 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店外的流浪猫（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q453440",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Herriman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1880–1944",
+      "birth_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q453440"
+            ],
+            "statement_id": "q453440$3833ABDE-5BCE-4F3E-AC2A-A89BC4F81D0E",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-08-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q453440"
+            ],
+            "statement_id": "q453440$8C4E5FF9-9D6C-4369-9100-2AC286A76090",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q453440"
+        ],
+        "statement_id": "q453440$A1451429-6FF8-4B24-AC83-328E2C66ED4C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q34404",
+        "label": "新奥尔良",
+        "label_en": "New Orleans",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q453440"
+        ],
+        "statement_id": "Q453440$c960dfd9-cffd-4a94-8eb6-aac8b1bb0e29",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1895-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1944-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q453440"
+        ],
+        "statement_id": "q453440$1A0F4FB6-0CAC-43E0-96F5-A833D2C7ECC2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q453440"
+          ],
+          "statement_id": "Q453440$0ABE5265-9228-4DAE-AA45-2A620FFB25BF",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q453440"
+          ],
+          "statement_id": "Q453440$4C1F6A05-A136-4B5D-9FF4-9F03E2FCE1D0",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q4386404",
+          "label": "克里奥尔",
+          "label_en": "Louisiana Creole people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·报纸连环漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q453440",
+        "title": "Wikidata Q453440 / 喬治．赫里曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q453440&oldid=2557892281",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557892281,
+        "modified_at": "2026-10-17T06:15:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,117 @@
     "田野试验具体规模数字未写，以防约数出入；已记入 conflicts.md",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q200101",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jonas Salk",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1995",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200101"
+            ],
+            "statement_id": "Q200101$E3DF9D53-E285-4D72-AC2C-30C6D0C030CF",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200101"
+            ],
+            "statement_id": "Q200101$CABC8047-C32F-4890-8FED-16C0176FEE19",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-06-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q200101"
+        ],
+        "statement_id": "q200101$6A136C9E-4096-415A-AA5A-43F977C0D9C9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q200101"
+        ],
+        "statement_id": "q200101$113CA3DA-763B-47F9-A848-5815276EA25A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "病毒学 / 免疫学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q200101",
+        "title": "Wikidata Q200101 / 乔纳斯·索尔克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q200101&oldid=2558017842",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558017842,
+        "modified_at": "2026-10-17T15:31:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

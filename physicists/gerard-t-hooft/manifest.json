@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Gerard 't Hooft, explain why a Yorkshire terrier does not slip on a subway floor: compute the infinities of the naive picture away, prove the grip mechanism finite and testable, and state the boundary where the proof stops",
   "test_question_zh": "解释地铁里一只约克夏犬为什么不会滑倒",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q184592",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gerard 't Hooft",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1946–",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q184592"
+            ],
+            "statement_id": "Q184592$4BB091D2-F2B1-4C90-B57F-6A8B1E62B417",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q184592"
+        ],
+        "statement_id": "Q184592$b088b61e-4849-099d-5475-7603a3afaf36",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q9911",
+        "label": "登海尔德",
+        "label_en": "Den Helder",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q184592"
+        ],
+        "statement_id": "q184592$70A3B499-A431-42B8-9ADA-A73EBCE75C64",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "粒子物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q184592",
+        "title": "Wikidata Q184592 / 杰拉德·特·胡夫特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q184592&oldid=2560248013",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560248013,
+        "modified_at": "2026-10-24T09:16:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -27,3 +27,7 @@
 
 - 来源：维基百科“Pieter Bruegel the Elder”；维也纳艺术史博物馆《雪中猎人》说明；月令组画 1565 年已核对
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

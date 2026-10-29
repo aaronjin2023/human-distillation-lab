@@ -35,5 +35,117 @@
   "test_prompt": "In the style of Xu Guangqi, compare two modern eclipse-prediction programs: compute the same eclipse with both, check against observation, keep whichever predicts better, and write down exactly where the loser fails",
   "test_question_zh": "用徐光启的方法，比较现代两种日月食预报软件的准确度",
   "verification": "2026-10-26：生卒 1562–1633、《崇祯历书》、日月食推算、23 个南天星座经 web 搜索核对；原文未逐句核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q420427",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Guangqi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1562–1633",
+      "birth_year": {
+        "value": 1562,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q420427"
+            ],
+            "statement_id": "Q420427$DF78DD10-2EE7-4553-BAF4-C8A7E7A96E7A",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1562,
+            "raw_time": "+1562-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1633,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q420427"
+            ],
+            "statement_id": "q420427$B8A8E9EB-08BF-4D84-9286-C6F58C0F749C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1633,
+            "raw_time": "+1633-11-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q420427"
+        ],
+        "statement_id": "q420427$3D6F222E-4E46-4617-89E9-67DB6B7BE5CF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q420427"
+        ],
+        "statement_id": "Q420427$F02CBEA8-5E8E-4D67-8F28-2AB8FFAFD47B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "明末·中西天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q420427",
+        "title": "Wikidata Q420427 / 徐光启",
+        "url": "https://www.wikidata.org/w/index.php?title=Q420427&oldid=2556624798",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556624798,
+        "modified_at": "2026-10-13T16:28:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

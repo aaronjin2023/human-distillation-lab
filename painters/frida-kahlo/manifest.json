@@ -31,5 +31,170 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一辆停在街边的共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5588",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frida Kahlo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1954",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5588"
+            ],
+            "statement_id": "q5588$14F01C52-35F4-4E3B-AEB7-2A62092A1133",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-07-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5588"
+            ],
+            "statement_id": "q5588$262C85E1-929E-45FC-9439-C2259B175B0F",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-07-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "Q5588$2160BF2B-D662-4072-A974-8F9A9D140055",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2597249",
+        "label": "Coyoacán",
+        "label_en": "Coyoacán",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "Q5588$D09F3A0C-F93E-46F5-963B-6EA4D5A8B9A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1489",
+        "label": "墨西哥城",
+        "label_en": "Mexico City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "Q5588$8132133F-31A7-444D-8618-709E8210AE3E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12439",
+        "label": "底特律",
+        "label_en": "Detroit",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "Q5588$0CE57B70-F763-42EA-BFEF-6B2D2C37E0A7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q62",
+        "label": "旧金山",
+        "label_en": "San Francisco",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "Q5588$96BF02BA-4C07-473D-9F7B-A5C7C00758C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5588"
+        ],
+        "statement_id": "q5588$F0D28F57-02CA-4E4A-A0FD-AEA05AC0B7E6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "墨西哥现代主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5588",
+        "title": "Wikidata Q5588 / 芙烈達·卡蘿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5588&oldid=2557886527",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557886527,
+        "modified_at": "2026-10-17T05:54:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

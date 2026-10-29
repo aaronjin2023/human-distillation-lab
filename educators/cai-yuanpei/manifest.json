@@ -42,5 +42,131 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘如何对待不同意见’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；就职演说引文为通行本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q19796",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cai Yuanpei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1940",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19796"
+            ],
+            "statement_id": "q19796$8B8192E3-3DFD-42AA-ADAB-093EFBAB28D1",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19796"
+            ],
+            "statement_id": "q19796$5B1A2C4B-48D1-4966-81EB-47CF09765F4C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q19796"
+        ],
+        "statement_id": "Q19796$7BC4083C-528A-428E-88B9-04A11EECB3B9",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1334263",
+        "label": "越城区",
+        "label_en": "Yuecheng District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q19796"
+        ],
+        "statement_id": "Q19796$9E8AFF1C-62E2-418A-B3EB-42C0936DA939",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q19796"
+        ],
+        "statement_id": "Q19796$B0FA0A6A-8F40-4AB6-951B-319071AE0C09",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·大学改革",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q19796",
+        "title": "Wikidata Q19796 / 蔡元培",
+        "url": "https://www.wikidata.org/w/index.php?title=Q19796&oldid=2554592660",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554592660,
+        "modified_at": "2026-10-07T15:00:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

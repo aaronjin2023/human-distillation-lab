@@ -29,5 +29,117 @@
     "1908年与1912年论文的样本数细节待原文核对",
     "哈佛测光标准的完整版本待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q110181",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henrietta Swan Leavitt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1921",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q110181"
+            ],
+            "statement_id": "q110181$7339F887-7A0B-4FA9-BFE5-FFB8E2C7C604",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q110181"
+            ],
+            "statement_id": "Q110181$AAF1CB38-3470-49CC-8113-B3328747466A",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q110181"
+        ],
+        "statement_id": "Q110181$DBD09DA9-137D-493A-893F-D07159B57677",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2427213",
+        "label": "兰开斯特",
+        "label_en": "Lancaster",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q110181"
+        ],
+        "statement_id": "q110181$FC115315-BE4B-4D92-81D9-DC316CFDE3F5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q110181",
+        "title": "Wikidata Q110181 / 亨丽爱塔·勒维特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q110181&oldid=2560930206",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560930206,
+        "modified_at": "2026-10-26T04:00:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,166 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5383",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Bowie",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1947–2016",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5383"
+            ],
+            "statement_id": "q5383$01B88385-2D5A-4B7D-9851-CF7D6E21409B",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5383"
+            ],
+            "statement_id": "Q5383$e1ac4fb5-424d-c5d0-081f-36b8510546bd",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5383"
+        ],
+        "statement_id": "q5383$CC28FD45-1531-42DF-94C3-C20256014CDF",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q146690",
+        "label": "布里克斯顿",
+        "label_en": "Brixton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5383"
+        ],
+        "statement_id": "Q5383$5376CE62-DE2E-488B-9D90-3FDBD0A4EE28",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5383"
+        ],
+        "statement_id": "Q5383$E036F97C-D954-4E18-B874-EC5A1BA0866B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1976-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1978-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5383"
+        ],
+        "statement_id": "Q5383$6DF505E8-71EA-4BAE-8DE8-101CE8BDA7E8",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "摇滚·华丽摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5383",
+        "title": "Wikidata Q5383 / 大卫·鲍伊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5383&oldid=2559145575",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559145575,
+        "modified_at": "2026-10-20T08:32:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

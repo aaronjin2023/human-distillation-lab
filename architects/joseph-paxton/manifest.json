@@ -38,5 +38,56 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "帕克斯顿风格：现代城市街角的一座社区图书馆，模块化铁与玻璃大厅，预制肋拱与玻璃，巨大净跨，轻盈透明，玻璃屋顶柔光。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q318372",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Joseph Paxton",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1803–1865",
+      "birth_year": {
+        "value": 1803,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1865,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "铁与玻璃结构先驱",
+      "genre": "architect"
+    },
+    "sources": []
+  }
 }

@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q230412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lili Boulanger",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1918",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230412"
+            ],
+            "statement_id": "Q230412$5BBCB0C6-1632-4317-983D-1AC9C1404A56",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-08-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230412"
+            ],
+            "statement_id": "Q230412$6565A6FF-4450-4923-86E2-F8D8D35BCB80",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-03-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q230412"
+        ],
+        "statement_id": "q230412$AFAF2DDC-20CC-4249-8739-DF2143DDE054",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q230412"
+        ],
+        "statement_id": "q230412$8EBC0CE0-F8B2-41D1-999C-C49F1892FEEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义早期 / 法国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q230412",
+        "title": "Wikidata Q230412 / 莉莉·布朗热",
+        "url": "https://www.wikidata.org/w/index.php?title=Q230412&oldid=2558119407",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558119407,
+        "modified_at": "2026-10-17T21:31:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

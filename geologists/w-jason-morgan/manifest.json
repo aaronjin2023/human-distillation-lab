@@ -31,5 +31,117 @@
   "test_prompt": "In the style of W. Jason Morgan, draw the Himalayan seismic belt: fix the plate boundary from earthquakes, compute the rotation about an Euler pole, and check the transform-fault directions against the small-circle prediction",
   "test_question_zh": "印度板块向北撞上亚洲，喜马拉雅的地震带该怎么画？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1351267",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "W. Jason Morgan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2023",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1351267"
+            ],
+            "statement_id": "Q1351267$47C3D0D3-5A3D-464C-9C5D-9F2B7BD569D4",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1351267"
+            ],
+            "statement_id": "Q1351267$5a8ca8dc-45ca-c949-98a4-aa340e0156bc",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1351267"
+        ],
+        "statement_id": "Q1351267$CF0B229B-2C80-4564-8F90-DF75EF716EDB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q83813",
+        "label": "萨凡纳",
+        "label_en": "Savannah",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1351267"
+        ],
+        "statement_id": "q1351267$EB7826AF-8BFA-462A-AD21-C4110FA72A6D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地球物理 / 构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1351267",
+        "title": "Wikidata Q1351267 / 威廉·傑森·摩根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1351267&oldid=2545453839",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545453839,
+        "modified_at": "2026-09-14T06:32:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

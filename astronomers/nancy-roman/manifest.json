@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Nancy Roman, make the case for a new space telescope: list the science questions only space can answer, match each one to an instrument and orbit, and state the technical risks honestly",
   "test_question_zh": "怎样论证一台新空间望远镜的必要性？",
   "verification": "生卒 1925–2018、哈勃空间望远镜规划按天文史通说写；'哈勃之母'为后世称号，见 conflicts",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3335602",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nancy Roman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2018",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3335602"
+            ],
+            "statement_id": "Q3335602$35424177-AC9B-4C72-891B-5B0A94D99B9D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3335602"
+            ],
+            "statement_id": "Q3335602$bd827f55-4457-4ed8-b562-a31671636dfb",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3335602"
+        ],
+        "statement_id": "Q3335602$2E058627-A0BF-451A-B862-0A7F454E56CA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q23197",
+        "label": "纳什维尔",
+        "label_en": "Nashville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3335602"
+        ],
+        "statement_id": "Q3335602$9C0E0795-EA97-4B1D-A46E-F536DAA51EBC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·空间望远镜"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3335602",
+        "title": "Wikidata Q3335602 / 南希·罗曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3335602&oldid=2558179074",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558179074,
+        "modified_at": "2026-10-18T00:39:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

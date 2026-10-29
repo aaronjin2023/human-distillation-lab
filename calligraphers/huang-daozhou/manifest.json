@@ -53,5 +53,117 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“深夜便利店”行草",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3369486",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Huang Daozhou",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1585–1646",
+      "birth_year": {
+        "value": 1585,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3369486"
+            ],
+            "statement_id": "Q3369486$7BC8E093-CC21-49A5-8420-D57BC3C9B05A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1585,
+            "raw_time": "+1585-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1646,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3369486"
+            ],
+            "statement_id": "Q3369486$DFEF00C6-F918-41E3-8205-F4DD661662D8",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1646,
+            "raw_time": "+1646-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3369486"
+        ],
+        "statement_id": "Q3369486$CEE022E2-C478-4089-85F1-E1D6AE7B7CB5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3369486"
+        ],
+        "statement_id": "Q3369486$8085C7F2-6190-4B91-956A-4A7CCC78001F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明·行书 / 草书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3369486",
+        "title": "Wikidata Q3369486 / 黄道周",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3369486&oldid=2557009398",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557009398,
+        "modified_at": "2026-10-14T19:16:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

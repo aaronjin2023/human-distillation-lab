@@ -25,5 +25,117 @@
   "test_prompt": "In the style of Ren Mei'e, survey a new coastal city's shoreline: read its terraces and beach ridges, order the Quaternary changes, and judge its land and sea risks",
   "test_question_zh": "一座新建海滨城市的岸线与阶地，说明了怎样的海陆变迁与风险？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7312310",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ren Mei'e",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–2008",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7312310"
+            ],
+            "statement_id": "Q7312310$4C37C1CA-000F-45B3-8BDB-6798AE1BFBBA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7312310"
+            ],
+            "statement_id": "Q7312310$3EE235FA-05FC-4E83-BD93-CAAE6639500A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-11-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7312310"
+        ],
+        "statement_id": "Q7312310$902F52F1-C049-449B-B226-608C32E3D57E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42780",
+        "label": "宁波市",
+        "label_en": "Ningbo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7312310"
+        ],
+        "statement_id": "Q7312310$F308471B-5E37-4CDC-8994-3C6904865F3A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中国·地貌学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7312310",
+        "title": "Wikidata Q7312310 / 任美锷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7312310&oldid=2542356299",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542356299,
+        "modified_at": "2026-09-08T16:45:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,132 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "幼儿园恩物与作业的上午（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为《人的教育》的通行英译名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76679",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Froebel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1782–1852",
+      "birth_year": {
+        "value": 1782,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76679"
+            ],
+            "statement_id": "q76679$E3AE9509-255A-46A8-8CAC-C0A0ACB276C8",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1782,
+            "raw_time": "+1782-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76679"
+            ],
+            "statement_id": "q76679$F1DB7E43-A0BF-4482-B80E-9C3A6799968B",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-06-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76679"
+        ],
+        "statement_id": "Q76679$A9D1F1F8-C12F-4103-9ADA-2DEA39FA4866",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q310955",
+        "label": "上魏斯巴赫",
+        "label_en": "Oberweißbach",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76679"
+        ],
+        "statement_id": "Q76679$7242F18B-1EFD-4AB7-BC40-F1BB3FA8CFAA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76679"
+        ],
+        "statement_id": "q76679$351B3744-239D-45AE-B1FE-B34D681C54AA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q695316",
+        "label": "施瓦茨堡-魯多爾施塔特",
+        "label_en": "Principality of Schwarzburg-Rudolstadt",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·幼儿教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76679",
+        "title": "Wikidata Q76679 / 弗里德里希·威廉·奥古斯特·福禄贝尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76679&oldid=2561223281",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561223281,
+        "modified_at": "2026-10-26T22:54:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

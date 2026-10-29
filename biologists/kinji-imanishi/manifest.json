@@ -29,5 +29,141 @@
     "进化哲学部分未蒸；已记入 conflicts.md",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q788092",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kinji Imanishi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1992",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q788092"
+            ],
+            "statement_id": "Q788092$DA1833E2-9136-4EC8-B841-595A6938909D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q788092"
+            ],
+            "statement_id": "Q788092$2968A6E7-947A-432E-9F55-A88DFB952FB9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-06-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q788092"
+        ],
+        "statement_id": "Q788092$B7433055-5AF8-4F94-A8C7-770320F052A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34600",
+        "label": "京都市",
+        "label_en": "Kyoto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q788092"
+        ],
+        "statement_id": "q788092$030191FF-D76F-4D8E-9CA1-2C8A65D06B17",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q788092"
+        ],
+        "statement_id": "Q788092$0D8D31C8-6A32-4190-8A74-733EBA15E8A9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "灵长类学 / 生态学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q788092",
+        "title": "Wikidata Q788092 / 今西錦二",
+        "url": "https://www.wikidata.org/w/index.php?title=Q788092&oldid=2555793162",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555793162,
+        "modified_at": "2026-10-11T05:33:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

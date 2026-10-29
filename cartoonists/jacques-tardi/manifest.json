@@ -38,5 +38,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁站台等雨的上班族（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q506449",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jacques Tardi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1946–",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q506449"
+            ],
+            "statement_id": "q506449$49CBFCAF-A1B3-4A70-BB2B-3CE91247CD3E",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q506449"
+        ],
+        "statement_id": "q506449$9A208CF8-FB8A-4549-A9F7-1C8B094AB3E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8848",
+        "label": "瓦朗斯",
+        "label_en": "Valence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q506449"
+        ],
+        "statement_id": "Q506449$93F6D14D-755B-4496-B453-C7C0D4C13682",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·图像小说/历史漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q506449",
+        "title": "Wikidata Q506449 / 雅克·塔爾迪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q506449&oldid=2557944652",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557944652,
+        "modified_at": "2026-10-17T09:57:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

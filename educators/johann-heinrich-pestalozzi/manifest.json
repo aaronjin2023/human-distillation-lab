@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "幼儿观察地铁约克夏犬的直观课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；'头、心、手'为其教育原则的通行概括，原文引文未确证，故只作 artifact 级样本，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q105428",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Heinrich Pestalozzi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1746–1827",
+      "birth_year": {
+        "value": 1746,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105428"
+            ],
+            "statement_id": "q105428$B69D11C2-DF2B-482A-9B57-AE9D3174F2E4",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1746,
+            "raw_time": "+1746-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1827,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105428"
+            ],
+            "statement_id": "q105428$0BEAEC9A-917A-474C-A6F9-6EDFE6895EA1",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1827,
+            "raw_time": "+1827-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q105428"
+        ],
+        "statement_id": "q105428$2B1F52D1-2CCB-453E-99CA-B270D1B0B321",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q72",
+        "label": "苏黎世",
+        "label_en": "Zurich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q105428"
+        ],
+        "statement_id": "q105428$9DEBA623-81C4-4AB9-B2C7-394FC59BA629",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·慈善教育 / 直观教学",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q105428",
+        "title": "Wikidata Q105428 / 约翰·海因里希·裴斯泰洛齐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q105428&oldid=2560127745",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560127745,
+        "modified_at": "2026-10-23T21:39:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

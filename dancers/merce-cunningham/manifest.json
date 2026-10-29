@@ -40,5 +40,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Merce Cunningham, a person buying oden at a convenience store late at night, chance-determined movement, decentralised space, clear non-narrative steps, multiple directions at once, cool and neutral",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q318364",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Merce Cunningham",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–2009",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318364"
+            ],
+            "statement_id": "q318364$2B6EE1C0-894E-4249-8B2B-02A209507EB1",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2009,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318364"
+            ],
+            "statement_id": "q318364$6D657D9F-BB06-47EB-93BF-5747C068BFDA",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 2009,
+            "raw_time": "+2009-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q318364"
+        ],
+        "statement_id": "q318364$08BD740E-BBC3-4989-828E-D89106E8ECB8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q868700",
+        "label": "森特勒利亚",
+        "label_en": "Centralia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q318364"
+        ],
+        "statement_id": "q318364$B60CEDA3-90FC-4211-B5CE-E5093A6C54CC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "后现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q318364",
+        "title": "Wikidata Q318364 / 梅爾斯·坎寧安",
+        "url": "https://www.wikidata.org/w/index.php?title=Q318364&oldid=2558165922",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558165922,
+        "modified_at": "2026-10-17T23:52:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

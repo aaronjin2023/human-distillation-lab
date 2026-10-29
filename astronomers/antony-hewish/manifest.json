@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Antony Hewish, hunt for a periodic radio signal: monitor with high time resolution, rule out interference and instrument faults one by one, and confirm the period with independent telescopes before naming it a pulsar",
   "test_question_zh": "新射电记录里的周期信号是脉冲星吗？",
   "verification": "生卒 1924–2021、脉冲星发现 1967 年、1974 年诺贝尔奖按天文史通说写；阵列频率 81.5 MHz 未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189990",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antony Hewish",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2021",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189990"
+            ],
+            "statement_id": "q189990$5AA80A7A-1C8A-42F0-B3BD-CEFE61E0DD5A",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189990"
+            ],
+            "statement_id": "Q189990$99798076-4c7f-a434-d879-4393a16841f3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189990"
+        ],
+        "statement_id": "q189990$F771A0BA-C705-4AC3-AACA-A0D4C0F366A5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1025790",
+        "label": "福伊",
+        "label_en": "Fowey",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189990"
+        ],
+        "statement_id": "q189990$209421ED-CCB9-4A97-9DA8-6AA4BE8247D8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·射电天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189990",
+        "title": "Wikidata Q189990 / 安东尼·休伊什",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189990&oldid=2560251706",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560251706,
+        "modified_at": "2026-10-24T09:37:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

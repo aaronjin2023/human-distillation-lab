@@ -51,5 +51,156 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "县城公务员的晋升与调动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1607343",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yasuma Takada",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1972",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1607343"
+            ],
+            "statement_id": "Q1607343$5846BFFB-BA1A-434C-ACAB-1B066623BCBD",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1607343"
+            ],
+            "statement_id": "Q1607343$BDCF0A7A-8AC3-46A1-8BD0-1FB139D00E60",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q1607343"
+            ],
+            "statement_id": "Q1607343$782BAD55-00AA-48BE-8498-167BB9F7C8E0",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-02-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1607343"
+        ],
+        "statement_id": "Q1607343$15AFEB7A-F770-4B08-9176-6C2345908F3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q160420",
+        "label": "佐贺县",
+        "label_en": "Saga Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1607343"
+        ],
+        "statement_id": "Q1607343$A8CD3B32-4152-44AC-8906-F47EDCA65533",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1607343"
+        ],
+        "statement_id": "Q1607343$E951799A-96D9-4648-85F1-F8FB54621BE2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·古典社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1607343",
+        "title": "Wikidata Q1607343 / 高田保馬",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1607343&oldid=2555708204",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555708204,
+        "modified_at": "2026-10-10T22:39:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

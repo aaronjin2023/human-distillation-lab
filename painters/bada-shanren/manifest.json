@@ -30,5 +30,144 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "阳台上的仙人掌（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1626–1705、朱耷、1684 年起用八大山人名号、白眼、荷花两笔、《荷花水鸟图》约 1696 年已核对。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q198097",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bada Shanren",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1626–1705",
+      "birth_year": {
+        "value": 1626,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q198097"
+            ],
+            "statement_id": "Q198097$96D91AEE-1639-4D8D-BE6B-CB5362C97BC9",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1626,
+            "raw_time": "+1626-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1705,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q198097"
+            ],
+            "statement_id": "Q198097$045D7F75-53C2-4350-9D4A-C071888B9CC0",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1705,
+            "raw_time": "+1705-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q198097"
+        ],
+        "statement_id": "q198097$D1405F6F-E9EE-47BB-B4A4-F3C42A37D6AF",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1375267",
+        "label": "新建区",
+        "label_en": "Xinjian District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q198097"
+        ],
+        "statement_id": "Q198097$992D1CDE-7664-4BFF-ADB3-364376F4895C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q198097"
+        ],
+        "statement_id": "Q198097$164FBDC9-46A3-444F-A79D-EFABE94322F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q198097"
+        ],
+        "statement_id": "Q198097$F55C1FBE-E606-4A9F-9677-5B1DDBA5FB65",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明遗民 / 写意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q198097",
+        "title": "Wikidata Q198097 / 八大山人",
+        "url": "https://www.wikidata.org/w/index.php?title=Q198097&oldid=2558287736",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558287736,
+        "modified_at": "2026-10-18T06:37:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

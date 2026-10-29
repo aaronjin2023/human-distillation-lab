@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a small Yorkshire terrier sitting on a subway seat, watched by commuters who look away",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q368852",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Seo Taiji",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1972–",
+      "birth_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q368852"
+            ],
+            "statement_id": "q368852$3f4946f5-44bc-6dbd-2d22-a5cb9d0d82c2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q368852"
+        ],
+        "statement_id": "Q368852$40E1FC2E-9C87-4776-90B0-1AA2D47DD3E3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q368852"
+        ],
+        "statement_id": "Q368852$3CCA6503-8938-438F-85DD-2D6A0A522D12",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩语流行·摇滚 / 舞曲",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q368852",
+        "title": "Wikidata Q368852 / 徐太志",
+        "url": "https://www.wikidata.org/w/index.php?title=Q368852&oldid=2553933085",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553933085,
+        "modified_at": "2026-10-06T13:02:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

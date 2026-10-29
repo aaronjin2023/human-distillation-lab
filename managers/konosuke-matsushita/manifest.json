@@ -43,5 +43,141 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q252785",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Konosuke Matsushita",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1894–1989",
+      "birth_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q252785"
+            ],
+            "statement_id": "Q252785$3E9E24A9-9A98-4B60-BA2C-0DE13C76AC49",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-11-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q252785"
+            ],
+            "statement_id": "Q252785$F9245B02-945A-443F-A29C-3DAE38B965C4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q252785"
+        ],
+        "statement_id": "q252785$F57E3896-CEC6-4A20-9992-ED4F4DCE7461",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q200747",
+        "label": "和歌山市",
+        "label_en": "Wakayama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q252785"
+        ],
+        "statement_id": "q252785$d5403f27-43ce-6697-af8a-0c401d232744",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q252785"
+        ],
+        "statement_id": "Q252785$2903D950-987C-4050-9A64-421937F2CC68",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电子"
+    },
+    "sources": [
+      {
+        "id": "WD:Q252785",
+        "title": "Wikidata Q252785 / 松下幸之助",
+        "url": "https://www.wikidata.org/w/index.php?title=Q252785&oldid=2561215452",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561215452,
+        "modified_at": "2026-10-26T22:25:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

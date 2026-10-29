@@ -41,5 +41,117 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“窗台上的一杯外卖咖啡”行草",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7023464",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ni Yuanlu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1593–1644",
+      "birth_year": {
+        "value": 1593,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7023464"
+            ],
+            "statement_id": "Q7023464$7771B79D-707C-4EDC-8940-E7E37FA45672",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1593,
+            "raw_time": "+1593-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1644,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7023464"
+            ],
+            "statement_id": "Q7023464$81F93850-E62D-4C3B-92F0-1A89F121ED9F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1644,
+            "raw_time": "+1644-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7023464"
+        ],
+        "statement_id": "Q7023464$660C550D-0AF2-4FB5-B8B1-D5734605B485",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7023464"
+        ],
+        "statement_id": "Q7023464$DBA1E7E1-0ADF-4EDC-842D-6AC35A1A4273",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明·行书 / 草书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7023464",
+        "title": "Wikidata Q7023464 / 倪元璐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7023464&oldid=2528227712",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2528227712,
+        "modified_at": "2026-08-06T18:52:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -65,5 +65,131 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“深夜便利店”行草条幅",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q709460",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Huang Tingjian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1045–1105",
+      "birth_year": {
+        "value": 1045,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q709460"
+            ],
+            "statement_id": "Q709460$65725F62-6F64-4E51-BC3C-31F1D1112A1A",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1045,
+            "raw_time": "+1045-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1105,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q709460"
+            ],
+            "statement_id": "Q709460$CDBB5CFA-E468-4CDF-AFBC-7B1B3A3B4180",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1105,
+            "raw_time": "+1105-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q709460"
+        ],
+        "statement_id": "Q709460$21C4E743-FAD9-4876-B861-53BF797E8750",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1335431",
+        "label": "修水县",
+        "label_en": "Xiushui County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q709460"
+        ],
+        "statement_id": "Q709460$B2E0B6A8-EDE8-4F2E-AA89-D69D265C16C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q709460"
+        ],
+        "statement_id": "Q709460$0639298F-8C49-4307-935A-6B128F860D2B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·行书 / 草书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q709460",
+        "title": "Wikidata Q709460 / 黄庭坚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q709460&oldid=2558957361",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558957361,
+        "modified_at": "2026-10-19T22:44:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

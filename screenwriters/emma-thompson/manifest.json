@@ -39,5 +39,102 @@
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Emma Thompson",
-  "writer_zh": "艾玛·汤普森"
+  "writer_zh": "艾玛·汤普森",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q168724",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emma Thompson",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1959–",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q168724"
+            ],
+            "statement_id": "q168724$698381C8-836C-49F4-95F4-76E234F472F1",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q168724"
+        ],
+        "statement_id": "q168724$E1A01A07-0ECE-4168-A165-B9503C6AE3C4",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q124230",
+        "label": "帕丁顿",
+        "label_en": "Paddington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q168724"
+        ],
+        "statement_id": "Q168724$9BED67B8-3104-4D73-A165-0E489DCB2F38",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·当代",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q168724",
+        "title": "Wikidata Q168724 / 埃玛·汤普森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q168724&oldid=2560437799",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560437799,
+        "modified_at": "2026-10-24T21:27:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

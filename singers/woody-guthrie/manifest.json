@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于外卖骑手在雨中等单的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4061",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Woody Guthrie",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1967",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4061"
+            ],
+            "statement_id": "q4061$704659AB-1B12-4012-AE50-1A6777136186",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-07-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4061"
+            ],
+            "statement_id": "q4061$A1C32593-1EBC-45E9-8BDB-4A892DF522A8",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4061"
+        ],
+        "statement_id": "Q4061$a41c01b2-48c4-c40e-783f-79bbf1de7649",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3032300",
+        "label": "奥基马",
+        "label_en": "Okemah",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4061"
+        ],
+        "statement_id": "Q4061$637C5166-7505-476A-B8A3-A9BCBF3B7197",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "民谣",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4061",
+        "title": "Wikidata Q4061 / 伍迪·格思里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4061&oldid=2561517457",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561517457,
+        "modified_at": "2026-10-27T19:26:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,146 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市花店店员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4766516",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ann Lowe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1981",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4766516"
+            ],
+            "statement_id": "Q4766516$17B7A4C4-A7FE-4FE7-BD78-DF6A9927694C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-12-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4766516"
+            ],
+            "statement_id": "Q4766516$75316192-C693-41C7-8D70-204203BFA288",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4766516"
+        ],
+        "statement_id": "Q4766516$E845BC33-D5AE-41F8-A417-E31AE3036E07",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q66815",
+        "label": "克莱顿",
+        "label_en": "Clayton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q4766516"
+        ],
+        "statement_id": "Q4766516$3fe30f76-46fc-7824-2107-4a8f9b727737",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4766516"
+        ],
+        "statement_id": "Q4766516$E9EE4308-4F2E-4F3B-BA71-3C34F41E2F6D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q4766516"
+          ],
+          "statement_id": "Q4766516$3B7F40C5-37DF-4F53-A9CB-9EF1417BBB1E",
+          "rank": "normal",
+          "reference_count": 4,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4766516",
+        "title": "Wikidata Q4766516 / Ann Lowe",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4766516&oldid=2547791943",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547791943,
+        "modified_at": "2026-09-19T20:17:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

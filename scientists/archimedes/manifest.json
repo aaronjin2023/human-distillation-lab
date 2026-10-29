@@ -29,5 +29,125 @@
     "王冠故事的原始出处无从核对",
     "部分著作（如《论杠杆》）已佚，只能从后人引文推断"
   ],
-  "verification": "2026-10-26 检索核对：圆周率区间与王冠传说出处已确认。"
+  "verification": "2026-10-26 检索核对：圆周率区间与王冠传说出处已确认。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8739",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Archimedes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.287–212 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8739"
+            ],
+            "statement_id": "Q8739$ce895efe-4e48-04ff-aacd-4140893e5ed6",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -287,
+            "raw_time": "-0287-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -212,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8739"
+            ],
+            "statement_id": "Q8739$6c98ab49-48af-be37-81c9-4ca2225c7761",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": -212,
+            "raw_time": "-0212-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8739"
+        ],
+        "statement_id": "Q8739$7da79af6-4853-e6a6-ed55-04cb77ba1b3a",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q4420718",
+        "label": "Syracuse",
+        "label_en": "Syracuse",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8739"
+        ],
+        "statement_id": "q8739$11c89883-4bd8-e57c-8ac0-272581727487",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4420718",
+        "label": "Syracuse",
+        "label_en": "Syracuse",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "数学 / 物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8739",
+        "title": "Wikidata Q8739 / 阿基米德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8739&oldid=2559451136",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559451136,
+        "modified_at": "2026-10-21T08:36:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

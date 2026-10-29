@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311389",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alberto Ginastera",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–1983",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311389"
+            ],
+            "statement_id": "Q311389$A1E171CD-EB0A-4789-AB56-265290BF1867",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-04-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311389"
+            ],
+            "statement_id": "Q311389$f6511cb8-2a04-4165-afdf-a69f4ab80ce1",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-06-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311389"
+        ],
+        "statement_id": "q311389$E719843D-31A0-4178-9863-1B7DF0299760",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1486",
+        "label": "布宜诺斯艾利斯",
+        "label_en": "Buenos Aires",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311389"
+        ],
+        "statement_id": "Q311389$70DBA019-B5DB-4288-91C1-60943FE5E39D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美 / 阿根廷"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311389",
+        "title": "Wikidata Q311389 / 阿尔伯托·希纳斯特拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311389&oldid=2560450616",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560450616,
+        "modified_at": "2026-10-24T22:00:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

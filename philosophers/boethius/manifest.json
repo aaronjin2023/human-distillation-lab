@@ -43,5 +43,126 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位医生考虑对临终病人说一个安慰性的谎言",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102851",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Boethius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.480–524",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102851"
+            ],
+            "statement_id": "Q102851$25604707-074E-4E45-975A-552717634CB8",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 480,
+            "raw_time": "+0480-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 524,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102851"
+            ],
+            "statement_id": "Q102851$3DDD3F2B-9F78-47B9-B411-A93E0D0AC364",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 524,
+            "raw_time": "+0524-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102851"
+        ],
+        "statement_id": "Q102851$FD1D3C17-5A35-4292-9DC3-B3DE28EB2EFC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102851"
+        ],
+        "statement_id": "Q102851$A29E4E6C-89B2-4D21-87F5-D6EE4D3A742B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q583038",
+        "label": "東哥德王國",
+        "label_en": "Ostrogothic Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "晚期古代·经院先声",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102851",
+        "title": "Wikidata Q102851 / 波伊提乌",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102851&oldid=2560349855",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560349855,
+        "modified_at": "2026-10-24T16:57:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

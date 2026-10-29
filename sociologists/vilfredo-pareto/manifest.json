@@ -55,5 +55,130 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "直播带货主播的走红与过气",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11031",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vilfredo Pareto",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1848–1923",
+      "birth_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11031"
+            ],
+            "statement_id": "q11031$9AB1621C-F933-4CDA-8123-1095799ACF3A",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11031"
+            ],
+            "statement_id": "q11031$DC9E999D-A378-4ED3-9204-FB9F490224A6",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11031"
+        ],
+        "statement_id": "q11031$6C190514-2331-43A8-9D20-E7315EA1E28C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11031"
+        ],
+        "statement_id": "Q11031$2CE46564-062F-4E7D-97C1-11E8C63E1DB1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q11031"
+        ],
+        "statement_id": "Q11031$cea88523-4c42-4173-d0d4-05d529f1cc27",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "精英循环·非逻辑行动"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11031",
+        "title": "Wikidata Q11031 / 维弗雷多·帕累托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11031&oldid=2560203005",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560203005,
+        "modified_at": "2026-10-24T04:40:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

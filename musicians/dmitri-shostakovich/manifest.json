@@ -29,5 +29,128 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q80135",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dmitri Shostakovich",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1975",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80135"
+            ],
+            "statement_id": "q80135$66472105-4905-47FE-8B01-E8BC065FEF14",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80135"
+            ],
+            "statement_id": "q80135$A53BF61C-E2A1-4C58-AC46-8A18374AEBCC",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q80135"
+        ],
+        "statement_id": "q80135$CF94437A-DC5C-4AE0-B39D-54B3232D018F",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q80135"
+        ],
+        "statement_id": "Q80135$446c93df-4952-6d8b-5b32-6d168db47759",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q80135"
+        ],
+        "statement_id": "Q80135$af43a599-4f20-e0da-0381-d2282f4a5c2a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q80135",
+        "title": "Wikidata Q80135 / 德米特里·肖斯塔科维奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q80135&oldid=2557856081",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557856081,
+        "modified_at": "2026-10-17T04:15:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

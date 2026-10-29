@@ -51,5 +51,55 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Wang Xizhi, running script calligraphy writing modern Tokyo subway station names on rice paper, elegant fluid strokes, varied character sizes, natural rhythm, light ink, graceful turns, one seal at the lower left",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q378564",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Wang Xizhi",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "303–361",
+      "birth_year": {
+        "value": 303,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 361,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "东晋·行书 / 草书"
+    },
+    "sources": []
+  }
 }

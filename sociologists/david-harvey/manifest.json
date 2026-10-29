@@ -62,5 +62,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市更新拆迁",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q343055",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Harvey",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1935–",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q343055"
+            ],
+            "statement_id": "Q343055$2DAF77F9-F48C-4B55-9E77-13235123131F",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q343055"
+        ],
+        "statement_id": "Q343055$24747E6C-C692-4771-A213-74CF0F24CF95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q610238",
+        "label": "吉灵厄姆",
+        "label_en": "Gillingham",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q343055"
+        ],
+        "statement_id": "q343055$B34D088F-698F-462B-91ED-7D9B368FFFB7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "批判地理学·新自由主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q343055",
+        "title": "Wikidata Q343055 / 大卫·哈维",
+        "url": "https://www.wikidata.org/w/index.php?title=Q343055&oldid=2557184512",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557184512,
+        "modified_at": "2026-10-15T05:33:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

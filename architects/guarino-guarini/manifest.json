@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "瓜里尼风格：现代城市街角的一座社区图书馆，砖与灰泥交错肋架穹顶，星形采光塔，复杂几何，层层肋间进光，无平顶。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q323281",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guarino Guarini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1624–1683",
+      "birth_year": {
+        "value": 1624,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q323281"
+            ],
+            "statement_id": "q323281$E288A171-57F7-4518-AB40-9649149F3D9C",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1624,
+            "raw_time": "+1624-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1683,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q323281"
+            ],
+            "statement_id": "q323281$7CE0FC84-3522-4A4A-BFC6-5DF87E034C33",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1683,
+            "raw_time": "+1683-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q323281"
+        ],
+        "statement_id": "q323281$DE1DA46A-3691-4A36-927B-CD853207F9CB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q279",
+        "label": "摩德纳",
+        "label_en": "Modena",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q323281"
+        ],
+        "statement_id": "Q323281$E07621C5-EEF4-4EBB-9144-4824E0CB2F4E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q323281",
+        "title": "Wikidata Q323281 / 瓜里诺·瓜里尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q323281&oldid=2548357524",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548357524,
+        "modified_at": "2026-09-22T09:20:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2536660",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "W. Chan Kim",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1951–",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2536660"
+            ],
+            "statement_id": "Q2536660$639C02DF-119F-48AC-AB09-9B76A1B5DE91",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2536660"
+        ],
+        "statement_id": "Q2536660$8744F01B-FA87-4820-B880-FD24E005A90B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42144",
+        "label": "晋州市",
+        "label_en": "Jinju",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2536660"
+        ],
+        "statement_id": "Q2536660$8D7737FE-66E5-4618-B017-BEB95E637F2C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "蓝海战略"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2536660",
+        "title": "Wikidata Q2536660 / W. Chan Kim",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2536660&oldid=2537928986",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2537928986,
+        "modified_at": "2026-08-29T22:49:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,186 @@
   ],
   "test_prompt": "现代题材：自助结账机漏扫了一件商品，当事人是否该付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9191",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "René Descartes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1596–1650",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9191"
+            ],
+            "statement_id": "q9191$4B517FD6-3E48-44C3-BF51-A57026E55B7C",
+            "rank": "preferred",
+            "reference_count": 20,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1596,
+            "raw_time": "+1596-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9191"
+            ],
+            "statement_id": "q9191$263E4148-86A2-40BF-90D8-42E6777D0F96",
+            "rank": "preferred",
+            "reference_count": 20,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1650,
+            "raw_time": "+1650-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "q9191$434FF059-9CEE-4C95-86B2-3B1FFC15586E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q320299",
+        "label": "笛卡尔",
+        "label_en": "Descartes",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "Q9191$881DBE4E-22C8-44E9-8728-D8C9B6C74F10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q343",
+        "label": "拉弗莱什",
+        "label_en": "La Flèche",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "Q9191$78BC4BD6-526D-4948-B534-3884108EE059",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6616",
+        "label": "普瓦捷",
+        "label_en": "Poitiers",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "Q9191$1341A62A-8A4E-4A47-90BC-802A7821CD9D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1754",
+        "label": "斯德哥尔摩",
+        "label_en": "Stockholm",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "Q9191$EE7A3066-3885-4E8E-987F-C2329BA9280A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4174",
+        "label": "埃姆登",
+        "label_en": "Emden",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9191"
+        ],
+        "statement_id": "Q9191$3D11FBC1-D532-4F91-8D42-15E1A1CA9DA1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近代·理性主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9191",
+        "title": "Wikidata Q9191 / 勒内·笛卡儿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9191&oldid=2561186710",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561186710,
+        "modified_at": "2026-10-26T20:32:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

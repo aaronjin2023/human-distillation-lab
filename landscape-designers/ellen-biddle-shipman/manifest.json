@@ -44,5 +44,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "希普曼风格：现代城市的一座小型屋顶花园，一连串亲切的室外房间，黄杨花坛，一泓小镜面水池，鸢尾与山茶的印象派式繁茂种植，砖墙围合，设计、绿意与私密。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5364761",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ellen Biddle Shipman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1869–1950",
+      "birth_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5364761"
+            ],
+            "statement_id": "Q5364761$219BD5F3-FC76-4FEC-84D5-BB377E353921",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-11-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5364761"
+            ],
+            "statement_id": "Q5364761$CE9CA1DF-AE57-466D-A29E-41F8D202F1F8",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5364761"
+        ],
+        "statement_id": "Q5364761$999D5A00-9BDE-40E2-8703-D274209D601F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5364761"
+        ],
+        "statement_id": "Q5364761$955CE78A-86A5-4ADB-8BEF-4249FDE332CD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·庄园花园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5364761",
+        "title": "Wikidata Q5364761 / 埃伦·比德尔·托普曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5364761&oldid=2554544507",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554544507,
+        "modified_at": "2026-10-07T12:57:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

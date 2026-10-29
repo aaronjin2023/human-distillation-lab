@@ -30,5 +30,158 @@
   "test_prompt": "In the style of Karl Schwarzschild, take a newly weighed compact object, compute its Schwarzschild radius from its mass alone, and say exactly which observations would show it is a black hole rather than a neutron star",
   "test_question_zh": "用史瓦西的方法处理一个新称重的致密天体：只由质量算出史瓦西半径，并说清哪些观测能证明它是黑洞而非中子星",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57145",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl Schwarzschild",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1873–1916",
+      "birth_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57145"
+            ],
+            "statement_id": "q57145$40850840-F84D-420E-9015-39DBD7F74EBA",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-10-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57145"
+            ],
+            "statement_id": "q57145$27B5D0EC-A69E-4A03-A0DA-C6DFB3A19B56",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57145"
+        ],
+        "statement_id": "q57145$7C315742-8C9B-4693-8ED2-5D75294F80C6",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q57145"
+        ],
+        "statement_id": "Q57145$E2B99F1E-AC3A-4E61-97E6-A966F21A721C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57145"
+        ],
+        "statement_id": "Q57145$F8672547-CF39-4568-A02C-6B76686CF2EA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1711",
+        "label": "波茨坦",
+        "label_en": "Potsdam",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57145"
+        ],
+        "statement_id": "Q57145$7296dc18-4b88-24f2-5ff7-d50e58da22a0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q57145"
+          ],
+          "statement_id": "Q57145$bdf4831b-485b-a5af-760d-c3206d9bb024",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "德国·相对论天体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57145",
+        "title": "Wikidata Q57145 / 卡爾·史瓦西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57145&oldid=2560317497",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560317497,
+        "modified_at": "2026-10-24T14:48:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,116 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "山本征治风格：一份深夜便利店关东煮的重构——分子怀石、清澈出汁球化、静默创新、以科学表达日本传统。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q27924812",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Seiji Yamamoto",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1970–",
+      "birth_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27924812"
+            ],
+            "statement_id": "Q27924812$8ef98441-4c4a-087e-8af6-b1dcae8a94e4",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q27924812"
+        ],
+        "statement_id": "Q27924812$5bbebc45-4d20-ef5c-8e99-ef4207f4396a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161454",
+        "label": "香川县",
+        "label_en": "Kagawa Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q27924812"
+        ],
+        "statement_id": "Q27924812$6c13fee5-4885-f339-15b0-dbd104d67c1a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7034331",
+        "label": "Nihonryori Ryugin",
+        "label_en": "Nihonryori Ryugin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q27924812"
+        ],
+        "statement_id": "Q27924812$b2a902d0-414a-fc62-e095-4f0f50178e76",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分子怀石",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q27924812",
+        "title": "Wikidata Q27924812 / Seiji Yamamoto",
+        "url": "https://www.wikidata.org/w/index.php?title=Q27924812&oldid=2520479339",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520479339,
+        "modified_at": "2026-07-21T03:31:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

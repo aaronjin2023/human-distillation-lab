@@ -42,5 +42,150 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q159169",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nargis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–1981",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159169"
+            ],
+            "statement_id": "q159169$27E48865-C7A0-489F-9134-B239ACB384BF",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159169"
+            ],
+            "statement_id": "q159169$26A7E2E8-9C11-4878-9EA4-5D33AC28AEBB",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q159169"
+        ],
+        "statement_id": "q159169$B0ECC436-DE84-43F0-A77E-D81CB4FF4BA9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1348",
+        "label": "加尔各答",
+        "label_en": "Kolkata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q159169"
+        ],
+        "statement_id": "Q159169$87CD1059-4533-49D1-A116-FE49616E9BC4",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159169"
+        ],
+        "statement_id": "Q159169$d352651a-4197-1720-6e4e-2cea1b8210af",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q159169",
+        "title": "Wikidata Q159169 / 纳吉丝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q159169&oldid=2558179394",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558179394,
+        "modified_at": "2026-10-18T00:39:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

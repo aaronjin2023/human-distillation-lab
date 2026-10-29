@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Michel Mayor, confirm a new exoplanet: monitor the star's radial velocity for years, fold the data into a period, rule out stellar activity, and fit the orbit before naming the planet",
   "test_question_zh": "这颗恒星的速度摆动是行星吗？",
   "verification": "生年 1942 年、飞马座 51b 发现 1995 年、2019 年诺贝尔奖经 web 搜索核对（草稿第 7 节，NobelPrize.org）；在世，只蒸已发表成果物",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123975",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michel Mayor",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123975"
+            ],
+            "statement_id": "Q123975$C5E730F9-8BCF-42D9-8CCF-9EB73EF09CFA",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123975"
+        ],
+        "statement_id": "Q123975$E4F11081-8BBF-4A27-AF3A-252666C46B20",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q807",
+        "label": "洛桑",
+        "label_en": "Lausanne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123975"
+        ],
+        "statement_id": "Q123975$2419BE20-50C1-4596-AD71-CE3D1F5BE6C0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "瑞士·系外行星"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123975",
+        "title": "Wikidata Q123975 / 米歇尔·麦耶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123975&oldid=2558168216",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558168216,
+        "modified_at": "2026-10-17T23:57:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

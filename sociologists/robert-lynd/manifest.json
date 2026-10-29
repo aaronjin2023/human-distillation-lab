@@ -49,5 +49,117 @@
   ],
   "test_prompt": "一条地铁线的社区全貌",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q445646",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert S. Lynd",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1970",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q445646"
+            ],
+            "statement_id": "Q445646$3B3B39FE-253D-41A3-B577-FB91406AF973",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q445646"
+            ],
+            "statement_id": "Q445646$0E394B19-33E8-40F0-A62D-0022BDD3D01C",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-11-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q445646"
+        ],
+        "statement_id": "Q445646$0F16A5DC-5980-4523-9E26-C334B34C4003",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1762878",
+        "label": "新奧爾巴尼 (印地安納州)",
+        "label_en": "New Albany",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q445646"
+        ],
+        "statement_id": "q445646$248F210D-62FB-4BBF-BF95-9C49AA4A6982",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社区调查·米德尔敦研究"
+    },
+    "sources": [
+      {
+        "id": "WD:Q445646",
+        "title": "Wikidata Q445646 / Robert Staughton Lynd",
+        "url": "https://www.wikidata.org/w/index.php?title=Q445646&oldid=2558227314",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558227314,
+        "modified_at": "2026-10-18T03:13:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1529607",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James MacGregor Burns",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2014",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1529607"
+            ],
+            "statement_id": "Q1529607$C76080BB-25C9-4C25-B46F-CC3E0054279A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1529607"
+            ],
+            "statement_id": "Q1529607$d0a4ae0d-4c81-f100-88ca-1dbc8e609aaa",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1529607"
+        ],
+        "statement_id": "q1529607$F79122E9-6FA7-4D9B-8D9C-91BB4DB4148D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q54143",
+        "label": "梅尔罗斯",
+        "label_en": "Melrose",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1529607"
+        ],
+        "statement_id": "q1529607$E118B4D8-593E-4088-9ED7-D1ECBBF227ED",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "领导力"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1529607",
+        "title": "Wikidata Q1529607 / 詹姆斯·麦格雷戈·伯恩斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1529607&oldid=2552350320",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552350320,
+        "modified_at": "2026-10-02T23:35:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

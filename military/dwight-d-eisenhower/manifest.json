@@ -33,5 +33,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "多国联合救灾行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9916",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dwight D. Eisenhower",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1969",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9916"
+            ],
+            "statement_id": "q9916$37DE8CA6-D36F-469D-986B-C6C8EF28CF67",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9916"
+            ],
+            "statement_id": "q9916$DB2AB841-D7BB-441D-BA39-FCE410275353",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-03-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9916"
+        ],
+        "statement_id": "q9916$0039D89F-3C66-4D94-9245-C87B863701C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5349910",
+        "label": "Eisenhower Birthplace State Historic Site",
+        "label_en": "Eisenhower Birthplace State Historic Site",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9916"
+        ],
+        "statement_id": "q9916$189AC6CC-6E0C-4FB7-96D0-80A744DDCCD3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·盟军统帅"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9916",
+        "title": "Wikidata Q9916 / 德怀特·艾森豪威尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9916&oldid=2561684511",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561684511,
+        "modified_at": "2026-10-28T13:18:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

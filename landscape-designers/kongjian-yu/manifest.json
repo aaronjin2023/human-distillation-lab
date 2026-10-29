@@ -44,5 +44,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "俞孔坚风格：现代城市里一处易涝区的雨水公园，海绵城市，生态基础设施，大脚美学，乡土植物，让水主导。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6429201",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kongjian Yu",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6429201"
+            ],
+            "statement_id": "Q6429201$58362F51-2B30-4B34-9B7A-AEA06373B8B0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6429201"
+            ],
+            "statement_id": "Q6429201$5b633504-2652-412c-bf2c-48c800c2f437",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6429201"
+        ],
+        "statement_id": "Q6429201$FE0B0D8F-6F54-4B88-9368-99FF6FDD432B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q58210",
+        "label": "金华市",
+        "label_en": "Jinhua",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6429201"
+        ],
+        "statement_id": "Q6429201$110d65ee-4692-c3e5-7c49-f77d9e8a8ed3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·生态景观 / 海绵城市",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6429201",
+        "title": "Wikidata Q6429201 / 俞孔坚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6429201&oldid=2554271450",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554271450,
+        "modified_at": "2026-10-07T01:35:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

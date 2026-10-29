@@ -48,5 +48,145 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104109",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Pickford",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1979",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104109"
+            ],
+            "statement_id": "q104109$48BC9CC6-1576-48CD-BA65-82BA6AF5CB78",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104109"
+            ],
+            "statement_id": "q104109$480CA08D-77F7-4365-857F-AE9AA1DFFD75",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-05-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104109"
+        ],
+        "statement_id": "q104109$C5FE1501-367F-4D87-972B-04EDBB1004A1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q172",
+        "label": "多伦多",
+        "label_en": "Toronto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q104109"
+        ],
+        "statement_id": "Q104109$24049006-EAAE-41C6-AF59-1A5563FE9089",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q104109"
+        ],
+        "statement_id": "Q104109$D83189B1-4E7E-4D3E-B22A-F13D8B7B962C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104109"
+        ],
+        "statement_id": "q104109$3FAF3749-8C70-469F-8A70-699C78BF50E2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104109",
+        "title": "Wikidata Q104109 / 玛丽·毕克馥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104109&oldid=2560222078",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560222078,
+        "modified_at": "2026-10-24T06:40:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

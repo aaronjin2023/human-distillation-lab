@@ -40,5 +40,118 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Anna Pavlova, a person buying oden at a convenience store late at night, lyrical floating arms, slow arabesque, fragile dying-swan phrasing, soft landings, soulful and weightless",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151874",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anna Pavlova",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1881–1931",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151874"
+            ],
+            "statement_id": "q151874$30EFEBFC-BA27-4234-A906-5BE31BE927D9",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1881
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151874"
+            ],
+            "statement_id": "q151874$581F586E-38BE-4456-9A58-7618DE64AC87",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-01-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151874"
+        ],
+        "statement_id": "q151874$39BDCB80-2144-4D92-B405-1A9ECE904620",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151874"
+        ],
+        "statement_id": "Q151874$FBCD42FE-0544-4057-AF3A-BB53249C67A0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典芭蕾·舞者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151874",
+        "title": "Wikidata Q151874 / 安娜·巴甫洛娃",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151874&oldid=2560997942",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560997942,
+        "modified_at": "2026-10-26T07:38:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

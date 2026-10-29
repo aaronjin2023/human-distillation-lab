@@ -42,5 +42,166 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Emily Brontë",
-  "writer_zh": "艾米莉·勃朗特"
+  "writer_zh": "艾米莉·勃朗特",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q80137",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emily Brontë",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1818–1848",
+      "birth_year": {
+        "value": 1818,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80137"
+            ],
+            "statement_id": "q80137$21D64C91-1EDE-4644-9E1D-9D73763DF59E",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1818,
+            "raw_time": "+1818-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80137"
+            ],
+            "statement_id": "q80137$208DCC2C-8F93-46EC-8790-14BAB45BDE13",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-12-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q80137"
+        ],
+        "statement_id": "Q80137$ba00c6c2-498f-06e2-549b-800e4b009a67",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17534538",
+        "label": "The Brontë Birthplace",
+        "label_en": "The Brontë Birthplace",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q80137"
+        ],
+        "statement_id": "Q80137$788FF827-7CC1-4794-A850-E6A76ECFB8DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q163",
+        "label": "约克郡",
+        "label_en": "Yorkshire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q80137"
+        ],
+        "statement_id": "Q80137$39a6ccfd-439e-8c52-e5eb-20b5d238a05a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1838-09-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1839-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q826561",
+        "label": "哈利法克斯",
+        "label_en": "Halifax",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q80137"
+        ],
+        "statement_id": "Q80137$A85984C3-B609-4364-A2EE-7475A3926A8C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·小说 / 诗",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q80137",
+        "title": "Wikidata Q80137 / 艾米莉·勃朗特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q80137&oldid=2559098110",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559098110,
+        "modified_at": "2026-10-20T05:57:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

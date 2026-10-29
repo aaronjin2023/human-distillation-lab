@@ -41,5 +41,177 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "Aleksandr Solzhenitsyn",
-  "writer_zh": "亚历山大·索尔仁尼琴"
+  "writer_zh": "亚历山大·索尔仁尼琴",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34474",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aleksandr Solzhenitsyn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2008",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34474"
+            ],
+            "statement_id": "q34474$00B7BB48-804F-4CA3-AA51-CF67F90955F1",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34474"
+            ],
+            "statement_id": "q34474$32675DBD-7678-4FDB-BBC5-9EE496875896",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34474"
+        ],
+        "statement_id": "q34474$699E0D01-2BE2-4D76-8EAF-CBCEDE19470B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q153676",
+        "label": "基兹洛沃茨克",
+        "label_en": "Kislovodsk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34474"
+        ],
+        "statement_id": "Q34474$DB6A9865-A9A0-4156-86EC-0691F3ABA196",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2305208",
+        "label": "蘇維埃俄國",
+        "label_en": "Russian Socialist Federative Soviet Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34474"
+        ],
+        "statement_id": "Q34474$E80C4C06-B782-4CD9-AA76-899EF31A2BF9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34474"
+        ],
+        "statement_id": "Q34474$40869da3-4b79-14c1-99a2-5d77af9c819a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q159",
+        "label": "俄罗斯",
+        "label_en": "Russia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34474"
+        ],
+        "statement_id": "Q34474$5a71bbbd-46a0-7847-d239-0d657c6f731a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1974-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1990-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q223050",
+        "label": "无国籍",
+        "label_en": "statelessness",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34474",
+        "title": "Wikidata Q34474 / 亚历山大·索尔仁尼琴",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34474&oldid=2561108678",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561108678,
+        "modified_at": "2026-10-26T16:11:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

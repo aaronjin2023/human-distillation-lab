@@ -31,5 +31,222 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5822",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Piero della Francesca",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1416–1492",
+      "birth_year": {
+        "value": 1415,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5822"
+            ],
+            "statement_id": "Q5822$F243118F-DBA6-44C0-9BFE-0E35844D36A8",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1415,
+            "raw_time": "+1415-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1416
+      },
+      "death_year": {
+        "value": 1492,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5822"
+            ],
+            "statement_id": "q5822$CEC90015-D083-4C5A-BC19-CD63C258128D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1492,
+            "raw_time": "+1492-10-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "q5822$D4D469E9-C351-4DF4-9D69-D825C371FD8F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q52098",
+        "label": "圣塞波尔克罗",
+        "label_en": "Sansepolcro",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$F7230FFD-4879-4B59-ABFC-D0BC616C8245",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13378",
+        "label": "阿雷佐",
+        "label_en": "Arezzo",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$1200E19D-7A3C-471E-A924-F034A3ABEB33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13362",
+        "label": "费拉拉",
+        "label_en": "Ferrara",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$303B16E6-FF01-498C-993F-5B4FDD4B9E2B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$6F99A9B0-0BD3-4AF0-BF1F-1BAF17F5451A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q52088",
+        "label": "蒙特尔基",
+        "label_en": "Monterchi",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$54BE0AD8-EE3B-4609-8B46-6A6F306BD5DC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3437",
+        "label": "佩鲁贾",
+        "label_en": "Perugia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$23C754D9-F43F-4B7C-ABFA-7FB4885CEC3D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13369",
+        "label": "里米尼",
+        "label_en": "Rimini",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$541DFDDC-3B80-4723-B324-C6DFAA418A5F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$649B5FF1-B99E-40CB-BE98-607135E7F850",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q52098",
+        "label": "圣塞波尔克罗",
+        "label_en": "Sansepolcro",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5822"
+        ],
+        "statement_id": "Q5822$55EB2428-AAD0-4C9D-AF9F-21C4FDC6498A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2759",
+        "label": "乌尔比诺",
+        "label_en": "Urbino",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "早期文艺复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5822",
+        "title": "Wikidata Q5822 / 皮耶罗·德拉·弗朗西斯卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5822&oldid=2555901156",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555901156,
+        "modified_at": "2026-10-11T14:44:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

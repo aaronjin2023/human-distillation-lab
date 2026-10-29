@@ -32,5 +32,103 @@
   "test_prompt": "In the style of Ibn al-Shatir, test a modern lunar orbit model: check whether its predicted Earth-Moon distance range matches the observed variation in the Moon's apparent size, remove every epicycle the data do not need, and keep only the model that passes both the position and the distance test",
   "test_question_zh": "检验一个现代月球轨道模型",
   "verification": "生卒 c.1304–1375、月球模型改革、去等距点、与哥白尼模型数学等价经 web 搜索核对（Encyclopedia.com、Muslim Journeys、Peachf）；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q718169",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ibn al-Shatir",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1304–1375",
+      "birth_year": {
+        "value": 1304,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718169"
+            ],
+            "statement_id": "q718169$DC8FBE1A-3489-4EF4-8092-07A9D0C7A95B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1304,
+            "raw_time": "+1304-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1375,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718169"
+            ],
+            "statement_id": "Q718169$2B2C9377-A449-4A3F-90AF-B4081EBC7EEF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1375,
+            "raw_time": "+1375-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q718169"
+        ],
+        "statement_id": "q718169$06613BC5-0716-4ED0-B65B-2E3EB92BCA87",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3766",
+        "label": "大马士革",
+        "label_en": "Damascus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "大马士革·行星模型"
+    },
+    "sources": [
+      {
+        "id": "WD:Q718169",
+        "title": "Wikidata Q718169 / Ibn al-Shatir",
+        "url": "https://www.wikidata.org/w/index.php?title=Q718169&oldid=2554011358",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554011358,
+        "modified_at": "2026-10-06T16:09:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

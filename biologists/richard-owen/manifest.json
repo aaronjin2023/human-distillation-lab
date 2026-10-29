@@ -29,5 +29,117 @@
     "恐龙报告原文版本未逐项核对",
     "比较解剖的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151556",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Richard Owen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1804–1892",
+      "birth_year": {
+        "value": 1804,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151556"
+            ],
+            "statement_id": "Q151556$CECB9E61-930C-4561-9EFE-6DA35CD2A1CE",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1804,
+            "raw_time": "+1804-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151556"
+            ],
+            "statement_id": "Q151556$49110DB9-8B9F-44B0-B59A-0F8AEBA1E410",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-12-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151556"
+        ],
+        "statement_id": "q151556$663772AC-0120-4688-BA22-D2BE64B79017",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q205905",
+        "label": "兰卡斯特",
+        "label_en": "Lancaster",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151556"
+        ],
+        "statement_id": "Q151556$5E07B07F-7801-4FA1-A4DB-E257174E4B2E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学 / 比较解剖学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151556",
+        "title": "Wikidata Q151556 / 理查德·欧文",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151556&oldid=2559044136",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559044136,
+        "modified_at": "2026-10-20T03:10:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,130 @@
   "test_prompt": "In the style of Élie Metchnikoff, judge whether a new immune cell engulfing bacteria is defence: watch live cells, track whether engulfed bacteria are destroyed, compare several species, and do not claim a mechanism the observation cannot show",
   "test_question_zh": "一种新发现的免疫细胞会吞掉细菌，怎么判断吞噬是防御还是细菌在利用细胞？",
   "verification": "生卒 1845–1916、吞噬作用 1882、1908 年诺贝尔生理学或医学奖按生物学史通说写；原文表述未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q172254",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Élie Metchnikoff",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1845–1916",
+      "birth_year": {
+        "value": 1845,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172254"
+            ],
+            "statement_id": "q172254$28E52CB3-642E-4A6E-B227-14A1CABE6AFD",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1845,
+            "raw_time": "+1845-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172254"
+            ],
+            "statement_id": "q172254$1F0FB153-0FD1-4A73-B55F-10C7CD2DF970",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q172254"
+        ],
+        "statement_id": "q172254$949AC94A-7314-40B0-B67B-4FCD545CFFB2",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q92645",
+        "label": "伊万尼夫卡",
+        "label_en": "Ivanivka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q172254"
+        ],
+        "statement_id": "Q172254$4436543B-177E-4719-A66F-991133BD8CC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q172254"
+        ],
+        "statement_id": "Q172254$8e757d91-4f2a-f40b-c8d3-e0feea3ca377",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "免疫学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q172254",
+        "title": "Wikidata Q172254 / 伊利亚·梅奇尼科夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q172254&oldid=2560943873",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560943873,
+        "modified_at": "2026-10-26T04:31:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

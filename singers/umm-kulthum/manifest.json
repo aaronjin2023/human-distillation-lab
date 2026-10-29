@@ -44,5 +44,56 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于黄昏时分老妇人在邮局等一封信的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q1110560",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Umm Kulthum",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.1904–1975",
+      "birth_year": {
+        "value": 1904,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1975,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·埃及古典歌唱",
+      "genre": "singer"
+    },
+    "sources": []
+  }
 }

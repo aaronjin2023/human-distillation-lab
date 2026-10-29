@@ -44,5 +44,130 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "阳台上的植物（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233718",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leontyne Price",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1927–",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233718"
+            ],
+            "statement_id": "Q233718$0D237B2D-AC4E-4674-A264-9DADD250098F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-02-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233718"
+        ],
+        "statement_id": "q233718$2236B65E-D51E-488F-AB7A-57ED1483E90D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q934987",
+        "label": "劳雷尔",
+        "label_en": "Laurel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q233718"
+        ],
+        "statement_id": "Q233718$CE42EAE2-51CC-40C6-897B-C0F58CE568EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233718"
+        ],
+        "statement_id": "Q233718$DD48E8C7-45B1-40A1-810B-EE28F522E50D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q233718"
+          ],
+          "statement_id": "Q233718$6E02AEA6-7A59-4244-A033-7DEF66A09D60",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "歌剧·女高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233718",
+        "title": "Wikidata Q233718 / 李奥汀·普莱丝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233718&oldid=2558117557",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558117557,
+        "modified_at": "2026-10-17T21:28:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

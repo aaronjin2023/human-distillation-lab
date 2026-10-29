@@ -30,5 +30,130 @@
     "调查报告原文版本未逐项核对",
     "恐龙命名清单未逐一核对"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q699428",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yang Zhongjian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1897–1979",
+      "birth_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q699428"
+            ],
+            "statement_id": "Q699428$1F37B9F2-833F-42D7-825A-FD06569D4A74",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q699428"
+            ],
+            "statement_id": "Q699428$79066977-8EBD-4F80-AB20-22970D37A027",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q699428"
+        ],
+        "statement_id": "q699428$FE3B654F-AEE7-4479-8368-1CAF5686B9B0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q11620075",
+        "label": "华州",
+        "label_en": "Hua Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q699428"
+        ],
+        "statement_id": "q699428$54A74189-8DBF-4396-A002-13557C1E6AC5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q699428"
+        ],
+        "statement_id": "Q699428$BE1E09B5-528A-443B-B949-133F189C6BB5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古脊椎动物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q699428",
+        "title": "Wikidata Q699428 / 杨锺健",
+        "url": "https://www.wikidata.org/w/index.php?title=Q699428&oldid=2557092390",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557092390,
+        "modified_at": "2026-10-15T00:55:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

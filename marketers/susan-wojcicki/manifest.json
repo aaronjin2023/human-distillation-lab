@@ -39,5 +39,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一款 AI 耳机写创作者经济方案",
   "verification": "2026-10-26 网络核对关键事实；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55183",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Susan Wojcicki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1968–2024",
+      "birth_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55183"
+            ],
+            "statement_id": "Q55183$C5FE8CCE-CB0D-48B3-B9D6-626CAE83BF11",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55183"
+            ],
+            "statement_id": "Q55183$3ed22e37-4c20-0af9-4961-bbe54f5c0df1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55183"
+        ],
+        "statement_id": "Q55183$DE06A4F3-C189-49F2-B019-7A50F5237C8E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q159260",
+        "label": "圣克拉拉",
+        "label_en": "Santa Clara",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55183"
+        ],
+        "statement_id": "Q55183$6B6C7C77-B736-45E2-8E41-09401DA5BDBC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "平台广告 / 视频营销"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55183",
+        "title": "Wikidata Q55183 / 苏珊·沃西基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55183&oldid=2555887629",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555887629,
+        "modified_at": "2026-10-11T13:40:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

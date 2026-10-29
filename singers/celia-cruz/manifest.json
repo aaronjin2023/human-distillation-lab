@@ -44,5 +44,144 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于夜市摊主边炸大蕉边跳舞的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q474045",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Celia Cruz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2003",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q474045"
+            ],
+            "statement_id": "q474045$1555D1CD-8C37-4C48-8602-A9F90C89B022",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q474045"
+            ],
+            "statement_id": "q474045$F5907F33-96EB-4D9A-AA48-83CE5735D026",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q474045"
+        ],
+        "statement_id": "q474045$6D6903B2-499E-46D7-B41B-B532A8A6A9F5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1563",
+        "label": "哈瓦那",
+        "label_en": "Havana",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q474045"
+        ],
+        "statement_id": "Q474045$CD65A1A1-D7ED-4F32-BA36-A55D99B9D30F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q274126",
+        "label": "哈瓦那省",
+        "label_en": "Vereda Nueva, La Habana",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q474045"
+        ],
+        "statement_id": "Q474045$CF4B9D76-6773-4201-9575-D6A2E00F480F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q474045"
+        ],
+        "statement_id": "Q474045$44DF8908-BDFE-439E-B1AE-239E94743BAD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q241",
+        "label": "古巴",
+        "label_en": "Cuba",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古巴·萨尔萨",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q474045",
+        "title": "Wikidata Q474045 / 塞莉娅·克鲁斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q474045&oldid=2559134544",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559134544,
+        "modified_at": "2026-10-20T07:55:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

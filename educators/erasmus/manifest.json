@@ -43,5 +43,164 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给小学生上一堂关于‘如何有礼貌地提不同意见’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；‘人不生而为人’为《论儿童教育》名言，中文转译已降级为 artifact",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43499",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erasmus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1466–1536",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43499"
+            ],
+            "statement_id": "Q43499$2A6BC9D7-BDEC-4C0A-97CC-1BB7E2C21207",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18195782,
+                  "id": "Q18195782"
+                }
+              ]
+            },
+            "value": 1466,
+            "raw_time": "+1466-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1536,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43499"
+            ],
+            "statement_id": "Q43499$b5edb212-40e4-c396-e8dd-2f40f62f0b8d",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1536,
+            "raw_time": "+1536-07-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43499"
+        ],
+        "statement_id": "q43499$6592AD80-3FF3-429D-BF0D-02A45B632F09",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q34370",
+        "label": "鹿特丹",
+        "label_en": "Rotterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q43499"
+        ],
+        "statement_id": "Q43499$EDD49BFD-6647-431A-9043-8D47B4A747E9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34370",
+        "label": "鹿特丹",
+        "label_en": "Rotterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43499"
+        ],
+        "statement_id": "Q43499$06B3A8EA-A5EF-4C0E-BA37-932050504D43",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1514-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43499"
+        ],
+        "statement_id": "Q43499$655de583-40ef-e336-e6a3-c4d629ea5468",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q330533",
+        "label": "17個省",
+        "label_en": "Seventeen Provinces",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "人文主义教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43499",
+        "title": "Wikidata Q43499 / 德西德里乌斯·伊拉斯谟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43499&oldid=2560690138",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560690138,
+        "modified_at": "2026-10-25T13:08:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

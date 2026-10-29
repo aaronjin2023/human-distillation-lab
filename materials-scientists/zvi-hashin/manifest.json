@@ -29,5 +29,117 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Zvi Hashin, design a flexible conductive material for a wearable device. Split failure into its modes, model each separately, derive effective properties from microstructure, then verify mode by mode.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**生卒未核实**：1929–2017 按草稿沿用；本次搜索未找到直接确认生卒年的权威来源；标为未核实。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q231368",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zvi Hashin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2017",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231368"
+            ],
+            "statement_id": "Q231368$77C1649B-CAB5-495D-9E7A-C3E6DD689806",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-06-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231368"
+            ],
+            "statement_id": "Q231368$2e44dc2d-4465-c337-6e58-3c1d467e1251",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q231368"
+        ],
+        "statement_id": "Q231368$64558017-46a8-2726-e255-67728a365912",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q216173",
+        "label": "但泽自由市",
+        "label_en": "Free City of Danzig",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q231368"
+        ],
+        "statement_id": "q231368$F21BC22A-FB63-4417-8FC1-88728F5208F5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "复合材料细观力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q231368",
+        "title": "Wikidata Q231368 / 茲維·哈辛",
+        "url": "https://www.wikidata.org/w/index.php?title=Q231368&oldid=2544902861",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544902861,
+        "modified_at": "2026-09-13T06:40:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜外卖员（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q174957",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nina Simone",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2003",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174957"
+            ],
+            "statement_id": "q174957$52663EE0-8D97-4FA8-8E55-43A311832F93",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174957"
+            ],
+            "statement_id": "q174957$82FF2A2F-15C0-448E-AB66-E2ECE8AB3348",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q174957"
+        ],
+        "statement_id": "Q174957$a0b86e0f-4658-8ac4-9a5a-6095bd65af7d",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2029202",
+        "label": "特賴恩",
+        "label_en": "Tryon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q174957"
+        ],
+        "statement_id": "Q174957$5457C481-82CB-412E-B08A-F4C0D943A6BE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q174957"
+          ],
+          "statement_id": "Q174957$813A6176-8324-47D1-B458-7C19F4290986",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·灵魂·民谣",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q174957",
+        "title": "Wikidata Q174957 / 妮娜·西蒙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q174957&oldid=2558185894",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558185894,
+        "modified_at": "2026-10-18T00:53:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

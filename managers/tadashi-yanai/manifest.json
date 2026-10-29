@@ -43,5 +43,102 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3276951",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tadashi Yanai",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1949–",
+      "birth_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3276951"
+            ],
+            "statement_id": "Q3276951$B9FD4D82-EBED-4F2E-9F89-BCB7BC21D4DB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-02-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3276951"
+        ],
+        "statement_id": "Q3276951$A024F64B-FB22-4CA5-B45E-37D7E651C95F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11363729",
+        "label": "Q11363729",
+        "label_en": "Q11363729",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3276951"
+        ],
+        "statement_id": "Q3276951$027E9C24-D2F7-4839-8E3B-EC68C4DF3A0A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "服装零售",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3276951",
+        "title": "Wikidata Q3276951 / 柳井正",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3276951&oldid=2535661171",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535661171,
+        "modified_at": "2026-08-24T03:20:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

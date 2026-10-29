@@ -43,5 +43,148 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市屋顶花园（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（Wikisource《书信集》、园林史通说）：生卒与代表作与草稿一致，生年另有 62 年一说，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q168707",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pliny the Younger",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "61–c.113",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q168707"
+            ],
+            "statement_id": "Q168707$38FB39BA-8193-4B5A-8E3B-B35F125D8066",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 61,
+            "raw_time": "+0061-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q168707"
+            ],
+            "statement_id": "Q168707$CD7E4528-DCFA-41E4-A201-6E404F650C17",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 113,
+            "raw_time": "+0113-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q168707"
+        ],
+        "statement_id": "q168707$FD323E12-F134-4FC4-8735-2965BC02FF32",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1308",
+        "label": "科莫",
+        "label_en": "Como",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q168707"
+        ],
+        "statement_id": "Q168707$780063D0-DFF3-4438-A758-EDBAE857E8EB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q168707"
+        ],
+        "statement_id": "Q168707$F7B4FE7F-3EA5-4BEA-B617-C0506AB19656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·别墅园林",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q168707",
+        "title": "Wikidata Q168707 / 小普林尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q168707&oldid=2560347843",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560347843,
+        "modified_at": "2026-10-24T16:52:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

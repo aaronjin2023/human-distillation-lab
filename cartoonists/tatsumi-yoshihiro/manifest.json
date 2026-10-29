@@ -39,5 +39,156 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个疲惫的上班族与一只小约克夏犬在深夜地铁里共享沉默，剧画漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q672903",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yoshihiro Tatsumi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2015",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q672903"
+            ],
+            "statement_id": "Q672903$4ED3405F-2F73-4DA7-9D46-15614359DFB4",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q672903"
+            ],
+            "statement_id": "Q672903$fc38b4b4-422b-4011-36dc-cc28b847d0ac",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q672903"
+        ],
+        "statement_id": "Q672903$E96060A8-3C68-4D04-A064-6324E4435C7D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q35765",
+        "label": "大阪市",
+        "label_en": "Osaka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q672903"
+        ],
+        "statement_id": "Q672903$C1BB2541-9929-42E7-9F66-91966D96BDC7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q672903"
+        ],
+        "statement_id": "Q672903$8AD576CB-6EFA-4810-B551-61B17B1D0256",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q672903"
+          ],
+          "statement_id": "Q672903$ae0a61d0-4ca1-e279-414d-549b3e6a03a0",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q161652",
+          "label": "日本人",
+          "label_en": "Japanese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "日本·剧画开创",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q672903",
+        "title": "Wikidata Q672903 / 辰巳嘉裕",
+        "url": "https://www.wikidata.org/w/index.php?title=Q672903&oldid=2558286859",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286859,
+        "modified_at": "2026-10-18T06:34:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

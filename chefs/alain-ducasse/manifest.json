@@ -43,5 +43,126 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "阿兰·杜卡斯风格：一份深夜便利店关东煮的重构——地中海蔬菜为先、橄榄油香草、精准优雅摆盘、轻盈奢华清汤。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q187901",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alain Ducasse",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q187901"
+            ],
+            "statement_id": "Q187901$85BF89A4-93AE-42F2-BB84-DC7F49F26554",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q187901"
+        ],
+        "statement_id": "q187901$33809079-AAD6-43CF-A25C-4491E0EA19FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q244248",
+        "label": "奥尔泰兹",
+        "label_en": "Orthez",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q187901"
+        ],
+        "statement_id": "Q187901$81325F62-A5C6-4D0C-828F-8B651F56E4E2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q187901"
+        ],
+        "statement_id": "Q187901$E75796EC-A24A-4EE7-B0CE-A4BD39701C8A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2008-06-23T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q235",
+        "label": "摩纳哥",
+        "label_en": "Monaco",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法餐·多店三星",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q187901",
+        "title": "Wikidata Q187901 / 艾伦·杜卡斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q187901&oldid=2548734766",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548734766,
+        "modified_at": "2026-09-23T08:19:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

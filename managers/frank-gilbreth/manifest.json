@@ -48,5 +48,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家快递末端网点要不要重排分拣动作",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q463793",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frank Gilbreth",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1924",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q463793"
+            ],
+            "statement_id": "q463793$C94EE14A-E9E5-48E6-A74D-F771F13706BF",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q463793"
+            ],
+            "statement_id": "q463793$0D58B9CB-15AC-4F1D-9B8B-64FA6E1EFFA6",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-06-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q463793"
+        ],
+        "statement_id": "Q463793$1811E2DE-DFEC-4B25-B793-68C72A1B0C00",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3451609",
+        "label": "费尔菲尔德",
+        "label_en": "Fairfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q463793"
+        ],
+        "statement_id": "q463793$901C2C99-0A17-4A09-A3F5-F05B62C41C7E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "动作研究"
+    },
+    "sources": [
+      {
+        "id": "WD:Q463793",
+        "title": "Wikidata Q463793 / 弗蘭克·邦克·吉爾布雷斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q463793&oldid=2535052378",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535052378,
+        "modified_at": "2026-08-22T21:21:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

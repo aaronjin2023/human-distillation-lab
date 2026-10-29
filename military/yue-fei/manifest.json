@@ -43,5 +43,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q334398",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yue Fei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1103–1142",
+      "birth_year": {
+        "value": 1103,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q334398"
+            ],
+            "statement_id": "Q334398$6F115D16-6312-41E2-809F-BCB2904FD44B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1103,
+            "raw_time": "+1103-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1142,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q334398"
+            ],
+            "statement_id": "Q334398$18B4FDD4-8955-43C3-87D7-BB898AE13604",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1142,
+            "raw_time": "+1142-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q334398"
+        ],
+        "statement_id": "Q334398$DE89BEA9-C7E7-4D9B-93B9-E65AA30831AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q176664",
+        "label": "汤阴县",
+        "label_en": "Tangyin County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q334398"
+        ],
+        "statement_id": "Q334398$9168066c-4726-e0e2-8c95-63e46aa50c61",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "宋·抗金"
+    },
+    "sources": [
+      {
+        "id": "WD:Q334398",
+        "title": "Wikidata Q334398 / 岳飞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q334398&oldid=2553826373",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553826373,
+        "modified_at": "2026-10-06T08:25:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

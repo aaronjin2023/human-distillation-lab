@@ -1,1 +1,175 @@
-{"date":"2026-10-26","dates":"1864-1957","evidence_levels":["verbatim","artifact","impression"],"known_gaps":["《蛙声十里出山泉》年份与老舍命题待北京画院图录核对","落款断代细节（石字画圈、题款年龄虚增）待图录核对","破墨出处（清华大学美术馆 2024《萌生》展讲解）待核对"],"list_position":"v2 #85, 近现代写意","next_step":"用 style.md 的测试提示词跑 1 张图像 + 按 process.md 排 1 条 60-90 秒延时，对照检查破墨透明感与留白是否成立；与梵高 pilot 成对检验","painter":"Qi Baishi","painter_zh":"齐白石","school":"近现代·写意","scope":"只蒸作品（画作本身 + 关于画作的公开文字与题款 + 博物馆说明），不蒸私生活","source_works":["虾","蛙声十里出山泉","蟹与菊"],"sources":["人民日报海外版 2024-02-29《在齐白石画中寻四季》 http://js.people.cn/n2/2024/0229/c360303-40759831.html","维基百科“齐白石” https://zh.wikipedia.org/wiki/%E9%BD%90%E7%99%BD%E7%9F%B3","北京商报 2015-03-13 赝品报道 https://epaper.bbtnews.com.cn/site1/bjsb/images/2015-03/13/T24/20150313T24_pdf.pdf","大都会艺术博物馆《Water Life》(1940)策展描述（转引 lot-art.com）"],"status":"pilot draft v0.2","style_period":"晚期成熟写意（以晚期虾为准；早年版本差异见 conflicts.md）","template":"painters-top100-draft.md 第 3 节","test_prompt":"地铁里的约克夏犬（见 style.md 第 7 节）","verification":"2026-10-26 网络核对：虾三变、六条长须、腹五节、红花墨叶、衰年变法、题材统计、赝品规模已核对；未核对项见 conflicts.md 第 5、6、8 条","version":"0.2"}
+{
+  "date": "2026-10-26",
+  "dates": "1864-1957",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "known_gaps": [
+    "《蛙声十里出山泉》年份与老舍命题待北京画院图录核对",
+    "落款断代细节（石字画圈、题款年龄虚增）待图录核对",
+    "破墨出处（清华大学美术馆 2024《萌生》展讲解）待核对"
+  ],
+  "list_position": "v2 #85, 近现代写意",
+  "next_step": "用 style.md 的测试提示词跑 1 张图像 + 按 process.md 排 1 条 60-90 秒延时，对照检查破墨透明感与留白是否成立；与梵高 pilot 成对检验",
+  "painter": "Qi Baishi",
+  "painter_zh": "齐白石",
+  "school": "近现代·写意",
+  "scope": "只蒸作品（画作本身 + 关于画作的公开文字与题款 + 博物馆说明），不蒸私生活",
+  "source_works": [
+    "虾",
+    "蛙声十里出山泉",
+    "蟹与菊"
+  ],
+  "sources": [
+    "人民日报海外版 2024-02-29《在齐白石画中寻四季》 http://js.people.cn/n2/2024/0229/c360303-40759831.html",
+    "维基百科“齐白石” https://zh.wikipedia.org/wiki/%E9%BD%90%E7%99%BD%E7%9F%B3",
+    "北京商报 2015-03-13 赝品报道 https://epaper.bbtnews.com.cn/site1/bjsb/images/2015-03/13/T24/20150313T24_pdf.pdf",
+    "大都会艺术博物馆《Water Life》(1940)策展描述（转引 lot-art.com）"
+  ],
+  "status": "pilot draft v0.2",
+  "style_period": "晚期成熟写意（以晚期虾为准；早年版本差异见 conflicts.md）",
+  "template": "painters-top100-draft.md 第 3 节",
+  "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
+  "verification": "2026-10-26 网络核对：虾三变、六条长须、腹五节、红花墨叶、衰年变法、题材统计、赝品规模已核对；未核对项见 conflicts.md 第 5、6、8 条",
+  "version": "0.2",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q369608",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Qi Baishi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1864-1957",
+      "birth_year": {
+        "value": 1864,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q369608"
+            ],
+            "statement_id": "q369608$96E3C481-45AF-4645-A9FB-96075A30B5F2",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1864,
+            "raw_time": "+1864-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q369608"
+            ],
+            "statement_id": "q369608$26D5501F-1CED-4A31-92DB-2D721DB7D8C9",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q369608"
+        ],
+        "statement_id": "q369608$D9CEE7F6-79C6-40D8-B942-280DFD996A23",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1375015",
+        "label": "湘潭县",
+        "label_en": "Xiangtan County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q369608"
+        ],
+        "statement_id": "q369608$5A163325-11E0-4C13-BEBB-DDB77949F060",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q369608"
+        ],
+        "statement_id": "Q369608$40D7C78F-49AA-43CD-B63E-83F1F6EA59AD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q369608"
+        ],
+        "statement_id": "Q369608$926a708a-4720-f211-2efb-67da5cd4d631",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·写意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q369608",
+        "title": "Wikidata Q369608 / 齐白石",
+        "url": "https://www.wikidata.org/w/index.php?title=Q369608&oldid=2558219218",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558219218,
+        "modified_at": "2026-10-18T02:47:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
+}

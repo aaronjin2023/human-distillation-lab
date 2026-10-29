@@ -43,5 +43,153 @@
   "verification": "2026-10-26 web 搜索核对：库图佐夫引文俄文原文与英译（Wikiquote “Patience”条；俄文原文见 kartaslov.ru、diphis.ru 摘录）；《安娜·卡列尼娜》开篇句为原文逐字引文；其余生卒与代表作按文学史通说，未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Leo Tolstoy",
-  "writer_zh": "列夫·托尔斯泰"
+  "writer_zh": "列夫·托尔斯泰",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7243",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leo Tolstoy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1828–1910",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7243"
+            ],
+            "statement_id": "Q7243$5377d420-4e08-9095-6ec4-cd406d98e2f9",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                }
+              ]
+            },
+            "value": 1828,
+            "raw_time": "+1828-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7243"
+            ],
+            "statement_id": "Q7243$0991b891-4ece-353f-452f-db82cbf49382",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                }
+              ]
+            },
+            "value": 1910,
+            "raw_time": "+1910-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7243"
+        ],
+        "statement_id": "q7243$B1ED4882-54A6-4208-B191-EA985A68429B",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q749556",
+        "label": "亚斯纳亚波利亚纳",
+        "label_en": "Yasnaya Polyana",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7243"
+        ],
+        "statement_id": "Q7243$1008994D-D909-4D83-8DBD-2ABF3C378751",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7243"
+        ],
+        "statement_id": "Q7243$AD857055-8A6A-4EE3-B43B-97948595C35B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·小说",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7243",
+        "title": "Wikidata Q7243 / 列夫·托尔斯泰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7243&oldid=2560516771",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560516771,
+        "modified_at": "2026-10-25T02:34:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

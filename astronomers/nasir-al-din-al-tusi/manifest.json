@@ -31,5 +31,183 @@
   "test_prompt": "In the style of al-Tusi, fix a modern exoplanet model that needs an unphysical fudge factor: identify the exact internal contradiction, invent the simplest geometric device that removes it, and test the new model against the full transit dataset before keeping it",
   "test_question_zh": "修正一个需要非物理凑数因子的系外行星模型",
   "verification": "生卒 1201–1274、图西对偶、《伊尔汗历数表》、马拉盖天文台按天文史通说（Wikipedia / Britannica 共识）写；transmission 路径未定论",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q302835",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nasir al-Din al-Tusi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1201–1274",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302835"
+            ],
+            "statement_id": "Q302835$4664E992-F674-4A28-AB05-9AC60AC5F3B2",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 1201,
+            "raw_time": "+1201-02-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302835"
+            ],
+            "statement_id": "Q302835$7B6938F7-FD72-45AE-98F9-CB654DFEF8B7",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 1274,
+            "raw_time": "+1274-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q302835"
+        ],
+        "statement_id": "Q302835$A4A2785F-68BD-452B-B093-EEABFECCD5D2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q681427",
+        "label": "圖斯",
+        "label_en": "Tus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q302835"
+        ],
+        "statement_id": "Q302835$368C13B8-C12E-48E2-85C3-34B9C1E72979",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q63134381",
+        "label": "花剌子模帝国",
+        "label_en": "Khwarazmian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q302835"
+        ],
+        "statement_id": "Q302835$A72595BB-6970-4030-9D9D-BF5F3350EA94",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12536",
+        "label": "阿拔斯王朝",
+        "label_en": "Abbasid Caliphate",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q302835"
+        ],
+        "statement_id": "Q302835$2AB4AAFB-B50B-4CC1-A810-6DCAFC7B9D2D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6563843",
+        "label": "尼扎里·伊斯瑪儀王朝",
+        "label_en": "Nizari Ismaili state",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q302835"
+        ],
+        "statement_id": "Q302835$72A51CA9-9552-4C94-AA19-658FFE04657E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1256-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q178084",
+        "label": "伊利汗国",
+        "label_en": "Ilkhanate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "波斯·天文模型"
+    },
+    "sources": [
+      {
+        "id": "WD:Q302835",
+        "title": "Wikidata Q302835 / 纳西尔丁·图西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q302835&oldid=2559092887",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559092887,
+        "modified_at": "2026-10-20T05:38:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

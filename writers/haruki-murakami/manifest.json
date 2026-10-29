@@ -43,5 +43,102 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Haruki Murakami",
-  "writer_zh": "村上春树"
+  "writer_zh": "村上春树",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q134798",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Haruki Murakami",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1949–",
+      "birth_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134798"
+            ],
+            "statement_id": "q134798$D9FF21F8-6D1C-4D60-98FA-9F4C38877E3C",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q134798"
+        ],
+        "statement_id": "Q134798$B7CC85FD-9C04-4EC9-A95B-8A8EC943AA39",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1197771",
+        "label": "伏见区",
+        "label_en": "Fushimi-ku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q134798"
+        ],
+        "statement_id": "q134798$30435D93-7DAF-4C90-9A5B-98006FB4CB9B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·当代小说",
+      "genre": "小说家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q134798",
+        "title": "Wikidata Q134798 / 村上春树",
+        "url": "https://www.wikidata.org/w/index.php?title=Q134798&oldid=2559874947",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559874947,
+        "modified_at": "2026-10-23T05:48:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

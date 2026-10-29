@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Brian Josephson, explain a superconducting qubit in a quantum computer: start from the phase coherence of Cooper pairs, derive the Josephson current-phase relation, and end with the frequency that sets the qubit",
   "test_question_zh": "解释一台量子计算机里的超导量子比特",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q181363",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Brian Josephson",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q181363"
+            ],
+            "statement_id": "q181363$BDD9BB95-C556-41CC-AD59-FD0413D742DF",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q181363"
+        ],
+        "statement_id": "Q181363$A72AE59C-85B5-4D16-969C-5418E7079A21",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10690",
+        "label": "加地夫",
+        "label_en": "Cardiff",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q181363"
+        ],
+        "statement_id": "Q181363$946F6AB8-F7F2-4ADB-8F82-D300FAD5E646",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "超导 / 量子隧穿"
+    },
+    "sources": [
+      {
+        "id": "WD:Q181363",
+        "title": "Wikidata Q181363 / 布赖恩·约瑟夫森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q181363&oldid=2557822703",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557822703,
+        "modified_at": "2026-10-17T01:51:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

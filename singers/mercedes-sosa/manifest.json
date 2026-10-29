@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于黎明时分祖母教孙女揉面的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q216450",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mercedes Sosa",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2009",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q216450"
+            ],
+            "statement_id": "q216450$77D63146-08EC-4CEF-A4BC-C0C4F6C188BF",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2009,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q216450"
+            ],
+            "statement_id": "q216450$B0E524D4-CE4E-4C90-953D-9405D64B2CF1",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2009,
+            "raw_time": "+2009-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q216450"
+        ],
+        "statement_id": "q216450$ED75DEBD-92FB-4039-9E0B-03CBDDD13332",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q44255",
+        "label": "圣米格尔-德-图库曼",
+        "label_en": "San Miguel de Tucumán",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q216450"
+        ],
+        "statement_id": "q216450$1519ADBA-E203-4F6A-9C04-B51DA56B6EBE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿根廷·新民歌",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q216450",
+        "title": "Wikidata Q216450 / 梅赛德斯·索萨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q216450&oldid=2561398871",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561398871,
+        "modified_at": "2026-10-27T11:16:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

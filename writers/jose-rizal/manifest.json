@@ -41,5 +41,144 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "José Rizal",
-  "writer_zh": "何塞·黎刹"
+  "writer_zh": "何塞·黎刹",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1500",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "José Rizal",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1861–1896",
+      "birth_year": {
+        "value": 1861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1500"
+            ],
+            "statement_id": "q1500$abf03bbb-4200-d6c2-0b60-c0302fd5a400",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-06-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1500"
+            ],
+            "statement_id": "q1500$b15971f0-4425-3017-e7ea-ef63f7bac0b0",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1500"
+        ],
+        "statement_id": "q1500$92D97D23-6438-4B3F-85EE-06BE841E9252",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q75978",
+        "label": "卡兰巴",
+        "label_en": "Q75978",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1500"
+        ],
+        "statement_id": "q1500$2343F741-1D4A-4B42-BB91-D2F0691CF4C6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2721139",
+        "label": "菲律宾都督府",
+        "label_en": "Captaincy General of the Philippines",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1500"
+        ],
+        "statement_id": "Q1500$aeebee1b-410f-f6b2-0cc7-ea08ff6f864f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q928",
+        "label": "菲律宾",
+        "label_en": "Philippines",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q1500"
+          ],
+          "statement_id": "Q1500$5005e430-4aeb-a59d-3ead-0a0141f83294",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q1262011",
+          "label": "他加祿人",
+          "label_en": "Tagalog people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "菲律宾·小说 / 诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1500",
+        "title": "Wikidata Q1500 / 黎剎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1500&oldid=2559043474",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559043474,
+        "modified_at": "2026-10-20T03:08:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

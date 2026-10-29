@@ -31,5 +31,186 @@
   "test_prompt": "In the style of Matteo Ricci, draw one map where two traditions meet: the riders' delivery zones beside the official street grid, with the night market at the centre. Let place names from both sides sit on the same projection so the map can be read either way.",
   "test_question_zh": "一张外卖骑手活动范围的城市地图",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《坤舆万国全图》1602 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233340",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Matteo Ricci",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1552–1610",
+      "birth_year": {
+        "value": 1552,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233340"
+            ],
+            "statement_id": "q233340$07AEE5D5-0C4F-439D-B8C1-476B50EA081B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1552,
+            "raw_time": "+1552-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1610,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233340"
+            ],
+            "statement_id": "q233340$8BB3B994-B0AB-43AF-A8F4-236CA64C5D5D",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1610,
+            "raw_time": "+1610-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233340"
+        ],
+        "statement_id": "q233340$1561EB2E-2DF1-4973-9057-CC802A0CB24A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13135",
+        "label": "马切拉塔",
+        "label_en": "Macerata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q233340"
+        ],
+        "statement_id": "Q233340$35f98b81-4b6e-ed31-0ba3-58d300088292",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1577-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1578-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q45412",
+        "label": "科英布拉",
+        "label_en": "Coimbra",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q233340"
+        ],
+        "statement_id": "Q233340$dfc17cb9-4b66-fff1-378b-e6d76e7a17b0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1578-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1582-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q2983675",
+        "label": "果亞聖保祿學院",
+        "label_en": "Saint Paul's College, Goa",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233340"
+        ],
+        "statement_id": "Q233340$02dbccfb-4eb7-7e38-e59d-83758a37e801",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170174",
+        "label": "教皇国",
+        "label_en": "Papal States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "意大利—中国·世界地图"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233340",
+        "title": "Wikidata Q233340 / 利玛窦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233340&oldid=2547868310",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547868310,
+        "modified_at": "2026-09-20T04:34:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

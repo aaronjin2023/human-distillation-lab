@@ -34,5 +34,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83331",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis de Broglie",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1987",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83331"
+            ],
+            "statement_id": "q83331$CEF563F0-943D-4C71-ADDA-B32DA1406449",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83331"
+            ],
+            "statement_id": "q83331$0D81A15C-1848-48B3-88EB-82AB12C3FFE0",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-03-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83331"
+        ],
+        "statement_id": "q83331$78C1AAAB-97DC-4133-8F4D-BE88467F9E09",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q183557",
+        "label": "迪耶普",
+        "label_en": "Dieppe",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83331"
+        ],
+        "statement_id": "q83331$6B8DCDDA-7BDB-4C06-975A-203243CB8A09",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "量子力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83331",
+        "title": "Wikidata Q83331 / 路易·德布罗意",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83331&oldid=2559139763",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559139763,
+        "modified_at": "2026-10-20T08:11:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

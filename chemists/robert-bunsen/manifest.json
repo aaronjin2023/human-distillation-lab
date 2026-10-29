@@ -1,35 +1,211 @@
 {
- "chemist": "Robert Bunsen",
- "chemist_zh": "罗伯特·本生",
- "dates": "1811–1899",
- "field": "光谱分析 / 无机化学",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #19",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "光谱分析法",
-  "铯与铷的发现",
-  "本生灯"
- ],
- "sources": [
-  "Wikipedia 'Robert Bunsen' https://en.wikipedia.org/wiki/Robert_Bunsen",
-  "Britannica 'Robert Bunsen' https://www.britannica.com/biography/Robert-Bunsen"
- ],
- "test_prompt": "In the style of Robert Bunsen, design a plan to test whether a mineral water hides a new element: burn its salts in a clean flame, record every line, and state what would prove the lines belong to a known element.",
- "test_question_zh": "如何检验一种矿泉水是否藏着新元素？",
- "verification": "2026-10-26：生卒、光谱分析、铯铷发现、本生灯按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "光谱实验的原始谱线数据未逐项核对原文",
-  "铯、铷发现的具体年份（1860、1861 年）为通说，未核对原始论文",
-  "本生灯改进的具体分工未逐一核对"
- ]
+  "chemist": "Robert Bunsen",
+  "chemist_zh": "罗伯特·本生",
+  "dates": "1811–1899",
+  "field": "光谱分析 / 无机化学",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #19",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "光谱分析法",
+    "铯与铷的发现",
+    "本生灯"
+  ],
+  "sources": [
+    "Wikipedia 'Robert Bunsen' https://en.wikipedia.org/wiki/Robert_Bunsen",
+    "Britannica 'Robert Bunsen' https://www.britannica.com/biography/Robert-Bunsen"
+  ],
+  "test_prompt": "In the style of Robert Bunsen, design a plan to test whether a mineral water hides a new element: burn its salts in a clean flame, record every line, and state what would prove the lines belong to a known element.",
+  "test_question_zh": "如何检验一种矿泉水是否藏着新元素？",
+  "verification": "2026-10-26：生卒、光谱分析、铯铷发现、本生灯按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "光谱实验的原始谱线数据未逐项核对原文",
+    "铯、铷发现的具体年份（1860、1861 年）为通说，未核对原始论文",
+    "本生灯改进的具体分工未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q71031",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Bunsen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1811–1899",
+      "birth_year": {
+        "value": 1811,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71031"
+            ],
+            "statement_id": "Q71031$3790DE09-4AFC-495F-AC23-F80D3D8A60AE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1811,
+            "raw_time": "+1811-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71031"
+            ],
+            "statement_id": "q71031$2642ED44-F204-4D38-88AB-81D7B631A7D1",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "q71031$CBBA4309-CD85-4418-8BF8-9DE83B62908F",
+        "rank": "normal",
+        "reference_count": 11,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "Q71031$600FD628-3431-4C7D-BB8C-0E9F9ED3DD98",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "Q71031$98EECDDC-7486-4939-B0AF-B300792201CA",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1839-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q3869",
+        "label": "马尔堡",
+        "label_en": "Marburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "Q71031$9097A417-7220-428D-9982-0DADCF77BD73",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1799",
+        "label": "弗罗茨瓦夫",
+        "label_en": "Wrocław",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "Q71031$DCAA510C-9E62-4F97-816C-B5BD0D11C9C5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q71031"
+        ],
+        "statement_id": "q71031$487DC464-C4B8-4000-9078-6DBF34D45E95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "光谱分析 / 无机化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q71031",
+        "title": "Wikidata Q71031 / 罗伯特·威廉·本生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q71031&oldid=2561279880",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561279880,
+        "modified_at": "2026-10-27T02:17:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

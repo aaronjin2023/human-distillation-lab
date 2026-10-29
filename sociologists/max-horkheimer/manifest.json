@@ -47,5 +47,130 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "短视频平台的文化工业",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76826",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Max Horkheimer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1973",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76826"
+            ],
+            "statement_id": "q76826$BF2569BB-F6F2-4B6C-86C1-D3733B92401B",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76826"
+            ],
+            "statement_id": "q76826$CBF167CD-D39F-47AE-9052-B02AD9A14D4D",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76826"
+        ],
+        "statement_id": "Q76826$D0EFC0CE-8CDF-4765-8DC8-0A29C9861A81",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q228211",
+        "label": "楚芬豪森",
+        "label_en": "Zuffenhausen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76826"
+        ],
+        "statement_id": "q76826$355AC24B-7044-4B5A-9CDF-6566E8EB54DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76826"
+        ],
+        "statement_id": "q76826$F886D4EF-211F-4075-BA61-14E32EF5C84C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法兰克福学派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76826",
+        "title": "Wikidata Q76826 / 麥克斯·霍克海默",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76826&oldid=2558371981",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558371981,
+        "modified_at": "2026-10-18T12:02:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

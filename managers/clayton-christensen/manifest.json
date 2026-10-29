@@ -44,5 +44,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5130292",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clayton Christensen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1952–2020",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5130292"
+            ],
+            "statement_id": "q5130292$76E73C1C-FE59-4AA7-A56B-8423C8326661",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-04-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5130292"
+            ],
+            "statement_id": "Q5130292$4611f633-4b09-dd79-eab9-949aabea5e9a",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-01-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5130292"
+        ],
+        "statement_id": "q5130292$D698051A-FA2C-47B8-84A6-2DF7BCD02E46",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23337",
+        "label": "盐湖城",
+        "label_en": "Salt Lake City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5130292"
+        ],
+        "statement_id": "Q5130292$F56C350F-2664-412D-9125-0F2C01C1BA8F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "创新战略"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5130292",
+        "title": "Wikidata Q5130292 / 克雷頓‧克里斯汀生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5130292&oldid=2552973352",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552973352,
+        "modified_at": "2026-10-04T08:47:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

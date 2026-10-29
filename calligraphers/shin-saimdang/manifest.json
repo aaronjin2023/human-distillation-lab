@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Shin Saimdang, cursive Chinese characters, clear flowing turns, slender elegant forms, light moist ink, graceful continuous rhythm",
   "transmission": "真迹存世，个别卷归属存疑",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q464485",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shin Saimdang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1504–1551",
+      "birth_year": {
+        "value": 1504,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q464485"
+            ],
+            "statement_id": "Q464485$F38AEA4F-D4DE-4CAD-A8A8-812C0BD20007",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1504,
+            "raw_time": "+1504-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1551,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q464485"
+            ],
+            "statement_id": "Q464485$67AABED8-531D-496E-8F04-14D3B7667F39",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1551,
+            "raw_time": "+1551-05-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q464485"
+        ],
+        "statement_id": "q464485$9B2B14B2-C0A7-416B-86E2-214057D57527",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42056",
+        "label": "江陵市",
+        "label_en": "Gangneung",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q464485"
+        ],
+        "statement_id": "Q464485$CA3BB8C2-4F5C-4091-B29D-BFF7D191CF17",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q28179",
+        "label": "朝鲜王朝",
+        "label_en": "Joseon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "朝鲜·草书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q464485",
+        "title": "Wikidata Q464485 / 申师任堂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q464485&oldid=2554171347",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554171347,
+        "modified_at": "2026-10-06T21:41:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,170 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：各大陆的造山事件时间有的重合、有的错开，这是全球节律还是巧合？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q75909",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hans Stille",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1876–1966",
+      "birth_year": {
+        "value": 1876,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75909"
+            ],
+            "statement_id": "q75909$2A7D710C-ABBC-4288-B244-5B32C956EDCE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1876,
+            "raw_time": "+1876-10-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75909"
+            ],
+            "statement_id": "q75909$8B6648B5-7BCB-41F4-9A7E-557E7E93F392",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "q75909$952A1A57-2084-4B12-8231-B95BF16CA9F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "Q75909$B4B4D8DF-CD42-4186-8A4F-24CD17666687",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "Q75909$E7D15C68-DD3E-4579-8307-DDBDC7C41E67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "Q75909$8FD33A51-E93F-4769-AE2A-B6BB9F35911A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "q75909$2B3FA6D3-9130-47F5-8D9C-94222A64B40D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q75909"
+        ],
+        "statement_id": "Q75909$87b9666b-4e52-f796-e378-c3e20cf33a67",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q713750",
+        "label": "西德",
+        "label_en": "West Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "大地构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q75909",
+        "title": "Wikidata Q75909 / 汉斯·施蒂勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q75909&oldid=2561405459",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561405459,
+        "modified_at": "2026-10-27T11:40:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

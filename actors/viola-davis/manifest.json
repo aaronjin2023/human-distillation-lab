@@ -38,5 +38,115 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只约克夏犬坐在地铁座位上，被乘客们注视着",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q229181",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Viola Davis",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1965–",
+      "birth_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229181"
+            ],
+            "statement_id": "Q229181$CF40DE61-33A3-47AD-A087-EF09C8BAFACA",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-08-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q229181"
+        ],
+        "statement_id": "Q229181$9CF7F7EC-4044-4978-8DC6-13C70388B94D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1193941",
+        "label": "圣马修斯",
+        "label_en": "St. Matthews",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q229181"
+        ],
+        "statement_id": "q229181$1C5F9FB0-B16E-4BB9-A2B6-35DF1BAAC8BB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q229181"
+          ],
+          "statement_id": "Q229181$9a41ab83-48a1-12aa-8318-975a2081f561",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q229181",
+        "title": "Wikidata Q229181 / 维奥拉·戴维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q229181&oldid=2561406020",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561406020,
+        "modified_at": "2026-10-27T11:43:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

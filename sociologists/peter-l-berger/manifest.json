@@ -47,5 +47,130 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "短视频平台的现实建构",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q84486",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter L. Berger",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2017",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84486"
+            ],
+            "statement_id": "q84486$5ED4CD0A-4841-405A-94BE-5323A75E38BD",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84486"
+            ],
+            "statement_id": "Q84486$9f4b4d6c-48f6-63d6-d45f-011328d7c219",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q84486"
+        ],
+        "statement_id": "q84486$C2869243-7A32-4AF7-B39D-7C7AF7430386",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q84486"
+        ],
+        "statement_id": "q84486$AAEB6818-FA17-42DE-A326-B2596A9D0241",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84486"
+        ],
+        "statement_id": "q84486$A1A4CEAA-1229-492C-92BD-D9A577D97322",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会建构论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q84486",
+        "title": "Wikidata Q84486 / 彼得·柏格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q84486&oldid=2561521585",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561521585,
+        "modified_at": "2026-10-27T19:44:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

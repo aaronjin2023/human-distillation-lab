@@ -38,5 +38,157 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "穿越灾区的快速救援车队",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q14060",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erwin Rommel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1944",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14060"
+            ],
+            "statement_id": "q14060$3ABA92BD-D078-47A6-80BD-33F624BA6EBB",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14060"
+            ],
+            "statement_id": "q14060$F24518CA-D6CC-468C-A296-FD0820CCF2B4",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q14060"
+        ],
+        "statement_id": "q14060$54EF25FF-05B1-4900-BFB6-3D762EB523C0",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q6869",
+        "label": "布伦茨河畔海登海姆",
+        "label_en": "Heidenheim an der Brenz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q14060"
+        ],
+        "statement_id": "Q14060$85E93321-90EE-44CA-B121-E1C57493BE66",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3896",
+        "label": "戈斯拉尔",
+        "label_en": "Goslar",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q14060"
+        ],
+        "statement_id": "q14060$F25859DD-9D9A-4A3B-B0DE-7CE9CDA371C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q14060"
+        ],
+        "statement_id": "Q14060$3fbc3bf5-4758-75fb-6b50-980ac6549b3b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q14060"
+        ],
+        "statement_id": "Q14060$3434b0ba-48ca-71eb-d5ba-900f6645749d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7318",
+        "label": "纳粹德国",
+        "label_en": "Nazi Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·机动战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q14060",
+        "title": "Wikidata Q14060 / 埃尔温·隆美尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q14060&oldid=2561251972",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561251972,
+        "modified_at": "2026-10-27T00:28:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

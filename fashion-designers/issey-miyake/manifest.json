@@ -55,5 +55,142 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市街角便利店店员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q469027",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Issey Miyake",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1938–2022",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q469027"
+            ],
+            "statement_id": "q469027$E84CBF3E-1A87-4CE8-8692-C829484390C7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q469027"
+            ],
+            "statement_id": "Q469027$4bab1f5d-4b86-95c6-63a3-3a68faead66f",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q469027"
+        ],
+        "statement_id": "q469027$25F6E612-00D6-467E-A7B5-77DED0E8BAAC",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q34664",
+        "label": "广岛市",
+        "label_en": "Hiroshima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q469027"
+        ],
+        "statement_id": "Q469027$489AF3BF-91FB-4642-84A6-498712279B5F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q469027"
+        ],
+        "statement_id": "Q469027$0D29E4DA-5A5A-426D-933E-BF73D47BA0C2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·先锋 / 褶皱",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q469027",
+        "title": "Wikidata Q469027 / 三宅一生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q469027&oldid=2557935943",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557935943,
+        "modified_at": "2026-10-17T09:17:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

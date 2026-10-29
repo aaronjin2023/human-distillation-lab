@@ -38,5 +38,153 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市博物馆讲解员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q981342",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Salvatore Ferragamo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1960",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q981342"
+            ],
+            "statement_id": "q981342$DB64EF93-5880-46F8-8BE0-0744547AFE19",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q981342"
+            ],
+            "statement_id": "q981342$DE9F7943-29C4-4221-AD76-CA5743E000E0",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q981342"
+        ],
+        "statement_id": "q981342$6B5D242C-C6B7-4AEE-AE36-89ACA4CEABFE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q55008",
+        "label": "博尼托",
+        "label_en": "Bonito",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q981342"
+        ],
+        "statement_id": "q981342$DCCEA5A8-7B64-43ED-B656-EAF120239BC2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q981342"
+        ],
+        "statement_id": "Q981342$21B57159-395F-446B-A3FE-BA51DEF1FFA0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·鞋履—时装",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q981342",
+        "title": "Wikidata Q981342 / 萨瓦托·菲拉格慕",
+        "url": "https://www.wikidata.org/w/index.php?title=Q981342&oldid=2558232796",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558232796,
+        "modified_at": "2026-10-18T03:37:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

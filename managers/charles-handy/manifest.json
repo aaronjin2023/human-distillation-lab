@@ -48,5 +48,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家公司要不要把部分岗位转成外包与弹性用工",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1064743",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Handy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2024",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1064743"
+            ],
+            "statement_id": "Q1064743$0A00C838-9C0E-426E-97EF-561BD62669ED",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1064743"
+            ],
+            "statement_id": "Q1064743$31269896-01be-4ce9-893c-c2370de2d5ca",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-12-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1064743"
+        ],
+        "statement_id": "Q1064743$77C16A7C-6334-4F50-8689-2848891D9D33",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q632020",
+        "label": "Clane",
+        "label_en": "Clane",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1064743"
+        ],
+        "statement_id": "Q1064743$1E55A9EA-546D-4A33-8F4B-53A43C07E82D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27",
+        "label": "爱尔兰",
+        "label_en": "Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织理论 / 组织文化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1064743",
+        "title": "Wikidata Q1064743 / 查尔斯·汉迪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1064743&oldid=2544839050",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544839050,
+        "modified_at": "2026-09-13T03:18:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

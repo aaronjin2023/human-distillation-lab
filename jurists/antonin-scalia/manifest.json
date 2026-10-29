@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "斯卡利亚风格：一份文本主义解释，论社交媒体平台删帖规则：文本说了什么、没说什么？宪法是法律文件而非活的有机体，平台规则同样是文本而非情绪。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11156",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonin Scalia",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2016",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11156"
+            ],
+            "statement_id": "q11156$1B695D09-A666-4D87-824B-B82669CC4B4F",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11156"
+            ],
+            "statement_id": "Q11156$9667f046-4f87-fc79-be44-02ecd072b8f7",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-02-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11156"
+        ],
+        "statement_id": "Q11156$EAF78DE7-6DBA-412D-A13E-79595A62F966",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q25330",
+        "label": "特伦顿",
+        "label_en": "Trenton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11156"
+        ],
+        "statement_id": "q11156$AAFFF7DC-D7F7-4ECF-BF5A-51162BCAB1F7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·原旨主义 / 最高法院",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11156",
+        "title": "Wikidata Q11156 / 安東寧·斯卡利亞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11156&oldid=2550811143",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550811143,
+        "modified_at": "2026-09-29T09:15:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

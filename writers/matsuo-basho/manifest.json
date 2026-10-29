@@ -43,5 +43,132 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Matsuo Basho",
-  "writer_zh": "松尾芭蕉"
+  "writer_zh": "松尾芭蕉",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5676",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Matsuo Basho",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1644–1694",
+      "birth_year": {
+        "value": 1644,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5676"
+            ],
+            "statement_id": "Q5676$8F2D5673-B1C3-4D55-95A7-88B7A4705BC6",
+            "rank": "normal",
+            "reference_count": 26,
+            "qualifiers": {},
+            "value": 1644,
+            "raw_time": "+1644-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1694,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5676"
+            ],
+            "statement_id": "q5676$844C4FE7-FE13-47C4-B017-805228F7876E",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1694,
+            "raw_time": "+1694-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5676"
+        ],
+        "statement_id": "q5676$2FD32E8F-86BE-4CF3-BE98-0B3BE5AC3A20",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q11614939",
+        "label": "芭蕉翁生家",
+        "label_en": "Bashō's birth house",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5676"
+        ],
+        "statement_id": "Q5676$BD6DA115-0A72-4037-8492-74BE7D4ABAD3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q215646",
+        "label": "江户",
+        "label_en": "Edo",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5676"
+        ],
+        "statement_id": "q5676$354D68EF-88DD-4BB7-952A-C27A7C357DF2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "江户·俳句",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5676",
+        "title": "Wikidata Q5676 / 松尾芭蕉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5676&oldid=2557807911",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557807911,
+        "modified_at": "2026-10-17T00:56:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

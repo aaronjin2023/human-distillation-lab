@@ -43,5 +43,104 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3076818",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fujiwara no Yukinari",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "972–1027",
+      "birth_year": {
+        "value": 972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3076818"
+            ],
+            "statement_id": "Q3076818$F14E3096-4362-4321-B049-2CD7DEEC62B6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 972,
+            "raw_time": "+0972-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1028,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3076818"
+            ],
+            "statement_id": "Q3076818$AC0B6C9E-C778-44DE-8397-158C54D2F897",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1028,
+            "raw_time": "+1028-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1027
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3076818"
+        ],
+        "statement_id": "Q3076818$C4D02256-BC96-457C-9805-F4B176D1EAE0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·假名 / 和样"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3076818",
+        "title": "Wikidata Q3076818 / 藤原行成",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3076818&oldid=2520989185",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520989185,
+        "modified_at": "2026-07-22T08:49:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

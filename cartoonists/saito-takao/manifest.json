@@ -39,5 +39,142 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个沉默狙击手与一只小约克夏犬在夜城屋顶等待，硬派漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2661273",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Takao Saito",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2021",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2661273"
+            ],
+            "statement_id": "Q2661273$EBAF2CE8-2879-4767-8B33-CC1F5C7E8DE0",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-11-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2661273"
+            ],
+            "statement_id": "Q2661273$2bbf8cd4-4b8d-6dbc-1f60-f6c7f937ba24",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-09-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2661273"
+        ],
+        "statement_id": "Q2661273$745FA80B-9D15-43C6-8E3C-2ABB5B93D591",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q200747",
+        "label": "和歌山市",
+        "label_en": "Wakayama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2661273"
+        ],
+        "statement_id": "Q2661273$8C4126EF-7113-4368-9D53-ECB63AC18DAE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2661273"
+        ],
+        "statement_id": "Q2661273$33E4CE3C-46E3-4CFE-9A1F-971DF03334DE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·剧画/硬派漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2661273",
+        "title": "Wikidata Q2661273 / 齋藤隆夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2661273&oldid=2546359443",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546359443,
+        "modified_at": "2026-09-15T20:20:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

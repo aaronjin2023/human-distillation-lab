@@ -44,5 +44,56 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "威廉风格：为中学生设计一堂关于人工智能的课。围绕三个能暴露误解的 hinge 问题组织：学生互相回应、课堂讨论，给出推动学习的反馈，不打分了之、每一步都有下一步。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q21030583",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Dylan Wiliam",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1955–",
+      "birth_year": {
+        "value": 1955,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "形成性评价",
+      "genre": "educator"
+    },
+    "sources": []
+  }
 }

@@ -37,5 +37,207 @@
   ],
   "test_prompt": "现代题材：一只约克夏犬坐在地铁座位上，通勤者盯着手机",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9358",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Nietzsche",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1844–1900",
+      "birth_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9358"
+            ],
+            "statement_id": "q9358$441DCE30-B8B2-4145-AD23-4A9398882127",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9358"
+            ],
+            "statement_id": "q9358$E4CFA246-67FD-472E-A421-E75C98589889",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-08-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "q9358$A4399BCC-4FE9-4A31-A7B3-BCE5F6B77B62",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q529879",
+        "label": "勒肯",
+        "label_en": "Röcken",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$621E1216-B76F-4188-B2BE-DCCBD8A9014D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$C91E4104-0064-4850-A29B-8096009C272C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$1CD5FE3E-424D-4706-A973-D2B857F94C16",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$FA304C52-73B1-4F32-8453-35A559CC8B81",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3955",
+        "label": "魏玛",
+        "label_en": "Weimar",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$5A356763-B4C7-42A1-8D0B-392358E3A3ED",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q15986",
+        "label": "萨勒河畔瑙姆堡",
+        "label_en": "Naumburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$686D9FE1-1CF9-4E65-8603-7A3E798B20D6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1492092",
+        "label": "舒尔普福特",
+        "label_en": "Schulpforte",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9358"
+        ],
+        "statement_id": "Q9358$232BE88C-294E-44C2-B12D-C12202010555",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1869-04-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "19世纪批判哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9358",
+        "title": "Wikidata Q9358 / 弗里德里希·尼采",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9358&oldid=2560144820",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560144820,
+        "modified_at": "2026-10-23T22:49:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

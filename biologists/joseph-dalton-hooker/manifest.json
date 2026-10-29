@@ -30,5 +30,117 @@
     "《植物属志》各卷出版年份未逐项核对",
     "喜马拉雅考察的具体路线与标本数以通说为准"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q157501",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joseph Dalton Hooker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1817–1911",
+      "birth_year": {
+        "value": 1817,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q157501"
+            ],
+            "statement_id": "q157501$8E70FB22-3F11-40C0-A919-F6D89CC30FFC",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1817,
+            "raw_time": "+1817-06-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q157501"
+            ],
+            "statement_id": "q157501$650F04DF-C8EA-4F71-AC50-4CD056C9E7C8",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-12-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q157501"
+        ],
+        "statement_id": "q157501$4AE64321-66E2-4738-A2CE-F156E957C748",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1570884",
+        "label": "黑尔斯沃思",
+        "label_en": "Halesworth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q157501"
+        ],
+        "statement_id": "q157501$97127C95-747B-4488-B42A-DE9C306C76FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "植物学 / 植物地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q157501",
+        "title": "Wikidata Q157501 / 约瑟夫·道尔顿·胡克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q157501&oldid=2558030888",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558030888,
+        "modified_at": "2026-10-17T16:36:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

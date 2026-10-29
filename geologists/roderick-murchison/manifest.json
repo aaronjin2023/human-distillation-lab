@@ -31,5 +31,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：在一片新调查的地区，如何判断一套地层属于志留系还是泥盆系？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q361900",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roderick Murchison",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1792–1871",
+      "birth_year": {
+        "value": 1792,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q361900"
+            ],
+            "statement_id": "Q361900$4A681A64-747E-4C1D-9692-C08F5AEF3A19",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1792,
+            "raw_time": "+1792-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q361900"
+            ],
+            "statement_id": "Q361900$410AD7BD-30E9-4796-9C2F-E58514F7569E",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q361900"
+        ],
+        "statement_id": "q361900$69695DA6-FB64-4F28-BD29-AC4CBAC7A5B0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1586842",
+        "label": "羅斯-克羅馬蒂",
+        "label_en": "Ross and Cromarty",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q361900"
+        ],
+        "statement_id": "q361900$BB4864E1-FDE1-4BFA-82EB-D1E235D0AB8F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地层学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q361900",
+        "title": "Wikidata Q361900 / 罗德里克·麦奇生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q361900&oldid=2559450724",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559450724,
+        "modified_at": "2026-10-21T08:30:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

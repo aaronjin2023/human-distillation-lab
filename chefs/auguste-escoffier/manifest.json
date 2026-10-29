@@ -43,5 +43,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313744",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Auguste Escoffier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1846–1935",
+      "birth_year": {
+        "value": 1846,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313744"
+            ],
+            "statement_id": "q313744$4D3212C0-DF98-430C-96BC-01C07BADAFC7",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1846,
+            "raw_time": "+1846-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313744"
+            ],
+            "statement_id": "q313744$58223240-5EA7-4802-A1FF-C5F81CA59157",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313744"
+        ],
+        "statement_id": "q313744$F245DD17-94DD-4CEB-A5C9-37ECD7272618",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q320197",
+        "label": "卢贝新城",
+        "label_en": "Villeneuve-Loubet",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313744"
+        ],
+        "statement_id": "q313744$33CDD583-E5CD-497E-BDED-C777F0216230",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代法餐之父",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313744",
+        "title": "Wikidata Q313744 / 奥古斯特·埃斯科菲耶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313744&oldid=2561122867",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561122867,
+        "modified_at": "2026-10-26T17:08:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

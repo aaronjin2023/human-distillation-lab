@@ -30,5 +30,183 @@
   "test_prompt": "In the style of Paul Ehrlich, judge whether a compound that kills bacteria in a test tube can become a drug: test it in infected animals, measure toxicity to the host, compare the selective index, and do not claim a drug without both efficacy and safety data",
   "test_question_zh": "一种新化合物在试管里能杀细菌，怎么判断它能不能做成药？",
   "verification": "生卒 1854–1915、侧链学说、洒尔佛散 1910、1908 年诺贝尔生理学或医学奖按生物学史通说写；筛选总数未核对原始记录，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57089",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Ehrlich",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1854–1915",
+      "birth_year": {
+        "value": 1854,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57089"
+            ],
+            "statement_id": "q57089$34DF7C11-3730-4A65-87D0-0F6E7E54EC1E",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1854,
+            "raw_time": "+1854-03-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57089"
+            ],
+            "statement_id": "q57089$E3324005-696B-4429-9750-847BE56EE900",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "q57089$92392F4B-9964-4442-B1DC-8C22C7B3D034",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q719954",
+        "label": "斯切林",
+        "label_en": "Strzelin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "Q57089$3AC4BEAC-3F28-4F7C-82C4-DCA0C24C22F8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2833",
+        "label": "布赖斯高地区弗赖堡",
+        "label_en": "Freiburg im Breisgau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "Q57089$2ADA4FD3-7D48-4FE8-A956-979378487F93",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "Q57089$6E27A651-2473-4AD6-B8F3-D5427B7D5D1C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "Q57089$658B0E38-A15A-4B8A-B36A-56B6582EFE27",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "q57089$D5110F2B-6F2C-4F66-B709-D7CE4CE16CB4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57089"
+        ],
+        "statement_id": "Q57089$cc905605-41a3-ddb0-077a-9f94bcdb1de4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "免疫学 / 化学疗法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57089",
+        "title": "Wikidata Q57089 / 保罗·埃尔利希",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57089&oldid=2561304811",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561304811,
+        "modified_at": "2026-10-27T03:53:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

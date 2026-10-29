@@ -29,5 +29,117 @@
   "thinker": "Plato",
   "thinker_zh": "柏拉图",
   "verification": "2026-10-26 网络核对：生卒与代表作按草稿名单，辅以英文 Wikipedia / Stanford Encyclopedia 通说核对；未逐部核对创作年份；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q859",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Plato",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.428–c.348 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q859"
+            ],
+            "statement_id": "Q859$e17c45cd-41c6-3bc9-b650-cf9f35fd03b6",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": -428,
+            "raw_time": "-0428-00-00T00:00:00Z",
+            "precision": 8,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q859"
+            ],
+            "statement_id": "Q859$6cadcbdc-45ea-90f1-122b-8e2d48b03633",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": -348,
+            "raw_time": "-0348-00-00T00:00:00Z",
+            "precision": 8,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q859"
+        ],
+        "statement_id": "q859$2FD5DC2F-E55C-45EF-9849-3BDED744CE5F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1524",
+        "label": "雅典",
+        "label_en": "Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q859"
+        ],
+        "statement_id": "q859$95c60839-4837-cd15-2f2c-56aab67a44a6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "柏拉图主义 / 学园派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q859",
+        "title": "Wikidata Q859 / 柏拉图",
+        "url": "https://www.wikidata.org/w/index.php?title=Q859&oldid=2559624047",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559624047,
+        "modified_at": "2026-10-22T03:43:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

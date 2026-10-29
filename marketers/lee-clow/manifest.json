@@ -41,5 +41,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一款 AI 耳机的上市战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1768856",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lee Clow",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–（在世）",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1768856"
+            ],
+            "statement_id": "Q1768856$065AFE77-6E8B-4F1E-B747-58F669FE85C4",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1768856"
+        ],
+        "statement_id": "Q1768856$70B2ABFF-50CC-4185-8103-3600B97A9335",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1768856"
+        ],
+        "statement_id": "Q1768856$BE90A07F-9F5F-4AEB-A513-BDC001472FEF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告创意 / 品牌"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1768856",
+        "title": "Wikidata Q1768856 / 李·克勞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1768856&oldid=2518027138",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518027138,
+        "modified_at": "2026-07-16T04:18:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

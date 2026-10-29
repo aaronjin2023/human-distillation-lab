@@ -41,5 +41,142 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151794",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kenzō Tange",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–2005",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151794"
+            ],
+            "statement_id": "q151794$FEC9EFBC-9BD6-4D8F-8994-CFE5A012DC7D",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151794"
+            ],
+            "statement_id": "q151794$5E143E25-EB8D-435C-9704-2EC5C985A2AB",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151794"
+        ],
+        "statement_id": "q151794$FB11C26F-D840-4FC0-BB0A-696A38A0233B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q193428",
+        "label": "堺市",
+        "label_en": "Sakai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151794"
+        ],
+        "statement_id": "q151794$D875651C-FF10-4E7E-9C9E-F5D9F6D44D7C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151794"
+        ],
+        "statement_id": "Q151794$63746AC7-ECF1-43AF-ACBF-1C31583340CE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本现代主义 / 代谢派",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151794",
+        "title": "Wikidata Q151794 / 丹下健三",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151794&oldid=2551073213",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551073213,
+        "modified_at": "2026-09-30T00:12:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

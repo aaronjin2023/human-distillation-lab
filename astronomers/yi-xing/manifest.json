@@ -35,5 +35,117 @@
   "test_prompt": "In the style of Yi Xing, measure a meridian degree from modern solstice shadows at several latitudes: compare shadow lengths, compute the arc, and state how the result changes if one station's data is wrong",
   "test_question_zh": "用一行的方法，从现代多地冬至影长数据测定子午线一度之长",
   "verification": "2026-10-26：生卒 683–727、《大衍历》、子午线测量经草稿 v1 与 web 搜索核对；生年 673 一说已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q710705",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yi Xing",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "683–727",
+      "birth_year": {
+        "value": 683,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q710705"
+            ],
+            "statement_id": "Q710705$D55A4C6F-B49B-424D-A756-63FB93182352",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 683,
+            "raw_time": "+0683-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 727,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q710705"
+            ],
+            "statement_id": "Q710705$9F8CFE94-7F61-4087-A4FB-E70E502064F8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 727,
+            "raw_time": "+0727-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q710705"
+        ],
+        "statement_id": "Q710705$26e6dbb2-d189-4828-801d-33e95bc3ca80",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q507655",
+        "label": "南乐县",
+        "label_en": "Nanle County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q710705"
+        ],
+        "statement_id": "Q710705$747EEA50-0619-4057-8DBD-74A9C9CEA78F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "唐·历法与大地测量"
+    },
+    "sources": [
+      {
+        "id": "WD:Q710705",
+        "title": "Wikidata Q710705 / 一行",
+        "url": "https://www.wikidata.org/w/index.php?title=Q710705&oldid=2560153581",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560153581,
+        "modified_at": "2026-10-23T23:22:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

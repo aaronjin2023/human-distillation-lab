@@ -36,5 +36,117 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Fridtjof Nansen, an uncrewed vessel freezes into the ice in 2026 and drifts with the current toward the pole, logging latitude, ice state and soundings daily, the crew leaving on skis for the final push. No forcing through pack ice.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q72292",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fridtjof Nansen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1861–1930",
+      "birth_year": {
+        "value": 1861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72292"
+            ],
+            "statement_id": "q72292$CC3AD29C-C63D-4BF8-A309-995795E02E33",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72292"
+            ],
+            "statement_id": "q72292$B49ABA3D-C912-4B5A-BD70-657E53138C4D",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q72292"
+        ],
+        "statement_id": "Q72292$13991C3E-1168-46FF-BD87-0F257978F236",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q606860",
+        "label": "西阿克尔",
+        "label_en": "Vestre Aker",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q72292"
+        ],
+        "statement_id": "q72292$1124ED98-A137-4F05-9F12-8EC4C501E84A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "挪威·北极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q72292",
+        "title": "Wikidata Q72292 / 弗里乔夫·南森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q72292&oldid=2557886709",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557886709,
+        "modified_at": "2026-10-17T05:55:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

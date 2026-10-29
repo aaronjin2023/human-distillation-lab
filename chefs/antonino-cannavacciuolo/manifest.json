@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "安东尼诺·卡纳瓦丘洛风格：一碗现代拉面的坎帕尼亚重构——海陆并置、番茄辣椒大胆、南意海鲜鲜、精准精致、慷慨南部暖意。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15284464",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonino Cannavacciuolo",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1975–",
+      "birth_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15284464"
+            ],
+            "statement_id": "Q15284464$6535BBF0-7C55-40D7-B1D4-BD4E21270407",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15284464"
+        ],
+        "statement_id": "Q15284464$946DB1A1-5D43-4495-9FD3-94EA367FC293",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q72732",
+        "label": "维科埃昆塞",
+        "label_en": "Vico Equense",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15284464"
+        ],
+        "statement_id": "Q15284464$A80F49A8-42CD-4235-9B78-1CF6BA3B01AE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意餐·坎帕尼亚",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15284464",
+        "title": "Wikidata Q15284464 / Antonino Cannavacciuolo",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15284464&oldid=2533904992",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533904992,
+        "modified_at": "2026-08-20T22:17:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

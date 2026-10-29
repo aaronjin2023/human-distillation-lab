@@ -1,35 +1,155 @@
 {
- "chemist": "Andreas Libavius",
- "chemist_zh": "利巴维乌斯",
- "dates": "c.1550–1616",
- "field": "早期化学",
- "list_position": "化学家草稿 v1 A 炼金术与早期化学 #7",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "《炼金术》（化学实验手册）",
-  "矿物酸制备",
-  "化学实验体系化"
- ],
- "sources": [
-  "Wikipedia 'Andreas Libavius' https://en.wikipedia.org/wiki/Andreas_Libavius",
-  "Britannica 'Andreas Libavius' https://www.britannica.com/biography/Andreas-Libavius"
- ],
- "test_prompt": "In the style of Andreas Libavius, write a manual entry for preparing a mineral acid: list apparatus, quantities, steps and a test for the product, and state what failure would tell the reader.",
- "test_question_zh": "如何为制备一种矿物酸写一则可教的手册条目？",
- "verification": "2026-10-26：生卒约数、《炼金术》手册、矿物酸制备按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "《炼金术》拉丁文原文未逐篇核对，多据译本与综述",
-  "矿物酸制法的具体用量未见原文核对",
-  "生年约数，原始档案未核对"
- ]
+  "chemist": "Andreas Libavius",
+  "chemist_zh": "利巴维乌斯",
+  "dates": "c.1550–1616",
+  "field": "早期化学",
+  "list_position": "化学家草稿 v1 A 炼金术与早期化学 #7",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《炼金术》（化学实验手册）",
+    "矿物酸制备",
+    "化学实验体系化"
+  ],
+  "sources": [
+    "Wikipedia 'Andreas Libavius' https://en.wikipedia.org/wiki/Andreas_Libavius",
+    "Britannica 'Andreas Libavius' https://www.britannica.com/biography/Andreas-Libavius"
+  ],
+  "test_prompt": "In the style of Andreas Libavius, write a manual entry for preparing a mineral acid: list apparatus, quantities, steps and a test for the product, and state what failure would tell the reader.",
+  "test_question_zh": "如何为制备一种矿物酸写一则可教的手册条目？",
+  "verification": "2026-10-26：生卒约数、《炼金术》手册、矿物酸制备按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "《炼金术》拉丁文原文未逐篇核对，多据译本与综述",
+    "矿物酸制法的具体用量未见原文核对",
+    "生年约数，原始档案未核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q31161",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Andreas Libavius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1550–1616",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q31161"
+            ],
+            "statement_id": "Q31161$562a30d8-4180-509f-efb5-eac015c7859e",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1560,
+            "raw_time": "+1560-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1616,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q31161"
+            ],
+            "statement_id": "Q31161$A14A812F-7FB5-4D0E-951A-42EF069B9D93",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1616,
+            "raw_time": "+1616-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q31161"
+        ],
+        "statement_id": "q31161$9A02E035-2F83-4DAC-BE23-2826548383BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2814",
+        "label": "萨勒河畔哈雷",
+        "label_en": "Halle (Saale)",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q31161"
+        ],
+        "statement_id": "q31161$51BA06DC-22D1-4022-A4DA-15B849D09833",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12548",
+        "label": "神圣罗马帝国",
+        "label_en": "Holy Roman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "早期化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q31161",
+        "title": "Wikidata Q31161 / 安德烈亚斯·利巴菲乌斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q31161&oldid=2545847590",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545847590,
+        "modified_at": "2026-09-14T22:24:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,128 @@
   "test_prompt": "In the style of Emmanuelle Charpentier, turn a newly found bacterial defence system into a programmable editing tool: identify its guide RNA, rebuild the cut in a test tube with component-dropout controls, then simplify it to a single guide.",
   "test_question_zh": "发现一种新的细菌防御系统，怎么把它变成可编程的基因编辑工具？",
   "verification": "2026-10-26：生卒（1968–，在世）、tracrRNA 发现、CRISPR-Cas9、2020 年诺贝尔化学奖（与杜德娜共享）经草稿第 7 节与 NobelPrize.org 共识核对；专利争议以公开裁决为准",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q17280087",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emmanuelle Charpentier",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1968–",
+      "birth_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17280087"
+            ],
+            "statement_id": "Q17280087$FA05E091-2E2D-4167-B864-674A49D55C04",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q17280087"
+        ],
+        "statement_id": "Q17280087$1bad51b5-4a16-8104-b41e-bc62efa96471",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q752255",
+        "label": "奥尔日河畔瑞维西",
+        "label_en": "Juvisy-sur-Orge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q17280087"
+        ],
+        "statement_id": "Q17280087$A6ADF59C-908F-4BFA-8DFA-7314EB0A30E4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q17280087"
+        ],
+        "statement_id": "Q17280087$1036EC3C-AF0C-4A46-8482-83BE33BAA211",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2773",
+        "label": "不伦瑞克",
+        "label_en": "Brunswick",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q17280087"
+        ],
+        "statement_id": "Q17280087$A6C5CA26-6436-4C96-9C2D-EDF475A97876",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学生物学 / CRISPR"
+    },
+    "sources": [
+      {
+        "id": "WD:Q17280087",
+        "title": "Wikidata Q17280087 / 伊曼紐•夏彭提耶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q17280087&oldid=2561224096",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561224096,
+        "modified_at": "2026-10-26T22:58:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

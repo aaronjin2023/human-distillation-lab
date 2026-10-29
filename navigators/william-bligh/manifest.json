@@ -36,5 +36,130 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of William Bligh, a small open boat crosses a wide sea in 2026 with no chart, only a compass, a sextant and memory. Daily fixes, strict rationing, no landing that risks the boat. No drifting without a fix.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q294147",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Bligh",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1754–1817",
+      "birth_year": {
+        "value": 1754,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q294147"
+            ],
+            "statement_id": "q294147$72B337BA-41F5-4C39-916F-647B86F4AA8F",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1754,
+            "raw_time": "+1754-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1817,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q294147"
+            ],
+            "statement_id": "q294147$FFA42E43-434B-4033-B97A-21903F4D086B",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1817,
+            "raw_time": "+1817-12-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q294147"
+        ],
+        "statement_id": "q294147$2ED53C84-37A6-4410-A48F-0D4676B41C4F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43382",
+        "label": "普利茅斯",
+        "label_en": "Plymouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q294147"
+        ],
+        "statement_id": "Q294147$29A676F5-069E-4BEC-A397-026D53C63FAE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q294147"
+        ],
+        "statement_id": "Q294147$F045ED37-16DE-4669-B955-CE9D66D5F66A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·太平洋"
+    },
+    "sources": [
+      {
+        "id": "WD:Q294147",
+        "title": "Wikidata Q294147 / 威廉·布莱",
+        "url": "https://www.wikidata.org/w/index.php?title=Q294147&oldid=2558282028",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558282028,
+        "modified_at": "2026-10-18T06:19:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

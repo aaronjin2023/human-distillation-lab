@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151593",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Olivier Messiaen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1992",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151593"
+            ],
+            "statement_id": "q151593$42484FCE-D6DC-407B-8B8B-2FC878BEDDA0",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-12-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151593"
+            ],
+            "statement_id": "q151593$524AEE13-D490-49CF-BC22-1042C67790C5",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151593"
+        ],
+        "statement_id": "q151593$9A490014-0C44-4996-9827-E4FFF64C6EDC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6397",
+        "label": "阿维尼翁",
+        "label_en": "Avignon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151593"
+        ],
+        "statement_id": "Q151593$B10C030E-097D-4A3C-A4A6-2C2BE5BDD526",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义 / 法国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151593",
+        "title": "Wikidata Q151593 / 奥利维埃·梅西安",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151593&oldid=2561652734",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561652734,
+        "modified_at": "2026-10-28T10:59:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

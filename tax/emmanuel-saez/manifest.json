@@ -43,5 +43,115 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为亿万富翁的资本利得设计一套最高税率方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q984436",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emmanuel Saez",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1972–",
+      "birth_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q984436"
+            ],
+            "statement_id": "Q984436$146F6E50-C5B8-4B89-8B3F-FB0EFF736436",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q984436"
+        ],
+        "statement_id": "Q984436$B53C01B3-8602-4CA2-9497-75BA2E39B765",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q984436"
+        ],
+        "statement_id": "Q984436$B87207F8-E410-42A4-9925-4D9D61D1E42E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q984436"
+        ],
+        "statement_id": "Q984436$01d1ad48-48ee-28f6-a9a3-ccb2eeae0e7b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国 / 美国·最优最高税率",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q984436",
+        "title": "Wikidata Q984436 / 伊曼纽尔·赛斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q984436&oldid=2512640064",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512640064,
+        "modified_at": "2026-07-01T14:21:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

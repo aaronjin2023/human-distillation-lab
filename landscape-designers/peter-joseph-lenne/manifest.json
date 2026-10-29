@@ -43,5 +43,250 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；无忧宫归属见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q65910",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Joseph Lenné",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1789–1866",
+      "birth_year": {
+        "value": 1789,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q65910"
+            ],
+            "statement_id": "Q65910$21E31A62-D698-4E9A-A6E3-151A20BF86DB",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1789,
+            "raw_time": "+1789-09-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1866,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q65910"
+            ],
+            "statement_id": "Q65910$B04B4675-5BD1-41C4-990F-A766328C6628",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1866,
+            "raw_time": "+1866-01-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "q65910$45C63A76-CC2C-40AE-8774-EE8B2BBC4CDB",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$CB96042D-4570-4BDA-B22C-3A350385659C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1816-02-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1711",
+        "label": "波茨坦",
+        "label_en": "Potsdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$9609D12B-9280-4E3E-8FEF-672FF6C4F4C4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$440e0af6-4b67-35e6-e23f-8546b90dc5c8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1812-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1814-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q131330",
+        "label": "美泉宫",
+        "label_en": "Schönbrunn Palace",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$51c59b59-4626-2822-2da7-efb5f11ba8f9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4024",
+        "label": "奥得河畔法兰克福",
+        "label_en": "Frankfurt (Oder)",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$2c017bc0-464f-353d-a608-c4bf3d133a2c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1814-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1815-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q380298",
+        "label": "拉克森堡宮",
+        "label_en": "Laxenburg castles",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "Q65910$66b6e021-4094-cf2f-8662-5fbbc42d6828",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q677973",
+        "label": "孔雀島",
+        "label_en": "Pfaueninsel",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q65910"
+        ],
+        "statement_id": "q65910$1FC2938A-14F9-4592-B2BA-E50D2C7EB16D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·风景园 / 城市公园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q65910",
+        "title": "Wikidata Q65910 / 彼得·约瑟夫·莱内",
+        "url": "https://www.wikidata.org/w/index.php?title=Q65910&oldid=2552758192",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552758192,
+        "modified_at": "2026-10-03T20:31:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

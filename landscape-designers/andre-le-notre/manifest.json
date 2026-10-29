@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "大学校园里的雨水花园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；凡尔赛集体归属见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q273849",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André Le Nôtre",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1613–1700",
+      "birth_year": {
+        "value": 1613,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273849"
+            ],
+            "statement_id": "Q273849$AA8AF8E8-F284-413F-A115-E8913C442783",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1613,
+            "raw_time": "+1613-03-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1700,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273849"
+            ],
+            "statement_id": "Q273849$29AE8610-924A-4DCD-9B5C-5398F9D69228",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1700,
+            "raw_time": "+1700-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q273849"
+        ],
+        "statement_id": "q273849$96550A8A-D8C0-45E2-9364-E2F52BC65850",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q273849"
+        ],
+        "statement_id": "q273849$F66BB632-EFF4-40F2-9FB3-27E9B0A2C5AC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·古典主义园林",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q273849",
+        "title": "Wikidata Q273849 / 安德烈·勒诺特尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q273849&oldid=2557762930",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557762930,
+        "modified_at": "2026-10-16T22:26:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

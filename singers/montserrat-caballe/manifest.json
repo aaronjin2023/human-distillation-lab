@@ -43,5 +43,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "凌晨机场（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151435",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Montserrat Caballé",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2018",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151435"
+            ],
+            "statement_id": "Q151435$499CD7C5-02DE-4B88-8845-72D0ACA66C00",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151435"
+            ],
+            "statement_id": "Q151435$92944c34-4660-d9b1-175f-681fc83e654a",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151435"
+        ],
+        "statement_id": "Q151435$3C3E95DA-81AC-4C3C-8DFB-76E4DE487CDB",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151435"
+        ],
+        "statement_id": "q151435$44A5FCA2-840B-498B-90E6-7B3A096B7408",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "歌剧·女高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151435",
+        "title": "Wikidata Q151435 / 蒙特塞拉特·卡瓦列",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151435&oldid=2561652784",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561652784,
+        "modified_at": "2026-10-28T11:00:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

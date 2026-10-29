@@ -34,5 +34,144 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57246",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hermann Minkowski",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1864–1909",
+      "birth_year": {
+        "value": 1864,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57246"
+            ],
+            "statement_id": "q57246$580E988C-3262-4B0D-A76F-D408A6B0D104",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1864,
+            "raw_time": "+1864-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57246"
+            ],
+            "statement_id": "q57246$FC62679B-B659-4842-AB77-DB111AF64D1C",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57246"
+        ],
+        "statement_id": "q57246$9384CBE3-D11B-4D09-9B02-81FFF970EC3D",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2640897",
+        "label": "亞力克索塔斯",
+        "label_en": "Aleksotas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q57246"
+        ],
+        "statement_id": "Q57246$3CAF86CC-094B-432E-9945-5AE9969A74EF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57246"
+        ],
+        "statement_id": "Q57246$B0E7B7F7-45E0-476D-AD1B-FE7E0EC64023",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57246"
+        ],
+        "statement_id": "Q57246$0c31ee72-44bf-97c4-0418-48e3e9b958f8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "相对论几何"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57246",
+        "title": "Wikidata Q57246 / 赫尔曼·闵可夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57246&oldid=2561204096",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561204096,
+        "modified_at": "2026-10-26T21:42:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

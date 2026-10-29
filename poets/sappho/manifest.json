@@ -43,5 +43,126 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q17892",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sappho",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.630–c.570 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17892"
+            ],
+            "statement_id": "Q17892$7e3b0985-4605-34c6-f8df-3b2c5f9da811",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": -650,
+            "raw_time": "-0650-00-00T00:00:00Z",
+            "precision": 7,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17892"
+            ],
+            "statement_id": "Q17892$93f2e87b-4dfe-61de-d716-63936fc403e5",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -570,
+            "raw_time": "-0570-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q17892"
+        ],
+        "statement_id": "Q17892$51A17535-857F-4CC9-BA07-BC8476BE1BD8",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q128087",
+        "label": "莱斯沃斯岛",
+        "label_en": "Lesbos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q17892"
+        ],
+        "statement_id": "Q17892$e19e6c7e-4683-e281-dbfc-14a5a4414335",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q42295059",
+        "label": "Mytilene",
+        "label_en": "Mytilene",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古希腊·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q17892",
+        "title": "Wikidata Q17892 / 莎孚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q17892&oldid=2558233755",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558233755,
+        "modified_at": "2026-10-18T03:40:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

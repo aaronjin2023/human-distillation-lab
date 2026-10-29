@@ -5,18 +5,18 @@
 现有专家区只蒸作品：作品本身 + 关于作品的公开文字与权威说明。不碰私生活。
 现有专家区在世人物照收（口径 C）：在世不在世都可以，只蒸已发表的成果物，不碰未发表手稿与私人生活，在世者标 `living_person: true`。新增框架区的来源与范围在其说明中独立声明。
 
-## 入口与组合（2026-10-28）
+## 入口与组合（2026-10-29）
 
 | 区域 | 内容 | 入口 |
 |---|---|---|
 | 原 36 类专家目录 | 专业风格、方法、作品取舍；原路径与内容保留 | 下方名单及各人物 `SKILL.md` |
-| `domains/`、`medical-experts/`、`historians/`、`politicians/` | 医学、历史、教育、政治的跨目录入口；新增4份医学、6份史学与12份政治方法包 | [领域入口](domains/README.md) · [政治家与相关方法](domains/politics.md) |
+| `domains/`、`medical-experts/`、`historians/`、`politicians/`、`worldbuilding-experts/` | 11个领域入口；本次补经济学、人类学/民俗学、语言学、气候学、生态学、宗教学、游戏设计的52份方法包与32个复用名额 | [领域入口](domains/README.md) · [政治家与相关方法](domains/politics.md) |
 | `personalities/frameworks/` | 19 个模型、测量工具与相邻框架的概念蒸馏，不是19份在线测验 | [说明与选用](personalities/README.md) · [浏览目录](personalities/CATALOG.md) · [机器目录](personalities/catalog.json) |
 | `human-patterns/frameworks/` | 24 个行为、认知、情绪、社会、文化、发展、群体与身体情境框架 | [说明与选用](human-patterns/README.md) · [浏览目录](human-patterns/CATALOG.md) · [机器目录](human-patterns/catalog.json) |
 | `fictional-characters/` | 文学与影视角色的性格、动机、价值与行为资料；独立保留各叙事版本及情节证据 | [使用说明](fictional-characters/README.md) · [作品目录](fictional-characters/CATALOG.md) · [实际完成数](fictional-characters/verification/build.json) |
 | `commentary-personas/` | DATUMOJ 评论区角色：72 个编号，69 份公开人设及 3 个未揭晓隐藏位；用于互动风格与内容压力测试 | [角色目录](commentary-personas/CATALOG.md) · [加载入口](commentary-personas/SKILL.md) · [来源与范围](commentary-personas/README.md) |
 | `worldviews/` | 100 条：50 种现实思想与信念视角、50 个虚构世界；包含来源、限定版本、六维观察与原创应用 | [世界观目录](worldviews/CATALOG.md) · [加载入口](worldviews/SKILL.md) · [收录口径](worldviews/README.md) |
-| `people/` | 已核对的跨目录人物关联；当前覆盖范围有限，不自动合并同名条目 | [人物索引](people/index.json) |
+| `people/` | 全库3684个专家分类条目的地域、生活年代、民族/文化认同字段；明确区分来源记录、已核读与未知 | [基本资料与筛选](people/README.md) · [完整索引](people/biographical-index.json) · [原人工人物关联](people/index.json) |
 | `profiles/` | 专家方法与行为设定的组合，不给专家本人补造性格 | [研究协作者示例](profiles/research-collaborator/SKILL.md) |
 | `docs/` | 蒸馏工具来源、适配方法和跨层组合 | [工具说明](docs/distillation-tools.md) · [组合指南](docs/composition-guide.md) |
 
@@ -26,7 +26,7 @@
 
 校验新增区：`python3 scripts/validate_library.py`；修改框架元数据后运行 `python3 scripts/validate_library.py --write-catalog` 更新两个区的目录。自检：`python3 scripts/validate_library.py --self-test`。校验不代表量表效度或中文测量等值性通过。
 
-医学、历史、教育、政治入口与新增专家包：`python3 scripts/validate_experts.py`；加`--write-catalog`重建领域目录，`--self-test`运行元数据反例检查。新增22份专家方法不计入下方原36类名单的3600个分类名额。
+11个领域入口与新增专家包：`python3 scripts/validate_experts.py`；加`--write-catalog`重建领域目录，`--self-test`运行元数据反例检查。新增格式方法包累计74份不计入下方原36类名单的3600个历史分类名额；实际旧目录另有10个漫画条目，当前专家基本资料覆盖3684个分类条目。资料字段重建与检查见 `people/README.md`。
 
 ## 三十六类：3600 个人物条目
 
@@ -82,7 +82,7 @@
 - `poets/<诗人>/`、`directors/<导演>/`、`actors/<演员>/`、`screenwriters/<编剧>/`、`composers/<作曲家>/`、`lyricists/<作词人>/`、`dancers/<舞蹈家>/`、`calligraphers/<书法家>/`、`marketers/<营销人物>/`、`managers/<管理人物>/`、`biologists/<生物学家>/`、`geologists/<地质学家>/`、`astronomers/<天文学家>/`、`geographers/<地理学家>/`、`navigators/<航海家>/`、`military/<军事家>/`、`philosophers/<哲学家>/`、`physicists/<物理学家>/`、`chemists/<化学家>/`、`sociologists/<社会学家>/`、`psychologists/<心理学家>/`、`materials-scientists/<材料科学家>/`：每人一个文件夹，各 100 个
 - `cartoonists/<漫画家>/`、`singers/<歌手>/`、`chefs/<厨师>/`、`jurists/<法律人物>/`、`educators/<教育家>/`、`tax/<税务人物>/`、`architects/<建筑师>/`、`landscape-designers/<园林与景观设计师>/`、`fashion-designers/<服装设计师>/`：每人一个文件夹，各 100 个
 
-每个文件夹 9 个文件：
+每个专家文件夹保留原9个文件，并追加 `biography.md` 基本资料；`manifest.json` 内追加 `biography` 字段。原9文件用途：
 
 - `SKILL.md`：总览，怎么用这个 skill
 - `style.md`：风格规格（给生成模型）：prompt-ready 风格描述、该用 / 不该用、1 条现代题材测试提示词

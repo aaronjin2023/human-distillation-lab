@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q520522",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Florence Price",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1953",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q520522"
+            ],
+            "statement_id": "Q520522$A6D9E428-5A7A-402C-9191-4F3AA77CF806",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q520522"
+            ],
+            "statement_id": "Q520522$E7D32E43-C982-44F9-9D5B-4B767F3AC900",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q520522"
+        ],
+        "statement_id": "q520522$EF3D5F6E-C7A6-49A0-AA08-D250B0B85BC3",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q33405",
+        "label": "小石城",
+        "label_en": "Little Rock",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q520522"
+        ],
+        "statement_id": "Q520522$4D8186C2-65DB-4A7C-AEE6-9C66C90DC3DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q520522"
+          ],
+          "statement_id": "Q520522$1FE68B36-017B-49D8-91D9-E02863CC8B44",
+          "rank": "normal",
+          "reference_count": 5,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "现代主义 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q520522",
+        "title": "Wikidata Q520522 / 弗洛伦斯·普莱斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q520522&oldid=2529500137",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529500137,
+        "modified_at": "2026-08-10T06:25:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

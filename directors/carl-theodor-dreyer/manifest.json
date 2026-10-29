@@ -45,5 +45,144 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51127",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Theodor Dreyer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1968",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51127"
+            ],
+            "statement_id": "q51127$F64C50A5-BBD9-4DB5-9A1E-0517ADACB8E5",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-02-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51127"
+            ],
+            "statement_id": "q51127$C9B0A90A-0921-49F5-A28D-479D88B6020B",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51127"
+        ],
+        "statement_id": "q51127$EBB633B9-7875-4EF5-9BE1-852BE31EB8A6",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1748",
+        "label": "哥本哈根",
+        "label_en": "Copenhagen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q51127"
+        ],
+        "statement_id": "Q51127$3AFB193D-08BE-408E-8CE4-CE5BD146D892",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q35",
+        "label": "丹麦",
+        "label_en": "Denmark",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q51127"
+        ],
+        "statement_id": "Q51127$870EC2F2-C3B6-40FF-95D2-5454174E257F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51127"
+        ],
+        "statement_id": "q51127$2C27D2CA-4E4A-45E7-AA54-26A44E8CDF86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "丹麦·灵性电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51127",
+        "title": "Wikidata Q51127 / 卡爾·西奧多·德萊葉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51127&oldid=2560438847",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560438847,
+        "modified_at": "2026-10-24T21:32:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

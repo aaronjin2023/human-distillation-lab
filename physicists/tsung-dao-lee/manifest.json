@@ -30,5 +30,200 @@
   "test_prompt": "In the style of Tsung-Dao Lee, explain the self-balancing of a shared bicycle: question the symmetry everyone assumes, design the measurement that can answer it, and follow the answer wherever it leads",
   "test_question_zh": "解释共享单车的自平衡",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q183679",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tsung-Dao Lee",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2024",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183679"
+            ],
+            "statement_id": "q183679$F2FA2DDE-3CDC-4C2D-8235-89153546A279",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-11-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183679"
+            ],
+            "statement_id": "Q183679$8c72fdfe-4efe-db1b-0d30-7f3578872f19",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q183679"
+        ],
+        "statement_id": "Q183679$6B4ED87D-36F7-46B8-A781-2E4FB74891B3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q183679"
+        ],
+        "statement_id": "Q183679$DDAE2639-8612-4791-9F1C-1A7D025DF9F7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q183679"
+        ],
+        "statement_id": "q183679$2FF202AD-2AAE-47F8-8536-38C2B0CFDDFC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1962-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q183679"
+        ],
+        "statement_id": "q183679$DFD701F4-1C7A-4ACD-8DB4-10542E4F074A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1926-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q183679"
+        ],
+        "statement_id": "Q183679$b96fcf33-4b5a-c941-2706-805a923b6da7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "粒子物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q183679",
+        "title": "Wikidata Q183679 / 李政道",
+        "url": "https://www.wikidata.org/w/index.php?title=Q183679&oldid=2559498331",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559498331,
+        "modified_at": "2026-10-21T13:28:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

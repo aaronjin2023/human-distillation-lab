@@ -48,5 +48,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q468450",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rosabeth Moss Kanter",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q468450"
+            ],
+            "statement_id": "Q468450$6A29B5E0-6C13-47B1-B589-3DE6889055E4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-03-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q468450"
+        ],
+        "statement_id": "Q468450$88626C09-884B-4917-937A-D388211ED5A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q37320",
+        "label": "克利夫兰",
+        "label_en": "Cleveland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q468450"
+        ],
+        "statement_id": "q468450$37B4705C-5E83-436A-9B03-442F0262F3D6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织变革 / 赋权"
+    },
+    "sources": [
+      {
+        "id": "WD:Q468450",
+        "title": "Wikidata Q468450 / 罗莎贝丝·摩斯·肯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q468450&oldid=2535576239",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535576239,
+        "modified_at": "2026-08-23T22:07:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

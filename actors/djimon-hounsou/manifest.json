@@ -38,5 +38,101 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只约克夏犬坐在地铁座位上，被乘客们注视着",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q298682",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Djimon Hounsou",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1964–",
+      "birth_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q298682"
+            ],
+            "statement_id": "Q298682$4D1D08FA-AF90-4D4D-BD2F-53A9A4FD930B",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q298682"
+        ],
+        "statement_id": "Q298682$C01D25D5-25F2-4BCE-9A6E-184C46C354A3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43595",
+        "label": "科托努",
+        "label_en": "Cotonou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q298682"
+        ],
+        "statement_id": "Q298682$9E58D1D5-5E0A-485C-9884-CF3DA1601C74",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q962",
+        "label": "贝宁",
+        "label_en": "Benin",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "贝宁/美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q298682",
+        "title": "Wikidata Q298682 / 杰曼·翰苏",
+        "url": "https://www.wikidata.org/w/index.php?title=Q298682&oldid=2557855671",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557855671,
+        "modified_at": "2026-10-17T04:13:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

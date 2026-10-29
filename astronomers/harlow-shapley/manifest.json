@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Harlow Shapley, map the three-dimensional distribution of a new sample of globular clusters, find where their centre lies, and infer the size and centre of the Galaxy from that distribution — then say which part of the inference would collapse if the distance scale were wrong",
   "test_question_zh": "用沙普利的方法画一批新球状星团的三维分布，找出分布中心，由此推断银河系的大小与中心，并说清若距离定标错了，推论的哪一部分会垮掉",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q281170",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Harlow Shapley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1972",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281170"
+            ],
+            "statement_id": "Q281170$4F8DF19B-2C9B-41EA-9C82-55D8D6ABBD93",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281170"
+            ],
+            "statement_id": "q281170$05E382DC-95CE-4EBD-A88E-0FB95930D6B1",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q281170"
+        ],
+        "statement_id": "q281170$A89A39EC-E379-4DFB-A3C9-A679580D1D9A",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q3336184",
+        "label": "納什維爾",
+        "label_en": "Nashville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q281170"
+        ],
+        "statement_id": "q281170$BDB6472C-855E-40C3-A54A-00B70B951260",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·银河系"
+    },
+    "sources": [
+      {
+        "id": "WD:Q281170",
+        "title": "Wikidata Q281170 / 哈罗·沙普利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q281170&oldid=2557910892",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557910892,
+        "modified_at": "2026-10-17T07:19:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

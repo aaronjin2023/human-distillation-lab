@@ -43,5 +43,118 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一封写给十年后自己的信",
   "verification": "2026-10-26 核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1276",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leonard Cohen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–2016",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1276"
+            ],
+            "statement_id": "Q1276$F0E5DB68-9C68-424C-9148-69570795D1B9",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-09-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1276"
+            ],
+            "statement_id": "Q1276$202274a8-4b17-5b9d-6b27-f84c315ae0fc",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1276"
+        ],
+        "statement_id": "q1276$4942898A-FAE2-4975-A3F8-C303006AF08D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q340",
+        "label": "蒙特利尔",
+        "label_en": "Montreal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1276"
+        ],
+        "statement_id": "q1276$C1173CF8-A6C1-4227-8C1D-DCD41BDDD9BC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英语诗化歌词·创作歌手",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1276",
+        "title": "Wikidata Q1276 / 里奥纳德·科恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1276&oldid=2559537360",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559537360,
+        "modified_at": "2026-10-21T16:38:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

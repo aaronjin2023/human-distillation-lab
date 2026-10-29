@@ -30,5 +30,87 @@
   "test_prompt": "In the style of Cindi Katz, follow a rider's child waiting at home at night: the global platform, the city street and the kitchen table meet in that waiting, and ask what social reproduction costs there.",
   "test_question_zh": "骑手的孩子深夜在家等待",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5120461",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cindi Katz",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1954–",
+      "birth_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5120461"
+            ],
+            "statement_id": "Q5120461$99232784-1199-46EB-9E8B-A5AF8061DE4F",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5120461"
+        ],
+        "statement_id": "Q5120461$22FD224F-84A4-437B-A423-33499B1D5464",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·批判地理与儿童地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5120461",
+        "title": "Wikidata Q5120461 / 圣迪·卡茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5120461&oldid=2513495809",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513495809,
+        "modified_at": "2026-07-03T17:14:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

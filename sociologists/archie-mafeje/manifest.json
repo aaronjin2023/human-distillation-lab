@@ -49,5 +49,55 @@
   ],
   "test_prompt": "夜市摊位分配的土地问题",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q59526425",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Archie Mafeje",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1936–2007",
+      "birth_year": {
+        "value": 1936,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "非洲·人类学社会学"
+    },
+    "sources": []
+  }
 }

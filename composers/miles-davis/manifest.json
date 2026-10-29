@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q93341",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Miles Davis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–1991",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q93341"
+            ],
+            "statement_id": "q93341$A1B148B5-6D72-4793-90D9-2627AA9B76B5",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q93341"
+            ],
+            "statement_id": "q93341$B3E7485A-64BF-4622-9546-4D90E61A5DFF",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-09-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q93341"
+        ],
+        "statement_id": "q93341$2A9DA4B6-7E49-4103-9469-B225C2E83C07",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q443852",
+        "label": "奥尔顿",
+        "label_en": "Alton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q93341"
+        ],
+        "statement_id": "q93341$3A0CAB94-45B8-4315-8904-4E50EC63D3A1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q93341"
+          ],
+          "statement_id": "Q93341$E716BF63-CD74-4BF3-BFAA-99AA32C1336D",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士 / 冷爵士—融合"
+    },
+    "sources": [
+      {
+        "id": "WD:Q93341",
+        "title": "Wikidata Q93341 / 迈尔斯·戴维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q93341&oldid=2560434665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560434665,
+        "modified_at": "2026-10-24T21:18:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

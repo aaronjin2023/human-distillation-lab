@@ -44,5 +44,143 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1841–1935、两句引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q360574",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Oliver Wendell Holmes Jr.",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1841–1935",
+      "birth_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q360574"
+            ],
+            "statement_id": "q360574$5C86FCB4-D543-4C64-BB08-99DDA1C8E520",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-03-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q360574"
+            ],
+            "statement_id": "q360574$D9D9757D-B465-4ECC-AC06-8FD708FA95F5",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q360574"
+        ],
+        "statement_id": "q360574$F5B16483-FC43-48B6-81D5-D032ED018DAD",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q360574"
+        ],
+        "statement_id": "Q360574$51634557-4aae-38f1-a379-6c7e2af31aae",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1872-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q360574"
+        ],
+        "statement_id": "q360574$B30BF5A5-D7D0-4219-A8BB-DAC9F580DAF6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·实用主义法学",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q360574",
+        "title": "Wikidata Q360574 / 小奥利弗·温德尔·霍姆斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q360574&oldid=2558200294",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558200294,
+        "modified_at": "2026-10-18T01:47:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

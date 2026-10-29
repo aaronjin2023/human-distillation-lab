@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Han Ho, running-cursive Korean-Chinese characters, tall slender forms, crisp turns, generous line spacing, clear moist ink on paper",
   "transmission": "真迹 / 刻本并存；石峰体为后世所称其书体",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4677123",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Han Ho",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1543–1605",
+      "birth_year": {
+        "value": 1543,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4677123"
+            ],
+            "statement_id": "Q4677123$688448DA-9BFD-4FD7-8408-60A283A61FA3",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1543,
+            "raw_time": "+1543-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1605,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4677123"
+            ],
+            "statement_id": "Q4677123$FD554745-0527-4FB9-B37F-A90BFFBAD21E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1605,
+            "raw_time": "+1605-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4677123"
+        ],
+        "statement_id": "Q4677123$c2efbe76-1a6a-4626-a3fe-70c0b9d66113",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q109079",
+        "label": "开城特级市",
+        "label_en": "Kaesong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4677123"
+        ],
+        "statement_id": "Q4677123$44C28A5B-27C9-4D6A-B87B-7CEC394FC727",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28179",
+        "label": "朝鲜王朝",
+        "label_en": "Joseon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "朝鲜·行书 / 草书（石峰体）"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4677123",
+        "title": "Wikidata Q4677123 / 韩石峯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4677123&oldid=2556991967",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556991967,
+        "modified_at": "2026-10-14T18:08:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

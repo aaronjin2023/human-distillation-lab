@@ -32,5 +32,117 @@
   "test_prompt": "In the method of Pierre Weiss, design a flexible magnetic sensing material for a wearable device. State the molecular-field assumption first, derive the Curie-Weiss law from it, and test the assumption against measured susceptibility before claiming a magnetic material.",
   "test_question_zh": "为可穿戴设备设计一种柔性磁传感材料",
   "verification": "2026-10-26：生卒（1865–1940）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q299841",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre Weiss",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1865–1940",
+      "birth_year": {
+        "value": 1865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299841"
+            ],
+            "statement_id": "Q299841$0FBFA4FE-EF11-404B-B99C-78833FA8B440",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1865,
+            "raw_time": "+1865-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299841"
+            ],
+            "statement_id": "Q299841$9323FFF6-6C1E-4612-97DA-1746242FE5F1",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q299841"
+        ],
+        "statement_id": "q299841$C22D9A95-821F-48A4-B99D-7FF67DE92DD7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q79815",
+        "label": "米卢斯",
+        "label_en": "Mulhouse",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q299841"
+        ],
+        "statement_id": "q299841$B32418AB-186A-462D-BD5B-EB9A2D157D51",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "铁磁性 / 分子场理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q299841",
+        "title": "Wikidata Q299841 / 皮埃爾·外斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q299841&oldid=2560717929",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560717929,
+        "modified_at": "2026-10-25T14:48:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

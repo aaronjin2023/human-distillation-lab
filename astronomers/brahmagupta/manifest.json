@@ -36,5 +36,127 @@
   "test_prompt": "In the style of Brahmagupta, correct a systematic error in a modern planetary ephemeris: compare predictions with observations, find where the old table drifts, fix the parameter, and show the before-and-after residuals",
   "test_question_zh": "用婆罗摩笈多的方法，订正一份现代行星历表中的系统误差",
   "verification": "2026-10-26：生卒 598–c.668、《婆罗摩历算书》628 年、行星位置计算经 web 搜索核对；原文未逐句核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q202943",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Brahmagupta",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "598–c.668",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q202943"
+            ],
+            "statement_id": "Q202943$C802C884-4E3D-46D3-BDAD-035371246BD1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 598,
+            "raw_time": "+0598-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q202943"
+            ],
+            "statement_id": "Q202943$3ea22314-4bca-fed4-0321-765fac3a4295",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 670,
+            "raw_time": "+0670-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q202943"
+        ],
+        "statement_id": "Q202943$56D71896-41FB-4168-80A3-13CF5276F210",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q797437",
+        "label": "平马尔",
+        "label_en": "Bhinmal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度·天文数学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q202943",
+        "title": "Wikidata Q202943 / 婆罗摩笈多",
+        "url": "https://www.wikidata.org/w/index.php?title=Q202943&oldid=2558022194",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558022194,
+        "modified_at": "2026-10-17T15:50:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

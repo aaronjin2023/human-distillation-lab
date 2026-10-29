@@ -38,5 +38,169 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在地铁里给陌生人让座的女孩（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q126633",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marjane Satrapi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q126633"
+            ],
+            "statement_id": "Q126633$1323f05c-476c-3a51-d3f4-183c2222f949",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-09-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2026,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q126633"
+            ],
+            "statement_id": "Q126633$9924356a-4f92-b459-9d56-b9fe3ba6285a",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2026,
+            "raw_time": "+2026-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q126633"
+        ],
+        "statement_id": "Q126633$B8C69D51-7BE2-4013-ADFF-D1EF539CBA0D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q178373",
+        "label": "拉什特",
+        "label_en": "Rasht",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q126633"
+        ],
+        "statement_id": "Q126633$6D3E0A90-6354-4C63-B439-C6B1A5D1EC98",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3616",
+        "label": "德黑兰",
+        "label_en": "Tehran",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q126633"
+        ],
+        "statement_id": "Q126633$D9D37C97-1EC3-4B06-9A12-607B04DF3A2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q126633"
+        ],
+        "statement_id": "Q126633$85210C23-B017-492E-93E4-71E3BC7E9FF3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+2006-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q126633"
+        ],
+        "statement_id": "Q126633$ac974912-4304-2e27-49c8-7e3a45bf6885",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q794",
+        "label": "伊朗",
+        "label_en": "Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·伊朗裔图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q126633",
+        "title": "Wikidata Q126633 / 玛嘉·莎塔碧",
+        "url": "https://www.wikidata.org/w/index.php?title=Q126633&oldid=2558156520",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558156520,
+        "modified_at": "2026-10-17T23:29:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

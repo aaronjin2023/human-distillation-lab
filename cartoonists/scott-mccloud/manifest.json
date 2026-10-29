@@ -38,5 +38,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在地铁里向乘客讲解漫画的年轻人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q454833",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Scott McCloud",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1960–",
+      "birth_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454833"
+            ],
+            "statement_id": "q454833$A18574F9-144C-46E1-B7DB-99451665AAD1",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q454833"
+        ],
+        "statement_id": "Q454833$838FB5A0-36F5-4FFE-95F1-416B44089C1C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q454833"
+        ],
+        "statement_id": "q454833$43BC9674-EBE6-43AB-B90E-2F8C36676315",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·漫画理论/漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q454833",
+        "title": "Wikidata Q454833 / 史考特·邁克勞德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q454833&oldid=2558723288",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558723288,
+        "modified_at": "2026-10-19T09:15:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

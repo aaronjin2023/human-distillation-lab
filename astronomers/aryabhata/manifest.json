@@ -36,5 +36,111 @@
   "test_prompt": "In the style of Aryabhata, predict the next lunar eclipse from modern eclipse data: build a short table of cycles, compute step by step, and state plainly where the table ends and a new observation must begin",
   "test_question_zh": "用阿耶波多的方法，从现代日月食数据推算下一次月食的时刻",
   "verification": "2026-10-26：地球自转、日月食解释、π≈3.1416、正弦表经草稿 v1 与 web 搜索核对；地球自转非日心说已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11359",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aryabhata",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "476–550",
+      "birth_year": {
+        "value": 476,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11359"
+            ],
+            "statement_id": "Q11359$7c7660b1-49f9-0be1-073a-cc06b15d9571",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 476,
+            "raw_time": "+0476-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 550,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11359"
+            ],
+            "statement_id": "Q11359$8F023EBC-D59B-4B52-A64B-D9EB4CA9423A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 550,
+            "raw_time": "+0550-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11359"
+        ],
+        "statement_id": "Q11359$3BF5438B-EB60-451F-BCCF-36753683477D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q389755",
+        "label": "巴連弗邑",
+        "label_en": "Pataliputra",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度·古典天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11359",
+        "title": "Wikidata Q11359 / 阿耶波多",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11359&oldid=2557799879",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557799879,
+        "modified_at": "2026-10-17T00:29:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

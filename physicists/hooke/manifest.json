@@ -32,5 +32,168 @@
   "test_prompt": "In the style of Robert Hooke, explain why a bungee cord catches a jumper: hang weights on a cord, measure how far it stretches for each load, and show how the drawing of the stretch predicts the catch",
   "test_question_zh": "解释蹦极绳为什么能拉住人",
   "verification": "2026-10-26：生卒 1635–1703 与代表作按物理史通说；万有引力优先权争议已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q46830",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Hooke",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1635–1703",
+      "birth_year": {
+        "value": 1635,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46830"
+            ],
+            "statement_id": "q46830$5AD2E0D6-F12A-4495-8177-D6AF0A7394B9",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1635,
+            "raw_time": "+1635-07-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1703,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46830"
+            ],
+            "statement_id": "q46830$F54C5B44-4E1F-4FC5-968E-047D51D82B30",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1703,
+            "raw_time": "+1703-03-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q46830"
+        ],
+        "statement_id": "q46830$AA85AEF9-A714-4A8D-B37F-C47AE931319E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2428909",
+        "label": "清水镇",
+        "label_en": "Freshwater",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q46830"
+        ],
+        "statement_id": "Q46830$2462ABBC-A8B0-476D-9C42-8EB56F50DD35",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34217",
+        "label": "牛津",
+        "label_en": "Oxford",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46830"
+        ],
+        "statement_id": "Q46830$C7789F9A-0C61-4C95-8308-564E46742633",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q993164",
+        "label": "埃普瑟姆",
+        "label_en": "Epsom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46830"
+        ],
+        "statement_id": "Q46830$bc414621-49b7-0469-3ff9-57dbb8581a80",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1666-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q46830"
+        ],
+        "statement_id": "Q46830$b64f0faf-4402-bf89-baad-2537a14dcd3c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "力学 / 弹性"
+    },
+    "sources": [
+      {
+        "id": "WD:Q46830",
+        "title": "Wikidata Q46830 / 罗伯特·胡克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q46830&oldid=2558226505",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558226505,
+        "modified_at": "2026-10-18T03:10:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

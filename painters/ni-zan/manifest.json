@@ -31,5 +31,55 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1301–1374、元四家、《六君子图》1345 年与黄公望题诗、一河两岸、折带皴、《容膝斋图》1372 年已核对。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q731030",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Ni Zan",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1301–1374",
+      "birth_year": {
+        "value": 1301,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1374,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "元四家"
+    },
+    "sources": []
+  }
 }

@@ -44,5 +44,102 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q315484",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Park Chan-wook",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–（在世）",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315484"
+            ],
+            "statement_id": "Q315484$31F5F1DF-B836-43FE-8239-5D7F5FB60F24",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q315484"
+        ],
+        "statement_id": "Q315484$FC4905AA-76C3-47E9-B4DA-8DDD6C4DB1EA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q315484"
+        ],
+        "statement_id": "Q315484$18662C7E-CA99-45F8-9E7B-865188B2CBBD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩国·复仇 / 悬疑",
+      "genre": "韩国·复仇 / 悬疑"
+    },
+    "sources": [
+      {
+        "id": "WD:Q315484",
+        "title": "Wikidata Q315484 / 朴赞郁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q315484&oldid=2553927388",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553927388,
+        "modified_at": "2026-10-06T12:42:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

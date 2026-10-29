@@ -46,5 +46,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Rollo May, analyse a small Yorkshire terrier sitting on a subway seat. Read the dog as a small courage: anxiety is not only a symptom but a signal of being alive, freedom and destiny meeting in one small choice to sit and stay.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1059597",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rollo May",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–1994",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1059597"
+            ],
+            "statement_id": "q1059597$CEFE1377-ADC4-4E56-8821-1902D0E3C750",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1059597"
+            ],
+            "statement_id": "q1059597$8D3427E0-92AA-4A23-AB81-1AAAA9E05BE6",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1059597"
+        ],
+        "statement_id": "q1059597$93F6F828-869E-4D97-A78D-29E15AE939DD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1934356",
+        "label": "艾达 (俄亥俄州",
+        "label_en": "Ada",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1059597"
+        ],
+        "statement_id": "Q1059597$4ABFC26C-3723-4C8E-A3DF-7B5B80605C53",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "存在心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1059597",
+        "title": "Wikidata Q1059597 / 罗洛·梅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1059597&oldid=2558229784",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558229784,
+        "modified_at": "2026-10-18T03:26:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

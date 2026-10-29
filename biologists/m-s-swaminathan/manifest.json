@@ -29,5 +29,172 @@
     "具体品种的系谱与试验数据未逐项核对",
     "“常青革命”相关著作版本未逐一核对"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q982109",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "M. S. Swaminathan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2023",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982109"
+            ],
+            "statement_id": "Q982109$E16FEC39-6CDF-4DB9-9F5F-32EE640AB57D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982109"
+            ],
+            "statement_id": "Q982109$c0f57a32-46a3-e1cc-d60a-386ae353a840",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-09-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q982109"
+        ],
+        "statement_id": "q982109$9724E0F7-EB1E-4DDF-A6B7-692A8A606998",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q913399",
+        "label": "库姆巴科纳姆",
+        "label_en": "Kudanthaiyan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q982109"
+        ],
+        "statement_id": "Q982109$6FF1CC07-B76A-49E0-B369-E0106F89E47D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1925-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q982109"
+        ],
+        "statement_id": "q982109$A5F110F3-EF6D-4702-81F6-9470B2FD054D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+2023-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "植物遗传学 / 农学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q982109",
+        "title": "Wikidata Q982109 / M·S·斯瓦米纳坦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q982109&oldid=2529938215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529938215,
+        "modified_at": "2026-08-11T08:07:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

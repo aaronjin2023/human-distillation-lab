@@ -37,5 +37,141 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2266040",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tatsumi Hijikata",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1986",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2266040"
+            ],
+            "statement_id": "Q2266040$95608B59-4856-4178-8578-2A0F2F2599A2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2266040"
+            ],
+            "statement_id": "Q2266040$80478FAA-56D6-43D4-95AE-362309B0F898",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2266040"
+        ],
+        "statement_id": "Q2266040$803FFC42-0F82-46E5-8650-FB98A74172C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17139",
+        "label": "秋田市",
+        "label_en": "Akita",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2266040"
+        ],
+        "statement_id": "Q2266040$5E147E51-8E4F-4BFD-94D0-128E14C9054C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2266040"
+        ],
+        "statement_id": "Q2266040$8BD18E34-958D-4857-8B44-358F5BDCA353",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "暗黑舞踏·创始人 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2266040",
+        "title": "Wikidata Q2266040 / 土方巽",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2266040&oldid=2556879113",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556879113,
+        "modified_at": "2026-10-14T09:57:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

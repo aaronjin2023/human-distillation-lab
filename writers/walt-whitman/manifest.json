@@ -41,5 +41,131 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Walt Whitman",
-  "writer_zh": "沃尔特·惠特曼"
+  "writer_zh": "沃尔特·惠特曼",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q81438",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Walt Whitman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1819–1892",
+      "birth_year": {
+        "value": 1819,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q81438"
+            ],
+            "statement_id": "q81438$880E272F-948F-4324-A694-B04E41BC75D2",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1819,
+            "raw_time": "+1819-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q81438"
+            ],
+            "statement_id": "q81438$C40B4F13-6BF0-4E7F-8642-69A72A49982F",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q81438"
+        ],
+        "statement_id": "q81438$5CCE58A0-604A-4892-83D0-50B624DED0D1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3461211",
+        "label": "西山",
+        "label_en": "West Hills",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q81438"
+        ],
+        "statement_id": "Q81438$EA4492D0-A2F1-4EB4-B0C1-18BE3F006999",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18438",
+        "label": "長島",
+        "label_en": "Long Island",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q81438"
+        ],
+        "statement_id": "q81438$4DB15422-F8C8-4BC8-828D-D22AB0EF8717",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·自由体诗",
+      "genre": "诗人"
+    },
+    "sources": [
+      {
+        "id": "WD:Q81438",
+        "title": "Wikidata Q81438 / 沃尔特·惠特曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q81438&oldid=2561617779",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561617779,
+        "modified_at": "2026-10-28T07:42:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

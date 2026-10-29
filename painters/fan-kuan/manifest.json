@@ -34,5 +34,132 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "雨夜便利店门口（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1278559",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fan Kuan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.960–c.1030",
+      "birth_year": {
+        "value": 956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1278559"
+            ],
+            "statement_id": "Q1278559$583186B8-5C88-4F01-961A-8B4EB630497F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 956,
+            "raw_time": "+0956-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 960
+      },
+      "death_year": {
+        "value": 1026,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1278559"
+            ],
+            "statement_id": "Q1278559$170043A5-1A61-4273-9CB5-935D72B7E26F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1026,
+            "raw_time": "+1026-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1030
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1278559"
+        ],
+        "statement_id": "Q1278559$47008b10-4ee0-9c12-1258-92b5c444075f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q10483229",
+        "label": "耀州 (古代)",
+        "label_en": "Q10483229",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1278559"
+        ],
+        "statement_id": "Q1278559$C4E56993-B6EA-4F28-B6DD-55B3584F0018",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1278559"
+        ],
+        "statement_id": "Q1278559$2960D6BF-D9E6-4DD6-A55B-ADA22793E408",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·山水"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1278559",
+        "title": "Wikidata Q1278559 / 范宽",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1278559&oldid=2558082238",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558082238,
+        "modified_at": "2026-10-17T19:53:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

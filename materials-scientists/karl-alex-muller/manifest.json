@@ -32,5 +32,117 @@
   "test_prompt": "In the method of Karl Alex Müller, design a high-temperature superconducting sensing material for a deep-sea probe. Learn the oxide family first, choose compositions from structural phase-transition knowledge, and confirm superconductivity with resistance drop plus diamagnetism.",
   "test_question_zh": "为深海探测器设计一种高温超导传感材料",
   "verification": "2026-10-26：生卒（1927–2023）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q122298",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl Alex Müller",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2023",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q122298"
+            ],
+            "statement_id": "Q122298$95A55CCD-1F3B-47D9-98DC-AF56F5BAB589",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q122298"
+            ],
+            "statement_id": "Q122298$3aeae1c6-4fde-18f3-95bb-5f272ba1966c",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q122298"
+        ],
+        "statement_id": "q122298$1C41BDCA-4B04-44DE-B9DC-0019BD653AB3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q122298"
+        ],
+        "statement_id": "q122298$17C32670-5797-4477-A60F-CDD59BA88184",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "高温超导 / 钙钛矿氧化物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q122298",
+        "title": "Wikidata Q122298 / 卡尔·米勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q122298&oldid=2560197494",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560197494,
+        "modified_at": "2026-10-24T04:00:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

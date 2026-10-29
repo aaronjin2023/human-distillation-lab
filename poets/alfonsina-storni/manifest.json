@@ -44,5 +44,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q238557",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfonsina Storni",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1938",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q238557"
+            ],
+            "statement_id": "Q238557$59551679-DA35-4FCD-9869-569031616EB4",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-05-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q238557"
+            ],
+            "statement_id": "Q238557$790A9DD3-DE46-4C50-B06C-B74C83BF50B2",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q238557"
+        ],
+        "statement_id": "Q238557$F6DFAAA1-BF17-4989-8862-D9EA280527F2",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3945232",
+        "label": "Sala Capriasca",
+        "label_en": "Sala Capriasca",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q238557"
+        ],
+        "statement_id": "Q238557$1f917682-4b99-38e3-05f1-795ff5cfb977",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿根廷·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q238557",
+        "title": "Wikidata Q238557 / 阿尔韦西娜·斯托尔尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q238557&oldid=2560432227",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560432227,
+        "modified_at": "2026-10-24T21:15:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

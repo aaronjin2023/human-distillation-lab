@@ -36,5 +36,118 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Mark Twain",
-  "writer_zh": "马克·吐温"
+  "writer_zh": "马克·吐温",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7245",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mark Twain",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1835–1910",
+      "birth_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7245"
+            ],
+            "statement_id": "q7245$38223A51-449B-4396-854D-F16F75783487",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-11-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7245"
+            ],
+            "statement_id": "q7245$EC57CB73-423F-48E0-B1D1-703B6D47BF55",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7245"
+        ],
+        "statement_id": "q7245$31A10578-9F0A-4F10-A8A9-21E886EB883A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q537803",
+        "label": "佛羅里達",
+        "label_en": "Florida",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7245"
+        ],
+        "statement_id": "q7245$314ADA62-3558-42A7-9BA7-4D9861133EAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·小说",
+      "genre": "小说家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7245",
+        "title": "Wikidata Q7245 / 马克·吐温",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7245&oldid=2558156988",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558156988,
+        "modified_at": "2026-10-17T23:29:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

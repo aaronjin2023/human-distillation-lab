@@ -43,5 +43,116 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "伊巴迪风格：一份人权辩护意见，论难民儿童入学：从个案出发，妇女与儿童权利优先，法治高于权宜，共同价值对话。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131152",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shirin Ebadi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131152"
+            ],
+            "statement_id": "q131152$5E642513-E053-4348-9187-D4D955BDBE7D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-06-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131152"
+        ],
+        "statement_id": "q131152$04B1C780-7B0C-4885-BF70-E591620C170B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28587",
+        "label": "哈马丹",
+        "label_en": "Hamadan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131152"
+        ],
+        "statement_id": "Q131152$AF1652DD-F6C1-42A0-8686-B96F5F03FABF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q794",
+        "label": "伊朗",
+        "label_en": "Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q131152"
+          ],
+          "statement_id": "Q131152$77d59949-49c2-393a-1d99-78703e8fea3e",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q2309935",
+          "label": "波斯犹太人",
+          "label_en": "Iranian",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "伊朗·人权律师",
+      "genre": "lawyer / 律师"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131152",
+        "title": "Wikidata Q131152 / 希林·伊巴迪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131152&oldid=2560843944",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560843944,
+        "modified_at": "2026-10-25T22:52:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,118 @@
     "个别药物的现代植物学定种待专业文献核对",
     "《本草纲目》引用旧籍的转引链未逐条核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；本次修复经 web 搜索核对：16 部 60 类、1892 种、11096 方、1596 年刊行（Wikipedia《Bencao gangmu》、Frontiers 综述），水银条目内部说法不一致（Needham 译文：李时珍批判服汞求仙）；其余未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；本次修复经 web 搜索核对：16 部 60 类、1892 种、11096 方、1596 年刊行（Wikipedia《Bencao gangmu》、Frontiers 综述），水银条目内部说法不一致（Needham 译文：李时珍批判服汞求仙）；其余未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q698925",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Shizhen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1518–1593",
+      "birth_year": {
+        "value": 1517,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q698925"
+            ],
+            "statement_id": "Q698925$C280C5E6-F05A-4313-BE6B-5D86C9156917",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1517,
+            "raw_time": "+1517-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1518
+      },
+      "death_year": {
+        "value": 1593,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q698925"
+            ],
+            "statement_id": "Q698925$5C8419F1-8AEC-4199-8B81-27B9EDAA5460",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1593,
+            "raw_time": "+1593-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q698925"
+        ],
+        "statement_id": "Q698925$A23A40DD-C4C2-4F94-B57F-F9B26D6E7B67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10513920",
+        "label": "蕲州",
+        "label_en": "Qizhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q698925"
+        ],
+        "statement_id": "Q698925$409BB7BF-E7AE-4D4D-BCDA-F9D2526BE101",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学 / 本草"
+    },
+    "sources": [
+      {
+        "id": "WD:Q698925",
+        "title": "Wikidata Q698925 / 李时珍",
+        "url": "https://www.wikidata.org/w/index.php?title=Q698925&oldid=2561434601",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561434601,
+        "modified_at": "2026-10-27T13:29:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

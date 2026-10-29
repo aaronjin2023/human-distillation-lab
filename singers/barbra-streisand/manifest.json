@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜的出租车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4636",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Barbra Streisand",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4636"
+            ],
+            "statement_id": "q4636$361D2140-BDB6-4D64-8B93-E7FA3FF7ED1A",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4636"
+        ],
+        "statement_id": "Q4636$CD463AB9-58FD-4F0B-9C7E-928C1E3F6E3F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4636"
+        ],
+        "statement_id": "q4636$8D940964-CFDD-428A-80AA-79CF9D5462A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "流行·百老汇",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4636",
+        "title": "Wikidata Q4636 / 芭芭拉·瓊·史翠珊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4636&oldid=2557807463",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557807463,
+        "modified_at": "2026-10-17T00:55:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

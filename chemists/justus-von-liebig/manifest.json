@@ -30,5 +30,131 @@
   "test_prompt": "In the style of Justus von Liebig, determine unknown organic compounds: standardise the combustion analysis first, run every sample in parallel under identical conditions, tabulate carbon and hydrogen, and let the numbers, not appearance, decide composition",
   "test_question_zh": "一批未知有机物，怎么快速确定它们的组成？",
   "verification": "2026-10-26：生卒 1803–1873、有机元素分析法、化肥理论经化学史通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16571",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Justus von Liebig",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1803–1873",
+      "birth_year": {
+        "value": 1803,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16571"
+            ],
+            "statement_id": "q16571$14FD9CCC-E8BD-40D2-AEB9-547F2F3C296C",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1803,
+            "raw_time": "+1803-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16571"
+            ],
+            "statement_id": "q16571$7E59163E-A352-40B3-9F3E-5F5D9843B288",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16571"
+        ],
+        "statement_id": "q16571$A845C2E5-2DDB-4245-9F7F-A8BD5334D2D0",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2973",
+        "label": "达姆施塔特",
+        "label_en": "Darmstadt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q16571"
+        ],
+        "statement_id": "Q16571$6E3B4997-C080-4A31-BDC4-29B0F5D57C6F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16571"
+        ],
+        "statement_id": "q16571$736A2015-A393-4B8B-9F9B-3411F81695FC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q20135",
+        "label": "黑森-达姆施塔特",
+        "label_en": "Grand Duchy of Hesse",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机化学 / 农业化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16571",
+        "title": "Wikidata Q16571 / 尤斯图斯·冯·李比希",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16571&oldid=2558059232",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558059232,
+        "modified_at": "2026-10-17T18:43:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

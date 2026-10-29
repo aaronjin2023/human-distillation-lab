@@ -39,5 +39,132 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q58845",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adolph Wagner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1835–1917",
+      "birth_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58845"
+            ],
+            "statement_id": "Q58845$1D08A7FF-8579-4DF6-BDAB-8160A5E56923",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58845"
+            ],
+            "statement_id": "Q58845$E3DE70D4-7133-40EB-A07E-52F36D03CD33",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-11-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q58845"
+        ],
+        "statement_id": "q58845$39422FAF-0023-4FCB-BE11-ADD1C60D5F1F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3126",
+        "label": "埃朗根",
+        "label_en": "Erlangen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q58845"
+        ],
+        "statement_id": "Q58845$1C7FCB27-F0E8-4375-9EE5-8B00C62C1613",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2833",
+        "label": "布赖斯高地区弗赖堡",
+        "label_en": "Freiburg im Breisgau",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q58845"
+        ],
+        "statement_id": "q58845$86448736-300B-47AA-9E70-60D921F82CAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·税收原则",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q58845",
+        "title": "Wikidata Q58845 / 阿道夫·瓦格纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q58845&oldid=2552937406",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552937406,
+        "modified_at": "2026-10-04T06:38:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

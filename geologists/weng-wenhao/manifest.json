@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Weng Wenhao, judge whether a newly mapped fold belt records one movement or several: compare deformed strata across regions, separate main from secondary phases, and name the movement only from the evidence",
   "test_question_zh": "一条褶皱带，是一次造山运动还是多次叠加？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6123787",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Weng Wenhao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1971",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6123787"
+            ],
+            "statement_id": "Q6123787$9D7295E1-CB99-4794-825A-0DA6915336A3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6123787"
+            ],
+            "statement_id": "Q6123787$85AA4D4B-5439-4CE0-A7A3-554786149890",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6123787"
+        ],
+        "statement_id": "Q6123787$4B60E115-D603-4B73-A718-DD6CBBC8D846",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q706161",
+        "label": "慈溪市",
+        "label_en": "Cixi City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6123787"
+        ],
+        "statement_id": "Q6123787$F93EE35F-2740-44B4-B9C0-1B4CCF07B3F9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中国地质学奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6123787",
+        "title": "Wikidata Q6123787 / 翁文灏",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6123787&oldid=2555840672",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555840672,
+        "modified_at": "2026-10-11T09:51:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

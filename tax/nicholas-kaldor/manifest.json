@@ -43,5 +43,156 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想的发展中国家设计一套支出税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q335153",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nicholas Kaldor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1986",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335153"
+            ],
+            "statement_id": "q335153$C76E8A7E-9DB1-483B-9C9C-8ADA6521C21B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335153"
+            ],
+            "statement_id": "q335153$3012F39A-A025-42A5-996D-9618D072D7C5",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q335153"
+        ],
+        "statement_id": "q335153$77476DBD-EF75-4352-991B-88A38CF104A0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1781",
+        "label": "布达佩斯",
+        "label_en": "Budapest",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q335153"
+        ],
+        "statement_id": "Q335153$BB4EE5B0-872A-4B9E-BC55-D6416489D13A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q335153"
+        ],
+        "statement_id": "q335153$0772D7F7-CBED-4137-A8EA-3F0CE6364C32",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q28",
+        "label": "匈牙利",
+        "label_en": "Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q335153"
+        ],
+        "statement_id": "Q335153$639ac9f3-40e3-3a4c-4e56-6caf43d94beb",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1934-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国 / 印度·发展税收",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q335153",
+        "title": "Wikidata Q335153 / 尼古拉斯·卡尔多",
+        "url": "https://www.wikidata.org/w/index.php?title=Q335153&oldid=2553916491",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553916491,
+        "modified_at": "2026-10-06T12:17:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

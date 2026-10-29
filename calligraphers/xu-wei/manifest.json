@@ -53,5 +53,132 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“窗台上的一杯外卖咖啡”草书",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q890211",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Wei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1521–1593",
+      "birth_year": {
+        "value": 1521,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q890211"
+            ],
+            "statement_id": "Q890211$2F826BF5-D1C2-40FD-9415-86A3CBD1CB13",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1521,
+            "raw_time": "+1521-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1593,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q890211"
+            ],
+            "statement_id": "Q890211$E47FF60A-BF3A-420D-9604-0DC2D7C8FA10",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1593,
+            "raw_time": "+1593-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q890211"
+        ],
+        "statement_id": "Q890211$42BDA1E7-56D2-4B81-9D91-0F537675C794",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42666",
+        "label": "绍兴市",
+        "label_en": "Shaoxing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q890211"
+        ],
+        "statement_id": "Q890211$55D4EC13-8023-41A9-8651-BFC507604E8F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q890211"
+        ],
+        "statement_id": "Q890211$2B7577DC-78D7-4632-9A69-369FCD1DFF3B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明·草书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q890211",
+        "title": "Wikidata Q890211 / 徐渭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q890211&oldid=2554013069",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554013069,
+        "modified_at": "2026-10-06T16:13:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Pedro Fernandes de Queirós, an uncrewed vessel searches the South Pacific in 2026 for a continent, finds an island, and writes a memorial to its owners arguing the island is the continent.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313633",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pedro Fernandes de Queirós",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1565–1614",
+      "birth_year": {
+        "value": 1565,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313633"
+            ],
+            "statement_id": "Q313633$BA8A4110-DA5E-4689-9F89-B3E36279F43B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1565,
+            "raw_time": "+1565-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1614,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313633"
+            ],
+            "statement_id": "Q313633$7D5FA440-8B6F-4DFC-95B7-AA64A73367D0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1614,
+            "raw_time": "+1614-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313633"
+        ],
+        "statement_id": "q313633$C71BEF52-3835-4741-B763-C804EE9DCF3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179948",
+        "label": "埃武拉",
+        "label_en": "Évora",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313633"
+        ],
+        "statement_id": "Q313633$B7E96EB9-5CD7-46F9-A54A-64BC124D04A1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙—西班牙·南太平洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313633",
+        "title": "Wikidata Q313633 / 佩德罗·费尔南德斯·德·基罗斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313633&oldid=2527291518",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527291518,
+        "modified_at": "2026-08-04T19:54:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

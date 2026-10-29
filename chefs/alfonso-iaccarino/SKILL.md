@@ -23,3 +23,7 @@
 - `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限菜品与烹饪成就）
 - `conflicts.md` — 生卒、归属、版本、译名争议，保留，不统一
 - `manifest.json` — 来源菜品清单、选材说明、版本、味型样本
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

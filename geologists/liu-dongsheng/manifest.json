@@ -34,5 +34,130 @@
   "test_prompt": "In the style of Liu Dongsheng, judge a new loess section: log it layer by layer, measure magnetic susceptibility down the profile, match loess to paleosols, and compare the stack with the marine isotope record",
   "test_question_zh": "一条新黄土剖面，能读出几次季风变化？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6653493",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Liu Dongsheng",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–2008",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6653493"
+            ],
+            "statement_id": "Q6653493$962BCBA2-3D0E-47F9-9436-C88B198B04D9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6653493"
+            ],
+            "statement_id": "Q6653493$0CAEBA18-4A72-45C6-B593-3CE6C453F78F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6653493"
+        ],
+        "statement_id": "Q6653493$1dba0a27-48bb-e477-3bf7-660c7d7a4f62",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11720",
+        "label": "沈阳市",
+        "label_en": "Shenyang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6653493"
+        ],
+        "statement_id": "Q6653493$7004C5AF-235E-4B01-A2DF-D33F1DF3CBB9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6653493"
+        ],
+        "statement_id": "Q6653493$59bca58a-4aa1-7370-c240-fc1d0e493bd1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "第四纪地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6653493",
+        "title": "Wikidata Q6653493 / 刘东生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6653493&oldid=2545605879",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545605879,
+        "modified_at": "2026-09-14T13:02:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

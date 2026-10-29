@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2985733",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Al Ries",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2022",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2985733"
+            ],
+            "statement_id": "Q2985733$F2F99267-EC52-476D-B925-20CFE4B558D6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2985733"
+            ],
+            "statement_id": "Q2985733$89b75f07-49b0-2cb2-2109-4489737908ee",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2985733"
+        ],
+        "statement_id": "Q2985733$29578835-553D-4163-ACC9-41CEED05A43E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23556",
+        "label": "亚特兰大",
+        "label_en": "Atlanta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2985733"
+        ],
+        "statement_id": "Q2985733$91AB346E-A918-4B72-B7CD-C38EC15BC4C9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "定位理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2985733",
+        "title": "Wikidata Q2985733 / 阿尔·雷耶斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2985733&oldid=2554881797",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554881797,
+        "modified_at": "2026-10-08T05:14:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

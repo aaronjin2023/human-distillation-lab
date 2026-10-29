@@ -44,5 +44,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2831",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michael Jackson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1958–2009",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2831"
+            ],
+            "statement_id": "q2831$5645ee52-4f80-088a-cda3-9ddb820752e9",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-08-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2009,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2831"
+            ],
+            "statement_id": "Q2831$9BCC0438-C11F-4B4C-B96D-9496987363E3",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2009,
+            "raw_time": "+2009-06-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2831"
+        ],
+        "statement_id": "Q2831$653afd22-4d2a-b01d-edfb-1fe8100996af",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q136447280",
+        "label": "St. Mary's Mercy Hospital",
+        "label_en": "St. Mary's Mercy Hospital",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2831"
+        ],
+        "statement_id": "Q2831$6939DC7E-FF04-48D3-AE04-746E28E2A4BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q2831"
+          ],
+          "statement_id": "Q2831$d18ed1f7-4663-e837-2696-4e81aa828de2",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "流行·舞曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2831",
+        "title": "Wikidata Q2831 / 迈克尔·杰克逊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2831&oldid=2560687474",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560687474,
+        "modified_at": "2026-10-25T13:02:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

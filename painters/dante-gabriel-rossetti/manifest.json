@@ -29,5 +29,171 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《普罗塞庇娜》1874 年；《贝娅塔·贝娅特丽克丝》年份未定，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q186748",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dante Gabriel Rossetti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1828–1882",
+      "birth_year": {
+        "value": 1828,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186748"
+            ],
+            "statement_id": "q186748$9F0D00C7-1033-4DAC-A918-098F50E28EE7",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1828,
+            "raw_time": "+1828-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186748"
+            ],
+            "statement_id": "q186748$39E9DAB9-7FD1-4477-AF57-DBB4A613E174",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q186748"
+        ],
+        "statement_id": "q186748$C092DA00-44AD-46B9-9BC6-3F8C1BC3CC4F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q186748"
+        ],
+        "statement_id": "Q186748$A82C5ED1-CA78-444C-A125-FF5368C9F0A1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q186748"
+        ],
+        "statement_id": "Q186748$C1EC806F-43E8-4789-8B69-DA99002874F2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q186748"
+        ],
+        "statement_id": "Q186748$12B282C3-0C25-498A-8724-4AC59B264AC7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q186748"
+          ],
+          "statement_id": "Q186748$540DB44E-5267-498A-80D9-3152CF38378D",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42406",
+          "label": "英格蘭人",
+          "label_en": "English people",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q186748"
+          ],
+          "statement_id": "Q186748$85E185D0-2CDE-4733-9FF5-C83A3E49C26D",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q50001",
+          "label": "意大利人",
+          "label_en": "Italians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "拉斐尔前派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q186748",
+        "title": "Wikidata Q186748 / 丹蒂·加布里埃尔·罗塞蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q186748&oldid=2561490473",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561490473,
+        "modified_at": "2026-10-27T17:41:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

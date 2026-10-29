@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一场网络攻防对抗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q318699",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gonzalo Fernández de Córdoba",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1453–1515",
+      "birth_year": {
+        "value": 1453,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318699"
+            ],
+            "statement_id": "Q318699$3FEF6516-FB22-40F8-9941-76AA991EF726",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1453,
+            "raw_time": "+1453-09-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1515,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318699"
+            ],
+            "statement_id": "Q318699$130690F6-174F-4CF1-BF0A-2A7A08A63C70",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1515,
+            "raw_time": "+1515-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q318699"
+        ],
+        "statement_id": "q318699$0DC25043-BA6F-4E1A-8245-6FCE2FF10B60",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q13156",
+        "label": "蒙蒂利亚",
+        "label_en": "Montilla",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q318699"
+        ],
+        "statement_id": "q318699$5335E646-4D26-47B2-8F5A-E1B0DB4F881C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "西班牙·步兵改革"
+    },
+    "sources": [
+      {
+        "id": "WD:Q318699",
+        "title": "Wikidata Q318699 / 貢薩洛·費爾南德斯·科爾多瓦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q318699&oldid=2558057662",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558057662,
+        "modified_at": "2026-10-17T18:37:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

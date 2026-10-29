@@ -44,5 +44,145 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "沃斯通克拉夫特风格：为一群男女混合的中学生设计一堂关于人工智能的课。同一课程、同一标准：从一个真问题出发——AI 为谁服务，以写作与辩论展开，按论证的理由评判，不给任何人设更软的轨道。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q101638",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Wollstonecraft",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1759–1797",
+      "birth_year": {
+        "value": 1759,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q101638"
+            ],
+            "statement_id": "q101638$E595F153-710E-4A3E-BED5-ED480D8B477C",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1759,
+            "raw_time": "+1759-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1797,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q101638"
+            ],
+            "statement_id": "q101638$D9D3D786-78F1-476E-863A-FD7EDB6CE905",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1797,
+            "raw_time": "+1797-09-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q101638"
+        ],
+        "statement_id": "q101638$B271AE93-A1C2-4350-9B5D-A3DC5EB948E7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q123219",
+        "label": "斯皮塔佛德",
+        "label_en": "Spitalfields",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q101638"
+        ],
+        "statement_id": "Q101638$0F787354-8FCB-4504-A559-15DA629EB8F4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q101638"
+        ],
+        "statement_id": "Q101638$f3e246dd-4a31-832d-78e0-82a46e522d8f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q101638"
+        ],
+        "statement_id": "Q101638$ea197a22-4070-f6e4-6fe5-f6526204797c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "女性教育 / 启蒙教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q101638",
+        "title": "Wikidata Q101638 / 玛丽·沃斯通克拉夫特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q101638&oldid=2558161236",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558161236,
+        "modified_at": "2026-10-17T23:41:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,117 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of John Harrison, an uncrewed ship crosses an ocean in 2026 keeping time by a single clock, longitude read from the difference between the clock and local noon, every second logged. No longitude without a clock.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q314335",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Harrison",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1693–1776",
+      "birth_year": {
+        "value": 1693,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314335"
+            ],
+            "statement_id": "Q314335$1116228D-E44C-442E-859B-D6507C0EF60F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1693,
+            "raw_time": "+1693-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1776,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314335"
+            ],
+            "statement_id": "q314335$54D13292-D91A-4C0D-8444-61D342698B13",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1776,
+            "raw_time": "+1776-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q314335"
+        ],
+        "statement_id": "q314335$1DEC4905-A166-4ABF-AFB4-19807357FBCA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q5474184",
+        "label": "福爾比",
+        "label_en": "Foulby",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q314335"
+        ],
+        "statement_id": "q314335$C6E7BF81-28BF-4D4B-A3D4-1E4065BF7E01",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·航海技术"
+    },
+    "sources": [
+      {
+        "id": "WD:Q314335",
+        "title": "Wikidata Q314335 / 约翰·哈里森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q314335&oldid=2557990020",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557990020,
+        "modified_at": "2026-10-17T13:25:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

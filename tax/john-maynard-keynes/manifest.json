@@ -39,5 +39,142 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（需求视角）（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9317",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Maynard Keynes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1946",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9317"
+            ],
+            "statement_id": "q9317$5B76E177-3C1A-47FB-BE1A-440D1B5F5A40",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9317"
+            ],
+            "statement_id": "q9317$DFF978AD-3A28-4840-8AFB-C2F65DF95B1A",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9317"
+        ],
+        "statement_id": "q9317$DE74B6DB-6D4B-4330-8D64-7E15DDF4B2CF",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q350",
+        "label": "剑桥",
+        "label_en": "Cambridge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9317"
+        ],
+        "statement_id": "q9317$04AED5FA-CB4E-4F45-A678-B489B3608362",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9317"
+        ],
+        "statement_id": "Q9317$92E2DDB6-2C18-44B1-A553-BE3852BC8042",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·战时税收与财政政策",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9317",
+        "title": "Wikidata Q9317 / 约翰·梅纳德·凯恩斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9317&oldid=2557991090",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557991090,
+        "modified_at": "2026-10-17T13:27:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

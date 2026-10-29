@@ -55,5 +55,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜拉面店店主的围裙套装（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q707890",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yohji Yamamoto",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707890"
+            ],
+            "statement_id": "Q707890$CFE31986-9C82-4041-8AD8-215C2141FA7E",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q707890"
+        ],
+        "statement_id": "Q707890$3D94AAA5-713D-4E14-B430-1CA91D80DDBD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q7473516",
+        "label": "东京",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q707890"
+        ],
+        "statement_id": "Q707890$37A9F4E2-70B6-4E44-AFE8-1A733A95ACBF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·先锋 / 解构",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q707890",
+        "title": "Wikidata Q707890 / Y-3",
+        "url": "https://www.wikidata.org/w/index.php?title=Q707890&oldid=2558286791",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286791,
+        "modified_at": "2026-10-18T06:34:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

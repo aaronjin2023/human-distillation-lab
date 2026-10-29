@@ -32,5 +32,136 @@
   "test_prompt": "In the method of Federico Faggin, design a flexible microprocessor for a wearable device. Design the process and the architecture together, use a self-aligned gate to control alignment, test single transistors before the full chip, and let a working microprocessor prove the process.",
   "test_question_zh": "为可穿戴设备设计一种柔性微处理器",
   "verification": "2026-10-26：生卒（1941–）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q667095",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Federico Faggin",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q667095"
+            ],
+            "statement_id": "q667095$b66df852-42f0-6493-8948-ebb5d54909b8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-12-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q667095"
+        ],
+        "statement_id": "q667095$94fab70e-42de-717f-216e-0ca144b7f7db",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6537",
+        "label": "维琴察",
+        "label_en": "Vicenza",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q667095"
+        ],
+        "statement_id": "q667095$aabf9b97-48b2-b27f-a6bf-e0d8947ac2e4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q667095"
+        ],
+        "statement_id": "Q667095$C442A79A-9710-4641-8FB6-CAF4E5E04CCE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-19T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "微处理器 / 硅栅 MOS"
+    },
+    "sources": [
+      {
+        "id": "WD:Q667095",
+        "title": "Wikidata Q667095 / 费德里科·法金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q667095&oldid=2512898688",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512898688,
+        "modified_at": "2026-07-02T06:14:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

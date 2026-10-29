@@ -30,5 +30,144 @@
   "test_prompt": "In the style of Wilhelm Ostwald, verify a claimed new catalyst: measure reaction rates with and without it across temperatures and concentrations, quantify the acceleration, and call it a catalyst only when it speeds the reaction without being consumed",
   "test_question_zh": "一种新催化剂号称加速反应，怎么验证？",
   "verification": "2026-10-26：生卒 1853–1932、稀释定律、催化理论、1909 年诺贝尔化学奖经通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q12658",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wilhelm Ostwald",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1853–1932",
+      "birth_year": {
+        "value": 1853,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12658"
+            ],
+            "statement_id": "q12658$72BE42D9-B62E-4CE1-A275-68DC04C1CC49",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1853,
+            "raw_time": "+1853-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12658"
+            ],
+            "statement_id": "q12658$E84250AB-F06C-4AE2-91ED-3F04C0E3C158",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-04-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q12658"
+        ],
+        "statement_id": "q12658$799CFEAE-2A4B-4609-AB1D-3AB794AA97B6",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1773",
+        "label": "里加",
+        "label_en": "Riga",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q12658"
+        ],
+        "statement_id": "Q12658$676357CA-8A13-431B-B3C9-67790E877378",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q12658"
+        ],
+        "statement_id": "Q12658$c2890053-442b-ec82-c464-a070c6c2db44",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q12658"
+        ],
+        "statement_id": "Q12658$009edeb6-46d4-ce60-8070-19a7310340c2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "物理化学 / 催化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q12658",
+        "title": "Wikidata Q12658 / 威廉·奥斯特瓦尔德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q12658&oldid=2558281062",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558281062,
+        "modified_at": "2026-10-18T06:16:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

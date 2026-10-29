@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a small Yorkshire terrier sits on a subway seat at night, watched by commuters",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313330",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Qu Yuan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.340–278 BCE",
+      "birth_year": {
+        "value": -343,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313330"
+            ],
+            "statement_id": "Q313330$EE48C3FA-8788-410E-909C-345A2D466662",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -343,
+            "raw_time": "-0343-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": -340
+      },
+      "death_year": {
+        "value": -278,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313330"
+            ],
+            "statement_id": "Q313330$E63ED42C-8584-4FC6-966E-E79DEF5E19D4",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -278,
+            "raw_time": "-0278-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313330"
+        ],
+        "statement_id": "Q313330$814F5C33-C685-4410-A077-FCE660B723BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q202759",
+        "label": "秭归县",
+        "label_en": "Zigui County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313330"
+        ],
+        "statement_id": "Q313330$28f7c381-4bf2-a18d-ca64-0d599d7bc6b2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q504759",
+        "label": "楚国",
+        "label_en": "Chu",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "战国·楚辞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313330",
+        "title": "Wikidata Q313330 / 屈原",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313330&oldid=2558219236",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558219236,
+        "modified_at": "2026-10-18T02:47:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

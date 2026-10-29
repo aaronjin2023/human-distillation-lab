@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "牧口常三郎风格：为本地社区的孩子设计一堂关于人工智能的课。从社区调查出发：AI 已经用在我们身边的哪些地方，画出来、采访邻居，结尾问 AI 能为我们社区的幸福创造什么价值，不背定义。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1196300",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tsunesaburo Makiguchi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1871–1944",
+      "birth_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1196300"
+            ],
+            "statement_id": "Q1196300$FA1EE13D-0222-4CE1-A0E5-DCBFCFAF7C69",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-06-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1196300"
+            ],
+            "statement_id": "Q1196300$A1511609-0748-4283-B360-5B6599AE135D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1196300"
+        ],
+        "statement_id": "q1196300$DD3DAC7D-389F-45C4-9521-B952685E8DE0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q633983",
+        "label": "柏崎市",
+        "label_en": "Kashiwazaki",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1196300"
+        ],
+        "statement_id": "q1196300$EC2A38A0-839D-429C-930A-DB04C6F1348C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本创价教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1196300",
+        "title": "Wikidata Q1196300 / 牧口常三郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1196300&oldid=2552849996",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552849996,
+        "modified_at": "2026-10-04T02:09:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

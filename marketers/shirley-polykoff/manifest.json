@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for a silk sleep mask",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7498826",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shirley Polykoff",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1998",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7498826"
+            ],
+            "statement_id": "Q7498826$27A8E011-CAF9-4AB3-9DB2-AC38DFD73049",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-01-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7498826"
+            ],
+            "statement_id": "Q7498826$DB713B4B-923C-4478-BCD6-3C5CAC9E79AB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7498826"
+        ],
+        "statement_id": "Q7498826$db63e7cb-45c9-bbbc-8a48-544a301d8b1b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7498826"
+        ],
+        "statement_id": "Q7498826$9511EC2D-7ACD-429F-9497-BFFF70B8B950",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告文案"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7498826",
+        "title": "Wikidata Q7498826 / Shirley Polykoff",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7498826&oldid=2512602705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512602705,
+        "modified_at": "2026-07-01T11:42:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

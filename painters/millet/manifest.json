@@ -29,5 +29,170 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "清晨菜市场（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《拾穗者》1857 年；《晚钟》1857–1859 年；米勒 1814–1875",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q148458",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-François Millet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1814–1875",
+      "birth_year": {
+        "value": 1814,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q148458"
+            ],
+            "statement_id": "q148458$58F5FA46-9167-47C4-9094-E2206447EB55",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1814,
+            "raw_time": "+1814-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1875,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q148458"
+            ],
+            "statement_id": "q148458$19B33F65-CF67-4964-AB06-2134166C1415",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1875,
+            "raw_time": "+1875-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$87CC6853-5766-494D-90B5-11839A7E0BA0",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q58507641",
+        "label": "Gruchy",
+        "label_en": "Gruchy",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$B121C5AF-9CEE-4867-84C2-F86F47929107",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q256175",
+        "label": "巴比松",
+        "label_en": "Barbizon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$93369FF3-84F3-476F-8062-F0F6866CA8AF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3667188",
+        "label": "瑟堡",
+        "label_en": "Cherbourg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$496EAA45-1A38-4D8A-B0E5-BCC27E770593",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42810",
+        "label": "勒阿弗尔",
+        "label_en": "Le Havre",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$4911A9F0-1132-4316-9C9E-388C0BB53ABC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q148458"
+        ],
+        "statement_id": "Q148458$BD9537CE-63B8-44BE-924D-5798A1739287",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现实主义/巴比松"
+    },
+    "sources": [
+      {
+        "id": "WD:Q148458",
+        "title": "Wikidata Q148458 / 让-弗朗索瓦·米勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q148458&oldid=2559043008",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559043008,
+        "modified_at": "2026-10-20T03:07:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

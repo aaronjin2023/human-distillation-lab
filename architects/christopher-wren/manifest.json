@@ -38,5 +38,203 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雷恩风格：现代城市街角的一座社区图书馆，波特兰白石鼓座大穹顶配采光塔，古典门廊与双塔立面，宁静英国巴洛克秩序。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q170373",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Christopher Wren",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1632–1723",
+      "birth_year": {
+        "value": 1632,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q170373"
+            ],
+            "statement_id": "q170373$69CECB2A-780D-423B-A4F8-E044843C7361",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1632,
+            "raw_time": "+1632-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1723,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q170373"
+            ],
+            "statement_id": "Q170373$6E07ED10-758F-47E7-B55B-5CDECA47F40B",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1723,
+            "raw_time": "+1723-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$CCE4BA8E-56FC-43E9-BF5D-46194F8E4FE2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3313778",
+        "label": "东诺伊尔",
+        "label_en": "East Knoyle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$1d7dcda7-4bab-91f9-35fb-95a5784445e5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$cc10ba48-4240-8eec-475f-19c61b202ad7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34217",
+        "label": "牛津",
+        "label_en": "Oxford",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$e2f82413-4add-95a7-1ddf-e7cdf6fcb1f5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q350",
+        "label": "剑桥",
+        "label_en": "Cambridge",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$A73F4757-3663-448C-9541-D1501DD4F6EA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1707-05-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q170373"
+        ],
+        "statement_id": "Q170373$39676366-4c24-4d24-603b-784be881c5d1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1707-05-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1723-02-25T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国巴洛克 / 古典主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q170373",
+        "title": "Wikidata Q170373 / 克里斯托弗·雷恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q170373&oldid=2557844378",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557844378,
+        "modified_at": "2026-10-17T03:34:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

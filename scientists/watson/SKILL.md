@@ -28,3 +28,7 @@
 
 - 生卒与成果名以科学家草稿 v1 为准；沃森卒日 2025-11-06 经网络核对，见草稿第 4 节第 7 条（Wikipedia《James Watson》、AACR 讣告）；其余未逐项核对，见 known_gaps。
 - 待核对：见各文件夹 conflicts.md 与 manifest.json known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

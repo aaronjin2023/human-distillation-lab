@@ -31,5 +31,144 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：南半球各大陆都有相似的古生代植物化石，如何解释？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q156941",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eduard Suess",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1831–1914",
+      "birth_year": {
+        "value": 1831,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156941"
+            ],
+            "statement_id": "q156941$F00D397C-20F6-49BF-B83C-42B4D33E827F",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1831,
+            "raw_time": "+1831-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156941"
+            ],
+            "statement_id": "q156941$630A5FF6-40D7-45CE-993F-F8FBEF659823",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q156941"
+        ],
+        "statement_id": "q156941$8C654A35-09C5-4DB2-A437-DCC27B494458",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q156941"
+        ],
+        "statement_id": "Q156941$989ABB5A-924C-4E75-B8DE-80F766C1C7C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q156941"
+        ],
+        "statement_id": "Q156941$C16CAA27-9CC3-447A-844F-0BD44FC73CF6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q131964",
+        "label": "奥地利帝国",
+        "label_en": "Austrian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156941"
+        ],
+        "statement_id": "Q156941$fd890f6c-456c-5334-2f34-62c051733380",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "大地构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q156941",
+        "title": "Wikidata Q156941 / 爱德华·修斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q156941&oldid=2532122528",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2532122528,
+        "modified_at": "2026-08-16T22:33:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

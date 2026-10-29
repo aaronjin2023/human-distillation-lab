@@ -44,5 +44,144 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜关东煮摊租赁：参西法起草租赁条文（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q696704",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Tingfang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1842–1922",
+      "birth_year": {
+        "value": 1842,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q696704"
+            ],
+            "statement_id": "Q696704$2BAB3AEB-EC2C-44BB-9022-4D3DD605FD05",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1842,
+            "raw_time": "+1842-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q696704"
+            ],
+            "statement_id": "Q696704$9075DF14-5F3B-48A3-8A3E-45A97F0003E1",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-06-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q696704"
+        ],
+        "statement_id": "Q696704$C7D0C0F5-FA2C-4F98-BBBF-E5177A5ECCF2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q376178",
+        "label": "海峡殖民地",
+        "label_en": "Straits Settlements",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q696704"
+        ],
+        "statement_id": "Q696704$7A39EA5D-C99A-4809-B9E4-0F9009A73AF1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q696704"
+        ],
+        "statement_id": "Q696704$c7531daf-48d9-b214-cee1-3b6f29998c5b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q696704"
+        ],
+        "statement_id": "Q696704$cf5b00e9-4506-c814-70e6-0a4b3a80ff41",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "清末民初·法律改革",
+      "genre": "legislator / 立法者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q696704",
+        "title": "Wikidata Q696704 / 伍廷芳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q696704&oldid=2556593419",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556593419,
+        "modified_at": "2026-10-13T13:34:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

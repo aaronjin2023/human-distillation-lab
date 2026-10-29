@@ -42,5 +42,104 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Rumi",
-  "writer_zh": "鲁米"
+  "writer_zh": "鲁米",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43347",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rumi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1207–1273",
+      "birth_year": {
+        "value": 1207,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43347"
+            ],
+            "statement_id": "Q43347$DAC7704B-C9C2-4E12-BDC4-4EDAB6F05C00",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1207,
+            "raw_time": "+1207-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1273,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43347"
+            ],
+            "statement_id": "Q43347$49534A85-AA2C-4054-A835-E8CEE5D16D4E",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1273,
+            "raw_time": "+1273-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43347"
+        ],
+        "statement_id": "Q43347$05D7550B-5C89-40C5-8106-B3327B71D8FD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2064329",
+        "label": "瓦赫什",
+        "label_en": "Vakhsh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波斯·苏菲诗",
+      "genre": "诗人"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43347",
+        "title": "Wikidata Q43347 / 鲁米",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43347&oldid=2559121086",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559121086,
+        "modified_at": "2026-10-20T07:08:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

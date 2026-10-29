@@ -43,5 +43,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜拉面店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q130853",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Plácido Domingo",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q130853"
+            ],
+            "statement_id": "Q130853$1BF50C8A-7B06-4098-9C06-65070F80F0C8",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q130853"
+        ],
+        "statement_id": "q130853$107836D3-4623-4D43-BDA5-174B3B008BD5",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q130853"
+        ],
+        "statement_id": "Q130853$b67c9240-489b-8b94-977a-98d23fe80fbb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "歌剧·男高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q130853",
+        "title": "Wikidata Q130853 / 普拉西多·多明戈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q130853&oldid=2560436694",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560436694,
+        "modified_at": "2026-10-24T21:23:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -28,5 +28,117 @@
     "与米兰科维奇理论的承继关系以综述为准"
   ],
   "test_prompt": "现代问题：为什么冰期与轨道周期不完全同步？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q183189",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Croll",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1821–1890",
+      "birth_year": {
+        "value": 1821,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183189"
+            ],
+            "statement_id": "q183189$E4204018-4657-4177-A6F2-3FF7E688E9F8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1821,
+            "raw_time": "+1821-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183189"
+            ],
+            "statement_id": "q183189$76242186-ABC2-43ED-8E2F-2D19033C2BFF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q183189"
+        ],
+        "statement_id": "Q183189$543b17d4-04d8-489a-84ab-f58888179355",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q22",
+        "label": "苏格兰",
+        "label_en": "Scotland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q183189"
+        ],
+        "statement_id": "Q183189$4B08CC62-94D5-4874-B928-FF251C97C588",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "冰川学 / 气候地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q183189",
+        "title": "Wikidata Q183189 / 詹姆斯·克罗尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q183189&oldid=2529790488",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529790488,
+        "modified_at": "2026-08-10T23:24:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

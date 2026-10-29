@@ -31,5 +31,133 @@
   "test_prompt": "In the style of Nicole Oresme, explain a car's speed-time graph: draw time along one side and speed along the other, show how the area under the line is the distance travelled, and prove it with the picture",
   "test_question_zh": "解释汽车仪表盘上的速度—时间图",
   "verification": "2026-10-26：生年 c.1323 经 web 搜索核对（多方来源），草稿 c.1320 已修正并记入 conflicts.md；其余按物理史通说，未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q310777",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nicole Oresme",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1323–1382",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310777"
+            ],
+            "statement_id": "Q310777$5192bf47-47f3-f542-d51a-07cf2465e663",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1320,
+            "raw_time": "+1320-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1382,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310777"
+            ],
+            "statement_id": "Q310777$d1398962-40da-c746-c7d6-98c6000e040c",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1382,
+            "raw_time": "+1382-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q310777"
+        ],
+        "statement_id": "Q310777$C8FFA050-FE25-4EAF-9F7F-1B22590B2D72",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q516709",
+        "label": "奥恩河畔弗勒里",
+        "label_en": "Fleury-sur-Orne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q310777"
+        ],
+        "statement_id": "q310777$5A991BE6-FCFB-4212-86AD-BF0BEC390E8F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "运动学先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q310777",
+        "title": "Wikidata Q310777 / 尼克尔·奥里斯姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q310777&oldid=2558182198",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558182198,
+        "modified_at": "2026-10-18T00:45:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

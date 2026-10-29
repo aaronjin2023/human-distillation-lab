@@ -30,5 +30,144 @@
   "test_prompt": "In the style of Ampère, explain why an electric motor turns: measure the force between two currents, write it as mathematics, and show how the formula predicts the turning force on the coil",
   "test_question_zh": "解释电动机为什么能转起来",
   "verification": "2026-10-26：生卒 1775–1836 与代表作按物理史通说；分子电流假说与麦克斯韦修正已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q675",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André-Marie Ampère",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1775–1836",
+      "birth_year": {
+        "value": 1775,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q675"
+            ],
+            "statement_id": "q675$5E85DE32-76DE-4D10-AFAE-D9B9A7D022F8",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1775,
+            "raw_time": "+1775-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1836,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q675"
+            ],
+            "statement_id": "q675$6A07E093-8FE0-41B3-BA29-33C946D0E0EC",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1836,
+            "raw_time": "+1836-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q675"
+        ],
+        "statement_id": "q675$D4F5B7C7-F95A-4574-8CE1-D6F5CD39B29D",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q456",
+        "label": "里昂",
+        "label_en": "Lyon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q675"
+        ],
+        "statement_id": "Q675$EC558DD9-96E6-49C2-855C-88D2A6C6DA10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q456",
+        "label": "里昂",
+        "label_en": "Lyon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q675"
+        ],
+        "statement_id": "Q675$43A5655C-684C-46E3-BDA7-37A895C1742D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q675"
+        ],
+        "statement_id": "q675$341EA894-581D-45A2-B1F5-A1249EEC196D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电动力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q675",
+        "title": "Wikidata Q675 / 安德烈-马里·安培",
+        "url": "https://www.wikidata.org/w/index.php?title=Q675&oldid=2561510847",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561510847,
+        "modified_at": "2026-10-27T19:02:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

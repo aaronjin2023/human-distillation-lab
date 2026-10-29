@@ -43,5 +43,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁末班车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q296729",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tony Bennett",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2023",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296729"
+            ],
+            "statement_id": "q296729$A907ED10-5B81-4293-9851-E1F18AC71D9C",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296729"
+            ],
+            "statement_id": "Q296729$17c5c1b9-40f2-c11b-bab0-41f89032a73d",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-07-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q296729"
+        ],
+        "statement_id": "q296729$94002C5B-429D-4CA6-8944-39502825A69F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18424",
+        "label": "皇后區",
+        "label_en": "Queens",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q296729"
+        ],
+        "statement_id": "q296729$0BE7FFAA-57B2-4133-83DC-7088C7A52811",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "爵士·流行标准曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q296729",
+        "title": "Wikidata Q296729 / 托尼·班内特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q296729&oldid=2561650911",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561650911,
+        "modified_at": "2026-10-28T10:50:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -55,5 +55,157 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "剧本杀店里的角色扮演",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151523",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georg Lukács",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1971",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151523"
+            ],
+            "statement_id": "Q151523$7463DB0D-92CF-480E-98B9-14205C8331CD",
+            "rank": "preferred",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151523"
+            ],
+            "statement_id": "q151523$53C020C0-BB4D-41DB-8490-AD56FD22DDC8",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151523"
+        ],
+        "statement_id": "q151523$338EEA32-90EF-4618-9F11-8D6BE34FA0C9",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1781",
+        "label": "布达佩斯",
+        "label_en": "Budapest",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q151523"
+        ],
+        "statement_id": "Q151523$29B73D24-8293-4D63-8680-AA2A8292749A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1781",
+        "label": "布达佩斯",
+        "label_en": "Budapest",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151523"
+        ],
+        "statement_id": "Q151523$61389e2b-4ada-b3d5-d699-bcaab6300a16",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151523"
+        ],
+        "statement_id": "Q151523$67fce245-48da-0983-85d4-05dfeb066609",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151523"
+        ],
+        "statement_id": "q151523$8B4FE1E6-C133-4772-AB13-5B27A5C7FF33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28",
+        "label": "匈牙利",
+        "label_en": "Hungary",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方马克思主义·物化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151523",
+        "title": "Wikidata Q151523 / 捷尔吉·卢卡奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151523&oldid=2561535055",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561535055,
+        "modified_at": "2026-10-27T20:42:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

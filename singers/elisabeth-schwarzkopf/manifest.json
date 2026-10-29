@@ -43,5 +43,166 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57288",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elisabeth Schwarzkopf",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–2006",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57288"
+            ],
+            "statement_id": "Q57288$B4D2938B-0EB6-4518-9AFB-CAF85071866C",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57288"
+            ],
+            "statement_id": "Q57288$3A52D534-FBC6-4740-852C-E3332ACED404",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57288"
+        ],
+        "statement_id": "q57288$2D014FE6-666D-4EEB-926F-D21FD68848BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q52840",
+        "label": "亚罗钦",
+        "label_en": "Jarocin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57288"
+        ],
+        "statement_id": "q57288$034405A0-1CFF-4B07-91CE-DE0263EC45E1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57288"
+        ],
+        "statement_id": "Q57288$f39ba65b-4d30-2e5f-8ae9-50ae39178841",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57288"
+        ],
+        "statement_id": "q57288$267A5194-69A9-4915-903D-ADA735E6B282",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1953-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "歌剧·艺术歌曲·女高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57288",
+        "title": "Wikidata Q57288 / 伊丽莎白·施瓦茨科普夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57288&oldid=2557866394",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557866394,
+        "modified_at": "2026-10-17T04:53:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

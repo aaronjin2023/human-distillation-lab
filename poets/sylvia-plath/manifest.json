@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q133054",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sylvia Plath",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–1963",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133054"
+            ],
+            "statement_id": "q133054$EB6BE416-8577-4C6E-9C1B-FD3C39C0E684",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133054"
+            ],
+            "statement_id": "q133054$7C76647E-7DC2-439F-9FA2-55D7F68A86B5",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q133054"
+        ],
+        "statement_id": "Q133054$71CDA2B2-A09B-4303-8CC4-5EA8F95AD15F",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q985993",
+        "label": "牙买加平原区",
+        "label_en": "Jamaica Plain",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q133054"
+        ],
+        "statement_id": "q133054$58056D7F-826D-4CDE-8F90-5ABD94E95AEF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·忏悔派诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q133054",
+        "title": "Wikidata Q133054 / 希薇亚·普拉斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q133054&oldid=2561431678",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561431678,
+        "modified_at": "2026-10-27T13:18:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

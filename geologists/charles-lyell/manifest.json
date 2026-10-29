@@ -31,5 +31,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：喜马拉雅山脉还在长高吗？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5333",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Lyell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1797–1875",
+      "birth_year": {
+        "value": 1797,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5333"
+            ],
+            "statement_id": "q5333$E15B7CB2-9B9E-4C5D-AFAC-DC4DF26FA8D3",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1797,
+            "raw_time": "+1797-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1875,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5333"
+            ],
+            "statement_id": "q5333$23831CA5-65BE-4EF3-A0FB-B208BD1C64C3",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1875,
+            "raw_time": "+1875-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5333"
+        ],
+        "statement_id": "q5333$30D02DF5-AD56-4839-9764-7F9FBDF068EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q202177",
+        "label": "安格斯",
+        "label_en": "Angus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5333"
+        ],
+        "statement_id": "Q5333$A0F3EFEC-EC24-4ED1-B374-4C86259E88DA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地质学奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5333",
+        "title": "Wikidata Q5333 / 查爾斯·萊爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5333&oldid=2559143344",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559143344,
+        "modified_at": "2026-10-20T08:27:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

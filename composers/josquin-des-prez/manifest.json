@@ -32,5 +32,55 @@
   "test_prompt": "深夜雨中行驶的一辆出租车",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q143100",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Josquin des Prez",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.1450–1521",
+      "birth_year": {
+        "value": 1450,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1521,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴 / 佛兰德斯乐派"
+    },
+    "sources": []
+  }
 }

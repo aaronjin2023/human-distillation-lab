@@ -42,5 +42,115 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q10867353",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shangguan Yunzhu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1968",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10867353"
+            ],
+            "statement_id": "Q10867353$2D6C74FD-0486-4A85-A1AB-A4C3D1813BB9",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-03-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10867353"
+            ],
+            "statement_id": "Q10867353$62FE41D1-36A8-44C3-9ADD-7CE161ACC05F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-11-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q10867353"
+        ],
+        "statement_id": "Q10867353$C8E751F5-D83E-416D-929D-B88540FDD525",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1015823",
+        "label": "江阴市",
+        "label_en": "Jiangyin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q10867353"
+        ],
+        "statement_id": "Q10867353$3AD96838-A1A7-4D40-AE6E-E541B5E79A9B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q10867353",
+        "title": "Wikidata Q10867353 / 上官雲珠",
+        "url": "https://www.wikidata.org/w/index.php?title=Q10867353&oldid=2548070001",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548070001,
+        "modified_at": "2026-09-21T06:17:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

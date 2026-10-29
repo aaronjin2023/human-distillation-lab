@@ -48,5 +48,130 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q560901",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Igor Ansoff",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2002",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q560901"
+            ],
+            "statement_id": "Q560901$8FD07212-1511-4D48-80D8-0D7122971DA7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q560901"
+            ],
+            "statement_id": "Q560901$7412668D-C7BC-4400-A08F-46DECE2F1AE3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-07-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q560901"
+        ],
+        "statement_id": "q560901$3F74A0AC-AE24-403E-B01F-6C3C32035926",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q959",
+        "label": "海参崴",
+        "label_en": "Vladivostok",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q560901"
+        ],
+        "statement_id": "q560901$F8376811-2E51-4D0A-A829-056FFCA8FFAA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q159",
+        "label": "俄罗斯",
+        "label_en": "Russia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q560901"
+        ],
+        "statement_id": "q560901$C86552EC-9760-4AF4-B7D2-929751639335",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "战略管理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q560901",
+        "title": "Wikidata Q560901 / 安索夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q560901&oldid=2544958460",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544958460,
+        "modified_at": "2026-09-13T09:11:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

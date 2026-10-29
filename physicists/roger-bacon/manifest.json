@@ -31,5 +31,125 @@
   "test_prompt": "In the style of Roger Bacon, explain why reading glasses magnify print: start from a lens held over a page, draw the rays through the glass, and show what experiment would prove the explanation wrong",
   "test_question_zh": "解释老花镜为什么能放大字",
   "verification": "2026-10-26：生年 1214/1219 两说经 web 搜索核对；生卒用草稿口径 c.1219–c.1292；其余按物理史通说，未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q171677",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roger Bacon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1219–c.1292",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171677"
+            ],
+            "statement_id": "Q171677$E12007A2-5015-40DA-9EFA-3AAE0D8D048C",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1220,
+            "raw_time": "+1220-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1292,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171677"
+            ],
+            "statement_id": "Q171677$00EBF868-08F8-4063-9859-48396FCF8444",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1292,
+            "raw_time": "+1292-06-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q171677"
+        ],
+        "statement_id": "Q171677$3DD105BA-393C-4541-9681-E342427A584F",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1244536",
+        "label": "伊尔切斯特",
+        "label_en": "Ilchester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q171677"
+        ],
+        "statement_id": "Q171677$e4754348-4d7c-074e-b2e2-ab1eec1abe3f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "实验方法 / 光学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q171677",
+        "title": "Wikidata Q171677 / 罗吉尔·培根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q171677&oldid=2561597378",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561597378,
+        "modified_at": "2026-10-28T05:18:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

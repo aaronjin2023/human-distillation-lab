@@ -38,5 +38,147 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬的哥特式出门装（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q207939",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alexander McQueen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1969–2010",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q207939"
+            ],
+            "statement_id": "q207939$1C54B350-539E-495B-A161-F224A07C053B",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q207939"
+            ],
+            "statement_id": "Q207939$E6B34DE9-8389-4913-8D52-49454CC1CD30",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2010,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q207939"
+            ],
+            "statement_id": "q207939$B89D9686-6846-45F8-A3D8-C3AC34258E95",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2010,
+            "raw_time": "+2010-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q207939"
+        ],
+        "statement_id": "q207939$9919e4d7-4a3a-8a81-2b36-6e3cff41a073",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6537297",
+        "label": "刘易舍姆",
+        "label_en": "Lewisham",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q207939"
+        ],
+        "statement_id": "Q207939$631EBD85-9D6D-4F4F-9F38-F3AFE47AC9EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q207939"
+        ],
+        "statement_id": "Q207939$6D4C0EA8-22AC-4A03-A0B0-6D5450D971B0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·高级定制 / 戏剧时装",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q207939",
+        "title": "Wikidata Q207939 / 亚历山大·麦昆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q207939&oldid=2557646473",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557646473,
+        "modified_at": "2026-10-16T11:26:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

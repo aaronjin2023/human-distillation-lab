@@ -28,5 +28,130 @@
     "地球内部模型的具体版本未逐一核对"
   ],
   "test_prompt": "现代问题：如何比较两次不同深度的地震的破坏力？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76770",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Beno Gutenberg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1960",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76770"
+            ],
+            "statement_id": "q76770$BE4F0AF3-AF07-40A7-9D02-8FCBA8EE3738",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76770"
+            ],
+            "statement_id": "q76770$B262ADED-298A-4FBA-AC5B-EA71BCF453E9",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76770"
+        ],
+        "statement_id": "q76770$03C5F3B8-16A4-44D9-AA28-2C2EA37AEA95",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2973",
+        "label": "达姆施塔特",
+        "label_en": "Darmstadt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76770"
+        ],
+        "statement_id": "q76770$342913DA-A993-45A9-9544-5046D3ECB9BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76770"
+        ],
+        "statement_id": "q76770$42178F17-FEAD-476F-A8EC-0E01AE71558A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76770",
+        "title": "Wikidata Q76770 / 賓諾·古登堡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76770&oldid=2548887913",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548887913,
+        "modified_at": "2026-09-23T18:19:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

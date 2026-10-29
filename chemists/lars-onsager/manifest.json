@@ -32,5 +32,143 @@
   "test_prompt": "In the style of Lars Onsager, judge whether two transport processes in a new membrane separation obey a reciprocal relation: first identify the independent fluxes and forces, then check whether the system is in the linear near-equilibrium regime, and test the cross-coefficients against experimental data before claiming symmetry",
   "test_question_zh": "判断一种新型膜分离过程中两种输运现象之间是否存在倒易关系",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q107405",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lars Onsager",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1976",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107405"
+            ],
+            "statement_id": "q107405$3F807802-EC76-46F0-BC15-D3AC049CB8D2",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-11-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107405"
+            ],
+            "statement_id": "q107405$6F7B49E2-6F60-4A07-B4DD-FF73D8797B51",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-10-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q107405"
+        ],
+        "statement_id": "Q107405$83E5D710-89D8-4E70-9A6B-4D550FB3D1FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21711493",
+        "label": "克里斯蒂安尼亚",
+        "label_en": "Christiania",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q107405"
+        ],
+        "statement_id": "q107405$FC834677-8D2E-4162-9CBF-82E6B613FD9B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q107405"
+        ],
+        "statement_id": "Q107405$20f0489d-4d1f-a669-1108-e6022bc8af4b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q107405"
+        ],
+        "statement_id": "Q107405$1BE0C48D-3CE7-4069-BD2D-73AFDAE5306E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "不可逆热力学 / 统计力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q107405",
+        "title": "Wikidata Q107405 / 拉斯·昂萨格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q107405&oldid=2558109476",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558109476,
+        "modified_at": "2026-10-17T21:08:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

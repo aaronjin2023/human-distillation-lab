@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Xu Xiake, survey a modern city's underground drainage caves on foot: enter each culvert, write it the same night — the mouth, the water, the flow by name — and never let a plan's river stand where your feet found another",
   "test_question_zh": "一座现代城市的地下排水洞穴源流如何？",
   "verification": "生卒（1587–1641）与《徐霞客游记》草稿第 5 节已核对；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1367171",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Xiake",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1587–1641",
+      "birth_year": {
+        "value": 1587,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1367171"
+            ],
+            "statement_id": "Q1367171$ADC5BC45-F981-4F2E-AA67-D8B9C1E2B282",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1587,
+            "raw_time": "+1587-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1641,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1367171"
+            ],
+            "statement_id": "Q1367171$36465EFA-B874-4B3A-B25B-B1A497060D0F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1641,
+            "raw_time": "+1641-03-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1367171"
+        ],
+        "statement_id": "Q1367171$CA4A7B7F-5B72-4114-A39B-8F458A28B181",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1015823",
+        "label": "江阴市",
+        "label_en": "Jiangyin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1367171"
+        ],
+        "statement_id": "Q1367171$F7DD096F-C274-4A4F-B29F-53C07709397C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "明·旅行与岩溶地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1367171",
+        "title": "Wikidata Q1367171 / 徐霞客",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1367171&oldid=2553972657",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553972657,
+        "modified_at": "2026-10-06T14:37:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

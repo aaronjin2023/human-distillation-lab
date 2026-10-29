@@ -44,5 +44,118 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312611",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Youssef Chahine",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2008",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312611"
+            ],
+            "statement_id": "q312611$BBA70F08-B3FA-4595-9294-FA8300D5CC1C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312611"
+            ],
+            "statement_id": "q312611$D987C389-AF7F-4488-A2B3-66C28F3DCF14",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-07-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312611"
+        ],
+        "statement_id": "q312611$6FBB69ED-7CE2-4AE2-91A8-C6CE8C5D2843",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q87",
+        "label": "亚历山大",
+        "label_en": "Alexandria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312611"
+        ],
+        "statement_id": "Q312611$C14ACD6C-28AF-4156-A3F5-8516B92A65A7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q79",
+        "label": "埃及",
+        "label_en": "Egypt",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "埃及·阿拉伯电影",
+      "genre": "埃及·阿拉伯电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312611",
+        "title": "Wikidata Q312611 / 尤賽夫·夏因",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312611&oldid=2546037361",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546037361,
+        "modified_at": "2026-09-15T06:04:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

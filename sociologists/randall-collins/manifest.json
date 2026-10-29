@@ -47,5 +47,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "直播带货间的互动仪式",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q943311",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Randall Collins",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q943311"
+            ],
+            "statement_id": "Q943311$3CF895FA-4C10-4F8E-A55F-AEA8676023DF",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q943311"
+        ],
+        "statement_id": "Q943311$38CEE551-67AB-4F9A-A433-B28BDE44A404",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q185582",
+        "label": "诺克斯维尔",
+        "label_en": "Knoxville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q943311"
+        ],
+        "statement_id": "q943311$E476A495-8E03-4657-BA52-C5E84131C6C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "冲突理论·互动仪式"
+    },
+    "sources": [
+      {
+        "id": "WD:Q943311",
+        "title": "Wikidata Q943311 / 兰德尔·柯林斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q943311&oldid=2519198327",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519198327,
+        "modified_at": "2026-07-18T17:01:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -19,3 +19,7 @@ description: 从张居正考成奏疏提取责任、期限、核验及积案清�
 - [来源元数据](manifest.json)
 
 相关既有面向：[tax/zhang-juzheng](../../tax/zhang-juzheng/SKILL.md)
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

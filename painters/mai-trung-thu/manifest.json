@@ -32,5 +32,117 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：1906–1980、印度支那美术学院第一届 1925–1930、方小姐肖像为油画 3.1 百万美元、1937 年赴法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3277927",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mai Trung Thu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1980",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3277927"
+            ],
+            "statement_id": "Q3277927$ac5f8b39-4483-a769-d9fd-e18db99a0a3e",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1980,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3277927"
+            ],
+            "statement_id": "Q3277927$f4350e76-49ec-a619-6ffe-00ca5cccb6f7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1980,
+            "raw_time": "+1980-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3277927"
+        ],
+        "statement_id": "Q3277927$4A2C7500-17CB-4B2C-8E88-7CF2111BC8E2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q72818",
+        "label": "海防市",
+        "label_en": "Haiphong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3277927"
+        ],
+        "statement_id": "Q3277927$AE3177D8-115E-49E4-8D26-E9D6A8C5DB6D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "越南·丝绸画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3277927",
+        "title": "Wikidata Q3277927 / 枚中栨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3277927&oldid=2556285719",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556285719,
+        "modified_at": "2026-10-12T16:03:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

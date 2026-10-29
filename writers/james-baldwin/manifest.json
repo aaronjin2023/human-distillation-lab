@@ -43,5 +43,145 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "James Baldwin",
-  "writer_zh": "詹姆斯·鲍德温"
+  "writer_zh": "詹姆斯·鲍德温",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q273210",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Baldwin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–1987",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273210"
+            ],
+            "statement_id": "q273210$E2EA0B15-799B-44DE-B78E-F499EEC84BE8",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273210"
+            ],
+            "statement_id": "q273210$90EC8FE6-7ED5-4B4B-8FDB-C9571C8D8540",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-12-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q273210"
+        ],
+        "statement_id": "q273210$C7B8CBBB-F454-4D68-BC79-B3590DB84BBA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q189074",
+        "label": "哈莱姆区",
+        "label_en": "Q189074",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q273210"
+        ],
+        "statement_id": "q273210$CA09C699-673E-4EF4-B963-EBB8062CF4DF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q273210"
+        ],
+        "statement_id": "Q273210$E30D4D80-0041-444B-A09A-0B0F6F7C8297",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q273210"
+          ],
+          "statement_id": "Q273210$5FBC5507-C833-4AD0-A8E8-E41FBAA13899",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·小说 / 散文",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q273210",
+        "title": "Wikidata Q273210 / 詹姆斯·鲍德温",
+        "url": "https://www.wikidata.org/w/index.php?title=Q273210&oldid=2561504513",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561504513,
+        "modified_at": "2026-10-27T18:38:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

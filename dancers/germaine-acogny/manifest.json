@@ -37,5 +37,141 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a commuter in the rain waiting for a train",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3104163",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Germaine Acogny",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3104163"
+            ],
+            "statement_id": "Q3104163$e27b9c90-4c9f-7512-79db-022266207bc6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3104163"
+        ],
+        "statement_id": "Q3104163$ca080d16-4c28-8bc2-e6d1-d3f03250dc94",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3799",
+        "label": "波多诺伏",
+        "label_en": "Porto-Novo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q3104163"
+        ],
+        "statement_id": "Q3104163$93e167e9-4706-1a56-040f-1bf5e334df91",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3532777",
+        "label": "Toubab Dialaw(Toubab Dialo)",
+        "label_en": "Toubab Dialaw(Toubab Dialo)",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3104163"
+        ],
+        "statement_id": "Q3104163$6a0c1de4-4c3a-22ba-6f81-20de877546f6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3104163"
+        ],
+        "statement_id": "Q3104163$A34D3C90-A007-41F6-982B-8035D3DB9F12",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1041",
+        "label": "塞内加尔",
+        "label_en": "Senegal",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3104163"
+        ],
+        "statement_id": "Q3104163$58fa9a56-48e3-9cc4-f5b0-db2474f251a4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "非洲当代舞·舞者 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3104163",
+        "title": "Wikidata Q3104163 / Germaine Acogny",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3104163&oldid=2556876612",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556876612,
+        "modified_at": "2026-10-14T09:48:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

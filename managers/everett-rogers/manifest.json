@@ -42,5 +42,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3061477",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Everett Rogers",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2004",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3061477"
+            ],
+            "statement_id": "q3061477$6CC916FA-9BF7-4A89-9D8B-EBFCB1AAAC56",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3061477"
+            ],
+            "statement_id": "q3061477$7B16727C-5441-4FDA-A160-DC4CC3D26A40",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3061477"
+        ],
+        "statement_id": "Q3061477$A9E366E3-93D4-4250-B391-C69D31A29655",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1903180",
+        "label": "卡罗尔",
+        "label_en": "Carroll",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3061477"
+        ],
+        "statement_id": "Q3061477$DC7D8F76-D9E5-47DB-9418-87C1B1D8E9E9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "创新扩散"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3061477",
+        "title": "Wikidata Q3061477 / E•M•罗杰斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3061477&oldid=2517482705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2517482705,
+        "modified_at": "2026-07-14T18:24:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

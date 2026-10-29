@@ -39,5 +39,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬在太空站花园与美少年们漂浮，少女科幻漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q268789",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Keiko Takemiya",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q268789"
+            ],
+            "statement_id": "Q268789$4C706DAD-16F1-4A2D-BC75-5FC4180F5312",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-02-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q268789"
+        ],
+        "statement_id": "Q268789$879D69BC-5BF0-4B39-B6A5-F437C438A4C8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207309",
+        "label": "德岛市",
+        "label_en": "Tokushima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q268789"
+        ],
+        "statement_id": "Q268789$7B5E46DF-C919-4CC5-95EB-7F4DDD631954",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·少女/科幻漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q268789",
+        "title": "Wikidata Q268789 / 竹宫惠子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q268789&oldid=2535291464",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535291464,
+        "modified_at": "2026-08-23T07:41:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,56 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Bartolomeu Dias, an uncrewed vessel grinds south in 2026, is blown offshore by a storm for days, turns east and finds the coast on its beam, logging latitudes and headlands without triumph.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q130377",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Bartolomeu Dias",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1450–1500",
+      "birth_year": {
+        "value": 1450,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1500,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·南大西洋",
+      "genre": "navigator"
+    },
+    "sources": []
+  }
 }

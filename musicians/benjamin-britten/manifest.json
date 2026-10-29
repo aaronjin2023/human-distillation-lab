@@ -29,5 +29,129 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q150767",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Benjamin Britten",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–1976",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q150767"
+            ],
+            "statement_id": "q150767$1975FD4A-94B0-421A-B7C5-14A86A881EB9",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q150767"
+            ],
+            "statement_id": "q150767$BC7A100A-17D4-49E4-A569-2A6CDA336459",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q150767"
+        ],
+        "statement_id": "q150767$2AABC4FE-2734-470F-B71B-47EDC273D304",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q986007",
+        "label": "洛斯托夫特",
+        "label_en": "Lowestoft",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q150767"
+        ],
+        "statement_id": "Q150767$962AD2BD-085B-4EA4-B8C9-479CF66B2929",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q150767"
+        ],
+        "statement_id": "q150767$26A964B8-7F53-4151-B1FA-3983900E1D44",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q150767",
+        "title": "Wikidata Q150767 / 本杰明·布里顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q150767&oldid=2561652697",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561652697,
+        "modified_at": "2026-10-28T10:59:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

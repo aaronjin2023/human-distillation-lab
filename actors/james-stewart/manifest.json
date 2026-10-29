@@ -47,5 +47,118 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102462",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Stewart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1997",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102462"
+            ],
+            "statement_id": "q102462$F6BF0C2C-A0B2-49A1-B73D-7F58A284FF6C",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102462"
+            ],
+            "statement_id": "q102462$392AC697-FC9A-4812-898C-C9B283AEAB8F",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102462"
+        ],
+        "statement_id": "q102462$4A39D843-7110-42BF-8C8A-5AB81B90CF47",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1184769",
+        "label": "印第安纳",
+        "label_en": "Indiana",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102462"
+        ],
+        "statement_id": "q102462$88EA395B-5656-49C6-A04F-55F53A00AA03",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102462",
+        "title": "Wikidata Q102462 / 詹姆斯·斯图尔特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102462&oldid=2557950373",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557950373,
+        "modified_at": "2026-10-17T10:23:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

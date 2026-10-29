@@ -31,5 +31,117 @@
     "《水生植物》等专著原文版本未逐项核对",
     "形态学结论的现代系统学对应未逐一核对"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q394451",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Agnes Arber",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1879–1960",
+      "birth_year": {
+        "value": 1879,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q394451"
+            ],
+            "statement_id": "Q394451$924E0BAF-AA38-4851-8F88-AD742EB593FF",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1879,
+            "raw_time": "+1879-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q394451"
+            ],
+            "statement_id": "Q394451$659DB9EA-E806-46C8-9DBE-6613DFE70BB7",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q394451"
+        ],
+        "statement_id": "Q394451$73945c19-4453-c4ae-dc08-6c702fa3c9b1",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q149942",
+        "label": "樱草花山",
+        "label_en": "Primrose Hill",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q394451"
+        ],
+        "statement_id": "q394451$BA4CA86E-D33B-4ADD-8831-FA41A1D74C61",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "植物形态学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q394451",
+        "title": "Wikidata Q394451 / 艾格尼丝·阿尔伯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q394451&oldid=2519410918",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519410918,
+        "modified_at": "2026-07-19T00:15:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,157 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《发舟西苔岛》1717 年、卢浮宫藏、129×194cm；《吉尔》年份未定，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q183221",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antoine Watteau",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1684–1721",
+      "birth_year": {
+        "value": 1684,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183221"
+            ],
+            "statement_id": "q183221$D4676E22-2277-4BDB-AADF-B998F92C6A4D",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1684,
+            "raw_time": "+1684-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1721,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183221"
+            ],
+            "statement_id": "q183221$20E74CAC-4545-4269-8BEB-2C7EEE16F550",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1721,
+            "raw_time": "+1721-07-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q183221"
+        ],
+        "statement_id": "q183221$AB49FB39-D0D1-42CA-9974-D3CD845B9645",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q163795",
+        "label": "瓦朗谢讷",
+        "label_en": "Valenciennes",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q183221"
+        ],
+        "statement_id": "Q183221$3988378B-9C22-44A8-96AF-A5DBAE2220C2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q183221"
+        ],
+        "statement_id": "Q183221$fa1e206c-43d6-e5bd-22ba-7de682235f25",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q183221"
+        ],
+        "statement_id": "Q183221$F146ACCF-53AD-43C7-A2EC-BBCC840E8B68",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q163795",
+        "label": "瓦朗谢讷",
+        "label_en": "Valenciennes",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q183221"
+        ],
+        "statement_id": "Q183221$479FCB07-52E9-4E75-990B-96B6DEFF5CC4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "洛可可先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q183221",
+        "title": "Wikidata Q183221 / 让-安东尼·华托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q183221&oldid=2561456846",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561456846,
+        "modified_at": "2026-10-27T15:20:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

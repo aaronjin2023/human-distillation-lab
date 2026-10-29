@@ -38,5 +38,133 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市街角便利店店员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q352539",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roberto Cavalli",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1940–2024",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q352539"
+            ],
+            "statement_id": "Q352539$83EB3FE0-A4A9-479B-B1D0-1D73C5C6BB63",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q352539"
+            ],
+            "statement_id": "Q352539$29a8babf-4c59-0142-406d-a29e807edbb8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q352539"
+            ],
+            "statement_id": "Q352539$C8EAA6DB-83B2-4F80-89B2-05534C2165E6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q352539"
+        ],
+        "statement_id": "Q352539$88EE0681-8C5D-4B2C-950F-4B717A00320B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q352539"
+        ],
+        "statement_id": "Q352539$48D6A8A9-1D5C-4CBD-8914-BFF33990461C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣 / 动物纹",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q352539",
+        "title": "Wikidata Q352539 / 羅伯特·卡沃利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q352539&oldid=2552249169",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552249169,
+        "modified_at": "2026-10-02T18:06:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

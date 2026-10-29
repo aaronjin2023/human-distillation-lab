@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Huang Jiqing, judge a newly surveyed tectonic unit: place it in the multi-cycle framework, check its strata, magmatism and unconformities, and state whether it fits a known cycle or needs a new one",
   "test_question_zh": "一个新填出的构造单元，该放进哪个构造旋回？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q379407",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Huang Jiqing",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–1995",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q379407"
+            ],
+            "statement_id": "Q379407$1AA29354-C6D5-4CE6-A8CC-972E705CEE51",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q379407"
+            ],
+            "statement_id": "Q379407$5BE2D755-DF41-4766-83D6-F566809A2B80",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q379407"
+        ],
+        "statement_id": "Q379407$FA458A11-617A-4E42-BD29-AD40A66F5294",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1339237",
+        "label": "仁寿县",
+        "label_en": "Renshou County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q379407"
+        ],
+        "statement_id": "Q379407$3CADB859-E8D7-4D29-A47F-ACA80E441304",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "大地构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q379407",
+        "title": "Wikidata Q379407 / 黄汲清",
+        "url": "https://www.wikidata.org/w/index.php?title=Q379407&oldid=2542356188",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542356188,
+        "modified_at": "2026-09-08T16:45:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

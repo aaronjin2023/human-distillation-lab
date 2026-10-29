@@ -43,5 +43,148 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Sophocles",
-  "writer_zh": "索福克勒斯"
+  "writer_zh": "索福克勒斯",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7235",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sophocles",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.496–406 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7235"
+            ],
+            "statement_id": "Q7235$b16f372f-4234-65ab-fca1-7c591329c435",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -496,
+            "raw_time": "-0496-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7235"
+            ],
+            "statement_id": "Q7235$106c63a1-46b9-323c-cabb-bbdc6ae26203",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -406,
+            "raw_time": "-0406-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7235"
+        ],
+        "statement_id": "Q7235$535c5ed2-442d-1b40-25e1-c8da9b296189",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1235930",
+        "label": "克洛诺斯",
+        "label_en": "Colonus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7235"
+        ],
+        "statement_id": "Q7235$B26F117A-7931-4CAE-95CE-E656259CA4B7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11772",
+        "label": "古希腊",
+        "label_en": "Ancient Greece",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7235"
+        ],
+        "statement_id": "Q7235$94032040-211C-466D-A7F9-FDEE3C9A87D2",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古希腊·悲剧",
+      "genre": "剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7235",
+        "title": "Wikidata Q7235 / 索福克勒斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7235&oldid=2560428538",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560428538,
+        "modified_at": "2026-10-24T21:01:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

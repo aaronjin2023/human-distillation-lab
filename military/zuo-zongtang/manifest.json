@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q230200",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zuo Zongtang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1812–1885",
+      "birth_year": {
+        "value": 1812,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230200"
+            ],
+            "statement_id": "q230200$AD97137D-4001-4CF7-8A2A-FBBD007509D2",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1812,
+            "raw_time": "+1812-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230200"
+            ],
+            "statement_id": "q230200$BE2F0120-920E-47B6-A6F0-426E3A96899B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q230200"
+        ],
+        "statement_id": "Q230200$B5A51F0E-E718-43A9-8BB3-4FD7E3C0604F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1199408",
+        "label": "湘阴县",
+        "label_en": "Xiangyin County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q230200"
+        ],
+        "statement_id": "Q230200$D0D14CF0-D72D-4232-9AF1-031166D219CE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "清·收复新疆"
+    },
+    "sources": [
+      {
+        "id": "WD:Q230200",
+        "title": "Wikidata Q230200 / 左宗棠",
+        "url": "https://www.wikidata.org/w/index.php?title=Q230200&oldid=2553996235",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553996235,
+        "modified_at": "2026-10-06T15:36:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

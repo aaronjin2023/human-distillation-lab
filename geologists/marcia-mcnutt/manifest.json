@@ -35,5 +35,101 @@
   "test_prompt": "In the style of Marcia McNutt, judge whether a newly found seamount chain can bend the lithosphere: compare bathymetry and gravity anomaly along the chain, estimate the effective elastic thickness from the flexure wavelength, and state where the model stops applying",
   "test_question_zh": "一条新发现的海山链，能否压弯它脚下的岩石圈？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1683869",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marcia McNutt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1683869"
+            ],
+            "statement_id": "Q1683869$fa007499-4cc8-14f6-8e1d-c93caac3bcb6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1683869"
+        ],
+        "statement_id": "Q1683869$C197C238-E480-4BEA-A5CF-456438BFBE4B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q36091",
+        "label": "明尼阿波利斯",
+        "label_en": "Minneapolis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1683869"
+        ],
+        "statement_id": "q1683869$5B0306A5-3B18-4587-8EAA-1F598325FAD0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "海洋地球物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1683869",
+        "title": "Wikidata Q1683869 / 瑪西婭·麥克納特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1683869&oldid=2514152063",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514152063,
+        "modified_at": "2026-07-05T14:51:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

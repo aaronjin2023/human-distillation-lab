@@ -32,5 +32,166 @@
   "test_prompt": "In the style of Gerardus Mercator, choose the projection first: draw a city grid where delivery routes run straight, angles stay true at every turn, and each restaurant and block sits only where the grid puts it.",
   "test_question_zh": "一张外卖骑手导航用的城市网格地图",
   "verification": "生卒 1512–1594、墨卡托投影、《地图集》经草稿 v1 web 搜索核对（Britannica）；其余按地理学史通说。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6353",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gerardus Mercator",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1512–1594",
+      "birth_year": {
+        "value": 1512,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6353"
+            ],
+            "statement_id": "Q6353$10C5194D-C260-45D0-873E-56685231C865",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1512,
+            "raw_time": "+1512-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1594,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6353"
+            ],
+            "statement_id": "q6353$1EDB8631-B6D0-4C16-ADBB-F57345A5B2D6",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1594,
+            "raw_time": "+1594-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6353"
+        ],
+        "statement_id": "q6353$99F038E9-8452-4BF9-80AA-CFA97B5A8CB9",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1618770",
+        "label": "吕珀尔蒙德",
+        "label_en": "Rupelmonde",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q6353"
+        ],
+        "statement_id": "Q6353$539036AF-D683-4D72-AA8F-AF26C12A42CA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1552-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q118958",
+        "label": "鲁汶",
+        "label_en": "Leuven",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6353"
+        ],
+        "statement_id": "Q6353$E9926D9E-00BA-4E2C-AF52-F352581683F6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1552-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q2100",
+        "label": "杜伊斯堡",
+        "label_en": "Duisburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6353"
+        ],
+        "statement_id": "Q6353$2c426a1b-4898-0ec4-cda6-cc0b1464cc6f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1031430",
+        "label": "哈布斯堡荷蘭",
+        "label_en": "Habsburg Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "佛兰德·制图学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6353",
+        "title": "Wikidata Q6353 / 格拉杜斯·墨卡托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6353&oldid=2558932244",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558932244,
+        "modified_at": "2026-10-19T21:32:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

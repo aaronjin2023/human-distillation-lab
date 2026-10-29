@@ -64,5 +64,143 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "家政工与月嫂的无酬劳动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q597248",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Silvia Federici",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q597248"
+            ],
+            "statement_id": "Q597248$e92e6659-d67d-4cbb-8bc4-5ade67c9b7e1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q597248"
+            ],
+            "statement_id": "Q597248$ea578b90-40fb-9a05-9a21-6b5639bede8d",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q597248"
+        ],
+        "statement_id": "Q597248$DD5A7406-26F6-4674-AD0E-2C7AA2334F15",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2683",
+        "label": "帕尔马",
+        "label_en": "Parma",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q597248"
+        ],
+        "statement_id": "Q597248$32427447-529D-4813-AC58-2B07C1FA4C37",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q597248"
+        ],
+        "statement_id": "Q597248$CAE25F8A-B53C-4EA7-8DE2-A25480D1A488",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q597248"
+        ],
+        "statement_id": "Q597248$70db1543-463f-ba5d-70d4-61ecaa41fdce",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "马克思主义女性主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q597248",
+        "title": "Wikidata Q597248 / 西尔维亚·费德里奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q597248&oldid=2548709116",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548709116,
+        "modified_at": "2026-09-23T06:24:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

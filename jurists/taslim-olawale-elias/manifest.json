@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市更新中的习惯土地纠纷（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1914–1991、国际法院院长 1982–1985 见草稿第 7 节核对记录；无可确证的短句名言，故语言样本全为 artifact 级；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q528855",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Taslim Olawale Elias",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1991",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q528855"
+            ],
+            "statement_id": "q528855$95A2ADFE-F9EB-435A-9E3E-07190A717222",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-11-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q528855"
+            ],
+            "statement_id": "q528855$79F7727C-8AC8-4C52-997C-3C2ED33B92F3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q528855"
+        ],
+        "statement_id": "Q528855$8A5E0280-24F6-447C-8AB4-B34B22E71BD5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8673",
+        "label": "拉各斯",
+        "label_en": "Lagos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q528855"
+        ],
+        "statement_id": "q528855$06B8979A-9939-4265-AE6F-8CE91B2F64A3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1033",
+        "label": "尼日利亚",
+        "label_en": "Nigeria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际法·非洲",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q528855",
+        "title": "Wikidata Q528855 / 塔斯利·埃里亞斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q528855&oldid=2554495331",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554495331,
+        "modified_at": "2026-10-07T11:00:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

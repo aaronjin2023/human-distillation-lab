@@ -43,5 +43,102 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "努斯鲍姆风格：一份能力清单评估，论残障人士无障碍出行：每一个人实际上能做什么、能成为什么？以核心能力清单评判城市，不以GDP评判。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q235470",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martha Nussbaum",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q235470"
+            ],
+            "statement_id": "q235470$6F8524B1-57E1-49FF-AF3C-86CE776EF483",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q235470"
+        ],
+        "statement_id": "q235470$BE8C0DED-3616-4FB2-B76E-C096F69F8335",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q235470"
+        ],
+        "statement_id": "q235470$E26F3883-FC52-42CC-854B-E2B45D616CAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "能力正义 / 法哲学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q235470",
+        "title": "Wikidata Q235470 / 玛莎·努斯鲍姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q235470&oldid=2558158179",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558158179,
+        "modified_at": "2026-10-17T23:33:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

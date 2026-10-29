@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Josiah Willard Gibbs, predict a new alloy's phase diagram: define free energy and chemical potentials first, derive the phase rule constraints, predict which phases coexist, and accept the prediction only when measured phase changes confirm it",
   "test_question_zh": "一种新合金的相图未知，怎么从理论上预测？",
   "verification": "2026-10-26：生卒 1839–1903、相律、化学势经化学史通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153243",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Josiah Willard Gibbs",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1839–1903",
+      "birth_year": {
+        "value": 1839,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153243"
+            ],
+            "statement_id": "q153243$1AA13389-EC36-4DB0-A9D3-52D5B43BC881",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1839,
+            "raw_time": "+1839-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153243"
+            ],
+            "statement_id": "q153243$44B4ABB4-EA3C-438F-BE2D-231B7189CFB7",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153243"
+        ],
+        "statement_id": "q153243$CCBF548D-D72A-45A9-B43F-8B3E97EEE015",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q49145",
+        "label": "纽黑文",
+        "label_en": "New Haven",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153243"
+        ],
+        "statement_id": "q153243$3279F86F-310C-4BE8-B85E-89C99389F59B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学热力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153243",
+        "title": "Wikidata Q153243 / 约西亚·威拉德·吉布斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153243&oldid=2561119349",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561119349,
+        "modified_at": "2026-10-26T16:57:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

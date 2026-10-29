@@ -40,5 +40,104 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（跨境视角）（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55566726",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peggy B. Musgrave",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2017",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55566726"
+            ],
+            "statement_id": "Q55566726$DD286AEA-391D-497C-A921-61569F5D7F22",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55566726"
+            ],
+            "statement_id": "Q55566726$06CA3B90-A677-4145-BF3B-5194409ABCA5",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-08-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55566726"
+        ],
+        "statement_id": "Q55566726$B5A5F357-9220-4770-A0F6-B42043E2236E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1011062",
+        "label": "摩尔登镇 (艾塞克斯郡)",
+        "label_en": "Maldon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·国际税收",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55566726",
+        "title": "Wikidata Q55566726 / Peggy Musgrave",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55566726&oldid=2554300045",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554300045,
+        "modified_at": "2026-10-07T02:41:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

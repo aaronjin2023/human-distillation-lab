@@ -38,5 +38,153 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市机场贵宾室服务员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q466195",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Laura Biagiotti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1943–2017",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q466195"
+            ],
+            "statement_id": "Q466195$48CA4193-F98D-463D-908E-B7567E12213F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q466195"
+            ],
+            "statement_id": "Q466195$81457306-AFF1-4A87-8889-53CC1BF19B6A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q466195"
+        ],
+        "statement_id": "Q466195$E8B2C6C0-2106-45C1-BDCA-6C4B01851980",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q466195"
+        ],
+        "statement_id": "q466195$FCBE05F9-2B14-4845-86A7-73FCAE4BDC72",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q466195"
+        ],
+        "statement_id": "Q466195$88AE9D01-A9F9-4BBC-AA33-4FC5F824227B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣 / 羊绒",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q466195",
+        "title": "Wikidata Q466195 / 勞拉·比亞戈蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q466195&oldid=2558110356",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558110356,
+        "modified_at": "2026-10-17T21:10:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

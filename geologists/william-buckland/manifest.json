@@ -30,5 +30,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：一处洞穴堆满碎骨，如何判断是巢穴还是洪水冲积？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312389",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Buckland",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1784–1856",
+      "birth_year": {
+        "value": 1784,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312389"
+            ],
+            "statement_id": "q312389$C387F664-0619-401F-8224-0F8609A5A07D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1784,
+            "raw_time": "+1784-03-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312389"
+            ],
+            "statement_id": "q312389$BB5D6DBE-3EDF-4C4C-A476-359D8E0BC702",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312389"
+        ],
+        "statement_id": "Q312389$7A4E9C60-388C-4057-A7C0-5B81846BAE99",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q792596",
+        "label": "阿克斯敏斯特",
+        "label_en": "Axminster",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312389"
+        ],
+        "statement_id": "q312389$46D1095C-FFA1-4C0A-BD14-3D6DA88C6706",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312389",
+        "title": "Wikidata Q312389 / 威廉·巴克蘭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312389&oldid=2554665778",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554665778,
+        "modified_at": "2026-10-07T18:05:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

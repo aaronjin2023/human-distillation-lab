@@ -46,5 +46,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Virginia Satir, analyse a small Yorkshire terrier sitting on a subway seat while its owner scrolls a phone. Sculpt the family in the carriage: who placates, who blames, who goes super-reasonable, and what congruent contact would look like instead.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q237979",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Virginia Satir",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–1988",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q237979"
+            ],
+            "statement_id": "q237979$38B3E8AE-4FB0-4F7F-8BD2-7EC6DDA5AF46",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1988,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q237979"
+            ],
+            "statement_id": "q237979$6A7CCDCD-602D-41B7-8497-213838A6F8DE",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1988,
+            "raw_time": "+1988-09-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q237979"
+        ],
+        "statement_id": "q237979$472B2D9D-E5B6-40D7-900B-090BAFFFB6BB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1569781",
+        "label": "Neillsville",
+        "label_en": "Neillsville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q237979"
+        ],
+        "statement_id": "q237979$704AAC1B-CBD1-466D-9D5C-08169237FFB5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "家庭治疗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q237979",
+        "title": "Wikidata Q237979 / 维琴尼亚·萨提尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q237979&oldid=2555072449",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555072449,
+        "modified_at": "2026-10-08T16:49:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

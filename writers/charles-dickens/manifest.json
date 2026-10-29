@@ -43,5 +43,148 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Charles Dickens",
-  "writer_zh": "查尔斯·狄更斯"
+  "writer_zh": "查尔斯·狄更斯",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5686",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Dickens",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1812–1870",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5686"
+            ],
+            "statement_id": "q5686$DAF123C9-22A2-4A1D-A543-DA1D0ECF79BC",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1812,
+            "raw_time": "+1812-02-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5686"
+            ],
+            "statement_id": "q5686$4A08F285-2A2E-4817-B574-B83F88D567B3",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1870,
+            "raw_time": "+1870-06-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5686"
+        ],
+        "statement_id": "Q5686$339513f5-431f-6f92-831a-376c80524e92",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1803681",
+        "label": "Landport",
+        "label_en": "Landport",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5686"
+        ],
+        "statement_id": "Q5686$CD8D77AD-9B7C-4F3A-846F-72A87980A9D9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q507517",
+        "label": "罗彻斯特",
+        "label_en": "Rochester",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5686"
+        ],
+        "statement_id": "Q5686$D4FD2CAA-245D-4ED1-90E5-DEC71097B09E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·小说",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5686",
+        "title": "Wikidata Q5686 / 查尔斯·狄更斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5686&oldid=2557836706",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557836706,
+        "modified_at": "2026-10-17T03:00:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

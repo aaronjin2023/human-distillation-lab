@@ -38,5 +38,155 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市婚礼策划师的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q288029",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Oscar de la Renta",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2014",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q288029"
+            ],
+            "statement_id": "q288029$8CC9F85D-51CD-4671-A83B-B4B53D631148",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-07-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q288029"
+            ],
+            "statement_id": "Q288029$f13414bc-4427-e225-058e-bbdc33e83749",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q288029"
+        ],
+        "statement_id": "q288029$156EBF00-41AC-4E5A-B884-D335956A7653",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34820",
+        "label": "圣多明哥",
+        "label_en": "Santo Domingo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q288029"
+        ],
+        "statement_id": "Q288029$674402D0-246E-42A5-B7CB-9E8D15D3353E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q288029"
+        ],
+        "statement_id": "Q288029$b7fc457f-4a7b-13b3-1662-139bae691c4c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q786",
+        "label": "多米尼加",
+        "label_en": "Dominican Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q288029"
+        ],
+        "statement_id": "Q288029$35ac5acd-4539-adba-0c71-790888cb6737",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1971-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "多米尼加—美国·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q288029",
+        "title": "Wikidata Q288029 / 奥斯卡·德拉伦塔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q288029&oldid=2558201955",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558201955,
+        "modified_at": "2026-10-18T01:52:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

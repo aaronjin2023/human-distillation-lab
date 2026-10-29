@@ -44,5 +44,170 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q45546",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Wordsworth",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1770–1850",
+      "birth_year": {
+        "value": 1770,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45546"
+            ],
+            "statement_id": "q45546$8CBC6267-FCBB-4736-AE33-15685BD34DA0",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1770,
+            "raw_time": "+1770-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1850,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45546"
+            ],
+            "statement_id": "q45546$A2BF0D51-507E-44B7-B41A-7CB05B97B7AA",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1850,
+            "raw_time": "+1850-04-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q45546"
+        ],
+        "statement_id": "q45546$E6088477-2A92-49DD-834A-408E3285F678",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q241684",
+        "label": "柯克茅斯",
+        "label_en": "Cockermouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q45546"
+        ],
+        "statement_id": "Q45546$C4CAAA3E-9586-4DF3-8D8A-C053233088DA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3896",
+        "label": "戈斯拉尔",
+        "label_en": "Goslar",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q45546"
+        ],
+        "statement_id": "Q45546$EFD05B51-8A32-401A-9F99-D03B4BBF657E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q45546"
+        ],
+        "statement_id": "Q45546$A1DBEB87-ACD0-4BB6-833B-DB6B8EFF1FA2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q45546"
+          ],
+          "statement_id": "Q45546$D27C8296-881B-4C7A-B646-F71F4F5D5CD4",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q42406",
+          "label": "英格蘭人",
+          "label_en": "English people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英国·湖畔派诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q45546",
+        "title": "Wikidata Q45546 / 威廉·华兹华斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q45546&oldid=2561220783",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561220783,
+        "modified_at": "2026-10-26T22:46:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,118 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q281411",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André Franquin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–1997",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281411"
+            ],
+            "statement_id": "q281411$B6CC4B34-DEE8-4F20-B348-1F24F4EC0D3A",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281411"
+            ],
+            "statement_id": "q281411$CB54F50D-FAF1-42C0-AAB2-3A01D1C7A820",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q281411"
+        ],
+        "statement_id": "q281411$25544D05-4315-415C-8A8E-03219B3DCD27",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q192859",
+        "label": "埃特贝克",
+        "label_en": "Etterbeek",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q281411"
+        ],
+        "statement_id": "q281411$F2E10EDD-E9ED-41B9-9F6C-BC32F9C02D64",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "比利时·法比漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q281411",
+        "title": "Wikidata Q281411 / 安德烈·弗朗坎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q281411&oldid=2557762453",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557762453,
+        "modified_at": "2026-10-16T22:25:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

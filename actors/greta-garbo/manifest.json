@@ -47,5 +47,156 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5443",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Greta Garbo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1990",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5443"
+            ],
+            "statement_id": "q5443$E02FC2F4-B818-41CE-B176-70563AD6595F",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-09-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5443"
+            ],
+            "statement_id": "q5443$256FFC83-5624-4530-9B31-21A15EE48C9B",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5443"
+        ],
+        "statement_id": "Q5443$06dee423-456a-bed6-7d38-e5042c078758",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3427889",
+        "label": "Katarina church parish",
+        "label_en": "Katarina church parish",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5443"
+        ],
+        "statement_id": "Q5443$F8CEBAAE-56A2-41E5-9879-96C24C9431D7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5443"
+        ],
+        "statement_id": "q5443$B05B9706-7C9E-4149-B5FD-A81ACA04E497",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5443"
+        ],
+        "statement_id": "Q5443$0CCDDF9F-5C72-4CC1-8E92-4A954D497B6A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1951-02-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "瑞典/美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5443",
+        "title": "Wikidata Q5443 / 葛丽泰·嘉宝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5443&oldid=2558570706",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558570706,
+        "modified_at": "2026-10-19T00:25:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

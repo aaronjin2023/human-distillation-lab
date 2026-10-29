@@ -38,5 +38,187 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "博罗米尼风格：现代城市街角的一座社区图书馆，凹凸起伏曲面墙，椭圆形阅览厅，白色灰泥室内，交错拱采光塔穹顶，无直面立面。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123150",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francesco Borromini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1599–1667",
+      "birth_year": {
+        "value": 1599,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123150"
+            ],
+            "statement_id": "q123150$8CC7790B-F468-421B-B6E3-61C9F4571400",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1599,
+            "raw_time": "+1599-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1667,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123150"
+            ],
+            "statement_id": "q123150$8249F709-5D9C-495C-A655-510E802D8FDA",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1667,
+            "raw_time": "+1667-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123150"
+        ],
+        "statement_id": "q123150$3E27EE6F-70C7-4726-A73A-5B37222CA98A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q69269",
+        "label": "比索内",
+        "label_en": "Bissone",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q123150"
+        ],
+        "statement_id": "Q123150$809efd7b-8974-4e9e-bb16-69b777a540c4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1608-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1615-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q490",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q123150"
+        ],
+        "statement_id": "Q123150$1628eabd-d8fa-4442-809a-6aeae165a85c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1615-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1667-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123150"
+        ],
+        "statement_id": "Q123150$F4E6DE8D-925B-42D4-A82B-CFB9B0675192",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123150",
+        "title": "Wikidata Q123150 / 博罗米尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123150&oldid=2557881633",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557881633,
+        "modified_at": "2026-10-17T05:38:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

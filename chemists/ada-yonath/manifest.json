@@ -32,5 +32,131 @@
   "test_prompt": "In the style of Ada Yonath, determine how a new antibiotic binds the ribosome: first grow and cryo-cool ribosome crystals, then collect complete diffraction data, solve the structure with the antibiotic bound, and only claim the binding site when the density map shows it",
   "test_question_zh": "测定一种新型抗生素与核糖体的结合结构",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7426",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ada Yonath",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7426"
+            ],
+            "statement_id": "q7426$4D683C60-E014-4F30-A00F-EB2E68131131",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2026,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7426"
+            ],
+            "statement_id": "Q7426$58d3edd7-418e-36c1-8c2e-ceed19ebf3af",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2026,
+            "raw_time": "+2026-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7426"
+        ],
+        "statement_id": "Q7426$85552DE7-3B49-4118-B2F9-1532302B7AF2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1218",
+        "label": "耶路撒冷",
+        "label_en": "Jerusalem",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7426"
+        ],
+        "statement_id": "Q7426$252EA7AD-3AC7-4148-B749-4B8E0ABA7BC4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4182",
+        "label": "魏茨曼科學研究所",
+        "label_en": "Weizmann Institute of Science",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7426"
+        ],
+        "statement_id": "Q7426$823a66b8-40ac-40a6-65dc-30f339b2cd8a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "结构生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7426",
+        "title": "Wikidata Q7426 / 阿达·约纳特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7426&oldid=2557593843",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557593843,
+        "modified_at": "2026-10-16T06:54:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

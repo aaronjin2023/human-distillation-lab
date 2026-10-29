@@ -43,5 +43,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜外卖员（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1514",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Janis Joplin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1943–1970",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1514"
+            ],
+            "statement_id": "q1514$F9196460-F27D-4C5E-81FF-9D16EDEB3721",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1514"
+            ],
+            "statement_id": "q1514$2B3B67D4-395B-40C0-9607-2AB129139264",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1514"
+        ],
+        "statement_id": "Q1514$F7EBC994-EC28-452D-B50B-E5B2069D87A0",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q45400",
+        "label": "阿瑟港",
+        "label_en": "Port Arthur",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1514"
+        ],
+        "statement_id": "Q1514$CBAC911D-8780-47DC-A3A3-F6AA623B83C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "摇滚·布鲁斯摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1514",
+        "title": "Wikidata Q1514 / 珍妮絲·賈普林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1514&oldid=2558124079",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558124079,
+        "modified_at": "2026-10-17T21:49:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

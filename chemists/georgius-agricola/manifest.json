@@ -1,35 +1,73 @@
 {
- "chemist": "Georgius Agricola",
- "chemist_zh": "阿格里科拉",
- "dates": "1494–1555",
- "field": "矿物化学 / 冶金",
- "list_position": "化学家草稿 v1 A 炼金术与早期化学 #6",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "《论金属》（矿物与冶金体系）",
-  "矿物分类",
-  "冶金与采矿化学"
- ],
- "sources": [
-  "Wikipedia 'Georgius Agricola' https://en.wikipedia.org/wiki/Georgius_Agricola",
-  "Britannica 'Georgius Agricola' https://www.britannica.com/biography/Georgius-Agricola"
- ],
- "test_prompt": "In the style of Georgius Agricola, design a plan to work an unknown ore: first survey the mine and classify the ore by fire and water tests, then propose a smelting sequence with diagrams, and state what would make you change the sequence.",
- "test_question_zh": "如何开采与冶炼一种未知矿石？",
- "verification": "2026-10-26：生卒、《论金属》、矿物分类按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "《论金属》原文（拉丁文）细节未逐篇核对，多据译本与综述",
-  "具体矿物分类条目的原文未逐一核对",
-  "矿区调查的具体地点与时间未逐项核对"
- ]
+  "chemist": "Georgius Agricola",
+  "chemist_zh": "阿格里科拉",
+  "dates": "1494–1555",
+  "field": "矿物化学 / 冶金",
+  "list_position": "化学家草稿 v1 A 炼金术与早期化学 #6",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《论金属》（矿物与冶金体系）",
+    "矿物分类",
+    "冶金与采矿化学"
+  ],
+  "sources": [
+    "Wikipedia 'Georgius Agricola' https://en.wikipedia.org/wiki/Georgius_Agricola",
+    "Britannica 'Georgius Agricola' https://www.britannica.com/biography/Georgius-Agricola"
+  ],
+  "test_prompt": "In the style of Georgius Agricola, design a plan to work an unknown ore: first survey the mine and classify the ore by fire and water tests, then propose a smelting sequence with diagrams, and state what would make you change the sequence.",
+  "test_question_zh": "如何开采与冶炼一种未知矿石？",
+  "verification": "2026-10-26：生卒、《论金属》、矿物分类按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "《论金属》原文（拉丁文）细节未逐篇核对，多据译本与综述",
+    "具体矿物分类条目的原文未逐一核对",
+    "矿区调查的具体地点与时间未逐项核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": []
+    },
+    "life": {
+      "original_text": "1494–1555",
+      "birth_year": {
+        "value": 1494,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1555,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "矿物化学 / 冶金"
+    },
+    "sources": []
+  }
 }

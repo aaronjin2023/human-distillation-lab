@@ -29,5 +29,55 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板的音乐适配）",
   "test_prompt": "现代题材：一杯放在窗台上的咖啡，午后晚些时候（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作以草稿名单为准，英文维基通说对照；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q467895",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Mohammed Abdel Wahab",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1902–1991",
+      "birth_year": {
+        "value": 1902,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯 / 埃及"
+    },
+    "sources": []
+  }
 }

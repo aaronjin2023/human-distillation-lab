@@ -27,3 +27,7 @@
 
 - 来源：维基百科“Rossetti”；泰特美术馆藏品说明
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

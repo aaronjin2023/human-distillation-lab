@@ -55,5 +55,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市跑者的晨跑套装（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q20984058",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guo Pei",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1967–",
+      "birth_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q20984058"
+            ],
+            "statement_id": "Q20984058$9B8609C1-2DF4-41D2-942A-7366F8C4359E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q20984058"
+        ],
+        "statement_id": "Q20984058$3252c2c8-4911-5773-f493-31f26d2dba62",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q956",
+        "label": "北京市",
+        "label_en": "Beijing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q20984058"
+        ],
+        "statement_id": "Q20984058$9dcddb87-4c71-a8f1-cbc8-4cbf360262e9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q20984058",
+        "title": "Wikidata Q20984058 / 郭培",
+        "url": "https://www.wikidata.org/w/index.php?title=Q20984058&oldid=2516109348",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516109348,
+        "modified_at": "2026-07-11T00:38:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

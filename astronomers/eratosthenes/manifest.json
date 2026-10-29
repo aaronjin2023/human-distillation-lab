@@ -37,5 +37,103 @@
   "test_prompt": "In the style of Eratosthenes, estimate Earth's circumference from modern shadow data in two cities: measure the same noon in both, take the angle difference as a fraction of a circle, scale up, and list every assumption the scaling depends on",
   "test_question_zh": "用埃拉托斯特尼的方法，从现代两地日影数据估计地球周长",
   "verification": "2026-10-26：周长 252,000 斯塔德、两城距离 5,000 斯塔德、影角 1/50 圆周经 web 搜索核对；草稿“岁差观测”已证为误归。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43182",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eratosthenes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.276–c.194 BCE",
+      "birth_year": {
+        "value": -276,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43182"
+            ],
+            "statement_id": "Q43182$3BBAE812-A05A-416A-A833-9FBEFCCD9BA7",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": -276,
+            "raw_time": "-0276-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -194,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43182"
+            ],
+            "statement_id": "Q43182$1915CB06-B102-4987-B8D7-0B2910C292D8",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": -194,
+            "raw_time": "-0194-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43182"
+        ],
+        "statement_id": "q43182$F6BEF7A9-2B67-4795-B1AF-0C51031A8F84",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q44112",
+        "label": "昔兰尼",
+        "label_en": "Cyrene",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古希腊·大地测量"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43182",
+        "title": "Wikidata Q43182 / 埃拉托斯特尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43182&oldid=2557870064",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557870064,
+        "modified_at": "2026-10-17T05:06:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

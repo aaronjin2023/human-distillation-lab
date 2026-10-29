@@ -44,5 +44,161 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1067",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dante Alighieri",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1265–1321",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1067"
+            ],
+            "statement_id": "Q1067$87efc5de-495a-6757-66d9-40356c348c3c",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1265,
+            "raw_time": "+1265-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1321,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1067"
+            ],
+            "statement_id": "Q1067$D111BAFC-2680-45DC-9A55-BD924620D8A0",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1321,
+            "raw_time": "+1321-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1067"
+        ],
+        "statement_id": "q1067$663075A6-6054-4859-B2B4-B34D7B382A2E",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1067"
+        ],
+        "statement_id": "Q1067$497295b6-8ee0-42d0-b4e4-2b5a99982ad2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1280-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1302-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1067"
+        ],
+        "statement_id": "Q1067$AA6D680E-704A-4AE4-A5BC-4F6CA9C7DC46",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148540",
+        "label": "佛罗伦萨共和国",
+        "label_en": "Republic of Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·史诗 / 抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1067",
+        "title": "Wikidata Q1067 / 但丁·阿利吉耶里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1067&oldid=2561501219",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561501219,
+        "modified_at": "2026-10-27T18:27:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

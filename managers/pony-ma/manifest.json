@@ -43,5 +43,115 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1739008",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pony Ma",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1739008"
+            ],
+            "statement_id": "Q1739008$f27907cf-47e5-62c0-1111-2649b3944888",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1739008"
+        ],
+        "statement_id": "Q1739008$05E92550-4104-4BF6-9B5F-268CA9E452BD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1062618",
+        "label": "潮阳区",
+        "label_en": "Chaoyang District",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1739008"
+        ],
+        "statement_id": "Q1739008$920F3F4D-81E0-487A-8053-37F48B94E05E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q59227",
+        "label": "潮州市",
+        "label_en": "Chaozhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1739008"
+        ],
+        "statement_id": "Q1739008$D0693ECD-F143-4EE6-B07B-AFD4B6CA7D5A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "互联网",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1739008",
+        "title": "Wikidata Q1739008 / 马化腾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1739008&oldid=2557348493",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557348493,
+        "modified_at": "2026-10-15T16:13:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

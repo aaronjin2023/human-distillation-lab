@@ -43,5 +43,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人是否该为自助结账机漏扫的商品付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q229646",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "G. E. M. Anscombe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–2001",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229646"
+            ],
+            "statement_id": "Q229646$8F59C111-DEF3-4673-B9E0-A4C33680AF82",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-03-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229646"
+            ],
+            "statement_id": "Q229646$93B19428-4D48-44CA-B4E1-DB67973AC9A8",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q229646"
+        ],
+        "statement_id": "q229646$0A0884E6-0479-41EE-9CCC-88AD2504E8D4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q133315",
+        "label": "利默里克",
+        "label_en": "Limerick",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q229646"
+        ],
+        "statement_id": "q229646$02510661-98E3-4F9D-B0D4-D362C24AA5E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学·行动哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q229646",
+        "title": "Wikidata Q229646 / 伊莉莎白·安斯康姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q229646&oldid=2557866885",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557866885,
+        "modified_at": "2026-10-17T04:55:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

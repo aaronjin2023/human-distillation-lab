@@ -44,5 +44,157 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q982623",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kazuo Inamori",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2022",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982623"
+            ],
+            "statement_id": "Q982623$66852C2A-C628-426D-B87A-EFCBCCC339B0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q982623"
+            ],
+            "statement_id": "Q982623$4039291c-43b2-11f1-c274-dd5991c0bf18",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-01-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982623"
+            ],
+            "statement_id": "Q982623$e1890a3a-4303-f24c-eb65-35d9e6c10c03",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-08-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q982623"
+        ],
+        "statement_id": "Q982623$97ED8558-4FAD-4164-9705-4C177536F430",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15674",
+        "label": "鹿兒島市",
+        "label_en": "Kagoshima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q982623"
+        ],
+        "statement_id": "q982623$4B833E2E-C2B2-4934-9173-6B185654F93B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q982623"
+        ],
+        "statement_id": "Q982623$A30E9433-00EF-4CDC-85C5-3FB4B2901EC0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "精密陶瓷 / 航空",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q982623",
+        "title": "Wikidata Q982623 / 稻盛和夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q982623&oldid=2541027773",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541027773,
+        "modified_at": "2026-09-06T11:07:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

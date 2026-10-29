@@ -41,5 +41,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "巴瓦风格：现代热带度假园，湖为镜，鸡蛋花与棕榈，开敞亭阁宽檐，曲径穿荫凉微风而过，属于热带的现代主义。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3610582",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Geoffrey Bawa",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–2003",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3610582"
+            ],
+            "statement_id": "Q3610582$0233B2CB-2F20-45AE-8676-849FB1A2FB9D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3610582"
+            ],
+            "statement_id": "Q3610582$DDBBF5E8-6286-4BE6-A57D-30E0E9451591",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3610582"
+        ],
+        "statement_id": "Q3610582$4956434A-2EB0-4DA8-AFD1-C2A54300C9CA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q918153",
+        "label": "英屬錫蘭",
+        "label_en": "British Ceylon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3610582"
+        ],
+        "statement_id": "Q3610582$F2C20ABC-00C3-43BB-97AE-315559FCBEDE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q854",
+        "label": "斯里兰卡",
+        "label_en": "Sri Lanka",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "斯里兰卡·热带现代主义",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3610582",
+        "title": "Wikidata Q3610582 / 喬佛瑞·包瓦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3610582&oldid=2527728209",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527728209,
+        "modified_at": "2026-08-05T18:38:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

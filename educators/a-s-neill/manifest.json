@@ -43,5 +43,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "尼尔风格：为一所自由学校的青少年设计一堂关于人工智能的课。不强制：开课、让学生自愿来，开学校大会决定本校使用 AI 的规则，教师只教自愿来的人，快乐与诚实第一。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q316792",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "A. S. Neill",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1973",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q316792"
+            ],
+            "statement_id": "Q316792$523C1D3A-D36C-4B8D-9F66-89833F0AA826",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q316792"
+            ],
+            "statement_id": "Q316792$FA4A9E56-87AC-4474-BF7B-E33F0456D3A4",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q316792"
+        ],
+        "statement_id": "Q316792$2f842f28-4376-6420-6694-698de898307e",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q996509",
+        "label": "佛尔法尔",
+        "label_en": "Forfar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q316792"
+        ],
+        "statement_id": "q316792$AEECD454-E56D-4EDF-A709-A8FC4599274D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "自由学校（夏山学校）",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q316792",
+        "title": "Wikidata Q316792 / 亚历山大·萨瑟兰·尼尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q316792&oldid=2561365847",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561365847,
+        "modified_at": "2026-10-27T08:13:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,152 @@
   "test_prompt": "In the style of Friedrich Bessel, measure a modern exoplanet host star's parallax: observe it for a full year against distant background stars, publish the parallax angle with its error bar, and predict any unseen companion from the residual wobble — clearly labelled as a prediction",
   "test_question_zh": "测量一颗系外行星宿主恒星的视差",
   "verification": "生卒 1784–1846、天鹅座 61 视差 1838 年、天狼星伴星预言按天文史通说（Wikipedia / Britannica 共识）写；优先权争议已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q75845",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Bessel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1784–1846",
+      "birth_year": {
+        "value": 1784,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75845"
+            ],
+            "statement_id": "q75845$40FF3FC5-9F16-407C-829C-716AB1849F20",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1784,
+            "raw_time": "+1784-07-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75845"
+            ],
+            "statement_id": "q75845$6BCC23DD-DA47-4EAE-A6C8-23927FA82CBC",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18195782,
+                  "id": "Q18195782"
+                }
+              ]
+            },
+            "value": 1846,
+            "raw_time": "+1846-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q75845"
+        ],
+        "statement_id": "q75845$8256572A-EEC7-42AA-9721-800AB32FDED8",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q3846",
+        "label": "明登",
+        "label_en": "Minden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q75845"
+        ],
+        "statement_id": "Q75845$3B52F8FC-4CC6-4853-AEFF-E38FEBFA6EE5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q499920",
+        "label": "利林塔尔",
+        "label_en": "Lilienthal",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q75845"
+        ],
+        "statement_id": "Q75845$68B279D1-DCB2-4921-94A5-E7093929433B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q75845"
+        ],
+        "statement_id": "q75845$CABCD69F-12C1-4025-8459-997F013A0BED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·恒星视差"
+    },
+    "sources": [
+      {
+        "id": "WD:Q75845",
+        "title": "Wikidata Q75845 / 弗里德里希·威廉·贝塞尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q75845&oldid=2561180611",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561180611,
+        "modified_at": "2026-10-26T20:16:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

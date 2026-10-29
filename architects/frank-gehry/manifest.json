@@ -43,5 +43,230 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q180374",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frank Gehry",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1929–",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180374"
+            ],
+            "statement_id": "q180374$9473AF8A-1243-4542-84BA-F08910B43562",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-02-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180374"
+            ],
+            "statement_id": "Q180374$63aca17a-4783-dd93-3b7f-6103ba63e1e1",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "q180374$D6608F6D-5367-4EE8-9190-54B4C6168B83",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q172",
+        "label": "多伦多",
+        "label_en": "Toronto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "Q180374$1dd3e11a-4740-f03c-1a19-9b6a9e6a7279",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q172",
+        "label": "多伦多",
+        "label_en": "Toronto",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "Q180374$d1f42482-b057-4f18-bfd0-7a29dcc395ce",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "Q180374$7DF5B53B-1830-4469-8AE8-6075C96DBAE6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47164",
+        "label": "圣莫尼卡",
+        "label_en": "Santa Monica",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "Q180374$48D674D4-D41A-4EBA-A0F1-C4EE0F89C955",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "q180374$641D9208-E234-4741-BEAC-50047AF2F4E1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1951-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "q180374$ECA267FC-A4BA-4534-B918-504610082A6D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1951-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q180374"
+        ],
+        "statement_id": "Q180374$da16a02f-4034-66d7-8b0e-8352c0186c14",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2002-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "解构主义 / 当代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q180374",
+        "title": "Wikidata Q180374 / 弗兰克·盖里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q180374&oldid=2561191704",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561191704,
+        "modified_at": "2026-10-26T20:47:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

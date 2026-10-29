@@ -39,5 +39,118 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬高卢人扛巨石于现代地铁站台，幽默漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q206685",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Albert Uderzo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2020",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q206685"
+            ],
+            "statement_id": "q206685$559AFDBB-3AE7-429D-9741-49AF1DF8A803",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q206685"
+            ],
+            "statement_id": "Q206685$cdc0f5c8-4cb7-5632-2b11-d19d557df25e",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q206685"
+        ],
+        "statement_id": "q206685$647FDECA-2405-439E-9172-D9B667BE0099",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1214970",
+        "label": "菲姆",
+        "label_en": "Fismes",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q206685"
+        ],
+        "statement_id": "q206685$F0781A74-3401-4801-A8A4-859196DD76E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·法比漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q206685",
+        "title": "Wikidata Q206685 / 阿尔贝·乌代尔佐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q206685&oldid=2560734467",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560734467,
+        "modified_at": "2026-10-25T15:41:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

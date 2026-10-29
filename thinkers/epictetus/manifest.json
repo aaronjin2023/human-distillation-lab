@@ -29,5 +29,55 @@
   "thinker": "Epictetus",
   "thinker_zh": "爱比克泰德",
   "verification": "2026-10-26 网络核对：生卒与代表作按草稿名单，辅以英文 Wikipedia / Stanford Encyclopedia 通说核对；未逐部核对创作年份；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q183144",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Epictetus",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.50–c.135",
+      "birth_year": {
+        "value": 50,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 135,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马斯多亚主义"
+    },
+    "sources": []
+  }
 }

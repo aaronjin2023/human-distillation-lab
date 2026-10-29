@@ -29,5 +29,261 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《圣维克多山》系列、1887 年一幅；《玩纸牌者》系列五幅；塞尚 1839–1906",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q35548",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Cézanne",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1839–1906",
+      "birth_year": {
+        "value": 1839,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q35548"
+            ],
+            "statement_id": "q35548$646A9DEA-E61C-4500-82F7-719EFF4B92B7",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1839,
+            "raw_time": "+1839-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q35548"
+            ],
+            "statement_id": "q35548$04714F9A-CF67-47A0-A75B-930A47DDA156",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "q35548$C38FD54C-6D13-4D25-90B6-EE6B1E10BE18",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q47465",
+        "label": "普罗旺斯地区艾克斯",
+        "label_en": "Aix-en-Provence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$6B9BC21B-F3F4-4A41-995D-6D732AD88A52",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2387781",
+        "label": "迪勒",
+        "label_en": "Diller",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$F1C6B05B-D8E4-45E7-ADFF-2E06AC720664",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q212406",
+        "label": "瓦兹河畔欧韦尔",
+        "label_en": "Auvers-sur-Oise",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$B1C58C4D-F80E-42B8-BBF6-27FF4B8A27F7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q126675",
+        "label": "尚蒂伊",
+        "label_en": "Chantilly",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$22161288-3E12-43A4-B826-501E5D7D3EEB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q165061",
+        "label": "吉韦尔尼",
+        "label_en": "Giverny",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$20881972-EA52-4F05-9ACA-60A0B8179E42",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23482",
+        "label": "马赛",
+        "label_en": "Marseille",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$4B7DCA9E-4215-45DF-81F9-BDBF4ECC9A18",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$DF16DE01-7F3B-4628-ADA0-2EE8199502E2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q201352",
+        "label": "蓬图瓦兹",
+        "label_en": "Pontoise",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$B735799E-00A6-4391-BFBA-8F6566E04A6E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q182872",
+        "label": "枫丹白露",
+        "label_en": "Fontainebleau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$8D81B367-BCFA-4302-9BDC-2ADE9D10FA06",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47465",
+        "label": "普罗旺斯地区艾克斯",
+        "label_en": "Aix-en-Provence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$25477CE9-71F2-4BC9-A68E-72C8A83075F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "Q35548$D4C8846A-6686-4FA5-AFB6-11D4D69091FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q762133",
+        "label": "卢沃谢讷",
+        "label_en": "Louveciennes",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q35548"
+        ],
+        "statement_id": "q35548$AED25922-8580-4F51-867D-C288DE5452C0",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "后印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q35548",
+        "title": "Wikidata Q35548 / 保罗·塞尚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q35548&oldid=2560382181",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560382181,
+        "modified_at": "2026-10-24T19:03:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

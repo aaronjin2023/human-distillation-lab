@@ -49,5 +49,103 @@
   ],
   "test_prompt": "地铁口小贩的街角社会",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1074700",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Foote Whyte",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–2000",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1074700"
+            ],
+            "statement_id": "Q1074700$8AAE14B7-A2D0-4067-BD3F-A3DF7E462416",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1074700"
+            ],
+            "statement_id": "Q1074700$748BB435-6C8F-44A6-B7B7-2BD46EA1FCD4",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1074700"
+        ],
+        "statement_id": "q1074700$87503345-6572-4993-B95A-403B08DF0D11",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "参与观察·工业社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1074700",
+        "title": "Wikidata Q1074700 / 威廉·富特·怀特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1074700&oldid=2550583405",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550583405,
+        "modified_at": "2026-09-28T18:29:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

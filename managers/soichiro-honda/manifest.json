@@ -43,5 +43,141 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313304",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Soichiro Honda",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1991",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313304"
+            ],
+            "statement_id": "q313304$20966A2A-E905-4BCD-8558-8C719E7DDF4D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-11-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313304"
+            ],
+            "statement_id": "q313304$231285B3-9817-463D-9824-F7D18A87A379",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313304"
+        ],
+        "statement_id": "q313304$616BF35A-56BC-4675-8776-B00CFB876B2A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174691",
+        "label": "静冈市",
+        "label_en": "Shizuoka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313304"
+        ],
+        "statement_id": "q313304$41E95552-BDAC-4601-91F2-8110BDA77D54",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q313304"
+        ],
+        "statement_id": "Q313304$D303AB89-A460-4B66-9385-E836E0377398",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "汽车 / 摩托"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313304",
+        "title": "Wikidata Q313304 / 本田宗一郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313304&oldid=2543306096",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543306096,
+        "modified_at": "2026-09-10T14:10:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

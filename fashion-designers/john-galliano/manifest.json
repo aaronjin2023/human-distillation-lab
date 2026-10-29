@@ -45,5 +45,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of John Galliano, a modern theatre box-office staff uniform, bias-cut slip dress, historical fantasy, dramatic storytelling, silk drape, black and ivory, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313607",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Galliano",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1960–",
+      "birth_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313607"
+            ],
+            "statement_id": "Q313607$E3A65920-C67B-4C09-96BF-5F791D19ADEF",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313607"
+        ],
+        "statement_id": "Q313607$34AF803E-8D2C-42D5-9B4D-950D7CCF7B68",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1410",
+        "label": "直布罗陀",
+        "label_en": "Gibraltar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313607"
+        ],
+        "statement_id": "Q313607$157D8250-5EC3-45E5-84BD-418C152DE465",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国—巴黎·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313607",
+        "title": "Wikidata Q313607 / 约翰·加利亚诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313607&oldid=2557989623",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557989623,
+        "modified_at": "2026-10-17T13:24:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

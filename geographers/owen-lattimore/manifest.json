@@ -24,5 +24,117 @@
   "test_prompt": "In the style of Owen Lattimore, survey a new border economic zone: walk its frontier, trace where farming meets herding, and show how the line moves",
   "test_question_zh": "一处新建边境经济区的农牧交界在哪里，界线如何移动？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1344502",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Owen Lattimore",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1989",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1344502"
+            ],
+            "statement_id": "Q1344502$5201B946-22F1-45C3-8B14-40C8AF58F180",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1344502"
+            ],
+            "statement_id": "Q1344502$EE50A9A8-4E5C-4662-975C-6E5C602810DA",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1344502"
+        ],
+        "statement_id": "q1344502$FCFAB1E7-0A9E-47C6-A6AA-432DD89E8E4A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1344502"
+        ],
+        "statement_id": "q1344502$E3ECFBE1-35AA-4A0D-A9F5-14036E37D05E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·中亚与边疆地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1344502",
+        "title": "Wikidata Q1344502 / 欧文·拉铁摩尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1344502&oldid=2551022859",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551022859,
+        "modified_at": "2026-09-29T22:05:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

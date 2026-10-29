@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "穗积陈重风格：一份比较法意见，论租房押金纠纷：比较德国、法国与日本民法典的方案，尊重习惯，保持体系完整。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q799787",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hozumi Nobushige",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1855–1926",
+      "birth_year": {
+        "value": 1855,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q799787"
+            ],
+            "statement_id": "Q799787$588ECA9A-C321-46DD-BF6C-DB5B1025FBE1",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q799787"
+            ],
+            "statement_id": "Q799787$1DCE9DFF-E52B-440C-B8CE-552D90AA7BCB",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q799787"
+        ],
+        "statement_id": "Q799787$e9ea803f-4537-b9c2-1c87-af11f4ae9fa6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q845857",
+        "label": "宇和岛市",
+        "label_en": "Uwajima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q799787"
+        ],
+        "statement_id": "Q799787$EE56CE4B-AD2E-40FC-B9B3-46E20A2B3940",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·民法",
+      "genre": "legislator / 立法者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q799787",
+        "title": "Wikidata Q799787 / 穂積陈重",
+        "url": "https://www.wikidata.org/w/index.php?title=Q799787&oldid=2552082534",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552082534,
+        "modified_at": "2026-10-02T08:22:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

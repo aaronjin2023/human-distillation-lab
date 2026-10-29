@@ -38,5 +38,116 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在公寓阳台看城市天际线的独居者（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1077842",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chris Ware",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1967–",
+      "birth_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1077842"
+            ],
+            "statement_id": "q1077842$AAFD5338-D8CB-4B70-AE24-1A6B3EF144AC",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1077842"
+        ],
+        "statement_id": "Q1077842$A93A4A06-4DE8-4539-ACC4-A003C23037DE",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q43199",
+        "label": "奥马哈",
+        "label_en": "Omaha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1077842"
+        ],
+        "statement_id": "Q1077842$6B181516-F76F-4FA7-8136-6705F1EDA52F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q331397",
+        "label": "奥克帕克",
+        "label_en": "Oak Park",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1077842"
+        ],
+        "statement_id": "q1077842$8E3D2F61-E448-4E1D-9688-9A5182F2DA82",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·另类漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1077842",
+        "title": "Wikidata Q1077842 / 克里斯·韋爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1077842&oldid=2560851022",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560851022,
+        "modified_at": "2026-10-25T23:21:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

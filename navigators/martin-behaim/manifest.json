@@ -36,5 +36,148 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Martin Behaim, an uncrewed survey vessel maps an unknown coast in 2026 and transfers it onto a globe, latitude by latitude, so the world can be held and read.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44838",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Behaim",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1459–1507",
+      "birth_year": {
+        "value": 1459,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44838"
+            ],
+            "statement_id": "q44838$290BDDAA-B192-4B40-BC55-D95EE68FA532",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1459,
+            "raw_time": "+1459-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q44838"
+            ],
+            "statement_id": "Q44838$DD6E5975-184C-427D-93CE-E750DB8A56D2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1459,
+            "raw_time": "+1459-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1507,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44838"
+            ],
+            "statement_id": "q44838$6DB71800-06AD-4F6F-9230-FC97AAD96DE5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1507,
+            "raw_time": "+1507-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q44838"
+            ],
+            "statement_id": "Q44838$C2D8B4AD-B852-4166-B5CE-4EF9C071B917",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1507,
+            "raw_time": "+1507-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44838"
+        ],
+        "statement_id": "q44838$3D8EF8A1-6753-42C6-B8D5-0D80BA6E73DE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2090",
+        "label": "纽伦堡",
+        "label_en": "Nuremberg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44838"
+        ],
+        "statement_id": "q44838$9CBB691A-D074-445E-AF48-C896B641539E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12548",
+        "label": "神圣罗马帝国",
+        "label_en": "Holy Roman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德意志—葡萄牙·航海技术",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44838",
+        "title": "Wikidata Q44838 / 马丁·贝海姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44838&oldid=2558158438",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558158438,
+        "modified_at": "2026-10-17T23:33:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q17505053",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Christina Tosi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1981–",
+      "birth_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17505053"
+            ],
+            "statement_id": "Q17505053$709f1a55-feee-4b7d-b3bd-d70d2277f8d7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-11-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q17505053"
+        ],
+        "statement_id": "Q17505053$9EE9E5AE-7401-4618-944B-08E0299973A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1397",
+        "label": "俄亥俄州",
+        "label_en": "Ohio",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q17505053"
+        ],
+        "statement_id": "Q17505053$cbabe5b5-4db0-366e-e7b8-79763e85bcdc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美式甜点",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q17505053",
+        "title": "Wikidata Q17505053 / 克里斯蒂娜·托西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q17505053&oldid=2529587346",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529587346,
+        "modified_at": "2026-08-10T11:27:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

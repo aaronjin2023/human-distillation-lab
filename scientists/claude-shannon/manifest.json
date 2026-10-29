@@ -28,5 +28,117 @@
     "1948年论文的定理表述版本待原文核对",
     "1956年滥用警告的原文待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q92760",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claude Shannon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–2001",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q92760"
+            ],
+            "statement_id": "q92760$E2BFA0F0-2485-4218-8491-22FEE867CD6F",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-04-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q92760"
+            ],
+            "statement_id": "q92760$F24C5E67-B365-443D-8A5A-0A3747E364E4",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q92760"
+        ],
+        "statement_id": "q92760$209458B0-429C-4B10-A54F-0C625E547C29",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2415663",
+        "label": "佩托斯基",
+        "label_en": "Petoskey",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q92760"
+        ],
+        "statement_id": "q92760$39E0D4EB-A0E9-489F-9590-159B3B22D642",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "信息 / 工程"
+    },
+    "sources": [
+      {
+        "id": "WD:Q92760",
+        "title": "Wikidata Q92760 / 克劳德·香农",
+        "url": "https://www.wikidata.org/w/index.php?title=Q92760&oldid=2558717558",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558717558,
+        "modified_at": "2026-10-19T08:49:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

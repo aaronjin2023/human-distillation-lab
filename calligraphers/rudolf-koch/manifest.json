@@ -37,5 +37,117 @@
   "test_prompt": "In the style of Rudolf Koch, German modern calligraphy, bold broad-nib letters, strong black-and-white contrast, black ink on paper, carved-letter feeling",
   "transmission": "真迹 / 印本并存；著作与字体设计为已发表成果物",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q66137",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rudolf Koch",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1876–1934",
+      "birth_year": {
+        "value": 1876,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q66137"
+            ],
+            "statement_id": "q66137$2F50D3AB-B479-4CD0-B0FE-1C4D36D61C7D",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1876,
+            "raw_time": "+1876-11-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q66137"
+            ],
+            "statement_id": "q66137$3E612CE0-5898-4444-8EDE-9A72FAEBBE3C",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q66137"
+        ],
+        "statement_id": "Q66137$589FA8A3-959F-4F7C-B201-C6E63AB009BC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2090",
+        "label": "纽伦堡",
+        "label_en": "Nuremberg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q66137"
+        ],
+        "statement_id": "q66137$B6BF2ED8-8AAF-4774-A9A3-3CE5C4F8FA2C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·现代书法 / 字体设计"
+    },
+    "sources": [
+      {
+        "id": "WD:Q66137",
+        "title": "Wikidata Q66137 / 鲁道夫·科赫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q66137&oldid=2558231106",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558231106,
+        "modified_at": "2026-10-18T03:31:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

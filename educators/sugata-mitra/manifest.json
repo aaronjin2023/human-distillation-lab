@@ -44,5 +44,102 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "米特拉风格：为乡村孩子设计一堂自组织学习课——人工智能。房间里放一台联网计算机，提一个大问题，四人一组自己探索、互相教，云端奶奶在屏幕上只鼓励，教师退后，不讲课、不考试。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4352958",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sugata Mitra",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4352958"
+            ],
+            "statement_id": "Q4352958$3A672CD7-DF27-44CA-B9C3-41CA0B6BE322",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4352958"
+        ],
+        "statement_id": "Q4352958$CCE4A6DE-1381-4CFB-9C4C-1895481E20FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1348",
+        "label": "加尔各答",
+        "label_en": "Kolkata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4352958"
+        ],
+        "statement_id": "Q4352958$3A5B0FA4-2A63-4D66-A664-D889AF48D442",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "自组织学习",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4352958",
+        "title": "Wikidata Q4352958 / 苏伽特·米特拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4352958&oldid=2561722870",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561722870,
+        "modified_at": "2026-10-28T15:54:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

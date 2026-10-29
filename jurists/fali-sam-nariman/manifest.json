@@ -43,5 +43,155 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "纳里曼风格：一份意见，论宪法修正案争议：基本结构不可修宪触动，司法独立是基本结构的一部分，良心高于便利。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5431880",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fali Sam Nariman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2024",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5431880"
+            ],
+            "statement_id": "Q5431880$848355A9-6CEF-4F17-AA22-BAE0C5712295",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5431880"
+            ],
+            "statement_id": "Q5431880$735a32f0-4655-2558-eff5-01249eb43bb0",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5431880"
+        ],
+        "statement_id": "Q5431880$CD6BCC9C-DFDC-4F47-9B03-565E2B51DCE7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q37995",
+        "label": "仰光",
+        "label_en": "Yangon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5431880"
+        ],
+        "statement_id": "Q5431880$6B2E654A-CC03-4F95-9F15-E23622F3B975",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5431880"
+        ],
+        "statement_id": "Q5431880$398DB011-B9DD-4490-B573-05D73CCB100A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5431880"
+        ],
+        "statement_id": "Q5431880$B381EB55-2DFA-4FA4-ACA3-3746C4B31FB9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·宪法 / 仲裁",
+      "genre": "lawyer / 律师"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5431880",
+        "title": "Wikidata Q5431880 / Fali Sam Nariman",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5431880&oldid=2514170215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514170215,
+        "modified_at": "2026-07-05T16:10:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

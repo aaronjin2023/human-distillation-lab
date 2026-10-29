@@ -40,5 +40,174 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Rudolf Nureyev, a commuter walking through rain with an umbrella, fiery male virtuosity, soaring jumps, powerful lifts, Romantic hero presence, dramatic and proud",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q84217",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rudolf Nureyev",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1938–1993",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84217"
+            ],
+            "statement_id": "q84217$2200FD45-C0DB-452A-99E8-60829D5F4DB5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84217"
+            ],
+            "statement_id": "q84217$FCBE9690-C3A2-4F1E-AD2D-D533E331D312",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q84217"
+        ],
+        "statement_id": "q84217$718D4900-FBB1-480D-A72F-D11D2A609D25",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 21818619,
+              "id": "Q21818619"
+            }
+          ]
+        },
+        "qid": "Q4388484",
+        "label": "拉兹多利诺耶",
+        "label_en": "Razdolnoe",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q84217"
+        ],
+        "statement_id": "Q84217$44752772-D2D9-4951-B011-3BFD50BFC45F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q84217"
+        ],
+        "statement_id": "Q84217$82c85ae3-43dc-0395-0e7a-c0b2f09b5e57",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1961-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84217"
+        ],
+        "statement_id": "Q84217$bdf1c4a4-4b2e-5c6d-b45f-b7e5257b79f7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1982-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典芭蕾·舞者 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q84217",
+        "title": "Wikidata Q84217 / 紐瑞耶夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q84217&oldid=2543256996",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543256996,
+        "modified_at": "2026-09-10T11:59:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,144 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "大学生辨别网络谣言的求证课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为通行引用的胡适名言，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47667",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hu Shi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1962",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47667"
+            ],
+            "statement_id": "q47667$A264AC06-84DB-4C36-8CF5-EAD3D3C4C189",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47667"
+            ],
+            "statement_id": "q47667$5B907C36-B06C-436A-BEEB-06F64C51024D",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47667"
+        ],
+        "statement_id": "q47667$A1B3687C-ED6E-49EA-BCBE-47245F9D792E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47667"
+        ],
+        "statement_id": "q47667$78EF51BE-3AC0-4B55-B0A9-85564B3E5BD0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47667"
+        ],
+        "statement_id": "Q47667$EBC1443E-C368-496A-B575-5078C282F06B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47667"
+        ],
+        "statement_id": "Q47667$a77273c2-46f8-47e3-6d08-89912558b06c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·大学与新文化教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47667",
+        "title": "Wikidata Q47667 / 胡适",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47667&oldid=2558949745",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558949745,
+        "modified_at": "2026-10-19T22:18:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

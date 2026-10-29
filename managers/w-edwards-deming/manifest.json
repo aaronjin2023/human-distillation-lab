@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311472",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "W. Edwards Deming",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1993",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311472"
+            ],
+            "statement_id": "q311472$5962A1BB-B844-41FD-9B09-95B62D47528F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311472"
+            ],
+            "statement_id": "q311472$CCAD3BE5-0570-406E-9DF1-563C761D4758",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-12-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311472"
+        ],
+        "statement_id": "Q311472$61F8ED1A-4310-41D4-88DC-01AF6BB7288E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q489255",
+        "label": "苏城",
+        "label_en": "Sioux City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311472"
+        ],
+        "statement_id": "q311472$C3FF0C4F-EFDD-44EB-A697-B60001A951C7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "质量管理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311472",
+        "title": "Wikidata Q311472 / 爱德华兹·戴明",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311472&oldid=2554513016",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554513016,
+        "modified_at": "2026-10-07T11:43:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

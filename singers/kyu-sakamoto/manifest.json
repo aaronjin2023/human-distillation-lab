@@ -44,5 +44,142 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于黎明时分夜班工人吹着口哨回家的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313081",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kyu Sakamoto",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1941–1985",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313081"
+            ],
+            "statement_id": "q313081$C9DC75D8-33F5-432E-8D4E-DF03122C458D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-12-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313081"
+            ],
+            "statement_id": "q313081$1DEBF3D2-D6A7-49DF-AC6D-554CA6D59ECF",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313081"
+        ],
+        "statement_id": "q313081$b575d2ed-4316-dd12-3977-75fa3925f914",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1204949",
+        "label": "川崎区",
+        "label_en": "Kawasaki-ku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313081"
+        ],
+        "statement_id": "Q313081$70ACA5FD-AE1B-43AC-BBD3-3E8DC2701A0B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q313081"
+        ],
+        "statement_id": "Q313081$856FE31B-225A-4E41-A40D-1903CE32F7F5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·歌谣曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313081",
+        "title": "Wikidata Q313081 / 坂本九",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313081&oldid=2553693026",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553693026,
+        "modified_at": "2026-10-06T00:45:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

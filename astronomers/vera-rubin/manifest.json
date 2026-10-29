@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Vera Rubin, take the rotation curve of a newly mapped galaxy, measure speeds out to the faintest edge without smoothing the outer points away, and let a flat curve stand as evidence for unseen mass rather than trimming it to fit the visible mass",
   "test_question_zh": "用鲁宾的方法取一个新绘星系的旋转曲线，测到最暗边缘而不平滑掉外围点，让平坦曲线本身作为不可见质量的证据，而不是修掉它去迁就可见质量",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234888",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vera Rubin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2016",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234888"
+            ],
+            "statement_id": "q234888$48EAF76F-CC4A-4C6B-B302-F3944B40A5D4",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234888"
+            ],
+            "statement_id": "Q234888$2b3744a2-4ac6-a6a9-b31b-84d2b69236f9",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234888"
+        ],
+        "statement_id": "q234888$559C933D-3990-4004-992C-E374DB35A454",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234888"
+        ],
+        "statement_id": "q234888$059A550C-D339-408C-A177-0732E2571E14",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·暗物质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234888",
+        "title": "Wikidata Q234888 / 薇拉·鲁宾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234888&oldid=2561128862",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561128862,
+        "modified_at": "2026-10-26T17:31:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

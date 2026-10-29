@@ -42,5 +42,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘如何自己管自己’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；《论教育学》讲义整理口径见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9312",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Immanuel Kant",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1724–1804",
+      "birth_year": {
+        "value": 1724,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9312"
+            ],
+            "statement_id": "q9312$7B26DE92-C66D-4EF9-9409-00869A5D8F2A",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1724,
+            "raw_time": "+1724-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1804,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9312"
+            ],
+            "statement_id": "q9312$00E7B2EC-9A0A-4878-9BFF-A828FF8D6965",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1804,
+            "raw_time": "+1804-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9312"
+        ],
+        "statement_id": "q9312$AB84514D-B154-445B-ABF9-BA5FFA328E7F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q4120832",
+        "label": "柯尼斯堡",
+        "label_en": "Königsberg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9312"
+        ],
+        "statement_id": "Q9312$060bebda-4d36-1c56-3dbc-9f59e138bb77",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "启蒙·教育哲学",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9312",
+        "title": "Wikidata Q9312 / 伊曼努尔·康德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9312&oldid=2557930183",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557930183,
+        "modified_at": "2026-10-17T08:54:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

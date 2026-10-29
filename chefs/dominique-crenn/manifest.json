@@ -39,5 +39,127 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q27959694",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dominique Crenn",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1965–",
+      "birth_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27959694"
+            ],
+            "statement_id": "Q27959694$af727f4e-4854-1661-aea5-7e17824deb4f",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q27959694"
+        ],
+        "statement_id": "Q27959694$7a8f4645-4b6f-93cc-0753-ca65735df057",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q185075",
+        "label": "圣日耳曼昂莱",
+        "label_en": "Saint-Germain-en-Laye",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q27959694"
+        ],
+        "statement_id": "Q27959694$f30b0af3-4f89-6fe6-3d8f-38cd84113d77",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2011-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q60766970",
+        "label": "Atelier Crenn",
+        "label_en": "Atelier Crenn",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q27959694"
+        ],
+        "statement_id": "Q27959694$52812b6e-4f89-479a-691e-07e61c25e5a9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "加州法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q27959694",
+        "title": "Wikidata Q27959694 / 多米尼克·克朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q27959694&oldid=2539483813",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2539483813,
+        "modified_at": "2026-09-02T15:43:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -45,5 +45,131 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "F. W. Murnau",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1931",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55412"
+            ],
+            "statement_id": "q55412$4DA93FA9-4BD2-482B-9B8D-DB9E1F20B832",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55412"
+            ],
+            "statement_id": "q55412$EBB39972-E9D9-4BEB-A6A7-0E4817DB3A74",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55412"
+        ],
+        "statement_id": "q55412$B31916B0-25EC-48C4-BB36-E075A3939090",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2112",
+        "label": "比勒费尔德",
+        "label_en": "Bielefeld",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q55412"
+        ],
+        "statement_id": "Q55412$FDBBC30F-8ED4-443A-B937-234E5A1BE017",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183113",
+        "label": "波拉波拉岛",
+        "label_en": "Bora Bora",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55412"
+        ],
+        "statement_id": "q55412$BD7A2D5A-259D-4FFC-893B-A3FF2C5FF4B9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·表现主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55412",
+        "title": "Wikidata Q55412 / F·W·穆瑙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55412&oldid=2557887368",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557887368,
+        "modified_at": "2026-10-17T05:57:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

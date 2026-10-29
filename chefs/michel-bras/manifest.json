@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "米歇尔·布拉风格：一份深夜便利店关东煮的重构——嫩蔬野草、清澈轻汤、诗意山野简朴、色彩如野地花草。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1569825",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michel Bras",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1946–",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1569825"
+            ],
+            "statement_id": "Q1569825$3EEF4E1A-569C-409E-ABBD-D893E596924D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-11-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1569825"
+        ],
+        "statement_id": "Q1569825$30b918e9-4c26-eb75-ee3c-6376f16a0e64",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1366426",
+        "label": "加布里亚克",
+        "label_en": "Gabriac",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1569825"
+        ],
+        "statement_id": "Q1569825$E17DA0D5-B9D0-4B68-9E42-5F79504AD2DE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法餐·奥布拉克",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1569825",
+        "title": "Wikidata Q1569825 / Michel Bras",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1569825&oldid=2528006158",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2528006158,
+        "modified_at": "2026-08-06T07:58:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

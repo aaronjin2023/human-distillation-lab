@@ -29,5 +29,117 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160627",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Russel Wallace",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1823–1913",
+      "birth_year": {
+        "value": 1823,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160627"
+            ],
+            "statement_id": "q160627$21BF6D9E-66D2-4B02-9259-9CD9009E5733",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1823,
+            "raw_time": "+1823-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160627"
+            ],
+            "statement_id": "q160627$31E041CC-0287-499F-A8DB-9205EB6997BD",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160627"
+        ],
+        "statement_id": "q160627$856A4C4C-4508-4E6C-9ADC-8FA0AE098C75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q573757",
+        "label": "阿斯克",
+        "label_en": "Usk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160627"
+        ],
+        "statement_id": "Q160627$0965D52A-3AA8-4870-9EBB-8DCBF8934B78",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "进化论 / 生物地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160627",
+        "title": "Wikidata Q160627 / 阿尔弗雷德·拉塞尔·华莱士",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160627&oldid=2557698936",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557698936,
+        "modified_at": "2026-10-16T17:11:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

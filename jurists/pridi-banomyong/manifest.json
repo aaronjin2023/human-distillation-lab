@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "比里·帕侬荣风格：一份宪政论证，论社区业委会选举：主权在民，宪法为根基，地方立法现代化，传统不是豁免理由。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q714934",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pridi Banomyong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1983",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714934"
+            ],
+            "statement_id": "q714934$AF4C5064-6CB8-4627-AF87-E8123AAAC7AD",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714934"
+            ],
+            "statement_id": "q714934$15535E0A-0F82-483E-B6B4-58E8DB13EF22",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q714934"
+        ],
+        "statement_id": "Q714934$017247B0-E073-4FBE-AB84-EEDAB5EA803C",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q203370",
+        "label": "阿瑜陀耶",
+        "label_en": "Phra Nakhon Si Ayutthaya",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q714934"
+        ],
+        "statement_id": "q714934$0AADA26A-175A-4A7D-8FC4-DB1A82CCDA4D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q869",
+        "label": "泰国",
+        "label_en": "Thailand",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "泰国·宪法",
+      "genre": "legislator / 立法者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q714934",
+        "title": "Wikidata Q714934 / 比里·帕侬荣",
+        "url": "https://www.wikidata.org/w/index.php?title=Q714934&oldid=2561057548",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561057548,
+        "modified_at": "2026-10-26T11:48:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

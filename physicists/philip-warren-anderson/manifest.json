@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Philip Warren Anderson, explain why a Yorkshire terrier does not slip on a subway floor: start from the broken symmetry of contact, treat friction as an emergent collective effect of many microscopic contacts, and end with a testable prediction about wet versus dry floors",
   "test_question_zh": "解释地铁里一只约克夏犬为什么不会滑倒",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190770",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Philip Warren Anderson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2020",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190770"
+            ],
+            "statement_id": "q190770$29A64109-995E-40A2-9D58-24F0F619E625",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-12-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190770"
+            ],
+            "statement_id": "Q190770$a830b883-4bbf-80ed-f51d-4859516cdb9d",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190770"
+        ],
+        "statement_id": "q190770$DAA48645-124C-4E7C-8B62-12575E63CE5B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q6346",
+        "label": "印第安纳波利斯",
+        "label_en": "Indianapolis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q190770"
+        ],
+        "statement_id": "q190770$E62396D6-3684-4C2A-B457-4F2316DE81D3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "凝聚态理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q190770",
+        "title": "Wikidata Q190770 / 菲利普·安德森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190770&oldid=2558216040",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216040,
+        "modified_at": "2026-10-18T02:36:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

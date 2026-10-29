@@ -44,5 +44,116 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜加班的办公室（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q36290",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diana Ross",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36290"
+            ],
+            "statement_id": "q36290$AD1AF3CD-C6A2-4D88-AD48-D4538E8A2D34",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q36290"
+        ],
+        "statement_id": "Q36290$E5B5CD5F-A41A-4E68-9E14-F735150D54EC",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q12439",
+        "label": "底特律",
+        "label_en": "Detroit",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q36290"
+        ],
+        "statement_id": "Q36290$06FDEA8F-375E-445F-A1D8-F47E45310788",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q36290"
+          ],
+          "statement_id": "Q36290$97919FCF-53EB-4A73-8417-6E425FF8C3EE",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂·流行",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q36290",
+        "title": "Wikidata Q36290 / 戴安娜·罗斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q36290&oldid=2557853536",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557853536,
+        "modified_at": "2026-10-17T04:07:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

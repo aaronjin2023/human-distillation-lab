@@ -34,5 +34,128 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8873",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Satyajit Ray",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–1992",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8873"
+            ],
+            "statement_id": "Q8873$B933E346-3A56-4474-8088-0B3DF0CD562E",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8873"
+            ],
+            "statement_id": "Q8873$5CAE4C91-6D25-42B8-8B53-508EDB1B483D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-04-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8873"
+        ],
+        "statement_id": "Q8873$93bf7578-4511-aa07-ccfc-3e43f0da3f39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1348",
+        "label": "加尔各答",
+        "label_en": "Kolkata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8873"
+        ],
+        "statement_id": "Q8873$5b9bbd31-474f-fe99-9c38-bd3f9e46d2f5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·阿普三部曲"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8873",
+        "title": "Wikidata Q8873 / 萨蒂亚吉特·雷伊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8873&oldid=2558234055",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558234055,
+        "modified_at": "2026-10-18T03:42:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

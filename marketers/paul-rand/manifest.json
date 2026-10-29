@@ -41,5 +41,132 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家深夜便利店的品牌标志与识别系统",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q468160",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Rand",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1996",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q468160"
+            ],
+            "statement_id": "q468160$DBFCC8A1-955D-473E-BC36-12A2FCA0F832",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q468160"
+            ],
+            "statement_id": "Q468160$C3955BDE-4105-431E-9D24-28014727C54E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q468160"
+            ],
+            "statement_id": "q468160$DB3601E3-DD9A-4AF5-9419-3880B80883BD",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q468160"
+        ],
+        "statement_id": "q468160$573272D3-0007-4B1F-8DD5-B9D2306E26EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q468160"
+        ],
+        "statement_id": "q468160$BF88821A-9589-4D5B-829C-310DC3FE05F3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌视觉识别"
+    },
+    "sources": [
+      {
+        "id": "WD:Q468160",
+        "title": "Wikidata Q468160 / 保罗·兰德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q468160&oldid=2554880837",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554880837,
+        "modified_at": "2026-10-08T05:13:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

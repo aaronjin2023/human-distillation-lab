@@ -1,35 +1,161 @@
 {
- "chemist": "Lothar Meyer",
- "chemist_zh": "洛塔尔·迈耶",
- "dates": "1830–1895",
- "field": "周期律",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #20",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "元素周期分类",
-  "原子体积周期性",
-  "周期律的独立发展"
- ],
- "sources": [
-  "Wikipedia 'Julius Lothar Meyer' https://en.wikipedia.org/wiki/Julius_Lothar_Meyer",
-  "ResearchGate 'The discovery of the periodic table as a case of simultaneous discovery' https://www.researchgate.net/publication/272193548_The_discovery_of_the_periodic_table_as_a_case_of_simultaneous_discovery"
- ],
- "test_prompt": "In the style of Lothar Meyer, design a plan to test whether a newly measured property follows a periodic pattern: plot it against atomic weight, look for repeating peaks, and state what would break the pattern.",
- "test_question_zh": "如何检验一种新测性质是否遵循周期规律？",
- "verification": "2026-10-26：生卒、原子体积周期性、1869 年表迟发表、1882 年同获戴维奖章经 web 搜索核对（Wikipedia、ResearchGate）；其余见 known_gaps",
- "known_gaps": [
-  "迈耶 1869 年表的原文据后世整理本，未核对到 1869 年原稿",
-  "原子体积曲线的原始数据未逐项核对原文",
-  "与门捷列夫争论的原始文献未逐一核对"
- ]
+  "chemist": "Lothar Meyer",
+  "chemist_zh": "洛塔尔·迈耶",
+  "dates": "1830–1895",
+  "field": "周期律",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #20",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "元素周期分类",
+    "原子体积周期性",
+    "周期律的独立发展"
+  ],
+  "sources": [
+    "Wikipedia 'Julius Lothar Meyer' https://en.wikipedia.org/wiki/Julius_Lothar_Meyer",
+    "ResearchGate 'The discovery of the periodic table as a case of simultaneous discovery' https://www.researchgate.net/publication/272193548_The_discovery_of_the_periodic_table_as_a_case_of_simultaneous_discovery"
+  ],
+  "test_prompt": "In the style of Lothar Meyer, design a plan to test whether a newly measured property follows a periodic pattern: plot it against atomic weight, look for repeating peaks, and state what would break the pattern.",
+  "test_question_zh": "如何检验一种新测性质是否遵循周期规律？",
+  "verification": "2026-10-26：生卒、原子体积周期性、1869 年表迟发表、1882 年同获戴维奖章经 web 搜索核对（Wikipedia、ResearchGate）；其余见 known_gaps",
+  "known_gaps": [
+    "迈耶 1869 年表的原文据后世整理本，未核对到 1869 年原稿",
+    "原子体积曲线的原始数据未逐项核对原文",
+    "与门捷列夫争论的原始文献未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q77073",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lothar Meyer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1830–1895",
+      "birth_year": {
+        "value": 1830,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77073"
+            ],
+            "statement_id": "Q77073$5c43ea07-4cb1-802a-2f9d-26219b28ae91",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1830,
+            "raw_time": "+1830-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77073"
+            ],
+            "statement_id": "q77073$55A54C6A-B37E-49E9-9874-848B67AB888C",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-04-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q77073"
+        ],
+        "statement_id": "q77073$4D10D775-F159-4FDB-9F14-DCBC07BC387A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q496056",
+        "label": "瓦勒尔鎮",
+        "label_en": "Varel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q77073"
+        ],
+        "statement_id": "Q77073$34A772A8-F1C7-4DD4-A47F-31F0C0DBF950",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q496056",
+        "label": "瓦勒尔鎮",
+        "label_en": "Varel",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q77073"
+        ],
+        "statement_id": "Q77073$769a37d9-4573-18d0-fbf8-efa4b739dc28",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q693669",
+        "label": "奥尔登堡大公国",
+        "label_en": "Grand Duchy of Oldenburg",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "周期律"
+    },
+    "sources": [
+      {
+        "id": "WD:Q77073",
+        "title": "Wikidata Q77073 / 尤利乌斯·洛塔尔·迈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q77073&oldid=2561289057",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561289057,
+        "modified_at": "2026-10-27T02:58:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

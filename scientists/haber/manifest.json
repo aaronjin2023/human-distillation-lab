@@ -28,5 +28,184 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何设计一个把空气中的氮变成化肥的流程？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57075",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fritz Haber",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1934",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57075"
+            ],
+            "statement_id": "q57075$B0E6D229-2150-4314-9A92-11B03B8D9388",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57075"
+            ],
+            "statement_id": "q57075$2B794224-5EC9-4F40-A4F7-2865A5B48C64",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-01-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "q57075$7279753C-2C4E-4759-BE72-F877844D3DAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1799",
+        "label": "弗罗茨瓦夫",
+        "label_en": "Wrocław",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "Q57075$2D76C955-B9FD-4006-AD03-377624BFAE6D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1799",
+        "label": "弗罗茨瓦夫",
+        "label_en": "Wrocław",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "Q57075$5E6FBEE8-141C-466C-96AD-D6D1A796255C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1040",
+        "label": "卡尔斯鲁厄",
+        "label_en": "Karlsruhe",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "Q57075$FF364A3C-DB3D-4154-AD58-F0205B18DB9E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "Q57075$393e66bf-457d-83e8-3af9-a055059d51b9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57075"
+        ],
+        "statement_id": "Q57075$519c55c3-42a2-0306-f40c-6cca4bd0f3d0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q57075"
+          ],
+          "statement_id": "Q57075$BF55F2F4-B451-445D-8D45-247E38D583E5",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q171201",
+          "label": "哈西迪猶太教",
+          "label_en": "Hasidic Judaism",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57075",
+        "title": "Wikidata Q57075 / 弗里茨·哈伯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57075&oldid=2560248971",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560248971,
+        "modified_at": "2026-10-24T09:19:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

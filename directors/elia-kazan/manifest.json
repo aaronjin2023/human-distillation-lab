@@ -45,5 +45,144 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q72717",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elia Kazan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–2003",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72717"
+            ],
+            "statement_id": "q72717$8C00980A-2200-46F6-A6DD-400DEDD90C74",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-09-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72717"
+            ],
+            "statement_id": "q72717$13E28B34-C21D-4466-B9A6-07E8E4213317",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-09-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q72717"
+        ],
+        "statement_id": "q72717$B005A8A8-08B3-434B-BFD7-9D51385CE8A6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q16869",
+        "label": "君士坦丁堡",
+        "label_en": "Constantinople",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q72717"
+        ],
+        "statement_id": "Q72717$23D038FB-889C-4150-803D-8F26B52B4607",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q72717"
+        ],
+        "statement_id": "q72717$69CD6F65-E733-4BA0-83D4-D27D2B647FB0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q72717"
+        ],
+        "statement_id": "Q72717$cd57ebd9-4a56-24a5-e717-ccc1abc71475",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41",
+        "label": "希腊",
+        "label_en": "Greece",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·方法派 / 社会现实"
+    },
+    "sources": [
+      {
+        "id": "WD:Q72717",
+        "title": "Wikidata Q72717 / 伊利亚·卡赞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q72717&oldid=2557865526",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557865526,
+        "modified_at": "2026-10-17T04:50:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

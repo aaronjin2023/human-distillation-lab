@@ -39,5 +39,187 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q466337",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mahadevi Varma",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1987",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q466337"
+            ],
+            "statement_id": "q466337$6B11542D-D1F0-48B8-A4F5-A741E127E6D8",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q466337"
+            ],
+            "statement_id": "q466337$5EDBD5CC-1092-4AC5-ADE9-ECAABB8F020B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q466337"
+        ],
+        "statement_id": "Q466337$B7171856-C16B-4C98-A77F-7F03853444AA",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4549",
+        "label": "法鲁卡巴德-丘姆-法泰赫加尔",
+        "label_en": "Farrukhabad",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q466337"
+        ],
+        "statement_id": "Q466337$91013510-8058-43A0-8036-080800924B3B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q466337"
+        ],
+        "statement_id": "Q466337$c06899f3-4f2d-6a5b-bc69-df0acca87eed",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q466337"
+        ],
+        "statement_id": "Q466337$F83624A7-29EA-4930-A54F-45CF91E5BFF5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印地语·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q466337",
+        "title": "Wikidata Q466337 / Mahadevi Varma",
+        "url": "https://www.wikidata.org/w/index.php?title=Q466337&oldid=2553682475",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553682475,
+        "modified_at": "2026-10-06T00:03:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

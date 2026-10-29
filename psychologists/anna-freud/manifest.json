@@ -45,5 +45,173 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q78485",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anna Freud",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1982",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78485"
+            ],
+            "statement_id": "q78485$705EE417-BA56-42AA-AEFF-89D3CCA6A04E",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-12-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78485"
+            ],
+            "statement_id": "q78485$3B857653-BBE6-4F8A-A2F2-82BDDA619D2B",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-10-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q78485"
+        ],
+        "statement_id": "q78485$EA211D5A-C1AC-4362-B7EB-4BE2C1C3E82D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q78485"
+        ],
+        "statement_id": "q78485$D64D7212-45A3-4347-95E2-BAEFB2E6FBD2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1982-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q78485"
+        ],
+        "statement_id": "q78485$5558D942-37A4-4878-A570-9EA14B87DDBE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1895-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1946-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "儿童精神分析 / 自我心理学",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q78485",
+        "title": "Wikidata Q78485 / 安娜·弗洛伊德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q78485&oldid=2560273279",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560273279,
+        "modified_at": "2026-10-24T11:23:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

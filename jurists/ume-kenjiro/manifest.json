@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "梅谦次郎风格：一份民法典分析，论和解协议：契约自由，和解是独立的法律制度，法典须及时系统地适用，不为求完美而拖延。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3022470",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ume Kenjiro",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1860–1910",
+      "birth_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3022470"
+            ],
+            "statement_id": "Q3022470$6C8E72EC-2CC2-4899-AE51-F3058C082407",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-07-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3022470"
+            ],
+            "statement_id": "Q3022470$CD7E4D32-F95F-4F93-ABA2-45D7B2DC0E63",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3022470"
+        ],
+        "statement_id": "Q3022470$83F18DDD-5D40-4D18-AEC9-74D1C2D795C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207321",
+        "label": "松江市",
+        "label_en": "Matsue",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3022470"
+        ],
+        "statement_id": "Q3022470$7A1EB8A3-947A-4DE0-BC5A-F0CA0DBC7746",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·民法典",
+      "genre": "legislator / 立法者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3022470",
+        "title": "Wikidata Q3022470 / 梅謙次郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3022470&oldid=2547947018",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547947018,
+        "modified_at": "2026-09-20T14:45:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,145 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己、从未寄出的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154545",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Léopold Sédar Senghor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–2001",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154545"
+            ],
+            "statement_id": "q154545$83F8B2DE-C521-4EBD-B2ED-6B339F8E897A",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-10-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154545"
+            ],
+            "statement_id": "q154545$C69B5747-4F7C-47F4-A8F8-EF007F60AFA0",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-12-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154545"
+        ],
+        "statement_id": "Q154545$C3CD7039-D274-4C7B-B6FF-B12541AE453A",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1340331",
+        "label": "若阿勒-法久特",
+        "label_en": "Joal-Fadiouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q154545"
+        ],
+        "statement_id": "Q154545$11037E8E-2534-4F9A-9109-76316FDC6A95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154545"
+        ],
+        "statement_id": "Q154545$3f96b8ab-4a7f-3a76-56ec-6806e7fe9ebe",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1041",
+        "label": "塞内加尔",
+        "label_en": "Senegal",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154545"
+        ],
+        "statement_id": "q154545$E8CA1123-DDF8-45B5-84AF-C0268C26F70C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "塞内加尔·黑人性诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q154545",
+        "title": "Wikidata Q154545 / 利奥波德·塞达尔·桑戈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154545&oldid=2560689101",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560689101,
+        "modified_at": "2026-10-25T13:06:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

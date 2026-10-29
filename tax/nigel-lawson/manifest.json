@@ -43,5 +43,132 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想国家设计宽税基低税率的所得税改革（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q335078",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nigel Lawson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2023",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335078"
+            ],
+            "statement_id": "q335078$5F005FE1-EA6B-48F7-BCE4-88D061150537",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335078"
+            ],
+            "statement_id": "Q335078$40294029-4977-cf9a-2a08-989f05b5ff13",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q335078"
+        ],
+        "statement_id": "q335078$27bc4428-480b-0dac-e25f-1b71de6e2959",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q25610",
+        "label": "汉普斯特得",
+        "label_en": "Hampstead",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q335078"
+        ],
+        "statement_id": "Q335078$7838FAB0-F879-421C-9A2E-CF36C2778E2E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q335078"
+        ],
+        "statement_id": "Q335078$0E6185F8-509A-4937-B1E2-3620E1624802",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·1980 年代税改",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q335078",
+        "title": "Wikidata Q335078 / 尼格尔·劳森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q335078&oldid=2558182963",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558182963,
+        "modified_at": "2026-10-18T00:47:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

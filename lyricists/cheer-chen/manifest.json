@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Cheer Chen, lyrics about a letter to oneself ten years from now, written on a train. Literary Mandarin, travel and solitude imagery, quiet self-talk. Verse, chorus.",
   "verification": "2026-10-26；草稿已核实项见 lyricists-top100-draft.md 第 5 节；未核实项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q710513",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cheer Chen",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1975–",
+      "birth_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q710513"
+            ],
+            "statement_id": "Q710513$6349EA8A-3AE2-4F97-A7AE-D465549EFD7B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-06-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q710513"
+        ],
+        "statement_id": "Q710513$9851274C-D3F9-4864-8F82-D518F8EEFEC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1867",
+        "label": "台北市",
+        "label_en": "Taipei",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q710513"
+        ],
+        "statement_id": "Q710513$0A00C36A-B793-4221-956E-8FE6DE71D2AB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国语流行·台湾",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q710513",
+        "title": "Wikidata Q710513 / 陈绮贞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q710513&oldid=2531308074",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2531308074,
+        "modified_at": "2026-08-14T12:24:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

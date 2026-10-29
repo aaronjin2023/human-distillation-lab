@@ -30,5 +30,125 @@
   "test_prompt": "In the style of Ibn Battuta, travel a modern high-speed rail network for a month and write it afterwards: name the mayor who received you, the line you took, the customs that startled you — and let the reader judge the marvels",
   "test_question_zh": "乘高铁旅行一个月沿途所见如何？",
   "verification": "卒年两说（1368 或 1369）本次 web 搜索核对；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7331",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ibn Battuta",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1304–1369",
+      "birth_year": {
+        "value": 1304,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7331"
+            ],
+            "statement_id": "Q7331$04E803F7-3B8A-4C74-A6DC-CA05A3A6A1EE",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1304,
+            "raw_time": "+1304-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7331"
+            ],
+            "statement_id": "Q7331$b163c3c8-4484-8370-ebec-9d24e0f6a354",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1368,
+            "raw_time": "+1368-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7331"
+        ],
+        "statement_id": "q7331$37E380A4-1F8F-4E86-A9AE-E2FB2427C719",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q126148",
+        "label": "丹吉尔",
+        "label_en": "Tangier",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q7331"
+          ],
+          "statement_id": "Q7331$ef61bbf9-4468-972a-2e0c-56da75ced1f7",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q45315",
+          "label": "柏柏尔人",
+          "label_en": "Berbers",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "摩洛哥·旅行地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7331",
+        "title": "Wikidata Q7331 / 伊本·白图泰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7331&oldid=2559621005",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559621005,
+        "modified_at": "2026-10-22T03:03:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

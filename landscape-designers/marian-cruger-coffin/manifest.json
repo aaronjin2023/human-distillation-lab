@@ -44,5 +44,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "科芬风格：现代社区的一座口袋公园，意大利文艺复兴式轴线对称，一泓小映池与台阶，正式花园之旁有一处林间幽谷，配水池与瀑布。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15430804",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marian Cruger Coffin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1876–1957",
+      "birth_year": {
+        "value": 1876,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15430804"
+            ],
+            "statement_id": "Q15430804$2caa9f7b-40e8-9bdd-3194-752416a233d0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1876,
+            "raw_time": "+1876-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15430804"
+            ],
+            "statement_id": "Q15430804$4ADF1C51-F962-4BDD-AE56-D48F8722B24C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-02-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15430804"
+        ],
+        "statement_id": "Q15430804$3DB43D07-A6B0-4D5B-B741-8EF29261A588",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3452629",
+        "label": "布赖尔克利夫马诺",
+        "label_en": "Briarcliff Manor",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15430804"
+        ],
+        "statement_id": "Q15430804$22D5BB03-E4B1-43D3-93C2-7D2200AAE6C3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·庄园花园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15430804",
+        "title": "Wikidata Q15430804 / 玛丽安·克鲁格·科芬",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15430804&oldid=2554541927",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554541927,
+        "modified_at": "2026-10-07T12:51:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

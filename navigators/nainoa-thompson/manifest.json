@@ -36,5 +36,102 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Nainoa Thompson, a small Yorkshire terrier rides the subway, navigating without instruments. It reads the flow of commuters like ocean swells, the station lights like rising stars, and teaches the whole carriage how to find its way home.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3878402",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nainoa Thompson",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3878402"
+            ],
+            "statement_id": "Q3878402$6EE339D5-6700-40AE-9A1D-1FCA277F9575",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3878402"
+        ],
+        "statement_id": "Q3878402$B77304D2-EB57-4FF4-A4CF-C3BA27A311C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q131347",
+        "label": "瓦胡岛",
+        "label_en": "Oahu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3878402"
+        ],
+        "statement_id": "Q3878402$7623B8B7-C3C4-4F35-9B48-F8A32E75A9C0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "J. 现代航海·海洋探索与传统导航复兴",
+      "genre": "J. 现代航海·海洋探索与传统导航复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3878402",
+        "title": "Wikidata Q3878402 / Nainoa Thompson",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3878402&oldid=2507226317",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2507226317,
+        "modified_at": "2026-06-17T23:01:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

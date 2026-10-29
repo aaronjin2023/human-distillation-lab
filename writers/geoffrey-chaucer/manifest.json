@@ -43,5 +43,134 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Geoffrey Chaucer",
-  "writer_zh": "杰弗里·乔叟"
+  "writer_zh": "杰弗里·乔叟",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5683",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Geoffrey Chaucer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1343–1400",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5683"
+            ],
+            "statement_id": "Q5683$B47CAA7A-32DF-47FF-81E2-FC8A7B134B59",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1343,
+            "raw_time": "+1343-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5683"
+            ],
+            "statement_id": "Q5683$56C126E3-9BED-4EDA-A456-7511D1F3C5FF",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1400,
+            "raw_time": "+1400-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5683"
+        ],
+        "statement_id": "q5683$A6D55A4D-868C-42A8-870B-5F39EC89C89F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5683"
+        ],
+        "statement_id": "Q5683$a2d42ae9-452e-a85a-097b-e32b6115b385",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·叙事诗",
+      "genre": "诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5683",
+        "title": "Wikidata Q5683 / 杰弗里·乔叟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5683&oldid=2557890582",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557890582,
+        "modified_at": "2026-10-17T06:09:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

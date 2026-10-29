@@ -37,5 +37,167 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q166389",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Daniel Day-Lewis",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q166389"
+            ],
+            "statement_id": "q166389$C8C60E45-77DC-4D7B-BA27-441D53366A15",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q166389"
+        ],
+        "statement_id": "q166389$7D1EA189-BDAB-4EE6-A96D-1D11F96FCBC1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q288781",
+        "label": "肯辛顿",
+        "label_en": "Kensington",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q166389"
+        ],
+        "statement_id": "Q166389$B53652C1-DC55-432F-9844-86EF5CC79732",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q166389"
+        ],
+        "statement_id": "Q166389$3E005FCE-E52A-4165-B514-32C0CBAB2F1C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27",
+        "label": "爱尔兰",
+        "label_en": "Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q166389"
+        ],
+        "statement_id": "Q166389$E8D0169F-F305-4269-B3CE-44B522E5B26B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q166389"
+          ],
+          "statement_id": "Q166389$06e12d80-40f8-10b1-ef06-a4edaab5d1b3",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42406",
+          "label": "英格蘭人",
+          "label_en": "English people",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q166389"
+          ],
+          "statement_id": "Q166389$3f7ebf7b-47d0-0c17-9160-2c0d36ed992a",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q170826",
+          "label": "爱尔兰人",
+          "label_en": "Irish people",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q166389"
+          ],
+          "statement_id": "Q166389$6860150b-48c8-91d6-d42b-5d52cb1d02d4",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英国/爱尔兰·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q166389",
+        "title": "Wikidata Q166389 / 丹尼尔·戴-刘易斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q166389&oldid=2561705612",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561705612,
+        "modified_at": "2026-10-28T14:51:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

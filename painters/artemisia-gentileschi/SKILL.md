@@ -27,3 +27,7 @@
 
 - 来源：维基百科“Artemisia Gentileschi”；那不勒斯卡波迪蒙特博物馆《朱迪思》说明；两版《朱迪思》、卒年不确定已核对
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

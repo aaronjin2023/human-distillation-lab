@@ -29,5 +29,118 @@
   "thinker": "Lucretius",
   "thinker_zh": "卢克莱修",
   "verification": "2026-10-26 网络核对：生卒与代表作按草稿名单，辅以英文 Wikipedia / Stanford Encyclopedia 通说核对；未逐部核对创作年份；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47154",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lucretius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.99–c.55 BCE",
+      "birth_year": {
+        "value": -94,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47154"
+            ],
+            "statement_id": "Q47154$6DFDD6AE-694C-4FB4-84E2-10F8B7A433BD",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -94,
+            "raw_time": "-0094-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": -99
+      },
+      "death_year": {
+        "value": -55,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47154"
+            ],
+            "statement_id": "Q47154$64B04797-F661-4E6E-9325-1736181D3029",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -55,
+            "raw_time": "-0055-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47154"
+        ],
+        "statement_id": "q47154$CFB17B55-C474-42F1-9482-F472D8FDE225",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43332",
+        "label": "庞贝",
+        "label_en": "Pompeii",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47154"
+        ],
+        "statement_id": "Q47154$22B90547-6F08-4791-A817-6AF7B0FA2E61",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊壁鸠鲁主义 / 罗马诗学哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47154",
+        "title": "Wikidata Q47154 / 卢克莱修",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47154&oldid=2556999681",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556999681,
+        "modified_at": "2026-10-14T18:41:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

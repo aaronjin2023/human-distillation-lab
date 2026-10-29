@@ -56,5 +56,223 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖骑手的劳动时间",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9387",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Max Weber",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1864–1920",
+      "birth_year": {
+        "value": 1864,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9387"
+            ],
+            "statement_id": "q9387$C83C6D23-707E-421E-9F6A-56105053BDFA",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1864,
+            "raw_time": "+1864-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9387"
+            ],
+            "statement_id": "q9387$4FFF0C54-2396-4BA2-9593-200600DE8DE2",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-06-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "q9387$898b5aa0-4520-9871-065e-c24840dc9fff",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1729",
+        "label": "爱尔福特",
+        "label_en": "Erfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$75EEC0BE-DB58-4748-A9A3-9C5DE64690B0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2833",
+        "label": "布赖斯高地区弗赖堡",
+        "label_en": "Freiburg im Breisgau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$96597497-EC6A-4714-8666-33F84D32E883",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$8CA43C32-FD9B-44CE-8532-3795664AB043",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$e7602054-43d8-e11e-b98e-53fd8107d8e2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "q9387$6739A70B-D397-4F4B-B844-0C06ED06BB07",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$1841498e-42a9-ade4-0a08-eb0209c7aca2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q150981",
+        "label": "北德意志邦联",
+        "label_en": "North German Confederation",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$177fcdf7-43d1-9502-d5b2-fb5f9be63063",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9387"
+        ],
+        "statement_id": "Q9387$9e4e80fd-40e6-ba4b-65d5-2f8e90e79fff",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q9387"
+          ],
+          "statement_id": "Q9387$ed50d30a-4ab3-50a6-32f1-ed69c02ec817",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42884",
+          "label": "德意志人",
+          "label_en": "Germans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "理解社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9387",
+        "title": "Wikidata Q9387 / 马克斯·韦伯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9387&oldid=2560114874",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560114874,
+        "modified_at": "2026-10-23T20:54:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

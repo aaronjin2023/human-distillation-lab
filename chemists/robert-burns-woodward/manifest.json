@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Robert Burns Woodward, plan a total synthesis of a complex new drug: draw the full retrosynthetic route first, divide it into characterised segments, let stereochemistry choose each disconnection, and advance only when every intermediate is proven",
   "test_question_zh": "一种结构极复杂的新药，怎么规划全合成？",
   "verification": "2026-10-26：生卒 1917–1979、B12 合成 1973 年发表、1965 年诺贝尔化学奖经 web 搜索核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q232316",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Burns Woodward",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1979",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232316"
+            ],
+            "statement_id": "q232316$5B4D34FE-0F49-4780-8C5A-561F6FAFE4EC",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-04-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232316"
+            ],
+            "statement_id": "q232316$B1F1E9CF-F700-4B01-B011-552078B8B169",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-07-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q232316"
+        ],
+        "statement_id": "Q232316$B0E62ECE-DBDF-4849-95A3-DEB7FB0AFC9D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q232316"
+        ],
+        "statement_id": "q232316$B663BD81-2F34-4564-AF4F-51869DA7F60E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机合成"
+    },
+    "sources": [
+      {
+        "id": "WD:Q232316",
+        "title": "Wikidata Q232316 / 罗伯特·伯恩斯·伍德沃德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q232316&oldid=2535781256",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535781256,
+        "modified_at": "2026-08-24T11:38:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

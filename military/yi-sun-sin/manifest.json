@@ -39,5 +39,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代港口拥堵的疏通行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q50184",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yi Sun-sin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1545–1598",
+      "birth_year": {
+        "value": 1545,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q50184"
+            ],
+            "statement_id": "Q50184$A7A3DD51-1206-4155-B305-B8BF412BAB9A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1545,
+            "raw_time": "+1545-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1598,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q50184"
+            ],
+            "statement_id": "Q50184$C616602D-2225-41C5-B5D5-2EBB701F8466",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1598,
+            "raw_time": "+1598-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q50184"
+        ],
+        "statement_id": "q50184$16C09F1B-6438-46C2-B337-F0FD50CACC39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q624467",
+        "label": "汉城府",
+        "label_en": "Hanseongbu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q50184"
+        ],
+        "statement_id": "Q50184$37652303-4569-4B73-9289-D6A020BFDA2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28179",
+        "label": "朝鲜王朝",
+        "label_en": "Joseon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "朝鲜·海战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q50184",
+        "title": "Wikidata Q50184 / 李舜臣",
+        "url": "https://www.wikidata.org/w/index.php?title=Q50184&oldid=2553979927",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553979927,
+        "modified_at": "2026-10-06T14:58:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

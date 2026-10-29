@@ -43,5 +43,88 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "科纳风格：现代城市里废弃铁路改建的一座社区公园，野生城市，线性公园，生态演替，时间即材料。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6131742",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Corner",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6131742"
+            ],
+            "statement_id": "Q6131742$9BFCEDCA-4BDB-4679-845F-849BC207555A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6131742"
+        ],
+        "statement_id": "Q6131742$526A8C9D-6358-4C07-8007-021D8198958C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·城市景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6131742",
+        "title": "Wikidata Q6131742 / 詹姆斯·科纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6131742&oldid=2513406991",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513406991,
+        "modified_at": "2026-07-03T11:32:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

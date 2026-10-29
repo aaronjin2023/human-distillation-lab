@@ -31,5 +31,139 @@
   "test_prompt": "In the style of Ibn al-Haytham, explain how a phone camera focuses on something close: start from a dark-chamber experiment, draw the rays through the small opening, and show what must change for the image to stay sharp",
   "test_question_zh": "解释手机摄像头为什么能拍清近物",
   "verification": "2026-10-26：生卒 965–c.1040 与代表作按物理史通说；卒年 1039/1040 两说已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11104",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ibn al-Haytham",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "965–c.1040",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11104"
+            ],
+            "statement_id": "Q11104$9f35d46a-41fd-640f-e24c-0bfef68bf9ad",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 965,
+            "raw_time": "+0965-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1039,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11104"
+            ],
+            "statement_id": "Q11104$acfd2a9b-46d5-6fd4-f9cd-41f18bbaf5f2",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1039,
+            "raw_time": "+1039-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1040
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11104"
+        ],
+        "statement_id": "Q11104$8BABE2C1-8E6C-4C51-BDB2-A07A36435BAC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q48195",
+        "label": "巴士拉",
+        "label_en": "Basra",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11104"
+        ],
+        "statement_id": "Q11104$1596de81-45c8-291a-8cc9-7a5999203f10",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12536",
+        "label": "阿拔斯王朝",
+        "label_en": "Abbasid Caliphate",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q11104"
+        ],
+        "statement_id": "Q11104$ff098908-4fac-0a1c-485a-0277bce3f358",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q160307",
+        "label": "法蒂玛王朝",
+        "label_en": "Fatimid Caliphate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "光学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11104",
+        "title": "Wikidata Q11104 / 海什木",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11104&oldid=2560000998",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560000998,
+        "modified_at": "2026-10-23T14:14:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

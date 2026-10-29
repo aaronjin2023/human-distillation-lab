@@ -30,5 +30,170 @@
   "test_prompt": "In the style of Friedrich Wöhler, test whether a molecule thought to need life can be made artificially: start from inorganic precursors, vary heat and reagents step by step, and claim success only when the product matches the natural molecule in every testable property",
   "test_question_zh": "一种被认为只能由生物制造的分子，能不能人工合成？",
   "verification": "2026-10-26：生卒 1800–1882、尿素合成 1828 年经化学史通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q58575",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Wöhler",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1800–1882",
+      "birth_year": {
+        "value": 1800,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58575"
+            ],
+            "statement_id": "q58575$DB3E7AE4-6A9C-4AC5-80C2-AB7751A06ABE",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1800,
+            "raw_time": "+1800-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58575"
+            ],
+            "statement_id": "q58575$2DEF2664-2DE6-4B04-B4A7-2A85E63489C3",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$3b9dc102-457f-f7b1-6c3f-41187e7ef10f",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q450028",
+        "label": "埃舍斯海姆",
+        "label_en": "Eschersheim",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$9FAFC770-CA41-4077-8017-8A2BEDBAF22B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$928c92ce-4c5c-322c-028a-3a1c998e0a6c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$eae197d6-427e-0f6f-6096-85a4da38fb7b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q529605",
+        "label": "黑森选侯国",
+        "label_en": "Electorate of Hesse",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$69d25fbb-4a5f-99c4-4cec-8f7ed9837b2d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q168651",
+        "label": "黑森-卡塞尔",
+        "label_en": "Landgraviate of Hesse-Kassel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58575"
+        ],
+        "statement_id": "Q58575$f1b1a398-4335-412c-54cf-428c1397dde7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q58575",
+        "title": "Wikidata Q58575 / 弗里德里希·维勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q58575&oldid=2561220915",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561220915,
+        "modified_at": "2026-10-26T22:46:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

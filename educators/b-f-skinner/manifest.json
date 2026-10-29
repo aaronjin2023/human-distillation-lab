@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "初学者自定步调编程课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；'遗忘之后剩下'一语归属多家，未确证为斯金纳原话，故只作 artifact 级样本，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q213195",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "B. F. Skinner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–1990",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q213195"
+            ],
+            "statement_id": "q213195$E5CE9385-A646-48A3-A893-5F90CEAEF64D",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q213195"
+            ],
+            "statement_id": "q213195$237D719C-51D6-4277-A5D3-98F4F169C975",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-08-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q213195"
+        ],
+        "statement_id": "q213195$3F654E0F-8342-4A46-895B-945A18451606",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1185617",
+        "label": "萨斯奎汉纳车站",
+        "label_en": "Susquehanna Depot",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q213195"
+        ],
+        "statement_id": "q213195$7330C12F-5841-470C-ABA6-F3A3D2E82F62",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·程序教学 / 行为主义",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q213195",
+        "title": "Wikidata Q213195 / 伯尔赫斯·弗雷德里克·斯金纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q213195&oldid=2561679003",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561679003,
+        "modified_at": "2026-10-28T12:52:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,118 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a man buying oden at a convenience store late at night, thinking of a holiday that ended",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11475640",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tokiko Iwatani",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–2013",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11475640"
+            ],
+            "statement_id": "Q11475640$aa8fe0d9-41e5-c123-6142-7d447b725f23",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-03-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2013,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11475640"
+            ],
+            "statement_id": "Q11475640$a3afabee-4225-478e-24b4-7d1737b97d23",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2013,
+            "raw_time": "+2013-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11475640"
+        ],
+        "statement_id": "Q11475640$600a0cad-4f52-80e7-fa74-6a39bb36d4a2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q483984",
+        "label": "京城府",
+        "label_en": "Keijō",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11475640"
+        ],
+        "statement_id": "Q11475640$5d400494-4f0d-3eae-2ce6-13fce105011e",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日语歌谣曲",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11475640",
+        "title": "Wikidata Q11475640 / 岩谷时子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11475640&oldid=2540393005",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540393005,
+        "modified_at": "2026-09-05T06:47:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

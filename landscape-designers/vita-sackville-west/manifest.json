@@ -44,5 +44,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "萨克维尔-韦斯特风格：现代城市的一座社区花园，花园房间，严整线条内的繁茂，白花园，老玫瑰，浪漫种植。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q235505",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vita Sackville-West",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1962",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q235505"
+            ],
+            "statement_id": "q235505$863FD934-7AC6-44E8-8590-06FD8BFD27E8",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q235505"
+            ],
+            "statement_id": "q235505$8E74F3A1-26C7-4342-BC14-72CBC4ABCFF0",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-06-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q235505"
+        ],
+        "statement_id": "q235505$904537AA-CC3E-4EEC-9696-119D07209337",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1285144",
+        "label": "諾爾莊園",
+        "label_en": "Knole House",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q235505"
+        ],
+        "statement_id": "q235505$650DE8F5-E954-44EF-95C2-9DD5F84DA308",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·城堡花园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q235505",
+        "title": "Wikidata Q235505 / 维塔·萨克维尔-韦斯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q235505&oldid=2559997239",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559997239,
+        "modified_at": "2026-10-23T13:59:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

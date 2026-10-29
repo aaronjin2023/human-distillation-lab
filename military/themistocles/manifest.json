@@ -42,5 +42,130 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场网络攻防对抗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q179552",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Themistocles",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.524–459 BCE",
+      "birth_year": {
+        "value": -524,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179552"
+            ],
+            "statement_id": "Q179552$0D318181-F3F5-42B9-9DD0-D6F79B417B5D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -524,
+            "raw_time": "-0524-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -459,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179552"
+            ],
+            "statement_id": "Q179552$CF2822F3-D70D-490F-88AE-C02C0AF28488",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -459,
+            "raw_time": "-0459-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q179552"
+        ],
+        "statement_id": "Q179552$6CB57A26-183D-4D28-A05F-DEE03089E07D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1524",
+        "label": "雅典",
+        "label_en": "Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q179552"
+        ],
+        "statement_id": "Q179552$250525D3-4522-43C5-99C8-9B7CE30E405B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q179552"
+        ],
+        "statement_id": "Q179552$a660aea0-49ba-cbf4-53b5-6e5711be3e8f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q389688",
+        "label": "阿契美尼德帝国",
+        "label_en": "Achaemenid Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "希腊·海战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q179552",
+        "title": "Wikidata Q179552 / 地米斯托克利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q179552&oldid=2552067925",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552067925,
+        "modified_at": "2026-10-02T07:44:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

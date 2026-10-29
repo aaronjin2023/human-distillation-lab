@@ -39,5 +39,141 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8462",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Timur",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1336–1405",
+      "birth_year": {
+        "value": 1336,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8462"
+            ],
+            "statement_id": "q8462$FE8008F5-786B-44C0-8B13-7A6B6827B879",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1336,
+            "raw_time": "+1336-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q8462"
+            ],
+            "statement_id": "Q8462$3f5dd96e-4249-c6bc-fb51-48dfef0ff31a",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1336,
+            "raw_time": "+1336-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1405,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8462"
+            ],
+            "statement_id": "q8462$2ADFCC00-9DB3-446B-8607-F84CBA9B78E1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1405,
+            "raw_time": "+1405-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q8462"
+            ],
+            "statement_id": "Q8462$625fb57d-4536-b716-4986-deca38654792",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1405,
+            "raw_time": "+1405-02-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8462"
+        ],
+        "statement_id": "Q8462$1D34EDC6-0D91-409B-B524-6641ED4E19A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 21818619,
+              "id": "Q21818619"
+            }
+          ]
+        },
+        "qid": "Q569766",
+        "label": "沙赫里薩布茲",
+        "label_en": "Shahrisabz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中亚·征服"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8462",
+        "title": "Wikidata Q8462 / 帖木尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8462&oldid=2561125058",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561125058,
+        "modified_at": "2026-10-26T17:16:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

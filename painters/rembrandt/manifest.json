@@ -30,5 +30,268 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "深夜的书房与台灯（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5598",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rembrandt van Rijn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1606–1669",
+      "birth_year": {
+        "value": 1606,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5598"
+            ],
+            "statement_id": "q5598$a5da7679-428b-3801-4085-1854fad61b0b",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1606,
+            "raw_time": "+1606-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1669,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5598"
+            ],
+            "statement_id": "q5598$98e024b0-478f-7404-b64a-e12a32b6ae42",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1669,
+            "raw_time": "+1669-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "Q5598$7D79B6A7-9BD6-4256-B92C-C656F889CCB4",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "Q5598$BC73B343-3E5E-4058-8567-C54F52141AE2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1620-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1624-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "Q5598$0C4EC190-DC06-4B10-8B4B-67FB4C18DA63",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1623-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1625-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "Q5598$A155C34D-7FE1-4CE3-A298-F2F970286721",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1625-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1631-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "Q5598$86F3213A-0945-4303-80CA-35A46C6FB777",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1631-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1669-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5598"
+        ],
+        "statement_id": "q5598$BC9A2833-8C62-4140-BBBE-08197066198D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170072",
+        "label": "荷兰共和国",
+        "label_en": "Dutch Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5598"
+          ],
+          "statement_id": "Q5598$ACE66FAB-2DFF-4F0D-9975-AFD123B694E8",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q200569",
+          "label": "荷兰人",
+          "label_en": "Dutch",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "荷兰黄金时代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5598",
+        "title": "Wikidata Q5598 / 伦勃朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5598&oldid=2558222772",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558222772,
+        "modified_at": "2026-10-18T02:58:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

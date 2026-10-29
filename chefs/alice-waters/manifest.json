@@ -39,5 +39,116 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q434513",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alice Waters",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q434513"
+            ],
+            "statement_id": "Q434513$8FF851F9-ACA3-468F-A62A-0F1FBBD66D01",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q434513"
+        ],
+        "statement_id": "Q434513$43DBBFDD-9D25-4167-AC21-99D1650F8B34",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3017853",
+        "label": "查塔姆市",
+        "label_en": "Chatham Borough",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q434513"
+        ],
+        "statement_id": "Q434513$6b88984a-299d-4e6c-a00e-b3301983e481",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q484678",
+        "label": "伯克利",
+        "label_en": "Berkeley",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q434513"
+        ],
+        "statement_id": "q434513$4C1702CE-71B4-4040-B7E6-D930CC84C920",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "加州菜·农场到餐桌",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q434513",
+        "title": "Wikidata Q434513 / Alice Waters",
+        "url": "https://www.wikidata.org/w/index.php?title=Q434513&oldid=2529537192",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529537192,
+        "modified_at": "2026-08-10T08:27:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

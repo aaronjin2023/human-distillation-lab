@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一架无人机撞坏花盆：为条文作注，调和新旧（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q702166",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Du Yu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "222–285",
+      "birth_year": {
+        "value": 222,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q702166"
+            ],
+            "statement_id": "Q702166$A4C95361-4689-402D-ACF5-214D05992A4F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 222,
+            "raw_time": "+0222-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 285,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q702166"
+            ],
+            "statement_id": "Q702166$081F7DF4-F29C-4B9D-B6B1-A40BD4C560AE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 285,
+            "raw_time": "+0285-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q702166"
+        ],
+        "statement_id": "Q702166$77225B0B-4384-4C9D-952D-A0407C799569",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6501000",
+        "label": "长安",
+        "label_en": "Chang'an",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q702166"
+        ],
+        "statement_id": "Q702166$6EB67893-DAB3-4E4A-838D-2E46FFC9642B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1145470",
+        "label": "西晋",
+        "label_en": "Western Jin dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "晋·律学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q702166",
+        "title": "Wikidata Q702166 / 杜预",
+        "url": "https://www.wikidata.org/w/index.php?title=Q702166&oldid=2516113931",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516113931,
+        "modified_at": "2026-07-11T01:07:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,117 @@
   "test_prompt": "清晨窗台上的一杯咖啡",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q207717",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guillaume Dufay",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1397–1474",
+      "birth_year": {
+        "value": 1397,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q207717"
+            ],
+            "statement_id": "q207717$72b0f558-4124-3607-d076-7a9b50abb5e8",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1397,
+            "raw_time": "+1397-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1474,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q207717"
+            ],
+            "statement_id": "Q207717$a4f6bfef-edb3-49a2-8eab-8b4fea1ad1ef",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1474,
+            "raw_time": "+1474-11-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q207717"
+        ],
+        "statement_id": "q207717$E1FECE07-2AD8-4DBD-9C2E-C605BB87FC64",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q692168",
+        "label": "贝尔瑟尔",
+        "label_en": "Beersel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q207717"
+        ],
+        "statement_id": "Q207717$1F3FE89B-DDE0-4283-8F36-CFDF5BEF866F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴早期 / 佛兰德斯乐派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q207717",
+        "title": "Wikidata Q207717 / 纪尧姆·迪费",
+        "url": "https://www.wikidata.org/w/index.php?title=Q207717&oldid=2557900528",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557900528,
+        "modified_at": "2026-10-17T06:45:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

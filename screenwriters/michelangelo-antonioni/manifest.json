@@ -37,5 +37,153 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Michelangelo Antonioni",
-  "writer_zh": "米开朗基罗·安东尼奥尼"
+  "writer_zh": "米开朗基罗·安东尼奥尼",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55433",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michelangelo Antonioni",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–2007",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55433"
+            ],
+            "statement_id": "q55433$C22922EC-D7D6-42D0-9E0A-39AA7C52E99A",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-09-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55433"
+            ],
+            "statement_id": "q55433$2E364CAC-3375-4580-BBE1-F9496CA9081B",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55433"
+        ],
+        "statement_id": "Q55433$3604AFAA-713C-428D-85C7-6A1B3F09A136",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q13362",
+        "label": "费拉拉",
+        "label_en": "Ferrara",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55433"
+        ],
+        "statement_id": "q55433$3A9BF44D-ED2A-4347-B218-D4B10112925F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55433"
+        ],
+        "statement_id": "Q55433$505F3227-4765-4214-BDEB-8A9107FC89B2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·现代主义",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55433",
+        "title": "Wikidata Q55433 / 米開朗基羅·安東尼奧尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55433&oldid=2560255137",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560255137,
+        "modified_at": "2026-10-24T09:52:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

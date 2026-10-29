@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q107432",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Mingus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–1979",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107432"
+            ],
+            "statement_id": "q107432$189095D1-67B4-4B71-9792-5B7B77885FA1",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107432"
+            ],
+            "statement_id": "q107432$04B07C69-C3F7-4F3C-B399-F21E16E43617",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q107432"
+        ],
+        "statement_id": "q107432$E312B1B3-BAD4-4595-B3EF-B2542FB4CA16",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q79783",
+        "label": "诺加利斯",
+        "label_en": "Nogales",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q107432"
+        ],
+        "statement_id": "Q107432$A38B5236-1D40-40D4-AF6C-6DC23281C9A1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q107432"
+          ],
+          "statement_id": "Q107432$EF01EA30-6836-41E1-A5E7-2018B9429A26",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q107432",
+        "title": "Wikidata Q107432 / 查尔斯·明格斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q107432&oldid=2557838014",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557838014,
+        "modified_at": "2026-10-17T03:05:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

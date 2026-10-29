@@ -28,5 +28,130 @@
     "后世证实的时间线以综述为准"
   ],
   "test_prompt": "现代问题：如何从核震相判断地球存在固态内核？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q256839",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Inge Lehmann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1993",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q256839"
+            ],
+            "statement_id": "q256839$3604E27E-9FC3-4BA3-9A53-6C5BD66E47A6",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q256839"
+            ],
+            "statement_id": "Q256839$d722fde8-4c4d-d7ac-ea11-74a3f06fc9c8",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q256839"
+        ],
+        "statement_id": "q256839$B1454DA7-6BCA-442E-B782-893A2A221971",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1748",
+        "label": "哥本哈根",
+        "label_en": "Copenhagen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q256839"
+        ],
+        "statement_id": "Q256839$06aa23d0-4f6f-654b-551c-a98af4c7535e",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q308345",
+        "label": "厄斯特布罗",
+        "label_en": "Østerbro",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q256839"
+        ],
+        "statement_id": "q256839$9BBC00C4-D7AC-4634-A1C4-C2C2AF2C5AC9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q256839",
+        "title": "Wikidata Q256839 / 英厄·莱曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q256839&oldid=2557930853",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557930853,
+        "modified_at": "2026-10-17T08:57:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

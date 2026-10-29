@@ -49,5 +49,117 @@
   ],
   "test_prompt": "黎明集结的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q317475",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ali Shariati",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–1977",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q317475"
+            ],
+            "statement_id": "q317475$6D92D73A-FE0D-46E7-AD3D-4BEBAC566978",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-11-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1977,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q317475"
+            ],
+            "statement_id": "q317475$612F243A-7FA5-46A1-B78B-0F9BFA14890A",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1977,
+            "raw_time": "+1977-06-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q317475"
+        ],
+        "statement_id": "q317475$5A0BE3F3-18FA-4CB1-92EA-048783B1710C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10858395",
+        "label": "Mazinan",
+        "label_en": "Mazinan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q317475"
+        ],
+        "statement_id": "Q317475$9b956712-489a-cddc-8e67-cddbbddb6c22",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q794",
+        "label": "伊朗",
+        "label_en": "Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊朗·伊斯兰社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q317475",
+        "title": "Wikidata Q317475 / 阿里·沙里亚蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q317475&oldid=2540943337",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540943337,
+        "modified_at": "2026-09-06T07:49:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

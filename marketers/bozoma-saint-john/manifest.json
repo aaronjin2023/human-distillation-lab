@@ -36,5 +36,114 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款流媒体品牌的音乐文化营销方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q24851630",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bozoma Saint John",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1977–（在世）",
+      "birth_year": {
+        "value": 1977,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q24851630"
+            ],
+            "statement_id": "Q24851630$2e92a67f-4f22-e0c4-32a4-25ac8972fcbc",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1977,
+            "raw_time": "+1977-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q24851630"
+        ],
+        "statement_id": "Q24851630$14BC0144-EB41-497E-A2AE-861F92FD075D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q49192",
+        "label": "米德尔敦",
+        "label_en": "Middletown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q24851630"
+        ],
+        "statement_id": "Q24851630$8c2fa162-4213-ed2b-32dc-92278f4ba3c0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q24851630"
+        ],
+        "statement_id": "Q24851630$6232365B-168B-4181-A028-EE91EDC87C77",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q117",
+        "label": "加纳",
+        "label_en": "Ghana",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌营销 / 非洲裔"
+    },
+    "sources": [
+      {
+        "id": "WD:Q24851630",
+        "title": "Wikidata Q24851630 / Bozoma Saint John",
+        "url": "https://www.wikidata.org/w/index.php?title=Q24851630&oldid=2540228656",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540228656,
+        "modified_at": "2026-09-04T20:05:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

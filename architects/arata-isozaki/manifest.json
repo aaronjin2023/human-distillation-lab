@@ -41,5 +41,195 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q317135",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arata Isozaki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2022",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q317135"
+            ],
+            "statement_id": "Q317135$9B7800FB-5A06-47C3-83FD-EBDC34EF505D",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q317135"
+            ],
+            "statement_id": "Q317135$18bdf22a-4b77-5bd8-4082-61be35b5e78a",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$c6a8e237-4596-b244-55f6-7aa284de7d60",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q199609",
+        "label": "大分市",
+        "label_en": "Ōita-shi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$53baaefe-476e-39e3-3927-b2a3e96df23b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34600",
+        "label": "京都市",
+        "label_en": "Kyoto",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$93d4ed7a-459c-db99-444c-ac7b66beda1a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$8eb84956-40f2-80b9-f56e-394999a82fab",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q495",
+        "label": "都灵",
+        "label_en": "Turin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$8a89417e-4789-8e0a-3494-5ca06eac3756",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31487",
+        "label": "克拉科夫",
+        "label_en": "Kraków",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$DF64509F-0BC2-4966-9C8C-C61C57A89CD5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q317135"
+        ],
+        "statement_id": "Q317135$25EF5052-0E64-44B8-BFF2-BA6830D66E82",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本现代主义 / 后现代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q317135",
+        "title": "Wikidata Q317135 / 矶崎新",
+        "url": "https://www.wikidata.org/w/index.php?title=Q317135&oldid=2559157665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559157665,
+        "modified_at": "2026-10-20T09:16:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,133 @@
   "test_prompt": "In the style of Aristarchus of Samos, estimate a planet-to-star size ratio from modern transit data: pick the geometrically special moment, triangulate from it, show every step, and state how a 3-degree error would change the answer",
   "test_question_zh": "用阿里斯塔克斯的方法分析现代系外行星凌星数据，估计行星与恒星的大小比",
   "verification": "2026-10-26：日心说、日月距离比 19:1（实为约 390:1）、角距约 87° 经 web 搜索核对；日心说仅见阿基米德转述已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q140188",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aristarchus of Samos",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.310–c.230 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q140188"
+            ],
+            "statement_id": "q140188$007bddaa-4af8-7a57-1fdc-8efc973aea91",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -310,
+            "raw_time": "-0310-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q140188"
+            ],
+            "statement_id": "q140188$e67a3abe-4f99-53e2-d3a7-9a7740c0e030",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -230,
+            "raw_time": "-0230-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q140188"
+        ],
+        "statement_id": "q140188$b188eead-4079-2fa2-7bf0-405835e24e41",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q156882",
+        "label": "萨摩斯岛",
+        "label_en": "Samos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q140188"
+        ],
+        "statement_id": "Q140188$15987094-46df-1dfc-51ea-2fe2140ba885",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q156882",
+        "label": "萨摩斯岛",
+        "label_en": "Samos",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古希腊·日心说先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q140188",
+        "title": "Wikidata Q140188 / 阿里斯塔克斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q140188&oldid=2557791480",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557791480,
+        "modified_at": "2026-10-16T23:57:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

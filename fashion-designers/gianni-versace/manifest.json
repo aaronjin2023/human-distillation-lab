@@ -43,5 +43,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Gianni Versace, a modern beach club waiter uniform, baroque Medusa print, gold and black, sensual glamour, bold colour, exuberant Italian luxury, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q264490",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gianni Versace",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1946–1997",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q264490"
+            ],
+            "statement_id": "q264490$DB41A11E-3D4C-40CB-BD69-969BE5B73AEE",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q264490"
+            ],
+            "statement_id": "q264490$D90EEA34-651D-4E95-BB67-34E8CA2C272B",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q264490"
+        ],
+        "statement_id": "q264490$ACD78EC9-3EE5-4389-A6E0-C889AB5196B0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8471",
+        "label": "雷焦卡拉布里亞",
+        "label_en": "Reggio Calabria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q264490"
+        ],
+        "statement_id": "Q264490$F09244F3-1557-4079-8FEF-973B36544651",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣 / 巴洛克印花",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q264490",
+        "title": "Wikidata Q264490 / 詹尼·范思哲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q264490&oldid=2557895983",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557895983,
+        "modified_at": "2026-10-17T06:32:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

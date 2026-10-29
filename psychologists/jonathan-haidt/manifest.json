@@ -43,5 +43,101 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q845573",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jonathan Haidt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q845573"
+            ],
+            "statement_id": "Q845573$C189995F-2A78-4B3C-A9F3-7F8606BC743D",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-10-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q845573"
+        ],
+        "statement_id": "Q845573$43663A48-F4B6-4F5C-84B2-133D754C49A4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q845573"
+        ],
+        "statement_id": "Q845573$C9E95B22-3895-4F92-A7AB-191AB5EB053D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会心理学 / 道德心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q845573",
+        "title": "Wikidata Q845573 / 強納森·海特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q845573&oldid=2527556359",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527556359,
+        "modified_at": "2026-08-05T09:06:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

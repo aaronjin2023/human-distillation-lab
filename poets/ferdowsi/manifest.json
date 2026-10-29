@@ -38,5 +38,139 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己、从未寄出的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43459",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ferdowsi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.940–c.1020",
+      "birth_year": {
+        "value": 940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43459"
+            ],
+            "statement_id": "Q43459$37919D40-576B-4C00-B75A-850890FD0920",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 940,
+            "raw_time": "+0940-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43459"
+            ],
+            "statement_id": "Q43459$0B6429B5-3E59-4241-A583-4C8D1EC03AA1",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1020,
+            "raw_time": "+1020-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43459"
+        ],
+        "statement_id": "q43459$97B4AA0A-47EE-4242-BEB2-34BC13AD85DF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q681427",
+        "label": "圖斯",
+        "label_en": "Tus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43459"
+        ],
+        "statement_id": "q43459$4B29A691-1022-4EC4-9F2D-7ABC7E86C3D4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12150341",
+        "label": "萨曼帝國",
+        "label_en": "Samanid Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43459"
+        ],
+        "statement_id": "Q43459$f2bb5e90-492b-1c92-44b2-d432f77f33ea",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q249578",
+        "label": "加茲尼王朝",
+        "label_en": "Ghaznavid Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波斯·史诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43459",
+        "title": "Wikidata Q43459 / 菲尔多西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43459&oldid=2557878899",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557878899,
+        "modified_at": "2026-10-17T05:31:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,101 @@
   "test_prompt": "In the style of Walter Alvarez, judge a disputed mass-extinction boundary: sample the boundary clay centimetre by centimetre, measure iridium and shocked quartz across several continents, and decide whether the anomaly is global enough to demand an impact",
   "test_question_zh": "一个新发现的大灭绝界线，黏土层里铱略高，能断言是撞击吗？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q555781",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Walter Alvarez",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q555781"
+            ],
+            "statement_id": "q555781$97C7E356-70F5-4EB3-A8B3-0A3910D459A5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q555781"
+        ],
+        "statement_id": "q555781$71427B7C-799A-4650-92F2-4A3339E71AF0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q484678",
+        "label": "伯克利",
+        "label_en": "Berkeley",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q555781"
+        ],
+        "statement_id": "q555781$43B0B0D2-3E59-4430-B15D-A97752A8EFB0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地质学 / 古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q555781",
+        "title": "Wikidata Q555781 / 沃尔特·阿尔瓦雷茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q555781&oldid=2527151536",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527151536,
+        "modified_at": "2026-08-04T13:44:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

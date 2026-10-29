@@ -43,5 +43,116 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q557",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Patti Smith",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1946–",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557"
+            ],
+            "statement_id": "q557$F9255C6A-B59D-4BC9-8C65-AB392269F41C",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q557"
+        ],
+        "statement_id": "Q557$E7009619-E72E-4E12-B117-026B881E8B76",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q557"
+        ],
+        "statement_id": "Q557$2A308B79-128A-4CF2-9A8C-89912579930D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12439",
+        "label": "底特律",
+        "label_en": "Detroit",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q557"
+        ],
+        "statement_id": "Q557$CCC0BF29-CBEA-412A-95BA-17D26915B150",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英语摇滚诗歌·创作歌手",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q557",
+        "title": "Wikidata Q557 / 帕蒂·史密斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q557&oldid=2561162467",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561162467,
+        "modified_at": "2026-10-26T19:26:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

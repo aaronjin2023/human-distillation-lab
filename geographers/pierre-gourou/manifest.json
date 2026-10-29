@@ -25,5 +25,117 @@
   "test_prompt": "In the style of Pierre Gourou, survey a new rice-growing district: count its people, measure its fields and water, and explain how it feeds itself",
   "test_question_zh": "一处新建稻作区的人口、田地与水，说明了怎样的承载与文明方式？",
   "verification": "2026-10-26：生卒（1900–1999）与《热带世界》（1947）经 web 搜索核对；塞泽尔批评按公开文献",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3385296",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre Gourou",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1999",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3385296"
+            ],
+            "statement_id": "Q3385296$CD9275B9-DF8A-4A6F-8178-7A47922C955C",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3385296"
+            ],
+            "statement_id": "Q3385296$375D6308-3F2F-4C95-9C91-2B446BC21300",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3385296"
+        ],
+        "statement_id": "Q3385296$70E3A6E4-D7B9-43CC-8ED4-4905BE0CE379",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3572",
+        "label": "突尼斯市",
+        "label_en": "Tunis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3385296"
+        ],
+        "statement_id": "Q3385296$0FDDB525-1A5C-4240-BFEC-1240926D93EF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·热带地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3385296",
+        "title": "Wikidata Q3385296 / Pierre Gourou",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3385296&oldid=2519937289",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519937289,
+        "modified_at": "2026-07-20T00:53:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

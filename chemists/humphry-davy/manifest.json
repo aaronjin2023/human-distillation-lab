@@ -1,35 +1,187 @@
 {
- "chemist": "Humphry Davy",
- "chemist_zh": "汉弗里·戴维",
- "dates": "1778–1829",
- "field": "电化学",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #17",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "电解分离钠与钾",
-  "氯的元素性确认",
-  "矿工安全灯"
- ],
- "sources": [
-  "Wikipedia 'Humphry Davy' https://en.wikipedia.org/wiki/Humphry_Davy",
-  "Britannica 'Humphry Davy' https://www.britannica.com/biography/Humphry-Davy"
- ],
- "test_prompt": "In the style of Humphry Davy, design a plan to test whether an unknown white solid hides a new metal: electrolyse its melt, collect what gathers at each pole, and state what would prove it is no new metal.",
- "test_question_zh": "如何检验一种未知白色固体是否藏着新金属？",
- "verification": "2026-10-26：生卒、电解钠钾、氯元素性、安全灯按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "戴维论文英文原文细节未逐句核对",
-  "电解实验的具体条件未逐项核对原文",
-  "安全灯试验的具体数据未逐一核对"
- ]
+  "chemist": "Humphry Davy",
+  "chemist_zh": "汉弗里·戴维",
+  "dates": "1778–1829",
+  "field": "电化学",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #17",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "电解分离钠与钾",
+    "氯的元素性确认",
+    "矿工安全灯"
+  ],
+  "sources": [
+    "Wikipedia 'Humphry Davy' https://en.wikipedia.org/wiki/Humphry_Davy",
+    "Britannica 'Humphry Davy' https://www.britannica.com/biography/Humphry-Davy"
+  ],
+  "test_prompt": "In the style of Humphry Davy, design a plan to test whether an unknown white solid hides a new metal: electrolyse its melt, collect what gathers at each pole, and state what would prove it is no new metal.",
+  "test_question_zh": "如何检验一种未知白色固体是否藏着新金属？",
+  "verification": "2026-10-26：生卒、电解钠钾、氯元素性、安全灯按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "戴维论文英文原文细节未逐句核对",
+    "电解实验的具体条件未逐项核对原文",
+    "安全灯试验的具体数据未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131761",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Humphry Davy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1778–1829",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131761"
+            ],
+            "statement_id": "q131761$11BCF862-CCD0-4F15-8317-8EE94AD3E212",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1778,
+            "raw_time": "+1778-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131761"
+            ],
+            "statement_id": "q131761$94F8F9B6-A45E-40DA-9D3E-D5BE964E12FE",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1829,
+            "raw_time": "+1829-05-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131761"
+        ],
+        "statement_id": "q131761$8C11D730-F5F8-4E51-9A38-A72E124A27D5",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q208209",
+        "label": "彭赞斯",
+        "label_en": "Penzance",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131761"
+        ],
+        "statement_id": "Q131761$BFDD9867-C31C-48CC-BD83-C36394B6FDF9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q131761"
+        ],
+        "statement_id": "Q131761$C7DB5368-F998-4946-B536-595CCFE07E16",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131761",
+        "title": "Wikidata Q131761 / 汉弗里·戴维",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131761&oldid=2557926216",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557926216,
+        "modified_at": "2026-10-17T08:33:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

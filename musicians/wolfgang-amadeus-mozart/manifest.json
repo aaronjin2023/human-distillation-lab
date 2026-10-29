@@ -30,5 +30,157 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q254",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wolfgang Amadeus Mozart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1756–1791",
+      "birth_year": {
+        "value": 1756,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q254"
+            ],
+            "statement_id": "q254$A901B3B6-DC53-438F-A8D6-7A10BA65E53A",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1756,
+            "raw_time": "+1756-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1791,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q254"
+            ],
+            "statement_id": "q254$02928F76-292F-4B6A-9A5D-3A098F431A40",
+            "rank": "normal",
+            "reference_count": 26,
+            "qualifiers": {},
+            "value": 1791,
+            "raw_time": "+1791-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q254"
+        ],
+        "statement_id": "Q254$060A2972-E36D-4444-B985-20D85B24EBE5",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q34713",
+        "label": "萨尔茨堡",
+        "label_en": "Salzburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q254"
+        ],
+        "statement_id": "Q254$d0d9bdb0-4004-37c7-7415-2b05d1ba4b68",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34713",
+        "label": "萨尔茨堡",
+        "label_en": "Salzburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q254"
+        ],
+        "statement_id": "Q254$38fe4a80-43d6-6a03-164c-f4bd71cb5eb5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q254"
+        ],
+        "statement_id": "Q254$B33979C9-DB4C-46F0-AFAF-8BDE9962912B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q81137",
+        "label": "奥洛穆茨",
+        "label_en": "Olomouc",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q254"
+        ],
+        "statement_id": "Q254$79e68c63-485b-91ce-f3d3-f8c20ef6a2aa",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q701614",
+        "label": "萨尔茨堡大主教国",
+        "label_en": "Prince-Archbishopric of Salzburg",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q254",
+        "title": "Wikidata Q254 / 沃尔夫冈·阿玛多伊斯·莫扎特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q254&oldid=2560439756",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560439756,
+        "modified_at": "2026-10-24T21:34:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -28,5 +28,131 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何给一种新发现的元素定符号与原子量？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151911",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jöns Jacob Berzelius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1779–1848",
+      "birth_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151911"
+            ],
+            "statement_id": "q151911$E319543D-5EA3-4D69-9A43-73BDCD056B07",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151911"
+            ],
+            "statement_id": "q151911$E9966E27-37B2-4EB7-BE68-D3F6B97BFBFF",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "Q151911$058f2d2a-4cce-ce27-2bed-89e1319c99ff",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1451001",
+        "label": "韋瓦爾孫達",
+        "label_en": "Väfversunda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "Q151911$7F7B13D0-3721-4268-91E2-1974998507C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1754",
+        "label": "斯德哥尔摩",
+        "label_en": "Stockholm",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "q151911$CDA14F10-EB53-4BD2-AB3C-E5FD97D1BEC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151911",
+        "title": "Wikidata Q151911 / 永斯·贝采利乌斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151911&oldid=2557941032",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557941032,
+        "modified_at": "2026-10-17T09:40:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1399476",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Beard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1985",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1399476"
+            ],
+            "statement_id": "q1399476$982F42FF-91E3-41E0-869F-628FA5B38FC5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-05-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1399476"
+            ],
+            "statement_id": "q1399476$7EA8E0E5-4EE8-4923-AF72-F7405CB8A2A1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1399476"
+        ],
+        "statement_id": "q1399476$33AF5B4E-0CB3-42C2-B116-0490D6755AF1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6106",
+        "label": "波特兰",
+        "label_en": "Portland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1399476"
+        ],
+        "statement_id": "q1399476$980707C1-0B1D-4117-A713-E17DF091E440",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国烹饪之父",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1399476",
+        "title": "Wikidata Q1399476 / 詹姆士·比爾德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1399476&oldid=2521453122",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521453122,
+        "modified_at": "2026-07-23T00:36:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

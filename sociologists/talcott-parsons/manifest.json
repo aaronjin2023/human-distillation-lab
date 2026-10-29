@@ -51,5 +51,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "高考志愿填报",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q203913",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Talcott Parsons",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1979",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203913"
+            ],
+            "statement_id": "q203913$14978D47-BBBD-4B6D-8368-CA2BBC0A6194",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-12-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203913"
+            ],
+            "statement_id": "q203913$7F830A04-C81B-4357-A826-675FF4442883",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-05-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q203913"
+        ],
+        "statement_id": "q203913$94D1EEA0-B35B-4A42-83D4-2A7FC9CFDF8C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q49258",
+        "label": "科罗拉多斯普林斯",
+        "label_en": "Colorado Springs",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q203913"
+        ],
+        "statement_id": "q203913$D90438FD-D0F4-4372-886E-E4EF36EC6523",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "结构功能主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q203913",
+        "title": "Wikidata Q203913 / 塔尔科特·帕森斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q203913&oldid=2558252817",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558252817,
+        "modified_at": "2026-10-18T04:45:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

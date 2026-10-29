@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q324650",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Wells Lawrence",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2024",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q324650"
+            ],
+            "statement_id": "Q324650$85785AC4-74C4-4BA3-9DB6-252865958FDE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-05-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q324650"
+            ],
+            "statement_id": "Q324650$aca89e29-4468-39b4-e6ad-2bd028da5c3f",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q324650"
+        ],
+        "statement_id": "Q324650$956FF9F3-87D2-4FF1-8580-F3EE76B861F3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q216820",
+        "label": "扬斯敦",
+        "label_en": "Youngstown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q324650"
+        ],
+        "statement_id": "Q324650$ADD8C7CE-D9C8-41D8-9479-76D7E3BCD038",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告创意 / 代理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q324650",
+        "title": "Wikidata Q324650 / Mary Wells Lawrence",
+        "url": "https://www.wikidata.org/w/index.php?title=Q324650&oldid=2521009914",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521009914,
+        "modified_at": "2026-07-22T09:40:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

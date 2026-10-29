@@ -38,5 +38,139 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q36949",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert De Niro",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36949"
+            ],
+            "statement_id": "q36949$9474FF8A-9C2B-43FD-88B5-93DEEC5D7CCE",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q36949"
+        ],
+        "statement_id": "Q36949$f3a649fd-4dcf-bc22-4ea4-9b7d665cf035",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q36949"
+        ],
+        "statement_id": "q36949$77688555-5518-4656-80E0-D135162486CB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q36949"
+        ],
+        "statement_id": "Q36949$8370233b-4a99-3958-1fd6-c18624310deb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2006-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q36949"
+          ],
+          "statement_id": "Q36949$23f60795-4f1f-8b10-fd63-03ee6569eeac",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q974693",
+          "label": "意大利裔美国人",
+          "label_en": "Italian Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q36949",
+        "title": "Wikidata Q36949 / 罗伯特·德尼罗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q36949&oldid=2561683081",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561683081,
+        "modified_at": "2026-10-28T13:11:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

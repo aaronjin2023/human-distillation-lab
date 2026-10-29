@@ -31,5 +31,117 @@
   "test_prompt": "In the style of James Dwight Dana, explain a thick sedimentary pile at a continental margin: measure the sections, map the thickness, and test the geosyncline idea as a model of its time, not as current theory",
   "test_question_zh": "大陆边缘一处巨厚沉积层，该怎么解释它的成因？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q315366",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Dwight Dana",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1813–1895",
+      "birth_year": {
+        "value": 1813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315366"
+            ],
+            "statement_id": "q315366$6D0FB340-31B2-4882-A454-C7764A67516B",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1813,
+            "raw_time": "+1813-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315366"
+            ],
+            "statement_id": "q315366$EFFBE694-4F51-42F3-9336-7AEC573EAB12",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q315366"
+        ],
+        "statement_id": "Q315366$25F1A4E2-5B69-4CBA-878F-0FA8916DFC24",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2495519",
+        "label": "尤蒂卡",
+        "label_en": "Utica",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q315366"
+        ],
+        "statement_id": "q315366$1CC36114-6DE4-4260-A68A-2B83ED0E58E4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "矿物学 / 构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q315366",
+        "title": "Wikidata Q315366 / 詹姆斯·德怀特·达纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q315366&oldid=2557949016",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557949016,
+        "modified_at": "2026-10-17T10:20:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

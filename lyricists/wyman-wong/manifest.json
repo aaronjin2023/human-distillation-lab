@@ -42,5 +42,113 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Wyman Wong, lyrics about a small Yorkshire terrier sitting on a subway seat, acting like a diva while commuters ignore it. Witty Cantonese, slang and wordplay, self-mockery, ironic chorus. Verse, chorus.",
   "verification": "2026-10-26；草稿已核实项见 lyricists-top100-draft.md 第 5 节；未核实项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8971521",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wyman Wong",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8971521"
+            ],
+            "statement_id": "Q8971521$66D488A6-7202-4255-9055-A3992FE166B6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8971521"
+        ],
+        "statement_id": "Q8971521$2de888ac-43af-b32b-6197-716aa463df7a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1054923",
+        "label": "英属香港",
+        "label_en": "British Hong Kong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8971521"
+        ],
+        "statement_id": "Q8971521$d79b63a0-4ed6-5938-8b82-1bc7e1c668ec",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1997-07-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "粤语流行·香港",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8971521",
+        "title": "Wikidata Q8971521 / 黄伟文",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8971521&oldid=2533973002",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533973002,
+        "modified_at": "2026-08-21T01:30:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

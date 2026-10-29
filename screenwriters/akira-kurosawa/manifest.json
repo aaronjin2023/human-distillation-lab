@@ -39,5 +39,152 @@
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Akira Kurosawa",
-  "writer_zh": "黑泽明"
+  "writer_zh": "黑泽明",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8006",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Akira Kurosawa",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–1998",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8006"
+            ],
+            "statement_id": "q8006$5F14CAA2-1050-4711-AEDD-48B4B9B4F27C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8006"
+            ],
+            "statement_id": "q8006$343D110B-0035-4617-9671-AFBDE8C1CF7A",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-09-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8006"
+        ],
+        "statement_id": "q8006$10225FB8-F52C-48C6-B516-7FA571C314BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11432209",
+        "label": "Ōi",
+        "label_en": "Ōi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8006"
+        ],
+        "statement_id": "Q8006$EF9ACD6E-49FA-413C-A74E-BF94D35CBEC1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P580": [
+            {
+              "time": "+1910-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8006"
+        ],
+        "statement_id": "q8006$13AF7A40-81B0-4C79-81A4-DB88C56810B1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·战后",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8006",
+        "title": "Wikidata Q8006 / 黑澤明",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8006&oldid=2561752616",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561752616,
+        "modified_at": "2026-10-28T17:45:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

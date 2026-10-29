@@ -34,5 +34,131 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场网络攻防对抗中的持久消耗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q244748",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Menelik II",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1844–1913",
+      "birth_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q244748"
+            ],
+            "statement_id": "q244748$1E8575DD-5199-482D-89CE-53AE807A36C7",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q244748"
+            ],
+            "statement_id": "q244748$7E591ED0-DE45-4110-B26A-79B05065ECC5",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q244748"
+        ],
+        "statement_id": "q244748$96DFB956-332B-47DE-BF83-37C9E3AD3926",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q557397",
+        "label": "安科貝爾",
+        "label_en": "Ankober",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q244748"
+        ],
+        "statement_id": "Q244748$27FCE130-13EC-4C67-8B99-F2682901B22D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q115",
+        "label": "埃塞俄比亚",
+        "label_en": "Ethiopia",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q244748"
+        ],
+        "statement_id": "Q244748$CE265B08-DB7B-4A6E-85C4-4B2914A195EB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q115",
+        "label": "埃塞俄比亚",
+        "label_en": "Ethiopia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "埃塞俄比亚·抗意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q244748",
+        "title": "Wikidata Q244748 / 孟尼利克二世",
+        "url": "https://www.wikidata.org/w/index.php?title=Q244748&oldid=2558165826",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558165826,
+        "modified_at": "2026-10-17T23:51:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

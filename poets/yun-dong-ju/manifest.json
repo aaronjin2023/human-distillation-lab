@@ -38,5 +38,132 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q625089",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yun Dong-ju",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1945",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q625089"
+            ],
+            "statement_id": "Q625089$4FD01B8C-B5EE-4B8B-B602-111B3D6C9559",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q625089"
+            ],
+            "statement_id": "Q625089$7E74D847-F928-4B7D-A063-2F9909BC574A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-02-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q625089"
+        ],
+        "statement_id": "Q625089$E187A6C5-C2ED-4C49-A962-60783CEE6F1D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q713327",
+        "label": "龙井市",
+        "label_en": "Longjing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q625089"
+        ],
+        "statement_id": "Q625089$AC4A32A4-490D-4CA1-9119-976532CC4172",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18097",
+        "label": "朝鲜地区",
+        "label_en": "Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q625089"
+          ],
+          "statement_id": "Q625089$44FFF7D0-B8E8-45E1-9D8B-887683414DDC",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q484464",
+          "label": "朝鲜族",
+          "label_en": "Koreans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "韩国·抒情 / 抵抗诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q625089",
+        "title": "Wikidata Q625089 / 尹东柱",
+        "url": "https://www.wikidata.org/w/index.php?title=Q625089&oldid=2546064232",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546064232,
+        "modified_at": "2026-09-15T07:02:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

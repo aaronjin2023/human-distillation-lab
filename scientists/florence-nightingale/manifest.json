@@ -29,5 +29,117 @@
     "玫瑰图原始出处与1858年报告版本待核对",
     "克里米亚各月死亡率原始表待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37103",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Florence Nightingale",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1820–1910",
+      "birth_year": {
+        "value": 1820,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37103"
+            ],
+            "statement_id": "q37103$D1D15404-22DD-4939-BBDB-CC8E798547AC",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1820,
+            "raw_time": "+1820-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37103"
+            ],
+            "statement_id": "q37103$84CBBE72-0794-424E-9AE0-1CC7CBC84851",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37103"
+        ],
+        "statement_id": "q37103$A59B961E-AE25-45A7-9C90-2E439D11BBE5",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37103"
+        ],
+        "statement_id": "q37103$8AED2370-48E0-45C3-8435-1BAB62561626",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "护理 / 医院卫生统计"
+    },
+    "sources": [
+      {
+        "id": "WD:Q37103",
+        "title": "Wikidata Q37103 / 弗洛伦丝·南丁格尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37103&oldid=2560939922",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560939922,
+        "modified_at": "2026-10-26T04:24:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

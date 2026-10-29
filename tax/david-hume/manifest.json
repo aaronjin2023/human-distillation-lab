@@ -39,5 +39,153 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "评论某国对短视频主播征税的方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37160",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Hume",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1711–1776",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37160"
+            ],
+            "statement_id": "Q37160$860bc99c-4602-3b22-73f2-1f52523699a0",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 38173183,
+                  "id": "Q38173183"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                }
+              ]
+            },
+            "value": 1711,
+            "raw_time": "+1711-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37160"
+            ],
+            "statement_id": "q37160$D06645F0-DF4F-4E93-A387-CDE9E17A02C4",
+            "rank": "preferred",
+            "reference_count": 16,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1776,
+            "raw_time": "+1776-08-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37160"
+        ],
+        "statement_id": "Q37160$5a0ff809-d26a-4d66-8b5a-9c53111c2dc6",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q23436",
+        "label": "爱丁堡",
+        "label_en": "Edinburgh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q37160"
+        ],
+        "statement_id": "Q37160$90827240-7784-451f-9c3d-6438b241e2cf",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q22",
+        "label": "苏格兰",
+        "label_en": "Scotland",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37160"
+        ],
+        "statement_id": "Q37160$971cd84a-4555-9de5-8de2-ee8cef302840",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典·税收论",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q37160",
+        "title": "Wikidata Q37160 / 大卫·休谟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37160&oldid=2557851503",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557851503,
+        "modified_at": "2026-10-17T04:00:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,195 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5879",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Wolfgang von Goethe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1749–1832",
+      "birth_year": {
+        "value": 1749,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5879"
+            ],
+            "statement_id": "q5879$e48c98e3-4581-9a75-d6dc-9b0811e03ab8",
+            "rank": "preferred",
+            "reference_count": 26,
+            "qualifiers": {},
+            "value": 1749,
+            "raw_time": "+1749-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1832,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5879"
+            ],
+            "statement_id": "q5879$386a0847-4f1b-48ae-b7b2-c56003f84bd1",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1832,
+            "raw_time": "+1832-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "q5879$560AE353-8D06-41E4-A1BC-F1AE0BA1F9FC",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$6C8FBAD6-A75C-42C1-9EE1-8BB3B5E85D81",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3955",
+        "label": "魏玛",
+        "label_en": "Weimar",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$0F1C2323-7C55-41B4-BFFF-96F24636DAA9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3896",
+        "label": "戈斯拉尔",
+        "label_en": "Goslar",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$AA0CB604-C7E8-4CFE-9346-5CA0C8B6E40C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q556352",
+        "label": "巴特皮尔蒙特",
+        "label_en": "Bad Pyrmont",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$B30DBF2C-B583-4166-AEEB-9A7B964A4496",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q504590",
+        "label": "克劳斯塔尔-采勒费尔德",
+        "label_en": "Clausthal-Zellerfeld",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$CD3CCA88-91AD-4409-8691-A1DCC19AADA2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q486562",
+        "label": "黑尔姆施泰特",
+        "label_en": "Helmstedt",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5879"
+        ],
+        "statement_id": "Q5879$81e9517b-4c00-a06b-368a-57bb80e33a33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1775-11-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q155570",
+        "label": "萨克森-魏玛-艾森纳赫",
+        "label_en": "Duchy of Saxe-Weimar-Eisenach",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·古典主义 / 浪漫主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5879",
+        "title": "Wikidata Q5879 / 约翰·沃尔夫冈·冯·歌德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5879&oldid=2561528751",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561528751,
+        "modified_at": "2026-10-27T20:14:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

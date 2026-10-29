@@ -29,5 +29,117 @@
     "生态系统概念提出年份未写，以防版本出入",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q450514",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Tansley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1871–1955",
+      "birth_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q450514"
+            ],
+            "statement_id": "q450514$154D9A48-777F-4B46-AAD3-AF03CD1D03D2",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q450514"
+            ],
+            "statement_id": "q450514$C094EA5C-6A30-4666-9B5C-7CC309F2D8D3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q450514"
+        ],
+        "statement_id": "q450514$FA885D64-4CF0-4167-8112-D55E5E58B276",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q450514"
+        ],
+        "statement_id": "q450514$FB8F271E-08E6-4BE2-8521-06761C4C9795",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生态学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q450514",
+        "title": "Wikidata Q450514 / 阿瑟·坦斯利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q450514&oldid=2530402843",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2530402843,
+        "modified_at": "2026-08-12T12:09:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

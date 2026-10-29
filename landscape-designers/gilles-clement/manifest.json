@@ -43,5 +43,102 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "克莱芒风格：现代城市里一处城市荒地上的公园，第三景观，移动花园，让自然主导，野草，演替。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2534375",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gilles Clément",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2534375"
+            ],
+            "statement_id": "Q2534375$B9F4B21E-C720-4D70-81F8-5358B21CFDC3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2534375"
+        ],
+        "statement_id": "q2534375$6E98FB6B-2EA9-4F76-8A4B-5805431E7C99",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q275438",
+        "label": "克勒兹河畔阿让通",
+        "label_en": "Argenton-sur-Creuse",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2534375"
+        ],
+        "statement_id": "Q2534375$C8F95A4E-CAB6-403F-806A-7723A0E33115",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·第三景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2534375",
+        "title": "Wikidata Q2534375 / 吉勒·克莱芒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2534375&oldid=2554351420",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554351420,
+        "modified_at": "2026-10-07T04:59:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

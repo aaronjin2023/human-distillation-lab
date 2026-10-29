@@ -34,5 +34,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131721",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johannes Diderik van der Waals",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1837–1923",
+      "birth_year": {
+        "value": 1837,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131721"
+            ],
+            "statement_id": "q131721$4F296436-27B8-488E-96E6-0E4EB0F13254",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1837,
+            "raw_time": "+1837-11-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131721"
+            ],
+            "statement_id": "q131721$568EA855-26C7-447E-B20B-EEF018ECD507",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-03-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131721"
+        ],
+        "statement_id": "Q131721$2D29A776-630A-49E9-BB0B-FFD751CE6D3C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131721"
+        ],
+        "statement_id": "q131721$4E415EF0-9248-47A1-A636-271DA4A3B186",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分子物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131721",
+        "title": "Wikidata Q131721 / 约翰内斯·迪德里克·范德瓦耳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131721&oldid=2560245150",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560245150,
+        "modified_at": "2026-10-24T08:59:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

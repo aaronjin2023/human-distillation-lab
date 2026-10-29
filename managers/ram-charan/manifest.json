@@ -43,5 +43,55 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q3765047",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Ram Charan",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "执行力"
+    },
+    "sources": []
+  }
 }

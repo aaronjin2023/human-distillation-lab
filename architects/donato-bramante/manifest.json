@@ -38,5 +38,104 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "布拉曼特风格：现代城市街角的一座社区图书馆，石砌集中式小圆堂，多立克围柱与穹顶，完全对称，轴线庭院，宁静古典秩序。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7793",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Donato Bramante",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1444–1514",
+      "birth_year": {
+        "value": 1444,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7793"
+            ],
+            "statement_id": "Q7793$D968E8C9-BBEB-4E19-97C3-9720AB1EC7FE",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1444,
+            "raw_time": "+1444-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1514,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7793"
+            ],
+            "statement_id": "Q7793$21C3E3F1-F7E0-4D0D-815D-0BCB1DE376CC",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1514,
+            "raw_time": "+1514-04-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7793"
+        ],
+        "statement_id": "Q7793$E0E629C5-72D4-4B2A-BD53-1D529774E359",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q190623",
+        "label": "费尔米尼亚诺",
+        "label_en": "Fermignano",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7793",
+        "title": "Wikidata Q7793 / 多纳托·伯拉孟特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7793&oldid=2548635054",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548635054,
+        "modified_at": "2026-09-23T00:08:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

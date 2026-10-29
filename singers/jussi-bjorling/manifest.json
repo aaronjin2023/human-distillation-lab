@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店的关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q56157",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jussi Björling",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1911–1960",
+      "birth_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56157"
+            ],
+            "statement_id": "Q56157$B6BA3C69-C258-41AC-8EE0-6B4FB6B4F8CB",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-02-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56157"
+            ],
+            "statement_id": "q56157$0CE51EA6-CA4A-4EA0-9DA1-9E106E882F82",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q56157"
+        ],
+        "statement_id": "q56157$B7369CC5-2F8F-4568-88A7-27C76FD7BEFF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10681131",
+        "label": "Stora Tuna",
+        "label_en": "Stora Tuna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q56157"
+        ],
+        "statement_id": "Q56157$87A517CE-AFB8-4D5B-B0B4-D0C8E121D451",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "歌剧·男高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q56157",
+        "title": "Wikidata Q56157 / 约西·毕约林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q56157&oldid=2559653078",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559653078,
+        "modified_at": "2026-10-22T09:00:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

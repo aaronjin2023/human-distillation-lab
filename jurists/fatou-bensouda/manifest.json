@@ -44,5 +44,102 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "本苏达风格：一份检察官意见，论战争罪证据标准：补充性原则先行，证据充分才起诉，受害者中心，国际刑事法院是最后手段。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q508482",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fatou Bensouda",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q508482"
+            ],
+            "statement_id": "Q508482$2413437D-499B-4E5B-9639-A11AC45AD727",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-01-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q508482"
+        ],
+        "statement_id": "Q508482$191D5108-AAA9-4B9C-BC92-C3E15C7937E4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3726",
+        "label": "班珠尔",
+        "label_en": "Banjul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q508482"
+        ],
+        "statement_id": "Q508482$5413D9B3-0D8B-43F8-8DB2-0DD511745F10",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1005",
+        "label": "冈比亚",
+        "label_en": "The Gambia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际刑事法院检察官",
+      "genre": "lawyer / 律师"
+    },
+    "sources": [
+      {
+        "id": "WD:Q508482",
+        "title": "Wikidata Q508482 / 法图·班苏达",
+        "url": "https://www.wikidata.org/w/index.php?title=Q508482&oldid=2556634404",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556634404,
+        "modified_at": "2026-10-13T17:26:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

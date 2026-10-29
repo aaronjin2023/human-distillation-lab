@@ -34,5 +34,141 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1371306",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mikio Naruse",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1969",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1371306"
+            ],
+            "statement_id": "Q1371306$A27DECEB-D1DA-405A-9D07-C1A8972E53C4",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1371306"
+            ],
+            "statement_id": "Q1371306$A44A4CC8-0D64-4FB6-A527-E538F145BED1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1371306"
+        ],
+        "statement_id": "q1371306$2AD611A9-BD6E-4AFB-89EF-8582619166F2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q7473516",
+        "label": "东京",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1371306"
+        ],
+        "statement_id": "q1371306$FD71A98C-41C9-4A66-B645-8A7F16E680B1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1371306"
+        ],
+        "statement_id": "Q1371306$CF8E3040-DCD0-40E4-B8B3-016A19534FB2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·女性题材"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1371306",
+        "title": "Wikidata Q1371306 / 成濑巳喜男",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1371306&oldid=2558169982",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558169982,
+        "modified_at": "2026-10-18T00:01:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

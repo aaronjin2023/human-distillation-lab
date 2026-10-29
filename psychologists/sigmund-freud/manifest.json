@@ -45,5 +45,217 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9215",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sigmund Freud",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1939",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9215"
+            ],
+            "statement_id": "q9215$CE8D3632-0345-42B0-B1CA-CFA6315375B2",
+            "rank": "normal",
+            "reference_count": 26,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9215"
+            ],
+            "statement_id": "q9215$82D8C612-4D4A-4BA8-BDDF-8C2C59D61EFF",
+            "rank": "normal",
+            "reference_count": 25,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$269C9EF9-5015-4559-ABE8-6CDAB8AC659B",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q654019",
+        "label": "普日博尔",
+        "label_en": "Příbor",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$20312ce4-40be-5952-2e74-b86c5a4a0b03",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$B7356BE2-241F-4BAA-8047-E864CF40B376",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$ebc7b785-4105-fc7f-9ff1-4498da4c908b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q131964",
+        "label": "奥地利帝国",
+        "label_en": "Austrian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$cdd932ab-4400-e9d8-516f-fbcd29a2419d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1918-11-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$984311a6-48ff-7b08-05d5-dc808363d13a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1918-11-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9215"
+        ],
+        "statement_id": "Q9215$a6aa6b5d-4181-c470-2305-8152f6d473cc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1938-03-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q7318",
+        "label": "纳粹德国",
+        "label_en": "Nazi Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "精神分析",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9215",
+        "title": "Wikidata Q9215 / 西格蒙德·弗洛伊德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9215&oldid=2558236246",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558236246,
+        "modified_at": "2026-10-18T03:49:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

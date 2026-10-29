@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189512",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zeng Guofan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1811–1872",
+      "birth_year": {
+        "value": 1811,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189512"
+            ],
+            "statement_id": "q189512$BD830297-FBEE-4A25-B546-AD5248CEB32B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1811,
+            "raw_time": "+1811-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189512"
+            ],
+            "statement_id": "q189512$FCA708F8-7F74-45F7-8D31-FAB7E78ED332",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-03-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189512"
+        ],
+        "statement_id": "q189512$CEDEA0CB-7F13-44EE-AED6-1DD6D0F72309",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1207051",
+        "label": "湘乡市",
+        "label_en": "Xiangxiang City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189512"
+        ],
+        "statement_id": "Q189512$D2437120-1E77-457F-B6D2-E820B5C472A6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "清·湘军"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189512",
+        "title": "Wikidata Q189512 / 曾国藩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189512&oldid=2556960220",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556960220,
+        "modified_at": "2026-10-14T15:55:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

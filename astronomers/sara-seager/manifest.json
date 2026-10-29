@@ -30,5 +30,125 @@
   "test_prompt": "In the style of Sara Seager, assess a biosignature claim: list every abiotic source for the gas, design the observation that could rule them out, and keep the conclusion open until the test is done",
   "test_question_zh": "这颗系外行星大气里的气体是生物标志吗？",
   "verification": "生年 1971 年、系外行星大气与宜居带研究按天文史通说写；在世，只蒸已发表成果物；未宣称任何生物标志发现",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7421764",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sara Seager",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7421764"
+            ],
+            "statement_id": "Q7421764$0B50B737-2DCB-457E-A2C6-0F98A2670416",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-07-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7421764"
+        ],
+        "statement_id": "Q7421764$80FA985B-0A68-4358-B69B-DDA5EE7DA224",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q172",
+        "label": "多伦多",
+        "label_en": "Toronto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7421764"
+        ],
+        "statement_id": "Q7421764$F861D9A7-FD86-49F9-BBD6-D9536932E69F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2010-07-20T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7421764"
+        ],
+        "statement_id": "Q7421764$50fb3e39-4141-f681-18ee-f834c994343f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "加拿大—美国·系外行星"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7421764",
+        "title": "Wikidata Q7421764 / 莎拉·西格爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7421764&oldid=2549100268",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549100268,
+        "modified_at": "2026-09-24T21:03:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

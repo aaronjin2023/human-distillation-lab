@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Frederick Vine, read the magnetic stripes of the South China Sea: test whether the stripes are symmetric about the ridge, match them to the geomagnetic reversal timescale, and turn stripe widths into a spreading rate",
   "test_question_zh": "南海海底的磁条带能告诉我们它张开的速度吗？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q948019",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frederick Vine",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1939–2024",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q948019"
+            ],
+            "statement_id": "Q948019$44B097BC-96F2-4FF5-B90B-9E5F248BA3BE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-06-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q948019"
+            ],
+            "statement_id": "Q948019$D4DDD996-6E9E-4549-BFC8-EAE3FCEEFEA9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-06-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q948019"
+        ],
+        "statement_id": "Q948019$36CDAF6E-3218-4C58-BE7A-1DE560EC20DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q948019"
+        ],
+        "statement_id": "Q948019$43CC4703-23FD-459B-BB63-DAB7FBA760CE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地球物理 / 构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q948019",
+        "title": "Wikidata Q948019 / 弗雷德里克·韦因",
+        "url": "https://www.wikidata.org/w/index.php?title=Q948019&oldid=2548452302",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548452302,
+        "modified_at": "2026-09-22T13:44:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

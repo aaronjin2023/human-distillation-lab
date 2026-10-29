@@ -43,5 +43,132 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "自助结账机漏扫：“漏扫”一词的意义与指称",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60028",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gottlob Frege",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1848–1925",
+      "birth_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60028"
+            ],
+            "statement_id": "q60028$FCCC73F1-C8EE-4B4D-A830-FE2369E0AAEE",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-11-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60028"
+            ],
+            "statement_id": "q60028$6FAE986E-BA01-46A5-8EF6-8E89C7063AF5",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60028"
+        ],
+        "statement_id": "q60028$2239BC83-7019-4ADF-9AEC-1A8A836A50DF",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q7030",
+        "label": "维斯马",
+        "label_en": "Wismar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q60028"
+        ],
+        "statement_id": "Q60028$3716F4C7-CE78-431A-9634-5B1733EBAE10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60028"
+        ],
+        "statement_id": "q60028$61FCE535-3A1B-4E26-A555-A595B5860BA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学先声",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60028",
+        "title": "Wikidata Q60028 / 戈特洛布·弗雷格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60028&oldid=2561282205",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561282205,
+        "modified_at": "2026-10-27T02:28:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

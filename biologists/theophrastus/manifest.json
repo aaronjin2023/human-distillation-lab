@@ -29,5 +29,125 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160362",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Theophrastus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.371–c.287 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160362"
+            ],
+            "statement_id": "q160362$BA3739AD-DAC6-4BA2-A812-95A3422E4580",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -371,
+            "raw_time": "-0371-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -287,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160362"
+            ],
+            "statement_id": "q160362$A4AE39A5-D9B4-4A24-811E-F066D012BDF3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -287,
+            "raw_time": "-0287-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160362"
+        ],
+        "statement_id": "Q160362$32981F6E-FE73-4BE8-BB9A-4C42F4152904",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1018197",
+        "label": "埃雷索斯",
+        "label_en": "Eresos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160362"
+        ],
+        "statement_id": "Q160362$5a8a88e1-4a5d-6856-bf17-46c8366b70d5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "植物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160362",
+        "title": "Wikidata Q160362 / 泰奥弗拉斯托斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160362&oldid=2561405215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561405215,
+        "modified_at": "2026-10-27T11:39:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

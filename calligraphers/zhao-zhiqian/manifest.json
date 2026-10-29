@@ -43,5 +43,117 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q708659",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhao Zhiqian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1829–1884",
+      "birth_year": {
+        "value": 1829,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q708659"
+            ],
+            "statement_id": "Q708659$3A1AA457-06F3-4DE3-BF15-BCE7275E04E1",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1829,
+            "raw_time": "+1829-08-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1884,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q708659"
+            ],
+            "statement_id": "Q708659$BAF8F254-0BB2-4087-8996-8C24E4ED0871",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1884,
+            "raw_time": "+1884-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q708659"
+        ],
+        "statement_id": "Q708659$F685BD1F-9803-42FA-97A4-5301FB381E7F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42666",
+        "label": "绍兴市",
+        "label_en": "Shaoxing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q708659"
+        ],
+        "statement_id": "Q708659$44BAFF56-C105-4CE3-A6A5-900A722F4ADC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "清·篆书 / 行书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q708659",
+        "title": "Wikidata Q708659 / 赵之谦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q708659&oldid=2540150175",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540150175,
+        "modified_at": "2026-09-04T16:16:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

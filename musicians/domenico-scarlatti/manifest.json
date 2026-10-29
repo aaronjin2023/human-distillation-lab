@@ -30,5 +30,130 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q167837",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Domenico Scarlatti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1685–1757",
+      "birth_year": {
+        "value": 1685,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167837"
+            ],
+            "statement_id": "q167837$E6415995-F8E3-41AC-8C83-0C58610AA46F",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1685,
+            "raw_time": "+1685-10-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1757,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167837"
+            ],
+            "statement_id": "q167837$A2701BF7-CBED-43FC-A043-0B0DF4202DB3",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1757,
+            "raw_time": "+1757-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q167837"
+        ],
+        "statement_id": "Q167837$50537D3F-B4D2-42B2-9339-9E91412F7ED8",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q167837"
+        ],
+        "statement_id": "Q167837$0057a526-43fb-d928-cbd3-bf1b72be61d0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3399982",
+        "label": "Kingdom of Spain",
+        "label_en": "Kingdom of Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q167837"
+        ],
+        "statement_id": "Q167837$e2a69bd6-471e-74d8-d9db-72561598b7e2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q173065",
+        "label": "那不勒斯王国",
+        "label_en": "Kingdom of Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 意大利—西班牙"
+    },
+    "sources": [
+      {
+        "id": "WD:Q167837",
+        "title": "Wikidata Q167837 / 多梅尼科·斯卡拉蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q167837&oldid=2558441722",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558441722,
+        "modified_at": "2026-10-18T15:52:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

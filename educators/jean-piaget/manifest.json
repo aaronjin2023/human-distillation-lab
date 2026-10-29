@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "儿童分类发现课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为皮亚杰的通行名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123190",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Piaget",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1980",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123190"
+            ],
+            "statement_id": "q123190$BC2B40C5-E36B-45F0-AA52-70AD38E71C48",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1980,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123190"
+            ],
+            "statement_id": "q123190$108B427C-AEE5-4125-8EE1-EB9DAEC7C1BE",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1980,
+            "raw_time": "+1980-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123190"
+        ],
+        "statement_id": "q123190$44D97783-B7F0-48D1-BDEF-58C7784D2076",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q69345",
+        "label": "纳沙泰尔",
+        "label_en": "Neuchâtel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123190"
+        ],
+        "statement_id": "q123190$9271DB31-B358-4268-B2AE-14DFA4340A6D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·发生认识论 / 儿童心理",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123190",
+        "title": "Wikidata Q123190 / 让·皮亚杰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123190&oldid=2560127766",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560127766,
+        "modified_at": "2026-10-23T21:39:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

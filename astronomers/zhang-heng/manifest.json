@@ -35,5 +35,117 @@
   "test_prompt": "In the style of Zhang Heng, design a demonstration instrument for a modern eclipse: a sphere that turns by a steady drive, a catalogue of the stars it must show, and an eclipse explained by the machine itself — then state where the machine stops being a model of the sky",
   "test_question_zh": "用张衡的方法，为现代一次日食设计一台演示仪器",
   "verification": "2026-10-26：生卒 78–139、水运浑天仪、星表 124 星座与 2,500 星经草稿 v1 与 web 搜索核对；浑天仪原物已佚已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q197206",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Heng",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "78–139",
+      "birth_year": {
+        "value": 78,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197206"
+            ],
+            "statement_id": "Q197206$90E8EE15-4388-4B9D-8D9B-6C91A0D0BA28",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 78,
+            "raw_time": "+0078-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 139,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197206"
+            ],
+            "statement_id": "Q197206$4D5773ED-861D-45E5-9596-796BADB9A724",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 139,
+            "raw_time": "+0139-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q197206"
+        ],
+        "statement_id": "q197206$6C096EB2-3EF7-410C-BA61-D9F7BACF2FF4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q404763",
+        "label": "南阳市",
+        "label_en": "Nanyang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q197206"
+        ],
+        "statement_id": "Q197206$18345BAE-7392-4550-87B2-C27B1CB6E546",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "东汉·浑天说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q197206",
+        "title": "Wikidata Q197206 / 张衡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q197206&oldid=2559876319",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559876319,
+        "modified_at": "2026-10-23T05:52:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

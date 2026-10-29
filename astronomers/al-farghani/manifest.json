@@ -36,5 +36,102 @@
   "test_prompt": "In the style of al-Farghani, shorten a modern astronomy monograph into a teachable primer: keep every model and number, cut the rest, and mark clearly which numbers are measured and which are inherited",
   "test_question_zh": "用法干尼的方法，把现代一部天文专著缩写成可教学的入门",
   "verification": "2026-10-26：生卒 c.800–c.870、《天文基础》、托勒密体系阐释按天文史通说写；原文未逐句核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q336550",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "al-Farghani",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "c.800–c.870",
+      "birth_year": {
+        "value": 800,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q336550"
+            ],
+            "statement_id": "Q336550$5E033124-FE1F-4BA0-BBBD-6111B89B2933",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 861,
+            "raw_time": "+0861-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 870
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q336550"
+        ],
+        "statement_id": "Q336550$CDF3F92D-DDB8-403D-85D5-959552C4BB1D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q486324",
+        "label": "费尔干纳盆地",
+        "label_en": "Ferghana Valley",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q336550"
+        ],
+        "statement_id": "Q336550$415E40F7-0606-481C-BAD7-36553A98477F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12536",
+        "label": "阿拔斯王朝",
+        "label_en": "Abbasid Caliphate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "阿拔斯·天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q336550",
+        "title": "Wikidata Q336550 / 费尔干尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q336550&oldid=2544755420",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544755420,
+        "modified_at": "2026-09-12T22:23:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

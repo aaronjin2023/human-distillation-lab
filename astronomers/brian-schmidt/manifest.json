@@ -31,5 +31,114 @@
   "test_prompt": "In the style of Brian Schmidt, confirm cosmic acceleration with an independent supernova sample: find high-redshift Type Ia supernovae, standardise them, and compare with the other team's result before concluding",
   "test_question_zh": "独立超新星样本确认宇宙加速吗？",
   "verification": "生年 1967 年、加速膨胀独立发现与 2011 年诺贝尔奖按天文史通说写；在世，只蒸已发表成果物",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q201452",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Brian Schmidt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1967–",
+      "birth_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q201452"
+            ],
+            "statement_id": "Q201452$38449A8A-11CD-4ACF-BB19-D94ED3F4922C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q201452"
+        ],
+        "statement_id": "Q201452$26A3EA2E-E64E-410E-AAFD-0FED8CE58741",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q189602",
+        "label": "米苏拉",
+        "label_en": "Missoula",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q201452"
+        ],
+        "statement_id": "q201452$6375741E-B476-49C8-9E6E-1C6642980017",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q201452"
+        ],
+        "statement_id": "Q201452$A679E0D0-A0E9-4A64-81E3-95950E5E3D57",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "澳大利亚—美国·加速膨胀宇宙"
+    },
+    "sources": [
+      {
+        "id": "WD:Q201452",
+        "title": "Wikidata Q201452 / 布莱恩·施密特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q201452&oldid=2557822764",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557822764,
+        "modified_at": "2026-10-17T01:51:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

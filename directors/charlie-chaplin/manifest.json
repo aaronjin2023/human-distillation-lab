@@ -45,5 +45,250 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q882",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charlie Chaplin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1977",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q882"
+            ],
+            "statement_id": "q882$af22e533-4031-3ddd-aac2-b98aa24f10ff",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1977,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q882"
+            ],
+            "statement_id": "q882$fda97c7e-418c-d4a3-4963-c1e379184aa0",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1977,
+            "raw_time": "+1977-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$a9b02cd8-458d-66eb-2143-5f737f6767f2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1231883",
+        "label": "沃尔沃思",
+        "label_en": "Walworth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$d1a3af8c-4b20-3697-4343-b61a8cf202e4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$c6460f24-4cf5-3d17-61a4-7c2079d18ce1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1914-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1952-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$25e9b25f-45ef-e4e9-b135-6a1c6f03875d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1915-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$f3f847de-4d14-63e4-bc69-551790ed0bf8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q57110",
+        "label": "沃韦上科尔西耶",
+        "label_en": "Corsier-sur-Vevey",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$9ad31055-4477-54f2-513d-abedab436dcf",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1545679",
+        "label": "谢珀顿",
+        "label_en": "Shepperton",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$2325e9f2-41bd-c013-8911-30390e730ca1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q882"
+        ],
+        "statement_id": "Q882$68d57ff1-47b3-ecba-f206-344920a4eb7d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国 / 美国·默片喜剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q882",
+        "title": "Wikidata Q882 / 查理·卓别林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q882&oldid=2560434297",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560434297,
+        "modified_at": "2026-10-24T21:18:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

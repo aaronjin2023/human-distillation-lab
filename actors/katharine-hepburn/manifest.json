@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q56016",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Katharine Hepburn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–2003",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56016"
+            ],
+            "statement_id": "q56016$82BF037D-1F9A-40F7-918D-5AA23B717EF0",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56016"
+            ],
+            "statement_id": "q56016$F1E365BE-1F90-419A-B728-98107667A6E3",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q56016"
+        ],
+        "statement_id": "q56016$890EA4D6-93D8-451D-8349-FDFE0B8D6E88",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q33486",
+        "label": "哈特福德",
+        "label_en": "Hartford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q56016"
+        ],
+        "statement_id": "Q56016$1E526CD2-6788-4CA3-A94A-3C319B96AEE2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q56016"
+        ],
+        "statement_id": "q56016$9F5DAE51-77A4-4F55-9985-91B872CA450F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q56016",
+        "title": "Wikidata Q56016 / 凯瑟琳·赫本",
+        "url": "https://www.wikidata.org/w/index.php?title=Q56016&oldid=2558080820",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558080820,
+        "modified_at": "2026-10-17T19:50:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

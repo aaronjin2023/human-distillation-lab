@@ -46,5 +46,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Daniel Kahneman, analyse a man buying oden at a convenience store late at night. System 1 sees the steam and buys; System 2 never gets asked. Frame the same choice as a loss and he will pay more to avoid it; loss looms larger than gain.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233950",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Daniel Kahneman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–2024",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233950"
+            ],
+            "statement_id": "q233950$A08733BA-CFA2-434C-AB43-A0519C053E3F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233950"
+            ],
+            "statement_id": "Q233950$55a141e8-4e9e-0b45-cb7a-d0566cf4aad4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233950"
+        ],
+        "statement_id": "Q233950$CCF15805-30AB-4721-8DC6-FA5C36525021",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q33935",
+        "label": "特拉维夫",
+        "label_en": "Tel Aviv",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233950"
+        ],
+        "statement_id": "Q233950$F2573492-87B3-4701-8BC6-A05B86F6B997",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q233950"
+        ],
+        "statement_id": "Q233950$DBE99D0B-9173-4586-8CF8-E7EDF2FCB538",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "判断与决策"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233950",
+        "title": "Wikidata Q233950 / 丹尼尔·卡内曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233950&oldid=2560250678",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560250678,
+        "modified_at": "2026-10-24T09:30:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

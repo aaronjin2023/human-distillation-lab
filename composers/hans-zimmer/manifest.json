@@ -31,5 +31,142 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76364",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hans Zimmer",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76364"
+            ],
+            "statement_id": "q76364$E3106DFC-D877-496D-88C2-4B519C86D84D",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-09-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76364"
+        ],
+        "statement_id": "Q76364$58CEBABC-5B86-44F8-B090-1E0C4C95045C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76364"
+        ],
+        "statement_id": "Q76364$5941C3B1-C8F0-40AB-BCC5-0691D4AEC23C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76364"
+        ],
+        "statement_id": "Q76364$66586F61-56D8-4987-B8A0-9864C63E8232",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76364"
+        ],
+        "statement_id": "Q76364$ab0baa5f-4e56-b649-a9d2-9ccc23365cbc",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q76364"
+          ],
+          "statement_id": "Q76364$24064565-4978-584d-af7f-b642a4121037",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "电影配乐 / 德国—美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76364",
+        "title": "Wikidata Q76364 / 漢斯·季默",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76364&oldid=2560505971",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560505971,
+        "modified_at": "2026-10-25T01:42:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

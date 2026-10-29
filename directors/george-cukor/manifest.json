@@ -45,5 +45,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q56014",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Cukor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1983",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56014"
+            ],
+            "statement_id": "q56014$E1AF61FC-8195-4EB0-92DB-067CB88355DD",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q56014"
+            ],
+            "statement_id": "q56014$F65A7B4A-344F-47A3-913F-CB176598246D",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q56014"
+        ],
+        "statement_id": "q56014$575E3A18-7F00-4FBB-A795-580460E77963",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q56014"
+        ],
+        "statement_id": "q56014$7BD9E7FE-1F2E-4B11-B1B4-7F5533C36FDD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·女性题材 / 喜剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q56014",
+        "title": "Wikidata Q56014 / 喬治·丘克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q56014&oldid=2557891884",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557891884,
+        "modified_at": "2026-10-17T06:14:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,201 @@
   "test_prompt": "In the style of Florence Bascom, judge two Philadelphia metamorphic rocks whose assemblages disagree: map the boundary in the field, check the thin sections, and revise the metamorphic sequence rather than forcing the rocks into it",
   "test_question_zh": "费城一带两处变质岩的矿物组合对不上，怎么办？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q453196",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Florence Bascom",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1862–1945",
+      "birth_year": {
+        "value": 1862,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q453196"
+            ],
+            "statement_id": "Q453196$40263EBB-AFD4-44C8-BE35-A95D9BA0C1BD",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1862,
+            "raw_time": "+1862-07-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q453196"
+            ],
+            "statement_id": "Q453196$ADF2369A-1F5D-4007-AF99-CC3B29AD1C9F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-06-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "q453196$5B79938A-DFAD-4D70-9CEE-11D57F23636D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q983837",
+        "label": "威廉斯敦",
+        "label_en": "Williamstown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "Q453196$23177302-469b-f4af-cd63-36881718d93f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q995267",
+        "label": "布林莫尔",
+        "label_en": "Bryn Mawr",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "Q453196$c2b03da5-4279-c4f0-c034-0997025f03ee",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "Q453196$db6ee66c-4118-e5b2-6d60-1c9643b648ee",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1391",
+        "label": "马里兰州",
+        "label_en": "Maryland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "Q453196$5ed4bb60-4be4-0779-dc5c-fc73406ec551",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1400",
+        "label": "宾夕法尼亚州",
+        "label_en": "Pennsylvania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "Q453196$1199e2c9-4281-545f-bac5-38a44c2ed1cb",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1898-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 5727902,
+              "id": "Q5727902"
+            }
+          ]
+        },
+        "qid": "Q1315822",
+        "label": "芒特迪瑟特島",
+        "label_en": "Mount Desert Island",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q453196"
+        ],
+        "statement_id": "q453196$32532DAC-CD99-4061-B10A-A3EB72C169CB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "岩石学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q453196",
+        "title": "Wikidata Q453196 / Florence Bascom",
+        "url": "https://www.wikidata.org/w/index.php?title=Q453196&oldid=2553590478",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553590478,
+        "modified_at": "2026-10-05T19:12:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,3 +29,7 @@
 
 - 生卒与代表作按 `writers-top100-draft.md` 第 1–2 节与文学史通说（Wikipedia / Britannica 共识）写；未逐条贴原文出处者见 `manifest.json` 的 `known_gaps`。
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

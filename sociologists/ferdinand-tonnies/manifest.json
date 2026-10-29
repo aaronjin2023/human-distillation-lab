@@ -55,5 +55,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "小区业委会的成立与争吵",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q21163",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ferdinand Tönnies",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1855–1936",
+      "birth_year": {
+        "value": 1855,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q21163"
+            ],
+            "statement_id": "q21163$70793655-D217-4EA4-ADFA-2D61D219ABAF",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q21163"
+            ],
+            "statement_id": "Q21163$059894FA-A990-462E-9591-23688667B7BF",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q21163"
+        ],
+        "statement_id": "q21163$CEDEB41E-D739-4E31-BBAB-4F4204BF2306",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20784",
+        "label": "奥尔登斯沃特",
+        "label_en": "Oldenswort",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q21163"
+        ],
+        "statement_id": "q21163$A516AB20-37F7-4892-A674-A2AC8A1ADE96",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "共同体与社会"
+    },
+    "sources": [
+      {
+        "id": "WD:Q21163",
+        "title": "Wikidata Q21163 / 斐迪南·滕尼斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q21163&oldid=2557878802",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557878802,
+        "modified_at": "2026-10-17T05:31:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

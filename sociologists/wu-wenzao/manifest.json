@@ -49,5 +49,158 @@
   ],
   "test_prompt": "夜市摊主的社区",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q10919536",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Wenzao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1985",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10919536"
+            ],
+            "statement_id": "Q10919536$782E990B-F1A4-498C-82ED-CF57F4D079AC",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-12-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q10919536"
+            ],
+            "statement_id": "Q10919536$1ACAD1A7-4F33-44A6-9B55-F7B161E419C6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10919536"
+            ],
+            "statement_id": "Q10919536$FF059F2E-3DEB-4CE8-8931-733BCF7A2547",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-09-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q10919536"
+        ],
+        "statement_id": "Q10919536$83FBA662-9B1E-4222-98A9-D5E6FA405B9A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1015823",
+        "label": "江阴市",
+        "label_en": "Jiangyin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q10919536"
+        ],
+        "statement_id": "Q10919536$78a3719e-4ffd-8901-330e-bd35422813d0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q10919536"
+        ],
+        "statement_id": "Q10919536$a40cd988-49df-9339-c963-4d5a91fbaa26",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q10919536"
+        ],
+        "statement_id": "Q10919536$e8dd4055-48c2-9cf2-e95f-91954acce8d9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·社区研究"
+    },
+    "sources": [
+      {
+        "id": "WD:Q10919536",
+        "title": "Wikidata Q10919536 / 吴文藻",
+        "url": "https://www.wikidata.org/w/index.php?title=Q10919536&oldid=2516112724",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516112724,
+        "modified_at": "2026-07-11T00:59:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q71243",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clark Gable",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1960",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71243"
+            ],
+            "statement_id": "q71243$23B2F76A-9D5F-45E8-AE6F-5F7E4E24B150",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71243"
+            ],
+            "statement_id": "q71243$972B5A09-69EF-4A3C-B3F7-2CF3EDCBF51D",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q71243"
+        ],
+        "statement_id": "q71243$22039985-2D40-4E9F-BBA4-6E1B2F1E6602",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1925015",
+        "label": "加的斯",
+        "label_en": "Cadiz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q71243"
+        ],
+        "statement_id": "Q71243$FAADF0FF-0AE7-4903-8559-56640BD56F4D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q71243"
+        ],
+        "statement_id": "q71243$B02CD46B-10AF-4221-AE9B-60AA977D27A7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q71243",
+        "title": "Wikidata Q71243 / 克拉克·盖博",
+        "url": "https://www.wikidata.org/w/index.php?title=Q71243&oldid=2560292903",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560292903,
+        "modified_at": "2026-10-24T12:57:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,130 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q229990",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Agnès Varda",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2019",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229990"
+            ],
+            "statement_id": "q229990$99353CBA-236D-4CA0-A86C-D1FA8D2846BF",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229990"
+            ],
+            "statement_id": "Q229990$0f781527-440c-006b-bb77-0d7d5c4a744f",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q229990"
+        ],
+        "statement_id": "q229990$DA406281-1844-4B98-97FA-D8BAF28F1A5C",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q208713",
+        "label": "伊克塞勒",
+        "label_en": "Q208713",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q229990"
+        ],
+        "statement_id": "Q229990$75cfd95b-4090-7708-4813-fa78c718aa20",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q229990"
+        ],
+        "statement_id": "q229990$B718256A-6F89-4EF6-9265-04FDAB75779D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·新浪潮 / 纪录"
+    },
+    "sources": [
+      {
+        "id": "WD:Q229990",
+        "title": "Wikidata Q229990 / 阿涅斯·瓦尔达",
+        "url": "https://www.wikidata.org/w/index.php?title=Q229990&oldid=2557609705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557609705,
+        "modified_at": "2026-10-16T08:11:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

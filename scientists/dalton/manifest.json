@@ -29,5 +29,117 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：为什么一氧化碳与二氧化碳中碳氧质量比不同？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41284",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Dalton",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1766–1844",
+      "birth_year": {
+        "value": 1766,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41284"
+            ],
+            "statement_id": "q41284$278A5BF4-6305-4883-9432-CFCCEC898EB1",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1766,
+            "raw_time": "+1766-09-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41284"
+            ],
+            "statement_id": "q41284$1F98C378-9308-49AB-B23E-B68F2BE0DC2C",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-07-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41284"
+        ],
+        "statement_id": "q41284$6CFCCD58-5C4C-4616-8BBF-107E78CFBAFD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q23360",
+        "label": "坎伯蘭",
+        "label_en": "Cumberland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41284"
+        ],
+        "statement_id": "Q41284$46D4C39E-2174-41D1-8EAC-916836D2C9A1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41284",
+        "title": "Wikidata Q41284 / 约翰·道尔顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41284&oldid=2561124410",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561124410,
+        "modified_at": "2026-10-26T17:14:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

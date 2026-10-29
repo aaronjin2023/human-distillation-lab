@@ -55,5 +55,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市快递员的雨天工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q26703582",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Virgil Abloh",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1980–2021",
+      "birth_year": {
+        "value": 1980,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26703582"
+            ],
+            "statement_id": "Q26703582$38E70661-BAD3-4F89-9F1F-2C588F1837BC",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1980,
+            "raw_time": "+1980-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26703582"
+            ],
+            "statement_id": "Q26703582$ff1876bb-4c7e-c23e-85da-6d8552d739ce",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q26703582"
+        ],
+        "statement_id": "Q26703582$4d68d236-431b-4e91-2285-af3464b1fe6a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q233892",
+        "label": "罗克福德",
+        "label_en": "Rockford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q26703582"
+        ],
+        "statement_id": "Q26703582$825a64c7-41f8-fd05-3b8d-48f51ecbcc24",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·当代 / 街头高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q26703582",
+        "title": "Wikidata Q26703582 / 维吉尔 阿布勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q26703582&oldid=2533933203",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533933203,
+        "modified_at": "2026-08-20T23:34:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -41,5 +41,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座临时社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q526725",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shigeru Ban",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q526725"
+            ],
+            "statement_id": "Q526725$B3859A9D-1087-434D-8F78-B77E6FE74DED",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q526725"
+        ],
+        "statement_id": "Q526725$0FD5DE3F-9ABE-4E0A-B9B7-1C1E3C241C63",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q526725"
+        ],
+        "statement_id": "Q526725$5a3221da-462c-b430-b1b8-90f51162ec8d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本当代 / 纸结构",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q526725",
+        "title": "Wikidata Q526725 / 坂茂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q526725&oldid=2558235553",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558235553,
+        "modified_at": "2026-10-18T03:47:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

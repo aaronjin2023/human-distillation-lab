@@ -47,5 +47,101 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3139052",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hofesh Shechter",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1975–",
+      "birth_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3139052"
+            ],
+            "statement_id": "Q3139052$3178D532-E0F5-47BC-BCC2-C811FBDB7F86",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3139052"
+        ],
+        "statement_id": "Q3139052$F83346E6-A1B0-46DC-A963-7218A439F6A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1218",
+        "label": "耶路撒冷",
+        "label_en": "Jerusalem",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3139052"
+        ],
+        "statement_id": "Q3139052$5914A17C-D8B3-49DF-87FF-A112C9AC751F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3139052",
+        "title": "Wikidata Q3139052 / 霍菲什·谢赫特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3139052&oldid=2556876785",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556876785,
+        "modified_at": "2026-10-14T09:49:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

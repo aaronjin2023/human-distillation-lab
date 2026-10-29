@@ -44,5 +44,102 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q63306804",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Yiming",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1983–",
+      "birth_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q63306804"
+            ],
+            "statement_id": "Q63306804$75818b63-3f16-4269-bf02-5b2106811f14",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-04-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q63306804"
+        ],
+        "statement_id": "Q63306804$f1c15c69-4565-2733-b22c-16abc81215f2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q68862",
+        "label": "龙岩市",
+        "label_en": "Longyan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q63306804"
+        ],
+        "statement_id": "Q63306804$680af976-4b41-610b-355d-52a2c82e3c4d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "互联网 / 算法",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q63306804",
+        "title": "Wikidata Q63306804 / 张一鸣",
+        "url": "https://www.wikidata.org/w/index.php?title=Q63306804&oldid=2561586511",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561586511,
+        "modified_at": "2026-10-28T01:40:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

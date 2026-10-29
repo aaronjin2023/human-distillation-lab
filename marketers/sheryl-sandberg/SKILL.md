@@ -23,3 +23,7 @@
 - `technique.md` / `language.md` / `motifs.md` / `decisions.md` — 6.1 四维（只限成果物）
 - `conflicts.md` — 生卒、归属、版本、译名争议，保留，不统一
 - `manifest.json` — 来源战役/品牌/理论清单、选材说明、版本、口号样本
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

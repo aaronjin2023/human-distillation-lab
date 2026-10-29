@@ -33,5 +33,117 @@
   "thinker": "Fukuzawa Yukichi",
   "thinker_zh": "福泽谕吉",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q355447",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fukuzawa Yukichi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1835–1901",
+      "birth_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355447"
+            ],
+            "statement_id": "Q355447$DD888E82-B059-4513-9EC6-13DAD4B725D3",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355447"
+            ],
+            "statement_id": "Q355447$E1BC9C69-2412-4DC7-B284-B67B4AAC44D6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-02-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q355447"
+        ],
+        "statement_id": "q355447$ED8F58CB-0B43-44F4-AE72-A3A40A2B757A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11427870",
+        "label": "堂島",
+        "label_en": "Dōjima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q355447"
+        ],
+        "statement_id": "q355447$48BC5FAB-DB78-4113-9C84-937E009A64A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本启蒙思想"
+    },
+    "sources": [
+      {
+        "id": "WD:Q355447",
+        "title": "Wikidata Q355447 / 福泽谕吉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q355447&oldid=2558287013",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558287013,
+        "modified_at": "2026-10-18T06:35:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

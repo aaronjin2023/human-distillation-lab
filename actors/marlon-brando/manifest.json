@@ -38,5 +38,117 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34012",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marlon Brando",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2004",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34012"
+            ],
+            "statement_id": "q34012$E497AFE6-A9E0-4D92-94D1-18CF6B8D3C32",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34012"
+            ],
+            "statement_id": "q34012$4928987F-0589-47B0-81C4-C2833FB9893E",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34012"
+        ],
+        "statement_id": "q34012$8878DFCC-633E-4A86-BB3B-01A3287E96B7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43199",
+        "label": "奥马哈",
+        "label_en": "Omaha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34012"
+        ],
+        "statement_id": "q34012$D314E400-3BF6-4840-84B0-DFD7D5E74204",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·方法派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34012",
+        "title": "Wikidata Q34012 / 马龙·白兰度",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34012&oldid=2558157425",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558157425,
+        "modified_at": "2026-10-17T23:31:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

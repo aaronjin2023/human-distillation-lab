@@ -31,5 +31,117 @@
   "test_prompt": "In the style of John Robert Schrieffer, explain why a superconducting qubit in a quantum computer is afraid of heat: start from the paired ground state, show how thermal energy breaks Cooper pairs into quasiparticles, estimate the gap scale, and end with a measurable prediction",
   "test_question_zh": "解释一台量子计算机里的超导量子比特为什么怕热",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153201",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Robert Schrieffer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2019",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153201"
+            ],
+            "statement_id": "q153201$DDF7DC8C-24DD-4B2D-AE8F-543881EE9932",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153201"
+            ],
+            "statement_id": "Q153201$81a13499-46f8-79b3-9d09-67b30512c0ba",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-07-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153201"
+        ],
+        "statement_id": "Q153201$EEA7AB13-26B3-45D9-B35D-D7F1C6A74774",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q331397",
+        "label": "奥克帕克",
+        "label_en": "Oak Park",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153201"
+        ],
+        "statement_id": "q153201$4456F3B6-A403-40F4-B670-A32B023941DE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "凝聚态 / 超导理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153201",
+        "title": "Wikidata Q153201 / 约翰·施里弗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153201&oldid=2558004918",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558004918,
+        "modified_at": "2026-10-17T14:26:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,117 @@
   "thinker": "Nishida Kitaro",
   "thinker_zh": "西田几多郎",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q45125",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nishida Kitaro",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1945",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45125"
+            ],
+            "statement_id": "Q45125$1ABBC64D-717C-4827-965F-BB0A74A2D24B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45125"
+            ],
+            "statement_id": "Q45125$E446A5C4-D250-4C91-9C99-953D00A30FC3",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q45125"
+        ],
+        "statement_id": "q45125$A799FC94-DD84-456B-8B50-BA15B46616DF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q846335",
+        "label": "河北市",
+        "label_en": "Kahoku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q45125"
+        ],
+        "statement_id": "q45125$19DEB176-A231-47E6-BC28-A65270DFF749",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "京都学派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q45125",
+        "title": "Wikidata Q45125 / 西田几多郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q45125&oldid=2559126781",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559126781,
+        "modified_at": "2026-10-20T07:32:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

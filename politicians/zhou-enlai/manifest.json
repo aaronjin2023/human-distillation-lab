@@ -69,5 +69,211 @@
     "未覆盖周恩来的国内治理和其它外交阶段；不由片段推断真实人格。"
   ],
   "distillation_method": "公开文本的artifact证据、对照材料与原创操作化分开；不从演说直接推断成效或私人性格。",
-  "legacy_refs": []
+  "legacy_refs": [],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q17410",
+      "status": "matched",
+      "match_basis": {
+        "type": "reviewed_name_and_professional_context",
+        "evidence": "对照现有manifest的公开专业与代表作：1955亚非会议公开发言对应周恩来，与候选Zhou Enlai、外交部长及政治身份一致。仅确认资料关联身份，生卒与地域仍为source_recorded，争议值保留，民族不升级。"
+      }
+    },
+    "life": {
+      "original_text": null,
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17410"
+            ],
+            "statement_id": "q17410$cf0676ef-4d66-acc7-2ea3-10f0e444a4aa",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17410"
+            ],
+            "statement_id": "q17410$defde13d-4af7-6bee-a291-14d178c47901",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q17410"
+        ],
+        "statement_id": "q17410$A28A13DB-6B87-41A1-BD21-995B132C6992",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q973193",
+        "label": "淮安区",
+        "label_en": "Huai'an District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q17410"
+        ],
+        "statement_id": "Q17410$ED8C2CC9-32D6-48F1-BA3B-65EC0C3C9AE9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q17410"
+        ],
+        "statement_id": "q17410$e186c607-40d7-1cc6-8d66-65adda3a6fe3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q17410"
+        ],
+        "statement_id": "q17410$4f57e93e-4d6c-3d4d-77d6-6f7da719f694",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q17410"
+        ],
+        "statement_id": "Q17410$76F1FC9E-8465-4B95-86DC-177D1BF1E716",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q17410"
+          ],
+          "statement_id": "Q17410$2bf81737-45aa-e568-d69f-58373150dfe0",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q17410",
+        "title": "Wikidata Q17410 / 周恩来",
+        "url": "https://www.wikidata.org/w/index.php?title=Q17410&oldid=2561221136",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561221136,
+        "modified_at": "2026-10-26T22:47:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

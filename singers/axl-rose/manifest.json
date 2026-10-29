@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜的出租车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11885",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Axl Rose",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1962–",
+      "birth_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11885"
+            ],
+            "statement_id": "q11885$2683c261-468f-b57f-8927-caa0e04e0718",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11885"
+        ],
+        "statement_id": "q11885$1B8C0CF4-1803-49B8-B472-3CC1CE9118D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q638187",
+        "label": "拉斐特",
+        "label_en": "Lafayette",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11885"
+        ],
+        "statement_id": "q11885$E606768F-74FA-4606-8CD8-B9100295082B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "摇滚·硬摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11885",
+        "title": "Wikidata Q11885 / 埃克索爾·羅斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11885&oldid=2561714502",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561714502,
+        "modified_at": "2026-10-28T15:25:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

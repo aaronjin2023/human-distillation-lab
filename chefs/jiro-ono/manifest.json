@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "小野二郎风格：一只坐在地铁里的约克夏犬的晚餐——一贯当季鱼、体温醋饭、不加酱汁、不加装饰、绝对简朴、鱼即全部。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3179273",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jiro Ono",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1925–",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3179273"
+            ],
+            "statement_id": "Q3179273$47A873F0-4211-4A45-97E5-F93B1AC52C00",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3179273"
+        ],
+        "statement_id": "Q3179273$502788CD-14CC-4375-BAB8-D88485D98704",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1042402",
+        "label": "天龙市",
+        "label_en": "Tenryū",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3179273"
+        ],
+        "statement_id": "Q3179273$48B90DDD-99E9-4AF9-9AF6-E616B1A7660C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "江户前寿司",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3179273",
+        "title": "Wikidata Q3179273 / 小野二郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3179273&oldid=2532312051",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2532312051,
+        "modified_at": "2026-08-17T12:11:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

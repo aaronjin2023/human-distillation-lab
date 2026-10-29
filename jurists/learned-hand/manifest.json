@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖机器人的注意义务（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：自由精神引文见 Columbia Law School 与 Duke Judicature 所载 1944 年演讲原文；生卒 1872–1961 为通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q493155",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Learned Hand",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1872–1961",
+      "birth_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493155"
+            ],
+            "statement_id": "q493155$7850BEC0-7A72-404E-8D38-B3CA8C351E4F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493155"
+            ],
+            "statement_id": "q493155$96743A6B-15FB-4F25-A1D6-0603FAEE33F3",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-08-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q493155"
+        ],
+        "statement_id": "q493155$255C3C0D-CC2E-4F0F-95A3-DD7BD1E8D65D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q24861",
+        "label": "奥尔巴尼",
+        "label_en": "Albany",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q493155"
+        ],
+        "statement_id": "q493155$DC0E7425-2E92-4D90-BE65-EAE07D88970B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·上诉法院",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q493155",
+        "title": "Wikidata Q493155 / 勒恩德·汉德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q493155&oldid=2560542342",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560542342,
+        "modified_at": "2026-10-25T04:23:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

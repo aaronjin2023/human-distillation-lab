@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "比彻风格：为一群未来的女教师设计一堂关于人工智能的课。把它当作职业科目：清晰大纲、把用屏健康与安全编进课程、两人一组练教、每人写一份回自己课堂教这堂课的计划。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q462169",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Catharine Beecher",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1800–1878",
+      "birth_year": {
+        "value": 1800,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q462169"
+            ],
+            "statement_id": "Q462169$BD8A110D-A06C-4F72-867F-EE0585B86DA7",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1800,
+            "raw_time": "+1800-09-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q462169"
+            ],
+            "statement_id": "Q462169$B669796E-63CD-41F1-A436-F90FE02CB797",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q462169"
+        ],
+        "statement_id": "Q462169$4267AC5B-9B57-488E-B250-6891FF68E852",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q994372",
+        "label": "东汉普顿",
+        "label_en": "East Hampton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q462169"
+        ],
+        "statement_id": "q462169$2CF29E4B-153A-441D-AF7C-A7AD80C80760",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国女子教育 / 家政教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q462169",
+        "title": "Wikidata Q462169 / Catharine Beecher",
+        "url": "https://www.wikidata.org/w/index.php?title=Q462169&oldid=2559129735",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559129735,
+        "modified_at": "2026-10-20T07:43:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

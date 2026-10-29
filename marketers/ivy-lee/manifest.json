@@ -39,5 +39,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一款 AI 耳机写危机公关方案",
   "verification": "2026-10-26 网络核对关键事实；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1345412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ivy Lee",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1877–1934",
+      "birth_year": {
+        "value": 1877,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1345412"
+            ],
+            "statement_id": "Q1345412$F8445053-976B-4F6A-94D3-9F12C5F6B7E4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1877,
+            "raw_time": "+1877-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1345412"
+            ],
+            "statement_id": "Q1345412$3A7D1591-29C6-4E73-B7EB-E4718A1153AA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-11-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1345412"
+        ],
+        "statement_id": "Q1345412$231CD782-000F-4E1E-A127-3F9697E5F347",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q777429",
+        "label": "細得鎮",
+        "label_en": "Cedartown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1345412"
+        ],
+        "statement_id": "q1345412$D06183AB-10F8-4A26-927E-A0DBB8FA36BF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "公关先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1345412",
+        "title": "Wikidata Q1345412 / 艾维·李",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1345412&oldid=2544857014",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544857014,
+        "modified_at": "2026-09-13T04:14:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

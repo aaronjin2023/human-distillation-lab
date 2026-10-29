@@ -39,5 +39,127 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q382550",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Keller",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1955–",
+      "birth_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q382550"
+            ],
+            "statement_id": "Q382550$526C6710-B0F8-4ACE-8F10-88238BE426F7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q382550"
+        ],
+        "statement_id": "Q382550$1AE1B3AC-A809-42D8-BECC-CD82E615B0A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q195334",
+        "label": "海军陆战队彭德尔顿兵营",
+        "label_en": "Marine Corps Base Camp Pendleton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q382550"
+        ],
+        "statement_id": "Q382550$15432efb-41f9-5235-2851-b5aa1f259cf2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1994-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2364717",
+        "label": "法国洗衣房餐厅",
+        "label_en": "The French Laundry",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q382550"
+        ],
+        "statement_id": "q382550$63685337-6CE7-430A-AF38-06CF739DE45C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美式法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q382550",
+        "title": "Wikidata Q382550 / 托马斯·凯勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q382550&oldid=2549545768",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549545768,
+        "modified_at": "2026-09-26T06:37:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

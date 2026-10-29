@@ -36,5 +36,126 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Pedro Álvares Cabral, a fleet of uncrewed ships takes a wide Atlantic arc in 2026, overshoots into an uncharted coast, logs the landing, then rides the monsoon onward, losses counted plainly.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q174432",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pedro Álvares Cabral",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1467–1520",
+      "birth_year": {
+        "value": 1467,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174432"
+            ],
+            "statement_id": "Q174432$BE5B0790-0063-47F0-9D04-E8BAD6DFC51D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1467,
+            "raw_time": "+1467-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174432"
+            ],
+            "statement_id": "Q174432$20D73D11-4A60-4CDE-825A-EB26C728DC14",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1520,
+            "raw_time": "+1520-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q174432"
+        ],
+        "statement_id": "q174432$45C37F1C-2AB6-4B86-9326-EEF909B4B1B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q816115",
+        "label": "貝爾蒙蒂",
+        "label_en": "Belmonte",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q174432"
+        ],
+        "statement_id": "Q174432$26047C34-22A4-48F2-9464-FF5DCFAA1C2C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·大西洋—印度洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q174432",
+        "title": "Wikidata Q174432 / 佩德罗·阿尔瓦雷斯·卡布拉尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q174432&oldid=2558209576",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558209576,
+        "modified_at": "2026-10-18T02:13:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

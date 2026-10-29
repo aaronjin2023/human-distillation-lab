@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Henry Norris Russell, plot a new sample of exoplanet host stars by luminosity against temperature, look for gaps and groupings before naming any evolutionary sequence, and let the empty regions speak as loudly as the crowded ones",
   "test_question_zh": "用罗素的方法分析一批新的系外行星宿主恒星：按光度对温度作图，先找空隙与分组，再命名演化序列，让空白区域与密集区域同样说话",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q273159",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Norris Russell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1877–1957",
+      "birth_year": {
+        "value": 1877,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273159"
+            ],
+            "statement_id": "q273159$6EFB9074-1D2D-43B6-84FD-789B8FA5697E",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1877,
+            "raw_time": "+1877-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q273159"
+            ],
+            "statement_id": "q273159$D0FE8351-35E4-40C1-8EA4-C764CB2C00BC",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-02-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q273159"
+        ],
+        "statement_id": "q273159$A5A5762D-5D44-4B89-9423-F4631B3FFAE1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q129361",
+        "label": "奥伊斯特贝",
+        "label_en": "Oyster Bay",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q273159"
+        ],
+        "statement_id": "q273159$1C936B0C-2FD6-40BB-AA4B-33C7CDA0DF75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·恒星演化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q273159",
+        "title": "Wikidata Q273159 / 亨利·诺利斯·罗素",
+        "url": "https://www.wikidata.org/w/index.php?title=Q273159&oldid=2557919788",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557919788,
+        "modified_at": "2026-10-17T08:01:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

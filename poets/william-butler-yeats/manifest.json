@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q40213",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Butler Yeats",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1865–1939",
+      "birth_year": {
+        "value": 1865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40213"
+            ],
+            "statement_id": "q40213$C340E71D-41CD-4BC8-8B63-C8B76192617F",
+            "rank": "preferred",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1865,
+            "raw_time": "+1865-06-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40213"
+            ],
+            "statement_id": "q40213$755964A1-B783-42F0-A398-F7D755BE1627",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q40213"
+        ],
+        "statement_id": "q40213$DB47B2CA-81B1-4793-A1B0-442F52101B54",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q966849",
+        "label": "桑迪芒特",
+        "label_en": "Sandymount",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q40213"
+        ],
+        "statement_id": "Q40213$0311D244-21D4-4ED2-8E91-E85040DD906D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31747",
+        "label": "爱尔兰自由邦",
+        "label_en": "Irish Free State",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "爱尔兰·象征主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q40213",
+        "title": "Wikidata Q40213 / 威廉·巴特勒·叶芝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q40213&oldid=2558282090",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558282090,
+        "modified_at": "2026-10-18T06:19:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

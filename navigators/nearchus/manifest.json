@@ -35,5 +35,119 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Nearchus, a fleet of uncrewed survey ships waits out the monsoon at a river mouth in 2026, then crawls along a strange coast to the Gulf, logging whales and watering places like a military report.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q320132",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nearchus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.360–c.300 BCE",
+      "birth_year": {
+        "value": -356,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q320132"
+            ],
+            "statement_id": "Q320132$8C316095-12DF-43CE-B7AE-74141F1AFA62",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -356,
+            "raw_time": "-0356-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": -360
+      },
+      "death_year": {
+        "value": -300,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q320132"
+            ],
+            "statement_id": "Q320132$1181D4D7-3675-4515-B43E-2E4DF75FBF19",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -300,
+            "raw_time": "-0300-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q320132"
+        ],
+        "statement_id": "Q320132$2CFC28D6-678C-4486-A268-98E0279BCCAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1807000",
+        "label": "Lato",
+        "label_en": "Lato",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q320132"
+        ],
+        "statement_id": "Q320132$DA1E1DD3-A286-4B01-9BEF-D6C87D65EB7F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q83958",
+        "label": "马其顿王国",
+        "label_en": "Macedonia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "希腊·印度洋—波斯湾",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q320132",
+        "title": "Wikidata Q320132 / 尼阿卡斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q320132&oldid=2553833665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553833665,
+        "modified_at": "2026-10-06T08:54:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

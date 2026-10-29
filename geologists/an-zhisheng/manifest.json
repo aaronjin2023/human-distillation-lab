@@ -34,5 +34,101 @@
   "test_prompt": "In the style of An Zhisheng, judge whether the Tibetan Plateau drove the monsoon: compare the loess record with ice cores and marine records, check the timing of uplift against monsoon change, and state what would falsify the link",
   "test_question_zh": "青藏高原隆升，真的驱动了东亚季风吗？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8917912",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "An Zhisheng",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8917912"
+            ],
+            "statement_id": "Q8917912$5A55812A-ED48-4A50-A828-2676C132B357",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8917912"
+        ],
+        "statement_id": "Q8917912$95F59871-24CB-4316-BE2C-4728A6644243",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q197787",
+        "label": "芷江侗族自治县",
+        "label_en": "Zhijiang Dong Autonomous County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8917912"
+        ],
+        "statement_id": "Q8917912$D07011DA-A7BE-4A3F-A270-E5F33BF6577B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "第四纪地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8917912",
+        "title": "Wikidata Q8917912 / 安芷生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8917912&oldid=2542356587",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542356587,
+        "modified_at": "2026-09-08T16:45:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

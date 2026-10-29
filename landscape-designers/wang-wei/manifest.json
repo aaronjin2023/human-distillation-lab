@@ -45,5 +45,56 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "王维风格：现代城市里的一座小屋顶花园，一泓静池与清泉，松竹掩映，茅亭半隐于雾中，远处高楼借作远山，空寂幽静，诗中有画。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q313605",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Wang Wei",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "699–759",
+      "birth_year": {
+        "value": 699,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 759,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·文人园林",
+      "genre": "landscape-designer"
+    },
+    "sources": []
+  }
 }

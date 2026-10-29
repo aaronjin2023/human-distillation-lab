@@ -37,5 +37,166 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a commuter in the rain waiting for a train",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151972",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Josephine Baker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1975",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151972"
+            ],
+            "statement_id": "q151972$A4D2FF3D-FCE9-4F3D-8513-3D7EEDD1C8A1",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151972"
+            ],
+            "statement_id": "q151972$EC4AF6B6-22CE-4393-A704-4E996BB4F8B7",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151972"
+        ],
+        "statement_id": "Q151972$F9FBB813-E9E7-47FB-84ED-33193EF2DB19",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q38022",
+        "label": "圣路易斯",
+        "label_en": "St. Louis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151972"
+        ],
+        "statement_id": "q151972$3DFB4304-DEEB-4200-91A2-1708D6CBDDE6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1937-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151972"
+        ],
+        "statement_id": "q151972$E795382C-0EA6-4046-AECB-BCF10CAB0DB6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1937-11-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q151972"
+          ],
+          "statement_id": "Q151972$9C83F7A0-BBB5-483C-8468-88BF86F8BBC3",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士时代歌舞·舞者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151972",
+        "title": "Wikidata Q151972 / 约瑟芬·贝克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151972&oldid=2561654028",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561654028,
+        "modified_at": "2026-10-28T11:06:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

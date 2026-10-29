@@ -35,5 +35,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1173491",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Aaker",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–（在世）",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1173491"
+            ],
+            "statement_id": "Q1173491$DDFB24DD-04E9-473C-B19C-1C5DF5A1B2DF",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1173491"
+        ],
+        "statement_id": "q1173491$0BFA2F2C-9B78-408D-85A1-150E2AB4FCB6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34109",
+        "label": "法戈",
+        "label_en": "Fargo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1173491"
+        ],
+        "statement_id": "q1173491$1B6336BD-9D3A-40F2-8AE6-A22199FCB18F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌资产理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1173491",
+        "title": "Wikidata Q1173491 / 大卫·艾伦·艾克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1173491&oldid=2551899140",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551899140,
+        "modified_at": "2026-10-01T19:58:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

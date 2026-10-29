@@ -34,5 +34,131 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55401",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kenji Mizoguchi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1956",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55401"
+            ],
+            "statement_id": "q55401$5CE703CF-596A-4927-88CC-A73B6054CF90",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55401"
+            ],
+            "statement_id": "q55401$828BED74-CD2D-4298-9DEB-87644FBAEA63",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-08-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55401"
+        ],
+        "statement_id": "q55401$41A5A0B5-ABE5-4F55-A475-425B0A0913C3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q55401"
+        ],
+        "statement_id": "Q55401$6B68CC5A-1245-493F-B93B-150E907FB1F9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55401"
+        ],
+        "statement_id": "q55401$7DFA3200-BBAC-43D7-8735-563E48D49B12",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·女性题材 / 长镜头"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55401",
+        "title": "Wikidata Q55401 / 溝口健二",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55401&oldid=2558081853",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558081853,
+        "modified_at": "2026-10-17T19:52:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

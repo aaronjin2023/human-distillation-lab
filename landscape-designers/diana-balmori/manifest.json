@@ -42,5 +42,142 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "巴尔莫里风格：现代城市的一座河滨步道公园，滨水，生态与艺术一体，漂浮的景观，城市与河流一体。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3756505",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diana Balmori",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2016",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3756505"
+            ],
+            "statement_id": "Q3756505$e0597dc3-4e63-856b-66d6-4d272a5e16cd",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3756505"
+            ],
+            "statement_id": "Q3756505$f3ff3e93-447d-c2bd-02b8-98106bb3389c",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3756505"
+        ],
+        "statement_id": "Q3756505$A7EA030A-22E5-428A-A795-E600EBFA4E8A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12273",
+        "label": "希洪",
+        "label_en": "Gijón",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3756505"
+        ],
+        "statement_id": "Q3756505$861168FB-7E5A-4207-90D6-45A6CB4C678A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3756505"
+        ],
+        "statement_id": "Q3756505$77f4a7da-465c-222f-6a80-77109b411496",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1952-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西班牙—美国·城市景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3756505",
+        "title": "Wikidata Q3756505 / Diana Balmori Ling",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3756505&oldid=2514001937",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514001937,
+        "modified_at": "2026-07-05T03:09:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

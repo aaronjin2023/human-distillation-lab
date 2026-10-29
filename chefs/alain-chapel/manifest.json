@@ -43,5 +43,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2829655",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alain Chapel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1937–1990",
+      "birth_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2829655"
+            ],
+            "statement_id": "Q2829655$3023F074-D97F-4D23-BA9A-8925942C812B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2829655"
+            ],
+            "statement_id": "Q2829655$1D82D692-B5FB-42CC-91B1-6988FB90105A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-07-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2829655"
+        ],
+        "statement_id": "q2829655$1EDF80D9-CCDB-480B-A43A-D0DC13FCBAB4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3348",
+        "label": "里昂第三区",
+        "label_en": "3rd arrondissement of Lyon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2829655"
+        ],
+        "statement_id": "Q2829655$A6B8A127-90B5-4787-A269-18FEF6AD5C70",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2829655",
+        "title": "Wikidata Q2829655 / 阿蘭·沙佩爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2829655&oldid=2521642897",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521642897,
+        "modified_at": "2026-07-23T12:54:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

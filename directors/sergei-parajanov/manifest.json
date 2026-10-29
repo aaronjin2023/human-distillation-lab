@@ -34,5 +34,146 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311311",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sergei Parajanov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–1990",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311311"
+            ],
+            "statement_id": "q311311$277F297D-46A4-4859-85D0-C3741D664B57",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311311"
+            ],
+            "statement_id": "q311311$63639141-B339-4737-9649-FBA0DAE66FC2",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q311311"
+            ],
+            "statement_id": "Q311311$6b7391b6-d7fe-4abb-ac9a-91e867645d93",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-07-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311311"
+        ],
+        "statement_id": "q311311$577962CE-009D-48ED-877B-26F5573B1C8A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q994",
+        "label": "第比利斯",
+        "label_en": "Tbilisi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311311"
+        ],
+        "statement_id": "q311311$98AF2AFF-11FC-4586-9011-DDAC298FA2A7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q311311"
+          ],
+          "statement_id": "Q311311$f012d24d-47d7-2f5b-3c29-941a44eab559",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q79797",
+          "label": "亚美尼亚人",
+          "label_en": "Armenians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "苏联·诗意民俗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311311",
+        "title": "Wikidata Q311311 / 谢尔盖·帕拉杰诺夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311311&oldid=2558234950",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558234950,
+        "modified_at": "2026-10-18T03:45:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

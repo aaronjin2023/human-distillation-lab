@@ -41,5 +41,118 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Ba Jin",
-  "writer_zh": "巴金"
+  "writer_zh": "巴金",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q13005",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ba Jin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–2005",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q13005"
+            ],
+            "statement_id": "q13005$4260A51F-BB13-44FA-8685-E934D17E2CCB",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q13005"
+            ],
+            "statement_id": "q13005$0249FDAF-367D-42C7-B774-874B6EA7B0DE",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q13005"
+        ],
+        "statement_id": "q13005$C2BD30E1-F610-4217-8D05-F0920746CBA5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30002",
+        "label": "成都市",
+        "label_en": "Chengdu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q13005"
+        ],
+        "statement_id": "q13005$D22B9657-A016-44A9-94BB-6044A32B4457",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代·小说 / 散文",
+      "genre": "novelist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q13005",
+        "title": "Wikidata Q13005 / 巴金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q13005&oldid=2557806454",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557806454,
+        "modified_at": "2026-10-17T00:52:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

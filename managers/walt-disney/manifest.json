@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8704",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Walt Disney",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1966",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8704"
+            ],
+            "statement_id": "q8704$990747F7-3698-47C6-9B34-553BE320B01B",
+            "rank": "normal",
+            "reference_count": 25,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8704"
+            ],
+            "statement_id": "q8704$89431BF1-7B4C-4D79-A921-55A75834B857",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8704"
+        ],
+        "statement_id": "q8704$2465A362-C3B2-4659-BA69-D50206AD1883",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8704"
+        ],
+        "statement_id": "q8704$BB5FD76E-DD42-496F-8AE4-D9B8241124C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "娱乐"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8704",
+        "title": "Wikidata Q8704 / 华特·迪士尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8704&oldid=2559467133",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559467133,
+        "modified_at": "2026-10-21T10:36:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

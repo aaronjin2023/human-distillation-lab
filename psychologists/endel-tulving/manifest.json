@@ -46,5 +46,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Endel Tulving, analyse a small Yorkshire terrier sitting on a subway seat. Ask what commuters will remember: semantic facts about the breed, or an episodic memory of this ride, with autonoetic consciousness, retrieved only if the cue matches how it was encoded.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q907933",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Endel Tulving",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2023",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q907933"
+            ],
+            "statement_id": "Q907933$475A1E17-E022-4DB7-A418-543BD8001755",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q907933"
+            ],
+            "statement_id": "Q907933$a68b4c29-4cae-ff81-784e-984ba735803a",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q907933"
+        ],
+        "statement_id": "q907933$AF8B3FF6-6E3A-4049-847F-5A51FE6D64A9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179407",
+        "label": "佩乔雷",
+        "label_en": "Pechory",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q907933"
+        ],
+        "statement_id": "Q907933$F3AB81E3-1122-4A25-9766-01B05F7EEF88",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q191",
+        "label": "爱沙尼亚",
+        "label_en": "Estonia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q907933"
+        ],
+        "statement_id": "Q907933$f5ff7b1d-4e60-f37f-6451-3a1a0c5185b0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "记忆系统"
+    },
+    "sources": [
+      {
+        "id": "WD:Q907933",
+        "title": "Wikidata Q907933 / 安道爾·圖威",
+        "url": "https://www.wikidata.org/w/index.php?title=Q907933&oldid=2560338497",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560338497,
+        "modified_at": "2026-10-24T16:08:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -33,5 +33,131 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "洪水威胁城市大规模疏散",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q152025",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bernard Montgomery",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1976",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152025"
+            ],
+            "statement_id": "q152025$5C088208-FE89-4106-96D1-0E5C07602697",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-11-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152025"
+            ],
+            "statement_id": "q152025$D63E49AD-220C-476B-B91A-569A86FEB7D2",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q152025"
+        ],
+        "statement_id": "Q152025$393e8b33-4f41-bbb2-7d48-6f895f236ce9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q146696",
+        "label": "肯宁顿",
+        "label_en": "Kennington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q152025"
+        ],
+        "statement_id": "Q152025$52EC9B1D-109A-4842-8744-2AEF81E444FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q152025"
+        ],
+        "statement_id": "q152025$D4145015-6F30-4C22-99A7-8DE2C18F5985",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·北非"
+    },
+    "sources": [
+      {
+        "id": "WD:Q152025",
+        "title": "Wikidata Q152025 / 伯纳德·蒙哥马利，第一代阿拉曼的蒙哥马利子爵",
+        "url": "https://www.wikidata.org/w/index.php?title=Q152025&oldid=2555111416",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555111416,
+        "modified_at": "2026-10-08T19:41:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -46,5 +46,101 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q320927",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Seligman",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q320927"
+            ],
+            "statement_id": "Q320927$A2B76B79-29B9-479F-99A6-97D6398CE9EE",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q320927"
+        ],
+        "statement_id": "q320927$810F7A32-CDDC-43F6-89BD-AC20CADFDE24",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q24861",
+        "label": "奥尔巴尼",
+        "label_en": "Albany",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q320927"
+        ],
+        "statement_id": "q320927$5B3FD1EA-6022-4F92-85D9-B68874F823CC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "积极心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q320927",
+        "title": "Wikidata Q320927 / 马丁·赛里格曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q320927&oldid=2560310580",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560310580,
+        "modified_at": "2026-10-24T14:13:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

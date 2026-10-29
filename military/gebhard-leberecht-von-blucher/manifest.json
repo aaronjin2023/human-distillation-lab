@@ -27,5 +27,170 @@
   "status": "draft v0.1",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153522",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gebhard Leberecht von Blücher",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1742–1819",
+      "birth_year": {
+        "value": 1742,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153522"
+            ],
+            "statement_id": "q153522$E47D8FDC-8048-46D5-8667-BAFD5B86EAE3",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1742,
+            "raw_time": "+1742-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1819,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153522"
+            ],
+            "statement_id": "q153522$B2862B53-34C5-4CE9-B4DD-70A17E173F62",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1819,
+            "raw_time": "+1819-09-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "q153522$C3035FE5-5363-4DE0-B186-CB97D4C8C4E1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2861",
+        "label": "罗斯托克",
+        "label_en": "Rostock",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "Q153522$6453587A-67F3-4A87-9DD2-9C8D73F579D6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2861",
+        "label": "罗斯托克",
+        "label_en": "Rostock",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "Q153522$F19C0472-F5DB-4AFB-9335-054993A89BEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2742",
+        "label": "明斯特",
+        "label_en": "Münster",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "Q153522$18934133-0F4E-4FAC-8915-217477FE2004",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23968",
+        "label": "诺德奈",
+        "label_en": "Norderney",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "q153522$EE5607A7-9C4A-4F92-A7EB-F0CA42706E79",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153522"
+        ],
+        "statement_id": "Q153522$D43C38D8-0D55-42AA-A358-959597BF9CCE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "普鲁士·反法同盟"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153522",
+        "title": "Wikidata Q153522 / 格布哈德·列博莱希特·冯·布吕歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153522&oldid=2561278039",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561278039,
+        "modified_at": "2026-10-27T02:13:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

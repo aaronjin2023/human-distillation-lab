@@ -43,5 +43,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Simon Porte Jacquemus, a modern farmers market stallholder apron, Provençal minimalism, linen and cotton, tiny bag, oversized straw hat, white and pale pink, joyful southern French ease, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q21030814",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Simon Porte Jacquemus",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1990–",
+      "birth_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q21030814"
+            ],
+            "statement_id": "Q21030814$c683560a-41cb-0674-5f3f-2fd900ca7272",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q21030814"
+        ],
+        "statement_id": "Q21030814$cbcb5556-4674-46af-3748-3b797100c8a0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q232567",
+        "label": "普罗旺斯地区萨隆",
+        "label_en": "Salon-de-Provence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q21030814"
+        ],
+        "statement_id": "Q21030814$d0ef384e-4560-25d0-4430-349b80b39857",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·当代",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q21030814",
+        "title": "Wikidata Q21030814 / 西蒙·波特·雅克慕斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q21030814&oldid=2533918588",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533918588,
+        "modified_at": "2026-08-20T22:55:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

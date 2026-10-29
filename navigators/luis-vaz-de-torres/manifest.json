@@ -36,5 +36,56 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Luís Vaz de Torres, an uncrewed cargo ship crosses a narrow strait between two islands in 2026. Small boat scouts ahead, soundings taken before the main vessel follows, daily log of wind, coast bearings and depth. No direct dash through unknown water.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q356808",
+          "status": "needs_identity_review",
+          "conflicts": [],
+          "match_basis": {
+            "name": "Luís Vaz de Torres",
+            "compared_date_fields": 0
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.1565–卒年不详（活动于1606–1607）",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": {
+        "text": "c.1565–卒年不详（活动于1606–1607）",
+        "status": "legacy_unverified"
+      },
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "西班牙·南太平洋"
+    },
+    "sources": []
+  }
 }

@@ -39,5 +39,148 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "维特鲁威风格：现代城市街角的一座社区图书馆，石与砖的罗马巴西利卡大厅，多立克比例正确，柱廊与高侧窗采光，对称平面，人体为尺度。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47163",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vitruvius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.80–c.15 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47163"
+            ],
+            "statement_id": "Q47163$FD7F9BA8-1AB8-484F-A1B0-33AE35616228",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -80,
+            "raw_time": "-0080-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47163"
+            ],
+            "statement_id": "Q47163$68D1F3FA-6E65-403A-B524-503A2D38DAD2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -15,
+            "raw_time": "-0015-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47163"
+        ],
+        "statement_id": "Q47163$6E18E61D-24C1-421F-80FB-1148869473D6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17167",
+        "label": "罗马共和国",
+        "label_en": "Roman Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q47163"
+        ],
+        "statement_id": "Q47163$2B4D4028-7104-4CB4-9C22-43F0216D4896",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47163"
+        ],
+        "statement_id": "Q47163$9BB32B9A-6C0B-4044-B495-7007143FFC41",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47163",
+        "title": "Wikidata Q47163 / 维特鲁威",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47163&oldid=2561098721",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561098721,
+        "modified_at": "2026-10-26T15:16:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

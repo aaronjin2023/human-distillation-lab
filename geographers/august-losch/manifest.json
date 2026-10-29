@@ -31,5 +31,117 @@
   "test_prompt": "In the style of August Lösch, explain why delivery riders cluster at a new district's edge: build one rider's demand cone, add competing riders until market areas interlock, and read the resulting landscape as an equilibrium, not a plan.",
   "test_question_zh": "新城区边缘的外卖骑手聚集",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q67210",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "August Lösch",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1945",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q67210"
+            ],
+            "statement_id": "q67210$83789AB7-0C64-4044-A9F3-0DF2598CE86C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q67210"
+            ],
+            "statement_id": "q67210$8B352C5A-74E6-44AC-968D-D622D0A70812",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q67210"
+        ],
+        "statement_id": "q67210$4A02F686-DCAF-4119-81E0-715B58AA7CE1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q294783",
+        "label": "厄林根",
+        "label_en": "Öhringen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q67210"
+        ],
+        "statement_id": "q67210$BCE6FC9C-C683-4067-BE84-2CCA4B803E65",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·经济空间理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q67210",
+        "title": "Wikidata Q67210 / 奥古斯特·勒施",
+        "url": "https://www.wikidata.org/w/index.php?title=Q67210&oldid=2552939923",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552939923,
+        "modified_at": "2026-10-04T06:48:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

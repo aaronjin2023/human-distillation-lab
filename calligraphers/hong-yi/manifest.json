@@ -43,5 +43,130 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5895726",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hong Yi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1880–1942",
+      "birth_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5895726"
+            ],
+            "statement_id": "Q5895726$80221CBB-6694-4EED-8483-97F9EB0F7E32",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-10-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5895726"
+            ],
+            "statement_id": "Q5895726$26CCEAD1-4373-4A21-8EA3-59020795F057",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5895726"
+        ],
+        "statement_id": "Q5895726$E9D32C98-F09A-47DA-9DFC-0EBD83213D97",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11736",
+        "label": "天津市",
+        "label_en": "Tianjin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5895726"
+        ],
+        "statement_id": "Q5895726$D88F88C3-A552-4BC4-80E2-5CBC6BCAE8A1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5895726"
+        ],
+        "statement_id": "Q5895726$f20b388b-40a0-4866-522a-a669c44a947e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·行书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5895726",
+        "title": "Wikidata Q5895726 / 李叔同",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5895726&oldid=2551757606",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551757606,
+        "modified_at": "2026-10-01T11:59:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,141 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "洪水后打通公路网的快速行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q548803",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "J. F. C. Fuller",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1878–1966",
+      "birth_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q548803"
+            ],
+            "statement_id": "q548803$A8E2BD2D-97AA-4217-A7C4-149FBD187142",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-09-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q548803"
+            ],
+            "statement_id": "q548803$0A7FA43F-1979-46A1-9B52-0DA8CCE8D24C",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-02-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q548803"
+        ],
+        "statement_id": "q548803$BF815141-CD67-48C4-95C9-F435EBF691B2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207639",
+        "label": "奇切斯特",
+        "label_en": "Chichester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q548803"
+        ],
+        "statement_id": "q548803$9C759020-E132-420D-8B2C-3713EB119FA2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q548803"
+        ],
+        "statement_id": "Q548803$19C72717-4E45-4CBA-B6D1-822A38323C72",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·装甲战理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q548803",
+        "title": "Wikidata Q548803 / 约翰·弗雷德里克·查尔斯·富勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q548803&oldid=2559148949",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559148949,
+        "modified_at": "2026-10-20T08:48:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

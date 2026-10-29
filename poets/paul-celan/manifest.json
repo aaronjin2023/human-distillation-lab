@@ -43,5 +43,267 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153905",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Celan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1970",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153905"
+            ],
+            "statement_id": "q153905$1C9F1897-995C-4172-8EF7-F7F781F32389",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-11-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153905"
+            ],
+            "statement_id": "q153905$11C5FB4B-6529-4C63-94AD-3F57DFE7102A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18122778,
+                  "id": "Q18122778"
+                }
+              ]
+            },
+            "value": 1970,
+            "raw_time": "+1970-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "q153905$ECF4928B-44DB-4496-B8A7-CCA97F3FCC47",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q157725",
+        "label": "切尔诺夫策",
+        "label_en": "Chernivtsi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "Q153905$CB6C33A9-4AF3-49FD-8B4E-DBEC2F11ADAD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "Q153905$59e890f6-421c-eb98-979e-149fe5eabde3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1948-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q19660",
+        "label": "布加勒斯特",
+        "label_en": "Bucharest",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "q153905$477A783C-937D-4035-8C45-48D275070B17",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1955-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "q153905$639DAD47-8C93-4DA0-B2CE-B2C51C18537E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q218",
+        "label": "罗马尼亚",
+        "label_en": "Romania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "Q153905$08ee05dc-48cb-8b6d-3535-69318571dd7f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1940-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q203493",
+        "label": "罗马尼亚王国",
+        "label_en": "Kingdom of Romania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153905"
+        ],
+        "statement_id": "Q153905$06aff7da-4e0d-ce72-dd4b-bc30dafc6b07",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1940-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德语·战后诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153905",
+        "title": "Wikidata Q153905 / 保罗·策兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153905&oldid=2558206410",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558206410,
+        "modified_at": "2026-10-18T02:04:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

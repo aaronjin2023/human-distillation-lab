@@ -30,5 +30,117 @@
     "《实验医学研究导论》原文版本未逐项核对",
     "血糖测定的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q208230",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claude Bernard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1813–1878",
+      "birth_year": {
+        "value": 1813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208230"
+            ],
+            "statement_id": "Q208230$BD0A712F-FF4A-46FE-9E62-9AFA62EDB3CA",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1813,
+            "raw_time": "+1813-07-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208230"
+            ],
+            "statement_id": "q208230$1A78E496-F931-4DE3-A785-4D5A5D292568",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-02-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q208230"
+        ],
+        "statement_id": "Q208230$16B0E003-AA1B-43BA-87D2-11675C3030EA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q339182",
+        "label": "圣于连",
+        "label_en": "Saint-Julien",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q208230"
+        ],
+        "statement_id": "q208230$077A0165-74BC-4465-9C2C-B5548614ED96",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生理学 / 实验医学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q208230",
+        "title": "Wikidata Q208230 / 克洛德·贝尔纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q208230&oldid=2557845149",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557845149,
+        "modified_at": "2026-10-17T03:37:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

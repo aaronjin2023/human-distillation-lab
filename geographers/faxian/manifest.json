@@ -31,5 +31,55 @@
   "test_prompt": "In the style of Faxian, walk a modern pilgrimage trail on foot: record the distance in days, the temple on the pass, the customs of each town — and when the road ends, say so, rather than inventing what lies beyond",
   "test_question_zh": "一条现代朝圣路线沿途所见如何？",
   "verification": "生卒与代表作按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q312978",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Faxian",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "337–c.422",
+      "birth_year": {
+        "value": 337,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 422,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "东晋·旅行地理"
+    },
+    "sources": []
+  }
 }

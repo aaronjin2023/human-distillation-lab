@@ -38,5 +38,101 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q335455",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fernanda Montenegro",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1929–",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335455"
+            ],
+            "statement_id": "Q335455$81EEAB76-37A8-4502-9C03-D222673C651D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-10-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q335455"
+        ],
+        "statement_id": "q335455$6469C17F-D081-4BDA-BC75-AA5FDE37AC42",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q8678",
+        "label": "里约热内卢",
+        "label_en": "Rio de Janeiro",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q335455"
+        ],
+        "statement_id": "q335455$907F6815-34D9-4BA1-804C-E18C4540C76F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴西·舞台/电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q335455",
+        "title": "Wikidata Q335455 / 費爾蘭德·蒙特納哥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q335455&oldid=2560436104",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560436104,
+        "modified_at": "2026-10-24T21:21:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

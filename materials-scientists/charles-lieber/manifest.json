@@ -29,5 +29,101 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Charles Lieber, design a flexible conductive material for a wearable device. Grow nanowires with controlled diameter and doping, verify single-wire transport first, then assemble them into a flexible device and measure it.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**非科学事项**：利伯 2021 年因向联邦调查人员作虚假陈述与税务问题被定罪，2023 年自哈佛退休；本文件夹只蒸材",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1750101",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Lieber",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1959–",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1750101"
+            ],
+            "statement_id": "Q1750101$120DAA7F-E71D-4A2B-859B-E8F78DEF040E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1750101"
+        ],
+        "statement_id": "Q1750101$972683B3-D69D-4CDD-AF28-C6EAAB74D862",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1750101"
+        ],
+        "statement_id": "q1750101$4F6760F9-FBCF-4C68-887D-F26592417459",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "半导体纳米线 / 纳米电子学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1750101",
+        "title": "Wikidata Q1750101 / 查尔斯·利伯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1750101&oldid=2512691450",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512691450,
+        "modified_at": "2026-07-01T18:19:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

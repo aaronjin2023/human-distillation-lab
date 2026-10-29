@@ -44,5 +44,102 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q202597",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chen Kaige",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–（在世）",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q202597"
+            ],
+            "statement_id": "q202597$4EBB9E65-1B69-4A0E-BCC8-55BED3FD3D58",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q202597"
+        ],
+        "statement_id": "q202597$88DBB10A-4512-41E6-B020-47D86A35EBB1",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q956",
+        "label": "北京市",
+        "label_en": "Beijing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q202597"
+        ],
+        "statement_id": "Q202597$F77412D3-C542-4BDC-9BD0-5C4E8D0A6180",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·第五代",
+      "genre": "中国·第五代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q202597",
+        "title": "Wikidata Q202597 / 陈凯歌",
+        "url": "https://www.wikidata.org/w/index.php?title=Q202597&oldid=2559429998",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559429998,
+        "modified_at": "2026-10-21T03:18:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

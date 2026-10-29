@@ -27,3 +27,7 @@
 
 - 来源：维基百科“Piero della Francesca”；英国国家美术馆《基督受洗》网格与中轴线说明；《基督受鞭刑》约 1455–1460 年已核对
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

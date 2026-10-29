@@ -44,5 +44,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q173767",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rubén Darío",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1867–1916",
+      "birth_year": {
+        "value": 1867,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q173767"
+            ],
+            "statement_id": "q173767$C7D41867-206E-4382-AFBA-11BB19DE52D0",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1867,
+            "raw_time": "+1867-01-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q173767"
+            ],
+            "statement_id": "q173767$5DFD8A50-3E44-4116-BDB7-7F772472261C",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q173767"
+        ],
+        "statement_id": "Q173767$DEEE2764-B352-46B8-9830-5C871858D53E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q131541473",
+        "label": "Ciudad Dario",
+        "label_en": "Ciudad Dario",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q173767"
+        ],
+        "statement_id": "q173767$EDCA4B5E-662A-41CC-A5C9-EEFC8EC38348",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q811",
+        "label": "尼加拉瓜",
+        "label_en": "Nicaragua",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "尼加拉瓜·现代主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q173767",
+        "title": "Wikidata Q173767 / 鲁文·达里奥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q173767&oldid=2560694706",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560694706,
+        "modified_at": "2026-10-25T13:24:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

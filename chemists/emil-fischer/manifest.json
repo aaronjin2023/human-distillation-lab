@@ -30,5 +30,144 @@
   "test_prompt": "In the style of Emil Fischer, determine new sugars: synthesise each one and degrade it back, measure optical rotation at every step, draw every configuration in Fischer projection, and accept a configuration only when synthesis and degradation agree",
   "test_question_zh": "一批新糖类化合物的构型未知，怎么确定？",
   "verification": "2026-10-26：生卒 1852–1919、费歇尔投影式、锁钥学说、1902 年诺贝尔化学奖经通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q70554",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emil Fischer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1852–1919",
+      "birth_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q70554"
+            ],
+            "statement_id": "q70554$0C35162E-E811-464D-960F-16B80A49CBA6",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-10-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q70554"
+            ],
+            "statement_id": "q70554$633D2F07-56E2-4DC2-9DA2-2EA301FA43BE",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q70554"
+        ],
+        "statement_id": "q70554$A6868F69-9C29-498E-962B-F41414E93614",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q4074",
+        "label": "奥伊斯基兴",
+        "label_en": "Euskirchen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q70554"
+        ],
+        "statement_id": "Q70554$E5729307-6554-4C50-964E-88F3F6174B7E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q70554"
+        ],
+        "statement_id": "q70554$823E0E9E-7417-43F4-9FD9-AA040F2B58CA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q70554"
+        ],
+        "statement_id": "Q70554$8f8beb82-4338-6602-f85c-d1a65a0cb898",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机化学 / 糖化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q70554",
+        "title": "Wikidata Q70554 / 赫尔曼·埃米尔·费歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q70554&oldid=2561124500",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561124500,
+        "modified_at": "2026-10-26T17:14:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

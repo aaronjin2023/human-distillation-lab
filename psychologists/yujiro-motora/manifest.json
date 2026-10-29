@@ -46,5 +46,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9383644",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yujiro Motora",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1858–1912",
+      "birth_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9383644"
+            ],
+            "statement_id": "Q9383644$A421899E-CB6F-414B-9875-4977CCEA4B91",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9383644"
+            ],
+            "statement_id": "Q9383644$E5A82CD8-4785-4140-B46C-F950599E9B6C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-12-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9383644"
+        ],
+        "statement_id": "Q9383644$FBF5169A-0E09-48D2-99BF-66AD494840AF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q847607",
+        "label": "三田市",
+        "label_en": "Sanda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9383644"
+        ],
+        "statement_id": "Q9383644$C50EBF57-3924-4516-8564-4A21BF8B1CF3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本心理学之父"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9383644",
+        "title": "Wikidata Q9383644 / 元良勇次郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9383644&oldid=2544413960",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544413960,
+        "modified_at": "2026-09-12T06:57:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

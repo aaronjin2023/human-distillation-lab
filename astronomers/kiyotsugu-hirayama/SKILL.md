@@ -35,3 +35,7 @@
 ## 核对记录（v0.1）
 
 - 2026-10-26：生卒与代表作按天文学家草稿 v1（Wikipedia / Britannica / NobelPrize.org 共识）写；生卒 1874–1943、1918 年论文与 Koronis/Eos/Themis 三族经 web 搜索核对（Wikipedia 'Kiyotsugu Hirayama'、'Asteroid family'）；其余未逐项核对
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

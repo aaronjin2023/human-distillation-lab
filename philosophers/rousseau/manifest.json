@@ -37,5 +37,117 @@
   ],
   "test_prompt": "现代题材：算法推荐决定一个人看什么、读什么、买什么",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6527",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Jacques Rousseau",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1712–1778",
+      "birth_year": {
+        "value": 1712,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6527"
+            ],
+            "statement_id": "q6527$3BEB59AF-58FC-48FA-AB81-09DF507C242D",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1712,
+            "raw_time": "+1712-06-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1778,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6527"
+            ],
+            "statement_id": "q6527$545B8F21-7CE7-43CA-82C7-94A7892A507C",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1778,
+            "raw_time": "+1778-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6527"
+        ],
+        "statement_id": "Q6527$054A20BD-C8F9-4DAE-901B-E329DB97722D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q71",
+        "label": "日内瓦",
+        "label_en": "Geneva",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6527"
+        ],
+        "statement_id": "q6527$AF0895D3-A6F3-46F0-B313-72B0E24A62F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23366230",
+        "label": "日内瓦共和国",
+        "label_en": "Republic of Geneva",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "启蒙·社会契约论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6527",
+        "title": "Wikidata Q6527 / 让-雅克·卢梭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6527&oldid=2561625057",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561625057,
+        "modified_at": "2026-10-28T08:26:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

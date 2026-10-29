@@ -46,5 +46,115 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4896407",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bessel van der Kolk",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4896407"
+            ],
+            "statement_id": "Q4896407$ED08A983-33EC-4732-B5D1-1AFAC410CF4C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4896407"
+        ],
+        "statement_id": "Q4896407$8AB9F6F4-B6F3-49A5-A6C3-2FE3CF208993",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q4896407"
+        ],
+        "statement_id": "Q4896407$0c6533d6-944e-48a1-8984-47122c690ebc",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4896407"
+        ],
+        "statement_id": "Q4896407$8CA120E9-2DAF-4417-8DE3-39989BE688E8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "创伤治疗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4896407",
+        "title": "Wikidata Q4896407 / 巴塞尔·范德考克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4896407&oldid=2533112315",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533112315,
+        "modified_at": "2026-08-19T08:54:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

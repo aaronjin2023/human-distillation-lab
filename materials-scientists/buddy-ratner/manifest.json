@@ -29,5 +29,101 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Buddy Ratner, design a flexible conductive material for a wearable device. Characterize the real surface first, control one surface variable at a time, and prove the biological response follows the surface chemistry.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**生年核对**：1947 年经 Wikipedia 与 ETHW 口述史核对一致（1947 年 1 月 19 日生于布",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1001271",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Buddy Ratner",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1001271"
+            ],
+            "statement_id": "Q1001271$28BC4AFC-F02F-4165-929A-ABE3C8801FDA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1001271"
+        ],
+        "statement_id": "Q1001271$1B323690-DFB2-45EE-A7B5-CF719D5678EF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1001271"
+        ],
+        "statement_id": "q1001271$EAC83446-5CEB-4B4D-9335-8787E7E4A71A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生物材料表面 / 水凝胶"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1001271",
+        "title": "Wikidata Q1001271 / Buddy Ratner",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1001271&oldid=2553685885",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553685885,
+        "modified_at": "2026-10-06T00:14:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

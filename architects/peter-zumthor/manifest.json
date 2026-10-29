@@ -43,5 +43,116 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123179",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Zumthor",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123179"
+            ],
+            "statement_id": "Q123179$F55A8389-6DEA-4AB7-B6D9-AB795B23BC1B",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123179"
+        ],
+        "statement_id": "q123179$DCC6524B-D806-42AE-B8D5-5E38E71456B3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q123179"
+        ],
+        "statement_id": "Q123179$e71bcc86-4d16-36c0-4f0d-898e4d61c0e3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q66606",
+        "label": "哈尔登施泰因",
+        "label_en": "Haldenstein",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123179"
+        ],
+        "statement_id": "Q123179$1AFA621D-4FB5-4F59-8CA0-B17BD4529B7D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代 / 极简",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123179",
+        "title": "Wikidata Q123179 / 彼得·卒姆托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123179&oldid=2558215212",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558215212,
+        "modified_at": "2026-10-18T02:33:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

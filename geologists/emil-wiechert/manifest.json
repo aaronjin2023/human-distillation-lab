@@ -28,5 +28,159 @@
     "地震仪改进细节以综述转述为准"
   ],
   "test_prompt": "现代问题：从一次远震的波形能推断出地核边界吗？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61771",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emil Wiechert",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1861–1928",
+      "birth_year": {
+        "value": 1861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61771"
+            ],
+            "statement_id": "q61771$2263B3A9-732A-48FA-A76E-985D0C9CE32C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-12-26T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q61771"
+            ],
+            "statement_id": "Q61771$9334A297-9352-458F-9A57-8E4596DC6F42",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61771"
+            ],
+            "statement_id": "q61771$B965DA5F-F352-47B0-AD57-54CE05BA3B62",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-03-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61771"
+        ],
+        "statement_id": "q61771$42479452-D53E-4A95-A2C3-261B3A1BBF3A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5647",
+        "label": "苏维埃茨克",
+        "label_en": "Sovetsk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q61771"
+        ],
+        "statement_id": "Q61771$99407C45-7DC0-4C34-AEB2-B5A243F5E142",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61771"
+        ],
+        "statement_id": "q61771$8E6736B2-D360-4A4C-A891-58D81713A7AC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q61771"
+        ],
+        "statement_id": "Q61771$d9e3b3fd-425c-432b-be1a-09dade0f6cef",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学 / 地球物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61771",
+        "title": "Wikidata Q61771 / 埃米尔·维舍特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61771&oldid=2561298283",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561298283,
+        "modified_at": "2026-10-27T03:34:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

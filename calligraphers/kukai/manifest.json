@@ -43,5 +43,117 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q222227",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kukai",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "774–835",
+      "birth_year": {
+        "value": 774,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q222227"
+            ],
+            "statement_id": "Q222227$edf0aaf2-4643-4ac5-faf7-7598c411c846",
+            "rank": "preferred",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 774,
+            "raw_time": "+0774-07-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q222227"
+            ],
+            "statement_id": "Q222227$248261C4-6A3C-4DC0-B908-938FEED3E0BC",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 835,
+            "raw_time": "+0835-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q222227"
+        ],
+        "statement_id": "Q222227$7424069e-41cf-8851-cc59-a3c16ae1c415",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q787035",
+        "label": "善通寺",
+        "label_en": "Zentsū-ji Temple",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q222227"
+        ],
+        "statement_id": "q222227$3AC63C66-5EB2-46F1-9459-E12A4421F7DA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·唐风书法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q222227",
+        "title": "Wikidata Q222227 / 空海",
+        "url": "https://www.wikidata.org/w/index.php?title=Q222227&oldid=2559073732",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559073732,
+        "modified_at": "2026-10-20T04:43:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

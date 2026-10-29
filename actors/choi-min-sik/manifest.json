@@ -43,5 +43,99 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜等单的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q484575",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Choi Min-sik",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1962–",
+      "birth_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q484575"
+            ],
+            "statement_id": "Q484575$45d1af1b-169c-4cf9-af7d-6510724823a1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q484575"
+        ],
+        "statement_id": "Q484575$EEE188E5-425B-4F64-BF91-3999AA7EB210",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q484575"
+        ],
+        "statement_id": "Q484575$39BC1A23-C204-4DC5-8C8A-A140ADB7CA04",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q484575",
+        "title": "Wikidata Q484575 / 崔岷植",
+        "url": "https://www.wikidata.org/w/index.php?title=Q484575&oldid=2561082815",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561082815,
+        "modified_at": "2026-10-26T13:54:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

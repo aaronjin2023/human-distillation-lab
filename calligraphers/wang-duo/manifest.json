@@ -53,5 +53,56 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“清晨地铁站台薄雾”行草",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q7967418",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year"
+          ],
+          "match_basis": {
+            "name": "Wang Duo",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1592–1652",
+      "birth_year": {
+        "value": 1592,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1652,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明·行书 / 草书",
+      "genre": "calligraphy"
+    },
+    "sources": []
+  }
 }

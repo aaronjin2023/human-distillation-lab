@@ -43,5 +43,149 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Fyodor Dostoevsky",
-  "writer_zh": "费奥多尔·陀思妥耶夫斯基"
+  "writer_zh": "费奥多尔·陀思妥耶夫斯基",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q991",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fyodor Dostoevsky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1821–1881",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q991"
+            ],
+            "statement_id": "q991$92dd7f64-4ca3-5f6d-2cd8-cae701a503e1",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                }
+              ]
+            },
+            "value": 1821,
+            "raw_time": "+1821-10-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q991"
+            ],
+            "statement_id": "q991$4f51f24f-49f1-1776-e005-c08ee659600c",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1881,
+            "raw_time": "+1881-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q991"
+        ],
+        "statement_id": "Q991$98b3b638-49e5-ecf2-e7e3-935db98fe917",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q4281399",
+        "label": "Mariinsky Hospital for the Poor",
+        "label_en": "Mariinsky Hospital for the Poor",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q991"
+        ],
+        "statement_id": "Q991$C19BAA3C-61EA-40D6-A0B2-F59533DBA58B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·小说",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q991",
+        "title": "Wikidata Q991 / 费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q991&oldid=2560652297",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560652297,
+        "modified_at": "2026-10-25T11:02:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

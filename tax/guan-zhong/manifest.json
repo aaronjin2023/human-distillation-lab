@@ -39,5 +39,104 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q457972",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guan Zhong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.720–645 BCE",
+      "birth_year": {
+        "value": -720,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q457972"
+            ],
+            "statement_id": "Q457972$3552E62F-21A8-4DAD-A9B6-FEBD2DDA6A40",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -720,
+            "raw_time": "-0720-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -645,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q457972"
+            ],
+            "statement_id": "Q457972$307BC5A7-C641-45F1-9B6E-2637F022E5E2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -645,
+            "raw_time": "-0645-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q457972"
+        ],
+        "statement_id": "Q457972$65EE00D7-2AF4-4ABB-8E34-08585A545058",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1295830",
+        "label": "颍上县",
+        "label_en": "Yingshang County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "春秋·齐国税制",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q457972",
+        "title": "Wikidata Q457972 / 管仲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q457972&oldid=2553977139",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553977139,
+        "modified_at": "2026-10-06T14:47:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

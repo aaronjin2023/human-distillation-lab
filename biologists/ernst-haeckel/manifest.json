@@ -29,5 +29,143 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q48246",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ernst Haeckel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1834–1919",
+      "birth_year": {
+        "value": 1834,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48246"
+            ],
+            "statement_id": "q48246$6F941373-91FD-49B4-90F6-191DAB571052",
+            "rank": "preferred",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1834,
+            "raw_time": "+1834-02-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48246"
+            ],
+            "statement_id": "q48246$DF6A065E-12DF-400F-8B77-E12F019150C9",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q48246"
+        ],
+        "statement_id": "q48246$357E0815-6CD2-4206-AFC2-6E80D70F1700",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1711",
+        "label": "波茨坦",
+        "label_en": "Potsdam",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q48246"
+        ],
+        "statement_id": "q48246$717F4401-B098-421A-8299-BC56BE363A76",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q48246"
+        ],
+        "statement_id": "Q48246$a68d73f1-4f3c-0374-beeb-8501e19ce531",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q48246"
+        ],
+        "statement_id": "Q48246$17f15957-4ed1-c453-744b-0b73e6770ccc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "进化论 / 胚胎学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q48246",
+        "title": "Wikidata Q48246 / 恩斯特·海克尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q48246&oldid=2559134463",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559134463,
+        "modified_at": "2026-10-20T07:55:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

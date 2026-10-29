@@ -48,5 +48,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家互联网公司复盘总在走过场怎么办",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1076951",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chris Argyris",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2013",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1076951"
+            ],
+            "statement_id": "Q1076951$5C50FD2F-CF28-4107-9C3F-E5BF46C86C1C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2013,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1076951"
+            ],
+            "statement_id": "Q1076951$64402289-5F6B-465F-BCDF-ACA25F9CB899",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2013,
+            "raw_time": "+2013-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1076951"
+        ],
+        "statement_id": "q1076951$103C2C2E-C1F1-4672-A769-D5ACC6621643",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q25395",
+        "label": "纽瓦克",
+        "label_en": "Newark",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1076951"
+        ],
+        "statement_id": "q1076951$9CBDF229-8CBB-405A-9574-F055B74099B8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织学习"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1076951",
+        "title": "Wikidata Q1076951 / 克瑞斯·阿吉里斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1076951&oldid=2561214682",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561214682,
+        "modified_at": "2026-10-26T22:22:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

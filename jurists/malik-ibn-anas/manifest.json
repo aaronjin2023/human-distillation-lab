@@ -44,5 +44,112 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁座位上的约克夏犬，对座位有无主张（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312299",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Malik ibn Anas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "711–795",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312299"
+            ],
+            "statement_id": "Q312299$502242C9-7109-4F70-948E-87E07FC41776",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 711,
+            "raw_time": "+0711-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 795,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312299"
+            ],
+            "statement_id": "Q312299$96D773E2-85D0-4981-A203-B2C20947D931",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 795,
+            "raw_time": "+0795-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312299"
+        ],
+        "statement_id": "Q312299$87AC33A1-2A90-4216-8376-92EC9CE73212",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q35484",
+        "label": "麦地那",
+        "label_en": "Medina",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊斯兰法·马立克学派",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312299",
+        "title": "Wikidata Q312299 / 马利克·阿本·阿纳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312299&oldid=2543798085",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543798085,
+        "modified_at": "2026-09-11T07:22:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

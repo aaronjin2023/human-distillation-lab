@@ -25,5 +25,117 @@
   "test_prompt": "In the style of Arthur Strahler, survey a new hillside suburb: order its streams, measure its slopes, and test whether the landscape is in equilibrium",
   "test_question_zh": "一座新建山地住区的坡度与水系，说明地貌是否处于均衡？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q710778",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Strahler",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2002",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q710778"
+            ],
+            "statement_id": "Q710778$C6DC14E8-2728-497E-A94E-E8E6658F8A19",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q710778"
+            ],
+            "statement_id": "Q710778$BEEDCFE0-10F5-49CA-916D-99C77CD10398",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-12-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q710778"
+        ],
+        "statement_id": "Q710778$02ecdab2-1dd0-49b0-ae74-afd2e661ad42",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q209698",
+        "label": "戈尔哈布尔",
+        "label_en": "Kolhapur",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q710778"
+        ],
+        "statement_id": "q710778$6F57DD4E-06C6-4657-9004-897672660609",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·定量地貌"
+    },
+    "sources": [
+      {
+        "id": "WD:Q710778",
+        "title": "Wikidata Q710778 / 亞瑟·紐厄爾·斯特拉勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q710778&oldid=2556100296",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556100296,
+        "modified_at": "2026-10-12T03:10:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

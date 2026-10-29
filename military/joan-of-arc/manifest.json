@@ -27,5 +27,130 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7226",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joan of Arc",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1412–1431",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7226"
+            ],
+            "statement_id": "Q7226$9B59521E-D6E5-4CAE-9B41-30D7B7D16C8A",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                },
+                {
+                  "entity-type": "item",
+                  "numeric-id": 60070514,
+                  "id": "Q60070514"
+                }
+              ]
+            },
+            "value": 1412,
+            "raw_time": "+1412-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1431,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7226"
+            ],
+            "statement_id": "q7226$f6ae0610-42ab-516e-cf5d-a21acceb9ea3",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1431,
+            "raw_time": "+1431-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7226"
+        ],
+        "statement_id": "q7226$2D12B20E-9A1C-46C2-83BA-4CDE2D2BBE9E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q209069",
+        "label": "栋雷米拉皮塞勒",
+        "label_en": "Domrémy-la-Pucelle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7226"
+        ],
+        "statement_id": "q7226$8C0A6A36-153D-43C7-A9BD-6169B6D9269B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·百年战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7226",
+        "title": "Wikidata Q7226 / 聖女貞德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7226&oldid=2561608129",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561608129,
+        "modified_at": "2026-10-28T06:48:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

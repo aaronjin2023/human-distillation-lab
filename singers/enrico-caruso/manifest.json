@@ -43,5 +43,181 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q170726",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Enrico Caruso",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1873–1921",
+      "birth_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q170726"
+            ],
+            "statement_id": "Q170726$B58771FF-CC81-4834-8059-129A306AE2C1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q170726"
+            ],
+            "statement_id": "Q170726$F974554C-E16A-4353-BC3A-DD029058B231",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q170726"
+            ],
+            "statement_id": "q170726$BF53CB37-5B81-4151-91FF-206F609FC0FA",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q170726"
+        ],
+        "statement_id": "Q170726$94464C8A-FB1A-4936-AD33-D5AC52BE1D51",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q170726"
+        ],
+        "statement_id": "Q170726$146d11f7-015d-43a8-a9f9-7ecd1fce0a72",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1907-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1922-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q170726"
+        ],
+        "statement_id": "Q170726$35ba8488-dcaf-4e23-bb07-662a67308f39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q170726"
+        ],
+        "statement_id": "Q170726$29E92635-AA40-4D58-9B02-9DEF7A63945F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利歌剧·男高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q170726",
+        "title": "Wikidata Q170726 / 恩里科·卡鲁索",
+        "url": "https://www.wikidata.org/w/index.php?title=Q170726&oldid=2557869586",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557869586,
+        "modified_at": "2026-10-17T05:05:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

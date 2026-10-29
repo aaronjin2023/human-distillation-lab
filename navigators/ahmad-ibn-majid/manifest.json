@@ -38,5 +38,104 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Ahmad ibn Majid, a 2026 pilot's manual gives star altitudes and monsoon dates in verses a crew can memorise, the whole ocean reduced to rules usable at sea.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1919866",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ahmad ibn Majid",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1432–c.1500",
+      "birth_year": {
+        "value": 1432,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1919866"
+            ],
+            "statement_id": "Q1919866$629A3DAA-5648-45F6-BA52-BB7B12C9EC21",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1432,
+            "raw_time": "+1432-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1500,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1919866"
+            ],
+            "statement_id": "Q1919866$E20FDF34-444D-4551-9AED-6B76DCD9AAAB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1500,
+            "raw_time": "+1500-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1919866"
+        ],
+        "statement_id": "Q1919866$B4A9A952-C688-497B-87A4-369743E76E33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2126436",
+        "label": "哈伊马角",
+        "label_en": "Ras al-Khaimah",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·印度洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1919866",
+        "title": "Wikidata Q1919866 / 艾哈迈德·本·马吉德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1919866&oldid=2555643752",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555643752,
+        "modified_at": "2026-10-10T17:27:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

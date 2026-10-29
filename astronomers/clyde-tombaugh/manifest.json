@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Clyde Tombaugh, search a modern sky survey for a distant moving object: blink image pairs taken weeks apart, reject every known asteroid and plate defect, and confirm the survivor with follow-up images before computing an orbit",
   "test_question_zh": "现代巡天数据里有没有海王星外的新移动天体？",
   "verification": "生卒 1906–1997、冥王星发现 1930 年按天文史通说写；闪视比较仪与洛威尔天文台细节未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190232",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clyde Tombaugh",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1997",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190232"
+            ],
+            "statement_id": "q190232$4C9DFA27-6D7B-46D4-8E60-F2AE37FB091C",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190232"
+            ],
+            "statement_id": "q190232$CF3B9321-FEB1-41EF-9DE3-381CD3AF73E6",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190232"
+        ],
+        "statement_id": "q190232$1FDDB5FF-7A93-45BD-BA7A-FE6E18234495",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q577816",
+        "label": "斯特里特 (伊利諾伊州)",
+        "label_en": "Streator",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q190232"
+        ],
+        "statement_id": "q190232$B04B8046-912E-4C08-A77C-762DAE5419A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·行星搜寻"
+    },
+    "sources": [
+      {
+        "id": "WD:Q190232",
+        "title": "Wikidata Q190232 / 克莱德·汤博",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190232&oldid=2557846348",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557846348,
+        "modified_at": "2026-10-17T03:41:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

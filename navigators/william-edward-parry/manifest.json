@@ -36,5 +36,132 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of William Edward Parry, an uncrewed ice-strengthened ship works a strait in 2026, advancing a little each season, wintering in the ice when it must, measuring magnetic variation daily. No forcing through pack ice.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q437310",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Edward Parry",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1790–1855",
+      "birth_year": {
+        "value": 1790,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q437310"
+            ],
+            "statement_id": "Q437310$5923E750-C171-45DD-85DC-C2E0113DD0D1",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1790,
+            "raw_time": "+1790-12-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1855,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q437310"
+            ],
+            "statement_id": "Q437310$19AAC28E-EFAF-44ED-A9C4-B41849B2E357",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q437310"
+            ],
+            "statement_id": "Q437310$222CE324-BD83-4C6A-A4CE-5191FD9185B6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-07-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q437310"
+        ],
+        "statement_id": "q437310$5362B0D6-3078-48A9-9FB8-4C8979EA479F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q22889",
+        "label": "巴斯",
+        "label_en": "Bath",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q437310"
+        ],
+        "statement_id": "Q437310$B5835D86-E12F-45EE-8680-759D41168E51",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·北极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q437310",
+        "title": "Wikidata Q437310 / 威廉·爱德华·派瑞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q437310&oldid=2561004951",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561004951,
+        "modified_at": "2026-10-26T08:04:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

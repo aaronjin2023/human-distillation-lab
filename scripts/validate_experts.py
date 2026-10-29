@@ -13,13 +13,17 @@ from validate_library import check_links, local_path, read_json, require
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ("SKILL.md", "style.md", "process.md", "technique.md", "language.md",
          "motifs.md", "decisions.md", "conflicts.md", "manifest.json")
-NAME_KEYS = ("scientist", "biologist", "geographer", "thinker", "writer", "educator", "person", "jurist", "tax_figure", "name")
+from build_expert_biographies import names
+
+DOMAIN_IDS = {"medicine", "history", "education", "politics", "economics", "anthropology-folklore", "linguistics", "climatology", "ecology", "religious-studies", "game-design"}
 
 
 def check_expert(data, slug, domain, body):
     require(data.get("id") == slug and data.get("domain") == domain, "Expert identity/domain mismatch")
     require(data.get("kind") == "expert-method" and data.get("status") == "source-grounded-draft",
             "New expert status/kind mismatch")
+    if domain == "game-design":
+        require(data.get("activation") == "game-project-only", "Game expert must remain conditional")
     if domain == "politics":
         require(isinstance(data.get("living_person"), bool), "Missing political expert living status")
     for key in ("name", "name_zh", "scope", "version", "updated_at", "distillation_method"):
@@ -44,10 +48,12 @@ def check_expert(data, slug, domain, body):
 def validate(root, write_catalog=False):
     index = read_json(root / "domains/index.json")
     require(index.get("coverage") == "curated-domain-entrypoints", "Domain coverage must be explicit")
-    require({d["id"] for d in index["domains"]} == {"medicine", "history", "education", "politics"}, "Unexpected domains")
-    require(len(index["domains"]) == 4, "Duplicate domains")
+    require({d["id"] for d in index["domains"]} == DOMAIN_IDS, "Unexpected domains")
+    require(len(index["domains"]) == len(DOMAIN_IDS), "Duplicate domains")
     counts, added_paths, source_count = {}, set(), 0
     for domain in index["domains"]:
+        if domain['id'] == 'game-design':
+            require(domain.get('activation') == 'game-project-only', 'Game design must remain conditional')
         entries, seen = [], set()
         for category in ("existing_paths", "new_paths"):
             for relative in domain[category]:
@@ -71,15 +77,21 @@ def validate(root, write_catalog=False):
                     name = data["name_zh"]
                     topic = data["source_works"][0]
                 else:
-                    name = next((data[k + "_zh"] for k in NAME_KEYS if data.get(k + "_zh")), None)
+                    name = names(data)[1]
                     require(name, f"Unknown legacy name field: {relative}")
                     topic = data.get("field") or data.get("school") or data.get("genre") or "见原条目"
+                if domain.get('entry_metadata'):
+                    details = domain['entry_metadata'][relative]
+                    require(details.get('worldbuilding_use') and details.get('subfields'), 'Missing domain usage')
+                    topic = details['worldbuilding_use']
                 entries.append((relative, name, topic, "新增方法草稿" if category == "new_paths" else "复用既有草稿"))
         counts[domain["id"]] = {"existing": len(domain["existing_paths"]), "new": len(domain["new_paths"]), "total": len(entries)}
         content = f"# {domain['name']}专家入口\n\n{domain['baseline']}\n\n{domain['scope']}\n\n"
+        if domain.get('activation'):
+            content += ('启用条件：仅目标作品为游戏时启用。' if domain['activation'] == 'game-project-only' else '启用条件：涉及本领域问题时按需选用。') + '\n\n'
         content += "[领域总览](README.md) · [机器索引](index.json)\n\n"
         content += "旧条目本轮检查文件完整性并建立入口，没有全面重新核验其引文与效果；新增条目的具体访问范围和缺口见各自manifest。原有分类与专业面向保留。\n\n"
-        content += "| 专家 | 状态 | 原条目侧重 / 新条目代表作 |\n|---|---|---|\n"
+        content += "| 专家 | 状态 | 原条目侧重 / 代表作 / 世界构建用途 |\n|---|---|---|\n"
         for relative, name, topic, status in entries:
             content += f"| [{name}](../{relative}/SKILL.md) | {status} | {str(topic).replace('|', '／')} |\n"
         target = root / "domains" / f"{domain['id']}.md"
@@ -87,7 +99,7 @@ def validate(root, write_catalog=False):
             target.write_text(content)
         else:
             require(target.is_file() and target.read_text() == content, f"Stale domain catalog: {target.name}")
-    actual = {p.parent.relative_to(root).as_posix() for collection in ("medical-experts", "historians", "politicians")
+    actual = {p.parent.relative_to(root).as_posix() for collection in ("medical-experts", "historians", "politicians", "worldbuilding-experts")
               for p in (root / collection).glob("*/manifest.json")}
     require(actual == added_paths, "New expert packages and index disagree")
     files = list((root / "domains").glob("*.md"))
@@ -128,6 +140,17 @@ def self_test():
         else:
             raise AssertionError("Invalid political expert living status accepted")
     print("Political expert self-test passed: living status requires a boolean")
+    game = copy.deepcopy(original)
+    game.update(domain="game-design", activation="game-project-only")
+    check_expert(game, folder.name, "game-design", body)
+    game["activation"] = "always-relevant"
+    try:
+        check_expert(game, folder.name, "game-design", body)
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("Unconditional game expert accepted")
+    print("Game expert self-test passed: conditional activation required")
 
 
 if __name__ == "__main__":

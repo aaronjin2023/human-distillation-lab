@@ -44,5 +44,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34389",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Whitney Houston",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1963–2012",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34389"
+            ],
+            "statement_id": "q34389$C7524598-5A66-4EB0-A161-DE7E99047A4B",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34389"
+            ],
+            "statement_id": "q34389$3C2B7EEC-EC8C-443C-9080-6A91184FE5C7",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34389"
+        ],
+        "statement_id": "Q34389$040CFD7C-0ECC-4F0B-846C-1A02F6C39901",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q25395",
+        "label": "纽瓦克",
+        "label_en": "Newark",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34389"
+        ],
+        "statement_id": "Q34389$93C071E3-23CD-480D-9C5F-DD2D9DEAAE24",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q34389"
+          ],
+          "statement_id": "Q34389$BA9AFEB6-F4BA-4E98-AA1A-3EF7CE391616",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "流行·R&B",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34389",
+        "title": "Wikidata Q34389 / 惠特妮·休斯顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34389&oldid=2558733953",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558733953,
+        "modified_at": "2026-10-19T09:58:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2917016",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marco Pierre White",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2917016"
+            ],
+            "statement_id": "Q2917016$CF0F9CA0-F5DB-4D6D-8563-8A099F5101BD",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2917016"
+        ],
+        "statement_id": "Q2917016$7390D655-3E9C-4566-9E9A-BEA267423B92",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39121",
+        "label": "利兹",
+        "label_en": "Leeds",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2917016"
+        ],
+        "statement_id": "Q2917016$CAFCDEAA-7112-4FCE-8C8B-500DE25DAA3E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英式法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2917016",
+        "title": "Wikidata Q2917016 / 馬可·皮埃爾·懷特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2917016&oldid=2539561774",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2539561774,
+        "modified_at": "2026-09-02T23:19:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

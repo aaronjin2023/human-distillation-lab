@@ -30,5 +30,196 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "为一只坐在地铁座位上的小约克夏犬写 30 秒配乐",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7294",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johannes Brahms",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1833–1897",
+      "birth_year": {
+        "value": 1833,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7294"
+            ],
+            "statement_id": "q7294$0ABD7B5B-57EC-44AF-AB81-7BF2F18C51BA",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1833,
+            "raw_time": "+1833-05-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7294"
+            ],
+            "statement_id": "q7294$B5A5EB94-BC83-4CD4-B034-A0E0A3435C67",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "q7294$5AF75061-CAB3-4166-A8F2-3472348495F1",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$922B7C5B-A24A-4EC0-99DC-C99D2EE70AFA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q652710",
+        "label": "莱托维采",
+        "label_en": "Letovice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$ED621D5D-6C8A-4C7B-9E5A-500D89EE3F2E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$062EE3F4-A873-4FB7-A40D-3B088B2FD102",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16000",
+        "label": "温森",
+        "label_en": "Winsen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$C1FA10F4-9D58-4EE3-9207-CCBA9B3A515C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$7B5C5917-4C81-4FDA-B02A-88320F48AE30",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$9112a155-46d5-d7aa-e20b-99e411a56cd9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7294"
+        ],
+        "statement_id": "Q7294$7DDD8F76-03EE-4605-9FC6-E1E5B5658A85",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 德国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7294",
+        "title": "Wikidata Q7294 / 约翰内斯·勃拉姆斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7294&oldid=2561573317",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561573317,
+        "modified_at": "2026-10-28T00:05:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

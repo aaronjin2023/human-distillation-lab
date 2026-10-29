@@ -30,5 +30,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（草稿第 7 节 + 关键事实 web 搜索）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q53039",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lina Wertmüller",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2021",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53039"
+            ],
+            "statement_id": "Q53039$5B6DF96D-C461-4D8E-B96C-6E70A59AC36E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53039"
+            ],
+            "statement_id": "Q53039$bd526d70-4fac-247c-0ca0-7f6903fb8a1d",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q53039"
+        ],
+        "statement_id": "q53039$EB166176-95AE-468C-99D3-24C324BF133E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q53039"
+        ],
+        "statement_id": "q53039$B9171007-3382-432A-85BB-77B335A5D928",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·政治讽刺喜剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q53039",
+        "title": "Wikidata Q53039 / 里娜·韦特缪勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q53039&oldid=2558127200",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558127200,
+        "modified_at": "2026-10-17T22:06:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

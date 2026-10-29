@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q71275",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Spencer Tracy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1967",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71275"
+            ],
+            "statement_id": "q71275$9B41A550-69B6-46F5-8260-FFB95115FD0F",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71275"
+            ],
+            "statement_id": "q71275$B48FC9DC-AFBD-46DE-B5DF-E55DDBB4A994",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q71275"
+        ],
+        "statement_id": "q71275$6024bcff-4bf5-6f25-b23f-f42bee6dfa6e",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q37836",
+        "label": "密尔沃基",
+        "label_en": "Milwaukee",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q71275"
+        ],
+        "statement_id": "Q71275$E335CF2F-F1BE-4890-9A39-9ADB10C40DE1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q71275"
+        ],
+        "statement_id": "q71275$9C59E025-E7B3-47B2-A915-880A70BD4895",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q71275",
+        "title": "Wikidata Q71275 / 史賓塞·屈賽",
+        "url": "https://www.wikidata.org/w/index.php?title=Q71275&oldid=2558240491",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558240491,
+        "modified_at": "2026-10-18T04:02:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

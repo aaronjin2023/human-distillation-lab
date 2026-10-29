@@ -31,5 +31,114 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1526764",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Qigang Chen",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1951–",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1526764"
+            ],
+            "statement_id": "Q1526764$45FA5E2A-4206-45E4-836B-BD1E385DFBB9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-08-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1526764"
+        ],
+        "statement_id": "Q1526764$51FA884D-7439-4F7F-90C8-E93BE18A6D4C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1526764"
+        ],
+        "statement_id": "Q1526764$D1108B67-5DE9-464B-8AB7-F48E42BFCC39",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1526764"
+        ],
+        "statement_id": "Q1526764$699F2911-8E69-4338-9C1A-2EC99D3ED70B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国 / 当代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1526764",
+        "title": "Wikidata Q1526764 / 陈其钢",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1526764&oldid=2534184366",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2534184366,
+        "modified_at": "2026-08-21T11:09:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

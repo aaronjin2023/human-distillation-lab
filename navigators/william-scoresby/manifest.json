@@ -35,5 +35,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of William Scoresby, an uncrewed cargo ship crosses the Arctic in 2026. Daily logs record position, ice conditions, wind and magnetic variation. Science rides aboard a working ship; no observation is claimed without a fix.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q969220",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Scoresby",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1789–1857",
+      "birth_year": {
+        "value": 1789,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q969220"
+            ],
+            "statement_id": "Q969220$32D9B9B5-736C-48A9-A53C-EE24374B6559",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1789,
+            "raw_time": "+1789-10-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1857,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q969220"
+            ],
+            "statement_id": "Q969220$28CAD00C-2AEA-44AB-A8A8-14D71717EA50",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1857,
+            "raw_time": "+1857-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q969220"
+        ],
+        "statement_id": "q969220$5F228843-607B-4906-9CC4-80CDFDBD7DDD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2462789",
+        "label": "Cropton",
+        "label_en": "Cropton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q969220"
+        ],
+        "statement_id": "Q969220$8CD59790-E1E5-4419-8123-48B1A9DA6790",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "H. 科学与测量航海",
+      "genre": "H. 科学与测量航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q969220",
+        "title": "Wikidata Q969220 / 威廉．索克斯比",
+        "url": "https://www.wikidata.org/w/index.php?title=Q969220&oldid=2560008734",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560008734,
+        "modified_at": "2026-10-23T14:47:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

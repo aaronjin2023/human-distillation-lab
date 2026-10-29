@@ -48,5 +48,118 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104340",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Harold Lloyd",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1971",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104340"
+            ],
+            "statement_id": "q104340$CEACEA7D-742D-418C-89A5-152AA9B6EFCE",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104340"
+            ],
+            "statement_id": "q104340$88F7B526-AEAC-4CDC-A1C0-69241C2CC5BB",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-03-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104340"
+        ],
+        "statement_id": "q104340$5043973f-4295-15df-3d32-d288d82adbc6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q649943",
+        "label": "布爾夏德",
+        "label_en": "Burchard",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104340"
+        ],
+        "statement_id": "q104340$AAE74388-5F46-4BDF-8B9D-97C4E87FD9AD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104340",
+        "title": "Wikidata Q104340 / 哈洛·羅依德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104340&oldid=2560456452",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560456452,
+        "modified_at": "2026-10-24T22:21:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,101 @@
   "test_prompt": "In the style of C. N. R. Rao, search for a new oxide superconductor: synthesise a full series of related compositions, confirm each phase by diffraction, and map property against structure before claiming anything.",
   "test_question_zh": "寻找一种新的氧化物超导体，怎么系统地合成与筛选？",
   "verification": "2026-10-26：生卒（1934–，在世）、过渡金属氧化物、纳米材料化学经 Wikipedia 与 Britannica 共识核对；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1248892",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "C. N. R. Rao",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1934–",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1248892"
+            ],
+            "statement_id": "Q1248892$FD73B6E1-71FF-4C00-9305-1501197B4C66",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-06-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1248892"
+        ],
+        "statement_id": "Q1248892$B7E3F59C-A793-45D0-87A2-B72C49F3BBB2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1355",
+        "label": "班加罗尔",
+        "label_en": "Bengaluru",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1248892"
+        ],
+        "statement_id": "Q1248892$67db1388-4ce4-41e1-b251-4d553c43f419",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "材料化学 / 固体化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1248892",
+        "title": "Wikidata Q1248892 / 钦塔马尼·拉奥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1248892&oldid=2545451948",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545451948,
+        "modified_at": "2026-09-14T06:26:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -47,5 +47,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "短视频创作者的标签与越轨",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q718736",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Howard S. Becker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2023",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718736"
+            ],
+            "statement_id": "Q718736$5EABF874-52A9-476A-BB36-C114E1F5E693",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718736"
+            ],
+            "statement_id": "Q718736$5b9f9267-4677-58f1-98a8-d34be99a3edb",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q718736"
+        ],
+        "statement_id": "q718736$1083BDBC-EDFD-4C24-A0EA-E1AD86BB2EB4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q718736"
+        ],
+        "statement_id": "q718736$86FEE605-2382-47E6-BD06-F989674F9B94",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "标签理论·艺术社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q718736",
+        "title": "Wikidata Q718736 / 霍华德·S·贝克尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q718736&oldid=2542780529",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542780529,
+        "modified_at": "2026-09-09T16:30:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

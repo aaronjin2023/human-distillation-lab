@@ -34,5 +34,144 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代供应链中断的应急重组",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q205783",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Toussaint Louverture",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1743–1803",
+      "birth_year": {
+        "value": 1743,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q205783"
+            ],
+            "statement_id": "q205783$729CE7D5-3743-4218-82BE-AF4899E50974",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1743,
+            "raw_time": "+1743-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1803,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q205783"
+            ],
+            "statement_id": "q205783$8E5E066A-CB06-46A7-9E99-F4A9C6537E0B",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1803,
+            "raw_time": "+1803-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q205783"
+        ],
+        "statement_id": "q205783$9E558698-65D1-4372-B6C8-3BC3DCA80372",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q216835",
+        "label": "海地角",
+        "label_en": "Cap-Haïtien",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q205783"
+        ],
+        "statement_id": "q205783$0937CFE1-B7A2-4DD1-A207-291295F722AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q861551",
+        "label": "法属圣多明各",
+        "label_en": "Saint-Domingue",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q205783"
+        ],
+        "statement_id": "Q205783$CEE990A3-A1D0-4509-A30F-25AE8D26B212",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q205783"
+          ],
+          "statement_id": "Q205783$09a791ad-4f8a-9095-814b-c291f3935c62",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q2050339",
+          "label": "非洲裔加勒比人",
+          "label_en": "Afro Caribbeans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "海地·独立战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q205783",
+        "title": "Wikidata Q205783 / 杜桑·卢维杜尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q205783&oldid=2558263960",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558263960,
+        "modified_at": "2026-10-18T05:14:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

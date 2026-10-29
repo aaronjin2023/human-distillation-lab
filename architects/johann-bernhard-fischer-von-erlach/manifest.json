@@ -38,5 +38,171 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "菲舍尔·冯·埃尔拉赫风格：现代城市街角的一座社区图书馆，石砌中央穹顶配两根纪功柱，巴洛克立面，轴线前院园林，宁静奥地利巴洛克秩序。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q84305",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Bernhard Fischer von Erlach",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1656–1723",
+      "birth_year": {
+        "value": 1656,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84305"
+            ],
+            "statement_id": "Q84305$84D7D3EA-4AC9-4CDD-B456-C3D70F00CA3C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1656,
+            "raw_time": "+1656-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1723,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84305"
+            ],
+            "statement_id": "Q84305$48AA92C7-47E4-4B81-9F95-DD3563C9AB85",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1723,
+            "raw_time": "+1723-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "q84305$23883F69-1FA2-4144-A74C-38A010FB0CA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13298",
+        "label": "格拉茨",
+        "label_en": "Graz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "Q84305$441fd9c2-4fc3-3246-cfaf-1826e739511e",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "Q84305$70594050-4ca3-da75-f8e5-0d138d175ac1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "Q84305$039f38a8-4f31-7e2c-f086-de09e2151347",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34713",
+        "label": "萨尔茨堡",
+        "label_en": "Salzburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "Q84305$19de837a-4879-60f5-319a-d7a51c9fd448",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q13298",
+        "label": "格拉茨",
+        "label_en": "Graz",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q84305"
+        ],
+        "statement_id": "q84305$34529031-F57A-4985-88F2-57ED11979EEE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q153136",
+        "label": "哈布斯堡君主国",
+        "label_en": "Habsburg monarchy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥地利巴洛克",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q84305",
+        "title": "Wikidata Q84305 / 约翰·伯恩哈德·菲舍尔·冯·埃尔拉赫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q84305&oldid=2561527248",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561527248,
+        "modified_at": "2026-10-27T20:07:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,102 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "布兰克风格：现代办公楼的一面绿墙，垂直花园，热带植物无土栽培，植物学即艺术，墙即森林。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1348568",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Patrick Blanc",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1348568"
+            ],
+            "statement_id": "Q1348568$AAF406D6-8ADC-4045-84DD-5E1C5A270FB0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1348568"
+        ],
+        "statement_id": "q1348568$6A193353-7B7E-4B2B-B8C5-0D97D508E24C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q135265",
+        "label": "伊西莱穆利诺",
+        "label_en": "Issy-les-Moulineaux",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1348568"
+        ],
+        "statement_id": "q1348568$05568E7F-ED5B-4A59-8127-3F9CF66F5324",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·垂直花园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1348568",
+        "title": "Wikidata Q1348568 / 帕特里克·布朗克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1348568&oldid=2521116997",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521116997,
+        "modified_at": "2026-07-22T13:27:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

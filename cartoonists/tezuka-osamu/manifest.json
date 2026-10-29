@@ -39,5 +39,118 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬坐在地铁座位上，电影式分镜漫画页，大眼睛（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q193300",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Osamu Tezuka",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1989",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193300"
+            ],
+            "statement_id": "q193300$08D28DC8-C56D-4733-BD8B-EDBB4EBEC6E0",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-11-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193300"
+            ],
+            "statement_id": "q193300$8E3D02B7-72CE-4B17-9B0C-06D143E66E03",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q193300"
+        ],
+        "statement_id": "q193300$E356725A-22F0-49E7-AB0A-C2C00B727424",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q18700190",
+        "label": "豐中町",
+        "label_en": "Toyonaka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q193300"
+        ],
+        "statement_id": "q193300$17F55EEB-4FD0-4F08-A2F0-DFBDCEBD17BB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·少年/青年漫画奠基",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q193300",
+        "title": "Wikidata Q193300 / 手冢治虫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q193300&oldid=2559063833",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559063833,
+        "modified_at": "2026-10-20T04:13:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

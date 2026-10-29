@@ -47,5 +47,130 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里约克夏犬引发的围观",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q314471",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erving Goffman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–1982",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314471"
+            ],
+            "statement_id": "q314471$20455E8E-D43F-4EE4-9453-45F64E6C0DCD",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-06-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314471"
+            ],
+            "statement_id": "q314471$5019AAE2-3F61-40A4-946F-6964968DE113",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-11-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q314471"
+        ],
+        "statement_id": "q314471$6DA3C11C-8C37-4FCE-AB21-46D2E20E260C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1890931",
+        "label": "曼恩維爾",
+        "label_en": "Mannville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q314471"
+        ],
+        "statement_id": "q314471$AE742989-DBE7-4156-990C-158908AFCE5F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q314471"
+        ],
+        "statement_id": "q314471$E98FBF2B-1B85-4864-9837-7AE5E4B0E985",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拟剧理论·互动秩序"
+    },
+    "sources": [
+      {
+        "id": "WD:Q314471",
+        "title": "Wikidata Q314471 / 厄文·高夫曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q314471&oldid=2557874312",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557874312,
+        "modified_at": "2026-10-17T05:19:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

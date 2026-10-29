@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Martin Ryle, test a cosmological model with a new radio survey: image the sources by aperture synthesis, count them against flux, and check selection effects before drawing any cosmological conclusion",
   "test_question_zh": "新射电源计数支持哪种宇宙模型？",
   "verification": "生卒 1918–1984、孔径综合与 3C 星表、1974 年诺贝尔奖按天文史通说写；源计数细节未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190766",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Ryle",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–1984",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190766"
+            ],
+            "statement_id": "q190766$8A1D323A-E734-45D0-A275-30B079D969A2",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-09-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190766"
+            ],
+            "statement_id": "q190766$108D1970-F01A-47FF-B8A8-F435A7D51649",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190766"
+        ],
+        "statement_id": "Q190766$88C2924E-CA40-4A7F-A374-802F46CBEA53",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q131491",
+        "label": "布赖顿",
+        "label_en": "Brighton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q190766"
+        ],
+        "statement_id": "q190766$3E72CC36-C2DC-4016-A19F-18F9E7654857",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·射电天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q190766",
+        "title": "Wikidata Q190766 / 马丁·赖尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190766&oldid=2559450460",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559450460,
+        "modified_at": "2026-10-21T08:27:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Hou Debang, redesign a chemical process that wastes half its feedstock: find the waste stream in the material balance, turn it into a co-product, and prove the redesign with pilot-plant data and cost.",
   "test_question_zh": "一种化工流程浪费一半原料，怎么重设计成联产循环？",
   "verification": "2026-10-26：生卒（1890–1974）、侯氏制碱法经草稿第 7 节与 Wikipedia 共识核对；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2489789",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hou Debang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1974",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2489789"
+            ],
+            "statement_id": "Q2489789$F3999030-5457-4322-9DD9-E348DC7AA09C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2489789"
+            ],
+            "statement_id": "Q2489789$29910A6E-306E-4DEE-9A33-69B16489C797",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2489789"
+        ],
+        "statement_id": "Q2489789$721D9E27-5164-4884-A64C-66BE04BD1EC9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q68481",
+        "label": "福州市",
+        "label_en": "Fuzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2489789"
+        ],
+        "statement_id": "Q2489789$0A246785-3CD6-4E33-B365-13BCAB039032",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化工 / 碱工业"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2489789",
+        "title": "Wikidata Q2489789 / 侯德榜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2489789&oldid=2542358111",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542358111,
+        "modified_at": "2026-09-08T16:48:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

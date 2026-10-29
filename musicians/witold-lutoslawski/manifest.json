@@ -29,5 +29,115 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q156472",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Witold Lutosławski",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–1994",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156472"
+            ],
+            "statement_id": "Q156472$12EA91D4-51DB-4A80-AC63-9FE38F0F9978",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156472"
+            ],
+            "statement_id": "Q156472$D4803C1E-60A4-468D-B3C8-E49577C4AE7C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-02-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q156472"
+        ],
+        "statement_id": "q156472$9E2F097B-AF3B-4EB2-8432-226B87B9EBB1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q270",
+        "label": "华沙",
+        "label_en": "Warsaw",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q156472"
+        ],
+        "statement_id": "Q156472$BCC3AA1D-F24E-438F-9AD6-D6F434C2C20E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q36",
+        "label": "波兰",
+        "label_en": "Poland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q156472",
+        "title": "Wikidata Q156472 / 维托尔德·卢托斯瓦夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q156472&oldid=2558285202",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558285202,
+        "modified_at": "2026-10-18T06:30:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

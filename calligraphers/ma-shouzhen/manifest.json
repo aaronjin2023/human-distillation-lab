@@ -54,5 +54,132 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“地铁窗边的兰花”行书",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3273465",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ma Shouzhen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1548–1604",
+      "birth_year": {
+        "value": 1548,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3273465"
+            ],
+            "statement_id": "Q3273465$34ECBD6D-F4A8-4E12-99FE-51CE11CD4005",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1548,
+            "raw_time": "+1548-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1604,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3273465"
+            ],
+            "statement_id": "Q3273465$262EF036-7936-4A9D-AD6B-30B080ECF6EC",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1604,
+            "raw_time": "+1604-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3273465"
+        ],
+        "statement_id": "Q3273465$A4E1152D-C8B0-4C6F-BBC8-0F0785076494",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16666",
+        "label": "南京市",
+        "label_en": "Nanjing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3273465"
+        ],
+        "statement_id": "Q3273465$B3BF8426-75AC-4F2D-B5B3-6B9C320CE1B3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q3273465"
+          ],
+          "statement_id": "Q3273465$4c6436b9-ef02-428a-9a8f-a67406054c5f",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "明·行书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3273465",
+        "title": "Wikidata Q3273465 / 马守真",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3273465&oldid=2515929756",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515929756,
+        "modified_at": "2026-07-10T16:21:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

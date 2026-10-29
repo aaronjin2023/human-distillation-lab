@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Cao Bá Quát, Vietnamese running-cursive Chinese characters, flowing upright strokes, clear moist ink, graceful continuous rhythm",
   "transmission": "传本存疑；以诗名世，书法名声多系后世叙述（阮恂小说《狱中书法家》以其为原型）",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1756323",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cao Bá Quát",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1809–1855",
+      "birth_year": {
+        "value": 1809,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1756323"
+            ],
+            "statement_id": "Q1756323$394828DF-6959-4654-8523-BA2D0A477EFA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1809,
+            "raw_time": "+1809-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1855,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1756323"
+            ],
+            "statement_id": "Q1756323$C996A482-E633-40C3-AB87-2B10ED614C6C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1756323"
+        ],
+        "statement_id": "Q1756323$42485657-7D3E-4707-89D7-D6FA075F98B7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1134500",
+        "label": "嘉林县",
+        "label_en": "Gia Lâm",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1756323"
+        ],
+        "statement_id": "Q1756323$DBC99045-8033-4F24-993F-FC85ADF4B7A3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q881",
+        "label": "越南",
+        "label_en": "Vietnam",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "越南·行书 / 草书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1756323",
+        "title": "Wikidata Q1756323 / 高伯适",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1756323&oldid=2494183717",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2494183717,
+        "modified_at": "2026-05-19T07:55:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

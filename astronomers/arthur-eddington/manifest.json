@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Arthur Eddington, model a newly found ultra-massive star as a gas sphere in hydrostatic balance, derive what its luminosity must be if radiation pressure supports it, and state the mass above which the model itself breaks down",
   "test_question_zh": "用爱丁顿的方法为一颗新发现的超大质量恒星建模：当作流体静力学平衡的气体球，推导辐射压支撑时它应有的光度，并说清模型在哪个质量以上自行失效",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q215022",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Eddington",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1882–1944",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215022"
+            ],
+            "statement_id": "q215022$2163D5A7-0A25-4F6D-9026-511463296151",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215022"
+            ],
+            "statement_id": "q215022$6638E5B4-3602-425C-990F-E4B8861B8F62",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q215022"
+        ],
+        "statement_id": "q215022$2D504F0B-D68B-4DA9-ADC9-834791250D39",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q994575",
+        "label": "肯德尔",
+        "label_en": "Kendal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q215022"
+        ],
+        "statement_id": "q215022$7BCC1224-E1C0-41A0-813A-A8FF4BE8F4CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·恒星结构"
+    },
+    "sources": [
+      {
+        "id": "WD:Q215022",
+        "title": "Wikidata Q215022 / 亚瑟·爱丁顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q215022&oldid=2559071198",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559071198,
+        "modified_at": "2026-10-20T04:35:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

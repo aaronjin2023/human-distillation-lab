@@ -56,5 +56,183 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "奶茶店门口的排队与拍照",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q73646",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thorstein Veblen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1857–1929",
+      "birth_year": {
+        "value": 1857,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q73646"
+            ],
+            "statement_id": "q73646$C1E796C6-2FB0-46B0-BECA-2E36BC134CAD",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1857,
+            "raw_time": "+1857-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q73646"
+            ],
+            "statement_id": "q73646$49A365CC-8CE4-4798-95E7-49557DC1A9C3",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$48954961-468c-565e-5932-d1560a6ddc55",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1884444",
+        "label": "Cato",
+        "label_en": "Cato",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$E103188D-2F21-4636-A988-117188D37162",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$16ED5B22-39B0-48E7-AC27-03C757256EF9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$8F7D5C96-F2B2-4B60-946E-C48E3F17907E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q173813",
+        "label": "斯坦福",
+        "label_en": "Stanford",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$8B7C5B17-3DE1-46FD-8A5C-294B9E7C0415",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q59670",
+        "label": "哥伦比亚",
+        "label_en": "Columbia",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "q73646$21F4184C-EFA8-49DC-9108-2A14A88B7D67",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q73646"
+        ],
+        "statement_id": "Q73646$7075C004-7760-4752-A373-DA72A47A8BD8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "制度经济学·社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q73646",
+        "title": "Wikidata Q73646 / 托斯丹·范伯倫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q73646&oldid=2558258436",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558258436,
+        "modified_at": "2026-10-18T05:00:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

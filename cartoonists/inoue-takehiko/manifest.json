@@ -39,5 +39,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬在深夜体育馆看轮椅篮球赛，情感运动漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q459911",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Takehiko Inoue",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1967–",
+      "birth_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q459911"
+            ],
+            "statement_id": "q459911$7E49E8BA-793E-4F0B-8334-D95F74512074",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q459911"
+        ],
+        "statement_id": "q459911$D40EB132-3F12-4C8C-A455-AB1BCED66296",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q385285",
+        "label": "大口市",
+        "label_en": "Ōkuchi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q459911"
+        ],
+        "statement_id": "Q459911$D3FE85F0-633D-41C1-86E7-8CA0859E4852",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·少年/青年漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q459911",
+        "title": "Wikidata Q459911 / 井上雄彦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q459911&oldid=2546559545",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546559545,
+        "modified_at": "2026-09-16T07:32:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

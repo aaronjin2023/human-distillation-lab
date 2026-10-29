@@ -39,5 +39,161 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "评论某国对短视频主播征税的方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160852",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Gladstone",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1809–1898",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160852"
+            ],
+            "statement_id": "q160852$321EB849-0F06-45B6-818C-539D64F0C41E",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                }
+              ]
+            },
+            "value": 1809,
+            "raw_time": "+1809-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160852"
+            ],
+            "statement_id": "q160852$8BD1859A-77E4-4874-A0D2-FBE80582067C",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1898,
+            "raw_time": "+1898-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160852"
+        ],
+        "statement_id": "q160852$2DAF7071-7455-4729-BC08-CB407B54BBC1",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q24826",
+        "label": "利物浦",
+        "label_en": "Liverpool",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q160852"
+        ],
+        "statement_id": "Q160852$83BAC911-73DA-423F-8A69-6AFED0379B39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160852"
+        ],
+        "statement_id": "q160852$3CA53539-D3BB-49B7-B72A-796F33EF35DA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q160852"
+        ],
+        "statement_id": "Q160852$C82C376B-78F9-48C1-BAE2-FC4508007C65",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·预算与所得税改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160852",
+        "title": "Wikidata Q160852 / 威廉·格莱斯顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160852&oldid=2559050197",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559050197,
+        "modified_at": "2026-10-20T03:29:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

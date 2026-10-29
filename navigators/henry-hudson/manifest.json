@@ -36,5 +36,169 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Henry Hudson, an uncrewed survey boat works up every river mouth in 2026, sounding as it goes, asking whether each one is the passage through, turning back only when the water shoals. No blind push up an unsounded river.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q179167",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Hudson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1565–1611",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179167"
+            ],
+            "statement_id": "Q179167$3353E7E1-CCF7-424A-AA33-10B35B11677B",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1565,
+            "raw_time": "+1565-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179167"
+            ],
+            "statement_id": "Q179167$e09a66c5-4af7-450b-74b1-590461e307fa",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 110290991,
+                  "id": "Q110290991"
+                }
+              ]
+            },
+            "value": 1611,
+            "raw_time": "+1611-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q179167"
+            ],
+            "statement_id": "Q179167$28d9bdcd-4790-096c-df75-141838699a59",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1611,
+            "raw_time": "+1611-06-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q179167"
+        ],
+        "statement_id": "Q179167$8C14B135-90FE-4E6F-86E9-582026EFAB63",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q179167"
+        ],
+        "statement_id": "Q179167$6aa6286c-4532-9717-af4c-4e24860a9234",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q179167"
+        ],
+        "statement_id": "Q179167$02B291D1-17C2-4090-AAC9-94924609A0F4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·北极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q179167",
+        "title": "Wikidata Q179167 / 亨利·哈德逊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q179167&oldid=2553578843",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553578843,
+        "modified_at": "2026-10-05T18:40:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

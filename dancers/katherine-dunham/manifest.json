@@ -37,5 +37,171 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a small Yorkshire terrier sits on a subway seat",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272637",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Katherine Dunham",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–2006",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272637"
+            ],
+            "statement_id": "Q272637$c376cace-4a53-0b6b-19a2-15f24f25a9c5",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272637"
+            ],
+            "statement_id": "q272637$87FC2961-3F85-48F8-B697-DAC1BADAA1E9",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272637"
+        ],
+        "statement_id": "Q272637$D087A4DF-86F0-4A68-8F40-19B3FDA85BAD",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1530761",
+        "label": "格伦埃林",
+        "label_en": "Glen Ellyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q272637"
+        ],
+        "statement_id": "Q272637$6eae6989-4621-b2bf-57ee-f1459e671dba",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q272637"
+        ],
+        "statement_id": "Q272637$ac2b2cc2-465e-98d4-2de3-1ffa2a2c373e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272637"
+        ],
+        "statement_id": "q272637$FF9B007D-AE39-4B4D-BA3A-B474C298D18F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q272637"
+          ],
+          "statement_id": "Q272637$6B0770C0-CC30-4B5D-B1FB-FE42E4699DC4",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q272637"
+          ],
+          "statement_id": "Q272637$2e0206d2-48f2-7a13-6609-771b58b1b83b",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q857880",
+          "label": "法裔加拿大人",
+          "label_en": "French Canadians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "非裔加勒比现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272637",
+        "title": "Wikidata Q272637 / 凯瑟琳·邓翰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272637&oldid=2556877432",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556877432,
+        "modified_at": "2026-10-14T09:51:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

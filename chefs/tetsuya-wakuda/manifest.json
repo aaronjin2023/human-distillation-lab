@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "和久田哲也风格：一份深夜便利店关东煮的重构——日澳融合、怀石结构、干净海洋风味、静默奢华。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7706963",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tetsuya Wakuda",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1959–",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7706963"
+            ],
+            "statement_id": "Q7706963$05DA75FC-557D-4947-9E1B-2734E09E567E",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-06-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7706963"
+        ],
+        "statement_id": "Q7706963$A4D7870B-CC73-48FA-8A6C-475888947BB0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q185125",
+        "label": "滨松市",
+        "label_en": "Hamamatsu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7706963"
+        ],
+        "statement_id": "Q7706963$7329D150-9387-4578-978D-BD1A994A8DE4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日澳融合",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7706963",
+        "title": "Wikidata Q7706963 / 和久田哲也",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7706963&oldid=2549698174",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549698174,
+        "modified_at": "2026-09-26T15:51:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

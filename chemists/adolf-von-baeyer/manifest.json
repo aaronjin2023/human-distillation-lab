@@ -30,5 +30,170 @@
   "test_prompt": "In the style of Adolf von Baeyer, prove a natural pigment's structure by synthesis: degrade it step by step to known fragments, propose a structure, rebuild it in the flask intermediate by intermediate, and claim proof only when synthetic and natural products match in every test",
   "test_question_zh": "一种天然色素结构未知，怎么用合成证明它？",
   "verification": "2026-10-26：生卒 1835–1917、靛蓝合成、张力理论、1905 年诺贝尔化学奖经通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57078",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adolf von Baeyer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1835–1917",
+      "birth_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57078"
+            ],
+            "statement_id": "q57078$9C6B156A-11FE-400B-83DE-21C8C0578B55",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57078"
+            ],
+            "statement_id": "q57078$CAAD6E9D-4278-4972-BEFB-8F46DE0F9035",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "q57078$53359F9F-B57D-4797-9D8B-7E6CFBDED955",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "Q57078$79D540B7-27DF-43C7-A9FD-18D1CE9B4B14",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "Q57078$007E3B6C-FDDB-42E0-A0C9-295B8AAD2C92",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "Q57078$82F3A3B5-BDB6-4527-9CE1-5155F96A6D61",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "q57078$6169859F-304A-479E-9381-D241DF2C7BE1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q57078"
+        ],
+        "statement_id": "Q57078$F8DE6B4B-0C5A-4CFA-92B1-50EC5255B0B3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "有机合成"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57078",
+        "title": "Wikidata Q57078 / 阿道夫·冯·拜尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57078&oldid=2560252300",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560252300,
+        "modified_at": "2026-10-24T09:39:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

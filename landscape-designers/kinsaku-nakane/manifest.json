@@ -42,5 +42,142 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "中根金作风格：现代美术馆里的一座窗景园，六庭各异，皆以窗为画框，苔砂相映，立石借远山，园以观为主，园为活的挂轴。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11366237",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kinsaku Nakane",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1995",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11366237"
+            ],
+            "statement_id": "Q11366237$DE54BC61-3F55-459B-B641-16215DBC895D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11366237"
+            ],
+            "statement_id": "Q11366237$4DDA8BE4-73E2-42D7-8568-3F8259521930",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11366237"
+        ],
+        "statement_id": "Q11366237$24abd256-4567-f4dc-8e39-63d4ccc1f1d4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11443347",
+        "label": "Tenryu",
+        "label_en": "Tenryu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11366237"
+        ],
+        "statement_id": "Q11366237$7AE6B99D-FA3E-4440-9567-139A890DC480",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q11366237"
+        ],
+        "statement_id": "Q11366237$937C37BB-9F58-48E4-94B9-9854AEB41CDB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代·日本庭园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11366237",
+        "title": "Wikidata Q11366237 / Kinsaku Nakane",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11366237&oldid=2550861371",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550861371,
+        "modified_at": "2026-09-29T12:41:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,133 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a small Yorkshire terrier sits on a subway seat at night, watched by commuters",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q380818",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kakinomoto no Hitomaro",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.660–c.724",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380818"
+            ],
+            "statement_id": "Q380818$5A1C3251-9662-439F-AB1A-1630B193E86E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 662,
+            "raw_time": "+0662-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380818"
+            ],
+            "statement_id": "Q380818$9FBD5C3C-6D0B-4426-8968-ECB194371F12",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 710,
+            "raw_time": "+0710-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q380818"
+        ],
+        "statement_id": "Q380818$78d6d55e-44c4-4ef0-9d7e-9235bfa0a254",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q380818"
+        ],
+        "statement_id": "q380818$4C9B386B-0335-40E0-809F-0D5B8388BBFC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奈良·万叶歌"
+    },
+    "sources": [
+      {
+        "id": "WD:Q380818",
+        "title": "Wikidata Q380818 / 柿本人麻吕",
+        "url": "https://www.wikidata.org/w/index.php?title=Q380818&oldid=2553997823",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553997823,
+        "modified_at": "2026-10-06T15:40:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

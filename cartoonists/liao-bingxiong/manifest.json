@@ -43,5 +43,104 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编为漫画家）",
   "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q19379299",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Liao Bingxiong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–2006",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19379299"
+            ],
+            "statement_id": "Q19379299$A931A84B-A9DF-4BC8-8A60-28AAF416BD16",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19379299"
+            ],
+            "statement_id": "Q19379299$0FA31F96-839A-46FE-B1BF-70311C7EC686",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-09-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q19379299"
+        ],
+        "statement_id": "Q19379299$5779D5C3-DD15-42A3-9DE9-E87575327C06",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16572",
+        "label": "广州市",
+        "label_en": "Guangzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·讽刺漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q19379299",
+        "title": "Wikidata Q19379299 / 廖冰兄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q19379299&oldid=2520054343",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520054343,
+        "modified_at": "2026-07-20T06:36:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

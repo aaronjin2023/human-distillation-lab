@@ -49,5 +49,158 @@
   ],
   "test_prompt": "地铁口共享单车的停放秩序",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q982656",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fei Xiaotong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–2005",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982656"
+            ],
+            "statement_id": "q982656$0C7493BB-84BA-4E6D-9E1B-7533AA11DEF7",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q982656"
+            ],
+            "statement_id": "q982656$2DB8E04D-ED13-4C09-BF0C-EDEB1A80AAF6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q982656"
+        ],
+        "statement_id": "q982656$66CBDE1C-B3E0-4DA2-9C65-52F4D57B9441",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1371372",
+        "label": "吴江区",
+        "label_en": "Wujiang District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q982656"
+        ],
+        "statement_id": "q982656$117FD8D0-FCC2-4C29-B394-A6C41B3ECCC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q982656"
+        ],
+        "statement_id": "Q982656$6d8d0410-4cc3-1dbc-cf9b-674ab81ab8cd",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q982656"
+        ],
+        "statement_id": "Q982656$e13d1e2d-4f69-b2e3-d73e-4f8adfda6b1d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "documented",
+      "documented": [
+        {
+          "label": "汉族",
+          "source_ids": [
+            "BIO-FEI-PEOPLE"
+          ],
+          "evidence_basis": "explicit_public_biography"
+        }
+      ],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·农村社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q982656",
+        "title": "Wikidata Q982656 / 费孝通",
+        "url": "https://www.wikidata.org/w/index.php?title=Q982656&oldid=2516214771",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516214771,
+        "modified_at": "2026-07-11T09:40:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-FEI-PEOPLE",
+        "title": "费孝通 — 人民网七一导航",
+        "url": "https://cpc.people.com.cn/daohang/n/2013/0225/c357210-20593901.html",
+        "accessed_at": "2026-10-29",
+        "access_note": "已浏览人民网公开传记正文；首段明确写明“男，汉族”；姓名、学术经历与库内Fei Xiaotong身份一致。"
+      }
+    ]
+  }
 }

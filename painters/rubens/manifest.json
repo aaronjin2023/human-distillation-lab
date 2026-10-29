@@ -30,5 +30,569 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "户外婚礼花园（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5599",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Paul Rubens",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1577–1640",
+      "birth_year": {
+        "value": 1577,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5599"
+            ],
+            "statement_id": "q5599$33aa87f5-440f-6a12-a7b4-14c909a240f7",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1577,
+            "raw_time": "+1577-06-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1640,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5599"
+            ],
+            "statement_id": "q5599$f94d82b1-48b7-780b-6460-78020c9cf709",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1640,
+            "raw_time": "+1640-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "q5599$81799446-B7E6-45CC-94AD-462B9117801D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q3167",
+        "label": "锡根",
+        "label_en": "Siegen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$6936098B-09AF-49F2-800C-D58932FF1029",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q382860",
+        "label": "阿夫利海姆",
+        "label_en": "Affligem",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$8B57624B-C1F6-4CCD-8D6F-5EEFE06611FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q239",
+        "label": "布鲁塞尔",
+        "label_en": "Brussels",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$7F745B1B-EC93-4F28-B2D5-E338519D995A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1990353",
+        "label": "Elewijt",
+        "label_en": "Elewijt",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$B258995B-521B-4A3E-9FA0-F496BA666DA6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3992",
+        "label": "列日",
+        "label_en": "Liège",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$75E01F06-37E0-4A18-97DE-A3923892A24F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6454",
+        "label": "加来",
+        "label_en": "Calais",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$4DF67B09-B275-48B8-8F34-FECD1F9B5F23",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$7F1CE7F3-D145-4C78-B8DB-7D0959F4F58F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q82185",
+        "label": "拉罗谢尔",
+        "label_en": "La Rochelle",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$D0F70D14-9335-4649-8239-9C7E5A7B553D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1449",
+        "label": "热那亚",
+        "label_en": "Genoa",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$60D64534-3F4E-49C7-9740-CF5F881E6B40",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$08928BEE-D4A4-4440-9AB8-5CB5AF66AC3D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2028",
+        "label": "维罗纳",
+        "label_en": "Verona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$8C075244-B77E-41EE-B1F7-9765FB6FAA01",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$FD37F295-5B2B-4CE2-9CD1-E054E896BCA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40844",
+        "label": "布雷达",
+        "label_en": "Breda",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$836C8517-D253-4FE7-8539-20D0396BB5ED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$ACE623BB-53B5-4622-8B82-B591CA4BE593",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9920",
+        "label": "哈勒姆",
+        "label_en": "Haarlem",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$1FDD1FEF-4752-4A9B-AE6D-0251455B14E3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1309",
+        "label": "马斯特里赫特",
+        "label_en": "Maastricht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$E6AAAB3A-EC04-4845-A9B4-5FF14C2554E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34370",
+        "label": "鹿特丹",
+        "label_en": "Rotterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$68EBFFDA-18D6-4040-9BCC-9B3398E4F580",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$37D1C5E8-21E7-47E5-889F-40C049B1DB04",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q803",
+        "label": "乌得勒支",
+        "label_en": "Utrecht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$1991ADF8-3CD9-4B05-9B80-FEEDB023CD1C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11959",
+        "label": "阿利坎特",
+        "label_en": "Alicante",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$BCDADADC-C334-40C5-AD13-2D4B064904B1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q371748",
+        "label": "圣洛伦索-德埃尔埃斯科里亚尔",
+        "label_en": "San Lorenzo de El Escorial",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$188DFEC4-BFBA-42EA-A0EE-108AE09B3AE7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$A53FFED5-3584-4597-94B6-BBA2B36DEF22",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8356",
+        "label": "巴利亚多利德",
+        "label_en": "Valladolid",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$2F8A3C8D-0424-4BB9-A302-9F71EA8C966C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179224",
+        "label": "多佛尔",
+        "label_en": "Dover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$FC580C3A-D805-41D5-A9C8-09E6D15D7933",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$E899C422-3962-40A8-8A68-ABFB9DC03D46",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$1FE4F975-9D7A-41C6-BE2A-56DEAA8C9392",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1578-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1587-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q365",
+        "label": "科隆",
+        "label_en": "Cologne",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$4C0A57D9-0830-43FB-875B-EF3EB3855609",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1590-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1600-03-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$E13445DF-C2B8-48D3-AC5C-A2BDD8058040",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1600-07-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "Q5599$819DD276-9824-443A-A7DE-3EFC3B71EAF7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1600-07-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1608-05-05T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q6247",
+        "label": "曼托瓦",
+        "label_en": "Mantua",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5599"
+        ],
+        "statement_id": "q5599$d49aa0eb-4096-05c1-8cf6-cc6eb9903502",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q622783",
+        "label": "西屬尼德蘭",
+        "label_en": "Spanish Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "弗兰德斯巴洛克"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5599",
+        "title": "Wikidata Q5599 / 彼得·保罗·鲁本斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5599&oldid=2558214867",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558214867,
+        "modified_at": "2026-10-18T02:31:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

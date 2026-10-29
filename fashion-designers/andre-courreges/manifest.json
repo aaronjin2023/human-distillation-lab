@@ -43,5 +43,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of André Courrèges, a modern ride-hailing driver jacket, Space Age minimalism, white geometric A-line, clean futuristic optimism, white and silver, youthful freedom, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q465447",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André Courrèges",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2016",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465447"
+            ],
+            "statement_id": "Q465447$CE58D5ED-256C-4F12-8F40-107CBC24F3E1",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465447"
+            ],
+            "statement_id": "Q465447$784e1045-4fcb-d88b-5342-0def6d9a3801",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-01-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q465447"
+        ],
+        "statement_id": "q465447$014168BF-600B-4D2A-80C8-BFF792939250",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q132671",
+        "label": "波城",
+        "label_en": "Pau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q465447"
+        ],
+        "statement_id": "q465447$082A0996-E9E4-4968-B452-1D7A3C1A5C14",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 未来主义",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q465447",
+        "title": "Wikidata Q465447 / 安德烈·库雷热",
+        "url": "https://www.wikidata.org/w/index.php?title=Q465447&oldid=2557762260",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557762260,
+        "modified_at": "2026-10-16T22:25:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

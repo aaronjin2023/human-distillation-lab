@@ -37,5 +37,138 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q106508",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gérard Depardieu",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106508"
+            ],
+            "statement_id": "q106508$E43F8DB4-20F1-4611-ADE1-6DD065126DCE",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q106508"
+        ],
+        "statement_id": "q106508$48B681C7-85DD-4992-BDA3-5E43929C4CD9",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q174251",
+        "label": "沙托鲁",
+        "label_en": "Châteauroux",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q106508"
+        ],
+        "statement_id": "q106508$F2FC240D-5835-43E0-B3E3-9A3618EC5050",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2013-01-03T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q159",
+        "label": "俄罗斯",
+        "label_en": "Russia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q106508"
+        ],
+        "statement_id": "q106508$D09F52F1-26BF-46BD-96EC-820D7F66F669",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q106508"
+        ],
+        "statement_id": "Q106508$021fa3db-44fc-0b15-4f46-d3b5792b5c6b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q878",
+        "label": "阿拉伯联合酋长国",
+        "label_en": "United Arab Emirates",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q106508",
+        "title": "Wikidata Q106508 / 热拉尔·德帕迪约",
+        "url": "https://www.wikidata.org/w/index.php?title=Q106508&oldid=2557903783",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557903783,
+        "modified_at": "2026-10-17T06:55:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

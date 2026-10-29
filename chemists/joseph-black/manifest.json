@@ -1,35 +1,147 @@
 {
- "chemist": "Joseph Black",
- "chemist_zh": "约瑟夫·布莱克",
- "dates": "1728–1799",
- "field": "气体化学 / 热化学",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #10",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "二氧化碳（固定空气）的发现与定量研究",
-  "潜热概念",
-  "镁化合物研究"
- ],
- "sources": [
-  "Wikipedia 'Joseph Black' https://en.wikipedia.org/wiki/Joseph_Black",
-  "Britannica 'Joseph Black' https://www.britannica.com/biography/Joseph-Black"
- ],
- "test_prompt": "In the style of Joseph Black, design a plan to find how much gas a carbonate releases on heating: weigh before and after, collect and test the gas, and state what mass difference would refute your identification.",
- "test_question_zh": "如何定量测定一种碳酸盐加热放出的气体？",
- "verification": "2026-10-26：生卒、固定空气、潜热按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "布莱克讲授记录多经学生整理，原文核对有限",
-  "潜热实验的具体数值未逐项核对原文",
-  "镁化合物研究的具体数据未逐一核对"
- ]
+  "chemist": "Joseph Black",
+  "chemist_zh": "约瑟夫·布莱克",
+  "dates": "1728–1799",
+  "field": "气体化学 / 热化学",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #10",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "二氧化碳（固定空气）的发现与定量研究",
+    "潜热概念",
+    "镁化合物研究"
+  ],
+  "sources": [
+    "Wikipedia 'Joseph Black' https://en.wikipedia.org/wiki/Joseph_Black",
+    "Britannica 'Joseph Black' https://www.britannica.com/biography/Joseph-Black"
+  ],
+  "test_prompt": "In the style of Joseph Black, design a plan to find how much gas a carbonate releases on heating: weigh before and after, collect and test the gas, and state what mass difference would refute your identification.",
+  "test_question_zh": "如何定量测定一种碳酸盐加热放出的气体？",
+  "verification": "2026-10-26：生卒、固定空气、潜热按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "布莱克讲授记录多经学生整理，原文核对有限",
+    "潜热实验的具体数值未逐项核对原文",
+    "镁化合物研究的具体数据未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272512",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joseph Black",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1728–1799",
+      "birth_year": {
+        "value": 1728,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272512"
+            ],
+            "statement_id": "q272512$48B6EABF-B3F8-4F22-9EBD-E858DE9738A5",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1728,
+            "raw_time": "+1728-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1799,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272512"
+            ],
+            "statement_id": "q272512$C623903B-32C6-407B-8DBC-2C88E346DEB8",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1799,
+            "raw_time": "+1799-12-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272512"
+        ],
+        "statement_id": "q272512$2814C143-D520-47B5-A0C4-A450840A712D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1479",
+        "label": "波尔多",
+        "label_en": "Bordeaux",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272512"
+        ],
+        "statement_id": "Q272512$6C8F2B55-C095-40F0-8586-F32FE97B85E2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "气体化学 / 热化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272512",
+        "title": "Wikidata Q272512 / 约瑟夫·布拉克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272512&oldid=2558922548",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558922548,
+        "modified_at": "2026-10-19T20:55:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

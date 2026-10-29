@@ -46,5 +46,115 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q274156",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marsha Linehan",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q274156"
+            ],
+            "statement_id": "Q274156$E23D391E-B467-44FF-98DC-8BB096CB336F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-05-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q274156"
+        ],
+        "statement_id": "Q274156$4EEA4B77-061F-4F35-AC04-A89C1646BFD9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q44989",
+        "label": "塔尔萨",
+        "label_en": "Tulsa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q274156"
+        ],
+        "statement_id": "Q274156$B5FDE624-1013-4A76-A2BE-2DE0CDB993D1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5083",
+        "label": "西雅图",
+        "label_en": "Seattle",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q274156"
+        ],
+        "statement_id": "q274156$DE912247-E186-4D38-8B26-9A64835C726A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "辩证行为疗法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q274156",
+        "title": "Wikidata Q274156 / Marsha M. Linehan",
+        "url": "https://www.wikidata.org/w/index.php?title=Q274156&oldid=2558513650",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558513650,
+        "modified_at": "2026-10-18T20:44:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

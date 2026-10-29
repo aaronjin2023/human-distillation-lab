@@ -43,5 +43,132 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q188093",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Langston Hughes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1967",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188093"
+            ],
+            "statement_id": "Q188093$8f947bd9-45d3-3c5c-4e1b-78c26a2c233e",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188093"
+            ],
+            "statement_id": "q188093$61F1809A-7A03-4089-A73F-D24B99E75F3F",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-05-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q188093"
+        ],
+        "statement_id": "q188093$A2556DE0-3A7E-4DA0-8647-72CD49980FFB",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q317865",
+        "label": "乔普林",
+        "label_en": "Joplin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q188093"
+        ],
+        "statement_id": "q188093$35FF22EF-4CF0-4569-8A63-2A8022C6407E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q188093"
+          ],
+          "statement_id": "Q188093$585B8083-9726-451C-86D6-6105F8528F84",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·哈莱姆文艺复兴诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q188093",
+        "title": "Wikidata Q188093 / 朗斯顿·休斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q188093&oldid=2558106178",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558106178,
+        "modified_at": "2026-10-17T21:00:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

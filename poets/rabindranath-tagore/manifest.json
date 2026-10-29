@@ -38,5 +38,161 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只约克夏犬深夜坐在地铁座位上，乘客们看着它",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7241",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rabindranath Tagore",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1861–1941",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7241"
+            ],
+            "statement_id": "q7241$4586B78E-038F-4686-AA0E-B0A44936DB73",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1861,
+            "raw_time": "+1861-05-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7241"
+            ],
+            "statement_id": "q7241$8C49B7CE-E1E8-4D5E-9183-48C186223EB4",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1941,
+            "raw_time": "+1941-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7241"
+        ],
+        "statement_id": "q7241$2378D3C9-2D63-4C11-AB48-F0E80841409A",
+        "rank": "normal",
+        "reference_count": 8,
+        "qualifiers": {},
+        "qid": "Q1348",
+        "label": "加尔各答",
+        "label_en": "Kolkata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7241"
+        ],
+        "statement_id": "Q7241$5C153F58-8D1A-4B58-AB16-FB2B426CD4CD",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q7241"
+          ],
+          "statement_id": "Q7241$6A91631A-679A-4FE2-9307-654AE62017FD",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q402913",
+          "label": "孟加拉族",
+          "label_en": "Bengalis",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q7241"
+          ],
+          "statement_id": "Q7241$9d00c78e-4057-5dfd-02c3-4223f6ca54e4",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q47140",
+          "label": "婆罗门",
+          "label_en": "Brahmin",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "孟加拉·诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7241",
+        "title": "Wikidata Q7241 / 罗宾德拉纳特·泰戈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7241&oldid=2560428640",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560428640,
+        "modified_at": "2026-10-24T21:01:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

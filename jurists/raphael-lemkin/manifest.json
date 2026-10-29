@@ -44,5 +44,144 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "文化遗产毁灭的灭绝种族罪认定（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1900–1959、公约第 2 条引文为公约原文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q505586",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raphael Lemkin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1959",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q505586"
+            ],
+            "statement_id": "q505586$90BEADE8-5C09-494B-B461-79AAEAD927F0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-06-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q505586"
+            ],
+            "statement_id": "q505586$740212CC-D7F4-450F-BF07-6531ECD62697",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q505586"
+        ],
+        "statement_id": "Q505586$DC2C479B-BF53-4CE2-A6D3-FF8BC8B2C41E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12081516",
+        "label": "Biazvodna",
+        "label_en": "Biazvodna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q505586"
+        ],
+        "statement_id": "q505586$87ED45DB-4D30-4348-A279-FDB9FDD8BDCE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q505586"
+        ],
+        "statement_id": "Q505586$a3f8d256-46d3-b8aa-452f-8e3b353d19af",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36",
+        "label": "波兰",
+        "label_en": "Poland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q505586"
+        ],
+        "statement_id": "Q505586$3e12ec41-45e1-6482-2af0-12c7396f1d40",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际刑法·灭绝种族罪",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q505586",
+        "title": "Wikidata Q505586 / 拉斐爾·萊姆金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q505586&oldid=2532823360",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2532823360,
+        "modified_at": "2026-08-18T17:19:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

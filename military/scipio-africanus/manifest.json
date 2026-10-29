@@ -42,5 +42,125 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次网络攻防对抗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2253",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Scipio Africanus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "236–183 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2253"
+            ],
+            "statement_id": "Q2253$e9eac013-4bc3-819c-33ad-811907346c84",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -235,
+            "raw_time": "-0235-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -183,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2253"
+            ],
+            "statement_id": "q2253$D3E2A5CD-4A32-48D0-B87B-388F1CE9A45B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": -183,
+            "raw_time": "-0183-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2253"
+        ],
+        "statement_id": "q2253$82A069ED-8CFA-448A-869C-65481C59F52A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2253"
+        ],
+        "statement_id": "Q2253$DE8CFC10-C1C5-419C-ABD3-2DD260CA0636",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·机动战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2253",
+        "title": "Wikidata Q2253 / 大西庇阿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2253&oldid=2558218651",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558218651,
+        "modified_at": "2026-10-18T02:45:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

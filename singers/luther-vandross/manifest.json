@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于夜班护士凌晨三点在便利店买咖啡的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311306",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Luther Vandross",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1951–2005",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311306"
+            ],
+            "statement_id": "q311306$6DAC7521-3720-4DB4-AA7B-B188A87BBE04",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311306"
+            ],
+            "statement_id": "q311306$536722D1-6481-4505-BA46-C5F88FC8CC19",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311306"
+        ],
+        "statement_id": "Q311306$A628B9C5-11D7-4512-A0CA-21564285496E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311306"
+        ],
+        "statement_id": "Q311306$8F0D6815-C49B-4715-BCE4-6ECBEF0E6A89",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "R&B·灵魂",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311306",
+        "title": "Wikidata Q311306 / 路德·范德鲁斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311306&oldid=2561646813",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561646813,
+        "modified_at": "2026-10-28T10:27:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

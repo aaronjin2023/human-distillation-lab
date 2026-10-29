@@ -44,5 +44,56 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "AI 生成合同条款的法典化（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：起草说明两句法文原文见加拿大司法部英译本所附法文与罗马尼亚译本引文；四人委员会集体起草属性见加拿大司法部说明；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q519797",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year"
+          ],
+          "match_basis": {
+            "name": "Jean-Étienne-Marie Portalis",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1746–1813",
+      "birth_year": {
+        "value": 1746,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1813,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国民法典",
+      "genre": "legislator / 立法者"
+    },
+    "sources": []
+  }
 }

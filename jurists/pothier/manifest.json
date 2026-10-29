@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店关东煮摊的租赁合同条款（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1699–1772 与《债法论》英译本信息见 Wythepedia（William & Mary）；开篇定义为通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q666880",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Joseph Pothier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1699–1772",
+      "birth_year": {
+        "value": 1699,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q666880"
+            ],
+            "statement_id": "Q666880$C64BEB77-ACF0-4740-B01C-7B81395E28F2",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1699,
+            "raw_time": "+1699-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1772,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q666880"
+            ],
+            "statement_id": "Q666880$8E347F3C-D141-4AE1-931C-9D743AC3CA2C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1772,
+            "raw_time": "+1772-03-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q666880"
+        ],
+        "statement_id": "q666880$B4A51F7D-A763-4246-9B92-7A222A8FA997",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q6548",
+        "label": "奥尔良",
+        "label_en": "Orléans",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q666880"
+        ],
+        "statement_id": "Q666880$89123DB9-B2DA-4368-88F3-CFFD336E2FA2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·债法",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q666880",
+        "title": "Wikidata Q666880 / Robert Joseph Pothier",
+        "url": "https://www.wikidata.org/w/index.php?title=Q666880&oldid=2559182004",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559182004,
+        "modified_at": "2026-10-20T10:43:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代供应链中断的应急重组",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q797848",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Babur",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1483–1530",
+      "birth_year": {
+        "value": 1483,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q797848"
+            ],
+            "statement_id": "q797848$18E00881-61A5-4BA0-9A14-94A79F32F6CF",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1483,
+            "raw_time": "+1483-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1530,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q797848"
+            ],
+            "statement_id": "q797848$3BCCC291-318A-4C66-A017-82055A33BEF8",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1530,
+            "raw_time": "+1530-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q797848"
+        ],
+        "statement_id": "q797848$D362370B-4884-451E-A229-E9044B92A416",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q487656",
+        "label": "安集延",
+        "label_en": "Andijan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q797848"
+        ],
+        "statement_id": "Q797848$b895c2e8-7978-4185-9671-ab9468675fdf",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q33296",
+        "label": "莫卧儿帝国",
+        "label_en": "Mughal Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "莫卧儿·建国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q797848",
+        "title": "Wikidata Q797848 / 巴布爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q797848&oldid=2559776790",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559776790,
+        "modified_at": "2026-10-22T23:29:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

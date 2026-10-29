@@ -37,5 +37,130 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q624121",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Choi Seung-hee",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1911–1969",
+      "birth_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q624121"
+            ],
+            "statement_id": "q624121$14A708E3-4DA6-4F67-B2EC-4A1A0F5A760D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-11-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q624121"
+            ],
+            "statement_id": "q624121$93E243A6-8FE9-442F-A637-1D850DF13794",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-08-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q624121"
+        ],
+        "statement_id": "Q624121$7563a5d4-4596-a829-9035-a309ab8a9e26",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q624121"
+        ],
+        "statement_id": "Q624121$53960EDF-EB50-44FA-91D1-F5BCD570184F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q503585",
+        "label": "朝鲜日治时期",
+        "label_en": "Korea under Japanese rule",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q624121"
+        ],
+        "statement_id": "Q624121$f90970ee-4bd3-d3d5-cd36-0263109b5b65",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q423",
+        "label": "朝鲜民主主义人民共和国",
+        "label_en": "North Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩国现代舞·舞者 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q624121",
+        "title": "Wikidata Q624121 / 崔承喜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q624121&oldid=2547189621",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547189621,
+        "modified_at": "2026-09-17T23:41:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

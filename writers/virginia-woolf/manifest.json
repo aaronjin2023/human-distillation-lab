@@ -41,5 +41,128 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "Virginia Woolf",
-  "writer_zh": "弗吉尼亚·伍尔夫"
+  "writer_zh": "弗吉尼亚·伍尔夫",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q40909",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Virginia Woolf",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1882–1941",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40909"
+            ],
+            "statement_id": "q40909$67266C99-E5B6-4729-9132-C9AD5E7C97D0",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40909"
+            ],
+            "statement_id": "q40909$531C13A4-54AA-4102-A158-A13347258B45",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-03-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q40909"
+        ],
+        "statement_id": "Q40909$82163312-5784-478A-AC58-8B6F27338AA8",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q40909"
+        ],
+        "statement_id": "q40909$60358EDC-10C0-48C5-BD57-80B3F3BDB0BE",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·现代主义小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q40909",
+        "title": "Wikidata Q40909 / 弗吉尼亚·伍尔夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q40909&oldid=2561431986",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561431986,
+        "modified_at": "2026-10-27T13:20:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

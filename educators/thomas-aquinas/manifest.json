@@ -43,5 +43,104 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘人工智能会不会取代老师’的辩论课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；引文为转述，标 artifact",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9438",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Aquinas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1225–1274",
+      "birth_year": {
+        "value": 1225,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9438"
+            ],
+            "statement_id": "Q9438$023E5BA6-6844-48F4-A8C2-25E9831E5660",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1225,
+            "raw_time": "+1225-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1274,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9438"
+            ],
+            "statement_id": "q9438$312E018C-CC82-4B5C-9AEF-514A140FCCA3",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1274,
+            "raw_time": "+1274-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9438"
+        ],
+        "statement_id": "Q9438$A841A8A7-92C3-480A-ACCE-C9499392D45C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q106766784",
+        "label": "castle of the counts of Aquino",
+        "label_en": "castle of the counts of Aquino",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "经院·大学教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9438",
+        "title": "Wikidata Q9438 / 托马斯·阿奎那",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9438&oldid=2559625439",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559625439,
+        "modified_at": "2026-10-22T04:01:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

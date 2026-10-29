@@ -37,5 +37,119 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Seydi Ali Reis, an uncrewed cargo ship crosses the Indian Ocean in 2026, waiting for the monsoon window, logging each port of call with anchorage, water and wind, plain instructive prose.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2672296",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Seydi Ali Reis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1498–1563",
+      "birth_year": {
+        "value": 1498,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2672296"
+            ],
+            "statement_id": "Q2672296$708FFB82-EF2D-4DAB-8180-C34BF67D2831",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1498,
+            "raw_time": "+1498-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1562,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2672296"
+            ],
+            "statement_id": "Q2672296$6BC9D6C2-BB04-4726-8055-43B989E4D9E6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1562,
+            "raw_time": "+1562-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1563
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2672296"
+        ],
+        "statement_id": "Q2672296$A681D981-5788-497A-AC09-D898AEBCA88D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q501817",
+        "label": "加拉塔",
+        "label_en": "Galata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2672296"
+        ],
+        "statement_id": "Q2672296$b72b5bc7-4fad-8d78-9b84-c748f1483898",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12560",
+        "label": "奥斯曼帝国",
+        "label_en": "Ottoman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·印度洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2672296",
+        "title": "Wikidata Q2672296 / Seydi Ali Reis",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2672296&oldid=2526133671",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2526133671,
+        "modified_at": "2026-08-02T08:48:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

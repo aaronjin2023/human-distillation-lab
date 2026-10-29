@@ -31,5 +31,159 @@
   "test_prompt": "In the style of Ejnar Hertzsprung, test a modern stellar population: plot every star's luminosity against its temperature, let the sequences separate themselves, and read the population's history off the diagram — keeping every star that falls between the sequences on the plot",
   "test_question_zh": "检验一个现代恒星群体的演化历史",
   "verification": "生卒 1873–1967、赫罗图 1911 年、巨星与矮星区分、造父变星定标按天文史通说（Wikipedia / Britannica 共识）写；优先权已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q295099",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ejnar Hertzsprung",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1873–1967",
+      "birth_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295099"
+            ],
+            "statement_id": "q295099$B47C56B5-DFDD-41A0-8230-794124B82567",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-10-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q295099"
+            ],
+            "statement_id": "Q295099$40A86ECE-09A2-4866-B887-05337F53FC1F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295099"
+            ],
+            "statement_id": "q295099$712C0D95-DB62-4678-8216-1996E713E323",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q295099"
+        ],
+        "statement_id": "Q295099$2B7FE79A-3637-4029-8412-BB4A9487B106",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30096",
+        "label": "腓特烈斯贝",
+        "label_en": "Frederiksberg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q295099"
+        ],
+        "statement_id": "Q295099$C514912D-3894-4547-B5D3-E62C9A4E31AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q186244",
+        "label": "莱顿天文台",
+        "label_en": "Leiden Observatory",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q295099"
+        ],
+        "statement_id": "q295099$B5B06EDC-C862-4D1A-9F98-3FC86AA359FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q295099"
+        ],
+        "statement_id": "q295099$7268C609-9703-4B96-8007-3E9107EEB9E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "丹麦·恒星演化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q295099",
+        "title": "Wikidata Q295099 / 埃希纳·赫茨普龙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q295099&oldid=2558472109",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558472109,
+        "modified_at": "2026-10-18T17:44:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

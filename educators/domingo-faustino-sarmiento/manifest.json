@@ -46,5 +46,132 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "萨米恩托风格：为乡村小学生设计一堂关于人工智能的课。给每个孩子的公立学校课：用通俗的话讲清 AI 是什么、为什么每个乡村孩子都必须懂它，结尾留一个公民问题——新机器为谁服务，不设精英轨道。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q254041",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Domingo Faustino Sarmiento",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1811–1888",
+      "birth_year": {
+        "value": 1811,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q254041"
+            ],
+            "statement_id": "Q254041$918458BD-EBE6-41A9-B619-0D8CFF27DC67",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1811,
+            "raw_time": "+1811-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q254041"
+            ],
+            "statement_id": "q254041$268910FE-A152-4276-8A4D-3E5B7B5AA24E",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q254041"
+        ],
+        "statement_id": "Q254041$C639459F-115E-4E86-99DB-5002B6A4106D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q44241",
+        "label": "圣胡安",
+        "label_en": "San Juan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q254041"
+        ],
+        "statement_id": "Q254041$4C5C4E93-A242-4BF4-99C3-C2DDC8BCA7BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1486",
+        "label": "布宜诺斯艾利斯",
+        "label_en": "Buenos Aires",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q254041"
+        ],
+        "statement_id": "q254041$1D8B1B22-E079-4446-870B-817E7E00C00A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿根廷国民教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q254041",
+        "title": "Wikidata Q254041 / 多明戈·福斯蒂诺·萨米恩托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q254041&oldid=2559292113",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559292113,
+        "modified_at": "2026-10-20T17:05:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

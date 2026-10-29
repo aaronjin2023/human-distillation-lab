@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a small Yorkshire terrier sitting on a subway seat, watched by commuters who look away",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5587114",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Goro Matsui",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5587114"
+            ],
+            "statement_id": "Q5587114$0E9B34E0-D707-448A-8C8E-80B0C5659754",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5587114"
+        ],
+        "statement_id": "Q5587114$b1da13ef-4082-a5f5-d71a-e51fa5b8129a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q131277",
+        "label": "岐阜县",
+        "label_en": "Gifu Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5587114"
+        ],
+        "statement_id": "Q5587114$FCD3E2A6-8EDC-43E5-9353-49BA553BC927",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日语流行·摇滚",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5587114",
+        "title": "Wikidata Q5587114 / 松井五郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5587114&oldid=2533888771",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533888771,
+        "modified_at": "2026-08-20T21:21:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

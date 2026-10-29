@@ -30,5 +30,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：一串哺乳动物化石显示体型与牙齿的定向变化，这是内在趋势还是自然选择？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312069",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Fairfield Osborn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1857–1935",
+      "birth_year": {
+        "value": 1857,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312069"
+            ],
+            "statement_id": "Q312069$E0CCCB86-677C-4BB4-B3A0-DF734E1B8089",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1857,
+            "raw_time": "+1857-08-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312069"
+            ],
+            "statement_id": "Q312069$941276C8-554E-4277-A914-7C4585056E5B",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312069"
+        ],
+        "statement_id": "q312069$D63E0817-A2C8-4136-820D-25C5DC2ADBC4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q754635",
+        "label": "费尔菲尔德",
+        "label_en": "Fairfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312069"
+        ],
+        "statement_id": "q312069$9B63AA12-F041-45E0-A795-325F94273593",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312069",
+        "title": "Wikidata Q312069 / 亨利·費爾費爾德·奧斯本",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312069&oldid=2557919179",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557919179,
+        "modified_at": "2026-10-17T07:58:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

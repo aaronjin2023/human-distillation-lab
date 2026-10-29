@@ -29,5 +29,117 @@
     "莱托利足迹报告原文版本未逐项核对",
     "足迹年代的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q231111",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Leakey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–1996",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231111"
+            ],
+            "statement_id": "q231111$81D770D7-68E4-477D-9A88-1F390F44D3E1",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q231111"
+            ],
+            "statement_id": "q231111$E3208183-D755-466E-98F4-F39B86658563",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q231111"
+        ],
+        "statement_id": "q231111$67800454-C8FC-4CD5-9A76-40534E541D24",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q231111"
+        ],
+        "statement_id": "q231111$35F499BD-E3D7-49A1-902E-12AB592F5814",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "人类演化 / 古人类学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q231111",
+        "title": "Wikidata Q231111 / 玛丽·李奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q231111&oldid=2558160907",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558160907,
+        "modified_at": "2026-10-17T23:40:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

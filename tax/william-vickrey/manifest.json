@@ -43,5 +43,131 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一座假想城市的网约车拥堵设计一套拥堵税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q295673",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Vickrey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1996",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295673"
+            ],
+            "statement_id": "q295673$FA7AC32A-1679-4332-B7B9-431217ED69D8",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-06-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295673"
+            ],
+            "statement_id": "q295673$E4CC5A69-537B-4844-9707-5021FA280661",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-10-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q295673"
+        ],
+        "statement_id": "q295673$8F6ECB78-EE21-4BE4-AA2A-D2F034F0E2D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2132",
+        "label": "维多利亚",
+        "label_en": "Victoria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q295673"
+        ],
+        "statement_id": "q295673$A813494F-F130-4933-8F0D-E912D6EEF571",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q295673"
+        ],
+        "statement_id": "Q295673$785d002c-47aa-fc57-abc3-e9ba1b25c95d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·累进税与拥堵税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q295673",
+        "title": "Wikidata Q295673 / 威廉·维克里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q295673&oldid=2532911140",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2532911140,
+        "modified_at": "2026-08-18T21:48:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

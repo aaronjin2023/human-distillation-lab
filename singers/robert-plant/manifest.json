@@ -43,5 +43,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "凌晨的面包房（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q428223",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Plant",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q428223"
+            ],
+            "statement_id": "q428223$EE8294BE-6C86-4D22-8242-5EE0493E0BEC",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q428223"
+        ],
+        "statement_id": "Q428223$6759B0AE-F016-4C2B-B45C-6CA50C86856A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q212826",
+        "label": "西布罗米奇",
+        "label_en": "West Bromwich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q428223"
+        ],
+        "statement_id": "Q428223$33C892E1-041F-4024-9F54-FF91673F8174",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "摇滚·硬摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q428223",
+        "title": "Wikidata Q428223 / 罗伯特·普兰特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q428223&oldid=2558227003",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558227003,
+        "modified_at": "2026-10-18T03:12:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

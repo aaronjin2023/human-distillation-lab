@@ -30,5 +30,171 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44032",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Egon Schiele",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1918",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44032"
+            ],
+            "statement_id": "q44032$2C90BF43-5F5D-4979-8A55-A048C0D5B60F",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44032"
+            ],
+            "statement_id": "q44032$311266DA-1C08-49BE-9CD0-7DBF58203F11",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44032"
+        ],
+        "statement_id": "q44032$77AB5894-8BDB-47DA-95CF-BEF86FB34535",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q489810",
+        "label": "多瑙河畔图尔恩",
+        "label_en": "Tulln an der Donau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q44032"
+        ],
+        "statement_id": "Q44032$8CE55C2E-9DED-48CD-BAAA-0171FAF4C62E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q700307",
+        "label": "新伦巴赫",
+        "label_en": "Neulengbach",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44032"
+        ],
+        "statement_id": "Q44032$D1DB7288-4BBB-45B0-BA6C-DD050FCD4CE9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44032"
+        ],
+        "statement_id": "Q44032$B4C5C5AF-0F43-458D-A953-C91CA1290691",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q188082",
+        "label": "捷克克鲁姆洛夫",
+        "label_en": "Český Krumlov",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44032"
+        ],
+        "statement_id": "Q44032$F927898E-30DE-44BD-8593-09487BC9EF50",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q44032"
+          ],
+          "statement_id": "Q44032$A99CFF25-9FD5-48AF-9C60-3D46D5DB1E2B",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q237534",
+          "label": "奧地利人",
+          "label_en": "Austrians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "表现主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44032",
+        "title": "Wikidata Q44032 / 埃貢·席勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44032&oldid=2557862951",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557862951,
+        "modified_at": "2026-10-17T04:41:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,102 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55431",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wong Kar-wai",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–（在世）",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55431"
+            ],
+            "statement_id": "q55431$801A4881-01F3-4326-90E7-9E5ECAA56639",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-07-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55431"
+        ],
+        "statement_id": "Q55431$7C292AD3-6F94-40E6-933C-4DD8C9746713",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55431"
+        ],
+        "statement_id": "Q55431$975B25BA-25E7-4FFC-94B5-DE5F7C0AAC68",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8646",
+        "label": "香港",
+        "label_en": "Hong Kong",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "香港·都市浪漫",
+      "genre": "香港·都市浪漫"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55431",
+        "title": "Wikidata Q55431 / 王家卫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55431&oldid=2560349845",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560349845,
+        "modified_at": "2026-10-24T16:57:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

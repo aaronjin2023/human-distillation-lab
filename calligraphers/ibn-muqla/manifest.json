@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Ibn Muqla, proportional Arabic calligraphy, reed pen, alif height measured in rhombic dots, geometric letter proportions, black ink on paper, no illumination",
   "transmission": "无确证传世真迹，仅见著录；作品只知于伊本·纳迪姆等后世文献",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q974105",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ibn Muqla",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "886–940",
+      "birth_year": {
+        "value": 886,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q974105"
+            ],
+            "statement_id": "Q974105$73D4179C-251B-4B79-9349-55D6E2C4892D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 886,
+            "raw_time": "+0886-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q974105"
+            ],
+            "statement_id": "Q974105$1F225AA3-80A1-4802-BD47-288230341C7C",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 940,
+            "raw_time": "+0940-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q974105"
+        ],
+        "statement_id": "Q974105$6bebc6a5-4969-ef1a-0299-3586a44b28f3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1530",
+        "label": "巴格达",
+        "label_en": "Baghdad",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q974105"
+        ],
+        "statement_id": "Q974105$28FB2ECB-A954-420C-A00B-95F8C27DF30B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12536",
+        "label": "阿拔斯王朝",
+        "label_en": "Abbasid Caliphate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·六体 / 誊抄体（比例书法）"
+    },
+    "sources": [
+      {
+        "id": "WD:Q974105",
+        "title": "Wikidata Q974105 / 伊本·穆格莱",
+        "url": "https://www.wikidata.org/w/index.php?title=Q974105&oldid=2495884203",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2495884203,
+        "modified_at": "2026-05-22T08:44:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

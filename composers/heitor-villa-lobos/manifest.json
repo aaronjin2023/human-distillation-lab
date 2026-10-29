@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q203514",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Heitor Villa-Lobos",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1959",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203514"
+            ],
+            "statement_id": "q203514$9849F110-6C0C-4AC5-95DE-3B0550B000CB",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203514"
+            ],
+            "statement_id": "q203514$7B1F2728-8115-4D92-9406-D4EDB42554D3",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-11-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q203514"
+        ],
+        "statement_id": "q203514$f53c3188-4fd8-1be0-fc44-42e198403bf5",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q8678",
+        "label": "里约热内卢",
+        "label_en": "Rio de Janeiro",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q203514"
+        ],
+        "statement_id": "q203514$7ecf8549-4373-4116-2343-c566677c5b5a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美 / 巴西"
+    },
+    "sources": [
+      {
+        "id": "WD:Q203514",
+        "title": "Wikidata Q203514 / 埃托尔·维拉-洛博斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q203514&oldid=2557914306",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557914306,
+        "modified_at": "2026-10-17T07:39:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Arthur Holmes, argue whether the Himalayas are still rising: date the rocks and the uplift with radiometric ages, check the ages against the stratigraphic order, and explain the rise by mantle convection driven by radioactive heat",
   "test_question_zh": "喜马拉雅山脉还在长高吗？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q606039",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Holmes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1965",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q606039"
+            ],
+            "statement_id": "Q606039$64A86D0C-65A9-4D80-B4D7-296C0EB70505",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q606039"
+            ],
+            "statement_id": "Q606039$1B2A38A4-B150-45EE-8858-DE8B64041946",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-09-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q606039"
+        ],
+        "statement_id": "q606039$0D0133B1-8263-46FF-9337-504C3C74E32B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q216372",
+        "label": "盖茨黑德",
+        "label_en": "Gateshead",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q606039"
+        ],
+        "statement_id": "q606039$C7118AE2-2D11-4279-87E0-C15CE483E02B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地质年代学 / 构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q606039",
+        "title": "Wikidata Q606039 / 阿瑟·赫尔姆斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q606039&oldid=2554878936",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554878936,
+        "modified_at": "2026-10-08T05:10:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

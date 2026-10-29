@@ -1,36 +1,148 @@
 {
- "chemist": "William Ramsay",
- "chemist_zh": "威廉·拉姆齐",
- "dates": "1852–1916",
- "field": "稀有气体化学",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #23",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "氩、氦、氖、氪、氙的发现",
-  "稀有气体族的建立",
-  "放射性气体研究"
- ],
- "sources": [
-  "Wikipedia 'William Ramsay' https://en.wikipedia.org/wiki/William_Ramsay",
-  "Britannica 'William Ramsay' https://www.britannica.com/biography/William-Ramsay",
-  "NobelPrize.org 'William Ramsay – Facts' https://www.nobelprize.org/prizes/chemistry/1904/ramsay/facts/"
- ],
- "test_prompt": "In the style of William Ramsay, design a plan to test whether air hides another unknown gas: fractionate liquid air, weigh each fraction, record its spectrum, and state what would prove it is only a mixture.",
- "test_question_zh": "空气中是否还藏着未知气体？",
- "verification": "2026-10-26：生卒、氩氦氖氪氙发现、1904 年诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "稀有气体发现的原始论文细节未逐句核对",
-  "气体密度的具体数值未逐项核对原文",
-  "氦发现的多方原始文献未逐一核对"
- ]
+  "chemist": "William Ramsay",
+  "chemist_zh": "威廉·拉姆齐",
+  "dates": "1852–1916",
+  "field": "稀有气体化学",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #23",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "氩、氦、氖、氪、氙的发现",
+    "稀有气体族的建立",
+    "放射性气体研究"
+  ],
+  "sources": [
+    "Wikipedia 'William Ramsay' https://en.wikipedia.org/wiki/William_Ramsay",
+    "Britannica 'William Ramsay' https://www.britannica.com/biography/William-Ramsay",
+    "NobelPrize.org 'William Ramsay – Facts' https://www.nobelprize.org/prizes/chemistry/1904/ramsay/facts/"
+  ],
+  "test_prompt": "In the style of William Ramsay, design a plan to test whether air hides another unknown gas: fractionate liquid air, weigh each fraction, record its spectrum, and state what would prove it is only a mixture.",
+  "test_question_zh": "空气中是否还藏着未知气体？",
+  "verification": "2026-10-26：生卒、氩氦氖氪氙发现、1904 年诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "稀有气体发现的原始论文细节未逐句核对",
+    "气体密度的具体数值未逐项核对原文",
+    "氦发现的多方原始文献未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q950726",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Ramsay",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1852–1916",
+      "birth_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q950726"
+            ],
+            "statement_id": "q950726$3084AD88-81AD-498B-8366-24B7960F621A",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q950726"
+            ],
+            "statement_id": "q950726$9B7111B1-B392-4CBC-BC87-8B703116C228",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q950726"
+        ],
+        "statement_id": "q950726$D2E47FF3-008F-4996-9DC6-FB2ACF4E99F9",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q4093",
+        "label": "格拉斯哥",
+        "label_en": "Glasgow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q950726"
+        ],
+        "statement_id": "q950726$584E5ABB-511E-4181-AC74-4763A4F91899",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "稀有气体化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q950726",
+        "title": "Wikidata Q950726 / 威廉·拉姆齐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q950726&oldid=2561119741",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561119741,
+        "modified_at": "2026-10-26T16:58:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

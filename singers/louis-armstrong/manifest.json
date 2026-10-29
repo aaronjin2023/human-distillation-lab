@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1779",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis Armstrong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1971",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1779"
+            ],
+            "statement_id": "Q1779$D5ADA6B5-27E7-4C33-B693-F640B042CAE1",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1779"
+            ],
+            "statement_id": "q1779$3CFAFE45-B622-4182-96BB-EAEB351AB775",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-07-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1779"
+        ],
+        "statement_id": "q1779$62720E6F-0887-4C2D-8FCC-07541FEE94C1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q34404",
+        "label": "新奥尔良",
+        "label_en": "New Orleans",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1779"
+        ],
+        "statement_id": "q1779$CC31361E-18BD-47DD-80E1-C0425C161489",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q1779"
+          ],
+          "statement_id": "Q1779$5E49367B-284C-42EF-889E-D03C35B745DF",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·小号手兼歌手",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1779",
+        "title": "Wikidata Q1779 / 路易斯·阿姆斯特朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1779&oldid=2559678055",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559678055,
+        "modified_at": "2026-10-22T12:29:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

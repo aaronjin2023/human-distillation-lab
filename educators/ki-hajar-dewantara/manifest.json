@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "德万塔拉风格：为印尼学童设计一堂关于人工智能的课。在学校花园里：通过本地音乐、故事与手艺认识 AI，教师走在后面鼓励，结尾问 AI 如何为印尼文化服务而不是取代它，不用殖民课程。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1815982",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ki Hajar Dewantara",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1959",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1815982"
+            ],
+            "statement_id": "Q1815982$2354A782-D8C9-4705-8596-4ED3D3BB6D21",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1815982"
+            ],
+            "statement_id": "Q1815982$644A8741-A0B6-4E5C-A8C9-ABCF1C819C93",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1815982"
+        ],
+        "statement_id": "Q1815982$18A5A431-775D-4B7D-BE02-27A717B63ADF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7568",
+        "label": "日惹",
+        "label_en": "Yogyakarta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1815982"
+        ],
+        "statement_id": "Q1815982$578C36AF-FEF8-4BF3-9A0E-F444FA11F30E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q252",
+        "label": "印度尼西亚",
+        "label_en": "Indonesia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印尼国民教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1815982",
+        "title": "Wikidata Q1815982 / 基·哈亚尔·德万塔拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1815982&oldid=2557060180",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557060180,
+        "modified_at": "2026-10-14T22:36:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

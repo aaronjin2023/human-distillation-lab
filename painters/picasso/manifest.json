@@ -31,5 +31,235 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一辆停在街边的共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5593",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pablo Picasso",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1881–1973",
+      "birth_year": {
+        "value": 1881,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5593"
+            ],
+            "statement_id": "q5593$46BACCAD-A632-420C-95AD-305C50977AF3",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1881,
+            "raw_time": "+1881-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5593"
+            ],
+            "statement_id": "q5593$0D7D970A-370D-4A40-881E-2E87D9D98595",
+            "rank": "normal",
+            "reference_count": 23,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "q5593$848A8714-9C9D-4297-B6A1-16FF1C35F295",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q8851",
+        "label": "马拉加",
+        "label_en": "Málaga",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$eada43eb-4564-d94d-c55a-20d9d703481e",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$79A816F7-E1C7-44B8-9148-6D39471C6757",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q81909",
+        "label": "鲁瓦扬",
+        "label_en": "Royan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$7287B15D-2E2F-40FA-9D46-9412B8524257",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47465",
+        "label": "普罗旺斯地区艾克斯",
+        "label_en": "Aix-en-Provence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$EDA17936-B19B-44D5-B5CA-BA5EEF804EF5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6397",
+        "label": "阿维尼翁",
+        "label_en": "Avignon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$1693301A-E70A-4191-9033-CAB4C53CBDC8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q126898",
+        "label": "昂蒂布",
+        "label_en": "Antibes",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$C26D69B3-76AE-4D8E-A3EB-B29680E6AA15",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1002717",
+        "label": "Schoorl",
+        "label_en": "Schoorl",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$6CE4DF72-B566-447D-9BEA-A137291D379F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8757",
+        "label": "拉科鲁尼亚",
+        "label_en": "A Coruña",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$74E6E94C-3754-479F-A913-A1BBE223136A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "Q5593$79BE0AAE-8363-47C9-B847-1134A76981BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5593"
+        ],
+        "statement_id": "q5593$3EEB59BE-C618-400C-896C-619102AF058D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "立体主义 / 现代主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5593",
+        "title": "Wikidata Q5593 / 巴勃罗·毕加索",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5593&oldid=2558204742",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558204742,
+        "modified_at": "2026-10-18T01:59:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

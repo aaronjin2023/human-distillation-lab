@@ -45,5 +45,142 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q82999",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Melanie Klein",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1882–1960",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82999"
+            ],
+            "statement_id": "q82999$B48DE0B8-F9EC-4378-A9CF-A98B4E33FFD7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82999"
+            ],
+            "statement_id": "q82999$FB64D338-3F1B-48C4-A488-3407CD8ABE29",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-09-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q82999"
+        ],
+        "statement_id": "q82999$09499192-FA5D-4349-81B6-DE66B99042B1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q82999"
+        ],
+        "statement_id": "Q82999$302e0d1e-457c-2355-0eb0-6a8aa86218d6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q82999"
+        ],
+        "statement_id": "Q82999$5C7883C0-685E-4A15-BAA9-4BF39D27A3A9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "客体关系",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q82999",
+        "title": "Wikidata Q82999 / 梅兰妮·克莱因",
+        "url": "https://www.wikidata.org/w/index.php?title=Q82999&oldid=2554362314",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554362314,
+        "modified_at": "2026-10-07T05:30:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

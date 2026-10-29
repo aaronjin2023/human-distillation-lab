@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q278699",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Petty",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1623–1687",
+      "birth_year": {
+        "value": 1623,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q278699"
+            ],
+            "statement_id": "Q278699$7B8C349D-6886-43F9-B96D-73043B784CD5",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1623,
+            "raw_time": "+1623-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1687,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q278699"
+            ],
+            "statement_id": "Q278699$1431EED1-73F8-403A-8A98-5AD6D23CC3CF",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1687,
+            "raw_time": "+1687-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q278699"
+        ],
+        "statement_id": "q278699$7CF01A1C-0076-4DBB-A000-64EDB55D1EE8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1234718",
+        "label": "拉姆西",
+        "label_en": "Romsey",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q278699"
+        ],
+        "statement_id": "Q278699$9B9278BE-8BC7-4CCF-A054-919CB1C59F51",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "重商主义·赋税论",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q278699",
+        "title": "Wikidata Q278699 / 威廉·配第",
+        "url": "https://www.wikidata.org/w/index.php?title=Q278699&oldid=2558283400",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558283400,
+        "modified_at": "2026-10-18T06:23:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

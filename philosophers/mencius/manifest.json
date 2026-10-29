@@ -40,5 +40,133 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖平台该不该给骑手上社保",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q188903",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mencius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.372–c.289 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188903"
+            ],
+            "statement_id": "Q188903$8F7E5CD7-3E66-4B2E-BF91-C9D10E9C5378",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -372,
+            "raw_time": "-0372-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188903"
+            ],
+            "statement_id": "Q188903$242B168E-7787-49F9-B337-93D7BDBDEDA1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -289,
+            "raw_time": "-0289-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q188903"
+        ],
+        "statement_id": "Q188903$366248DC-E511-49E8-B09A-544E21636618",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q227007",
+        "label": "邾国",
+        "label_en": "Zhu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q188903"
+        ],
+        "statement_id": "Q188903$dd3895a3-46e5-f20a-1d25-74a443c31af0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q227007",
+        "label": "邾国",
+        "label_en": "Zhu",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "儒家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q188903",
+        "title": "Wikidata Q188903 / 孟子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q188903&oldid=2561681389",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561681389,
+        "modified_at": "2026-10-28T13:02:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q497827",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sam Walton",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–1992",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q497827"
+            ],
+            "statement_id": "q497827$8EA5B125-2161-4617-83E2-394E9A706DCB",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q497827"
+            ],
+            "statement_id": "q497827$6449FE98-EB13-4420-91E3-14A8C4216C2E",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q497827"
+        ],
+        "statement_id": "q497827$3F35B889-4CD3-44A6-96AD-F9E8713553A9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1013136",
+        "label": "金菲舍",
+        "label_en": "Kingfisher",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q497827"
+        ],
+        "statement_id": "q497827$E125C5F2-67AB-48CE-A2DA-2343EA48BE65",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "零售"
+    },
+    "sources": [
+      {
+        "id": "WD:Q497827",
+        "title": "Wikidata Q497827 / 山姆·沃尔顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q497827&oldid=2561611391",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561611391,
+        "modified_at": "2026-10-28T07:07:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

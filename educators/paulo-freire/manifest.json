@@ -44,5 +44,132 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "弗莱雷风格：为一群夜校成年学员设计一堂关于人工智能的课。从他们工作生活里的生成主题出发，开对话圈，让学员说出 AI 已经如何触及自己的工作，教师只提问题不给定义，读写从学员自己的词长出来。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q164797",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paulo Freire",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–1997",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q164797"
+            ],
+            "statement_id": "q164797$DC889680-EF83-4239-BF2B-C3A94414A98C",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-09-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q164797"
+            ],
+            "statement_id": "q164797$C6EA77D6-5C0A-47A9-82EB-B57CF248C018",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q164797"
+        ],
+        "statement_id": "q164797$08D2E9AF-4352-4B68-AD09-60FE266D3527",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q48344",
+        "label": "累西腓",
+        "label_en": "Recife",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q164797"
+        ],
+        "statement_id": "Q164797$FC7D9C40-FF47-4A4E-95C2-1282515A9D2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q71",
+        "label": "日内瓦",
+        "label_en": "Geneva",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q164797"
+        ],
+        "statement_id": "q164797$C2EDC501-D4DC-4C4B-A4F4-3E8892526F61",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "批判教育学",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q164797",
+        "title": "Wikidata Q164797 / 保羅·弗萊雷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q164797&oldid=2559888084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559888084,
+        "modified_at": "2026-10-23T06:36:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

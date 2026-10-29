@@ -38,5 +38,146 @@
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Chuck Berry",
-  "writer_zh": "查克·贝里"
+  "writer_zh": "查克·贝里",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5921",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chuck Berry",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2017",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5921"
+            ],
+            "statement_id": "q5921$9B00AD1B-5136-4C54-9584-19B23A68108E",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5921"
+            ],
+            "statement_id": "Q5921$b5eecfce-4dc5-cc5e-b9fd-0a46def24e45",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-03-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5921"
+        ],
+        "statement_id": "q5921$03036FC8-9774-4FF5-B8EE-679A9BC8008E",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q38022",
+        "label": "圣路易斯",
+        "label_en": "St. Louis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5921"
+        ],
+        "statement_id": "Q5921$91E26F12-1E5C-4004-80BE-0D554CBAAB97",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5921"
+        ],
+        "statement_id": "q5921$4B22B1A7-A80C-4443-9238-A856DFC75F47",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5921"
+          ],
+          "statement_id": "Q5921$3FDC0509-6E08-4578-A213-B6A7E1C39F32",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英语摇滚·创作歌手",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5921",
+        "title": "Wikidata Q5921 / 查克·贝里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5921&oldid=2561671393",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561671393,
+        "modified_at": "2026-10-28T12:22:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,134 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给小学生上一堂关于‘如何讲一个故事’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对生卒（Wikipedia c.35–c.100 vs Loeb c.35–c.95，取草稿约数）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q193769",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Quintilian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.35–c.100",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193769"
+            ],
+            "statement_id": "Q193769$D34D4B09-41A0-48E1-A92A-1C8391E80942",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 35,
+            "raw_time": "+0035-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193769"
+            ],
+            "statement_id": "Q193769$CE351EC7-D6B5-48F5-9E3A-1D5166C52E70",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 96,
+            "raw_time": "+0096-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q193769"
+        ],
+        "statement_id": "Q193769$0d872435-4af5-fbed-1799-53d2accab1ed",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q19603600",
+        "label": "Calagurris",
+        "label_en": "Calagurris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q193769"
+        ],
+        "statement_id": "Q193769$7c4c249d-4b08-6cc2-147c-ae0f959c9754",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·雄辩教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q193769",
+        "title": "Wikidata Q193769 / 昆提利安",
+        "url": "https://www.wikidata.org/w/index.php?title=Q193769&oldid=2559064047",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559064047,
+        "modified_at": "2026-10-20T04:13:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

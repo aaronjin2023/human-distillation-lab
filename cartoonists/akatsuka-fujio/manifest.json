@@ -39,5 +39,142 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬在便利店制造混乱，搞笑漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q958256",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fujio Akatsuka",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2008",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q958256"
+            ],
+            "statement_id": "q958256$9DF76E5A-02A7-435D-8799-F92C1A058673",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q958256"
+            ],
+            "statement_id": "q958256$0B675ABB-7C5E-4342-B5D7-4043EAF2DA07",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q958256"
+        ],
+        "statement_id": "q958256$BFA04EFC-75AF-462E-B558-417D5F46CA42",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1196638",
+        "label": "滦平县",
+        "label_en": "Luanping County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q958256"
+        ],
+        "statement_id": "q958256$6B0E2EDC-4311-48CE-906B-1BB1ACB59813",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q958256"
+        ],
+        "statement_id": "Q958256$BB3546E8-0A74-4749-8288-27B081A7D86A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·搞笑漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q958256",
+        "title": "Wikidata Q958256 / 赤塚不二夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q958256&oldid=2542242212",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542242212,
+        "modified_at": "2026-09-08T12:26:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

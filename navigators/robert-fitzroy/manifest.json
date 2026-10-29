@@ -36,5 +36,132 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Robert FitzRoy, an uncrewed cargo ship crosses the Pacific in 2026. Daily log entries give latitude, longitude, wind and barometer readings. A storm warning is issued from falling pressure before any cloud is seen. Plain factual language, no embellishment.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q213756",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert FitzRoy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1805–1865",
+      "birth_year": {
+        "value": 1805,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q213756"
+            ],
+            "statement_id": "q213756$D845CFFB-E21C-455F-BA7B-6FC5EE431C58",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1805,
+            "raw_time": "+1805-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q213756"
+            ],
+            "statement_id": "q213756$F93829D0-5E26-4D93-8457-856D98E91203",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1865,
+            "raw_time": "+1865-04-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q213756"
+        ],
+        "statement_id": "q213756$9BA021F2-CEF0-44D4-8BCF-3998224F1809",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16707713",
+        "label": "Ampton Hall",
+        "label_en": "Ampton Hall",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q213756"
+        ],
+        "statement_id": "Q213756$640BE17C-8821-46D0-9D39-7D7D7D1D077B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q213756"
+        ],
+        "statement_id": "Q213756$6DABAB05-9DC6-4D14-BA41-C66E19E5F85A",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "H. 科学与测量航海",
+      "genre": "H. 科学与测量航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q213756",
+        "title": "Wikidata Q213756 / 罗伯特·菲茨罗伊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q213756&oldid=2558226138",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558226138,
+        "modified_at": "2026-10-18T03:09:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

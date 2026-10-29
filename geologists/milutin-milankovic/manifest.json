@@ -28,5 +28,130 @@
     "深海证实的时间线以综述为准"
   ],
   "test_prompt": "现代问题：下一次冰期何时到来？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q89054",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Milutin Milanković",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1879–1958",
+      "birth_year": {
+        "value": 1879,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q89054"
+            ],
+            "statement_id": "q89054$480D4C9D-4C9D-4A5D-8C3C-A958E63F7143",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1879,
+            "raw_time": "+1879-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q89054"
+            ],
+            "statement_id": "q89054$D104CD8D-D84F-4731-8146-8E27C7B93149",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q89054"
+        ],
+        "statement_id": "q89054$93C047A1-D9D3-4F36-BA51-DD119AAD55A1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q912341",
+        "label": "達利",
+        "label_en": "Dalj",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q89054"
+        ],
+        "statement_id": "Q89054$8AAEAA6B-855B-4B99-A792-DDBA5D49CB99",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28513",
+        "label": "奥匈帝国",
+        "label_en": "Austria–Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q89054"
+        ],
+        "statement_id": "Q89054$BAB43881-4EC6-465A-A0B7-9D36D84204FC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q191077",
+        "label": "南斯拉夫王国",
+        "label_en": "Kingdom of Yugoslavia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "气候地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q89054",
+        "title": "Wikidata Q89054 / 米盧廷·米蘭科維奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q89054&oldid=2559893994",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559893994,
+        "modified_at": "2026-10-23T06:54:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

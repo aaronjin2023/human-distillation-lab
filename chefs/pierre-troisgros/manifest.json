@@ -42,5 +42,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1256209",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre Troisgros",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2020",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1256209"
+            ],
+            "statement_id": "Q1256209$89ACBB8F-C0CC-4172-8C5A-5A28E47E78AA",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-09-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1256209"
+            ],
+            "statement_id": "Q1256209$d48fa677-4ef5-71c4-95de-7c14194ecba0",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1256209"
+        ],
+        "statement_id": "q1256209$e7ca3859-42a4-7ccc-c751-4923c18dad89",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q203645",
+        "label": "索恩河畔沙隆",
+        "label_en": "Chalon-sur-Saône",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1256209"
+        ],
+        "statement_id": "Q1256209$5FF2A0CA-9E7A-4F2A-A822-2646427E6A47",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1256209",
+        "title": "Wikidata Q1256209 / Pierre Troisgros",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1256209&oldid=2555626413",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555626413,
+        "modified_at": "2026-10-10T15:58:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

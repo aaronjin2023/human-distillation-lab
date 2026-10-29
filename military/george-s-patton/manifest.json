@@ -38,5 +38,130 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "山火围堵行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q186492",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George S. Patton",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1945",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186492"
+            ],
+            "statement_id": "q186492$B41521EC-6CFA-4D84-84AB-C464118A1E87",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-11-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186492"
+            ],
+            "statement_id": "q186492$529C6CBA-B8A6-4BF1-B9DF-1E9B145A7CA5",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-12-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q186492"
+        ],
+        "statement_id": "q186492$70F0AC06-3A27-4B88-9B12-15FC3FD8CAB7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q953437",
+        "label": "圣盖博",
+        "label_en": "San Gabriel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q186492"
+        ],
+        "statement_id": "Q186492$0E1AF6D0-734B-49CC-B558-5C8B42C919BE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2363753",
+        "label": "圣盖博谷",
+        "label_en": "San Gabriel Valley",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q186492"
+        ],
+        "statement_id": "q186492$42431848-68F8-458D-993F-83B58D5A4473",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·装甲突击"
+    },
+    "sources": [
+      {
+        "id": "WD:Q186492",
+        "title": "Wikidata Q186492 / 乔治·巴顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q186492&oldid=2557892665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557892665,
+        "modified_at": "2026-10-17T06:17:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

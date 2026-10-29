@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Xie Jiarong, judge a new mineral occurrence: map the host rocks and structures, classify it by genesis, and predict where the same type should occur next",
   "test_question_zh": "一处新矿点，是什么成因类型，下一处该往哪找？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q12024253",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xie Jiarong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1966",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12024253"
+            ],
+            "statement_id": "Q12024253$E3D7BE54-B3B6-40E3-BFC2-EB6D06676A49",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-09-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12024253"
+            ],
+            "statement_id": "Q12024253$E413A688-CFD8-4DEA-8372-DFADC64E7A0A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q12024253"
+        ],
+        "statement_id": "Q12024253$EED27301-C40B-4EA3-94C7-2346E165D959",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q12024253"
+        ],
+        "statement_id": "Q12024253$5D9C8CFE-960D-4944-A5A6-5CA34CB38B70",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "矿床地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q12024253",
+        "title": "Wikidata Q12024253 / 谢家荣",
+        "url": "https://www.wikidata.org/w/index.php?title=Q12024253&oldid=2542357181",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542357181,
+        "modified_at": "2026-09-08T16:46:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

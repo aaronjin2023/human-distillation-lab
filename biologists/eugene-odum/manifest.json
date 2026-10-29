@@ -29,5 +29,117 @@
     "能量流原始测定数据未逐项核对",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q936568",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eugene Odum",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–2002",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q936568"
+            ],
+            "statement_id": "q936568$0AB6E8CD-2914-4362-B5A7-6F19186EF730",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-09-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q936568"
+            ],
+            "statement_id": "q936568$423B96D6-C4E5-4408-A328-0F765DE73928",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-08-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q936568"
+        ],
+        "statement_id": "q936568$7072DA7B-ABFB-4081-B077-70CE0E6B92A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q286753",
+        "label": "纽波特",
+        "label_en": "Newport",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q936568"
+        ],
+        "statement_id": "q936568$716B54C7-228D-44EE-B367-BCB0D8C0E21E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生态系统生态学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q936568",
+        "title": "Wikidata Q936568 / 尤金·奥德姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q936568&oldid=2556173186",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556173186,
+        "modified_at": "2026-10-12T07:29:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

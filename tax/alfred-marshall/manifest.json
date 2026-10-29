@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "评论某国对短视频主播征税的方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q13529",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Marshall",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1842–1924",
+      "birth_year": {
+        "value": 1842,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q13529"
+            ],
+            "statement_id": "q13529$2C24AFCF-3AEF-4846-92C1-A63B34297561",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1842,
+            "raw_time": "+1842-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q13529"
+            ],
+            "statement_id": "q13529$369A7D73-F391-4F26-B416-837CF5F88D79",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-07-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q13529"
+        ],
+        "statement_id": "Q13529$A25E584B-BE0F-465B-B380-BA425E0A6056",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q13529"
+        ],
+        "statement_id": "Q13529$17852E74-8389-4445-956C-D374725EA40D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·税收与补贴论",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q13529",
+        "title": "Wikidata Q13529 / 阿尔弗雷德·马歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q13529&oldid=2560830381",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560830381,
+        "modified_at": "2026-10-25T21:58:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

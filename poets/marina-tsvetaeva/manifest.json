@@ -43,5 +43,184 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q188526",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marina Tsvetaeva",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1941",
+      "birth_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188526"
+            ],
+            "statement_id": "Q188526$0296EDFF-3240-4966-8C22-AEE71EF25613",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-10-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188526"
+            ],
+            "statement_id": "q188526$5C43FCBD-D487-4D77-BF35-33D9E1BDE692",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "q188526$C56FF73D-C103-4A60-9DE6-997C5FAA29B7",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$286FE189-B700-4E99-ABF8-1F95CA533E6F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$9321F2AA-C80E-4D76-B938-0D56792FA974",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$AB14276C-4506-44C9-8BFB-2506425866C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$4C0876FB-4E36-46EC-B0D3-92ED097B7C92",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$A1FEBCEA-04F2-4D3E-8791-B3647929697E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q188526"
+        ],
+        "statement_id": "Q188526$266411AA-CB4F-43F0-9F68-346D8DF23157",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q188526",
+        "title": "Wikidata Q188526 / 玛琳娜·茨维塔耶娃",
+        "url": "https://www.wikidata.org/w/index.php?title=Q188526&oldid=2559061125",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559061125,
+        "modified_at": "2026-10-20T04:06:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

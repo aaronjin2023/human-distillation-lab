@@ -39,5 +39,102 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q346725",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lou Jiwei",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q346725"
+            ],
+            "statement_id": "Q346725$D871412F-FBFD-436C-9FDA-D21D13BC5F5D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q346725"
+        ],
+        "statement_id": "Q346725$BE4AA263-BE02-47F3-8DE9-5917E6BDE8FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1011138",
+        "label": "义乌市",
+        "label_en": "Yiwu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q346725"
+        ],
+        "statement_id": "Q346725$F7870F79-C6EF-4DB7-8BBB-32498D32B92F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代中国·分税制与增值税改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q346725",
+        "title": "Wikidata Q346725 / 楼继伟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q346725&oldid=2553970606",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553970606,
+        "modified_at": "2026-10-06T14:33:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

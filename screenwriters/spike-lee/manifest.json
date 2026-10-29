@@ -37,5 +37,116 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Spike Lee",
-  "writer_zh": "斯派克·李"
+  "writer_zh": "斯派克·李",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51566",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Spike Lee",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51566"
+            ],
+            "statement_id": "q51566$B67DF6EE-B2BC-4A03-A88A-BFDE6B519447",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51566"
+        ],
+        "statement_id": "q51566$CDDD8227-F3FD-4B4F-A4E2-25C202D6CAD0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q23556",
+        "label": "亚特兰大",
+        "label_en": "Atlanta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51566"
+        ],
+        "statement_id": "q51566$600FFAA8-698C-4DAF-BFD4-82D22FD3CE7B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q51566"
+          ],
+          "statement_id": "Q51566$1D73F567-0212-4AC2-83B1-DC40D50C2D58",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·当代",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51566",
+        "title": "Wikidata Q51566 / 史派克·李",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51566&oldid=2558240611",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558240611,
+        "modified_at": "2026-10-18T04:03:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

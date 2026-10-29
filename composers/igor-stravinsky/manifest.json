@@ -30,5 +30,178 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "为一只坐在地铁座位上的小约克夏犬写 30 秒配乐",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7314",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Igor Stravinsky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1882–1971",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7314"
+            ],
+            "statement_id": "Q7314$0a6f39a3-453f-bc78-f3ff-350770a0d405",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7314"
+            ],
+            "statement_id": "q7314$10B1A6ED-B140-4C61-AED7-36F74BB231E1",
+            "rank": "preferred",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-04-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7314"
+        ],
+        "statement_id": "q7314$7970e2f5-4cd7-53b1-34d5-4dd526a668a9",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q157688",
+        "label": "羅蒙諾索夫",
+        "label_en": "Lomonosov",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7314"
+        ],
+        "statement_id": "Q7314$7040218D-3FF4-4FF5-AB07-341E847E0B02",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1934-05-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7314"
+        ],
+        "statement_id": "Q7314$84e7a53a-4a57-dff2-c8aa-75036419d394",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7314"
+        ],
+        "statement_id": "Q7314$de516513-4034-3d8d-55db-b05dde48d007",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7314"
+        ],
+        "statement_id": "Q7314$4AEE612C-BDFE-4D15-9973-4FB896F9020F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7314",
+        "title": "Wikidata Q7314 / 伊戈尔·斯特拉文斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7314&oldid=2561572423",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561572423,
+        "modified_at": "2026-10-27T23:58:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

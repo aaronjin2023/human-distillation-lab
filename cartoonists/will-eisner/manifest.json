@@ -38,5 +38,132 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜便利店门口躲雨的人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q309850",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Will Eisner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–2005",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309850"
+            ],
+            "statement_id": "q309850$61612FEA-957C-4B51-B22C-CF49481E4D04",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309850"
+            ],
+            "statement_id": "q309850$0F15DB65-014E-4361-AA4A-CBBF11C2A2CE",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q309850"
+        ],
+        "statement_id": "q309850$0AEE863C-BD27-4F58-BEC8-F4797E0ED862",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q309850"
+        ],
+        "statement_id": "q309850$62D9722F-7053-4F6E-B089-6A788F98FAF8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q309850"
+          ],
+          "statement_id": "Q309850$dad6d2d9-44eb-afba-2277-be926495372b",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·图像小说/超级英雄漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q309850",
+        "title": "Wikidata Q309850 / 威尔·埃斯纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q309850&oldid=2558281390",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558281390,
+        "modified_at": "2026-10-18T06:17:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

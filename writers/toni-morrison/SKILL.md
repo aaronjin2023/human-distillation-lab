@@ -28,3 +28,7 @@
 
 - 生卒与代表作按 writers-top100-draft.md；2026-10-26 web 搜索核对：《最蓝的眼睛》1970 年 11 月出版（Ohioana 图书馆）；其余未逐一核对到原文出处者见 `conflicts.md` 与 `manifest.json` 的 known_gaps。
 - 待核对：见 conflicts.md。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

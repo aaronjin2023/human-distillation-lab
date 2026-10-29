@@ -43,5 +43,131 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8743",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Edison",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1847–1931",
+      "birth_year": {
+        "value": 1847,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8743"
+            ],
+            "statement_id": "q8743$588808C5-3822-4D6E-9ED5-2CDBF9A7DED2",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1847,
+            "raw_time": "+1847-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8743"
+            ],
+            "statement_id": "q8743$E2F94F76-0288-4A7C-9FAF-2AC20A4502F9",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8743"
+        ],
+        "statement_id": "q8743$D875537C-2363-434D-B23C-C45F19A3A9B9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1645063",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8743"
+        ],
+        "statement_id": "Q8743$959ef44e-4f22-0d37-b1c8-e72d62facf7a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q8743"
+          ],
+          "statement_id": "Q8743$A2FB283F-F5D7-4151-AB5C-980D0CDA3A15",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q846570",
+          "label": "美国人",
+          "label_en": "Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "发明 / 电气"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8743",
+        "title": "Wikidata Q8743 / 托马斯·爱迪生",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8743&oldid=2561502790",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561502790,
+        "modified_at": "2026-10-27T18:33:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

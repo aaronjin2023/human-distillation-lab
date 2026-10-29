@@ -29,5 +29,55 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q82778",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Pliny the Elder",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "23–79",
+      "birth_year": {
+        "value": 23,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 79,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "博物学"
+    },
+    "sources": []
+  }
 }

@@ -30,5 +30,117 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "共享单车停放点（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5811",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Masaccio",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1401–1428",
+      "birth_year": {
+        "value": 1401,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5811"
+            ],
+            "statement_id": "Q5811$1532D480-79CF-462B-8E1D-DD76C43AB0A3",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1401,
+            "raw_time": "+1401-12-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1428,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5811"
+            ],
+            "statement_id": "Q5811$ee5fc601-482a-0fbf-b7a2-d3a7e61ee681",
+            "rank": "normal",
+            "reference_count": 26,
+            "qualifiers": {},
+            "value": 1428,
+            "raw_time": "+1428-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5811"
+        ],
+        "statement_id": "Q5811$60172f36-49aa-17da-7859-c628e27ad8bc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q52097",
+        "label": "圣乔瓦尼-瓦尔达诺",
+        "label_en": "San Giovanni Valdarno",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5811"
+        ],
+        "statement_id": "Q5811$97B730A0-E58B-437B-9280-BA2BA87F2E74",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "早期文艺复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5811",
+        "title": "Wikidata Q5811 / 马萨乔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5811&oldid=2558161313",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558161313,
+        "modified_at": "2026-10-17T23:41:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Susumu Tonegawa, test whether a new immune receptor's diversity comes from gene rearrangement: compare the receptor gene in germline and in receptor-producing cells, look for rearranged fragments, and do not claim a regulatory mechanism the comparison cannot show",
   "test_question_zh": "一种新发现的免疫细胞受体多样性很高，怎么判断它是否由基因重排产生？",
   "verification": "生卒 1939–、抗体基因重排 1976、1987 年诺贝尔生理学或医学奖按生物学史通说写；原文细节未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q108602",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Susumu Tonegawa",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q108602"
+            ],
+            "statement_id": "Q108602$3c4f06e0-1bdc-4270-917b-db4cef8fae66",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2026,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q108602"
+            ],
+            "statement_id": "Q108602$44ea30b6-4595-c6fc-ec5a-caacc9ab627f",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2026,
+            "raw_time": "+2026-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q108602"
+        ],
+        "statement_id": "Q108602$A6D779C2-2AA1-4818-83FD-0BE4C5E025E5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11751",
+        "label": "名古屋市",
+        "label_en": "Nagoya",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q108602"
+        ],
+        "statement_id": "Q108602$45010E12-7E3E-4AF2-B6FC-D04DD4A3F988",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分子免疫学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q108602",
+        "title": "Wikidata Q108602 / 利根川进",
+        "url": "https://www.wikidata.org/w/index.php?title=Q108602&oldid=2560010303",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560010303,
+        "modified_at": "2026-10-23T14:53:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

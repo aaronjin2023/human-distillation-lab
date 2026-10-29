@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于黎明时分渔民在海边补网的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q210734",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Youssou N'Dour",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1959–",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q210734"
+            ],
+            "statement_id": "q210734$EBDEB630-E2E0-415E-B7F6-719B4D177EA4",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q210734"
+        ],
+        "statement_id": "Q210734$50309292-1A8D-4F36-B7AF-D6A553D0D404",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3718",
+        "label": "达喀尔",
+        "label_en": "Dakar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q210734"
+        ],
+        "statement_id": "Q210734$FEA36249-8CBE-44C7-A7DC-1B4A624845A4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1041",
+        "label": "塞内加尔",
+        "label_en": "Senegal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "塞内加尔·姆巴拉克斯",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q210734",
+        "title": "Wikidata Q210734 / 尤蘇·恩多爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q210734&oldid=2559179181",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559179181,
+        "modified_at": "2026-10-20T10:32:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市骑行快递员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q296647",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ralph Lauren",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296647"
+            ],
+            "statement_id": "q296647$3BD29BA8-85B8-4DC5-B599-CF1946EAD20F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q296647"
+        ],
+        "statement_id": "q296647$30331BB7-ECE9-4F9A-AB98-C8D25631D8A0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18426",
+        "label": "布朗克斯",
+        "label_en": "The Bronx",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q296647"
+        ],
+        "statement_id": "q296647$FFF1D448-897A-44CB-90DD-5AF60A8913B5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·成衣 / 美式经典",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q296647",
+        "title": "Wikidata Q296647 / 拉尔夫·劳伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q296647&oldid=2558220940",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558220940,
+        "modified_at": "2026-10-18T02:52:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

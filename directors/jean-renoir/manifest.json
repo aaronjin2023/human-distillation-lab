@@ -45,5 +45,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q50713",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Renoir",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1894–1979",
+      "birth_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q50713"
+            ],
+            "statement_id": "q50713$8A247B71-683D-49FB-97A4-2D003990F95B",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q50713"
+            ],
+            "statement_id": "q50713$2C14B1B7-557B-4144-8974-8904A1C835F5",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q50713"
+        ],
+        "statement_id": "Q50713$11AFE3C5-402D-4B69-AD21-0A1830B5071D",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q186115",
+        "label": "蒙马特",
+        "label_en": "Montmartre",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q50713"
+        ],
+        "statement_id": "q50713$62DA606B-598C-4F7C-B077-E5A4D012A945",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·诗意现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q50713",
+        "title": "Wikidata Q50713 / 让·雷诺阿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q50713&oldid=2557958494",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557958494,
+        "modified_at": "2026-10-17T10:55:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

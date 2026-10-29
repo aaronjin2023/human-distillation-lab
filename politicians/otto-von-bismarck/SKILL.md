@@ -15,3 +15,7 @@ description: 研究俾斯麦议会策略、渐进社会立法与组织压制之�
 - [决策](decisions.md)
 - [冲突与限制](conflicts.md)
 - [来源](manifest.json)
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

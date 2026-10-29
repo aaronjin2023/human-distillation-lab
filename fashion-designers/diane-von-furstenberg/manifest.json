@@ -38,5 +38,126 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市共享办公空间接待员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272438",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diane von Furstenberg",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1946–",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272438"
+            ],
+            "statement_id": "Q272438$AB85AB3F-682E-4CEF-AD55-47127625AC44",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-12-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272438"
+        ],
+        "statement_id": "q272438$1385B89C-63D3-4C2F-AF6A-966FFC060D31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9005",
+        "label": "布鲁塞尔城市圈",
+        "label_en": "Brussels metropolitan area",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272438"
+        ],
+        "statement_id": "q272438$94BBF45F-DAFB-4326-855A-0C8275CE450B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2002-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q272438"
+        ],
+        "statement_id": "Q272438$CED2F52C-6D57-485D-89FE-3C01A2DDC0A0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "比利时—美国·成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272438",
+        "title": "Wikidata Q272438 / 迪亚娜·冯·菲尔斯滕贝格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272438&oldid=2533930048",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533930048,
+        "modified_at": "2026-08-20T23:23:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

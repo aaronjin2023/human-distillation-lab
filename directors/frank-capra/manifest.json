@@ -45,5 +45,165 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51492",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frank Capra",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1897–1991",
+      "birth_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51492"
+            ],
+            "statement_id": "q51492$439B71F4-90A2-4162-A1DA-B6BA501DEC0E",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-05-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51492"
+            ],
+            "statement_id": "q51492$9A50993E-59B5-498D-A8E8-501E79C19CC6",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-09-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51492"
+        ],
+        "statement_id": "q51492$61c767a6-4432-cbf4-c948-bb533aa9be83",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q496914",
+        "label": "比萨奎诺",
+        "label_en": "Bisacquino",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51492"
+        ],
+        "statement_id": "q51492$3700AF0E-D667-405D-A87B-E0E2F05C39CC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q51492"
+        ],
+        "statement_id": "Q51492$75ed5c26-4834-6f87-1ee2-ac4d336e7c19",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-19T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q51492"
+        ],
+        "statement_id": "Q51492$2627bf59-4fab-4364-6686-afc1a094ecee",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·喜剧 / 人文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51492",
+        "title": "Wikidata Q51492 / 法蘭克·卡普拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51492&oldid=2557882777",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557882777,
+        "modified_at": "2026-10-17T05:42:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

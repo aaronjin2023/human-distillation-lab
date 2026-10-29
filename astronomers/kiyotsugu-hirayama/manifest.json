@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Kiyotsugu Hirayama, analyse a new survey sample of 500 asteroids: compute proper orbital elements, look for clusters in semi-major axis, eccentricity and inclination, and name any family you find only if the clustering survives perturbation removal",
   "test_question_zh": "新巡天小行星样本里有没有新的小行星族？",
   "verification": "生卒 1874–1943、1918 年论文与 Koronis/Eos/Themis 三族经 web 搜索核对（Wikipedia 'Kiyotsugu Hirayama'、'Asteroid family'）；其余未逐项核对",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11900",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kiyotsugu Hirayama",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1874–1943",
+      "birth_year": {
+        "value": 1874,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11900"
+            ],
+            "statement_id": "Q11900$4E942870-0592-47B5-A479-4C3D310BAC51",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1874,
+            "raw_time": "+1874-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11900"
+            ],
+            "statement_id": "Q11900$D704AF6A-4434-4014-9D90-C8EF3B332150",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11900"
+        ],
+        "statement_id": "Q11900$CA57700D-14A1-4BBD-A517-C4C22DF2603C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q46747",
+        "label": "仙台市",
+        "label_en": "Sendai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11900"
+        ],
+        "statement_id": "Q11900$c5fab0c0-4137-4d6e-3ef3-59da7d3d7072",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "日本·小行星天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11900",
+        "title": "Wikidata Q11900 / 平山清次",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11900&oldid=2527623409",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527623409,
+        "modified_at": "2026-08-05T12:59:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

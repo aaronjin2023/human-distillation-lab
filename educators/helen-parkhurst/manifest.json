@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "帕克赫斯特风格：为中学生设计一个道尔顿制的人工智能单元。每人一份两周完成的书面作业契约，自定进度；按学科设实验室供学生走动求教，教师巡回个别指导，不全班讲授、不统一考试。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q271932",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Helen Parkhurst",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1973",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q271932"
+            ],
+            "statement_id": "Q271932$ba4f2328-417b-8f25-a7ea-13d618653971",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q271932"
+            ],
+            "statement_id": "Q271932$C6921C6C-6BE7-4E38-B4F5-D1443746471A",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q271932"
+        ],
+        "statement_id": "q271932$2B469522-48AD-49F4-A088-9700B1C20406",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1013684",
+        "label": "Durand",
+        "label_en": "Durand",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q271932"
+        ],
+        "statement_id": "q271932$C41DB0B5-DF1B-49E5-9411-D0FBCBFBEBF4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "道尔顿制",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q271932",
+        "title": "Wikidata Q271932 / 海伦·帕克赫斯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q271932&oldid=2531251066",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2531251066,
+        "modified_at": "2026-08-14T09:11:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -41,5 +41,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "千利休风格：现代办公庭院里的一座小小茶庭，飞石小径穿苔竹而过，蹲踞手水，低矮中门，尽头一间小茶室，幽静简素，园为通往寂静的通道。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q305477",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sen no Rikyu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1522–1591",
+      "birth_year": {
+        "value": 1522,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q305477"
+            ],
+            "statement_id": "Q305477$503DAEA7-5C48-472E-ADBB-103F47625D1C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1522,
+            "raw_time": "+1522-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1591,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q305477"
+            ],
+            "statement_id": "Q305477$60903D34-4FF9-48A5-B513-28F6D4A6E48C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1591,
+            "raw_time": "+1591-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q305477"
+        ],
+        "statement_id": "q305477$880199FB-A665-4680-A0D3-255AC472CFB3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q193428",
+        "label": "堺市",
+        "label_en": "Sakai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q305477"
+        ],
+        "statement_id": "q305477$EDFB7A58-E57A-412C-8A3B-2285AE3600A5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "安土桃山·茶庭",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q305477",
+        "title": "Wikidata Q305477 / 千利休",
+        "url": "https://www.wikidata.org/w/index.php?title=Q305477&oldid=2553939722",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553939722,
+        "modified_at": "2026-10-06T13:25:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

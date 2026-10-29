@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for oat milk",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q983171",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jack Trout",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2017",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983171"
+            ],
+            "statement_id": "Q983171$DE54DB7B-D816-45A7-AB51-E39D8245D413",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-01-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983171"
+            ],
+            "statement_id": "Q983171$0b439a8b-4455-2305-eb58-1ed495563175",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q983171"
+        ],
+        "statement_id": "Q983171$8f0f1043-4181-caaf-9444-e594d1b1dda3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q983171"
+        ],
+        "statement_id": "q983171$D5A92FAD-B37D-4152-8557-F32C6E044A7C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "定位理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q983171",
+        "title": "Wikidata Q983171 / 杰克·特鲁特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q983171&oldid=2554038308",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554038308,
+        "modified_at": "2026-10-06T16:59:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

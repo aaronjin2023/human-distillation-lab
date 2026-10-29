@@ -66,5 +66,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "社区团购",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q310161",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Manuel Castells",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310161"
+            ],
+            "statement_id": "Q310161$77E17CF6-F715-4E47-8789-F0944D6D812D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q310161"
+        ],
+        "statement_id": "Q310161$ABB37E9B-101F-4CD9-A102-20B69DA20F22",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q842652",
+        "label": "埃林",
+        "label_en": "Hellín",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q310161"
+        ],
+        "statement_id": "Q310161$0C2441F2-4AF1-4FD1-97E3-218132281CE6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "网络社会·城市社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q310161",
+        "title": "Wikidata Q310161 / 曼紐·卡斯提爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q310161&oldid=2557063084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557063084,
+        "modified_at": "2026-10-14T22:50:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

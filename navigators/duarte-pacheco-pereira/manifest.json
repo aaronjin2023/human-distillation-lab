@@ -36,5 +36,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Duarte Pacheco Pereira, an uncrewed vessel surveys an unknown coast in 2026, logging latitude and magnetic variation at every headland, writing a sailing manual that another ship could sail by.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q686754",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Duarte Pacheco Pereira",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1460–1533",
+      "birth_year": {
+        "value": 1460,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q686754"
+            ],
+            "statement_id": "Q686754$5B4A1D28-2526-43CB-8E60-5CEF5F322769",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1460,
+            "raw_time": "+1460-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1533,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q686754"
+            ],
+            "statement_id": "Q686754$C0C6DC58-5BDA-4DC6-905E-06552A19E010",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1533,
+            "raw_time": "+1533-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q686754"
+        ],
+        "statement_id": "q686754$2E4B55C1-7B20-45EA-B7E0-2A53BB7EABD3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q597",
+        "label": "里斯本",
+        "label_en": "Lisbon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q686754"
+        ],
+        "statement_id": "q686754$B7390180-2FBC-4197-9DBB-A577F1F22B64",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·大西洋—印度洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q686754",
+        "title": "Wikidata Q686754 / 杜阿尔特·帕谢科·佩雷拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q686754&oldid=2561078177",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561078177,
+        "modified_at": "2026-10-26T13:29:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

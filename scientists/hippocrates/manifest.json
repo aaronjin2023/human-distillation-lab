@@ -29,5 +29,119 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何判断一种新发传染病的病程规律？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒为约数（草稿第 4 节第 10 条）；生卒与成果名以草稿 v1 为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5264",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hippocrates",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.460–c.370 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5264"
+            ],
+            "statement_id": "Q5264$d05f3dfb-4689-31e4-e75a-3d9611eb9631",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -460,
+            "raw_time": "-0460-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5264"
+            ],
+            "statement_id": "Q5264$16bbd477-4a4a-6587-f9ad-5336534e822d",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -370,
+            "raw_time": "-0370-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5264"
+        ],
+        "statement_id": "q5264$DA45EB1E-D253-4B8D-8755-CEB5FABB06A1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q187027",
+        "label": "科斯岛",
+        "label_en": "Kos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5264",
+        "title": "Wikidata Q5264 / 希波克拉底",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5264&oldid=2551430515",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551430515,
+        "modified_at": "2026-09-30T19:00:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

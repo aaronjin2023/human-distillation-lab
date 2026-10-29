@@ -43,5 +43,167 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Jane Austen",
-  "writer_zh": "简·奥斯汀"
+  "writer_zh": "简·奥斯汀",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q36322",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jane Austen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1775–1817",
+      "birth_year": {
+        "value": 1775,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36322"
+            ],
+            "statement_id": "q36322$78B520C7-6E30-4ECA-82C8-CBF9431CF703",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1775,
+            "raw_time": "+1775-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36322"
+            ],
+            "statement_id": "q36322$AFA267DC-F247-469A-8CBD-7B47F20680B9",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1817,
+            "raw_time": "+1817-07-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q36322"
+        ],
+        "statement_id": "q36322$D3CE9C9E-2BFD-4740-88EB-95ADB5558A17",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1231836",
+        "label": "史蒂文顿",
+        "label_en": "Steventon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q36322"
+        ],
+        "statement_id": "Q36322$44F1171E-A049-4672-AFEE-07BE51C2B6DA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3397547",
+        "label": "Steventon",
+        "label_en": "Steventon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q36322"
+        ],
+        "statement_id": "Q36322$7448BC7A-AF14-402F-AE32-7477E4F1AD05",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q36322"
+        ],
+        "statement_id": "q36322$ADA53411-0495-4B9E-87CB-6B2386A1E47D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q36322"
+          ],
+          "statement_id": "Q36322$EA0DC898-CF34-4C6C-9394-2159502508D3",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42406",
+          "label": "英格蘭人",
+          "label_en": "English people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英国·小说",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q36322",
+        "title": "Wikidata Q36322 / 简·奥斯丁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q36322&oldid=2559315344",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559315344,
+        "modified_at": "2026-10-20T18:12:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

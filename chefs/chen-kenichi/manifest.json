@@ -44,5 +44,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "陈建一风格：一份深夜便利店关东煮的重构——麻婆豆腐的热辣、干烧虾仁、日式川菜火候、大胆麻辣而克制平衡。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5090825",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chen Kenichi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1956–2023",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090825"
+            ],
+            "statement_id": "Q5090825$5BA84E24-0DD4-4BAF-821A-5F901243058B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090825"
+            ],
+            "statement_id": "Q5090825$6cbd73a9-4fc5-badb-eee3-32d0385a13f0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5090825"
+        ],
+        "statement_id": "Q5090825$5DE38338-5525-4D52-B5D6-CFD882BB17BE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5090825"
+        ],
+        "statement_id": "Q5090825$2568CE8F-CC37-4386-A3A8-131253E181A6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日式川菜",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5090825",
+        "title": "Wikidata Q5090825 / 陳建一",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5090825&oldid=2540389327",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540389327,
+        "modified_at": "2026-09-05T06:34:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

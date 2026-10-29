@@ -35,5 +35,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Bernard Moitessier, a small Yorkshire terrier rides the subway alone, with no phone and no map. It reads the station lights like stars, passes its stop without regret, and keeps riding toward wherever feels like home.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q712565",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bernard Moitessier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–1994",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q712565"
+            ],
+            "statement_id": "Q712565$0EF3A9B0-494A-44BC-9942-8F7D5ED1B5E7",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-04-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q712565"
+            ],
+            "statement_id": "Q712565$150693A2-AAC3-461B-99F4-DDB52FE57F30",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-06-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q712565"
+        ],
+        "statement_id": "q712565$0BD9352F-54BC-4D3E-8051-271C146C7C5E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1858",
+        "label": "河内",
+        "label_en": "Hanoi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q712565"
+        ],
+        "statement_id": "Q712565$43C8E7AB-798D-4B79-AB74-A9A1D64CFABD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "I. 环球与单人航海",
+      "genre": "I. 环球与单人航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q712565",
+        "title": "Wikidata Q712565 / Bernard Moitessier",
+        "url": "https://www.wikidata.org/w/index.php?title=Q712565&oldid=2554590245",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554590245,
+        "modified_at": "2026-10-07T14:53:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

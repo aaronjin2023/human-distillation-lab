@@ -43,5 +43,153 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Coco Chanel, a small Yorkshire terrier sitting on a subway seat, wearing a miniature tweed suit, black and white, straight silhouette, no ornament, freedom of movement, Parisian chic, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q45661",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Coco Chanel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1971",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45661"
+            ],
+            "statement_id": "q45661$106F0F2F-704E-4F42-99A8-D1E02C8EAFE4",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45661"
+            ],
+            "statement_id": "q45661$B5DE906E-46DB-48AD-98BA-0F5D214C008B",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q45661"
+        ],
+        "statement_id": "q45661$6921241F-EAAD-4703-BEA9-F238358A8087",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q193821",
+        "label": "索米尔",
+        "label_en": "Saumur",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q45661"
+        ],
+        "statement_id": "Q45661$b4d5ed4d-e1a6-4984-8567-47e912fd0312",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1909-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1971-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q45661"
+        ],
+        "statement_id": "q45661$20E912F0-8BB3-4973-9924-FAE6BFFE6D67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 现代主义",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q45661",
+        "title": "Wikidata Q45661 / 可可·香奈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q45661&oldid=2558358079",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558358079,
+        "modified_at": "2026-10-18T11:00:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

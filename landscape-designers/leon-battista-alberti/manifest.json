@@ -43,5 +43,336 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "大学校园里的雨水花园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；美第奇别墅归属见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q182046",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leon Battista Alberti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1404–1472",
+      "birth_year": {
+        "value": 1404,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182046"
+            ],
+            "statement_id": "q182046$208B626A-B3DB-4E40-B5A7-BFE7C7700324",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1404,
+            "raw_time": "+1404-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1472,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182046"
+            ],
+            "statement_id": "q182046$C9B932A4-FD0E-4DB9-958E-88159A32D5F5",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1472,
+            "raw_time": "+1472-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "q182046$35E95F73-6745-4D2B-818B-BDAC8B92D47C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1449",
+        "label": "热那亚",
+        "label_en": "Genoa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$F38C79CE-1A45-4AFD-ADD6-89A862695355",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1416-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1428-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q617",
+        "label": "帕多瓦",
+        "label_en": "Padua",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$BB5EC246-37F3-4AA7-BECF-8B9B79E1ACA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1432-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1434-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$35CE7410-3C29-4191-8576-58B10967F25C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1434-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1437-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$6A468D30-9605-43ED-B208-9983FC6528E7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1438-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1439-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13362",
+        "label": "费拉拉",
+        "label_en": "Ferrara",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$0AD9CA93-1273-464C-8FC3-E9E02D7EDB83",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1439-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1443-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$0EF99571-12BA-4FFA-814E-6260C5F0349D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1443-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1472-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$D1CC2221-6A4E-4AF9-93C0-D508A162B890",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1891",
+        "label": "博洛尼亚",
+        "label_en": "Bologna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q182046"
+        ],
+        "statement_id": "Q182046$EA08E228-78A5-4931-8E46-E439554E57D3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174306",
+        "label": "热那亚共和国",
+        "label_en": "Republic of Genoa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴·园林理论",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q182046",
+        "title": "Wikidata Q182046 / 莱昂·巴蒂斯塔·阿尔伯蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q182046&oldid=2554600528",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554600528,
+        "modified_at": "2026-10-07T15:21:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,232 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "深夜拉面店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《煎饼磨坊的舞会》1876 年；《游船上的午餐》1880–1881 年；雷诺阿 1841–1919",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q39931",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre-Auguste Renoir",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1841–1919",
+      "birth_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q39931"
+            ],
+            "statement_id": "q39931$D0AA20ED-1E55-4F58-A2BD-B9E91FC42A53",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q39931"
+            ],
+            "statement_id": "q39931$185ACED1-7DD0-4FA3-8C63-3621C5C432D5",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1919,
+            "raw_time": "+1919-12-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q39931"
+            ],
+            "statement_id": "Q39931$1A0F063A-6845-4B63-91B1-F03B534891E8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "q39931$457E4A0A-175F-43F8-A260-A942A879A8BE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q45656",
+        "label": "利摩日",
+        "label_en": "Limoges",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$2DAF2ACD-05A6-4ADA-A33E-C45D07D8296B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$A2BE51F9-A50C-47F9-8AB2-24B4C570A1F1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47465",
+        "label": "普罗旺斯地区艾克斯",
+        "label_en": "Aix-en-Provence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$70D2ECEC-E846-4AE2-8024-C11FBDB3A5EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q181946",
+        "label": "阿让特伊",
+        "label_en": "Argenteuil",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$25C79189-8003-4703-9AF4-57FEAB4B65D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q193832",
+        "label": "滨海卡涅",
+        "label_en": "Cagnes-sur-Mer",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$6FFE3D4A-D46B-4A7C-B21E-48B4AA89987C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39984",
+        "label": "戛纳",
+        "label_en": "Cannes",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$8E6F1CC7-7EE4-4F0A-A43A-35014C119ECF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23482",
+        "label": "马赛",
+        "label_en": "Marseille",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$909F51E9-62B8-4E41-9AAC-8EB49C2859AD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q992",
+        "label": "阿默斯福特",
+        "label_en": "Amersfoort",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q39931"
+        ],
+        "statement_id": "Q39931$C715A035-C5BB-4CFB-873D-2DDDD658305F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q39931",
+        "title": "Wikidata Q39931 / 皮耶-奧古斯特·雷諾瓦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q39931&oldid=2558216532",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216532,
+        "modified_at": "2026-10-18T02:37:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

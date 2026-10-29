@@ -43,5 +43,113 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜等单的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q484400",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Song Kang-ho",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1967–",
+      "birth_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q484400"
+            ],
+            "statement_id": "Q484400$1BB121F0-EB61-4188-9D82-DD2456D5E263",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q484400"
+        ],
+        "statement_id": "q484400$6f4bbde2-4702-6dff-5b03-ff9e8199bf84",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42082",
+        "label": "金海市",
+        "label_en": "Gimhae",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q484400"
+        ],
+        "statement_id": "q484400$9B7A7EBF-28B3-4B9F-AC48-EA521521A290",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q484400"
+          ],
+          "statement_id": "Q484400$D9BE7B08-D8DF-471D-B763-192197DD08D4",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q484464",
+          "label": "朝鲜族",
+          "label_en": "Koreans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q484400",
+        "title": "Wikidata Q484400 / 宋康昊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q484400&oldid=2555011133",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555011133,
+        "modified_at": "2026-10-08T11:56:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

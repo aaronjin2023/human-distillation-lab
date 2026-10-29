@@ -43,5 +43,118 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Natsume Soseki",
-  "writer_zh": "夏目漱石"
+  "writer_zh": "夏目漱石",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q180903",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Natsume Soseki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1867–1916",
+      "birth_year": {
+        "value": 1867,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180903"
+            ],
+            "statement_id": "q180903$B6BFB026-9669-4CD4-80E7-18DAA0E1BE13",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1867,
+            "raw_time": "+1867-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180903"
+            ],
+            "statement_id": "q180903$7C9C4100-4536-4AE9-86C9-9BF80E50F322",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q180903"
+        ],
+        "statement_id": "q180903$ADD88E6D-047A-4660-8A8B-8487EA976A47",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q11419038",
+        "label": "喜久井町",
+        "label_en": "Kikuichō",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q180903"
+        ],
+        "statement_id": "q180903$FF6C6A94-22B9-4F1E-9B99-BADBA491F26A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明治·小说",
+      "genre": "novelist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q180903",
+        "title": "Wikidata Q180903 / 夏目漱石",
+        "url": "https://www.wikidata.org/w/index.php?title=Q180903&oldid=2558180071",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558180071,
+        "modified_at": "2026-10-18T00:41:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "司马光风格：现代图书馆庭院里的一座小小读书园，一方小池，一间书斋，竹与菊，药草圃，绕池短径，朴素幽静，自得其乐。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q33566",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sima Guang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1019–1086",
+      "birth_year": {
+        "value": 1019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33566"
+            ],
+            "statement_id": "Q33566$B457B565-C127-48D0-99EA-5721EAE95FD9",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1019,
+            "raw_time": "+1019-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1086,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33566"
+            ],
+            "statement_id": "Q33566$34270AC9-8F28-4325-8CD3-41E963B2C9FE",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1086,
+            "raw_time": "+1086-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q33566"
+        ],
+        "statement_id": "q33566$B7C3AD77-9CB8-4FA4-927E-F5A0746022CE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q612136",
+        "label": "夏县",
+        "label_en": "Xia County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q33566"
+        ],
+        "statement_id": "q33566$BFF5128D-99BC-4040-AC0C-640385151876",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·文人园林",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q33566",
+        "title": "Wikidata Q33566 / 司马光",
+        "url": "https://www.wikidata.org/w/index.php?title=Q33566&oldid=2550630278",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550630278,
+        "modified_at": "2026-09-28T21:01:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

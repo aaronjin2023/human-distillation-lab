@@ -43,5 +43,102 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "评论某国对数字服务征税的方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q109570",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Diamond",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q109570"
+            ],
+            "statement_id": "q109570$4D7526AD-A818-4521-BD2B-7825AD27E54B",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q109570"
+        ],
+        "statement_id": "q109570$C836859B-99B3-4EF5-B003-B50F2C7D00E7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q109570"
+        ],
+        "statement_id": "q109570$993B15E7-400C-4173-9880-C789986D3356",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·最优商品税与资本税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q109570",
+        "title": "Wikidata Q109570 / 彼得·戴蒙德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q109570&oldid=2502381415",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2502381415,
+        "modified_at": "2026-06-06T00:09:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

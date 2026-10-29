@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于深夜火车穿越星空下沙漠的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q299073",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nusrat Fateh Ali Khan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1948–1997",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299073"
+            ],
+            "statement_id": "q299073$76ABF7AF-E145-4459-822B-DC8DEA9D6B5D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299073"
+            ],
+            "statement_id": "q299073$581066D8-B8BF-4268-BFF4-207CAC371C9D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q299073"
+        ],
+        "statement_id": "Q299073$3889FA14-6F21-4F57-B2D9-DC064A681B96",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q173985",
+        "label": "费萨拉巴德",
+        "label_en": "Faisalabad",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q299073"
+        ],
+        "statement_id": "Q299073$9C11A0CB-94D3-4110-9580-2C05820728D8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q843",
+        "label": "巴基斯坦",
+        "label_en": "Pakistan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴基斯坦·卡瓦里",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q299073",
+        "title": "Wikidata Q299073 / 努斯拉·法帖·阿里·汗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q299073&oldid=2561066670",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561066670,
+        "modified_at": "2026-10-26T12:32:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

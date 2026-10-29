@@ -30,5 +30,183 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "午夜空街上亮着灯的自动售货机",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7298",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonín Dvořák",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1841–1904",
+      "birth_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7298"
+            ],
+            "statement_id": "q7298$04E75C48-1943-4764-87B5-7841A728B562",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-09-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7298"
+            ],
+            "statement_id": "q7298$92358A3F-8205-466E-80D1-1FB88D85383C",
+            "rank": "normal",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-05-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "q7298$881BDDA1-812A-46C9-9E6E-8280C89511B6",
+        "rank": "normal",
+        "reference_count": 9,
+        "qualifiers": {},
+        "qid": "Q1021621",
+        "label": "内拉霍奇夫斯",
+        "label_en": "Nelahozeves",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$57ED0D2A-DFC7-4958-9097-86F364FA3557",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$1F8122A0-4CC3-4BF5-95F8-66081A879D28",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q81137",
+        "label": "奥洛穆茨",
+        "label_en": "Olomouc",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$2FCBCF09-E1D8-48CD-B3BD-844B2373E80A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q744601",
+        "label": "Cholina",
+        "label_en": "Cholina",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$E4F350BA-6146-4AAB-9BD1-389DA3B6E422",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q158239",
+        "label": "克罗梅日什",
+        "label_en": "Kroměříž",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$CC3011B3-DFD6-4DFE-9436-617E2FEC36C1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q42585",
+        "label": "波希米亞王國",
+        "label_en": "Kingdom of Bohemia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7298"
+        ],
+        "statement_id": "Q7298$4C14CCCD-8BE3-48BF-9ABA-F945A82D6FD2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 民族乐派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7298",
+        "title": "Wikidata Q7298 / 安东宁·德沃夏克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7298&oldid=2561566614",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561566614,
+        "modified_at": "2026-10-27T23:20:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

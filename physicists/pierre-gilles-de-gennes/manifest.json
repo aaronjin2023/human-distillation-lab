@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Pierre-Gilles de Gennes, explain the self-balancing of a shared bicycle: start from the simple picture of a rolling wheel and steering, use scaling to estimate the stabilizing torque, and end with a prediction for slow versus fast riding",
   "test_question_zh": "解释共享单车的自平衡",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q187224",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre-Gilles de Gennes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2007",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q187224"
+            ],
+            "statement_id": "q187224$10B22841-60D3-4204-9A21-17BF564FC23A",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q187224"
+            ],
+            "statement_id": "q187224$011EEDD8-8CC3-4FAE-BC73-E1904417572C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-05-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q187224"
+        ],
+        "statement_id": "q187224$7F03A365-4FDD-45E9-8A86-9474BC9DAD74",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q194420",
+        "label": "巴黎十六区",
+        "label_en": "16th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q187224"
+        ],
+        "statement_id": "q187224$DAFA284D-7CFC-49AA-9DA8-C622FFE24739",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "软物质 / 超导"
+    },
+    "sources": [
+      {
+        "id": "WD:Q187224",
+        "title": "Wikidata Q187224 / 皮埃尔-吉勒·德热纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q187224&oldid=2558216538",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216538,
+        "modified_at": "2026-10-18T02:38:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

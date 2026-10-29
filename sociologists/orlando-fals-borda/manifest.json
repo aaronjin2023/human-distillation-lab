@@ -49,5 +49,117 @@
   ],
   "test_prompt": "夜市摊主的参与式研究",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4481010",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Orlando Fals Borda",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2008",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4481010"
+            ],
+            "statement_id": "Q4481010$9A6185F9-CB97-4F1B-A01E-D0E8A03BE4C9",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4481010"
+            ],
+            "statement_id": "Q4481010$935646CD-35AB-4649-80A1-3CED868C1733",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4481010"
+        ],
+        "statement_id": "Q4481010$93A3A5CB-2626-4B7D-8035-BC74F05A0D9C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q62823",
+        "label": "巴兰基亚",
+        "label_en": "Barranquilla",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4481010"
+        ],
+        "statement_id": "Q4481010$7CDBA04E-1ADA-4DDF-BA50-821BB3154660",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q739",
+        "label": "哥伦比亚",
+        "label_en": "Colombia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美·参与式行动研究"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4481010",
+        "title": "Wikidata Q4481010 / Orlando Fals Borda",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4481010&oldid=2522226928",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2522226928,
+        "modified_at": "2026-07-24T19:04:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

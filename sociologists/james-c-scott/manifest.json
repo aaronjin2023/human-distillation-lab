@@ -47,5 +47,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖骑手对算法的日常抵抗",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3025403",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James C. Scott",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2024",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3025403"
+            ],
+            "statement_id": "Q3025403$2964E0AE-184E-4424-BCD0-AF7EF615F8A6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3025403"
+            ],
+            "statement_id": "Q3025403$4c6a443e-4414-5871-af0d-272da7123b4f",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-07-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3025403"
+        ],
+        "statement_id": "Q3025403$6A11621D-C908-45F8-8485-ED557FFCD0EF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q936639",
+        "label": "芒特霍利",
+        "label_en": "Mount Holly",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3025403"
+        ],
+        "statement_id": "Q3025403$06CE4BA5-48B5-41E3-B134-4EED3ED3DDCA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "支配与抵抗·无国家社会"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3025403",
+        "title": "Wikidata Q3025403 / 詹姆斯·斯科特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3025403&oldid=2518923689",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518923689,
+        "modified_at": "2026-07-17T23:42:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

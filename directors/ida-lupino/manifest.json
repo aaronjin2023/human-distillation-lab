@@ -45,5 +45,130 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q148669",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ida Lupino",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–1995",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q148669"
+            ],
+            "statement_id": "q148669$703131EF-A2AC-42DF-A668-A340FEF7E8E0",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q148669"
+            ],
+            "statement_id": "q148669$7F32C7BA-9160-4EFD-8C46-16E0B8A6FB5C",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q148669"
+        ],
+        "statement_id": "q148669$7A76D8D2-36A8-4D24-B6F1-B1EB26DD494C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q148669"
+        ],
+        "statement_id": "q148669$33356B3B-3D84-41D2-8172-907C63FFD938",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q148669"
+        ],
+        "statement_id": "Q148669$F2D5D8B7-834D-4FFF-89A8-B0E815451B09",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·黑色电影 / 女性导演"
+    },
+    "sources": [
+      {
+        "id": "WD:Q148669",
+        "title": "Wikidata Q148669 / 艾达·卢皮诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q148669&oldid=2559139070",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559139070,
+        "modified_at": "2026-10-20T08:09:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

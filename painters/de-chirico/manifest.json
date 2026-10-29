@@ -30,5 +30,196 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q156622",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giorgio de Chirico",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1978",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156622"
+            ],
+            "statement_id": "Q156622$5F02C50F-2B8D-4644-9C74-F963B35945A8",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-07-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1978,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q156622"
+            ],
+            "statement_id": "Q156622$F13468BA-52DC-421A-8026-C4FBF1FF19BA",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1978,
+            "raw_time": "+1978-11-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "q156622$769C595E-3511-4A4B-870D-B7B39866A9A1",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q200036",
+        "label": "沃洛斯",
+        "label_en": "Volos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$B3F9422E-F087-4166-B137-72B83D0085D5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$9EB069F8-1936-45C3-A82D-202CCCD3D545",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1524",
+        "label": "雅典",
+        "label_en": "Athens",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$2CCA5BCC-3F20-4441-92D7-2527664F7F43",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13362",
+        "label": "费拉拉",
+        "label_en": "Ferrara",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$88ADE33F-4790-4BE2-AE8A-8C1ECE5F6A15",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$07E84884-AFB3-452E-8901-FB92ACFC4895",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$093EBD0A-F95A-45D6-B694-B1AAEEACFB97",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q156622"
+        ],
+        "statement_id": "Q156622$CF6DC2F0-2E29-491E-B179-940D1B566071",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "形而上绘画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q156622",
+        "title": "Wikidata Q156622 / 乔治·德·基里科",
+        "url": "https://www.wikidata.org/w/index.php?title=Q156622&oldid=2552956357",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552956357,
+        "modified_at": "2026-10-04T07:43:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

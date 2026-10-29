@@ -41,5 +41,213 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "Thomas Mann",
-  "writer_zh": "托马斯·曼"
+  "writer_zh": "托马斯·曼",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37030",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Mann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1875–1955",
+      "birth_year": {
+        "value": 1875,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37030"
+            ],
+            "statement_id": "q37030$B40DC59D-687E-4B96-9F13-B86AC9F3515D",
+            "rank": "normal",
+            "reference_count": 23,
+            "qualifiers": {},
+            "value": 1875,
+            "raw_time": "+1875-06-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37030"
+            ],
+            "statement_id": "q37030$3B4674F1-8D0B-4B32-BEB3-DDD26E0DD149",
+            "rank": "normal",
+            "reference_count": 23,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "q37030$EEF4900F-382F-4B5C-97A2-B271343EC040",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q2843",
+        "label": "吕贝克",
+        "label_en": "Lübeck",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "Q37030$098BAA7A-E2C9-4967-A0F0-1F2F3AC3A59D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "Q37030$15758C29-7AEA-4315-9D19-AA9F36811C82",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q138518",
+        "label": "普林斯顿",
+        "label_en": "Princeton",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "q37030$BB535701-65A8-4BB4-855A-9DC29940F264",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1875-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1936-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "Q37030$8a420aa5-4d4f-55cf-18f7-1f4508c25bcd",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1936-11-19T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q33946",
+        "label": "捷克斯洛伐克",
+        "label_en": "Czechoslovakia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q37030"
+        ],
+        "statement_id": "Q37030$721c5c9d-46f5-ea77-0876-ef75225ad839",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1944-06-23T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q37030",
+        "title": "Wikidata Q37030 / 托马斯·曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37030&oldid=2561428636",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561428636,
+        "modified_at": "2026-10-27T13:04:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

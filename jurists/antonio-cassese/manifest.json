@@ -43,5 +43,180 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "卡塞塞风格：一份管辖权法律意见，论一架越境送货无人机撞坏花盆的责任：个人责任、目的解释，经营者的级别与平台规模都不是免责理由。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q601378",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonio Cassese",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1937–2011",
+      "birth_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q601378"
+            ],
+            "statement_id": "q601378$40945D8A-602F-4B0F-9B8C-BD9B556EBE76",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2011,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q601378"
+            ],
+            "statement_id": "q601378$4898A5BE-6BCC-4509-B5B6-BB44D806BC41",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2011,
+            "raw_time": "+2011-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q601378"
+        ],
+        "statement_id": "Q601378$C4BA11C3-24D8-400B-9C02-6D04B6B75126",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q55001",
+        "label": "阿特里帕尔达",
+        "label_en": "Atripalda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q601378"
+        ],
+        "statement_id": "Q601378$547340F0-1F51-4BA5-A7CD-4D9F603E9495",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13375",
+        "label": "比萨",
+        "label_en": "Pisa",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q601378"
+        ],
+        "statement_id": "Q601378$3AD89C49-4259-46B5-995E-4528E63DE48B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q601378"
+        ],
+        "statement_id": "Q601378$04B26660-31F2-4D81-B404-1B5B107B770A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q601378"
+        ],
+        "statement_id": "Q601378$EDB53CAA-C16B-4868-9ADC-BD8B2082986A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际刑法·国际人道法",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q601378",
+        "title": "Wikidata Q601378 / Antonio Cassese",
+        "url": "https://www.wikidata.org/w/index.php?title=Q601378&oldid=2553129177",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553129177,
+        "modified_at": "2026-10-04T17:43:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,117 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q103894",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alec Guinness",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–2000",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103894"
+            ],
+            "statement_id": "Q103894$161F075D-45DC-4F30-9AEA-AF844D13E814",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-04-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103894"
+            ],
+            "statement_id": "Q103894$55588689-A8DF-45C4-9602-D6FA5882C89D",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q103894"
+        ],
+        "statement_id": "q103894$9E4187D5-E541-4B00-9AAB-3B6F064A30CF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q123634",
+        "label": "马里波恩",
+        "label_en": "Marylebone",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q103894"
+        ],
+        "statement_id": "Q103894$92AB8FDA-2D20-4C6E-A09C-A06CFBB362FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·舞台/电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q103894",
+        "title": "Wikidata Q103894 / 亚历·坚尼斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q103894&oldid=2557640578",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557640578,
+        "modified_at": "2026-10-16T11:01:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

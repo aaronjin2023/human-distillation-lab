@@ -43,5 +43,102 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为零工劳动者设计一套简易退休储蓄税收优惠（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1282538",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Poterba",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1282538"
+            ],
+            "statement_id": "Q1282538$625945B6-960D-4EB0-89B1-E10DDF99F2C2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-07-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1282538"
+        ],
+        "statement_id": "q1282538$B94DB981-E568-4C90-82D6-FC89297CB16C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1282538"
+        ],
+        "statement_id": "q1282538$1307BC02-96D8-427D-BBE4-348BD5D9A9F1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·税收与储蓄",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1282538",
+        "title": "Wikidata Q1282538 / James M. Poterba",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1282538&oldid=2554136287",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554136287,
+        "modified_at": "2026-10-06T20:30:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

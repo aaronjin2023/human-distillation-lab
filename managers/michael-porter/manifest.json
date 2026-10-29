@@ -44,5 +44,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272146",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michael Porter",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272146"
+            ],
+            "statement_id": "Q272146$57143D4B-E501-42C8-A81B-C18432B0B970",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-05-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272146"
+        ],
+        "statement_id": "Q272146$12AF181C-15C3-4AFA-B4A2-F70C255D67E9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q485172",
+        "label": "安阿伯",
+        "label_en": "Ann Arbor",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272146"
+        ],
+        "statement_id": "q272146$B9EEEF36-21AE-4F5B-9729-5B3E4890A58F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "竞争战略"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272146",
+        "title": "Wikidata Q272146 / 迈克尔·波特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272146&oldid=2558167384",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558167384,
+        "modified_at": "2026-10-17T23:55:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

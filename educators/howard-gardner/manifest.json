@@ -44,5 +44,102 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "加德纳风格：为一个混合班设计一堂关于人工智能的课。为同一个观念开多扇门：故事门、逻辑门、绘画门、音乐门、搭建门、合作门，按每个学生做出来、展示出来的东西评价，不用一张试卷。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q176515",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Howard Gardner",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q176515"
+            ],
+            "statement_id": "Q176515$A281DB60-645C-45C6-877C-9A770FD7405C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q176515"
+        ],
+        "statement_id": "Q176515$440E7859-8EB2-42A6-8AD9-BF6213A58A49",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q271395",
+        "label": "斯克兰顿",
+        "label_en": "Scranton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q176515"
+        ],
+        "statement_id": "q176515$120B5B02-91B6-42F4-90A4-AC691F4413A4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "多元智能",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q176515",
+        "title": "Wikidata Q176515 / 哈沃德·加德納",
+        "url": "https://www.wikidata.org/w/index.php?title=Q176515&oldid=2560304702",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560304702,
+        "modified_at": "2026-10-24T13:43:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

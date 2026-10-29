@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Alfred Lacroix, judge a fresh eruption with flattened trees and hot deposits in a valley: map the deposits and their direction, and call it a pyroclastic flow only if the deposits match the Pelée pattern",
   "test_question_zh": "一处新喷发后，山谷里出现定向倒伏的树木与高温堆积，是什么喷发类型？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q586570",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Lacroix",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1863–1948",
+      "birth_year": {
+        "value": 1863,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q586570"
+            ],
+            "statement_id": "Q586570$1CC8F6D4-B239-4238-84F6-A6E7F0F29C26",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1863,
+            "raw_time": "+1863-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q586570"
+            ],
+            "statement_id": "Q586570$1ED926D8-853A-4ED4-B0FB-2B1D7C0DB3BE",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q586570"
+        ],
+        "statement_id": "q586570$2FCAAA9C-D848-4EDA-A82F-1903C7AC88DE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q174247",
+        "label": "马孔",
+        "label_en": "Mâcon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q586570"
+        ],
+        "statement_id": "q586570$8EE26CFE-D2E8-4321-85F5-40B2EE7A4EAA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "火山学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q586570",
+        "title": "Wikidata Q586570 / 阿尔弗雷德·拉克鲁瓦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q586570&oldid=2549134219",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549134219,
+        "modified_at": "2026-09-25T01:51:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

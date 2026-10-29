@@ -43,5 +43,102 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为短视频主播收入设计一套防逃税的扣缴方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4423316",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joel Slemrod",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1951–",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4423316"
+            ],
+            "statement_id": "Q4423316$8BD31EB6-5D2C-47E5-B57E-53D8F48FE96A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-07-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4423316"
+        ],
+        "statement_id": "Q4423316$299EFCD3-BEE5-49B8-8BEF-FE05CC6D4754",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q25395",
+        "label": "纽瓦克",
+        "label_en": "Newark",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4423316"
+        ],
+        "statement_id": "Q4423316$182CEEF9-25FA-4AF9-A8B2-B26FF0C62F83",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·税收遵从与避税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4423316",
+        "title": "Wikidata Q4423316 / 喬爾·斯林羅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4423316&oldid=2512637579",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512637579,
+        "modified_at": "2026-07-01T14:11:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

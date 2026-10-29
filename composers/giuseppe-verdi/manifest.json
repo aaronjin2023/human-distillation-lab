@@ -30,5 +30,128 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一杯放在窗台上的咖啡，晨光中",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7317",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giuseppe Verdi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1813–1901",
+      "birth_year": {
+        "value": 1813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7317"
+            ],
+            "statement_id": "q7317$6C3ABE6A-B335-47B3-B949-BD918386A20A",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1813,
+            "raw_time": "+1813-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7317"
+            ],
+            "statement_id": "q7317$F28D6FD5-B6A9-4226-B872-48A9556ECF43",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7317"
+        ],
+        "statement_id": "q7317$0952C7A6-23FB-4489-9094-8CC43661CBE5",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1810148",
+        "label": "勒朗科勒",
+        "label_en": "Le Roncole",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7317"
+        ],
+        "statement_id": "Q7317$7817a2f2-469f-84a9-a695-50a2b2ae02ae",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1861-03-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 意大利歌剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7317",
+        "title": "Wikidata Q7317 / 朱塞佩·威尔第",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7317&oldid=2560437061",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560437061,
+        "modified_at": "2026-10-24T21:24:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

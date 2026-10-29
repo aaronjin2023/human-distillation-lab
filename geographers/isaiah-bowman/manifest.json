@@ -25,5 +25,117 @@
   "test_prompt": "In the style of Isaiah Bowman, assess a new cross-border economic zone: map its resources, peoples and boundaries, then judge what settlement and treaty the geography will allow",
   "test_question_zh": "一处新建跨境经济区，它的地理条件允许什么样的定居与协定？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q650594",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Isaiah Bowman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1878–1950",
+      "birth_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q650594"
+            ],
+            "statement_id": "Q650594$23D2A523-D2DF-46E0-A79E-270D7AA74C30",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q650594"
+            ],
+            "statement_id": "Q650594$3402264D-B928-4E89-AD17-5212CF0E5679",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q650594"
+        ],
+        "statement_id": "Q650594$4C83EBF4-C18A-4FDD-A624-EF2616A7FD9A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q639408",
+        "label": "滑鐵盧",
+        "label_en": "Waterloo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q650594"
+        ],
+        "statement_id": "Q650594$966E27F6-5CB1-4F9D-AC20-398B0865C54D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·区域地理与政治地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q650594",
+        "title": "Wikidata Q650594 / 艾赛亚·鲍曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q650594&oldid=2546360000",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546360000,
+        "modified_at": "2026-09-15T20:21:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

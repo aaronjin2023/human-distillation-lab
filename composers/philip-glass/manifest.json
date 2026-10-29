@@ -31,5 +31,101 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189729",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Philip Glass",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1937–",
+      "birth_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189729"
+            ],
+            "statement_id": "q189729$0FE93D98-4919-491E-B4BB-A2BD86EE3A10",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-01-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189729"
+        ],
+        "statement_id": "q189729$84895557-FF80-455A-B539-650364BFB1AB",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q5092",
+        "label": "巴尔的摩",
+        "label_en": "Baltimore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189729"
+        ],
+        "statement_id": "q189729$59C15A03-F770-44C1-8626-F47B93E36E37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "极简主义 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189729",
+        "title": "Wikidata Q189729 / 菲利普·格拉斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189729&oldid=2561729051",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561729051,
+        "modified_at": "2026-10-28T16:12:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

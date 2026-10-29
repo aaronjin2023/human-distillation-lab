@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q193670",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frantz Fanon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–1961",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193670"
+            ],
+            "statement_id": "q193670$DE713713-9F0A-402D-B856-C0B8D665C0FE",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193670"
+            ],
+            "statement_id": "q193670$AAF17FA3-3158-4143-A234-782C48049B99",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-12-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q193670"
+        ],
+        "statement_id": "q193670$C531783A-8AC3-404A-8064-20667801B9D9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q81621",
+        "label": "法兰西堡",
+        "label_en": "Fort-de-France",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q193670"
+          ],
+          "statement_id": "Q193670$e02e4f9a-4788-018b-7fbd-d10ad260eaf0",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q817393",
+          "label": "黑人",
+          "label_en": "Black people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "去殖民化心理学 / 精神病学",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q193670",
+        "title": "Wikidata Q193670 / 弗朗茨·法农",
+        "url": "https://www.wikidata.org/w/index.php?title=Q193670&oldid=2557883641",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557883641,
+        "modified_at": "2026-10-17T05:45:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

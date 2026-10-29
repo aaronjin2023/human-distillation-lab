@@ -37,5 +37,142 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Jean-Luc Godard",
-  "writer_zh": "让-吕克·戈达尔"
+  "writer_zh": "让-吕克·戈达尔",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q53001",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Luc Godard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2022",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53001"
+            ],
+            "statement_id": "q53001$D38E0A67-D7F9-4AFE-B8B0-2280266C8963",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-12-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53001"
+            ],
+            "statement_id": "Q53001$723ae98d-464a-28cc-7bad-46a383f48351",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q53001"
+        ],
+        "statement_id": "Q53001$683738f3-4847-f723-709d-7bdd95db8cb3",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q259463",
+        "label": "巴黎第七區",
+        "label_en": "7th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q53001"
+        ],
+        "statement_id": "q53001$C9C4F75A-E820-4A32-ADCF-B08DEC9FAF2C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q53001"
+        ],
+        "statement_id": "Q53001$88A5C4CA-BD48-42AD-B735-0FF66CEF0FD5",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1953-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·新浪潮",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q53001",
+        "title": "Wikidata Q53001 / 让-吕克·戈达尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q53001&oldid=2561093606",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561093606,
+        "modified_at": "2026-10-26T14:46:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

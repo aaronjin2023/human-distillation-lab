@@ -27,5 +27,144 @@
   "thinker": "Voltaire",
   "thinker_zh": "伏尔泰",
   "verification": "2026-10-26 依据英文 Wikipedia / Britannica 通说核对：生卒 1694–1778、《哲学通信》1734 年、《老实人》1759 年、《哲学辞典》1764 年；未逐章核对引文。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9068",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Voltaire",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1694–1778",
+      "birth_year": {
+        "value": 1694,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9068"
+            ],
+            "statement_id": "q9068$63066EB3-DFF8-4547-878E-800CCB1C3F47",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1694,
+            "raw_time": "+1694-11-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1778,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9068"
+            ],
+            "statement_id": "q9068$3859B534-5DD3-4074-88D2-44E79D146A96",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1778,
+            "raw_time": "+1778-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9068"
+        ],
+        "statement_id": "q9068$86E23414-E32E-4612-8D96-4FF751DBE97A",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9068"
+        ],
+        "statement_id": "Q9068$B60B1EDD-C5E5-4541-B7A0-87750922F927",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9068"
+        ],
+        "statement_id": "Q9068$721DE819-7CC2-4962-B3FF-26746DB85FDA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q157035",
+        "label": "比克堡",
+        "label_en": "Bückeburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9068"
+        ],
+        "statement_id": "Q9068$7726ac1e-481d-de64-f772-1b9ffd4c2e00",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "启蒙运动"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9068",
+        "title": "Wikidata Q9068 / 伏尔泰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9068&oldid=2561218482",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561218482,
+        "modified_at": "2026-10-26T22:36:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

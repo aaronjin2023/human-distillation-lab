@@ -43,5 +43,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1225",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bruce Springsteen",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1949–",
+      "birth_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1225"
+            ],
+            "statement_id": "q1225$1CE2A5B1-D39C-492B-A1E7-EFE926220013",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1225"
+        ],
+        "statement_id": "Q1225$533C1366-2873-4480-9670-C87333FE223D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q995231",
+        "label": "朗布兰奇",
+        "label_en": "Long Branch",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1225"
+        ],
+        "statement_id": "Q1225$6F0C7F5A-A201-452F-A4C0-988B9F982F0C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英语摇滚·创作歌手",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1225",
+        "title": "Wikidata Q1225 / 布鲁斯·斯普林斯廷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1225&oldid=2557944637",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557944637,
+        "modified_at": "2026-10-17T09:57:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7085",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Niels Bohr",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1962",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7085"
+            ],
+            "statement_id": "q7085$C7CEFBCD-8775-45FE-942C-43542EBC5209",
+            "rank": "preferred",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7085"
+            ],
+            "statement_id": "q7085$D02A2B96-8AC9-4F33-AE69-5D59F3548BDD",
+            "rank": "preferred",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7085"
+        ],
+        "statement_id": "q7085$12DCAA83-897E-4099-A805-6C86587F4972",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1748",
+        "label": "哥本哈根",
+        "label_en": "Copenhagen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7085"
+        ],
+        "statement_id": "q7085$59D6CA7A-D8FD-4D4B-8D77-40C372214B00",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "原子结构 / 量子论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7085",
+        "title": "Wikidata Q7085 / 尼尔斯·玻尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7085&oldid=2558384795",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558384795,
+        "modified_at": "2026-10-18T12:49:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

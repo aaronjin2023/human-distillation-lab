@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "自动驾驶汽车撞坏花盆的过失责任（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：引文见 Justia 所载判例引文（Nature of the Judicial Process 98）；生卒 1870–1938 为通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q817637",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Benjamin Cardozo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1938",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q817637"
+            ],
+            "statement_id": "q817637$49F2062B-AF87-441C-8139-E08FE94E123B",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-05-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q817637"
+            ],
+            "statement_id": "q817637$916A4C29-0E88-4506-B00B-A308156E2470",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q817637"
+        ],
+        "statement_id": "q817637$F61C274D-BB5E-4730-B9A6-5C2FC6686E31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q817637"
+        ],
+        "statement_id": "q817637$9F211FAE-CFC9-4225-9C10-0FFD012B4C2C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·司法过程",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q817637",
+        "title": "Wikidata Q817637 / 本杰明·N·卡多佐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q817637&oldid=2543582893",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543582893,
+        "modified_at": "2026-09-10T23:07:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

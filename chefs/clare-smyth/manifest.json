@@ -39,5 +39,127 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5126253",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clare Smyth",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1978–",
+      "birth_year": {
+        "value": 1978,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5126253"
+            ],
+            "statement_id": "Q5126253$00DE3E98-4C95-4087-B39C-2FCACBA47947",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1978,
+            "raw_time": "+1978-09-00T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5126253"
+        ],
+        "statement_id": "Q5126253$d995bf2e-4e79-76cc-4a5c-398f18945148",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q189592",
+        "label": "安特里姆郡",
+        "label_en": "County Antrim",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5126253"
+        ],
+        "statement_id": "Q5126253$4f46da82-4e21-0298-3a72-9ecbdf70d19a",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2016-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90922139",
+        "label": "Core by Clare Smyth",
+        "label_en": "Core by Clare Smyth",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5126253"
+        ],
+        "statement_id": "Q5126253$38E2E368-7883-4D10-A5F8-312A7179005C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英式精致料理",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5126253",
+        "title": "Wikidata Q5126253 / 克莱尔·史密斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5126253&oldid=2542359874",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542359874,
+        "modified_at": "2026-09-08T16:51:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

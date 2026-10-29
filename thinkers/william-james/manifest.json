@@ -32,5 +32,117 @@
   "thinker": "William James",
   "thinker_zh": "威廉·詹姆斯",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q125249",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William James",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1842–1910",
+      "birth_year": {
+        "value": 1842,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q125249"
+            ],
+            "statement_id": "q125249$ADA62458-6400-4E87-B8ED-6C2A45717C93",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1842,
+            "raw_time": "+1842-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q125249"
+            ],
+            "statement_id": "q125249$01B2E7A0-53D5-4243-9BC8-EC3F940ECC57",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q125249"
+        ],
+        "statement_id": "q125249$79E33C1F-F35A-4AD4-BEAF-7F8AECA4BBA3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q14706163",
+        "label": "Astor House",
+        "label_en": "Astor House",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q125249"
+        ],
+        "statement_id": "q125249$9E8398AF-7B65-40BA-8050-BC5ED608C39E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "实用主义 / 心理学哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q125249",
+        "title": "Wikidata Q125249 / 威廉·詹姆士",
+        "url": "https://www.wikidata.org/w/index.php?title=Q125249&oldid=2561420361",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561420361,
+        "modified_at": "2026-10-27T12:32:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

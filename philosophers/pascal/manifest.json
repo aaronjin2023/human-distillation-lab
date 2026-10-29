@@ -36,5 +36,117 @@
   ],
   "test_prompt": "现代题材：算法推荐决定一个人看什么、读什么、买什么",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1290",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Blaise Pascal",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1623–1662",
+      "birth_year": {
+        "value": 1623,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1290"
+            ],
+            "statement_id": "q1290$2A467274-CD69-4741-A63A-E33FBF847D7C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1623,
+            "raw_time": "+1623-06-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1662,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1290"
+            ],
+            "statement_id": "q1290$2D4EE287-BB50-415C-AB43-DEAEAE239DDF",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1662,
+            "raw_time": "+1662-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1290"
+        ],
+        "statement_id": "Q1290$efd6af93-432c-6cdc-84e7-2c533002a2e3",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q111362759",
+        "label": "birth house of Blaise Pascal",
+        "label_en": "birth house of Blaise Pascal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1290"
+        ],
+        "statement_id": "Q1290$2E427200-4D5F-462F-A7B5-0823CFF9DA3D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近代·信仰哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1290",
+        "title": "Wikidata Q1290 / 布莱兹·帕斯卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1290&oldid=2561508808",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561508808,
+        "modified_at": "2026-10-27T18:54:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

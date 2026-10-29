@@ -39,5 +39,213 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8605",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Simón Bolívar",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1783–1830",
+      "birth_year": {
+        "value": 1783,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8605"
+            ],
+            "statement_id": "q8605$EF8CACB2-D11B-40BC-B6A7-336E84407C75",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1783,
+            "raw_time": "+1783-07-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1830,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8605"
+            ],
+            "statement_id": "q8605$BEFE0B8A-3344-404E-94D6-2561479CC0C6",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1830,
+            "raw_time": "+1830-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$fe151245-4151-b52e-1c96-0288efe4e396",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1533",
+        "label": "加拉加斯",
+        "label_en": "Caracas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$F87F50AE-2D39-4D28-B085-FB0CBF77FC43",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1811-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$6290e34f-4610-0cfb-508e-7496329dcd89",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1819-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q717",
+        "label": "委内瑞拉",
+        "label_en": "Venezuela",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$0f93f0e5-424a-990a-8863-d6a437fd77c3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1827-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q736",
+        "label": "厄瓜多尔",
+        "label_en": "Ecuador",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$2527af70-40c5-8e14-87fd-c3cc0f11552c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1825-12-29T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q750",
+        "label": "玻利维亚",
+        "label_en": "Bolivia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8605"
+        ],
+        "statement_id": "Q8605$7b954337-4ace-109d-5de9-86c00abb94e1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q199821",
+        "label": "大哥伦比亚共和国",
+        "label_en": "Gran Colombia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美·独立战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8605",
+        "title": "Wikidata Q8605 / 西蒙·玻利瓦尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8605&oldid=2559970569",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559970569,
+        "modified_at": "2026-10-23T12:26:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

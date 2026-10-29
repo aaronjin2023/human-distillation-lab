@@ -55,5 +55,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市快递员的雨天工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3088769",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zuhair Murad",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3088769"
+            ],
+            "statement_id": "Q3088769$B42C0534-E059-445B-9248-29561D108862",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3088769"
+        ],
+        "statement_id": "Q3088769$9EFA5435-3BE8-438D-9FA1-4BBF7C2CC196",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7294639",
+        "label": "Ras Baalbek",
+        "label_en": "Ras Baalbek",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3088769"
+        ],
+        "statement_id": "Q3088769$5820F55D-E4DC-4134-96C3-C10183D91B86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q822",
+        "label": "黎巴嫩",
+        "label_en": "Lebanon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "黎巴嫩·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3088769",
+        "title": "Wikidata Q3088769 / Zuhair Murad",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3088769&oldid=2554635432",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554635432,
+        "modified_at": "2026-10-07T16:42:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

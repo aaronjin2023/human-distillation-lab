@@ -27,5 +27,152 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q215968",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jan Žižka",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1360–1424",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215968"
+            ],
+            "statement_id": "Q215968$1a52f512-49c9-0388-552f-4c514abdb5b8",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1360,
+            "raw_time": "+1360-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1424,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215968"
+            ],
+            "statement_id": "Q215968$E2699FEC-F532-48BF-A01B-B73C7AF58B99",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1424,
+            "raw_time": "+1424-10-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q215968"
+        ],
+        "statement_id": "Q215968$6aa79ea3-5205-432d-aa9c-e880dca7b7a2",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q655554",
+        "label": "特罗茨诺夫",
+        "label_en": "Trocnov",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q215968"
+        ],
+        "statement_id": "Q215968$DC8F541E-0A89-4EC6-A22C-069A99FC1ED1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q215968"
+        ],
+        "statement_id": "Q215968$777bbfb6-4fc7-5b08-a0b4-28e3873697e7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q193721",
+        "label": "塔博尔",
+        "label_en": "Tábor",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q215968"
+        ],
+        "statement_id": "Q215968$3d723b0a-4b2f-c494-99d6-144e7d0234e9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q42585",
+        "label": "波希米亞王國",
+        "label_en": "Kingdom of Bohemia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "波希米亚·胡斯战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q215968",
+        "title": "Wikidata Q215968 / 扬·杰式卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q215968&oldid=2557954381",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557954381,
+        "modified_at": "2026-10-17T10:42:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

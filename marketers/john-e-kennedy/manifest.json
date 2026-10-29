@@ -34,5 +34,89 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for oat milk",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104424399",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John E. Kennedy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1864–1928",
+      "birth_year": {
+        "value": 1864,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104424399"
+            ],
+            "statement_id": "Q104424399$858417fa-4a71-4edc-a6b0-5f6f3824935f",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1864,
+            "raw_time": "+1864-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104424399"
+            ],
+            "statement_id": "Q104424399$0d1a6744-465a-4352-ac0c-0fc29cb93a88",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告文案先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104424399",
+        "title": "Wikidata Q104424399 / John E. Kennedy",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104424399&oldid=1466531238",
+        "accessed_at": "2026-10-29",
+        "revision_id": 1466531238,
+        "modified_at": "2021-07-25T21:07:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

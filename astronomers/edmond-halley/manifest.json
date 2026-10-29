@@ -31,5 +31,165 @@
   "test_prompt": "In the style of Edmond Halley, test a modern claim that two distant comet apparitions are the same object: fit one orbit to both, compare every orbital element, correct for planetary perturbations, and publish the next return date with its uncertainty range",
   "test_question_zh": "检验两次彗星出现是否为同一颗天体",
   "verification": "生卒 1656–1742、三次彗星 apparition、预报 1758 年回归、南天星表、恒星自行按天文史通说（Wikipedia / Britannica 共识）写；预报应验细节已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47434",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edmond Halley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1656–1742",
+      "birth_year": {
+        "value": 1656,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47434"
+            ],
+            "statement_id": "Q47434$DF7442A2-DE0C-4A98-B818-630CBA24AA64",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1656,
+            "raw_time": "+1656-11-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1742,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47434"
+            ],
+            "statement_id": "Q47434$be132ba0-4254-f2c9-73e7-7ae67d491049",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1742,
+            "raw_time": "+1742-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47434"
+        ],
+        "statement_id": "Q47434$69151CDA-2140-46FC-926C-BC56BC728F4C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2146341",
+        "label": "哈格斯顿",
+        "label_en": "Haggerston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q47434"
+        ],
+        "statement_id": "Q47434$673fe8bd-4009-a1bd-a9cc-e419194231c4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1676-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1678-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q34497",
+        "label": "圣赫勒拿",
+        "label_en": "Saint Helena",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47434"
+        ],
+        "statement_id": "q47434$316B6FC5-AC16-4E29-BF1D-495013A12E5F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47434"
+        ],
+        "statement_id": "Q47434$23b6915a-4b58-5566-4247-92750a763479",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·彗星天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47434",
+        "title": "Wikidata Q47434 / 愛德蒙·哈雷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47434&oldid=2557859376",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557859376,
+        "modified_at": "2026-10-17T04:28:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

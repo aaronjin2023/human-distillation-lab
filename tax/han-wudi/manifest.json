@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7225",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Han Wudi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "156–87 BCE",
+      "birth_year": {
+        "value": -156,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7225"
+            ],
+            "statement_id": "Q7225$A6FEA685-F6FC-43BA-AF8E-BD8C9BF16C9F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -156,
+            "raw_time": "-0156-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -87,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7225"
+            ],
+            "statement_id": "Q7225$DBACE9A9-DA5D-475C-8511-66B7B6BEC6B8",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": -87,
+            "raw_time": "-0087-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7225"
+        ],
+        "statement_id": "Q7225$CBDB3EFD-97FC-4AFB-A463-393A9DCF2953",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6501000",
+        "label": "长安",
+        "label_en": "Chang'an",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7225"
+        ],
+        "statement_id": "Q7225$5C9692F0-CF7C-494E-A2E9-9103A3F0605C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1072949",
+        "label": "西汉",
+        "label_en": "Western Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西汉·税制改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7225",
+        "title": "Wikidata Q7225 / 汉武帝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7225&oldid=2526684988",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2526684988,
+        "modified_at": "2026-08-03T08:59:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,132 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为村子做太阳能灯的职业课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为《从奴隶到自由》的通行名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q319871",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Booker T. Washington",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1915",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319871"
+            ],
+            "statement_id": "q319871$08E52E02-3637-4AC0-9903-FD42810A7E9E",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319871"
+            ],
+            "statement_id": "q319871$4D794177-6FEA-474B-BA74-34F694F8FF03",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q319871"
+        ],
+        "statement_id": "Q319871$06748BE4-6704-4033-9A30-3FDC34D16354",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q5641340",
+        "label": "赫爾福德",
+        "label_en": "Hale's Ford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q319871"
+        ],
+        "statement_id": "q319871$C3BE10E9-EE98-47D5-A305-7D24F2992DD2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q319871"
+          ],
+          "statement_id": "Q319871$B6583214-F350-437D-9BA6-5E0FCE064FBF",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "西方·黑人职业教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q319871",
+        "title": "Wikidata Q319871 / 布克·华盛顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q319871&oldid=2557821610",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557821610,
+        "modified_at": "2026-10-17T01:48:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

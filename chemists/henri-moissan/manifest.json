@@ -1,36 +1,148 @@
 {
- "chemist": "Henri Moissan",
- "chemist_zh": "亨利·莫瓦桑",
- "dates": "1852–1907",
- "field": "无机化学 / 氟化学",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #22",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "氟的分离",
-  "电炉高温化学",
-  "人造金刚石尝试（未成功）"
- ],
- "sources": [
-  "Wikipedia 'Henri Moissan' https://en.wikipedia.org/wiki/Henri_Moissan",
-  "Britannica 'Henri Moissan' https://www.britannica.com/biography/Henri-Moissan",
-  "NobelPrize.org 'Henri Moissan – Facts' https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/"
- ],
- "test_prompt": "In the style of Henri Moissan, design a plan to isolate an extremely reactive gas: cool the apparatus, electrolyse its salt, and state what would prove the gas is the element and not a compound.",
- "test_question_zh": "如何分离一种极活泼的气体单质？",
- "verification": "2026-10-26：生卒、氟分离、电炉、金刚石尝试未成功、1906 年诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "氟分离原始论文（法文）细节未逐句核对",
-  "电炉实验的具体条件未逐项核对原文",
-  "金刚石尝试的原始记录未逐一核对"
- ]
+  "chemist": "Henri Moissan",
+  "chemist_zh": "亨利·莫瓦桑",
+  "dates": "1852–1907",
+  "field": "无机化学 / 氟化学",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #22",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "氟的分离",
+    "电炉高温化学",
+    "人造金刚石尝试（未成功）"
+  ],
+  "sources": [
+    "Wikipedia 'Henri Moissan' https://en.wikipedia.org/wiki/Henri_Moissan",
+    "Britannica 'Henri Moissan' https://www.britannica.com/biography/Henri-Moissan",
+    "NobelPrize.org 'Henri Moissan – Facts' https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/"
+  ],
+  "test_prompt": "In the style of Henri Moissan, design a plan to isolate an extremely reactive gas: cool the apparatus, electrolyse its salt, and state what would prove the gas is the element and not a compound.",
+  "test_question_zh": "如何分离一种极活泼的气体单质？",
+  "verification": "2026-10-26：生卒、氟分离、电炉、金刚石尝试未成功、1906 年诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "氟分离原始论文（法文）细节未逐句核对",
+    "电炉实验的具体条件未逐项核对原文",
+    "金刚石尝试的原始记录未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102804",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henri Moissan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1852–1907",
+      "birth_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102804"
+            ],
+            "statement_id": "q102804$56FBEC3B-7A6B-492D-858B-34AE45848CA3",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-09-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102804"
+            ],
+            "statement_id": "q102804$FC6F3E6A-2C1A-45C5-8547-E4DA5D12B0AD",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102804"
+        ],
+        "statement_id": "q102804$1097B301-E5DF-4BC3-AFDB-E1AE2CBB7DBC",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102804"
+        ],
+        "statement_id": "q102804$BE5B85CB-0001-4C7A-A1D0-A56D067A0DC3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "无机化学 / 氟化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102804",
+        "title": "Wikidata Q102804 / 亨利·莫瓦桑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102804&oldid=2559652215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559652215,
+        "modified_at": "2026-10-22T08:53:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

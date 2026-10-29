@@ -30,5 +30,157 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿第 8 节来源与英文维基通说核对；作品编号 / 调性 / 版本争议记 conflicts.md，不绑定单一版本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q132232",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clara Schumann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1819–1896",
+      "birth_year": {
+        "value": 1819,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q132232"
+            ],
+            "statement_id": "q132232$90406EAB-D235-4EDE-B919-A08D48796DDB",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1819,
+            "raw_time": "+1819-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q132232"
+            ],
+            "statement_id": "q132232$99CED95E-DDD7-4B35-93C8-97723F6F163F",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q132232"
+        ],
+        "statement_id": "q132232$188C28AC-9EDA-44BF-A31C-FF228FEFD474",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q132232"
+        ],
+        "statement_id": "Q132232$DD95B77C-DB66-4CE0-8B39-5272E5200AEF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2773",
+        "label": "不伦瑞克",
+        "label_en": "Brunswick",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q132232"
+        ],
+        "statement_id": "Q132232$48475E73-E4C8-4725-844C-F3F3AC826708",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q132232"
+        ],
+        "statement_id": "Q132232$20C90998-B351-4F3D-8EC1-689EC0EC1BBB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23968",
+        "label": "诺德奈",
+        "label_en": "Norderney",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q132232"
+        ],
+        "statement_id": "Q132232$5b0437e2-4853-4861-97d3-8f9fef92fc12",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q153015",
+        "label": "萨克森王国",
+        "label_en": "Kingdom of Saxony",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 德国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q132232",
+        "title": "Wikidata Q132232 / 克拉拉·舒曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q132232&oldid=2561584463",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561584463,
+        "modified_at": "2026-10-28T01:27:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

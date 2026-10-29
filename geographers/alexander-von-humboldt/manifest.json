@@ -31,5 +31,144 @@
   "test_prompt": "In the style of Alexander von Humboldt, measure a new urban district as one profile: height, temperature, greenery and people together, and let the whole argue against any single cause for how the district lives.",
   "test_question_zh": "一座新城区的垂直剖面",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《宇宙》与植被带谱为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6694",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alexander von Humboldt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1769–1859",
+      "birth_year": {
+        "value": 1769,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6694"
+            ],
+            "statement_id": "q6694$3E5FBA31-D509-4275-BB9F-CEFD13248232",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1769,
+            "raw_time": "+1769-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6694"
+            ],
+            "statement_id": "q6694$EE263FF8-5A0A-4C96-8C00-682856D38388",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6694"
+        ],
+        "statement_id": "q6694$96DED2A6-0FFC-48D8-B533-BC970EDD1B94",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q6694"
+        ],
+        "statement_id": "Q6694$8d08c4f0-4914-d706-9ac9-b7ca6fae5764",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4024",
+        "label": "奥得河畔法兰克福",
+        "label_en": "Frankfurt (Oder)",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6694"
+        ],
+        "statement_id": "Q6694$41490D09-0723-4A3E-B92C-BC72EE625E12",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6694"
+        ],
+        "statement_id": "q6694$2A7BA075-2028-44D1-A734-98A04455630D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·近代地理学奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6694",
+        "title": "Wikidata Q6694 / 亚历山大·冯·洪堡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6694&oldid=2561196500",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561196500,
+        "modified_at": "2026-10-26T21:08:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

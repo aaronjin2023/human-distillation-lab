@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Wu Qing-feng, lyrics about a small Yorkshire terrier sitting on a subway seat, like a tiny hummingbird among commuters. Whimsical Mandarin, nature imagery, tender wonder. Verse, chorus.",
   "verification": "2026-10-26；草稿已核实项见 lyricists-top100-draft.md 第 5 节；未核实项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q713068",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Qing-feng",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1982–",
+      "birth_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q713068"
+            ],
+            "statement_id": "Q713068$AA30980C-7C9E-4B21-83BA-F67D81B67630",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q713068"
+        ],
+        "statement_id": "Q713068$4053ADBD-014F-4BD7-8FC5-9A0F5B99C1EA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1867",
+        "label": "台北市",
+        "label_en": "Taipei",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q713068"
+        ],
+        "statement_id": "Q713068$64DD06A1-F970-40A6-BA5C-424D84D84C28",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国语流行·台湾",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q713068",
+        "title": "Wikidata Q713068 / 吴青峰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q713068&oldid=2530197083",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2530197083,
+        "modified_at": "2026-08-11T22:57:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

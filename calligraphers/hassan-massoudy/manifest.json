@@ -38,5 +38,128 @@
   "test_prompt": "In the style of Hassan Massoudy, modern Arabic calligraphy writing a line of poetry, gestural reed-pen strokes, black and coloured ink, letters stretched and dancing, large empty space",
   "transmission": "真迹存世；在世（1944–，居巴黎），只蒸已发表作品",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3128163",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hassan Massoudy",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3128163"
+            ],
+            "statement_id": "q3128163$ceee0fe4-4931-9af9-054e-f9a35acc4e76",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3128163"
+        ],
+        "statement_id": "Q3128163$d20d157a-425b-0c0d-904d-1a3a401491e9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q168193",
+        "label": "纳杰夫",
+        "label_en": "Najaf",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q3128163"
+        ],
+        "statement_id": "Q3128163$e2287993-4f40-0409-5e49-65a23321c9d8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3128163"
+        ],
+        "statement_id": "Q3128163$AC7A4083-C557-4EDB-A07B-36F3BEC85B29",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q796",
+        "label": "伊拉克",
+        "label_en": "Iraq",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3128163"
+        ],
+        "statement_id": "Q3128163$bec6caec-46da-1828-ee34-8e8bb4b14395",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·现代书法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3128163",
+        "title": "Wikidata Q3128163 / Hassan Massoudy",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3128163&oldid=2527288481",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527288481,
+        "modified_at": "2026-08-04T19:45:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

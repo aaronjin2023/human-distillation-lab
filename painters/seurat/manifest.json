@@ -30,5 +30,196 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "雨夜公交站（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《大碗岛》1884–1886 年；《阿尼埃尔的浴者》1883–1884 年；修拉 1859–1891",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34013",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georges Seurat",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1859–1891",
+      "birth_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34013"
+            ],
+            "statement_id": "q34013$009FC22D-FA2E-41FF-801F-B6E3BC73EFBB",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34013"
+            ],
+            "statement_id": "q34013$D751EE35-8E73-4F41-BFBC-DCD2C00AADF5",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$4306701f-44be-dfa7-8d98-e4c68bfe8138",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2845756",
+        "label": "原巴黎第五区",
+        "label_en": "former 5th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$739858CE-45D3-4151-820A-5FE69B2BB128",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12193",
+        "label": "布雷斯特",
+        "label_en": "Brest",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$F8AC8134-356B-436B-BD4D-EDE9BB22F363",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q323399",
+        "label": "格拉沃利讷",
+        "label_en": "Gravelines",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$CCFB7C1D-CBCF-4288-BA7C-3C276601B06D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q231720",
+        "label": "翁弗勒尔",
+        "label_en": "Honfleur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$0A7A3D23-CE65-49CD-9BDA-91DD8AFC7F51",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61816",
+        "label": "勒克罗图瓦",
+        "label_en": "Le Crotoy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$77557B91-CA88-4B53-A87E-8BD66124D05C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "Q34013$A887CC32-852E-4465-8AF5-C30AFA03CE6C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q987304",
+        "label": "贝桑港-于潘",
+        "label_en": "Port-en-Bessin-Huppain",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34013"
+        ],
+        "statement_id": "q34013$578F5758-59C4-49F0-BAA6-5319ACA1011A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新印象派/点彩"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34013",
+        "title": "Wikidata Q34013 / 喬治·皮埃尔·秀拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34013&oldid=2561607084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561607084,
+        "modified_at": "2026-10-28T06:42:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

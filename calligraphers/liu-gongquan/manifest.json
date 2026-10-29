@@ -51,5 +51,117 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Liu Gongquan, Tang regular script carving modern Tokyo subway station names on a stone stele, tight sinewy characters, lean precise strokes, bones over flesh, black rubbing ink",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q718265",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Liu Gongquan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "778–865",
+      "birth_year": {
+        "value": 778,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718265"
+            ],
+            "statement_id": "Q718265$8883555A-BF36-47C6-A4F5-52F5C348B6C2",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 778,
+            "raw_time": "+0778-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q718265"
+            ],
+            "statement_id": "Q718265$040DADED-903F-4DC5-8A62-30FA2A4A90B3",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 865,
+            "raw_time": "+0865-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q718265"
+        ],
+        "statement_id": "Q718265$49fa7201-43bb-4d10-41ce-b8b4ebf941a6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q950944",
+        "label": "永济市",
+        "label_en": "Yongji",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q718265"
+        ],
+        "statement_id": "Q718265$EB060842-A19D-4394-BA12-2A34BE16A83F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·楷书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q718265",
+        "title": "Wikidata Q718265 / 柳公权",
+        "url": "https://www.wikidata.org/w/index.php?title=Q718265&oldid=2516109064",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516109064,
+        "modified_at": "2026-07-11T00:36:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

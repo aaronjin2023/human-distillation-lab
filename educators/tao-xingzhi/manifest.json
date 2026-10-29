@@ -40,5 +40,131 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "中学生观察地铁约克夏犬并做小先生的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为通行引用的生活教育三原理，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q105576",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tao Xingzhi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1946",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105576"
+            ],
+            "statement_id": "Q105576$0DFBCD7C-BFFA-406E-B6D7-662B18FD2FAE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105576"
+            ],
+            "statement_id": "Q105576$DC1CD952-2750-4F12-B22B-667A8CDBA6A9",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q105576"
+        ],
+        "statement_id": "Q105576$8316331E-F5DA-4A97-B23F-8611554EAA37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1197997",
+        "label": "歙县",
+        "label_en": "She County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q105576"
+        ],
+        "statement_id": "Q105576$F9A07C5B-11F9-49E4-A3B4-6C79DB37D444",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q105576"
+        ],
+        "statement_id": "Q105576$d2e2ec8f-460c-7712-ce57-67b53adb68da",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·生活教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q105576",
+        "title": "Wikidata Q105576 / 陶行知",
+        "url": "https://www.wikidata.org/w/index.php?title=Q105576&oldid=2517941970",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2517941970,
+        "modified_at": "2026-07-15T22:57:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "快递柜前取件的老人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q461153",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emmanuel Guibert",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1964–",
+      "birth_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q461153"
+            ],
+            "statement_id": "Q461153$1A87BD74-CA89-42AB-AADD-C17DDE837E94",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q461153"
+        ],
+        "statement_id": "q461153$FAC9E38B-73E6-4024-9533-2B1CD92FD4A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q461153"
+        ],
+        "statement_id": "Q461153$133A9778-2E71-4058-9957-81BA7DB22C25",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·图像小说/纪实漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q461153",
+        "title": "Wikidata Q461153 / 艾曼紐·吉拜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q461153&oldid=2551906841",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551906841,
+        "modified_at": "2026-10-01T20:26:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

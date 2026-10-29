@@ -32,5 +32,127 @@
   "test_prompt": "In the method of Norio Taniguchi, design a nanoscale-precision flexible sensing material for a wearable device. Define the scale and the precision target first, choose the machining method by measured precision, and let the precision curve decide how far manufacturing can go.",
   "test_question_zh": "为可穿戴设备设计一种纳米精度柔性传感材料",
   "verification": "2026-10-26：生卒（1912–1999）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4381067",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Norio Taniguchi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1999",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4381067"
+            ],
+            "statement_id": "Q4381067$1C6649C1-C6FB-4AC6-941A-B44EA816BF8C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4381067"
+            ],
+            "statement_id": "Q4381067$500569E2-6840-49BA-A01F-296E2B1505F2",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4381067"
+        ],
+        "statement_id": "Q4381067$9FF87212-96D8-483E-B3E0-2C0EE0BC7E35",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q4381067"
+        ],
+        "statement_id": "Q4381067$46D48BDB-E624-4636-AC2A-39520F015594",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "纳米技术 / 超精密加工"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4381067",
+        "title": "Wikidata Q4381067 / Norio Taniguchi",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4381067&oldid=2544334349",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544334349,
+        "modified_at": "2026-09-12T03:21:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

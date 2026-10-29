@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104183",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lillian Gish",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1993",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104183"
+            ],
+            "statement_id": "q104183$9D99133E-760C-48C3-BAD6-1F5DC5AA82FC",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104183"
+            ],
+            "statement_id": "q104183$C0F2ABFA-0E84-42AA-9A75-8497D0A87D29",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104183"
+        ],
+        "statement_id": "q104183$40423DA1-2B2B-43F7-BEA0-3A91EE5C80C9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q40325",
+        "label": "斯普林菲尔德",
+        "label_en": "Springfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q104183"
+        ],
+        "statement_id": "Q104183$A8E5E121-73E8-4B3E-80A9-97CA8948473A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104183"
+        ],
+        "statement_id": "q104183$DE644599-CFF3-443C-A813-88F8280B2C27",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104183",
+        "title": "Wikidata Q104183 / 莉蓮·吉許",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104183&oldid=2558918462",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558918462,
+        "modified_at": "2026-10-19T20:44:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

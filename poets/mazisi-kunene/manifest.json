@@ -38,5 +38,133 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己、从未寄出的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q733294",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mazisi Kunene",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2006",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q733294"
+            ],
+            "statement_id": "Q733294$30A15852-74A5-4669-B10F-00DB162A6572",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q733294"
+            ],
+            "statement_id": "Q733294$5E20EF6A-E1C1-42B4-BA1E-9EA1D21AE7D9",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-08-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q733294"
+            ],
+            "statement_id": "Q733294$57fa273a-bd87-4b9b-a288-d19b6ed9703c",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q733294"
+        ],
+        "statement_id": "Q733294$09751B33-52BA-4573-BE18-7B663FFB458C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5468",
+        "label": "德班",
+        "label_en": "Durban",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q733294"
+        ],
+        "statement_id": "Q733294$D1F435ED-C43A-423B-80F2-BBE51C98BF70",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "南非·祖鲁史诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q733294",
+        "title": "Wikidata Q733294 / Mazisi Kunene",
+        "url": "https://www.wikidata.org/w/index.php?title=Q733294&oldid=2555601031",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555601031,
+        "modified_at": "2026-10-10T13:30:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

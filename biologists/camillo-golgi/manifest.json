@@ -30,5 +30,186 @@
   "test_prompt": "In the style of Camillo Golgi, judge whether cells revealed by a new stain are neurons: stain several specimens, draw each cell's processes exactly as shown, compare the shapes, and do not claim continuity or contact the stain cannot show",
   "test_question_zh": "一种新染色法让脑组织里少数细胞显形，怎么判断它们是不是神经元？",
   "verification": "生卒 1843–1926、黑反应 1873、高尔基体 1898、1906 年诺贝尔生理学或医学奖按生物学史通说写；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q150630",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Camillo Golgi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1843–1926",
+      "birth_year": {
+        "value": 1843,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q150630"
+            ],
+            "statement_id": "q150630$6AF8B35F-9DFF-4B9F-85CD-5A836E8B576F",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1843,
+            "raw_time": "+1843-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q150630"
+            ],
+            "statement_id": "q150630$57F2FDB8-65E0-4AF4-A852-702DC77BB45C",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-01-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q150630"
+        ],
+        "statement_id": "q150630$D30A4060-5F41-40D9-8560-836AB8DD6C6D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q104096",
+        "label": "科尔泰诺戈尔吉",
+        "label_en": "Corteno Golgi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q150630"
+        ],
+        "statement_id": "Q150630$04967217-510D-48A3-8B37-D29836987C4C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1861-03-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q150630"
+        ],
+        "statement_id": "Q150630$7f35f596-4521-5539-7842-89b09d8770ce",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1859-11-10T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q131964",
+        "label": "奥地利帝国",
+        "label_en": "Austrian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q150630"
+        ],
+        "statement_id": "Q150630$3f37d431-4bef-be67-f697-6a1dcdb91a62",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1859-11-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1861-03-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2577303",
+        "label": "撒丁王国",
+        "label_en": "Kingdom of Sardinia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "细胞学 / 神经生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q150630",
+        "title": "Wikidata Q150630 / 卡米洛·高尔基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q150630&oldid=2558740027",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558740027,
+        "modified_at": "2026-10-19T10:26:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

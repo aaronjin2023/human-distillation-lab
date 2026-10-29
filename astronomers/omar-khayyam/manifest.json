@@ -31,5 +31,153 @@
   "test_prompt": "In the style of Omar Khayyam, design a leap rule for a newly found exoplanet: measure the length of its year from many transits, derive the fractional part, propose the simplest leap pattern that keeps the calendar true for a century, and state how many years of observation would falsify it",
   "test_question_zh": "为一颗系外行星设计闰法",
   "verification": "生卒 1048–1131、《哲拉里历》与太阳年测定按天文史通说（Wikipedia / Britannica 共识）写；闰法细节与数值未核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q35900",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Omar Khayyam",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1048–1131",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q35900"
+            ],
+            "statement_id": "Q35900$66DBDA9C-A812-4CD7-A09B-6D317246698A",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1048,
+            "raw_time": "+1048-05-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q35900"
+            ],
+            "statement_id": "Q35900$d2a5e631-416c-1fae-c5e4-900242c3dbf6",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1048,
+            "raw_time": "+1048-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1131,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q35900"
+            ],
+            "statement_id": "Q35900$90A4ED6A-DD3D-4912-A418-369B4B0CB815",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1131,
+            "raw_time": "+1131-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q35900"
+        ],
+        "statement_id": "q35900$BCDBAF89-098D-4F3C-98B5-B9FAAAB4E8D2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q131350",
+        "label": "內沙布爾",
+        "label_en": "Nishapur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q35900"
+        ],
+        "statement_id": "Q35900$c24d377b-415a-10e8-8d29-aa28ce3d4ad6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5953597",
+        "label": "Hira",
+        "label_en": "Hira",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q35900"
+        ],
+        "statement_id": "Q35900$E0D6A381-2CE8-444B-A50B-F1EE9D1D5935",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3708094",
+        "label": "塞尔柱帝国",
+        "label_en": "Seljuk Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "波斯·历法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q35900",
+        "title": "Wikidata Q35900 / 欧玛尔·海亚姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q35900&oldid=2559110483",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559110483,
+        "modified_at": "2026-10-20T06:36:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

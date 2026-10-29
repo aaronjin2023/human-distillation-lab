@@ -24,5 +24,130 @@
   "test_prompt": "In the style of Jean Brunhes, survey a new suburb: classify its houses, fields, roads and mines, then explain the way of life they make",
   "test_question_zh": "一座新建郊区的人类劳作与景观，说明了怎样的生活方式？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2320453",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Brunhes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1869–1930",
+      "birth_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2320453"
+            ],
+            "statement_id": "Q2320453$93221DCC-38F4-4071-B027-BC041AD40952",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2320453"
+            ],
+            "statement_id": "Q2320453$6460216E-8F39-4E38-84C3-AFC1DCA225C5",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-08-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2320453"
+        ],
+        "statement_id": "q2320453$8029427F-9754-4437-8A46-B1E986AC0BEE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q7880",
+        "label": "图卢兹",
+        "label_en": "Toulouse",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2320453"
+        ],
+        "statement_id": "Q2320453$A221C186-F0F5-4A69-87A1-8464DDD66E03",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2320453"
+        ],
+        "statement_id": "Q2320453$E867F062-950E-4DED-AF3D-5BA988C73E58",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·人文地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2320453",
+        "title": "Wikidata Q2320453 / 白吕纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2320453&oldid=2535761476",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535761476,
+        "modified_at": "2026-08-24T10:23:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

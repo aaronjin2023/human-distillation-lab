@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "埃克博风格：现代城市的一座社区公园，生活的景观，社会空间，几何平面配自由种植，以人为先，现代材料，艺术与生态一体。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q204704",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Garrett Eckbo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–2000",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q204704"
+            ],
+            "statement_id": "Q204704$67A9F5C9-571E-4C48-87D5-BF8D4F57EDB4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q204704"
+            ],
+            "statement_id": "Q204704$58A16867-19EC-470E-8576-264907790330",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-05-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q204704"
+        ],
+        "statement_id": "q204704$C0B36F97-D0AA-46A7-B348-22EA023C93BB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1025016",
+        "label": "库珀斯敦",
+        "label_en": "Cooperstown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q204704"
+        ],
+        "statement_id": "q204704$54D508AD-9380-4FA7-A65A-75740C49D594",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·现代主义景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q204704",
+        "title": "Wikidata Q204704 / 盖瑞特·埃克博",
+        "url": "https://www.wikidata.org/w/index.php?title=Q204704&oldid=2557889521",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557889521,
+        "modified_at": "2026-10-17T06:06:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154556",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karlheinz Stockhausen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2007",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154556"
+            ],
+            "statement_id": "q154556$9AF8CD50-904B-4C63-AA52-9C35B83C68DD",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-08-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154556"
+            ],
+            "statement_id": "Q154556$C30580C1-B99D-4CD5-8118-B7181952B801",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154556"
+        ],
+        "statement_id": "Q154556$5243c902-487b-01fd-3341-84fd4d7649d3",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47461274",
+        "label": "Mödrath castle",
+        "label_en": "Mödrath castle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154556"
+        ],
+        "statement_id": "Q154556$44AF2611-5974-4F94-B063-41EE21688F3B",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "战后先锋 / 电子音乐"
+    },
+    "sources": [
+      {
+        "id": "WD:Q154556",
+        "title": "Wikidata Q154556 / 卡尔海因茨·施托克豪森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154556&oldid=2561655587",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561655587,
+        "modified_at": "2026-10-28T11:13:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

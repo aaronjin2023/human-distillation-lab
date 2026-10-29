@@ -31,5 +31,144 @@
   "test_prompt": "In the style of Friedrich Ratzel, map where newcomers to a new district settle and move, read the distribution itself, and keep the argument at the level of distribution — never turning living space into a reason for expansion.",
   "test_question_zh": "一座新城区的迁入人口分布",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《人类地理学》1882–1891、《政治地理学》1897 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76762",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Ratzel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1844–1904",
+      "birth_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76762"
+            ],
+            "statement_id": "Q76762$301BC36E-6E9F-43A2-AC33-8CEADF4F5F0D",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76762"
+            ],
+            "statement_id": "Q76762$211A33B7-A3A6-4549-92A1-0DCF778F86A4",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76762"
+        ],
+        "statement_id": "q76762$F3777805-B001-481A-BB7F-DFC539B78F31",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1040",
+        "label": "卡尔斯鲁厄",
+        "label_en": "Karlsruhe",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76762"
+        ],
+        "statement_id": "Q76762$BAD01B08-405B-4872-BAF3-833B03F7BF2F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76762"
+        ],
+        "statement_id": "Q76762$80F6D424-E1A8-4F95-8E99-F4B4A666F3B0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76762"
+        ],
+        "statement_id": "q76762$5ABDC4AF-64B7-450D-B3BB-6E417451639A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q186320",
+        "label": "巴登大公國",
+        "label_en": "Grand Duchy of Baden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·人类地理与政治地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76762",
+        "title": "Wikidata Q76762 / 弗里德里希·拉采尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76762&oldid=2559621936",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559621936,
+        "modified_at": "2026-10-22T03:17:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

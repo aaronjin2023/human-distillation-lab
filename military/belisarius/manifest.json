@@ -43,5 +43,125 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次小团队面对巨头的竞争",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q174943",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Belisarius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.505–565",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174943"
+            ],
+            "statement_id": "Q174943$a51c95bc-40e4-b4e5-11bf-e4cf20616b8d",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 505,
+            "raw_time": "+0505-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 565,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174943"
+            ],
+            "statement_id": "Q174943$3F36CD03-A157-45B1-A08C-EB89EE139406",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 565,
+            "raw_time": "+0565-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q174943"
+        ],
+        "statement_id": "Q174943$B9108B47-001E-47D1-AFF5-4539E3999136",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q405166",
+        "label": "萨帕雷瓦巴尼亚",
+        "label_en": "Sapareva Banya",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q174943"
+        ],
+        "statement_id": "Q174943$46FB2CAC-74C5-4E32-8274-70DC109D4E74",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12544",
+        "label": "拜占庭帝国",
+        "label_en": "Byzantine Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拜占庭·远征"
+    },
+    "sources": [
+      {
+        "id": "WD:Q174943",
+        "title": "Wikidata Q174943 / 贝利撒留",
+        "url": "https://www.wikidata.org/w/index.php?title=Q174943&oldid=2559927496",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559927496,
+        "modified_at": "2026-10-23T09:14:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

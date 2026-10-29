@@ -30,5 +30,166 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿第 8 节来源与英文维基通说核对；作品编号 / 调性 / 版本争议记 conflicts.md，不绑定单一版本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q45682",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Sibelius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1865–1957",
+      "birth_year": {
+        "value": 1865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45682"
+            ],
+            "statement_id": "q45682$75D44D3D-024B-4ED8-B17D-4632746507D6",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1865,
+            "raw_time": "+1865-12-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45682"
+            ],
+            "statement_id": "q45682$742585BD-B93C-475B-9C71-B91829A25BC7",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-09-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q45682"
+        ],
+        "statement_id": "q45682$3c8640c9-4f85-f71b-bb80-9df2bcd21c65",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q202158",
+        "label": "海门林纳",
+        "label_en": "Hämeenlinna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q45682"
+        ],
+        "statement_id": "Q45682$029F0D11-1DBA-4440-A28C-306EF38010E4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1757",
+        "label": "赫尔辛基",
+        "label_en": "Helsinki",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q45682"
+        ],
+        "statement_id": "q45682$57B9818D-294F-4192-BE7C-5BA769567C11",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1917-12-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q33",
+        "label": "芬兰",
+        "label_en": "Finland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q45682"
+        ],
+        "statement_id": "Q45682$26C72FB5-F93B-4628-AD54-1A91AAB9EA3F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1917-12-05T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q62633",
+        "label": "芬兰大公国",
+        "label_en": "Grand Duchy of Finland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "民族乐派 / 芬兰"
+    },
+    "sources": [
+      {
+        "id": "WD:Q45682",
+        "title": "Wikidata Q45682 / 让·西贝柳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q45682&oldid=2560633856",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560633856,
+        "modified_at": "2026-10-25T09:47:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

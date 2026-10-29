@@ -46,5 +46,101 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q433134",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Judith Herman",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q433134"
+            ],
+            "statement_id": "Q433134$8BF88455-FFCB-4FA9-B733-EA50EFB817C5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q433134"
+        ],
+        "statement_id": "Q433134$BA2D8C6A-5DC9-4BE6-8F13-D2A5D9AA3905",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q433134"
+        ],
+        "statement_id": "q433134$B11AF283-E94B-474E-A8C0-69F40AA9436A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "创伤理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q433134",
+        "title": "Wikidata Q433134 / 茱蒂絲·劉易斯·赫曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q433134&oldid=2517284447",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2517284447,
+        "modified_at": "2026-07-14T05:37:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

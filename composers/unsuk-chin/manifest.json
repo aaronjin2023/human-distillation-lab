@@ -31,5 +31,115 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272236",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Unsuk Chin",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272236"
+            ],
+            "statement_id": "Q272236$8B6CDCB9-051F-45C0-A630-33FD1138004B",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-07-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272236"
+        ],
+        "statement_id": "Q272236$0572FAB2-1B1E-4BDF-8C4B-BD042321EB4D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q272236"
+        ],
+        "statement_id": "Q272236$9ABE15CF-4DFF-4359-A310-85AB3C66B38C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272236"
+        ],
+        "statement_id": "Q272236$6BC42CD9-E6DA-4D6B-9015-60B679832466",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩国 / 当代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272236",
+        "title": "Wikidata Q272236 / 陳銀淑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272236&oldid=2554028202",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554028202,
+        "modified_at": "2026-10-06T16:41:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

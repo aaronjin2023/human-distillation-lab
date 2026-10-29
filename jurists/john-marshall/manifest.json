@@ -44,5 +44,132 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "市政府禁止共享单车令的违宪审查（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1755–1835、两案引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q310829",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Marshall",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1755–1835",
+      "birth_year": {
+        "value": 1755,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310829"
+            ],
+            "statement_id": "q310829$A615F69E-2CAA-4EA5-BA6C-E47D6DC37FA3",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1755,
+            "raw_time": "+1755-09-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310829"
+            ],
+            "statement_id": "q310829$6E680024-7BC3-49ED-B034-DC423BB57326",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-07-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q310829"
+        ],
+        "statement_id": "q310829$30A530D9-90EB-43AC-97CE-E17F4FD4871E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3476817",
+        "label": "Germantown",
+        "label_en": "Germantown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q310829"
+        ],
+        "statement_id": "Q310829$10F1424A-A51C-40E1-921F-718581298EA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q310829"
+        ],
+        "statement_id": "q310829$42BB533E-8DCD-4099-A409-42848538A45F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·宪法 / 最高法院",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q310829",
+        "title": "Wikidata Q310829 / 约翰·马歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q310829&oldid=2557991030",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557991030,
+        "modified_at": "2026-10-17T13:27:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

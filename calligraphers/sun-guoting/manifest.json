@@ -46,5 +46,103 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Sun Guoting, Tang cursive script writing modern Tokyo subway station names, fluent disciplined strokes, natural connections, clear rhythm, light ink on paper",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3238449",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sun Guoting",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "646–691",
+      "birth_year": {
+        "value": 646,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3238449"
+            ],
+            "statement_id": "Q3238449$C99FA89A-010B-438D-B90A-C9CFDCE6AA10",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 646,
+            "raw_time": "+0646-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 691,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3238449"
+            ],
+            "statement_id": "Q3238449$F947E11F-4554-49F4-8041-A1399E4920D5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 691,
+            "raw_time": "+0691-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3238449"
+        ],
+        "statement_id": "Q3238449$EDD56FC9-615F-4398-AC17-F3F4BAE36F75",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·草书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3238449",
+        "title": "Wikidata Q3238449 / 孙过庭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3238449&oldid=2515929396",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515929396,
+        "modified_at": "2026-07-10T16:20:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

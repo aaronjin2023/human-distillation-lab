@@ -43,5 +43,131 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q501",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Baudelaire",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1821–1867",
+      "birth_year": {
+        "value": 1821,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q501"
+            ],
+            "statement_id": "q501$68E42D8A-E204-4C16-A239-858F14359E94",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1821,
+            "raw_time": "+1821-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1867,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q501"
+            ],
+            "statement_id": "q501$2FF60C41-046C-47AC-BC89-9E5179401B35",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1867,
+            "raw_time": "+1867-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q501"
+        ],
+        "statement_id": "Q501$fa4b9323-4c60-3450-cc82-da90b6f8d4e6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15149908",
+        "label": "原巴黎第十一区",
+        "label_en": "former 11th arrondissement of Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q501"
+        ],
+        "statement_id": "Q501$5f2020e2-4b37-2a07-5373-0f892dbe7e9b",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q501"
+        ],
+        "statement_id": "q501$2EB1D0EB-2CA8-48C0-A5FA-18D0BBB2444A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·象征主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q501",
+        "title": "Wikidata Q501 / 夏尔·波德莱尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q501&oldid=2557836599",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557836599,
+        "modified_at": "2026-10-17T03:00:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

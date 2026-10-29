@@ -36,5 +36,102 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款巴西人字拖品牌的生活方式战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q10325035",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marcello Serpa",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "c.1962–（在世）",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10325035"
+            ],
+            "statement_id": "Q10325035$8D47A84E-9A4D-41D7-B749-D55BA9597E49",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1962
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q10325035"
+        ],
+        "statement_id": "Q10325035$5D6ABDDC-A9AC-4C7C-B95F-5D93E3502A65",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174",
+        "label": "圣保罗",
+        "label_en": "São Paulo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q10325035"
+        ],
+        "statement_id": "Q10325035$1e34a32a-4071-d73b-d971-bb3526e3dc48",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "巴西广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q10325035",
+        "title": "Wikidata Q10325035 / Marcello Serpa",
+        "url": "https://www.wikidata.org/w/index.php?title=Q10325035&oldid=2527925807",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527925807,
+        "modified_at": "2026-08-06T02:52:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

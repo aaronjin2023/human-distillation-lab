@@ -30,5 +30,183 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《摇篮》1872 年、奥赛藏、姐姐埃德玛俯视摇篮；莫里索 1841–1895",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q105320",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Berthe Morisot",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1841–1895",
+      "birth_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105320"
+            ],
+            "statement_id": "q105320$7A5219CB-0F0E-40FB-87F0-8E2369F32B96",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105320"
+            ],
+            "statement_id": "q105320$AFBDAE59-F352-4F3B-BC9F-B7CBE77B864B",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-03-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "q105320$4D437360-68B1-4DAA-A16D-8236369F40E1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q132404",
+        "label": "布尔日",
+        "label_en": "Bourges",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "Q105320$9097A710-C6F4-48AE-A595-648C686CE189",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "Q105320$82A419DC-11A6-43B6-B299-F53F60D535C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "Q105320$9BB5B45B-9F7E-4DF2-BF16-880FBBEF7D29",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "Q105320$A8218E35-E206-4A46-B224-4CFDF5A78EEC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "Q105320$0DC9B8D6-A576-4AE9-962D-6478A620C66B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q105320"
+        ],
+        "statement_id": "q105320$61CABD01-BF9F-44D8-BB66-0365CB3A875A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q105320",
+        "title": "Wikidata Q105320 / 贝尔特·莫里索",
+        "url": "https://www.wikidata.org/w/index.php?title=Q105320&oldid=2561095404",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561095404,
+        "modified_at": "2026-10-26T14:52:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

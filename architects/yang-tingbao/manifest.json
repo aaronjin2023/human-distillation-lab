@@ -41,5 +41,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11100939",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yang Tingbao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1982",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11100939"
+            ],
+            "statement_id": "Q11100939$E2C9B5AE-EC02-46D1-99BF-F8FE23831C2D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11100939"
+            ],
+            "statement_id": "Q11100939$3738DCC8-9854-4DE4-B01E-3A634A78C9DA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-12-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11100939"
+        ],
+        "statement_id": "Q11100939$DDAE3B00-6303-45C5-9BB2-E3DBFF53DB2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q404763",
+        "label": "南阳市",
+        "label_en": "Nanyang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11100939"
+        ],
+        "statement_id": "Q11100939$A5D13167-AF78-4D49-9362-5E90893E39F3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国近现代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11100939",
+        "title": "Wikidata Q11100939 / 杨廷宝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11100939&oldid=2542359371",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542359371,
+        "modified_at": "2026-09-08T16:50:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

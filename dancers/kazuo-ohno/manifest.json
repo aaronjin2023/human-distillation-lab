@@ -37,5 +37,141 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a commuter in the rain waiting for a train",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q385688",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kazuo Ohno",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–2010",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q385688"
+            ],
+            "statement_id": "q385688$490C4D6E-E74A-4FD9-B054-B34CCC1BDD75",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2010,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q385688"
+            ],
+            "statement_id": "q385688$3A0B1DF3-2E36-4CCD-B8A4-843D36F06A7A",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2010,
+            "raw_time": "+2010-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q385688"
+        ],
+        "statement_id": "q385688$A4815DAB-3889-47A4-A4EE-655CABCC668E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q26418",
+        "label": "函馆市",
+        "label_en": "Hakodate",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q385688"
+        ],
+        "statement_id": "Q385688$D616A6A2-FB4E-40A5-81A9-FDC830CE790A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q385688"
+        ],
+        "statement_id": "Q385688$5823653B-8E3A-4A6C-8873-53B53628AF41",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "暗黑舞踏·舞者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q385688",
+        "title": "Wikidata Q385688 / 大野一雄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q385688&oldid=2556877444",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556877444,
+        "modified_at": "2026-10-14T09:51:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

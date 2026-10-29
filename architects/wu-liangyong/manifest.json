@@ -41,5 +41,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：胡同里一座旧院落改成的社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2181682",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Liangyong",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1922–2022",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2181682"
+            ],
+            "statement_id": "Q2181682$9FBED280-5F7C-4004-86A4-52394A02DD8E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-05-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2181682"
+        ],
+        "statement_id": "Q2181682$CE1191A3-4589-4EC9-A5BA-C204B229535D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16666",
+        "label": "南京市",
+        "label_en": "Nanjing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2181682"
+        ],
+        "statement_id": "q2181682$B06B3E35-4CA5-44F0-A590-DABB6369B336",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国当代 / 人居科学",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2181682",
+        "title": "Wikidata Q2181682 / 吴良镛",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2181682&oldid=2542358104",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542358104,
+        "modified_at": "2026-09-08T16:48:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

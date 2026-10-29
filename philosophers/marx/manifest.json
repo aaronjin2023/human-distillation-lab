@@ -37,5 +37,201 @@
   ],
   "test_prompt": "现代题材：算法推荐决定一个人看什么、读什么、买什么",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9061",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl Marx",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1818–1883",
+      "birth_year": {
+        "value": 1818,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9061"
+            ],
+            "statement_id": "q9061$8F9FA880-3B5B-4F6B-8556-900117CCB266",
+            "rank": "normal",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1818,
+            "raw_time": "+1818-05-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9061"
+            ],
+            "statement_id": "q9061$E6D63B17-E3B6-4D13-A831-00A0F02CA1E6",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-03-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9061"
+        ],
+        "statement_id": "q9061$3942BD56-7F7D-483B-A289-F1E660055B1E",
+        "rank": "normal",
+        "reference_count": 9,
+        "qualifiers": {},
+        "qid": "Q3138",
+        "label": "特里尔",
+        "label_en": "Trier",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9061"
+        ],
+        "statement_id": "Q9061$2C42DA86-F655-453C-A497-F2B06AD86688",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1848-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1849-05-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q365",
+        "label": "科隆",
+        "label_en": "Cologne",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9061"
+        ],
+        "statement_id": "Q9061$4045DDF3-0B8B-4869-B1BB-778C43681179",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1845-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9061"
+        ],
+        "statement_id": "Q9061$919722b7-4d60-955a-5567-cb133cb21fee",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1845-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q223050",
+        "label": "无国籍",
+        "label_en": "statelessness",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q9061"
+          ],
+          "statement_id": "Q9061$623f6114-4de0-2963-7538-465948be77f8",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q34069",
+          "label": "阿什肯納茲猶太人",
+          "label_en": "Ashkenazi Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "历史唯物主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9061",
+        "title": "Wikidata Q9061 / 卡尔·马克思",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9061&oldid=2560998232",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560998232,
+        "modified_at": "2026-10-26T07:39:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

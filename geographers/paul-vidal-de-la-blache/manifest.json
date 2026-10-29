@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Paul Vidal de la Blache, read a new urban district through its ways of life: kitchens, workshops, balconies and night stalls together, and let the streetscape show what the district permits rather than dictates.",
   "test_question_zh": "一座新城区的生活方式",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《法国地理》1903、《人文地理学原理》1922 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311865",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Vidal de la Blache",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1845–1918",
+      "birth_year": {
+        "value": 1845,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311865"
+            ],
+            "statement_id": "Q311865$40CC0619-30E0-437B-A7EF-222FE7D5636E",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1845,
+            "raw_time": "+1845-01-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311865"
+            ],
+            "statement_id": "Q311865$A864EA9F-63B9-4B4A-8746-9229D0FF22FC",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311865"
+        ],
+        "statement_id": "q311865$E88CFEDD-8E09-466C-982F-18EC3498207A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q633811",
+        "label": "佩兹纳斯",
+        "label_en": "Pézenas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311865"
+        ],
+        "statement_id": "q311865$D9E42620-7153-4B90-91AE-1B1D3CC70729",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·人文地理与可能论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311865",
+        "title": "Wikidata Q311865 / 维达尔·白兰士",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311865&oldid=2561098942",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561098942,
+        "modified_at": "2026-10-26T15:18:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

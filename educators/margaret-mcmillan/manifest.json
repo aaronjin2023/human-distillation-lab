@@ -44,5 +44,142 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "麦克米伦风格：为幼儿设计一堂户外观察课——看一只坐在地铁座位上的约克夏犬。先有新鲜空气与活动，让孩子看、摸、用自己的话描述这只狗，教师观察并记录每个孩子注意到了什么，不用练习册、不考试。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3290510",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Margaret McMillan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1860–1931",
+      "birth_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3290510"
+            ],
+            "statement_id": "Q3290510$98F9F2BA-EF4E-46B0-9AD7-36C35D7516B6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3290510"
+            ],
+            "statement_id": "Q3290510$2336BCE4-6E44-4503-B2CB-D6EE1DD2699E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3290510"
+        ],
+        "statement_id": "Q3290510$4BB82120-B1E7-4ED4-AF97-003F7E736DCC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q54066",
+        "label": "韦斯特切斯特县",
+        "label_en": "Westchester County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3290510"
+        ],
+        "statement_id": "Q3290510$3E312D5E-A9DE-41A5-84B9-2EAD60C58A9D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3290510"
+        ],
+        "statement_id": "Q3290510$ECD93FF6-098C-4068-9949-3D7C719FB56C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "幼儿保育教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3290510",
+        "title": "Wikidata Q3290510 / Margaret McMillan",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3290510&oldid=2550996019",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550996019,
+        "modified_at": "2026-09-29T20:49:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

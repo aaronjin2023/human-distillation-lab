@@ -42,5 +42,104 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q26918",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Khalid ibn al-Walid",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.592–642",
+      "birth_year": {
+        "value": 586,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26918"
+            ],
+            "statement_id": "Q26918$6973B21E-7A72-4162-B15F-8A431EFB2CCB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 586,
+            "raw_time": "+0586-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 592
+      },
+      "death_year": {
+        "value": 642,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26918"
+            ],
+            "statement_id": "Q26918$54D7E62C-AF12-4DC7-AE8F-C7A6243D45F6",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 642,
+            "raw_time": "+0642-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q26918"
+        ],
+        "statement_id": "Q26918$151B4636-2792-425F-90F6-BF678E54ED63",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q96246887",
+        "label": "Kingdom of Saudi Arabia",
+        "label_en": "Kingdom of Saudi Arabia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·骑兵机动"
+    },
+    "sources": [
+      {
+        "id": "WD:Q26918",
+        "title": "Wikidata Q26918 / 哈立德·本·瓦利德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q26918&oldid=2559735986",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559735986,
+        "modified_at": "2026-10-22T19:34:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

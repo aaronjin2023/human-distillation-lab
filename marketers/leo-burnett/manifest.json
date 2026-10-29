@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for a plant-based burger",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q326356",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leo Burnett",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1971",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q326356"
+            ],
+            "statement_id": "q326356$6DBE2822-1EFB-44AF-99BC-D000F747174F",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q326356"
+            ],
+            "statement_id": "q326356$C689921F-AAC6-494E-A5F6-3E1B36090BBB",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q326356"
+        ],
+        "statement_id": "Q326356$20B43886-AD51-48EC-B432-BCBEA440F6A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1022802",
+        "label": "聖約翰斯",
+        "label_en": "St. Johns",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q326356"
+        ],
+        "statement_id": "Q326356$F9942C98-6AE0-42A2-B6A3-3ED590431099",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q326356",
+        "title": "Wikidata Q326356 / 李奥贝纳广告",
+        "url": "https://www.wikidata.org/w/index.php?title=Q326356&oldid=2515638162",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515638162,
+        "modified_at": "2026-07-09T19:42:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

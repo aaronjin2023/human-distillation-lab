@@ -30,5 +30,117 @@
   "test_prompt": "In the style of James Watson, test whether an unusual DNA sequence fits the double helix: check base-pairing ratios against Chargaff's rules, compare with diffraction data, and rebuild the model rather than patching the data",
   "test_question_zh": "一段未知 DNA 序列出现异常碱基比例，怎么判断它是否符合双螺旋模型？",
   "verification": "生卒 1928–2025、DNA 双螺旋 1953 按生物学史通说写；去世日期 2025-11-06 按草稿核对结论（Scientific American）；原文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83333",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Watson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2025",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83333"
+            ],
+            "statement_id": "q83333$4F0D8932-4BD7-407F-BCBC-E49AC76578C0",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-04-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83333"
+            ],
+            "statement_id": "Q83333$00302a31-4005-042e-bc91-7ffba4d4e13d",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83333"
+        ],
+        "statement_id": "Q83333$830C43BD-B2A9-4756-8108-3080EEE6DEA7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83333"
+        ],
+        "statement_id": "q83333$7279ABF2-D97A-4473-BD61-4048D88E12DD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分子生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83333",
+        "title": "Wikidata Q83333 / 詹姆斯·杜威·沃森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83333&oldid=2560709194",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560709194,
+        "modified_at": "2026-10-25T14:24:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

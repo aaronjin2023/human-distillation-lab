@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Francis Crick, judge whether an RNA virus writing information back into DNA breaks the central dogma: state the information flow it implies, check it against the dogma's original formulation, and revise the formulation rather than dismissing the data",
   "test_question_zh": "一种新发现的 RNA 病毒似乎把信息从 RNA 写回 DNA，怎么判断它是否违反中心法则？",
   "verification": "生卒 1916–2004、DNA 双螺旋 1953、中心法则 1958 按生物学史通说写；原文表述未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123280",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francis Crick",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–2004",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123280"
+            ],
+            "statement_id": "q123280$B4354AD1-9F54-4594-8828-5FE1DE101CAB",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-06-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123280"
+            ],
+            "statement_id": "q123280$94D027E1-4551-4E5B-AB2A-310AE42C6A6B",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-07-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123280"
+        ],
+        "statement_id": "q123280$ABE6DF58-4DE5-4237-A449-D0015C33851F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q192240",
+        "label": "北安普敦",
+        "label_en": "Northampton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123280"
+        ],
+        "statement_id": "q123280$98FDDBA9-F7B1-4B65-9F8E-834DF789BC0F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分子生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123280",
+        "title": "Wikidata Q123280 / 弗朗西斯·克里克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123280&oldid=2560311924",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560311924,
+        "modified_at": "2026-10-24T14:22:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

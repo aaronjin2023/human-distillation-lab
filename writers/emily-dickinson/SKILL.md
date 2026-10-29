@@ -30,3 +30,7 @@
 
 - 来源：writers-top100-draft.md #47（生卒与代表作按草稿，草稿已用 web 搜索核对存疑项）；本次生成时另作 web 搜索核对（见 manifest.json 的 sources 与 verification）。
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

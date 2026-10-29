@@ -43,5 +43,125 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想国家设计从分散间接税向商品服务税的过渡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q19815702",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vijay Kelkar",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1942–",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19815702"
+            ],
+            "statement_id": "Q19815702$56CC3B39-E177-4ED3-8B56-6168C706BA21",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-05-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q19815702"
+        ],
+        "statement_id": "Q19815702$BAA4A339-EBFC-41F9-AFD6-33F2B64B5BEA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q19815702"
+        ],
+        "statement_id": "Q19815702$3935EB66-1489-4FA5-AE98-944004EBBE01",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q19815702"
+        ],
+        "statement_id": "Q19815702$7D1C7BC5-AF0B-453F-8BD9-03AA83B1CABA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·税制改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q19815702",
+        "title": "Wikidata Q19815702 / 維賈伊·凱卡爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q19815702&oldid=2514106967",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514106967,
+        "modified_at": "2026-07-05T11:21:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

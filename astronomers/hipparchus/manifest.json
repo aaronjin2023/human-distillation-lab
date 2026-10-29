@@ -37,5 +37,133 @@
   "test_prompt": "In the style of Hipparchus, compare two modern star catalogues taken decades apart: tabulate positions, look for a systematic shift rather than random scatter, and estimate its rate — then say what a single discrepant star cannot prove",
   "test_question_zh": "用喜帕恰斯的方法，比较现代两份星表，检验恒星自行",
   "verification": "2026-10-26：星表约 850 星、星等 1–6 等、岁差发现经 web 搜索核对；星表原书已佚、托勒密转述关系见 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q159905",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hipparchus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.190–c.120 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159905"
+            ],
+            "statement_id": "Q159905$E4085212-BB87-4026-846E-1988A37A250B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -190,
+            "raw_time": "-0190-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159905"
+            ],
+            "statement_id": "Q159905$ED257304-3322-4B0C-8A85-659BF0BD0A2B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -120,
+            "raw_time": "-0120-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q159905"
+        ],
+        "statement_id": "Q159905$1519dc54-48be-3bf0-d2af-27854dd38540",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q739037",
+        "label": "尼西亚帝国",
+        "label_en": "Nicaea",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q159905"
+        ],
+        "statement_id": "Q159905$48126651-4a64-1981-4935-7738ddab4eaa",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2022162",
+        "label": "帕加马王国",
+        "label_en": "Kingdom of Pergamon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古希腊·星表天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q159905",
+        "title": "Wikidata Q159905 / 依巴谷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q159905&oldid=2560929007",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560929007,
+        "modified_at": "2026-10-26T03:57:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,116 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "皮莱风格：一份国际刑法意见，论性暴力受害者作证：性暴力可构成灭绝种族罪与危害人类罪，普遍法律原则优先，问责高于政治便利。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q242078",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Navi Pillay",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q242078"
+            ],
+            "statement_id": "Q242078$40F3C950-9BFE-46AB-A697-82B12AD1198B",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q242078"
+        ],
+        "statement_id": "Q242078$71BFFFB9-E160-4F51-8ADD-7E1D3BB7447E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q5468",
+        "label": "德班",
+        "label_en": "Durban",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q242078"
+        ],
+        "statement_id": "Q242078$4189B64F-B5D1-4A12-BE3C-88935CD04B32",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q242078"
+          ],
+          "statement_id": "Q242078$e45de597-4fb4-b871-8750-6bf1160fb5e4",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q173491",
+          "label": "泰米尔人",
+          "label_en": "Tamil",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "南非·国际刑法 / 人权",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q242078",
+        "title": "Wikidata Q242078 / 纳维·皮莱",
+        "url": "https://www.wikidata.org/w/index.php?title=Q242078&oldid=2560873069",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560873069,
+        "modified_at": "2026-10-26T00:56:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

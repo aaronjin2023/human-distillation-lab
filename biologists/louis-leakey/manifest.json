@@ -29,5 +29,117 @@
     "奥杜威发掘报告原文版本未逐项核对",
     "化石年代的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q14837",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis Leakey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1972",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14837"
+            ],
+            "statement_id": "q14837$573F7E3F-589A-4111-A707-7C38BA768D83",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14837"
+            ],
+            "statement_id": "q14837$7C609938-A464-4DC7-AE83-260FC2B859DD",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q14837"
+        ],
+        "statement_id": "q14837$D66F138C-B916-4B18-AB3A-CF2218B743DE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3870",
+        "label": "内罗毕",
+        "label_en": "Nairobi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q14837"
+        ],
+        "statement_id": "q14837$539B0844-E1CE-42BE-A2EB-866FF197A682",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q114",
+        "label": "肯尼亚",
+        "label_en": "Kenya",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "人类演化 / 古人类学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q14837",
+        "title": "Wikidata Q14837 / 路易斯·李奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q14837&oldid=2559042966",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559042966,
+        "modified_at": "2026-10-20T03:07:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

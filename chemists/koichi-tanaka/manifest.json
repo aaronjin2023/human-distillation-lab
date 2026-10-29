@@ -32,5 +32,101 @@
   "test_prompt": "In the style of Koichi Tanaka, determine the molecular weight of a new protein drug: first screen matrices and ratios, then desorb the protein gently with a laser, record the intact molecular ion, and check it against a known protein standard before claiming the weight",
   "test_question_zh": "测定一种新型蛋白质药物的分子量",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q110963",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Koichi Tanaka",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1959–",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q110963"
+            ],
+            "statement_id": "Q110963$D9948EC6-FB42-4B7A-91FE-DCABC8F0C5D0",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q110963"
+        ],
+        "statement_id": "Q110963$E15F2AE8-A260-4D7A-8226-BF6A69F7BAE6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q204266",
+        "label": "富山市",
+        "label_en": "Toyama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q110963"
+        ],
+        "statement_id": "Q110963$EF5B2606-D676-4F72-A38A-A9A61832A665",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "质谱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q110963",
+        "title": "Wikidata Q110963 / 田中耕一",
+        "url": "https://www.wikidata.org/w/index.php?title=Q110963&oldid=2558093896",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558093896,
+        "modified_at": "2026-10-17T20:25:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

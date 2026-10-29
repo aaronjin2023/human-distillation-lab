@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "理查森风格：现代城市街角的一座社区图书馆，暖红粗石罗曼复兴，厚重体量，圆拱与塔楼，深窗洞。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q723234",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Hobson Richardson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1838–1886",
+      "birth_year": {
+        "value": 1838,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q723234"
+            ],
+            "statement_id": "q723234$61B464EC-9EFA-4428-A01F-EC36742FE698",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1838,
+            "raw_time": "+1838-09-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1886,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q723234"
+            ],
+            "statement_id": "q723234$420EDFC2-2471-4275-8CDE-61643038352C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q723234"
+        ],
+        "statement_id": "q723234$8B88EAE1-5694-4F48-B87C-046F474D809C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q507016",
+        "label": "圣詹姆斯县",
+        "label_en": "St. James Parish",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q723234"
+        ],
+        "statement_id": "q723234$13D690F8-E6CC-4672-9636-91A4A57AA711",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗曼复兴",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q723234",
+        "title": "Wikidata Q723234 / 亨利·霍布森·理查森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q723234&oldid=2557919587",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557919587,
+        "modified_at": "2026-10-17T08:01:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

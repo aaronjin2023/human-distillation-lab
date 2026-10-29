@@ -44,5 +44,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q457718",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Denise Scott Brown",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1931–",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q457718"
+            ],
+            "statement_id": "Q457718$5A9FD5AF-CBA6-4289-A283-C93CB3517DD5",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q457718"
+        ],
+        "statement_id": "Q457718$48692FFA-54B3-4232-A48B-84212EC592D2",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1994345",
+        "label": "Nkana",
+        "label_en": "Nkana",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q457718"
+        ],
+        "statement_id": "q457718$AA779277-9E7C-41E4-8744-30D42808AEB7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "后现代主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q457718",
+        "title": "Wikidata Q457718 / 丹尼丝·斯科特·布朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q457718&oldid=2557852935",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557852935,
+        "modified_at": "2026-10-17T04:05:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

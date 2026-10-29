@@ -44,5 +44,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q140412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Donne",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1572–1631",
+      "birth_year": {
+        "value": 1572,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q140412"
+            ],
+            "statement_id": "Q140412$24A464A9-0CCE-454A-A9B5-720DAA7D6CB6",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1572,
+            "raw_time": "+1572-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1631,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q140412"
+            ],
+            "statement_id": "q140412$FBA81500-D972-48C6-93EE-80C72089FDDE",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1631,
+            "raw_time": "+1631-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q140412"
+        ],
+        "statement_id": "q140412$6DCD5486-1AB0-4920-97D5-E5C19247F97D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q140412"
+        ],
+        "statement_id": "Q140412$D98195C3-2EAD-4EA4-BFDE-54FB264D277B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·玄学派诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q140412",
+        "title": "Wikidata Q140412 / 约翰·多恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q140412&oldid=2557979840",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557979840,
+        "modified_at": "2026-10-17T12:26:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

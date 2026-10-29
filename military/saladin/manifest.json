@@ -38,5 +38,118 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场网络攻防对抗中的持久消耗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8581",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Saladin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1137–1193",
+      "birth_year": {
+        "value": 1138,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8581"
+            ],
+            "statement_id": "q8581$2BFAFD36-8E7F-4BE1-8238-DD2244EEA314",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1138,
+            "raw_time": "+1138-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1137
+      },
+      "death_year": {
+        "value": 1193,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8581"
+            ],
+            "statement_id": "q8581$1E9DB896-550B-4BDD-AAF1-F256AAB963C7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1193,
+            "raw_time": "+1193-03-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8581"
+        ],
+        "statement_id": "q8581$791C6E90-6996-40AD-9370-600FB1C9D445",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q109260815",
+        "label": "Tikrit Castle",
+        "label_en": "Tikrit Castle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q8581"
+          ],
+          "statement_id": "Q8581$ceda72d4-41f9-6e06-fa61-20f35801a2cb",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q12223",
+          "label": "库尔德人",
+          "label_en": "Kurds",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "阿尤布·圣战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8581",
+        "title": "Wikidata Q8581 / 萨拉丁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8581&oldid=2560674863",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560674863,
+        "modified_at": "2026-10-25T12:22:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

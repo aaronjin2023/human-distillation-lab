@@ -42,5 +42,170 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜等单的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q377789",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dilip Kumar",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–2021",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q377789"
+            ],
+            "statement_id": "q377789$D3FC386C-B83D-4EA1-B600-0D0BE0302689",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q377789"
+            ],
+            "statement_id": "Q377789$374279AC-636B-43D6-89BB-448EAE10345B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q377789"
+        ],
+        "statement_id": "q377789$E6D1BDF5-71BA-4ACA-8884-C5CC462EDDE8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1113311",
+        "label": "白沙瓦",
+        "label_en": "Peshawar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q377789"
+        ],
+        "statement_id": "Q377789$68761044-A0A5-4AC1-8E05-286160374047",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P580": [
+            {
+              "time": "+1922-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q377789"
+        ],
+        "statement_id": "Q377789$7dd7a408-4095-e283-3e70-345304f7f480",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+2021-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q377789",
+        "title": "Wikidata Q377789 / 迪利普·庫馬",
+        "url": "https://www.wikidata.org/w/index.php?title=Q377789&oldid=2561351566",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561351566,
+        "modified_at": "2026-10-27T07:03:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

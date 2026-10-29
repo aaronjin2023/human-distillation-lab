@@ -34,5 +34,141 @@
   "test_prompt": "In the style of Birbal Sahni, judge a new Gondwana plant fossil: describe its venation and cuticle, compare it with living and fossil relatives, and decide what it can and cannot tell about the bed it came from",
   "test_question_zh": "一块新的冈瓦纳植物化石，能给地层定年吗？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2688170",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Birbal Sahni",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1949",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2688170"
+            ],
+            "statement_id": "Q2688170$9A98A932-12A9-4F2F-8650-750E62E2285F",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2688170"
+            ],
+            "statement_id": "Q2688170$A623D2CC-5DB1-497E-853D-60C6E62B6ECC",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-04-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2688170"
+        ],
+        "statement_id": "Q2688170$388A2DDE-7DE4-493C-8807-3F15A600AF63",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3777358",
+        "label": "Bhera",
+        "label_en": "Bhera",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2688170"
+        ],
+        "statement_id": "Q2688170$CCD71D64-DF03-4925-981B-C0DF245132C5",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2688170"
+        ],
+        "statement_id": "Q2688170$024e9ada-47c5-15bb-8d4d-4b0ff5bc54c5",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古植物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2688170",
+        "title": "Wikidata Q2688170 / Birbal Sahni",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2688170&oldid=2518316497",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518316497,
+        "modified_at": "2026-07-16T20:10:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

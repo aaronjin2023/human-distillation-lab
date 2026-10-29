@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于清晨菜市场卖菜老妇人的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131725",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joan Baez",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131725"
+            ],
+            "statement_id": "q131725$F41ABDC1-6219-440C-AE80-7C10EEFC1F8F",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131725"
+        ],
+        "statement_id": "q131725$C48A2B8E-B767-4429-B3B2-F9275C7D78DF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18432",
+        "label": "史泰登岛",
+        "label_en": "Staten Island",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131725"
+        ],
+        "statement_id": "q131725$AB7DF19E-512D-4258-8D25-82B432B9DF8A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "民谣",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131725",
+        "title": "Wikidata Q131725 / 琼·贝兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131725&oldid=2558490191",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558490191,
+        "modified_at": "2026-10-18T19:02:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

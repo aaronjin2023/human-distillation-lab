@@ -51,5 +51,144 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Zhong Yao, early regular script writing modern Tokyo subway station names, flat wide characters, restrained turns, quiet dignity, one deliberate pause per character, ink on paper",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q197825",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhong Yao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "151–230",
+      "birth_year": {
+        "value": 151,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197825"
+            ],
+            "statement_id": "Q197825$9AA7C626-C480-4CE5-8788-157BE61E4F9B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 151,
+            "raw_time": "+0151-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 230,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197825"
+            ],
+            "statement_id": "Q197825$CA4461A4-23D6-4421-9EC7-B12B0DB1000D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 230,
+            "raw_time": "+0230-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q197825"
+        ],
+        "statement_id": "Q197825$C24191CC-B3D0-41A3-841C-293508E3F979",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1062018",
+        "label": "长葛市",
+        "label_en": "Changge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q197825"
+        ],
+        "statement_id": "q197825$4E1EE627-F8A4-4357-A60C-0A9EA6DEFC0A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q197825"
+        ],
+        "statement_id": "Q197825$B744D095-319E-4BA9-B7D2-68BC560C92B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q320930",
+        "label": "曹魏",
+        "label_en": "Cao Wei",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q197825"
+          ],
+          "statement_id": "Q197825$8757B3C7-644D-488B-B349-20F071FF3B78",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "三国魏·楷书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q197825",
+        "title": "Wikidata Q197825 / 钟繇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q197825&oldid=2553950705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553950705,
+        "modified_at": "2026-10-06T13:48:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

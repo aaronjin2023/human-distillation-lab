@@ -42,5 +42,145 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a letter to oneself ten years from now",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q713502",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wen Yiduo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1946",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q713502"
+            ],
+            "statement_id": "Q713502$33510308-7E95-4057-8142-74D5DA4FA921",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q713502"
+            ],
+            "statement_id": "Q713502$0E5ED5DB-2376-4EDC-9F6C-6C16FAED3105",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q713502"
+            ],
+            "statement_id": "Q713502$E08E810F-5133-4A9E-9D32-C33D8B7C58ED",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-07-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q713502"
+        ],
+        "statement_id": "q713502$871E0F00-621B-49EE-8752-B7A552049E01",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q44026",
+        "label": "浠水县",
+        "label_en": "Xishui County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q713502"
+        ],
+        "statement_id": "q713502$84098E6F-1347-41CE-AE6F-354AE573A81D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q713502"
+        ],
+        "statement_id": "Q713502$fe7c2986-439c-c260-92a2-27dd3ab14e02",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新月派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q713502",
+        "title": "Wikidata Q713502 / 闻一多",
+        "url": "https://www.wikidata.org/w/index.php?title=Q713502&oldid=2558278098",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558278098,
+        "modified_at": "2026-10-18T06:02:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,101 @@
   "test_prompt": "In the method of Andre Geim, design a flexible graphene conductor for a wearable device. Try the simple idea first, peel until one atomic layer remains, confirm the monolayer with optics and Raman, and let the thinnest material prove it can carry a current.",
   "test_question_zh": "为可穿戴设备设计一种柔性石墨烯导电材料",
   "verification": "2026-10-26：生卒（1958–）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104104",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Andre Geim",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104104"
+            ],
+            "statement_id": "Q104104$F961E3F2-533D-4886-854D-1B950774722D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104104"
+        ],
+        "statement_id": "Q104104$92CDCD91-3076-4091-9391-CA76B57D3E66",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q39420",
+        "label": "索契",
+        "label_en": "Sochi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104104"
+        ],
+        "statement_id": "Q104104$84b9b0e8-484e-2c9c-502b-59bbf335f319",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "石墨烯 / 二维材料"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104104",
+        "title": "Wikidata Q104104 / 安德烈·海姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104104&oldid=2560251788",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560251788,
+        "modified_at": "2026-10-24T09:37:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

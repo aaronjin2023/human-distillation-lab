@@ -46,5 +46,130 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Wei Shuo, early Jin regular and running script writing modern Tokyo subway station names, delicate yet firm strokes, clear unhurried rhythm, light moist ink, elegant restraint",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2994742",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wei Shuo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "272–349",
+      "birth_year": {
+        "value": 272,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2994742"
+            ],
+            "statement_id": "Q2994742$D461DB59-7F3D-4605-9E18-2B1845BEB103",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 272,
+            "raw_time": "+0272-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 349,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2994742"
+            ],
+            "statement_id": "Q2994742$694A0275-EE50-4107-AB84-5CDB8F21B21E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 349,
+            "raw_time": "+0349-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2994742"
+        ],
+        "statement_id": "Q2994742$437C466D-227E-4290-9D03-6709809C3225",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q612136",
+        "label": "夏县",
+        "label_en": "Xia County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2994742"
+        ],
+        "statement_id": "Q2994742$1B29EC7E-AC04-4BB5-A22C-21A5DA45BFD6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7352",
+        "label": "晋朝",
+        "label_en": "Jin dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2994742"
+        ],
+        "statement_id": "Q2994742$F1CBAD2F-CE68-4D91-AF3C-EEE2E0F243DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q306928",
+        "label": "东晋",
+        "label_en": "Eastern Jin dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "东晋·楷书 / 行书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2994742",
+        "title": "Wikidata Q2994742 / 卫铄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2994742&oldid=2560677375",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560677375,
+        "modified_at": "2026-10-25T12:27:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q221303",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anne-Robert-Jacques Turgot",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1727–1781",
+      "birth_year": {
+        "value": 1727,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q221303"
+            ],
+            "statement_id": "q221303$8D47D0B2-C057-45D5-A5E7-68890E379A0F",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1727,
+            "raw_time": "+1727-05-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1781,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q221303"
+            ],
+            "statement_id": "q221303$52F13CF7-D633-4C7A-8B68-C5240DED83B1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1781,
+            "raw_time": "+1781-03-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q221303"
+        ],
+        "statement_id": "q221303$34A7D632-9C69-44AC-A42F-A763976BEBBE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q221303"
+        ],
+        "statement_id": "q221303$E5DA48F5-9502-4263-BB57-FED85D4C3301",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "重农学派·税制改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q221303",
+        "title": "Wikidata Q221303 / 安·罗伯特·雅克·杜尔哥，劳恩男爵",
+        "url": "https://www.wikidata.org/w/index.php?title=Q221303&oldid=2558755039",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558755039,
+        "modified_at": "2026-10-19T11:26:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

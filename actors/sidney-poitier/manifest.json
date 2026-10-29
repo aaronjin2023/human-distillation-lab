@@ -38,5 +38,158 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104049",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sidney Poitier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2022",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104049"
+            ],
+            "statement_id": "q104049$EDFD7D6A-B53F-423E-862B-4DF3E86A0CF0",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104049"
+            ],
+            "statement_id": "Q104049$0a208451-47b4-74cc-85f8-c58e9d7f91d0",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104049"
+        ],
+        "statement_id": "q104049$5EB5EB35-2E19-4562-905E-984F0133F3E4",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q8652",
+        "label": "迈阿密",
+        "label_en": "Miami",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q104049"
+        ],
+        "statement_id": "Q104049$c63de919-ada0-4968-925a-4b6ffd7a7751",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q778",
+        "label": "巴哈马",
+        "label_en": "The Bahamas",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104049"
+        ],
+        "statement_id": "q104049$AECB6FF7-77A7-4410-BA20-05356755F4B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q104049"
+        ],
+        "statement_id": "Q104049$de9bf437-42d8-2aa4-b6d6-6d160b270a6c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q778",
+        "label": "巴哈马",
+        "label_en": "The Bahamas",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q104049"
+          ],
+          "statement_id": "Q104049$199D81A1-8D40-447A-B5BB-3DC0409CA873",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "巴哈马/美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104049",
+        "title": "Wikidata Q104049 / 西德尼·波蒂埃",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104049&oldid=2561666868",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561666868,
+        "modified_at": "2026-10-28T12:04:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

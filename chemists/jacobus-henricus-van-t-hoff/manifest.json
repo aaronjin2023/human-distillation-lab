@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Jacobus Henricus van 't Hoff, study a new reaction's temperature dependence: measure rates at several temperatures, fit the temperature law, predict the rate at unmeasured temperatures, and accept the law only when new measurements confirm it",
   "test_question_zh": "一种新反应的速率随温度变化不明，怎么研究？",
   "verification": "2026-10-26：生卒 1852–1911、四面体碳 1874 年、首届诺贝尔化学奖 1901 年经通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102822",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jacobus Henricus van 't Hoff",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1852–1911",
+      "birth_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102822"
+            ],
+            "statement_id": "q102822$5386F19E-113A-4718-8CAA-B8F4BB0D91D7",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102822"
+            ],
+            "statement_id": "q102822$E78F8B7A-8853-4E74-88F0-76D116AFCF83",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102822"
+        ],
+        "statement_id": "q102822$93E8E5F0-818C-4124-909F-54E9ACE74556",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q34370",
+        "label": "鹿特丹",
+        "label_en": "Rotterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102822"
+        ],
+        "statement_id": "q102822$A2839D99-46A9-44FC-9AB2-008AEBE31F66",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "物理化学 / 立体化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102822",
+        "title": "Wikidata Q102822 / 雅各布斯·亨里克斯·范托夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102822&oldid=2560245438",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560245438,
+        "modified_at": "2026-10-24T09:02:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

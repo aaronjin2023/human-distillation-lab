@@ -19,3 +19,7 @@ description: 以王安石公开奏议和改革论辩审视制度目标、执行�
 - [来源元数据](manifest.json)
 
 相关既有面向：[tax/wang-anshi](../../tax/wang-anshi/SKILL.md)
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

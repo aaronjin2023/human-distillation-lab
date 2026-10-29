@@ -44,5 +44,142 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5090822",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chen Kenmin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1990",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090822"
+            ],
+            "statement_id": "Q5090822$2F7AC8A4-C77B-4DF5-9463-25D8A0EDA5F7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090822"
+            ],
+            "statement_id": "Q5090822$4C9E6453-ADE4-4A72-8B19-7D83F43F2EAA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5090822"
+        ],
+        "statement_id": "Q5090822$17AD915E-56BF-4813-9532-AA6ECCA0F472",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q427265",
+        "label": "宜宾市",
+        "label_en": "Yibin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5090822"
+        ],
+        "statement_id": "Q5090822$462EF947-7223-4812-8C0A-E60B03388EAF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5090822"
+        ],
+        "statement_id": "Q5090822$BA89AF09-774C-40E5-AC37-B1FEB907C61D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "川菜·日本川菜之父",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5090822",
+        "title": "Wikidata Q5090822 / 陈建民 (厨师)",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5090822&oldid=2520480892",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520480892,
+        "modified_at": "2026-07-21T03:37:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

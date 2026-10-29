@@ -46,5 +46,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Mary Ainsworth, analyse a small Yorkshire terrier sitting on a subway seat. Watch eight episodes: the owner leaves, a stranger approaches, the owner returns. Does the dog use the owner as a secure base, avoid, or seek and resist at once?",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q242625",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Ainsworth",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–1999",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q242625"
+            ],
+            "statement_id": "Q242625$B87DF411-CF00-4075-BDA5-6FC80CC9FBDD",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-12-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q242625"
+            ],
+            "statement_id": "q242625$1A59FD54-DAB4-45FB-B0CD-11A146124BCE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q242625"
+        ],
+        "statement_id": "Q242625$1D3C1BFB-A6F8-4BF3-8E68-81029BD9A310",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2667009",
+        "label": "格伦代尔",
+        "label_en": "Glendale",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q242625"
+        ],
+        "statement_id": "q242625$2AB78719-B36A-4CFA-8FD5-F491D92906F0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q242625"
+        ],
+        "statement_id": "q242625$461E9A0C-85A4-4045-BF7A-1AE0CC975265",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "依恋类型"
+    },
+    "sources": [
+      {
+        "id": "WD:Q242625",
+        "title": "Wikidata Q242625 / 瑪麗·愛因斯沃斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q242625&oldid=2560766715",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560766715,
+        "modified_at": "2026-10-25T17:23:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

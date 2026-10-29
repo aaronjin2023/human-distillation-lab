@@ -43,5 +43,102 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "施瓦茨风格：现代购物中心的一座屋顶花园，流行文化，幽默，色彩，大胆几何，艺术即景观。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q433864",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martha Schwartz",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q433864"
+            ],
+            "statement_id": "Q433864$8910F5A8-9B05-44E3-B5B0-6E63A1E09904",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q433864"
+        ],
+        "statement_id": "Q433864$06931218-5971-4B6C-BC7D-F18EA65A7891",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q433864"
+        ],
+        "statement_id": "q433864$E01BC13B-A95F-40B5-A59D-B2570F8C479B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·后现代景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q433864",
+        "title": "Wikidata Q433864 / Martha Schwartz",
+        "url": "https://www.wikidata.org/w/index.php?title=Q433864&oldid=2543902604",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543902604,
+        "modified_at": "2026-09-11T10:37:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

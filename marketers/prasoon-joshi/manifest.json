@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款印度冰饮品牌的诗意本土化战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7238560",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Prasoon Joshi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–（在世）",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7238560"
+            ],
+            "statement_id": "Q7238560$FB0220E8-3E68-4C1E-B0EF-C3A375F09780",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7238560"
+        ],
+        "statement_id": "Q7238560$89AFABC5-F57C-4263-9D33-3A7485E2B3A0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1499",
+        "label": "北阿坎德邦",
+        "label_en": "Uttarakhand",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7238560"
+        ],
+        "statement_id": "Q7238560$3E843431-6310-4192-9D0B-CF03FE4FA06C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7238560",
+        "title": "Wikidata Q7238560 / 普拉宋·约希",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7238560&oldid=2541508102",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541508102,
+        "modified_at": "2026-09-07T05:19:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

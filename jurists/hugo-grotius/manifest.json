@@ -44,5 +44,145 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "公海数据电缆的自由（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1583–1645、自然法定义拉丁引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154959",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hugo Grotius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1583–1645",
+      "birth_year": {
+        "value": 1583,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154959"
+            ],
+            "statement_id": "q154959$6343D0C5-014A-46A2-97DA-43A78BD21116",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1583,
+            "raw_time": "+1583-04-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1645,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154959"
+            ],
+            "statement_id": "q154959$F8A8366D-1696-432F-8C7E-2C49E7AE21EE",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1645,
+            "raw_time": "+1645-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154959"
+        ],
+        "statement_id": "q154959$1D8BBDEE-AB01-4638-AC33-47C8253A44F2",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q154959"
+        ],
+        "statement_id": "Q154959$54161029-334C-4788-B142-30774551AB95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154959"
+        ],
+        "statement_id": "Q154959$124bf4cf-4284-f684-89eb-e8643f0b25af",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154959"
+        ],
+        "statement_id": "Q154959$c6bbdbe9-424d-a230-e100-f18bfd042549",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q170072",
+        "label": "荷兰共和国",
+        "label_en": "Dutch Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际法",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q154959",
+        "title": "Wikidata Q154959 / 胡果·格老秀斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154959&oldid=2557925916",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557925916,
+        "modified_at": "2026-10-17T08:32:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

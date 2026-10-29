@@ -34,5 +34,131 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41257",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Heinrich Hertz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1857–1894",
+      "birth_year": {
+        "value": 1857,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41257"
+            ],
+            "statement_id": "q41257$00783970-E9AC-4D98-AB79-E29FA33FA08B",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1857,
+            "raw_time": "+1857-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41257"
+            ],
+            "statement_id": "q41257$364AB07A-3CC7-4184-8911-96CC547790B4",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41257"
+        ],
+        "statement_id": "q41257$C24DE76F-D0A7-4623-A3ED-8E44C57263B7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q41257"
+        ],
+        "statement_id": "Q41257$05EB1489-56DF-4412-8DBA-73ED33089E8B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41257"
+        ],
+        "statement_id": "q41257$14FB8036-2108-4AD2-A3EE-FCB63D5273C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电磁波实验"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41257",
+        "title": "Wikidata Q41257 / 海因里希·鲁道夫·赫兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41257&oldid=2560042647",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560042647,
+        "modified_at": "2026-10-23T16:47:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

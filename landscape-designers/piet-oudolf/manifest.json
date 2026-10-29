@@ -43,5 +43,102 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "奥多夫风格：现代城市的一座街头雨水花园，新多年生种植，多年生草甸，禾草与多年生植物成片漂移，矩阵种植，冬季枯态。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1407899",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Piet Oudolf",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1407899"
+            ],
+            "statement_id": "Q1407899$C8550DB5-87FC-4C2C-BA09-01F86390106E",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1407899"
+        ],
+        "statement_id": "Q1407899$387A615E-B4EC-4D10-9B52-BE80BA4AAB4A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q9920",
+        "label": "哈勒姆",
+        "label_en": "Haarlem",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1407899"
+        ],
+        "statement_id": "Q1407899$235D06B1-FDDB-47BF-A4BB-7EF604CB44AD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "荷兰·新多年生种植",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1407899",
+        "title": "Wikidata Q1407899 / Piet Oudolf",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1407899&oldid=2561834432",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561834432,
+        "modified_at": "2026-10-28T22:31:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

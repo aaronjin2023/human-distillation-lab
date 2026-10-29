@@ -42,5 +42,139 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q236129",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Setsuko Hara",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2015",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q236129"
+            ],
+            "statement_id": "q236129$FAD4344F-6356-4E34-B6D7-E129E7FF4FFF",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-06-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q236129"
+            ],
+            "statement_id": "Q236129$C27B78E2-1C92-46AF-8A7D-E47B78E274CB",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q236129"
+        ],
+        "statement_id": "q236129$BC6B7BAD-6EB5-457D-922B-362572140FC5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38283",
+        "label": "横滨市",
+        "label_en": "Yokohama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q236129"
+        ],
+        "statement_id": "q236129$370E0528-37FB-45F0-865D-4069BD72A3B9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q236129"
+        ],
+        "statement_id": "Q236129$713DE65B-AC6A-477D-9D12-C8B936C45BE3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q236129",
+        "title": "Wikidata Q236129 / 原节子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q236129&oldid=2555005389",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555005389,
+        "modified_at": "2026-10-08T11:32:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

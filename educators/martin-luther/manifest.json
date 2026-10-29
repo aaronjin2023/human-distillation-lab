@@ -43,5 +43,158 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘如何读懂一份说明书’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；引文为转述，标 artifact",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9554",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Luther",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1483–1546",
+      "birth_year": {
+        "value": 1483,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9554"
+            ],
+            "statement_id": "Q9554$119A9C7A-6A3D-4D49-B0EB-EAB27AED04B9",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1483,
+            "raw_time": "+1483-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1546,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9554"
+            ],
+            "statement_id": "Q9554$1E4CCEB4-E665-48CE-BCD0-E1075BA4E202",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1546,
+            "raw_time": "+1546-02-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9554"
+        ],
+        "statement_id": "q9554$BC3F8289-D462-4AA0-9C96-33128D10EE42",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q484870",
+        "label": "艾斯莱本",
+        "label_en": "Eisleben",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9554"
+        ],
+        "statement_id": "Q9554$0b89fd35-4711-eac7-65db-26738d7b0ae3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q420158",
+        "label": "圣奥古斯特修道院",
+        "label_en": "St. Augustine's Monastery",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9554"
+        ],
+        "statement_id": "Q9554$f5ed9f14-4135-3581-aab9-8f1c106e0485",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q151545",
+        "label": "瓦尔特堡",
+        "label_en": "Wartburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9554"
+        ],
+        "statement_id": "Q9554$FE149090-66B6-4074-989C-6E6EE05DE49A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12548",
+        "label": "神圣罗马帝国",
+        "label_en": "Holy Roman Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9554"
+        ],
+        "statement_id": "Q9554$0e50c305-4a32-3b92-29e4-a0e36a011989",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q156199",
+        "label": "萨克森选侯国",
+        "label_en": "Electorate of Saxony",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "宗教改革·国民教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9554",
+        "title": "Wikidata Q9554 / 马丁·路德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9554&oldid=2561568735",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561568735,
+        "modified_at": "2026-10-27T23:32:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

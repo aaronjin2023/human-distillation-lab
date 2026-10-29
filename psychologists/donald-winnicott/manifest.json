@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q451348",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Donald Winnicott",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1971",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q451348"
+            ],
+            "statement_id": "q451348$05CF3B7F-0351-49C1-98F4-3480B21D046C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q451348"
+            ],
+            "statement_id": "q451348$2D145DE6-3EE5-4FCF-869F-5A8FA581D0FA",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q451348"
+        ],
+        "statement_id": "q451348$4DFC8E92-C772-4FC0-9942-46554642D539",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43382",
+        "label": "普利茅斯",
+        "label_en": "Plymouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q451348"
+        ],
+        "statement_id": "q451348$13D76ABF-8891-4DE8-B55E-3B10E4D7CC9E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "客体关系 / 自体心理学",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q451348",
+        "title": "Wikidata Q451348 / 唐纳德·威尼科特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q451348&oldid=2557857160",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557857160,
+        "modified_at": "2026-10-17T04:19:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

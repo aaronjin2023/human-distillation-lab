@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Richard Hartshorne, settle what a new district is by defining it: map its areal differentiation — where housing, work and green space vary — and let every claim survive the test of place-to-place variation.",
   "test_question_zh": "一座新城区的地域分异",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《地理学的性质》1939、《展望》1959 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q983576",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Richard Hartshorne",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1992",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983576"
+            ],
+            "statement_id": "Q983576$0BD76CB2-6BE8-4D7E-9CE5-4C99717E37B7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983576"
+            ],
+            "statement_id": "Q983576$96CF243A-CF22-4F35-A799-007B08BBA675",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-11-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q983576"
+        ],
+        "statement_id": "q983576$64A44F17-A0B5-450B-B619-448890A8242A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1186994",
+        "label": "基塔宁",
+        "label_en": "Kittanning",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q983576"
+        ],
+        "statement_id": "q983576$1386F41C-E211-41E9-8C98-1735E4D4B6D8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·地理学方法论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q983576",
+        "title": "Wikidata Q983576 / 理查德·哈特向",
+        "url": "https://www.wikidata.org/w/index.php?title=Q983576&oldid=2515890495",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515890495,
+        "modified_at": "2026-07-10T14:17:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

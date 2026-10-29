@@ -33,5 +33,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "台风后海岛救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q127417",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Douglas MacArthur",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1880–1964",
+      "birth_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q127417"
+            ],
+            "statement_id": "q127417$78C263C7-0548-4792-B0C7-2BB380ED91C4",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-01-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q127417"
+            ],
+            "statement_id": "q127417$BE242CC4-9625-4616-B7EC-E3EA943A59A7",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q127417"
+        ],
+        "statement_id": "q127417$109C4ACB-19BC-4CA8-9792-1D161CDFE942",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q33405",
+        "label": "小石城",
+        "label_en": "Little Rock",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q127417"
+        ],
+        "statement_id": "q127417$0A8AF73E-2B71-400B-B2FE-66210A796158",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·太平洋"
+    },
+    "sources": [
+      {
+        "id": "WD:Q127417",
+        "title": "Wikidata Q127417 / 道格拉斯·麦克阿瑟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q127417&oldid=2561606835",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561606835,
+        "modified_at": "2026-10-28T06:41:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

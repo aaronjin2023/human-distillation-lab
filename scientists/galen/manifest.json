@@ -29,5 +29,55 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何判断一种新药是否真的改善了心脏功能？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒为约数（草稿第 4 节第 10 条）；生卒与成果名以草稿 v1 为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q8778",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year"
+          ],
+          "match_basis": {
+            "name": "Galen",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.129–c.216",
+      "birth_year": {
+        "value": 129,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 216,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学 / 解剖"
+    },
+    "sources": []
+  }
 }

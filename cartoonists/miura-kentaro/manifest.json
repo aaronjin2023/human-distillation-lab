@@ -39,5 +39,118 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬骑士持巨剑站在深夜废墟战场，黑暗奇幻漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q715725",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kentaro Miura",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1966–2021",
+      "birth_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q715725"
+            ],
+            "statement_id": "Q715725$0ba1f163-47c4-9b2c-256b-e21e49d08958",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q715725"
+            ],
+            "statement_id": "Q715725$aada90c7-4577-2266-f8f1-a8b625ca7a85",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q715725"
+        ],
+        "statement_id": "Q715725$f514877f-4e96-13c1-325b-7aaf684839ce",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170616",
+        "label": "千叶市",
+        "label_en": "Chiba",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q715725"
+        ],
+        "statement_id": "Q715725$8872237C-CD3F-4B1C-9503-F5E3561B95DE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·青年/黑暗奇幻漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q715725",
+        "title": "Wikidata Q715725 / 三浦建太郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q715725&oldid=2555616868",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555616868,
+        "modified_at": "2026-10-10T14:56:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

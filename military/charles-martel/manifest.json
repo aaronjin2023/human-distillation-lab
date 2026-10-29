@@ -34,5 +34,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3301",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Martel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.688–741",
+      "birth_year": {
+        "value": 688,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3301"
+            ],
+            "statement_id": "Q3301$2c7cc989-4101-d3dc-3ac7-1c12408b461f",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 688,
+            "raw_time": "+0688-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 741,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3301"
+            ],
+            "statement_id": "Q3301$8c8c0be8-4599-4e3e-db1d-a26a6c0ecc8e",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 741,
+            "raw_time": "+0741-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3301"
+        ],
+        "statement_id": "Q3301$0C3619FC-4006-4AC2-9A7D-AF6D8796435C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q211033",
+        "label": "埃斯塔勒",
+        "label_en": "Herstal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3301"
+        ],
+        "statement_id": "Q3301$D9FC39BE-C978-410E-8454-E1D5E577D8E5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q146246",
+        "label": "法兰克王国",
+        "label_en": "Francia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法兰克·防御"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3301",
+        "title": "Wikidata Q3301 / 查理·马特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3301&oldid=2561512082",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561512082,
+        "modified_at": "2026-10-27T19:06:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

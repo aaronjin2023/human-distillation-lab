@@ -44,5 +44,204 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（Encyclopedia.com、英文维基）：生卒 1718–1786、《论园林》1774 年、穆兰若利花园 1754–1772 年营造、已毁于大革命，均与草稿一致",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1392588",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claude-Henri Watelet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1718–1786",
+      "birth_year": {
+        "value": 1718,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1392588"
+            ],
+            "statement_id": "Q1392588$2D40C006-7D67-416B-922B-5D5ADA953916",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1718,
+            "raw_time": "+1718-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1786,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1392588"
+            ],
+            "statement_id": "Q1392588$BFD96324-9D13-4A33-936E-448287AAC360",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1786,
+            "raw_time": "+1786-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "q1392588$6290E70C-0354-4D89-8FD1-6F9AAD11F26E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "Q1392588$AD2DA604-CF49-4286-9DF0-E7B08755A86A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "Q1392588$2FF4717C-86DB-42A2-9142-A5DA7811B800",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1758-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q26421",
+        "label": "多德雷赫特",
+        "label_en": "Dordrecht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "Q1392588$C1724EA9-C9D3-462F-8172-672F9F5EBE58",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1761-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q84125",
+        "label": "豪达",
+        "label_en": "Gouda",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "Q1392588$09A303F8-67BB-4570-9E5D-8D0A6F9028D7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1764-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1392588"
+        ],
+        "statement_id": "Q1392588$FED6D66D-BC42-47BC-A739-23E2346B3D02",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·风景式园林理论",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1392588",
+        "title": "Wikidata Q1392588 / Claude-Henri Watelet",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1392588&oldid=2554524886",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554524886,
+        "modified_at": "2026-10-07T12:12:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

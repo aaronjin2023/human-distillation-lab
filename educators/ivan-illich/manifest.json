@@ -44,5 +44,158 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "伊里奇风格：为一群想了解人工智能的青少年设计一个学习网络。不要学校、不要分数：每人配一个技能伙伴、一位用 AI 做事的导师、一架公共图书馆的书架和一个要交付的真实项目，在做事与互相教里学会。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q84186",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ivan Illich",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2002",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84186"
+            ],
+            "statement_id": "q84186$DD3EDC4A-9254-4D83-B0EC-9681968D003B",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q84186"
+            ],
+            "statement_id": "q84186$599A9F7C-356C-4DDF-8A4A-4D95FDCDDABD",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q84186"
+        ],
+        "statement_id": "q84186$EC64A829-2878-402A-93C6-BFC879DD67CE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q84186"
+        ],
+        "statement_id": "Q84186$EC02EB67-8C9F-495E-A8D5-CCF573AEC222",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q204245",
+        "label": "库埃纳瓦卡",
+        "label_en": "Cuernavaca",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q84186"
+        ],
+        "statement_id": "q84186$AACC79D2-D875-4D90-8C63-43C61E4AEF94",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84186"
+        ],
+        "statement_id": "Q84186$bf66f857-4a7f-5eee-82ab-c065a8aeb873",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q84186"
+        ],
+        "statement_id": "Q84186$46D3304F-9CA5-4E52-A730-0F3FBF4E951E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "去学校化 / 教育批判",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q84186",
+        "title": "Wikidata Q84186 / 伊凡·伊利奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q84186&oldid=2557938835",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557938835,
+        "modified_at": "2026-10-17T09:34:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

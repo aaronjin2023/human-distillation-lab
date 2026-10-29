@@ -25,5 +25,141 @@
   "test_prompt": "In the style of Nicholas Spykman, assess a new strait's position: place it on the rimland, trace who controls it, and say what the balance of power requires",
   "test_question_zh": "一处新建海峡在边缘地带上的位置，对均势意味着什么？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2342011",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nicholas Spykman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1943",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2342011"
+            ],
+            "statement_id": "Q2342011$D0DF952A-B9C8-45DA-8EC5-67DEBE655932",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2342011"
+            ],
+            "statement_id": "Q2342011$5C7093AE-40B4-4C71-94E7-5F58309543B2",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2342011"
+        ],
+        "statement_id": "Q2342011$5F009C4E-4EBF-4B91-8168-0A54856EB943",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2342011"
+        ],
+        "statement_id": "Q2342011$12B8D48C-E0F6-4EC7-8076-7763DD09239E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2342011"
+        ],
+        "statement_id": "Q2342011$73bb1318-4e42-b802-dba0-515f2d3e7b07",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1928-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "荷兰—美国·地缘政治"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2342011",
+        "title": "Wikidata Q2342011 / 尼古拉斯·斯皮克曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2342011&oldid=2494431075",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2494431075,
+        "modified_at": "2026-05-19T18:52:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

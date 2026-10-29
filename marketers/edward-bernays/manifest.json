@@ -39,5 +39,141 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一款植物肉汉堡写议题公关方案",
   "verification": "2026-10-26 网络核对关键事实；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q434839",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edward Bernays",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1995",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q434839"
+            ],
+            "statement_id": "q434839$B61ADEB2-A13E-45FD-AEC5-758CBCF21D5D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q434839"
+            ],
+            "statement_id": "q434839$A7ED8E40-1105-471E-A119-3F80FC8652BC",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q434839"
+        ],
+        "statement_id": "q434839$E566EF52-42BF-42A1-823A-F8730A0117FD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q434839"
+        ],
+        "statement_id": "q434839$3DEF5A9F-F186-4125-BB49-1CA7DE56DF8D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1892-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q434839"
+        ],
+        "statement_id": "Q434839$d8ab76dc-4b4b-4e03-429e-5a560ea0deb3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "公关理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q434839",
+        "title": "Wikidata Q434839 / 愛德華·伯內斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q434839&oldid=2533884478",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533884478,
+        "modified_at": "2026-08-20T21:04:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

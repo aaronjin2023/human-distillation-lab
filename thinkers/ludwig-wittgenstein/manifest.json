@@ -32,5 +32,160 @@
   "thinker": "Ludwig Wittgenstein",
   "thinker_zh": "路德维希·维特根斯坦",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9391",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ludwig Wittgenstein",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1951",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9391"
+            ],
+            "statement_id": "q9391$7841BEC8-10F3-4401-9E8E-E5B657457402",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9391"
+            ],
+            "statement_id": "q9391$4FD9B7C8-45B7-477C-B435-8205D12A5B30",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9391"
+        ],
+        "statement_id": "q9391$D4A710B1-3AFE-4B26-A9F8-9A057AC7D9DD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1981987",
+        "label": "新瓦尔代格",
+        "label_en": "Neuwaldegg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9391"
+        ],
+        "statement_id": "q9391$D8841621-6437-4DA2-991F-14BA40683831",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1938-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            {
+              "time": "+1939-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9391"
+        ],
+        "statement_id": "q9391$744B3C08-706A-4057-8C13-DB78873AE13B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1938-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学 / 语言哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9391",
+        "title": "Wikidata Q9391 / 路德维希·维特根斯坦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9391&oldid=2558557948",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558557948,
+        "modified_at": "2026-10-18T23:42:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

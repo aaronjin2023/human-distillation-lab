@@ -38,5 +38,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只约克夏犬深夜坐在地铁座位上，乘客们看着它",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q559017",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chairil Anwar",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–1949",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q559017"
+            ],
+            "statement_id": "q559017$6898393B-9E94-4F4E-89A8-F2461988049C",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q559017"
+            ],
+            "statement_id": "q559017$99D1DF36-252E-4886-A844-042112C85E93",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q559017"
+        ],
+        "statement_id": "q559017$88682D0E-891A-48D2-894B-EBBEDCB3017C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5972",
+        "label": "棉兰",
+        "label_en": "Medan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q559017"
+          ],
+          "statement_id": "Q559017$45097DBE-AA44-4DD9-AAE8-2D08D1E0B63C",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q1130350",
+          "label": "米南佳保人",
+          "label_en": "Minangkabau",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "印尼·现代诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q559017",
+        "title": "Wikidata Q559017 / 凯里尔·安哇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q559017&oldid=2545959476",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545959476,
+        "modified_at": "2026-09-15T02:57:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

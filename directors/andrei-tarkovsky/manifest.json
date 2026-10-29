@@ -34,5 +34,143 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q853",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Andrei Tarkovsky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–1986",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q853"
+            ],
+            "statement_id": "q853$6551489F-5133-4833-A9AE-6537046A0DD7",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-04-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q853"
+            ],
+            "statement_id": "q853$957E2F84-F7C7-4EBC-BFC2-90776806612F",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q853"
+        ],
+        "statement_id": "q853$4841CC5C-E0A2-4AC9-8662-48353556557F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15651436",
+        "label": "Zavrazhye",
+        "label_en": "Zavrazhye",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q853"
+        ],
+        "statement_id": "Q853$88B05C8A-EC2A-4FB7-B53A-619DF9A73492",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q853"
+        ],
+        "statement_id": "Q853$30f3ab97-418c-db80-4089-540bc6dc84c9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q853"
+        ],
+        "statement_id": "Q853$9607AACB-61B6-4850-9C64-ADED94AB217C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "苏联·诗意电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q853",
+        "title": "Wikidata Q853 / 安德烈·塔尔科夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q853&oldid=2559623952",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559623952,
+        "modified_at": "2026-10-22T03:42:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

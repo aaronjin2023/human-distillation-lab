@@ -29,5 +29,102 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Tsu-Wei Chou, design a flexible conductive material for a wearable device. Weave the reinforcement first, design the preform to meet the load, mould without distorting it, then test direction by direction.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**生年未核实**：1939 年按草稿沿用；本次搜索仅确认其 1963 年本科、1969 年博士的时间线（与 1939 ",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q101149271",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tsu-Wei Chou",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q101149271"
+            ],
+            "statement_id": "Q101149271$d81d1677-484e-5567-0582-0399522b98f5",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1939
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q101149271"
+        ],
+        "statement_id": "Q101149271$ef11dadc-4aa9-36a8-ba2c-ec09c56cdd71",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q101149271"
+        ],
+        "statement_id": "Q101149271$be0bbfea-43f8-c8c0-b0a1-f27261b68310",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "纺织复合材料"
+    },
+    "sources": [
+      {
+        "id": "WD:Q101149271",
+        "title": "Wikidata Q101149271 / Tsu-Wei Chou",
+        "url": "https://www.wikidata.org/w/index.php?title=Q101149271&oldid=2523450807",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2523450807,
+        "modified_at": "2026-07-27T14:23:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

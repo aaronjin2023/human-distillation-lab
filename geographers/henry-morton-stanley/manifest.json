@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Henry Morton Stanley, send a delivery rider straight across a new urban district at night, camp by camp: depot, bridge, dark estate, bright hub. Fix each stop by time and distance, and let the continuous line prove which streets connect and where the route breaks.",
   "test_question_zh": "一名外卖骑手横贯一座新城区的夜晚",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；1871 年会面与 1878 年成书为学界共识，未逐项核对原文。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q171421",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Morton Stanley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1841–1904",
+      "birth_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171421"
+            ],
+            "statement_id": "q171421$730A2835-646B-4B1D-A199-232429028E6B",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171421"
+            ],
+            "statement_id": "q171421$35D0EDF2-C015-4E0B-B280-4872E6FADFFF",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-05-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q171421"
+        ],
+        "statement_id": "q171421$C03AE9DE-5B10-48AC-8A2C-F7D6A63C4CA5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1186888",
+        "label": "登比",
+        "label_en": "Denbigh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q171421"
+        ],
+        "statement_id": "Q171421$ACFB68BD-E46F-4E0A-96D9-594219A6283F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q171421"
+        ],
+        "statement_id": "Q171421$047400DE-7CF8-4633-81FB-C852D4C6BE4F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "威尔士—美国·非洲探险"
+    },
+    "sources": [
+      {
+        "id": "WD:Q171421",
+        "title": "Wikidata Q171421 / 亨利·莫顿·史丹利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q171421&oldid=2559449970",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559449970,
+        "modified_at": "2026-10-21T08:22:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

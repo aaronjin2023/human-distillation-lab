@@ -24,5 +24,157 @@
   "test_prompt": "In the style of Johann Heinrich von Thünen, plan a new city's food belt: start from one market town, add transport cost ring by ring, and let the farming rings arrange themselves by rent",
   "test_question_zh": "一座新城的食品供应带应如何按地租与运费环带布局？",
   "verification": "2026-10-26：生卒与《孤立国》（1826）按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76787",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Heinrich von Thünen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1783–1850",
+      "birth_year": {
+        "value": 1783,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76787"
+            ],
+            "statement_id": "q76787$102FA64A-8E02-4E5A-B261-865F53FD3A02",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1783,
+            "raw_time": "+1783-06-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1850,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76787"
+            ],
+            "statement_id": "q76787$CFF4D6E4-BA03-4E53-8623-C57722B2CF48",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1850,
+            "raw_time": "+1850-09-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76787"
+        ],
+        "statement_id": "Q76787$1D39756F-BD99-4565-AE65-4C25945E6023",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1751996",
+        "label": "Waddewarden",
+        "label_en": "Waddewarden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76787"
+        ],
+        "statement_id": "Q76787$A7FF2F47-0967-4632-B501-E8E21B368C38",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76787"
+        ],
+        "statement_id": "Q76787$9F806990-C0B1-4BFE-B3D1-66A8AB43D120",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31084",
+        "label": "耶弗尔",
+        "label_en": "Jever",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76787"
+        ],
+        "statement_id": "q76787$8838D5F3-A73C-4F0C-8928-6863B5BC25E8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q706152",
+        "label": "安哈尔特-采尔布斯特",
+        "label_en": "Principality of Anhalt-Zerbst",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76787"
+        ],
+        "statement_id": "Q76787$86ebf228-450d-f044-f9a6-f83e0a85b8fb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q158445",
+        "label": "梅克伦堡-什未林大公国",
+        "label_en": "Grand Duchy of Mecklenburg-Schwerin",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·农业区位论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76787",
+        "title": "Wikidata Q76787 / 范杜能",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76787&oldid=2561296171",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561296171,
+        "modified_at": "2026-10-27T03:28:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

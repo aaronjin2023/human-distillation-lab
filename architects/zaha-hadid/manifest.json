@@ -43,5 +43,353 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市的一座地铁站入口小亭（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47780",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zaha Hadid",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1950–2016",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47780"
+            ],
+            "statement_id": "q47780$A8715EBD-2286-4684-96E4-CDBE868773F4",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47780"
+            ],
+            "statement_id": "Q47780$0a66aad8-458f-1cd3-c374-10cff6be8b70",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$614B7353-1435-4B4E-A0DE-6EAD72BE734A",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1530",
+        "label": "巴格达",
+        "label_en": "Baghdad",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$AC104F9B-B5A0-4FD0-B23D-0647CF1A45DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9248",
+        "label": "巴库",
+        "label_en": "Baku",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$769423D7-5B2C-4084-A0DB-611707DA1F55",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$2D2C41D2-FED2-4085-AAF5-495939CF4168",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61909",
+        "label": "莱茵河畔魏尔",
+        "label_en": "Weil am Rhein",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$1A8D0122-1B15-4F8A-AE2A-3D92E4099A48",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$C9397358-3B9F-48A4-B647-86CFB5BE46A1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8646",
+        "label": "香港",
+        "label_en": "Hong Kong",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$02D2977C-9759-44EC-AE7E-3D3D83F65D87",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$04ADC662-C53B-42EC-B534-253B82886D33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q49145",
+        "label": "纽黑文",
+        "label_en": "New Haven",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$7D08BDB2-406B-4AEF-8309-4E502EA54F9D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$3D0D8790-164E-4F3A-B7AD-12F184C1C0B1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$2866202B-6B9D-4295-8671-119326E8929A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q871265",
+        "label": "东兰辛",
+        "label_en": "East Lansing",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$01BD33AF-A0CE-40E6-839A-BECBC191B4D7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43196",
+        "label": "辛辛那提",
+        "label_en": "Cincinnati",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$e61477cd-4c3a-f286-8d32-17591ed170e9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1735",
+        "label": "因斯布鲁克",
+        "label_en": "Innsbruck",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$f4ca873f-4bf4-031d-24e6-43be38f756e5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1748",
+        "label": "哥本哈根",
+        "label_en": "Copenhagen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$1cd2da3a-4f9e-940c-b6ea-285cc85ddef3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$73e74f98-444d-1f13-ec63-72053c4b417b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$487caa81-493f-1b60-e4ef-5d1c8401185f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10305",
+        "label": "萨拉戈萨",
+        "label_en": "Zaragoza",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$05016323-43c7-ab57-c0c8-26fcc5828382",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q490",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$57795EE6-7EAA-435E-B7C6-41887EF9A72A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47780"
+        ],
+        "statement_id": "Q47780$0F43F0FA-15F3-472C-AC26-93B9163A5953",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q796",
+        "label": "伊拉克",
+        "label_en": "Iraq",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "解构主义 / 参数主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47780",
+        "title": "Wikidata Q47780 / 薩哈·哈帝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47780&oldid=2558287365",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558287365,
+        "modified_at": "2026-10-18T06:36:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

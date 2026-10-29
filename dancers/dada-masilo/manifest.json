@@ -37,5 +37,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5207882",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dada Masilo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1985–2024",
+      "birth_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5207882"
+            ],
+            "statement_id": "Q5207882$5D51E5CE-C20C-4C9B-8346-E7C202D44B2F",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5207882"
+            ],
+            "statement_id": "Q5207882$F8E16214-726D-40A7-8C06-992A84A37451",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5207882"
+        ],
+        "statement_id": "Q5207882$F3886557-94BC-44AB-B0C4-97F05B0090EE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34647",
+        "label": "约翰内斯堡",
+        "label_en": "Johannesburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5207882"
+        ],
+        "statement_id": "Q5207882$7BE6B9FA-1875-49CD-9EC6-E3FCE642CFC7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "南非当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5207882",
+        "title": "Wikidata Q5207882 / Dada Masilo",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5207882&oldid=2556875518",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556875518,
+        "modified_at": "2026-10-14T09:46:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

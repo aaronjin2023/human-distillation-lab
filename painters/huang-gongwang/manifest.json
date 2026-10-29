@@ -30,5 +30,117 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "便利店夜景（秋）（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q702525",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Huang Gongwang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1269–1354",
+      "birth_year": {
+        "value": 1269,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q702525"
+            ],
+            "statement_id": "Q702525$CCE4F07F-5A9C-4F7E-BB42-045B4657DBDA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1269,
+            "raw_time": "+1269-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1354,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q702525"
+            ],
+            "statement_id": "Q702525$F8EAB916-7BB9-4FDA-8DA8-8F8B466A677D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1354,
+            "raw_time": "+1354-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q702525"
+        ],
+        "statement_id": "Q702525$B71F33B6-7B8B-47E0-937C-98F270EE7D57",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q57970",
+        "label": "常州市",
+        "label_en": "Changzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q702525"
+        ],
+        "statement_id": "Q702525$A9A888ED-1340-41D2-9776-B56362B2F19E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7313",
+        "label": "元朝",
+        "label_en": "Yuan dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "元四家/文人画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q702525",
+        "title": "Wikidata Q702525 / 黄公望",
+        "url": "https://www.wikidata.org/w/index.php?title=Q702525&oldid=2557925588",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557925588,
+        "modified_at": "2026-10-17T08:31:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

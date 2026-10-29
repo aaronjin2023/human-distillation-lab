@@ -53,5 +53,132 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“约克夏犬坐在地铁座位上”行书",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q270130",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guan Daosheng",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1262–1319",
+      "birth_year": {
+        "value": 1262,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270130"
+            ],
+            "statement_id": "Q270130$739B5247-FF98-49E9-8A50-478149C7F93B",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1262,
+            "raw_time": "+1262-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1319,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270130"
+            ],
+            "statement_id": "Q270130$F7EAB565-3FD1-41EC-84F5-B21B42070B2D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1319,
+            "raw_time": "+1319-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q270130"
+        ],
+        "statement_id": "Q270130$5682F88C-D5FF-4688-8F72-E62046BE8347",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42664",
+        "label": "湖州市",
+        "label_en": "Huzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q270130"
+        ],
+        "statement_id": "Q270130$93BF48FD-9EBF-4CB2-87CE-3BE1A04081B3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7313",
+        "label": "元朝",
+        "label_en": "Yuan dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q270130"
+          ],
+          "statement_id": "Q270130$664cdd41-60e8-46a2-9e11-cff10183addc",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "元·行书 / 楷书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q270130",
+        "title": "Wikidata Q270130 / 管道升",
+        "url": "https://www.wikidata.org/w/index.php?title=Q270130&oldid=2560678149",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560678149,
+        "modified_at": "2026-10-25T12:28:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

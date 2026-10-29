@@ -45,5 +45,145 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q71020",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karen Horney",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1952",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71020"
+            ],
+            "statement_id": "Q71020$F0BF175F-0772-474D-A5FB-A5CAA212EAFA",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q71020"
+            ],
+            "statement_id": "Q71020$3E91E335-DCF2-442D-B372-CCDD1D549819",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q71020"
+        ],
+        "statement_id": "q71020$B1EE5505-43F5-40F4-A57B-565E61474363",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1607",
+        "label": "白沙岛",
+        "label_en": "Blankenese",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q71020"
+        ],
+        "statement_id": "Q71020$1607DE28-6CC0-4BAA-8D33-782945A91B75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q71020"
+        ],
+        "statement_id": "q71020$9036EB98-C9BB-4859-9495-724395DC70A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q71020"
+        ],
+        "statement_id": "q71020$020687D7-3A04-4B3B-96BD-26F6D8218653",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会文化精神分析",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q71020",
+        "title": "Wikidata Q71020 / 卡伦·霍妮",
+        "url": "https://www.wikidata.org/w/index.php?title=Q71020&oldid=2558070270",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558070270,
+        "modified_at": "2026-10-17T19:17:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

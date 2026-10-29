@@ -43,5 +43,132 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q147220",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yuan Mei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1716–1797",
+      "birth_year": {
+        "value": 1716,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q147220"
+            ],
+            "statement_id": "Q147220$4AADA841-9E21-4D2B-BEA6-C3B70F0F1A59",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1716,
+            "raw_time": "+1716-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1797,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q147220"
+            ],
+            "statement_id": "Q147220$EE31739B-057D-4E9A-96E1-D35D33FDA39C",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1797,
+            "raw_time": "+1797-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q147220"
+        ],
+        "statement_id": "Q147220$4E26872F-82EF-4F3C-8A7E-C5C63B22C82A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4970",
+        "label": "杭州市",
+        "label_en": "Hangzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q147220"
+        ],
+        "statement_id": "Q147220$F9E539B5-962A-4FD5-B4AB-BBF5A6A35759",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q147220"
+          ],
+          "statement_id": "Q147220$FA0BCBA8-BAC2-4B2C-A00E-986DF612F13C",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "清·随园食单",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q147220",
+        "title": "Wikidata Q147220 / 袁枚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q147220&oldid=2557093943",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557093943,
+        "modified_at": "2026-10-15T00:58:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

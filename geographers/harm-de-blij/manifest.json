@@ -25,5 +25,103 @@
   "test_prompt": "In the style of Harm de Blij, teach a new city region: give it its physical stage, its peoples and its politics, and show why its geography matters",
   "test_question_zh": "一座新城区域的自然舞台、人民与政治，说明了它的地理为何重要？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5659013",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Harm de Blij",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2014",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5659013"
+            ],
+            "statement_id": "Q5659013$c2c6e706-46ef-5215-127e-ef80258ba89d",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5659013"
+            ],
+            "statement_id": "Q5659013$83fc97c1-4ec8-c5ce-70fb-28d7421d6fb7",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5659013"
+        ],
+        "statement_id": "Q5659013$508836D0-EA10-4020-9B86-857A8CC9855C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "荷兰—美国·政治地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5659013",
+        "title": "Wikidata Q5659013 / Harm de Blij",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5659013&oldid=2513495901",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513495901,
+        "modified_at": "2026-07-03T17:15:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

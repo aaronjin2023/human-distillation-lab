@@ -41,5 +41,176 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "Marcel Proust",
-  "writer_zh": "马塞尔·普鲁斯特"
+  "writer_zh": "马塞尔·普鲁斯特",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7199",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marcel Proust",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1871–1922",
+      "birth_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7199"
+            ],
+            "statement_id": "q7199$A2C80DE2-CF68-4AC8-A712-330BB53FDD00",
+            "rank": "normal",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-07-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7199"
+            ],
+            "statement_id": "q7199$591ACA1B-5907-49FC-82FD-8D5201A75E15",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7199"
+        ],
+        "statement_id": "q7199$3BC121CF-BC2D-4523-839D-E64D1543FA89",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q194420",
+        "label": "巴黎十六区",
+        "label_en": "16th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7199"
+        ],
+        "statement_id": "Q7199$c55ca084-ea0a-4b5e-bbe2-c16be5d1672c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1886-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1922-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7199"
+        ],
+        "statement_id": "Q7199$781a6ce6-b34d-4142-9419-271113d555df",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1901-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q26421",
+        "label": "多德雷赫特",
+        "label_en": "Dordrecht",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7199"
+        ],
+        "statement_id": "q7199$70FDF31E-3E71-4950-A156-29B27FE54431",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·现代主义小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7199",
+        "title": "Wikidata Q7199 / 马塞尔·普鲁斯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7199&oldid=2561146515",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561146515,
+        "modified_at": "2026-10-26T18:36:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

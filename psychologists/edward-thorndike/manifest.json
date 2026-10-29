@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q309765",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edward Thorndike",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1874–1949",
+      "birth_year": {
+        "value": 1874,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309765"
+            ],
+            "statement_id": "q309765$82AE33BA-EFC5-4846-B56C-2CFDA23060DE",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1874,
+            "raw_time": "+1874-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1949,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309765"
+            ],
+            "statement_id": "q309765$A5743A12-B6F6-43BF-AC87-95289B307E5C",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1949,
+            "raw_time": "+1949-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q309765"
+        ],
+        "statement_id": "Q309765$87109626-40d7-dc97-1697-3b928af336cd",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2414374",
+        "label": "威廉斯堡",
+        "label_en": "Williamsburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q309765"
+        ],
+        "statement_id": "q309765$157798D2-DF8F-4E34-A762-142829E0B18E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "联结主义",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q309765",
+        "title": "Wikidata Q309765 / 爱德华·桑代克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q309765&oldid=2557861520",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557861520,
+        "modified_at": "2026-10-17T04:36:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

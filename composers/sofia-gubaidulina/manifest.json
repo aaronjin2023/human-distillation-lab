@@ -31,5 +31,155 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q165668",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sofia Gubaidulina",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2025",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q165668"
+            ],
+            "statement_id": "Q165668$C36EF2AC-4368-479D-A845-BE83302C32A0",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q165668"
+            ],
+            "statement_id": "Q165668$75845c3e-435e-62e3-11a2-52971fd76739",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q165668"
+        ],
+        "statement_id": "Q165668$6DEF0DA0-B012-4D36-9932-DE4754FE96BC",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q198102",
+        "label": "奇斯托波爾",
+        "label_en": "Chistopol",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q165668"
+        ],
+        "statement_id": "Q165668$3F512B7F-180E-459C-B029-71DAA77BFF94",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q165668"
+        ],
+        "statement_id": "Q165668$C4303EB3-CEEF-4508-AD75-3A1265699EDD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1991-12-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q165668"
+        ],
+        "statement_id": "Q165668$880F7FAC-5EBE-4CE2-9CCF-75DA77F4863E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q159",
+        "label": "俄罗斯",
+        "label_en": "Russia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代 / 俄—德"
+    },
+    "sources": [
+      {
+        "id": "WD:Q165668",
+        "title": "Wikidata Q165668 / 索菲娅·阿斯戈托芙娜·古拜杜丽娜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q165668&oldid=2560252593",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560252593,
+        "modified_at": "2026-10-24T09:41:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,130 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5354",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ernst Mayr",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–2005",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5354"
+            ],
+            "statement_id": "q5354$BE8EE8FA-1C50-4909-A593-CB6992306525",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5354"
+            ],
+            "statement_id": "q5354$096DC146-21AD-4BDD-9197-FB62BEB9D39B",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-02-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5354"
+        ],
+        "statement_id": "q5354$7B410F54-B709-4EB0-8D72-20CB1DBCAF9A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3994",
+        "label": "肯普滕",
+        "label_en": "Kempten",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5354"
+        ],
+        "statement_id": "q5354$904F085D-1219-402C-962D-D8B85050F1B7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5354"
+        ],
+        "statement_id": "q5354$0E9A070A-45B4-4CB1-90BA-10CD229724AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "进化论 / 系统学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5354",
+        "title": "Wikidata Q5354 / 厄恩斯特·迈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5354&oldid=2561445798",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561445798,
+        "modified_at": "2026-10-27T14:22:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

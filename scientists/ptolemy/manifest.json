@@ -29,5 +29,141 @@
     "观测数据多取前人记录，原始观测与转录难以区分",
     "《地理学指南》部分地名与坐标的对应关系仍有争议"
   ],
-  "verification": "地心说取代与生卒约数为学界通说；见草稿第 4 节第 10 条。"
+  "verification": "地心说取代与生卒约数为学界通说；见草稿第 4 节第 10 条。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34943",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ptolemy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.100–c.170",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34943"
+            ],
+            "statement_id": "Q34943$6626D2BF-ED05-4020-9D25-858B9D811410",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 100,
+            "raw_time": "+0100-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34943"
+            ],
+            "statement_id": "Q34943$5B2F6549-46C8-493C-A880-2FE0CA1620CC",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 170,
+            "raw_time": "+0170-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34943"
+        ],
+        "statement_id": "Q34943$6A44B7AB-0C17-47EB-BA76-3EEC9320FA6D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q1302772",
+        "label": "托勒密赫米歐",
+        "label_en": "Ptolemais Hermiou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34943"
+        ],
+        "statement_id": "Q34943$5BE46FA2-2E05-4DFD-B200-D28BCDA6AE1D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天文 / 地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34943",
+        "title": "Wikidata Q34943 / 克劳狄乌斯·托勒密",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34943&oldid=2558090990",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558090990,
+        "modified_at": "2026-10-17T20:19:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

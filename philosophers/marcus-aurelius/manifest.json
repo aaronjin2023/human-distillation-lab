@@ -40,5 +40,117 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "熬夜加班后第二天的自我怀疑",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1430",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marcus Aurelius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "121–180",
+      "birth_year": {
+        "value": 121,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1430"
+            ],
+            "statement_id": "q1430$c914b415-46dc-fcd2-20cf-a1066048602f",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 121,
+            "raw_time": "+0121-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 180,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1430"
+            ],
+            "statement_id": "q1430$a3381310-4007-d4b0-3bbe-253a0c1ba0b4",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 180,
+            "raw_time": "+0180-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1430"
+        ],
+        "statement_id": "q1430$D642F02D-C497-4DC6-8F61-2E95E6ACC51B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1430"
+        ],
+        "statement_id": "Q1430$49B42E27-1D5D-4B77-8DE2-FADA8247EAD8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马斯多亚"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1430",
+        "title": "Wikidata Q1430 / 馬爾庫斯·奧列里烏斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1430&oldid=2558150567",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558150567,
+        "modified_at": "2026-10-17T23:17:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

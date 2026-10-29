@@ -31,5 +31,183 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q152384",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joan Miró",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1983",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152384"
+            ],
+            "statement_id": "q152384$CAEE521D-FA9E-4CBD-BD58-794B0AA27593",
+            "rank": "preferred",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152384"
+            ],
+            "statement_id": "q152384$1A50CE6B-9914-4DDE-9A84-A2D2BAEA9B53",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$bcd6f4ae-41c4-c81c-7e0d-ccbdbded705d",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$A7CC5BBE-DCB4-4987-8E24-5AD3E17B329D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8826",
+        "label": "帕尔马",
+        "label_en": "Palma",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$B4743BAF-BF65-449A-9D37-284A3C919622",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$45CD040A-FE79-4F8F-9CF9-D735961AAB9C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$4E211CE0-C2B7-49E0-832A-574539FF9205",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$4CFE6786-DC01-4E6B-87FB-C301D0094184",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q152384"
+        ],
+        "statement_id": "Q152384$1ABB3631-F936-4CF7-8466-9F4E7AE9F525",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "超现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q152384",
+        "title": "Wikidata Q152384 / 胡安·米罗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q152384&oldid=2561478024",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561478024,
+        "modified_at": "2026-10-27T16:56:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

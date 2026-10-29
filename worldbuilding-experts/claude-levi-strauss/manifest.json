@@ -1,0 +1,175 @@
+{
+  "id": "claude-levi-strauss",
+  "name": "Claude Lévi-Strauss",
+  "name_zh": "克洛德·列维-斯特劳斯",
+  "domain": "anthropology-folklore",
+  "scope": "仅以公开可追溯材料提炼可用于虚构世界的研究方法；下列操作步骤与案例是本项目原创转译，不是本人发言或背书。",
+  "expertise": [
+    "结构人类学",
+    "神话",
+    "亲属"
+  ],
+  "source_works": [
+    "Anthropologie structurale"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Claude Lévi-Strauss – Social anthropology",
+      "url": "https://www.college-de-france.fr/en/chair/claude-levi-strauss-social-anthropology-statutory-chair",
+      "publisher": "Collège de France",
+      "source_type": "公开机构页面或出版物摘要",
+      "accessed_at": "2026-10-29",
+      "access_note": "浏览机构讲席与研究简介；具体操作是结构比较的项目转译，未读专著全文。",
+      "supports": [
+        "研究领域与方法框架",
+        "所列代表成果（以页面明确列出者为限）"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Claude Lévi-Strauss — author catalogue",
+      "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/levi_strauss_claude.html",
+      "publisher": "Les Classiques des sciences sociales / UQAM-hosted",
+      "source_type": "公开机构页面或公开论文",
+      "accessed_at": "2026-10-29",
+      "access_note": "浏览公开作者目录与生卒信息；未把目录列出的全文当已读。",
+      "supports": [
+        "1908–2009",
+        "The Structural Study of Myth书目入口"
+      ]
+    }
+  ],
+  "kind": "expert-method",
+  "version": "0.1.0",
+  "updated_at": "2026-10-29",
+  "status": "source-grounded-draft",
+  "activation": "always-relevant",
+  "rights": {
+    "summary": "本包仅含中文原创摘要与设计转译；原始论文、专著、讲演和网页保留各自权利，不转授来源许可。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "known_gaps": [
+    "来源访问范围逐项列出；摘要、目录或机构介绍不能代替专著全文。",
+    "下列操作步骤及虚构案例为本项目原创转译，尚未用真实项目检验效果。",
+    "不用于冒充本人、生成私人意见或把虚构推演当作实证结论；不以单一学派替代相反证据。 [S1]"
+  ],
+  "distillation_method": "根据可访问的公开成果和机构材料提炼问题、方法与限制，再写原创世界构建设计步骤；不模拟私人性格或冒充本人。",
+  "legacy_refs": [],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q128126",
+      "status": "matched",
+      "match_basis": {
+        "type": "reviewed_name_and_professional_context",
+        "evidence": "对照/tmp领域JSON：Collège de France社会人类学讲席、《Anthropologie structurale》作者，与候选Claude Lévi-Strauss及anthropologist一致；对照来源 https://www.college-de-france.fr/en/chair/claude-levi-strauss-social-anthropology-statutory-chair。仅确认资料关联身份，生卒与地域仍为source_recorded，争议值保留，民族不升级。"
+      }
+    },
+    "life": {
+      "original_text": null,
+      "birth_year": {
+        "value": 1908,
+        "status": "documented",
+        "claims": [
+          {
+            "value": 1908,
+            "source_ids": [
+              "BIO-S2"
+            ]
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2009,
+        "status": "documented",
+        "claims": [
+          {
+            "value": 2009,
+            "source_ids": [
+              "BIO-S2"
+            ]
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null,
+      "documented_text": "1908–2009"
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q128126"
+        ],
+        "statement_id": "q128126$7F59332E-B41D-452D-8137-72094C57B0AD",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q239",
+        "label": "布鲁塞尔",
+        "label_en": "Brussels",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q128126"
+        ],
+        "statement_id": "q128126$4B5422ED-EC9D-4BEB-88B5-A3A4AC9BAA67",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q128126"
+        ],
+        "statement_id": "q128126$7A63D3BB-373A-4518-8A8C-2084D47CE577",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q128126",
+        "title": "Wikidata Q128126 / 克洛德·列维-斯特劳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q128126&oldid=2557845262",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557845262,
+        "modified_at": "2026-10-17T03:37:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-S2",
+        "title": "Claude Lévi-Strauss — author catalogue",
+        "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/levi_strauss_claude.html",
+        "accessed_at": "2026-10-29",
+        "access_note": "浏览公开作者目录与生卒信息；未把目录列出的全文当已读。"
+      }
+    ]
+  }
+}

@@ -43,5 +43,172 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15869",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Freddie Mercury",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1946–1991",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15869"
+            ],
+            "statement_id": "q15869$95938522-F6FE-41AB-B6E9-07084E35892E",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15869"
+            ],
+            "statement_id": "q15869$B24ECE1A-4700-489A-A6C2-4C511CC6C996",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-11-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15869"
+        ],
+        "statement_id": "q15869$8e994e95-4962-bcee-0c85-ee17ed0d7268",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2222874",
+        "label": "桑给巴尔市",
+        "label_en": "Zanzibar City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q15869"
+        ],
+        "statement_id": "Q15869$EB1CC277-D1AD-495C-9465-374D197FA65C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15869"
+        ],
+        "statement_id": "q15869$0f4933c0-4514-57ad-0a35-73ff4bc8a40f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q15869"
+        ],
+        "statement_id": "Q15869$4c9467a1-43da-b0b4-0625-f6e5d72fd739",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q157904",
+        "label": "桑给巴尔苏丹国",
+        "label_en": "Sultanate of Zanzibar",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q15869"
+          ],
+          "statement_id": "Q15869$81F2A041-2E83-49DC-BCAE-C8D0AA5A9AE9",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q4115170",
+          "label": "印度裔英国人",
+          "label_en": "British Indians",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q15869"
+          ],
+          "statement_id": "Q15869$D4C9ACC3-4241-4500-8986-6FBE32743447",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q200263",
+          "label": "帕西人",
+          "label_en": "Parsi",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "摇滚·华丽摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15869",
+        "title": "Wikidata Q15869 / 弗雷迪·默丘里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15869&oldid=2557994983",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557994983,
+        "modified_at": "2026-10-17T13:46:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,157 @@
   "test_prompt": "In the style of Alfred Hettner, define a new urban district by its areal differentiation: map where housing, work and green space differ, and let systematic patterns serve the regional synthesis, not replace it.",
   "test_question_zh": "一座新城区的地域分异",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；区域地理理论为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q63138",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Hettner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1859–1941",
+      "birth_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q63138"
+            ],
+            "statement_id": "Q63138$C2720AC0-D9FE-4C2F-9701-BAEC2E26E978",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-08-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q63138"
+            ],
+            "statement_id": "Q63138$8210D058-2031-4FDE-9E5C-A2FA5232BC92",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q63138"
+        ],
+        "statement_id": "q63138$169DA825-3E39-4484-B4F2-CA8A3E0CE877",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1731",
+        "label": "德累斯顿市",
+        "label_en": "Dresden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q63138"
+        ],
+        "statement_id": "Q63138$CA4313C9-67EA-49D0-8368-83AFBC334411",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q63138"
+        ],
+        "statement_id": "Q63138$40C97546-F59F-4C36-A0CF-8183A14A5A31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3806",
+        "label": "蒂宾根",
+        "label_en": "Tübingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q63138"
+        ],
+        "statement_id": "Q63138$6B1A4A5A-9C2C-484C-B2B2-C778A1045BF9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q63138"
+        ],
+        "statement_id": "Q63138$3E86AB87-B021-4B63-8DA7-D88CF17CFD6A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·区域地理理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q63138",
+        "title": "Wikidata Q63138 / 阿尔弗雷德·赫特纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q63138&oldid=2554590613",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554590613,
+        "modified_at": "2026-10-07T14:54:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

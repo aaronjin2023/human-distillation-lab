@@ -29,5 +29,144 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何确定一种新抗生素的分子三维结构？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1 为准；青霉素结构（1945）与胰岛素结构（1969）已用网络核对（Britannica、Wikipedia，2026-10-26，见 technique.md）；其余未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7487",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dorothy Hodgkin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–1994",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7487"
+            ],
+            "statement_id": "q7487$C1CFF34A-8500-40FF-B9D8-FE9C197C152F",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7487"
+            ],
+            "statement_id": "q7487$D9A833BB-7AA9-4459-8317-1FD6D3A7BF0E",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7487"
+        ],
+        "statement_id": "Q7487$BC4A9898-FD74-4504-BBDC-6FEDB2C68F83",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q85",
+        "label": "开罗",
+        "label_en": "Cairo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7487"
+        ],
+        "statement_id": "Q7487$CF50DDCB-92FA-41B0-ACF2-AC47834339DD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34217",
+        "label": "牛津",
+        "label_en": "Oxford",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7487"
+        ],
+        "statement_id": "Q7487$816111CA-8102-484A-8F08-BE497C98F27E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q350",
+        "label": "剑桥",
+        "label_en": "Cambridge",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7487"
+        ],
+        "statement_id": "q7487$AED9FE62-547F-45D7-92F0-D1191404C9A7",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学 / 晶体学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7487",
+        "title": "Wikidata Q7487 / 多萝西·克劳福特·霍奇金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7487&oldid=2561665630",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561665630,
+        "modified_at": "2026-10-28T11:59:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

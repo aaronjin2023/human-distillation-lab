@@ -43,5 +43,171 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q314636",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michael Graves",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–2015",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314636"
+            ],
+            "statement_id": "q314636$F3F1240C-E4C1-4B80-9A64-592F4CA207E9",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314636"
+            ],
+            "statement_id": "Q314636$8bb61843-4c8c-d16a-f0cd-cb63897a914e",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-03-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "Q314636$7240C4AB-0553-43E2-91F4-8C670842A2A0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q6346",
+        "label": "印第安纳波利斯",
+        "label_en": "Indianapolis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "Q314636$7ecd12e4-456c-e6dd-c151-fa8ce308e68e",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "Q314636$5b15d0c7-47bb-4359-d765-4ef6e7c7bc33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "Q314636$d2d35181-4d52-ad23-ba4c-12b25f240ddd",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q239",
+        "label": "布鲁塞尔",
+        "label_en": "Brussels",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "Q314636$78293a87-4c79-18d8-9a92-8c3d7b882bc1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q314636"
+        ],
+        "statement_id": "q314636$40B162F7-3D8C-47A2-880E-4797CF1AE527",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "后现代主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q314636",
+        "title": "Wikidata Q314636 / 迈克尔·格雷夫斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q314636&oldid=2558166871",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558166871,
+        "modified_at": "2026-10-17T23:54:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

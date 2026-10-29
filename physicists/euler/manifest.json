@@ -31,5 +31,241 @@
   "test_prompt": "In the style of Euler, explain why a bridge sways in the wind: write the equation of the motion first, solve the case that can be solved, and check the answer against the still-air limit you already know",
   "test_question_zh": "解释大桥为什么会在风中晃动",
   "verification": "2026-10-26：生卒 1707–1783 与代表作按物理史通说；无粘假设与弦振动之争已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7604",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leonhard Euler",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1707–1783",
+      "birth_year": {
+        "value": 1707,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7604"
+            ],
+            "statement_id": "q7604$1B6A89E1-88F8-4DF1-9526-AA9C09FBEF66",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1707,
+            "raw_time": "+1707-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1783,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7604"
+            ],
+            "statement_id": "Q7604$910B29F1-0E83-427C-9BFF-F693E8E4553C",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1783,
+            "raw_time": "+1783-09-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$188AE192-0E9A-4BA5-81A3-69B6D6A92BED",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$AD063161-755F-4788-AF28-A3634ECA5FF2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1727-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$B78D6528-6AD6-4795-9A4E-A4ED967DC2CA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1741-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1766-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$F35EFE02-BC31-479F-B0BC-785F6B0BA111",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q78",
+        "label": "巴塞尔",
+        "label_en": "Basel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$00B8497E-2692-4CD4-9DDD-C708296B07D3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$AEE1B523-1D57-4ED3-944C-5A56D88B504C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "q7604$F2835A63-201B-482F-97AF-2B22AE1C032F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q435583",
+        "label": "舊瑞士邦聯",
+        "label_en": "Old Swiss Confederacy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$9cad68d4-427f-0598-7299-d9e06acffb6d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7604"
+        ],
+        "statement_id": "Q7604$aff8c931-41d9-d02e-77d9-1bfd2b6edfc7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "力学 / 数学物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7604",
+        "title": "Wikidata Q7604 / 莱昂哈德·欧拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7604&oldid=2560176800",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560176800,
+        "modified_at": "2026-10-24T01:45:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

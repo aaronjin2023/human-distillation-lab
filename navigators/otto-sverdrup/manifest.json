@@ -36,5 +36,117 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Otto Sverdrup, an uncrewed vessel winters in the ice in 2026 and maps an Arctic archipelago by sledge and small boat, segment by segment, naming each new island. No coastline drawn from the ship alone.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q321261",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Otto Sverdrup",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1854–1930",
+      "birth_year": {
+        "value": 1854,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q321261"
+            ],
+            "statement_id": "Q321261$7CED6A75-70ED-4341-9561-8E39377F4A5A",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1854,
+            "raw_time": "+1854-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q321261"
+            ],
+            "statement_id": "Q321261$A49671C2-6609-42E6-988D-4851C8BB01A0",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q321261"
+        ],
+        "statement_id": "q321261$B37E4B23-A4E1-44E0-941F-5569B6557F3D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q489362",
+        "label": "宾达尔",
+        "label_en": "Bindal Municipality",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q321261"
+        ],
+        "statement_id": "q321261$1D42F759-C3C0-43EF-9E7B-5280EC78F4C9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "挪威·北极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q321261",
+        "title": "Wikidata Q321261 / 奥托·斯瓦德普",
+        "url": "https://www.wikidata.org/w/index.php?title=Q321261&oldid=2558568491",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558568491,
+        "modified_at": "2026-10-19T00:19:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

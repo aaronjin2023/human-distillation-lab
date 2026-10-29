@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "凯利风格：现代机场航站楼前的一座广场，几何网格，林荫树阵，镜面水，极简，古典秩序配现代清晰。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q355946",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dan Kiley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–2004",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355946"
+            ],
+            "statement_id": "Q355946$CC931DE2-5106-443A-B68A-228AE12A21A9",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355946"
+            ],
+            "statement_id": "Q355946$E607C189-D474-401C-A480-C8DA4AAC6494",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q355946"
+        ],
+        "statement_id": "q355946$59219865-256A-4E9D-A965-5525ECDB2F37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q355946"
+        ],
+        "statement_id": "q355946$AB4C6E20-7AFE-4D89-88A6-61A046319C39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·现代主义景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q355946",
+        "title": "Wikidata Q355946 / Dan Kiley",
+        "url": "https://www.wikidata.org/w/index.php?title=Q355946&oldid=2513406711",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513406711,
+        "modified_at": "2026-07-03T11:31:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

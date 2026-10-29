@@ -43,5 +43,130 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "城市抵御特大山火",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q124617",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georgy Zhukov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1974",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q124617"
+            ],
+            "statement_id": "Q124617$3939465a-4426-7074-b640-d29b73cb745e",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-12-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q124617"
+            ],
+            "statement_id": "q124617$426AD82B-C1BB-4AE9-A06A-9AA07D666C34",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-06-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q124617"
+        ],
+        "statement_id": "q124617$940e8f4c-402f-3897-c51d-6e3913b34813",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q4443694",
+        "label": "Strelkovka",
+        "label_en": "Strelkovka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q124617"
+        ],
+        "statement_id": "q124617$A0ADB4D6-66CF-424C-A885-BB515FEF171D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q124617"
+        ],
+        "statement_id": "Q124617$6f080222-4be3-8636-9f2b-aff5972524f7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "苏联·东线"
+    },
+    "sources": [
+      {
+        "id": "WD:Q124617",
+        "title": "Wikidata Q124617 / 格奥尔基·康斯坦丁诺维奇·朱可夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q124617&oldid=2559032538",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559032538,
+        "modified_at": "2026-10-20T02:36:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

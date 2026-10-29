@@ -37,5 +37,117 @@
   "test_prompt": "In the style of Sheikh Hamdullah, Ottoman thuluth Quran manuscript, large bold letters with strong thick-thin contrast, black ink with gold, dignified layout",
   "transmission": "真迹存世（抄本传世）",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3561135",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sheikh Hamdullah",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1436–1520",
+      "birth_year": {
+        "value": 1436,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3561135"
+            ],
+            "statement_id": "Q3561135$9c1febff-424e-14af-1595-35dc5f4cc69c",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1436,
+            "raw_time": "+1436-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1520,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3561135"
+            ],
+            "statement_id": "Q3561135$17e5595e-404b-df6e-f28d-26d8d2dc98d4",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1520,
+            "raw_time": "+1520-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3561135"
+        ],
+        "statement_id": "Q3561135$A6F60838-D4DB-45DA-96AF-F927D9A729B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170532",
+        "label": "阿马西亚",
+        "label_en": "Amasya",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3561135"
+        ],
+        "statement_id": "Q3561135$AE0AF1CC-67C0-4052-A5DC-6C7AD56B91A6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12560",
+        "label": "奥斯曼帝国",
+        "label_en": "Ottoman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·苏鲁斯体 / 誊抄体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3561135",
+        "title": "Wikidata Q3561135 / Sheikh Hamdullah",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3561135&oldid=2520989287",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520989287,
+        "modified_at": "2026-07-22T08:49:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

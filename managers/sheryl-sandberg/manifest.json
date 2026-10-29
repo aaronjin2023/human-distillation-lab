@@ -43,5 +43,102 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234653",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sheryl Sandberg",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234653"
+            ],
+            "statement_id": "Q234653$0276458A-6C97-4929-99CB-DAD1093C41FC",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234653"
+        ],
+        "statement_id": "q234653$01BB5554-999D-45D9-8D8F-47C0843D7EFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234653"
+        ],
+        "statement_id": "q234653$8033B67C-2443-4A11-B34D-6EDA8AB7EBB6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "互联网 / 美国",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234653",
+        "title": "Wikidata Q234653 / 雪莉·桑德伯格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234653&oldid=2550383135",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550383135,
+        "modified_at": "2026-09-28T07:52:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

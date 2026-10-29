@@ -38,5 +38,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店的霓虹灯（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q971886",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lorenzo Mattotti",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1954–",
+      "birth_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q971886"
+            ],
+            "statement_id": "Q971886$5240EC1E-56BE-4E6D-AA50-28FB8714B469",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q971886"
+        ],
+        "statement_id": "Q971886$2E580004-617A-4861-AF30-E3BB1BBF7D39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6221",
+        "label": "布雷西亚",
+        "label_en": "Brescia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q971886"
+        ],
+        "statement_id": "Q971886$225ACDFD-1019-475F-8368-9211623A6A49",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q971886",
+        "title": "Wikidata Q971886 / 羅倫佐·馬托蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q971886&oldid=2549521046",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549521046,
+        "modified_at": "2026-09-26T05:14:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

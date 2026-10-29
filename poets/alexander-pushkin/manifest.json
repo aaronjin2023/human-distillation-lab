@@ -44,5 +44,126 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7200",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alexander Pushkin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1799–1837",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7200"
+            ],
+            "statement_id": "q7200$0ad5b2e3-47f5-9b42-cad5-a0a5a1bccb80",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18195782,
+                  "id": "Q18195782"
+                }
+              ]
+            },
+            "value": 1799,
+            "raw_time": "+1799-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1837,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7200"
+            ],
+            "statement_id": "q7200$36ea6501-4b67-c2c8-e2c3-79daf76b7c5e",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1837,
+            "raw_time": "+1837-01-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7200"
+        ],
+        "statement_id": "q7200$6D8F492D-E2A9-4D1D-829D-EEAB4BC1715C",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7200"
+        ],
+        "statement_id": "Q7200$A990A73E-D200-4CC1-A43D-9B3C80EDC422",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7200",
+        "title": "Wikidata Q7200 / 亚历山大·谢尔盖耶维奇·普希金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7200&oldid=2561064664",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561064664,
+        "modified_at": "2026-10-26T12:20:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

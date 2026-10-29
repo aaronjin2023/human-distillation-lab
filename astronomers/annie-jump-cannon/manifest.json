@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Annie Jump Cannon, classify a modern survey of a million stellar spectra: simplify the scheme until one physical quantity does the sorting, classify at a steady rate without changing the rule mid-way, and publish the catalogue with every entry traceable to its spectrum",
   "test_question_zh": "分类一份一百万颗恒星光谱的巡天",
   "verification": "生卒 1863–1941、OBAFGKM 分类、亨利·德雷珀星表约 35 万颗恒星按天文史通说（Wikipedia / Britannica 共识）写；数目口径已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q230650",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Annie Jump Cannon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1863–1941",
+      "birth_year": {
+        "value": 1863,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230650"
+            ],
+            "statement_id": "q230650$B2BA35EA-0007-4BBD-B992-4C9CDB79FDAA",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1863,
+            "raw_time": "+1863-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230650"
+            ],
+            "statement_id": "q230650$FBAF290B-835F-45BA-9B5C-615D81FA0144",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q230650"
+        ],
+        "statement_id": "q230650$35682360-8C17-406D-9E75-6A1A6506D495",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q33518",
+        "label": "多佛",
+        "label_en": "Dover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q230650"
+        ],
+        "statement_id": "q230650$93D9989B-975E-4177-A5D9-3FDB2A53DD13",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·恒星光谱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q230650",
+        "title": "Wikidata Q230650 / 安妮·坎农",
+        "url": "https://www.wikidata.org/w/index.php?title=Q230650&oldid=2557775570",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557775570,
+        "modified_at": "2026-10-16T23:07:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q57332",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hermann Ebbinghaus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1850–1909",
+      "birth_year": {
+        "value": 1850,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57332"
+            ],
+            "statement_id": "q57332$22B8299A-5B6C-4F0C-B050-DAF6366D3778",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1850,
+            "raw_time": "+1850-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q57332"
+            ],
+            "statement_id": "q57332$8598D322-3E37-496D-B973-0B60F6691C2B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-02-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q57332"
+        ],
+        "statement_id": "q57332$B73BE8F9-079D-49EB-8BA7-927762604F11",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q153974",
+        "label": "巴门",
+        "label_en": "Barmen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q57332"
+        ],
+        "statement_id": "q57332$EECA7B24-6DD0-4843-8F42-71F2C6219A76",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "记忆实验心理学",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q57332",
+        "title": "Wikidata Q57332 / 赫尔曼·艾宾浩斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q57332&oldid=2557922810",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557922810,
+        "modified_at": "2026-10-17T08:21:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

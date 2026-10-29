@@ -41,5 +41,155 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市的一座地铁站入口小亭（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q333585",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Toyo Ito",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q333585"
+            ],
+            "statement_id": "Q333585$13D450D3-BC01-4DD6-8FA1-3ABD4EA2F291",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "q333585$0A03EC3B-C9AD-4A39-9F2B-77220FC398D4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "Q333585$e0b01799-4a9c-1b38-0622-703fe297c4eb",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "Q333585$6bd9e976-46db-417a-3103-a42a50ccecb3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "Q333585$7d43d18b-4a54-edc3-e413-b399422a7229",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "Q333585$4d00b33b-43b7-c68c-1ab7-5d1a7d45d782",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q734479",
+        "label": "八代市",
+        "label_en": "Yatsushiro",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q333585"
+        ],
+        "statement_id": "q333585$6A0801BE-1203-446A-B9BD-2AA5E553E1D3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本当代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q333585",
+        "title": "Wikidata Q333585 / 伊东豊雄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q333585&oldid=2559957247",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559957247,
+        "modified_at": "2026-10-23T11:28:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

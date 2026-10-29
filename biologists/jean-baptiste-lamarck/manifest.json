@@ -29,5 +29,117 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q82122",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Baptiste Lamarck",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1744–1829",
+      "birth_year": {
+        "value": 1744,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82122"
+            ],
+            "statement_id": "q82122$143CC313-5DAC-448B-8557-5A6A0A0E7F41",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1744,
+            "raw_time": "+1744-08-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1829,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82122"
+            ],
+            "statement_id": "q82122$ABF7160A-1C0E-44F8-8F9F-F9E9CF8183C8",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1829,
+            "raw_time": "+1829-12-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q82122"
+        ],
+        "statement_id": "Q82122$6AB4FC7F-C85C-49C8-9C5F-18CD09B4F625",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q45755",
+        "label": "巴藏坦",
+        "label_en": "Bazentin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q82122"
+        ],
+        "statement_id": "Q82122$6c117ff8-438b-0911-9fe1-e87f0512a25d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "进化 / 无脊椎动物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q82122",
+        "title": "Wikidata Q82122 / 让-巴蒂斯特·拉马克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q82122&oldid=2559623685",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559623685,
+        "modified_at": "2026-10-22T03:39:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

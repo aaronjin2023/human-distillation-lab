@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于在公交站长椅上等雨停的女人的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q465877",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elis Regina",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1945–1982",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465877"
+            ],
+            "statement_id": "q465877$B049A3FF-6AF1-48A4-9984-6AE2C242851B",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465877"
+            ],
+            "statement_id": "q465877$E78F7C6C-4165-424D-A790-DD4734740D6F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q465877"
+        ],
+        "statement_id": "Q465877$BB937D44-4C43-413C-BB4E-09285FD9434E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q40269",
+        "label": "阿雷格里港",
+        "label_en": "Porto Alegre",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q465877"
+        ],
+        "statement_id": "Q465877$E75918F9-CCDB-46B3-BF7A-BDAB3A135A3F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴西·波萨诺瓦",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q465877",
+        "title": "Wikidata Q465877 / 伊利斯·里贾纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q465877&oldid=2549891248",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549891248,
+        "modified_at": "2026-09-27T05:24:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

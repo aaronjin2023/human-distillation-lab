@@ -29,5 +29,157 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《荷拉斯兄弟之誓》1784 年、《马拉之死》1793 年、大卫 1748–1825",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83155",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jacques-Louis David",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1748–1825",
+      "birth_year": {
+        "value": 1748,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83155"
+            ],
+            "statement_id": "q83155$006CA3F9-AEE5-4742-880E-90D4768868B9",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1748,
+            "raw_time": "+1748-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1825,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83155"
+            ],
+            "statement_id": "q83155$3CD5F3FC-9C82-4D51-A034-9F96ED28677E",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1825,
+            "raw_time": "+1825-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83155"
+        ],
+        "statement_id": "q83155$61A90518-EFE2-4087-B816-83EBDA0662A5",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q83155"
+        ],
+        "statement_id": "Q83155$D061DD32-FAA2-46A6-9C04-8932694CE02C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q239",
+        "label": "布鲁塞尔",
+        "label_en": "Brussels",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83155"
+        ],
+        "statement_id": "Q83155$40C2B421-ACF0-4978-BDA7-2F20B3A64DFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83155"
+        ],
+        "statement_id": "Q83155$F0DFF5A4-AEEE-412D-8359-E66129C937FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83155"
+        ],
+        "statement_id": "q83155$AE65B228-5B09-4F88-BF2C-241A7D5CDE91",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新古典主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83155",
+        "title": "Wikidata Q83155 / 雅克-路易·大卫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83155&oldid=2561447862",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561447862,
+        "modified_at": "2026-10-27T14:32:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

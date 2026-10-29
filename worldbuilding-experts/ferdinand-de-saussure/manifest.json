@@ -1,0 +1,165 @@
+{
+  "id": "ferdinand-de-saussure",
+  "name": "Ferdinand de Saussure",
+  "name_zh": "费尔迪南·德·索绪尔",
+  "domain": "linguistics",
+  "scope": "仅以公开可追溯材料提炼可用于虚构世界的研究方法；下列操作步骤与案例是本项目原创转译，不是本人发言或背书。",
+  "expertise": [
+    "语言系统",
+    "符号",
+    "共时比较"
+  ],
+  "source_works": [
+    "Cours de linguistique générale（后人整理课程）"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Campus – Ferdinand de Saussure",
+      "url": "https://www.unige.ch/campus/numeros/112/dossier2/",
+      "publisher": "Université de Genève",
+      "source_type": "公开机构页面或出版物摘要",
+      "accessed_at": "2026-10-29",
+      "access_note": "已浏览公开页面的简介或摘要；未读取所列专著全文。",
+      "supports": [
+        "研究领域与方法框架",
+        "所列代表成果（以页面明确列出者为限）"
+      ]
+    }
+  ],
+  "kind": "expert-method",
+  "version": "0.1.0",
+  "updated_at": "2026-10-29",
+  "status": "source-grounded-draft",
+  "activation": "always-relevant",
+  "rights": {
+    "summary": "本包仅含中文原创摘要与设计转译；原始论文、专著、讲演和网页保留各自权利，不转授来源许可。",
+    "item_reproduction": "not-included",
+    "source_ids": [
+      "S1"
+    ]
+  },
+  "known_gaps": [
+    "来源访问范围逐项列出；摘要、目录或机构介绍不能代替专著全文。",
+    "下列操作步骤及虚构案例为本项目原创转译，尚未用真实项目检验效果。",
+    "不用于冒充本人、生成私人意见或把虚构推演当作实证结论；不以单一学派替代相反证据。 [S1]"
+  ],
+  "distillation_method": "根据可访问的公开成果和机构材料提炼问题、方法与限制，再写原创世界构建设计步骤；不模拟私人性格或冒充本人。",
+  "legacy_refs": [],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q13230",
+      "status": "matched",
+      "match_basis": {
+        "type": "reviewed_name_and_professional_context",
+        "evidence": "对照/tmp领域JSON：Genève公开资料与Cours de linguistique générale课程关联人物，与候选linguist一致；对照来源 https://www.unige.ch/campus/numeros/112/dossier2/。仅确认资料关联身份，生卒与地域仍为source_recorded，争议值保留，民族不升级。"
+      }
+    },
+    "life": {
+      "original_text": null,
+      "birth_year": {
+        "value": 1857,
+        "status": "documented",
+        "claims": [
+          {
+            "value": 1857,
+            "source_ids": [
+              "BIO-S1"
+            ]
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q13230"
+            ],
+            "statement_id": "q13230$342A3D13-8271-435F-99AA-BFA3EECDFDF3",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null,
+      "documented_text": "1857；卒年/在世状态未在当前来源确认"
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q13230"
+        ],
+        "statement_id": "q13230$6A4B9218-2EB8-489B-8AD3-D90C23B0C517",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q71",
+        "label": "日内瓦",
+        "label_en": "Geneva",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "label": "日内瓦",
+        "status": "documented",
+        "source_ids": [
+          "BIO-S1"
+        ]
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q13230"
+        ],
+        "statement_id": "q13230$F514ADCC-098F-4E43-A476-802864CED37B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q13230",
+        "title": "Wikidata Q13230 / 费迪南·德·索绪尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q13230&oldid=2560173341",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560173341,
+        "modified_at": "2026-10-24T01:16:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-S1",
+        "title": "Campus – Ferdinand de Saussure",
+        "url": "https://www.unige.ch/campus/numeros/112/dossier2/",
+        "accessed_at": "2026-10-29",
+        "access_note": "已浏览公开页面的简介或摘要；未读取所列专著全文。"
+      }
+    ]
+  }
+}

@@ -29,5 +29,117 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160192",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hugo de Vries",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1848–1935",
+      "birth_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160192"
+            ],
+            "statement_id": "q160192$9B213C8E-E926-4B37-B5CF-60BB18886CAB",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-02-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160192"
+            ],
+            "statement_id": "q160192$1292E90A-097B-4340-9E95-4D20ABABF01F",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160192"
+        ],
+        "statement_id": "q160192$D36FB6C6-4914-4386-B628-8EDAE2929BAC",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q9920",
+        "label": "哈勒姆",
+        "label_en": "Haarlem",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160192"
+        ],
+        "statement_id": "q160192$AE9F3947-C334-46AF-95E8-B2C42EF782E3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "遗传学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160192",
+        "title": "Wikidata Q160192 / 许霍·德弗里斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160192&oldid=2557926136",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557926136,
+        "modified_at": "2026-10-17T08:33:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

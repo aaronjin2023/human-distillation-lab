@@ -38,5 +38,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为外卖平台骑手设计一套简易所得税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q187550",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Toyotomi Hideyoshi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1537–1598",
+      "birth_year": {
+        "value": 1537,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q187550"
+            ],
+            "statement_id": "Q187550$12c95418-4936-7bd8-e867-8e3a40be622a",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1537,
+            "raw_time": "+1537-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1598,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q187550"
+            ],
+            "statement_id": "q187550$2BD124EF-6AC8-4363-BB90-C41A7A5A7FCB",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1598,
+            "raw_time": "+1598-09-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q187550"
+        ],
+        "statement_id": "q187550$240593D5-1D35-4E15-89D5-3B8E0E33F57E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q780521",
+        "label": "中村区",
+        "label_en": "Nakamura-ku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q187550"
+        ],
+        "statement_id": "Q187550$7A750299-DCC8-49FB-A2D4-A0DC26DB0B9D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·太阁检地",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q187550",
+        "title": "Wikidata Q187550 / 丰臣秀吉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q187550&oldid=2558345900",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558345900,
+        "modified_at": "2026-10-18T10:22:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

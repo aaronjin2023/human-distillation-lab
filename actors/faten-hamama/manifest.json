@@ -42,5 +42,115 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2424957",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Faten Hamama",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2015",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2424957"
+            ],
+            "statement_id": "Q2424957$34C1B8D2-4DB0-4206-B310-444616A2787A",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2424957"
+            ],
+            "statement_id": "Q2424957$363ccad4-44c7-a1a3-d661-c52cd9ff705f",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2424957"
+        ],
+        "statement_id": "Q2424957$9EDD87B4-68F4-4DAF-B8C7-41C1144B08CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q223587",
+        "label": "曼苏拉",
+        "label_en": "Mansoura",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2424957"
+        ],
+        "statement_id": "Q2424957$290443B0-6B8F-4507-B663-45479AE66D47",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q79",
+        "label": "埃及",
+        "label_en": "Egypt",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q2424957",
+        "title": "Wikidata Q2424957 / 法婷·哈馬瑪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2424957&oldid=2561379552",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561379552,
+        "modified_at": "2026-10-27T09:38:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

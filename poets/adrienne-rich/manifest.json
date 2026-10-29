@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q270705",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adrienne Rich",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2012",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270705"
+            ],
+            "statement_id": "q270705$DA7DDAF4-46A0-4B4E-88C7-61A88A01059F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270705"
+            ],
+            "statement_id": "q270705$A101F5BA-C687-4909-9262-6124C5FF3039",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q270705"
+        ],
+        "statement_id": "q270705$63B6D69E-E25A-44A1-B42D-693E66A8F721",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q5092",
+        "label": "巴尔的摩",
+        "label_en": "Baltimore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q270705"
+        ],
+        "statement_id": "q270705$5E2BA1DD-4889-4288-8AEC-793E0E0D78C4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·女权诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q270705",
+        "title": "Wikidata Q270705 / 阿德里安娜·里奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q270705&oldid=2558608774",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558608774,
+        "modified_at": "2026-10-19T02:44:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

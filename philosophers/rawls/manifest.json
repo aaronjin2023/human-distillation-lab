@@ -43,5 +43,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "算法推荐是否剥夺了人的自由",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；《正义论》开篇句为英文原文，已核对。未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q172544",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Rawls",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–2002",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172544"
+            ],
+            "statement_id": "q172544$6D187C7B-3400-47F2-9A05-A93D38B5C43D",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172544"
+            ],
+            "statement_id": "q172544$4B10E757-2ADD-4E82-A350-2953B8BF60EB",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-11-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q172544"
+        ],
+        "statement_id": "q172544$8F5F77CE-7426-485C-88AD-FC8DAF03BC3A",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q5092",
+        "label": "巴尔的摩",
+        "label_en": "Baltimore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q172544"
+        ],
+        "statement_id": "q172544$F7A92F79-B7A5-4CA6-B31F-5A21204EFE48",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "政治哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q172544",
+        "title": "Wikidata Q172544 / 约翰·罗尔斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q172544&oldid=2560279930",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560279930,
+        "modified_at": "2026-10-24T11:57:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

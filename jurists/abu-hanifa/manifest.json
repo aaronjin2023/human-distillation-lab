@@ -44,5 +44,143 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜关东煮摊租赁：以类比作个人见解（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190896",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abu Hanifa",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "699–767",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190896"
+            ],
+            "statement_id": "q190896$49359c6b-42cb-b417-0680-bda52055c0b6",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 699,
+            "raw_time": "+0699-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190896"
+            ],
+            "statement_id": "Q190896$E34703B0-2501-42AC-A80C-0B3EF1970376",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 767,
+            "raw_time": "+0767-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q190896"
+            ],
+            "statement_id": "Q190896$AE4DE2D9-386A-4B2E-9796-76BAA602021C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 767,
+            "raw_time": "+0767-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190896"
+        ],
+        "statement_id": "Q190896$46f0541e-46c6-1bd4-0aeb-faa2009c2ffc",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q186234",
+        "label": "库费",
+        "label_en": "Kufa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊斯兰法·哈乃斐学派",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q190896",
+        "title": "Wikidata Q190896 / 阿布·哈尼法",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190896&oldid=2560893106",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560893106,
+        "modified_at": "2026-10-26T02:14:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

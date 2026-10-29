@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q42552",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wisława Szymborska",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2012",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42552"
+            ],
+            "statement_id": "q42552$CBFD3E75-B036-4FD9-AFFA-8796CEB8EE85",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42552"
+            ],
+            "statement_id": "q42552$FA6BF185-DA08-431E-AE53-DEDE7FE2FF4A",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q42552"
+        ],
+        "statement_id": "q42552$94D6D6AF-8150-4DCE-9B80-E742F66B55B8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q11828000",
+        "label": "Prowent",
+        "label_en": "Prowent",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q42552"
+        ],
+        "statement_id": "q42552$2711B834-FED8-4016-BB70-A4E930BE42F9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q36",
+        "label": "波兰",
+        "label_en": "Poland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波兰·诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q42552",
+        "title": "Wikidata Q42552 / 维斯瓦娃·辛波丝卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q42552&oldid=2560969495",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560969495,
+        "modified_at": "2026-10-26T05:59:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

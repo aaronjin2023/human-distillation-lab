@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q40531",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Wayne",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1979",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40531"
+            ],
+            "statement_id": "q40531$4D93EB32-FD61-4E93-B47D-57D6E607F0E9",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40531"
+            ],
+            "statement_id": "q40531$11D70210-ACFF-4BDC-ADB5-74F49F9EBD7B",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-06-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q40531"
+        ],
+        "statement_id": "q40531$F40F4B30-0A0D-41D0-9E84-28CC3423DDD6",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q983796",
+        "label": "温特塞特",
+        "label_en": "Winterset",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q40531"
+        ],
+        "statement_id": "Q40531$A7D9B327-252B-4FE8-89E2-F7FB66761D7B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q40531"
+        ],
+        "statement_id": "q40531$D6766689-49ED-42B2-B9EE-5F927C70C21C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q40531",
+        "title": "Wikidata Q40531 / 约翰·韦恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q40531&oldid=2558016311",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558016311,
+        "modified_at": "2026-10-17T15:27:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

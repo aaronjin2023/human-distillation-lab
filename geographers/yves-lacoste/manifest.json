@@ -26,5 +26,117 @@
   "test_prompt": "In the style of Yves Lacoste, investigate a new dam dispute: map the river and the dykes, trace who benefits from the water, and show the power rivalry the geography hides",
   "test_question_zh": "一处新建水坝争端背后，地图藏着怎样的权力争夺？",
   "verification": "2026-10-26：生卒 1929年9月7日–2026年6月20日经 web 搜索核对（Wikipedia Yves Lacoste）；代表作按通说",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q576839",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yves Lacoste",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–2026",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q576839"
+            ],
+            "statement_id": "Q576839$89C901CF-1C25-4D98-85E1-0E9EF63C39C4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-09-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2026,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q576839"
+            ],
+            "statement_id": "Q576839$24d45c77-47b6-f832-ebe4-a6fda9de5bc8",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2026,
+            "raw_time": "+2026-06-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q576839"
+        ],
+        "statement_id": "Q576839$6C9A5A00-42F9-4BC0-A482-0CF14BD2B311",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q80985",
+        "label": "非斯",
+        "label_en": "Fez",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q576839"
+        ],
+        "statement_id": "Q576839$77447604-AC56-472B-8A53-9162502F37C9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·批判地缘政治"
+    },
+    "sources": [
+      {
+        "id": "WD:Q576839",
+        "title": "Wikidata Q576839 / 伊夫·拉科斯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q576839&oldid=2561403362",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561403362,
+        "modified_at": "2026-10-27T11:32:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

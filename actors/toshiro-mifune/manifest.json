@@ -42,5 +42,115 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37001",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Toshiro Mifune",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1997",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37001"
+            ],
+            "statement_id": "q37001$C81BE4FE-8400-4D4D-B527-4F094D860AB7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-04-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37001"
+            ],
+            "statement_id": "q37001$9B67D063-FD41-4D0D-BDFB-D83CD42300D6",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37001"
+        ],
+        "statement_id": "q37001$E0F20C5B-44C8-42D7-BF07-5254CA659E53",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q170322",
+        "label": "青岛市",
+        "label_en": "Qingdao",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37001"
+        ],
+        "statement_id": "q37001$625BD6F8-32D6-4209-8C3E-29B85AA6B688",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q37001",
+        "title": "Wikidata Q37001 / 三船敏郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37001&oldid=2558635085",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558635085,
+        "modified_at": "2026-10-19T04:03:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

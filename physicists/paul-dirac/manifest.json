@@ -32,5 +32,128 @@
     "1928年狄拉克方程论文原文未逐句核对",
     "正电子1932年发现的实验细节以发表文献为准",
     "磁单极子假说的原始论文未逐项核对"
-  ]
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47480",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Dirac",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1984",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47480"
+            ],
+            "statement_id": "q47480$C7AC2D0B-159D-4D43-8F5E-2F1812F6A1E8",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-08-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47480"
+            ],
+            "statement_id": "q47480$52821092-3358-4FE3-9610-4B624011B723",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47480"
+        ],
+        "statement_id": "q47480$d9bf0bc2-43bd-ce09-b52a-829d8244c63f",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q23154",
+        "label": "布里斯托尔",
+        "label_en": "Bristol",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47480"
+        ],
+        "statement_id": "q47480$D7908CEC-9F7E-479E-AAB3-5F723E27EC09",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1919-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "量子力学 / 相对论量子力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47480",
+        "title": "Wikidata Q47480 / 保罗·狄拉克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47480&oldid=2558781632",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558781632,
+        "modified_at": "2026-10-19T12:53:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,119 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "跨境数据流动与弱小国家的数据主权（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 c.1483–1546 见 Harvard 讲义与 JRank；致阿科斯信引文见 Ave Maria Law Review 所载；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312384",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francisco de Vitoria",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1483–1546",
+      "birth_year": {
+        "value": 1480,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312384"
+            ],
+            "statement_id": "Q312384$2475EA42-D3AA-42D0-90DF-EA1BBFDF380D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1480,
+            "raw_time": "+1480-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1483
+      },
+      "death_year": {
+        "value": 1546,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312384"
+            ],
+            "statement_id": "Q312384$28423013-3433-4F25-9A01-671A7E2F3F7C",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1546,
+            "raw_time": "+1546-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312384"
+        ],
+        "statement_id": "q312384$C942A93E-674A-4586-89A7-4980379AC72C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q9580",
+        "label": "布尔戈斯",
+        "label_en": "Burgos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312384"
+        ],
+        "statement_id": "q312384$70C34EC1-DDDD-473E-B173-AD8CD40B8806",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179293",
+        "label": "卡斯蒂利亚王国",
+        "label_en": "Kingdom of Castile",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国际法先驱",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312384",
+        "title": "Wikidata Q312384 / 弗朗西斯科·维多利亚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312384&oldid=2553961258",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553961258,
+        "modified_at": "2026-10-06T14:10:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

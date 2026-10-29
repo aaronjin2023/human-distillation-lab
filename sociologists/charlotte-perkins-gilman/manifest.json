@@ -51,5 +51,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "住家保姆的一天",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q287752",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charlotte Perkins Gilman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1860–1935",
+      "birth_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q287752"
+            ],
+            "statement_id": "q287752$43DE69CA-ADDE-4B1B-A18E-B312C2FC738D",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q287752"
+            ],
+            "statement_id": "q287752$99E9B696-CECC-4527-A395-F614F07C9A67",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q287752"
+        ],
+        "statement_id": "q287752$B2C73C88-89C2-4EDB-BEF9-69EDECBFEEBF",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q33486",
+        "label": "哈特福德",
+        "label_en": "Hartford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q287752"
+        ],
+        "statement_id": "q287752$1B2DB6E7-1D30-41FF-B5E5-20E4A2386BF6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典·女性主义社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q287752",
+        "title": "Wikidata Q287752 / 夏綠蒂·柏金斯·吉爾曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q287752&oldid=2558022346",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558022346,
+        "modified_at": "2026-10-17T15:51:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

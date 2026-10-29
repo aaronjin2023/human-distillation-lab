@@ -36,5 +36,145 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Matthew Fontaine Maury, an uncrewed cargo ship crosses the Pacific in 2026. Its route is chosen from aggregated wind and current tables, not from a single captain's hunch. Daily log entries record wind, current and speed in columns. No anecdote without a number.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q114385",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Matthew Fontaine Maury",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1806–1873",
+      "birth_year": {
+        "value": 1806,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q114385"
+            ],
+            "statement_id": "Q114385$ebc0cd79-48c8-4563-af80-e2e50d896137",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1806,
+            "raw_time": "+1806-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q114385"
+            ],
+            "statement_id": "Q114385$7A9CD427-FDBF-498B-8661-487F1177C569",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q114385"
+        ],
+        "statement_id": "q114385$EFEAD12B-7EFD-4B36-85A6-A34A06A269B7",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q506202",
+        "label": "斯波特瑟尔韦尼亚县",
+        "label_en": "Spotsylvania County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q114385"
+        ],
+        "statement_id": "Q114385$a2ed8c13-4748-b4d8-0a9b-ee41f8c32d48",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q114385"
+        ],
+        "statement_id": "Q114385$92558f52-4769-0d3a-f82b-4a4e2c4ef6c0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q501761",
+        "label": "列克星敦",
+        "label_en": "Lexington",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q114385"
+        ],
+        "statement_id": "q114385$834C0812-1B81-4BB9-888E-8A7D57179059",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "H. 科学与测量航海",
+      "genre": "H. 科学与测量航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q114385",
+        "title": "Wikidata Q114385 / 马修·莫里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q114385&oldid=2558162543",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558162543,
+        "modified_at": "2026-10-17T23:43:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,171 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "贝尼尼（建筑部分）风格：现代城市街角的一座社区图书馆，椭圆形柱廊环抱前院，入口青铜华盖，椭圆形阅览厅配穹顶，石灰华与青铜，戏剧性光线。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160538",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gian Lorenzo Bernini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1598–1680",
+      "birth_year": {
+        "value": 1598,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160538"
+            ],
+            "statement_id": "q160538$527264AC-2F26-4D4A-B0A1-68E8EE3612F2",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1598,
+            "raw_time": "+1598-12-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1680,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160538"
+            ],
+            "statement_id": "q160538$A645082C-CC00-42F0-A366-474B84FFA781",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1680,
+            "raw_time": "+1680-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "q160538$8388ADF9-7A75-4A7F-92FD-89F2B6871687",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "Q160538$102f69e8-4b60-2738-4745-11abef4f6181",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "Q160538$4E3AC8E0-DA8B-4021-9A8A-69EA3CD5BB0D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "Q160538$6FA543CD-3C55-41AE-A31F-0F800F246551",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "Q160538$82EB7E53-5FBC-450A-8437-0E972F121AA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2751",
+        "label": "锡耶纳",
+        "label_en": "Siena",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160538"
+        ],
+        "statement_id": "Q160538$43F7C08C-A9B6-4A5A-930B-D37713BDBCE8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克（建筑部分）",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160538",
+        "title": "Wikidata Q160538 / 吉安·洛伦佐·贝尼尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160538&oldid=2561433186",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561433186,
+        "modified_at": "2026-10-27T13:25:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

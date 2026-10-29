@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于在同一个街角卖了四十年报纸的报贩的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q555195",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Héctor Lavoe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1946–1993",
+      "birth_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q555195"
+            ],
+            "statement_id": "q555195$4CC98CF9-0DF8-410C-BAC7-0D2C9BF96725",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q555195"
+            ],
+            "statement_id": "q555195$66C75CB8-632F-4121-8671-953510924E61",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q555195"
+        ],
+        "statement_id": "Q555195$E5BC46E4-A4A7-44C8-B6B5-2E50A42CF381",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q864024",
+        "label": "庞塞",
+        "label_en": "Ponce",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q555195"
+        ],
+        "statement_id": "Q555195$A94102BC-1934-4312-9166-2F1FBC4E7C97",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波多黎各·萨尔萨",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q555195",
+        "title": "Wikidata Q555195 / 埃克托尔·拉沃埃",
+        "url": "https://www.wikidata.org/w/index.php?title=Q555195&oldid=2529867248",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529867248,
+        "modified_at": "2026-08-11T03:16:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

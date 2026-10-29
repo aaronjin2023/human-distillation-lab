@@ -38,5 +38,153 @@
   "verification": "2026-10-26 网络核对（存疑项已记入 conflicts.md）；未核对项见 known_gaps",
   "version": "0.1",
   "writer": "Luis Buñuel",
-  "writer_zh": "路易斯·布努埃尔"
+  "writer_zh": "路易斯·布努埃尔",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51545",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Luis Buñuel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1983",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51545"
+            ],
+            "statement_id": "q51545$21F5437F-C7DD-4164-896C-5EA226042EDC",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51545"
+            ],
+            "statement_id": "q51545$8DDD6556-FA02-4F71-96DC-8136F243EB81",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51545"
+        ],
+        "statement_id": "q51545$8E3358B1-F6EA-4042-AF09-1E5D94CEABF6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q737161",
+        "label": "卡兰达",
+        "label_en": "Calanda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51545"
+        ],
+        "statement_id": "q51545$B82E3619-D8A6-4D2D-9CCE-97BB088AC725",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q51545"
+        ],
+        "statement_id": "Q51545$7e29c2bb-4061-34f5-a2cb-ef98f7c01281",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1951-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西班牙 / 墨西哥·超现实主义",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51545",
+        "title": "Wikidata Q51545 / 路易斯·布努埃尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51545&oldid=2558137208",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558137208,
+        "modified_at": "2026-10-17T22:35:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

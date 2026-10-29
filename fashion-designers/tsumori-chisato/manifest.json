@@ -55,5 +55,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "街头花店店主的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7850133",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tsumori Chisato",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1954–",
+      "birth_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7850133"
+            ],
+            "statement_id": "Q7850133$B586B104-0519-4053-A64D-771F700B20D0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-11-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7850133"
+        ],
+        "statement_id": "Q7850133$7ED67D0B-898A-4549-9C12-12CC622632ED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q128186",
+        "label": "埼玉县",
+        "label_en": "Saitama Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7850133"
+        ],
+        "statement_id": "Q7850133$5AEAEC38-9676-4D66-A010-C5B4BB6425C8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·成衣 / 印花",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7850133",
+        "title": "Wikidata Q7850133 / Tsumori Chisato",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7850133&oldid=2521142326",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521142326,
+        "modified_at": "2026-07-22T14:17:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；慕尼黑英式花园扩建见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q68169",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Ludwig von Sckell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1750–1823",
+      "birth_year": {
+        "value": 1750,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q68169"
+            ],
+            "statement_id": "Q68169$4375C5C6-41AD-4F9F-AF46-E16E1110B2BB",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1750,
+            "raw_time": "+1750-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1823,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q68169"
+            ],
+            "statement_id": "Q68169$608369FD-86D2-4EA3-B395-6C572BDF4142",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1823,
+            "raw_time": "+1823-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q68169"
+        ],
+        "statement_id": "q68169$AD829A58-3331-4F0F-A945-5C7663EF7774",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q573599",
+        "label": "魏尔堡",
+        "label_en": "Weilburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q68169"
+        ],
+        "statement_id": "q68169$4A7159C0-E262-4A91-B43F-71D5BC041742",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q154195",
+        "label": "巴伐利亚王国",
+        "label_en": "Kingdom of Bavaria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·英式风景园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q68169",
+        "title": "Wikidata Q68169 / Friedrich Ludwig von Sckell",
+        "url": "https://www.wikidata.org/w/index.php?title=Q68169&oldid=2552941089",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552941089,
+        "modified_at": "2026-10-04T06:51:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,132 @@
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Frank Loesser",
-  "writer_zh": "弗兰克·洛瑟"
+  "writer_zh": "弗兰克·洛瑟",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q966018",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frank Loesser",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–1969",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q966018"
+            ],
+            "statement_id": "q966018$12B900E7-BB35-4230-A14E-E0F439F2C947",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q966018"
+            ],
+            "statement_id": "q966018$F407C310-4442-4732-8CE7-072BD22FC5B5",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-07-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q966018"
+        ],
+        "statement_id": "q966018$2F227936-7F29-422F-A2E0-6D829F39A60D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q966018"
+        ],
+        "statement_id": "q966018$EB929E85-DD54-406B-8EB5-2DEFD48F8AA6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q966018"
+          ],
+          "statement_id": "Q966018$2605A81F-9361-43D3-940E-5BBA253F94B8",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q678551",
+          "label": "美国犹太人",
+          "label_en": "American Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英语音乐剧·词曲",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q966018",
+        "title": "Wikidata Q966018 / 弗兰克·洛瑟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q966018&oldid=2557882940",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557882940,
+        "modified_at": "2026-10-17T05:43:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

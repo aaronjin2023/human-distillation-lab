@@ -66,5 +66,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店店员",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q450412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Richard Sennett",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q450412"
+            ],
+            "statement_id": "Q450412$A0E368EF-366F-4FDD-9427-7DCDF12A0077",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q450412"
+        ],
+        "statement_id": "Q450412$7A0F7B95-246D-4750-B0AC-7D89F24356A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q450412"
+        ],
+        "statement_id": "q450412$E7730A84-140C-4042-A7A2-9931413895F3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "城市·劳动·合作"
+    },
+    "sources": [
+      {
+        "id": "WD:Q450412",
+        "title": "Wikidata Q450412 / 理查德·森尼特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q450412&oldid=2559109632",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559109632,
+        "modified_at": "2026-10-20T06:33:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

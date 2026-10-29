@@ -42,5 +42,128 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16397",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bruce Lee",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1940–1973",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16397"
+            ],
+            "statement_id": "q16397$23ed3c22-41d3-f88b-96c0-719c75d9a40e",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-11-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16397"
+            ],
+            "statement_id": "q16397$64caa761-406e-a22a-7625-892d3fdcdfb1",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16397"
+        ],
+        "statement_id": "q16397$758DA82F-9329-41F1-B866-245ADC994423",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7413971",
+        "label": "东华医院",
+        "label_en": "San Francisco Chinese Hospital",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16397"
+        ],
+        "statement_id": "Q16397$58e264d7-47a0-4d6f-90d2-26903673044a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1054923",
+        "label": "英属香港",
+        "label_en": "British Hong Kong",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q16397"
+        ],
+        "statement_id": "Q16397$5384C73A-6CF9-44A3-8E2A-4C0917BF256D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q16397",
+        "title": "Wikidata Q16397 / 李小龙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16397&oldid=2561684914",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561684914,
+        "modified_at": "2026-10-28T13:20:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,131 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41688",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hendrik Lorentz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1853–1928",
+      "birth_year": {
+        "value": 1853,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41688"
+            ],
+            "statement_id": "q41688$C06134F9-A379-4813-93B8-41731F973987",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1853,
+            "raw_time": "+1853-07-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41688"
+            ],
+            "statement_id": "q41688$EA83941E-6736-4EE9-BC4E-464054927C17",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41688"
+        ],
+        "statement_id": "Q41688$911090EA-5D4C-4087-87CF-2671C25AFED5",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q1310",
+        "label": "阿纳姆",
+        "label_en": "Arnhem",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q41688"
+        ],
+        "statement_id": "Q41688$99CA9958-4F87-4A57-8D27-E990730C7B0A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41688"
+        ],
+        "statement_id": "q41688$A6123337-1115-4BA4-AB8E-B05F85CEBAB1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电磁理论 / 电子论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41688",
+        "title": "Wikidata Q41688 / 亨德里克·洛伦兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41688&oldid=2560246807",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560246807,
+        "modified_at": "2026-10-24T09:07:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

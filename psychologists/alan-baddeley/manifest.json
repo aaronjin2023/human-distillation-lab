@@ -46,5 +46,101 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Alan Baddeley, analyse a person who cannot stop scrolling short videos late at night. The phonological loop repeats the video's words, the sketchpad holds its images, the central executive is overloaded, and the episodic buffer binds it all into one more night that feels continuous.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q575287",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alan Baddeley",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1934–",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q575287"
+            ],
+            "statement_id": "Q575287$FFAD22DD-B636-4CEE-B5D9-ED649D11B6F2",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q575287"
+        ],
+        "statement_id": "Q575287$729E0EA5-1D0E-4483-A234-ED5332F013A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39121",
+        "label": "利兹",
+        "label_en": "Leeds",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q575287"
+        ],
+        "statement_id": "Q575287$C2792283-AC86-4FCE-955B-A8DD5711802F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "工作记忆"
+    },
+    "sources": [
+      {
+        "id": "WD:Q575287",
+        "title": "Wikidata Q575287 / 阿兰·巴德利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q575287&oldid=2519349351",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519349351,
+        "modified_at": "2026-07-18T21:49:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,115 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q105875",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Herbie Hancock",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q105875"
+            ],
+            "statement_id": "q105875$AE7BE3BF-0B0C-4BEC-84D2-CCAF96061712",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q105875"
+        ],
+        "statement_id": "Q105875$7D17822A-8185-4BA9-A273-0E4178AE29D3",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q105875"
+        ],
+        "statement_id": "Q105875$4709348F-5719-47EC-8B74-E084EF16361B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q105875"
+          ],
+          "statement_id": "Q105875$91BBBA9E-463C-4D5E-8A9F-D84022C5494A",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士 / 后波普—融合 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q105875",
+        "title": "Wikidata Q105875 / 贺比·汉考克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q105875&oldid=2557921936",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557921936,
+        "modified_at": "2026-10-17T08:17:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

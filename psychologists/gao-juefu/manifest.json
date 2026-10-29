@@ -47,5 +47,103 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5521575",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gao Juefu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1993",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5521575"
+            ],
+            "statement_id": "Q5521575$75b5ff1d-1f33-4c6b-80e3-44d6f46064cc",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5521575"
+            ],
+            "statement_id": "Q5521575$964726e5-adb1-4e94-b180-76a95e468cdf",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5521575"
+        ],
+        "statement_id": "Q5521575$088F5384-F387-43D4-9CA9-3BC099D0433E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42635",
+        "label": "温州市",
+        "label_en": "Wenzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国心理学史"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5521575",
+        "title": "Wikidata Q5521575 / 高觉敷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5521575&oldid=2516217438",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516217438,
+        "modified_at": "2026-07-11T09:47:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -28,3 +28,7 @@
 
 - 生卒与成果名以科学家草稿 v1 为准；化学命名法四人合著（Guyton de Morveau 率先发起、拉瓦锡、贝托莱、傅克鲁瓦，《Méthode de nomenclature chimique》1787）已用 web 搜索核对（2026-10-26，本次修复）；其余未逐项核对，见 known_gaps。
 - 待核对：见各文件夹 conflicts.md 与 manifest.json known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

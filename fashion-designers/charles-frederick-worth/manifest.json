@@ -43,5 +43,131 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Charles Frederick Worth, a convenience store clerk uniform in a modern city, grand bustle silhouette, silk brocade trims, rich embroidery, deep red and gold, dramatic train detail on the apron, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q454330",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Frederick Worth",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1825–1895",
+      "birth_year": {
+        "value": 1825,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454330"
+            ],
+            "statement_id": "q454330$5DB566CC-9F84-4E89-89A6-63D43367EB66",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1825,
+            "raw_time": "+1825-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454330"
+            ],
+            "statement_id": "q454330$DAD66C3A-12E6-4DD6-8AF4-F3AC32E864AE",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-03-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q454330"
+        ],
+        "statement_id": "Q454330$EA1DCEED-D52C-4932-B5AA-C30246D9B4EF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2223229",
+        "label": "博恩",
+        "label_en": "Bourne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q454330"
+        ],
+        "statement_id": "Q454330$BC53DB82-4F35-453D-A564-F3F8F9427AEB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q454330"
+        ],
+        "statement_id": "Q454330$0cadaadc-4f5e-fc13-de3b-794e211fdc36",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制之父",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q454330",
+        "title": "Wikidata Q454330 / Charles Frederick Worth",
+        "url": "https://www.wikidata.org/w/index.php?title=Q454330&oldid=2557837246",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557837246,
+        "modified_at": "2026-10-17T03:02:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

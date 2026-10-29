@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q72984",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bing Crosby",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1977",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72984"
+            ],
+            "statement_id": "q72984$DE4889B0-389A-4179-B61F-6ED586F54A24",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1977,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72984"
+            ],
+            "statement_id": "q72984$E5BA0471-DDA0-4AA6-890E-FD2D1DEFE390",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1977,
+            "raw_time": "+1977-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q72984"
+        ],
+        "statement_id": "q72984$a22ee380-44a9-29d4-f5d8-60ae7d6801d4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q199797",
+        "label": "塔科马",
+        "label_en": "Tacoma",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q72984"
+        ],
+        "statement_id": "q72984$D99860D5-3D52-4F2D-9011-DBFF82DC536B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "流行·标准曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q72984",
+        "title": "Wikidata Q72984 / 冰·哥羅士比",
+        "url": "https://www.wikidata.org/w/index.php?title=Q72984&oldid=2557815467",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557815467,
+        "modified_at": "2026-10-17T01:30:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -1,35 +1,177 @@
 {
- "chemist": "Antoine Lavoisier",
- "chemist_zh": "安托万·拉瓦锡",
- "dates": "1743–1794",
- "field": "定量化学 / 燃烧理论",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #14",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "氧化学说（燃烧理论）",
-  "质量守恒定律",
-  "《化学纲要》（化学命名与体系）"
- ],
- "sources": [
-  "Wikipedia 'Antoine Lavoisier' https://en.wikipedia.org/wiki/Antoine_Lavoisier",
-  "Britannica 'Antoine Lavoisier' https://www.britannica.com/biography/Antoine-Lavoisier"
- ],
- "test_prompt": "In the style of Antoine Lavoisier, design a plan to test whether burning really gains mass from air: burn a metal in a sealed weighed vessel, account for every mass, and state what imbalance would refute oxygen theory.",
- "test_question_zh": "如何检验燃烧是否从空气中获得质量？",
- "verification": "2026-10-26：生卒、氧化学说、质量守恒、《化学纲要》按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "《化学纲要》法文原文细节未逐句核对",
-  "密闭燃烧实验的具体数值未逐项核对原文",
-  "热质说的具体表述未逐一核对原文"
- ]
+  "chemist": "Antoine Lavoisier",
+  "chemist_zh": "安托万·拉瓦锡",
+  "dates": "1743–1794",
+  "field": "定量化学 / 燃烧理论",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #14",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "氧化学说（燃烧理论）",
+    "质量守恒定律",
+    "《化学纲要》（化学命名与体系）"
+  ],
+  "sources": [
+    "Wikipedia 'Antoine Lavoisier' https://en.wikipedia.org/wiki/Antoine_Lavoisier",
+    "Britannica 'Antoine Lavoisier' https://www.britannica.com/biography/Antoine-Lavoisier"
+  ],
+  "test_prompt": "In the style of Antoine Lavoisier, design a plan to test whether burning really gains mass from air: burn a metal in a sealed weighed vessel, account for every mass, and state what imbalance would refute oxygen theory.",
+  "test_question_zh": "如何检验燃烧是否从空气中获得质量？",
+  "verification": "2026-10-26：生卒、氧化学说、质量守恒、《化学纲要》按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "《化学纲要》法文原文细节未逐句核对",
+    "密闭燃烧实验的具体数值未逐项核对原文",
+    "热质说的具体表述未逐一核对原文"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q39607",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antoine Lavoisier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1743–1794",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q39607"
+            ],
+            "statement_id": "q39607$4D7A89DC-FDE0-4B05-8748-79CE9D3FD80C",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1743,
+            "raw_time": "+1743-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q39607"
+            ],
+            "statement_id": "q39607$CB19E35F-584A-4B7D-A3B2-ABA2278C2A61",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1794,
+            "raw_time": "+1794-05-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q39607"
+        ],
+        "statement_id": "q39607$FA19308C-DA39-4448-850C-8DCE5F0080AC",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q39607"
+        ],
+        "statement_id": "Q39607$ae343757-4402-d30a-e226-6c4a80392dcd",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3447082",
+        "label": "rue Bassompierre",
+        "label_en": "rue Bassompierre",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q39607"
+        ],
+        "statement_id": "q39607$ED8869DC-9E77-473E-B6F1-B6722052AFA6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "定量化学 / 燃烧理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q39607",
+        "title": "Wikidata Q39607 / 安托万·拉瓦锡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q39607&oldid=2557779776",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557779776,
+        "modified_at": "2026-10-16T23:18:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

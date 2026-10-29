@@ -40,5 +40,105 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q28593955",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mabel Newcomer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1892–1983",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q28593955"
+            ],
+            "statement_id": "Q28593955$615AD37F-1249-4CDC-9A84-EAA519ED68F5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1892
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q28593955"
+            ],
+            "statement_id": "Q28593955$c7660598-4b38-021c-5284-d146af4bff6e",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q28593955"
+        ],
+        "statement_id": "Q28593955$5F58DAF7-4FDF-4CFE-B5C0-0A21855EC107",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·财产税与地方财政",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q28593955",
+        "title": "Wikidata Q28593955 / Mabel Newcomer",
+        "url": "https://www.wikidata.org/w/index.php?title=Q28593955&oldid=2512648685",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512648685,
+        "modified_at": "2026-07-01T15:09:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Alan Stern, plan a flyby of a new Kuiper belt object: list the science questions first, choose the instruments and encounter sequence that answer them, and state what a single flyby cannot decide",
   "test_question_zh": "怎样规划一次柯伊伯带天体飞越任务？",
   "verification": "生年 1957 年经 web 搜索核对（1957 年 11 月 22 日）；在世，只蒸已发表成果物；新视野号 2015 年飞越按通说写",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2331659",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alan Stern",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2331659"
+            ],
+            "statement_id": "Q2331659$1F68C423-FAAA-4EDB-B12A-A9C1BF61A69C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2331659"
+        ],
+        "statement_id": "Q2331659$77D48857-16C6-4485-B320-CF99D0D4C18F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34404",
+        "label": "新奥尔良",
+        "label_en": "New Orleans",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2331659"
+        ],
+        "statement_id": "Q2331659$C5BF91D0-1748-4666-BC83-64DD1B07D500",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·行星探测"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2331659",
+        "title": "Wikidata Q2331659 / 艾伦·斯特恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2331659&oldid=2515776241",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515776241,
+        "modified_at": "2026-07-10T07:01:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

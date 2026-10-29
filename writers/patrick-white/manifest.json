@@ -41,5 +41,117 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐条核对到原文出处，见 known_gaps",
   "version": "0.1",
   "writer": "Patrick White",
-  "writer_zh": "帕特里克·怀特"
+  "writer_zh": "帕特里克·怀特",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q129187",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Patrick White",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1990",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q129187"
+            ],
+            "statement_id": "q129187$1BD29FA4-3BDB-49E1-9FED-E8776C17778F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q129187"
+            ],
+            "statement_id": "q129187$C97B16F6-3BCF-46EC-87DB-8C9FA3661BE6",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q129187"
+        ],
+        "statement_id": "q129187$DF92D69E-0C81-4EE5-97AF-61BF891BE15F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q129187"
+        ],
+        "statement_id": "q129187$FD5AAC71-87C7-40AD-87A3-62C8CA9E52D6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "澳大利亚·小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q129187",
+        "title": "Wikidata Q129187 / 帕特里克·怀特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q129187&oldid=2558205940",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558205940,
+        "modified_at": "2026-10-18T02:03:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

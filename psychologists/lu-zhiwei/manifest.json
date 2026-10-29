@@ -47,5 +47,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6694948",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lu Zhiwei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1894–1970",
+      "birth_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6694948"
+            ],
+            "statement_id": "Q6694948$9FDCBA8C-DC03-494A-9862-BBB672E6DE70",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6694948"
+            ],
+            "statement_id": "Q6694948$CEC6350B-F72A-49CD-A610-9921252C3FAA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-11-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6694948"
+        ],
+        "statement_id": "Q6694948$BAF2BFFB-2F75-442F-8029-59C8476A7D1D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16967",
+        "label": "浙江省",
+        "label_en": "Zhejiang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6694948"
+        ],
+        "statement_id": "Q6694948$9A0B18A5-DAA3-4CD6-8F07-759296A99A5E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国社会 / 语言心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6694948",
+        "title": "Wikidata Q6694948 / 陆志韦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6694948&oldid=2558956908",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558956908,
+        "modified_at": "2026-10-19T22:41:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

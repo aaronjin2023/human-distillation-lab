@@ -43,5 +43,116 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "娜迪亚·桑蒂尼风格：一碗现代拉面的意式家族重构——手工意饺、湖鱼清汤、黄油帕玛森暖意、慷慨诚实本味、满盘家宴。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3334890",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nadia Santini",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3334890"
+            ],
+            "statement_id": "Q3334890$7b839eff-ff25-455a-b277-acd32a7542ad",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3334890"
+        ],
+        "statement_id": "Q3334890$9E327BF7-1227-49F4-8DB0-00F83E4881CE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q46328",
+        "label": "圣皮耶特罗穆索利诺",
+        "label_en": "San Pietro Mussolino",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q3334890"
+        ],
+        "statement_id": "Q3334890$c33a0c0f-4842-740d-cd73-cce03598b062",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5210133",
+        "label": "Dal Pescatore",
+        "label_en": "Dal Pescatore",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3334890"
+        ],
+        "statement_id": "Q3334890$18920473-D662-4ED0-AF2F-3D994229A15D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意餐·经典",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3334890",
+        "title": "Wikidata Q3334890 / Nadia Santini",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3334890&oldid=2553367174",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553367174,
+        "modified_at": "2026-10-05T08:46:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

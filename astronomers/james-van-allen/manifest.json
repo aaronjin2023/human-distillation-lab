@@ -31,5 +31,117 @@
   "test_prompt": "In the style of James Van Allen, analyse a new satellite particle counter dataset: plot count rate against altitude, treat any saturation zone as a possible trapped-particle region, and map its boundaries with repeat passes",
   "test_question_zh": "新卫星的粒子计数数据里有没有新的俘获区？",
   "verification": "生卒 1914–2006、辐射带发现 1958 年与探险者一号按天文史通说写；计数饱和细节未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q271963",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Van Allen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–2006",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q271963"
+            ],
+            "statement_id": "q271963$C98DBA23-883A-4F84-B7F9-F23D1118BF2E",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-09-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q271963"
+            ],
+            "statement_id": "q271963$CCE17F67-740B-4175-A794-6D82D4115463",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q271963"
+        ],
+        "statement_id": "q271963$02F25470-7C31-4E7E-A42A-8F33D3BB75B5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q613167",
+        "label": "蒙普列仁",
+        "label_en": "Mount Pleasant",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q271963"
+        ],
+        "statement_id": "q271963$53C24615-FBD2-4D6B-94CA-23A45E0A54EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·空间物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q271963",
+        "title": "Wikidata Q271963 / 詹姆斯·范·艾伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q271963&oldid=2558472058",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558472058,
+        "modified_at": "2026-10-18T17:44:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

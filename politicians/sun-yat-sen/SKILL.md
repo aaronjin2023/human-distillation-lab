@@ -19,3 +19,7 @@ description: 基于孙中山建国文本审查愿景向制度的转换、议事�
 - [来源元数据](manifest.json)
 
 相关既有面向：[tax/sun-yat-sen](../../tax/sun-yat-sen/SKILL.md)
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

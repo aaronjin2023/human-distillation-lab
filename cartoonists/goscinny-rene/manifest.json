@@ -39,5 +39,158 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬高卢人智斗罗马士兵于现代地铁，幽默漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q192214",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "René Goscinny",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–1977",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q192214"
+            ],
+            "statement_id": "q192214$9E7F7C2C-1B36-47F8-9C10-0CA3DD4CA07A",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1977,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q192214"
+            ],
+            "statement_id": "q192214$FFEDD022-969C-4D7F-9060-93D2DC3E3852",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1977,
+            "raw_time": "+1977-11-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q192214"
+        ],
+        "statement_id": "q192214$B7CD20BC-DDE5-45C8-89F4-A41294BF4945",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q238723",
+        "label": "巴黎第五区",
+        "label_en": "5th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q192214"
+        ],
+        "statement_id": "Q192214$401C3E20-A9D1-4EA0-9EAA-09E11276948D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1486",
+        "label": "布宜诺斯艾利斯",
+        "label_en": "Buenos Aires",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q192214"
+        ],
+        "statement_id": "Q192214$F35B6867-4201-48CA-B90A-494584A330B9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q192214"
+        ],
+        "statement_id": "Q192214$a55ef5a9-4c3c-fa6b-1e0b-daf95c9d2bcf",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q192214"
+        ],
+        "statement_id": "q192214$6AA3F137-0B9E-4BE0-A6AA-90C574CBE885",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·法比漫画（编剧/共创）",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q192214",
+        "title": "Wikidata Q192214 / 勒内·戈西尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q192214&oldid=2559063368",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559063368,
+        "modified_at": "2026-10-20T04:12:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

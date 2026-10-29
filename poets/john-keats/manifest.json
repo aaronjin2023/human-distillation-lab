@@ -44,5 +44,145 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q82083",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Keats",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1795–1821",
+      "birth_year": {
+        "value": 1795,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82083"
+            ],
+            "statement_id": "q82083$E6C2C532-48D5-468C-8878-208A14A2AF99",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1795,
+            "raw_time": "+1795-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1821,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82083"
+            ],
+            "statement_id": "q82083$6CDF3002-47C4-44E9-9C78-DBBBFA148DCC",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1821,
+            "raw_time": "+1821-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q82083"
+        ],
+        "statement_id": "Q82083$5FEDB921-14C7-4D20-A050-5F6FB40AF69E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2356445",
+        "label": "沼澤門",
+        "label_en": "Moorgate",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q82083"
+        ],
+        "statement_id": "Q82083$0C450E51-4EE8-45BB-AA5E-24AA4FB5AC68",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q82083"
+        ],
+        "statement_id": "Q82083$36E0D205-2F40-4E87-AF56-8CBCABD35FA9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q82083"
+        ],
+        "statement_id": "Q82083$5F603CCB-C319-49E3-8221-2D372A845D2E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·浪漫主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q82083",
+        "title": "Wikidata Q82083 / 约翰·济慈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q82083&oldid=2561565968",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561565968,
+        "modified_at": "2026-10-27T23:16:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

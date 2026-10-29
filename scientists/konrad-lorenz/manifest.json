@@ -28,5 +28,155 @@
     "印随实验的原始参数待原文核对",
     "固定动作模式的原始定义待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q78496",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Konrad Lorenz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1989",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78496"
+            ],
+            "statement_id": "q78496$AB9F2B8B-CDEB-4E18-A081-7E150CFA53DB",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78496"
+            ],
+            "statement_id": "q78496$A6CD88E7-8643-4806-9562-703230252C16",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q78496"
+        ],
+        "statement_id": "q78496$EB2469C9-4E46-4E55-AE34-3979D2B7D403",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q78496"
+        ],
+        "statement_id": "Q78496$6b10560c-4bef-e77b-1eb8-c4285a14f701",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1940-08-31T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q672420",
+        "label": "柯尼斯堡大学",
+        "label_en": "University of Königsberg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q78496"
+        ],
+        "statement_id": "Q78496$6B2BFBC8-8BC2-43F2-A201-0DC023ABD361",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q78496"
+        ],
+        "statement_id": "q78496$12C0F047-411F-4969-9199-9CBCA189CB09",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "动物行为学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q78496",
+        "title": "Wikidata Q78496 / 康拉德·洛伦兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q78496&oldid=2558094603",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558094603,
+        "modified_at": "2026-10-17T20:26:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

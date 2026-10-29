@@ -44,5 +44,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜的出租车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q182725",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Etta James",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1938–2012",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182725"
+            ],
+            "statement_id": "q182725$A5E646E4-7A04-45C6-B5B3-684C381A32CC",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182725"
+            ],
+            "statement_id": "q182725$6D46A904-F4AE-4897-B824-92A08C9E4DBC",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q182725"
+        ],
+        "statement_id": "Q182725$6A87248D-A39A-4B54-AAB0-D9A9752A2082",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q182725"
+        ],
+        "statement_id": "q182725$41C49F79-E032-4EDE-B23D-DAD65EAA0243",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q182725"
+          ],
+          "statement_id": "Q182725$8843C1BB-DD4D-4C38-A1E5-C275247A371E",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂·布鲁斯",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q182725",
+        "title": "Wikidata Q182725 / 埃塔·詹姆丝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q182725&oldid=2561651869",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561651869,
+        "modified_at": "2026-10-28T10:55:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

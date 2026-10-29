@@ -35,5 +35,56 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Ibn Hawqal, an uncrewed cargo ship crosses the Indian Ocean in 2026, logged as an itinerary of ports with days' sail between them, cargo and wind noted at each harbour.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q367330",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Ibn Hawqal",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.943–c.988",
+      "birth_year": {
+        "value": 943,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 988,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·航海地理",
+      "genre": "navigator"
+    },
+    "sources": []
+  }
 }

@@ -34,5 +34,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55391",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Bresson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1999",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55391"
+            ],
+            "statement_id": "q55391$C2A7E449-5507-4D4D-B98F-097168CB913F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55391"
+            ],
+            "statement_id": "q55391$BD13517B-4F15-4DBE-A48C-FB1CA4E39C7E",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-12-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55391"
+        ],
+        "statement_id": "q55391$9113DA0C-4A33-44E3-887F-7E4F252EA01C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1000325",
+        "label": "布罗蒙拉莫特",
+        "label_en": "Bromont-Lamothe",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55391"
+        ],
+        "statement_id": "Q55391$BC686757-E8E9-4040-A22B-B49524A519E7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·极简主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55391",
+        "title": "Wikidata Q55391 / 羅伯特·布列松",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55391&oldid=2558225474",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558225474,
+        "modified_at": "2026-10-18T03:08:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

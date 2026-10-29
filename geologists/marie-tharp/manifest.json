@@ -28,5 +28,117 @@
     "与希曾合作的具体分工以综述转述为准"
   ],
   "test_prompt": "现代问题：从一组测深剖面判断是否存在大洋中脊裂谷。",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q538786",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Marie Tharp",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2006",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q538786"
+            ],
+            "statement_id": "Q538786$088289BD-BB25-494A-8732-C49AFD370E6F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q538786"
+            ],
+            "statement_id": "Q538786$799AC74C-131D-413D-9808-8B59675E72F7",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q538786"
+        ],
+        "statement_id": "q538786$130AC0C7-1CF1-4A0D-B5B1-FE197D1B04CF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1021681",
+        "label": "伊普西兰蒂",
+        "label_en": "Ypsilanti",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q538786"
+        ],
+        "statement_id": "q538786$902BFB8D-EAE2-428E-A755-A7DB63380FFC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "海洋地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q538786",
+        "title": "Wikidata Q538786 / 瑪麗·薩普",
+        "url": "https://www.wikidata.org/w/index.php?title=Q538786&oldid=2548184391",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548184391,
+        "modified_at": "2026-09-21T17:32:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

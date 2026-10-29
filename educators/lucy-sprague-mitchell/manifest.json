@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "米切尔风格：为幼儿设计一堂关于人工智能的课。先实地考察：看一个真人在工作里怎么用语音助手，回来用积木与绘画重建所见，教师观察并记录每个孩子注意到了什么、说了什么，不先读课本。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q19518814",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lucy Sprague Mitchell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1878–1967",
+      "birth_year": {
+        "value": 1878,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19518814"
+            ],
+            "statement_id": "Q19518814$c6036cc6-4ef8-470a-5ebd-9cac94d643d6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1878,
+            "raw_time": "+1878-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19518814"
+            ],
+            "statement_id": "Q19518814$1204bef1-412f-f0b9-50fa-66961046f69b",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q19518814"
+        ],
+        "statement_id": "Q19518814$226489AF-8E19-4EB7-ACF5-476A8DFFDC8F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q19518814"
+        ],
+        "statement_id": "Q19518814$258FF756-A301-4B33-856A-F4476ECD04A1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "幼儿教育 / 进步教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q19518814",
+        "title": "Wikidata Q19518814 / Lucy Sprague Mitchell",
+        "url": "https://www.wikidata.org/w/index.php?title=Q19518814&oldid=2508809627",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2508809627,
+        "modified_at": "2026-06-21T15:15:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

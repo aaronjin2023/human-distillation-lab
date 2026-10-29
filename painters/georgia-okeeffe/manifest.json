@@ -30,5 +30,230 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "现代城市街角的便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q46408",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georgia O'Keeffe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1986",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46408"
+            ],
+            "statement_id": "q46408$948F7909-74B6-4D26-931D-92807D220D11",
+            "rank": "preferred",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46408"
+            ],
+            "statement_id": "q46408$04F0C018-5090-4236-8B6A-F9F119737E6D",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$22130585-B497-4EC8-BE85-9C078A055970",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1569489",
+        "label": "森普雷裡",
+        "label_en": "Sun Prairie",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$e07a5c58-4ba8-976a-cbe1-4ab197b52b18",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1929-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1983-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1522",
+        "label": "新墨西哥州",
+        "label_en": "New Mexico",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$8347AFB7-326C-407B-875E-F67B7A46C97D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$E390BBCB-90E7-4757-9B7F-F735D6B584BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38555",
+        "label": "圣菲",
+        "label_en": "Santa Fe",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$2399325B-999E-4F24-8663-86DEBEE3BCFB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q321422",
+        "label": "阿比丘 (新墨西哥州)",
+        "label_en": "Abiquiú",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$E197C443-67FD-4D5B-9945-AB67D29508E0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$F818A488-8A7D-4310-B4BF-C05A421CF4F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16559",
+        "label": "奥斯汀",
+        "label_en": "Austin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$82E20A0E-EDDA-44E8-B450-0DC29BC52800",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1370",
+        "label": "弗吉尼亚州",
+        "label_en": "Virginia",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q46408"
+        ],
+        "statement_id": "Q46408$9765F274-3DB8-4826-8FB0-F7DD44F8D5F4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国现代主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q46408",
+        "title": "Wikidata Q46408 / 喬治亞·歐姬芙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q46408&oldid=2557894431",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557894431,
+        "modified_at": "2026-10-17T06:27:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

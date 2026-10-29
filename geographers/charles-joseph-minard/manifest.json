@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Charles Joseph Minard, draw one flow map of delivery riders crossing a city at night: line width for order numbers, colour for outward and return journeys, and a temperature curve below so the thinning line itself tells the story.",
   "test_question_zh": "一张外卖骑手夜晚流量图",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；征俄图 1869 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1065131",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Joseph Minard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1781–1870",
+      "birth_year": {
+        "value": 1781,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1065131"
+            ],
+            "statement_id": "Q1065131$4393D7A0-AD97-4A65-95D3-0F11A811E3B1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1781,
+            "raw_time": "+1781-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1065131"
+            ],
+            "statement_id": "Q1065131$008AA488-6254-46DC-9BDF-A0EF01223B71",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1065131"
+        ],
+        "statement_id": "q1065131$41E4301E-DC71-47E7-B79E-C3D4955AA4E6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7003",
+        "label": "第戎",
+        "label_en": "Dijon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1065131"
+        ],
+        "statement_id": "q1065131$E09EFEBA-9C5A-42AD-AE51-0BCB67116945",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·专题制图"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1065131",
+        "title": "Wikidata Q1065131 / 查尔斯·约瑟夫·米纳尔德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1065131&oldid=2529937647",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529937647,
+        "modified_at": "2026-08-11T08:06:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

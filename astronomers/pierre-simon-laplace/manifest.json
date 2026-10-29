@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Laplace, test a modern claim that a planetary system is unstable: expand every perturbation to the order that matters, prove whether the long-term terms stay bounded, and publish the stability verdict with the series truncation stated",
   "test_question_zh": "检验一个行星系统是否长期稳定",
   "verification": "生卒 1749–1827、《天体力学》1799–1825年、摄动理论、星云假说按天文史通说（Wikipedia / Britannica 共识）写；稳定性限度的说明已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44481",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pierre-Simon Laplace",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1749–1827",
+      "birth_year": {
+        "value": 1749,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44481"
+            ],
+            "statement_id": "q44481$17B3692D-11FF-4256-80BA-E8541417A52E",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1749,
+            "raw_time": "+1749-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1827,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44481"
+            ],
+            "statement_id": "q44481$92286748-6FCC-4841-9A84-B9F7914193B0",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1827,
+            "raw_time": "+1827-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44481"
+        ],
+        "statement_id": "q44481$4F87953D-03FC-415A-8EDB-9D945F533ACB",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q838579",
+        "label": "欧日地区博蒙",
+        "label_en": "Beaumont-en-Auge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44481"
+        ],
+        "statement_id": "Q44481$ff1795fd-42c3-8d64-08f4-8b7c0ebfa61b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·天体力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44481",
+        "title": "Wikidata Q44481 / 皮埃爾·西蒙·拉普拉斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44481&oldid=2561121611",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561121611,
+        "modified_at": "2026-10-26T17:04:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,132 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q737600",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michel Guérard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2024",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q737600"
+            ],
+            "statement_id": "Q737600$5EAAA642-DC70-43DF-B574-723E877981CA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q737600"
+            ],
+            "statement_id": "Q737600$447be503-4b0a-57bb-0e6e-7560535a3912",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q737600"
+        ],
+        "statement_id": "Q737600$8b93098c-4299-03c0-2a97-5378e00c10a8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q920444",
+        "label": "韦特伊",
+        "label_en": "Vétheuil",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q737600"
+        ],
+        "statement_id": "Q737600$4ecf45de-405c-c027-840c-afd7cbebdf5c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84320772",
+        "label": "Les Prés d'Eugénie",
+        "label_en": "Les Prés d'Eugénie",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q737600"
+        ],
+        "statement_id": "Q737600$4D854F90-8488-4516-8C90-678E38C191AA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新法餐 / 瘦身美食",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q737600",
+        "title": "Wikidata Q737600 / 米歇爾·蓋拉德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q737600&oldid=2544657612",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544657612,
+        "modified_at": "2026-09-12T17:51:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,380 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一辆停在街边的共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5577",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Salvador Dalí",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–1989",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5577"
+            ],
+            "statement_id": "q5577$C2A14F0F-B4C5-48C7-B7FF-B5DF057B68B2",
+            "rank": "normal",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5577"
+            ],
+            "statement_id": "q5577$6600F4B8-5ED2-4ADD-A798-26B56E575CD2",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-01-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "q5577$95F58A98-4EE4-48F9-A1D4-DA3BD4BAC6A6",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q6839",
+        "label": "菲格拉斯",
+        "label_en": "Figueres",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$5ECB4D05-6977-43F2-AC67-AC4EB886CFD0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1922-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1926-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$C70D8E66-0CF9-4098-821F-1A2DCBDBA3FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1926-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1927-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$797089A4-52B0-4C0D-BDE2-9FCD8C7E2DB1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1962-04-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q221092",
+        "label": "莫瑞泰斯皇家美术馆",
+        "label_en": "Mauritshuis",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$0C2C5A77-8ACF-4E66-8309-4571D74DC1E1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1962-04-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q281903",
+        "label": "亲王庭院",
+        "label_en": "Prinsenhof",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$CC2FC128-5976-4E54-852E-BB5343FDEC95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$F1D97AE2-1497-4095-89F5-718C7978844E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1934-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1948-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$752792B4-CC52-4C69-87A0-31D1F8F6B361",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1948-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1989-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$a4f90357-4346-f876-6a1c-ed65e433413b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q33935",
+        "label": "特拉维夫",
+        "label_en": "Tel Aviv",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$37c5b388-4e0f-b0f5-c9f9-f79121ed1902",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q334",
+        "label": "新加坡",
+        "label_en": "Singapore",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$6BE3CA06-EFCB-4D7B-86CE-CAF6539D845C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$C5FCF672-4593-485E-B18D-1AFD5CF40AD3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "Q5577$EE26F070-DA53-40A9-8763-2D729F7A0252",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5577"
+        ],
+        "statement_id": "q5577$2BE73E53-D095-406B-87A8-03EF2A0CEECD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "超现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5577",
+        "title": "Wikidata Q5577 / 萨尔瓦多·达利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5577&oldid=2561408372",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561408372,
+        "modified_at": "2026-10-27T11:49:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

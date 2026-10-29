@@ -1,35 +1,147 @@
 {
- "chemist": "Carl Wilhelm Scheele",
- "chemist_zh": "卡尔·舍勒",
- "dates": "1742–1786",
- "field": "气体化学 / 元素发现",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #13",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "氧气（火空气）的制得",
-  "氯气的发现",
-  "钼与钨的发现（鉴定）"
- ],
- "sources": [
-  "Wikipedia 'Carl Wilhelm Scheele' https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele",
-  "Britannica 'Carl Wilhelm Scheele' https://www.britannica.com/biography/Carl-Wilhelm-Scheele"
- ],
- "test_prompt": "In the style of Carl Wilhelm Scheele, design a plan to prove a newly prepared gas is new: make it in three different ways, compare its properties each time, and state what would make you withdraw the claim.",
- "test_question_zh": "如何证明一种新制得的气体是新物质？",
- "verification": "2026-10-26：生卒、氧气先制得后发表、氯气、钼钨鉴定经 web 搜索核对（Wikipedia、Hektoen 等）；其余见 known_gaps",
- "known_gaps": [
-  "舍勒著作 1777 年出版，实验年代多据后世考证，未逐项核对原始记录",
-  "氧气制得年份（约 1772–1773 年）为考证共识，非发表年份",
-  "有机酸发现的具体数据未逐一核对"
- ]
+  "chemist": "Carl Wilhelm Scheele",
+  "chemist_zh": "卡尔·舍勒",
+  "dates": "1742–1786",
+  "field": "气体化学 / 元素发现",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #13",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "氧气（火空气）的制得",
+    "氯气的发现",
+    "钼与钨的发现（鉴定）"
+  ],
+  "sources": [
+    "Wikipedia 'Carl Wilhelm Scheele' https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele",
+    "Britannica 'Carl Wilhelm Scheele' https://www.britannica.com/biography/Carl-Wilhelm-Scheele"
+  ],
+  "test_prompt": "In the style of Carl Wilhelm Scheele, design a plan to prove a newly prepared gas is new: make it in three different ways, compare its properties each time, and state what would make you withdraw the claim.",
+  "test_question_zh": "如何证明一种新制得的气体是新物质？",
+  "verification": "2026-10-26：生卒、氧气先制得后发表、氯气、钼钨鉴定经 web 搜索核对（Wikipedia、Hektoen 等）；其余见 known_gaps",
+  "known_gaps": [
+    "舍勒著作 1777 年出版，实验年代多据后世考证，未逐项核对原始记录",
+    "氧气制得年份（约 1772–1773 年）为考证共识，非发表年份",
+    "有机酸发现的具体数据未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q70538",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Wilhelm Scheele",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1742–1786",
+      "birth_year": {
+        "value": 1742,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q70538"
+            ],
+            "statement_id": "q70538$562D6171-C887-46DD-AB77-879B8CAA97E7",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1742,
+            "raw_time": "+1742-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1786,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q70538"
+            ],
+            "statement_id": "q70538$6E52FDA0-C8EB-4F0A-A4E9-0930BFD04E80",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1786,
+            "raw_time": "+1786-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q70538"
+        ],
+        "statement_id": "q70538$5D75B91A-A02F-474B-BD2B-E26081277053",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q4065",
+        "label": "施特拉尔松德",
+        "label_en": "Stralsund",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q70538"
+        ],
+        "statement_id": "q70538$ED630E8A-8171-4495-8948-D80A3B1724C5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "气体化学 / 元素发现"
+    },
+    "sources": [
+      {
+        "id": "WD:Q70538",
+        "title": "Wikidata Q70538 / 卡尔·威廉·舍勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q70538&oldid=2557831215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557831215,
+        "modified_at": "2026-10-17T02:30:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

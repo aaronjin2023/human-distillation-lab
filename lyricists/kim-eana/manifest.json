@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a small Yorkshire terrier sitting on a subway seat, watched by commuters who look away",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6408602",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kim Eana",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1979–",
+      "birth_year": {
+        "value": 1979,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6408602"
+            ],
+            "statement_id": "Q6408602$95754281-71BF-41CA-A929-C5F9972D6955",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1979,
+            "raw_time": "+1979-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6408602"
+        ],
+        "statement_id": "Q6408602$ccc2eca9-4c8c-bc34-7b9e-fd1a4e543ca8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6408602"
+        ],
+        "statement_id": "Q6408602$4C94FD32-E91D-4F1E-BE7E-660B11B97FAD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩语流行·K-pop",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6408602",
+        "title": "Wikidata Q6408602 / 金伊娜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6408602&oldid=2543719801",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543719801,
+        "modified_at": "2026-09-11T04:04:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,101 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q193803",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roger Penrose",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1931–",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193803"
+            ],
+            "statement_id": "q193803$BD9B3173-2852-4AD6-9574-E243C282C366",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-08-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q193803"
+        ],
+        "statement_id": "Q193803$84208918-468A-41D4-A6EE-42B32A79C938",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q184163",
+        "label": "科尔切斯特",
+        "label_en": "Colchester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q193803"
+        ],
+        "statement_id": "Q193803$3183726C-0180-4BF9-86CF-5B860D92E9DD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "相对论 / 宇宙学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q193803",
+        "title": "Wikidata Q193803 / 罗杰·彭罗斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q193803&oldid=2558228146",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558228146,
+        "modified_at": "2026-10-18T03:16:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

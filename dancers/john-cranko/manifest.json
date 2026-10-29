@@ -40,5 +40,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of John Cranko, a small Yorkshire terrier sitting on a subway seat, dramatic narrative pas de deux, bodies entwined and parted, ballroom ensemble, literary passion, naturalistic acting through dance",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1352987",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Cranko",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–1973",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1352987"
+            ],
+            "statement_id": "Q1352987$07FB5F38-A901-4ED5-9ECB-933349BB8B52",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1352987"
+            ],
+            "statement_id": "Q1352987$965D98DE-D85C-4568-A9FB-AD747ACCF8A4",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1352987"
+        ],
+        "statement_id": "q1352987$25FEF88E-5CF3-474B-92B4-2A3AC549FD1B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q182049",
+        "label": "勒斯滕堡",
+        "label_en": "Rustenburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1352987"
+        ],
+        "statement_id": "Q1352987$34b2860e-4622-7e34-9911-a4dc1212b6b9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国 / 斯图加特芭蕾·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1352987",
+        "title": "Wikidata Q1352987 / 约翰·克兰科",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1352987&oldid=2557979084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557979084,
+        "modified_at": "2026-10-17T12:24:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

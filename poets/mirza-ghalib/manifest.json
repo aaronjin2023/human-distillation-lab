@@ -37,5 +37,163 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己、从未寄出的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q107000",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mirza Ghalib",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1797–1869",
+      "birth_year": {
+        "value": 1797,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107000"
+            ],
+            "statement_id": "Q107000$EA2CFC13-AED0-489C-A9E3-8534903D2537",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1797,
+            "raw_time": "+1797-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q107000"
+            ],
+            "statement_id": "Q107000$7ECE1434-E8D1-4103-ABFD-8F95362081B7",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q107000"
+        ],
+        "statement_id": "Q107000$04082354-D24C-46CF-8DE9-E825E1E20F8A",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q64217566",
+        "label": "Kala Mahal",
+        "label_en": "Kala Mahal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q107000"
+        ],
+        "statement_id": "Q107000$166B1640-545E-4321-8B7B-379CB36ECA6A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1810-08-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1857-09-21T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q33296",
+        "label": "莫卧儿帝国",
+        "label_en": "Mughal Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q107000"
+        ],
+        "statement_id": "Q107000$ee4b34a4-4de1-5a1d-1b94-ab009132db82",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1857-09-22T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "乌尔都语·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q107000",
+        "title": "Wikidata Q107000 / 米尔扎·迦利布",
+        "url": "https://www.wikidata.org/w/index.php?title=Q107000&oldid=2558173195",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558173195,
+        "modified_at": "2026-10-18T00:15:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

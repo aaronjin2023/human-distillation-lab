@@ -49,5 +49,117 @@
   ],
   "test_prompt": "平台“勤劳骑手”话语的神话批判",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7660347",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Syed Hussein Alatas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2007",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7660347"
+            ],
+            "statement_id": "Q7660347$3B6606D8-40EA-4C26-9073-6C3BD5A9FC8D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-09-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7660347"
+            ],
+            "statement_id": "Q7660347$1038B532-9144-42A0-9920-C7CA84C547BF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-01-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7660347"
+        ],
+        "statement_id": "Q7660347$9D3CBD1F-D71A-4F21-94AF-3A9D3C19D0B1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q10393",
+        "label": "茂物",
+        "label_en": "Bogor",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7660347"
+        ],
+        "statement_id": "Q7660347$E64CCFA7-9A0E-4747-9B37-B77EA6E35030",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q833",
+        "label": "马来西亚",
+        "label_en": "Malaysia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "东南亚·殖民地社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7660347",
+        "title": "Wikidata Q7660347 / 赛胡先·阿拉塔斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7660347&oldid=2554282892",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554282892,
+        "modified_at": "2026-10-07T01:59:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

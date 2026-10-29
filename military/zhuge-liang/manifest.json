@@ -42,5 +42,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代企业的长期战略规划",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q198211",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhuge Liang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "181–234",
+      "birth_year": {
+        "value": 181,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q198211"
+            ],
+            "statement_id": "Q198211$32ED5241-0398-4C52-A45F-84AB8CAF38C5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 181,
+            "raw_time": "+0181-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 234,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q198211"
+            ],
+            "statement_id": "Q198211$AB52DB9D-55E4-4DE6-BAE8-09578FB66666",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 234,
+            "raw_time": "+0234-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q198211"
+        ],
+        "statement_id": "Q198211$14C4CE80-6F6C-4042-BBA8-306EC3EE47FF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1337609",
+        "label": "沂南县",
+        "label_en": "Yinan County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q198211"
+        ],
+        "statement_id": "Q198211$E856E89C-CA36-48A2-99DD-C6CDAAD57322",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q320925",
+        "label": "蜀汉",
+        "label_en": "Shu Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "三国·战略筹划"
+    },
+    "sources": [
+      {
+        "id": "WD:Q198211",
+        "title": "Wikidata Q198211 / 诸葛亮",
+        "url": "https://www.wikidata.org/w/index.php?title=Q198211&oldid=2557106768",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557106768,
+        "modified_at": "2026-10-15T01:45:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,130 @@
   "thinker": "Dai Zhen",
   "thinker_zh": "戴震",
   "verification": "2026-10-26：生卒与代表作以草稿第 1 节为准，关键条目经 web 搜索核对；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q714369",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dai Zhen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1724–1777",
+      "birth_year": {
+        "value": 1724,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714369"
+            ],
+            "statement_id": "Q714369$E0A9AEAF-1B72-44A0-A9FA-D2436A1C636D",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1724,
+            "raw_time": "+1724-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1777,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714369"
+            ],
+            "statement_id": "Q714369$2D16B924-058E-4936-8D45-98895342CCBA",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1777,
+            "raw_time": "+1777-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q714369"
+        ],
+        "statement_id": "Q714369$C935FE27-8458-4009-B350-F9FF97071941",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1197877",
+        "label": "休宁县",
+        "label_en": "Xiuning County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q714369"
+        ],
+        "statement_id": "Q714369$CEED2AC7-FC17-449C-A5C0-7AA012AD85FC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q714369"
+        ],
+        "statement_id": "Q714369$F3C23802-9513-41BF-A8FA-817FBFDAA730",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "清代考据学 / 戴震哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q714369",
+        "title": "Wikidata Q714369 / 戴震",
+        "url": "https://www.wikidata.org/w/index.php?title=Q714369&oldid=2556904114",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556904114,
+        "modified_at": "2026-10-14T11:36:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

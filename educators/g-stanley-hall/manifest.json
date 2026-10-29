@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "中学生手机使用的问卷调查与课程设计（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；无确证的短句引文，本稿只用 artifact 级样本，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q309675",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "G. Stanley Hall",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1844–1924",
+      "birth_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309675"
+            ],
+            "statement_id": "Q309675$3A24AA93-0CAA-4156-9BDC-EC2268419281",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q309675"
+            ],
+            "statement_id": "Q309675$72588B19-8F93-473D-9D7F-CF8BA8516863",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-04-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q309675"
+        ],
+        "statement_id": "Q309675$B8448E70-37E3-40D4-A70D-D12405A6682B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2536103",
+        "label": "艾許菲爾德",
+        "label_en": "Ashfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q309675"
+        ],
+        "statement_id": "q309675$0AB09445-0DD4-4991-A20A-EDD1D8FE7B54",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·儿童研究",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q309675",
+        "title": "Wikidata Q309675 / 斯坦利·霍尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q309675&oldid=2559094093",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559094093,
+        "modified_at": "2026-10-20T05:43:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

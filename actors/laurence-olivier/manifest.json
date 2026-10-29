@@ -37,5 +37,144 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55245",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Laurence Olivier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1989",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55245"
+            ],
+            "statement_id": "q55245$BEC53BB3-9D3D-4257-BDE1-E42E22F10960",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-05-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55245"
+            ],
+            "statement_id": "q55245$443DA731-323A-401E-8E18-EC3ABB7B8C5C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55245"
+        ],
+        "statement_id": "q55245$CE3A2989-EDFC-4D94-BE06-8A7AC59AE601",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q540333",
+        "label": "多金",
+        "label_en": "Dorking",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q55245"
+        ],
+        "statement_id": "Q55245$0F891DB7-60E9-4235-9EFD-393D28E5B5F4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55245"
+        ],
+        "statement_id": "Q55245$2ED10D27-C7DE-4929-94EA-278E02384EB5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55245"
+        ],
+        "statement_id": "Q55245$6D3E72B7-8A4E-450A-9C90-0A2EBCF53508",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·舞台/电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55245",
+        "title": "Wikidata Q55245 / 劳伦斯·奥利维尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55245&oldid=2558110690",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558110690,
+        "modified_at": "2026-10-17T21:11:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

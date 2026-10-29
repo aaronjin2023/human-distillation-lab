@@ -43,5 +43,102 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "奥林风格：现代公共图书馆前的一座广场，公共公园复兴，轴线与种植，社会空间，古典秩序配种植的丰富。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6501684",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Laurie Olin",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6501684"
+            ],
+            "statement_id": "Q6501684$4B19DF66-02C8-4A7E-BA23-AC69C0158492",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6501684"
+        ],
+        "statement_id": "Q6501684$71C27530-421C-4F67-829A-B1D6667CCC57",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1569760",
+        "label": "马什菲尔德",
+        "label_en": "Marshfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6501684"
+        ],
+        "statement_id": "Q6501684$4D053531-25E7-41A2-8686-2131494B6179",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·城市景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6501684",
+        "title": "Wikidata Q6501684 / Laurie Olin",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6501684&oldid=2513407051",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513407051,
+        "modified_at": "2026-07-03T11:32:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

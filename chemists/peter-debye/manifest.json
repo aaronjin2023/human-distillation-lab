@@ -32,5 +32,157 @@
   "test_prompt": "In the style of Peter Debye, explain why a new electrolyte solution deviates from ideal conductivity: first state the ideal model and its approximations, then design a precise measurement of conductivity and dielectric response versus concentration, and fit the deviation to a physical model of ion interaction",
   "test_question_zh": "解释为什么某种新型电解质溶液的电导率随浓度变化偏离理想行为",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q103835",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Debye",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1884–1966",
+      "birth_year": {
+        "value": 1884,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103835"
+            ],
+            "statement_id": "q103835$9090AC2F-2535-4C28-9159-221A99FA130A",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1884,
+            "raw_time": "+1884-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q103835"
+            ],
+            "statement_id": "q103835$F531262E-8985-479D-85FA-5A6EB4B0458C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q103835"
+        ],
+        "statement_id": "q103835$DE111ABA-1A17-4FF4-923C-D8A059C0BB02",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1309",
+        "label": "马斯特里赫特",
+        "label_en": "Maastricht",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q103835"
+        ],
+        "statement_id": "Q103835$4CED7340-6BBA-4FB3-A1A5-F1F81E17D113",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q103835"
+        ],
+        "statement_id": "Q103835$C5886789-F69F-4B13-87C6-E546A549E852",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q103835"
+        ],
+        "statement_id": "q103835$79C101D3-1140-46B1-A2E3-D674FA8BE93F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q103835"
+        ],
+        "statement_id": "Q103835$d04f095a-4bb2-f86a-ba5a-d75d993225fe",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "物理化学 / 分子结构"
+    },
+    "sources": [
+      {
+        "id": "WD:Q103835",
+        "title": "Wikidata Q103835 / 彼得·德拜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q103835&oldid=2561186357",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561186357,
+        "modified_at": "2026-10-26T20:31:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

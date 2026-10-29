@@ -29,3 +29,7 @@
 - 生卒 1114–1185（卒年为约数 c.1185）与三部著作名已确认（英文 Wikipedia《Bhāskara II》、MacTutor 传记、New World Encyclopedia）；《天文系统之冠》成书 1150 年、四卷结构已确认（Wikipedia《Bhāskara II》）。
 - 除零修正（khahara 为无穷量）与瞬时运动（tātkālika gati）、极值处变化为零的表述已确认（1000.rz.deno.net《Bhāskara II》、MacTutor）；“微积分先驱”说法的限定见 conflicts.md。
 - 《莉拉瓦蒂》女儿传说只见于 1587 年波斯文译本序言、无更早证据，已确认（1000.rz.deno.net《Bhāskara II》、Wikipedia《Līlāvatī》）。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

@@ -38,5 +38,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市音乐厅引座员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1999630",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Norman Norell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1972",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1999630"
+            ],
+            "statement_id": "Q1999630$34D7DAD0-4599-4246-9ED1-C08B573903B4",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1999630"
+            ],
+            "statement_id": "Q1999630$3F0E2C9C-9708-4838-99E0-08C5E1CA52E7",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1999630"
+        ],
+        "statement_id": "q1999630$E6BCF0E1-4EE9-4E20-9A24-7B954B89C0B5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1645069",
+        "label": "诺布尔斯维尔",
+        "label_en": "Noblesville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1999630"
+        ],
+        "statement_id": "q1999630$484B1F9D-5405-42CD-90AA-F037CE73803F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1999630",
+        "title": "Wikidata Q1999630 / 诺曼·诺雷尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1999630&oldid=2553985058",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553985058,
+        "modified_at": "2026-10-06T15:11:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q36456",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hannibal Barca",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "247–c.183 BCE",
+      "birth_year": {
+        "value": -247,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36456"
+            ],
+            "statement_id": "q36456$2D6F92D0-5A68-4FE7-8256-68436E97507E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": -247,
+            "raw_time": "-0247-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -183,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36456"
+            ],
+            "statement_id": "q36456$51C4E547-97E7-4368-A9E4-8F789BD47F29",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": -183,
+            "raw_time": "-0183-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q36456"
+        ],
+        "statement_id": "Q36456$63AE734A-D4E1-4EB4-A9D5-47CD73C890DA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6343",
+        "label": "迦太基",
+        "label_en": "Carthage",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q36456"
+        ],
+        "statement_id": "Q36456$A83D597F-6385-4E65-8A72-8F9230ABF831",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2429397",
+        "label": "古迦太基",
+        "label_en": "Ancient Carthage",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "迦太基·机动战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q36456",
+        "title": "Wikidata Q36456 / 汉尼拔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q36456&oldid=2559107484",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559107484,
+        "modified_at": "2026-10-20T06:26:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,156 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q58632",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hans Eysenck",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–1997",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58632"
+            ],
+            "statement_id": "q58632$B08C782F-E493-407E-8601-457027208AA4",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-03-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q58632"
+            ],
+            "statement_id": "Q58632$EF98E81C-B50B-4F1E-89CD-E0EFFF643804",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58632"
+            ],
+            "statement_id": "q58632$60666E84-5866-43AC-A8C8-BA994B454429",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q58632"
+        ],
+        "statement_id": "q58632$7A82B94F-C64D-49E2-A2B0-40C54F218A60",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q58632"
+        ],
+        "statement_id": "q58632$EF5737AF-A14D-4085-9209-F1B7B3EDE6D8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58632"
+        ],
+        "statement_id": "q58632$1C270D9E-0BED-4255-ACB0-9DBBB88D7236",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "人格心理学 / 人格维度"
+    },
+    "sources": [
+      {
+        "id": "WD:Q58632",
+        "title": "Wikidata Q58632 / 汉斯·艾森克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q58632&oldid=2533012117",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533012117,
+        "modified_at": "2026-08-19T03:26:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

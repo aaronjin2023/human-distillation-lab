@@ -39,5 +39,131 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（功能财政视角）（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q305781",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abba Lerner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1982",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q305781"
+            ],
+            "statement_id": "Q305781$A49D49E7-0F64-4E66-8ED6-CF4116E6686F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q305781"
+            ],
+            "statement_id": "Q305781$5039B5E9-2AA4-4B91-B6DB-6D6C39517369",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q305781"
+        ],
+        "statement_id": "q305781$94BCE791-8997-4F88-9341-E02CE69ABE2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q149030",
+        "label": "新塞利察",
+        "label_en": "Novoselytsia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q305781"
+        ],
+        "statement_id": "Q305781$7ac2f8ce-4a62-ef02-940f-32538870b5d7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1190582",
+        "label": "比薩拉比薩省",
+        "label_en": "Bessarabia Governorate",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q305781"
+        ],
+        "statement_id": "q305781$EBFC2D13-69AE-4B5E-99F8-69A7D9E71D75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·功能财政与税收",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q305781",
+        "title": "Wikidata Q305781 / 阿巴·勒纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q305781&oldid=2512643377",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512643377,
+        "modified_at": "2026-07-01T14:46:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

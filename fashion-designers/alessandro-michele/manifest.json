@@ -38,5 +38,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市旧书店店员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q21055337",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alessandro Michele",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1972–",
+      "birth_year": {
+        "value": 1972,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q21055337"
+            ],
+            "statement_id": "Q21055337$fc9126e7-37da-4577-a382-9026b472ff46",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1972,
+            "raw_time": "+1972-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q21055337"
+        ],
+        "statement_id": "Q21055337$AF19B5E8-41B7-428D-9852-0E5F21B09DAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q21055337"
+        ],
+        "statement_id": "Q21055337$A5106D91-C857-421D-B0A7-58B1A7DA2C5E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·当代",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q21055337",
+        "title": "Wikidata Q21055337 / 亞歷山德羅·米凱萊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q21055337&oldid=2521263635",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521263635,
+        "modified_at": "2026-07-22T18:10:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

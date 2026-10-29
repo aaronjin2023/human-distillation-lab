@@ -38,5 +38,132 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "普金风格：现代城市街角的一座社区图书馆，真实哥特复兴大厅，石砌，尖拱与彩色玻璃，材料真实，垂直塔楼，处处手工艺。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313288",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Augustus Pugin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1812–1852",
+      "birth_year": {
+        "value": 1812,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313288"
+            ],
+            "statement_id": "q313288$55C94EE2-2FDF-4B66-8669-36F607EF5F15",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1812,
+            "raw_time": "+1812-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313288"
+            ],
+            "statement_id": "q313288$771B3D69-DC1B-4FB1-B14B-682F214453E2",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313288"
+        ],
+        "statement_id": "q313288$5C6ACFDC-6D3B-4134-93A7-53000FBDA957",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q150120",
+        "label": "布卢姆茨伯里",
+        "label_en": "Bloomsbury",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q313288"
+        ],
+        "statement_id": "Q313288$2ed58140-4780-8a4f-6f58-df9228fe0422",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313288"
+        ],
+        "statement_id": "Q313288$22A5117B-50F8-4D89-954E-98727C15D7C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "哥特复兴",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313288",
+        "title": "Wikidata Q313288 / 奥古斯塔斯·普金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313288&oldid=2557804937",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557804937,
+        "modified_at": "2026-10-17T00:47:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

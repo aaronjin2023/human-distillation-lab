@@ -32,5 +32,143 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "城市天台夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1899–1983、泼墨泼彩、敦煌临摹三年、早年仿古几可乱真、晚年视力衰退后泼彩大成、《雾山茅屋》1965 年已核对。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q163298",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Daqian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1983",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q163298"
+            ],
+            "statement_id": "q163298$266A69C9-9D71-42A9-AAC2-812151751F22",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-05-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q163298"
+            ],
+            "statement_id": "q163298$7010660F-5863-4FFB-9CCB-8E1042F44563",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-04-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q163298"
+        ],
+        "statement_id": "q163298$AF8C6EAB-B9EE-4C9C-BD04-F36F0F9E72D9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q426756",
+        "label": "内江市",
+        "label_en": "Neijiang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q163298"
+        ],
+        "statement_id": "Q163298$6D68108F-DA4E-4656-BFE0-9DE9A82D2081",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q163298"
+        ],
+        "statement_id": "Q163298$6a734e76-4707-f18c-ca2c-74c3391fc665",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q163298"
+        ],
+        "statement_id": "Q163298$02d667cc-4eb7-1e93-2c5e-1225466b95d8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·泼墨泼彩"
+    },
+    "sources": [
+      {
+        "id": "WD:Q163298",
+        "title": "Wikidata Q163298 / 张大千",
+        "url": "https://www.wikidata.org/w/index.php?title=Q163298&oldid=2549046481",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549046481,
+        "modified_at": "2026-09-24T14:44:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

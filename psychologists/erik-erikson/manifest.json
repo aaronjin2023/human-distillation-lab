@@ -45,5 +45,131 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q58074",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erik Erikson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1994",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58074"
+            ],
+            "statement_id": "q58074$EA367505-E486-4304-8B7E-CD9F51C9EE03",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-06-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58074"
+            ],
+            "statement_id": "q58074$80CD8351-80A1-461B-8FD8-51E7E023343C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q58074"
+        ],
+        "statement_id": "q58074$C0F2F733-FED5-4467-8CCB-0ED06AA34D5C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q58074"
+        ],
+        "statement_id": "Q58074$fd794b34-4c53-c008-26e4-87a99490e800",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58074"
+        ],
+        "statement_id": "Q58074$8BB7E901-8D86-473D-9CA4-5CD957AB419B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "心理社会发展",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q58074",
+        "title": "Wikidata Q58074 / 爱利克·埃里克森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q58074&oldid=2561741910",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561741910,
+        "modified_at": "2026-10-28T16:56:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

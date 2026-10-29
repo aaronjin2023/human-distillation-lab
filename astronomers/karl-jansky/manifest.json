@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Karl Jansky, hunt for an unknown radio source: record antenna noise continuously for weeks, compare the peak period with the sidereal day, and rule out terrestrial interference before locating the source",
   "test_question_zh": "天线噪声里有没有未知的天体射电源？",
   "verification": "生卒 1905–1950、银河系射电辐射发现 1932 年按天文史通说写；天线频率与恒星日细节未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q319212",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl Jansky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1950",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319212"
+            ],
+            "statement_id": "q319212$FD22A64B-0D43-4B0A-ACB6-2C8E051C4611",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319212"
+            ],
+            "statement_id": "q319212$7FB4DD68-116D-4B15-BB29-46EBE51C3BC2",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q319212"
+        ],
+        "statement_id": "q319212$BC489769-3542-4202-90F0-B5D7A5E7E854",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q40347",
+        "label": "诺曼",
+        "label_en": "Norman",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q319212"
+        ],
+        "statement_id": "q319212$03EB728A-5990-4924-8D70-5DC73B770D72",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·射电天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q319212",
+        "title": "Wikidata Q319212 / 卡尔·央斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q319212&oldid=2558073601",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558073601,
+        "modified_at": "2026-10-17T19:22:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

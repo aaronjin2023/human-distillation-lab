@@ -35,5 +35,128 @@
   "test_prompt": "In the style of Harrison Schmitt, plan a field traverse on Mars: choose stations before landing, decide what to describe in place at each station, and state what a sample would be worthless without",
   "test_question_zh": "去火星做野外地质，一条路线该怎么规划？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q108886",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Harrison Schmitt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1935–",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q108886"
+            ],
+            "statement_id": "q108886$A01FD5CC-39B1-48A7-A53F-0A2C4E252C0A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q108886"
+        ],
+        "statement_id": "Q108886$00C0FA3B-254E-44AA-8A81-867A5DC600DC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7419837",
+        "label": "聖麗塔",
+        "label_en": "Santa Rita",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q108886"
+        ],
+        "statement_id": "Q108886$AD58F344-05AA-43D2-B111-54AF78408998",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q108886"
+        ],
+        "statement_id": "Q108886$fafdeeb1-1933-4bf0-b465-bbffb971d1a1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1522",
+        "label": "新墨西哥州",
+        "label_en": "New Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q108886"
+        ],
+        "statement_id": "q108886$169F19CC-5367-4E3C-B44E-F8FEE534EF27",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "行星地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q108886",
+        "title": "Wikidata Q108886 / 哈里森·施密特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q108886&oldid=2558260495",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558260495,
+        "modified_at": "2026-10-18T05:05:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

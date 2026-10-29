@@ -42,5 +42,117 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a small Yorkshire terrier sits on a subway seat at night, watched by commuters",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312709",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kobayashi Issa",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1763–1828",
+      "birth_year": {
+        "value": 1763,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312709"
+            ],
+            "statement_id": "Q312709$52B7A7B7-DF2B-4DC3-9232-2B729D3AA051",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1763,
+            "raw_time": "+1763-06-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1828,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312709"
+            ],
+            "statement_id": "Q312709$31D74E18-EE7B-4ACC-BFFA-7E8AB70E5125",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1828,
+            "raw_time": "+1828-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312709"
+        ],
+        "statement_id": "q312709$722E3769-4793-4A85-8DC5-E310C7B9E556",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17175292",
+        "label": "Kashiwabara",
+        "label_en": "Kashiwabara",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312709"
+        ],
+        "statement_id": "q312709$45FFE071-990D-420B-9189-5BA4E86ED151",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "江户·俳句"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312709",
+        "title": "Wikidata Q312709 / 小林一茶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312709&oldid=2555648260",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555648260,
+        "modified_at": "2026-10-10T17:48:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

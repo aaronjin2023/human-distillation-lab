@@ -28,5 +28,130 @@
     "冰川流速数据以综述转述为准"
   ],
   "test_prompt": "现代问题：二氧化碳浓度升高如何改变地表温度？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q360808",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Tyndall",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1820–1893",
+      "birth_year": {
+        "value": 1820,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q360808"
+            ],
+            "statement_id": "Q360808$1BBACB91-344E-4CEC-B329-00276806DBFA",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1820,
+            "raw_time": "+1820-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q360808"
+            ],
+            "statement_id": "Q360808$829F08BF-6C8A-43AB-A02E-B9D106450081",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q360808"
+        ],
+        "statement_id": "Q360808$4AB94DF6-E8C7-4FAB-BDF3-E0C459C65F4E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1959546",
+        "label": "莱林桥",
+        "label_en": "Leighlinbridge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q360808"
+        ],
+        "statement_id": "q360808$22F1DD9F-18B0-4954-9755-F379D08E84BD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q360808"
+        ],
+        "statement_id": "Q360808$c9ff556c-4799-4845-c76a-b28d75a57548",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27",
+        "label": "爱尔兰",
+        "label_en": "Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "冰川学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q360808",
+        "title": "Wikidata Q360808 / 約翰·廷德爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q360808&oldid=2560660383",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560660383,
+        "modified_at": "2026-10-25T11:34:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

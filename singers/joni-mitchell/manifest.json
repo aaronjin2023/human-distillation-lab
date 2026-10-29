@@ -44,5 +44,126 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于雨天在阳台浇花的女人的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q205721",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joni Mitchell",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q205721"
+            ],
+            "statement_id": "q205721$DB5CF3DD-05A2-40EE-9055-F6B6ABE2F106",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q205721"
+        ],
+        "statement_id": "q205721$DB72D673-F956-4128-9A62-282F6C6914BE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2128700",
+        "label": "麥克勞德堡",
+        "label_en": "Fort Macleod",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q205721"
+        ],
+        "statement_id": "q205721$070BD624-5A81-47EA-B9EC-86A4A84B95BD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q205721"
+        ],
+        "statement_id": "Q205721$83866518-4873-f1fa-4dda-1b3036b9b1b1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2026-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "民谣·创作歌手",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q205721",
+        "title": "Wikidata Q205721 / 琼尼·米歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q205721&oldid=2561545075",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561545075,
+        "modified_at": "2026-10-27T21:32:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

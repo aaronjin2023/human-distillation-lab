@@ -45,5 +45,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q263367",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alice Guy-Blaché",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1873–1968",
+      "birth_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q263367"
+            ],
+            "statement_id": "q263367$12D8D40D-8800-4D12-97BC-B582C7E519E8",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q263367"
+            ],
+            "statement_id": "q263367$FDBB75B9-12D7-4734-8A1D-F861CA7E9544",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-03-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q263367"
+        ],
+        "statement_id": "q263367$5E97A417-76B9-4DA7-B75F-57926B714E80",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q18102",
+        "label": "圣芒代",
+        "label_en": "Saint-Mandé",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q263367"
+        ],
+        "statement_id": "q263367$C66C9161-054A-479B-A2E8-A70927E493EB",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国 / 美国·叙事片先驱，首位女导演"
+    },
+    "sources": [
+      {
+        "id": "WD:Q263367",
+        "title": "Wikidata Q263367 / 爱丽丝·居伊-布拉切",
+        "url": "https://www.wikidata.org/w/index.php?title=Q263367&oldid=2560303521",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560303521,
+        "modified_at": "2026-10-24T13:40:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

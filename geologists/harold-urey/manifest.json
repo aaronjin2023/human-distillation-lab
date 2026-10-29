@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Harold Urey, judge a fossil shell whose oxygen isotopes look anomalously high: test for diagenetic alteration first, check the calibration for that shell type, and claim a temperature only if the shell passes both tests",
   "test_question_zh": "一枚新采的化石贝壳，氧同位素值异常偏高，是古海洋变冷还是成岩改造？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q179777",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Harold Urey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1981",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179777"
+            ],
+            "statement_id": "q179777$8EB966C9-EF3E-454E-B0BB-3706964FBEBD",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179777"
+            ],
+            "statement_id": "q179777$060F49B1-B983-478C-A090-52861D10C3A8",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q179777"
+        ],
+        "statement_id": "q179777$7AB05E04-17A0-4788-B783-0D968440CC98",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2496370",
+        "label": "沃克頓 (印地安納州)",
+        "label_en": "Walkerton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q179777"
+        ],
+        "statement_id": "q179777$1D26D7BB-7B47-40E3-8DE2-C63EA060A9F8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "同位素地球化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q179777",
+        "title": "Wikidata Q179777 / 哈罗德·克莱顿·尤里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q179777&oldid=2557910921",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557910921,
+        "modified_at": "2026-10-17T07:19:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

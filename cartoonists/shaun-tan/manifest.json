@@ -39,5 +39,116 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 web 核对（Wikipedia / slwa.wa.gov.au）：生卒 1974–、代表作已核对；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q588933",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shaun Tan",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1974–",
+      "birth_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q588933"
+            ],
+            "statement_id": "Q588933$642D241C-45C6-41D6-9E43-BDF558A548C7",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q588933"
+        ],
+        "statement_id": "Q588933$1AB747C8-9B65-444E-9F79-3A990D010EA5",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q606212",
+        "label": "弗里曼特爾",
+        "label_en": "Fremantle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q588933"
+        ],
+        "statement_id": "Q588933$8EC1CCE4-9E45-49D1-887B-239F6F943C20",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q588933"
+          ],
+          "statement_id": "Q588933$e6ca3718-4907-6f6c-870c-6744731c6fb1",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q2303719",
+          "label": "澳大利亚华人",
+          "label_en": "Chinese Australians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "澳大利亚·无字图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q588933",
+        "title": "Wikidata Q588933 / 陳志勇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q588933&oldid=2558235378",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558235378,
+        "modified_at": "2026-10-18T03:46:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

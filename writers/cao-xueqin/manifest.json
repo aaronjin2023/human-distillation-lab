@@ -40,5 +40,133 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Cao Xueqin",
-  "writer_zh": "曹雪芹"
+  "writer_zh": "曹雪芹",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q182874",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cao Xueqin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1715–c.1763",
+      "birth_year": {
+        "value": 1724,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182874"
+            ],
+            "statement_id": "Q182874$363898D6-F8DC-49F1-9C6C-24D6A09C8C99",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1724,
+            "raw_time": "+1724-07-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1715
+      },
+      "death_year": {
+        "value": 1763,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q182874"
+            ],
+            "statement_id": "Q182874$C5B7F1A0-D54B-4A83-AF19-2E6B78FA0C82",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1763,
+            "raw_time": "+1763-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q182874"
+        ],
+        "statement_id": "Q182874$7DE7EAA9-B424-4BFC-A6E4-93095D90B2B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16666",
+        "label": "南京市",
+        "label_en": "Nanjing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q182874"
+        ],
+        "statement_id": "Q182874$9D5D839C-4AF1-4BE3-8EED-07C33DDA451B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q182874"
+        ],
+        "statement_id": "Q182874$730707EE-F465-4508-8E16-639AE7503DCD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "清·世情小说",
+      "genre": "novelist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q182874",
+        "title": "Wikidata Q182874 / 曹雪芹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q182874&oldid=2557826838",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557826838,
+        "modified_at": "2026-10-17T02:04:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

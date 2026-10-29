@@ -53,5 +53,132 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁站名瘦金体",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7486",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Song Huizong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1082–1135",
+      "birth_year": {
+        "value": 1082,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7486"
+            ],
+            "statement_id": "q7486$C2B4B7D3-EB73-4894-BABB-7B6BF87F4023",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1082,
+            "raw_time": "+1082-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1135,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7486"
+            ],
+            "statement_id": "q7486$D87A21D2-0AED-4A6D-B24B-52C3AB343912",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1135,
+            "raw_time": "+1135-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7486"
+        ],
+        "statement_id": "Q7486$66AD9004-134E-4E23-A18C-4FB34D824436",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q208471",
+        "label": "开封市",
+        "label_en": "Kaifeng",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7486"
+        ],
+        "statement_id": "Q7486$28CECB8F-7E78-49C6-93A5-C8EB13F4AA11",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q208471",
+        "label": "开封市",
+        "label_en": "Kaifeng",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7486"
+        ],
+        "statement_id": "Q7486$F2BBC924-76E2-4535-844B-99B9571C15EF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·瘦金体",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7486",
+        "title": "Wikidata Q7486 / 宋徽宗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7486&oldid=2557926177",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557926177,
+        "modified_at": "2026-10-17T08:33:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

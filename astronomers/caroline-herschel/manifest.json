@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Caroline Herschel, search a modern survey for a new comet: sweep the field night after night, log every faint moving smudge at once, check each against the catalogue, and announce only the one that moves and matches no known object",
   "test_question_zh": "在现代巡天数据里搜寻新彗星",
   "verification": "生卒 1750–1848、8 颗彗星、星云星表整理、弗拉姆斯蒂德星表校订按天文史通说（Wikipedia / Britannica 共识）写；彗星数目口径已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76948",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Caroline Herschel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1750–1848",
+      "birth_year": {
+        "value": 1750,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76948"
+            ],
+            "statement_id": "q76948$B5356743-CD63-493E-80F9-F0730BB999EB",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1750,
+            "raw_time": "+1750-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76948"
+            ],
+            "statement_id": "q76948$0C3C7436-2736-4620-B033-E01B3DB1EB2D",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76948"
+        ],
+        "statement_id": "q76948$91823590-727E-422A-A6FF-F288758AB5E3",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76948"
+        ],
+        "statement_id": "Q76948$E656435A-67E3-4211-B96B-8FDFC3CAD74B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76948"
+        ],
+        "statement_id": "Q76948$22ce381b-4595-5c0a-016d-456ca5fed1a4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q164079",
+        "label": "汉诺威王国",
+        "label_en": "Kingdom of Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·彗星与星云"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76948",
+        "title": "Wikidata Q76948 / 卡羅琳·赫歇爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76948&oldid=2561195119",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561195119,
+        "modified_at": "2026-10-26T21:02:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

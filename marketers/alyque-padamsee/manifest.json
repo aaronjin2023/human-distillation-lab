@@ -36,5 +36,128 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款印度洗衣粉品牌的现代家庭战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4738699",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alyque Padamsee",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2018",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4738699"
+            ],
+            "statement_id": "Q4738699$1F3BCDA8-3B3D-4EEC-89DA-15B4C4C99521",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4738699"
+            ],
+            "statement_id": "Q4738699$933ccc35-419c-9f14-7f7a-a7342ee2be9c",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-11-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4738699"
+        ],
+        "statement_id": "Q4738699$52a0d8ef-406c-6212-9f8c-72faa04ff58b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1156",
+        "label": "孟买",
+        "label_en": "Mumbai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4738699"
+        ],
+        "statement_id": "Q4738699$e5442c60-410a-8d18-3000-d7535cc8c19c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4738699",
+        "title": "Wikidata Q4738699 / Alyque Padamsee",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4738699&oldid=2539225268",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2539225268,
+        "modified_at": "2026-09-01T21:35:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

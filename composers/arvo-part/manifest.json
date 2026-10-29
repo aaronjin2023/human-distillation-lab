@@ -31,5 +31,163 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189534",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arvo Pärt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1935–",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189534"
+            ],
+            "statement_id": "q189534$BB67FC95-90FE-4CD7-A796-3D05FF30CE9B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189534"
+        ],
+        "statement_id": "Q189534$B2418120-E2DB-4157-A00C-DBF3E78AAF24",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q45114",
+        "label": "派德",
+        "label_en": "Paide",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q189534"
+        ],
+        "statement_id": "Q189534$477BB2FB-56A7-473D-A027-5334E04AD793",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189534"
+        ],
+        "statement_id": "Q189534$4805D47E-C129-4848-87D2-36B562D97127",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1991-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q189534"
+        ],
+        "statement_id": "Q189534$05D988DC-AD0D-4DA0-8F10-71AA5A3061E6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q191",
+        "label": "爱沙尼亚",
+        "label_en": "Estonia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q189534"
+        ],
+        "statement_id": "Q189534$cfd1e781-4021-9840-3a92-df2b002d1c70",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1980-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代 / tintinnabuli"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189534",
+        "title": "Wikidata Q189534 / 阿沃·帕特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189534&oldid=2557799826",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557799826,
+        "modified_at": "2026-10-17T00:29:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

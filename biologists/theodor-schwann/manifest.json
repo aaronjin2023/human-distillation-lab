@@ -30,5 +30,157 @@
   "test_prompt": "In the style of Theodor Schwann, judge whether a highly differentiated animal tissue is built of cells: compare it with plant tissues and clearer animal tissues, look for cells and nuclei, and do not claim a formation mechanism the images cannot show",
   "test_question_zh": "一种新发现的动物组织分化程度很高、细胞边界不清，怎么判断它是否由细胞构成？",
   "verification": "生卒 1810–1882、动物细胞理论 1839、《细胞的显微研究》按生物学史通说写；原文表述未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76745",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Theodor Schwann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1810–1882",
+      "birth_year": {
+        "value": 1810,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76745"
+            ],
+            "statement_id": "q76745$8E7A10E3-5D40-4A4D-80EC-B281A8334E89",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1810,
+            "raw_time": "+1810-12-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76745"
+            ],
+            "statement_id": "q76745$8DD4BCE5-AC0C-4703-831E-9B9685F3D366",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76745"
+        ],
+        "statement_id": "Q76745$1EC8DB25-64EB-448E-AAFD-973AC8169B6F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2948",
+        "label": "诺伊斯",
+        "label_en": "Neuss",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76745"
+        ],
+        "statement_id": "Q76745$B7E00367-051F-4837-A424-5E7BA50695C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76745"
+        ],
+        "statement_id": "Q76745$DB6F8BA2-70D6-4EF0-8E56-53574A9812BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76745"
+        ],
+        "statement_id": "Q76745$0C28431A-F0CC-43C0-B91A-87A7E206F537",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q118958",
+        "label": "鲁汶",
+        "label_en": "Leuven",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76745"
+        ],
+        "statement_id": "Q76745$2A443549-2EDC-43F4-B2E7-B6315CCE939E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "细胞学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76745",
+        "title": "Wikidata Q76745 / 特奥多尔·施万",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76745&oldid=2533447650",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533447650,
+        "modified_at": "2026-08-19T22:26:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

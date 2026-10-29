@@ -44,5 +44,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61690",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Theodore Levitt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2006",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61690"
+            ],
+            "statement_id": "Q61690$C50E3420-B97F-484B-AD58-CC509172674C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61690"
+            ],
+            "statement_id": "Q61690$cecfad54-45e1-1d8f-cd42-34db1537e3c1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-06-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61690"
+        ],
+        "statement_id": "q61690$2A945D69-B794-4B8B-BB95-0B061034CCED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2532587",
+        "label": "Vollmerz",
+        "label_en": "Vollmerz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61690"
+        ],
+        "statement_id": "q61690$18AECA6C-DC8B-40A2-AC8E-BA89647EE317",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "营销战略"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61690",
+        "title": "Wikidata Q61690 / 西奥多·萊維特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61690&oldid=2488713057",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2488713057,
+        "modified_at": "2026-05-07T18:00:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

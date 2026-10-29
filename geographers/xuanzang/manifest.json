@@ -31,5 +31,172 @@
   "test_prompt": "In the style of Xuanzang, survey a modern cross-border rail corridor country by country: each entry gives its circuit, its customs, its stations and its neighbours — and where the distance was measured by a companion's step, say whose step it was",
   "test_question_zh": "一条现代跨境铁路走廊沿途各国情况如何？",
   "verification": "生卒与代表作按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q42063",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xuanzang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "602–664",
+      "birth_year": {
+        "value": 602,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42063"
+            ],
+            "statement_id": "Q42063$183e55a6-468c-8b8f-df2d-cb6f1650212e",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 602,
+            "raw_time": "+0602-04-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 664,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42063"
+            ],
+            "statement_id": "Q42063$2ac78dbd-48dd-2578-79a7-70c297541fb3",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 664,
+            "raw_time": "+0664-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q42063"
+        ],
+        "statement_id": "Q42063$829F9E5B-913F-424D-AAEB-F4F563736851",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1337479",
+        "label": "偃师区",
+        "label_en": "Yanshi District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q42063"
+        ],
+        "statement_id": "Q42063$540BF911-444D-4B7A-B612-441D9736B8B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+0618-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+0664-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q42063"
+        ],
+        "statement_id": "Q42063$0b889261-4786-a4ae-0a2e-eb748f1aec97",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+0602-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+0618-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q7405",
+        "label": "隋朝",
+        "label_en": "Sui dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "唐·西域地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q42063",
+        "title": "Wikidata Q42063 / 玄奘",
+        "url": "https://www.wikidata.org/w/index.php?title=Q42063&oldid=2558286175",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286175,
+        "modified_at": "2026-10-18T06:33:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

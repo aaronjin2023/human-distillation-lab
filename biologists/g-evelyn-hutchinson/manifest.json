@@ -29,5 +29,154 @@
     "湖泊调查原始数据未逐项核对",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q302752",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "G. Evelyn Hutchinson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1991",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302752"
+            ],
+            "statement_id": "Q302752$5A281D4C-E567-4428-897D-6CB0B5D86957",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-01-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302752"
+            ],
+            "statement_id": "Q302752$D6A2B522-B2DA-42F2-B99C-739C91C9A0A0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-05-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q302752"
+        ],
+        "statement_id": "q302752$683ED783-58CC-43A2-A793-8C1C510630FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q350",
+        "label": "剑桥",
+        "label_en": "Cambridge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q302752"
+        ],
+        "statement_id": "q302752$66F3D0A4-BD26-4A95-A52B-B40418F05E29",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q302752"
+        ],
+        "statement_id": "Q302752$FC45BCF4-F033-44E8-903E-D263B347BDFD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q302752"
+        ],
+        "statement_id": "Q302752$98E79F12-58FF-48B5-A2BC-9D1927450980",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生态学 / 湖沼学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q302752",
+        "title": "Wikidata Q302752 / 乔治·伊夫林·哈钦森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q302752&oldid=2529736189",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529736189,
+        "modified_at": "2026-08-10T21:15:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

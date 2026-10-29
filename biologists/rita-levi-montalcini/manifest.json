@@ -29,5 +29,179 @@
     "NGF 论文原文版本未逐项核对",
     "神经元计数的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q185007",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rita Levi-Montalcini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–2012",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q185007"
+            ],
+            "statement_id": "q185007$4FCE97D0-1A88-46AE-B36A-7FAE0467E669",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q185007"
+            ],
+            "statement_id": "q185007$764C13F7-AB0F-4B3A-8D99-EB8835AE2839",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2012,
+            "raw_time": "+2012-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q185007"
+        ],
+        "statement_id": "q185007$BEBDD1E6-3F21-4A6A-B89F-A56E834132DC",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q495",
+        "label": "都灵",
+        "label_en": "Turin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q185007"
+        ],
+        "statement_id": "Q185007$553C5843-3DC0-4D49-B5DA-81E9C289BA0E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q185007"
+        ],
+        "statement_id": "Q185007$BD2D8191-50D9-4EAF-99A9-4854272EFD2C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q185007"
+        ],
+        "statement_id": "Q185007$D098DB30-34C7-4F1A-83B9-FAF8F696E3FA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q185007"
+        ],
+        "statement_id": "q185007$49606207-D73D-4DE6-AB63-27B86529F1AA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "神经生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q185007",
+        "title": "Wikidata Q185007 / 丽塔·列维-蒙塔尔奇尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q185007&oldid=2558225007",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558225007,
+        "modified_at": "2026-10-18T03:06:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

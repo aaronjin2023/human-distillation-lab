@@ -28,3 +28,7 @@
 ## 核对记录（v0.1，2026-10-26）
 
 - 生卒与代表作以草稿名单为准，存疑项经网络核对（见 manifest.json sources）；未核对项见 `conflicts.md` 与 manifest.json `known_gaps`。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

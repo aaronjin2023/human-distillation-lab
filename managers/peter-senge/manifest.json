@@ -48,5 +48,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家新能源车企销量下滑只怪价格战怎么办",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q435801",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peter Senge",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q435801"
+            ],
+            "statement_id": "Q435801$4B4ABB5D-B5F3-4D5B-9F33-4BD49C9DAC97",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q435801"
+        ],
+        "statement_id": "Q435801$CD4B9D5B-2E7A-4F28-8ECB-1AA710004764",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q173813",
+        "label": "斯坦福",
+        "label_en": "Stanford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q435801"
+        ],
+        "statement_id": "q435801$815EEF6D-CC74-457F-B7D8-B7EB88837F39",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "学习型组织"
+    },
+    "sources": [
+      {
+        "id": "WD:Q435801",
+        "title": "Wikidata Q435801 / 彼得·圣吉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q435801&oldid=2521874941",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521874941,
+        "modified_at": "2026-07-23T23:57:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

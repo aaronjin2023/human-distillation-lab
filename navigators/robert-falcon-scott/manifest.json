@@ -36,5 +36,125 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Robert Falcon Scott, an uncrewed expedition works south in 2026 by sledge, laying supply depots at every stage, logging latitude, temperature and rations daily, science samples carried even when they slow the return. No dash without depots.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102527",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Falcon Scott",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1912",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102527"
+            ],
+            "statement_id": "q102527$F27498E5-EA4E-44D0-A9C4-09B906A983C2",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-06-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102527"
+            ],
+            "statement_id": "q102527$7C27F8C0-4B05-441E-930F-B4F03E53187E",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18122778,
+                  "id": "Q18122778"
+                }
+              ]
+            },
+            "value": 1912,
+            "raw_time": "+1912-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102527"
+        ],
+        "statement_id": "q102527$4C8BFC9F-412F-4CA9-B793-FA12156B3B31",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43382",
+        "label": "普利茅斯",
+        "label_en": "Plymouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102527"
+        ],
+        "statement_id": "Q102527$842E7F34-61E5-464B-92CF-3C554E2E53C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·南极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102527",
+        "title": "Wikidata Q102527 / 罗伯特·斯科特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102527&oldid=2558226102",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558226102,
+        "modified_at": "2026-10-18T03:09:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

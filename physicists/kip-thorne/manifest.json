@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Kip Thorne, explain why a Yorkshire terrier does not slip on a subway floor: draw the picture of forces first, compute what the paws should feel, and state the measurement that would prove the picture wrong",
   "test_question_zh": "解释地铁里一只约克夏犬为什么不会滑倒",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q323320",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kip Thorne",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q323320"
+            ],
+            "statement_id": "q323320$E3F2D83D-191A-4E9E-9566-CCEB260D4458",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q323320"
+        ],
+        "statement_id": "Q323320$85E606BD-1472-4D3E-8F5E-EA7C49E318F1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q482657",
+        "label": "洛根",
+        "label_en": "Logan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q323320"
+        ],
+        "statement_id": "q323320$00CD4DA2-6D7F-4127-BE56-CB59CDEF7F0B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "引力波 / 相对论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q323320",
+        "title": "Wikidata Q323320 / 基普·索恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q323320&oldid=2558083918",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558083918,
+        "modified_at": "2026-10-17T19:56:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

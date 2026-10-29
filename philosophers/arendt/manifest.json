@@ -37,5 +37,236 @@
   ],
   "test_prompt": "现代题材：自助结账机漏扫了一件商品，当事人是否该付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60025",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hannah Arendt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1975",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60025"
+            ],
+            "statement_id": "q60025$89390342-23D0-4776-AB1B-C6AA5430353A",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60025"
+            ],
+            "statement_id": "q60025$EFE02794-6C9D-4EF8-8ED7-E0681D0AFB56",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "Q60025$C638F5DB-9D32-4FED-8F9A-E39B11B1265D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18023391",
+        "label": "Lindener Marktplatz 2, Hannover",
+        "label_en": "Lindener Marktplatz 2, Hannover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "Q60025$EE06D1F3-CE87-4622-BBA8-4E6EF3EE28B0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q124017551",
+        "label": "Linden",
+        "label_en": "Linden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "Q60025$D46DC59C-53F4-4B68-A259-FDAF9A36BE02",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "Q60025$F8CCAAA0-A246-44AA-889B-EC62C34F1E48",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q124017551",
+        "label": "Linden",
+        "label_en": "Linden",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "q60025$4AC7BC2B-72A0-4FCE-8F88-D0C102CBA4ED",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1906-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1937-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38872",
+        "label": "普魯士",
+        "label_en": "Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "Q60025$CE15E9DD-DF97-476D-BD6D-A9FEAFA2ABB5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1937-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1951-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q223050",
+        "label": "无国籍",
+        "label_en": "statelessness",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60025"
+        ],
+        "statement_id": "q60025$1546120C-80C4-4E00-BE2D-0E0999E650D0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1951-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "政治哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60025",
+        "title": "Wikidata Q60025 / 汉娜·阿伦特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60025&oldid=2561178054",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561178054,
+        "modified_at": "2026-10-26T20:08:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

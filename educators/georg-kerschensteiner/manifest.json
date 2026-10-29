@@ -40,5 +40,158 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "劳作学校木质手机架工场课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1854–1932 经 web 搜索核对（StateUniversity 教育史、ERIC）；1852 一说记 conflicts.md，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61195",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georg Kerschensteiner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1854–1932",
+      "birth_year": {
+        "value": 1854,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61195"
+            ],
+            "statement_id": "Q61195$D95A8A9E-3896-4302-A4DE-8DDF4610568A",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1854,
+            "raw_time": "+1854-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61195"
+            ],
+            "statement_id": "Q61195$AF836337-EAF2-4931-91ED-82DFB8F5C9A1",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61195"
+        ],
+        "statement_id": "q61195$CC017808-B415-4424-B116-F4BCD6A10872",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q61195"
+        ],
+        "statement_id": "Q61195$81EDB573-C9FD-4B54-83E7-254E7B9041FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q61195"
+        ],
+        "statement_id": "Q61195$C1A0E51C-9E57-42BF-93A8-852DB1E7FA18",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61195"
+        ],
+        "statement_id": "q61195$E2B5C4F8-2A6D-4FCE-A7B7-E9E5DAAFC1F7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q154195",
+        "label": "巴伐利亚王国",
+        "label_en": "Kingdom of Bavaria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q61195"
+        ],
+        "statement_id": "Q61195$3ff786c0-45bd-e2b0-f623-9176acd6abfd",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·劳作学校",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61195",
+        "title": "Wikidata Q61195 / 格奥尔格·凯兴斯泰纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61195&oldid=2557891187",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557891187,
+        "modified_at": "2026-10-17T06:12:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

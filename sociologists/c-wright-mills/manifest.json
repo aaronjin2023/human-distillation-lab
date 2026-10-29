@@ -47,5 +47,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖骑手的劳动时间",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312837",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "C. Wright Mills",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–1962",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312837"
+            ],
+            "statement_id": "q312837$B5F4541D-C5AC-40B1-AC84-98CBE352B787",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312837"
+            ],
+            "statement_id": "q312837$B94667CE-E78D-4F88-9A86-EA8F138639E7",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312837"
+        ],
+        "statement_id": "q312837$EFE9C586-684F-4FA2-829E-6639315346F1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q128244",
+        "label": "韦科",
+        "label_en": "Waco",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312837"
+        ],
+        "statement_id": "q312837$52B36F05-FF77-4D16-B478-07B9207CA78A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "冲突理论·权力精英"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312837",
+        "title": "Wikidata Q312837 / 赖特·米尔斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312837&oldid=2557825880",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557825880,
+        "modified_at": "2026-10-17T02:01:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

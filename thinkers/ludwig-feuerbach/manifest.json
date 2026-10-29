@@ -32,5 +32,117 @@
   "thinker": "Ludwig Feuerbach",
   "thinker_zh": "路德维希·费尔巴哈",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76422",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ludwig Feuerbach",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1804–1872",
+      "birth_year": {
+        "value": 1804,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76422"
+            ],
+            "statement_id": "q76422$68A1F3D2-FAA0-4AF7-99DB-FAC170D42501",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1804,
+            "raw_time": "+1804-07-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76422"
+            ],
+            "statement_id": "q76422$944A89B9-F9EC-41B1-A362-8B303AECEDF0",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76422"
+        ],
+        "statement_id": "q76422$3AC34A49-9111-4799-8EBD-7155B6E145FA",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3974",
+        "label": "兰茨胡特",
+        "label_en": "Landshut",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76422"
+        ],
+        "statement_id": "q76422$A0F121C5-989B-40B2-BE4B-D753685B6C72",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q154195",
+        "label": "巴伐利亚王国",
+        "label_en": "Kingdom of Bavaria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "人本主义 / 宗教批判"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76422",
+        "title": "Wikidata Q76422 / 路德维希·费尔巴哈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76422&oldid=2558286035",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286035,
+        "modified_at": "2026-10-18T06:32:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

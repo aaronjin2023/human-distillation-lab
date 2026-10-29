@@ -44,5 +44,187 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q149136",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guru Dutt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–1964",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q149136"
+            ],
+            "statement_id": "Q149136$6AE0070C-4C76-46AA-9908-65F539FBD432",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q149136"
+            ],
+            "statement_id": "Q149136$425EA924-125D-4D94-BA27-C8AC2DD71D40",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q149136"
+        ],
+        "statement_id": "q149136$FE78A75E-8DFA-442E-8926-279AF3FCCD02",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1355",
+        "label": "班加罗尔",
+        "label_en": "Bengaluru",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q149136"
+        ],
+        "statement_id": "Q149136$8D65C8A0-611B-494C-84E3-627978102AB1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q149136"
+        ],
+        "statement_id": "Q149136$522b0af6-4413-dcf4-888e-54047121313b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q149136"
+        ],
+        "statement_id": "Q149136$9CF13425-CBA1-4221-A5A1-7A256BC0952F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·歌舞片 / 抒情悲剧",
+      "genre": "印度·歌舞片 / 抒情悲剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q149136",
+        "title": "Wikidata Q149136 / 古鲁·度特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q149136&oldid=2529902420",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529902420,
+        "modified_at": "2026-08-11T05:47:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

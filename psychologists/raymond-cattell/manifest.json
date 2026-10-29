@@ -43,5 +43,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q353133",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raymond Cattell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1998",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q353133"
+            ],
+            "statement_id": "q353133$5DA77333-3E33-49BE-A675-311E7641C1CA",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q353133"
+            ],
+            "statement_id": "q353133$147E587D-86EB-4ECC-8251-93A5EB3AA1A0",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-02-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q353133"
+        ],
+        "statement_id": "q353133$8CCA6DA9-21DD-4E10-BD62-EED1701DD518",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q212826",
+        "label": "西布罗米奇",
+        "label_en": "West Bromwich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q353133"
+        ],
+        "statement_id": "q353133$A0C7782D-B2A8-454F-90B7-0D1B93ADFB6A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q353133"
+        ],
+        "statement_id": "q353133$C605FF7A-FC22-41E7-93C3-94DA8682B60D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "人格心理学 / 特质 / 流体—晶体智力"
+    },
+    "sources": [
+      {
+        "id": "WD:Q353133",
+        "title": "Wikidata Q353133 / 雷蒙德·卡特尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q353133&oldid=2560317092",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560317092,
+        "modified_at": "2026-10-24T14:45:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

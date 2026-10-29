@@ -39,5 +39,134 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q133337",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Solon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.630–c.560 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133337"
+            ],
+            "statement_id": "Q133337$bc096996-4696-6649-4794-c199c2b3ffea",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -630,
+            "raw_time": "-0630-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q133337"
+            ],
+            "statement_id": "Q133337$a06f872f-4a87-ad3a-6200-64aea86b3551",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -560,
+            "raw_time": "-0560-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q133337"
+        ],
+        "statement_id": "Q133337$93B65B2F-DA39-4EDE-9527-F9BB03C475FB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q133337"
+        ],
+        "statement_id": "Q133337$F441A176-3687-46AC-BAD2-CCF3CCFF73ED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古希腊·财产等级税制",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q133337",
+        "title": "Wikidata Q133337 / 梭伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q133337&oldid=2559617396",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559617396,
+        "modified_at": "2026-10-22T02:09:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

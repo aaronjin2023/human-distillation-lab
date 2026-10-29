@@ -31,5 +31,157 @@
   "test_prompt": "In the style of William Herschel, map a modern galaxy's shape: survey the whole sky with the largest available telescope, count stars field by field, correct for dust, and let the shape emerge from the counts before naming the model",
   "test_question_zh": "测绘一个星系的形状",
   "verification": "生卒 1738–1822、天王星 1781 年、银河系盘状模型、红外辐射 1800 年按天文史通说（Wikipedia / Britannica 共识）写；太阳位置修正已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q14277",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Herschel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1738–1822",
+      "birth_year": {
+        "value": 1738,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14277"
+            ],
+            "statement_id": "q14277$803FAD5F-1FD1-4E88-8C19-104F10724719",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1738,
+            "raw_time": "+1738-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1822,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q14277"
+            ],
+            "statement_id": "q14277$8FD2D244-FF60-4488-B0A2-159FF5A59865",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1822,
+            "raw_time": "+1822-08-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q14277"
+        ],
+        "statement_id": "q14277$A2820C6C-E7AA-4407-81A4-6E84CAFC741A",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q14277"
+        ],
+        "statement_id": "Q14277$9B6D5C04-9C28-4D8B-BF33-1EB31D4FD4E9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q14277"
+        ],
+        "statement_id": "q14277$8A9B1E95-2683-495C-BF47-012E1F9BAACF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q164079",
+        "label": "汉诺威王国",
+        "label_en": "Kingdom of Hanover",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q14277"
+        ],
+        "statement_id": "q14277$D5CC9A85-73A4-4AC7-8721-A0E658FA4AFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q14277"
+        ],
+        "statement_id": "Q14277$b04d8e01-49db-76e6-1fcc-6239c5449a5c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·恒星天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q14277",
+        "title": "Wikidata Q14277 / 威廉·赫歇爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q14277&oldid=2561284032",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561284032,
+        "modified_at": "2026-10-27T02:37:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

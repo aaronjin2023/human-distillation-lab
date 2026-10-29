@@ -43,5 +43,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于向 AI 提问的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 《韩昌黎文集》通行本核对；作年未核对见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q318998",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Han Yu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "768–824",
+      "birth_year": {
+        "value": 768,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318998"
+            ],
+            "statement_id": "Q318998$68ACF085-725A-48E8-B20D-2F39CC9FE947",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 768,
+            "raw_time": "+0768-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 824,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q318998"
+            ],
+            "statement_id": "Q318998$C3526DFD-2942-4B85-9B8C-AED371415117",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 824,
+            "raw_time": "+0824-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q318998"
+        ],
+        "statement_id": "Q318998$3D24565A-453C-46F3-B786-040F3A260B2D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1198787",
+        "label": "孟州市",
+        "label_en": "Meng Prefecture",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q318998"
+        ],
+        "statement_id": "q318998$84F4B3C5-D068-4943-BA86-C89E57110B86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·师道论",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q318998",
+        "title": "Wikidata Q318998 / 韩愈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q318998&oldid=2557905977",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557905977,
+        "modified_at": "2026-10-17T07:02:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -51,5 +51,102 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Zhang Xu, wild cursive writing modern Tokyo subway station names, strokes crashing and leaping like sudden rain, huge and tiny characters side by side, dry and wet ink extremes, ink on paper",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q717343",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Xu",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "c.675–c.759",
+      "birth_year": {
+        "value": 670,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q717343"
+            ],
+            "statement_id": "Q717343$e9437d3a-bd13-441a-8e12-738fd15073df",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 670,
+            "raw_time": "+0670-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 675
+      },
+      "death_year": {
+        "value": 759,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q717343"
+        ],
+        "statement_id": "Q717343$c4f94db9-528e-41ed-ac0b-2da8aa29039d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42622",
+        "label": "苏州市",
+        "label_en": "Suzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q717343"
+        ],
+        "statement_id": "Q717343$8A2B02A8-84A8-4544-B824-32AC4E567B2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·狂草"
+    },
+    "sources": [
+      {
+        "id": "WD:Q717343",
+        "title": "Wikidata Q717343 / 张旭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q717343&oldid=2516109060",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516109060,
+        "modified_at": "2026-07-11T00:36:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

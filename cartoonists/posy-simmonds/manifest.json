@@ -39,5 +39,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "便利店深夜排队买咖啡的上班族（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：1945 年生（Wikipedia）；其余按草稿通说写，存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q877385",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Posy Simmonds",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1945–",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q877385"
+            ],
+            "statement_id": "Q877385$37800DBE-2410-4710-9704-770406EFB76A",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q877385"
+        ],
+        "statement_id": "Q877385$97FCD2C3-7E51-489B-AF6D-9BF5E70ECAA3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1129607",
+        "label": "库克汉姆",
+        "label_en": "Cookham",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q877385"
+        ],
+        "statement_id": "Q877385$627187DF-EB98-4B31-861D-B33327281D72",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·报纸/图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q877385",
+        "title": "Wikidata Q877385 / 波西·西蒙茲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q877385&oldid=2533038763",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533038763,
+        "modified_at": "2026-08-19T05:14:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

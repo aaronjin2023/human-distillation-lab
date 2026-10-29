@@ -33,5 +33,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "争议海域多国商船护航筹划",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5611975",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Julian Corbett",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1854–1922",
+      "birth_year": {
+        "value": 1854,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5611975"
+            ],
+            "statement_id": "Q5611975$de070549-4245-0b24-44f4-247f6de9267d",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1854,
+            "raw_time": "+1854-11-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5611975"
+            ],
+            "statement_id": "Q5611975$a7515a4d-498d-7cde-61ad-0a3e230d0979",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-11-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5611975"
+        ],
+        "statement_id": "Q5611975$77068e03-46f3-2340-e108-7e7ec0fa3767",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q202059",
+        "label": "兰贝斯区",
+        "label_en": "London Borough of Lambeth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5611975"
+        ],
+        "statement_id": "Q5611975$2658D85D-7F09-407A-90FA-5648CD594D99",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·海权理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5611975",
+        "title": "Wikidata Q5611975 / 柯白",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5611975&oldid=2519418867",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519418867,
+        "modified_at": "2026-07-19T00:42:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

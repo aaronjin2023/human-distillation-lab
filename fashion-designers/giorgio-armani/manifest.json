@@ -43,5 +43,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Giorgio Armani, a modern business-class flight attendant uniform, deconstructed suit, soft tailoring, greige and muted tones, fluid elegance, quiet power, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q157054",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giorgio Armani",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–2025",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q157054"
+            ],
+            "statement_id": "q157054$0F101D0F-2B59-4882-861E-8281CA2917DE",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q157054"
+            ],
+            "statement_id": "Q157054$1172eea2-4680-5663-3aef-550afcbf4bb0",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q157054"
+        ],
+        "statement_id": "q157054$7E95B551-0B56-498C-80E8-6B2B5F6071B4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q13329",
+        "label": "皮亚琴察",
+        "label_en": "Piacenza",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q157054"
+        ],
+        "statement_id": "Q157054$9CC9560B-C571-4D10-B2D4-35D9F3B0EBC8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣 / 解构西装",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q157054",
+        "title": "Wikidata Q157054 / 乔治·阿玛尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q157054&oldid=2557896519",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557896519,
+        "modified_at": "2026-10-17T06:33:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：只有化石颅骨、没有脑组织，如何研究脑的演化？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q86614",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tilly Edinger",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1897–1967",
+      "birth_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q86614"
+            ],
+            "statement_id": "Q86614$360FDD00-FF5D-4A1E-92F5-83B751B64630",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q86614"
+            ],
+            "statement_id": "Q86614$AF7C98D0-960D-4985-9A02-B41D948C2EE9",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q86614"
+        ],
+        "statement_id": "q86614$7E7AB87E-017C-4AD3-A36E-A98BFC355A81",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q86614"
+        ],
+        "statement_id": "q86614$87449B62-A4C6-41FE-A8A5-4DF00E05C5F8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q86614",
+        "title": "Wikidata Q86614 / Tilly Edinger",
+        "url": "https://www.wikidata.org/w/index.php?title=Q86614&oldid=2554648934",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554648934,
+        "modified_at": "2026-10-07T17:18:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

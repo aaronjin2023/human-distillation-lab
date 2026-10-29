@@ -51,5 +51,118 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Cai Yong, Han clerical script carving modern Tokyo subway station names on a stone stele, flat wide characters, crisp wave strokes, solemn spacing, black rubbing ink, a touch of flying-white dry brush",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q707702",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cai Yong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "132–192",
+      "birth_year": {
+        "value": 133,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707702"
+            ],
+            "statement_id": "Q707702$EF7FD490-63CF-4A12-B0ED-F178440674F2",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 133,
+            "raw_time": "+0133-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 132
+      },
+      "death_year": {
+        "value": 192,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707702"
+            ],
+            "statement_id": "Q707702$D7B90E6F-55B8-4D65-AF0B-430A9BDD7B90",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 192,
+            "raw_time": "+0192-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q707702"
+        ],
+        "statement_id": "q707702$D44E95B6-6A68-40FA-BA1D-158BE275BF7E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1198543",
+        "label": "杞县",
+        "label_en": "Qi County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q707702"
+        ],
+        "statement_id": "Q707702$A1294460-E810-45C0-B262-A4E14D5C1CBD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "东汉·隶书 / 飞白"
+    },
+    "sources": [
+      {
+        "id": "WD:Q707702",
+        "title": "Wikidata Q707702 / 蔡邕",
+        "url": "https://www.wikidata.org/w/index.php?title=Q707702&oldid=2553946521",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553946521,
+        "modified_at": "2026-10-06T13:39:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

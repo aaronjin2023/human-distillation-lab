@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（英文维基、Boydell Press）：生卒 1726–1772、《现代造园观察》1770 年出版，均与草稿一致；斯托园为论述对象，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1623066",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Whately",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1726–1772",
+      "birth_year": {
+        "value": 1726,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1623066"
+            ],
+            "statement_id": "Q1623066$E458D2D5-0516-4264-A74B-A8390570FF1E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1726,
+            "raw_time": "+1726-12-01T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1772,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1623066"
+            ],
+            "statement_id": "Q1623066$8C7692E0-256F-4BFD-BEF5-6DA848280BBC",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1772,
+            "raw_time": "+1772-05-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1623066"
+        ],
+        "statement_id": "q1623066$567F4E31-6DEC-4E2F-8B6A-62F892932171",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q993164",
+        "label": "埃普瑟姆",
+        "label_en": "Epsom",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1623066"
+        ],
+        "statement_id": "Q1623066$EC2CD8F6-8599-4EA0-9C56-84A0808BE42D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·风景式园林理论",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1623066",
+        "title": "Wikidata Q1623066 / 托马斯·惠利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1623066&oldid=2514954949",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514954949,
+        "modified_at": "2026-07-08T01:46:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,134 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1401",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francesco Petrarca",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1304–1374",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1401"
+            ],
+            "statement_id": "Q1401$7C4ABB06-1170-4679-9CC7-4906AEA7BE22",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                }
+              ]
+            },
+            "value": 1304,
+            "raw_time": "+1304-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1401"
+            ],
+            "statement_id": "Q1401$25a7f617-4dbb-1e80-22ad-fb26375d8747",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877143,
+                  "id": "Q26877143"
+                }
+              ]
+            },
+            "value": 1374,
+            "raw_time": "+1374-07-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1401"
+        ],
+        "statement_id": "q1401$3AA0D722-F41E-45F3-A347-1F855CB223E7",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q13378",
+        "label": "阿雷佐",
+        "label_en": "Arezzo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1401"
+        ],
+        "statement_id": "Q1401$2c3fd94e-4865-d0cf-43aa-afba93683fe4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148540",
+        "label": "佛罗伦萨共和国",
+        "label_en": "Republic of Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·十四行诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1401",
+        "title": "Wikidata Q1401 / 弗朗切斯科·彼特拉克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1401&oldid=2560428519",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560428519,
+        "modified_at": "2026-10-24T21:01:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,117 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款新茶饮品牌的民意与口味调查方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q315542",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Gallup",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1984",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315542"
+            ],
+            "statement_id": "q315542$02F01DF6-2741-4374-9687-0F48FC8CEC77",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315542"
+            ],
+            "statement_id": "q315542$611A6946-B37F-48CB-BE35-BA9483A1043F",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q315542"
+        ],
+        "statement_id": "q315542$FF9DEE4A-FE95-4AC6-A8D6-2822602F1381",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1769522",
+        "label": "杰弗逊",
+        "label_en": "Jefferson",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q315542"
+        ],
+        "statement_id": "q315542$6E9DAA3A-A487-4FA3-94C0-95F06C00EEAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "民意调查 / 市场调研"
+    },
+    "sources": [
+      {
+        "id": "WD:Q315542",
+        "title": "Wikidata Q315542 / 乔治·盖洛普",
+        "url": "https://www.wikidata.org/w/index.php?title=Q315542&oldid=2557892398",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557892398,
+        "modified_at": "2026-10-17T06:16:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

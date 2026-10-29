@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "凌晨机场（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q137042",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nat King Cole",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–1965",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q137042"
+            ],
+            "statement_id": "q137042$9AD7C6A7-AC44-48FA-A5C0-0868B0A1F5CD",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-03-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q137042"
+            ],
+            "statement_id": "q137042$EAB25E81-E71A-4F02-B838-D69E7CD87200",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q137042"
+        ],
+        "statement_id": "q137042$590C8594-CB4E-4309-BC9F-E8B55F1EAF12",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q29364",
+        "label": "蒙哥马利",
+        "label_en": "Montgomery",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q137042"
+        ],
+        "statement_id": "Q137042$C2DBA096-8ADD-49F8-8014-DF1F845D929E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q137042"
+          ],
+          "statement_id": "Q137042$ACC0FCD4-868D-4F50-BA3E-98331AAE313B",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·流行标准曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q137042",
+        "title": "Wikidata Q137042 / 纳·京·高",
+        "url": "https://www.wikidata.org/w/index.php?title=Q137042&oldid=2558179592",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558179592,
+        "modified_at": "2026-10-18T00:40:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

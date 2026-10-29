@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "姆巴耶风格：一份家庭法意见，论非洲跨境婚姻财产：从非洲习惯出发，人权普遍性结合非洲价值，司法克制，伦理第一。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q965045",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kéba Mbaye",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2007",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q965045"
+            ],
+            "statement_id": "Q965045$BFDC9EEF-7A40-47CA-8BDD-1BA49533F939",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q965045"
+            ],
+            "statement_id": "Q965045$9910CD41-531F-4935-AD35-1A163A504F08",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q965045"
+        ],
+        "statement_id": "q965045$221DC82F-2B1D-48B6-9DC9-BD5D32600385",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q847677",
+        "label": "考拉克",
+        "label_en": "Kaolack",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q965045"
+        ],
+        "statement_id": "q965045$C8E4CC93-F0AF-4411-968F-F8BFA787FA1F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1041",
+        "label": "塞内加尔",
+        "label_en": "Senegal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "非洲·国际法 / 人权",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q965045",
+        "title": "Wikidata Q965045 / 凯巴·姆巴耶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q965045&oldid=2524765256",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2524765256,
+        "modified_at": "2026-07-30T10:02:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

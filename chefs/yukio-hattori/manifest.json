@@ -43,5 +43,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "服部幸应风格：一碗现代拉面的食育重构——清晰解说、营养与传统、每一步都有讲解、人人可复现的家常菜。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8060739",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yukio Hattori",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1945–2024",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8060739"
+            ],
+            "statement_id": "Q8060739$48AA592C-6D03-4446-8B2F-5A574354D6CE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2024,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8060739"
+            ],
+            "statement_id": "Q8060739$9408badb-4e11-c56a-f903-ab7d8c7f90a3",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2024,
+            "raw_time": "+2024-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8060739"
+        ],
+        "statement_id": "Q8060739$8B21A189-CCE1-4D48-824B-464AB8E083F8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q236680",
+        "label": "丰岛区",
+        "label_en": "Toshima",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8060739"
+        ],
+        "statement_id": "Q8060739$98816312-9FC2-423A-93A5-88279AC6A352",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本食育",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8060739",
+        "title": "Wikidata Q8060739 / 服部幸应",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8060739&oldid=2541145093",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541145093,
+        "modified_at": "2026-09-06T14:55:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

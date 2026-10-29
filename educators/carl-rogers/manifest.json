@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "气候变化自选项目课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为《学习的自由》的通行名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q191004",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Rogers",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1987",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q191004"
+            ],
+            "statement_id": "q191004$D0161B8E-989D-4AF1-8CFA-C0E1C75BB21E",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q191004"
+            ],
+            "statement_id": "q191004$648D0A78-2DB7-4C58-B51F-9094C9A8B356",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q191004"
+        ],
+        "statement_id": "q191004$4164F13C-9C48-4817-95E8-268BFACC9B43",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q331397",
+        "label": "奥克帕克",
+        "label_en": "Oak Park",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q191004"
+        ],
+        "statement_id": "q191004$069A4E7F-683E-43A7-9D3B-C7DBEF08D7A3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·以学生为中心",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q191004",
+        "title": "Wikidata Q191004 / 卡尔·罗哲斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q191004&oldid=2560309072",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560309072,
+        "modified_at": "2026-10-24T14:04:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,168 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154770",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arnold Schoenberg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1874–1951",
+      "birth_year": {
+        "value": 1874,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154770"
+            ],
+            "statement_id": "q154770$1AA90297-EBFC-4A99-B218-D0A855209641",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1874,
+            "raw_time": "+1874-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154770"
+            ],
+            "statement_id": "q154770$8B97E1B2-7D88-424D-88D5-4381C8316E91",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-07-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "q154770$E2FDD9D4-C6C6-4DAC-92E2-B4F3D5C57921",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "Q154770$5CC62BA1-4AD3-4CB8-BADC-22FF49F6FB05",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "q154770$B2A0AE10-F78C-492D-8ACE-F8479641B39B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "Q154770$3e5d3ce5-49ef-04d9-3cd6-59932634079c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "Q154770$9cbc3285-4bc2-587d-ba16-0489c7d11b1b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28513",
+        "label": "奥匈帝国",
+        "label_en": "Austria–Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154770"
+        ],
+        "statement_id": "Q154770$46dc5145-4bbf-45f1-5e59-cfdbed691f5d",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q154770",
+        "title": "Wikidata Q154770 / 阿诺德·勋伯格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154770&oldid=2561655600",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561655600,
+        "modified_at": "2026-10-28T11:13:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,103 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次现代港口拥堵的疏通行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34503",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mehmed II",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1432–1481",
+      "birth_year": {
+        "value": 1432,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34503"
+            ],
+            "statement_id": "q34503$75B1E37C-F064-458A-A72D-D78FA615C232",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1432,
+            "raw_time": "+1432-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1481,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34503"
+            ],
+            "statement_id": "q34503$94BE753D-53A3-49FB-9486-778C5B7E3533",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1481,
+            "raw_time": "+1481-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34503"
+        ],
+        "statement_id": "q34503$CFB7916D-6327-4BA8-8F2E-A1A71E658044",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43387",
+        "label": "埃迪尔内",
+        "label_en": "Edirne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·攻城"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34503",
+        "title": "Wikidata Q34503 / 穆罕默德二世",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34503&oldid=2560672954",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560672954,
+        "modified_at": "2026-10-25T12:18:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

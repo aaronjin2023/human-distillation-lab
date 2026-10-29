@@ -32,5 +32,156 @@
   "test_prompt": "In the style of Ilya Prigogine, judge whether a new chemical oscillation is a dissipative structure: first check that the system is open and far from equilibrium, then analyse entropy production and stability, and only claim self-organisation if a bifurcation and a stable pattern survive perturbation",
   "test_question_zh": "判断一种新型化学振荡体系是否属于耗散结构",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q183509",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ilya Prigogine",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–2003",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183509"
+            ],
+            "statement_id": "Q183509$1EDC3CBB-82D9-4E25-9BF6-9F9EB07ABBBA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q183509"
+            ],
+            "statement_id": "Q183509$3134452F-76FD-4F49-97A1-BCBAA377A4D1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2003,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q183509"
+            ],
+            "statement_id": "q183509$C67BC4F9-4F66-42E2-92E5-FC1E81177C2C",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2003,
+            "raw_time": "+2003-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q183509"
+        ],
+        "statement_id": "q183509$FD39115B-1978-4B73-8620-CE96470FF9AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q183509"
+        ],
+        "statement_id": "q183509$9779C66A-7C0F-4118-B991-50D4B8AECF59",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q183509"
+        ],
+        "statement_id": "Q183509$1282e07d-435e-6597-618a-d86813e5df77",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "非平衡热力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q183509",
+        "title": "Wikidata Q183509 / 伊利亚·普里高津",
+        "url": "https://www.wikidata.org/w/index.php?title=Q183509&oldid=2560246061",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560246061,
+        "modified_at": "2026-10-24T09:04:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

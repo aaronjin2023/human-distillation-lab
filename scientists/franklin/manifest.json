@@ -29,5 +29,144 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：如何判断一种新病毒的衣壳结构？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7474",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rosalind Franklin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1958",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7474"
+            ],
+            "statement_id": "q7474$AEB3F721-3992-454A-949D-8FE050EBE35B",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7474"
+            ],
+            "statement_id": "q7474$2EDDFEAA-9891-4A96-B732-C2D34D555FAA",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7474"
+        ],
+        "statement_id": "q7474$95B13A4B-C402-45C5-9046-85ED0398C9C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q215354",
+        "label": "诺丁山",
+        "label_en": "Notting Hill",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7474"
+        ],
+        "statement_id": "q7474$F5ED64E1-525A-4220-BA39-D9BD7131BD15",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7474"
+        ],
+        "statement_id": "Q7474$2d56f8ec-4f11-80c6-13db-359a531afe6e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q7474"
+          ],
+          "statement_id": "Q7474$a732997d-4db9-9c61-2bff-ef8467fcf81f",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "分子生物 / 晶体学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7474",
+        "title": "Wikidata Q7474 / 羅莎琳·富蘭克林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7474&oldid=2558230344",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558230344,
+        "modified_at": "2026-10-18T03:28:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

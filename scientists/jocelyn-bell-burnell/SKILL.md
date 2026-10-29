@@ -36,3 +36,7 @@
 ## 核对记录（v0.1）
 
 - 2026-10-26：生卒（1943年7月15日，北爱尔兰贝尔法斯特）、1967年发现、1968年《自然》论文、1974年诺贝尔奖归属、2018年突破奖及捐款用途已用 web 搜索核对（Wikipedia、Britannica、Physics World、CSIRO、Trinity College Dublin）；未逐项核对处见 manifest.json `known_gaps`
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

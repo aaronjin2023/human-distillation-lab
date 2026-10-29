@@ -42,5 +42,138 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次跨国企业的市场进入战",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8423",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cyrus the Great",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.600–530 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8423"
+            ],
+            "statement_id": "Q8423$064E34B3-EDF5-43D3-8454-FF03042E36FD",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -600,
+            "raw_time": "-0600-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -530,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8423"
+            ],
+            "statement_id": "Q8423$DE35E5FF-5693-4014-B0BB-5CF281826413",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -530,
+            "raw_time": "-0530-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8423"
+        ],
+        "statement_id": "q8423$03D874D9-F465-4321-8AA5-797D393F3559",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q569107",
+        "label": "安善",
+        "label_en": "Anshan Persia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8423"
+        ],
+        "statement_id": "Q8423$d6a534f4-4d09-7bd7-f370-a891fc6b74d3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q389688",
+        "label": "阿契美尼德帝国",
+        "label_en": "Achaemenid Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8423"
+        ],
+        "statement_id": "Q8423$adb57fee-4b7f-268d-a078-988954926cbe",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q569107",
+        "label": "安善",
+        "label_en": "Anshan Persia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波斯·帝国征服"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8423",
+        "title": "Wikidata Q8423 / 居鲁士二世",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8423&oldid=2561374065",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561374065,
+        "modified_at": "2026-10-27T09:03:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

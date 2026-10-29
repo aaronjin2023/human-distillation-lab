@@ -32,5 +32,133 @@
   "test_prompt": "现代城市深夜的一家便利店",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q200580",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guillaume de Machaut",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1300–1377",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200580"
+            ],
+            "statement_id": "Q200580$7360EAB0-B03F-42C7-B05B-FAD2D7B96A03",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5609,
+                  "id": "Q5609"
+                }
+              ]
+            },
+            "value": 1300,
+            "raw_time": "+1300-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1377,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200580"
+            ],
+            "statement_id": "q200580$D59D7877-13DA-4D13-92D9-4A3B6735415A",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1377,
+            "raw_time": "+1377-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q200580"
+        ],
+        "statement_id": "q200580$61EEDED7-21C2-42F5-B32C-543F0E2E9287",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 21818619,
+              "id": "Q21818619"
+            }
+          ]
+        },
+        "qid": "Q41876",
+        "label": "兰斯",
+        "label_en": "Reims",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q200580"
+        ],
+        "statement_id": "Q200580$F70E38F0-11CF-44F0-B643-E013D30EA240",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中世纪 / 新艺术"
+    },
+    "sources": [
+      {
+        "id": "WD:Q200580",
+        "title": "Wikidata Q200580 / 纪尧姆·德·马肖",
+        "url": "https://www.wikidata.org/w/index.php?title=Q200580&oldid=2557900603",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557900603,
+        "modified_at": "2026-10-17T06:45:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

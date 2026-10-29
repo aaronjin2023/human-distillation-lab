@@ -43,5 +43,141 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q504100",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Taiichi Ohno",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1990",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q504100"
+            ],
+            "statement_id": "Q504100$502315F7-F0D8-4408-8564-9DDBFD78FC39",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-02-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q504100"
+            ],
+            "statement_id": "Q504100$B10EFD62-13BB-47C2-9E47-1453FB77A9A1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q504100"
+        ],
+        "statement_id": "q504100$A7FAF222-E09C-43A2-AB93-BAF966DF1785",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q74881",
+        "label": "大连市",
+        "label_en": "Dalian",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q504100"
+        ],
+        "statement_id": "q504100$7F9D9452-EC5C-47AA-994D-7A10A6B49243",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q504100"
+        ],
+        "statement_id": "Q504100$2FACF1CA-43DD-4CA5-9FC3-EEF9F97F757D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "丰田生产方式"
+    },
+    "sources": [
+      {
+        "id": "WD:Q504100",
+        "title": "Wikidata Q504100 / 大野耐一",
+        "url": "https://www.wikidata.org/w/index.php?title=Q504100&oldid=2541819268",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541819268,
+        "modified_at": "2026-09-07T18:19:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

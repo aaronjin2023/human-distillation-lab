@@ -38,5 +38,128 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q80966",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cate Blanchett",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q80966"
+            ],
+            "statement_id": "q80966$61FA54E4-8AEA-4245-9B3A-BED31C9A499E",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-05-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q80966"
+        ],
+        "statement_id": "Q80966$A5567CD0-6705-4CE8-868A-CFCF5EE9303B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3141",
+        "label": "墨尔本",
+        "label_en": "Melbourne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q80966"
+        ],
+        "statement_id": "Q80966$AF8372E5-ADEF-439F-9BC4-189FE311DACA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q80966"
+        ],
+        "statement_id": "q80966$64363EAC-7991-4D58-BAFE-7A5F81048F72",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q80966"
+        ],
+        "statement_id": "Q80966$94e86f5d-4761-6ce3-3a7b-6d0ff0b5f7eb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "澳大利亚/美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q80966",
+        "title": "Wikidata Q80966 / 凯特·布兰切特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q80966&oldid=2561669886",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561669886,
+        "modified_at": "2026-10-28T12:17:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

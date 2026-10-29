@@ -39,5 +39,184 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q491558",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ibn Taymiyyah",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1263–1328",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q491558"
+            ],
+            "statement_id": "Q491558$7444382D-7B3A-40A2-9B24-08A8C0068FB6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 1263,
+            "raw_time": "+1263-01-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q491558"
+            ],
+            "statement_id": "Q491558$DDD3B6B2-115C-4273-A627-00158F5E8C20",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 1263,
+            "raw_time": "+1263-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q491558"
+            ],
+            "statement_id": "Q491558$E89CA5FE-5B0C-4441-919A-ECBFEA71B165",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 1328,
+            "raw_time": "+1328-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q491558"
+        ],
+        "statement_id": "q491558$6A30E886-4E15-44C6-9775-CA58B95528A1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q199547",
+        "label": "哈兰",
+        "label_en": "Harran",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q491558"
+        ],
+        "statement_id": "Q491558$c436a228-4332-2abb-0821-b4300b23bf26",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q3766",
+        "label": "大马士革",
+        "label_en": "Damascus",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q491558"
+        ],
+        "statement_id": "Q491558$44918bc6-4eca-35cd-904c-d3f3b30944a8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q85",
+        "label": "开罗",
+        "label_en": "Cairo",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q491558"
+        ],
+        "statement_id": "Q491558$e2862c90-46f4-d09d-a422-020b49e1ad6b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5740166",
+        "label": "Abbasid Caliphate of Cairo",
+        "label_en": "Abbasid Caliphate of Cairo",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊斯兰·税法",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q491558",
+        "title": "Wikidata Q491558 / 伊本·泰米葉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q491558&oldid=2561451781",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561451781,
+        "modified_at": "2026-10-27T14:57:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

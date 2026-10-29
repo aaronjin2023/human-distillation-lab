@@ -29,5 +29,131 @@
     "舞蹈解码修正细节未逐项核对",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60060",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl von Frisch",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1886–1982",
+      "birth_year": {
+        "value": 1886,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60060"
+            ],
+            "statement_id": "q60060$321429A6-BFE2-47E8-9C5C-E682B781853E",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-11-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60060"
+            ],
+            "statement_id": "q60060$5BD063C1-6977-487B-BB87-72A47B2D46D3",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60060"
+        ],
+        "statement_id": "q60060$28D86B6D-7B7B-4B5C-8EEC-1619C3BE8997",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q60060"
+        ],
+        "statement_id": "Q60060$21D5A955-A1DF-450F-B500-EBBCCFF76D31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60060"
+        ],
+        "statement_id": "q60060$F0FC91EE-BB18-423B-8666-B69A8E5618A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "动物行为学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60060",
+        "title": "Wikidata Q60060 / 卡尔·冯·弗里希",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60060&oldid=2558079575",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558079575,
+        "modified_at": "2026-10-17T19:48:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

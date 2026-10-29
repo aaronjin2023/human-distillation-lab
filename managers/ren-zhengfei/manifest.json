@@ -43,5 +43,102 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q712802",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ren Zhengfei",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q712802"
+            ],
+            "statement_id": "Q712802$9AA7D128-65E4-4320-8626-D168029AC449",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q712802"
+        ],
+        "statement_id": "Q712802$3DCAAD3C-99A9-41EA-B361-924E070FB3ED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q197730",
+        "label": "镇宁布依族苗族自治县",
+        "label_en": "Zhenning Buyei and Miao Autonomous County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q712802"
+        ],
+        "statement_id": "Q712802$784863AF-5F53-465D-85B7-CA02992D269E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "通信设备",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q712802",
+        "title": "Wikidata Q712802 / 任正非",
+        "url": "https://www.wikidata.org/w/index.php?title=Q712802&oldid=2554033743",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554033743,
+        "modified_at": "2026-10-06T16:51:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

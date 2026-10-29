@@ -44,5 +44,118 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一碗现代拉面（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q27950853",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Peng Chang-kuei",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–2016",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27950853"
+            ],
+            "statement_id": "Q27950853$619FB9E1-E3F9-4497-9376-55069C607F24",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27950853"
+            ],
+            "statement_id": "Q27950853$CE82108E-35FF-4DF1-8F8C-D5C4A2BD8C90",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-11-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q27950853"
+        ],
+        "statement_id": "Q27950853$51EA281B-E273-401E-A0AF-DD73B728076E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174091",
+        "label": "长沙市",
+        "label_en": "Changsha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q27950853"
+        ],
+        "statement_id": "Q27950853$A9D69A2C-2699-4D24-9A21-C4439B5669E3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "湘菜",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q27950853",
+        "title": "Wikidata Q27950853 / 彭長貴",
+        "url": "https://www.wikidata.org/w/index.php?title=Q27950853&oldid=2542358060",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542358060,
+        "modified_at": "2026-09-08T16:48:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,180 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q322953",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aldo Rossi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–1997",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q322953"
+            ],
+            "statement_id": "q322953$2D3437BC-57E4-42EA-BDF0-CA0CF7A53717",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q322953"
+            ],
+            "statement_id": "q322953$9553C88D-A1F8-456B-B6FB-E8FBFE477663",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q322953"
+        ],
+        "statement_id": "q322953$CB1F8A7A-1E78-48F7-A4FF-EA463D81FEC7",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q490",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q322953"
+        ],
+        "statement_id": "Q322953$9EDB0F15-4AA2-4D33-B734-4471AA751EDF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q490",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q322953"
+        ],
+        "statement_id": "q322953$183924A7-9A49-4E1C-B58E-02AF14F03A2D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q322953"
+        ],
+        "statement_id": "Q322953$26CE66E3-A730-48D9-9481-D7872EFCEDA3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q322953"
+        ],
+        "statement_id": "Q322953$B8619713-6A45-4ECD-8FB8-71C96477D9B5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新理性主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q322953",
+        "title": "Wikidata Q322953 / 阿尔多·罗西",
+        "url": "https://www.wikidata.org/w/index.php?title=Q322953&oldid=2560272124",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560272124,
+        "modified_at": "2026-10-24T11:15:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

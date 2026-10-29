@@ -33,5 +33,132 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代国家间网络冲突分析",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76430",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl von Clausewitz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1780–1831",
+      "birth_year": {
+        "value": 1780,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76430"
+            ],
+            "statement_id": "q76430$18679134-AE1C-47E7-AE6C-8C85A6CAD47C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1780,
+            "raw_time": "+1780-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q76430"
+            ],
+            "statement_id": "Q76430$FE773E7B-AC73-4248-BCFC-0E868930DF92",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1780,
+            "raw_time": "+1780-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1831,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76430"
+            ],
+            "statement_id": "q76430$F70F6405-24EB-49B6-B7CE-5A9C8E1FAD1F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1831,
+            "raw_time": "+1831-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76430"
+        ],
+        "statement_id": "q76430$C4083FAD-8B56-4000-8571-ABA4864A6F3B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q525632",
+        "label": "布尔格",
+        "label_en": "Burg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76430"
+        ],
+        "statement_id": "Q76430$cba9825e-4bd5-c692-f39a-5cbe1c0c0431",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·战争理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76430",
+        "title": "Wikidata Q76430 / 卡尔·冯·克劳塞维茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76430&oldid=2559585140",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559585140,
+        "modified_at": "2026-10-21T21:15:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

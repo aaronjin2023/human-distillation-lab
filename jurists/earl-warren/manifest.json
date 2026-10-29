@@ -1,48 +1,161 @@
 {
-    "date": "2026-10-26",
-    "dates": "1891–1974",
-    "evidence_levels": [
-        "verbatim",
-        "artifact",
-        "impression"
+  "date": "2026-10-26",
+  "dates": "1891–1974",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "genre": "judge / 法官",
+  "jurist": "Earl Warren",
+  "jurist_zh": "沃伦",
+  "known_gaps": [
+    "沃伦各案判决的评议过程无完整记录，评议环节按判决结构反推",
+    "沃伦法院各案的社会科学证据来源未逐项核对原文出处"
+  ],
+  "language_samples": [
+    {
+      "level": "verbatim",
+      "source": "《布朗诉教育委员会案》（Brown v. Board of Education, 1954）",
+      "text": "Separate educational facilities are inherently unequal."
+    },
+    {
+      "level": "artifact",
+      "source": "《米兰达诉亚利桑那州案》（Miranda v. Arizona, 1966）所确立的米兰达警告（判决要求告知的内容，非判决书原句）",
+      "text": "You have the right to remain silent.（米兰达警告标准表述，源自本案判决的告知要求）"
+    }
+  ],
+  "list_position": "jurists-top100-draft v1 #54",
+  "living_person": false,
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证结构、句式与价值排序是否成立",
+  "school": "美国·最高法院",
+  "scope": "只蒸法律成就与成果物（法律著作、判例意见、立法草案与条约文本），不蒸私生活与政治八卦",
+  "source_works": [
+    "布朗诉教育委员会案",
+    "米兰达诉亚利桑那州案",
+    "吉迪恩诉温赖特案"
+  ],
+  "sources": [
+    "《布朗诉教育委员会案》判决书（U.S. Reports）",
+    "《米兰达诉亚利桑那州案》判决书（U.S. Reports）",
+    "草稿 jurists-top100-draft.md 第 6 节"
+  ],
+  "status": "draft v0.1",
+  "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
+  "test_prompt": "在线教育资源不均的平等保护（见 style.md 第 7 节）",
+  "verification": "2026-10-26 通说核对：生卒 1891–1974、两案引文为学界通行引文；米兰达警告句为判决所确立的告知内容；未核对项见 conflicts.md 与 known_gaps",
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311197",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Earl Warren",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1974",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311197"
+            ],
+            "statement_id": "q311197$3791C437-C84B-427C-B45B-F8B3513A6A4E",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-03-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311197"
+            ],
+            "statement_id": "q311197$6C085EA0-F7FB-4719-8396-59D1960CACC2",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311197"
+        ],
+        "statement_id": "q311197$8590E6DC-BCFD-4B0A-9CB9-E53055576EE8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
     ],
-    "genre": "judge / 法官",
-    "jurist": "Earl Warren",
-    "jurist_zh": "沃伦",
-    "known_gaps": [
-        "沃伦各案判决的评议过程无完整记录，评议环节按判决结构反推",
-        "沃伦法院各案的社会科学证据来源未逐项核对原文出处"
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311197"
+        ],
+        "statement_id": "q311197$01BE34F4-94FB-4A5C-8767-EEDF12ACE600",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
     ],
-    "language_samples": [
-        {
-            "level": "verbatim",
-            "source": "《布朗诉教育委员会案》（Brown v. Board of Education, 1954）",
-            "text": "Separate educational facilities are inherently unequal."
-        },
-        {
-            "level": "artifact",
-            "source": "《米兰达诉亚利桑那州案》（Miranda v. Arizona, 1966）所确立的米兰达警告（判决要求告知的内容，非判决书原句）",
-            "text": "You have the right to remain silent.（米兰达警告标准表述，源自本案判决的告知要求）"
-        }
-    ],
-    "list_position": "jurists-top100-draft v1 #54",
-    "living_person": false,
-    "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查论证结构、句式与价值排序是否成立",
-    "school": "美国·最高法院",
-    "scope": "只蒸法律成就与成果物（法律著作、判例意见、立法草案与条约文本），不蒸私生活与政治八卦",
-    "source_works": [
-        "布朗诉教育委员会案",
-        "米兰达诉亚利桑那州案",
-        "吉迪恩诉温赖特案"
-    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·最高法院",
+      "genre": "judge / 法官"
+    },
     "sources": [
-        "《布朗诉教育委员会案》判决书（U.S. Reports）",
-        "《米兰达诉亚利桑那州案》判决书（U.S. Reports）",
-        "草稿 jurists-top100-draft.md 第 6 节"
-    ],
-    "status": "draft v0.1",
-    "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
-    "test_prompt": "在线教育资源不均的平等保护（见 style.md 第 7 节）",
-    "verification": "2026-10-26 通说核对：生卒 1891–1974、两案引文为学界通行引文；米兰达警告句为判决所确立的告知内容；未核对项见 conflicts.md 与 known_gaps",
-    "version": "0.1"
+      {
+        "id": "WD:Q311197",
+        "title": "Wikidata Q311197 / 厄尔·沃伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311197&oldid=2557858480",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557858480,
+        "modified_at": "2026-10-17T04:25:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

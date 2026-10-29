@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "网约车平台的法律规制（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：引文见 Justia 所载判例引文（Interpretations of Legal History 1）；生卒 1870–1964 为通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1149723",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roscoe Pound",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1964",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1149723"
+            ],
+            "statement_id": "q1149723$9E09E2EC-B74A-4572-9211-C65C60490158",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1149723"
+            ],
+            "statement_id": "Q1149723$0c47bfa9-b369-4542-9460-23e061efd5e9",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1149723"
+        ],
+        "statement_id": "q1149723$68D51F9F-8EE2-44D2-A6D2-9AA5C439C76E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28260",
+        "label": "林肯",
+        "label_en": "Lincoln",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1149723"
+        ],
+        "statement_id": "q1149723$B22FC761-A104-4EE1-8CD6-6806372DCF2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·社会法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1149723",
+        "title": "Wikidata Q1149723 / 罗斯科·庞德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1149723&oldid=2521632514",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521632514,
+        "modified_at": "2026-07-23T12:33:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

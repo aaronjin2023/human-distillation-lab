@@ -30,5 +30,117 @@
   "test_prompt": "In the method of John Bardeen, design a flexible transistor for a wearable device: measure surface states first, fix the surface that blocks the field effect, and prove gain with current-voltage data before claiming the device",
   "test_question_zh": "为可穿戴设备设计一种柔性导电材料",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对（Wikipedia / NobelPrize.org / 机构来源共识）；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q949",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Bardeen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1991",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q949"
+            ],
+            "statement_id": "q949$306B8725-A360-4CA9-90A9-51D33B046BC3",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-05-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q949"
+            ],
+            "statement_id": "q949$6E4D93E5-AA15-4B75-A3EC-B70B80BC0798",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-01-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q949"
+        ],
+        "statement_id": "q949$96710EA1-DB6B-4726-842F-49F740454BD8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q43788",
+        "label": "麦迪逊",
+        "label_en": "Madison",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q949"
+        ],
+        "statement_id": "q949$02FE9853-2904-4FEE-A1B9-CCAF51BD9924",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "晶体管 / 超导"
+    },
+    "sources": [
+      {
+        "id": "WD:Q949",
+        "title": "Wikidata Q949 / 约翰·巴丁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q949&oldid=2557978221",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557978221,
+        "modified_at": "2026-10-17T12:22:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

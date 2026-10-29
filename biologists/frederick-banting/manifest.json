@@ -29,5 +29,117 @@
     "胰岛素论文原文版本未逐项核对",
     "血糖测定的具体数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q180350",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frederick Banting",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1941",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180350"
+            ],
+            "statement_id": "q180350$93EA4697-3851-4699-A5B8-4A63BE148A1F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q180350"
+            ],
+            "statement_id": "q180350$7E18260B-B595-41C9-AEFC-F8864E9D7819",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q180350"
+        ],
+        "statement_id": "q180350$2D2B954B-0AE5-4B86-8B49-3D67E4167CC0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1490411",
+        "label": "安大略",
+        "label_en": "Alliston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q180350"
+        ],
+        "statement_id": "q180350$7C683032-B9CF-4F14-84EA-07100E7B1DDB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生理学 / 医学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q180350",
+        "title": "Wikidata Q180350 / 弗雷德里克·班廷",
+        "url": "https://www.wikidata.org/w/index.php?title=Q180350&oldid=2560361920",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560361920,
+        "modified_at": "2026-10-24T17:45:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

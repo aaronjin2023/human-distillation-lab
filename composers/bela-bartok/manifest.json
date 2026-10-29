@@ -30,5 +30,141 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "现代城市街角小便利店的深夜场景",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83326",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Béla Bartók",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1881–1945",
+      "birth_year": {
+        "value": 1881,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83326"
+            ],
+            "statement_id": "q83326$838E19A2-044E-4E20-9AC2-00F70E653C53",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1881,
+            "raw_time": "+1881-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83326"
+            ],
+            "statement_id": "q83326$826FBA4A-8D44-43C6-825D-BA019B532E62",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83326"
+        ],
+        "statement_id": "q83326$07ED090B-8671-45C4-B730-FAD0BFB0AB4B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q837161",
+        "label": "大聖尼古拉",
+        "label_en": "Sânnicolau Mare",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83326"
+        ],
+        "statement_id": "Q83326$D6891F05-AE41-4319-A0A9-2D307608CCBF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28",
+        "label": "匈牙利",
+        "label_en": "Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q83326"
+        ],
+        "statement_id": "Q83326$3845b0a7-4974-5ec4-e157-de0c236ed39b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义 / 民族乐派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83326",
+        "title": "Wikidata Q83326 / 巴托克·贝拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83326&oldid=2561025728",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561025728,
+        "modified_at": "2026-10-26T09:39:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

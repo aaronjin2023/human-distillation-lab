@@ -29,5 +29,104 @@
     "《几何原本》通行本与原稿的差异无法逐条核对",
     "第五公设在当时是否已被察觉为特殊，无记载"
   ],
-  "verification": "草稿第 4 节第 10 条已明示生平约数；第五公设后世史为学界通说。"
+  "verification": "草稿第 4 节第 10 条已明示生平约数；第五公设后世史为学界通说。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8747",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Euclid",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.325–c.265 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8747"
+            ],
+            "statement_id": "Q8747$8fd8882a-4606-b55b-81e5-df587eb6f817",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -333,
+            "raw_time": "-0333-00-00T00:00:00Z",
+            "precision": 7,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -285,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8747"
+            ],
+            "statement_id": "Q8747$490b4143-433f-b90d-6c70-64e37e3a0cd5",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -285,
+            "raw_time": "-0285-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": -265
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8747"
+        ],
+        "statement_id": "Q8747$e7ff87fd-46bd-28be-375d-695b08e04cc9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "数学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8747",
+        "title": "Wikidata Q8747 / 欧几里得",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8747&oldid=2553820524",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553820524,
+        "modified_at": "2026-10-06T08:07:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

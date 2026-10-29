@@ -43,5 +43,132 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a man buying oden at a convenience store late at night, under a blue moon",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q725828",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lorenz Hart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1943",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q725828"
+            ],
+            "statement_id": "q725828$46602873-78F6-44C1-ADB3-32A4C3F950C2",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q725828"
+            ],
+            "statement_id": "q725828$DA2E0647-A5FC-47DE-B9D7-E7CA133DB8BC",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q725828"
+        ],
+        "statement_id": "Q725828$D8D5A4CD-9F0D-4221-9010-135EC248E15A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q189074",
+        "label": "哈莱姆区",
+        "label_en": "Q189074",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q725828"
+        ],
+        "statement_id": "q725828$2A1A5741-7FEC-4DF9-A1AB-6971EE4456CA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q725828"
+          ],
+          "statement_id": "Q725828$537CC548-838F-41B7-89A5-64B426E19818",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英语标准曲·歌词",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q725828",
+        "title": "Wikidata Q725828 / 劳伦兹·哈特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q725828&oldid=2558129577",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558129577,
+        "modified_at": "2026-10-17T22:13:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,101 @@
   "test_prompt": "In the style of Frances Arnold, design a directed-evolution plan to engineer an enzyme that breaks down a new drug pollutant: random mutation, high-throughput screening, select the best variant, iterate for three generations, and only claim success when the activity repeats across rounds",
   "test_question_zh": "为一种新型药物污染物设计定向进化方案",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4273363",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frances Arnold",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4273363"
+            ],
+            "statement_id": "Q4273363$4281164A-0208-41F3-90E3-DA1AB70035E1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4273363"
+        ],
+        "statement_id": "Q4273363$F97FBDA7-2B8F-462B-8B25-48179AED7777",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1342",
+        "label": "匹兹堡",
+        "label_en": "Pittsburgh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4273363"
+        ],
+        "statement_id": "Q4273363$5237049A-75DB-4F33-8185-D2D21F528279",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "酶工程"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4273363",
+        "title": "Wikidata Q4273363 / 弗朗西丝·阿诺德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4273363&oldid=2560249905",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560249905,
+        "modified_at": "2026-10-24T09:23:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

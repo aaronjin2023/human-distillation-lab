@@ -38,5 +38,118 @@
   "verification": "2026-10-26 网络核对（存疑项已记入 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Charles MacArthur",
-  "writer_zh": "查尔斯·麦克阿瑟"
+  "writer_zh": "查尔斯·麦克阿瑟",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q983356",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles MacArthur",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1956",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983356"
+            ],
+            "statement_id": "q983356$9792E4F1-084E-4747-96A3-D9BCF6012B1C",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-11-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q983356"
+            ],
+            "statement_id": "q983356$D8C5D602-0419-44FC-A1F2-2B19CB5CD7C8",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-04-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q983356"
+        ],
+        "statement_id": "q983356$E2933617-8D6B-4F75-8B9D-68D22E319036",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q271395",
+        "label": "斯克兰顿",
+        "label_en": "Scranton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q983356"
+        ],
+        "statement_id": "q983356$AEEE9C8B-455F-4E38-B2F4-DB4BC79ABA1E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·1930–40 年代",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q983356",
+        "title": "Wikidata Q983356 / 查尔斯·麦克阿瑟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q983356&oldid=2539244653",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2539244653,
+        "modified_at": "2026-09-01T22:34:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

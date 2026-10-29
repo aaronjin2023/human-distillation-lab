@@ -46,5 +46,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店排队者的意义解释",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q729554",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Herbert Blumer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1987",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q729554"
+            ],
+            "statement_id": "q729554$92F8EF61-D428-40B5-A498-703DD4A33055",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q729554"
+            ],
+            "statement_id": "q729554$9CD7F13F-CAB5-4CC5-8260-AE0BD929C2FD",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q729554"
+        ],
+        "statement_id": "Q729554$BE7711AA-2B50-43C4-BF7B-C174756B68CC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38022",
+        "label": "圣路易斯",
+        "label_en": "St. Louis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q729554"
+        ],
+        "statement_id": "q729554$0D0CCDF0-A97B-4BEF-B3E9-643907F1F891",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "符号互动论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q729554",
+        "title": "Wikidata Q729554 / 赫伯特·布魯默",
+        "url": "https://www.wikidata.org/w/index.php?title=Q729554&oldid=2551326940",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551326940,
+        "modified_at": "2026-09-30T13:28:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

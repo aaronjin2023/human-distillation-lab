@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Stephen Hawking, explain a quantum computer: start from the most extreme limit of information, show how quantum rules change what can be computed, and end with the paradox that still has no agreed answer",
   "test_question_zh": "解释一台量子计算机",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q17714",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Stephen Hawking",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1942–2018",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17714"
+            ],
+            "statement_id": "q17714$20c936d4-4a1a-26bc-da9e-ab4be29ec667",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-01-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q17714"
+            ],
+            "statement_id": "Q17714$e3ff3437-4f0c-bf84-3549-7f9d68792c85",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-03-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q17714"
+        ],
+        "statement_id": "q17714$e59467dd-44c8-e20c-f6a9-8caf42dd1ce8",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34217",
+        "label": "牛津",
+        "label_en": "Oxford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q17714"
+        ],
+        "statement_id": "Q17714$E929DABD-F647-4F2C-BE3D-454251C7A9A8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q350",
+        "label": "剑桥",
+        "label_en": "Cambridge",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q17714"
+        ],
+        "statement_id": "q17714$f1e42fec-4988-ede3-e1f0-a2973b363d92",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "黑洞 / 宇宙学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q17714",
+        "title": "Wikidata Q17714 / 史蒂芬·霍金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q17714&oldid=2561621592",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561621592,
+        "modified_at": "2026-10-28T08:04:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

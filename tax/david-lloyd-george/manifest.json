@@ -43,5 +43,193 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想国家设计对短视频平台土地式垄断租金征税的方案（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q134982",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Lloyd George",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1863–1945",
+      "birth_year": {
+        "value": 1863,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134982"
+            ],
+            "statement_id": "q134982$BC352E39-5736-4834-A9D3-8E1039FD906F",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1863,
+            "raw_time": "+1863-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134982"
+            ],
+            "statement_id": "q134982$4BABC5B0-0721-4376-BA85-87D584CEACDF",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "q134982$74ECE31E-9DA6-413B-A782-D764E1658048",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q18125",
+        "label": "曼彻斯特",
+        "label_en": "Manchester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "Q134982$F7B02A59-7539-4A6A-8153-ED5D386EB117",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "Q134982$c9845e3d-4b72-e8fb-9610-40ec1f95e3e9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q169101",
+        "label": "唐宁街10号",
+        "label_en": "10 Downing Street",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "Q134982$35cb1ac2-43b6-1021-5297-f4766b2c0580",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2403633",
+        "label": "唐寧街11號",
+        "label_en": "11 Downing Street",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "q134982$C67A1E18-DCDD-4807-9442-572580D5C0EF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q134982"
+        ],
+        "statement_id": "Q134982$BDE08B40-496D-4494-A612-307967516C15",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·人民预算",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q134982",
+        "title": "Wikidata Q134982 / 大卫·劳合·乔治",
+        "url": "https://www.wikidata.org/w/index.php?title=Q134982&oldid=2559700718",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559700718,
+        "modified_at": "2026-10-22T15:26:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

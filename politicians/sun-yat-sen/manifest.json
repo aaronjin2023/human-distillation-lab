@@ -72,5 +72,163 @@
   "distillation_method": "公开文本的artifact证据、对照材料与原创操作化分开；不从演说直接推断成效或私人性格。",
   "legacy_refs": [
     "tax/sun-yat-sen"
-  ]
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8573",
+      "status": "matched",
+      "match_basis": {
+        "type": "reviewed_name_and_professional_context",
+        "evidence": "对照现有manifest的公开专业与代表作：《民权初步》《建国大纲》对应孙中山，与候选Sun Yat-sen及政治、革命身份一致。仅确认资料关联身份，生卒与地域仍为source_recorded，争议值保留，民族不升级。"
+      }
+    },
+    "life": {
+      "original_text": null,
+      "birth_year": {
+        "value": 1866,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8573"
+            ],
+            "statement_id": "q8573$6FE48EDE-8DC7-4A37-97DE-CF4BCFC705A7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1866,
+            "raw_time": "+1866-11-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8573"
+            ],
+            "statement_id": "q8573$FEB55728-14CB-425A-8F19-E4CB4339D792",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-03-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8573"
+        ],
+        "statement_id": "q8573$BFDD11DF-8E1F-497C-A83A-13860DA52705",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q588677",
+        "label": "翠亨村",
+        "label_en": "Cuiheng",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q8573"
+        ],
+        "statement_id": "Q8573$75F5892F-F859-44C5-87AE-20DD989E46E5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8646",
+        "label": "香港",
+        "label_en": "Hong Kong",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8573"
+        ],
+        "statement_id": "q8573$6DEC2127-C2BD-43C4-8DB8-D0C0A48354CE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8573"
+        ],
+        "statement_id": "Q8573$77370823-4b8f-6f58-d0c1-0a76e3d49647",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q8573",
+        "title": "Wikidata Q8573 / 孙中山",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8573&oldid=2558247283",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558247283,
+        "modified_at": "2026-10-18T04:29:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -45,5 +45,210 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55193",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dziga Vertov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1954",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55193"
+            ],
+            "statement_id": "Q55193$9ef2615d-4da5-9dec-875a-10b850e676d1",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55193"
+            ],
+            "statement_id": "q55193$BFEEE8A6-BDE1-4C83-8B59-2BC02C2EE85F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55193"
+        ],
+        "statement_id": "q55193$10FBFBC3-DE96-41FF-AF1B-A5CD499A4770",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q761",
+        "label": "比亚韦斯托克",
+        "label_en": "Białystok",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55193"
+        ],
+        "statement_id": "Q55193$B9B4DA3E-EC3C-4CFA-9D24-D56E22CDA52F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1917-09-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55193"
+        ],
+        "statement_id": "Q55193$3e78f5cd-41a5-e6ee-a600-06fa04fafd9f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1917-10-25T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1922-12-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2305208",
+        "label": "蘇維埃俄國",
+        "label_en": "Russian Socialist Federative Soviet Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55193"
+        ],
+        "statement_id": "Q55193$f443549c-4a07-dfc7-ae4a-b481f330d7fd",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1922-12-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2184",
+        "label": "俄罗斯苏维埃联邦社会主义共和国",
+        "label_en": "Russian Soviet Federative Socialist Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55193"
+        ],
+        "statement_id": "Q55193$613be05f-4905-7e25-2d86-df34a08bb16f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1922-12-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "苏联·电影眼睛 / 纪录"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55193",
+        "title": "Wikidata Q55193 / 狄嘉·維托夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55193&oldid=2557858315",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557858315,
+        "modified_at": "2026-10-17T04:24:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

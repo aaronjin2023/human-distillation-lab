@@ -31,5 +31,100 @@
   "test_prompt": "In the style of Michael Goodchild, ask what a delivery app's map can and cannot know: where the uncertainty lives, how scale changes the answer, and what volunteered rider traces add — and bias.",
   "test_question_zh": "配送应用地图的不确定性",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3513446",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michael Goodchild",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3513446"
+            ],
+            "statement_id": "Q3513446$85D63349-2270-41D5-98B5-DD2939D7CDE3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3513446"
+        ],
+        "statement_id": "Q3513446$77775D3F-7CDE-432E-8D8B-EE0838FCB22D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3513446"
+        ],
+        "statement_id": "Q3513446$c9821cb4-4da9-597b-0b8b-5150e7a57e5c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "加拿大—美国·地理信息科学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3513446",
+        "title": "Wikidata Q3513446 / 迈克尔·弗兰克·古德柴尔德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3513446&oldid=2560614154",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560614154,
+        "modified_at": "2026-10-25T08:42:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,102 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q495980",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bong Joon-ho",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–（在世）",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q495980"
+            ],
+            "statement_id": "Q495980$DBB16F9E-5935-4C96-8107-972DBFCA430D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q495980"
+        ],
+        "statement_id": "Q495980$154038DE-C766-499C-B1F1-AAB5348F5AAF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q20927",
+        "label": "大邱",
+        "label_en": "Daegu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q495980"
+        ],
+        "statement_id": "Q495980$34B391E5-99D0-410C-B53B-AD457C0C5FCE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩国·类型混合",
+      "genre": "韩国·类型混合"
+    },
+    "sources": [
+      {
+        "id": "WD:Q495980",
+        "title": "Wikidata Q495980 / 奉俊昊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q495980&oldid=2557821207",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557821207,
+        "modified_at": "2026-10-17T01:46:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

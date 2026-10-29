@@ -44,5 +44,184 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于‘如何复盘一次失败’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；引文为转述，标 artifact",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44281",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ignatius of Loyola",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1491–1556",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44281"
+            ],
+            "statement_id": "q44281$99878F7A-A85A-45FD-A9D1-D8ACCF854959",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1491,
+            "raw_time": "+1491-10-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q44281"
+            ],
+            "statement_id": "Q44281$1C4F8FDF-D8E0-484E-B9C6-9AB35A55EEE3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1491,
+            "raw_time": "+1491-11-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q44281"
+            ],
+            "statement_id": "Q44281$b489d159-4099-4ba7-671a-948728993096",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1491,
+            "raw_time": "+1491-09-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q44281"
+            ],
+            "statement_id": "Q44281$CB1A2B82-F28E-4B2F-836D-64BD4512778E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1491,
+            "raw_time": "+1491-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1556,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44281"
+            ],
+            "statement_id": "Q44281$beb03841-4266-e672-3b8b-d7204021cf5d",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1556,
+            "raw_time": "+1556-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44281"
+        ],
+        "statement_id": "Q44281$5abac6e7-4bb3-ab18-de37-9dcd53f32e31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q137795320",
+        "label": "Oratory of the Holy House of Loyola",
+        "label_en": "Oratory of the Holy House of Loyola",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44281"
+        ],
+        "statement_id": "Q44281$CEB3B184-76F5-4192-9233-D375028637EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q217196",
+        "label": "卡斯提尔联合王国",
+        "label_en": "Crown of Castile",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44281"
+        ],
+        "statement_id": "Q44281$4587398A-DD94-4EAA-A2CA-71BE63A9D033",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "耶稣会学校体系",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44281",
+        "title": "Wikidata Q44281 / 依納爵·羅耀拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44281&oldid=2560776037",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560776037,
+        "modified_at": "2026-10-25T18:01:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

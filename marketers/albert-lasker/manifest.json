@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for an AI earphone brand",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2577675",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Albert Lasker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1880–1952",
+      "birth_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2577675"
+            ],
+            "statement_id": "Q2577675$534B1236-4B21-48DF-88EA-FED07513ECB1",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-05-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2577675"
+            ],
+            "statement_id": "Q2577675$AA637F20-B04B-4AFC-A28C-1445FB11F3D6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2577675"
+        ],
+        "statement_id": "q2577675$9F8E3E66-7D4F-4511-AB6D-2DC7F90A159C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2833",
+        "label": "布赖斯高地区弗赖堡",
+        "label_en": "Freiburg im Breisgau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2577675"
+        ],
+        "statement_id": "q2577675$45A45F7A-D5FA-4007-A7CE-9767EEB694DA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告代理 / 文案"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2577675",
+        "title": "Wikidata Q2577675 / 阿爾伯特·拉斯克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2577675&oldid=2558940537",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558940537,
+        "modified_at": "2026-10-19T21:49:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

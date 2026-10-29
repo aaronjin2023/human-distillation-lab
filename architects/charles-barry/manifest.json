@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "巴里风格：现代城市街角的一座社区图书馆，石砌哥特复兴宫殿，垂直塔楼与尖顶，对称立面，尖拱，轴线平面，宁静维多利亚秩序。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q552584",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Barry",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1795–1860",
+      "birth_year": {
+        "value": 1795,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q552584"
+            ],
+            "statement_id": "q552584$5FCC794B-1B01-405E-A1F9-A1AAEECB51FC",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1795,
+            "raw_time": "+1795-05-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q552584"
+            ],
+            "statement_id": "q552584$E228F2C3-B8DA-4FD3-B7BF-8080629CBA93",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q552584"
+        ],
+        "statement_id": "q552584$24EF60BF-C936-4235-BFB7-7133E7BAFD93",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q189960",
+        "label": "威斯敏斯特",
+        "label_en": "Westminster",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q552584"
+        ],
+        "statement_id": "Q552584$5686E719-7E0E-4F62-BD0D-11649A42F1C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "哥特复兴",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q552584",
+        "title": "Wikidata Q552584 / 查尔斯·巴里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q552584&oldid=2559449437",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559449437,
+        "modified_at": "2026-10-21T08:16:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

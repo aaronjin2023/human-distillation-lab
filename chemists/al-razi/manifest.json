@@ -1,36 +1,157 @@
 {
- "chemist": "al-Razi",
- "chemist_zh": "拉齐",
- "dates": "c.865–c.925",
- "field": "波斯炼金术 / 实验化学",
- "list_position": "化学家草稿 v1 A 炼金术与早期化学 #3",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "《秘密之书》（物质系统分类）",
-  "乙醇提纯与药用",
-  "实验操作与仪器体系"
- ],
- "sources": [
-  "Wikipedia 'Abu Bakr al-Razi' https://en.wikipedia.org/wiki/Abu_Bakr_al-Razi",
-  "Iran Daily 'Persian polymath Razi's legacy in medicine' https://newspaper.irandaily.ir/7373/3/4558",
-  "U.S. National Library of Medicine, Arabic alchemy https://www.nlm.nih.gov/hmd/arabic/alchemy45.html"
- ],
- "test_prompt": "In the style of al-Razi, design a plan to identify an unknown white salt: first place it in the plant-animal-mineral classification, then test solubility, heating and distillation in order, and state what result would force reclassification.",
- "test_question_zh": "如何鉴定一种未知白色盐？",
- "verification": "2026-10-26：卒年 925 年（比鲁尼）与 923 年异说、乙醇提纯、《秘密之书》分类经 web 搜索核对（Wikipedia、Iran Daily、NLM）；其余见 known_gaps",
- "known_gaps": [
-  "拉齐原著多经后世传抄与译本流传，分类表的原文细节未逐篇核对",
-  "乙醇提纯的具体操作条件未见原始文献核对",
-  "生卒年约数，923 年异说的原始出处未逐一核对"
- ]
+  "chemist": "al-Razi",
+  "chemist_zh": "拉齐",
+  "dates": "c.865–c.925",
+  "field": "波斯炼金术 / 实验化学",
+  "list_position": "化学家草稿 v1 A 炼金术与早期化学 #3",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《秘密之书》（物质系统分类）",
+    "乙醇提纯与药用",
+    "实验操作与仪器体系"
+  ],
+  "sources": [
+    "Wikipedia 'Abu Bakr al-Razi' https://en.wikipedia.org/wiki/Abu_Bakr_al-Razi",
+    "Iran Daily 'Persian polymath Razi's legacy in medicine' https://newspaper.irandaily.ir/7373/3/4558",
+    "U.S. National Library of Medicine, Arabic alchemy https://www.nlm.nih.gov/hmd/arabic/alchemy45.html"
+  ],
+  "test_prompt": "In the style of al-Razi, design a plan to identify an unknown white salt: first place it in the plant-animal-mineral classification, then test solubility, heating and distillation in order, and state what result would force reclassification.",
+  "test_question_zh": "如何鉴定一种未知白色盐？",
+  "verification": "2026-10-26：卒年 925 年（比鲁尼）与 923 年异说、乙醇提纯、《秘密之书》分类经 web 搜索核对（Wikipedia、Iran Daily、NLM）；其余见 known_gaps",
+  "known_gaps": [
+    "拉齐原著多经后世传抄与译本流传，分类表的原文细节未逐篇核对",
+    "乙醇提纯的具体操作条件未见原始文献核对",
+    "生卒年约数，923 年异说的原始出处未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q169234",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "al-Razi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.865–c.925",
+      "birth_year": {
+        "value": 866,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q169234"
+            ],
+            "statement_id": "Q169234$a455a1a9-48bc-256a-9fb5-3f669523013f",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 866,
+            "raw_time": "+0866-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 865
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q169234"
+            ],
+            "statement_id": "Q169234$039383DF-3E54-414F-BEC0-E2829AC2F8CF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 925,
+            "raw_time": "+0925-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q169234"
+        ],
+        "statement_id": "q169234$7b4470c7-4d3b-225c-2db4-71a9dee26832",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q636188",
+        "label": "拉格斯",
+        "label_en": "Ray",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q169234"
+          ],
+          "statement_id": "Q169234$b1023a1c-441d-ccfc-943f-d99643d37edc",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q484206",
+          "label": "波斯人",
+          "label_en": "Persians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "波斯炼金术 / 实验化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q169234",
+        "title": "Wikidata Q169234 / 拉齐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q169234&oldid=2559053833",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559053833,
+        "modified_at": "2026-10-20T03:40:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Kenneth MacMillan, a person buying oden at a convenience store late at night, psychological pas de deux, bodies twisted by desire, oppressive corps pressing in, classical line bent and broken, dark and desperate",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q661555",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kenneth MacMillan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1929–1992",
+      "birth_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q661555"
+            ],
+            "statement_id": "Q661555$E5852142-E30E-4F67-A253-74B1ACFC5FDF",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q661555"
+            ],
+            "statement_id": "Q661555$F29C3891-4D68-4F7C-A1D5-FB82A0207FD8",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q661555"
+        ],
+        "statement_id": "Q661555$3FCDAAC1-9B41-46D9-ADCD-92F4ABE576C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q211950",
+        "label": "邓弗姆林",
+        "label_en": "Dunfermline",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q661555"
+        ],
+        "statement_id": "q661555$E05ABB6A-6F66-4E7C-A371-C4676E1BC32C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国芭蕾·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q661555",
+        "title": "Wikidata Q661555 / 肯尼思·麦克米伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q661555&oldid=2558081968",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558081968,
+        "modified_at": "2026-10-17T19:52:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

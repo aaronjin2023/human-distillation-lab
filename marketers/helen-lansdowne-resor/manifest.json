@@ -35,5 +35,133 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for a silk sleep mask",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16003712",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Helen Lansdowne Resor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1886–1964",
+      "birth_year": {
+        "value": 1886,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16003712"
+            ],
+            "statement_id": "Q16003712$0A4381A4-4015-48FA-97B8-BB17C1A97A2F",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q16003712"
+            ],
+            "statement_id": "Q16003712$4A3E4144-8343-4533-B2B3-0BAFD2735EC6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16003712"
+            ],
+            "statement_id": "Q16003712$A3A6855E-E1D2-4F3D-BA1B-F2A095216CF2",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q16003712"
+            ],
+            "statement_id": "Q16003712$DEB785A7-E96F-4F7C-9121-8D3866792F22",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16003712"
+        ],
+        "statement_id": "Q16003712$2A521442-6422-45C2-AE4C-0F4EF4F396E3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告文案 / 女性营销"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16003712",
+        "title": "Wikidata Q16003712 / Helen Lansdowne Resor",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16003712&oldid=2529557059",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529557059,
+        "modified_at": "2026-08-10T09:27:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

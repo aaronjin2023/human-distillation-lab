@@ -43,5 +43,391 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想国家设计 1986 年式的宽税基低税率改革（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9960",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ronald Reagan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1911–2004",
+      "birth_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9960"
+            ],
+            "statement_id": "q9960$72102924-0AEE-44A8-840C-5CBC994D48F9",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9960"
+            ],
+            "statement_id": "q9960$EE73A9E6-758F-4F9F-9C05-00F3B64BDCCE",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-06-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$ef26d2ae-42a8-638d-5769-ae17e509a9e0",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4917087",
+        "label": "隆納·雷根出生地",
+        "label_en": "Birthplace of Ronald Reagan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$635fbebe-4943-038d-f15d-bd0afd1bfd23",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1933-10-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1937-06-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q39709",
+        "label": "得梅因",
+        "label_en": "Des Moines",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$ff46bfaa-453f-f18c-55b2-a7648a7023b2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1937-06-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1942-04-19T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$a4d8e523-4b28-4f61-96e7-e35a40b9f51b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1942-04-19T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1942-06-08T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q948933",
+        "label": "梅森堡",
+        "label_en": "Fort Mason",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$98451bcc-4605-bc37-2280-54e13c9f5232",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1942-06-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-09-08T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q493378",
+        "label": "卡尔弗城",
+        "label_en": "Culver City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$ddc0c33d-4566-2dd7-b3d5-d076918a146b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-09-08T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-12-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q5471564",
+        "label": "麥克阿瑟堡",
+        "label_en": "Fort MacArthur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$85ae1b78-454c-420a-839e-c7ee493f330c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-12-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1967-01-02T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$b141db1e-475b-559d-d271-dd9d091d7212",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1967-01-02T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1975-01-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q18013",
+        "label": "萨克拉门托",
+        "label_en": "Sacramento",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "Q9960$d93ae155-46bf-5a6f-13b2-6196e0db0f10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1981-01-20T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1989-01-20T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9960"
+        ],
+        "statement_id": "q9960$BE2B79B2-510C-49D1-BD2E-7E6323A91F1A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·1980 年代减税改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9960",
+        "title": "Wikidata Q9960 / 罗纳德·里根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9960&oldid=2561687002",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561687002,
+        "modified_at": "2026-10-28T13:29:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

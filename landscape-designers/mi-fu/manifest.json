@@ -40,5 +40,158 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "米芾风格：现代美术馆庭院里的一座小小书法园，云状怪石独立，烟水小池，松与苔，纸窗书斋，率真不羁，园中有艺。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q320129",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mi Fu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1051–1107",
+      "birth_year": {
+        "value": 1051,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q320129"
+            ],
+            "statement_id": "Q320129$857cd35c-4b0d-6fe3-4c56-3b2425094eef",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1051,
+            "raw_time": "+1051-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1107,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q320129"
+            ],
+            "statement_id": "Q320129$B7B07CC4-1076-43E6-9BFF-11A2CA5C0FD5",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1107,
+            "raw_time": "+1107-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q320129"
+        ],
+        "statement_id": "q320129$031B7EF8-9D40-495E-AACE-C012AC5B231C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16963",
+        "label": "江苏省",
+        "label_en": "Jiangsu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q320129"
+        ],
+        "statement_id": "Q320129$1CC6B87B-FD53-4E87-A50B-D8A07CB0E460",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q320129"
+        ],
+        "statement_id": "Q320129$9503466C-E4B5-41C3-B94D-170070124EAB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1490",
+        "label": "东京都",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q320129"
+        ],
+        "statement_id": "Q320129$9191AAF1-3C0D-40EB-BC74-9FAD924B3CAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q320129"
+        ],
+        "statement_id": "Q320129$83F252F7-EF27-49A6-9699-71AE0FBE186A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·文人园林",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q320129",
+        "title": "Wikidata Q320129 / 米芾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q320129&oldid=2558943114",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558943114,
+        "modified_at": "2026-10-19T22:01:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

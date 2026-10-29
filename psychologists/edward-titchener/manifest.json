@@ -45,5 +45,131 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q380456",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edward Titchener",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1867–1927",
+      "birth_year": {
+        "value": 1867,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380456"
+            ],
+            "statement_id": "Q380456$1FA9F135-9D0D-44C0-AE94-AA1612364262",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1867,
+            "raw_time": "+1867-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380456"
+            ],
+            "statement_id": "Q380456$C8EE7E41-68CE-463B-A434-167491756457",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q380456"
+        ],
+        "statement_id": "q380456$DCC2A11D-AA06-47BE-8F85-5C1293C793DF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207639",
+        "label": "奇切斯特",
+        "label_en": "Chichester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q380456"
+        ],
+        "statement_id": "q380456$6C1900B9-96E8-47C9-9E99-402820368C31",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q380456"
+        ],
+        "statement_id": "q380456$E8B3EE27-ADD8-4B7C-B02A-DB4FCA97DC2F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "结构主义",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q380456",
+        "title": "Wikidata Q380456 / 爱德华·B·铁钦纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q380456&oldid=2561119434",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561119434,
+        "modified_at": "2026-10-26T16:57:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

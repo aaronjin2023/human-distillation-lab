@@ -30,5 +30,117 @@
   "test_prompt": "In the method of Henry Clifton Sorby, design a steel whose microstructure can be read from a polished section. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "设计一种能从抛光截面读出组织的钢",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1346007",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Clifton Sorby",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1826–1908",
+      "birth_year": {
+        "value": 1826,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1346007"
+            ],
+            "statement_id": "q1346007$11BB6F9E-B340-44A9-AB8D-F1C2B4B3929E",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1826,
+            "raw_time": "+1826-05-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1346007"
+            ],
+            "statement_id": "q1346007$48DF556C-F389-4ECE-8356-3A1E740A8E3A",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1346007"
+        ],
+        "statement_id": "q1346007$B07B3BA8-224B-4B1A-B65E-88ADA3C7C7DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42448",
+        "label": "谢菲尔德",
+        "label_en": "Sheffield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1346007"
+        ],
+        "statement_id": "Q1346007$53262D25-597E-4427-AB1D-32EE62092E19",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "金相学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1346007",
+        "title": "Wikidata Q1346007 / 亨利·克利夫頓·索爾比",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1346007&oldid=2527843552",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527843552,
+        "modified_at": "2026-08-05T22:35:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

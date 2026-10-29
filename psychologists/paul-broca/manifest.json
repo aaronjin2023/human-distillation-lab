@@ -46,5 +46,131 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材分析",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311276",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Broca",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1824–1880",
+      "birth_year": {
+        "value": 1824,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311276"
+            ],
+            "statement_id": "Q311276$8CBCEAE7-0D28-4790-BE62-077A52CB4287",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1824,
+            "raw_time": "+1824-06-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311276"
+            ],
+            "statement_id": "q311276$12406179-0CC4-4379-B368-A87BCAE8A823",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311276"
+        ],
+        "statement_id": "q311276$4CB809C6-E07F-4F2D-AAB5-8C827017806B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q320233",
+        "label": "大圣富瓦",
+        "label_en": "Sainte-Foy-la-Grande",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q311276"
+        ],
+        "statement_id": "Q311276$E551A97E-C8B0-40CA-9FFB-61528229F956",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q311276"
+        ],
+        "statement_id": "q311276$B187CA67-ACF5-4923-90F1-650B9224E019",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "语言脑定位"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311276",
+        "title": "Wikidata Q311276 / 科比尼安·布洛德曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311276&oldid=2558206360",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558206360,
+        "modified_at": "2026-10-18T02:04:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

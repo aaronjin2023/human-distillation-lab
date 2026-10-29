@@ -34,5 +34,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47285",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "J. J. Thomson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1940",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47285"
+            ],
+            "statement_id": "Q47285$f19c5f7d-4fe2-4562-4d3e-ef9dc225fcb5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-12-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47285"
+            ],
+            "statement_id": "q47285$706C2F43-7729-4A15-8C98-5E8E8F49FBC6",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47285"
+        ],
+        "statement_id": "Q47285$1636CD1F-9AAA-4260-937D-AFEFFC182D45",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q2015708",
+        "label": "Cheetham Hill",
+        "label_en": "Cheetham Hill",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47285"
+        ],
+        "statement_id": "q47285$9A07CEF1-572B-4589-ABCC-96335DB33F93",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "原子物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47285",
+        "title": "Wikidata Q47285 / J·J·汤姆孙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47285&oldid=2559450290",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559450290,
+        "modified_at": "2026-10-21T08:26:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

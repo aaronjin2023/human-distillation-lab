@@ -28,3 +28,7 @@
 
 - 来源：musicians-top100-draft.md 名单与代表作；英文维基百科各作曲家条目通说核对生卒与代表作；个别争议项以 web 搜索核对（见 conflicts.md 与 manifest.json）。
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

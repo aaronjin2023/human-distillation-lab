@@ -44,5 +44,116 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生年经 web 核对 Wikipedia，取 1969（1970 一说见 conflicts.md）；代表作按通说，未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41076",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mariah Carey",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1969–",
+      "birth_year": {
+        "value": 1969,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41076"
+            ],
+            "statement_id": "q41076$0C6691C0-C2DF-431F-A6D1-602FB9D98D12",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1969,
+            "raw_time": "+1969-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41076"
+        ],
+        "statement_id": "Q41076$0F40A019-3EEF-42AB-B3FB-4A44E7AA9B2B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q999123",
+        "label": "亨廷顿",
+        "label_en": "Huntington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41076"
+        ],
+        "statement_id": "q41076$7C058B6D-EC7E-4CAC-9B18-9C77D7377FF7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q41076"
+          ],
+          "statement_id": "Q41076$78C5EC38-645A-4B92-B638-61F8752EBA5A",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "流行·R&B",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41076",
+        "title": "Wikidata Q41076 / 瑪麗亞·凱莉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41076&oldid=2557150808",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557150808,
+        "modified_at": "2026-10-15T03:56:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

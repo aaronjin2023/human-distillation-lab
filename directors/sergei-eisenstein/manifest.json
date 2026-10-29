@@ -45,5 +45,144 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8003",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sergei Eisenstein",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1948",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8003"
+            ],
+            "statement_id": "q8003$c632ebd2-4416-b781-5fb6-6da5d72cefb7",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8003"
+            ],
+            "statement_id": "q8003$23529de1-45bd-800b-0276-504b84f2c022",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8003"
+        ],
+        "statement_id": "q8003$4E5CE053-479E-45AF-8D26-44DCDD1259AA",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1773",
+        "label": "里加",
+        "label_en": "Riga",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q8003"
+        ],
+        "statement_id": "Q8003$74DF2F00-0228-47AB-AA8C-F9CF35FF4AF9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8003"
+        ],
+        "statement_id": "Q8003$3D98DF90-7B64-4595-928C-7B304F0F6E73",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q8003"
+        ],
+        "statement_id": "Q8003$6952C6BD-EB2A-4FD0-9503-1FC115FC3B37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "苏联·蒙太奇学派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8003",
+        "title": "Wikidata Q8003 / 谢尔盖·米哈依洛维奇·爱森斯坦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8003&oldid=2560053930",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560053930,
+        "modified_at": "2026-10-23T17:31:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,144 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76828",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emil Kraepelin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1926",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76828"
+            ],
+            "statement_id": "q76828$7BFDE813-03D9-4FCF-ABDB-99487E75684F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76828"
+            ],
+            "statement_id": "q76828$9D42235D-1F29-471B-88EF-550E8B983262",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76828"
+        ],
+        "statement_id": "q76828$558606C5-92B8-44E0-BE48-06970A2B9CD4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20352",
+        "label": "新施特雷利茨",
+        "label_en": "Neustrelitz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76828"
+        ],
+        "statement_id": "Q76828$6E5D40B1-FD57-447D-8022-7767F7538CEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76828"
+        ],
+        "statement_id": "Q76828$b3d1de12-4147-6af7-486c-4587c8934358",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76828"
+        ],
+        "statement_id": "Q76828$f1f6075a-4029-31fe-63f5-e0c5e9830e4e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "临床心理学 / 精神病分类学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76828",
+        "title": "Wikidata Q76828 / 埃米爾·克雷佩林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76828&oldid=2553381854",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553381854,
+        "modified_at": "2026-10-05T09:34:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -49,5 +49,101 @@
   ],
   "test_prompt": "地铁乘客的独自打保龄",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q351815",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert D. Putnam",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q351815"
+            ],
+            "statement_id": "Q351815$46B3344B-FBC3-4F41-A01A-6FA848629ECC",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q351815"
+        ],
+        "statement_id": "Q351815$F030D28D-F598-43E6-B561-D40D4AB4F230",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q49218",
+        "label": "罗切斯特",
+        "label_en": "Rochester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q351815"
+        ],
+        "statement_id": "q351815$6E59F108-A53A-49AC-9BD3-1254E05322A6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会资本·公民社会"
+    },
+    "sources": [
+      {
+        "id": "WD:Q351815",
+        "title": "Wikidata Q351815 / 罗伯特·普特南",
+        "url": "https://www.wikidata.org/w/index.php?title=Q351815&oldid=2558227010",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558227010,
+        "modified_at": "2026-10-18T03:12:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

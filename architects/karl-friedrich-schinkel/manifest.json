@@ -38,5 +38,145 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "申克尔风格：现代城市街角的一座社区图书馆，希腊复兴博物馆式，柱廊与穹顶，阶梯台基，砖与石，宁静新古典主义秩序。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151759",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Karl Friedrich Schinkel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1781–1841",
+      "birth_year": {
+        "value": 1781,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151759"
+            ],
+            "statement_id": "Q151759$3B43E802-9658-428C-9E34-495ABD5327F4",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1781,
+            "raw_time": "+1781-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151759"
+            ],
+            "statement_id": "Q151759$4806166C-673A-42A4-8500-AFB9BAE41415",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-10-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151759"
+        ],
+        "statement_id": "q151759$E0BB0228-BF59-4690-A124-5C02A84DD497",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q16085",
+        "label": "新鲁平",
+        "label_en": "Neuruppin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q151759"
+        ],
+        "statement_id": "Q151759$7d2d6b52-414f-c6cc-e1cd-231684f6906d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q677973",
+        "label": "孔雀島",
+        "label_en": "Pfaueninsel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151759"
+        ],
+        "statement_id": "Q151759$90880834-28E6-44B4-BC5B-29492C05A913",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q700055",
+        "label": "泰格爾",
+        "label_en": "Tegel",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151759"
+        ],
+        "statement_id": "q151759$35099B92-B539-42A0-98B9-B7DA0D793DD9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新古典主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151759",
+        "title": "Wikidata Q151759 / 卡尔·弗里德里希·申克尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151759&oldid=2558073182",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558073182,
+        "modified_at": "2026-10-17T19:22:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

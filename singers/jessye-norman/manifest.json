@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜外卖员（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q240937",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jessye Norman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1945–2019",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q240937"
+            ],
+            "statement_id": "Q240937$0477BB7E-8CBE-41C1-AD83-534E37845D5B",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q240937"
+            ],
+            "statement_id": "Q240937$aa89f967-4b1d-eed1-dad9-03e2791c2fbd",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q240937"
+        ],
+        "statement_id": "Q240937$0CE9F0F5-9983-4BDF-8107-48EF0E850D95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q181962",
+        "label": "奥古斯塔",
+        "label_en": "Augusta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q240937"
+        ],
+        "statement_id": "Q240937$F208AC04-5180-4FD5-9CDC-5246778D3DD0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q240937"
+          ],
+          "statement_id": "Q240937$8EC0201C-5716-451A-8C07-22F89BC8697E",
+          "rank": "normal",
+          "reference_count": 4,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "歌剧·女高音",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q240937",
+        "title": "Wikidata Q240937 / 杰西·诺曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q240937&oldid=2557963822",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557963822,
+        "modified_at": "2026-10-17T11:19:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

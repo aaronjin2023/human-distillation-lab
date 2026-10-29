@@ -27,5 +27,131 @@
   "thinker": "Adam Smith",
   "thinker_zh": "亚当·斯密",
   "verification": "2026-10-26 依据英文 Wikipedia / Britannica 通说核对：生卒 1723–1790、《道德情操论》1759 年、《国富论》1776 年；未逐章核对引文。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9381",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adam Smith",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1723–1790",
+      "birth_year": {
+        "value": 1723,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9381"
+            ],
+            "statement_id": "Q9381$5E37AA0B-B63E-485A-8E53-C3BFC0DF279B",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1723,
+            "raw_time": "+1723-06-00T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1790,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9381"
+            ],
+            "statement_id": "q9381$FAA1E5A0-AC95-4447-8544-CD1B147186A0",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1790,
+            "raw_time": "+1790-07-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9381"
+        ],
+        "statement_id": "q9381$8F17A55F-12AC-4490-971D-6EB1E61FEE6D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q691685",
+        "label": "柯科迪",
+        "label_en": "Kirkcaldy",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q9381"
+        ],
+        "statement_id": "Q9381$a995d9ac-04b7-46d3-9663-ad70418b6701",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q22",
+        "label": "苏格兰",
+        "label_en": "Scotland",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9381"
+        ],
+        "statement_id": "Q9381$c8f01432-490c-d1c6-6ee7-0af8a513232e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "启蒙 / 政治经济学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9381",
+        "title": "Wikidata Q9381 / 亚当·斯密",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9381&oldid=2561097200",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561097200,
+        "modified_at": "2026-10-26T15:04:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家深夜便利店的扩张与品牌整合方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1395663",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Sorrell",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1945–（在世）",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1395663"
+            ],
+            "statement_id": "Q1395663$6776ED3B-1A65-4847-8D24-9CD6EE256EC6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1395663"
+        ],
+        "statement_id": "Q1395663$913128ED-F557-47BC-9233-CEBB1BCF4AD7",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1395663"
+        ],
+        "statement_id": "Q1395663$7B4EC3C4-9296-4DF4-9AB3-8E4A56278D4C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告集团 / 品牌"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1395663",
+        "title": "Wikidata Q1395663 / 苏铭天",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1395663&oldid=2553703329",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553703329,
+        "modified_at": "2026-10-06T01:19:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

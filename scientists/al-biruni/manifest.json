@@ -29,5 +29,117 @@
     "部分测量报告的原始文本待核对",
     "《印度志》部分印度观点的转述准确性待核对"
   ],
-  "verification": "地球半径测量方法与《印度志》比较体例为学界通说；数值换算已标注不确定。"
+  "verification": "地球半径测量方法与《印度志》比较体例为学界通说；数值换算已标注不确定。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11826",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Al-Biruni",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "973–c.1048",
+      "birth_year": {
+        "value": 973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11826"
+            ],
+            "statement_id": "q11826$87CCCA0C-5CCB-4BE0-BEEB-2D9AE9AFC631",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 973,
+            "raw_time": "+0973-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1048,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11826"
+            ],
+            "statement_id": "Q11826$36469648-1A69-4A5A-8CDC-9B5DBB4121A9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1048,
+            "raw_time": "+1048-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11826"
+        ],
+        "statement_id": "q11826$0F69C3DA-51AE-468A-A804-F021EBCF4303",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1141982",
+        "label": "Kath",
+        "label_en": "Kath",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11826"
+        ],
+        "statement_id": "Q11826$8c4bbae3-4d6f-4ee6-2744-1cf947775213",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12150341",
+        "label": "萨曼帝國",
+        "label_en": "Samanid Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天文 / 地理 / 数学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11826",
+        "title": "Wikidata Q11826 / 比魯尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11826&oldid=2557593602",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557593602,
+        "modified_at": "2026-10-16T06:53:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

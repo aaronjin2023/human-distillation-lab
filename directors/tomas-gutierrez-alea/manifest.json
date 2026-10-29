@@ -44,5 +44,118 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q722461",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tomás Gutiérrez Alea",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1996",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q722461"
+            ],
+            "statement_id": "Q722461$CC745262-54EE-48F9-823C-C6AC0B422327",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q722461"
+            ],
+            "statement_id": "Q722461$25EFF92B-86D0-468D-AC2D-63F020E36221",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q722461"
+        ],
+        "statement_id": "q722461$BEFF322D-81A0-4221-9457-7EAD8FF1303D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1563",
+        "label": "哈瓦那",
+        "label_en": "Havana",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q722461"
+        ],
+        "statement_id": "q722461$2C6D1549-F88A-4A12-99ED-6F0F1E71EFB7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q241",
+        "label": "古巴",
+        "label_en": "Cuba",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古巴·革命电影",
+      "genre": "古巴·革命电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q722461",
+        "title": "Wikidata Q722461 / 托马斯·古铁雷兹·阿莱",
+        "url": "https://www.wikidata.org/w/index.php?title=Q722461&oldid=2543110470",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543110470,
+        "modified_at": "2026-09-10T06:56:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

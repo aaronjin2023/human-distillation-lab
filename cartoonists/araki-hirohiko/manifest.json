@@ -39,5 +39,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬在地铁站台摆出戏剧化的 JOJO 立，时尚漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q719354",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hirohiko Araki",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1960–",
+      "birth_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q719354"
+            ],
+            "statement_id": "q719354$D1B5BBCC-29B1-4CC0-865C-D9DB55CA1057",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q719354"
+        ],
+        "statement_id": "Q719354$F6C6441A-B0E6-4CCD-895B-EDFBF2598A75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q46747",
+        "label": "仙台市",
+        "label_en": "Sendai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q719354"
+        ],
+        "statement_id": "Q719354$285036FE-17C5-4B08-8334-0585B2A96DDC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·少年漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q719354",
+        "title": "Wikidata Q719354 / 荒木飞吕彦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q719354&oldid=2558929132",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558929132,
+        "modified_at": "2026-10-19T21:22:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

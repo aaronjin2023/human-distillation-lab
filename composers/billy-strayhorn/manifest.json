@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q380626",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Billy Strayhorn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–1967",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380626"
+            ],
+            "statement_id": "q380626$A16B328D-BAB6-4099-BD8D-A123BD75EA3F",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-11-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1967,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q380626"
+            ],
+            "statement_id": "q380626$9372BC4E-A695-43CC-8A31-730ADDBE9B49",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1967,
+            "raw_time": "+1967-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q380626"
+        ],
+        "statement_id": "q380626$D2D9EA97-2014-4008-87C8-6B06233FA90D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q34739",
+        "label": "代顿",
+        "label_en": "Dayton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q380626"
+        ],
+        "statement_id": "Q380626$24414659-D7DC-45A0-8A21-4B9CBAB63915",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q380626"
+          ],
+          "statement_id": "Q380626$1A1902C5-641F-46FA-B899-F7E5B2C9E0E0",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士 / 大乐队"
+    },
+    "sources": [
+      {
+        "id": "WD:Q380626",
+        "title": "Wikidata Q380626 / 比利·史崔洪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q380626&oldid=2557815429",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557815429,
+        "modified_at": "2026-10-17T01:30:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,117 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只约克夏犬坐在地铁座位上，被乘客们注视着",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q193102",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Montgomery Clift",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1966",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193102"
+            ],
+            "statement_id": "q193102$DB2057E7-4D10-4094-9103-8B8DDB821FD5",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q193102"
+            ],
+            "statement_id": "q193102$32F91EA4-4144-4306-9502-0A5594D34C2D",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q193102"
+        ],
+        "statement_id": "q193102$AED89BE2-5015-41AA-A4F2-E2300F5E4757",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43199",
+        "label": "奥马哈",
+        "label_en": "Omaha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q193102"
+        ],
+        "statement_id": "Q193102$25E2467B-9543-4F3A-B488-D9C1EBCE96E6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·方法派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q193102",
+        "title": "Wikidata Q193102 / 蒙哥馬利·克利夫特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q193102&oldid=2558174772",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558174772,
+        "modified_at": "2026-10-18T00:20:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

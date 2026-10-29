@@ -44,5 +44,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一封写给十年后自己的信",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34189",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pablo Neruda",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–1973",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34189"
+            ],
+            "statement_id": "q34189$F28D034A-A57C-4150-AED8-69B2A628E6D7",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-07-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34189"
+            ],
+            "statement_id": "q34189$2EAA2E12-CD73-450C-8EAA-B6B143B388EF",
+            "rank": "preferred",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34189"
+        ],
+        "statement_id": "q34189$64D1A0EA-D0F4-426D-93A5-F593331942FD",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q51083",
+        "label": "帕拉尔",
+        "label_en": "Parral",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34189"
+        ],
+        "statement_id": "q34189$B575D156-6162-448C-8168-76D2708ABCAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q298",
+        "label": "智利",
+        "label_en": "Chile",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "智利·抒情诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34189",
+        "title": "Wikidata Q34189 / 巴勃罗·聂鲁达",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34189&oldid=2560462114",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560462114,
+        "modified_at": "2026-10-24T22:41:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,131 @@
   "test_prompt": "In the style of Manfred Eigen, measure the fast elementary steps of a new enzyme reaction: first perturb the system faster than the reaction with a small jump, then record the relaxation spectrum, assign each relaxation time to one elementary step, and test the assignment against concentration dependence",
   "test_question_zh": "测定一种新型酶催化反应的快速基元步骤",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76600",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Manfred Eigen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2019",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76600"
+            ],
+            "statement_id": "q76600$DD9344D4-24BC-414F-96C4-AA508BE3FAF1",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-05-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76600"
+            ],
+            "statement_id": "Q76600$2265425e-4ad6-8710-bcec-dbf2295f1bdb",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76600"
+        ],
+        "statement_id": "q76600$FF7487A0-A6F1-40E3-B7EA-F2E25EBCC611",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2103",
+        "label": "波鸿",
+        "label_en": "Bochum",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76600"
+        ],
+        "statement_id": "Q76600$1B106150-693F-4D07-A36B-39809AFFA874",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76600"
+        ],
+        "statement_id": "q76600$29BE6CE8-1CDA-4E3C-A544-323E269EF819",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "快速反应动力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76600",
+        "title": "Wikidata Q76600 / 曼弗雷德·艾根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76600&oldid=2561281681",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561281681,
+        "modified_at": "2026-10-27T02:24:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q215978",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Walter Mischel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2018",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215978"
+            ],
+            "statement_id": "Q215978$88EF608E-6D7D-4D1B-8321-EA25A40DC226",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q215978"
+            ],
+            "statement_id": "Q215978$F8A040B2-A804-465E-9E10-DC70042DCBC7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-09-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q215978"
+        ],
+        "statement_id": "Q215978$68139191-ACD1-4597-8F95-38B77458ECA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q215978"
+        ],
+        "statement_id": "q215978$C9C3C092-0D2A-4CAF-BCE5-2BABF9B2F499",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "人格心理学 / 延迟满足 / 人格情境论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q215978",
+        "title": "Wikidata Q215978 / 沃尔特·米歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q215978&oldid=2561418767",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561418767,
+        "modified_at": "2026-10-27T12:28:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

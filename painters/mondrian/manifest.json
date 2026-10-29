@@ -30,5 +30,209 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151803",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Piet Mondrian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1872–1944",
+      "birth_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151803"
+            ],
+            "statement_id": "Q151803$50619D80-D60D-465B-B9F1-12E97EAEAA9A",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151803"
+            ],
+            "statement_id": "Q151803$44B0ECCC-5477-4363-9BA2-E37C0F6ABF13",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-02-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$13410223-3E8F-4E37-8B4F-CAF3C8D1F12B",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q33421377",
+        "label": "Amersfoort",
+        "label_en": "Amersfoort",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$23c16667-402e-c16d-2ced-900765bd2fbf",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$0885b902-43f6-7a2f-ca1b-75b28c5aaf57",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$2af98ae2-418d-62fe-76b9-5744b4c0d2f2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$5E09872F-4EF6-446A-96C4-7C8E7B93845E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q980728",
+        "label": "栋堡",
+        "label_en": "Domburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$F690CCB2-24F9-434C-8FF5-21C3BE400B6A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9945",
+        "label": "拉伦",
+        "label_en": "Laren",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$D2E4A279-CD3F-4F38-B9E3-DB39DFB4F87C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q72974",
+        "label": "溫特斯韋克",
+        "label_en": "Winterswijk",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "Q151803$953347E0-F044-4B16-A9AC-DD5F52D709D4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151803"
+        ],
+        "statement_id": "q151803$4C80E1FF-792D-4FF5-B0FD-25FABBC3F468",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "抽象 / 风格派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151803",
+        "title": "Wikidata Q151803 / 皮特·蒙德里安",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151803&oldid=2558217261",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558217261,
+        "modified_at": "2026-10-18T02:40:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -33,5 +33,131 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "电网突发网络攻击应急响应",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q188783",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Moshe Dayan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–1981",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188783"
+            ],
+            "statement_id": "q188783$782D906B-2987-4C8C-91C3-A0FA9EB839D5",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188783"
+            ],
+            "statement_id": "q188783$1EB25D58-2BE8-44A2-BCCB-55AEE000E85C",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-10-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q188783"
+        ],
+        "statement_id": "q188783$882C01B4-2C07-4B12-BDD8-DF03F2E50196",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2371396",
+        "label": "德加尼亞阿勒夫",
+        "label_en": "Degania Alef",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q188783"
+        ],
+        "statement_id": "Q188783$F0518FD1-4D24-47C2-90BF-86D86ED8E35D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1218",
+        "label": "耶路撒冷",
+        "label_en": "Jerusalem",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q188783"
+        ],
+        "statement_id": "q188783$8373DC7F-D944-4D99-9B27-97BD9F2162EF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "以色列·机动战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q188783",
+        "title": "Wikidata Q188783 / 摩西·达扬",
+        "url": "https://www.wikidata.org/w/index.php?title=Q188783&oldid=2558175863",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558175863,
+        "modified_at": "2026-10-18T00:23:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

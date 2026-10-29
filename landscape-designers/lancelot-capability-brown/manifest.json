@@ -43,5 +43,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；斯托园多人参与见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q454635",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lancelot \"Capability\" Brown",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1716–1783",
+      "birth_year": {
+        "value": 1716,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454635"
+            ],
+            "statement_id": "Q454635$056f4ad7-4ab1-4508-9c01-85601d154bdc",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1716,
+            "raw_time": "+1716-08-00T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1783,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454635"
+            ],
+            "statement_id": "q454635$DA44F420-64ED-4C38-8330-0558D0CD6B5D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1783,
+            "raw_time": "+1783-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q454635"
+        ],
+        "statement_id": "q454635$157E9B65-1A5B-45EF-9DC8-6530A8A32D14",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6415674",
+        "label": "柯克哈尔",
+        "label_en": "Kirkharle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q454635"
+        ],
+        "statement_id": "Q454635$FEEDCDE0-674B-4041-938A-2D8A0AA88A30",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·自然风景园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q454635",
+        "title": "Wikidata Q454635 / 兰斯洛特·布朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q454635&oldid=2558106118",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558106118,
+        "modified_at": "2026-10-17T21:00:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

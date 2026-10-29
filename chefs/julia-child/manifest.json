@@ -44,5 +44,289 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q214477",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Julia Child",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–2004",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q214477"
+            ],
+            "statement_id": "q214477$7F2F156A-4598-4767-80D1-6413040735F2",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q214477"
+            ],
+            "statement_id": "q214477$48355376-EB4A-4580-83F1-8892E58775B9",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "q214477$6E2D9CAF-C445-4C09-8E79-563F7B062FCD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q485176",
+        "label": "帕萨迪纳",
+        "label_en": "Pasadena",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "Q214477$593e44bf-4118-e5a6-fbc0-866e48a99ccd",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-06-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-11-24T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q11725",
+        "label": "重庆市",
+        "label_en": "Chongqing",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "Q214477$65036395-4962-4c6b-3a3d-ca84cb2c1898",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1945-11-24T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-12-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "Q214477$d7be57d9-4592-999b-dd96-1fbefd71fbdc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1944-04-29T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1945-06-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q203197",
+        "label": "康提",
+        "label_en": "Kandy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "Q214477$6839289c-4182-cd78-1686-aea09b78e08b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1944-04-29T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P580": [
+            {
+              "time": "+1942-08-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "Q214477$5033af96-4115-99e3-4083-83e6bca4a27a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1935-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1939-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q127856",
+        "label": "贝弗利山",
+        "label_en": "Beverly Hills",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q214477"
+        ],
+        "statement_id": "q214477$59C54EAD-5E96-4EC0-B7A5-400D822DFF1B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美式法餐普及",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q214477",
+        "title": "Wikidata Q214477 / 茱莉亚·蔡尔德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q214477&oldid=2558044151",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558044151,
+        "modified_at": "2026-10-17T17:32:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

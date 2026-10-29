@@ -38,5 +38,132 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "高迪风格：现代城市的一座地铁站入口小亭，起伏马赛克屋顶，无直线与直角，暖陶土与彩色陶瓷，有机骨形柱，顶部自然光。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q25328",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antoni Gaudí",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1852–1926",
+      "birth_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q25328"
+            ],
+            "statement_id": "q25328$be0c556f-41d0-49b1-e332-60845739a4ab",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-06-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q25328"
+            ],
+            "statement_id": "Q25328$9E2ED1E4-78BC-4F76-97B2-5A42013157B2",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q25328"
+        ],
+        "statement_id": "q25328$9A84F780-FB22-48E4-AF50-AC2603807DBB",
+        "rank": "preferred",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q487096",
+        "label": "雷乌斯",
+        "label_en": "Reus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q25328"
+        ],
+        "statement_id": "Q25328$fc41f7be-474e-685d-9076-3ba338c3b6a7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1492",
+        "label": "巴塞罗那",
+        "label_en": "Barcelona",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q25328"
+        ],
+        "statement_id": "q25328$CDFBACFC-CAF4-4128-BCFA-21CE7D595818",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "加泰罗尼亚现代主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q25328",
+        "title": "Wikidata Q25328 / 安东尼·高迪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q25328&oldid=2561589736",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561589736,
+        "modified_at": "2026-10-28T02:05:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

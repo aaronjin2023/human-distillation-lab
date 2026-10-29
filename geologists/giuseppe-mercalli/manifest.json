@@ -28,5 +28,128 @@
     "意大利地震目录的收录范围以通说为准"
   ],
   "test_prompt": "现代问题：根据一次地震的震后调查，绘出烈度分布图。",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q432951",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giuseppe Mercalli",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1850–1914",
+      "birth_year": {
+        "value": 1850,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q432951"
+            ],
+            "statement_id": "Q432951$FFE0343A-78E0-43A2-902D-FFB21D55D752",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1850,
+            "raw_time": "+1850-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q432951"
+            ],
+            "statement_id": "q432951$E7F5DDC2-C42A-45B5-85D5-4F2C05212315",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-03-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q432951"
+        ],
+        "statement_id": "q432951$4563199D-C51D-4177-B8D1-8DD4EE4E7B90",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q490",
+        "label": "米兰",
+        "label_en": "Milan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q432951"
+        ],
+        "statement_id": "Q432951$03C63930-9D9F-479A-BEE7-57A81B89F5EE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1861-03-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学 / 火山学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q432951",
+        "title": "Wikidata Q432951 / 朱塞佩·麥加利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q432951&oldid=2538631060",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2538631060,
+        "modified_at": "2026-08-31T13:42:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

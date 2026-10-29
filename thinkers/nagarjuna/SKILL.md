@@ -29,3 +29,7 @@
 
 - 生卒与代表作以 thinkers-top100-draft.md 第 1 节为准，关键条目经 web 搜索核对（见 manifest.json sources）。
 - 待核对：见 conflicts.md 与 manifest.json known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

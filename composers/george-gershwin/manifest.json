@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q123829",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Gershwin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1898–1937",
+      "birth_year": {
+        "value": 1898,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123829"
+            ],
+            "statement_id": "q123829$C9A509DF-AD74-40DD-AE31-09609BDEE250",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1898,
+            "raw_time": "+1898-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q123829"
+            ],
+            "statement_id": "q123829$2A67C0C3-3600-45F5-96E8-E4EC8B7F3165",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q123829"
+        ],
+        "statement_id": "q123829$AB930582-F6C1-4AD2-BADF-EB98552F0128",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q123829"
+        ],
+        "statement_id": "q123829$21BA8DC3-333B-472C-AEEA-95D40714906F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q123829"
+          ],
+          "statement_id": "Q123829$99045531-52E6-4D95-85A5-6517C36EA4C8",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q32360797",
+          "label": "Russian Jews",
+          "label_en": "Russian Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士—古典跨界 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q123829",
+        "title": "Wikidata Q123829 / 乔治·格什温",
+        "url": "https://www.wikidata.org/w/index.php?title=Q123829&oldid=2557892170",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557892170,
+        "modified_at": "2026-10-17T06:15:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,132 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q378555",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gu Kaizhi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.344–c.406",
+      "birth_year": {
+        "value": 345,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378555"
+            ],
+            "statement_id": "Q378555$D69A4401-B0AB-4256-9C9C-4A485F574AC3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 345,
+            "raw_time": "+0345-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 344
+      },
+      "death_year": {
+        "value": 406,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378555"
+            ],
+            "statement_id": "Q378555$CF536648-161C-4A57-B4B6-7FEF525E5D7C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 406,
+            "raw_time": "+0406-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q378555"
+        ],
+        "statement_id": "Q378555$26ad8b35-49e2-5c44-2f21-06bdc1f2acd1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q42651",
+        "label": "无锡市",
+        "label_en": "Wuxi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q378555"
+        ],
+        "statement_id": "Q378555$44359495-2397-4597-AEBA-FCE40DD269A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16666",
+        "label": "南京市",
+        "label_en": "Nanjing",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q378555"
+        ],
+        "statement_id": "Q378555$f431ddd4-4701-ace5-b141-246ca81a47f7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q306928",
+        "label": "东晋",
+        "label_en": "Eastern Jin dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "东晋·人物画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q378555",
+        "title": "Wikidata Q378555 / 顾恺之",
+        "url": "https://www.wikidata.org/w/index.php?title=Q378555&oldid=2522125420",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2522125420,
+        "modified_at": "2026-07-24T15:10:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

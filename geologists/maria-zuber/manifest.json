@@ -35,5 +35,101 @@
   "test_prompt": "In the style of Maria Zuber, judge a claim about a buried structure on Mars: compare gravity and topography over the region, state the measurement precision, and show what the inversion can and cannot resolve",
   "test_question_zh": "火星某处重力异常，能断言地下埋着什么构造吗？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4194276",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Maria Zuber",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4194276"
+            ],
+            "statement_id": "Q4194276$EB5ADCE1-86DA-480F-97EB-D99980531856",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4194276"
+        ],
+        "statement_id": "Q4194276$7D9209EE-CCEF-4C6B-8324-72CA0D6069A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1010236",
+        "label": "诺里斯敦",
+        "label_en": "Norristown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4194276"
+        ],
+        "statement_id": "Q4194276$93498749-3823-45E6-807C-4A58F8332D5F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "行星地球物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4194276",
+        "title": "Wikidata Q4194276 / 瑪莉亞·祖柏",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4194276&oldid=2559320185",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559320185,
+        "modified_at": "2026-10-20T18:28:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

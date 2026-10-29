@@ -38,5 +38,101 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q38111",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Leonardo DiCaprio",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1974–",
+      "birth_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q38111"
+            ],
+            "statement_id": "q38111$620EF63E-17B2-417F-AD4C-4899E8E01446",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-11-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q38111"
+        ],
+        "statement_id": "Q38111$CF83A1DE-A4CF-4799-8474-780534B91986",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q38111"
+        ],
+        "statement_id": "q38111$F59C6CA4-5D61-4BD9-AFD9-621D6D8E9606",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q38111",
+        "title": "Wikidata Q38111 / 莱昂纳多·迪卡普里奥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q38111&oldid=2558116752",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558116752,
+        "modified_at": "2026-10-17T21:26:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

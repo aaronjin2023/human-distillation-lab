@@ -38,5 +38,117 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83359",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Dean",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–1955",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83359"
+            ],
+            "statement_id": "Q83359$96AEBAB9-9F01-4F36-8970-853DC5C56D80",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-02-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83359"
+            ],
+            "statement_id": "Q83359$F2646E6B-5BBA-4640-941B-4DD6E0BB4C47",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83359"
+        ],
+        "statement_id": "Q83359$FB827E39-E5D1-4E9A-AFC5-CDB51B9F6926",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q286068",
+        "label": "馬里昂",
+        "label_en": "Marion",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q83359"
+        ],
+        "statement_id": "q83359$1E6D0165-11F2-47A1-AE96-7E2F8176EE30",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·方法派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83359",
+        "title": "Wikidata Q83359 / 詹姆斯·迪恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83359&oldid=2557948999",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557948999,
+        "modified_at": "2026-10-17T10:19:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

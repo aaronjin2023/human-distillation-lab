@@ -43,5 +43,117 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3139920",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hon'ami Koetsu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1558–1637",
+      "birth_year": {
+        "value": 1558,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3139920"
+            ],
+            "statement_id": "Q3139920$5E8E95E9-F641-46C5-93F5-9CFD6B1E380F",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1558,
+            "raw_time": "+1558-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1637,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3139920"
+            ],
+            "statement_id": "Q3139920$F524A603-6F77-44E9-8951-375A8818C950",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1637,
+            "raw_time": "+1637-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3139920"
+        ],
+        "statement_id": "Q3139920$EDB51B04-563E-4FE2-A90F-DC5370CA7C94",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34600",
+        "label": "京都市",
+        "label_en": "Kyoto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3139920"
+        ],
+        "statement_id": "Q3139920$745B57BD-9686-4A05-BACE-C9CD672E41A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·假名 / 宽永三笔"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3139920",
+        "title": "Wikidata Q3139920 / 本阿彌光悅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3139920&oldid=2521104419",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521104419,
+        "modified_at": "2026-07-22T13:04:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

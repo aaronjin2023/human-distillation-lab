@@ -34,5 +34,117 @@
   "test_prompt": "In the style of C. V. Theis, judge a pumping test in a new aquifer: plot drawdown against time, match it to the Theis type curve, read transmissivity and storage from the match point, and state where the ideal assumptions break down",
   "test_question_zh": "一片新含水层抽水试验，导水系数怎么算？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q111310118",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "C. V. Theis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1987",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q111310118"
+            ],
+            "statement_id": "Q111310118$a6053ef7-4b5a-8367-7b8f-edc66cefe9ac",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q111310118"
+            ],
+            "statement_id": "Q111310118$c16b63e9-47ad-308c-c4fd-71ba5efa3d9d",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q111310118"
+        ],
+        "statement_id": "Q111310118$1b4d4556-44a8-9261-4755-65d12d54d349",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1762809",
+        "label": "纽波特",
+        "label_en": "Newport",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q111310118"
+        ],
+        "statement_id": "Q111310118$1082e4c9-4e89-879d-1dc2-9f5384ab6088",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "水文地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q111310118",
+        "title": "Wikidata Q111310118 / Charles V. Theis",
+        "url": "https://www.wikidata.org/w/index.php?title=Q111310118&oldid=2458449982",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2458449982,
+        "modified_at": "2026-01-27T22:02:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

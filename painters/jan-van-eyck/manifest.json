@@ -30,5 +30,316 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "雨夜的公交站（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q102272",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jan van Eyck",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1390–1441",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102272"
+            ],
+            "statement_id": "Q102272$4b81ab88-450c-d04d-4337-a5dd7e06505c",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1390,
+            "raw_time": "+1390-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1441,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q102272"
+            ],
+            "statement_id": "Q102272$5B8EE5C7-EC14-4083-AAB5-C3A5B7E74F7D",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1441,
+            "raw_time": "+1441-06-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$49CAFA0B-634E-48F4-900F-8E643424F611",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q110989",
+        "label": "马塞克",
+        "label_en": "Maaseik",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$8A437A14-8FAF-4209-A3A8-3E747EEAD5D7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12994",
+        "label": "布鲁日",
+        "label_en": "Bruges",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$AC9C97AE-77A8-4877-8725-CFA5C4068D27",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1425-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1430-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q648",
+        "label": "里尔",
+        "label_en": "Lille",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$54A3A0FB-97A8-4815-8E6A-3A0DEBBE3F55",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$11D90A5A-B921-4E03-AA5E-03A0B3275F7C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2071094",
+        "label": "Sluis-Aardenburg",
+        "label_en": "Sluis-Aardenburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$29035C87-4F1A-4604-BF2C-4037DD0204CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q699141",
+        "label": "阿拉約盧什",
+        "label_en": "Arraiolos",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$3708DB9A-46F9-4585-9B7A-68B1ADCF6F30",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q512030",
+        "label": "Freguesia de Cascais",
+        "label_en": "Freguesia de Cascais",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$74C29634-1825-4A29-9F06-3D69951EBAE8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q597",
+        "label": "里斯本",
+        "label_en": "Lisbon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$73E5D592-1C6E-4F10-8840-74042B785B07",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q622819",
+        "label": "波塔萊格雷",
+        "label_en": "Portalegre",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$24070828-BB46-40BC-AEA4-CCDFF2409585",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q748867",
+        "label": "拜奥纳",
+        "label_en": "Baiona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$66AC12C8-9260-4A0D-8824-9828E46E6B2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q478029",
+        "label": "法尔茅斯",
+        "label_en": "Falmouth",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$C5E7C18A-52DF-46F2-9942-F9A623CD7873",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43382",
+        "label": "普利茅斯",
+        "label_en": "Plymouth",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$4E0FDBA9-D993-4063-969C-AE943880CD76",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q26163",
+        "label": "桑威治",
+        "label_en": "Sandwich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$02E7D026-F529-499F-BB6F-F014DA3B13FD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2257157",
+        "label": "肖勒姆",
+        "label_en": "Shoreham",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q102272"
+        ],
+        "statement_id": "Q102272$2435C3F1-A94C-4804-8DE2-7874E340A7B6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6581823",
+        "label": "南尼德蘭",
+        "label_en": "Southern Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北方文艺复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q102272",
+        "title": "Wikidata Q102272 / 扬·范·艾克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q102272&oldid=2561456759",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561456759,
+        "modified_at": "2026-10-27T15:20:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

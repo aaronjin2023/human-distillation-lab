@@ -40,5 +40,131 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "文震亨风格：现代美术馆庭院里的一座小小鉴赏园，书斋陈旧器，一泓清池，一块佳石，松兰菊相映，克制雅致，园为观赏品味而设。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q835818",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wen Zhenheng",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1585–1645",
+      "birth_year": {
+        "value": 1585,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q835818"
+            ],
+            "statement_id": "Q835818$E4080F92-D75A-4F63-A5D2-17B016699A2E",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1585,
+            "raw_time": "+1585-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1645,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q835818"
+            ],
+            "statement_id": "Q835818$1A3C493C-C51B-4251-93BE-AA742D88252C",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1645,
+            "raw_time": "+1645-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q835818"
+        ],
+        "statement_id": "Q835818$67d10011-a8f2-426f-b59e-c80d95ae2062",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42622",
+        "label": "苏州市",
+        "label_en": "Suzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q835818"
+        ],
+        "statement_id": "Q835818$53F3C72A-83A7-484A-AA74-8080FCCC2C68",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q835818"
+        ],
+        "statement_id": "Q835818$7174B936-24E5-4711-A4C1-1CFBF6EC3C79",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明·造园理论",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q835818",
+        "title": "Wikidata Q835818 / 文震亨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q835818&oldid=2544180699",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2544180699,
+        "modified_at": "2026-09-11T20:44:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

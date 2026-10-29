@@ -66,5 +66,141 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "短视频",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q394628",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raymond Williams",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–1988",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q394628"
+            ],
+            "statement_id": "q394628$DBF96DB2-D85B-4B0B-A122-C134B3F5331B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1988,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q394628"
+            ],
+            "statement_id": "q394628$CE46A911-EB6F-4D90-9DD5-1806E5E9950D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1988,
+            "raw_time": "+1988-01-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q394628"
+        ],
+        "statement_id": "q394628$9366FAC1-27A7-4F56-9FEA-FDCD6D547E11",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7130788",
+        "label": "Pandy",
+        "label_en": "Pandy",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q394628"
+        ],
+        "statement_id": "q394628$9E1E2F83-2C28-45E8-83A6-880D58AB257E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q394628"
+        ],
+        "statement_id": "Q394628$4809B581-DA1C-4BE9-B42D-62141F07795C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文化唯物主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q394628",
+        "title": "Wikidata Q394628 / 雷蒙·威廉斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q394628&oldid=2520973313",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520973313,
+        "modified_at": "2026-07-22T08:02:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

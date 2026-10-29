@@ -43,5 +43,131 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个 AI 助手回答学生问它是否有心灵",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6918843",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mou Zongsan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–1995",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6918843"
+            ],
+            "statement_id": "Q6918843$77657E6C-E895-4311-AD7B-5578A8EE2891",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6918843"
+            ],
+            "statement_id": "Q6918843$6D8370A8-3A88-4DD8-94C6-C646516D900D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-04-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6918843"
+        ],
+        "statement_id": "Q6918843$2465e755-4464-80a8-3652-d233309757f6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q10359387",
+        "label": "棲霞縣",
+        "label_en": "Qixia County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6918843"
+        ],
+        "statement_id": "Q6918843$58cadcc4-440c-48a8-1e94-a7fafac3ba1e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6918843"
+        ],
+        "statement_id": "Q6918843$0b3f080e-4b58-d9c0-06fa-9774524ddb66",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代新儒家",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6918843",
+        "title": "Wikidata Q6918843 / 牟宗三",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6918843&oldid=2521452174",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521452174,
+        "modified_at": "2026-07-23T00:32:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

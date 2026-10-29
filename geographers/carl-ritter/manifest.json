@@ -31,5 +31,144 @@
   "test_prompt": "In the style of Carl Ritter, describe two new urban districts side by side — land, people, work and roads together — and let the comparison, not a ranking, carry the argument.",
   "test_question_zh": "两座新城区的比较",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《地学通论》未完成为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q29297",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Ritter",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1779–1859",
+      "birth_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q29297"
+            ],
+            "statement_id": "q29297$D129F7A7-07A9-4186-9906-962A3802816C",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q29297"
+            ],
+            "statement_id": "Q29297$73778671-1F60-4FFC-BDC7-F177625FCA35",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-09-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q29297"
+        ],
+        "statement_id": "q29297$B9C2FDC8-98B5-4509-8604-AC459C368BDE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q40623",
+        "label": "奎德林堡",
+        "label_en": "Quedlinburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q29297"
+        ],
+        "statement_id": "Q29297$4A9FEB0F-F01D-4E80-A2CB-266FEC449C1D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q29297"
+        ],
+        "statement_id": "Q29297$1140D169-E9FA-4D57-9389-A60CE8D1832C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q29297"
+        ],
+        "statement_id": "q29297$CFD06953-51C5-4E15-A62E-83444D7C4A9B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·近代地理学奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q29297",
+        "title": "Wikidata Q29297 / 卡尔·里特尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q29297&oldid=2561209401",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561209401,
+        "modified_at": "2026-10-26T22:04:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

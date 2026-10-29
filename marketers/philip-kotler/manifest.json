@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家社区书店的营销体系方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q164170",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Philip Kotler",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1931–（在世）",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q164170"
+            ],
+            "statement_id": "Q164170$805CE612-10FA-4394-98D1-F8D898336D9F",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q164170"
+        ],
+        "statement_id": "Q164170$8B817D1C-C2E7-4127-B5FA-57DF30688AC4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q164170"
+        ],
+        "statement_id": "q164170$9EC0A5DC-1923-4594-A767-53698432A89B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "营销理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q164170",
+        "title": "Wikidata Q164170 / 菲利普·科特勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q164170&oldid=2558215991",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558215991,
+        "modified_at": "2026-10-18T02:35:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

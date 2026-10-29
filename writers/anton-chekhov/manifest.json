@@ -43,5 +43,126 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Anton Chekhov",
-  "writer_zh": "安东·契诃夫"
+  "writer_zh": "安东·契诃夫",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5685",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anton Chekhov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1860–1904",
+      "birth_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5685"
+            ],
+            "statement_id": "Q5685$50a6b995-4641-3811-348f-54cda3cbf443",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-01-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5685"
+            ],
+            "statement_id": "Q5685$dbbb173b-4ee9-6c4f-5e47-dd059dc25689",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 27055388,
+                  "id": "Q27055388"
+                }
+              ]
+            },
+            "value": 1904,
+            "raw_time": "+1904-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5685"
+        ],
+        "statement_id": "q5685$1ACCB990-E2A3-46F9-A67A-9B1AC07A595D",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q170513",
+        "label": "塔甘罗格",
+        "label_en": "Taganrog",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5685"
+        ],
+        "statement_id": "Q5685$74C919A3-F622-43E4-8F17-002E2DA1D817",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "俄国·剧 / 小说",
+      "genre": "剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5685",
+        "title": "Wikidata Q5685 / 安东·契诃夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5685&oldid=2560533593",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560533593,
+        "modified_at": "2026-10-25T03:44:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

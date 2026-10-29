@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Glenn T. Seaborg, confirm a suspected new element: predict its chemistry from the actinide series, separate it at tracer scale, prove its identity by oxidation states and decay, and announce it only when chemistry and decay agree",
   "test_question_zh": "轰击产生了一种疑似新元素的核素，怎么确认它？",
   "verification": "2026-10-26：生卒 1912–1999、钚 1941 年 2 月发现、锕系理论、1951 年诺贝尔化学奖经 web 搜索核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q48973",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Glenn T. Seaborg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1999",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48973"
+            ],
+            "statement_id": "q48973$F039C519-E338-499E-94C0-C4ED9230C41C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-04-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48973"
+            ],
+            "statement_id": "q48973$BEE11969-0732-475D-B68C-3D668582A182",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q48973"
+        ],
+        "statement_id": "q48973$2CEB363C-49AF-4813-9A98-7FBC87917BEA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2432500",
+        "label": "伊什珀明",
+        "label_en": "Ishpeming",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q48973"
+        ],
+        "statement_id": "q48973$D8C91B3E-F6FC-431A-A9D2-DC6C89C02BD6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "超铀元素化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q48973",
+        "title": "Wikidata Q48973 / 格倫·西奧多·西博格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q48973&oldid=2543289606",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2543289606,
+        "modified_at": "2026-09-10T13:24:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

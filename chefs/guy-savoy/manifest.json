@@ -43,5 +43,116 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "居伊·萨沃伊风格：一份深夜便利店关东煮的重构——丝滑朝鲜蓟黑松露汤、巴黎式慷慨奢华、完美平衡、一碗暖意待客。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2904615",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Guy Savoy",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2904615"
+            ],
+            "statement_id": "Q2904615$02A82B45-D52C-471D-A65D-47617A067F93",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-07-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2904615"
+        ],
+        "statement_id": "q2904615$0AD2B7DA-1BEA-4355-BE95-D9FFAC5AAF77",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q166997",
+        "label": "讷韦尔",
+        "label_en": "Nevers",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q2904615"
+        ],
+        "statement_id": "Q2904615$165481fa-457e-7f93-435c-e6b91ef9f920",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84613055",
+        "label": "Guy Savoy",
+        "label_en": "Guy Savoy",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2904615"
+        ],
+        "statement_id": "Q2904615$8C62BFBD-7D55-4CD2-9FA5-7E5B0E305E17",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法餐·巴黎精致",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2904615",
+        "title": "Wikidata Q2904615 / 居伊·萨瓦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2904615&oldid=2524016628",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2524016628,
+        "modified_at": "2026-07-28T17:31:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

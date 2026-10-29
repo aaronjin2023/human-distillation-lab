@@ -43,5 +43,132 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "算法行政决定的法治审查（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1835–1922、法治定义引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1344299",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "A. V. Dicey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1835–1922",
+      "birth_year": {
+        "value": 1835,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1344299"
+            ],
+            "statement_id": "Q1344299$D9E690D1-6436-42E9-AD83-B917933DF49D",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1835,
+            "raw_time": "+1835-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1344299"
+            ],
+            "statement_id": "Q1344299$D6B96351-1C82-4BA8-B6FC-539941A3ACD0",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1344299"
+        ],
+        "statement_id": "Q1344299$98a0c64e-4265-5d00-a3a5-b2926d191a4d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5130070",
+        "label": "莱斯特郡",
+        "label_en": "Claybrooke Magna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1344299"
+        ],
+        "statement_id": "Q1344299$71633FBE-C929-4767-9CFF-8AF5F30FD52B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34217",
+        "label": "牛津",
+        "label_en": "Oxford",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1344299"
+        ],
+        "statement_id": "Q1344299$F6B2CE56-4C7F-42C3-B27F-83879AB8DD2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·宪法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1344299",
+        "title": "Wikidata Q1344299 / 戴雪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1344299&oldid=2545763537",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545763537,
+        "modified_at": "2026-09-14T18:51:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

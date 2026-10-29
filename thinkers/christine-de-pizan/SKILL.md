@@ -27,3 +27,7 @@
 
 - 来源：World History Encyclopedia《Christine de Pizan》与《Pizan's The Status of Women & the Reformation》（2026-10-26 已核：1364–c.1430、《妇女之城》1404–1405 年写成）；英文 Wikipedia 通说。
 - 待核对：见 conflicts.md 与 manifest.json 的 known_gaps。
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

@@ -37,5 +37,117 @@
   ],
   "test_prompt": "现代题材：自助结账机漏扫了一件商品，当事人是否该付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6512",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Søren Kierkegaard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1813–1855",
+      "birth_year": {
+        "value": 1813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6512"
+            ],
+            "statement_id": "q6512$E7B8E904-9DA7-47C9-8612-7B95DC85009B",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1813,
+            "raw_time": "+1813-05-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1855,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6512"
+            ],
+            "statement_id": "q6512$285487CC-BCDE-42E0-84E8-FB8E201C3464",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1855,
+            "raw_time": "+1855-11-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6512"
+        ],
+        "statement_id": "q6512$BAD1500E-268B-4EB5-9EB4-C8E1CEB20085",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1748",
+        "label": "哥本哈根",
+        "label_en": "Copenhagen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6512"
+        ],
+        "statement_id": "q6512$72072460-14AA-4744-BC2A-B53B9CA8F88A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "存在主义先声"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6512",
+        "title": "Wikidata Q6512 / 索伦·克尔凯郭尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6512&oldid=2561431810",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561431810,
+        "modified_at": "2026-10-27T13:19:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -62,5 +62,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖骑手群体的男性气质",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q453592",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raewyn Connell",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q453592"
+            ],
+            "statement_id": "Q453592$E554F309-9552-483C-A9DF-91C6CDA80EA0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q453592"
+        ],
+        "statement_id": "Q453592$3C9E3F76-F548-4AAD-94CC-AF5A8F5B5F95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3130",
+        "label": "悉尼",
+        "label_en": "Sydney",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q453592"
+        ],
+        "statement_id": "Q453592$4BC93EF4-D466-43E3-8D35-53E416B83164",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "男性气质·南方理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q453592",
+        "title": "Wikidata Q453592 / Raewyn Connell",
+        "url": "https://www.wikidata.org/w/index.php?title=Q453592&oldid=2526205734",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2526205734,
+        "modified_at": "2026-08-02T11:30:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

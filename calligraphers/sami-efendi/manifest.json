@@ -38,5 +38,118 @@
   "test_prompt": "In the style of Sami Efendi, Ottoman thuluth calligraphy, refined rounded letters, even spacing, black ink with restrained gold on paper",
   "transmission": "真迹存世（希利亚与书法集传世）",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7409361",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sami Efendi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1837–1912",
+      "birth_year": {
+        "value": 1838,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7409361"
+            ],
+            "statement_id": "Q7409361$A19F2295-B751-4471-A88D-C9F0A850563B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1838,
+            "raw_time": "+1838-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1837
+      },
+      "death_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7409361"
+            ],
+            "statement_id": "Q7409361$3C9ABE3A-AA77-4DCF-BFCB-8F8C3444F615",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7409361"
+        ],
+        "statement_id": "Q7409361$B00BEC63-DE78-41CA-B209-B73CD89EDC0A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q732923",
+        "label": "法蒂赫",
+        "label_en": "Fatih",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7409361"
+        ],
+        "statement_id": "Q7409361$2D892777-1BD2-47D5-88C2-948F421D353F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12560",
+        "label": "奥斯曼帝国",
+        "label_en": "Ottoman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·苏鲁斯体 / 誊抄体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7409361",
+        "title": "Wikidata Q7409361 / Sami Efendi",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7409361&oldid=2535941719",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535941719,
+        "modified_at": "2026-08-24T21:14:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

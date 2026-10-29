@@ -38,5 +38,145 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "布鲁内莱斯基风格：现代城市街角的一座社区图书馆，砖砌双壳穹顶人字形砌法，灰石配白墙，圆拱，线性透视汇向中央穹顶，比例宁静。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q174330",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Filippo Brunelleschi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1377–1446",
+      "birth_year": {
+        "value": 1377,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174330"
+            ],
+            "statement_id": "q174330$ae4cb409-4bca-53cd-c315-c3f256319014",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1377,
+            "raw_time": "+1377-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1446,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174330"
+            ],
+            "statement_id": "q174330$B77489CE-B23C-46AB-94AE-701ABEDEF6C8",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1446,
+            "raw_time": "+1446-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q174330"
+        ],
+        "statement_id": "q174330$7AC6A73B-1993-41E7-8DC6-A7CD4BA8D4AB",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q174330"
+        ],
+        "statement_id": "Q174330$736fb180-427a-c097-9be7-900f12fb2487",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q174330"
+        ],
+        "statement_id": "Q174330$573ccb27-4e7d-0e68-82ca-3c89fe15d08a",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q174330"
+        ],
+        "statement_id": "Q174330$67308954-E1EA-496F-BA4C-19678D118B96",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q174330",
+        "title": "Wikidata Q174330 / 菲利波·布鲁内莱斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q174330&oldid=2557879825",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557879825,
+        "modified_at": "2026-10-17T05:33:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

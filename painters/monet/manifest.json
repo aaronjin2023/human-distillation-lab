@@ -30,5 +30,287 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《日出·印象》1872 年；睡莲系列 1896–1926 年；莫奈 1840–1926",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q296",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claude Monet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1840–1926",
+      "birth_year": {
+        "value": 1840,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296"
+            ],
+            "statement_id": "q296$0E86533C-BE55-4BF7-B073-90370856589B",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1840,
+            "raw_time": "+1840-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296"
+            ],
+            "statement_id": "q296$5DC2C725-28AF-42A7-974D-3DC5A8DD0651",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "q296$8A39C2AF-4BC5-4B6A-B6C0-87AA78B430FB",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$9e7f8cca-4188-dde8-2efa-92bcf65533f7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$8ccb4638-4a92-5cae-d869-878ebc0b6f1f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q181946",
+        "label": "阿让特伊",
+        "label_en": "Argenteuil",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$98236a31-4c82-6a5d-93f3-99a95e26ef33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q920444",
+        "label": "韦特伊",
+        "label_en": "Vétheuil",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$ddcbc860-40dd-b741-58a0-255ab543fa39",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q457",
+        "label": "普瓦西",
+        "label_en": "Poissy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$6e4bc8c4-4f85-c2bb-881b-65d03cea696f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q165061",
+        "label": "吉韦尔尼",
+        "label_en": "Giverny",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$67599F66-4B39-4FDF-B0EE-38C3593FCA2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q231720",
+        "label": "翁弗勒尔",
+        "label_en": "Honfleur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$E13E21B5-81B4-421D-8370-B96CCFFABE96",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q900702",
+        "label": "特鲁维尔",
+        "label_en": "Trouville, Seine-Maritime",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$4E4482AC-87E5-4AD6-A2EC-D97D6BDA1477",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$17BDFA35-AA0D-4DD5-8F7E-D3464B791C5B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q94747",
+        "label": "乌赫斯特海斯特",
+        "label_en": "Oegstgeest",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$EA00570E-41C2-47A1-8371-387C890D23E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1615386",
+        "label": "Sassenheim",
+        "label_en": "Sassenheim",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$07A3BD8C-2769-4B03-BCB5-610C632A608F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$BFB21962-BE77-491F-A9B9-6C63585D2B67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q211260",
+        "label": "赞丹",
+        "label_en": "Zaandam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "Q296$CA780E2E-FBC7-4F6F-86C1-8DF236406B3A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q296"
+        ],
+        "statement_id": "q296$D1D2898F-12F2-4700-A40E-2EC7EC32F65E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q296",
+        "title": "Wikidata Q296 / 克劳德·莫奈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q296&oldid=2558083724",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558083724,
+        "modified_at": "2026-10-17T19:55:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

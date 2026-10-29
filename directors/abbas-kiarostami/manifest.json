@@ -44,5 +44,132 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编为导演）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55210",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abbas Kiarostami",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1940–2016",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55210"
+            ],
+            "statement_id": "q55210$F57D54ED-BD14-4FBF-A911-52CE78288896",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55210"
+            ],
+            "statement_id": "Q55210$04a80df7-4dde-ff5a-1735-574917780666",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55210"
+        ],
+        "statement_id": "q55210$3547e704-4d19-0ff4-f885-488555ec0522",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3616",
+        "label": "德黑兰",
+        "label_en": "Tehran",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55210"
+        ],
+        "statement_id": "Q55210$F06AB772-9C7A-4C44-A8B3-0A05786E0BA6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q794",
+        "label": "伊朗",
+        "label_en": "Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q55210"
+          ],
+          "statement_id": "Q55210$81d353bb-4b21-7b21-bbe9-b4f55c294736",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q1672477",
+          "label": "伊朗人",
+          "label_en": "Iranian peoples",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "伊朗·诗意现实主义",
+      "genre": "伊朗·诗意现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55210",
+        "title": "Wikidata Q55210 / 阿巴斯·基亚罗斯塔米",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55210&oldid=2557761274",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557761274,
+        "modified_at": "2026-10-16T22:17:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

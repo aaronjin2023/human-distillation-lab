@@ -31,5 +31,117 @@
   "thinker": "Wang Chong",
   "thinker_zh": "王充",
   "verification": "2026-10-26 网络核对：生卒与代表作按草稿名单，辅以英文 Wikipedia / Stanford Encyclopedia 通说核对；未逐部核对创作年份；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q319329",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wang Chong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "27–c.97",
+      "birth_year": {
+        "value": 27,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319329"
+            ],
+            "statement_id": "Q319329$28AEB157-70EF-402F-8D4C-6D0DFF3D9EEF",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 27,
+            "raw_time": "+0027-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 97,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319329"
+            ],
+            "statement_id": "Q319329$0F6CE414-80F6-4881-8E77-E8923E7E17E2",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 97,
+            "raw_time": "+0097-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q319329"
+        ],
+        "statement_id": "Q319329$87d67a1f-4a79-834f-e53d-a015f09ba2d3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1023800",
+        "label": "上虞区",
+        "label_en": "Shangyu District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q319329"
+        ],
+        "statement_id": "Q319329$1496983D-1F72-4E68-B616-34443B5068F9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "汉代批判哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q319329",
+        "title": "Wikidata Q319329 / 王充",
+        "url": "https://www.wikidata.org/w/index.php?title=Q319329&oldid=2555619582",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555619582,
+        "modified_at": "2026-10-10T15:12:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,132 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为外卖平台骑手设计一套简易所得税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q26207",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hugh Dalton",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1962",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26207"
+            ],
+            "statement_id": "q26207$F1100FB3-5A66-4445-949C-8D474144339C",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q26207"
+            ],
+            "statement_id": "q26207$9704107B-9E05-4C2D-82D2-41E11FE542FD",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-02-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q26207"
+        ],
+        "statement_id": "q26207$5B6F91E7-7E89-4680-9FC7-72CBB645682C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2003342",
+        "label": "尼斯",
+        "label_en": "Neath",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q26207"
+        ],
+        "statement_id": "Q26207$B2289963-2D57-40E3-A440-33B3497EE3F9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q26207"
+        ],
+        "statement_id": "q26207$B59D9EB2-D955-4528-8186-74B9D9F951B1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·公共财政与累进税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q26207",
+        "title": "Wikidata Q26207 / 休·多尔顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q26207&oldid=2557925672",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557925672,
+        "modified_at": "2026-10-17T08:31:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

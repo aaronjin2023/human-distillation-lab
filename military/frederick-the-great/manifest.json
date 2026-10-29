@@ -27,5 +27,183 @@
   "status": "draft v0.1",
   "test_prompt": "一场网络攻防对抗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q33550",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frederick the Great",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1712–1786",
+      "birth_year": {
+        "value": 1712,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33550"
+            ],
+            "statement_id": "q33550$FAEE58AF-A3D2-4CA4-B481-3A2484017B1A",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1712,
+            "raw_time": "+1712-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1786,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33550"
+            ],
+            "statement_id": "q33550$1C138C53-F990-42E8-AA8C-5F084148A4D2",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1786,
+            "raw_time": "+1786-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "q33550$EF0A2DA4-92A4-42EC-8FC1-8B3F6B506B22",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$3E71CD88-EFC7-4F2E-9854-E47765D1233F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27509",
+        "label": "中欧",
+        "label_en": "Central Europe",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$A2174386-63A6-411F-887C-D5F82C566804",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38872",
+        "label": "普魯士",
+        "label_en": "Prussia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$01E02ED7-5CE2-49A4-A2DB-7411EAB60687",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q556352",
+        "label": "巴特皮尔蒙特",
+        "label_en": "Bad Pyrmont",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$B6C40D1C-A9FA-42E1-B920-CAA77241A2CF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4174",
+        "label": "埃姆登",
+        "label_en": "Emden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$C13F8842-819D-4B59-B9AC-5902D9E990EF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2773",
+        "label": "不伦瑞克",
+        "label_en": "Brunswick",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q33550"
+        ],
+        "statement_id": "Q33550$B8DC46E9-176A-41ED-B778-63E2063D402A",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "普鲁士·斜线战术"
+    },
+    "sources": [
+      {
+        "id": "WD:Q33550",
+        "title": "Wikidata Q33550 / 腓特烈二世",
+        "url": "https://www.wikidata.org/w/index.php?title=Q33550&oldid=2561191112",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561191112,
+        "modified_at": "2026-10-26T20:45:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

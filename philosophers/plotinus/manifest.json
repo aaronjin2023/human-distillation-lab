@@ -40,5 +40,131 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人每天刷手机，灵魂去哪了",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q134189",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Plotinus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "204–270",
+      "birth_year": {
+        "value": 205,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134189"
+            ],
+            "statement_id": "Q134189$53116b51-459a-93b6-54de-54071c5b2838",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 205,
+            "raw_time": "+0205-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 204
+      },
+      "death_year": {
+        "value": 270,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134189"
+            ],
+            "statement_id": "q134189$EBFEDCC5-3609-4D74-92D0-4CBFF45FB2D1",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 270,
+            "raw_time": "+0270-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q134189"
+        ],
+        "statement_id": "Q134189$648AA976-CE40-472B-ACC0-F79A83DC2BFE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1878691",
+        "label": "Lycopolis",
+        "label_en": "Lycopolis",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q134189"
+        ],
+        "statement_id": "Q134189$ff7897fa-4add-fe29-ab5b-d0e0f4a995b6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q29962",
+        "label": "艾斯尤特",
+        "label_en": "Asyut",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q134189"
+        ],
+        "statement_id": "Q134189$bd303364-44f8-b9b8-532b-409acff1bd93",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新柏拉图主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q134189",
+        "title": "Wikidata Q134189 / 普罗提诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q134189&oldid=2558217958",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558217958,
+        "modified_at": "2026-10-18T02:42:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

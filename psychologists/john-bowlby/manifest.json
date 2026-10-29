@@ -46,5 +46,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of John Bowlby, analyse a man buying oden at a convenience store late at night. The warm shop is a secure base for a moment: he ventures out, returns, and the internal working model of who will be there shapes whether the night feels safe.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q128868",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Bowlby",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1990",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q128868"
+            ],
+            "statement_id": "q128868$A00E0F7B-8932-439F-8FB5-EF8A5AF5745D",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-02-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q128868"
+            ],
+            "statement_id": "q128868$2A15A64D-5F15-4729-B461-FC46C2DE8F3F",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q128868"
+        ],
+        "statement_id": "q128868$30DF69DD-BC79-4247-8E08-33B43E7FCCAF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q128868"
+        ],
+        "statement_id": "q128868$4CA025D8-BA04-4E4D-B585-CE3E8F4186CA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "依恋理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q128868",
+        "title": "Wikidata Q128868 / 约翰·鲍尔比",
+        "url": "https://www.wikidata.org/w/index.php?title=Q128868&oldid=2560992097",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560992097,
+        "modified_at": "2026-10-26T07:20:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

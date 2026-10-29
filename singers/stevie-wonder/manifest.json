@@ -44,5 +44,140 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q714",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Stevie Wonder",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714"
+            ],
+            "statement_id": "q714$83277F9D-881D-4DA4-88BC-7BDF5679104C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q714"
+        ],
+        "statement_id": "Q714$1580A740-D6EE-4C22-94B5-70E2D527F12B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q719",
+        "label": "萨吉诺",
+        "label_en": "Saginaw",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q714"
+        ],
+        "statement_id": "Q714$C39966DD-F6E4-4FA6-BA17-8B00D17D70C0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q714"
+        ],
+        "statement_id": "Q714$a80143dc-4925-7fde-dccf-c18593af6cb6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+2024-05-13T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q117",
+        "label": "加纳",
+        "label_en": "Ghana",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q714"
+          ],
+          "statement_id": "Q714$2E533AFB-6F51-4508-985D-E2B41FBC087D",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂·R&B",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q714",
+        "title": "Wikidata Q714 / 史提夫·汪达",
+        "url": "https://www.wikidata.org/w/index.php?title=Q714&oldid=2559424977",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559424977,
+        "modified_at": "2026-10-21T02:01:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

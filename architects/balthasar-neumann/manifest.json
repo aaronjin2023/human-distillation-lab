@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "诺伊曼风格：现代城市街角的一座社区图书馆，椭圆形大厅配壁画天花，白色与金色洛可可灰泥，起伏立面，宏大楼梯，轻盈明亮的巴洛克。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61349",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Balthasar Neumann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1687–1753",
+      "birth_year": {
+        "value": 1687,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61349"
+            ],
+            "statement_id": "q61349$D9F37597-702E-4B82-B49D-105847DCDEF6",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1687,
+            "raw_time": "+1687-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1753,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61349"
+            ],
+            "statement_id": "q61349$EF93DE5A-3F83-434E-BE4A-15B8160272BD",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1753,
+            "raw_time": "+1753-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61349"
+        ],
+        "statement_id": "Q61349$FF2643F0-F9E7-43E7-8158-870717636889",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q193719",
+        "label": "海布",
+        "label_en": "Cheb",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61349"
+        ],
+        "statement_id": "q61349$2EE98CAE-66A7-468F-A995-344FEDAB5656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q42585",
+        "label": "波希米亞王國",
+        "label_en": "Kingdom of Bohemia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国巴洛克 / 洛可可",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61349",
+        "title": "Wikidata Q61349 / 巴尔塔萨·诺伊曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61349&oldid=2557806920",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557806920,
+        "modified_at": "2026-10-17T00:53:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

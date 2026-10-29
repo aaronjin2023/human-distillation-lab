@@ -37,5 +37,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a letter to oneself ten years from now",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1267666",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xue Tao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.768–832",
+      "birth_year": {
+        "value": 768,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1267666"
+            ],
+            "statement_id": "Q1267666$57F081E9-2C2B-4216-9D43-7B71431384C4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 768,
+            "raw_time": "+0768-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 831,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1267666"
+            ],
+            "statement_id": "Q1267666$1BA48280-8A21-4B07-AA95-7A94EAE1300A",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 831,
+            "raw_time": "+0831-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 832
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1267666"
+        ],
+        "statement_id": "Q1267666$F78289DC-F6AC-4595-B5C9-463E285341AE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6501000",
+        "label": "长安",
+        "label_en": "Chang'an",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1267666"
+        ],
+        "statement_id": "Q1267666$A8BA6F2B-51DE-480F-92B1-A8D72A4CE443",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·女诗人"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1267666",
+        "title": "Wikidata Q1267666 / 薛涛",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1267666&oldid=2556834371",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556834371,
+        "modified_at": "2026-10-14T06:49:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

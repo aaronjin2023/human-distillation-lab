@@ -43,5 +43,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "人脸识别误认的刑事责任（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1723–1780、四卷体例与宁纵十罪引文为学界通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q332449",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Blackstone",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1723–1780",
+      "birth_year": {
+        "value": 1723,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q332449"
+            ],
+            "statement_id": "q332449$525DC307-EB82-416B-9AFE-468FF8A0FB97",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1723,
+            "raw_time": "+1723-07-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1780,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q332449"
+            ],
+            "statement_id": "q332449$8B95FBB7-5498-40E8-9ADE-D93B4D68BF3E",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1780,
+            "raw_time": "+1780-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q332449"
+        ],
+        "statement_id": "Q332449$F997DA41-F0F5-4CE3-B826-E7C2051353F3",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1068693",
+        "label": "齐普赛街",
+        "label_en": "Cheapside",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q332449"
+        ],
+        "statement_id": "Q332449$B9A3C718-53A6-4939-8D40-90F3FB3D3504",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q332449",
+        "title": "Wikidata Q332449 / 威廉·布莱克斯通",
+        "url": "https://www.wikidata.org/w/index.php?title=Q332449&oldid=2559450850",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559450850,
+        "modified_at": "2026-10-21T08:32:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

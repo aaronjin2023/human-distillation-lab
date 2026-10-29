@@ -48,5 +48,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5090699",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chen Ailian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1939–2020",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090699"
+            ],
+            "statement_id": "Q5090699$6F6818E5-5FC3-4DF0-BF7A-C01EACB01EFC",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5090699"
+            ],
+            "statement_id": "Q5090699$745a224d-4e5c-7e7b-f7aa-1b479014b2c7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-11-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5090699"
+        ],
+        "statement_id": "Q5090699$5777C5C1-DD29-40C8-AEEC-C863587DD3D2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16572",
+        "label": "广州市",
+        "label_en": "Guangzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5090699"
+        ],
+        "statement_id": "Q5090699$1f48c090-43a1-3aa5-a89f-c6f2fca13ab1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国古典舞·舞者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5090699",
+        "title": "Wikidata Q5090699 / 陈爱莲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5090699&oldid=2516100873",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516100873,
+        "modified_at": "2026-07-10T23:51:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

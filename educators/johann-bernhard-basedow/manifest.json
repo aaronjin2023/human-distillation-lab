@@ -45,5 +45,171 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给小学生上一堂关于‘用游戏学乘法’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对生年（Wikipedia 信息框 1724 vs 正文 1723，取 1724）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60247",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Bernhard Basedow",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1724–1790",
+      "birth_year": {
+        "value": 1724,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60247"
+            ],
+            "statement_id": "Q60247$C20AB3EA-91C8-4292-9CDB-BDA5B078BDF7",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1724,
+            "raw_time": "+1724-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1790,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60247"
+            ],
+            "statement_id": "Q60247$0C35389C-B79D-4FE7-8508-892D48161AFC",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1790,
+            "raw_time": "+1790-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "q60247$2E2A3DB1-E8D6-4842-AE1A-DF6FAF8AEF3E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "Q60247$AFACC8D2-9027-4A8E-84A6-FEEBFE5F11E0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q487070",
+        "label": "德绍",
+        "label_en": "Dessau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "Q60247$6039C298-355A-43E7-AC38-A76604002609",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1630",
+        "label": "阿尔托那",
+        "label_en": "Altona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "Q60247$9BA1EF9C-98D3-4E27-AEA9-F547AC59DDC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27858",
+        "label": "索勒",
+        "label_en": "Sorø",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "Q60247$755A9E59-60E4-40F8-8C09-C902AD8A7D7F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60247"
+        ],
+        "statement_id": "q60247$2B04C08E-34FC-439F-9DF1-2122F1E8B7FC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "泛爱派教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60247",
+        "title": "Wikidata Q60247 / Johann Bernhard Basedow",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60247&oldid=2557971908",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557971908,
+        "modified_at": "2026-10-17T11:56:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

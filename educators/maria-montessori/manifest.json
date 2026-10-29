@@ -40,5 +40,167 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "幼儿观察地铁约克夏犬的蒙台梭利课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；'帮助我自己做'为其教育原则的通行概括，未确证逐字原文，故只作 artifact 级样本，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131117",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Maria Montessori",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1952",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131117"
+            ],
+            "statement_id": "Q131117$54EE9CBE-187A-4754-BA27-16A229A1CBD0",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131117"
+            ],
+            "statement_id": "Q131117$11981DD1-A157-4ACB-9040-32737302A2C6",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131117"
+        ],
+        "statement_id": "q131117$B40FCC90-6F0A-450D-BA43-3440CA3AE6FB",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q123941",
+        "label": "基亚拉瓦莱",
+        "label_en": "Chiaravalle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q131117"
+        ],
+        "statement_id": "Q131117$D3FC0754-FE17-4C36-B0BB-E1C3B4BAD5A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131117"
+        ],
+        "statement_id": "q131117$E6985DC5-51C9-4E0E-80E7-F7CCE7E221FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q131117"
+        ],
+        "statement_id": "Q131117$7DD4D304-9F49-4D0F-9555-744A0A27E735",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1967-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·蒙台梭利教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131117",
+        "title": "Wikidata Q131117 / 玛丽亚·蒙台梭利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131117&oldid=2561011212",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561011212,
+        "modified_at": "2026-10-26T08:35:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

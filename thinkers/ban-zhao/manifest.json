@@ -31,5 +31,117 @@
   "thinker": "Ban Zhao",
   "thinker_zh": "班昭",
   "verification": "2026-10-26 网络核对：生卒与代表作按草稿名单，辅以英文 Wikipedia / Stanford Encyclopedia 通说核对；未逐部核对创作年份；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q177081",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ban Zhao",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "45–c.116",
+      "birth_year": {
+        "value": 45,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177081"
+            ],
+            "statement_id": "Q177081$965BB3AA-BB85-4ED4-8510-71294C7BC217",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 45,
+            "raw_time": "+0045-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 116,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177081"
+            ],
+            "statement_id": "Q177081$67A265AC-C65D-4ECD-8222-15DE8B6265FA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 116,
+            "raw_time": "+0116-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q177081"
+        ],
+        "statement_id": "q177081$7EF5B8AF-A228-4828-AE9C-5061BC95A757",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q177081"
+        ],
+        "statement_id": "Q177081$F9DEB7F3-25EF-4C4C-A896-5E8A628D91AC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1147037",
+        "label": "东汉",
+        "label_en": "Eastern Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "汉代儒学 / 女性学者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q177081",
+        "title": "Wikidata Q177081 / 班昭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q177081&oldid=2556088379",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556088379,
+        "modified_at": "2026-10-12T02:26:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

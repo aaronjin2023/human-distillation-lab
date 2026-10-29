@@ -35,5 +35,111 @@
   "test_prompt": "In the style of Varahamihira, compare five modern exoplanet orbit models side by side: tabulate each one's predictions, check them against the same observations, keep what predicts, and leave the disagreements standing",
   "test_question_zh": "用伐罗诃密希罗的方法，比较现代五种系外行星轨道模型",
   "verification": "2026-10-26：生卒 c.505–c.587、《五大历数合集》、行星会合周期经 web 搜索核对；五家具体归属未核对，见 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q858348",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Varahamihira",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.505–c.587",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q858348"
+            ],
+            "statement_id": "Q858348$850D4697-21BE-4C55-BB0F-E6A1019E403F",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 505,
+            "raw_time": "+0505-00-00T00:00:00Z",
+            "precision": 7,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q858348"
+            ],
+            "statement_id": "Q858348$9DE1FDD0-9017-40FA-982B-D9E9E6E4CABA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 587,
+            "raw_time": "+0587-00-00T00:00:00Z",
+            "precision": 7,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q858348"
+        ],
+        "statement_id": "Q858348$F39F8F37-74A6-408E-B0E4-D2FD8FCAB06A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q200119",
+        "label": "乌贾因",
+        "label_en": "Ujjain",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "印度·天文历法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q858348",
+        "title": "Wikidata Q858348 / 伐罗诃密希罗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q858348&oldid=2526741794",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2526741794,
+        "modified_at": "2026-08-03T12:39:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

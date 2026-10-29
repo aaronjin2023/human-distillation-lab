@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "尼雷尔风格：为乡村学童设计一堂关于人工智能的课。用斯瓦希里语、在田野里：问新机器能为我们村的农活做什么，通过量收成学习读写算，结尾落到自立——我们自己能造什么，不办只为城镇生产职员的学校。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q186525",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Julius Nyerere",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–1999",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186525"
+            ],
+            "statement_id": "q186525$3fcd7107-4f5d-cdc4-ba4f-0af30c934460",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q186525"
+            ],
+            "statement_id": "q186525$04814793-4e0a-64d6-22ab-e79dbad9095b",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q186525"
+        ],
+        "statement_id": "q186525$996861E4-4FD4-4A9F-83FE-E9B25CC55F4E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4833509",
+        "label": "布蒂亚马",
+        "label_en": "Butiama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q186525"
+        ],
+        "statement_id": "q186525$5731D3DF-725A-4C6A-A953-21B5CB9DCF22",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q924",
+        "label": "坦桑尼亚",
+        "label_en": "Tanzania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "坦桑尼亚自力更生教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q186525",
+        "title": "Wikidata Q186525 / 朱利叶斯·尼雷尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q186525&oldid=2558045228",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558045228,
+        "modified_at": "2026-10-17T17:35:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

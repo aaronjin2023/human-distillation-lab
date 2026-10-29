@@ -43,5 +43,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q302849",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aaron Beck",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–2021",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302849"
+            ],
+            "statement_id": "Q302849$56634752-47CB-4F13-BCC2-B45D0367C36C",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-07-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q302849"
+            ],
+            "statement_id": "Q302849$2507bdef-4677-7b51-6a79-ae0d5d3d43d3",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-11-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q302849"
+        ],
+        "statement_id": "q302849$974B2B3E-8C25-45BC-92C4-F9DB0FBFDDDE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q18383",
+        "label": "普罗维登斯",
+        "label_en": "Providence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q302849"
+        ],
+        "statement_id": "q302849$5AF854BF-6933-41A6-B7B6-629D461ACBFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "临床心理学 / 认知疗法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q302849",
+        "title": "Wikidata Q302849 / 亞倫·貝克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q302849&oldid=2560333990",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560333990,
+        "modified_at": "2026-10-24T15:48:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

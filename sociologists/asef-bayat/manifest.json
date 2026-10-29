@@ -49,5 +49,87 @@
   ],
   "test_prompt": "地铁口小贩的日常政治",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q920758",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Asef Bayat",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1954–",
+      "birth_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q920758"
+            ],
+            "statement_id": "Q920758$7FD1E91B-3F51-4F35-8C12-B63F03548C07",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q920758"
+        ],
+        "statement_id": "Q920758$7C1DEA9D-E99C-4314-8A3C-9E51BA977CDB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q794",
+        "label": "伊朗",
+        "label_en": "Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中东·日常生活政治"
+    },
+    "sources": [
+      {
+        "id": "WD:Q920758",
+        "title": "Wikidata Q920758 / Asef Bayat",
+        "url": "https://www.wikidata.org/w/index.php?title=Q920758&oldid=2522230791",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2522230791,
+        "modified_at": "2026-07-24T19:14:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

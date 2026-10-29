@@ -30,5 +30,131 @@
   "test_prompt": "In the style of Copernicus, explain why Venus is sometimes the morning star and sometimes the evening star: put the Sun at the centre, draw the orbits of Venus and the Earth, and show how the same planet appears on either side of the Sun",
   "test_question_zh": "解释金星为什么有时是晨星、有时是昏星",
   "verification": "2026-10-26：生卒 1473–1543 与代表作按物理史通说；奥西安德尔序言问题已核对；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q619",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nicolaus Copernicus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1473–1543",
+      "birth_year": {
+        "value": 1473,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q619"
+            ],
+            "statement_id": "q619$98471259-9447-4B13-BBC2-6A902CF6A36B",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1473,
+            "raw_time": "+1473-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1543,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q619"
+            ],
+            "statement_id": "q619$46ACBE94-DAF0-4C3E-9944-3AB4208E962D",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1543,
+            "raw_time": "+1543-05-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q619"
+        ],
+        "statement_id": "Q619$F4F86F02-BF0F-467B-9177-870D77C0CD90",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q47554",
+        "label": "托伦",
+        "label_en": "Toruń",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q619"
+        ],
+        "statement_id": "Q619$C5FB7192-5B71-48A0-BC4B-94DDCE8B250F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q497115",
+        "label": "弗龙堡",
+        "label_en": "Frombork",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q619"
+        ],
+        "statement_id": "Q619$6A4F2DC2-D0D1-4123-9751-21B3A2C6B942",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1649871",
+        "label": "波蘭王國",
+        "label_en": "Kingdom of Poland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天文学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q619",
+        "title": "Wikidata Q619 / 尼古拉·哥白尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q619&oldid=2561508459",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561508459,
+        "modified_at": "2026-10-27T18:53:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,274 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "现代城市街角的便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法要点已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153793",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georges Braque",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1882–1963",
+      "birth_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153793"
+            ],
+            "statement_id": "q153793$2D802365-9424-493A-A248-695211EA5FDE",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153793"
+            ],
+            "statement_id": "q153793$C9FC7DFC-644A-4095-92E5-1CAE0460813A",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "q153793$2925BEAD-6E2F-43EF-86F1-53C63479DCA1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q181946",
+        "label": "阿让特伊",
+        "label_en": "Argenteuil",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$EE5C9926-0A00-4F86-B8B8-A5504B48B4BE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$696CCCF8-CB22-44B5-9CDE-880BAFC3CB7B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6397",
+        "label": "阿维尼翁",
+        "label_en": "Avignon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$FA40A297-D871-4E46-ABF6-0A2724A9769B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q231720",
+        "label": "翁弗勒尔",
+        "label_en": "Honfleur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$D0CA95F4-6534-4585-973C-ED3C763958B8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q231554",
+        "label": "拉西奥塔",
+        "label_en": "La Ciotat",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$3F072734-27E3-4959-A5BB-B882D284BC25",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23482",
+        "label": "马赛",
+        "label_en": "Marseille",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$039191E9-2251-4F0D-8D4C-0EFAAB5B36FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$C8D801DD-11FE-450B-933F-D1C18510689A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q524836",
+        "label": "瓦朗热维尔",
+        "label_en": "Varangéville",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$DA9ED759-0D41-44C5-A6C0-8B1F2548B0B0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$3C8F54DE-9372-44E6-A6B0-02C811B1F2A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$A61F51E6-98DD-469C-AC13-6C7F2673D8EB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$D128AB51-B33F-4F9E-9E2B-FEA3A8D97B24",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "Q153793$8B362A39-18BA-4D61-A04B-4F3E82EE54F4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153793"
+        ],
+        "statement_id": "q153793$C6E7E8CA-C91E-4450-9E49-58C3B1BCF875",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "立体主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153793",
+        "title": "Wikidata Q153793 / 乔治·布拉克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153793&oldid=2557893323",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557893323,
+        "modified_at": "2026-10-17T06:18:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

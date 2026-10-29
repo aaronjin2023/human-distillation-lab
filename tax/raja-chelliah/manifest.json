@@ -43,5 +43,173 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想的发展中国家写一份税制改革委员会报告（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7285424",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raja Chelliah",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–2009",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7285424"
+            ],
+            "statement_id": "Q7285424$BEF57C77-6691-4E4E-A10C-8FAACBF0BF3E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2009,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7285424"
+            ],
+            "statement_id": "Q7285424$826FEC41-B700-43C5-AAFC-C658806E1D14",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2009,
+            "raw_time": "+2009-04-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7285424"
+        ],
+        "statement_id": "Q7285424$4B87BA91-E715-419C-846B-45F69C9D6F5B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7285424"
+        ],
+        "statement_id": "Q7285424$99FBAD52-D9C6-4BA8-BC8D-7A9E9D596617",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7285424"
+        ],
+        "statement_id": "Q7285424$6CDA9C3C-520E-490A-82CD-5CE52FDEA388",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·税制改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7285424",
+        "title": "Wikidata Q7285424 / Raja Chelliah",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7285424&oldid=2514107810",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514107810,
+        "modified_at": "2026-07-05T11:24:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

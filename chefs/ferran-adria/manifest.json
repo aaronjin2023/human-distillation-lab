@@ -44,5 +44,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q170317",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ferran Adrià",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1962–",
+      "birth_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q170317"
+            ],
+            "statement_id": "Q170317$4B1B13C5-0362-416A-9850-E0C50F1FC500",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-05-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q170317"
+        ],
+        "statement_id": "q170317$862C2D62-4A03-4B10-AF7D-E481A28438EA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q15470",
+        "label": "奥斯皮塔莱特-德略夫雷加特",
+        "label_en": "L'Hospitalet de Llobregat",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q170317"
+        ],
+        "statement_id": "q170317$0C52A452-F7C3-4081-854A-0875A94AE332",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分子料理",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q170317",
+        "title": "Wikidata Q170317 / 費蘭·阿德里亞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q170317&oldid=2560686887",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560686887,
+        "modified_at": "2026-10-25T12:58:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

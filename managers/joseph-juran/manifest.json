@@ -43,5 +43,130 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q536301",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joseph Juran",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–2008",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q536301"
+            ],
+            "statement_id": "Q536301$ABA0E7C1-420E-4A97-8751-022DC8EB074C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q536301"
+            ],
+            "statement_id": "Q536301$EC72C580-F733-4633-A975-2DBB60E80387",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-02-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q536301"
+        ],
+        "statement_id": "q536301$DD125002-7867-4771-B813-621D854D2BD6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q188478",
+        "label": "布勒伊拉",
+        "label_en": "Brăila",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q536301"
+        ],
+        "statement_id": "q536301$0E394E51-6104-43DB-98A4-DEE22CDE16E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q218",
+        "label": "罗马尼亚",
+        "label_en": "Romania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q536301"
+        ],
+        "statement_id": "q536301$09B92787-10E1-4BDD-B2FB-2DA5382EFADF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "质量管理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q536301",
+        "title": "Wikidata Q536301 / 约瑟夫·朱兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q536301&oldid=2555917925",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555917925,
+        "modified_at": "2026-10-11T16:09:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

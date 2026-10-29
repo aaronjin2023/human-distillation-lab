@@ -31,5 +31,145 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q330201",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ma Sicong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1912–1987",
+      "birth_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q330201"
+            ],
+            "statement_id": "Q330201$15F48FE1-A0C8-4BE7-825F-08494E99569D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-05-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q330201"
+            ],
+            "statement_id": "Q330201$BAF36D89-6B08-41DC-BE67-26C9176647D7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q330201"
+        ],
+        "statement_id": "q330201$6C3E3D33-356B-49BF-8CB1-145458DA1FA7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1355997",
+        "label": "海丰县",
+        "label_en": "Haifeng County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q330201"
+        ],
+        "statement_id": "q330201$7A1E616C-B609-45E7-A6C1-32BD10389F98",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q330201"
+        ],
+        "statement_id": "Q330201$69351523-F9A1-4898-82A9-A4CB703BBFED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q330201"
+        ],
+        "statement_id": "Q330201$d1f35a5f-4773-563d-165c-4824794804d1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": []
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国 / 近现代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q330201",
+        "title": "Wikidata Q330201 / 马思聪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q330201&oldid=2516100464",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516100464,
+        "modified_at": "2026-07-10T23:49:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

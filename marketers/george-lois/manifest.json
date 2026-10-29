@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for an AI earphone brand",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5541814",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Lois",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2022",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5541814"
+            ],
+            "statement_id": "Q5541814$25E83CF1-7A02-4330-8CC8-B729288279D0",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5541814"
+            ],
+            "statement_id": "Q5541814$f5418816-456d-bd52-53fb-10fc86409419",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5541814"
+        ],
+        "statement_id": "Q5541814$E2A0615D-20F4-482F-BF9D-A6BBD58C8D22",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5541814"
+        ],
+        "statement_id": "Q5541814$5C9DD0F7-202F-4BD5-BA6E-63C730D7BD4C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告创意"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5541814",
+        "title": "Wikidata Q5541814 / George Lois",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5541814&oldid=2535915676",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535915676,
+        "modified_at": "2026-08-24T19:31:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

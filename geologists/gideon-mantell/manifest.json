@@ -30,5 +30,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：只找到几颗牙齿，如何判断它们属于什么动物？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q348455",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gideon Mantell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1790–1852",
+      "birth_year": {
+        "value": 1790,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q348455"
+            ],
+            "statement_id": "q348455$70149CA4-21AB-40CD-8E99-12F6DAB03D5F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1790,
+            "raw_time": "+1790-02-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q348455"
+            ],
+            "statement_id": "q348455$D6C135CE-809F-4818-A621-278FD4ED0B12",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q348455"
+        ],
+        "statement_id": "q348455$933A2DCA-EF06-4660-9766-3E4C4AA67838",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q246884",
+        "label": "刘易斯",
+        "label_en": "Lewes",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q348455"
+        ],
+        "statement_id": "Q348455$39C29BB0-FE0A-4F4C-B208-A0B23191153B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q348455",
+        "title": "Wikidata Q348455 / 吉迪恩·曼特尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q348455&oldid=2535512410",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535512410,
+        "modified_at": "2026-08-23T18:37:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

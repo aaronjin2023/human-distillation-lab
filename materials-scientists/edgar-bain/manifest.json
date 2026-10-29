@@ -30,5 +30,117 @@
   "test_prompt": "In the method of Edgar Bain, design a hardenable alloy steel for a deep-sea pressure housing. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "为深海耐压壳体设计一种可淬硬合金钢",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q742183",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edgar Bain",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1891–1971",
+      "birth_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q742183"
+            ],
+            "statement_id": "Q742183$FC1B389F-8029-4F3E-B991-2C871586EA87",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q742183"
+            ],
+            "statement_id": "Q742183$457B70C5-5ADB-4FC5-BACC-DE91913BD2C2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-11-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q742183"
+        ],
+        "statement_id": "Q742183$A25F5F67-0BA1-4656-9C0B-6405143838CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q985636",
+        "label": "马里恩",
+        "label_en": "Marion",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q742183"
+        ],
+        "statement_id": "q742183$EA84B051-F045-449B-AE9B-B3066C2FC22A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "合金钢 / 贝氏体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q742183",
+        "title": "Wikidata Q742183 / 埃德加·贝恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q742183&oldid=2548384929",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548384929,
+        "modified_at": "2026-09-22T10:50:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

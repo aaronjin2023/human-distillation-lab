@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于黎明时分建筑工人在脚手架上唱歌的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q540516",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cui Jian",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q540516"
+            ],
+            "statement_id": "q540516$F6DC3CB2-FB31-4EF7-BF5B-029A9CDF1270",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q540516"
+        ],
+        "statement_id": "Q540516$424CC90C-5A47-4D78-8BE0-C4B1D7CA5F87",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q956",
+        "label": "北京市",
+        "label_en": "Beijing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q540516"
+        ],
+        "statement_id": "q540516$930425E6-F6F6-480F-BB4E-EF96A587D59B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "华语摇滚",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q540516",
+        "title": "Wikidata Q540516 / 崔健",
+        "url": "https://www.wikidata.org/w/index.php?title=Q540516&oldid=2553940713",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553940713,
+        "modified_at": "2026-10-06T13:26:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

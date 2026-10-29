@@ -43,5 +43,140 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Miguel de Cervantes",
-  "writer_zh": "塞万提斯"
+  "writer_zh": "塞万提斯",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5682",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Miguel de Cervantes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1547–1616",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5682"
+            ],
+            "statement_id": "q5682$f98c9be4-42b0-7ca4-3ac1-5e2124f8f610",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1547,
+            "raw_time": "+1547-09-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1616,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5682"
+            ],
+            "statement_id": "Q5682$03783343-1D3A-4379-B613-A44E551AB491",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1616,
+            "raw_time": "+1616-04-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5682"
+        ],
+        "statement_id": "Q5682$009c143b-4764-87a1-f057-06b280a49bb3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q46940",
+        "label": "埃纳雷斯堡",
+        "label_en": "Alcalá de Henares",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5682"
+        ],
+        "statement_id": "q5682$FAF2C8F4-D6DF-43D3-8907-CBB50993F56F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q217196",
+        "label": "卡斯提尔联合王国",
+        "label_en": "Crown of Castile",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5682"
+          ],
+          "statement_id": "Q5682$EE8D40EA-D2FC-4C3C-9FE2-2D9A751FE8F3",
+          "rank": "normal",
+          "reference_count": 0,
+          "qualifiers": {},
+          "qid": "Q160894",
+          "label": "西班牙人",
+          "label_en": "Spaniards",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "西班牙·小说 / 剧",
+      "genre": "小说"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5682",
+        "title": "Wikidata Q5682 / 米格尔·德·塞万提斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5682&oldid=2560444799",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560444799,
+        "modified_at": "2026-10-24T21:42:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

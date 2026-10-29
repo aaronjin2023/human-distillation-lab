@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3107610",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Girindrasekhar Bose",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1953",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3107610"
+            ],
+            "statement_id": "Q3107610$A24F907D-59FF-467F-9EE9-F786F6BE664C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-01-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3107610"
+            ],
+            "statement_id": "Q3107610$B3FA538A-FEB9-44AD-AF76-5BA0DE05318A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3107610"
+        ],
+        "statement_id": "Q3107610$15233e1e-4a08-b6fa-a047-ed62de93ec7e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1136189",
+        "label": "达尔邦格阿",
+        "label_en": "Darbhanga",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3107610"
+        ],
+        "statement_id": "Q3107610$CB6226C0-B795-4033-9A79-26689C911C69",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度精神分析",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3107610",
+        "title": "Wikidata Q3107610 / Girindrasekhar Bose",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3107610&oldid=2514237795",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2514237795,
+        "modified_at": "2026-07-05T20:53:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

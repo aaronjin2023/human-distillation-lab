@@ -38,5 +38,128 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只约克夏犬坐在地铁座位上，被乘客们注视着",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41163",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Al Pacino",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41163"
+            ],
+            "statement_id": "q41163$FC7A3EE4-8D4A-4073-A62B-E7BDA8FFC3C4",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41163"
+        ],
+        "statement_id": "q41163$92A469CE-375E-4C06-BD4A-A4EF8EF74A3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41163"
+        ],
+        "statement_id": "q41163$15085D7E-C527-4492-98C4-65CDBCC0C539",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q41163"
+          ],
+          "statement_id": "Q41163$8CFB7BAF-6466-42CA-907A-1C48C132DE25",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q974693",
+          "label": "意大利裔美国人",
+          "label_en": "Italian Americans",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q41163"
+          ],
+          "statement_id": "Q41163$4ff17662-4b21-afef-c940-95ae2a90e7f9",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7507476",
+          "label": "西西里裔美國人",
+          "label_en": "Sicilian Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41163",
+        "title": "Wikidata Q41163 / 艾尔·帕西诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41163&oldid=2561707257",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561707257,
+        "modified_at": "2026-10-28T14:58:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家传统制造企业要不要全面上 AI 客服",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q368732",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eliyahu Goldratt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1947–2011",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q368732"
+            ],
+            "statement_id": "Q368732$2772168E-C6DB-4F11-BAAC-FDEC099E9DA2",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2011,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q368732"
+            ],
+            "statement_id": "q368732$473B9AA2-F54B-455E-9BD9-A57B18673324",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2011,
+            "raw_time": "+2011-06-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q368732"
+        ],
+        "statement_id": "Q368732$2C64CC61-C7F7-4ECB-BCF1-170A9EABA15D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q193714",
+        "label": "英属巴勒斯坦托管地",
+        "label_en": "Mandatory Palestine",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q368732"
+        ],
+        "statement_id": "Q368732$6C4E9CEF-AEF6-4E35-BE0E-36896A914982",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q801",
+        "label": "以色列",
+        "label_en": "Israel",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "约束理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q368732",
+        "title": "Wikidata Q368732 / 伊利雅胡·高德拉特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q368732&oldid=2535708826",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535708826,
+        "modified_at": "2026-08-24T07:04:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

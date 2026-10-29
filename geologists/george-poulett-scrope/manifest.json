@@ -31,5 +31,131 @@
   "test_prompt": "In the style of George Poulett Scrope, judge a volcano venting smoke with viscous lava and abundant gas: watch the eruption products in order, and predict an explosive eruption from the gas and viscosity, not from the smoke alone",
   "test_question_zh": "一座火山开始冒烟，熔岩黏度高、气体多，该预判哪种喷发？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q707126",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Poulett Scrope",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1797–1876",
+      "birth_year": {
+        "value": 1797,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707126"
+            ],
+            "statement_id": "Q707126$5D912F8B-8D6D-4BD6-9FB4-CC6FB3E59E89",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1797,
+            "raw_time": "+1797-03-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1876,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707126"
+            ],
+            "statement_id": "Q707126$56CAB0C5-15A5-4940-A1B4-36A6657D83A3",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1876,
+            "raw_time": "+1876-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q707126"
+        ],
+        "statement_id": "q707126$F8E9A2D9-94D5-441D-A868-267D870605BD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q707126"
+        ],
+        "statement_id": "Q707126$CF872278-753B-4F8D-8FD1-BDD63B32AD2C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q707126"
+        ],
+        "statement_id": "q707126$03B9E893-482A-4408-8F95-44791828DCB9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "火山学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q707126",
+        "title": "Wikidata Q707126 / 喬治·尤利烏斯·波萊特·斯科羅普",
+        "url": "https://www.wikidata.org/w/index.php?title=Q707126&oldid=2559619793",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559619793,
+        "modified_at": "2026-10-22T02:46:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

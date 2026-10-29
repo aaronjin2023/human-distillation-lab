@@ -37,5 +37,102 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Tony Kushner",
-  "writer_zh": "托尼·库什纳"
+  "writer_zh": "托尼·库什纳",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q704433",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tony Kushner",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q704433"
+            ],
+            "statement_id": "q704433$F28E95AF-6EA4-448A-9DE9-C8C5FA78EA9F",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q704433"
+        ],
+        "statement_id": "q704433$5C24DAE9-F8B3-4902-8F56-656A27291337",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q704433"
+        ],
+        "statement_id": "q704433$4263B340-91D6-4932-B7E7-1E1DC0B0493D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·当代 / 电视",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q704433",
+        "title": "Wikidata Q704433 / 东尼·库许纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q704433&oldid=2550221707",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550221707,
+        "modified_at": "2026-09-28T00:06:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,139 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154331",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "György Ligeti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2006",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154331"
+            ],
+            "statement_id": "q154331$9DD4790D-B4C3-41A2-BFAE-38508FADE3DA",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154331"
+            ],
+            "statement_id": "q154331$B4E5EE39-EB02-4EC3-B187-A7D882C9247B",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154331"
+        ],
+        "statement_id": "q154331$89BBE2E5-E74D-4374-A7F3-CD9A79328F52",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q754729",
+        "label": "特尔讷韦尼",
+        "label_en": "Târnăveni",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154331"
+        ],
+        "statement_id": "Q154331$9227990C-87AB-49CE-A614-F1976EB20673",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28",
+        "label": "匈牙利",
+        "label_en": "Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154331"
+        ],
+        "statement_id": "Q154331$4f0531ac-48e6-1144-a229-ce9de02fee23",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1967-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q154331",
+        "title": "Wikidata Q154331 / 利盖蒂·捷尔吉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154331&oldid=2557903579",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557903579,
+        "modified_at": "2026-10-17T06:55:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

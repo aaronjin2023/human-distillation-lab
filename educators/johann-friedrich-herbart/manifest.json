@@ -40,5 +40,132 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "十岁儿童分数课的四段教学（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；无确证的短句引文，本稿只用 artifact 级样本，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76685",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Friedrich Herbart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1776–1841",
+      "birth_year": {
+        "value": 1776,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76685"
+            ],
+            "statement_id": "q76685$FDDBBBDB-890C-4D23-992B-E4B1942A1F1F",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1776,
+            "raw_time": "+1776-05-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1841,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76685"
+            ],
+            "statement_id": "q76685$948B144B-72CA-45B2-9695-8482A634A11B",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1841,
+            "raw_time": "+1841-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76685"
+        ],
+        "statement_id": "q76685$99F0083B-4316-4A82-BA52-62FC03893A91",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2936",
+        "label": "奥尔登堡",
+        "label_en": "Oldenburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76685"
+        ],
+        "statement_id": "Q76685$4C709781-2CB8-4E90-A1EF-6AF94B208070",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76685"
+        ],
+        "statement_id": "q76685$8C72539E-858E-45E7-9DA7-2E4AACFB2061",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q693669",
+        "label": "奥尔登堡大公国",
+        "label_en": "Grand Duchy of Oldenburg",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·科学教育学",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76685",
+        "title": "Wikidata Q76685 / 约翰·弗里德里希·赫尔巴特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76685&oldid=2561194948",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561194948,
+        "modified_at": "2026-10-26T21:02:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -47,5 +47,152 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "健康码与规训社会",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44272",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Michel Foucault",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–1984",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44272"
+            ],
+            "statement_id": "q44272$36369C07-E238-44C0-9586-7B4F5E4DB6C5",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44272"
+            ],
+            "statement_id": "q44272$59CB1F5B-23D8-403F-9ED2-D22E8C110FFA",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-06-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44272"
+        ],
+        "statement_id": "q44272$A0FAEED3-C718-4FF6-8073-D04241F6755D",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q6616",
+        "label": "普瓦捷",
+        "label_en": "Poitiers",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q44272"
+        ],
+        "statement_id": "Q44272$d8cd4523-6c32-42ec-99c3-82afd1c74457",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1952-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1984-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44272"
+        ],
+        "statement_id": "q44272$18803741-26D8-4028-B939-65A0EF1C2C9D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "权力·话语·规训"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44272",
+        "title": "Wikidata Q44272 / 米歇尔·福柯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44272&oldid=2559103843",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559103843,
+        "modified_at": "2026-10-20T06:14:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

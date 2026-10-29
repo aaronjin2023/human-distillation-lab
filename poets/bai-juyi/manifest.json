@@ -42,5 +42,117 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313324",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bai Juyi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "772–846",
+      "birth_year": {
+        "value": 772,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313324"
+            ],
+            "statement_id": "Q313324$18C51782-3BA7-4C34-AD30-9532FD5DC9A5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 772,
+            "raw_time": "+0772-02-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 846,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313324"
+            ],
+            "statement_id": "Q313324$4A47FDE3-3FC0-487E-A64D-66ED44101148",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 846,
+            "raw_time": "+0846-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313324"
+        ],
+        "statement_id": "q313324$03869F4C-F4BB-4DBD-BAD4-9D4C614A62B3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1024662",
+        "label": "新郑市",
+        "label_en": "Xinzheng",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313324"
+        ],
+        "statement_id": "Q313324$AC2CD49A-8D54-488B-8909-A77474CC7CBE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·新乐府诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313324",
+        "title": "Wikidata Q313324 / 白居易",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313324&oldid=2557806627",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557806627,
+        "modified_at": "2026-10-17T00:52:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

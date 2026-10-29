@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q921045",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Wanamaker",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1838–1922",
+      "birth_year": {
+        "value": 1838,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q921045"
+            ],
+            "statement_id": "q921045$4040A7DE-753E-4A93-87F8-77EC8CB98644",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1838,
+            "raw_time": "+1838-07-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q921045"
+            ],
+            "statement_id": "q921045$5F6E42E1-BB57-4E37-B76C-4002BB4E25AD",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q921045"
+        ],
+        "statement_id": "q921045$E4E227CF-F1A0-44D3-B544-D336CB04E921",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q921045"
+        ],
+        "statement_id": "q921045$C30364EF-4238-41DC-ADCB-25C80F2AD285",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "零售广告先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q921045",
+        "title": "Wikidata Q921045 / 约翰·沃纳梅克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q921045&oldid=2552252817",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552252817,
+        "modified_at": "2026-10-02T18:19:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

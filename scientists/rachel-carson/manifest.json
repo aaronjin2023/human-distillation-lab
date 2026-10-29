@@ -29,5 +29,117 @@
     "《寂静的春天》引用的原始研究待逐条核对",
     "DDT残留量的具体数值版本待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q100948",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rachel Carson",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1964",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q100948"
+            ],
+            "statement_id": "q100948$C020819A-6F11-469B-B978-1B2381EBAEC1",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-05-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1964,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q100948"
+            ],
+            "statement_id": "q100948$14385CFA-A9A8-4EB3-B68B-943FDEAC4B69",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1964,
+            "raw_time": "+1964-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q100948"
+        ],
+        "statement_id": "Q100948$a90a8422-4343-3b08-3986-53c92a821cee",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7279187",
+        "label": "Rachel Carson Homestead",
+        "label_en": "Rachel Carson Homestead",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q100948"
+        ],
+        "statement_id": "q100948$6A6E3FB4-3417-4D86-984B-32E4A1B47BF0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生态 / 海洋生物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q100948",
+        "title": "Wikidata Q100948 / 雷切尔·卡森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q100948&oldid=2558219534",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558219534,
+        "modified_at": "2026-10-18T02:47:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

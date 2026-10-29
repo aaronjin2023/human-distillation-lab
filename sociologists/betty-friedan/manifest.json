@@ -60,5 +60,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "全职妈妈重返职场",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234604",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Betty Friedan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–2006",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234604"
+            ],
+            "statement_id": "Q234604$038CAAD1-F53F-4B65-91D2-49B7A3F3FF55",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234604"
+            ],
+            "statement_id": "q234604$C32FE5B1-07C4-4D79-88C0-98CA28665CBE",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234604"
+        ],
+        "statement_id": "q234604$0F536129-53AE-4662-81AD-6C652A077A3E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q233129",
+        "label": "皮奥里亚",
+        "label_en": "Peoria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234604"
+        ],
+        "statement_id": "q234604$66119443-1CF1-4293-B1A1-9712353DEFA1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "自由主义女性主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234604",
+        "title": "Wikidata Q234604 / 贝蒂·弗里丹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234604&oldid=2557812813",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557812813,
+        "modified_at": "2026-10-17T01:11:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,171 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜加班与健康焦虑",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43216",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Epicurus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "341–270 BCE",
+      "birth_year": {
+        "value": -342,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43216"
+            ],
+            "statement_id": "Q43216$9f22e3bd-4b4f-315d-d5c1-ac82e6aac881",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": -342,
+            "raw_time": "-0342-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": -341
+      },
+      "death_year": {
+        "value": -270,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43216"
+            ],
+            "statement_id": "Q43216$e1fdde3e-4a68-d477-b083-71e07717a077",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": -270,
+            "raw_time": "-0270-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$D00BBF07-19FD-4839-ABCF-414BCE97212A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13580795",
+        "label": "Samos",
+        "label_en": "Samos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$34c5a0c0-449a-7d7c-3745-4311c303b5bf",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13580795",
+        "label": "Samos",
+        "label_en": "Samos",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$65bbd686-41d9-0029-246a-daa126fe5a1e",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42295059",
+        "label": "Mytilene",
+        "label_en": "Mytilene",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$95c209bd-4d8e-d436-ab17-412b7d5e26ce",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1229422",
+        "label": "兰普萨库斯",
+        "label_en": "Lampsacus",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$9425ab8a-419d-f1a4-dc29-b256f4f85b62",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43216"
+        ],
+        "statement_id": "Q43216$E6E1A8B7-F6C7-4EB7-B9A4-973439611A6B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "希腊化·快乐主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43216",
+        "title": "Wikidata Q43216 / 伊壁鸠鲁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43216&oldid=2557870017",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557870017,
+        "modified_at": "2026-10-17T05:06:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

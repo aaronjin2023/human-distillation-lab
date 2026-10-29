@@ -31,5 +31,55 @@
   "test_prompt": "In the style of Harry Hess, explain why the Atlantic coasts fit together: map the mid-ocean ridge, show the symmetric magnetic stripes and the age gradient of the ocean floor on both sides, and treat the ridge as a conveyor belt that creates new crust",
   "test_question_zh": "大西洋两岸的海岸线为什么能拼合？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q1586564",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Harry Hess",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1906–1969",
+      "birth_year": {
+        "value": 1906,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1969,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "海洋地质 / 构造"
+    },
+    "sources": []
+  }
 }

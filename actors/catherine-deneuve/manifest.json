@@ -37,5 +37,101 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q106418",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Catherine Deneuve",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106418"
+            ],
+            "statement_id": "q106418$F523B2F9-CA8E-485D-A64E-EEB76470027D",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-10-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q106418"
+        ],
+        "statement_id": "q106418$5125A4FF-791C-405B-816F-A9CA4DD0C19E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q197297",
+        "label": "巴黎十七区",
+        "label_en": "17th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q106418"
+        ],
+        "statement_id": "q106418$00188424-ADB2-45C8-9AB4-39652A97C7AC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q106418",
+        "title": "Wikidata Q106418 / 凯瑟琳·德纳芙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q106418&oldid=2557835091",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557835091,
+        "modified_at": "2026-10-17T02:55:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

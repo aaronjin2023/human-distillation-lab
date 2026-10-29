@@ -30,5 +30,523 @@
   "test_prompt": "In the style of Albert Einstein, take a new anomaly in galaxy clustering, ask what field equation it would require if the anomaly is real, derive one clean testable prediction from it, and discard the model if the prediction fails",
   "test_question_zh": "用爱因斯坦的方法处理星系成团的一个新反常：若反常为真，它要求怎样的场方程，从中导出一个干净的可检验预言，预言失败就丢弃模型",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与天文史通说写；存疑项经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q937",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Albert Einstein",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1879–1955",
+      "birth_year": {
+        "value": 1879,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q937"
+            ],
+            "statement_id": "q937$2ecb21c3-4db1-54e8-27c4-a8a40541930c",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1879,
+            "raw_time": "+1879-03-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q937"
+            ],
+            "statement_id": "q937$577aaeb4-4ce9-fdd1-791f-78d893a0e5a8",
+            "rank": "normal",
+            "reference_count": 24,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "q937$B3E7F30F-C43D-435D-9EA3-266983130FB1",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q3012",
+        "label": "乌尔姆",
+        "label_en": "Ulm",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$862B872E-0986-4E1F-BCB5-67EA892B0E21",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1902-06-16T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1909-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q70",
+        "label": "伯尔尼",
+        "label_en": "Bern",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$B42B39CD-B046-4D84-AF15-C6FC03B1CBFF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1911-01-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1912-10-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$1DBF6E45-7D71-496F-AADE-ABB4FB5F074F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1909-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1911-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q72",
+        "label": "苏黎世",
+        "label_en": "Zurich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$5FEDB28F-5810-490E-9258-301C36E95BB6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1914-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1933-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$af167d49-49ce-e4e5-7167-5a6ce897952e",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q464344",
+        "label": "Caputh",
+        "label_en": "Caputh",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$280ea2e9-4613-29a2-9eaf-b5150af990c0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q138518",
+        "label": "普林斯顿",
+        "label_en": "Princeton",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$26125040-4339-417b-cd07-1f0722f2f35d",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-10-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1914-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q72",
+        "label": "苏黎世",
+        "label_en": "Zurich",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "q937$1D589815-A913-4559-94B0-7751C8D4E5FC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1896-01-28T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q159631",
+        "label": "符腾堡王国",
+        "label_en": "Kingdom of Württemberg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$08f8c47d-4967-1f71-d553-c520c754bb67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1896-01-28T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1901-02-21T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q223050",
+        "label": "无国籍",
+        "label_en": "statelessness",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$448fdca3-47f1-606c-a42a-f0282cd42a35",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1901-02-21T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$432f73a4-47a0-0126-1e69-7fa1d3a4a464",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1911-04-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1912-09-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$0f8b506b-4d1d-e6df-9d86-59cd38512251",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1918-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1933-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$6b477f22-4d7d-2931-c80a-fb99ebda87ca",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1933-01-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1934-03-24T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q937"
+        ],
+        "statement_id": "Q937$a3f8227b-43bb-9766-6fb0-80aabaaf0eb2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1940-10-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q937"
+          ],
+          "statement_id": "Q937$4AC1D270-BB85-42E6-9F2C-AF1A0A283399",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "德国—美国·相对论宇宙学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q937",
+        "title": "Wikidata Q937 / 阿尔伯特·爱因斯坦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q937&oldid=2560933677",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560933677,
+        "modified_at": "2026-10-26T04:09:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,119 @@
     "六种标准型的原始表述依赖译本",
     "生卒约数，成书年份为推算"
   ],
-  "verification": "还原/对消与六种标准型为学界通说；见草稿第 4 节第 12 条口径。"
+  "verification": "还原/对消与六种标准型为学界通说；见草稿第 4 节第 12 条口径。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9038",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Al-Khwarizmi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.780–c.850",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9038"
+            ],
+            "statement_id": "q9038$4cfd3909-4428-797b-35aa-0245dc350165",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 780,
+            "raw_time": "+0780-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9038"
+            ],
+            "statement_id": "q9038$b26692c0-4430-8077-c68d-7ed242f80117",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 850,
+            "raw_time": "+0850-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9038"
+        ],
+        "statement_id": "Q9038$4B07B169-C10C-4BFB-A00C-9150FC009732",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q182647",
+        "label": "花剌子模",
+        "label_en": "Khwarazm",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "数学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9038",
+        "title": "Wikidata Q9038 / 花剌子密",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9038&oldid=2561108587",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561108587,
+        "modified_at": "2026-10-26T16:10:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

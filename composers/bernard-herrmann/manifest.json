@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q296804",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bernard Herrmann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1911–1975",
+      "birth_year": {
+        "value": 1911,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296804"
+            ],
+            "statement_id": "q296804$EC660AA9-368D-4F80-8595-BF1BF5357588",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1911,
+            "raw_time": "+1911-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q296804"
+            ],
+            "statement_id": "q296804$400D3D6E-513B-4589-81D0-EDE32A27E744",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q296804"
+        ],
+        "statement_id": "q296804$B01DA5F9-30F5-4CDE-8D32-95FC2016C41A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q296804"
+        ],
+        "statement_id": "Q296804$72A40E54-477A-4BA9-B7D8-F302FC8C3951",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q296804"
+        ],
+        "statement_id": "q296804$C1F3F2EF-81E1-4E39-9445-1B2412A56E23",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "电影配乐 / 美国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q296804",
+        "title": "Wikidata Q296804 / 伯纳德·赫尔曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q296804&oldid=2557810354",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557810354,
+        "modified_at": "2026-10-17T01:04:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

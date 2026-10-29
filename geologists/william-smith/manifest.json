@@ -30,5 +30,117 @@
   "template": "geologists-top100-draft.md 第 6 节",
   "test_prompt": "现代地质问题：两条相距百公里的剖面，岩性相似，如何判断是否为同一层？",
   "verification": "2026-10-26：生卒与成果名以地质学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313533",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Smith",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1769–1839",
+      "birth_year": {
+        "value": 1769,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313533"
+            ],
+            "statement_id": "q313533$C7BF8E74-D10E-48EE-A596-DB2B05BD9F20",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1769,
+            "raw_time": "+1769-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1839,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313533"
+            ],
+            "statement_id": "q313533$5D4843F8-C537-44FB-80D7-000EA606EA7F",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1839,
+            "raw_time": "+1839-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313533"
+        ],
+        "statement_id": "Q313533$A06466FE-E7A5-45FC-95FA-1F9CE0278A23",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2133421",
+        "label": "邱吉爾",
+        "label_en": "Churchill",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313533"
+        ],
+        "statement_id": "Q313533$2C715AF4-0EED-42EA-AB5A-9A11D1E950FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地层学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313533",
+        "title": "Wikidata Q313533 / 威廉·史密斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313533&oldid=2558284292",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558284292,
+        "modified_at": "2026-10-18T06:28:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

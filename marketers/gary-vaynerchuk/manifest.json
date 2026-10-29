@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家深夜便利店的社交媒体方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3098629",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gary Vaynerchuk",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1975–（在世）",
+      "birth_year": {
+        "value": 1975,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3098629"
+            ],
+            "statement_id": "Q3098629$BD0D1236-7A7A-465D-BAAF-7200C8B6E31E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1975,
+            "raw_time": "+1975-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3098629"
+        ],
+        "statement_id": "Q3098629$E3BDFB99-4F91-4C01-BD88-0979FAFC223F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207294",
+        "label": "博布鲁伊斯克",
+        "label_en": "Babruysk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3098629"
+        ],
+        "statement_id": "Q3098629$BFC63E08-3503-45FD-8A96-64D0E21C7342",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "社交媒体营销"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3098629",
+        "title": "Wikidata Q3098629 / 加里·维纳查克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3098629&oldid=2530309676",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2530309676,
+        "modified_at": "2026-08-12T07:19:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

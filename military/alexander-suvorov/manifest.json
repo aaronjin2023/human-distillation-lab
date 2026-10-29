@@ -27,5 +27,144 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154232",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alexander Suvorov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1730–1800",
+      "birth_year": {
+        "value": 1730,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154232"
+            ],
+            "statement_id": "q154232$7224798D-9E3C-47E3-B660-734A40A75A31",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1730,
+            "raw_time": "+1730-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1800,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154232"
+            ],
+            "statement_id": "q154232$D2ABF271-0D2E-4AEB-B125-28BE6BB8CF04",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1800,
+            "raw_time": "+1800-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154232"
+        ],
+        "statement_id": "q154232$04863C25-310F-43C3-8002-F412F8F1C34D",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q154232"
+        ],
+        "statement_id": "Q154232$92A557D9-911A-498E-A14B-3BAF1521B47F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q81137",
+        "label": "奥洛穆茨",
+        "label_en": "Olomouc",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q154232"
+        ],
+        "statement_id": "Q154232$6DF910CD-0B5E-4DFE-A3CA-7905D4A8B221",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q954569",
+        "label": "维什科夫",
+        "label_en": "Vyškov",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154232"
+        ],
+        "statement_id": "q154232$F41ED9E3-B64A-4D86-A8E7-D57F7A13B256",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "俄国·远征"
+    },
+    "sources": [
+      {
+        "id": "WD:Q154232",
+        "title": "Wikidata Q154232 / 亚历山大·瓦西里耶维奇·苏沃洛夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154232&oldid=2560483145",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560483145,
+        "modified_at": "2026-10-24T23:55:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

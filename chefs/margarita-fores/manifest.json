@@ -39,5 +39,104 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编为厨师）",
   "test_prompt": "一份深夜便利店关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q27927784",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Margarita Forés",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1959–2025",
+      "birth_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27927784"
+            ],
+            "statement_id": "Q27927784$0f38de62-4db6-26ab-9e8c-5bf8b4ceeecf",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2025,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q27927784"
+            ],
+            "statement_id": "Q27927784$80e64753-4180-315b-aa08-7ab7a013c4cb",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2025,
+            "raw_time": "+2025-02-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q27927784"
+        ],
+        "statement_id": "Q27927784$7db6b3f7-4a96-23f8-1da9-d6a1e7b9761e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q928",
+        "label": "菲律宾",
+        "label_en": "Philippines",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "菲律宾·意餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q27927784",
+        "title": "Wikidata Q27927784 / Margarita Forés",
+        "url": "https://www.wikidata.org/w/index.php?title=Q27927784&oldid=2537843468",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2537843468,
+        "modified_at": "2026-08-29T18:32:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

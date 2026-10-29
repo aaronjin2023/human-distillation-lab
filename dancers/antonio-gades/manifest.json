@@ -37,5 +37,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q561048",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonio Gades",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2004",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q561048"
+            ],
+            "statement_id": "Q561048$5AAC5F4F-635E-486A-A84C-653527585F47",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q561048"
+            ],
+            "statement_id": "Q561048$D537AB7B-1C8E-4B6F-BAC0-00361A76FEA9",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q561048"
+        ],
+        "statement_id": "Q561048$AB8A4EC3-C712-4EB6-B44C-4F5B3224F0A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q608985",
+        "label": "埃尔达",
+        "label_en": "Elda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q561048"
+        ],
+        "statement_id": "Q561048$13FD1101-969A-4B10-9EED-E215BEA80076",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "弗拉门戈 / 西班牙舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q561048",
+        "title": "Wikidata Q561048 / 安东尼奥·佳德斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q561048&oldid=2560276458",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560276458,
+        "modified_at": "2026-10-24T11:39:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

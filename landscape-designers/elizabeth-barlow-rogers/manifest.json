@@ -42,5 +42,116 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "罗杰斯风格：现代城市里一座老公园的复兴规划，历史公园的修复，管理即设计，城市的景观。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5362379",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elizabeth Barlow Rogers",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1936–",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5362379"
+            ],
+            "statement_id": "Q5362379$8B7BB067-AF9D-4819-9E8F-BAFA9F510798",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5362379"
+        ],
+        "statement_id": "Q5362379$43F79314-E21D-43A1-B18F-9440CCA1EA1E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q975",
+        "label": "圣安东尼奥",
+        "label_en": "Q975",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5362379"
+        ],
+        "statement_id": "Q5362379$BBFCE396-A64E-4253-AF0C-5141AB5F0F0C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5362379"
+        ],
+        "statement_id": "Q5362379$F34C0859-ED70-43BB-99AF-E169F1653745",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国—英国·公园复兴",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5362379",
+        "title": "Wikidata Q5362379 / Elizabeth Barlow Rogers",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5362379&oldid=2516708769",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516708769,
+        "modified_at": "2026-07-12T17:43:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,117 @@
   "test_prompt": "In the method of Pol Duwez, design a thin metallic-glass ribbon for a flexible sensor. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "为柔性传感器设计一种金属玻璃薄带",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7208808",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pol Duwez",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1984",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7208808"
+            ],
+            "statement_id": "Q7208808$AAA5B75F-85A7-4220-B003-2739BE5115F7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-12-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7208808"
+            ],
+            "statement_id": "Q7208808$B6E69E7F-D32F-4F1C-87FD-9128541339AE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-12-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7208808"
+        ],
+        "statement_id": "Q7208808$9b14c6b3-44eb-37b1-4b54-23c3c189498d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q83407",
+        "label": "蒙斯",
+        "label_en": "Mons",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7208808"
+        ],
+        "statement_id": "Q7208808$F0BDE679-2F39-43AE-85F0-E7E6FF1EBB33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "金属玻璃"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7208808",
+        "title": "Wikidata Q7208808 / Pol Duwez",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7208808&oldid=2513925087",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513925087,
+        "modified_at": "2026-07-04T21:23:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

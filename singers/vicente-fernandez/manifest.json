@@ -44,5 +44,118 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于午夜出租车司机为乘客唱歌的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q119069",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vicente Fernández",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1940–2021",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q119069"
+            ],
+            "statement_id": "Q119069$918DD4EE-E8E3-436E-B099-E9BBC5872537",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q119069"
+            ],
+            "statement_id": "Q119069$3af778af-4d30-a215-f90b-e3c73c605277",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q119069"
+        ],
+        "statement_id": "Q119069$21C587E2-697A-485B-B975-B0BBC9664F78",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q9022",
+        "label": "瓜达拉哈拉",
+        "label_en": "Guadalajara",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q119069"
+        ],
+        "statement_id": "Q119069$9DF371EC-4BD8-4B58-9668-2116347CB3BF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "墨西哥·兰切拉",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q119069",
+        "title": "Wikidata Q119069 / 比森特·费尔南德斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q119069&oldid=2540183497",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540183497,
+        "modified_at": "2026-09-04T17:54:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

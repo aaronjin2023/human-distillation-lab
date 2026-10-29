@@ -1,35 +1,161 @@
 {
- "chemist": "Jöns Jacob Berzelius",
- "chemist_zh": "永斯·贝采利乌斯",
- "dates": "1779–1848",
- "field": "定量化学 / 元素化学",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #18",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "化学符号体系",
-  "原子量测定",
-  "硅与锆的分离"
- ],
- "sources": [
-  "Wikipedia 'Jöns Jacob Berzelius' https://en.wikipedia.org/wiki/J%C3%B6ns_Jacob_Berzelius",
-  "Britannica 'Jöns Jacob Berzelius' https://www.britannica.com/biography/Jons-Jacob-Berzelius"
- ],
- "test_prompt": "In the style of Jöns Jacob Berzelius, design a plan to fix the formula of an unknown oxide: measure its composition against oxygen by several methods, write the formula in symbols, and state what would force a revision.",
- "test_question_zh": "如何确定一种未知氧化物的化学式？",
- "verification": "2026-10-26：生卒、化学符号、原子量、硅锆分离按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "贝采利乌斯专著原文细节未逐句核对",
-  "原子量表的具体数值未逐项核对原文",
-  "硅、锆分离的具体条件未逐一核对"
- ]
+  "chemist": "Jöns Jacob Berzelius",
+  "chemist_zh": "永斯·贝采利乌斯",
+  "dates": "1779–1848",
+  "field": "定量化学 / 元素化学",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #18",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "化学符号体系",
+    "原子量测定",
+    "硅与锆的分离"
+  ],
+  "sources": [
+    "Wikipedia 'Jöns Jacob Berzelius' https://en.wikipedia.org/wiki/J%C3%B6ns_Jacob_Berzelius",
+    "Britannica 'Jöns Jacob Berzelius' https://www.britannica.com/biography/Jons-Jacob-Berzelius"
+  ],
+  "test_prompt": "In the style of Jöns Jacob Berzelius, design a plan to fix the formula of an unknown oxide: measure its composition against oxygen by several methods, write the formula in symbols, and state what would force a revision.",
+  "test_question_zh": "如何确定一种未知氧化物的化学式？",
+  "verification": "2026-10-26：生卒、化学符号、原子量、硅锆分离按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "贝采利乌斯专著原文细节未逐句核对",
+    "原子量表的具体数值未逐项核对原文",
+    "硅、锆分离的具体条件未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q151911",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jöns Jacob Berzelius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1779–1848",
+      "birth_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151911"
+            ],
+            "statement_id": "q151911$E319543D-5EA3-4D69-9A43-73BDCD056B07",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-08-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1848,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q151911"
+            ],
+            "statement_id": "q151911$E9966E27-37B2-4EB7-BE68-D3F6B97BFBFF",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1848,
+            "raw_time": "+1848-08-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "Q151911$058f2d2a-4cce-ce27-2bed-89e1319c99ff",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1451001",
+        "label": "韋瓦爾孫達",
+        "label_en": "Väfversunda",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "Q151911$7F7B13D0-3721-4268-91E2-1974998507C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1754",
+        "label": "斯德哥尔摩",
+        "label_en": "Stockholm",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q151911"
+        ],
+        "statement_id": "q151911$CDA14F10-EB53-4BD2-AB3C-E5FD97D1BEC6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "定量化学 / 元素化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q151911",
+        "title": "Wikidata Q151911 / 永斯·贝采利乌斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q151911&oldid=2557941032",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557941032,
+        "modified_at": "2026-10-17T09:40:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

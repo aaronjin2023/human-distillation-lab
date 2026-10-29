@@ -42,5 +42,139 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜等单的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q741184",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ken Takakura",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2014",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q741184"
+            ],
+            "statement_id": "Q741184$0584684F-1CCC-479F-BA14-CA8934B178F5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-02-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q741184"
+            ],
+            "statement_id": "Q741184$ce7071f5-45a6-1baa-ba9e-8f94a71c3da4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q741184"
+        ],
+        "statement_id": "Q741184$B5E30E6E-5143-4E99-82A9-6E84254E5F3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q188806",
+        "label": "北九州市",
+        "label_en": "Kitakyūshū",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q741184"
+        ],
+        "statement_id": "Q741184$ABBEAFB0-1D3A-4D9F-AC1E-1A5DAB291C0D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q741184"
+        ],
+        "statement_id": "Q741184$156B34DB-C635-432B-9444-E8E484FE94F6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q741184",
+        "title": "Wikidata Q741184 / 高仓健",
+        "url": "https://www.wikidata.org/w/index.php?title=Q741184&oldid=2546973262",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546973262,
+        "modified_at": "2026-09-17T09:39:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

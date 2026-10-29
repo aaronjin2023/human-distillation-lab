@@ -41,5 +41,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "梦窗疏石风格：现代医院里的一座疗愈园，大池配林岛，苔地铺展，枫影相映，借远山，环水静径，园即禅修。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q384703",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Muso Soseki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1275–1351",
+      "birth_year": {
+        "value": 1275,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q384703"
+            ],
+            "statement_id": "Q384703$093E21BB-9DEF-4BDC-A324-E1C7A8F4B480",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1275,
+            "raw_time": "+1275-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1351,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q384703"
+            ],
+            "statement_id": "Q384703$C0970DE6-4CBE-450C-9858-C89263E555BC",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1351,
+            "raw_time": "+1351-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q384703"
+        ],
+        "statement_id": "q384703$C839FFCA-4AD1-439E-B42B-2071D9D91F67",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q864166",
+        "label": "伊势国",
+        "label_en": "Ise Province",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q384703"
+        ],
+        "statement_id": "q384703$CC36C958-CCD4-4090-A43C-9605EA04C9EA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "镰仓—室町·禅庭",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q384703",
+        "title": "Wikidata Q384703 / 梦窗疏石",
+        "url": "https://www.wikidata.org/w/index.php?title=Q384703&oldid=2524222538",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2524222538,
+        "modified_at": "2026-07-29T07:40:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

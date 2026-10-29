@@ -51,5 +51,144 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Wu Zetian, Tang running script and flying-white writing modern Tokyo subway station names on a stone stele, bold unrestrained characters, dry-brush breaks, imperial scale, black rubbing ink",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9738",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Zetian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "624–705",
+      "birth_year": {
+        "value": 624,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9738"
+            ],
+            "statement_id": "Q9738$4C5D9F20-04B6-411E-AD8D-4DF27E8FFD62",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 624,
+            "raw_time": "+0624-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 705,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9738"
+            ],
+            "statement_id": "Q9738$E7D66D33-B863-4347-B077-FFA5C2CC0E6E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 705,
+            "raw_time": "+0705-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9738"
+        ],
+        "statement_id": "Q9738$4E138DE6-E867-4731-BEF8-5EE8FC468067",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q426237",
+        "label": "广元市",
+        "label_en": "Guangyuan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9738"
+        ],
+        "statement_id": "Q9738$84B84422-2665-4724-803A-34971B065F74",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q9738"
+        ],
+        "statement_id": "Q9738$435eeca3-424c-119d-0b44-cd012338b5e9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q835435",
+        "label": "武周",
+        "label_en": "Zhou dynasty (690–705)",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q9738"
+          ],
+          "statement_id": "Q9738$71d9284b-6a25-4b0a-b561-fed46a8c8d29",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "唐·行书 / 飞白"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9738",
+        "title": "Wikidata Q9738 / 武则天",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9738&oldid=2561588775",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561588775,
+        "modified_at": "2026-10-28T01:57:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

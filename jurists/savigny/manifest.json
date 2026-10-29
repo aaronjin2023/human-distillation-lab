@@ -44,5 +44,145 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "网络社区习惯法（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：引文见 Britannica 与 Wabash 大学所载 Hayward 1831 年英译本原文；生卒 1779–1861 为通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76892",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Friedrich Carl von Savigny",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1779–1861",
+      "birth_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76892"
+            ],
+            "statement_id": "q76892$0774701D-BB5C-4D5E-AED8-210C4D924FD9",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76892"
+            ],
+            "statement_id": "q76892$72A88B3C-4753-4FA3-A185-FA59CDC49647",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76892"
+        ],
+        "statement_id": "q76892$161928B9-67E5-49A0-9CF1-82C805C70326",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76892"
+        ],
+        "statement_id": "Q76892$BAA5B6DD-0874-4ED2-93CE-C564836767BB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3869",
+        "label": "马尔堡",
+        "label_en": "Marburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76892"
+        ],
+        "statement_id": "Q76892$F8E145AB-8D38-4DA4-85BE-357436AF0CE2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76892"
+        ],
+        "statement_id": "Q76892$50d0708c-416e-342f-bbcb-bda6887fc46c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "历史法学派",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76892",
+        "title": "Wikidata Q76892 / 弗里德里希·卡尔·冯·萨维尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76892&oldid=2561269888",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561269888,
+        "modified_at": "2026-10-27T01:36:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,134 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q319001",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tony Leung Chiu-wai",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1962–",
+      "birth_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q319001"
+            ],
+            "statement_id": "q319001$FAE33801-E961-4E1F-8B52-BCA1E9551EED",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q319001"
+        ],
+        "statement_id": "q319001$c6d5416b-4375-097a-c3c8-c561ee93ec13",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1054923",
+        "label": "英属香港",
+        "label_en": "British Hong Kong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q319001"
+        ],
+        "statement_id": "q319001$01632798-472f-297e-ff52-c2862c149398",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1997-06-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1054923",
+        "label": "英属香港",
+        "label_en": "British Hong Kong",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q319001"
+        ],
+        "statement_id": "Q319001$366f1a77-4b83-5457-ce1b-10b90b13f9a3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1997-07-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q319001",
+        "title": "Wikidata Q319001 / 梁朝伟",
+        "url": "https://www.wikidata.org/w/index.php?title=Q319001&oldid=2559166306",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559166306,
+        "modified_at": "2026-10-20T09:52:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

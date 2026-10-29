@@ -49,5 +49,186 @@
   ],
   "test_prompt": "庙会排队中的仪式秩序",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5512454",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "G. S. Ghurye",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1983",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5512454"
+            ],
+            "statement_id": "Q5512454$7DC3A265-2D76-4B98-8431-C4BAF44A9E13",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5512454"
+            ],
+            "statement_id": "Q5512454$09799F60-C856-44E1-BDB1-1FE7B0EB51A5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5512454"
+        ],
+        "statement_id": "Q5512454$9ED00C1B-4833-4B5E-98AA-E6B55D6B8357",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2450888",
+        "label": "马尔万",
+        "label_en": "Malvan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5512454"
+        ],
+        "statement_id": "Q5512454$7548F6A1-819A-4D18-BD1F-508C808C1A86",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5512454"
+        ],
+        "statement_id": "Q5512454$D6EED864-E7FB-4F95-97CA-3D4B3E07634B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5512454"
+        ],
+        "statement_id": "Q5512454$E3A70AC9-1D8D-402F-A141-C12BA034293B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·种姓与文明"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5512454",
+        "title": "Wikidata Q5512454 / G. S. Ghurye",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5512454&oldid=2521632611",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521632611,
+        "modified_at": "2026-07-23T12:33:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

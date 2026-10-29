@@ -38,5 +38,143 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "风灾后多城电网恢复",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q142141",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mikhail Tukhachevsky",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1937",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q142141"
+            ],
+            "statement_id": "Q142141$dd37adb4-4769-19f1-8c98-27c1843f3702",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q142141"
+            ],
+            "statement_id": "q142141$5F207DFF-E6F2-4AFB-BA37-5E212AAD6F8F",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q142141"
+        ],
+        "statement_id": "Q142141$3f1164f6-4a68-5c86-da20-1ffa63886675",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q558263",
+        "label": "Slednevo",
+        "label_en": "Slednevo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q142141"
+        ],
+        "statement_id": "q142141$1F0F9D9D-16AE-4A8B-9409-E448581D5FF8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q142141"
+        ],
+        "statement_id": "Q142141$8627834D-600A-4B6E-BCDD-28ED4FC5E4FB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2184",
+        "label": "俄罗斯苏维埃联邦社会主义共和国",
+        "label_en": "Russian Soviet Federative Socialist Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q142141"
+        ],
+        "statement_id": "Q142141$ECB08CE8-AD98-4188-97D9-4D146F94BCF9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "苏联·大纵深作战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q142141",
+        "title": "Wikidata Q142141 / 米哈伊尔·尼古拉耶维奇·图哈切夫斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q142141&oldid=2558169930",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558169930,
+        "modified_at": "2026-10-18T00:00:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

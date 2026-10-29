@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Ding Wenjiang, judge a province with no geological map: plan the survey traverse by traverse, correlate sections as you go, and state what remains unknown until surveyed",
   "test_question_zh": "一个省还没有地质图，调查该从哪里开始？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5278144",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ding Wenjiang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1936",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5278144"
+            ],
+            "statement_id": "Q5278144$D12C20B1-988E-4A16-B643-ED7CB83D07F4",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-03-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5278144"
+            ],
+            "statement_id": "Q5278144$F71BDACF-C4AA-4A2E-AF18-F5EBBBD56B79",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5278144"
+        ],
+        "statement_id": "Q5278144$15666920-2C68-4DBB-AC1C-6AB4546774C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1365433",
+        "label": "泰兴市",
+        "label_en": "Taixing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5278144"
+        ],
+        "statement_id": "Q5278144$B614862E-F7A1-4768-8578-09FA92F8FEE8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中国地质学奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5278144",
+        "title": "Wikidata Q5278144 / 丁文江",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5278144&oldid=2557000976",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557000976,
+        "modified_at": "2026-10-14T18:47:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

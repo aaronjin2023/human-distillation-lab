@@ -38,5 +38,179 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "帕拉第奥风格：现代城市街角的一座社区图书馆，对称别墅配神庙式门廊，九宫格平面，中央穹顶与敞廊，砖上白灰泥，比例宁静。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q177692",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Andrea Palladio",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1508–1580",
+      "birth_year": {
+        "value": 1508,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177692"
+            ],
+            "statement_id": "Q177692$A0ABF8D7-2C1A-41A7-BA76-11B9D610CE72",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1508,
+            "raw_time": "+1508-11-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q177692"
+            ],
+            "statement_id": "Q177692$0FDF29AD-01AC-44B4-AF21-033EE150ACA8",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1580,
+            "raw_time": "+1580-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "q177692$A3FF849E-69C4-4890-A55A-D64960DB0126",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q617",
+        "label": "帕多瓦",
+        "label_en": "Padua",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "Q177692$ff585213-451d-fb24-6d18-c69ec19985cc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1243",
+        "label": "威尼托",
+        "label_en": "Veneto",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "Q177692$d934f35d-42d7-3e18-fd0d-c41748497036",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6537",
+        "label": "维琴察",
+        "label_en": "Vicenza",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "Q177692$a2f60122-4d29-11e3-89b3-a994faf5a890",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "Q177692$6c11c69a-4c59-445c-bc1e-edabe6c36c87",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2790",
+        "label": "乌迪内",
+        "label_en": "Udine",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q177692"
+        ],
+        "statement_id": "Q177692$376F0308-1DD9-4F6A-A266-206C6FE039A4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4948",
+        "label": "威尼斯共和国",
+        "label_en": "Republic of Venice",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴 / 帕拉第奥主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q177692",
+        "title": "Wikidata Q177692 / 安德烈亚·帕拉迪奥",
+        "url": "https://www.wikidata.org/w/index.php?title=Q177692&oldid=2557752253",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557752253,
+        "modified_at": "2026-10-16T21:45:20Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

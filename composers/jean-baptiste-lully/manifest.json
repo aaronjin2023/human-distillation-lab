@@ -32,5 +32,141 @@
   "test_prompt": "现代城市深夜的一家便利店",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1192",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Baptiste Lully",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1632–1687",
+      "birth_year": {
+        "value": 1632,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1192"
+            ],
+            "statement_id": "Q1192$627BD8AA-669C-45CE-8487-2EED5A6CCFF2",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1632,
+            "raw_time": "+1632-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1687,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1192"
+            ],
+            "statement_id": "Q1192$9BBC87DF-11FB-4B28-8AF0-591463531CB4",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1687,
+            "raw_time": "+1687-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1192"
+        ],
+        "statement_id": "q1192$59836B16-AFE6-4521-9AEE-15E6B1CB0BD3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1192"
+        ],
+        "statement_id": "Q1192$5AFE2E55-1FE1-466E-8503-97F30ABD3549",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1661-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1192"
+        ],
+        "statement_id": "Q1192$C8F4F0F7-1F46-4831-AFEF-824756C16464",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q154849",
+        "label": "托斯卡纳大公国",
+        "label_en": "Grand Duchy of Tuscany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 法国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1192",
+        "title": "Wikidata Q1192 / 让-巴蒂斯特·吕利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1192&oldid=2561503016",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561503016,
+        "modified_at": "2026-10-27T18:33:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

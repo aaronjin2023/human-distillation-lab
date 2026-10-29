@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "维卡斯·卡纳风格：一碗现代拉面的纽约印度重构——祖母厨房记忆、现代优雅印度风味、温暖叙事、纽约碗中的香料暖意。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7929395",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vikas Khanna",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7929395"
+            ],
+            "statement_id": "Q7929395$CBF73B39-7137-4F72-A48E-1DC2858C7D6B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-11-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7929395"
+        ],
+        "statement_id": "Q7929395$FDE73A0F-B010-4008-8F0A-4A3370149054",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q48403",
+        "label": "阿姆利则",
+        "label_en": "Amritsar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7929395"
+        ],
+        "statement_id": "Q7929395$7C3395C2-54B3-4708-B9CE-4DDEB9ACD712",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度菜",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7929395",
+        "title": "Wikidata Q7929395 / Vikas Khanna",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7929395&oldid=2529850321",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529850321,
+        "modified_at": "2026-08-11T02:26:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

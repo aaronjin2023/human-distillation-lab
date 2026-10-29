@@ -31,5 +31,117 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q172505",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Astor Piazzolla",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–1992",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172505"
+            ],
+            "statement_id": "q172505$A4AFE4C0-96C9-4901-AD65-8920B41BFECE",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q172505"
+            ],
+            "statement_id": "q172505$9D915BC2-6505-4FC4-9D38-F618A0E7950C",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q172505"
+        ],
+        "statement_id": "q172505$7752E4F8-6474-407F-9868-A9D0E210BA51",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q52607",
+        "label": "马德普拉塔",
+        "label_en": "Mar del Plata",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q172505"
+        ],
+        "statement_id": "Q172505$22548E31-AE60-49F5-A214-9F805FA3DA24",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美 / 阿根廷探戈新风"
+    },
+    "sources": [
+      {
+        "id": "WD:Q172505",
+        "title": "Wikidata Q172505 / 阿斯托尔·皮亚佐拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q172505&oldid=2560437751",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560437751,
+        "modified_at": "2026-10-24T21:27:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

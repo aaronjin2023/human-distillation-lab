@@ -30,5 +30,117 @@
   "test_prompt": "In the method of Robert W. Cahn, design a recrystallized sheet alloy with controlled texture. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "设计一种织构可控的再结晶板材合金",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15456652",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert W. Cahn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2007",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15456652"
+            ],
+            "statement_id": "Q15456652$BF364E9F-D981-4F96-A19C-F15AB0816595",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2007,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15456652"
+            ],
+            "statement_id": "Q15456652$597E6BC1-96BB-40D9-B13F-9D25DAA35BF9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2007,
+            "raw_time": "+2007-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15456652"
+        ],
+        "statement_id": "Q15456652$762821F1-653A-4557-A30A-4118F4831F40",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3075",
+        "label": "菲尔特",
+        "label_en": "Fürth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15456652"
+        ],
+        "statement_id": "Q15456652$46E1B0E2-BB78-4BE3-A82C-9FA97907A639",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "物理冶金"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15456652",
+        "title": "Wikidata Q15456652 / 罗伯特·W·康",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15456652&oldid=2554795073",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554795073,
+        "modified_at": "2026-10-08T01:10:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

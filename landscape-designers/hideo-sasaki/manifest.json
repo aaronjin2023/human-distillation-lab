@@ -43,5 +43,104 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "佐佐木风格：现代科技园区的一座中心庭院，大尺度秩序中的人的尺度，地形与植物一体，砖铺广场配林荫树阵。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6654815",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hideo Sasaki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–2000",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6654815"
+            ],
+            "statement_id": "Q6654815$6B527C60-8356-48C3-AB6B-E8DFB48C5097",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6654815"
+            ],
+            "statement_id": "Q6654815$55D0929F-BE6F-43BC-BF6A-C8836AD7DB51",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6654815"
+        ],
+        "statement_id": "Q6654815$AFC89749-4D94-41FD-BB04-2C01D9C9A7F7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·现代主义景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6654815",
+        "title": "Wikidata Q6654815 / 佐佐木英夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6654815&oldid=2513407064",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513407064,
+        "modified_at": "2026-07-03T11:32:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

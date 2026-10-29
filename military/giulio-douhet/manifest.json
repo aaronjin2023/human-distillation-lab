@@ -33,5 +33,117 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "针对后勤网络的无人机作战筹划",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q364463",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giulio Douhet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1869–1930",
+      "birth_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q364463"
+            ],
+            "statement_id": "Q364463$AA16EB77-B59F-4EF2-B683-26305F6EC22E",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-05-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q364463"
+            ],
+            "statement_id": "Q364463$C3055209-D9FC-4332-86DA-85BA6F3F0F4B",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q364463"
+        ],
+        "statement_id": "q364463$10B82CB0-6DCC-44EE-8FF0-9199580DE4E7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1906",
+        "label": "卡塞塔",
+        "label_en": "Caserta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q364463"
+        ],
+        "statement_id": "Q364463$CABAC13C-9205-4F78-8D76-7637F872FCA0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·空权理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q364463",
+        "title": "Wikidata Q364463 / 朱利欧·杜黑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q364463&oldid=2557897440",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557897440,
+        "modified_at": "2026-10-17T06:36:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

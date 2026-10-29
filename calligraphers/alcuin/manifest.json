@@ -38,5 +38,125 @@
   "test_prompt": "In the style of Alcuin, Carolingian minuscule manuscript page, clear rounded lowercase letters, straight even lines, black ink with red rubrication on parchment",
   "transmission": "抄本传世，真迹归属存疑；加洛林小写体为其主持的图尔抄本工坊所推广",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q154332",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alcuin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.735–804",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154332"
+            ],
+            "statement_id": "Q154332$fe28d68a-4759-a501-524d-cb4f64d784ce",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 740,
+            "raw_time": "+0740-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 804,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q154332"
+            ],
+            "statement_id": "Q154332$34E365D6-5B31-475F-B423-F9CF87278A9F",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 804,
+            "raw_time": "+0804-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q154332"
+        ],
+        "statement_id": "q154332$6657EF95-1550-404F-AD2A-2D3699A48621",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q42462",
+        "label": "约克",
+        "label_en": "York",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q154332"
+        ],
+        "statement_id": "Q154332$8759d9d4-432e-2f3e-1479-796bcc394734",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q107299",
+        "label": "诺森布里亚",
+        "label_en": "Kingdom of Northumbria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·加洛林小写体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q154332",
+        "title": "Wikidata Q154332 / 阿尔琴",
+        "url": "https://www.wikidata.org/w/index.php?title=Q154332&oldid=2557719577",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557719577,
+        "modified_at": "2026-10-16T19:25:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

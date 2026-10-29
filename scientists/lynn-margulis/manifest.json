@@ -29,5 +29,117 @@
     "1967年论文的投稿与拒稿细节待核对",
     "各细胞器共生证据的现状待分子文献核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234583",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lynn Margulis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1938–2011",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234583"
+            ],
+            "statement_id": "q234583$69F4F99B-3623-4C35-ACB9-29AC57065612",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2011,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234583"
+            ],
+            "statement_id": "q234583$661A4A64-E999-469D-B8D3-5D24CD919585",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 2011,
+            "raw_time": "+2011-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234583"
+        ],
+        "statement_id": "Q234583$940FE61E-3B47-41BB-97B3-2B7B3E4DB2AE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234583"
+        ],
+        "statement_id": "q234583$F834D7BA-3FA1-4288-8DB0-8E33BAA57782",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生物 / 进化"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234583",
+        "title": "Wikidata Q234583 / 琳·马古利斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234583&oldid=2558141913",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558141913,
+        "modified_at": "2026-10-17T22:54:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

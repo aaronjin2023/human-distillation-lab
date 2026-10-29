@@ -41,5 +41,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "女子大学服务型领导研讨课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1893–1985 与金女大校长任期经 web 搜索核对（Wikipedia / Dallas Baptist University）；卒日两说记 conflicts.md，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8039002",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Yifang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1985",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8039002"
+            ],
+            "statement_id": "Q8039002$56FA49EE-8D0A-4EF5-B9CF-0F618625A946",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-01-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8039002"
+            ],
+            "statement_id": "Q8039002$1C0DDF25-E9C2-4047-8CA6-E864287DF4FE",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8039002"
+        ],
+        "statement_id": "Q8039002$C2A86826-4514-4061-A7F7-C37A07C53F8D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1014420",
+        "label": "武昌区",
+        "label_en": "Wuchang District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8039002"
+        ],
+        "statement_id": "Q8039002$C3FAD954-513C-4D5E-B7FB-9BB7C5C48C8E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·女子高等教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8039002",
+        "title": "Wikidata Q8039002 / 吴贻芳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8039002&oldid=2554313256",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554313256,
+        "modified_at": "2026-10-07T03:12:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,131 @@
   "test_prompt": "In the style of Rudolf Virchow, judge whether a new disease acts at the cellular level: compare diseased and normal tissue under the microscope, trace the change to cells, and do not claim a molecular mechanism the images cannot show",
   "test_question_zh": "一种新疾病的病变组织里细胞形态异常，怎么判断病变在细胞层次还是体液层次？",
   "verification": "生卒 1821–1902、omnis cellula e cellula 1855、《细胞病理学》1858 按生物学史通说写；原文表述未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76432",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rudolf Virchow",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1821–1902",
+      "birth_year": {
+        "value": 1821,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76432"
+            ],
+            "statement_id": "q76432$53498FAA-0496-4CDA-9266-1A9BA0C3B815",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1821,
+            "raw_time": "+1821-10-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76432"
+            ],
+            "statement_id": "q76432$A828ADF2-0890-42B7-A444-221EF89C80E7",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-09-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76432"
+        ],
+        "statement_id": "q76432$EB9B002B-2054-4310-BE2C-F8FC0DE54D71",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q387406",
+        "label": "希维德温",
+        "label_en": "Świdwin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76432"
+        ],
+        "statement_id": "Q76432$A4C4D898-0584-44D7-93CA-3E6D309F6A32",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76432"
+        ],
+        "statement_id": "Q76432$69a396c3-420b-c3ec-a7b9-98a35387a1b0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "细胞病理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76432",
+        "title": "Wikidata Q76432 / 鲁道夫·卡尔·菲尔绍",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76432&oldid=2558231154",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558231154,
+        "modified_at": "2026-10-18T03:31:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

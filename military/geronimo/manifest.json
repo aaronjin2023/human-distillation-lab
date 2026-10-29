@@ -27,5 +27,152 @@
   "status": "draft v0.1",
   "test_prompt": "一场网络攻防对抗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2791",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Geronimo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1829–1909",
+      "birth_year": {
+        "value": 1829,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2791"
+            ],
+            "statement_id": "q2791$29BBD1F9-DD5C-400B-85E4-98048B943BAB",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1829,
+            "raw_time": "+1829-06-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2791"
+            ],
+            "statement_id": "q2791$7EC8FF48-98FC-4848-B331-6829EA0CB570",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2791"
+        ],
+        "statement_id": "Q2791$F409474B-235D-4477-8219-213DCE59067C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 21818619,
+              "id": "Q21818619"
+            }
+          ]
+        },
+        "qid": "Q838143",
+        "label": "希拉河",
+        "label_en": "Gila River",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2791"
+        ],
+        "statement_id": "Q2791$477412C8-8750-4E23-802C-9F3CA9CEFB33",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2791"
+        ],
+        "statement_id": "Q2791$AF68742A-2058-47D0-A40B-48C877C255C5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q2791"
+          ],
+          "statement_id": "Q2791$ec9fcc49-4d98-e08e-7c55-03772849d701",
+          "rank": "normal",
+          "reference_count": 0,
+          "qualifiers": {},
+          "qid": "Q102090",
+          "label": "阿帕奇族",
+          "label_en": "Apache",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "阿帕奇·抵抗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2791",
+        "title": "Wikidata Q2791 / 傑羅尼莫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2791&oldid=2561511579",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561511579,
+        "modified_at": "2026-10-27T19:04:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,148 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "安特米乌斯风格：现代城市街角的一座社区图书馆，砖砌帆拱中央穹顶，半穹顶层层跌落，穹顶基座窗环，金色与大理石室内，光即结构。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q298226",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anthemius of Tralles",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.474–c.534",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q298226"
+            ],
+            "statement_id": "Q298226$EA689777-8F42-4ABE-BA38-E5E509FFF330",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 474,
+            "raw_time": "+0474-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q298226"
+            ],
+            "statement_id": "Q298226$F71C1A33-FE33-4552-AB06-857DBAAC7658",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 534,
+            "raw_time": "+0534-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q298226"
+        ],
+        "statement_id": "Q298226$F6A807EB-AFB5-4539-A24B-92A03A8BFF9F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q462630",
+        "label": "Tralleis",
+        "label_en": "Tralleis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q298226"
+        ],
+        "statement_id": "Q298226$97DCA478-2664-4D7B-AE24-496C5E66C62D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12544",
+        "label": "拜占庭帝国",
+        "label_en": "Byzantine Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q298226"
+          ],
+          "statement_id": "Q298226$b68a73b2-49a5-29a6-fb56-874e992fa737",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q539051",
+          "label": "希腊人",
+          "label_en": "Greeks",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "拜占庭",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q298226",
+        "title": "Wikidata Q298226 / 特拉勒斯的安提莫斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q298226&oldid=2547633660",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547633660,
+        "modified_at": "2026-09-19T02:36:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

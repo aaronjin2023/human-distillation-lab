@@ -29,5 +29,199 @@
     "第谷体系的部分参数待核对",
     "超新星观测的原始记录细节待核对"
   ],
-  "verification": "超新星 1572 年与彗星 1577 年为学界通说；精度约角分量级。"
+  "verification": "超新星 1572 年与彗星 1577 年为学界通说；精度约角分量级。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q36620",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tycho Brahe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1546–1601",
+      "birth_year": {
+        "value": 1546,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36620"
+            ],
+            "statement_id": "q36620$A3BF0AAE-C577-4A68-9DAA-A482D95B50D5",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1546,
+            "raw_time": "+1546-12-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1601,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q36620"
+            ],
+            "statement_id": "q36620$201168BD-B5AC-48FA-B687-754C72C32879",
+            "rank": "preferred",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1601,
+            "raw_time": "+1601-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q36620"
+        ],
+        "statement_id": "q36620$248620AB-31F1-4577-B571-32FB7E7E95F9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1807458",
+        "label": "努斯托城堡",
+        "label_en": "Knutstorp Castle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q36620"
+        ],
+        "statement_id": "Q36620$DD83118E-6254-4A07-9DA4-FCA4F36F5F11",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q36620"
+        ],
+        "statement_id": "Q36620$3e30db89-4c76-0074-9773-2cd4be120eff",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1576-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1597-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q79220",
+        "label": "烏拉尼堡",
+        "label_en": "Uraniborg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q36620"
+        ],
+        "statement_id": "Q36620$a843ad34-43d0-a604-dc50-3a756f9228a5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1599-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1601-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q818540",
+        "label": "伊泽拉河畔贝纳特基",
+        "label_en": "Benátky nad Jizerou",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q36620"
+        ],
+        "statement_id": "q36620$163AEF6D-DC05-41E0-A104-C61B2C0014C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q36620",
+        "title": "Wikidata Q36620 / 第谷·布拉厄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q36620&oldid=2558265908",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558265908,
+        "modified_at": "2026-10-18T05:20:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

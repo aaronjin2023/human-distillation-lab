@@ -27,5 +27,179 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131691",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Duke of Wellington",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1769–1852",
+      "birth_year": {
+        "value": 1769,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131691"
+            ],
+            "statement_id": "q131691$3CDEC43E-02F9-4790-85C7-9AFBB4528441",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1769,
+            "raw_time": "+1769-05-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1852,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131691"
+            ],
+            "statement_id": "q131691$04B1C539-84A4-4D88-AB09-FF3E565D384D",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1852,
+            "raw_time": "+1852-09-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131691"
+        ],
+        "statement_id": "q131691$D694A1FC-D759-449C-8810-88A2663D8E6F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1761",
+        "label": "都柏林",
+        "label_en": "Dublin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q131691"
+        ],
+        "statement_id": "Q131691$56D1AADF-6622-4C68-8EAA-218885F558C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131691"
+        ],
+        "statement_id": "q131691$F9C25617-9AF2-4F86-ADFD-421B4D2679F7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1800-12-31T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q215530",
+        "label": "爱尔兰王国",
+        "label_en": "Kingdom of Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q131691"
+        ],
+        "statement_id": "Q131691$B96D0A7A-B559-4617-9974-16264F780CDE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q131691"
+        ],
+        "statement_id": "Q131691$1fb585f7-44df-96d1-21f2-3f39d3bc9313",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·半岛战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131691",
+        "title": "Wikidata Q131691 / 阿瑟·韦尔斯利，第一代威灵顿公爵",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131691&oldid=2560028608",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560028608,
+        "modified_at": "2026-10-23T15:51:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,142 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为亿万富翁的离岸财富设计一套全球财富税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15811211",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gabriel Zucman",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1986–",
+      "birth_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15811211"
+            ],
+            "statement_id": "Q15811211$4122FB0D-9A21-4A13-BB2F-F64F07AA4BF0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-10-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15811211"
+        ],
+        "statement_id": "Q15811211$1ED3CB0D-3116-4EDF-AEBA-FD25A6B41852",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q15811211"
+        ],
+        "statement_id": "Q15811211$1BE1CF07-CA8B-4727-87CF-962B680A9696",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q484678",
+        "label": "伯克利",
+        "label_en": "Berkeley",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q15811211"
+        ],
+        "statement_id": "Q15811211$ADF5DB4F-5677-45D3-AA91-220E822682EB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23306",
+        "label": "大伦敦",
+        "label_en": "Greater London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15811211"
+        ],
+        "statement_id": "Q15811211$A7C5A817-9DB3-4AC0-B338-E489E1203F2F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q15811211"
+        ],
+        "statement_id": "Q15811211$18d1acb0-431a-0aad-b89a-31335f7b2ab4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·避税天堂与全球财富税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15811211",
+        "title": "Wikidata Q15811211 / 加布里埃尔·祖克曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15811211&oldid=2524108295",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2524108295,
+        "modified_at": "2026-07-28T22:58:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

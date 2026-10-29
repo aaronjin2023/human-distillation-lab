@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Jocelyn Bell Burnell, search a new radio survey for pulsars: read every chart by hand, keep every repeating anomaly, and confirm each one with follow-up observations before claiming it",
   "test_question_zh": "新射电巡天记录里有没有脉冲星？",
   "verification": "生年 1943 年、脉冲星发现 1967 年经 web 搜索核对（草稿第 7 节）；在世，只蒸已发表成果物",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233974",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jocelyn Bell Burnell",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233974"
+            ],
+            "statement_id": "Q233974$6460C12C-46FA-4ED2-9645-5C9AB3BECB1D",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233974"
+        ],
+        "statement_id": "Q233974$810677bd-4a67-2186-f3f0-c8fce8d54f2b",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1702713",
+        "label": "卢根",
+        "label_en": "Lurgan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233974"
+        ],
+        "statement_id": "Q233974$39db2056-44dc-833c-fe00-9284e92e9e2a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·射电天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233974",
+        "title": "Wikidata Q233974 / 约瑟琳·贝尔·伯奈尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233974&oldid=2557966148",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557966148,
+        "modified_at": "2026-10-17T11:30:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Don Walsh, a small Yorkshire terrier rides the subway to the deepest station. It logs depth, pressure and temperature at every level, descends in darkness, and surfaces with data, not drama.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q714483",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Don Walsh",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–2023",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714483"
+            ],
+            "statement_id": "Q714483$48D6BA41-6E7A-45BA-9C71-2E976D2173F2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-11-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q714483"
+            ],
+            "statement_id": "Q714483$4c795bf9-4e12-d55a-9e65-0b16e9a8942c",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-11-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q714483"
+        ],
+        "statement_id": "Q714483$DE09BE7F-D908-4EF0-BA36-F45189133A43",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q77",
+        "label": "乌拉圭",
+        "label_en": "Uruguay",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q714483"
+        ],
+        "statement_id": "q714483$5AB665FF-7672-47BB-857B-C2B8890C4CA4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "J. 现代航海·海洋探索与传统导航复兴",
+      "genre": "J. 现代航海·海洋探索与传统导航复兴"
+    },
+    "sources": [
+      {
+        "id": "WD:Q714483",
+        "title": "Wikidata Q714483 / 唐纳德·沃尔什",
+        "url": "https://www.wikidata.org/w/index.php?title=Q714483&oldid=2513522025",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513522025,
+        "modified_at": "2026-07-03T19:13:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

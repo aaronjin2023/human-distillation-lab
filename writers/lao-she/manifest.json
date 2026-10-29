@@ -42,5 +42,202 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Lao She",
-  "writer_zh": "老舍"
+  "writer_zh": "老舍",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q315167",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lao She",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1966",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315167"
+            ],
+            "statement_id": "q315167$427C83C4-43CF-4C2B-BDB3-3C3FF769F215",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-02-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315167"
+            ],
+            "statement_id": "q315167$566102A7-9102-4A7E-AD38-5D9D383B1F44",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-08-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q315167"
+        ],
+        "statement_id": "q315167$9849342F-B60E-4ABC-8FDB-CAA29E31F5A2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q956",
+        "label": "北京市",
+        "label_en": "Beijing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q315167"
+        ],
+        "statement_id": "Q315167$31818327-4b6a-cb6c-2974-0ffc83173e27",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1924-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1929-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q315167"
+        ],
+        "statement_id": "Q315167$aaa81a99-4a42-cd8c-ea61-a5bd9d1f0e59",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1929-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1929-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q334",
+        "label": "新加坡",
+        "label_en": "Singapore",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q315167"
+        ],
+        "statement_id": "q315167$1669EF6A-B061-4B89-9108-720D9A4CDDB3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "documented",
+      "documented": [
+        {
+          "label": "满族",
+          "source_ids": [
+            "BIO-LAOSHE-CHINAWRITER"
+          ],
+          "evidence_basis": "explicit_public_biography"
+        }
+      ],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代·小说 / 话剧",
+      "genre": "novelist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q315167",
+        "title": "Wikidata Q315167 / 老舍",
+        "url": "https://www.wikidata.org/w/index.php?title=Q315167&oldid=2558106190",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558106190,
+        "modified_at": "2026-10-17T21:00:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-LAOSHE-CHINAWRITER",
+        "title": "老舍[满] — 现代作家辞典",
+        "url": "https://www.chinawriter.com.cn/xdzj/383.shtml",
+        "accessed_at": "2026-10-29",
+        "access_note": "已浏览中国作家网公开辞典正文；标题直接标注“老舍[满]”。采纳的是直接人物分类，不从父母身份自行推断。"
+      }
+    ]
+  }
 }

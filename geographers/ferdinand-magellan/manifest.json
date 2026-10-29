@@ -31,5 +31,125 @@
   "test_prompt": "In the style of Magellan, find the strait the charts say is not there: follow the coast south until it turns, take the narrow passage, and cross the ocean nobody has measured — the voyage, not the planner, completes the circle",
   "test_question_zh": "如何找到海图上没有的海峡并完成环球航行？",
   "verification": "环球航行（1519–1522 年）与麦哲伦卒于 1521 年按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1496",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ferdinand Magellan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1480–1521",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1496"
+            ],
+            "statement_id": "q1496$768AD34F-CDE3-4886-B842-622E5AB2EDD1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1480,
+            "raw_time": "+1480-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1521,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1496"
+            ],
+            "statement_id": "Q1496$605AA7FE-162D-4567-8B9D-38DDA59510AE",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1521,
+            "raw_time": "+1521-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1496"
+        ],
+        "statement_id": "q1496$EEE6B279-AACE-4520-B557-4826674E77C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q491484",
+        "label": "蓬蒂-達巴爾卡",
+        "label_en": "Ponte da Barca",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1496"
+        ],
+        "statement_id": "q1496$BB07F82E-9647-4C2C-8160-367553DBDA7E",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "葡萄牙—西班牙·航海探险"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1496",
+        "title": "Wikidata Q1496 / 斐迪南·麦哲伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1496&oldid=2557878479",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557878479,
+        "modified_at": "2026-10-17T05:30:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -39,5 +39,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只小约克夏犬在地铁站灯光下看深夜棒球练习，安静运动漫画页（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q351742",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mitsuru Adachi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1951–",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q351742"
+            ],
+            "statement_id": "q351742$1C2C7915-2547-48B9-9D79-81992C7A3293",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q351742"
+        ],
+        "statement_id": "q351742$F32CC9D4-189A-4CA8-A837-2145D261F908",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q328596",
+        "label": "伊势崎市",
+        "label_en": "Isesaki",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q351742"
+        ],
+        "statement_id": "q351742$3B36786D-9E34-4EEE-BAC7-CAE8E268C642",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·少年/运动漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q351742",
+        "title": "Wikidata Q351742 / 安达充",
+        "url": "https://www.wikidata.org/w/index.php?title=Q351742&oldid=2541120120",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541120120,
+        "modified_at": "2026-09-06T14:12:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

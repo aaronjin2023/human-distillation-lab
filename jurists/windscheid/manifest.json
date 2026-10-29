@@ -44,5 +44,158 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "智能合约的概念体系（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1817–1892、第一草案主导起草者身份为学界通说；无可确证的短句名言，故语言样本全为 artifact 级；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q62966",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bernhard Windscheid",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1817–1892",
+      "birth_year": {
+        "value": 1817,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q62966"
+            ],
+            "statement_id": "Q62966$E67BB4C9-4CCA-4B10-AD23-DF1763AB4CDD",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1817,
+            "raw_time": "+1817-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q62966"
+            ],
+            "statement_id": "Q62966$E0F794D5-1C6C-4210-9A77-BF6982DC90FA",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-10-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q62966"
+        ],
+        "statement_id": "q62966$55D4B998-E19E-437C-902A-E71AA765D846",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1718",
+        "label": "杜塞爾多夫",
+        "label_en": "Düsseldorf",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q62966"
+        ],
+        "statement_id": "Q62966$270979A2-72AF-4AF9-84E7-5E47D98C47CA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q62966"
+        ],
+        "statement_id": "Q62966$BD6894F2-20AC-4457-8175-5D6447AA65CE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q62966"
+        ],
+        "statement_id": "Q62966$466ED377-472A-4A4B-BE5D-E7B3BBE1E6EE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q62966"
+        ],
+        "statement_id": "q62966$A5B31EBB-0E44-43D5-8D28-453A94C0D243",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "潘德克顿法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q62966",
+        "title": "Wikidata Q62966 / 温沙伊特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q62966&oldid=2548657504",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548657504,
+        "modified_at": "2026-09-23T01:37:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

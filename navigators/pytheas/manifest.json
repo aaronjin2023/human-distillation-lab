@@ -39,5 +39,56 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Pytheas, a lone uncrewed survey ship circles Britain in 2026 measuring latitude by the sun at noon, logging tides against the moon, and reporting a far northern island exactly as its sensors saw it, doubted or not.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q189971",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year"
+          ],
+          "match_basis": {
+            "name": "Pytheas",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.350–c.320 BCE",
+      "birth_year": {
+        "value": -350,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": -320,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "希腊·北大西洋",
+      "genre": "navigator"
+    },
+    "sources": []
+  }
 }

@@ -56,5 +56,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "广场舞队的组织与纠纷",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1353651",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert N. Bellah",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2013",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1353651"
+            ],
+            "statement_id": "Q1353651$0F875CB8-8C8E-48EA-BFFE-2BF634D172D0",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2013,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1353651"
+            ],
+            "statement_id": "Q1353651$C0171DCA-18BB-41EF-BDB1-A847F1BD5F0C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2013,
+            "raw_time": "+2013-07-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1353651"
+        ],
+        "statement_id": "q1353651$5905D47D-60CB-47AA-8367-75CF3719C030",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q446314",
+        "label": "阿尔特斯",
+        "label_en": "Altus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1353651"
+        ],
+        "statement_id": "q1353651$AAB50073-21A0-4049-8FB5-60E36EA16091",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "功能主义·宗教社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1353651",
+        "title": "Wikidata Q1353651 / 羅伯特·貝拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1353651&oldid=2540731659",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2540731659,
+        "modified_at": "2026-09-06T00:10:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

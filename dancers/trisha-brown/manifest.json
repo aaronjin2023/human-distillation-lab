@@ -47,5 +47,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q460833",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Trisha Brown",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2017",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q460833"
+            ],
+            "statement_id": "Q460833$94832FDD-D43F-4DEB-96B2-B65E99476860",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q460833"
+            ],
+            "statement_id": "Q460833$cb2f875b-4964-49b2-c349-7c9bf986d58f",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-03-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q460833"
+        ],
+        "statement_id": "Q460833$A7630CF3-776E-4529-8E66-92B3BCD46ACE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q233808",
+        "label": "阿伯丁",
+        "label_en": "Aberdeen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q460833"
+        ],
+        "statement_id": "q460833$A217F2C9-16E6-4BCE-916D-6C5F0CDF1CD0",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "后现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q460833",
+        "title": "Wikidata Q460833 / Trisha Brown",
+        "url": "https://www.wikidata.org/w/index.php?title=Q460833&oldid=2560259417",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560259417,
+        "modified_at": "2026-10-24T10:14:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q469314",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Samori Ture",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1830–1900",
+      "birth_year": {
+        "value": 1830,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q469314"
+            ],
+            "statement_id": "Q469314$03964104-D308-4098-AA8F-94917E4583D2",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1830,
+            "raw_time": "+1830-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q469314"
+            ],
+            "statement_id": "Q469314$219AC12D-6B28-4F94-9379-310E73DCB577",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-06-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q469314"
+        ],
+        "statement_id": "Q469314$41b9f297-426f-8000-2153-9b80c79de47d",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q123910325",
+        "label": "Manyambaladugu",
+        "label_en": "Manyambaladugu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q469314"
+        ],
+        "statement_id": "q469314$3FC12A6D-EFB6-4C7B-98D7-ACE5B54C8489",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1006",
+        "label": "几内亚",
+        "label_en": "Guinea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "西非·抗法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q469314",
+        "title": "Wikidata Q469314 / 萨摩里·杜尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q469314&oldid=2518174084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518174084,
+        "modified_at": "2026-07-16T13:42:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

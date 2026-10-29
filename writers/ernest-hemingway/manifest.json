@@ -43,5 +43,132 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Ernest Hemingway",
-  "writer_zh": "欧内斯特·海明威"
+  "writer_zh": "欧内斯特·海明威",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q23434",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ernest Hemingway",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1961",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23434"
+            ],
+            "statement_id": "q23434$E38C2A40-125E-4EB6-B404-AB7962D8C3AE",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-07-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23434"
+            ],
+            "statement_id": "q23434$2BAF6AF0-6632-4451-B4EA-80F8D163F123",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q23434"
+        ],
+        "statement_id": "q23434$E0074A45-7D19-4341-9885-DE51380384ED",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q331397",
+        "label": "奥克帕克",
+        "label_en": "Oak Park",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q23434"
+        ],
+        "statement_id": "Q23434$f9cc4871-4924-217d-8207-6fd80382c0d7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q270482",
+        "label": "阿拉西奥",
+        "label_en": "Alassio",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q23434"
+        ],
+        "statement_id": "q23434$4FB58542-E57F-4B24-AFFE-C2BD9DB753D9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·小说",
+      "genre": "小说家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q23434",
+        "title": "Wikidata Q23434 / 欧内斯特·海明威",
+        "url": "https://www.wikidata.org/w/index.php?title=Q23434&oldid=2560250098",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560250098,
+        "modified_at": "2026-10-24T09:25:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -32,5 +32,117 @@
   "test_prompt": "In the method of Mildred Dresselhaus, design a flexible carbon nanomaterial conductor for a wearable device. Calculate the band structure first, let the calculation predict metallic versus semiconducting behavior, verify with Raman spectroscopy, and check the prediction before claiming conductivity.",
   "test_question_zh": "为可穿戴设备设计一种柔性碳纳米导电材料",
   "verification": "2026-10-26：生卒（1930–2017）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q29573",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mildred Dresselhaus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2017",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q29573"
+            ],
+            "statement_id": "Q29573$3F31A0EE-F80D-46DC-BA1D-AEEC69698F56",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-11-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2017,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q29573"
+            ],
+            "statement_id": "Q29573$d87ed2ea-490c-cc27-1996-73097bec7a20",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2017,
+            "raw_time": "+2017-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q29573"
+        ],
+        "statement_id": "Q29573$17e92ced-d271-4484-a275-6a60977ef83f",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q29573"
+        ],
+        "statement_id": "q29573$96954DBE-0B4D-4A4C-A66A-A98A4D04DCAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "碳纳米材料 / 石墨烯能带"
+    },
+    "sources": [
+      {
+        "id": "WD:Q29573",
+        "title": "Wikidata Q29573 / 米尔德里德·德雷斯尔豪斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q29573&oldid=2516848441",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516848441,
+        "modified_at": "2026-07-13T01:13:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

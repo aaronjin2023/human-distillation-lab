@@ -45,5 +45,144 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51123",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "D. W. Griffith",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1875–1948",
+      "birth_year": {
+        "value": 1875,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51123"
+            ],
+            "statement_id": "q51123$2276499E-FE73-45CD-91B5-E565805F4E73",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1875,
+            "raw_time": "+1875-01-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51123"
+            ],
+            "statement_id": "q51123$43FA8329-0846-4BAF-A184-A5F3FC7AABEA",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51123"
+        ],
+        "statement_id": "Q51123$7A16AD64-096C-4C42-B1C5-4E24C74FD542",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2030859",
+        "label": "克雷斯特伍德",
+        "label_en": "Crestwood",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q51123"
+        ],
+        "statement_id": "Q51123$E6015A0F-F9B5-40C3-A570-BD7CF472EDF2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q51123"
+        ],
+        "statement_id": "Q51123$FEBF8651-425A-4556-A2CB-3D3983E4BDC7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51123"
+        ],
+        "statement_id": "q51123$D405791F-354B-407A-A0EC-9119EC914D06",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·古典叙事奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51123",
+        "title": "Wikidata Q51123 / 大衛·格里菲斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51123&oldid=2557848670",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557848670,
+        "modified_at": "2026-10-17T03:50:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

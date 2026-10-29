@@ -38,5 +38,142 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在社区活动室教孩子画怪物的老师（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3269500",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lynda Barry",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3269500"
+            ],
+            "statement_id": "q3269500$F848DF70-87A6-410E-BF84-E6C2E3AE0C6F",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3269500"
+        ],
+        "statement_id": "Q3269500$68B774DF-E933-4A25-A8D3-03C2253D2074",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1569965",
+        "label": "里奇兰森特",
+        "label_en": "Richland Center",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q3269500"
+        ],
+        "statement_id": "Q3269500$929bcdf2-4fb5-b2a9-8953-992a854244e1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5083",
+        "label": "西雅图",
+        "label_en": "Seattle",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3269500"
+        ],
+        "statement_id": "Q3269500$a3332ab2-4621-b567-afd9-bb8e3837ab00",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3269500"
+        ],
+        "statement_id": "Q3269500$76966f30-4cbd-20a6-2c10-6b1536104a1d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q43788",
+        "label": "麦迪逊",
+        "label_en": "Madison",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3269500"
+        ],
+        "statement_id": "Q3269500$4DA32616-550A-4E96-BB13-D913E3368201",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·另类/自传漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3269500",
+        "title": "Wikidata Q3269500 / 琳达·巴里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3269500&oldid=2549687456",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549687456,
+        "modified_at": "2026-09-26T15:12:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

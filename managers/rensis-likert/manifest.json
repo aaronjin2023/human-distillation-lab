@@ -48,5 +48,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家学校食堂外包后师生不满意怎么办",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q940513",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rensis Likert",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1981",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q940513"
+            ],
+            "statement_id": "q940513$364D33C7-822E-47DC-AE8A-0F2336A718D7",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q940513"
+            ],
+            "statement_id": "q940513$DF02E41B-56A2-4C9E-B868-1933097B00C9",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-09-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q940513"
+        ],
+        "statement_id": "q940513$2EECB2B7-DD49-4C9A-A3DB-B5BD01212299",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39042",
+        "label": "夏延",
+        "label_en": "Cheyenne",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q940513"
+        ],
+        "statement_id": "q940513$DA35540A-FA85-4A5F-8EB6-F018DCBABAB2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织理论 / 管理系统"
+    },
+    "sources": [
+      {
+        "id": "WD:Q940513",
+        "title": "Wikidata Q940513 / 伦西斯·李克特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q940513&oldid=2527919042",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527919042,
+        "modified_at": "2026-08-06T02:23:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

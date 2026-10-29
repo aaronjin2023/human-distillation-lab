@@ -1,40 +1,152 @@
 {
-    "date": "2026-10-26",
-    "dates": "1920–2019",
-    "evidence_levels": [
-        "verbatim",
-        "artifact",
-        "impression"
+  "date": "2026-10-26",
+  "dates": "1920–2019",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "field": "直复营销",
+  "known_gaps": [
+    "未逐项核对各战役年份"
+  ],
+  "language_samples": [
+    {
+      "level": "artifact",
+      "source": "《Being Direct》书名",
+      "text": "Being Direct: Making Advertising Pay"
+    }
+  ],
+  "list_position": "marketers-top100-draft v1 #77",
+  "living_person": false,
+  "marketer": "Lester Wunderman",
+  "marketer_zh": "莱斯特·温德曼",
+  "scope": "只蒸行业内成就与成果物（战役、品牌、理论），不蒸私生活",
+  "source_works": [
+    "理论：直复营销",
+    "品牌：Wunderman",
+    "战役：哥伦比亚唱片俱乐部"
+  ],
+  "sources": [
+    "marketers-top100-draft v1 第 2 节 #77",
+    "营销史通说（Wikipedia / Britannica / 行业讣告共识）",
+    "2026-10-26 web 搜索核对（存疑项已记入 conflicts.md 与 known_gaps）"
+  ],
+  "status": "draft v0.1",
+  "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
+  "test_prompt": "一款订阅制咖啡的直邮与留存方案",
+  "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6531985",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lester Wunderman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2019",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6531985"
+            ],
+            "statement_id": "Q6531985$1C5F414F-319E-4959-9DD6-C6B9D3597CCE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6531985"
+            ],
+            "statement_id": "Q6531985$4EA6444B-39C5-40D4-B950-6B03BFB7637B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6531985"
+        ],
+        "statement_id": "Q6531985$1703f441-590a-461d-b76f-f2e48deae608",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
     ],
-    "field": "直复营销",
-    "known_gaps": [
-        "未逐项核对各战役年份"
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6531985"
+        ],
+        "statement_id": "Q6531985$C37F9FFF-2C44-470C-89F0-47F6B7375C2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
     ],
-    "language_samples": [
-        {
-            "level": "artifact",
-            "source": "《Being Direct》书名",
-            "text": "Being Direct: Making Advertising Pay"
-        }
-    ],
-    "list_position": "marketers-top100-draft v1 #77",
-    "living_person": false,
-    "marketer": "Lester Wunderman",
-    "marketer_zh": "莱斯特·温德曼",
-    "scope": "只蒸行业内成就与成果物（战役、品牌、理论），不蒸私生活",
-    "source_works": [
-        "理论：直复营销",
-        "品牌：Wunderman",
-        "战役：哥伦比亚唱片俱乐部"
-    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "直复营销"
+    },
     "sources": [
-        "marketers-top100-draft v1 第 2 节 #77",
-        "营销史通说（Wikipedia / Britannica / 行业讣告共识）",
-        "2026-10-26 web 搜索核对（存疑项已记入 conflicts.md 与 known_gaps）"
-    ],
-    "status": "draft v0.1",
-    "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
-    "test_prompt": "一款订阅制咖啡的直邮与留存方案",
-    "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-    "version": "0.1"
+      {
+        "id": "WD:Q6531985",
+        "title": "Wikidata Q6531985 / Lester Wunderman",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6531985&oldid=2508569873",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2508569873,
+        "modified_at": "2026-06-21T00:35:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

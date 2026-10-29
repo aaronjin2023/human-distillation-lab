@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Mungo Park, walk a little-known river alone and write it plainly: the town, the headman, the fever, the compass in your pocket — and when the river turns against every map in the capital, trust the river",
   "test_question_zh": "一条少有人知的河流向哪里流？",
   "verification": "卒于 1806 年初布萨附近、尼日尔—刚果汇合说后世证伪本次 web 搜索核对（Britannica、Wikipedia）；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q219086",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mungo Park",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1771–1806",
+      "birth_year": {
+        "value": 1771,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q219086"
+            ],
+            "statement_id": "q219086$FEFA6E8D-6A17-458F-8BD7-7215BA94B14A",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1771,
+            "raw_time": "+1771-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1806,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q219086"
+            ],
+            "statement_id": "Q219086$FECC4D6E-90CA-42D5-8A85-F3158163C5F7",
+            "rank": "normal",
+            "reference_count": 25,
+            "qualifiers": {},
+            "value": 1806,
+            "raw_time": "+1806-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q219086"
+        ],
+        "statement_id": "q219086$A5020361-D2C7-4F0B-8312-2B417BE7A8F2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q22",
+        "label": "苏格兰",
+        "label_en": "Scotland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q219086"
+        ],
+        "statement_id": "Q219086$bbac84c6-8b8e-402e-b2f0-0e94e220a284",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4412",
+        "label": "西非",
+        "label_en": "West Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q219086"
+        ],
+        "statement_id": "Q219086$8FA09017-8431-4148-B7EE-296D685A4728",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "苏格兰·非洲探险"
+    },
+    "sources": [
+      {
+        "id": "WD:Q219086",
+        "title": "Wikidata Q219086 / 芒戈·帕克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q219086&oldid=2558176382",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558176382,
+        "modified_at": "2026-10-18T00:24:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

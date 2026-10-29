@@ -34,5 +34,176 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q53004",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vittorio De Sica",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1974",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53004"
+            ],
+            "statement_id": "q53004$54378002-ABE9-4245-B3A1-2FD2106DA0E7",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-07-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q53004"
+            ],
+            "statement_id": "q53004$DFC8F72B-9F72-4D0F-9731-F12DA3DBE02C",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q53004"
+        ],
+        "statement_id": "q53004$2A69B3A0-E274-4E96-9248-A8D2A41AD594",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q117382",
+        "label": "索拉",
+        "label_en": "Sora",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q53004"
+        ],
+        "statement_id": "q53004$0AA9488B-E402-4819-957E-3DB6F74D557B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q53004"
+        ],
+        "statement_id": "Q53004$C4203B90-DF64-4D0B-BF49-8C4E8E934FB3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q53004"
+        ],
+        "statement_id": "Q53004$647d3b66-4371-a291-fbf2-ad8cb196c16f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1968-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·新现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q53004",
+        "title": "Wikidata Q53004 / 維多里奧·狄西嘉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q53004&oldid=2558274254",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558274254,
+        "modified_at": "2026-10-18T05:48:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

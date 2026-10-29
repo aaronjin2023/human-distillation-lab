@@ -29,5 +29,117 @@
     "条件反射论文的原文版本未逐项核对",
     "具体实验数据以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q42985",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ivan Pavlov",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1849–1936",
+      "birth_year": {
+        "value": 1849,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42985"
+            ],
+            "statement_id": "Q42985$1B7C3B1D-1251-4502-B988-E3A250D28DF0",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1849,
+            "raw_time": "+1849-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42985"
+            ],
+            "statement_id": "q42985$EAEF391E-8373-4D49-A695-965672C5A8A9",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q42985"
+        ],
+        "statement_id": "q42985$0B7FEA20-4F9D-44E7-A5EA-E83C9D0B9C10",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2746",
+        "label": "梁赞",
+        "label_en": "Ryazan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q42985"
+        ],
+        "statement_id": "Q42985$f069f3ee-487e-82b2-5afa-59e8f96d2e58",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q42985",
+        "title": "Wikidata Q42985 / 伊万·彼得罗维奇·巴甫洛夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q42985&oldid=2560702498",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560702498,
+        "modified_at": "2026-10-25T13:59:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

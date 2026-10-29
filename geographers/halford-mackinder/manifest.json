@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Halford Mackinder, read a new urban district through one map: the transport hub at the centre, ring roads and metro lines around it, and let the pivot show which flows the hub can command — as a strategic reading, not a law.",
   "test_question_zh": "一座新城区的交通枢纽",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；1904 年枢纽论文与 1919 年专著为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q299938",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Halford Mackinder",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1861–1947",
+      "birth_year": {
+        "value": 1861,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299938"
+            ],
+            "statement_id": "q299938$B8C1F93E-E8A9-4B95-ABA0-64E44EC511CC",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1861,
+            "raw_time": "+1861-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q299938"
+            ],
+            "statement_id": "q299938$2DCB2039-60D8-4DD9-A971-49A935E933BD",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q299938"
+        ],
+        "statement_id": "q299938$5298AF0C-1511-43A4-8908-EC62CB1840DF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q288082",
+        "label": "金斯博洛",
+        "label_en": "Gainsborough",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q299938"
+        ],
+        "statement_id": "Q299938$A2F4DB45-C825-4352-9DD0-6A900E9AA4D1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q299938"
+        ],
+        "statement_id": "Q299938$9ECA3354-4C0A-4659-9CF7-2EC59DAB914A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·政治地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q299938",
+        "title": "Wikidata Q299938 / 哈尔福德·麦金德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q299938&oldid=2559092497",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559092497,
+        "modified_at": "2026-10-20T05:36:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

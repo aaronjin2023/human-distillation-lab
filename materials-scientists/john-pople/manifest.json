@@ -29,5 +29,117 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of John Pople, design a flexible conductive material for a wearable device. Define the model chemistry first, benchmark against experiment, then compute before synthesizing.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**Gaussian 的争议**：波普尔后期与 Gaussian 公司的许可争议导致部分科学家被禁使用该软件；本文件夹只",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q233973",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Pople",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1925–2004",
+      "birth_year": {
+        "value": 1925,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233973"
+            ],
+            "statement_id": "q233973$8E17B4C5-EB10-41D2-B748-4A241C09A5C2",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1925,
+            "raw_time": "+1925-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2004,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q233973"
+            ],
+            "statement_id": "q233973$CDC5677C-1BB3-426F-B03A-7C5E2CED5AF6",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2004,
+            "raw_time": "+2004-03-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q233973"
+        ],
+        "statement_id": "q233973$8131ca78-48f5-d7f0-8791-2aa54a718a2c",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1247822",
+        "label": "滨海班汉姆",
+        "label_en": "Burnham-on-Sea  and Highbridge",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q233973"
+        ],
+        "statement_id": "q233973$A71DDDD9-2E7B-4C6B-AC60-626CAE311608",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "计算化学 / 从头算方法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q233973",
+        "title": "Wikidata Q233973 / 约翰·波普",
+        "url": "https://www.wikidata.org/w/index.php?title=Q233973&oldid=2545049206",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545049206,
+        "modified_at": "2026-09-13T13:47:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

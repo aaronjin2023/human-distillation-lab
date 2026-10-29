@@ -47,5 +47,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里约克夏犬引发的围观",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q295978",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "George Herbert Mead",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1863–1931",
+      "birth_year": {
+        "value": 1863,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295978"
+            ],
+            "statement_id": "q295978$FDA426D7-7416-44BA-BD6A-EE697623AE67",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1863,
+            "raw_time": "+1863-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q295978"
+            ],
+            "statement_id": "q295978$5D83EF9B-875A-4C1B-9125-CF1409F65E21",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q295978"
+        ],
+        "statement_id": "q295978$BC97CB46-4193-464A-9D9B-DA9E1844D40D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2423149",
+        "label": "南哈德利",
+        "label_en": "South Hadley",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q295978"
+        ],
+        "statement_id": "q295978$3DDFDA6A-B535-4F41-A688-AAC40AA79A90",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "符号互动论奠基"
+    },
+    "sources": [
+      {
+        "id": "WD:Q295978",
+        "title": "Wikidata Q295978 / 乔治·贺伯特·米德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q295978&oldid=2557892273",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557892273,
+        "modified_at": "2026-10-17T06:15:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

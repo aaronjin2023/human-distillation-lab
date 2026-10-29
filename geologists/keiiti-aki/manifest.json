@@ -28,5 +28,141 @@
     "预测研究的具体主张以综述转述为准"
   ],
   "test_prompt": "现代问题：如何评估一次余震预报的可信度？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q493209",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Keiiti Aki",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2005",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493209"
+            ],
+            "statement_id": "Q493209$D5403CFD-F8D8-4202-9FF7-14B0F830A49E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-03-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493209"
+            ],
+            "statement_id": "q493209$19B4389F-0563-4B25-B871-22EB08B329A9",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-05-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q493209"
+        ],
+        "statement_id": "Q493209$45FCC9FE-7FE6-4C60-A5FB-5E580B1203A0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38283",
+        "label": "横滨市",
+        "label_en": "Yokohama",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q493209"
+        ],
+        "statement_id": "Q493209$ADDA9A02-9167-4898-AFF0-B9A3D420F97E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q493209"
+        ],
+        "statement_id": "Q493209$CAC0716F-F765-4271-8729-93CF5E415ED6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q188712",
+        "label": "大日本帝国",
+        "label_en": "Empire of Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q493209",
+        "title": "Wikidata Q493209 / 安艺敬一",
+        "url": "https://www.wikidata.org/w/index.php?title=Q493209&oldid=2548868503",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548868503,
+        "modified_at": "2026-09-23T16:58:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

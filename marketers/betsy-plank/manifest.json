@@ -39,5 +39,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一款 AI 耳机写公关教育推广方案",
   "verification": "2026-10-26 网络核对关键事实；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16018883",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Betsy Plank",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2010",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16018883"
+            ],
+            "statement_id": "Q16018883$4132F286-487B-408E-9B50-4638CF18075A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2010,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16018883"
+            ],
+            "statement_id": "Q16018883$24EBA558-4E75-4541-87CA-9B58D482961A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2010,
+            "raw_time": "+2010-05-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16018883"
+        ],
+        "statement_id": "Q16018883$97423C26-00F9-4446-999C-D0541A908C34",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q79580",
+        "label": "塔斯卡卢萨",
+        "label_en": "Tuscaloosa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16018883"
+        ],
+        "statement_id": "Q16018883$D814A7E2-A0E6-49E7-88A3-F0EF42C82F2B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "公关教育"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16018883",
+        "title": "Wikidata Q16018883 / Betsy Plank",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16018883&oldid=2508800912",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2508800912,
+        "modified_at": "2026-06-21T14:48:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

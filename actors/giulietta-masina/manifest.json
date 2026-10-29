@@ -37,5 +37,141 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q106907",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giulietta Masina",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1921–1994",
+      "birth_year": {
+        "value": 1921,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106907"
+            ],
+            "statement_id": "q106907$5B3C5535-2751-486B-8022-D3FA36588C34",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1921,
+            "raw_time": "+1921-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106907"
+            ],
+            "statement_id": "q106907$A44738D1-C6E7-476C-AD62-9D58B353AE5F",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q106907"
+        ],
+        "statement_id": "q106907$D3DE709B-FF6D-4246-B643-079A8A9ECCE3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q94988",
+        "label": "圣乔治-迪皮亚诺",
+        "label_en": "San Giorgio di Piano",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q106907"
+        ],
+        "statement_id": "Q106907$C5FC0036-3AD6-4440-9595-783091A0B848",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q106907"
+        ],
+        "statement_id": "Q106907$240C1D7B-1C7C-48FA-9041-9A969ADEABB0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q106907",
+        "title": "Wikidata Q106907 / 朱列塔·马西纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q106907&oldid=2557897426",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557897426,
+        "modified_at": "2026-10-17T06:36:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,146 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "算法招聘歧视（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1908–1993、1987 年演讲引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312348",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thurgood Marshall",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1993",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312348"
+            ],
+            "statement_id": "q312348$6DB4AC91-CE0C-4412-B777-B2B16D5C3C53",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1993,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312348"
+            ],
+            "statement_id": "q312348$344BF4D8-8AC8-4FCE-BB5B-E23FAABDCFA3",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1993,
+            "raw_time": "+1993-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312348"
+        ],
+        "statement_id": "q312348$7EAD9326-1FB5-44A9-8B51-DE94BEAA9945",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q5092",
+        "label": "巴尔的摩",
+        "label_en": "Baltimore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q312348"
+        ],
+        "statement_id": "Q312348$EBE74D19-122E-40EE-AE06-AADF0ADF00ED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312348"
+        ],
+        "statement_id": "q312348$F54E9BE4-9C9E-4B58-9866-38126B927E76",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q312348"
+          ],
+          "statement_id": "Q312348$C4F1BB58-473D-472B-9FA8-BB278C0D344E",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·民权诉讼 / 最高法院",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312348",
+        "title": "Wikidata Q312348 / 瑟古德·马歇尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312348&oldid=2558258641",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558258641,
+        "modified_at": "2026-10-18T05:00:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

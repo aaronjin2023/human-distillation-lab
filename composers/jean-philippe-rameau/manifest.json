@@ -32,5 +32,117 @@
   "test_prompt": "黄昏时分的高铁车窗外",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1145",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Philippe Rameau",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1683–1764",
+      "birth_year": {
+        "value": 1683,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1145"
+            ],
+            "statement_id": "q1145$D82AF653-B7E6-4801-9F67-28C6074DFB7F",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1683,
+            "raw_time": "+1683-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1764,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1145"
+            ],
+            "statement_id": "q1145$22467B75-ED44-4C8A-BFEC-4FCEAC97E42A",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1764,
+            "raw_time": "+1764-09-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1145"
+        ],
+        "statement_id": "q1145$4993E884-E551-4E78-A9EC-6EA68DF6BD95",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q7003",
+        "label": "第戎",
+        "label_en": "Dijon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1145"
+        ],
+        "statement_id": "q1145$C386AB66-49A5-4151-B1C8-536AFA290C5B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 法国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1145",
+        "title": "Wikidata Q1145 / 让-菲利普·拉莫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1145&oldid=2561501349",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561501349,
+        "modified_at": "2026-10-27T18:28:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

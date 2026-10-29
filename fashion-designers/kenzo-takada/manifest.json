@@ -55,5 +55,166 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "街头花店店主的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q454927",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kenzo Takada",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1939–2020",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454927"
+            ],
+            "statement_id": "Q454927$BCE9A6A6-7BAE-47CC-A7F9-06E353CC4BD6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q454927"
+            ],
+            "statement_id": "Q454927$dc12e92a-4bd2-4825-f082-f9fcc8904661",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-10-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q454927"
+        ],
+        "statement_id": "Q454927$FD7150D7-DC08-4682-A5C4-F3568E58B28D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q209801",
+        "label": "姬路市",
+        "label_en": "Himeji",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q454927"
+        ],
+        "statement_id": "Q454927$bf6c0bdc-4a38-4251-9891-dd0dc2382617",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1964-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1993-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q454927"
+        ],
+        "statement_id": "Q454927$3F83C06F-C3D0-446A-9A0C-CBA874398220",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q454927"
+        ],
+        "statement_id": "Q454927$a1b31d87-4338-a482-e87d-b465a2637a32",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本—巴黎·成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q454927",
+        "title": "Wikidata Q454927 / 高田贤三",
+        "url": "https://www.wikidata.org/w/index.php?title=Q454927&oldid=2553066428",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553066428,
+        "modified_at": "2026-10-04T14:41:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

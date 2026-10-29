@@ -29,5 +29,131 @@
     "《动物志》部分物种的鉴定现代学界仍有争议",
     "个别物理命题的原始表述与后人转述难以区分"
   ],
-  "verification": "草稿第 4 节口径：古代人物生卒为约数；具体证伪命题为学界通说。"
+  "verification": "草稿第 4 节口径：古代人物生卒为约数；具体证伪命题为学界通说。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q868",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aristotle",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "384–322 BCE",
+      "birth_year": {
+        "value": -384,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q868"
+            ],
+            "statement_id": "Q868$C6F4D0A8-7E25-45BA-BA81-AD3182A3CA80",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": -384,
+            "raw_time": "-0384-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -322,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q868"
+            ],
+            "statement_id": "Q868$E65C543F-5565-4997-9D59-114B5AB99E6A",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": -322,
+            "raw_time": "-0322-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q868"
+        ],
+        "statement_id": "Q868$F8876368-7C07-49FC-ABCD-DE933687686E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q846127",
+        "label": "斯塔伊拉",
+        "label_en": "Stageira",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q868"
+        ],
+        "statement_id": "Q868$fb513cd2-482c-a906-b1b4-5bc2e1958610",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21235810",
+        "label": "Chalcis",
+        "label_en": "Chalcis",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q868"
+          ],
+          "statement_id": "Q868$A49306B2-158A-4673-8FA0-68A0378B9DF0",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q539051",
+          "label": "希腊人",
+          "label_en": "Greeks",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "自然哲学 / 逻辑 / 生物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q868",
+        "title": "Wikidata Q868 / 亞里士多德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q868&oldid=2560288013",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560288013,
+        "modified_at": "2026-10-24T12:38:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

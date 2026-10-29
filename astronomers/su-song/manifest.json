@@ -35,5 +35,160 @@
   "test_prompt": "In the style of Su Song, write a rebuildable manual for a modern eclipse demonstration instrument: draw every gear and drive, give dimensions, and state plainly which parts are measured and which are reconstructed",
   "test_question_zh": "用苏颂的方法，为现代一次日食写一份能重造的演示仪器图说",
   "verification": "2026-10-26：生卒 1020–1101、《新仪象法要》、水运仪象台 1088 年按天文史通说写；原文未逐句核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1265657",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Su Song",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1020–1101",
+      "birth_year": {
+        "value": 1020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1265657"
+            ],
+            "statement_id": "Q1265657$00E4BAB4-EE7A-4864-9424-889FC03C2293",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1020,
+            "raw_time": "+1020-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q1265657"
+            ],
+            "statement_id": "Q1265657$8CD5A0D7-B705-4277-912C-2A7B0756C997",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1020,
+            "raw_time": "+1020-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1101,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1265657"
+            ],
+            "statement_id": "Q1265657$2F15A39A-6E1F-46CB-959D-0D174916D752",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1101,
+            "raw_time": "+1101-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q1265657"
+            ],
+            "statement_id": "Q1265657$AB4A6954-A3A5-47FD-B0FF-94BE86B8785E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1101,
+            "raw_time": "+1101-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1265657"
+        ],
+        "statement_id": "Q1265657$1DA0B60A-71EC-47B9-8F17-7F73FF8717C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q68695",
+        "label": "泉州市",
+        "label_en": "Quanzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1265657"
+        ],
+        "statement_id": "Q1265657$07172335-90DF-4361-8622-DFEFBF11569E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1265657"
+        ],
+        "statement_id": "Q1265657$FB65F98A-2DCC-4BE8-AE9D-F3480FE5E4FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "北宋·天文仪器"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1265657",
+        "title": "Wikidata Q1265657 / 苏颂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1265657&oldid=2553125530",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553125530,
+        "modified_at": "2026-10-04T17:28:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

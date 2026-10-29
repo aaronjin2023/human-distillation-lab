@@ -37,5 +37,147 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q204685",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Gielgud",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–2000",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q204685"
+            ],
+            "statement_id": "q204685$E4FF3727-824A-4F9B-B6C5-9F4FB7578606",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q204685"
+            ],
+            "statement_id": "Q204685$D14DCC10-D809-4F8E-B681-03A15AAD3CD7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q204685"
+            ],
+            "statement_id": "q204685$0CE7D367-9B68-4F98-9A8A-2B347904FD68",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q204685"
+            ],
+            "statement_id": "Q204685$8FDA7585-0AEB-4C3D-8DC0-605DEBDDBB7B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q204685"
+        ],
+        "statement_id": "q204685$6D963511-721B-4993-B015-E85F9BAFE5C5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1045096",
+        "label": "南肯辛顿",
+        "label_en": "South Kensington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q204685"
+        ],
+        "statement_id": "Q204685$DA5A32AA-A5BD-4C27-BE74-58E79E95C3BD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·舞台/电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q204685",
+        "title": "Wikidata Q204685 / 约翰·吉尔古德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q204685&oldid=2557989676",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557989676,
+        "modified_at": "2026-10-17T13:24:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

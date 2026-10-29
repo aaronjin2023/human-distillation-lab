@@ -32,5 +32,181 @@
   "thinker": "W. E. B. Du Bois",
   "thinker_zh": "W.E.B.杜波依斯",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q158060",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "W. E. B. Du Bois",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1868–1963",
+      "birth_year": {
+        "value": 1868,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q158060"
+            ],
+            "statement_id": "q158060$D17B99FE-FB24-4C17-81CD-AFBBAC2B7904",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1868,
+            "raw_time": "+1868-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q158060"
+            ],
+            "statement_id": "q158060$244F2EDA-7AC0-49E5-9EE7-80832BEC0434",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-08-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q158060"
+        ],
+        "statement_id": "q158060$12E24DFF-3413-45CD-A2B1-A7CB416769E9",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1144518",
+        "label": "大巴灵顿",
+        "label_en": "Great Barrington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q158060"
+        ],
+        "statement_id": "q158060$00BE8B9E-E371-4B86-B303-4131E342E177",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1868-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q158060"
+        ],
+        "statement_id": "Q158060$48d45e71-43b0-f738-3fa7-0798cb471615",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1961-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q117",
+        "label": "加纳",
+        "label_en": "Ghana",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "documented",
+      "documented": [
+        {
+          "label": "非裔美国人（African American）",
+          "source_ids": [
+            "BIO-DUBOIS-NPS"
+          ],
+          "evidence_basis": "explicit_public_biography"
+        }
+      ],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q158060"
+          ],
+          "statement_id": "Q158060$1EEAA3A7-7335-4D92-919A-6E564B95C3C6",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "非裔美国思想 / 社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q158060",
+        "title": "Wikidata Q158060 / W·E·B·杜波依斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q158060&oldid=2561526026",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561526026,
+        "modified_at": "2026-10-27T20:02:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-DUBOIS-NPS",
+        "title": "W E B Du Bois — Harpers Ferry National Historical Park",
+        "url": "https://www.nps.gov/hafe/learn/historyculture/w-e-b-dubois.htm",
+        "accessed_at": "2026-10-29",
+        "access_note": "已浏览美国国家公园管理局公开人物传记正文；以获得哈佛博士学位的African American直接描述Du Bois。三个库内manifest均为W. E. B. Du Bois，确认同一人后复用。此标签为公开族群/文化身份，不代表单一祖源或国籍。"
+      }
+    ]
+  }
 }

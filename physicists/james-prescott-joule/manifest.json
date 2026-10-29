@@ -34,5 +34,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8962",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Prescott Joule",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1818–1889",
+      "birth_year": {
+        "value": 1818,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8962"
+            ],
+            "statement_id": "q8962$2BC177FD-201A-4B89-825D-D26F70E280CC",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1818,
+            "raw_time": "+1818-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8962"
+            ],
+            "statement_id": "q8962$5E842488-27B9-4FBA-AAB5-E1A556FC03ED",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-10-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8962"
+        ],
+        "statement_id": "q8962$c98b4090-4e1d-ccdb-cf4a-b405f977d598",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q47952",
+        "label": "索尔福德",
+        "label_en": "Salford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8962"
+        ],
+        "statement_id": "Q8962$D887731A-BBC2-481B-A376-B1FFF023D5DB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "热力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8962",
+        "title": "Wikidata Q8962 / 詹姆斯·焦耳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8962&oldid=2557949984",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557949984,
+        "modified_at": "2026-10-17T10:22:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,143 @@
   "test_prompt": "In the style of Li Siguang, judge whether a basin can hold oil: map its fault and fold systems, infer the stress field, and predict the traps the system should create",
   "test_question_zh": "一个盆地有没有油，构造体系能告诉我们什么？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q707276",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Siguang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1971",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707276"
+            ],
+            "statement_id": "Q707276$961F5B6F-726D-4E95-9AF5-A6C8780F445A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-10-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707276"
+            ],
+            "statement_id": "Q707276$76EB9F0A-7714-4FED-975D-FFBB4B5DCB24",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q707276"
+        ],
+        "statement_id": "q707276$9FB13C1F-CC19-4986-8A68-D69BA2AFAA4D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q10514429",
+        "label": "回龙山镇",
+        "label_en": "Huilongshan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q707276"
+        ],
+        "statement_id": "q707276$8F212125-F36D-4876-87DD-464147EC7767",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q707276"
+        ],
+        "statement_id": "Q707276$13425C57-9A7A-4430-9BA8-CC9C727FA6F3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q707276"
+        ],
+        "statement_id": "Q707276$9bc024d1-4ef6-779e-d111-a2959eff3a90",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "大地构造 / 石油地质"
+    },
+    "sources": [
+      {
+        "id": "WD:Q707276",
+        "title": "Wikidata Q707276 / 李四光",
+        "url": "https://www.wikidata.org/w/index.php?title=Q707276&oldid=2557261007",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557261007,
+        "modified_at": "2026-10-15T10:17:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "沙利文风格：现代城市街角的一座社区图书馆，钢框架陶土贴面高层，垂直三段式，入口与檐口有机纹样装饰，竖向窗带，形式追随功能。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q243240",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis Sullivan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1924",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q243240"
+            ],
+            "statement_id": "q243240$8EA16A7B-EBBC-4E48-BF99-0660AC4C407B",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-09-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q243240"
+            ],
+            "statement_id": "q243240$E7920A23-E2E7-4648-AA4F-E3238D6AC138",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q243240"
+        ],
+        "statement_id": "q243240$EC2D5F4B-85AD-4945-AB22-B7440415190A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q100",
+        "label": "波士顿",
+        "label_en": "Boston",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q243240"
+        ],
+        "statement_id": "q243240$0B6E65A8-6ED0-41ED-A2DD-9D9ADB9878DA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "芝加哥学派",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q243240",
+        "title": "Wikidata Q243240 / 路易斯·沙利文",
+        "url": "https://www.wikidata.org/w/index.php?title=Q243240&oldid=2559686453",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559686453,
+        "modified_at": "2026-10-22T13:31:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

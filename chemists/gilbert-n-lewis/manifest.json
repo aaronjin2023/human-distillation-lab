@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Gilbert N. Lewis, design a new battery electrolyte: first draw Lewis structures and electron pairs for every species, predict acid-base interactions from electron-pair acceptance, then check each prediction against free-energy and equilibrium data before claiming stability",
   "test_question_zh": "设计一种新型电解质，怎么判断它稳定？",
   "verification": "2026-10-26：生卒 1875–1946、1916 年共价键论文、1923 年酸碱理论经化学史通说核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q208858",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gilbert N. Lewis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1875–1946",
+      "birth_year": {
+        "value": 1875,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208858"
+            ],
+            "statement_id": "q208858$7A15A41A-8A61-47B9-9566-9E3E2CA4ED42",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1875,
+            "raw_time": "+1875-10-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1946,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208858"
+            ],
+            "statement_id": "q208858$8E07C517-ABBA-487D-9E11-0110A1BBC24D",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1946,
+            "raw_time": "+1946-03-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q208858"
+        ],
+        "statement_id": "q208858$FFE3D6D0-C386-4F26-8636-1CF587BD1A97",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q54195",
+        "label": "韦茅斯",
+        "label_en": "Weymouth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q208858"
+        ],
+        "statement_id": "q208858$6273F2B7-EF10-4146-9CD7-A1CC8E31F24B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学键理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q208858",
+        "title": "Wikidata Q208858 / 吉尔伯特·牛顿·路易斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q208858&oldid=2557896144",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557896144,
+        "modified_at": "2026-10-17T06:32:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

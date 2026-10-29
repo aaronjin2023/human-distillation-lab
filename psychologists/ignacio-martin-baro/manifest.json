@@ -43,5 +43,130 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3893292",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ignacio Martín-Baró",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1942–1989",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3893292"
+            ],
+            "statement_id": "Q3893292$73E1788D-A983-4F73-8175-797438573247",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3893292"
+            ],
+            "statement_id": "Q3893292$8782E338-0013-43F7-971A-2BDAC03733A9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3893292"
+        ],
+        "statement_id": "Q3893292$512B0873-4CFD-4F9F-ACD8-404E4395A149",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8356",
+        "label": "巴利亚多利德",
+        "label_en": "Valladolid",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3893292"
+        ],
+        "statement_id": "Q3893292$8DA3B762-2A73-4E4D-8FD7-A23B4EC965E4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3893292"
+        ],
+        "statement_id": "Q3893292$8AFE60BB-76F3-4E6B-923C-39F6CA857473",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q792",
+        "label": "萨尔瓦多",
+        "label_en": "El Salvador",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会心理学 / 解放心理学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3893292",
+        "title": "Wikidata Q3893292 / Ignacio Martín-Baró",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3893292&oldid=2494837357",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2494837357,
+        "modified_at": "2026-05-20T10:09:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

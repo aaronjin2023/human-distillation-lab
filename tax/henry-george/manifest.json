@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q355245",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry George",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1839–1897",
+      "birth_year": {
+        "value": 1839,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355245"
+            ],
+            "statement_id": "q355245$315B38C9-DE3F-4458-A6DC-3188D4526B52",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1839,
+            "raw_time": "+1839-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355245"
+            ],
+            "statement_id": "q355245$1C36B9F0-AA5F-4909-8BBC-3CF70F756CD7",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q355245"
+        ],
+        "statement_id": "q355245$7A35BB64-F6D4-4C7E-B4C4-9163816F386B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q355245"
+        ],
+        "statement_id": "q355245$A9C88D35-CD2F-447D-BB3C-8427CA258620",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·单一土地税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q355245",
+        "title": "Wikidata Q355245 / 亨利·乔治",
+        "url": "https://www.wikidata.org/w/index.php?title=Q355245&oldid=2557919218",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557919218,
+        "modified_at": "2026-10-17T07:58:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

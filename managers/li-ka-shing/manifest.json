@@ -44,5 +44,137 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家三个月没发工资的初创公司怎么决策",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q20151",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Ka-shing",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1928–",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q20151"
+            ],
+            "statement_id": "q20151$A6AE61E1-27AC-41F3-91FC-8D8C6D476A6B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-06-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q20151"
+        ],
+        "statement_id": "q20151$0F456121-73B3-437F-A4EF-1506C62FD0A2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1062490",
+        "label": "潮安区",
+        "label_en": "Chao'an District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q20151"
+        ],
+        "statement_id": "Q20151$01a92ca3-4d55-af31-a071-76c760211787",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1983-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q20151"
+        ],
+        "statement_id": "Q20151$19525060-4f80-bcfe-7bbe-13ca4a81e27f",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1997-07-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "综合实业",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q20151",
+        "title": "Wikidata Q20151 / 李嘉诚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q20151&oldid=2558119084",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558119084,
+        "modified_at": "2026-10-17T21:30:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -44,5 +44,132 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁座位上的约克夏犬，对座位有无主张（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q337805",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bao Zheng",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "999–1062",
+      "birth_year": {
+        "value": 999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q337805"
+            ],
+            "statement_id": "q337805$F8088F14-FEFB-41B2-A87A-4054F6992CBA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 999,
+            "raw_time": "+0999-03-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1062,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q337805"
+            ],
+            "statement_id": "q337805$72389699-7A05-4FFA-B95C-345E43CC050B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1062,
+            "raw_time": "+1062-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q337805"
+        ],
+        "statement_id": "Q337805$42D36490-F79A-4A30-BC97-361361CDAA95",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1209298",
+        "label": "肥东县",
+        "label_en": "Feidong County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q337805"
+        ],
+        "statement_id": "Q337805$BC0A2BD5-F703-4558-96A0-2B3BB359245F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q337805"
+          ],
+          "statement_id": "Q337805$b0d569e5-4551-aeb6-4fcc-8090816ca032",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "北宋·司法",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q337805",
+        "title": "Wikidata Q337805 / 包拯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q337805&oldid=2515862142",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515862142,
+        "modified_at": "2026-07-10T12:32:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

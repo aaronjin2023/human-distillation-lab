@@ -36,5 +36,125 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "网课时代谁有资格教书",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11903",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hypatia",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.355–415",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11903"
+            ],
+            "statement_id": "Q11903$880F9F89-7687-48AB-A717-4C9D9BC0DD86",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 360,
+            "raw_time": "+0360-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 415,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11903"
+            ],
+            "statement_id": "Q11903$E8BDC492-ADD5-469B-9682-B6D717775136",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 415,
+            "raw_time": "+0415-03-01T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11903"
+        ],
+        "statement_id": "Q11903$58460639-F23E-47F5-A3FA-8A5AF8C0DF38",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q87",
+        "label": "亚历山大",
+        "label_en": "Alexandria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11903"
+        ],
+        "statement_id": "Q11903$98988d88-4af6-b1ca-889a-1b64764ca2c2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12544",
+        "label": "拜占庭帝国",
+        "label_en": "Byzantine Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新柏拉图主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11903",
+        "title": "Wikidata Q11903 / 希帕提婭",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11903&oldid=2550331336",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550331336,
+        "modified_at": "2026-09-28T05:11:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

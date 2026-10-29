@@ -38,5 +38,131 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只约克夏犬深夜坐在地铁座位上，乘客们看着它",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q921435",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kofi Awoonor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2013",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q921435"
+            ],
+            "statement_id": "q921435$9C15BE1D-A70B-43C4-AD64-E3771ACF27FE",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2013,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q921435"
+            ],
+            "statement_id": "Q921435$f62d8103-405b-6d80-9819-25212b974b6f",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 2013,
+            "raw_time": "+2013-09-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q921435"
+        ],
+        "statement_id": "Q921435$25990d14-4a26-d649-d8c7-4251f2ffb1a4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q503623",
+        "label": "英属黄金海岸",
+        "label_en": "Gold Coast Colony",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q921435"
+        ],
+        "statement_id": "Q921435$9a76f9f8-46f2-b451-6d0f-435ab983fb00",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q14942632",
+        "label": "Wheta",
+        "label_en": "Wheta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q921435"
+        ],
+        "statement_id": "Q921435$C5E8C96C-8F5B-42F5-83EA-E2C5D03BFCB5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q117",
+        "label": "加纳",
+        "label_en": "Ghana",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "加纳·现代诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q921435",
+        "title": "Wikidata Q921435 / 艾伍諾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q921435&oldid=2558361278",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558361278,
+        "modified_at": "2026-10-18T11:14:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

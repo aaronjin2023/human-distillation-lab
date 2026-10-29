@@ -38,5 +38,118 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "埃菲尔风格：现代城市的一座地铁站入口小亭，外露铁桁架，曲线收分铁塔，铆接桁架，工程即形式，镂空结构漏光。",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q20882",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gustave Eiffel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1832–1923",
+      "birth_year": {
+        "value": 1832,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q20882"
+            ],
+            "statement_id": "q20882$5B59D2CD-3EC9-45B7-BD41-DE2D466FAB18",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1832,
+            "raw_time": "+1832-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q20882"
+            ],
+            "statement_id": "q20882$C67E490C-F031-4ECC-B7A0-E392EB5921C1",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q20882"
+        ],
+        "statement_id": "q20882$2CC8E01A-AA80-4D91-B21E-0B202AED9E37",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q7003",
+        "label": "第戎",
+        "label_en": "Dijon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q20882"
+        ],
+        "statement_id": "q20882$C50C4CDD-EBC6-4CD4-9859-D58EBBF157D9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "铁结构工程",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q20882",
+        "title": "Wikidata Q20882 / 居斯塔夫·埃菲尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q20882&oldid=2557902825",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557902825,
+        "modified_at": "2026-10-17T06:53:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

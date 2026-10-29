@@ -36,5 +36,141 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Willem Janszoon, a small survey boat maps an unknown coastline in 2026, hugging the shore, naming each river mouth after what it looks like, turning back at the point where supplies run thin. No open-ocean crossing.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q174085",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Willem Janszoon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1570–c.1630",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174085"
+            ],
+            "statement_id": "Q174085$F634F873-3ED1-4069-A6EC-3C0888384A39",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1570,
+            "raw_time": "+1570-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q174085"
+            ],
+            "statement_id": "Q174085$07DAD61E-C153-4121-AA0C-E947BB813960",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1630,
+            "raw_time": "+1630-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q174085"
+        ],
+        "statement_id": "Q174085$b097c6bd-3a61-47a8-8962-7f3000908f7e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 18122778,
+              "id": "Q18122778"
+            }
+          ]
+        },
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q174085"
+        ],
+        "statement_id": "Q174085$E1B148F4-0956-417F-8962-C9485F4D998C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q170072",
+        "label": "荷兰共和国",
+        "label_en": "Dutch Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "荷兰·南太平洋"
+    },
+    "sources": [
+      {
+        "id": "WD:Q174085",
+        "title": "Wikidata Q174085 / 威廉·扬松",
+        "url": "https://www.wikidata.org/w/index.php?title=Q174085&oldid=2558281628",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558281628,
+        "modified_at": "2026-10-18T06:17:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

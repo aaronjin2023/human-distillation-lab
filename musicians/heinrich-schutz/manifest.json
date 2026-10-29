@@ -30,5 +30,226 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "一杯放在窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153643",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Heinrich Schütz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1585–1672",
+      "birth_year": {
+        "value": 1585,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153643"
+            ],
+            "statement_id": "q153643$7b42533c-44bd-d5f4-b95e-c2e4763cea29",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1585,
+            "raw_time": "+1585-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q153643"
+            ],
+            "statement_id": "Q153643$B8E31471-4189-4082-BD37-56774755255E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1585,
+            "raw_time": "+1585-10-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1672,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153643"
+            ],
+            "statement_id": "Q153643$9BF18908-7DC1-4594-9A46-8EA6B0108D10",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1672,
+            "raw_time": "+1672-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q153643"
+            ],
+            "statement_id": "Q153643$65EB7CA8-0CA4-459B-BCF1-92AE29A9D4E9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1672,
+            "raw_time": "+1672-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "q153643$D9E82EBA-7E80-41B4-81EF-E4D6226DD59F",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q4431",
+        "label": "巴特克斯特里茨",
+        "label_en": "Bad Köstritz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$3AED8070-ECFD-4475-B106-F6BE078F5C45",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2773",
+        "label": "不伦瑞克",
+        "label_en": "Brunswick",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$3CAA6A06-425B-466B-A384-E3191C7CD541",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1731",
+        "label": "德累斯顿市",
+        "label_en": "Dresden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$95E502F0-1E0D-4240-AF5E-6F39D4AF82F2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3933",
+        "label": "策勒",
+        "label_en": "Celle",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$8598160B-FE36-4200-849B-B15C5DDBA540",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4122",
+        "label": "沃尔芬比特尔",
+        "label_en": "Wolfenbüttel",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$CAA8C255-930E-4FFE-8FA7-057D58D9DBB7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$87C77173-A340-4A2C-99D4-9A9143ACBB59",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153643"
+        ],
+        "statement_id": "Q153643$817490a6-40f2-3651-f951-fcbaddec10ef",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q156199",
+        "label": "萨克森选侯国",
+        "label_en": "Electorate of Saxony",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 德国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153643",
+        "title": "Wikidata Q153643 / 海因里希·许茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153643&oldid=2561213855",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561213855,
+        "modified_at": "2026-10-26T22:19:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,117 @@
     "安宁本人著述少，成果多经他人论文，原始记录未逐项核对",
     "化石发现的具体年份以通说为准，未核对原文"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q230491",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mary Anning",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1799–1847",
+      "birth_year": {
+        "value": 1799,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230491"
+            ],
+            "statement_id": "q230491$BA76C53E-344E-4014-99EB-32D703EEB75C",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1799,
+            "raw_time": "+1799-05-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1847,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230491"
+            ],
+            "statement_id": "q230491$257F9A37-6FF8-40AF-80C0-B56395706EE9",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1847,
+            "raw_time": "+1847-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q230491"
+        ],
+        "statement_id": "q230491$C67C0C8C-0A0F-4B7E-ACF2-FECD8D3DFB73",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q82490",
+        "label": "莱姆里杰斯",
+        "label_en": "Lyme Regis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q230491"
+        ],
+        "statement_id": "Q230491$5B5E7D95-E55B-44D1-BA12-40E0A256F4EE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q230491",
+        "title": "Wikidata Q230491 / 玛丽·安宁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q230491&oldid=2561401993",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561401993,
+        "modified_at": "2026-10-27T11:28:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,118 @@
   "verification": "2026-10-26 web 搜索核对生卒、代表作与风格演变要点；未逐句核对到原文出处者见 known_gaps",
   "version": "0.1",
   "writer": "Gabriel García Márquez",
-  "writer_zh": "加夫里埃尔·加西亚·马尔克斯"
+  "writer_zh": "加夫里埃尔·加西亚·马尔克斯",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5878",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gabriel García Márquez",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2014",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5878"
+            ],
+            "statement_id": "Q5878$5DBE4A75-E6EA-4ED1-A19E-23CB575BCED2",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5878"
+            ],
+            "statement_id": "Q5878$fe8b2d2e-4276-8ba0-529c-b80a98d258e2",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-04-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5878"
+        ],
+        "statement_id": "q5878$F565E5D4-0E0A-49EF-BFDB-92040C37490A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q624492",
+        "label": "阿拉卡塔卡",
+        "label_en": "Aracataca",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5878"
+        ],
+        "statement_id": "q5878$AF72022D-211F-474E-9B10-C537660E6CFF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q739",
+        "label": "哥伦比亚",
+        "label_en": "Colombia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "哥伦比亚·魔幻现实主义小说",
+      "genre": "小说家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5878",
+        "title": "Wikidata Q5878 / 加夫列尔·加西亚·马尔克斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5878&oldid=2561571798",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561571798,
+        "modified_at": "2026-10-27T23:54:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

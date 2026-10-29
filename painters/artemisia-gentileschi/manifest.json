@@ -30,5 +30,273 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "厨房里切菜的女子（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、核心技法已核对；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q212657",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Artemisia Gentileschi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1593–c.1656",
+      "birth_year": {
+        "value": 1593,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q212657"
+            ],
+            "statement_id": "q212657$05D0828D-4CA6-4B43-B290-E5DD96436CD8",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1593,
+            "raw_time": "+1593-07-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1653,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q212657"
+            ],
+            "statement_id": "q212657$15B67312-A007-4E36-AB52-200AB97607D6",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1653,
+            "raw_time": "+1653-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1656
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "q212657$FCC700C4-924A-49DB-92C8-A43880CE4942",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$D53D28D8-0067-4000-89E9-778B2CD4C490",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1610-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1620-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$818969EB-A3E1-4CFD-9EEC-82AA0D774639",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1621-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1449",
+        "label": "热那亚",
+        "label_en": "Genoa",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$B125DB53-6C53-44C5-95CB-442AFB4F1DCA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1622-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1626-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$BE040053-A3E6-413E-8920-180388199476",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1627-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$6C744662-4167-4B49-8702-32EBCBCADB36",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1630-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q212657"
+        ],
+        "statement_id": "Q212657$0EF681C9-B2C0-4928-ACED-20F331D8B866",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q170174",
+        "label": "教皇国",
+        "label_en": "Papal States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q212657"
+          ],
+          "statement_id": "Q212657$6AAD6EC0-16DD-4E58-BD83-D833E0049444",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q50001",
+          "label": "意大利人",
+          "label_en": "Italians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "意大利巴洛克"
+    },
+    "sources": [
+      {
+        "id": "WD:Q212657",
+        "title": "Wikidata Q212657 / 阿尔泰米西娅·真蒂莱斯基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q212657&oldid=2561607878",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561607878,
+        "modified_at": "2026-10-28T06:47:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

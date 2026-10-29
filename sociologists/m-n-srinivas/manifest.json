@@ -49,5 +49,199 @@
   ],
   "test_prompt": "一栋公寓楼的业委会与种姓式秩序",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6712928",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "M. N. Srinivas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1916–1999",
+      "birth_year": {
+        "value": 1916,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6712928"
+            ],
+            "statement_id": "Q6712928$4A851E6D-0EB0-45D1-A10F-CE838C7270AB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1916,
+            "raw_time": "+1916-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6712928"
+            ],
+            "statement_id": "Q6712928$6AF61496-4959-428B-B46D-5502C7F74643",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-11-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6712928"
+        ],
+        "statement_id": "Q6712928$71D6F7F5-BBFC-404F-9BEA-BE7D79CCA84F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10086",
+        "label": "迈索尔",
+        "label_en": "Mysore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6712928"
+        ],
+        "statement_id": "Q6712928$F47BAC60-AA26-46E4-8AFB-9A6C846CDB5C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6712928"
+        ],
+        "statement_id": "Q6712928$7375F2C4-0B98-4053-81AF-E991825723A8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6712928"
+        ],
+        "statement_id": "Q6712928$E079F6A2-C602-4719-9C13-636D96247733",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q6712928"
+        ],
+        "statement_id": "Q6712928$A038E56B-7977-4815-8997-298256E06193",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "印度·村庄与种姓"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6712928",
+        "title": "Wikidata Q6712928 / M. N. Srinivas",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6712928&oldid=2551029044",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551029044,
+        "modified_at": "2026-09-29T22:24:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

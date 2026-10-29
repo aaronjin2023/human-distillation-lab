@@ -33,5 +33,118 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1196022",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wu Daozi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.680–c.759",
+      "birth_year": {
+        "value": 680,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1196022"
+            ],
+            "statement_id": "Q1196022$04873AFB-B742-4A6F-AAAD-3D0CA8B468B7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 680,
+            "raw_time": "+0680-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 740,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1196022"
+            ],
+            "statement_id": "Q1196022$971F0E65-3078-4B13-B35D-9461E44A4DBE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 740,
+            "raw_time": "+0740-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 759
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1196022"
+        ],
+        "statement_id": "Q1196022$23F46AB3-8D84-4E7D-A2C9-83F2C716229A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6501000",
+        "label": "长安",
+        "label_en": "Chang'an",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1196022"
+        ],
+        "statement_id": "Q1196022$D7C4E541-39EE-4A42-AB40-4A73FE817BE4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·宗教人物画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1196022",
+        "title": "Wikidata Q1196022 / 吴道子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1196022&oldid=2516101943",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516101943,
+        "modified_at": "2026-07-10T23:56:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

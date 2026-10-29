@@ -38,5 +38,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Wang Dayuan, an uncrewed cargo ship sails island by island from Southeast Asia to East Africa in 2026, logging each port's products, winds and peoples in a plain gazetteer, no fleet behind it.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q835720",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wang Dayuan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1311–c.1350",
+      "birth_year": {
+        "value": 1311,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q835720"
+            ],
+            "statement_id": "Q835720$C802A077-61E7-4D71-95FE-7FF6FD7B8246",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1311,
+            "raw_time": "+1311-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1350,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q835720"
+            ],
+            "statement_id": "Q835720$87B43B0A-163C-46C1-A8F9-69E8860DD5DF",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1350,
+            "raw_time": "+1350-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q835720"
+        ],
+        "statement_id": "Q835720$120fcc35-1c34-4f87-be51-9513e2bc4eda",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q171943",
+        "label": "南昌市",
+        "label_en": "Nanchang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q835720"
+        ],
+        "statement_id": "Q835720$bd39c9fb-4a80-e2e1-4ae2-b8bc9b722239",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7313",
+        "label": "元朝",
+        "label_en": "Yuan dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "元·南洋—印度洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q835720",
+        "title": "Wikidata Q835720 / 汪大渊",
+        "url": "https://www.wikidata.org/w/index.php?title=Q835720&oldid=2554600241",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554600241,
+        "modified_at": "2026-10-07T15:21:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

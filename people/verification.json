@@ -1,0 +1,139 @@
+{
+  "status": "locally_verified_not_committed_or_pushed",
+  "verified_at": "2026-10-29T00:29:02.163560+00:00",
+  "base_commit": "190c5808553fb53f0e338e9fe166de029d6e763e",
+  "scope": "Seven worldbuilding domain entrypoints and public biographical metadata; no workbench implementation.",
+  "domains": {
+    "domains": {
+      "medicine": {
+        "existing": 20,
+        "new": 4,
+        "total": 24
+      },
+      "history": {
+        "existing": 6,
+        "new": 6,
+        "total": 12
+      },
+      "education": {
+        "existing": 100,
+        "new": 0,
+        "total": 100
+      },
+      "politics": {
+        "existing": 20,
+        "new": 12,
+        "total": 32
+      },
+      "economics": {
+        "existing": 6,
+        "new": 6,
+        "total": 12
+      },
+      "anthropology-folklore": {
+        "existing": 4,
+        "new": 8,
+        "total": 12
+      },
+      "linguistics": {
+        "existing": 1,
+        "new": 11,
+        "total": 12
+      },
+      "climatology": {
+        "existing": 8,
+        "new": 4,
+        "total": 12
+      },
+      "ecology": {
+        "existing": 10,
+        "new": 2,
+        "total": 12
+      },
+      "religious-studies": {
+        "existing": 3,
+        "new": 9,
+        "total": 12
+      },
+      "game-design": {
+        "existing": 0,
+        "new": 12,
+        "total": 12
+      }
+    },
+    "new_experts": 74,
+    "new_source_records": 147,
+    "local_links": 1216,
+    "status": "passed"
+  },
+  "biographical_coverage": {
+    "updated_at": "2026-10-29",
+    "status": "structural_checks_passed",
+    "counts": {
+      "birth_places_recorded": 2906,
+      "birth_year_documented": 23,
+      "birth_year_legacy_unverified": 621,
+      "birth_year_source_recorded": 2766,
+      "birth_year_unknown": 274,
+      "citizenships_recorded": 2867,
+      "death_year_documented": 18,
+      "death_year_legacy_unverified": 466,
+      "death_year_source_recorded": 2139,
+      "death_year_unknown": 1061,
+      "entries": 3684,
+      "ethnicity_documented": 8,
+      "ethnicity_requires_source_review": 228,
+      "ethnicity_unknown": 3448,
+      "identity_matched": 2961,
+      "identity_not_applicable": 20,
+      "identity_unresolved": 703,
+      "work_locations_recorded": 737
+    },
+    "limitations": [
+      "来源收录不等于独立核验；民族默认仅匹配documented。",
+      "缺失值、身份歧义、集合体与日期冲突不自动补造。",
+      "本次未对全部底层传记来源逐条进行人工核读。"
+    ]
+  },
+  "preservation": {
+    "status": "passed",
+    "preserved_old_files": 7264,
+    "entries": 3684,
+    "new_packages": 52,
+    "new_domain_slots": 84,
+    "checks": [
+      "original metadata preserved except biography",
+      "original method text preserved",
+      "unique entry paths",
+      "same-name actor excluded",
+      "disambiguation page excluded",
+      "source disagreement retained",
+      "collectives excluded from individual dates",
+      "game activation conditional",
+      "ethnicity documented-only"
+    ]
+  },
+  "other_checks": {
+    "new_skill_frontmatter": 52,
+    "biography_and_document_local_links": 11059,
+    "biography_link_files": 3686,
+    "existing_framework_validation": "43 frameworks passed",
+    "biography_boundary_self_test": "passed",
+    "expert_metadata_and_game_activation_self_test": "passed",
+    "git_diff_check": "passed",
+    "python_syntax": "passed"
+  },
+  "limits": [
+    "Not a complete factual biography audit.",
+    "703 unresolved identity associations remain explicit; missing data is not guessed.",
+    "Ethnicity: 8 classification entries documented, 228 source claims pending review, 3448 unknown.",
+    "Source-grounded methods remain drafts; book/video access limitations are recorded per source."
+  ],
+  "checked_inputs": {
+    "scripts/build_expert_biographies.py": "2b7cf0124feefb0d6f5cbb1e93bc8f291be48b20bc0928fb6c061556f4a2d793",
+    "scripts/validate_experts.py": "2fef7ecbcfe8a21e940b193d613cf02b3fbb4bc2476c277824624230f009f39b",
+    "domains/index.json": "b3bc3c28d1937df9b2c712caecc82a266757798b7a15255e3ce41ccbb6aa7c0f",
+    "people/biography-sources.json": "4ae768e8ade6d0e98d0003ba209f888b34ab9f3beb4ee0a03d0a207a5f56747b",
+    "people/biography-overrides.json": "31afb3048f3ece92daec788c5db4eda08b21e3fe48b9c0a09a69333d96a8f8b6"
+  }
+}

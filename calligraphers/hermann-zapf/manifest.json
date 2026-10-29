@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Hermann Zapf, Palatino calligraphy, elegant broad-nib letters, graceful thick-thin contrast, black ink on paper, Renaissance humanist feeling",
   "transmission": "真迹 / 印本并存；字体设计为已发表成果物",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60302",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hermann Zapf",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1918–2015",
+      "birth_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60302"
+            ],
+            "statement_id": "q60302$6B549847-C8A6-4081-BEFF-FE7441901401",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-11-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60302"
+            ],
+            "statement_id": "Q60302$3a5cd88b-4150-db42-1194-349a9a5beaf0",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60302"
+        ],
+        "statement_id": "q60302$22A5AA6D-7CB8-44CB-831A-BFE9872B11D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2090",
+        "label": "纽伦堡",
+        "label_en": "Nuremberg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60302"
+        ],
+        "statement_id": "q60302$EF30B7CC-8483-4E80-BDA2-DE3F2B777183",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·字体设计 / 书法"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60302",
+        "title": "Wikidata Q60302 / 赫尔曼·察普夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60302&oldid=2546346257",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546346257,
+        "modified_at": "2026-09-15T19:42:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

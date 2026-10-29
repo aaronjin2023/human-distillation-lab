@@ -38,5 +38,57 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为外卖平台骑手设计一套简易所得税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q43107",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year",
+            "death_year"
+          ],
+          "match_basis": {
+            "name": "Diocletian",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "244–311",
+      "birth_year": {
+        "value": 244,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 311,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·晚期税制改革",
+      "genre": "taxation"
+    },
+    "sources": []
+  }
 }

@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q493",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Rimbaud",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1854–1891",
+      "birth_year": {
+        "value": 1854,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493"
+            ],
+            "statement_id": "q493$D1C75D91-6A5E-4F3A-808C-64369A1AE4F5",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1854,
+            "raw_time": "+1854-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493"
+            ],
+            "statement_id": "q493$AC144F05-6B19-4B66-89C7-852270179851",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-11-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q493"
+        ],
+        "statement_id": "q493$882C0CE6-2627-4BC4-A750-0BCB683F2505",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2960786",
+        "label": "沙勒维尔",
+        "label_en": "Charleville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q493"
+        ],
+        "statement_id": "Q493$9A8974C0-5806-4A9B-8F4F-05607D07F510",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·象征主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q493",
+        "title": "Wikidata Q493 / 阿蒂尔·兰波",
+        "url": "https://www.wikidata.org/w/index.php?title=Q493&oldid=2557798520",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557798520,
+        "modified_at": "2026-10-17T00:26:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

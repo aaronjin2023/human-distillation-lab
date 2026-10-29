@@ -43,5 +43,102 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "萨法罗尼风格：一份刑法最小干预论证，论未成年人网络犯罪：刑法是最后手段，保障约束惩罚权，拉美实践优先。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5558221",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Eugenio Raúl Zaffaroni",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1940–",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5558221"
+            ],
+            "statement_id": "Q5558221$CA4A81E2-BC74-4354-BBAB-F4A9CE7B1C1D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5558221"
+        ],
+        "statement_id": "Q5558221$3854D227-C60B-4AA4-B7F8-C49E967C7A99",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1486",
+        "label": "布宜诺斯艾利斯",
+        "label_en": "Buenos Aires",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5558221"
+        ],
+        "statement_id": "Q5558221$5BD7201D-278E-45AC-B6C5-195EC6C9DFBC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q414",
+        "label": "阿根廷",
+        "label_en": "Argentina",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿根廷·刑法",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5558221",
+        "title": "Wikidata Q5558221 / Eugenio Raúl Zaffaroni",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5558221&oldid=2536780553",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2536780553,
+        "modified_at": "2026-08-26T18:16:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

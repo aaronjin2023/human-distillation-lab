@@ -31,5 +31,209 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1339",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johann Sebastian Bach",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1685–1750",
+      "birth_year": {
+        "value": 1685,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1339"
+            ],
+            "statement_id": "Q1339$43200b64-4ebc-b97b-9b2c-b02e67f664a4",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1685,
+            "raw_time": "+1685-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1750,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1339"
+            ],
+            "statement_id": "q1339$1e30772f-44d7-5ef2-ce3e-2e4335ea1db5",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1750,
+            "raw_time": "+1750-07-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "q1339$2C128630-5B2B-4127-9B7D-E3D58324EA70",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q7070",
+        "label": "爱森纳赫",
+        "label_en": "Eisenach",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$C04ACF04-2343-42FD-9922-42D858E474AD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q14925",
+        "label": "米尔豪森",
+        "label_en": "Mühlhausen/Thuringia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$6FFA9341-6E5B-4099-865A-6F657616182B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3955",
+        "label": "魏玛",
+        "label_en": "Weimar",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$249D8060-020D-4731-AF2A-9D4EAED44752",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$b0e8ae4c-4dd5-fb9d-4859-b177df097cb0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q490665",
+        "label": "阿恩施塔特",
+        "label_en": "Arnstadt",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$5ce9a28b-4f34-ac15-f1f4-de2f94c2347c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1796771",
+        "label": "克滕",
+        "label_en": "Köthen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$CF10A711-20FE-47D9-AA09-8DF9BDCF34C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3920",
+        "label": "吕讷堡",
+        "label_en": "Lüneburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$dbf2dd8a-429c-8777-caa2-82e0b3ff3593",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q696651",
+        "label": "薩克森-愛森納赫",
+        "label_en": "Duchy of Saxe-Eisenach",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1339"
+        ],
+        "statement_id": "Q1339$dc6ab030-4834-79bf-e18e-e0a900395582",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12548",
+        "label": "神圣罗马帝国",
+        "label_en": "Holy Roman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 德国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1339",
+        "title": "Wikidata Q1339 / 约翰·塞巴斯蒂安·巴赫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1339&oldid=2561514660",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561514660,
+        "modified_at": "2026-10-27T19:15:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

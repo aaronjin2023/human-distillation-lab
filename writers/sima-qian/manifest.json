@@ -41,5 +41,134 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Sima Qian",
-  "writer_zh": "司马迁"
+  "writer_zh": "司马迁",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9372",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sima Qian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.145–c.86 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9372"
+            ],
+            "statement_id": "Q9372$10CC3330-A358-4872-B38B-0F1DCD417450",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 13649246,
+                  "id": "Q13649246"
+                }
+              ]
+            },
+            "value": -145,
+            "raw_time": "-0145-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9372"
+            ],
+            "statement_id": "Q9372$2BC5E509-1549-4B9A-B991-0D18B48F2D35",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 13649246,
+                  "id": "Q13649246"
+                }
+              ]
+            },
+            "value": -86,
+            "raw_time": "-0086-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9372"
+        ],
+        "statement_id": "q9372$6A226956-3F52-413A-AC3E-8C324B1904FC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q769598",
+        "label": "河津市",
+        "label_en": "Hejin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9372"
+        ],
+        "statement_id": "Q9372$a3e48f1b-4f29-48b4-d5cf-268ad62b979d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1072949",
+        "label": "西汉",
+        "label_en": "Western Han",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西汉·史传散文",
+      "genre": "historian"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9372",
+        "title": "Wikidata Q9372 / 司马迁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9372&oldid=2559461392",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559461392,
+        "modified_at": "2026-10-21T09:55:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

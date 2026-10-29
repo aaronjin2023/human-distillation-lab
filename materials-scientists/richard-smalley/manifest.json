@@ -32,5 +32,117 @@
   "test_prompt": "In the method of Richard Smalley, design a flexible carbon nanomaterial conductor for a wearable device. Vaporize the material, read the spectrum until one signal towers over the rest, build a structural model for that signal, and let the magic number decide that the structure exists.",
   "test_question_zh": "为可穿戴设备设计一种柔性碳纳米导电材料",
   "verification": "2026-10-26：生卒（1943–2005）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q106746",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Richard Smalley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1943–2005",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106746"
+            ],
+            "statement_id": "q106746$473FBD20-A9E5-476E-98FC-536B80A274BA",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-06-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106746"
+            ],
+            "statement_id": "q106746$964314A4-44E2-432E-B820-851149A9BC96",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-10-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q106746"
+        ],
+        "statement_id": "Q106746$4BEE62D9-07BE-481A-8D41-9386EA769AA8",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q163132",
+        "label": "阿克伦",
+        "label_en": "Akron",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q106746"
+        ],
+        "statement_id": "q106746$2761EFA4-E785-4F53-AB87-373948787998",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "富勒烯 / 纳米管生长"
+    },
+    "sources": [
+      {
+        "id": "WD:Q106746",
+        "title": "Wikidata Q106746 / 理查德·斯莫利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q106746&oldid=2545069515",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545069515,
+        "modified_at": "2026-09-13T14:47:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

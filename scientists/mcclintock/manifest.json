@@ -30,5 +30,117 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：为什么同一植株上的玉米籽粒颜色各不相同？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q199654",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Barbara McClintock",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1902–1992",
+      "birth_year": {
+        "value": 1902,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q199654"
+            ],
+            "statement_id": "q199654$149CFD08-EEE6-4727-A9F2-A40B8BE54978",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1902,
+            "raw_time": "+1902-06-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q199654"
+            ],
+            "statement_id": "q199654$CA91687C-EF95-4734-82EF-3F33DC5A1813",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q199654"
+        ],
+        "statement_id": "q199654$AB64AACE-2223-49AC-BE09-5E7198940D8D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q33486",
+        "label": "哈特福德",
+        "label_en": "Hartford",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q199654"
+        ],
+        "statement_id": "q199654$94D0E2FC-4B48-4DDA-AA8A-4A84E4C77FC0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "遗传"
+    },
+    "sources": [
+      {
+        "id": "WD:Q199654",
+        "title": "Wikidata Q199654 / 巴巴拉·麦克林托克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q199654&oldid=2560251332",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560251332,
+        "modified_at": "2026-10-24T09:34:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

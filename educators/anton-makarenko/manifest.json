@@ -40,5 +40,159 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "班级集体办小型修理铺的项目（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为其教育原则的通行概括，未确证逐字原文，故只作 artifact 级样本，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q297448",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anton Makarenko",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1939",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297448"
+            ],
+            "statement_id": "Q297448$66BCB95D-E122-4751-8781-DB4FCCF1B869",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-03-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297448"
+            ],
+            "statement_id": "q297448$28EB19F5-EAFC-4CAC-AE68-9CCD6187C68E",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-04-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q297448"
+        ],
+        "statement_id": "q297448$00010322-B412-4E80-AC7E-8AC82F096B31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q591896",
+        "label": "比洛皮利亚",
+        "label_en": "Bilopillia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q297448"
+        ],
+        "statement_id": "Q297448$F9853333-2722-414C-BF17-0D05174500C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q297448"
+        ],
+        "statement_id": "Q297448$e377d147-4378-a21e-9542-d8f3e611af30",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q15180",
+        "label": "苏联",
+        "label_en": "Soviet Union",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q297448"
+        ],
+        "statement_id": "Q297448$e50653f6-4263-c0d4-dd6e-1b92f008b1eb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q297448"
+          ],
+          "statement_id": "Q297448$27bc4eed-40f5-7057-ce0c-2f30668fc858",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q44806",
+          "label": "乌克兰人",
+          "label_en": "Ukrainians",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "西方·集体教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q297448",
+        "title": "Wikidata Q297448 / 安东·马卡连柯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q297448&oldid=2557781732",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557781732,
+        "modified_at": "2026-10-16T23:23:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

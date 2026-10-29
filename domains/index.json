@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "coverage": "curated-domain-entrypoints",
   "note": "覆盖是本轮明确选取并核对文件的入口，不是全库语义检索穷尽结果；旧条目仍为原有草稿。",
   "domains": [
@@ -210,6 +210,828 @@
         "politicians/eleanor-roosevelt",
         "politicians/otto-von-bismarck"
       ]
+    },
+    {
+      "id": "economics",
+      "name": "经济学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "生产、分工、贸易、货币、制度、分配与共同资源治理；多学派互相校验。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "thinkers/adam-smith",
+        "tax/david-ricardo",
+        "sociologists/karl-marx",
+        "tax/alfred-marshall",
+        "tax/john-maynard-keynes",
+        "managers/joseph-schumpeter"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/friedrich-hayek",
+        "worldbuilding-experts/karl-polanyi",
+        "worldbuilding-experts/elinor-ostrom",
+        "worldbuilding-experts/amartya-sen",
+        "worldbuilding-experts/milton-friedman",
+        "worldbuilding-experts/douglass-north"
+      ],
+      "entry_metadata": {
+        "thinkers/adam-smith": {
+          "worldbuilding_use": "把城邦分工、交换和道德规范放在同一社会结构中",
+          "subfields": [
+            "分工",
+            "政治经济学"
+          ]
+        },
+        "tax/david-ricardo": {
+          "worldbuilding_use": "设定地区机会成本与贸易收益，同时观察租金分配",
+          "subfields": [
+            "比较优势",
+            "地租"
+          ]
+        },
+        "sociologists/karl-marx": {
+          "worldbuilding_use": "推演生产资料控制、阶级冲突与劳动关系",
+          "subfields": [
+            "政治经济学",
+            "阶级"
+          ]
+        },
+        "tax/alfred-marshall": {
+          "worldbuilding_use": "用供需变动和时间尺度检查市场价格",
+          "subfields": [
+            "微观经济",
+            "弹性"
+          ]
+        },
+        "tax/john-maynard-keynes": {
+          "worldbuilding_use": "推演战争后需求不足、失业和公共支出",
+          "subfields": [
+            "宏观经济",
+            "有效需求"
+          ]
+        },
+        "managers/joseph-schumpeter": {
+          "worldbuilding_use": "推演新技术、信贷和企业进入导致的旧秩序破坏",
+          "subfields": [
+            "创新",
+            "经济发展"
+          ]
+        },
+        "worldbuilding-experts/friedrich-hayek": {
+          "worldbuilding_use": "没有全知计划者，稀缺知识如何协调行动？",
+          "subfields": [
+            "分散知识",
+            "价格信号",
+            "自发秩序"
+          ]
+        },
+        "worldbuilding-experts/karl-polanyi": {
+          "worldbuilding_use": "物资流动依靠什么社会关系而非仅靠价格？",
+          "subfields": [
+            "经济嵌入性",
+            "互惠",
+            "再分配"
+          ]
+        },
+        "worldbuilding-experts/elinor-ostrom": {
+          "worldbuilding_use": "使用者能以哪些可执行规则维持共同资源？",
+          "subfields": [
+            "共同资源",
+            "自治规则",
+            "制度比较"
+          ]
+        },
+        "worldbuilding-experts/amartya-sen": {
+          "worldbuilding_use": "总量充足时，谁仍会失去维生机会？",
+          "subfields": [
+            "福利经济学",
+            "饥荒",
+            "获取食物的权利"
+          ]
+        },
+        "worldbuilding-experts/milton-friedman": {
+          "worldbuilding_use": "货币扩张在不同时间尺度改变什么？",
+          "subfields": [
+            "货币",
+            "消费",
+            "稳定政策"
+          ]
+        },
+        "worldbuilding-experts/douglass-north": {
+          "worldbuilding_use": "哪些正式与非正式约束使交易可预期？",
+          "subfields": [
+            "制度",
+            "交易约束",
+            "经济史"
+          ]
+        }
+      }
+    },
+    {
+      "id": "anthropology-folklore",
+      "name": "人类学与民俗学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "亲属、仪式、民族志、礼物、叙事结构与非西方社会研究；不把现实群体当作奇观素材。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "sociologists/fei-xiaotong",
+        "sociologists/irawati-karve",
+        "sociologists/m-n-srinivas",
+        "sociologists/james-c-scott"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/franz-boas",
+        "worldbuilding-experts/margaret-mead",
+        "worldbuilding-experts/bronislaw-malinowski",
+        "worldbuilding-experts/clifford-geertz",
+        "worldbuilding-experts/victor-turner",
+        "worldbuilding-experts/vladimir-propp",
+        "worldbuilding-experts/claude-levi-strauss",
+        "worldbuilding-experts/marcel-mauss"
+      ],
+      "entry_metadata": {
+        "sociologists/fei-xiaotong": {
+          "worldbuilding_use": "连接家户、乡土关系与地方生计",
+          "subfields": [
+            "乡村民族志",
+            "亲属"
+          ]
+        },
+        "sociologists/irawati-karve": {
+          "worldbuilding_use": "用区域差异检查亲属称谓与婚姻制度",
+          "subfields": [
+            "亲属",
+            "南亚社会"
+          ]
+        },
+        "sociologists/m-n-srinivas": {
+          "worldbuilding_use": "推演地方地位竞争和制度变迁",
+          "subfields": [
+            "村落研究",
+            "社会流动"
+          ]
+        },
+        "sociologists/james-c-scott": {
+          "worldbuilding_use": "检查国家可见性与地方实践的冲突",
+          "subfields": [
+            "政治人类学",
+            "日常抵抗"
+          ]
+        },
+        "worldbuilding-experts/franz-boas": {
+          "worldbuilding_use": "如何在不预设文明等级的前提下解释文化差异？",
+          "subfields": [
+            "文化相对主义",
+            "田野调查",
+            "语言与文化"
+          ]
+        },
+        "worldbuilding-experts/margaret-mead": {
+          "worldbuilding_use": "文化怎样塑造并限制成长路径？",
+          "subfields": [
+            "文化与人格",
+            "社会化",
+            "性别角色"
+          ]
+        },
+        "worldbuilding-experts/bronislaw-malinowski": {
+          "worldbuilding_use": "人们实际怎样生活与交换，而非只怎样解释规则？",
+          "subfields": [
+            "参与观察",
+            "交换",
+            "民族志"
+          ]
+        },
+        "worldbuilding-experts/clifford-geertz": {
+          "worldbuilding_use": "同一表面动作在当地意味着什么？",
+          "subfields": [
+            "深描",
+            "象征解释",
+            "宗教"
+          ]
+        },
+        "worldbuilding-experts/victor-turner": {
+          "worldbuilding_use": "身份转换怎样被组织与承认？",
+          "subfields": [
+            "仪式过程",
+            "阈限",
+            "共同体"
+          ]
+        },
+        "worldbuilding-experts/vladimir-propp": {
+          "worldbuilding_use": "变化的角色与道具之下，哪些行动功能重复？",
+          "subfields": [
+            "民俗叙事",
+            "行动功能",
+            "结构分析"
+          ]
+        },
+        "worldbuilding-experts/claude-levi-strauss": {
+          "worldbuilding_use": "神话变体怎样通过关系转换保持可识别结构？",
+          "subfields": [
+            "结构人类学",
+            "神话",
+            "亲属"
+          ]
+        },
+        "worldbuilding-experts/marcel-mauss": {
+          "worldbuilding_use": "赠与怎样同时制造关系与义务？",
+          "subfields": [
+            "礼物",
+            "义务",
+            "交换"
+          ]
+        }
+      }
+    },
+    {
+      "id": "linguistics",
+      "name": "语言学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "音系、语音、构词、语法、文字、语言变异与跨语言比较；语言差异不等于认知等级。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "philosophers/noam-chomsky"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/ferdinand-de-saussure",
+        "worldbuilding-experts/edward-sapir",
+        "worldbuilding-experts/roman-jakobson",
+        "worldbuilding-experts/william-labov",
+        "worldbuilding-experts/m-a-k-halliday",
+        "worldbuilding-experts/joseph-greenberg",
+        "worldbuilding-experts/martin-haspelmath",
+        "worldbuilding-experts/joan-bybee",
+        "worldbuilding-experts/peter-ladefoged",
+        "worldbuilding-experts/panini",
+        "worldbuilding-experts/xu-shen"
+      ],
+      "entry_metadata": {
+        "philosophers/noam-chomsky": {
+          "worldbuilding_use": "用有限规则生成与检验句子，并区分语法理论与政治观点",
+          "subfields": [
+            "生成语法",
+            "句法"
+          ]
+        },
+        "worldbuilding-experts/ferdinand-de-saussure": {
+          "worldbuilding_use": "一个词怎样靠与其他词的关系获得价值？",
+          "subfields": [
+            "语言系统",
+            "符号",
+            "共时比较"
+          ]
+        },
+        "worldbuilding-experts/edward-sapir": {
+          "worldbuilding_use": "语言如何作为文化实践的一部分被描述？",
+          "subfields": [
+            "人类语言学",
+            "田野语言",
+            "语言与文化"
+          ]
+        },
+        "worldbuilding-experts/roman-jakobson": {
+          "worldbuilding_use": "哪些最小语音特征承担意义区别？",
+          "subfields": [
+            "区别特征",
+            "音系",
+            "语音对立"
+          ]
+        },
+        "worldbuilding-experts/william-labov": {
+          "worldbuilding_use": "语言变体如何随社群与场景有系统地变化？",
+          "subfields": [
+            "社会语言变异",
+            "访谈",
+            "语体"
+          ]
+        },
+        "worldbuilding-experts/m-a-k-halliday": {
+          "worldbuilding_use": "表达选择怎样实现社会行动和关系？",
+          "subfields": [
+            "系统功能语言学",
+            "语域",
+            "意义选择"
+          ]
+        },
+        "worldbuilding-experts/joseph-greenberg": {
+          "worldbuilding_use": "哪些结构组合呈现可检验的跨语言倾向？",
+          "subfields": [
+            "语言类型学",
+            "语序",
+            "蕴涵共性"
+          ]
+        },
+        "worldbuilding-experts/martin-haspelmath": {
+          "worldbuilding_use": "怎样比较语言而不假设其范畴天生相同？",
+          "subfields": [
+            "比较概念",
+            "类型学",
+            "语法范畴"
+          ]
+        },
+        "worldbuilding-experts/joan-bybee": {
+          "worldbuilding_use": "反复使用怎样塑造词形和语法结构？",
+          "subfields": [
+            "使用基础理论",
+            "构词",
+            "语法化"
+          ]
+        },
+        "worldbuilding-experts/peter-ladefoged": {
+          "worldbuilding_use": "拟定的声音差异能否被记录、测量与复查？",
+          "subfields": [
+            "实验语音",
+            "田野记录",
+            "语音测量"
+          ]
+        },
+        "worldbuilding-experts/panini": {
+          "worldbuilding_use": "有限条件规则怎样生成可复查的词形？",
+          "subfields": [
+            "梵语语法",
+            "规则系统",
+            "构词"
+          ]
+        },
+        "worldbuilding-experts/xu-shen": {
+          "worldbuilding_use": "文字分类怎样同时承载知识与秩序主张？",
+          "subfields": [
+            "文字分析",
+            "字书",
+            "字形分类"
+          ]
+        }
+      }
+    },
+    {
+      "id": "climatology",
+      "name": "气候学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "辐射与对流、行星环流、长期观测、变率与归因、海洋碳循环和古气候；气候统计不等同单日天气预报。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "geographers/wladimir-koppen",
+        "geologists/john-tyndall",
+        "chemists/svante-arrhenius",
+        "geologists/milutin-milankovic",
+        "geologists/claude-lorius",
+        "geologists/hans-oeschger",
+        "geologists/roger-revelle",
+        "geologists/willi-dansgaard"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/syukuro-manabe",
+        "worldbuilding-experts/klaus-hasselmann",
+        "worldbuilding-experts/charles-david-keeling",
+        "worldbuilding-experts/george-hadley"
+      ],
+      "entry_metadata": {
+        "geographers/wladimir-koppen": {
+          "worldbuilding_use": "依据月温与降水的季节性划分气候区，再与植被和地形交叉核验。",
+          "subfields": [
+            "气候分类",
+            "气候地理"
+          ]
+        },
+        "geologists/john-tyndall": {
+          "worldbuilding_use": "为不同大气成分安排有差异的红外吸收；历史实验不直接提供异星气候参数。",
+          "subfields": [
+            "红外吸收",
+            "温室效应史"
+          ]
+        },
+        "chemists/svante-arrhenius": {
+          "worldbuilding_use": "比较温室气体改变前后的辐射收支；历史参数须与现代资料区分。",
+          "subfields": [
+            "辐射平衡",
+            "气候敏感度史"
+          ]
+        },
+        "geologists/milutin-milankovic": {
+          "worldbuilding_use": "用轨道与倾角变化生成长周期季节日照背景，而非把轨道周期直接当温度曲线。",
+          "subfields": [
+            "轨道强迫",
+            "古气候"
+          ]
+        },
+        "geologists/claude-lorius": {
+          "worldbuilding_use": "从极地冰芯气泡构造古大气档案，区分气体年龄和冰年龄。",
+          "subfields": [
+            "冰芯",
+            "古大气"
+          ]
+        },
+        "geologists/hans-oeschger": {
+          "worldbuilding_use": "为古气候突变构造多指标证据与年代误差。",
+          "subfields": [
+            "冰芯气体",
+            "碳十四",
+            "突变气候"
+          ]
+        },
+        "geologists/roger-revelle": {
+          "worldbuilding_use": "设定海洋吸碳与大气累积的限制，避免无限海洋碳汇。",
+          "subfields": [
+            "海洋碳循环",
+            "海气交换"
+          ]
+        },
+        "geologists/willi-dansgaard": {
+          "worldbuilding_use": "让同位素记录与温度解释之间保留校准、降水来源和年代不确定性。",
+          "subfields": [
+            "稳定同位素",
+            "冰芯",
+            "快速气候事件"
+          ]
+        },
+        "worldbuilding-experts/syukuro-manabe": {
+          "worldbuilding_use": "改变大气组成后，地表温度如何在辐射和垂直输送共同作用下调整？",
+          "subfields": [
+            "辐射—对流平衡",
+            "水汽反馈",
+            "气候模型"
+          ]
+        },
+        "worldbuilding-experts/klaus-hasselmann": {
+          "worldbuilding_use": "观测到的长期变化能否与内部波动区分，并识别可能驱动力？",
+          "subfields": [
+            "随机气候模型",
+            "信号检测",
+            "气候归因"
+          ]
+        },
+        "worldbuilding-experts/charles-david-keeling": {
+          "worldbuilding_use": "怎样知道一种缓慢的全球变化真实存在，而非采样地点或季节造成？",
+          "subfields": [
+            "大气二氧化碳观测",
+            "碳循环",
+            "长期序列"
+          ]
+        },
+        "worldbuilding-experts/george-hadley": {
+          "worldbuilding_use": "为什么热带存在有规律的上升、下沉和近地面信风？",
+          "subfields": [
+            "热带环流",
+            "信风",
+            "气象学史"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ecology",
+      "name": "生态学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "种群与生态位、食物网、植被演替、生态系统能量与韧性、保护和人地关系；区分历史理论与现代适用边界。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "biologists/ernst-haeckel",
+        "biologists/arthur-tansley",
+        "biologists/eugene-odum",
+        "biologists/robert-macarthur",
+        "biologists/rachel-carson",
+        "geographers/alexander-von-humboldt",
+        "biologists/charles-elton",
+        "biologists/g-evelyn-hutchinson",
+        "biologists/edward-o-wilson",
+        "biologists/madhav-gadgil"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/c-s-holling",
+        "worldbuilding-experts/frederic-clements"
+      ],
+      "entry_metadata": {
+        "biologists/ernst-haeckel": {
+          "worldbuilding_use": "用生物—环境关系提出问题；其历史进化论、种族主义和已被否定主张不作事实模型。",
+          "subfields": [
+            "生态学概念史",
+            "生物环境关系"
+          ]
+        },
+        "biologists/arthur-tansley": {
+          "worldbuilding_use": "划定包含生物与非生物因素的生态系统边界，比较不同尺度。",
+          "subfields": [
+            "生态系统",
+            "植被"
+          ]
+        },
+        "biologists/eugene-odum": {
+          "worldbuilding_use": "绘制能量与物质流，检验城市和生物群落所需输入。",
+          "subfields": [
+            "能量流",
+            "生态系统生态学"
+          ]
+        },
+        "biologists/robert-macarthur": {
+          "worldbuilding_use": "比较岛屿面积、隔离与迁入灭绝，并给竞争物种分配可检验的资源轴。",
+          "subfields": [
+            "岛屿生物地理",
+            "种群与群落",
+            "生态位"
+          ]
+        },
+        "biologists/rachel-carson": {
+          "worldbuilding_use": "追踪污染物从施用点到食物网与非目标物种的后果。",
+          "subfields": [
+            "生态毒理",
+            "保护",
+            "环境传播"
+          ]
+        },
+        "geographers/alexander-von-humboldt": {
+          "worldbuilding_use": "沿海拔和气候梯度安排植被带，避免单按纬度复制生物群系。",
+          "subfields": [
+            "生物地理",
+            "环境梯度"
+          ]
+        },
+        "biologists/charles-elton": {
+          "worldbuilding_use": "以取食关系、营养层级和入侵路径约束生物设计。",
+          "subfields": [
+            "食物网",
+            "动物生态",
+            "入侵生态"
+          ]
+        },
+        "biologists/g-evelyn-hutchinson": {
+          "worldbuilding_use": "给种群列出多维资源与环境要求，检查共存解释。",
+          "subfields": [
+            "生态位",
+            "湖沼学",
+            "共存"
+          ]
+        },
+        "biologists/edward-o-wilson": {
+          "worldbuilding_use": "将保护区、物种调查和隔离地景联系起来；不由社会生物学推导虚构民族本性。",
+          "subfields": [
+            "生物多样性",
+            "保护",
+            "岛屿生物地理"
+          ]
+        },
+        "biologists/madhav-gadgil": {
+          "worldbuilding_use": "让地方生态知识、资源使用和保护冲突进入人地关系设定。",
+          "subfields": [
+            "参与式保护",
+            "地方生态知识",
+            "人地关系"
+          ]
+        },
+        "worldbuilding-experts/c-s-holling": {
+          "worldbuilding_use": "系统在多大扰动下还能保有关键关系，而不仅是多快回到均值？",
+          "subfields": [
+            "生态韧性",
+            "种群波动",
+            "适应性管理"
+          ]
+        },
+        "worldbuilding-experts/frederic-clements": {
+          "worldbuilding_use": "扰动后的植被更替，是哪些迁入、建立、竞争与环境改变造成的？",
+          "subfields": [
+            "植被演替",
+            "植物生态史",
+            "样地研究"
+          ]
+        }
+      }
+    },
+    {
+      "id": "religious-studies",
+      "name": "宗教学",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "为世界构建研究信仰、仪式、制度、物质与日常生活。区分行动者的宗教真理声称与可核验社会事实；不把任何信仰本体或神迹确认为科学事实。复用条目保留原社会学专业与草稿状态。",
+      "activation": "always-relevant",
+      "existing_paths": [
+        "sociologists/emile-durkheim",
+        "sociologists/max-weber",
+        "sociologists/robert-bellah"
+      ],
+      "new_paths": [
+        "worldbuilding-experts/ninian-smart",
+        "worldbuilding-experts/jonathan-z-smith",
+        "worldbuilding-experts/talal-asad",
+        "worldbuilding-experts/mary-douglas",
+        "worldbuilding-experts/catherine-bell",
+        "worldbuilding-experts/wilfred-cantwell-smith",
+        "worldbuilding-experts/robert-orsi",
+        "worldbuilding-experts/meredith-mcguire",
+        "worldbuilding-experts/saba-mahmood"
+      ],
+      "entry_metadata": {
+        "sociologists/emile-durkheim": {
+          "worldbuilding_use": "原专业社会学；从神圣/世俗分类和集体仪式考察共同体，检查仪式如何建立成员边界。",
+          "subfields": [
+            "宗教社会学",
+            "集体仪式"
+          ]
+        },
+        "sociologists/max-weber": {
+          "worldbuilding_use": "原专业社会学；把宗教伦理、行动意义与权威组织连接，设计教团职业、禁欲与经济生活的张力。",
+          "subfields": [
+            "宗教社会学",
+            "宗教伦理与权威"
+          ]
+        },
+        "sociologists/robert-bellah": {
+          "worldbuilding_use": "原专业社会学；区分教派宗教与公共象征，考察建国神话、悼念仪式与公民身份。",
+          "subfields": [
+            "公民宗教",
+            "宗教与社会演变"
+          ]
+        },
+        "worldbuilding-experts/ninian-smart": {
+          "worldbuilding_use": "怎样让一个信仰体系同时有故事、行为与可见生活，而不是只有神谱？",
+          "subfields": [
+            "宗教比较",
+            "世界观维度",
+            "非教义中心分析"
+          ]
+        },
+        "worldbuilding-experts/jonathan-z-smith": {
+          "worldbuilding_use": "比较两个宗教时，究竟是谁选了哪些相似点？",
+          "subfields": [
+            "比较宗教学",
+            "分类与重述",
+            "研究者反思"
+          ]
+        },
+        "worldbuilding-experts/talal-asad": {
+          "worldbuilding_use": "这个世界里是谁、在什么历史条件下把某些活动叫作宗教？",
+          "subfields": [
+            "宗教概念谱系",
+            "身体纪律",
+            "世俗与权力"
+          ]
+        },
+        "worldbuilding-experts/mary-douglas": {
+          "worldbuilding_use": "某种东西为什么在此社会成为污染源，在另一个场景却成为力量？",
+          "subfields": [
+            "洁净与禁忌",
+            "象征分类",
+            "边缘与秩序"
+          ]
+        },
+        "worldbuilding-experts/catherine-bell": {
+          "worldbuilding_use": "一项普通动作怎样被做成与其他动作不同、并承载权威的仪式？",
+          "subfields": [
+            "仪式化",
+            "身体实践",
+            "仪式与权威"
+          ]
+        },
+        "worldbuilding-experts/wilfred-cantwell-smith": {
+          "worldbuilding_use": "怎样写出活着的信众，而不把宗教当会自行行动的固定实体？",
+          "subfields": [
+            "个人信仰与累积传统",
+            "比较宗教",
+            "跨传统理解"
+          ]
+        },
+        "worldbuilding-experts/robert-orsi": {
+          "worldbuilding_use": "如果人物觉得神圣者在场，这种关系怎样进入他的日常行动？",
+          "subfields": [
+            "日常宗教",
+            "临在经验",
+            "人与神圣关系"
+          ]
+        },
+        "worldbuilding-experts/meredith-mcguire": {
+          "worldbuilding_use": "一个人实际怎样做宗教，与他的登记教派有多少差距？",
+          "subfields": [
+            "生活宗教",
+            "个人实践组合",
+            "身体与日常"
+          ]
+        },
+        "worldbuilding-experts/saba-mahmood": {
+          "worldbuilding_use": "人物主动接受某种纪律时，他在培养什么样的自我？",
+          "subfields": [
+            "虔敬实践",
+            "主体形成",
+            "能动性与规范"
+          ]
+        }
+      }
+    },
+    {
+      "id": "game-design",
+      "name": "游戏设计",
+      "baseline": "2026-10-29新增领域入口，每领域选取12个代表名额；优先复用既有专业面向。",
+      "scope": "仅作品是游戏时启用：把世界规则转为玩家可操作、可理解、可测试的机制、系统、交互、空间与叙事。公共讲演与著作摘要只提供有出处的设计参谋，不是名人背书。",
+      "activation": "game-project-only",
+      "existing_paths": [],
+      "new_paths": [
+        "worldbuilding-experts/sid-meier",
+        "worldbuilding-experts/shigeru-miyamoto",
+        "worldbuilding-experts/will-wright",
+        "worldbuilding-experts/jesse-schell",
+        "worldbuilding-experts/brenda-romero",
+        "worldbuilding-experts/ian-bogost",
+        "worldbuilding-experts/katie-salen",
+        "worldbuilding-experts/eric-zimmerman",
+        "worldbuilding-experts/raph-koster",
+        "worldbuilding-experts/jenova-chen",
+        "worldbuilding-experts/hideo-kojima",
+        "worldbuilding-experts/tracy-fullerton"
+      ],
+      "entry_metadata": {
+        "worldbuilding-experts/sid-meier": {
+          "worldbuilding_use": "玩家此刻究竟在权衡什么，为什么不是一个显然的正确答案？",
+          "subfields": [
+            "玩家决策",
+            "信息反馈",
+            "策略节奏"
+          ]
+        },
+        "worldbuilding-experts/shigeru-miyamoto": {
+          "worldbuilding_use": "核心动作怎样通过关卡排列被新手学会，又能保持行进节奏？",
+          "subfields": [
+            "核心交互原型",
+            "动作与关卡节奏",
+            "关卡试玩迭代"
+          ]
+        },
+        "worldbuilding-experts/will-wright": {
+          "worldbuilding_use": "哪些少量规则相互作用，能产生作者没有逐一写好的局面？",
+          "subfields": [
+            "系统动力学",
+            "涌现玩法",
+            "模拟玩具"
+          ]
+        },
+        "worldbuilding-experts/jesse-schell": {
+          "worldbuilding_use": "同一段体验从挑战、动机与经济三个角度看，会暴露什么不同问题？",
+          "subfields": [
+            "设计透镜",
+            "体验诊断",
+            "多角度迭代"
+          ]
+        },
+        "worldbuilding-experts/brenda-romero": {
+          "worldbuilding_use": "如果不靠说明文字，玩家的动作本身能让他面对怎样的伦理关系？",
+          "subfields": [
+            "机制表达",
+            "纸面原型",
+            "困难议题体验"
+          ]
+        },
+        "worldbuilding-experts/ian-bogost": {
+          "worldbuilding_use": "游戏奖励、限制与失败条件正在对世界作出什么论断？",
+          "subfields": [
+            "程序修辞",
+            "规则中的论证",
+            "批判游戏研究"
+          ]
+        },
+        "worldbuilding-experts/katie-salen": {
+          "worldbuilding_use": "怎样让玩家通过改变系统来理解世界规则，而不只是背设定？",
+          "subfields": [
+            "游戏化学习系统",
+            "玩家设计者身份",
+            "关联系统"
+          ]
+        },
+        "worldbuilding-experts/eric-zimmerman": {
+          "worldbuilding_use": "同一套规则在信息、社交与叙事框架下会变成怎样的游玩？",
+          "subfields": [
+            "游戏形式系统",
+            "社会性游玩",
+            "规则与文化"
+          ]
+        },
+        "worldbuilding-experts/raph-koster": {
+          "worldbuilding_use": "玩家正在学习哪种模式，学会之后还能发现什么？",
+          "subfields": [
+            "模式学习",
+            "挑战结构",
+            "趣味分析"
+          ]
+        },
+        "worldbuilding-experts/jenova-chen": {
+          "worldbuilding_use": "玩家从孤独到联结的感受，怎样由行动条件而非旁白改变？",
+          "subfields": [
+            "情绪导向设计",
+            "体验弧线",
+            "非语言互动"
+          ]
+        },
+        "worldbuilding-experts/hideo-kojima": {
+          "worldbuilding_use": "一个主题怎样成为玩家亲自经历的矛盾，而不是只能观看的剧情？",
+          "subfields": [
+            "交互叙事",
+            "媒介体验",
+            "游戏与影像"
+          ]
+        },
+        "worldbuilding-experts/tracy-fullerton": {
+          "worldbuilding_use": "这个原型是否产生预期体验，真实玩家行为提供了什么反证？",
+          "subfields": [
+            "玩家中心流程",
+            "原型与试玩",
+            "体验目标"
+          ]
+        }
+      }
     }
   ]
 }

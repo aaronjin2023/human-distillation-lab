@@ -49,5 +49,115 @@
   ],
   "test_prompt": "地铁里帮走失的狗找主人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q594320",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mark Granovetter",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1943–",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q594320"
+            ],
+            "statement_id": "Q594320$8E1CAFCB-A4F9-4AE8-BD26-65414BD0A392",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q594320"
+        ],
+        "statement_id": "Q594320$4009A438-F2D8-4491-A896-921E4AB1F116",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q26339",
+        "label": "泽西城",
+        "label_en": "Jersey City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q594320"
+        ],
+        "statement_id": "Q594320$BB7B394C-683C-49F1-9E39-B2AC906F61F0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q173813",
+        "label": "斯坦福",
+        "label_en": "Stanford",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q594320"
+        ],
+        "statement_id": "q594320$1B6EC0C7-6EA7-49E5-B325-DA136BB76C9C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "经济社会学·网络"
+    },
+    "sources": [
+      {
+        "id": "WD:Q594320",
+        "title": "Wikidata Q594320 / 马克·格兰诺维特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q594320&oldid=2549146910",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549146910,
+        "modified_at": "2026-09-25T02:50:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

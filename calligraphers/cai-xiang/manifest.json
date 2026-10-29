@@ -51,5 +51,117 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Cai Xiang, Northern Song regular and running script writing modern Tokyo subway station names, dignified upright characters, firm unhurried strokes, warm restrained ink on paper",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1289157",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cai Xiang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1012–1067",
+      "birth_year": {
+        "value": 1012,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1289157"
+            ],
+            "statement_id": "Q1289157$7E608582-E822-4DF5-BCDD-9D6DD450634A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1012,
+            "raw_time": "+1012-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1067,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1289157"
+            ],
+            "statement_id": "Q1289157$2E8D2BB3-C044-4CB6-B259-0475B3A845FC",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1067,
+            "raw_time": "+1067-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1289157"
+        ],
+        "statement_id": "Q1289157$cf1b7b11-469b-541d-078e-34390652fe1d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q68579",
+        "label": "莆田市",
+        "label_en": "Putian",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1289157"
+        ],
+        "statement_id": "Q1289157$28716959-C7D4-4B88-A41E-03D67C0D5CCE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·楷书 / 行书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1289157",
+        "title": "Wikidata Q1289157 / 蔡襄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1289157&oldid=2528522017",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2528522017,
+        "modified_at": "2026-08-07T18:40:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

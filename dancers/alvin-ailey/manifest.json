@@ -40,5 +40,131 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Alvin Ailey, a small Yorkshire terrier sitting on a subway seat, Black church spirituals, Horton long lines, arms raised in praise, blues torso rhythm, emotional uplift and ensemble climax",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q449037",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alvin Ailey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1931–1989",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q449037"
+            ],
+            "statement_id": "q449037$F0F88611-3DAE-43E1-A59F-9E3C58CA2B31",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q449037"
+            ],
+            "statement_id": "q449037$052888E1-1403-40D5-90F9-AD16FE1AD540",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-12-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q449037"
+        ],
+        "statement_id": "Q449037$F744C165-CC2B-416B-98B9-DE3843938E84",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q978155",
+        "label": "羅傑斯",
+        "label_en": "Rogers",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q449037"
+        ],
+        "statement_id": "q449037$B2AF1236-89C2-47B0-A58B-BA7734A7BE7E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q449037"
+          ],
+          "statement_id": "Q449037$0A0ECCCC-7973-4D11-B488-1FE6D64ACA9D",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q449037",
+        "title": "Wikidata Q449037 / 阿尔文·艾利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q449037&oldid=2559396395",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559396395,
+        "modified_at": "2026-10-20T22:32:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

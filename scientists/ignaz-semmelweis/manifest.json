@@ -29,5 +29,130 @@
     "1847–1849年完整月度死亡率表待原始统计核对",
     "1861年著作各章论证细节未逐章核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q59736",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ignaz Semmelweis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1818–1865",
+      "birth_year": {
+        "value": 1818,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q59736"
+            ],
+            "statement_id": "q59736$35F1835B-359C-475F-8043-73B012405EF9",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1818,
+            "raw_time": "+1818-07-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1865,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q59736"
+            ],
+            "statement_id": "q59736$0460D807-EA20-4E0C-A85C-74475826BBDB",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1865,
+            "raw_time": "+1865-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q59736"
+        ],
+        "statement_id": "Q59736$2160E927-E9F9-43F8-998C-03741CE6F0ED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1075342",
+        "label": "Tabán",
+        "label_en": "Tabán",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q59736"
+        ],
+        "statement_id": "q59736$CB7DF2DC-FE94-491D-8C19-D786DE3F7AD3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q131964",
+        "label": "奥地利帝国",
+        "label_en": "Austrian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q59736"
+        ],
+        "statement_id": "Q59736$1bb07f80-457f-e1d0-7b69-b215e235aa8d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q28",
+        "label": "匈牙利",
+        "label_en": "Hungary",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学 / 医院感染控制"
+    },
+    "sources": [
+      {
+        "id": "WD:Q59736",
+        "title": "Wikidata Q59736 / 伊格纳兹·塞麦尔维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q59736&oldid=2557927959",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557927959,
+        "modified_at": "2026-10-17T08:38:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,144 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q30693",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rudolf Clausius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1822–1888",
+      "birth_year": {
+        "value": 1822,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q30693"
+            ],
+            "statement_id": "q30693$B7A368F1-46EC-453B-9CDB-2C7E3FB75613",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1822,
+            "raw_time": "+1822-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q30693"
+            ],
+            "statement_id": "q30693$17F918E2-AE24-4062-B6EE-30A809A48143",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-08-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q30693"
+        ],
+        "statement_id": "q30693$D9E1A760-5708-4135-976B-F9AF6F8BD0BC",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q62868",
+        "label": "科沙林",
+        "label_en": "Koszalin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q30693"
+        ],
+        "statement_id": "Q30693$1EB50E09-BFBF-40AC-B5C7-54EE35D4115E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q586",
+        "label": "波恩",
+        "label_en": "Bonn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q30693"
+        ],
+        "statement_id": "Q30693$F0BFF87E-9911-4660-B344-66AA49D7F51A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2999",
+        "label": "维尔茨堡",
+        "label_en": "Würzburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q30693"
+        ],
+        "statement_id": "Q30693$d0bf3b8a-4bfc-ca76-574b-0311793fb51e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "热力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q30693",
+        "title": "Wikidata Q30693 / 魯道夫·克勞修斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q30693&oldid=2560203782",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560203782,
+        "modified_at": "2026-10-24T04:42:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a man buying oden at a convenience store late at night, thinking of someone he wants to call",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q483283",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "J.Y. Park",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q483283"
+            ],
+            "statement_id": "Q483283$09ef78cd-7e7f-468e-9b6e-5c9989d7a79c",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-12-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q483283"
+        ],
+        "statement_id": "Q483283$AD88BCF3-C40A-49BD-94B8-E663DAE6BD64",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8684",
+        "label": "首尔",
+        "label_en": "Seoul",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q483283"
+        ],
+        "statement_id": "Q483283$DA7EF4DC-4F43-4DD2-8FB7-676F39EBA335",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "韩语流行·K-pop",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q483283",
+        "title": "Wikidata Q483283 / 朴轸泳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q483283&oldid=2554127093",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554127093,
+        "modified_at": "2026-10-06T20:07:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

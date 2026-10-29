@@ -43,5 +43,116 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Hedi Slimane, a modern record shop clerk uniform, skinny rock-chic tailoring, slim silhouette, black leather, monochrome minimalism, youth subculture, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q558",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hedi Slimane",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1968–",
+      "birth_year": {
+        "value": 1968,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q558"
+            ],
+            "statement_id": "Q558$F46B3CC6-3E19-4282-9E40-CF1C18ACE562",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1968,
+            "raw_time": "+1968-07-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q558"
+        ],
+        "statement_id": "q558$D77673BF-60C4-4D02-808E-F4BA6097A2C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q204622",
+        "label": "巴黎十九区",
+        "label_en": "19th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q558"
+        ],
+        "statement_id": "Q558$7E73E8CF-C0E9-4E99-B4E7-7E5A0AFB6E07",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q558"
+        ],
+        "statement_id": "q558$0706F5E2-844B-4F0F-9DE7-87EACB9E1FEE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 瘦削廓形",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q558",
+        "title": "Wikidata Q558 / 艾迪·斯理曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q558&oldid=2561504268",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561504268,
+        "modified_at": "2026-10-27T18:38:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

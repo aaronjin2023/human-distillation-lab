@@ -34,5 +34,140 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒、流派、代表作、技法已核对；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q721435",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yan Liben",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.600–673",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q721435"
+            ],
+            "statement_id": "Q721435$43728F98-7C6C-4872-8233-E0A50E9685FC",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 600,
+            "raw_time": "+0600-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q721435"
+            ],
+            "statement_id": "Q721435$05241735-06BB-4395-A662-2009359471AF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 600,
+            "raw_time": "+0600-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 673,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q721435"
+            ],
+            "statement_id": "Q721435$D7952833-6579-498D-AD1B-2FF02AD501BF",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 673,
+            "raw_time": "+0673-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q721435"
+        ],
+        "statement_id": "Q721435$171462E8-005B-4D2B-B29C-B5326D6CC665",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6501000",
+        "label": "长安",
+        "label_en": "Chang'an",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q721435"
+        ],
+        "statement_id": "Q721435$567ECBA8-6F8C-4B81-9F13-98B29AD99CA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·人物画"
+    },
+    "sources": [
+      {
+        "id": "WD:Q721435",
+        "title": "Wikidata Q721435 / 阎立本",
+        "url": "https://www.wikidata.org/w/index.php?title=Q721435&oldid=2553978402",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553978402,
+        "modified_at": "2026-10-06T14:51:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

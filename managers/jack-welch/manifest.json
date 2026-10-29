@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q355314",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jack Welch",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1935–2020",
+      "birth_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355314"
+            ],
+            "statement_id": "q355314$858A9693-195A-47EE-A8AE-71974C2EF2D6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-11-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q355314"
+            ],
+            "statement_id": "Q355314$1b69bbb8-4026-e8ab-5107-3d2fb9c613df",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2020,
+            "raw_time": "+2020-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q355314"
+        ],
+        "statement_id": "q355314$B7040843-7A23-4832-A637-E2214AF82CB6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q54136",
+        "label": "皮博迪",
+        "label_en": "Peabody",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q355314"
+        ],
+        "statement_id": "q355314$E286EA20-79DC-40B9-894D-E80AA9C9B4D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "综合工业"
+    },
+    "sources": [
+      {
+        "id": "WD:Q355314",
+        "title": "Wikidata Q355314 / 杰克·韦尔奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q355314&oldid=2553832736",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553832736,
+        "modified_at": "2026-10-06T08:52:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

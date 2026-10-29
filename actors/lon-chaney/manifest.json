@@ -48,5 +48,118 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q312656",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lon Chaney",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1930",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312656"
+            ],
+            "statement_id": "q312656$8091C129-749B-4086-8F0C-ABE23F65B902",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-04-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q312656"
+            ],
+            "statement_id": "q312656$9C321632-1C02-46FD-B022-7CDF59898A14",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q312656"
+        ],
+        "statement_id": "q312656$0B0B8D3A-3BC7-4484-8F74-E410EEAC6835",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q49258",
+        "label": "科罗拉多斯普林斯",
+        "label_en": "Colorado Springs",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q312656"
+        ],
+        "statement_id": "q312656$F866345A-ECEF-4832-B037-C721E2239B4B",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q312656",
+        "title": "Wikidata Q312656 / 朗·钱尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q312656&oldid=2560445284",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560445284,
+        "modified_at": "2026-10-24T21:43:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

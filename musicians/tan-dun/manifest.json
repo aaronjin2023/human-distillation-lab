@@ -30,5 +30,101 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板的音乐适配）",
   "test_prompt": "现代题材：现代城市街角便利店的夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作以草稿名单为准，英文维基通说对照；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q314176",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tan Dun",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q314176"
+            ],
+            "statement_id": "Q314176$2D84ECA1-5179-4170-8D89-9FF56F197944",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-08-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q314176"
+        ],
+        "statement_id": "Q314176$E6CE6032-5D6D-48C5-A416-A5ADAF333C41",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174091",
+        "label": "长沙市",
+        "label_en": "Changsha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q314176"
+        ],
+        "statement_id": "Q314176$DDED89F5-AE65-4306-A154-40FAE1464835",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国 / 当代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q314176",
+        "title": "Wikidata Q314176 / 谭盾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q314176&oldid=2558252881",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558252881,
+        "modified_at": "2026-10-18T04:46:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

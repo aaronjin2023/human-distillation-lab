@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Mustafa Rakim, Ottoman celî thuluth, huge bold letters filling the sheet, strong thick-thin contrast, black ink with gold on paper",
   "transmission": "真迹存世（希利亚与书法集传世）",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6584758",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mustafa Rakim",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1757–1826",
+      "birth_year": {
+        "value": 1757,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6584758"
+            ],
+            "statement_id": "Q6584758$08F48C59-F365-4E28-9D16-CAE80D8203BE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1757,
+            "raw_time": "+1757-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1826,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6584758"
+            ],
+            "statement_id": "Q6584758$D385E4A1-1233-44F8-8C14-E5E834687232",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1826,
+            "raw_time": "+1826-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6584758"
+        ],
+        "statement_id": "Q6584758$b2e3d68c-4d82-536f-c2e8-2343c91fe396",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q334985",
+        "label": "温耶",
+        "label_en": "Ünye",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6584758"
+        ],
+        "statement_id": "Q6584758$E874D44E-7DD0-4F0A-BD13-EF06B7101261",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12560",
+        "label": "奥斯曼帝国",
+        "label_en": "Ottoman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·苏鲁斯体 / 杰利体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6584758",
+        "title": "Wikidata Q6584758 / Mustafa Rakım Efendi",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6584758&oldid=2520991474",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2520991474,
+        "modified_at": "2026-07-22T08:54:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

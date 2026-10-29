@@ -38,5 +38,132 @@
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Curtis Mayfield",
-  "writer_zh": "柯蒂斯·梅菲尔德"
+  "writer_zh": "柯蒂斯·梅菲尔德",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q310170",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Curtis Mayfield",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1942–1999",
+      "birth_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310170"
+            ],
+            "statement_id": "q310170$51A0EB2A-070B-4751-A591-11AEA5423C37",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q310170"
+            ],
+            "statement_id": "q310170$1E9BE427-71EE-40CB-906C-D6287996E54F",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q310170"
+        ],
+        "statement_id": "Q310170$93B6AA21-3D1A-4979-8ACC-4AB9E9C5B0E4",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1297",
+        "label": "芝加哥",
+        "label_en": "Chicago",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q310170"
+        ],
+        "statement_id": "Q310170$E945BB7B-58D6-4262-9719-A928972B5811",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q310170"
+          ],
+          "statement_id": "Q310170$C83209C0-3811-492D-ADCD-F24A29A29EEC",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英语灵魂乐·创作歌手",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q310170",
+        "title": "Wikidata Q310170 / 寇帝·梅菲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q310170&oldid=2561672934",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561672934,
+        "modified_at": "2026-10-28T12:28:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

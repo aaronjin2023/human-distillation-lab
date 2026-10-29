@@ -43,5 +43,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只约克夏犬坐在地铁座位上，通勤者们盯着手机",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8018",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Augustine",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "354–430",
+      "birth_year": {
+        "value": 354,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8018"
+            ],
+            "statement_id": "q8018$32FAB6CB-C0DB-46D9-8789-0D73FC7A2927",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 354,
+            "raw_time": "+0354-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 430,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8018"
+            ],
+            "statement_id": "q8018$CABDA709-FDE8-4664-ACBA-CE90148076E1",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 430,
+            "raw_time": "+0430-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8018"
+        ],
+        "statement_id": "q8018$3144D811-4558-4F31-9A91-055C85D5EBF3",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1324444",
+        "label": "塔加斯特城",
+        "label_en": "Thagaste",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8018"
+        ],
+        "statement_id": "Q8018$3768AF9A-B9AA-450C-8104-AF8303144DEF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "教父哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8018",
+        "title": "Wikidata Q8018 / 奥古斯丁",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8018&oldid=2560829628",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560829628,
+        "modified_at": "2026-10-25T21:54:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

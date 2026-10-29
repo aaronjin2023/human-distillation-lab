@@ -32,5 +32,138 @@
   "test_prompt": "清晨苏醒的菜市场",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q179277",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giovanni Pierluigi da Palestrina",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1525–1594",
+      "birth_year": {
+        "value": 1525,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179277"
+            ],
+            "statement_id": "Q179277$3B46AD8E-D7F6-43BC-AF5A-D884D57ED889",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1525,
+            "raw_time": "+1525-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q179277"
+            ],
+            "statement_id": "q179277$30A01C49-ABDD-4EE8-8D9E-26D6CBCBAE5C",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1594,
+            "raw_time": "+1594-02-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q179277"
+        ],
+        "statement_id": "q179277$A256A5FF-E9F7-4F4C-B72E-1E153E30F0E3",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q243133",
+        "label": "帕莱斯特里纳",
+        "label_en": "Palestrina",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q179277"
+        ],
+        "statement_id": "Q179277$fa157cac-40ef-f412-85c2-e62eb3714bc2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q170174",
+        "label": "教皇国",
+        "label_en": "Papal States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q179277"
+        ],
+        "statement_id": "Q179277$3B99683B-EAB2-4774-AA3F-D960EE33A0E6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴 / 罗马乐派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q179277",
+        "title": "Wikidata Q179277 / 乔瓦尼·皮耶路易吉·达·帕莱斯特里纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q179277&oldid=2560082113",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560082113,
+        "modified_at": "2026-10-23T19:11:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

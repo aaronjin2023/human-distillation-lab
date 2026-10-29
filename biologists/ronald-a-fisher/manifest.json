@@ -29,5 +29,117 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q216723",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ronald A. Fisher",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1962",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q216723"
+            ],
+            "statement_id": "q216723$5DF5C219-CA3D-4E6B-B8B5-82FE36AA1FDC",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q216723"
+            ],
+            "statement_id": "q216723$0D647E0D-7AFB-4A99-87AB-6BB35CBE1539",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q216723"
+        ],
+        "statement_id": "Q216723$9115975A-D628-43ED-A666-F76B6A53F36A",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q149654",
+        "label": "東芬奇利",
+        "label_en": "East Finchley",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q216723"
+        ],
+        "statement_id": "q216723$BEC12A68-3147-4803-9A68-108E525B71AC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "群体遗传学 / 进化论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q216723",
+        "title": "Wikidata Q216723 / 罗纳德·费希尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q216723&oldid=2558230110",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558230110,
+        "modified_at": "2026-10-18T03:28:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

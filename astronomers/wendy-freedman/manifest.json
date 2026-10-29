@@ -30,5 +30,128 @@
   "test_prompt": "In the style of Wendy Freedman, measure the Hubble constant from a new dataset: calibrate Cepheids in nearby galaxies, carry the ladder to supernova hosts, and publish the full systematic error budget alongside the value",
   "test_question_zh": "新数据给出的哈勃常数是多少？误差多大？",
   "verification": "生年 1957 年、哈勃关键项目与哈勃常数测定按天文史通说写；在世，只蒸已发表成果物；哈勃常数值未写具体数字以免版本混淆",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5384049",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wendy Freedman",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1957–",
+      "birth_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5384049"
+            ],
+            "statement_id": "Q5384049$7569C4C4-A0AE-4B90-94EA-342188BAD43F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-07-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5384049"
+        ],
+        "statement_id": "Q5384049$E5A872FD-98F0-4C1C-92E5-3E926EDF1522",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q172",
+        "label": "多伦多",
+        "label_en": "Toronto",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5384049"
+        ],
+        "statement_id": "Q5384049$C34093AA-5FC0-4D64-9F42-D3A98B905D00",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q485176",
+        "label": "帕萨迪纳",
+        "label_en": "Pasadena",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5384049"
+        ],
+        "statement_id": "q5384049$38779993-C1A1-4F9E-B791-7576A5E35621",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5384049"
+        ],
+        "statement_id": "q5384049$62A7E25A-BD48-4A14-99B4-FD179E2FD14A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·宇宙距离尺度"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5384049",
+        "title": "Wikidata Q5384049 / 溫蒂·弗里德曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5384049&oldid=2545316732",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545316732,
+        "modified_at": "2026-09-14T00:49:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

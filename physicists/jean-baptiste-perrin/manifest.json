@@ -35,5 +35,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q134085",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Baptiste Perrin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1942",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134085"
+            ],
+            "statement_id": "q134085$A3408320-54CA-4607-B9B8-090AD638D539",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1942,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q134085"
+            ],
+            "statement_id": "q134085$FB19429F-FDF1-4B39-A1D0-D1D223B6A40B",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1942,
+            "raw_time": "+1942-04-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q134085"
+        ],
+        "statement_id": "q134085$B32F0638-858C-40F4-9050-8E7A0ABB1170",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q648",
+        "label": "里尔",
+        "label_en": "Lille",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q134085"
+        ],
+        "statement_id": "Q134085$4A6C06B2-3CE9-4BB9-BC85-B3667615CABA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分子物理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q134085",
+        "title": "Wikidata Q134085 / 让·佩兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q134085&oldid=2557955932",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557955932,
+        "modified_at": "2026-10-17T10:46:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

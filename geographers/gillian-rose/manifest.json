@@ -30,5 +30,55 @@
   "test_prompt": "In the style of Gillian Rose, read a delivery app's map as a visual text: who made it, what the image shows and hides, and how the rider is looked at through it — then ask where you, the researcher, stand in that looking.",
   "test_question_zh": "配送应用地图的视觉文本",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q439143",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Gillian Rose",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1962–",
+      "birth_year": {
+        "value": 1962,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·女性主义地理与视觉方法"
+    },
+    "sources": []
+  }
 }

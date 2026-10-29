@@ -46,5 +46,101 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Elizabeth Loftus, analyse a person who cannot stop scrolling short videos late at night. Ask what they will remember tomorrow: the videos themselves, or the captions and comments that misled them afterwards; memory is reconstructed, and confidence is not accuracy.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q262154",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elizabeth Loftus",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q262154"
+            ],
+            "statement_id": "Q262154$A958EB4D-B75E-45AC-8C5D-BA08980CDA8E",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-10-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q262154"
+        ],
+        "statement_id": "Q262154$2BE3CD62-9811-47C6-8DEB-9319A28C4DCE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q65",
+        "label": "洛杉矶",
+        "label_en": "Los Angeles",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q262154"
+        ],
+        "statement_id": "q262154$7CA19D90-7727-4C31-ADC1-BD0E8D33456C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "错误记忆"
+    },
+    "sources": [
+      {
+        "id": "WD:Q262154",
+        "title": "Wikidata Q262154 / 伊丽莎白·洛塔斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q262154&oldid=2560591647",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560591647,
+        "modified_at": "2026-10-25T07:23:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

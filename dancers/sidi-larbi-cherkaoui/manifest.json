@@ -47,5 +47,101 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场雨中的通勤",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q452868",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sidi Larbi Cherkaoui",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1976–",
+      "birth_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q452868"
+            ],
+            "statement_id": "Q452868$9BC64946-E6DF-4603-A376-28D92C4F01CD",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-03-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q452868"
+        ],
+        "statement_id": "q452868$A5E59C8E-E746-4178-9299-7AC297D4D750",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q452868"
+        ],
+        "statement_id": "Q452868$3AFAFA66-D5F8-4D84-AC10-CD4BF1E9095E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q452868",
+        "title": "Wikidata Q452868 / 西迪·拉比·謝爾卡烏",
+        "url": "https://www.wikidata.org/w/index.php?title=Q452868&oldid=2556879016",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556879016,
+        "modified_at": "2026-10-14T09:56:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

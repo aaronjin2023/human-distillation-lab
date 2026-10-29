@@ -38,5 +38,104 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8474",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Suleiman the Magnificent",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1494–1566",
+      "birth_year": {
+        "value": 1494,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8474"
+            ],
+            "statement_id": "q8474$77922E7C-F868-4B8C-B944-C392E7ABFA2B",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1494,
+            "raw_time": "+1494-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1566,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8474"
+            ],
+            "statement_id": "Q8474$ce97eb28-dedb-4bb1-aadc-8a695c6b48cb",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1566,
+            "raw_time": "+1566-09-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8474"
+        ],
+        "statement_id": "q8474$B841F560-579E-4530-B141-5650BEAA1582",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q45301",
+        "label": "特拉布宗",
+        "label_en": "Trabzon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "奥斯曼·税制改革",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8474",
+        "title": "Wikidata Q8474 / 苏莱曼一世",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8474&oldid=2558247234",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558247234,
+        "modified_at": "2026-10-18T04:29:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -33,5 +33,131 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "台风后受损航道海警行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q217645",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chester Nimitz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1966",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q217645"
+            ],
+            "statement_id": "q217645$6F5A458B-1C27-47E5-97F9-505F39B0109F",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q217645"
+            ],
+            "statement_id": "q217645$7025E190-797D-4A01-A3FA-CAD77BE677E5",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q217645"
+        ],
+        "statement_id": "q217645$48EE8297-41AA-4AEF-AE02-59C32021F0FD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q973923",
+        "label": "弗雷德里克斯堡",
+        "label_en": "Fredericksburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q217645"
+        ],
+        "statement_id": "q217645$933E9A8C-4EB9-4E73-812D-2A694A650F09",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q217645"
+          ],
+          "statement_id": "Q217645$9a9583e9-4233-001b-34a6-81065a3b83d4",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q5551259",
+          "label": "Texas Germans",
+          "label_en": "Texas Germans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·太平洋海战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q217645",
+        "title": "Wikidata Q217645 / 切斯特·威廉·尼米兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q217645&oldid=2560746385",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560746385,
+        "modified_at": "2026-10-25T16:19:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

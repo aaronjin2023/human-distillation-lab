@@ -36,5 +36,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Álvaro de Mendaña, an uncrewed vessel searches the South Pacific in 2026 for islands that keep disappointing, logging each landfall with its latitude and what it was not.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313273",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Álvaro de Mendaña",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1542–1595",
+      "birth_year": {
+        "value": 1542,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313273"
+            ],
+            "statement_id": "q313273$C75B7039-7D1F-4C4D-B41F-47AB37805A96",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1542,
+            "raw_time": "+1542-10-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1595,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313273"
+            ],
+            "statement_id": "q313273$4E3ECAF7-EB7B-442C-9C67-FA15110A5363",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1595,
+            "raw_time": "+1595-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313273"
+        ],
+        "statement_id": "Q313273$9472D3D0-81A3-4FCC-98E0-DC856E25FF35",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1157834",
+        "label": "本维夫雷",
+        "label_en": "Bembibre",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313273"
+        ],
+        "statement_id": "q313273$7D25157E-6AC8-4F49-9930-42009014EA16",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西班牙·南太平洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313273",
+        "title": "Wikidata Q313273 / 阿尔瓦罗·德·门达尼亚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313273&oldid=2527292822",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527292822,
+        "modified_at": "2026-08-04T19:58:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

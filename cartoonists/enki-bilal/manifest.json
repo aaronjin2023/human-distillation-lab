@@ -38,5 +38,116 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "无人机送货员穿越雾霾城市（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q333668",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Enki Bilal",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1951–",
+      "birth_year": {
+        "value": 1951,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q333668"
+            ],
+            "statement_id": "q333668$755F643E-4B97-465A-BBE6-2B1C72635B32",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1951,
+            "raw_time": "+1951-10-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q333668"
+        ],
+        "statement_id": "Q333668$64AE39F4-EA5E-4B03-BC99-07A79D36F878",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q3711",
+        "label": "贝尔格莱德",
+        "label_en": "Belgrade",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q333668"
+        ],
+        "statement_id": "Q333668$C56FE0E4-3712-4DE6-A100-18BF297167CB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q333668"
+        ],
+        "statement_id": "Q333668$72C2A124-5D31-4736-8A1E-CD9AE276F8DE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·科幻图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q333668",
+        "title": "Wikidata Q333668 / 恩基·比拉尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q333668&oldid=2557869538",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557869538,
+        "modified_at": "2026-10-17T05:04:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

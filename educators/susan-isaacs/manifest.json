@@ -44,5 +44,56 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "艾萨克斯风格：为幼儿设计一堂观察课——与一只坐在地铁座位上的约克夏犬玩。让孩子自由游戏、自己发明玩法，教师观察并记录他们的原话与提问，只轻轻介入一个问题或一件材料，不上正规课、不考试。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q3334185",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Susan Isaacs",
+            "compared_date_fields": 1
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1885–1948",
+      "birth_year": {
+        "value": 1885,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1948,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "幼儿心理与教育",
+      "genre": "educator"
+    },
+    "sources": []
+  }
 }

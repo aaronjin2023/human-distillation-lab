@@ -37,5 +37,56 @@
   "test_prompt": "In the style of Shi Shen, catalogue one modern sky region: name and fix every star in its group, record positions so a later astronomer can find each one again, and mark clearly which entries are certain and which are reconstructed",
   "test_question_zh": "用石申的方法，为现代一片天区编一份恒星星表",
   "verification": "2026-10-26：约前 4 世纪、星表约 800 星、黑子记录一说经 web 搜索核对；星数 800 与 120 两说已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q218900",
+          "status": "needs_identity_review",
+          "conflicts": [],
+          "match_basis": {
+            "name": "Shi Shen",
+            "compared_date_fields": 0
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "约前 4 世纪",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": {
+        "text": "约前 4 世纪",
+        "status": "legacy_unverified"
+      },
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "战国·星表天文"
+    },
+    "sources": []
+  }
 }

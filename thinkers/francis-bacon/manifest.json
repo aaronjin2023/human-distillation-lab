@@ -27,5 +27,130 @@
   "thinker": "Francis Bacon",
   "thinker_zh": "弗朗西斯·培根",
   "verification": "2026-10-26 依据英文 Wikipedia / Britannica 通说核对：生卒 1561–1626、《新工具》1620 年、《论说随笔》1597 年首版、1625 年定本；未逐章核对引文。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37388",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francis Bacon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1561–1626",
+      "birth_year": {
+        "value": 1561,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37388"
+            ],
+            "statement_id": "q37388$2717678F-8B6E-4C5C-B095-049388361C30",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1561,
+            "raw_time": "+1561-01-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1626,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37388"
+            ],
+            "statement_id": "q37388$01BE3FE1-64EE-4729-A917-DCE2FB85B3EF",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1626,
+            "raw_time": "+1626-04-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37388"
+        ],
+        "statement_id": "q37388$545B15B3-0388-4A93-BA3A-EFD86927004E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8055471",
+        "label": "York House, Strand",
+        "label_en": "York House, Strand",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q37388"
+        ],
+        "statement_id": "Q37388$3ccb4527-1c11-483c-a98b-5438802a0c6a",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37388"
+        ],
+        "statement_id": "Q37388$2d0743a3-4ae6-d371-f08a-5177cd4fe85b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "经验主义先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q37388",
+        "title": "Wikidata Q37388 / 弗朗西斯·培根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37388&oldid=2559105714",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559105714,
+        "modified_at": "2026-10-20T06:20:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

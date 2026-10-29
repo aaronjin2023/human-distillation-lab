@@ -36,5 +36,73 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家旧衣回收公司的传播方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16252439",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chip Heath",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–（在世）",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16252439"
+            ],
+            "statement_id": "Q16252439$4B408AF1-0686-41BC-972D-9336202E2C1C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-07-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "创意传播理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16252439",
+        "title": "Wikidata Q16252439 / Chip Heath",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16252439&oldid=2521600536",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521600536,
+        "modified_at": "2026-07-23T11:33:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

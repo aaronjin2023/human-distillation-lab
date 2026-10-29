@@ -43,5 +43,849 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 审计核对：致贝尔纳信原文、铬黄/茜素湖褪色、《星夜》1889 年 6 月、《向日葵》5 个版本已核实；v0.1 两处未核实断言已修正（见 SKILL.md 核对记录）",
-  "version": "0.2"
+  "version": "0.2",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5582",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vincent van Gogh",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1853-1890",
+      "birth_year": {
+        "value": 1853,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5582"
+            ],
+            "statement_id": "q5582$9c6446cb-4e57-d8bc-5849-be09830515c3",
+            "rank": "normal",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1853,
+            "raw_time": "+1853-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5582"
+            ],
+            "statement_id": "q5582$7a1c6874-4076-d794-c231-9921bd603307",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "q5582$E1249ED2-64CE-458D-938C-847162F520F4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q9883",
+        "label": "津德尔特",
+        "label_en": "Zundert",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$d7cf0df7-44c9-aa30-baa8-d2292dcc9412",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1866-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1868-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q9871",
+        "label": "蒂尔堡",
+        "label_en": "Tilburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$5bd80dc7-4146-e886-bca0-4004c13d1058",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1869-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1873-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$bc5847d3-41b0-aa8a-eb6c-00b1039fbc9b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1873-11-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1875-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$51194f77-43a5-f896-244b-b7345ec3e45c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1875-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1876-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$2eec99b7-449d-9d26-67fc-e312dcfe4848",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1876-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1876-12-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q736439",
+        "label": "拉姆斯盖特",
+        "label_en": "Ramsgate",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$ee39e1c1-4bb5-a7e5-871e-b04dbc201333",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1876-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q9833",
+        "label": "埃滕-勒爾",
+        "label_en": "Etten-Leur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$377b544f-470d-cb76-868f-810eea77aca8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1877-01-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1877-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q26421",
+        "label": "多德雷赫特",
+        "label_en": "Dordrecht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$c0f58941-43a9-6b5d-2285-ab1f987df0ac",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1877-05-09T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1878-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$cf5fcdd4-408a-4936-7d81-90dc11b522e6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1878-11-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1879-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q182920",
+        "label": "博里纳日",
+        "label_en": "Borinage",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$3188425a-4244-19f6-7b56-bd556197f598",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1880-10-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1881-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q239",
+        "label": "布鲁塞尔",
+        "label_en": "Brussels",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$34ed28a2-4fad-d028-fa35-b305bc1c35b0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1881-04-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1881-12-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q9833",
+        "label": "埃滕-勒爾",
+        "label_en": "Etten-Leur",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$14c77080-43b1-4549-ee50-a3ffca860419",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1881-12-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1883-09-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$c4d3cd12-4a50-d4d1-d053-b64ed1343e1f",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1883-09-11T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1883-10-02T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q208012",
+        "label": "霍赫芬",
+        "label_en": "Hoogeveen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$4f5b3441-442d-ef91-e5c4-0e1a5df273b7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1883-12-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1885-11-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q153516",
+        "label": "纽南",
+        "label_en": "Nuenen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$cc53ef41-4d4a-4be1-7e00-38ca576117fc",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1885-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1886-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$91741f61-427d-cc1e-0ef3-7b439655071d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1886-02-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1888-02-21T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$c125832e-4c52-8b88-897a-633c1da645f2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1888-02-21T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1889-05-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q48292",
+        "label": "阿尔勒",
+        "label_en": "Arles",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$01a0d658-44b6-e2a6-aab2-dc19eca53c8f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1889-05-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1890-05-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q221507",
+        "label": "普罗旺斯地区圣雷米",
+        "label_en": "Saint-Rémy-de-Provence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$63d68c68-4707-ff57-87fa-cb37a8390b96",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1890-05-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1890-07-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q212406",
+        "label": "瓦兹河畔欧韦尔",
+        "label_en": "Auvers-sur-Oise",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$691312fa-421d-e8e3-d5de-9b75d3b9048f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1883-10-02T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1883-12-04T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q15883237",
+        "label": "Van Gogh House",
+        "label_en": "Van Gogh House",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$9F3FB329-C5E9-436E-99BC-52F584FE5876",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q14641",
+        "label": "埃門",
+        "label_en": "Emmen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$44a12de0-4341-0769-9cf9-c8a964df2a55",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1879-08-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1880-10-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 10,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q3280282",
+        "label": "Maison Van Gogh",
+        "label_en": "Maison Van Gogh",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5582"
+        ],
+        "statement_id": "Q5582$969C4D09-31F6-4E4A-B231-3830FA02AE18",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5582"
+          ],
+          "statement_id": "Q5582$df06b5b2-4f55-b22b-83c8-063c82b438a7",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q200569",
+          "label": "荷兰人",
+          "label_en": "Dutch",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "后印象派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5582",
+        "title": "Wikidata Q5582 / 文森特·梵高",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5582&oldid=2561567127",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561567127,
+        "modified_at": "2026-10-27T23:22:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

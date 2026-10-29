@@ -31,5 +31,117 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "一只坐在地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1340",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonio Vivaldi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1678–1741",
+      "birth_year": {
+        "value": 1678,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1340"
+            ],
+            "statement_id": "q1340$A70468C9-1369-4D31-B4EB-16EBA77D33C7",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1678,
+            "raw_time": "+1678-03-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1741,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1340"
+            ],
+            "statement_id": "q1340$AB843DE8-0878-4B99-A6DD-3D41F3C8F3D4",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1741,
+            "raw_time": "+1741-07-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1340"
+        ],
+        "statement_id": "q1340$010A34FB-BA50-4787-A046-0C9BDCCA93C9",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1340"
+        ],
+        "statement_id": "q1340$E26FC531-BE17-4A92-886E-04C7CEC40FBA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4948",
+        "label": "威尼斯共和国",
+        "label_en": "Republic of Venice",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴洛克 / 意大利"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1340",
+        "title": "Wikidata Q1340 / 安东尼奥·维瓦尔第",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1340&oldid=2561516557",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561516557,
+        "modified_at": "2026-10-27T19:23:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

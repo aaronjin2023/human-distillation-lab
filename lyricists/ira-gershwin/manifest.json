@@ -42,5 +42,132 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a small Yorkshire terrier sitting on a subway seat, watched by commuters who look away",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61059",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ira Gershwin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1983",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61059"
+            ],
+            "statement_id": "q61059$671A7A3C-83E2-4D2F-9256-9BA17BE02805",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-12-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61059"
+            ],
+            "statement_id": "q61059$5B8C3EB6-FB3E-4255-A305-5C12D290B939",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61059"
+        ],
+        "statement_id": "Q61059$FE1AB401-C37B-4E05-B04B-F2DBE56242A2",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61059"
+        ],
+        "statement_id": "q61059$7BCCED6D-7836-4E7D-B29B-48B93AE61C50",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q61059"
+          ],
+          "statement_id": "Q61059$6aa26999-4bb7-4617-7954-390f7e38d1c1",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q32360797",
+          "label": "Russian Jews",
+          "label_en": "Russian Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英语标准曲·歌词",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61059",
+        "title": "Wikidata Q61059 / 艾拉·格什温",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61059&oldid=2559986563",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559986563,
+        "modified_at": "2026-10-23T13:30:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

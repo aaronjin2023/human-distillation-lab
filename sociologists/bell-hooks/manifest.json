@@ -66,5 +66,131 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店里的爱与关照",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q259507",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "bell hooks",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1952–2021",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q259507"
+            ],
+            "statement_id": "q259507$7E1427B3-29E0-4964-85B0-19B635FB2DD7",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q259507"
+            ],
+            "statement_id": "Q259507$bfe653e9-4609-649d-6277-0894ceb1be99",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q259507"
+        ],
+        "statement_id": "Q259507$28069175-BAEF-4249-ABC9-9D88E3B9958E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q845461",
+        "label": "霍普金斯",
+        "label_en": "Hopkinsville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q259507"
+        ],
+        "statement_id": "q259507$F3A49353-2B0B-46F7-88E6-3A22B9970FD1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q259507"
+          ],
+          "statement_id": "Q259507$4560709D-F5E4-4B51-97C3-F4C731E8F4F4",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "黑人女性主义·边缘理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q259507",
+        "title": "Wikidata Q259507 / 贝尔·胡克斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q259507&oldid=2561347554",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561347554,
+        "modified_at": "2026-10-27T06:45:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

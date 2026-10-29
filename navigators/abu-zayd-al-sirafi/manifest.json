@@ -36,5 +36,57 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Abu Zayd al-Sirafi, a 2026 editor revises a sixty-year-old sailing guide by interviewing today's sailors, correcting what changed, keeping what still holds.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q12178010",
+          "status": "needs_identity_review",
+          "conflicts": [],
+          "match_basis": {
+            "name": "Abu Zayd al-Sirafi",
+            "compared_date_fields": 0
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "活动于 c.916 年",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": {
+        "text": "活动于 c.916 年",
+        "status": "legacy_unverified"
+      },
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·印度洋",
+      "genre": "navigator"
+    },
+    "sources": []
+  }
 }

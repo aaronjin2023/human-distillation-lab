@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Xu Guangxian, separate two nearly identical elements: calculate the cascade stages needed from the separation factor, test it at pilot scale, and prove it with product purity and cost.",
   "test_question_zh": "两种化学性质几乎相同的稀土元素怎么分开？",
   "verification": "2026-10-26：生卒（1920–2015）、稀土串级萃取理论经草稿第 7 节与 Wikipedia、Chemistry World 共识核对；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8045095",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Guangxian",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2015",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8045095"
+            ],
+            "statement_id": "Q8045095$036A8C95-4F44-4556-AA7F-16877F447941",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2015,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8045095"
+            ],
+            "statement_id": "Q8045095$ef26bdfb-42a0-dc4e-b194-a274922dae39",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2015,
+            "raw_time": "+2015-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8045095"
+        ],
+        "statement_id": "Q8045095$414E911E-B726-4C63-8885-20F0A2758DF9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42666",
+        "label": "绍兴市",
+        "label_en": "Shaoxing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8045095"
+        ],
+        "statement_id": "Q8045095$F3BF6E47-F1A7-4F51-9889-6B10E268106D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "稀土化学 / 萃取化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8045095",
+        "title": "Wikidata Q8045095 / 徐光宪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8045095&oldid=2542353608",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542353608,
+        "modified_at": "2026-09-08T16:40:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

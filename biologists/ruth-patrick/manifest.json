@@ -29,5 +29,117 @@
     "生卒已据 2013 年讣告修正；早期硅藻论文细节未逐项核对",
     "译文/转述未标 verbatim；关键日期与作品名未逐一核对原文出处"
   ],
-  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以 biologists 草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q513586",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ruth Patrick",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–2013",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q513586"
+            ],
+            "statement_id": "Q513586$3E53EAE5-5F6D-4A6E-83D3-0AF0D0E5048E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2013,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q513586"
+            ],
+            "statement_id": "Q513586$181C0A08-F02F-4B26-897E-FF5007AF5639",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2013,
+            "raw_time": "+2013-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q513586"
+        ],
+        "statement_id": "q513586$CBDF0E20-E481-4122-B637-4248E7C53558",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q41057",
+        "label": "托皮卡",
+        "label_en": "Topeka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q513586"
+        ],
+        "statement_id": "q513586$228298BC-154B-4083-A6BD-8A5B653DC094",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "淡水生态学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q513586",
+        "title": "Wikidata Q513586 / Ruth Patrick",
+        "url": "https://www.wikidata.org/w/index.php?title=Q513586&oldid=2535727325",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535727325,
+        "modified_at": "2026-08-24T08:04:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

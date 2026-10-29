@@ -43,5 +43,145 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Li Bai",
-  "writer_zh": "李白"
+  "writer_zh": "李白",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7071",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Bai",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "701–762",
+      "birth_year": {
+        "value": 701,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7071"
+            ],
+            "statement_id": "Q7071$7CAE5B24-0FDB-4898-A0CD-7138B0A5C277",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 701,
+            "raw_time": "+0701-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 762,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7071"
+            ],
+            "statement_id": "Q7071$8A6CF39F-2880-4AB8-8570-899A9C86D54E",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 762,
+            "raw_time": "+0762-11-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7071"
+        ],
+        "statement_id": "Q7071$C991C8F8-B2CE-410E-BDEA-D57EF66D4F8B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q413452",
+        "label": "碎葉城",
+        "label_en": "Suyab",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7071"
+        ],
+        "statement_id": "Q7071$e9f57ffc-4fc5-7e4c-3af9-c38e456d8e12",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1359300",
+        "label": "江油市",
+        "label_en": "Jiangyou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7071"
+        ],
+        "statement_id": "Q7071$EB4DE80C-5616-4519-AFFB-A996EAB5D1AB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q29520",
+        "label": "中国",
+        "label_en": "China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7071"
+        ],
+        "statement_id": "Q7071$2BA4FC89-C882-4DC7-B53A-98BE9F1C27F7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·浪漫主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7071",
+        "title": "Wikidata Q7071 / 李白",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7071&oldid=2558119052",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558119052,
+        "modified_at": "2026-10-17T21:30:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

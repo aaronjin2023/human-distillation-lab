@@ -34,5 +34,117 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55402",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yasujirō Ozu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1903–1963",
+      "birth_year": {
+        "value": 1903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55402"
+            ],
+            "statement_id": "q55402$F467C696-8780-4614-97C4-7E293B5C8D9A",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1903,
+            "raw_time": "+1903-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55402"
+            ],
+            "statement_id": "q55402$050A2CCA-0D7D-4AD7-B42F-223D1D1791AD",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55402"
+        ],
+        "statement_id": "Q55402$7a26517c-4149-7574-04b0-e079c783b97d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11559997",
+        "label": "深川區",
+        "label_en": "Fukagawa-ku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55402"
+        ],
+        "statement_id": "q55402$448A7A35-C284-4FE2-A677-6498F8C43892",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·家庭剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55402",
+        "title": "Wikidata Q55402 / 小津安二郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55402&oldid=2558286393",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286393,
+        "modified_at": "2026-10-18T06:33:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

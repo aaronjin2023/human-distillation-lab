@@ -44,5 +44,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬：它的名字如何指称它",
   "verification": "2026-10-26 web 核对：克里普克卒于 2022-09-15，living_person=false。其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q298521",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Saul Kripke",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1940–2022",
+      "birth_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q298521"
+            ],
+            "statement_id": "q298521$E8AA535B-C4AC-4D0F-8EAB-A10160CD5322",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q298521"
+            ],
+            "statement_id": "Q298521$9b244697-4453-06b7-72ef-7616c9c2b522",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q298521"
+        ],
+        "statement_id": "Q298521$E9985FC8-52CC-4C6D-9714-87478E077A5E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q384692",
+        "label": "贝肖",
+        "label_en": "Bay Shore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q298521"
+        ],
+        "statement_id": "q298521$A1B35E26-E047-466C-A85E-5BDD843A1B2D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学·语言哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q298521",
+        "title": "Wikidata Q298521 / 索尔·阿伦·克里普克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q298521&oldid=2558234116",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558234116,
+        "modified_at": "2026-10-18T03:42:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

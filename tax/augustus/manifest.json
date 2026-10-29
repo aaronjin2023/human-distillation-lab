@@ -39,5 +39,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1405",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Augustus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "63 BCE–14 CE",
+      "birth_year": {
+        "value": -63,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1405"
+            ],
+            "statement_id": "Q1405$69bd812d-4fb8-8dbc-1f74-4620f5bd2e61",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": -63,
+            "raw_time": "-0063-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 14,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1405"
+            ],
+            "statement_id": "Q1405$0C1CF3E7-8848-4E24-87AE-A8371146E378",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 14,
+            "raw_time": "+0014-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1405"
+        ],
+        "statement_id": "Q1405$C7D5454B-EB90-48D8-ACD8-1D1A34F4E6EE",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1405"
+        ],
+        "statement_id": "Q1405$a9ffd7c7-4791-cc74-0431-d9133a4cd86d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·帝国税制",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1405",
+        "title": "Wikidata Q1405 / 奥古斯都",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1405&oldid=2560135630",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560135630,
+        "modified_at": "2026-10-23T22:08:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

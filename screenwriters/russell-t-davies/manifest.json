@@ -38,5 +38,102 @@
   "verification": "2026-10-26 网络核对（存疑项已记入 conflicts.md）；未核对项见 known_gaps",
   "version": "0.1",
   "writer": "Russell T Davies",
-  "writer_zh": "拉塞尔·T·戴维斯"
+  "writer_zh": "拉塞尔·T·戴维斯",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q361981",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Russell T Davies",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q361981"
+            ],
+            "statement_id": "q361981$7FC8C877-5DA2-43F1-85E7-EF6E967C6343",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q361981"
+        ],
+        "statement_id": "Q361981$CD729C64-F10C-4CA6-914B-330CAC7892D2",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q23051",
+        "label": "斯旺西",
+        "label_en": "Swansea",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q361981"
+        ],
+        "statement_id": "Q361981$FFE2D968-5A1D-4D27-BEC1-F12B1ED9BAA1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·当代剧集",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q361981",
+        "title": "Wikidata Q361981 / 拉塞尔·T·戴维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q361981&oldid=2555586793",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555586793,
+        "modified_at": "2026-10-10T12:08:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

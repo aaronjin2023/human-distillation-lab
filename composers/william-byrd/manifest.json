@@ -32,5 +32,126 @@
   "test_prompt": "深夜只亮着一盏台灯的空办公室",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q208375",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Byrd",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1540–1623",
+      "birth_year": {
+        "value": 1543,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208375"
+            ],
+            "statement_id": "Q208375$07D4C0DD-E6BE-42C4-A77E-8789BCCE24E2",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1543,
+            "raw_time": "+1543-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1540
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208375"
+            ],
+            "statement_id": "Q208375$1AFAF6FD-EC94-45F3-A2C9-AE8A7B9B3AF9",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 26877139,
+                  "id": "Q26877139"
+                }
+              ]
+            },
+            "value": 1623,
+            "raw_time": "+1623-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q208375"
+        ],
+        "statement_id": "Q208375$fd2d58df-4dd3-f349-abda-c53a879a4ef7",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q208375"
+        ],
+        "statement_id": "Q208375$a7100799-4a67-acec-e4c3-8702dd2b80bc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "文艺复兴 / 英国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q208375",
+        "title": "Wikidata Q208375 / 威廉·伯德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q208375&oldid=2558282095",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558282095,
+        "modified_at": "2026-10-18T06:19:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,145 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编为园林）",
   "test_prompt": "克罗风格：现代大学的一座校园景观，树木即结构，地形与乡土植物，日常生活的景观。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7660904",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sylvia Crowe",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1997",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7660904"
+            ],
+            "statement_id": "Q7660904$5D08C8FA-D107-4BA0-9440-EF02E5DAF765",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7660904"
+            ],
+            "statement_id": "Q7660904$F7DD6E5B-FD68-4992-999D-C3149E3E51A1",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-06-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7660904"
+        ],
+        "statement_id": "Q7660904$0224E43D-4682-478C-9013-EE78987D490E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q806160",
+        "label": "班布利",
+        "label_en": "Banbury",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7660904"
+        ],
+        "statement_id": "Q7660904$ee31151d-4be4-ae21-26e1-943e350a615f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q186702",
+        "label": "查塔努加",
+        "label_en": "Chattanooga",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7660904"
+        ],
+        "statement_id": "Q7660904$12C3236D-7141-4881-AC9B-8215015AF317",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7660904"
+        ],
+        "statement_id": "Q7660904$DE3414F2-A59B-4AC7-97D7-A6A2198601E1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·新城与校园景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7660904",
+        "title": "Wikidata Q7660904 / Sylvia Crowe",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7660904&oldid=2553183743",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553183743,
+        "modified_at": "2026-10-04T21:06:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

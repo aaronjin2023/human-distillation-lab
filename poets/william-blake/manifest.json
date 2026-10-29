@@ -44,5 +44,196 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "深夜便利店买关东煮的人",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41513",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Blake",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1757–1827",
+      "birth_year": {
+        "value": 1757,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41513"
+            ],
+            "statement_id": "q41513$9100F882-2DA9-4455-AD7F-EE90C0A552E8",
+            "rank": "preferred",
+            "reference_count": 21,
+            "qualifiers": {},
+            "value": 1757,
+            "raw_time": "+1757-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1827,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41513"
+            ],
+            "statement_id": "q41513$85204D90-11C1-4A99-B722-CC15B9A90359",
+            "rank": "preferred",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1827,
+            "raw_time": "+1827-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "q41513$5CA03EDA-3339-41E2-A6FF-4467D0278050",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "Q41513$79079D13-661F-4784-8369-81943A485278",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "Q41513$E5C8ED98-3D1D-444F-8BA0-18F7C31DE4EB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2227185",
+        "label": "费普汉姆",
+        "label_en": "Felpham",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "Q41513$CBB74E4D-3450-48D8-9A76-C2D3E9260388",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "Q41513$DA1A255C-04A1-42AF-BED8-EBFA3D549BE5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q41513"
+        ],
+        "statement_id": "Q41513$BD9E7999-3D12-4BDA-9887-341248DCDEB0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q41513"
+          ],
+          "statement_id": "Q41513$59D36BD6-5043-4450-BBC9-0F70029CCA94",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q42406",
+          "label": "英格蘭人",
+          "label_en": "English people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "英国·浪漫主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41513",
+        "title": "Wikidata Q41513 / 威廉·布莱克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41513&oldid=2558282023",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558282023,
+        "modified_at": "2026-10-18T06:18:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

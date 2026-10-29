@@ -47,5 +47,115 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2903368",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bill T. Jones",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2903368"
+            ],
+            "statement_id": "Q2903368$B0F77397-DE32-4B6D-A5D3-564CCC26F5D6",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2903368"
+        ],
+        "statement_id": "Q2903368$1206E109-A158-4C24-91A4-CA07B4C64DA4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1003699",
+        "label": "邦乃尔",
+        "label_en": "Bunnell",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2903368"
+        ],
+        "statement_id": "Q2903368$D307EF8B-101D-4740-89D8-DC227F092AFA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q2903368"
+          ],
+          "statement_id": "Q2903368$0620F3BC-77D4-4145-AB21-BC3AE2112003",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2903368",
+        "title": "Wikidata Q2903368 / 比爾·T·瓊斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2903368&oldid=2542767948",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542767948,
+        "modified_at": "2026-09-09T16:02:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

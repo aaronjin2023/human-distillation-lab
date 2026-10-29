@@ -37,5 +37,102 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Diablo Cody",
-  "writer_zh": "迪亚布罗·科蒂"
+  "writer_zh": "迪亚布罗·科蒂",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q230795",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diablo Cody",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1978–",
+      "birth_year": {
+        "value": 1978,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q230795"
+            ],
+            "statement_id": "Q230795$85A5405F-4947-4C4A-B7DD-6F41131D2B11",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1978,
+            "raw_time": "+1978-06-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q230795"
+        ],
+        "statement_id": "Q230795$FE6F77E0-4F96-409E-8675-3291DA592C81",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1589523",
+        "label": "萊蒙特 (伊利諾伊州)",
+        "label_en": "Lemont",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q230795"
+        ],
+        "statement_id": "q230795$F07A603B-6352-4988-ACA3-A4D0AD785991",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·当代",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q230795",
+        "title": "Wikidata Q230795 / 迪亚布罗·科蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q230795&oldid=2546577189",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546577189,
+        "modified_at": "2026-09-16T08:27:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

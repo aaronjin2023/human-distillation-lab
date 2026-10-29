@@ -43,5 +43,166 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Elsa Schiaparelli, a modern museum guide uniform, shocking pink, surrealist lobster print, witty trompe-l'oeil buttons, fitted waist, black and white contrast, bold eccentricity, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q464023",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elsa Schiaparelli",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1973",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q464023"
+            ],
+            "statement_id": "q464023$DDA1D303-EC03-4C09-8F6B-237C49FF0EB6",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-09-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q464023"
+            ],
+            "statement_id": "q464023$73B8B1B2-4458-41B4-BBF7-1254E74FF888",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q464023"
+        ],
+        "statement_id": "Q464023$E15B5180-BF12-4AAD-937C-002F6B9DBB59",
+        "rank": "preferred",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q2517648",
+        "label": "科西尼宫",
+        "label_en": "Palazzo Corsini",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q464023"
+        ],
+        "statement_id": "q464023$3985DB43-05BF-4189-8E2D-738D80C14615",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q464023"
+        ],
+        "statement_id": "Q464023$5278B6A6-613C-48A3-AC5F-EDE00B552DDF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q464023"
+        ],
+        "statement_id": "Q464023$68c5499e-4f0d-3031-06c0-ddbf0d6a0cbf",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 超现实主义",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q464023",
+        "title": "Wikidata Q464023 / 埃爾薩·斯基亞帕雷利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q464023&oldid=2557867859",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557867859,
+        "modified_at": "2026-10-17T04:58:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

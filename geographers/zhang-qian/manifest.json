@@ -32,5 +32,55 @@
   "test_prompt": "In the style of Zhang Qian, survey a new cross-city delivery corridor: walk it, ask every district its roads, its goods and its neighbours, and bring back a route — distances, directions and the names of the lands between",
   "test_question_zh": "一条新的跨城配送通道能否打通？",
   "verification": "出使年份与《史记》出处按通说写，未逐句核对《史记》原文；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q197276",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year"
+          ],
+          "match_basis": {
+            "name": "Zhang Qian",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "c.164–114 BCE",
+      "birth_year": {
+        "value": -164,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": -114,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "西汉·西域地理"
+    },
+    "sources": []
+  }
 }

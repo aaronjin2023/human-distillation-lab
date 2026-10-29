@@ -40,5 +40,104 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "大学一年级人工智能伦理通识研讨课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为通行引用的就职演说名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4409130",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mei Yiqi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1889–1962",
+      "birth_year": {
+        "value": 1889,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4409130"
+            ],
+            "statement_id": "Q4409130$d93da575-42e7-05f0-3c4c-4ddc6d30730c",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1889,
+            "raw_time": "+1889-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1962,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4409130"
+            ],
+            "statement_id": "Q4409130$c9fe25cb-424c-12ec-7428-1c23907e15e6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1962,
+            "raw_time": "+1962-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4409130"
+        ],
+        "statement_id": "Q4409130$09b3808b-4595-38b7-811e-c284efbb411c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q11736",
+        "label": "天津市",
+        "label_en": "Tianjin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近现代·大学教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4409130",
+        "title": "Wikidata Q4409130 / 梅贻琦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4409130&oldid=2548357665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548357665,
+        "modified_at": "2026-09-22T09:21:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

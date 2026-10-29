@@ -27,5 +27,194 @@
   "status": "draft v0.1",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q539",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Giuseppe Garibaldi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1807–1882",
+      "birth_year": {
+        "value": 1807,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q539"
+            ],
+            "statement_id": "q539$1811e22a-460d-ca94-b1c0-e6a5289e4932",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1807,
+            "raw_time": "+1807-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q539"
+            ],
+            "statement_id": "q539$0dfcc842-423f-3c44-50c5-9f65795236ed",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-06-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "q539$097240A0-4836-4D6E-99BB-0A61EAA14516",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q33959",
+        "label": "尼斯",
+        "label_en": "Nice",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$33687B98-1F7C-4E27-ADC0-6889887974D7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$45F4F216-8C40-4C1F-B56E-E4A168AF93D2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q162192",
+        "label": "南里奥格兰德共和国",
+        "label_en": "Riograndense Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$95693ebb-4f30-60ea-16fd-54fc6fdc461b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1861-03-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$bdec4032-4fed-419a-c3cf-fc8923f51c15",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$DF5D5099-FCA8-482D-BCD5-B73655638EB2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2577303",
+        "label": "撒丁王国",
+        "label_en": "Kingdom of Sardinia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q539"
+        ],
+        "statement_id": "Q539$0242455c-4b22-eea7-7e54-422cbb0aaf47",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q419",
+        "label": "秘鲁",
+        "label_en": "Peru",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "意大利·统一战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q539",
+        "title": "Wikidata Q539 / 朱塞佩·加里波底",
+        "url": "https://www.wikidata.org/w/index.php?title=Q539&oldid=2561504224",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561504224,
+        "modified_at": "2026-10-27T18:38:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

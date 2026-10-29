@@ -39,5 +39,102 @@
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Hayao Miyazaki",
-  "writer_zh": "宫崎骏"
+  "writer_zh": "宫崎骏",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55400",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hayao Miyazaki",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1941–",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55400"
+            ],
+            "statement_id": "q55400$6D3480D0-7CB5-469D-8E05-52B4AF713FE6",
+            "rank": "preferred",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-01-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55400"
+        ],
+        "statement_id": "Q55400$758406D0-3D8D-408C-8A0D-49545CC1A399",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q212713",
+        "label": "文京区",
+        "label_en": "Bunkyō-ku",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55400"
+        ],
+        "statement_id": "Q55400$00D87327-5222-4CD4-8E4D-4F8A0A7E2859",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·动画",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55400",
+        "title": "Wikidata Q55400 / 宫崎骏",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55400&oldid=2560775472",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560775472,
+        "modified_at": "2026-10-25T17:56:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

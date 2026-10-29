@@ -25,5 +25,130 @@
   "test_prompt": "In the style of Wladimir Köppen, classify a new city's climate: take its temperature and rainfall, find the thresholds, and assign its letter code",
   "test_question_zh": "一座新城的气候属于柯本分类的哪一型，依据是什么？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76991",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wladimir Köppen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1846–1940",
+      "birth_year": {
+        "value": 1846,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76991"
+            ],
+            "statement_id": "q76991$B26AEA63-7F2C-416F-B9BC-7BF90AAC1D94",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1846,
+            "raw_time": "+1846-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76991"
+            ],
+            "statement_id": "q76991$FC0264B7-0245-403F-8930-31BD1BB73A3A",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-06-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76991"
+        ],
+        "statement_id": "q76991$26716101-B219-4176-A42F-4DCE73CE764A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q656",
+        "label": "圣彼得堡",
+        "label_en": "Saint Petersburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76991"
+        ],
+        "statement_id": "q76991$BF5F4074-48B9-4622-8BA5-37857FA44244",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76991"
+        ],
+        "statement_id": "Q76991$59bdf21b-4809-e82f-ce18-29641cf742b4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q43287",
+        "label": "德意志帝国",
+        "label_en": "German Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国—俄国·气候地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76991",
+        "title": "Wikidata Q76991 / 弗拉迪米爾·彼得·柯本",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76991&oldid=2561092753",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561092753,
+        "modified_at": "2026-10-26T14:40:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

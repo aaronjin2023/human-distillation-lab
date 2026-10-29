@@ -55,5 +55,115 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "图书馆管理员的工作装（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q966975",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Phoebe Philo",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1973–",
+      "birth_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q966975"
+            ],
+            "statement_id": "Q966975$0CFFE1A3-C15B-438E-A30E-006E37E929D5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q966975"
+        ],
+        "statement_id": "Q966975$93955BFA-8186-437F-AA91-42F4E5E18D2E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q966975"
+        ],
+        "statement_id": "q966975$9404382D-30EA-4730-B2B9-1B5E8C8B6629",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q966975"
+        ],
+        "statement_id": "Q966975$32a19fed-4892-ce2b-517e-1cf7362286b4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·成衣 / 极简",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q966975",
+        "title": "Wikidata Q966975 / 菲比·費洛",
+        "url": "https://www.wikidata.org/w/index.php?title=Q966975&oldid=2560605579",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560605579,
+        "modified_at": "2026-10-25T08:12:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

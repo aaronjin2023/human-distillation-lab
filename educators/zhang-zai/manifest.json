@@ -44,5 +44,131 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于气候变化的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 《张载集》通行本核对；版本异说见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q197338",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Zai",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1020–1077",
+      "birth_year": {
+        "value": 1020,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197338"
+            ],
+            "statement_id": "Q197338$42EFEDEB-72D4-4C85-9688-BC4157BA8ABD",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1020,
+            "raw_time": "+1020-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1077,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q197338"
+            ],
+            "statement_id": "Q197338$23883F9A-B3AE-4953-B089-30E039C91CDF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1077,
+            "raw_time": "+1077-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q197338"
+        ],
+        "statement_id": "Q197338$AB576DDA-83EA-4D2D-AB78-B41820E992B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q208471",
+        "label": "开封市",
+        "label_en": "Kaifeng",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q197338"
+        ],
+        "statement_id": "Q197338$BDB9C60A-5F24-474B-83C4-733E7375BD22",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q197338"
+        ],
+        "statement_id": "Q197338$ECB4D2D0-C51A-4FD6-9885-307F1F929C28",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q319460",
+        "label": "北宋",
+        "label_en": "Northern Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "北宋·关学教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q197338",
+        "title": "Wikidata Q197338 / 张载",
+        "url": "https://www.wikidata.org/w/index.php?title=Q197338&oldid=2561116631",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561116631,
+        "modified_at": "2026-10-26T16:48:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

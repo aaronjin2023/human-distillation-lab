@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7963452",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wally Olins",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2014",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7963452"
+            ],
+            "statement_id": "Q7963452$045f54e6-4efb-6f41-870a-3819efe72204",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-12-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2014,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7963452"
+            ],
+            "statement_id": "Q7963452$05d77794-453c-2a5f-5da2-a2c649b959bc",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2014,
+            "raw_time": "+2014-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7963452"
+        ],
+        "statement_id": "Q7963452$9E2A700D-4491-442B-8994-028154317DAC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7963452"
+        ],
+        "statement_id": "Q7963452$e0903d4e-4f83-20ba-156b-42e677309f0c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌识别 / 企业形象"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7963452",
+        "title": "Wikidata Q7963452 / Wally Olins",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7963452&oldid=2505644313",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2505644313,
+        "modified_at": "2026-06-13T21:40:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

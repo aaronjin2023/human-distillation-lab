@@ -31,5 +31,181 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153611",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Isang Yun",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1995",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153611"
+            ],
+            "statement_id": "Q153611$F8390088-7FB5-42C4-A7A8-21B026AABD0A",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-09-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153611"
+            ],
+            "statement_id": "Q153611$A83823A4-660E-4C2C-A361-0E21345EA370",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-11-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153611"
+        ],
+        "statement_id": "q153611$77D8ECA9-4241-4000-8B6D-EF73B7448A31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q41151",
+        "label": "庆尚南道",
+        "label_en": "South Gyeongsang",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153611"
+        ],
+        "statement_id": "Q153611$36C9A150-9328-4116-89D0-D8E22F2588B3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153611"
+        ],
+        "statement_id": "Q153611$52B74F96-5C1D-48F3-82D6-28182F236AA8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42152",
+        "label": "统营市",
+        "label_en": "Tongyeong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153611"
+        ],
+        "statement_id": "Q153611$553DAA11-502A-4D37-84E4-F0E3C36D9590",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1971-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153611"
+        ],
+        "statement_id": "Q153611$5b8c3d01-4f4f-0480-3e34-aba8fb214f29",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q884",
+        "label": "大韩民国",
+        "label_en": "South Korea",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q153611"
+          ],
+          "statement_id": "Q153611$794003fa-4368-1006-8a16-865748c76807",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q124692539",
+          "label": "Korean Germans",
+          "label_en": "Korean Germans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "韩国 / 当代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153611",
+        "title": "Wikidata Q153611 / 尹伊桑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153611&oldid=2557935671",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557935671,
+        "modified_at": "2026-10-17T09:16:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

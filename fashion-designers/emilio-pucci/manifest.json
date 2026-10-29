@@ -38,5 +38,180 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市花店店员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q604667",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emilio Pucci",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1992",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q604667"
+            ],
+            "statement_id": "q604667$93D76C4A-A580-4FDB-A174-38045796A82A",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-11-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1992,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q604667"
+            ],
+            "statement_id": "q604667$6300CAC5-8646-4D28-88C7-1E7294CD2F4E",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1992,
+            "raw_time": "+1992-11-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q604667"
+        ],
+        "statement_id": "q604667$BD0E2CE2-6EF0-4DBB-B191-D392F8FF9B63",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q604667"
+        ],
+        "statement_id": "Q604667$EC6B5D65-10EC-49B5-938D-8EBFA976B67D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q604667"
+        ],
+        "statement_id": "Q604667$3245b253-45ea-e051-ba24-22b9da52e9eb",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q173292",
+        "label": "卡普里岛",
+        "label_en": "Capri",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q604667"
+        ],
+        "statement_id": "q604667$1C7C28BE-E4A7-44AE-BC6B-028C35793B1E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q604667"
+        ],
+        "statement_id": "Q604667$BDE8D5C2-52D6-45CA-93E8-84D4A51CB76F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣 / 印花",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q604667",
+        "title": "Wikidata Q604667 / 埃米利奥·普奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q604667&oldid=2557868885",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557868885,
+        "modified_at": "2026-10-17T05:02:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

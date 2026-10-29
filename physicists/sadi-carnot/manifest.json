@@ -35,5 +35,117 @@
   "verification": "2026-10-26：生卒与代表作按物理学家草稿 v1 与物理史通说写；其余未逐项核对，见 known_gaps",
   "version": "0.1",
   "date": "2026-10-26",
-  "status": "draft v0.1"
+  "status": "draft v0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q181685",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sadi Carnot",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1796–1832",
+      "birth_year": {
+        "value": 1796,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q181685"
+            ],
+            "statement_id": "q181685$FBBE9D27-2A8A-40B5-A8F0-F770269150DD",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1796,
+            "raw_time": "+1796-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1832,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q181685"
+            ],
+            "statement_id": "q181685$1B950EE0-C5B0-4DAD-8E87-1713789F62B7",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1832,
+            "raw_time": "+1832-08-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q181685"
+        ],
+        "statement_id": "q181685$2FED1EDE-36CF-49C1-88D2-884EC70E4A47",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q181685"
+        ],
+        "statement_id": "q181685$61560AC7-5110-4AC6-B4F7-35C6373B424F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "热力学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q181685",
+        "title": "Wikidata Q181685 / 尼古拉·莱昂纳尔·萨迪·卡诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q181685&oldid=2561125738",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561125738,
+        "modified_at": "2026-10-26T17:18:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

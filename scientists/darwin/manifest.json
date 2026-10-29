@@ -29,5 +29,117 @@
   "template": "scientists-top100-draft.md 第 5 节",
   "test_prompt": "现代问题：为什么抗生素耐药性会扩散？（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与成果名以科学家草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对，见 known_gaps。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1035",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Charles Darwin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1809–1882",
+      "birth_year": {
+        "value": 1809,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1035"
+            ],
+            "statement_id": "Q1035$F351BDE1-BA3F-4218-AE2A-3156CDED0F84",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1809,
+            "raw_time": "+1809-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1882,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1035"
+            ],
+            "statement_id": "Q1035$8D463780-DB09-47CF-9CFE-F29CF4A05C4D",
+            "rank": "preferred",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1882,
+            "raw_time": "+1882-04-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1035"
+        ],
+        "statement_id": "q1035$9CF1B3CF-A7AC-4C3A-9327-F84FD74971BF",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2412935",
+        "label": "芒特莊園",
+        "label_en": "Q2412935",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1035"
+        ],
+        "statement_id": "Q1035$8c558a8c-4f6c-7fe7-6325-db1642bac432",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1035",
+        "title": "Wikidata Q1035 / 查尔斯·达尔文",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1035&oldid=2561104828",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561104828,
+        "modified_at": "2026-10-26T15:47:06Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

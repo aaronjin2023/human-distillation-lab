@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "津田梅子风格：为一群年轻女性设计一堂关于人工智能的小班课。小班、高标准：读一篇英文 AI 原文、用英语讨论、写短文并演讲，不设简化轨道、不许被动听讲。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q514524",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tsuda Umeko",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1864–1929",
+      "birth_year": {
+        "value": 1864,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q514524"
+            ],
+            "statement_id": "q514524$067E079B-1331-4527-A898-436AF3C9DD27",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1864,
+            "raw_time": "+1864-12-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1929,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q514524"
+            ],
+            "statement_id": "q514524$321321C9-D1F6-4039-BC9E-2008B0CAA4B0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1929,
+            "raw_time": "+1929-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q514524"
+        ],
+        "statement_id": "Q514524$CA321F9C-CA36-46B8-9A4F-C62D59C47BFC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11408270",
+        "label": "南町",
+        "label_en": "Minamichō",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q514524"
+        ],
+        "statement_id": "Q514524$0A93B4CE-55D0-429D-B651-0E9B56626DA9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本女子高等教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q514524",
+        "title": "Wikidata Q514524 / 津田梅子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q514524&oldid=2546310175",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546310175,
+        "modified_at": "2026-09-15T18:03:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

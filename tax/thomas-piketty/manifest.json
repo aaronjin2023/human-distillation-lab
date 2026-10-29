@@ -43,5 +43,102 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想国家的亿万富翁财富设计一套全球资本税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q984448",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Piketty",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q984448"
+            ],
+            "statement_id": "Q984448$4D1EA404-CCEE-421E-AA2A-9D1E5E612F5B",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-05-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q984448"
+        ],
+        "statement_id": "q984448$9ECB6245-4510-49E0-92B5-32AB894BD641",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q201982",
+        "label": "克利希",
+        "label_en": "Clichy",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q984448"
+        ],
+        "statement_id": "Q984448$14F18564-F1FD-4F24-AADA-E8205C0AEEBC",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·财富税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q984448",
+        "title": "Wikidata Q984448 / 湯瑪斯·皮克提",
+        "url": "https://www.wikidata.org/w/index.php?title=Q984448&oldid=2530147847",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2530147847,
+        "modified_at": "2026-08-11T20:27:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

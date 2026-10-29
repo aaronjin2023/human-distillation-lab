@@ -43,5 +43,103 @@
     "2026-10-26 网络核对"
   ],
   "verification": "2026-10-26 网络核对部分关键事实（邓石如生年、萧娴三石一盘、林散之草书争议、白隐生卒、定家明月记、王冬龄乱书、郑板桥六分半书、金农漆书、空海风信帖）；未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条图像，对照检查笔法、结字章法与墨色节奏是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q10886374",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "He Shaoji",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1799–1873",
+      "birth_year": {
+        "value": 1799,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10886374"
+            ],
+            "statement_id": "Q10886374$1F784844-DCC3-4F0F-81A9-E441779A60E8",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1799,
+            "raw_time": "+1799-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1873,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q10886374"
+            ],
+            "statement_id": "Q10886374$3C732B57-9792-4364-9D6B-9DDDA678827B",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1873,
+            "raw_time": "+1873-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q10886374"
+        ],
+        "statement_id": "Q10886374$0B60AE97-F73D-4544-8C89-8693ABCEB4E2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "清·行书 / 篆书"
+    },
+    "sources": [
+      {
+        "id": "WD:Q10886374",
+        "title": "Wikidata Q10886374 / 何绍基",
+        "url": "https://www.wikidata.org/w/index.php?title=Q10886374&oldid=2518039603",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518039603,
+        "modified_at": "2026-07-16T05:25:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

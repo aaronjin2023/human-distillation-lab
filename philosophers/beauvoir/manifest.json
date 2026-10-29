@@ -36,5 +36,117 @@
   ],
   "test_prompt": "现代题材：算法推荐决定一个人看什么、读什么、买什么",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7197",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Simone de Beauvoir",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1908–1986",
+      "birth_year": {
+        "value": 1908,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7197"
+            ],
+            "statement_id": "q7197$47D16C24-70CC-454B-91EE-8F20EE111179",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1908,
+            "raw_time": "+1908-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7197"
+            ],
+            "statement_id": "q7197$11F0B38B-5917-49AC-A347-79486F7D23DB",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7197"
+        ],
+        "statement_id": "Q7197$832f6fcf-4366-d02d-af31-09e79daacc84",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q245546",
+        "label": "巴黎第六区",
+        "label_en": "6th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7197"
+        ],
+        "statement_id": "q7197$6452AA1A-CE1F-4FDD-8491-F19741799E45",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "存在主义·女权哲学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7197",
+        "title": "Wikidata Q7197 / 西蒙·波娃",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7197&oldid=2561662665",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561662665,
+        "modified_at": "2026-10-28T11:45:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

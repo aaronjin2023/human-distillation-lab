@@ -31,5 +31,55 @@
   "test_prompt": "In the style of Zheng He, chart a modern container shipping lane: fix each leg by bearing and satellite fix, note the port, the wind and the water at every anchorage — and let the chart, not the tale, be what the next fleet follows",
   "test_question_zh": "一条现代集装箱航线如何绘制？",
   "verification": "七次航行（1405–1433 年）与《郑和航海图》按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q7333",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Zheng He",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1371–1433",
+      "birth_year": {
+        "value": 1371,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1433,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "明·航海地理"
+    },
+    "sources": []
+  }
 }

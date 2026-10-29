@@ -39,5 +39,149 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单与 web 搜索核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q129772",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xenophon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.430–c.354 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q129772"
+            ],
+            "statement_id": "Q129772$C80C97A1-A274-41EA-98E5-DED7BDED2D0C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -430,
+            "raw_time": "-0430-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q129772"
+            ],
+            "statement_id": "Q129772$50CBF59F-8C9F-4A3D-9268-342A94960F5D",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -430,
+            "raw_time": "-0430-00-00T00:00:00Z",
+            "precision": 8,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q129772"
+            ],
+            "statement_id": "Q129772$72214F1B-A63D-4409-A823-2469A81DE278",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -354,
+            "raw_time": "-0354-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q129772"
+        ],
+        "statement_id": "q129772$e1fdb2d2-445b-ecd7-5e77-daa9bb518d31",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13502175",
+        "label": "Erchia",
+        "label_en": "Erchia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q129772"
+        ],
+        "statement_id": "q129772$8e6b9c22-4560-3630-2ce7-012a67957737",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q844930",
+        "label": "古雅典",
+        "label_en": "Classical Athens",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古希腊·财政收入论",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q129772",
+        "title": "Wikidata Q129772 / 色诺芬",
+        "url": "https://www.wikidata.org/w/index.php?title=Q129772&oldid=2558286111",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558286111,
+        "modified_at": "2026-10-18T06:33:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

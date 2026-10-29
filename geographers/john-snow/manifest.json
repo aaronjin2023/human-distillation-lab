@@ -31,5 +31,117 @@
   "test_prompt": "In the style of John Snow, plot every late-night delivery order as a dot, let the dots cluster around one dark kitchen, and mark the exceptions honestly so the map argues rather than asserts.",
   "test_question_zh": "一张外卖骑手聚集的城市点图",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；宽街水泵点图 1854 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q356407",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Snow",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1813–1858",
+      "birth_year": {
+        "value": 1813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q356407"
+            ],
+            "statement_id": "Q356407$6E899BF6-73CF-4177-822C-83B407F9D37A",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1813,
+            "raw_time": "+1813-03-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q356407"
+            ],
+            "statement_id": "Q356407$1FF686FB-B009-439D-811F-2677E59DFC45",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-06-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q356407"
+        ],
+        "statement_id": "Q356407$70472231-A561-4FFE-A082-69014E321D1D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42462",
+        "label": "约克",
+        "label_en": "York",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q356407"
+        ],
+        "statement_id": "Q356407$AF6C1897-210C-45C0-A7EA-9C29A47DCC69",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·专题制图"
+    },
+    "sources": [
+      {
+        "id": "WD:Q356407",
+        "title": "Wikidata Q356407 / 约翰·斯诺",
+        "url": "https://www.wikidata.org/w/index.php?title=Q356407&oldid=2517073264",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2517073264,
+        "modified_at": "2026-07-13T14:12:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

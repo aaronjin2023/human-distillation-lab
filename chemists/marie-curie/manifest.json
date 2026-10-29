@@ -1,37 +1,75 @@
 {
- "chemist": "Marie Curie",
- "chemist_zh": "玛丽·居里",
- "dates": "1867–1934",
- "field": "放射化学",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #25",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "镭与钋的发现",
-  "放射性理论",
-  "放射性测量方法"
- ],
- "sources": [
-  "Wikipedia 'Marie Curie' https://en.wikipedia.org/wiki/Marie_Curie",
-  "NobelPrize.org 'Marie Curie – Facts' https://www.nobelprize.org/prizes/physics/1903/marie/facts/",
-  "NobelPrize.org 'Marie Curie – Facts' (Chemistry 1911) https://www.nobelprize.org/prizes/chemistry/1911/marie/facts/"
- ],
- "test_prompt": "In the style of Marie Curie, design a plan to test whether a mineral water's faint radiation comes from a new element: track activity through each separation, concentrate it, and state what would prove it is only a known element.",
- "test_question_zh": "如何检验一种矿物的微弱放射性是否来自新元素？",
- "verification": "2026-10-26：生卒、镭钋发现、放射性理论、两次诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "放射性测量的原始数据未逐项核对原文",
-  "钋、镭分离的具体流程细节未逐一核对原文",
-  "与贝克勒尔关系的原始文献未逐一核对"
- ],
- "cross_category": "科学家类已有 Marie Curie，本类按化学成就重蒸，不去重"
+  "chemist": "Marie Curie",
+  "chemist_zh": "玛丽·居里",
+  "dates": "1867–1934",
+  "field": "放射化学",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #25",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "镭与钋的发现",
+    "放射性理论",
+    "放射性测量方法"
+  ],
+  "sources": [
+    "Wikipedia 'Marie Curie' https://en.wikipedia.org/wiki/Marie_Curie",
+    "NobelPrize.org 'Marie Curie – Facts' https://www.nobelprize.org/prizes/physics/1903/marie/facts/",
+    "NobelPrize.org 'Marie Curie – Facts' (Chemistry 1911) https://www.nobelprize.org/prizes/chemistry/1911/marie/facts/"
+  ],
+  "test_prompt": "In the style of Marie Curie, design a plan to test whether a mineral water's faint radiation comes from a new element: track activity through each separation, concentrate it, and state what would prove it is only a known element.",
+  "test_question_zh": "如何检验一种矿物的微弱放射性是否来自新元素？",
+  "verification": "2026-10-26：生卒、镭钋发现、放射性理论、两次诺奖按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "放射性测量的原始数据未逐项核对原文",
+    "钋、镭分离的具体流程细节未逐一核对原文",
+    "与贝克勒尔关系的原始文献未逐一核对"
+  ],
+  "cross_category": "科学家类已有 Marie Curie，本类按化学成就重蒸，不去重",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": []
+    },
+    "life": {
+      "original_text": "1867–1934",
+      "birth_year": {
+        "value": 1867,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "放射化学"
+    },
+    "sources": []
+  }
 }

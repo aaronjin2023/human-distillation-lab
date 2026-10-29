@@ -43,5 +43,192 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Paul Poiret, a modern cafe apron and staff uniform, straight column silhouette, no corset, Orientalist deep blue and gold, silk drape, harem-style tapered trousers, tassels, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q631884",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Paul Poiret",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1879–1944",
+      "birth_year": {
+        "value": 1879,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q631884"
+            ],
+            "statement_id": "Q631884$FC85FE6D-A142-417C-86B7-B35C23DA65F6",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1879,
+            "raw_time": "+1879-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q631884"
+            ],
+            "statement_id": "Q631884$937720C5-5CBB-44C9-A6E3-81483EF76AFA",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-04-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q631884"
+            ],
+            "statement_id": "Q631884$29a9b907-cd75-4251-a402-9fbc58932d11",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-04-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q631884"
+        ],
+        "statement_id": "q631884$CF4396B4-5B66-4F35-8193-AC9C8BD62E44",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q631884"
+        ],
+        "statement_id": "Q631884$8f1f96c5-70d9-4d27-9501-dbb057867482",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1898-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1944-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q631884"
+        ],
+        "statement_id": "Q631884$4d7c8771-996f-4313-8034-a63f06588a3c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P585": [
+            {
+              "time": "+1910-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q631884"
+        ],
+        "statement_id": "q631884$746F5CD6-9854-41E6-971D-548B8BF822F6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 东方主义",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q631884",
+        "title": "Wikidata Q631884 / 普瓦·波烈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q631884&oldid=2558956331",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558956331,
+        "modified_at": "2026-10-19T22:39:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

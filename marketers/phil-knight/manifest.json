@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一款 AI 耳机的品牌创建方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q557305",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Phil Knight",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–（在世）",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557305"
+            ],
+            "statement_id": "q557305$E0D0A5CF-F051-4F66-BAA3-5F21DA1FB6D3",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q557305"
+        ],
+        "statement_id": "q557305$1B79AADE-72A1-4926-8977-D84927FFE267",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6106",
+        "label": "波特兰",
+        "label_en": "Portland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q557305"
+        ],
+        "statement_id": "Q557305$5FB05EB5-33C4-4235-B3C1-F1416F7D3964",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌创建"
+    },
+    "sources": [
+      {
+        "id": "WD:Q557305",
+        "title": "Wikidata Q557305 / 菲爾·奈特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q557305&oldid=2553830705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553830705,
+        "modified_at": "2026-10-06T08:42:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

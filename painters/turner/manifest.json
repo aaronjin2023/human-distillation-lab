@@ -31,5 +31,581 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "雨夜公交站（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《勇莽号战舰》1839 年展出；《雨、蒸汽和速度》1844 年；特纳 1775–1851",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q159758",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "J. M. W. Turner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1775–1851",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159758"
+            ],
+            "statement_id": "q159758$17B6381F-08D6-4864-B4A5-EE8B0D01A8DB",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1775,
+            "raw_time": "+1775-04-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1851,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q159758"
+            ],
+            "statement_id": "q159758$E90C0BA5-BFC0-4ED6-8293-D67BF9BAB2D8",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1851,
+            "raw_time": "+1851-12-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$2760bd86-4281-ae5d-aecb-bb728944196b",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23041988",
+        "label": "Maiden Lane",
+        "label_en": "Maiden Lane",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$9754868B-8277-4C74-978D-A8A065DFC1E4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$8621B5CA-1666-4204-9F70-8508E3391A1F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$38B84C75-1F9F-431E-AFF4-0594F2907F9E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1085",
+        "label": "布拉格",
+        "label_en": "Prague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$87FFF657-0E5F-4111-AC2D-37CF0EE22C72",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183557",
+        "label": "迪耶普",
+        "label_en": "Dieppe",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$C4C5D09F-CEEC-4739-9C5D-E8FD64C7C85D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q456",
+        "label": "里昂",
+        "label_en": "Lyon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$06DB8F4F-4E95-48BA-BCDE-AEC1FF6DEAD4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$6DFF2BA6-76EC-463C-80A5-B9E85FD68092",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30974",
+        "label": "鲁昂",
+        "label_en": "Rouen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$9FBA56A1-BE23-4B9F-A46C-56465D53B1F8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$B083D9C4-3583-41D3-86AF-CCAA2C834F58",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1731",
+        "label": "德累斯顿市",
+        "label_en": "Dresden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$58603BB0-3AF5-4A58-9A4B-865CD43A8D0F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2966",
+        "label": "海德堡",
+        "label_en": "Heidelberg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$498B728B-838D-40A5-8B4C-F588E897B4E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3834",
+        "label": "康斯坦茨",
+        "label_en": "Constance",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$2DCAB4BA-323D-466A-AE16-0179368E4B45",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1891",
+        "label": "博洛尼亚",
+        "label_en": "Bologna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$E5999C73-4CFF-490E-B02C-B5631B9691EC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$87E3646B-8440-423E-B4E9-BB6EF13A06B7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$BE2161A7-6DFE-4699-B257-8040613239F1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$E18DDCE1-C8AD-4B0B-9890-CAEF9C42B94F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q495",
+        "label": "都灵",
+        "label_en": "Turin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$67C7BE8A-ED02-4AAC-A1E2-DD4FC66C5E5E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$E08FDE6F-6A30-4B70-AAEC-EC6BA912CCFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$49B03AA8-FBFD-4DFF-B572-FFD2F33A2AAF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$B02B9FD9-7648-4656-9E3C-559C0BB4BB3A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q26421",
+        "label": "多德雷赫特",
+        "label_en": "Dordrecht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$03A45ECD-1C4E-40C9-B9F1-64969AD58B24",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9920",
+        "label": "哈勒姆",
+        "label_en": "Haarlem",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$2850B3E8-9C68-4168-AB22-BDE96506ECC9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43631",
+        "label": "莱顿",
+        "label_en": "Leiden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$489CD513-2652-42E3-A81C-BA72D1A49F6B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34370",
+        "label": "鹿特丹",
+        "label_en": "Rotterdam",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$B0389A7E-BC15-4F22-9202-114E257CD67B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q36600",
+        "label": "海牙",
+        "label_en": "The Hague",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$EC4B54BA-08A5-4C8F-905F-4B7914C17C04",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q803",
+        "label": "乌得勒支",
+        "label_en": "Utrecht",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$37D4B1D9-10DF-42E8-938E-14D1DB5590A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4191",
+        "label": "卢塞恩",
+        "label_en": "Lucerne",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$CA8BF4A1-369B-4F2F-9EA1-542FAABC023B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q269667",
+        "label": "莱茵费尔登",
+        "label_en": "Rheinfelden",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$0EF5B19A-3BC4-4924-94DB-360B81AB5B26",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q72",
+        "label": "苏黎世",
+        "label_en": "Zurich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$30A08E50-4BA1-434C-9B0C-AF720B2BAFF7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23154",
+        "label": "布里斯托尔",
+        "label_en": "Bristol",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$4FE62E94-8DF6-4942-A423-5CE309E9C77B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170263",
+        "label": "切斯特",
+        "label_en": "Chester",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$219E9E9D-7A29-47E8-9226-D60E20B0CFEC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23436",
+        "label": "爱丁堡",
+        "label_en": "Edinburgh",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$36414E13-1F01-4021-9B0C-D96C2C1DAAFD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$86F2D3BB-9368-4313-B6A4-F64E0F692D7E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q570153",
+        "label": "马姆斯伯里",
+        "label_en": "Malmesbury",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$2F00D1BE-F063-4795-AF1C-CB8F9DDD358D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1143278",
+        "label": "特威克納姆",
+        "label_en": "Twickenham",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$E65F2CF7-B2EA-472D-AAF4-7BFBFF98E97E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q159758"
+        ],
+        "statement_id": "Q159758$66933d07-4286-52fc-bf28-efd604561680",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义/风景"
+    },
+    "sources": [
+      {
+        "id": "WD:Q159758",
+        "title": "Wikidata Q159758 / 约瑟夫·马洛德·威廉·透纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q159758&oldid=2561490540",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561490540,
+        "modified_at": "2026-10-27T17:41:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "中学生人工智能探究课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；引文为《我的教育信条》的通行名句，未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131805",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Dewey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1859–1952",
+      "birth_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131805"
+            ],
+            "statement_id": "q131805$AABCA2B1-89E3-48FC-94D9-666522FA64EE",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-10-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131805"
+            ],
+            "statement_id": "q131805$395A0740-12A4-4FB0-843B-B52148736AA8",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131805"
+        ],
+        "statement_id": "q131805$6C4116BF-06FE-4131-A984-5D1CCA845CE3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q31058",
+        "label": "伯灵顿",
+        "label_en": "Burlington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131805"
+        ],
+        "statement_id": "q131805$7FE4BD5B-5C64-4BDE-9B75-7C9934031BFB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·实用主义 / 进步教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131805",
+        "title": "Wikidata Q131805 / 约翰·杜威",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131805&oldid=2557979804",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557979804,
+        "modified_at": "2026-10-17T12:26:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

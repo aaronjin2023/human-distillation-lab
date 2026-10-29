@@ -28,5 +28,131 @@
     "1867年论文的原始病例数与感染率待原文核对",
     "石炭酸浓度与喷雾演变细节待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q155768",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joseph Lister",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1827–1912",
+      "birth_year": {
+        "value": 1827,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q155768"
+            ],
+            "statement_id": "q155768$8FF4E131-D1C3-474F-8C6F-EEE856B5CC84",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1827,
+            "raw_time": "+1827-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1912,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q155768"
+            ],
+            "statement_id": "q155768$8B7C94DB-FB04-498A-8352-AEBD49B77E5A",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1912,
+            "raw_time": "+1912-02-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q155768"
+        ],
+        "statement_id": "q155768$6A49DA0A-ABAC-4116-90B5-25611692E2DA",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q28404673",
+        "label": "Upton House, Newham",
+        "label_en": "Upton House, Newham",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q155768"
+        ],
+        "statement_id": "Q155768$0A89C9BF-5496-4CF9-8A5A-A2E64F759E1F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q155768"
+        ],
+        "statement_id": "q155768$642A710E-5E1F-4B28-8680-48229B31582D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学 / 外科消毒"
+    },
+    "sources": [
+      {
+        "id": "WD:Q155768",
+        "title": "Wikidata Q155768 / 约瑟夫·李斯特，第一代李斯特男爵",
+        "url": "https://www.wikidata.org/w/index.php?title=Q155768&oldid=2558033280",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558033280,
+        "modified_at": "2026-10-17T16:48:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

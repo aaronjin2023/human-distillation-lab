@@ -29,5 +29,131 @@
   ],
   "status": "draft v0.1",
   "version": "0.1",
-  "date": "2026-10-26"
+  "date": "2026-10-26",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q171969",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georges Cuvier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1769–1832",
+      "birth_year": {
+        "value": 1769,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171969"
+            ],
+            "statement_id": "q171969$03D3F61B-6AF7-405F-AB92-B72000F5A3BE",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1769,
+            "raw_time": "+1769-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1832,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171969"
+            ],
+            "statement_id": "q171969$7434DB08-0BB2-4F5F-BC55-797725F2CDBD",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1832,
+            "raw_time": "+1832-05-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q171969"
+        ],
+        "statement_id": "q171969$77CFB84B-BE85-43F7-A727-C50046A445CF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q154715",
+        "label": "蒙贝利亚尔",
+        "label_en": "Montbéliard",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q171969"
+        ],
+        "statement_id": "Q171969$C7122FE1-0DFE-48F0-ACD9-F82E807D2FD9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q171969"
+        ],
+        "statement_id": "q171969$1DB7E04C-1A9E-482B-9D33-04F7337945FE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "比较解剖学 / 古生物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q171969",
+        "title": "Wikidata Q171969 / 乔治·居维叶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q171969&oldid=2557893367",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557893367,
+        "modified_at": "2026-10-17T06:19:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

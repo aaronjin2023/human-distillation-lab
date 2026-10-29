@@ -48,5 +48,132 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家非营利组织骨干流失怎么办",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q592555",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chester Barnard",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1886–1961",
+      "birth_year": {
+        "value": 1886,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q592555"
+            ],
+            "statement_id": "Q592555$94C80C9F-118B-4471-8840-51E877E5D017",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-11-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q592555"
+            ],
+            "statement_id": "Q592555$06A8D783-B933-43D6-9D36-0511B40E8D00",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1886,
+            "raw_time": "+1886-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q592555"
+            ],
+            "statement_id": "Q592555$0DA4AF0D-1E37-4098-957C-E0DD43710CEF",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q592555"
+        ],
+        "statement_id": "q592555$8DF823C8-D069-4E43-8B73-7769EF9F3F56",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q54149",
+        "label": "莫尔登",
+        "label_en": "Malden",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q592555"
+        ],
+        "statement_id": "q592555$4B681DF3-F7CD-49A3-958C-8E1C9037E0A5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q592555",
+        "title": "Wikidata Q592555 / 切斯特·欧文·巴纳德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q592555&oldid=2561724332",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561724332,
+        "modified_at": "2026-10-28T15:58:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

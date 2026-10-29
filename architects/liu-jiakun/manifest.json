@@ -42,5 +42,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q132988850",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Liu Jiakun",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q132988850"
+            ],
+            "statement_id": "Q132988850$566CA491-6C96-44AF-811A-840AD60592C2",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q132988850"
+        ],
+        "statement_id": "Q132988850$77d6b078-4a59-525f-967e-3b4c38d76b2b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30002",
+        "label": "成都市",
+        "label_en": "Chengdu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q132988850"
+        ],
+        "statement_id": "Q132988850$0ea8dbac-4eda-0066-0b57-abc5c5d7127a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国当代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q132988850",
+        "title": "Wikidata Q132988850 / 刘家琨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q132988850&oldid=2554630022",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554630022,
+        "modified_at": "2026-10-07T16:29:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

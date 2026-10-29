@@ -27,5 +27,157 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q52938",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gustavus Adolphus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1594–1632",
+      "birth_year": {
+        "value": 1594,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q52938"
+            ],
+            "statement_id": "q52938$45DAE5B7-3BAF-441B-BACE-1AE1880AA6FA",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1594,
+            "raw_time": "+1594-12-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1632,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q52938"
+            ],
+            "statement_id": "q52938$22A5DFF6-0DEE-4804-9D1D-6A98678E7FC6",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1632,
+            "raw_time": "+1632-11-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q52938"
+        ],
+        "statement_id": "Q52938$c2f8cf64-4031-fc49-c40c-c86f0498164d",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q750444",
+        "label": "斯德哥尔摩王宫",
+        "label_en": "Stockholm Palace",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q52938"
+        ],
+        "statement_id": "Q52938$4D06198B-C26A-46D1-B010-16B768590BC8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1754",
+        "label": "斯德哥尔摩",
+        "label_en": "Stockholm",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q52938"
+        ],
+        "statement_id": "Q52938$604242A2-6E35-4331-8DD0-F2338FFE403A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1773",
+        "label": "里加",
+        "label_en": "Riga",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q52938"
+        ],
+        "statement_id": "Q52938$556F56B0-601E-45E7-9B22-9FCB9BEF3988",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q517174",
+        "label": "吕岑",
+        "label_en": "Lützen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q52938"
+        ],
+        "statement_id": "Q52938$5F6C6F90-B37E-438E-AA53-A23EF3EE5EA1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "瑞典·三十年战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q52938",
+        "title": "Wikidata Q52938 / 古斯塔夫二世·阿道夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q52938&oldid=2557902351",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557902351,
+        "modified_at": "2026-10-17T06:51:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

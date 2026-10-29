@@ -28,5 +28,132 @@
     "沃斯托克钻探深度版本以综述为准"
   ],
   "test_prompt": "现代问题：用冰芯证据论证近期二氧化碳上升的异常性。",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q327707",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claude Lorius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1932–2023",
+      "birth_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q327707"
+            ],
+            "statement_id": "Q327707$65751B29-E61D-406F-A353-CB2CB37A9809",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q327707"
+            ],
+            "statement_id": "Q327707$B0602DE1-0E89-4141-B2F2-2D99DB851DC4",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-02-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2023,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q327707"
+            ],
+            "statement_id": "Q327707$9d378db8-4cd3-eacb-1dc1-f52b632d23b1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2023,
+            "raw_time": "+2023-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q327707"
+        ],
+        "statement_id": "q327707$45AFFE32-4841-4DC3-A8E9-EF8D5E5419AD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q37776",
+        "label": "贝桑松",
+        "label_en": "Besançon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q327707"
+        ],
+        "statement_id": "Q327707$814EE20F-4860-475C-BA91-0EEB65508D8F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "冰川学 / 古气候"
+    },
+    "sources": [
+      {
+        "id": "WD:Q327707",
+        "title": "Wikidata Q327707 / 克劳德·洛里乌斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q327707&oldid=2552249193",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552249193,
+        "modified_at": "2026-10-02T18:06:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

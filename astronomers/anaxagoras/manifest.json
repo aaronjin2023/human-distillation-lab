@@ -36,5 +36,119 @@
   "test_prompt": "In the style of Anaxagoras, explain a modern total lunar eclipse: why the Moon turns red, what casts the shadow, and what everyday analogy makes the mechanism visible — and say where analogy stops and measurement must begin",
   "test_question_zh": "用阿那克萨哥拉的方法解释一次现代月全食的红月亮",
   "verification": "2026-10-26：月光反射说与日食成因归于阿那克萨哥拉经 web 搜索核对；陨石预测存疑已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q83041",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anaxagoras",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.500–428 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83041"
+            ],
+            "statement_id": "q83041$E45D9E36-2779-43F2-8578-70A5142ACE48",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -500,
+            "raw_time": "-0500-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q83041"
+            ],
+            "statement_id": "Q83041$2d18dc3b-4dbe-4d34-ea06-6bccad8cb41a",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -428,
+            "raw_time": "-0428-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q83041"
+        ],
+        "statement_id": "Q83041$D5D8353E-7E55-4EF1-AA00-A0D6C79A7C1F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q536598",
+        "label": "克拉佐美纳伊",
+        "label_en": "Klazomenai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古希腊·宇宙论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q83041",
+        "title": "Wikidata Q83041 / 阿那克萨哥拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q83041&oldid=2557735923",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557735923,
+        "modified_at": "2026-10-16T20:25:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

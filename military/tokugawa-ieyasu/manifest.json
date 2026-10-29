@@ -33,5 +33,130 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一场网络攻防对抗中的持久消耗",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q171977",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tokugawa Ieyasu",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1543–1616",
+      "birth_year": {
+        "value": 1543,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171977"
+            ],
+            "statement_id": "q171977$1CF27FED-420F-4F65-BB99-EB22A841AE7B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1543,
+            "raw_time": "+1543-01-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1616,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q171977"
+            ],
+            "statement_id": "q171977$C7873673-DF9E-45DC-A981-3009ABA136B2",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1616,
+            "raw_time": "+1616-06-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q171977"
+        ],
+        "statement_id": "q171977$5A377890-432D-4A91-AFFC-4112C331C465",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1013445",
+        "label": "岡崎城",
+        "label_en": "Okazaki Castle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q171977"
+        ],
+        "statement_id": "Q171977$5893ED58-1E56-44A3-BA8C-9A6090F92BD8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q171977"
+        ],
+        "statement_id": "Q171977$af468625-4e2b-53a3-8ab9-f5c6f1650edc",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q205662",
+        "label": "江户幕府",
+        "label_en": "Tokugawa shogunate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本·统一战争"
+    },
+    "sources": [
+      {
+        "id": "WD:Q171977",
+        "title": "Wikidata Q171977 / 德川家康",
+        "url": "https://www.wikidata.org/w/index.php?title=Q171977&oldid=2558259844",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558259844,
+        "modified_at": "2026-10-18T05:04:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

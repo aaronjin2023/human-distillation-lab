@@ -30,5 +30,126 @@
     "筛选的具体数据以通说为准，未核对原文",
     "在世者只蒸已发表作品，未发表手稿不在范围"
   ],
-  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 次文本回答，对照检查提问方式、推理习惯与 Negative prompt 是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q462843",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tu Youyou",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1930–",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q462843"
+            ],
+            "statement_id": "Q462843$7D630D2A-05CC-4D58-AAA5-53A0E0F2FCA3",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-12-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q462843"
+        ],
+        "statement_id": "q462843$83ABA1B1-1672-4122-A658-FF6C0C9D570C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42780",
+        "label": "宁波市",
+        "label_en": "Ningbo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q462843"
+        ],
+        "statement_id": "Q462843$3651c240-4067-dfff-fb57-07018d944f85",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-10-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q462843"
+          ],
+          "statement_id": "Q462843$a30c68d6-41c8-fe3d-78d2-6b6719ad39c3",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "药学 / 寄生虫学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q462843",
+        "title": "Wikidata Q462843 / 屠呦呦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q462843&oldid=2561404642",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561404642,
+        "modified_at": "2026-10-27T11:36:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

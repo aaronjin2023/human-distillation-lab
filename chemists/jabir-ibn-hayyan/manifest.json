@@ -1,35 +1,133 @@
 {
- "chemist": "Jabir ibn Hayyan",
- "chemist_zh": "贾比尔·伊本·哈扬",
- "dates": "c.721–c.815",
- "field": "阿拉伯炼金术",
- "list_position": "化学家草稿 v1 A 炼金术与早期化学 #1",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "硫汞金属理论（当时模型，后世证伪）",
-  "贾比尔文集传统中的蒸馏与结晶操作",
-  "物质分类与炼金术操作体系"
- ],
- "sources": [
-  "Wikipedia 'Jābir ibn Hayyān' https://en.wikipedia.org/wiki/J%C4%81bir_ibn_Hayy%C4%81n",
-  "Sotheby's, Arts of the Islamic World (Jabirian corpus) https://www.sothebys.com/en/auctions/ecatalogue/2015/arts-islamic-world-l15223/lot.218.html"
- ],
- "test_prompt": "In the style of Jabir ibn Hayyan, design a plan to separate a mixture of two volatile liquids and two salts: first classify each substance by its behaviour in fire, distillation and crystallisation, then propose an operation sequence, and state what result would refute your classification.",
- "test_question_zh": "如何分离两种挥发性液体与两种盐的混合物？",
- "verification": "2026-10-26：生卒 c.721–c.815（一说卒 c.806–816）、文集约 850–950 年编纂、署名存疑经 web 搜索核对（Wikipedia、Sotheby's）；其余见 known_gaps",
- "known_gaps": [
-  "贾比尔其人是否存在、文集各篇的成书年代，学界无定论，以现代研究综述为准",
-  "《炼金术之书》等篇名在不同译本中名称不一，译名异说未逐一核对原文",
-  "硫汞理论的具体配比数值在文集中表述不一，本次不写具体配比数字"
- ]
+  "chemist": "Jabir ibn Hayyan",
+  "chemist_zh": "贾比尔·伊本·哈扬",
+  "dates": "c.721–c.815",
+  "field": "阿拉伯炼金术",
+  "list_position": "化学家草稿 v1 A 炼金术与早期化学 #1",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "硫汞金属理论（当时模型，后世证伪）",
+    "贾比尔文集传统中的蒸馏与结晶操作",
+    "物质分类与炼金术操作体系"
+  ],
+  "sources": [
+    "Wikipedia 'Jābir ibn Hayyān' https://en.wikipedia.org/wiki/J%C4%81bir_ibn_Hayy%C4%81n",
+    "Sotheby's, Arts of the Islamic World (Jabirian corpus) https://www.sothebys.com/en/auctions/ecatalogue/2015/arts-islamic-world-l15223/lot.218.html"
+  ],
+  "test_prompt": "In the style of Jabir ibn Hayyan, design a plan to separate a mixture of two volatile liquids and two salts: first classify each substance by its behaviour in fire, distillation and crystallisation, then propose an operation sequence, and state what result would refute your classification.",
+  "test_question_zh": "如何分离两种挥发性液体与两种盐的混合物？",
+  "verification": "2026-10-26：生卒 c.721–c.815（一说卒 c.806–816）、文集约 850–950 年编纂、署名存疑经 web 搜索核对（Wikipedia、Sotheby's）；其余见 known_gaps",
+  "known_gaps": [
+    "贾比尔其人是否存在、文集各篇的成书年代，学界无定论，以现代研究综述为准",
+    "《炼金术之书》等篇名在不同译本中名称不一，译名异说未逐一核对原文",
+    "硫汞理论的具体配比数值在文集中表述不一，本次不写具体配比数字"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q167852",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jabir ibn Hayyan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.721–c.815",
+      "birth_year": {
+        "value": 721,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167852"
+            ],
+            "statement_id": "Q167852$d4f693f0-4fb4-9871-94d2-b2e28e0a6605",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 721,
+            "raw_time": "+0721-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 815,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167852"
+            ],
+            "statement_id": "Q167852$CE9BC70B-F6A7-4BD4-90E3-2DAFD3043536",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 815,
+            "raw_time": "+0815-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q167852"
+        ],
+        "statement_id": "Q167852$3581DCAC-A526-46D8-AD46-2185AE709BBA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q681427",
+        "label": "圖斯",
+        "label_en": "Tus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "阿拉伯炼金术"
+    },
+    "sources": [
+      {
+        "id": "WD:Q167852",
+        "title": "Wikidata Q167852 / 贾比尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q167852&oldid=2558367936",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558367936,
+        "modified_at": "2026-10-18T11:52:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

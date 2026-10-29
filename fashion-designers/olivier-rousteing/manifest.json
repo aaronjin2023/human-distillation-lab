@@ -43,5 +43,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Olivier Rousteing, a modern esports team uniform, military jacket, sharp shoulders, sequinned details, black and gold, embellished opulence, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q18209916",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Olivier Rousteing",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1985–",
+      "birth_year": {
+        "value": 1985,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q18209916"
+            ],
+            "statement_id": "Q18209916$DAB65BF8-9CD1-4535-80B6-FC82E254FA95",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1985,
+            "raw_time": "+1985-09-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q18209916"
+        ],
+        "statement_id": "Q18209916$9CF6B93B-772E-4164-BDEC-6635FE828138",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1479",
+        "label": "波尔多",
+        "label_en": "Bordeaux",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q18209916"
+        ],
+        "statement_id": "Q18209916$826FE351-C42D-4FFF-9709-3E492CC18CC1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制 / 当代",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q18209916",
+        "title": "Wikidata Q18209916 / 奥利维尔·鲁斯汀",
+        "url": "https://www.wikidata.org/w/index.php?title=Q18209916&oldid=2533916822",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533916822,
+        "modified_at": "2026-08-20T22:50:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

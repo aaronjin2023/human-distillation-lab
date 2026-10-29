@@ -43,5 +43,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人是否该为自助结账机漏扫的商品付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q297493",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Philippa Foot",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–2010",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297493"
+            ],
+            "statement_id": "q297493$45F76476-536D-40E4-B9B3-4659BBEE93CA",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2010,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q297493"
+            ],
+            "statement_id": "Q297493$8C3742A3-D315-4E47-84C3-8039C5DCB3AD",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2010,
+            "raw_time": "+2010-10-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q297493"
+        ],
+        "statement_id": "Q297493$F55FD9DE-E243-4C79-95A4-5A7AEB882D68",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2293904",
+        "label": "奥斯顿菲力",
+        "label_en": "Owston Ferry",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q297493"
+        ],
+        "statement_id": "q297493$9C2C2A5C-E696-4EB5-BC9B-3041F618201B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学·伦理学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q297493",
+        "title": "Wikidata Q297493 / 菲利帕·福特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q297493&oldid=2558216093",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558216093,
+        "modified_at": "2026-10-18T02:36:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

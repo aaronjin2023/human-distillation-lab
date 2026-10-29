@@ -24,5 +24,131 @@
   "test_prompt": "In the style of Alfred Wegener, judge a new city's earthquake risk: fit the coasts, follow the fossils and rocks across the fault, and say what the moving ground implies",
   "test_question_zh": "一座位于断层带上的新城，它的地质证据说明了怎样的移动史与地震风险？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；漂移说的接受史按学界共识",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76323",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Wegener",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1880–1930",
+      "birth_year": {
+        "value": 1880,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76323"
+            ],
+            "statement_id": "q76323$025518C6-E84A-4765-B7FA-2C23CDAE7141",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1880,
+            "raw_time": "+1880-11-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76323"
+            ],
+            "statement_id": "Q76323$28caaaf0-4f93-1651-6b21-51b3c9e3e667",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-11-00T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76323"
+        ],
+        "statement_id": "q76323$8DA49B89-B128-45A7-BE9B-A690E8F78646",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76323"
+        ],
+        "statement_id": "Q76323$8BD96884-43DC-43AC-93C0-70436563CFB2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3869",
+        "label": "马尔堡",
+        "label_en": "Marburg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76323"
+        ],
+        "statement_id": "q76323$EDBCA40C-1E2D-40F8-99F6-35BD691E9A91",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·大陆漂移"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76323",
+        "title": "Wikidata Q76323 / 阿尔弗雷德·魏格纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76323&oldid=2561382670",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561382670,
+        "modified_at": "2026-10-27T10:02:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

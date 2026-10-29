@@ -36,5 +36,134 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of John Cabot, a single small uncrewed vessel dashes across the North Atlantic in 2026, sights a coast in weeks, logs the landing, and turns for home on the same latitude.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q85642",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Cabot",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1450–c.1500",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q85642"
+            ],
+            "statement_id": "Q85642$68FB5CC2-1FE2-42F9-9796-AD50C08E33C1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1450,
+            "raw_time": "+1450-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q85642"
+            ],
+            "statement_id": "Q85642$070F82B7-714C-400F-AADF-D1B9BDE396B6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1498,
+            "raw_time": "+1498-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q85642"
+        ],
+        "statement_id": "Q85642$5712D426-AA32-45EF-8814-041FAE394ED4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q128089",
+        "label": "加埃塔",
+        "label_en": "Gaeta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q85642"
+        ],
+        "statement_id": "Q85642$C062DEEA-C6DD-47B6-9653-5D8C1AC6F96B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4948",
+        "label": "威尼斯共和国",
+        "label_en": "Republic of Venice",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利—英格兰·北大西洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q85642",
+        "title": "Wikidata Q85642 / 乔瓦尼·卡博托",
+        "url": "https://www.wikidata.org/w/index.php?title=Q85642&oldid=2557896915",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557896915,
+        "modified_at": "2026-10-17T06:34:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

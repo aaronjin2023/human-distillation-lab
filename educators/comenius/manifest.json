@@ -43,5 +43,171 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给小学生上一堂关于‘认识身边的植物’的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；‘把一切事物教给一切人’为《大教学论》名言，转译标 verbatim",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q12735",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Comenius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1592–1670",
+      "birth_year": {
+        "value": 1592,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12735"
+            ],
+            "statement_id": "q12735$5E4325B4-6453-4F21-858C-4C6A1CB0D8F1",
+            "rank": "preferred",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1592,
+            "raw_time": "+1592-03-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1670,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q12735"
+            ],
+            "statement_id": "q12735$66B8329A-9B95-4FDA-BE70-1AF5EA531056",
+            "rank": "preferred",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1670,
+            "raw_time": "+1670-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "q12735$FCB011B6-F45B-4E95-B081-A62540AABC20",
+        "rank": "preferred",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q664895",
+        "label": "乌赫尔布罗德",
+        "label_en": "Uherský Brod",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "Q12735$DF9F2843-2E90-45A5-BA75-AF328C0E93C5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q470380",
+        "label": "普热罗夫",
+        "label_en": "Přerov",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "Q12735$83D004D1-6084-46B8-A12A-CEAFEC8E689A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q740915",
+        "label": "富尔内克",
+        "label_en": "Fulnek",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "Q12735$83D1F989-E55D-406D-8C2B-46BB9116A07B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q304189",
+        "label": "斯特拉日尼采",
+        "label_en": "Strážnice",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "Q12735$14C20E1D-03B3-4AAF-B8E0-094AB79ABC87",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1994183",
+        "label": "Nivnice",
+        "label_en": "Nivnice",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q12735"
+        ],
+        "statement_id": "Q12735$409786DC-FC98-469F-8DE1-96A56D3F59E7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q153136",
+        "label": "哈布斯堡君主国",
+        "label_en": "Habsburg monarchy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "近代教学论奠基",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q12735",
+        "title": "Wikidata Q12735 / 约翰·阿摩司·夸美纽斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q12735&oldid=2559033780",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559033780,
+        "modified_at": "2026-10-20T02:40:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

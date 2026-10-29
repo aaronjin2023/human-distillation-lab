@@ -66,5 +66,128 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁围观中的身体与规范",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q219368",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Judith Butler",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q219368"
+            ],
+            "statement_id": "q219368$41E0435D-ED98-486A-9A5F-512597619022",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q219368"
+        ],
+        "statement_id": "Q219368$E05E2492-773E-4E81-A242-51F0CEEDE418",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q37320",
+        "label": "克利夫兰",
+        "label_en": "Cleveland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q219368"
+        ],
+        "statement_id": "q219368$5DA03045-3BB8-49EC-B9CC-D3EF51CC718B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q219368"
+          ],
+          "statement_id": "Q219368$ADA78887-4FE6-4B97-9AA2-7D4715296658",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q846570",
+          "label": "美国人",
+          "label_en": "Americans",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q219368"
+          ],
+          "statement_id": "Q219368$cbd440c4-4fed-7361-1633-188e44da7dc6",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "性别操演理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q219368",
+        "title": "Wikidata Q219368 / 朱迪丝·巴特勒",
+        "url": "https://www.wikidata.org/w/index.php?title=Q219368&oldid=2561606876",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561606876,
+        "modified_at": "2026-10-28T06:41:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

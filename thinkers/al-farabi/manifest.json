@@ -29,5 +29,133 @@
   "thinker": "Al-Farabi",
   "thinker_zh": "法拉比",
   "verification": "2026-10-26：生卒与代表作以草稿第 1 节为准，关键条目经 web 搜索核对；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160460",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Al-Farabi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.872–950",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160460"
+            ],
+            "statement_id": "Q160460$3a01fda8-41e3-ef1e-e7c4-99f214fc7707",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 870,
+            "raw_time": "+0870-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160460"
+            ],
+            "statement_id": "Q160460$26F068EC-E6D8-4215-B6B0-D7E021CEB491",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 951,
+            "raw_time": "+0951-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160460"
+        ],
+        "statement_id": "Q160460$4FB8F560-FE09-4707-A4B2-02692A01F6BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q956911",
+        "label": "讹答剌",
+        "label_en": "Otrar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160460"
+        ],
+        "statement_id": "Q160460$2769f623-4d93-9efb-3b90-1aae99b3163b",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12536",
+        "label": "阿拔斯王朝",
+        "label_en": "Abbasid Caliphate",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "伊斯兰哲学 / 新柏拉图主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160460",
+        "title": "Wikidata Q160460 / 法拉比",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160460&oldid=2561371781",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561371781,
+        "modified_at": "2026-10-27T08:54:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

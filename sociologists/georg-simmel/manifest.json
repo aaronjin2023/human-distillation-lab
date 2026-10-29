@@ -56,5 +56,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬引发的围观",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76849",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Georg Simmel",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1858–1918",
+      "birth_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76849"
+            ],
+            "statement_id": "q76849$33908af6-4e0d-6313-62d5-55ac0be75230",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76849"
+            ],
+            "statement_id": "Q76849$E7EC8C8F-610F-443E-858E-945D9A1F9D93",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-09-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76849"
+        ],
+        "statement_id": "q76849$E596659B-5660-4033-83C2-CED512A61287",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76849"
+        ],
+        "statement_id": "q76849$66FF148F-7530-4586-B8B6-693FDFC010AA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "形式社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76849",
+        "title": "Wikidata Q76849 / 格奥尔格·齐美尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76849&oldid=2560835032",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560835032,
+        "modified_at": "2026-10-25T22:15:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

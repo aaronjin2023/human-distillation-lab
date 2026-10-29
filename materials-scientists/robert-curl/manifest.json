@@ -32,5 +32,117 @@
   "test_prompt": "In the method of Robert Curl, design a flexible carbon nanomaterial conductor for a wearable device. Read the spectrum as a molecular fingerprint first, match every peak against known spectra, build a structural model for the signal, and let the spectrum decide which structure is real.",
   "test_question_zh": "为可穿戴设备设计一种柔性碳纳米导电材料",
   "verification": "2026-10-26：生卒（1933–2022）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q110930",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Curl",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2022",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q110930"
+            ],
+            "statement_id": "q110930$2298EF43-9367-408D-9197-87571ED2A252",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q110930"
+            ],
+            "statement_id": "Q110930$e82901ab-4ad4-fe55-8ec1-83c300181dff",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q110930"
+        ],
+        "statement_id": "Q110930$937371B4-39C4-43AB-B390-8304BB1D1161",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q981528",
+        "label": "艾丽斯",
+        "label_en": "Alice",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q110930"
+        ],
+        "statement_id": "q110930$45D5E793-7C72-4701-9C5D-AFF56D873019",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "富勒烯 / 分子光谱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q110930",
+        "title": "Wikidata Q110930 / 罗伯特·柯尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q110930&oldid=2558225756",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558225756,
+        "modified_at": "2026-10-18T03:08:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

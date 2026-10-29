@@ -35,5 +35,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for an AI earphone brand",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7965416",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Walter Landor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–1995",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7965416"
+            ],
+            "statement_id": "Q7965416$A9A6C661-70C2-4D0D-9A17-5F75D767C2C9",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7965416"
+            ],
+            "statement_id": "Q7965416$20FC7D9A-2787-4403-8C26-19E84C22DE15",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-06-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7965416"
+        ],
+        "statement_id": "Q7965416$647C5E43-8427-4CCD-9635-F1035C3F8399",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7965416"
+        ],
+        "statement_id": "Q7965416$E2BF4AC3-0D1D-48E2-BC55-DB378F216255",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌设计"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7965416",
+        "title": "Wikidata Q7965416 / Walter Landor",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7965416&oldid=2560897852",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560897852,
+        "modified_at": "2026-10-26T02:27:23Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

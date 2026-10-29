@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一次现代城市防洪抢险的兵力部署",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34836",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ulysses S. Grant",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1822–1885",
+      "birth_year": {
+        "value": 1822,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34836"
+            ],
+            "statement_id": "q34836$C8E60307-C465-4340-A100-C4BF27CD0956",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1822,
+            "raw_time": "+1822-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34836"
+            ],
+            "statement_id": "q34836$4DC904FC-A7E7-4E1A-991A-8A6FEDF1EF8C",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34836"
+        ],
+        "statement_id": "q34836$B496ABCB-0BAB-4D95-9CC5-2FC6E7BC02C6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1002654",
+        "label": "波因特普萊森特 (俄亥俄州)",
+        "label_en": "Point Pleasant",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34836"
+        ],
+        "statement_id": "q34836$0D0D0DF9-9E99-4965-B9F5-3E8BF137088D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·内战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34836",
+        "title": "Wikidata Q34836 / 尤利西斯·格兰特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34836&oldid=2558266864",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558266864,
+        "modified_at": "2026-10-18T05:23:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,118 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Molière",
-  "writer_zh": "莫里哀"
+  "writer_zh": "莫里哀",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q687",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Molière",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1622–1673",
+      "birth_year": {
+        "value": 1622,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q687"
+            ],
+            "statement_id": "q687$EAAF11FF-C7BF-4F8C-9656-6B2D5DB2173E",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1622,
+            "raw_time": "+1622-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1673,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q687"
+            ],
+            "statement_id": "q687$3860586F-64F3-45C7-9A5B-60EE7D843999",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1673,
+            "raw_time": "+1673-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q687"
+        ],
+        "statement_id": "q687$B7D69E75-15C7-4BFE-B8E4-DD36EAD2970A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q687"
+        ],
+        "statement_id": "q687$858767A0-C32C-4818-85C8-88FC0E80E617",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q70972",
+        "label": "法兰西王国",
+        "label_en": "Kingdom of France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·喜剧",
+      "genre": "剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q687",
+        "title": "Wikidata Q687 / 莫里哀",
+        "url": "https://www.wikidata.org/w/index.php?title=Q687&oldid=2561510881",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561510881,
+        "modified_at": "2026-10-27T19:02:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

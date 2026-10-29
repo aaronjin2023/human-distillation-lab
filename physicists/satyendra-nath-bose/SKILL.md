@@ -32,3 +32,7 @@
 ## 核对记录（v0.1）
 
 - 2026-10-26：生卒（1894–1974）、代表作与未获诺贝尔奖经 web 搜索核对（Wikipedia / NobelPrize.org 等，见 manifest.json sources）；其余未逐项核对，见 known_gaps
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

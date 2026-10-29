@@ -29,5 +29,333 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "便利店夜景（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《1808年5月3日》1814 年；黑色绘画约 1819–1823 年墙面油画；《卡普里乔斯》1799 年",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5432",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Francisco de Goya",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1746–1828",
+      "birth_year": {
+        "value": 1746,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5432"
+            ],
+            "statement_id": "q5432$A215CB09-77C8-47BE-8441-8ED371A08BED",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1746,
+            "raw_time": "+1746-03-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1828,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5432"
+            ],
+            "statement_id": "q5432$F273E514-D0AE-45B6-8FB3-EEDC9B0447A9",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1828,
+            "raw_time": "+1828-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$23CF1162-7D9A-4B83-99B2-CF95149974DA",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1372769",
+        "label": "丰德托多斯",
+        "label_en": "Fuendetodos",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$EA80E30F-3836-4247-A5EB-B610E5063FE7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1763-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1770-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$4AAA5F71-255A-4BEC-AD22-E5B1106B60FA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1770-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1771-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$C395F606-1334-4CAC-8AD2-C6D9014DE1DA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1771-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1773-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$AB439E75-C112-4BBB-9728-FF407E3542D6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1773-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1823-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2807",
+        "label": "马德里",
+        "label_en": "Madrid",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$AEC835D2-279C-4C54-A117-7283949C3D3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1479",
+        "label": "波尔多",
+        "label_en": "Bordeaux",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$ED41D134-929E-476D-936E-87689C284B10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$7A38ED41-E3ED-4362-A5A2-8884C5818069",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q15682",
+        "label": "加的斯",
+        "label_en": "Cádiz",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$A4A30F8A-25F9-4325-985C-FB5FBEE768BC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8717",
+        "label": "塞维利亚",
+        "label_en": "Seville",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "Q5432$C2313C5F-DF2D-46C7-B80C-7E8F6CFA3F2A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q10305",
+        "label": "萨拉戈萨",
+        "label_en": "Zaragoza",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5432"
+        ],
+        "statement_id": "q5432$3D14435D-F52F-4037-8ADE-B9709E3B9821",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29",
+        "label": "西班牙",
+        "label_en": "Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5432"
+          ],
+          "statement_id": "Q5432$cb82bf18-4742-056a-2c2f-d53f6ef1fb24",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q2706746",
+          "label": "阿拉貢人",
+          "label_en": "Aragonese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "浪漫主义先驱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5432",
+        "title": "Wikidata Q5432 / 弗朗西斯科·德·戈雅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5432&oldid=2561537037",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561537037,
+        "modified_at": "2026-10-27T20:50:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

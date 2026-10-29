@@ -38,5 +38,126 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Christopher Columbus, an uncrewed vessel gambles westward across the Atlantic in 2026 on dead reckoning, logging two sets of distances, naming each landfall for the saint of the day.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7322",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Christopher Columbus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1451–1506",
+      "birth_year": {
+        "value": 1451,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7322"
+            ],
+            "statement_id": "Q7322$c53d26b0-49ed-fa54-77ee-ec58976b55bc",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1451,
+            "raw_time": "+1451-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1506,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7322"
+            ],
+            "statement_id": "q7322$DE02F0DC-9C83-42DA-9EDA-6299AC5303C5",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1506,
+            "raw_time": "+1506-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7322"
+        ],
+        "statement_id": "Q7322$3de2444c-4060-f8f8-1fa7-94b2be45649a",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {
+          "P1480": [
+            {
+              "entity-type": "item",
+              "numeric-id": 30230067,
+              "id": "Q30230067"
+            }
+          ]
+        },
+        "qid": "Q1449",
+        "label": "热那亚",
+        "label_en": "Genoa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7322"
+        ],
+        "statement_id": "Q7322$a590260b-436d-1e8d-8d12-48c4ff4d0a59",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174306",
+        "label": "热那亚共和国",
+        "label_en": "Republic of Genoa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西班牙·大西洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7322",
+        "title": "Wikidata Q7322 / 克里斯托弗·哥伦布",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7322&oldid=2559620913",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559620913,
+        "modified_at": "2026-10-22T03:02:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

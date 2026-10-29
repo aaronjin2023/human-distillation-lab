@@ -62,5 +62,155 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "直播间里的交叉性",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q465252",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Patricia Hill Collins",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465252"
+            ],
+            "statement_id": "Q465252$B2E3D176-E43E-4C93-BE65-B86B48079A4A",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-05-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q465252"
+        ],
+        "statement_id": "Q465252$79B50D07-634A-46A2-AEC8-7119415FB093",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q465252"
+        ],
+        "statement_id": "Q465252$89e8dc7a-4614-0c7a-141e-62e42e8fb871",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2076302",
+        "label": "罗克斯伯里",
+        "label_en": "Roxbury",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q465252"
+        ],
+        "statement_id": "Q465252$278fb242-45cc-9e28-fa42-c85efc43235f",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q54145",
+        "label": "梅特福德",
+        "label_en": "Medford",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q465252"
+        ],
+        "statement_id": "q465252$A0B508E3-0008-4993-BED9-12D4D349262C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q465252"
+          ],
+          "statement_id": "Q465252$71c81c09-4640-ff1e-88bc-91d12fd2c261",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q465252"
+          ],
+          "statement_id": "Q465252$6d8e1657-4f5a-26ae-37e3-c5d1699a45eb",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q846570",
+          "label": "美国人",
+          "label_en": "Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "黑人女性主义·交叉性"
+    },
+    "sources": [
+      {
+        "id": "WD:Q465252",
+        "title": "Wikidata Q465252 / 派翠卡‧希爾‧柯林斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q465252&oldid=2552994748",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552994748,
+        "modified_at": "2026-10-04T10:02:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

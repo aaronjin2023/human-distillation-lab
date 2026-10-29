@@ -36,5 +36,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Pedro Nunes, an uncrewed vessel crosses an ocean in 2026, steering a loxodrome, logging latitude by two solar sights a day, and proving every course on paper before sailing it.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q435718",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pedro Nunes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1502–1578",
+      "birth_year": {
+        "value": 1502,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q435718"
+            ],
+            "statement_id": "Q435718$74DE15BE-46CC-4978-A18F-CEB8D9679D90",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1502,
+            "raw_time": "+1502-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1578,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q435718"
+            ],
+            "statement_id": "Q435718$8D6D6B6D-0980-4BC8-80CE-722146C26E06",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1578,
+            "raw_time": "+1578-08-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q435718"
+        ],
+        "statement_id": "q435718$F5BC204A-9E44-4182-8FE3-81AD38BBB47F",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q850697",
+        "label": "薩爾堡",
+        "label_en": "Alcácer do Sal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q435718"
+        ],
+        "statement_id": "Q435718$FB6FF6D3-9A1C-4AFC-880A-F88904343102",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·航海技术",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q435718",
+        "title": "Wikidata Q435718 / 佩德罗·努内斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q435718&oldid=2558209489",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558209489,
+        "modified_at": "2026-10-18T02:12:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,102 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q782637",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sara Blakely",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1971–",
+      "birth_year": {
+        "value": 1971,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q782637"
+            ],
+            "statement_id": "Q782637$30D8F2F3-2B57-44E6-8C00-E469D73F6C0D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1971,
+            "raw_time": "+1971-02-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q782637"
+        ],
+        "statement_id": "Q782637$F2CAF295-8158-4C3C-AAFE-0B38AAA90F64",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q244146",
+        "label": "克利尔沃特",
+        "label_en": "Clearwater",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q782637"
+        ],
+        "statement_id": "Q782637$53118DC1-093E-45DA-8F93-2AE115679EFA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "内衣 / 美国",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q782637",
+        "title": "Wikidata Q782637 / 莎拉·布雷克里",
+        "url": "https://www.wikidata.org/w/index.php?title=Q782637&oldid=2554039808",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554039808,
+        "modified_at": "2026-10-06T17:01:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

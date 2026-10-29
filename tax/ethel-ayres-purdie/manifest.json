@@ -40,5 +40,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "评论某国对短视频主播征税的方案（代表权视角）（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q23900769",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ethel Ayres Purdie",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1874–1923",
+      "birth_year": {
+        "value": 1874,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23900769"
+            ],
+            "statement_id": "Q23900769$9a0cb560-473c-5ff9-1786-fa8176091b84",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1874,
+            "raw_time": "+1874-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23900769"
+            ],
+            "statement_id": "Q23900769$ee55c0d5-473f-7075-bfb5-a2d8a7c68f80",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q23900769"
+        ],
+        "statement_id": "Q23900769$3120804d-4575-1cc2-aa24-4346c3289861",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q125163",
+        "label": "伊斯灵顿",
+        "label_en": "Islington",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q23900769"
+        ],
+        "statement_id": "Q23900769$29A5C37F-276A-4787-BCCA-CC29B34E720C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·税务实务与抗税",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q23900769",
+        "title": "Wikidata Q23900769 / Ethel Ayres Purdie",
+        "url": "https://www.wikidata.org/w/index.php?title=Q23900769&oldid=2545345335",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2545345335,
+        "modified_at": "2026-09-14T02:03:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

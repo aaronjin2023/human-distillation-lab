@@ -36,5 +36,131 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Abel Tasman, an uncrewed survey ship sails a great loop around an unknown southern land in 2026, running down a latitude, charting as it goes, two vessels in company, turning home when the coast is mapped. No single-ship venture into unknown water.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q42188",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abel Tasman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1603–1659",
+      "birth_year": {
+        "value": 1603,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42188"
+            ],
+            "statement_id": "q42188$A7001CFF-681F-44B7-AE67-3903E811FAAF",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1603,
+            "raw_time": "+1603-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1659,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q42188"
+            ],
+            "statement_id": "q42188$76B872FC-45CE-4C35-8EF6-289840FB9538",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1659,
+            "raw_time": "+1659-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q42188"
+        ],
+        "statement_id": "q42188$B6E67E3B-576F-4D3F-85C6-B0709F2F77F8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2264177",
+        "label": "Lutjegast",
+        "label_en": "Lutjegast",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q42188"
+        ],
+        "statement_id": "Q42188$2EF06C8E-0E76-494A-8B0B-2644FC9C00D1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q42188"
+        ],
+        "statement_id": "Q42188$8A957AE5-B4BA-4A46-AF65-AC923237E0BF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q170072",
+        "label": "荷兰共和国",
+        "label_en": "Dutch Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "荷兰·南太平洋"
+    },
+    "sources": [
+      {
+        "id": "WD:Q42188",
+        "title": "Wikidata Q42188 / 阿贝尔·塔斯曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q42188&oldid=2557345668",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557345668,
+        "modified_at": "2026-10-15T16:03:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

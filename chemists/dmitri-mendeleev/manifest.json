@@ -1,35 +1,147 @@
 {
- "chemist": "Dmitri Mendeleev",
- "chemist_zh": "德米特里·门捷列夫",
- "dates": "1834–1907",
- "field": "周期律",
- "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #21",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "元素周期表",
-  "元素性质预测（镓、钪、锗）",
-  "元素原子量修正"
- ],
- "sources": [
-  "Wikipedia 'Dmitri Mendeleev' https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
-  "Wikipedia 'Julius Lothar Meyer' https://en.wikipedia.org/wiki/Julius_Lothar_Meyer"
- ],
- "test_prompt": "In the style of Dmitri Mendeleev, design a research plan for a new biodegradable plastic: first classify known polymers by periodic patterns of structure and property, leave gaps for missing materials, predict their properties from the pattern, then propose experiments to fill the gaps.",
- "test_question_zh": "如何设计一种新型可降解塑料的研究方案？",
- "verification": "2026-10-26：生卒、1869 年周期表、镓钪锗预测、1882 年同获戴维奖章经 web 搜索核对；其余见 known_gaps",
- "known_gaps": [
-  "周期表 1869 年原文（俄文）细节未逐句核对",
-  "空位预测的具体数值未逐项核对原文",
-  "卡片排列的具体过程据后世叙述，非原始记录"
- ]
+  "chemist": "Dmitri Mendeleev",
+  "chemist_zh": "德米特里·门捷列夫",
+  "dates": "1834–1907",
+  "field": "周期律",
+  "list_position": "化学家草稿 v1 C 元素、周期律与无机化学 #21",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "元素周期表",
+    "元素性质预测（镓、钪、锗）",
+    "元素原子量修正"
+  ],
+  "sources": [
+    "Wikipedia 'Dmitri Mendeleev' https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+    "Wikipedia 'Julius Lothar Meyer' https://en.wikipedia.org/wiki/Julius_Lothar_Meyer"
+  ],
+  "test_prompt": "In the style of Dmitri Mendeleev, design a research plan for a new biodegradable plastic: first classify known polymers by periodic patterns of structure and property, leave gaps for missing materials, predict their properties from the pattern, then propose experiments to fill the gaps.",
+  "test_question_zh": "如何设计一种新型可降解塑料的研究方案？",
+  "verification": "2026-10-26：生卒、1869 年周期表、镓钪锗预测、1882 年同获戴维奖章经 web 搜索核对；其余见 known_gaps",
+  "known_gaps": [
+    "周期表 1869 年原文（俄文）细节未逐句核对",
+    "空位预测的具体数值未逐项核对原文",
+    "卡片排列的具体过程据后世叙述，非原始记录"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9106",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dmitri Mendeleev",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1834–1907",
+      "birth_year": {
+        "value": 1834,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9106"
+            ],
+            "statement_id": "q9106$C6204538-F481-47AE-91E0-1090067BD45F",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1834,
+            "raw_time": "+1834-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9106"
+            ],
+            "statement_id": "q9106$404C19BD-3C64-42A6-8E62-40314CB20760",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9106"
+        ],
+        "statement_id": "q9106$7A996A8F-0CB0-4C57-9645-1773E8062110",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q168782",
+        "label": "托博尔斯克",
+        "label_en": "Tobolsk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9106"
+        ],
+        "statement_id": "Q9106$F1938DD7-0E5C-4656-BBD9-E5130B0A343E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "周期律"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9106",
+        "title": "Wikidata Q9106 / 德米特里·伊万诺维奇·门捷列夫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9106&oldid=2559344361",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559344361,
+        "modified_at": "2026-10-20T19:46:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

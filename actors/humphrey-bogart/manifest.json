@@ -47,5 +47,132 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16390",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Humphrey Bogart",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1957",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16390"
+            ],
+            "statement_id": "q16390$F7756CA2-4245-40C7-818E-7A9951E42AFD",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1957,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16390"
+            ],
+            "statement_id": "q16390$FE07DA9E-E2FB-4371-A6CD-C42FCA8A47CB",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1957,
+            "raw_time": "+1957-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16390"
+        ],
+        "statement_id": "Q16390$FA2435B5-C157-4BB2-A724-D02CC9C19875",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q16390"
+        ],
+        "statement_id": "Q16390$808A9D93-A32A-4CDF-A9D9-6EB6DADE7DC1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16390"
+        ],
+        "statement_id": "q16390$30F0546F-AD58-4969-9ABF-A3DAF0734BD7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16390",
+        "title": "Wikidata Q16390 / 汉弗莱·博加特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16390&oldid=2561684828",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561684828,
+        "modified_at": "2026-10-28T13:20:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -34,5 +34,117 @@
   "test_prompt": "In the style of Grove Karl Gilbert, judge whether a mountain range is still rising: map its structure, measure river incision against uplift, and decide whether erosion and uplift are in balance",
   "test_question_zh": "一条山脉还在长高吗，侵蚀与抬升谁占上风？",
   "verification": "2026-10-26：生卒与代表作按地质学家草稿 v1（Wikipedia / Britannica 共识）写；在世者与近期去世者按草稿第 5、7 节核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q463448",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Grove Karl Gilbert",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1843–1918",
+      "birth_year": {
+        "value": 1843,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q463448"
+            ],
+            "statement_id": "q463448$0C982608-06CD-43E1-98E3-2B9BFF8949E3",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1843,
+            "raw_time": "+1843-05-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1918,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q463448"
+            ],
+            "statement_id": "q463448$E316D4CF-3D7D-4752-9949-8B89B514FBD0",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1918,
+            "raw_time": "+1918-05-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q463448"
+        ],
+        "statement_id": "q463448$B27D5B2C-7995-43E8-87FA-C2F06B9C7F2B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q49218",
+        "label": "罗切斯特",
+        "label_en": "Rochester",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q463448"
+        ],
+        "statement_id": "q463448$A1BDF835-57B2-4261-AC93-238389A17F53",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地貌学 / 构造"
+    },
+    "sources": [
+      {
+        "id": "WD:Q463448",
+        "title": "Wikidata Q463448 / 格罗夫·卡尔·吉尔伯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q463448&oldid=2561122598",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561122598,
+        "modified_at": "2026-10-26T17:07:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

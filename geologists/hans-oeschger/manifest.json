@@ -28,5 +28,131 @@
     "伯尔尼实验室建立年份以通说为准"
   ],
   "test_prompt": "现代问题：如何判断一段冰芯气泡的二氧化碳浓度是否可信？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q120565",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hans Oeschger",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–1998",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q120565"
+            ],
+            "statement_id": "Q120565$CB61178A-D8B4-4386-B73C-860DEC62D699",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-04-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q120565"
+            ],
+            "statement_id": "Q120565$8609EAE6-C099-4CFC-889B-D9DF078CACDC",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q120565"
+        ],
+        "statement_id": "Q120565$1ae7bd77-b1a2-4800-bc72-b1b6d8ea53ad",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q67513",
+        "label": "奥滕巴赫",
+        "label_en": "Ottenbach",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q120565"
+        ],
+        "statement_id": "Q120565$C373131D-CC82-4A51-A42C-1BAFF768C661",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q70",
+        "label": "伯尔尼",
+        "label_en": "Bern",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q120565"
+        ],
+        "statement_id": "q120565$EAE6D06F-347B-4D02-9629-E9824DE1CEE4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "冰川学 / 古气候"
+    },
+    "sources": [
+      {
+        "id": "WD:Q120565",
+        "title": "Wikidata Q120565 / 汉斯·厄施格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q120565&oldid=2560207279",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560207279,
+        "modified_at": "2026-10-24T05:04:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

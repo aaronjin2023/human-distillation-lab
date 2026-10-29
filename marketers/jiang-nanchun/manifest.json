@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft v1 第 6 节（画家模板改编）",
   "test_prompt": "一款新消费品牌的电梯媒体引爆方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11133824",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jiang Nanchun",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1973–（在世）",
+      "birth_year": {
+        "value": 1973,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11133824"
+            ],
+            "statement_id": "Q11133824$7e839184-c342-4aa9-8e04-cc32fabe8e76",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1973,
+            "raw_time": "+1973-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11133824"
+        ],
+        "statement_id": "Q11133824$6A5E793C-5EF6-4F9C-B405-6A746CC5F224",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8686",
+        "label": "上海市",
+        "label_en": "Shanghai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11133824"
+        ],
+        "statement_id": "Q11133824$57232C9F-6078-4E52-901C-4B35E64EEF12",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中国分众媒体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11133824",
+        "title": "Wikidata Q11133824 / 江南春 (企业家)",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11133824&oldid=2516467838",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516467838,
+        "modified_at": "2026-07-11T23:54:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

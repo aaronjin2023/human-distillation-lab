@@ -44,5 +44,142 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜外卖骑手（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2808",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Elton John",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2808"
+            ],
+            "statement_id": "q2808$25599bb5-412d-3c5e-a6d7-5c41169a3455",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-03-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2808"
+        ],
+        "statement_id": "Q2808$2363CA19-1DE4-4390-805C-97E7C00BE817",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2453742",
+        "label": "平納",
+        "label_en": "Pinner",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q2808"
+        ],
+        "statement_id": "Q2808$05AD7E67-99A9-473F-8994-5F8E6E12EF36",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2808"
+        ],
+        "statement_id": "Q2808$AC360910-8C7E-4DF5-A32C-66644C9F4F27",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2808"
+        ],
+        "statement_id": "Q2808$067cc297-c0e6-470c-bf3b-113239893ead",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2808"
+        ],
+        "statement_id": "q2808$837E8B30-17BD-407D-888F-44DCF817AEA0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "流行·创作歌手",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2808",
+        "title": "Wikidata Q2808 / 艾爾頓·強",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2808&oldid=2559161288",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559161288,
+        "modified_at": "2026-10-20T09:30:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

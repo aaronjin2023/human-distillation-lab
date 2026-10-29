@@ -42,5 +42,115 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3092023",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Soad Hosny",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1943–2001",
+      "birth_year": {
+        "value": 1943,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3092023"
+            ],
+            "statement_id": "q3092023$CCC35BA4-CDA4-47B5-B0BD-B6B152AF1546",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1943,
+            "raw_time": "+1943-01-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3092023"
+            ],
+            "statement_id": "q3092023$F1F91081-B861-4D51-8EE7-2E5CC90C4D00",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-06-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3092023"
+        ],
+        "statement_id": "Q3092023$4dec9504-4b22-aa1f-3c7a-36f91373ddd4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q85",
+        "label": "开罗",
+        "label_en": "Cairo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3092023"
+        ],
+        "statement_id": "Q3092023$39f4d61f-4269-3d15-0934-d2d6677315fa",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q79",
+        "label": "埃及",
+        "label_en": "Egypt",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q3092023",
+        "title": "Wikidata Q3092023 / 索阿德·霍斯尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3092023&oldid=2548905018",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548905018,
+        "modified_at": "2026-09-23T19:45:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -41,5 +41,117 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一款植物肉汉堡的上市战役",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5214592",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dan Wieden",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1945–2022",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5214592"
+            ],
+            "statement_id": "Q5214592$AC93CAB4-F8F3-4432-B0DE-562788D62BED",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5214592"
+            ],
+            "statement_id": "Q5214592$20c62728-48d3-ebf5-7ed7-9b58361728ec",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5214592"
+        ],
+        "statement_id": "Q5214592$DAE3D966-6CF0-42B5-A386-0E7E3C8A281A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6106",
+        "label": "波特兰",
+        "label_en": "Portland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5214592"
+        ],
+        "statement_id": "Q5214592$B7873016-97D1-4450-A9E1-0182E07AF885",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "广告创意 / 品牌"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5214592",
+        "title": "Wikidata Q5214592 / Dan Wieden",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5214592&oldid=2512555324",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2512555324,
+        "modified_at": "2026-07-01T09:33:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

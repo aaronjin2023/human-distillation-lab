@@ -30,5 +30,166 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q128746",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Irving Berlin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1989",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q128746"
+            ],
+            "statement_id": "q128746$92BB2973-88CD-4401-8C48-D7E18BD54FF9",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-05-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q128746"
+            ],
+            "statement_id": "q128746$F433E145-AAA7-4ED7-B627-8319C031FB26",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-09-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q128746"
+        ],
+        "statement_id": "q128746$9e4478c9-4ceb-0574-0b86-c501fa10e2b6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q954343",
+        "label": "塔拉欽",
+        "label_en": "Talachyn",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q128746"
+        ],
+        "statement_id": "Q128746$4002f3d6-44e4-8647-5c3d-0e4b899072da",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5815",
+        "label": "秋明",
+        "label_en": "Tyumen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q128746"
+        ],
+        "statement_id": "q128746$5EE8AEB1-802F-4168-BA80-8A449605C2F5",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1918-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q128746"
+        ],
+        "statement_id": "Q128746$CB088405-B4DD-4C35-9DB7-A5693947DEDC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q128746"
+          ],
+          "statement_id": "Q128746$0A106DEC-2B03-4A72-B50E-C623E84F445A",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q128746",
+        "title": "Wikidata Q128746 / 厄文·博林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q128746&oldid=2557934804",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557934804,
+        "modified_at": "2026-10-17T09:14:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

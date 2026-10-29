@@ -29,5 +29,117 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板的音乐适配）",
   "test_prompt": "现代题材：一杯放在窗台上的咖啡，午后晚些时候（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作以草稿名单为准，英文维基通说对照；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q357326",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carlos Chávez",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1978",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q357326"
+            ],
+            "statement_id": "Q357326$0E0729B3-EAB6-424B-ABC2-6BF1828089F2",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-06-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1978,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q357326"
+            ],
+            "statement_id": "Q357326$B4DB9045-A524-4A69-B37E-BC12BE77BC76",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1978,
+            "raw_time": "+1978-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q357326"
+        ],
+        "statement_id": "q357326$0F2A3617-2A98-428B-A6CA-CE2D6A31E62B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6082656",
+        "label": "Popotla",
+        "label_en": "Popotla",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q357326"
+        ],
+        "statement_id": "Q357326$F7D841FA-AFB5-4E27-9FF0-C383AA69C701",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "拉美 / 墨西哥"
+    },
+    "sources": [
+      {
+        "id": "WD:Q357326",
+        "title": "Wikidata Q357326 / 卡洛斯·查维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q357326&oldid=2557833569",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557833569,
+        "modified_at": "2026-10-17T02:49:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,125 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Roald Amundsen, an uncrewed expedition crosses a frozen sea in 2026 by the shortest safe route, dog teams replaced by tracked sleds, depots laid at every stage, no weight carried that does not earn its place. No dash without depots.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q926",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roald Amundsen",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1872–1928",
+      "birth_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q926"
+            ],
+            "statement_id": "q926$86E9F995-4EDB-4381-93AF-9A4F5B5D2C12",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q926"
+            ],
+            "statement_id": "q926$18C2D55C-7FED-43DD-B854-E1A3E6313933",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18122778,
+                  "id": "Q18122778"
+                }
+              ]
+            },
+            "value": 1928,
+            "raw_time": "+1928-06-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q926"
+        ],
+        "statement_id": "Q926$2E1ACC12-0E97-44CD-8547-0BE1D9549477",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q966777",
+        "label": "博尔格",
+        "label_en": "Borge Municipality",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q926"
+        ],
+        "statement_id": "q926$62403CCA-0331-40A2-A41C-019388C36AA7",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "挪威·南北极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q926",
+        "title": "Wikidata Q926 / 罗阿尔·阿蒙森",
+        "url": "https://www.wikidata.org/w/index.php?title=Q926&oldid=2558225022",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558225022,
+        "modified_at": "2026-10-18T03:06:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

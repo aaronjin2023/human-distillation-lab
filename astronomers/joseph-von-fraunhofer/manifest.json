@@ -31,5 +31,130 @@
   "test_prompt": "In the style of Joseph von Fraunhofer, test a modern exoplanet atmosphere claim: spread the starlight into a spectrum, catalogue every absorption line, compare the in-transit and out-of-transit spectra line by line, and report only the lines that change — without claiming their cause before the catalogue is complete",
   "test_question_zh": "检验一颗系外行星大气的宣称",
   "verification": "生卒 1787–1826、太阳光谱暗线 1814 年、574 条暗线、恒星光谱观测按天文史通说（Wikipedia / Britannica 共识）写；成因问题已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43948",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joseph von Fraunhofer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1787–1826",
+      "birth_year": {
+        "value": 1787,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43948"
+            ],
+            "statement_id": "q43948$A8FE9C4F-5C7C-4E3C-83D5-6C72BBB5F26A",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1787,
+            "raw_time": "+1787-03-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1826,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43948"
+            ],
+            "statement_id": "q43948$F5C76F10-AEAF-42D0-B566-005527DB00BF",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1826,
+            "raw_time": "+1826-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43948"
+        ],
+        "statement_id": "q43948$C82DA262-0535-4144-B532-229140336154",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q7027",
+        "label": "施特劳宾",
+        "label_en": "Straubing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43948"
+        ],
+        "statement_id": "q43948$B296827B-65A7-462B-80FD-4D0F19066CB0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q154195",
+        "label": "巴伐利亚王国",
+        "label_en": "Kingdom of Bavaria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43948"
+        ],
+        "statement_id": "Q43948$6d367447-48dd-1727-24cd-48e5c46ae163",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12548",
+        "label": "神圣罗马帝国",
+        "label_en": "Holy Roman Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "德国·光谱天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43948",
+        "title": "Wikidata Q43948 / 约瑟夫·夫琅和费",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43948&oldid=2558034440",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558034440,
+        "modified_at": "2026-10-17T16:51:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

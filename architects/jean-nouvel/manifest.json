@@ -43,5 +43,116 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q214317",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean Nouvel",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1945–",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q214317"
+            ],
+            "statement_id": "Q214317$1BFDC1AC-9E9F-430C-8FC5-EFE7057A67BF",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q214317"
+        ],
+        "statement_id": "Q214317$DC18AE0E-DBB2-448B-AA88-23127AE5EBEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q659721",
+        "label": "菲梅勒",
+        "label_en": "Fumel",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q214317"
+        ],
+        "statement_id": "Q214317$6fd147e4-d3d4-4f85-8196-3501349a0921",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q214317"
+        ],
+        "statement_id": "Q214317$EE2E0E82-BAD5-409D-B57C-EFB60E7EEC01",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q214317",
+        "title": "Wikidata Q214317 / 让·努维尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q214317&oldid=2557958402",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557958402,
+        "modified_at": "2026-10-17T10:55:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

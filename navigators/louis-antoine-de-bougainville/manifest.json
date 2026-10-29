@@ -36,5 +36,117 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Louis-Antoine de Bougainville, a small Yorkshire terrier rides the subway, and the ride is written as a voyage narrative: stations as islands, fellow passengers as islanders met and described, the journey told as a story, not a table of times.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153911",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis-Antoine de Bougainville",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1729–1811",
+      "birth_year": {
+        "value": 1729,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153911"
+            ],
+            "statement_id": "Q153911$CC8E9A11-1726-47B1-B231-E9282398B7BD",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1729,
+            "raw_time": "+1729-11-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1811,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153911"
+            ],
+            "statement_id": "q153911$F7AD7A1F-EB98-485A-BB81-1868442C64DD",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1811,
+            "raw_time": "+1811-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153911"
+        ],
+        "statement_id": "q153911$19E1E5B7-74C0-45CB-855A-360FC0D99E1E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153911"
+        ],
+        "statement_id": "q153911$5F4627C2-D738-4EF5-8B9B-908E3D5CE708",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·太平洋"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153911",
+        "title": "Wikidata Q153911 / 路易·安托万·德·布干维尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153911&oldid=2559045451",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559045451,
+        "modified_at": "2026-10-20T03:14:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

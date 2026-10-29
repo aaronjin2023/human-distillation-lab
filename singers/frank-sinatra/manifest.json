@@ -43,5 +43,159 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜拉面店（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q40912",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frank Sinatra",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–1998",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40912"
+            ],
+            "statement_id": "q40912$587FF109-0B33-438C-8FCE-025D78B84117",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q40912"
+            ],
+            "statement_id": "q40912$2C747575-581E-48DF-B427-718A332A5DBE",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-05-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q40912"
+        ],
+        "statement_id": "q40912$F3AEAB78-88CC-423C-A841-55A2AB46448D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q138578",
+        "label": "霍博肯",
+        "label_en": "Hoboken",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q40912"
+        ],
+        "statement_id": "Q40912$4C33E789-73D5-4650-AE28-BF6866C1567B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q40912"
+        ],
+        "statement_id": "q40912$83c5ec96-4b56-1aac-4f52-bd6068bd4b22",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q40912"
+        ],
+        "statement_id": "Q40912$CDF62A70-8AE1-4888-8AB1-6C25D6880BD4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q40912"
+          ],
+          "statement_id": "Q40912$ED6E7584-56D8-4F49-B4CD-27711CBB6761",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q974693",
+          "label": "意大利裔美国人",
+          "label_en": "Italian Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·流行标准曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q40912",
+        "title": "Wikidata Q40912 / 法蘭·仙納杜拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q40912&oldid=2561680167",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561680167,
+        "modified_at": "2026-10-28T12:56:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

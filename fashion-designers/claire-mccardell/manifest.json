@@ -38,5 +38,148 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市快递员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2975089",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Claire McCardell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1958",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2975089"
+            ],
+            "statement_id": "Q2975089$0CD24251-8A03-41BB-8C96-4051C26A2CA1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q2975089"
+            ],
+            "statement_id": "Q2975089$96A9F4C7-E5D9-4C8D-B42E-6C079A2D47E9",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-05-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2975089"
+            ],
+            "statement_id": "Q2975089$0D7723F3-8135-4BCE-8EC5-B190EC0214A1",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q2975089"
+            ],
+            "statement_id": "Q2975089$4596BE8A-00BF-4951-BFDC-25B8452580BE",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2975089"
+        ],
+        "statement_id": "Q2975089$D887BC0B-33B5-40B7-B2EA-0B038CB97FB1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q472675",
+        "label": "弗雷德里克",
+        "label_en": "Frederick",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2975089"
+        ],
+        "statement_id": "Q2975089$9E5A6017-0798-414C-A19C-34FF32CE9452",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·运动装 / 成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2975089",
+        "title": "Wikidata Q2975089 / 克萊爾·麥卡德爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2975089&oldid=2550926634",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550926634,
+        "modified_at": "2026-09-29T16:44:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,116 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店要不要开到县城",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55800",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Oprah Winfrey",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1954–",
+      "birth_year": {
+        "value": 1954,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55800"
+            ],
+            "statement_id": "q55800$4D9DD012-3DB8-4C46-AAAA-304C4D4E00FE",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1954,
+            "raw_time": "+1954-01-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55800"
+        ],
+        "statement_id": "Q55800$B6125EB5-A1F4-4C04-B6E2-B5EE44E914C7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2005238",
+        "label": "科修斯科",
+        "label_en": "Kosciusko",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55800"
+        ],
+        "statement_id": "q55800$44D6E75C-13DB-4C53-A80B-97DA63940714",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q55800"
+          ],
+          "statement_id": "Q55800$100c9516-49bc-9c00-4771-9450763b52b5",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "传媒 / 美国",
+      "genre": "manager"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55800",
+        "title": "Wikidata Q55800 / 奧花·雲費",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55800&oldid=2558200974",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558200974,
+        "modified_at": "2026-10-18T01:49:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

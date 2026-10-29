@@ -43,5 +43,115 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "a letter to yourself ten years from now, written as a voice memo",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234598",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hikaru Utada",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1983–",
+      "birth_year": {
+        "value": 1983,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234598"
+            ],
+            "statement_id": "q234598$FA3ACD84-2C55-44E9-873B-4F51BEC6DF33",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1983,
+            "raw_time": "+1983-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234598"
+        ],
+        "statement_id": "q234598$D3F1B6BE-31EA-462F-91BD-533AE2F9EFD6",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q11299",
+        "label": "曼哈顿",
+        "label_en": "Manhattan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234598"
+        ],
+        "statement_id": "Q234598$2a69f28d-45bd-f2d9-fd1e-56bcd9c05b6d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q234598"
+        ],
+        "statement_id": "Q234598$b33a0d25-4fec-a0d3-c117-00f71b1f660a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日语流行·R&B",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234598",
+        "title": "Wikidata Q234598 / 宇多田光",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234598&oldid=2551712182",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551712182,
+        "modified_at": "2026-10-01T09:37:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

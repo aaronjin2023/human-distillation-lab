@@ -45,5 +45,170 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60858",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Douglas Sirk",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1897–1987",
+      "birth_year": {
+        "value": 1897,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60858"
+            ],
+            "statement_id": "q60858$92938509-62AD-4D60-B53E-6A8A573BE7FC",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1897,
+            "raw_time": "+1897-04-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60858"
+            ],
+            "statement_id": "q60858$D3642FE6-648B-4D67-AA4E-01C2DE08A863",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "q60858$1101AEAB-7DCC-4EC2-AA46-57A7A102225D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "Q60858$3C376455-92E1-45CC-BAC7-60E83C6F9F05",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2079",
+        "label": "莱比锡",
+        "label_en": "Leipzig",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "Q60858$EA9842CC-9123-468C-BDC6-5578BA9D5181",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "Q60858$48eee4e7-4457-852d-c37e-d8755270be91",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q41304",
+        "label": "魏瑪共和国",
+        "label_en": "Weimar Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "Q60858$44669d09-4d3a-0426-a004-695f90c8cb20",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q60858"
+        ],
+        "statement_id": "Q60858$6cd67339-4279-aab3-ba51-0d27d7e06e1d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q713750",
+        "label": "西德",
+        "label_en": "West Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国 / 美国·情节剧"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60858",
+        "title": "Wikidata Q60858 / 道格拉斯·瑟克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60858&oldid=2557857509",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557857509,
+        "modified_at": "2026-10-17T04:21:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Jeanne Paquin, a small Yorkshire terrier sitting on a subway seat, wearing a miniature pastel silk day suit, soft fitted waist, delicate embroidery, powder pink and ivory, elegant and youthful, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q442714",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jeanne Paquin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1869–1936",
+      "birth_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q442714"
+            ],
+            "statement_id": "Q442714$F80D0111-ACD8-475F-A3E8-73CC4975C8F5",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-06-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q442714"
+            ],
+            "statement_id": "Q442714$7594f802-4757-0ce5-020a-d7961b71a9da",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q442714"
+        ],
+        "statement_id": "q442714$52CF67DE-AC85-4AE3-A238-2D79AA1138C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q733971",
+        "label": "利勒圣但尼",
+        "label_en": "L'Île-Saint-Denis",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q442714"
+        ],
+        "statement_id": "q442714$D315BCA8-FD1A-4BEB-A3C7-1228A6B046A4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q442714",
+        "title": "Wikidata Q442714 / Jeanne Paquin",
+        "url": "https://www.wikidata.org/w/index.php?title=Q442714&oldid=2549555803",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549555803,
+        "modified_at": "2026-09-26T07:05:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

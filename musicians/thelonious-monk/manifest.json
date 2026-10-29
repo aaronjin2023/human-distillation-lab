@@ -29,5 +29,129 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q109612",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thelonious Monk",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1982",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q109612"
+            ],
+            "statement_id": "Q109612$B7AA42FF-381B-4564-A2AB-85A6EF64F040",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q109612"
+            ],
+            "statement_id": "Q109612$298351F2-56AA-4B96-BB17-0DE2B8DF7C5E",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-02-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q109612"
+        ],
+        "statement_id": "q109612$F94ED839-AA74-4593-B6EF-1A7E2DF763C3",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1021026",
+        "label": "落基山城",
+        "label_en": "Rocky Mount",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q109612"
+        ],
+        "statement_id": "Q109612$15590A65-93AF-4D19-A580-01E9CD4BB68E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q109612"
+          ],
+          "statement_id": "Q109612$3EA7AB0E-8F9C-4256-82C0-E0A51B59F8A9",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q109612",
+        "title": "Wikidata Q109612 / 塞隆尼斯·孟克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q109612&oldid=2561426917",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561426917,
+        "modified_at": "2026-10-27T12:59:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

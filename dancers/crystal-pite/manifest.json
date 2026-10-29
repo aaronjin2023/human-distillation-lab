@@ -47,5 +47,101 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1142394",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Crystal Pite",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1970–",
+      "birth_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1142394"
+            ],
+            "statement_id": "Q1142394$97D3194A-015B-4207-98A4-30CDA192147E",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-12-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1142394"
+        ],
+        "statement_id": "Q1142394$4632F71E-FD1C-4484-87E6-05A41CB23FC0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1021037",
+        "label": "特尔斯",
+        "label_en": "Terrace",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1142394"
+        ],
+        "statement_id": "Q1142394$C45A58B0-137D-4339-AAF1-4E0B2627282C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1142394",
+        "title": "Wikidata Q1142394 / Crystal Pite",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1142394&oldid=2556875506",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556875506,
+        "modified_at": "2026-10-14T09:46:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

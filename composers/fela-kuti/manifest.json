@@ -31,5 +31,131 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按音乐史通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313868",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fela Kuti",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1938–1997",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313868"
+            ],
+            "statement_id": "q313868$56C8F330-672A-4FA5-8FD5-A1944CE63365",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1997,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313868"
+            ],
+            "statement_id": "q313868$9637101C-0775-42B0-9628-2AA6047BA69B",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1997,
+            "raw_time": "+1997-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313868"
+        ],
+        "statement_id": "Q313868$DB58B66C-48B8-4917-AE1D-D1B813CE1E37",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q206484",
+        "label": "阿贝奥库塔",
+        "label_en": "Abeokuta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313868"
+        ],
+        "statement_id": "Q313868$173A33E9-F648-4462-A333-0C43EE4121DE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1033",
+        "label": "尼日利亚",
+        "label_en": "Nigeria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q313868"
+          ],
+          "statement_id": "Q313868$77633B95-9DF3-4AB3-852A-7E2216094B6B",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q190168",
+          "label": "约鲁巴人",
+          "label_en": "Yoruba people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "非洲 / 尼日利亚 Afrobeat"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313868",
+        "title": "Wikidata Q313868 / 费拉·库蒂",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313868&oldid=2559176811",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559176811,
+        "modified_at": "2026-10-20T10:25:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

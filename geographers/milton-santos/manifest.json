@@ -30,5 +30,144 @@
   "test_prompt": "In the style of Milton Santos, read a new district's delivery platforms as a shared space: formal apps and informal riders occupy the same streets, and ask what the technical-scientific-informational milieu makes possible there.",
   "test_question_zh": "新城区外卖平台的共享空间",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q945092",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Milton Santos",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1926–2001",
+      "birth_year": {
+        "value": 1926,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q945092"
+            ],
+            "statement_id": "q945092$7BBBB791-50DD-4E67-BEDB-BA616650754D",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1926,
+            "raw_time": "+1926-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q945092"
+            ],
+            "statement_id": "q945092$9E689848-4778-4E51-8B70-6781236D7204",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-06-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q945092"
+        ],
+        "statement_id": "Q945092$016cf11e-463b-3257-099d-1e8346909b2b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1762399",
+        "label": "布罗塔斯-迪马卡乌巴斯",
+        "label_en": "Brotas de Macaúbas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q945092"
+        ],
+        "statement_id": "q945092$782C80F8-FF22-460D-AF15-BA0760A522CE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q945092"
+          ],
+          "statement_id": "Q945092$c8079eaf-4df6-9787-d2f2-14b4b4ce4955",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q388315",
+          "label": "在巴西的非洲文化",
+          "label_en": "African Brazilians",
+          "status": "source_recorded"
+        },
+        {
+          "source_ids": [
+            "WD:Q945092"
+          ],
+          "statement_id": "Q945092$be7269af-4347-88b2-a836-ea12c8ea3aef",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q817393",
+          "label": "黑人",
+          "label_en": "Black people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "field": "巴西·批判地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q945092",
+        "title": "Wikidata Q945092 / 米尔顿·桑托斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q945092&oldid=2548110609",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548110609,
+        "modified_at": "2026-09-21T10:39:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

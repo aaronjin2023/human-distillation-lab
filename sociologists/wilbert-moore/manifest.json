@@ -55,5 +55,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "工厂招工难与用工荒",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2570134",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wilbert E. Moore",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1987",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2570134"
+            ],
+            "statement_id": "Q2570134$5BC476C1-544E-41D2-91EB-D1AE7D9CBA48",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-10-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2570134"
+            ],
+            "statement_id": "Q2570134$946F50B8-D9A3-4176-A091-ACE090A147EF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2570134"
+        ],
+        "statement_id": "Q2570134$1ce74029-4270-33a4-47d0-203eeaf3a26a",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q610930",
+        "label": "艾尔玛",
+        "label_en": "Elma",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2570134"
+        ],
+        "statement_id": "q2570134$DA6F9607-B5DE-4E40-A0A5-C41529A594C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "功能主义·分层与社会变迁"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2570134",
+        "title": "Wikidata Q2570134 / 威爾伯特·摩爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2570134&oldid=2555379874",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555379874,
+        "modified_at": "2026-10-09T17:59:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

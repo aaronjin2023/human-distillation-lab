@@ -38,5 +38,116 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q41488",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wole Soyinka",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1934–",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q41488"
+            ],
+            "statement_id": "q41488$AAE62873-ADA5-459C-BD1B-B5A217C8E0FE",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-07-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q41488"
+        ],
+        "statement_id": "Q41488$04CD70A1-9BE5-43C8-A6C4-E97FEF61FC69",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q206484",
+        "label": "阿贝奥库塔",
+        "label_en": "Abeokuta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q41488"
+        ],
+        "statement_id": "Q41488$5AECFE9A-F6FC-4C0A-9258-7593E2DA251B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1033",
+        "label": "尼日利亚",
+        "label_en": "Nigeria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q41488"
+          ],
+          "statement_id": "Q41488$56A7649C-2E85-4FF5-A6AA-5C5D557AB363",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q190168",
+          "label": "约鲁巴人",
+          "label_en": "Yoruba people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "尼日利亚·诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q41488",
+        "title": "Wikidata Q41488 / 沃莱·索因卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q41488&oldid=2558361801",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558361801,
+        "modified_at": "2026-10-18T11:18:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

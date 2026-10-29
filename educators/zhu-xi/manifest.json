@@ -44,5 +44,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "给中学生上一堂关于如何读一本长书的课（见 style.md 第 7 节）",
   "verification": "2026-10-26 草稿名单 + 通行本核对；《朱子语类》弟子记录口径见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q9397",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhu Xi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1130–1200",
+      "birth_year": {
+        "value": 1130,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9397"
+            ],
+            "statement_id": "q9397$882B438F-D19D-43DB-8334-622F7384818D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1130,
+            "raw_time": "+1130-10-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1200,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q9397"
+            ],
+            "statement_id": "q9397$2505B33E-52E7-4308-8D2E-C1C09CD4D796",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1200,
+            "raw_time": "+1200-04-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q9397"
+        ],
+        "statement_id": "Q9397$DE89B0B0-5134-44BA-981F-E30214B482A3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1198112",
+        "label": "尤溪县",
+        "label_en": "Youxi County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q9397"
+        ],
+        "statement_id": "q9397$53749AE9-BFBA-44CA-AACC-4D84E6E2FF86",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "南宋·理学教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q9397",
+        "title": "Wikidata Q9397 / 朱熹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q9397&oldid=2560903615",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560903615,
+        "modified_at": "2026-10-26T02:43:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

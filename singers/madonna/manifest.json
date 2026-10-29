@@ -44,5 +44,102 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1744",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Madonna",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1744"
+            ],
+            "statement_id": "q1744$cae50dea-434e-090f-ca1f-0637da5f2332",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1744"
+        ],
+        "statement_id": "q1744$acd4d67b-482e-ebdc-1fad-a9b07b9331c1",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q746820",
+        "label": "贝城",
+        "label_en": "Bay City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1744"
+        ],
+        "statement_id": "q1744$BA928D38-F9B7-4377-89C5-F65C456474ED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "流行·舞曲",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1744",
+        "title": "Wikidata Q1744 / 麥當娜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1744&oldid=2561110146",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561110146,
+        "modified_at": "2026-10-26T16:16:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

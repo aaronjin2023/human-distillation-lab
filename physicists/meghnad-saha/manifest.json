@@ -31,5 +31,186 @@
   "test_prompt": "In the style of Meghnad Saha, explain the self-balancing of a shared bicycle: take a balance equation, apply it to the moving bicycle, and let the measured quantities sort themselves into regimes",
   "test_question_zh": "解释共享单车的自平衡",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q377898",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Meghnad Saha",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1956",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q377898"
+            ],
+            "statement_id": "q377898$83BB5E15-CA65-47DF-8A07-079F9CA2BF29",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q377898"
+            ],
+            "statement_id": "q377898$34FAB5E9-CB1A-41FE-B9C6-60CCA7107172",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-02-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q377898"
+        ],
+        "statement_id": "Q377898$59d1b3e5-3b0e-4411-9fb9-e2e176ac9973",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1354",
+        "label": "达卡市",
+        "label_en": "Dhaka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q377898"
+        ],
+        "statement_id": "Q377898$B47D7DF9-DB12-4F31-990E-1B4F06668B9E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q377898"
+        ],
+        "statement_id": "Q377898$df99c43c-487f-c283-d2a4-26ca0d93610c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q377898"
+        ],
+        "statement_id": "Q377898$6AE764F9-C121-4C61-8338-2BC96CAC633E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "天体物理 / 等离子体"
+    },
+    "sources": [
+      {
+        "id": "WD:Q377898",
+        "title": "Wikidata Q377898 / 梅格納德·薩哈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q377898&oldid=2560222568",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560222568,
+        "modified_at": "2026-10-24T06:43:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

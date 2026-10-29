@@ -38,5 +38,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市写字楼前台接待员的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q464497",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Donna Karan",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q464497"
+            ],
+            "statement_id": "q464497$62B4AED5-D631-4F23-A32A-8592FF98D2B7",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q464497"
+        ],
+        "statement_id": "Q464497$6D3DFE6F-B904-4167-8CA2-6B0F467EC3B9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1202211",
+        "label": "森林小丘",
+        "label_en": "Forest Hills",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q464497"
+        ],
+        "statement_id": "q464497$20C8CCAD-6D62-444E-950A-9501B01156AA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q464497",
+        "title": "Wikidata Q464497 / 唐纳·卡兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q464497&oldid=2558022510",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558022510,
+        "modified_at": "2026-10-17T15:51:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

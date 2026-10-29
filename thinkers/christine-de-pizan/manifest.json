@@ -27,5 +27,117 @@
   "thinker": "Christine de Pizan",
   "thinker_zh": "克里斯蒂娜·德·皮桑",
   "verification": "2026-10-26 网络核对：生卒 1364–c.1430、《妇女之城》写于 1404 年 12 月至 1405 年 4 月、三位化身为理性/正直/公义已核实；手稿传承细节未逐项核对。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234816",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Christine de Pizan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1364–c.1430",
+      "birth_year": {
+        "value": 1364,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234816"
+            ],
+            "statement_id": "Q234816$2a042be8-4956-28a4-ff76-37575c8aca7a",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1364,
+            "raw_time": "+1364-09-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1430,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234816"
+            ],
+            "statement_id": "Q234816$5916d515-4d33-a5ae-47ab-3251871a53e3",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1430,
+            "raw_time": "+1430-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234816"
+        ],
+        "statement_id": "q234816$E3AD1428-387A-45DB-95A7-EFFA62197952",
+        "rank": "normal",
+        "reference_count": 7,
+        "qualifiers": {},
+        "qid": "Q641",
+        "label": "威尼斯",
+        "label_en": "Venice",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234816"
+        ],
+        "statement_id": "Q234816$F084BCA8-E1E4-4528-A827-563731F222C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中世纪晚期 / 女性人文主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234816",
+        "title": "Wikidata Q234816 / 克里斯蒂娜·德·皮桑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234816&oldid=2557843798",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557843798,
+        "modified_at": "2026-10-17T03:31:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

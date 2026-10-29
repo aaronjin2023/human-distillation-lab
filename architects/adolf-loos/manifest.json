@@ -44,5 +44,184 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "一座建在山坡上的小住宅（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44323",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adolf Loos",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1870–1933",
+      "birth_year": {
+        "value": 1870,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44323"
+            ],
+            "statement_id": "q44323$3993D55C-B3FA-41B2-97B0-2938F73EEBD1",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1870,
+            "raw_time": "+1870-12-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44323"
+            ],
+            "statement_id": "q44323$BF1F031A-6DE3-4B67-AF46-C20815C32589",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-08-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "q44323$2B3E5A0D-FD8C-48CA-B3EF-38D77059C8D0",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q14960",
+        "label": "布尔诺",
+        "label_en": "Brno",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "Q44323$1f166265-68cb-41aa-a4e4-bb0e61c97a31",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "Q44323$a2f2286e-cd4a-43d7-9e51-1e26f61521d7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "Q44323$971EF71C-356E-4E63-96B5-6E1055AD594E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q33946",
+        "label": "捷克斯洛伐克",
+        "label_en": "Czechoslovakia",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "q44323$89A1F71D-13DE-406D-947F-FF56CD49C6B0",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "Q44323$bb02742e-44c3-e1af-0e08-68668519b0ea",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q33946",
+        "label": "捷克斯洛伐克",
+        "label_en": "Czechoslovakia",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q44323"
+        ],
+        "statement_id": "Q44323$bb38dec8-41fc-190c-8660-f28720178cee",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义先驱",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44323",
+        "title": "Wikidata Q44323 / 阿道夫·路斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44323&oldid=2557598687",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557598687,
+        "modified_at": "2026-10-16T07:15:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

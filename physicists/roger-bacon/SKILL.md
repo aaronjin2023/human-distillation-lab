@@ -35,3 +35,7 @@
 ## 核对记录（v0.1）
 
 - 2026-10-26：生卒与代表作按物理史通说（Wikipedia / Britannica 共识）写，见 manifest.json 的 verification；未逐项核对原文出处者见 known_gaps
+
+## 基本资料与筛选
+
+生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。

@@ -45,5 +45,154 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q19504",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fritz Lang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1890–1976",
+      "birth_year": {
+        "value": 1890,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19504"
+            ],
+            "statement_id": "q19504$F1B194F1-134F-496A-AFEE-F2995261045D",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1890,
+            "raw_time": "+1890-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q19504"
+            ],
+            "statement_id": "q19504$55311AC4-636A-4360-8736-927FB1ACD5BB",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q19504"
+        ],
+        "statement_id": "q19504$D6DEEB06-2D21-4DE9-9270-E2460165497B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q19504"
+        ],
+        "statement_id": "q19504$22DEF6C1-DB56-415F-9433-29988F555B7D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q19504"
+        ],
+        "statement_id": "q19504$6C399A24-68B4-41BD-BB70-4A85D941630E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1939-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q19504"
+        ],
+        "statement_id": "q19504$9D925553-3E8E-4716-9FD1-6BB8F585DC26",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国 / 美国·表现主义 / 黑色电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q19504",
+        "title": "Wikidata Q19504 / 弗里茨·朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q19504&oldid=2560437112",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560437112,
+        "modified_at": "2026-10-24T21:24:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

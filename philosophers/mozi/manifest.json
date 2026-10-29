@@ -40,5 +40,117 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "拼单与共享经济的利弊",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q272411",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mozi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.470–c.391 BCE",
+      "birth_year": {
+        "value": -470,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272411"
+            ],
+            "statement_id": "Q272411$21E79E8F-3CB9-4EDE-98BB-C89480BEC7D9",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -470,
+            "raw_time": "-0470-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -391,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q272411"
+            ],
+            "statement_id": "Q272411$BAFA1578-069F-452D-9EC2-F4D125C7223B",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -391,
+            "raw_time": "-0391-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q272411"
+        ],
+        "statement_id": "Q272411$f3bb4186-492c-7d94-89c2-20a5aea40ef1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q736936",
+        "label": "鲁国",
+        "label_en": "Lu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q272411"
+        ],
+        "statement_id": "Q272411$3F5AEF48-892B-4966-968D-967F0C8C34C1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q35216",
+        "label": "周朝",
+        "label_en": "Zhou dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "墨家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q272411",
+        "title": "Wikidata Q272411 / 墨子",
+        "url": "https://www.wikidata.org/w/index.php?title=Q272411&oldid=2561440804",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561440804,
+        "modified_at": "2026-10-27T13:51:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

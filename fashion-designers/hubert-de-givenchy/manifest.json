@@ -43,5 +43,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Hubert de Givenchy, a modern ballet theatre front-of-house uniform, little black dress, clean line, sack silhouette, black and white, understated luxury, Audrey Hepburn grace, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q167318",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hubert de Givenchy",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1927–2018",
+      "birth_year": {
+        "value": 1927,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167318"
+            ],
+            "statement_id": "q167318$3B4AEED5-CBD6-47F2-9BE4-44CA493C0189",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1927,
+            "raw_time": "+1927-02-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2018,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q167318"
+            ],
+            "statement_id": "Q167318$8e4ba14b-4870-463a-c487-44329148a389",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2018,
+            "raw_time": "+2018-03-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q167318"
+        ],
+        "statement_id": "q167318$A9936968-55F3-4023-B5F5-1DB88217E185",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q174257",
+        "label": "博韦",
+        "label_en": "Beauvais",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q167318"
+        ],
+        "statement_id": "q167318$27BD5B2F-3DDE-4D6C-8441-690F01D10194",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴黎·高级定制",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q167318",
+        "title": "Wikidata Q167318 / 于貝爾·詹姆斯·馬賽·塔芬·德·紀梵希",
+        "url": "https://www.wikidata.org/w/index.php?title=Q167318&oldid=2557925648",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557925648,
+        "modified_at": "2026-10-17T08:31:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

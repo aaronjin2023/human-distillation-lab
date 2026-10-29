@@ -48,5 +48,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家连锁咖啡店店员干不久怎么办",
   "verification": "2026-10-26 网络核对存疑项（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q142881",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frederick Herzberg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1923–2000",
+      "birth_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q142881"
+            ],
+            "statement_id": "q142881$1F7AD0B8-00D9-420D-AD20-4EDDCB6846BB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q142881"
+            ],
+            "statement_id": "q142881$22544A7B-F027-4CAC-A8A8-86B017D96B95",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q142881"
+        ],
+        "statement_id": "q142881$3EE4EB39-0A90-4E18-83F3-FEA21FFC74D0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q49188",
+        "label": "林恩",
+        "label_en": "Lynn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q142881"
+        ],
+        "statement_id": "q142881$EB033D3E-2502-40E5-9171-B0288AB790E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "组织行为 / 动机理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q142881",
+        "title": "Wikidata Q142881 / 弗雷德里克·欧文·赫茨伯格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q142881&oldid=2554863274",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554863274,
+        "modified_at": "2026-10-08T04:28:46Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

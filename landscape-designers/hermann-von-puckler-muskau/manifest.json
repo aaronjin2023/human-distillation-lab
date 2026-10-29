@@ -43,5 +43,158 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "郊野湿地公园（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿与园林史通说写；穆斯考公园跨国界见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61797",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hermann von Pückler-Muskau",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1785–1871",
+      "birth_year": {
+        "value": 1785,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61797"
+            ],
+            "statement_id": "q61797$573FCFEF-A3A4-4225-BD8B-88A575160C87",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1785,
+            "raw_time": "+1785-10-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61797"
+            ],
+            "statement_id": "q61797$7FF1FC01-BDEC-4706-976D-6EA4E45EE359",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61797"
+        ],
+        "statement_id": "q61797$1E59B244-C4D9-4657-AA8B-A07B801C5B30",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q659070",
+        "label": "Schloss Muskau",
+        "label_en": "Schloss Muskau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q61797"
+        ],
+        "statement_id": "Q61797$77303CFC-8EB7-42C1-8F74-298C63BCCEE4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q14551273",
+        "label": "Branitz",
+        "label_en": "Branitz",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q61797"
+        ],
+        "statement_id": "Q61797$be36d4c8-4550-5e7d-6f71-91bae3de597c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q165131",
+        "label": "巴特穆斯考",
+        "label_en": "Bad Muskau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q61797"
+        ],
+        "statement_id": "Q61797$30e7056a-467b-b2d6-0839-045b656f7fe6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q797635",
+        "label": "巴贝尔斯堡",
+        "label_en": "Babelsberg",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61797"
+        ],
+        "statement_id": "q61797$0A2799FA-2452-411C-9FF6-3C155AFA6B7C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·风景园",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61797",
+        "title": "Wikidata Q61797 / 赫尔曼·冯·普克勒—穆斯考",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61797&oldid=2559168501",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559168501,
+        "modified_at": "2026-10-20T09:59:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

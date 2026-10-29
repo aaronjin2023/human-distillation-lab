@@ -31,5 +31,101 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板的音乐适配）",
   "test_prompt": "现代题材：一只小约克夏犬坐在地铁座位上（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作以草稿名单为准，英文维基通说对照；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q275900",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Joe Hisaishi",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q275900"
+            ],
+            "statement_id": "q275900$1B2FD049-43DB-4A02-B3E1-56D5FA062290",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-12-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q275900"
+        ],
+        "statement_id": "Q275900$AC6D0C8D-AD97-42C3-BF76-C417F7484AD1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q838652",
+        "label": "中野市",
+        "label_en": "Nakano",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q275900"
+        ],
+        "statement_id": "Q275900$952E5C9D-1877-4A57-8AA5-0F42E99A3153",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本 / 电影音乐"
+    },
+    "sources": [
+      {
+        "id": "WD:Q275900",
+        "title": "Wikidata Q275900 / 久石让",
+        "url": "https://www.wikidata.org/w/index.php?title=Q275900&oldid=2546586717",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546586717,
+        "modified_at": "2026-09-16T08:56:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

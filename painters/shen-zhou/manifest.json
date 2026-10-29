@@ -30,5 +30,117 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 1427–1509、吴门画派、《庐山高》1467 年台北故宫藏、粗笔与没骨花卉、诗书画合一已核对。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q558863",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shen Zhou",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1427–1509",
+      "birth_year": {
+        "value": 1427,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q558863"
+            ],
+            "statement_id": "Q558863$3E86238C-E4F7-42BE-93E4-EFB490810E53",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1427,
+            "raw_time": "+1427-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1509,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q558863"
+            ],
+            "statement_id": "Q558863$F4E3C185-B51E-46BA-8060-7959DFC96182",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1509,
+            "raw_time": "+1509-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q558863"
+        ],
+        "statement_id": "Q558863$B0A71A5F-26B6-4226-AB7D-799F142A5E71",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42622",
+        "label": "苏州市",
+        "label_en": "Suzhou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q558863"
+        ],
+        "statement_id": "Q558863$F992C527-294A-4BC1-A98D-BDAB90267EAA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "明四家 / 吴门画派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q558863",
+        "title": "Wikidata Q558863 / 沈周",
+        "url": "https://www.wikidata.org/w/index.php?title=Q558863&oldid=2558954335",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558954335,
+        "modified_at": "2026-10-19T22:29:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

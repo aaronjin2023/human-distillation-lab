@@ -32,5 +32,117 @@
   "test_prompt": "In the style of Shen Kuo, explain why a phone compass sometimes points off north: start from what the needle actually did in different places, compare it with what the manual promises, and keep the discrepancy until a measurement explains it",
   "test_question_zh": "解释手机指南针为什么有时指北不准",
   "verification": "2026-10-26：生卒 1031–1095 与代表作按物理史通说；磁偏角首载之争已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q270085",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Shen Kuo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1031–1095",
+      "birth_year": {
+        "value": 1031,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270085"
+            ],
+            "statement_id": "Q270085$74410862-00DD-4117-A249-5E6631D61446",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1031,
+            "raw_time": "+1031-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1095,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q270085"
+            ],
+            "statement_id": "Q270085$D7696BEF-ED92-443B-A619-00529BFFD36C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1095,
+            "raw_time": "+1095-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q270085"
+        ],
+        "statement_id": "Q270085$59E41034-224C-4EF1-A893-19AFAAAF0786",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11650262",
+        "label": "钱塘县",
+        "label_en": "Qiantang County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q270085"
+        ],
+        "statement_id": "Q270085$052B01A1-0E6F-4403-A15E-A641921E3B2B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7462",
+        "label": "宋朝",
+        "label_en": "Song dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "磁学 / 光学 / 天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q270085",
+        "title": "Wikidata Q270085 / 沈括",
+        "url": "https://www.wikidata.org/w/index.php?title=Q270085&oldid=2558910324",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558910324,
+        "modified_at": "2026-10-19T20:17:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

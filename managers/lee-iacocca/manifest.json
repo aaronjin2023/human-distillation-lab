@@ -43,5 +43,117 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q281847",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lee Iacocca",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–2019",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281847"
+            ],
+            "statement_id": "q281847$3F10FD31-88A9-4E1F-8D44-68C542305A24",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2019,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q281847"
+            ],
+            "statement_id": "Q281847$43f8784e-47ee-8afd-6efc-8c871e5aa0a1",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2019,
+            "raw_time": "+2019-07-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q281847"
+        ],
+        "statement_id": "q281847$FCD3041E-D77F-4B99-BBFE-F656DAF5D69E",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q142811",
+        "label": "艾伦敦",
+        "label_en": "Allentown",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q281847"
+        ],
+        "statement_id": "q281847$00BDF88E-A4B7-4FA9-96F9-11F604BD4B73",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "汽车"
+    },
+    "sources": [
+      {
+        "id": "WD:Q281847",
+        "title": "Wikidata Q281847 / 李·艾科卡",
+        "url": "https://www.wikidata.org/w/index.php?title=Q281847&oldid=2558112059",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558112059,
+        "modified_at": "2026-10-17T21:13:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

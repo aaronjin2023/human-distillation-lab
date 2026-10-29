@@ -40,5 +40,117 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编为舞蹈）",
   "test_prompt": "In the style of Doris Humphrey, a person buying oden at a convenience store late at night, fall and recovery arcs, breath-driven suspension, flowing group design, water-like movement, serene and suspended",
   "verification": "2026-10-26 网络核对与舞蹈史通说；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q459899",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Doris Humphrey",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1958",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q459899"
+            ],
+            "statement_id": "Q459899$5603D28C-E382-4633-8959-F9A431D4655F",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q459899"
+            ],
+            "statement_id": "Q459899$29E8103A-5F5C-4A6D-AEE1-794BBD1EEECA",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q459899"
+        ],
+        "statement_id": "q459899$B67DB5B5-9D69-44AF-963E-5E32D610914D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q331397",
+        "label": "奥克帕克",
+        "label_en": "Oak Park",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q459899"
+        ],
+        "statement_id": "q459899$BC321352-EDFC-418B-9172-44F15CAFC7AF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国现代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q459899",
+        "title": "Wikidata Q459899 / 朵麗絲．韓福瑞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q459899&oldid=2557857241",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557857241,
+        "modified_at": "2026-10-17T04:20:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -45,5 +45,165 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7374",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Hitchcock",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1980",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7374"
+            ],
+            "statement_id": "q7374$AE6AF70B-8F97-41B1-B6C8-DCFD5F886B7B",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-08-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1980,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7374"
+            ],
+            "statement_id": "q7374$EFACB54C-375A-4018-9800-34766C4F26D5",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1980,
+            "raw_time": "+1980-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7374"
+        ],
+        "statement_id": "q7374$0F368B59-E437-429C-B2A2-8199456F588D",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1368969",
+        "label": "萊頓斯通",
+        "label_en": "Leytonstone",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7374"
+        ],
+        "statement_id": "q7374$3A490A85-BAED-49EE-8587-91D57DFF0F02",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7374"
+        ],
+        "statement_id": "q7374$2823FDF5-560D-4060-BD25-33DF425CA90D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1955-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q7374"
+        ],
+        "statement_id": "Q7374$A78CA75B-E8FF-4EC9-84EF-18E5478FB2A7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国 / 美国·悬疑大师"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7374",
+        "title": "Wikidata Q7374 / 阿尔弗雷德·希区柯克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7374&oldid=2561566339",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561566339,
+        "modified_at": "2026-10-27T23:18:40Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

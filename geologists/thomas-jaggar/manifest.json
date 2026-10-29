@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Thomas Jaggar, judge Kilauea with a rising lava lake and increasing earthquakes: compare the seismic, tilt and lake-level records together, and warn only when the changes move together",
   "test_question_zh": "基拉韦厄熔岩湖水位连日上升、地震频次同步增加，该怎么判断？",
   "verification": "2026-10-26：生卒与代表作按地质草稿 v1 写；瓦因 1939–2024、摩根 1935–2023、勒皮雄 1937–2025、帕特森 4.55 Ga、克拉夫特夫妇 1991-06-03 云仙岳经 web 搜索核对；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3075631",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Jaggar",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1871–1953",
+      "birth_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3075631"
+            ],
+            "statement_id": "q3075631$DAA0876F-29DB-4727-8690-F843FAFF1E16",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3075631"
+            ],
+            "statement_id": "q3075631$3B67CB7E-D301-408A-A3CE-D3E6B161B78B",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3075631"
+        ],
+        "statement_id": "Q3075631$10B869CF-ADCE-40B1-B2F4-3780FD747E09",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3075631"
+        ],
+        "statement_id": "Q3075631$25F70CEA-45DC-4E9D-8214-1DC7A9C0A4F8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "火山学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3075631",
+        "title": "Wikidata Q3075631 / 湯瑪斯·傑格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3075631&oldid=2502265745",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2502265745,
+        "modified_at": "2026-06-05T15:14:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

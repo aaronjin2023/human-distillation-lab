@@ -25,5 +25,117 @@
   "test_prompt": "In the style of William Morris Davis, read a new city's river valley: assign its stage, youth, maturity or old age, and say what the cycle predicts next",
   "test_question_zh": "一座新城的河谷处于侵蚀循环的哪个阶段，接下来会怎样演变？",
   "verification": "2026-10-26：生卒与代表作按地理学史通说；侵蚀循环的后世评价按学界共识",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q315967",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Morris Davis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1850–1934",
+      "birth_year": {
+        "value": 1850,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315967"
+            ],
+            "statement_id": "q315967$1EFFC434-A75F-4CBF-99C9-127012B79410",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1850,
+            "raw_time": "+1850-02-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q315967"
+            ],
+            "statement_id": "q315967$9BBF79EF-583D-4BE8-B286-A2171893C404",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-02-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q315967"
+        ],
+        "statement_id": "q315967$422D9D01-6953-45D8-BFDC-AF2011A1B5D2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1345",
+        "label": "费城",
+        "label_en": "Philadelphia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q315967"
+        ],
+        "statement_id": "q315967$A3D140E4-A7AC-4932-8D03-158032818862",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·地貌学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q315967",
+        "title": "Wikidata Q315967 / 威廉·莫里斯·戴维斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q315967&oldid=2558283222",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558283222,
+        "modified_at": "2026-10-18T06:22:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

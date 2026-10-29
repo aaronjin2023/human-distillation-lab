@@ -43,5 +43,126 @@
   "verification": "2026-10-26：生卒与代表作按草稿与文学史通说写；未逐一核对到原文出处，见 known_gaps 与 conflicts.md",
   "version": "0.1",
   "writer": "Virgil",
-  "writer_zh": "维吉尔"
+  "writer_zh": "维吉尔",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1398",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Virgil",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "70–19 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1398"
+            ],
+            "statement_id": "Q1398$93EF1252-1586-4A14-9D37-B7BA41A52D3A",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 18195782,
+                  "id": "Q18195782"
+                }
+              ]
+            },
+            "value": -70,
+            "raw_time": "-0070-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -19,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1398"
+            ],
+            "statement_id": "Q1398$A5C209E2-09CB-4026-B8B6-7E42F2ACF91C",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": -19,
+            "raw_time": "-0019-09-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1398"
+        ],
+        "statement_id": "Q1398$9DCB07E5-5C64-4ABC-B32D-469FB93A36DF",
+        "rank": "preferred",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q491753",
+        "label": "Andes",
+        "label_en": "Andes",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1398"
+        ],
+        "statement_id": "Q1398$528450A8-1451-4778-8D09-4DFCDC87F7CB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1747689",
+        "label": "古罗马",
+        "label_en": "Ancient Rome",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "罗马·史诗",
+      "genre": "史诗"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1398",
+        "title": "Wikidata Q1398 / 维吉尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1398&oldid=2561035456",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561035456,
+        "modified_at": "2026-10-26T10:27:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

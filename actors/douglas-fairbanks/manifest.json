@@ -47,5 +47,118 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104127",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Douglas Fairbanks",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1939",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104127"
+            ],
+            "statement_id": "q104127$DDD2C957-C34C-4A37-A372-86208A6324EB",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-05-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104127"
+            ],
+            "statement_id": "q104127$CEEA31E6-FD6C-491C-B6C1-9CAC98A5B87B",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-12-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104127"
+        ],
+        "statement_id": "q104127$A832C562-D8D8-465A-A830-8BCF56741277",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q16554",
+        "label": "丹佛",
+        "label_en": "Denver",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104127"
+        ],
+        "statement_id": "q104127$6CC26EE3-630D-4EAE-9D71-1B72900010E1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104127",
+        "title": "Wikidata Q104127 / 范朋克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104127&oldid=2557857492",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557857492,
+        "modified_at": "2026-10-17T04:21:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

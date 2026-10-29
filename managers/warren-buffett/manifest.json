@@ -43,5 +43,101 @@
   "template": "managers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代管理题材",
   "verification": "2026-10-26 网络核对部分关键事实；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47213",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Warren Buffett",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1930–",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47213"
+            ],
+            "statement_id": "q47213$E8260234-543C-45F0-990D-D40983654E40",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47213"
+        ],
+        "statement_id": "q47213$09425DB7-4597-44FC-A3DA-F1E0CDBA15ED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43199",
+        "label": "奥马哈",
+        "label_en": "Omaha",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47213"
+        ],
+        "statement_id": "q47213$67009A7D-55BB-4F54-A470-414DA47859C7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "投资 / 控股"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47213",
+        "title": "Wikidata Q47213 / 沃伦·巴菲特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47213&oldid=2561434224",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561434224,
+        "modified_at": "2026-10-27T13:28:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

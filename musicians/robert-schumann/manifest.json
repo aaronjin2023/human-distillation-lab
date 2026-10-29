@@ -30,5 +30,131 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿第 8 节来源与英文维基通说核对；作品编号 / 调性 / 版本争议记 conflicts.md，不绑定单一版本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7351",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Schumann",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1810–1856",
+      "birth_year": {
+        "value": 1810,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7351"
+            ],
+            "statement_id": "Q7351$8f90f9d7-4551-d620-eb55-4ba3b3c6f3d1",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1810,
+            "raw_time": "+1810-06-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7351"
+            ],
+            "statement_id": "q7351$5FBA6777-8EA2-4185-975C-CC26B0A067BB",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7351"
+        ],
+        "statement_id": "q7351$7660305B-FF5E-46D2-A9FF-EDF6C5E59432",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3778",
+        "label": "茨维考",
+        "label_en": "Zwickau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q7351"
+        ],
+        "statement_id": "Q7351$410A5DEF-96F3-41AB-B33E-C83129E419C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23968",
+        "label": "诺德奈",
+        "label_en": "Norderney",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7351"
+        ],
+        "statement_id": "Q7351$DBD9C1B5-3C4C-4D0B-8AA7-E31912699764",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q153015",
+        "label": "萨克森王国",
+        "label_en": "Kingdom of Saxony",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 德国"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7351",
+        "title": "Wikidata Q7351 / 罗伯特·舒曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7351&oldid=2561293258",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561293258,
+        "modified_at": "2026-10-27T03:21:09Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

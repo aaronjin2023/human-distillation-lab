@@ -43,5 +43,145 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人是否该为自助结账机漏扫的商品付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q153034",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emmanuel Levinas",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1995",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153034"
+            ],
+            "statement_id": "q153034$07B50752-FBB9-4EF0-B80D-A0C5B94E68B1",
+            "rank": "preferred",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q153034"
+            ],
+            "statement_id": "q153034$2DF9EF1D-3547-4514-B116-67CA1E06DBB3",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q153034"
+        ],
+        "statement_id": "q153034$9C419E30-F304-40D3-9D31-8311EAB66675",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q4115712",
+        "label": "考纳斯",
+        "label_en": "Kaunas",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q153034"
+        ],
+        "statement_id": "q153034$6418170A-6FF8-4F28-B261-EFB82755FE42",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q153034"
+        ],
+        "statement_id": "Q153034$6266BA60-8C0B-400D-ABBE-3375877C9171",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q37",
+        "label": "立陶宛",
+        "label_en": "Lithuania",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q153034"
+          ],
+          "statement_id": "Q153034$C6BEA60A-D412-421C-8673-8F7A8755A7EF",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q34069",
+          "label": "阿什肯納茲猶太人",
+          "label_en": "Ashkenazi Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "伦理学·他者哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q153034",
+        "title": "Wikidata Q153034 / 伊曼纽尔·列维纳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q153034&oldid=2557869167",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557869167,
+        "modified_at": "2026-10-17T05:03:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

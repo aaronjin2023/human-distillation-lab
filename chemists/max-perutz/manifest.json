@@ -32,5 +32,165 @@
   "test_prompt": "In the style of Max Perutz, solve a new oxygen-carrying protein: first grow crystals and collect complete diffraction data, then solve the structure in both oxygenated and deoxygenated states, and only claim a mechanism when the conformational change matches the functional data",
   "test_question_zh": "解析一种新型携氧蛋白的结构与功能关系",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q78480",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Max Perutz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–2002",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78480"
+            ],
+            "statement_id": "q78480$64AD3E22-6698-460A-B580-F4A9E985AA97",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-05-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2002,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78480"
+            ],
+            "statement_id": "q78480$390E80A1-B647-4E1D-BDA7-F4098D1A3AD8",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 2002,
+            "raw_time": "+2002-02-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q78480"
+        ],
+        "statement_id": "Q78480$7F746927-BFED-4CA5-B57D-2C064226D528",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q78480"
+        ],
+        "statement_id": "q78480$EAD4591A-DFD9-423E-9D8F-7252D9CB42D4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1941-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q78480"
+        ],
+        "statement_id": "q78480$E84F8D76-6881-41CA-AE8A-302CF5FBB3A4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q78480"
+        ],
+        "statement_id": "Q78480$228AD981-8D6D-44B3-B1F5-C03467ABECC6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "结构生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q78480",
+        "title": "Wikidata Q78480 / 马克斯·佩鲁茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q78480&oldid=2558455415",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558455415,
+        "modified_at": "2026-10-18T16:41:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

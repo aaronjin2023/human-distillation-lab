@@ -39,5 +39,158 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q125727",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Fritz Neumark",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1900–1991",
+      "birth_year": {
+        "value": 1900,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q125727"
+            ],
+            "statement_id": "Q125727$CCB12848-2BAB-405E-9B92-450929EE4403",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1900,
+            "raw_time": "+1900-07-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1991,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q125727"
+            ],
+            "statement_id": "Q125727$DF787A4C-39F4-4376-8EB6-B97FE15F66CC",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1991,
+            "raw_time": "+1991-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q125727"
+        ],
+        "statement_id": "q125727$0D6D6306-5B1D-44AE-B0A5-4F933AE4F8B4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q125727"
+        ],
+        "statement_id": "Q125727$F6A687E0-5EBC-4372-A2ED-82A69367BD03",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1794",
+        "label": "美因河畔法兰克福",
+        "label_en": "Frankfurt",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q125727"
+        ],
+        "statement_id": "Q125727$E0D60E07-0DC2-4247-B87F-A1BC8F96F398",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q406",
+        "label": "伊斯坦布尔",
+        "label_en": "Istanbul",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q125727"
+        ],
+        "statement_id": "Q125727$F2A63CE7-6414-445E-90F1-041AE2AE8B3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1715",
+        "label": "汉诺威",
+        "label_en": "Hanover",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q125727"
+        ],
+        "statement_id": "q125727$D03426CA-112A-4D24-B7EB-B875F5A081C3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·税收原则体系",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q125727",
+        "title": "Wikidata Q125727 / Fritz Neumark",
+        "url": "https://www.wikidata.org/w/index.php?title=Q125727&oldid=2561318460",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561318460,
+        "modified_at": "2026-10-27T04:43:21Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

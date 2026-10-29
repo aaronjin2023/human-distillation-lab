@@ -29,5 +29,141 @@
   "test_prompt": "In the method of Robert Hadfield, design a wear-resistant steel for a crusher liner. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "为破碎机衬板设计一种耐磨钢",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3435328",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Hadfield",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1858–1940",
+      "birth_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3435328"
+            ],
+            "statement_id": "Q3435328$0E0FE147-AEF4-4FB4-9A4B-E84F2480FF43",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-11-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1940,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3435328"
+            ],
+            "statement_id": "Q3435328$68F9366B-EB1B-4700-90B4-890FAC3735A6",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1940,
+            "raw_time": "+1940-09-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3435328"
+        ],
+        "statement_id": "Q3435328$4E7D5833-D30E-4550-969F-18B21A90D0CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42448",
+        "label": "谢菲尔德",
+        "label_en": "Sheffield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3435328"
+        ],
+        "statement_id": "Q3435328$B2D6420C-B8E3-4285-9CE5-E6F4C9F96151",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3435328"
+        ],
+        "statement_id": "Q3435328$09183D7B-67B2-41CE-AB88-7C02E94ACB89",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "合金钢"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3435328",
+        "title": "Wikidata Q3435328 / 罗伯特·哈德菲尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3435328&oldid=2556812049",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556812049,
+        "modified_at": "2026-10-14T05:42:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

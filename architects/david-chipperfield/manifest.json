@@ -42,5 +42,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q707020",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Chipperfield",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q707020"
+            ],
+            "statement_id": "Q707020$54398C12-06A4-4A52-85F0-1BAA84D97A16",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-12-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q707020"
+        ],
+        "statement_id": "Q707020$2BC18580-4552-4D44-85DE-9F330BB1812E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q707020"
+        ],
+        "statement_id": "Q707020$93CA403B-2EA4-4753-BF00-ACA057B31966",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代 / 极简",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q707020",
+        "title": "Wikidata Q707020 / 戴卫·奇普菲尔德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q707020&oldid=2553153650",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553153650,
+        "modified_at": "2026-10-04T19:09:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

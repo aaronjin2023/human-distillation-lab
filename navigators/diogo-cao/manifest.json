@@ -37,5 +37,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Diogo Cão, an uncrewed survey vessel works down an unknown coast in 2026, river mouth by river mouth, planting a marker at each headland, logging soundings and latitudes.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313060",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diogo Cão",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1452–1486",
+      "birth_year": {
+        "value": 1452,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313060"
+            ],
+            "statement_id": "Q313060$0C60DD8C-40D9-4AA8-93A2-80C28E1F4A26",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1452,
+            "raw_time": "+1452-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1486,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313060"
+            ],
+            "statement_id": "Q313060$34D31C33-40F3-44BA-A429-C7B0B5CD9EAA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1486,
+            "raw_time": "+1486-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313060"
+        ],
+        "statement_id": "q313060$A6518964-0033-4D7D-978B-E2F3F1D2C8E9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q503856",
+        "label": "雷阿尔城",
+        "label_en": "Vila Real",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313060"
+        ],
+        "statement_id": "Q313060$A7D6CA54-E035-4B43-A644-E6FA098F7ADE",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q45670",
+        "label": "葡萄牙王國",
+        "label_en": "Kingdom of Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·西非大西洋沿岸",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313060",
+        "title": "Wikidata Q313060 / 迪奥戈·康",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313060&oldid=2557855105",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557855105,
+        "modified_at": "2026-10-17T04:12:05Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

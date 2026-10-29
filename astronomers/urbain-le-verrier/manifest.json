@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Urbain Le Verrier, test a modern claim of an unseen ninth planet: collect the residuals of known trans-Neptunian objects, invert the perturbation to predict the unseen planet's position tonight, publish the coordinates with uncertainty, and report the Vulcan-style failure mode if the telescope finds nothing there",
   "test_question_zh": "检验“未见的第九行星”的宣称",
   "verification": "生卒 1811–1877、海王星预报 1846 年、水星进动与火神星假说按天文史通说（Wikipedia / Britannica 共识）写；优先权争议已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104154",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Urbain Le Verrier",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1811–1877",
+      "birth_year": {
+        "value": 1811,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104154"
+            ],
+            "statement_id": "q104154$0D1F435E-969F-415F-AB4E-3D5524363590",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1811,
+            "raw_time": "+1811-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1877,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104154"
+            ],
+            "statement_id": "q104154$E114D531-1E13-4EF3-B131-DD3E4CAC114E",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1877,
+            "raw_time": "+1877-09-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104154"
+        ],
+        "statement_id": "q104154$94C134C6-0BC4-4BE8-93F7-5E9ADBEC3755",
+        "rank": "normal",
+        "reference_count": 6,
+        "qualifiers": {},
+        "qid": "Q181704",
+        "label": "圣洛",
+        "label_en": "Saint-Lô",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q104154"
+        ],
+        "statement_id": "Q104154$5A33F8FC-C752-4AE5-8C0D-D253C2AC8411",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104154"
+        ],
+        "statement_id": "q104154$24599ABC-ADA2-47BE-B674-44880512C5ED",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·行星摄动"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104154",
+        "title": "Wikidata Q104154 / 于尔班·勒维耶",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104154&oldid=2559021948",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559021948,
+        "modified_at": "2026-10-20T02:03:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

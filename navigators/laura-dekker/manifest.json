@@ -35,5 +35,102 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Laura Dekker, a small Yorkshire terrier rides the subway alone at fourteen stops old. It fixes its position by the station signs, stops only to rest, and grows up along the whole line in 518 stops.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q61606",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Laura Dekker",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1995–",
+      "birth_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q61606"
+            ],
+            "statement_id": "q61606$9C5BEEA6-E66E-4266-AECB-F0CD5CE897F8",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-09-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q61606"
+        ],
+        "statement_id": "Q61606$628700FB-A25F-4024-ADC0-C3315D89EE31",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q744239",
+        "label": "旺阿雷",
+        "label_en": "Whangārei",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q61606"
+        ],
+        "statement_id": "Q61606$27C52483-EE35-47E0-AE5D-181F57A7DC91",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q29999",
+        "label": "荷兰王国",
+        "label_en": "Kingdom of the Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "I. 环球与单人航海",
+      "genre": "I. 环球与单人航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q61606",
+        "title": "Wikidata Q61606 / 蘿拉 戴可",
+        "url": "https://www.wikidata.org/w/index.php?title=Q61606&oldid=2532286304",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2532286304,
+        "modified_at": "2026-08-17T10:41:18Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

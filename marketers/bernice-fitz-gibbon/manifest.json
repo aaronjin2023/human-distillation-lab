@@ -35,5 +35,103 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a brand campaign for a late-night convenience store",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4894284",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bernice Fitz-Gibbon",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1894–1982",
+      "birth_year": {
+        "value": 1894,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4894284"
+            ],
+            "statement_id": "Q4894284$30C1402D-9F6F-4A7F-B65C-E83EF0590D7E",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1894,
+            "raw_time": "+1894-09-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1982,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4894284"
+            ],
+            "statement_id": "Q4894284$675D3202-331C-47A9-BCEE-02AFEA0787B6",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": 1982,
+            "raw_time": "+1982-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4894284"
+        ],
+        "statement_id": "Q4894284$c303c9ec-4b48-d065-0bc5-108113e7eba4",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1246532",
+        "label": "Waunakee",
+        "label_en": "Waunakee",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "零售广告文案"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4894284",
+        "title": "Wikidata Q4894284 / Bernice Fitz-Gibbon",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4894284&oldid=2518405071",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2518405071,
+        "modified_at": "2026-07-17T00:33:52Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,186 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a small Yorkshire terrier sits on a subway seat",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q465021",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rukmini Devi Arundale",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1904–1986",
+      "birth_year": {
+        "value": 1904,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465021"
+            ],
+            "statement_id": "q465021$F2DC7B1B-1744-426A-865A-9A238334B21A",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1904,
+            "raw_time": "+1904-02-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q465021"
+            ],
+            "statement_id": "q465021$507E32CB-F3BF-4BAB-92B9-564D736C041B",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1986,
+            "raw_time": "+1986-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q465021"
+        ],
+        "statement_id": "q465021$8D6A0043-5C0A-4BFE-BF78-B581FB2D60B5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q228405",
+        "label": "马杜赖",
+        "label_en": "Madurai",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q465021"
+        ],
+        "statement_id": "q465021$A52B7EFC-F71D-4722-8734-8F73550AFCBA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q465021"
+        ],
+        "statement_id": "Q465021$8D611356-13F0-49BB-B95A-3B6C1825B0F2",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-08-14T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q465021"
+        ],
+        "statement_id": "Q465021$64A26E4A-4279-4124-87FA-B028E61DA0B5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-08-15T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1775277",
+        "label": "印度联邦",
+        "label_en": "Dominion of India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "婆罗多舞·复兴者 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q465021",
+        "title": "Wikidata Q465021 / 拉克米妮·達維·埃蘭德爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q465021&oldid=2548109650",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548109650,
+        "modified_at": "2026-09-21T10:32:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

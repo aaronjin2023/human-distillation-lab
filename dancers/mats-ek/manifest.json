@@ -47,5 +47,101 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q646397",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mats Ek",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1945–",
+      "birth_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q646397"
+            ],
+            "statement_id": "Q646397$54378C16-B2F2-4835-B432-833A73657A34",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-04-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q646397"
+        ],
+        "statement_id": "Q646397$3F9104A1-41C4-4B54-857C-0614818EA6C2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2211",
+        "label": "马尔默",
+        "label_en": "Malmö",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q646397"
+        ],
+        "statement_id": "Q646397$E40FCE73-E549-43C5-9F43-D478D5FE6CEA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q646397",
+        "title": "Wikidata Q646397 / 麦茨·埃克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q646397&oldid=2558162067",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558162067,
+        "modified_at": "2026-10-17T23:42:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

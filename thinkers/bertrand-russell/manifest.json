@@ -32,5 +32,166 @@
   "thinker": "Bertrand Russell",
   "thinker_zh": "伯特兰·罗素",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q33760",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Bertrand Russell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1872–1970",
+      "birth_year": {
+        "value": 1872,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33760"
+            ],
+            "statement_id": "q33760$1023DFDB-900A-4D7A-B788-58A848A2A507",
+            "rank": "normal",
+            "reference_count": 18,
+            "qualifiers": {},
+            "value": 1872,
+            "raw_time": "+1872-05-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q33760"
+            ],
+            "statement_id": "q33760$E97FB0E0-D5DE-418D-B275-0BB5A5EAC218",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-02-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q33760"
+        ],
+        "statement_id": "q33760$0F45E3F5-F0B9-4FFA-BB28-DAFFBE9BEAA1",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3057926",
+        "label": "特里莱赫",
+        "label_en": "Trellech",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q33760"
+        ],
+        "statement_id": "Q33760$e6773190-ca33-4a92-81da-822183f1ca61",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q21",
+        "label": "英格兰",
+        "label_en": "England",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q33760"
+        ],
+        "statement_id": "Q33760$62e395eb-4c82-c102-b1ee-bd5dfce99636",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q33760"
+        ],
+        "statement_id": "Q33760$EBCD5278-9DE9-4BB3-8546-68D8428F6E6C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1927-04-12T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学 / 逻辑原子主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q33760",
+        "title": "Wikidata Q33760 / 伯特兰·罗素",
+        "url": "https://www.wikidata.org/w/index.php?title=Q33760&oldid=2560251215",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560251215,
+        "modified_at": "2026-10-24T09:34:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

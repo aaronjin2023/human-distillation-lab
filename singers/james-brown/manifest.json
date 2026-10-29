@@ -44,5 +44,145 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "凌晨的机场（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与音乐史通说核对，无出入；未逐条贴出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5950",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Brown",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–2006",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5950"
+            ],
+            "statement_id": "q5950$8AA43941-CF31-41FC-B7A8-584E36E4680E",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-05-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2006,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5950"
+            ],
+            "statement_id": "q5950$92AB5F55-9F46-40B4-893E-7C5D49776FB0",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 2006,
+            "raw_time": "+2006-12-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5950"
+        ],
+        "statement_id": "Q5950$B6A5AB21-62E9-4BCF-90E6-AF08D0B4EE0C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q586262",
+        "label": "巴恩韦尔",
+        "label_en": "Barnwell",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5950"
+        ],
+        "statement_id": "Q5950$70D7D98C-CB66-4F40-97E8-265F36CC6AED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q181962",
+        "label": "奥古斯塔",
+        "label_en": "Augusta",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5950"
+        ],
+        "statement_id": "q5950$E38AB888-2E08-43BC-8BCD-63320A85FF99",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5950"
+          ],
+          "statement_id": "Q5950$311AE49B-101A-4369-9A96-7A52DB2735A4",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "灵魂·放克",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5950",
+        "title": "Wikidata Q5950 / 詹姆士·布朗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5950&oldid=2557948593",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557948593,
+        "modified_at": "2026-10-17T10:18:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

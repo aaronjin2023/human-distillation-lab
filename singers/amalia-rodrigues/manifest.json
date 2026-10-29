@@ -44,5 +44,131 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "唱一首关于深夜渔港边渔民遗孀补网的歌（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿与英文维基通说核对；争议项以 web 搜索核对（见 conflicts.md）；录音版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q214813",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Amália Rodrigues",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1999",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q214813"
+            ],
+            "statement_id": "q214813$EB7BBE0F-2B93-48ED-A5B9-054D0E764F8A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q214813"
+            ],
+            "statement_id": "q214813$B9740511-E972-4EC2-9DC9-FB9AA91BF421",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-10-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q214813"
+        ],
+        "statement_id": "q214813$C37AAE0E-66B6-4535-8173-33AAC91F6971",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1233617",
+        "label": "Freguesia da Pena",
+        "label_en": "Freguesia da Pena",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q214813"
+        ],
+        "statement_id": "Q214813$2AB80084-F46D-44FA-8B7A-F7960787EC4D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q597",
+        "label": "里斯本",
+        "label_en": "Lisbon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q214813"
+        ],
+        "statement_id": "Q214813$2963021C-05C2-415F-9A6C-F6537C8AE1C3",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q45",
+        "label": "葡萄牙",
+        "label_en": "Portugal",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "葡萄牙·法朵",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q214813",
+        "title": "Wikidata Q214813 / 亞美莉亞·羅德里奎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q214813&oldid=2546594396",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546594396,
+        "modified_at": "2026-09-16T09:22:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

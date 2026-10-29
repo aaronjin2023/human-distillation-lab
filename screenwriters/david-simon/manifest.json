@@ -38,5 +38,102 @@
   "verification": "2026-10-26 网络核对（存疑项已记入 conflicts.md）；未核对项见 known_gaps",
   "version": "0.1",
   "writer": "David Simon",
-  "writer_zh": "大卫·西蒙"
+  "writer_zh": "大卫·西蒙",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q720435",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "David Simon",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1960–",
+      "birth_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q720435"
+            ],
+            "statement_id": "Q720435$6ba6f2f4-4925-e78c-9243-c84393144323",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q720435"
+        ],
+        "statement_id": "Q720435$C491B5C3-2E92-4816-BAFD-3350A7682E49",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q61",
+        "label": "华盛顿哥伦比亚特区",
+        "label_en": "Washington, D.C.",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q720435"
+        ],
+        "statement_id": "q720435$0BBFE35B-C462-4C2A-973A-F85DACE631C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·当代剧集",
+      "genre": "screenwriter"
+    },
+    "sources": [
+      {
+        "id": "WD:Q720435",
+        "title": "Wikidata Q720435 / 大卫·西蒙",
+        "url": "https://www.wikidata.org/w/index.php?title=Q720435&oldid=2554482658",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554482658,
+        "modified_at": "2026-10-07T10:26:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

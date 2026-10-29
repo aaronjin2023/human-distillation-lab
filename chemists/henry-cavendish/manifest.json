@@ -1,35 +1,171 @@
 {
- "chemist": "Henry Cavendish",
- "chemist_zh": "亨利·卡文迪许",
- "dates": "1731–1810",
- "field": "气体化学",
- "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #11",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "氢气（可燃空气）的研究",
-  "水的组成测定",
-  "空气成分测定"
- ],
- "sources": [
-  "Wikipedia 'Henry Cavendish' https://en.wikipedia.org/wiki/Henry_Cavendish",
-  "Britannica 'Henry Cavendish' https://www.britannica.com/biography/Henry-Cavendish"
- ],
- "test_prompt": "In the style of Henry Cavendish, design a plan to measure the composition of a gas mixture: repeat volume measurements until they agree, cross-check with weighing, and state what disagreement would make you redo the work.",
- "test_question_zh": "如何精密测定一种混合气体的组成？",
- "verification": "2026-10-26：生卒、氢气、水组成、空气成分按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "卡文迪许生前发表极少，大量实验据后世整理本，原文年代核对有限",
-  "水组成实验的具体数值未逐项核对原始记录",
-  "与瓦特、拉瓦锡的优先权原始文献未逐一核对"
- ]
+  "chemist": "Henry Cavendish",
+  "chemist_zh": "亨利·卡文迪许",
+  "dates": "1731–1810",
+  "field": "气体化学",
+  "list_position": "化学家草稿 v1 B 气体、定量化学与近代化学奠基 #11",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "氢气（可燃空气）的研究",
+    "水的组成测定",
+    "空气成分测定"
+  ],
+  "sources": [
+    "Wikipedia 'Henry Cavendish' https://en.wikipedia.org/wiki/Henry_Cavendish",
+    "Britannica 'Henry Cavendish' https://www.britannica.com/biography/Henry-Cavendish"
+  ],
+  "test_prompt": "In the style of Henry Cavendish, design a plan to measure the composition of a gas mixture: repeat volume measurements until they agree, cross-check with weighing, and state what disagreement would make you redo the work.",
+  "test_question_zh": "如何精密测定一种混合气体的组成？",
+  "verification": "2026-10-26：生卒、氢气、水组成、空气成分按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "卡文迪许生前发表极少，大量实验据后世整理本，原文年代核对有限",
+    "水组成实验的具体数值未逐项核对原始记录",
+    "与瓦特、拉瓦锡的优先权原始文献未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q131733",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry Cavendish",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1731–1810",
+      "birth_year": {
+        "value": 1731,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131733"
+            ],
+            "statement_id": "q131733$BAB745F2-0285-4501-9D4D-572D4B923B74",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1731,
+            "raw_time": "+1731-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1810,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q131733"
+            ],
+            "statement_id": "q131733$30B35574-D5E7-4263-BF53-46B9D6AD0D27",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1810,
+            "raw_time": "+1810-02-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q131733"
+        ],
+        "statement_id": "q131733$02047BBC-21B8-4C98-B56A-98AAF3707175",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q33959",
+        "label": "尼斯",
+        "label_en": "Nice",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q131733"
+        ],
+        "statement_id": "Q131733$95324BDE-532E-4595-961E-A622B3867A1A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q131733"
+        ],
+        "statement_id": "Q131733$596FC6AC-865B-43EF-B769-1E909C25D60A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "气体化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q131733",
+        "title": "Wikidata Q131733 / 亨利·卡文迪什",
+        "url": "https://www.wikidata.org/w/index.php?title=Q131733&oldid=2557919044",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557919044,
+        "modified_at": "2026-10-17T07:58:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

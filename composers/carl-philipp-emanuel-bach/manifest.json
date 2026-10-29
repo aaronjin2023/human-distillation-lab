@@ -32,5 +32,170 @@
   "test_prompt": "一只坐在地铁座位上的小约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76428",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Philipp Emanuel Bach",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1714–1788",
+      "birth_year": {
+        "value": 1714,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76428"
+            ],
+            "statement_id": "q76428$D7C6D5A9-3CEA-4A8E-A7B3-6A1B867064EC",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1714,
+            "raw_time": "+1714-03-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1788,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76428"
+            ],
+            "statement_id": "q76428$D45E43A3-DDBA-4213-9069-14F4649FF0F1",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1788,
+            "raw_time": "+1788-12-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "q76428$5494A001-DF07-436D-8454-3FE07A79694B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q3955",
+        "label": "魏玛",
+        "label_en": "Weimar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "Q76428$D84330A1-654E-48F2-924A-4E4D6AE62476",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "Q76428$5394945B-AB5C-44EF-977B-5D1DB1F1A48A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1055",
+        "label": "汉堡",
+        "label_en": "Hamburg",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "Q76428$daa861fc-49e6-0b05-27ab-d25c49a1d47f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q4024",
+        "label": "奥得河畔法兰克福",
+        "label_en": "Frankfurt (Oder)",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "Q76428$C21F65D2-1FCC-4DE8-A763-809D68286B05",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16085",
+        "label": "新鲁平",
+        "label_en": "Neuruppin",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76428"
+        ],
+        "statement_id": "Q76428$a8f17262-47aa-027c-cc36-cd8fd25e6c14",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典过渡 / 情感风格"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76428",
+        "title": "Wikidata Q76428 / 卡尔·菲利普·埃马努埃尔·巴赫",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76428&oldid=2557830692",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557830692,
+        "modified_at": "2026-10-17T02:28:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

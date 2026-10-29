@@ -29,5 +29,101 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Zhang Xingdong, design a flexible conductive material for a wearable device. Control pore structure and phase composition first, prove induction in animals, then claim application.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**生年核对**：1938 年 4 月生，草稿第 5 节已核对（Wikipedia）。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q20062754",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Zhang Xingdong",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q20062754"
+            ],
+            "statement_id": "Q20062754$80085492-29d2-4e40-a1e4-bea6eb2fa3f8",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q20062754"
+        ],
+        "statement_id": "Q20062754$89E14FCC-EC60-47AF-969F-F6B800049E82",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q426996",
+        "label": "南充市",
+        "label_en": "Nanchong",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q20062754"
+        ],
+        "statement_id": "Q20062754$2a2f3981-49f0-b043-3d3c-5b6719d5082a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "生物陶瓷 / 诱导成骨"
+    },
+    "sources": [
+      {
+        "id": "WD:Q20062754",
+        "title": "Wikidata Q20062754 / 张兴栋",
+        "url": "https://www.wikidata.org/w/index.php?title=Q20062754&oldid=2516242723",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516242723,
+        "modified_at": "2026-07-11T11:42:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

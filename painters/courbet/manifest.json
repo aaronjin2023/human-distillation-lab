@@ -29,5 +29,144 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "清晨菜市场（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《奥尔南的葬礼》1849–1850 年、315×668cm；《画室》1854–1855 年；库尔贝 1819–1877",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q34618",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gustave Courbet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1819–1877",
+      "birth_year": {
+        "value": 1819,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34618"
+            ],
+            "statement_id": "q34618$9AADBF99-1889-45B2-955B-69B92B783BFC",
+            "rank": "normal",
+            "reference_count": 22,
+            "qualifiers": {},
+            "value": 1819,
+            "raw_time": "+1819-06-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1877,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q34618"
+            ],
+            "statement_id": "q34618$23C7B2C2-DCE9-4613-BE9E-01BBB922FD05",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1877,
+            "raw_time": "+1877-12-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q34618"
+        ],
+        "statement_id": "Q34618$CB495517-8FA3-4BDD-B12A-D8F17C963786",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q499537",
+        "label": "奥尔南",
+        "label_en": "Ornans",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q34618"
+        ],
+        "statement_id": "Q34618$8C229052-94E5-4460-8999-16618550A156",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q34618"
+        ],
+        "statement_id": "Q34618$140A1E93-BF25-47A3-B80C-7BF3EC4A5045",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q499537",
+        "label": "奥尔南",
+        "label_en": "Ornans",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q34618"
+        ],
+        "statement_id": "q34618$9FBCFEC8-FA61-4B57-8346-7557E36EF665",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现实主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q34618",
+        "title": "Wikidata Q34618 / 居斯塔夫·库尔贝",
+        "url": "https://www.wikidata.org/w/index.php?title=Q34618&oldid=2561607044",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561607044,
+        "modified_at": "2026-10-28T06:42:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,118 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q166835",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wallace Stevens",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1879–1955",
+      "birth_year": {
+        "value": 1879,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q166835"
+            ],
+            "statement_id": "q166835$7192FE93-4266-48AB-AEB0-89926B713801",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1879,
+            "raw_time": "+1879-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q166835"
+            ],
+            "statement_id": "q166835$33D3C940-7690-4552-AE6B-EF4304DA03D9",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-08-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q166835"
+        ],
+        "statement_id": "q166835$BDE20745-7ACC-488F-94F7-A16BEF705918",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q237896",
+        "label": "雷丁",
+        "label_en": "Reading",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q166835"
+        ],
+        "statement_id": "q166835$8F51B738-FE13-4950-B9F3-D9B1ED3EC471",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·现代主义诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q166835",
+        "title": "Wikidata Q166835 / 华莱士·史蒂文斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q166835&oldid=2561125758",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561125758,
+        "modified_at": "2026-10-26T17:18:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -27,5 +27,117 @@
   "status": "draft v0.1",
   "test_prompt": "一次地震后的跨国救援行动",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q188936",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Tecumseh Sherman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1820–1891",
+      "birth_year": {
+        "value": 1820,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188936"
+            ],
+            "statement_id": "q188936$D49402EE-53EC-41F7-8858-0DB4D8892173",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1820,
+            "raw_time": "+1820-02-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1891,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q188936"
+            ],
+            "statement_id": "q188936$A2BDC5BA-12CE-4EDC-BC6B-830EE5B2D9F8",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1891,
+            "raw_time": "+1891-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q188936"
+        ],
+        "statement_id": "q188936$6BA66938-9EEC-4FD2-A9CF-AE15FDE41F05",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q6257637",
+        "label": "John Sherman Birthplace",
+        "label_en": "John Sherman Birthplace",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q188936"
+        ],
+        "statement_id": "q188936$1FB13BD1-EC42-4346-ADAC-C81CC985C4CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·内战"
+    },
+    "sources": [
+      {
+        "id": "WD:Q188936",
+        "title": "Wikidata Q188936 / 威廉·特库姆塞·舍曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q188936&oldid=2558284449",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558284449,
+        "modified_at": "2026-10-18T06:28:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

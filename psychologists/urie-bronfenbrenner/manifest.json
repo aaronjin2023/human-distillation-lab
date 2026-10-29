@@ -43,5 +43,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q643339",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Urie Bronfenbrenner",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–2005",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q643339"
+            ],
+            "statement_id": "Q643339$7CCDBB44-9742-4E94-9C30-7F0CB363A08D",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-04-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2005,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q643339"
+            ],
+            "statement_id": "Q643339$1112C3D7-CEA7-495B-B420-CC7108A59DF0",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 2005,
+            "raw_time": "+2005-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q643339"
+        ],
+        "statement_id": "q643339$862C55D7-7BB2-4550-AE3D-5AD8BEFBCD35",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q649",
+        "label": "莫斯科",
+        "label_en": "Moscow",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q643339"
+        ],
+        "statement_id": "q643339$0F291FE2-1E3C-4249-A16B-85521B35611E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "发展心理学 / 生态系统理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q643339",
+        "title": "Wikidata Q643339 / 尤里·布朗芬布伦纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q643339&oldid=2522836399",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2522836399,
+        "modified_at": "2026-07-26T09:20:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

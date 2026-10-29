@@ -36,5 +36,141 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of James Clark Ross, an uncrewed survey ship works along an ice shelf in 2026, fixing magnetic variation at many points, charting the shelf edge segment by segment. No claim about the pole from a single fix.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q200564",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Clark Ross",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1800–1862",
+      "birth_year": {
+        "value": 1800,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200564"
+            ],
+            "statement_id": "Q200564$2757EBD4-3764-4180-AA44-337A0E72E31D",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1800,
+            "raw_time": "+1800-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1862,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q200564"
+            ],
+            "statement_id": "Q200564$4C2ED44A-D059-472E-9D7C-FBCBBDDF24D6",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1862,
+            "raw_time": "+1862-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q200564"
+        ],
+        "statement_id": "Q200564$da9092b9-46c4-0d8b-586b-c941fb9626b8",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q5450927",
+        "label": "芬斯伯里廣場",
+        "label_en": "Finsbury Square",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q200564"
+        ],
+        "statement_id": "Q200564$643E01FB-C71D-4537-B309-5FE7C12EB7BF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q200564"
+        ],
+        "statement_id": "Q200564$6414A9CC-A358-46C7-97E7-CA1C7F1DC919",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1801-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·南极"
+    },
+    "sources": [
+      {
+        "id": "WD:Q200564",
+        "title": "Wikidata Q200564 / 詹姆斯·克拉克·罗斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q200564&oldid=2557948925",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557948925,
+        "modified_at": "2026-10-17T10:19:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

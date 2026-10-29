@@ -47,5 +47,155 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q77181",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Emil Jannings",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1884–1950",
+      "birth_year": {
+        "value": 1884,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77181"
+            ],
+            "statement_id": "q77181$45919DB5-A1AD-4251-A9CA-3A59E5C8A476",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1884,
+            "raw_time": "+1884-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q77181"
+            ],
+            "statement_id": "q77181$49306603-FD96-41E6-9615-39AAEE2223B3",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q77181"
+        ],
+        "statement_id": "q77181$5F776EC2-CB87-498D-873A-5CB972E37540",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q68250",
+        "label": "罗尔沙赫",
+        "label_en": "Rorschach",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q77181"
+        ],
+        "statement_id": "q77181$12B4DAD7-3E63-4C6D-8943-8415338447CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q77181"
+        ],
+        "statement_id": "Q77181$8c23e59e-48b0-65d3-764e-3a4117384627",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q77181"
+        ],
+        "statement_id": "Q77181$3f983581-439a-2d45-0f34-ba711d093932",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1948-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国·默片/早期有声",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q77181",
+        "title": "Wikidata Q77181 / 埃米爾·傑寧斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q77181&oldid=2557868574",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557868574,
+        "modified_at": "2026-10-17T05:01:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

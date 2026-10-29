@@ -42,5 +42,117 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编，诗人版）",
   "test_prompt": "a letter to oneself ten years from now",
   "verification": "2026-10-26 网络核对存疑生卒；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q203782",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Shangyin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.813–858",
+      "birth_year": {
+        "value": 813,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203782"
+            ],
+            "statement_id": "q203782$2540255b-4633-08d3-c314-4dfc25aeda62",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 813,
+            "raw_time": "+0813-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q203782"
+            ],
+            "statement_id": "q203782$cc911326-4402-565e-c75f-bf2a616f73d5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 858,
+            "raw_time": "+0858-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q203782"
+        ],
+        "statement_id": "Q203782$e5fbaacb-5374-4d49-ad2e-5aaff6b9a06f",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1360089",
+        "label": "荥阳市",
+        "label_en": "Xingyang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q203782"
+        ],
+        "statement_id": "Q203782$8677F255-7A92-4117-A5B2-28ECD00909E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9683",
+        "label": "唐朝",
+        "label_en": "Tang dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "唐·无题诗 / 咏史"
+    },
+    "sources": [
+      {
+        "id": "WD:Q203782",
+        "title": "Wikidata Q203782 / 李商隐",
+        "url": "https://www.wikidata.org/w/index.php?title=Q203782&oldid=2556810508",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556810508,
+        "modified_at": "2026-10-14T05:38:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

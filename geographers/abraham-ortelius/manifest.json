@@ -31,5 +31,174 @@
   "test_prompt": "In the style of Abraham Ortelius, gather the best delivery-zone map for every district, name the source of each, and bind them into one atlas that can be revised zone by zone.",
   "test_question_zh": "一本外卖配送区的地图集",
   "verification": "生卒与代表作按草稿 v1（地理学史通说）；《世界概观》1570 年为学界共识。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q232916",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abraham Ortelius",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1527–1598",
+      "birth_year": {
+        "value": 1527,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232916"
+            ],
+            "statement_id": "Q232916$3b7ff430-4e6c-9f1b-0693-6f1086e5bebc",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1527,
+            "raw_time": "+1527-04-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q232916"
+            ],
+            "statement_id": "Q232916$6FF47588-5F47-4EE9-A050-DDCA245E7345",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1527,
+            "raw_time": "+1527-04-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1598,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q232916"
+            ],
+            "statement_id": "q232916$6383FBB8-8CF8-4E49-BA48-0EB4230EC56D",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1598,
+            "raw_time": "+1598-06-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q232916"
+            ],
+            "statement_id": "Q232916$6701DD7D-16B1-4955-A0B3-57B511A40E0F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1598,
+            "raw_time": "+1598-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q232916"
+        ],
+        "statement_id": "q232916$A12695C9-1FF0-4C9D-AF8C-1DE18965C82F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q232916"
+        ],
+        "statement_id": "Q232916$F7170674-F160-4BCE-AF94-A86A11C06163",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q31467408",
+        "label": "Antwerp",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q232916"
+        ],
+        "statement_id": "Q232916$54EED0ED-4302-4258-9DE1-2F637B53BE7A",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q12892",
+        "label": "安特卫普",
+        "label_en": "Antwerp",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q232916"
+        ],
+        "statement_id": "Q232916$A31A509D-0273-406C-A5A5-57EEA003F318",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q622783",
+        "label": "西屬尼德蘭",
+        "label_en": "Spanish Netherlands",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "佛兰德·地图集"
+    },
+    "sources": [
+      {
+        "id": "WD:Q232916",
+        "title": "Wikidata Q232916 / 亚伯拉罕·奥特柳斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q232916&oldid=2558938979",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558938979,
+        "modified_at": "2026-10-19T21:46:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

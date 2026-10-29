@@ -30,5 +30,128 @@
   "test_prompt": "In the style of C. V. Raman, explain a quantum computer: look at the faint signal first, trust the small shifted line over the bright obvious one, and build the picture from what the spectrum actually shows",
   "test_question_zh": "解释一台量子计算机",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q60429",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "C. V. Raman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1888–1970",
+      "birth_year": {
+        "value": 1888,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60429"
+            ],
+            "statement_id": "q60429$8C50A579-E810-4576-AE5A-F3E578F84F32",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1888,
+            "raw_time": "+1888-11-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q60429"
+            ],
+            "statement_id": "q60429$79DADFF1-BAEC-4999-B731-33A62BFA9E37",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-11-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q60429"
+        ],
+        "statement_id": "Q60429$B1404B5E-37A0-490C-A51B-AA8057FA7CEB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q207754",
+        "label": "蒂鲁吉拉帕利",
+        "label_en": "Tiruchirappalli",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q60429"
+        ],
+        "statement_id": "Q60429$c4bd3aae-4b4c-4f85-36cd-b4d9c48026ec",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "光学 / 散射"
+    },
+    "sources": [
+      {
+        "id": "WD:Q60429",
+        "title": "Wikidata Q60429 / 钱德拉塞卡拉·拉曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q60429&oldid=2557825830",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557825830,
+        "modified_at": "2026-10-17T02:00:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

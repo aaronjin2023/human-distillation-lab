@@ -44,5 +44,143 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "甘地风格：为乡村孩子设计一堂关于人工智能的课。从手艺出发：让孩子边纺纱边问机器能做什么、不能做什么，读写算都从手上的活计里长出来，结尾落到自立——我们村自己能造什么，不依赖城市。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1001",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mohandas Gandhi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1869–1948",
+      "birth_year": {
+        "value": 1869,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1001"
+            ],
+            "statement_id": "q1001$C1A77886-2618-462E-961B-96D5AE36FF45",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1869,
+            "raw_time": "+1869-10-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1001"
+            ],
+            "statement_id": "q1001$2C92ECDC-AAF6-42E8-A844-0EE9006484A5",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-01-30T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1001"
+        ],
+        "statement_id": "q1001$5B61B6D6-1F01-4959-AC42-01096B133942",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q6419912",
+        "label": "坡尔班达尔",
+        "label_en": "Porbandar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1001"
+        ],
+        "statement_id": "Q1001$1E0886A4-D0E7-4C21-92E8-3D06A16F8097",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q1001"
+          ],
+          "statement_id": "Q1001$41330A73-ED4B-4068-9BE7-578D29003734",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q1282294",
+          "label": "古吉拉特人",
+          "label_en": "Gujarati people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "印度基础教育",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1001",
+        "title": "Wikidata Q1001 / 圣雄甘地",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1001&oldid=2559532451",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559532451,
+        "modified_at": "2026-10-21T16:12:58Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

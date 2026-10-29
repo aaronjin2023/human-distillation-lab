@@ -35,5 +35,87 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a launch campaign for an AI earphone brand",
   "verification": "2026-10-26 草稿核对 + web 搜索核对存疑项；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6396753",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kevin Lane Keller",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1956–（在世）",
+      "birth_year": {
+        "value": 1956,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6396753"
+            ],
+            "statement_id": "Q6396753$765D318D-00CE-458A-BD46-0FFAB18C9CCF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1956,
+            "raw_time": "+1956-06-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6396753"
+        ],
+        "statement_id": "Q6396753$116C3F4B-FD11-4EBA-8135-568F2AE3B156",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "品牌资产理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6396753",
+        "title": "Wikidata Q6396753 / Kevin Lane Keller",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6396753&oldid=2513903383",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513903383,
+        "modified_at": "2026-07-04T19:32:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,102 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "波斯纳风格：一份成本收益分析，论老旧小区加装电梯的费用分摊：谁受益、谁付钱、哪条规则使总成本最小？没有数字的权利修辞不要写。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q533583",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Richard Posner",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q533583"
+            ],
+            "statement_id": "Q533583$1AE2C9BB-9A9E-4077-A705-DA7D1C07AEAC",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q533583"
+        ],
+        "statement_id": "Q533583$AF7FEB5F-EC89-4E62-9890-2077F63BD662",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q533583"
+        ],
+        "statement_id": "q533583$31FB82EB-4475-4991-A41A-8B63B0F53DA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法律经济学",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q533583",
+        "title": "Wikidata Q533583 / 理查德·A·波斯纳",
+        "url": "https://www.wikidata.org/w/index.php?title=Q533583&oldid=2522011383",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2522011383,
+        "modified_at": "2026-07-24T08:25:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

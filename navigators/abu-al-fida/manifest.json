@@ -35,5 +35,104 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Abu al-Fida, an uncrewed cargo ship crosses the Indian Ocean in 2026, logged as a table of ports with coordinates, distances in degrees, and trade goods at each call.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q311462",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abu al-Fida",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1273–1331",
+      "birth_year": {
+        "value": 1273,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311462"
+            ],
+            "statement_id": "Q311462$b1d4ffba-4754-b896-3517-95a9842878d6",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1273,
+            "raw_time": "+1273-11-00T00:00:00Z",
+            "precision": 10,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1331,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q311462"
+            ],
+            "statement_id": "q311462$F5E09785-3B95-4D8E-9622-93102446416D",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1331,
+            "raw_time": "+1331-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q311462"
+        ],
+        "statement_id": "q311462$87BD1A2E-72E3-4DAB-BBC0-35E8C7C38675",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3766",
+        "label": "大马士革",
+        "label_en": "Damascus",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "阿拉伯·航海地理",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q311462",
+        "title": "Wikidata Q311462 / 阿布·菲达",
+        "url": "https://www.wikidata.org/w/index.php?title=Q311462&oldid=2559094758",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559094758,
+        "modified_at": "2026-10-20T05:45:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

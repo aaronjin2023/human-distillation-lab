@@ -36,5 +36,101 @@
   "template": "marketers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一家本地咖啡馆的感官品牌方案",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2895021",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Martin Lindstrom",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1970–（在世）",
+      "birth_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2895021"
+            ],
+            "statement_id": "Q2895021$393964BB-F5BA-463A-99CC-5FBCB9DA2197",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2895021"
+        ],
+        "statement_id": "Q2895021$1464D085-7F1F-4BEE-8377-6184C44D2066",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q35",
+        "label": "丹麦",
+        "label_en": "Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2895021"
+        ],
+        "statement_id": "Q2895021$AA01699C-C897-4E8A-8587-7858D8D91444",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "感官品牌理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2895021",
+        "title": "Wikidata Q2895021 / Martin Lindstrom",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2895021&oldid=2521240108",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2521240108,
+        "modified_at": "2026-07-22T17:23:37Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

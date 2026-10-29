@@ -32,5 +32,117 @@
   "test_prompt": "黄昏时分的高铁车窗外",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
   "version": "0.1",
-  "living_person": false
+  "living_person": false,
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q189766",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Luigi Boccherini",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1743–1805",
+      "birth_year": {
+        "value": 1743,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189766"
+            ],
+            "statement_id": "q189766$B47479DD-AD5F-48AB-B05D-EC13254436BD",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1743,
+            "raw_time": "+1743-02-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1805,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q189766"
+            ],
+            "statement_id": "q189766$2FDE537F-6A30-484A-8999-D8E6D1D364AB",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1805,
+            "raw_time": "+1805-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q189766"
+        ],
+        "statement_id": "q189766$69EC4A0F-CF4F-4DEF-AFCD-A017298803BD",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q13373",
+        "label": "卢卡",
+        "label_en": "Lucca",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q189766"
+        ],
+        "statement_id": "Q189766$1558cb3f-4240-db50-fed5-871a42ea87ff",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1235720",
+        "label": "卢卡共和国",
+        "label_en": "Republic of Lucca",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "古典主义 / 意大利—西班牙"
+    },
+    "sources": [
+      {
+        "id": "WD:Q189766",
+        "title": "Wikidata Q189766 / 路易吉·博凯里尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q189766&oldid=2561796616",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561796616,
+        "modified_at": "2026-10-28T20:32:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

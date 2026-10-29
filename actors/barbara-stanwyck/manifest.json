@@ -37,5 +37,131 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q94002",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Barbara Stanwyck",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1907–1990",
+      "birth_year": {
+        "value": 1907,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q94002"
+            ],
+            "statement_id": "q94002$CCCFA0C4-20F7-417D-A101-71AF8D4FB03C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1907,
+            "raw_time": "+1907-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q94002"
+            ],
+            "statement_id": "q94002$82CF315F-8AFD-4DAA-BB44-C970CB9D771D",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q94002"
+        ],
+        "statement_id": "q94002$D8127BA7-1B38-4FDD-BB61-7F7EAB837C3C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q94002"
+        ],
+        "statement_id": "Q94002$A9C9F8D6-DD3C-4228-8E1E-DAAF89A55978",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q94002"
+        ],
+        "statement_id": "q94002$7CCA4D1D-D869-44C1-920F-821C8CF30EEA",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·好莱坞黄金时代"
+    },
+    "sources": [
+      {
+        "id": "WD:Q94002",
+        "title": "Wikidata Q94002 / 芭芭拉·斯坦威克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q94002&oldid=2557807424",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557807424,
+        "modified_at": "2026-10-17T00:54:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

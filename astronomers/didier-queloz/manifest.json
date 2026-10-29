@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Didier Queloz, characterise a new exoplanet atmosphere: take its transit spectrum, retrieve the composition, and report the degeneracies honestly before naming any molecule",
   "test_question_zh": "这颗系外行星大气里有什么？",
   "verification": "生年 1966 年、飞马座 51b 共同发现 1995 年、2019 年诺贝尔奖经 web 搜索核对（草稿第 7 节，Britannica）；在世，只蒸已发表成果物",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q124013",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Didier Queloz",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1966–",
+      "birth_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q124013"
+            ],
+            "statement_id": "Q124013$4643FBDF-320F-414F-9994-2963BC859B9E",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q124013"
+        ],
+        "statement_id": "Q124013$fc9ee7fb-4b19-678d-a4c7-632a1de62a5b",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q71",
+        "label": "日内瓦",
+        "label_en": "Geneva",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q124013"
+        ],
+        "statement_id": "Q124013$381D95E1-7AF3-4AED-9F61-162DA1E49E7D",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q39",
+        "label": "瑞士",
+        "label_en": "Switzerland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "瑞士·系外行星"
+    },
+    "sources": [
+      {
+        "id": "WD:Q124013",
+        "title": "Wikidata Q124013 / 迪迪埃·奎洛兹",
+        "url": "https://www.wikidata.org/w/index.php?title=Q124013&oldid=2557854260",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557854260,
+        "modified_at": "2026-10-17T04:09:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

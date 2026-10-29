@@ -46,5 +46,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "弗雷内风格：为小学生设计一堂关于人工智能的课。不用课本：孩子写关于遇见的机器人的自由作文，选出的印成班级报纸，寄给外地结对班级，在为真实读者做真实东西里学习。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q313068",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Célestin Freinet",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1896–1966",
+      "birth_year": {
+        "value": 1896,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313068"
+            ],
+            "statement_id": "Q313068$d66ed282-43c2-6983-2344-213f8461ba63",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1896,
+            "raw_time": "+1896-10-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1966,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q313068"
+            ],
+            "statement_id": "Q313068$73929B7E-0BED-4135-9D06-CC30830886CB",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1966,
+            "raw_time": "+1966-10-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q313068"
+        ],
+        "statement_id": "q313068$ADCAC668-8AC4-4889-B55D-43F5FA7A4BD4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q732974",
+        "label": "加尔",
+        "label_en": "Gars",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q313068"
+        ],
+        "statement_id": "q313068$6810A71A-E60E-4087-A73E-447C572B3F63",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代学校运动",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q313068",
+        "title": "Wikidata Q313068 / 瑟勒斯坦·佛勒内",
+        "url": "https://www.wikidata.org/w/index.php?title=Q313068&oldid=2557848310",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557848310,
+        "modified_at": "2026-10-17T03:49:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

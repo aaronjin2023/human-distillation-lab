@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "窗台上的咖啡（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q229513",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sarah Vaughan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–1990",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229513"
+            ],
+            "statement_id": "q229513$484711E1-6BBD-4595-B84A-788442263374",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-03-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229513"
+            ],
+            "statement_id": "q229513$5D7F95E8-1B3A-43DC-AA4A-7C5AFA6040CF",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-04-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q229513"
+        ],
+        "statement_id": "q229513$00C82DC2-4D99-4728-B7D5-1503BEBD6406",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q25395",
+        "label": "纽瓦克",
+        "label_en": "Newark",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q229513"
+        ],
+        "statement_id": "Q229513$FF7F16A3-9B61-4DDE-BC09-B050E964B67E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q229513"
+          ],
+          "statement_id": "Q229513$72ECD587-EE06-458B-89B6-AE72C0B5F9D9",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·比波普",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q229513",
+        "title": "Wikidata Q229513 / 莎拉·沃恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q229513&oldid=2558233996",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558233996,
+        "modified_at": "2026-10-18T03:41:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

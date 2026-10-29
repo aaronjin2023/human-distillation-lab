@@ -56,5 +56,117 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店里的排队",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15948",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Émile Durkheim",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1858–1917",
+      "birth_year": {
+        "value": 1858,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15948"
+            ],
+            "statement_id": "q15948$510D15A0-4425-4E70-AF38-70130482D6AC",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1858,
+            "raw_time": "+1858-04-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15948"
+            ],
+            "statement_id": "q15948$63ED3611-0329-4C12-99C5-2E9E18FC1F4F",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-11-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15948"
+        ],
+        "statement_id": "q15948$969BC075-3AC1-4B20-B035-C07AAFA9569E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q173695",
+        "label": "埃皮纳勒",
+        "label_en": "Épinal",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15948"
+        ],
+        "statement_id": "Q15948$d97b48b4-497e-ca11-ecf4-d69d2f1741cb",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会学奠基·社会事实"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15948",
+        "title": "Wikidata Q15948 / 埃米尔·涂尔干",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15948&oldid=2561518245",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561518245,
+        "modified_at": "2026-10-27T19:29:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

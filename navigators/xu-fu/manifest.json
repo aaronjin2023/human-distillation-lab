@@ -37,5 +37,102 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Xu Fu as the Records tell it, a fleet sails east in 2026 seeking something that cannot be found, its log kept strictly as legend: what the text says, what it does not say, and no landing claimed as fact.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q700302",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xu Fu",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "c.255–c.210 BCE",
+      "birth_year": {
+        "value": -255,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q700302"
+            ],
+            "statement_id": "Q700302$39fabb1d-44da-e7cc-bfa5-c96c32ea8f3f",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -255,
+            "raw_time": "-0255-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -210,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q700302"
+        ],
+        "statement_id": "Q700302$7689F165-0DD5-49E7-AF0D-A82E4D62A1C0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q837855",
+        "label": "齊國",
+        "label_en": "Qi",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q700302"
+        ],
+        "statement_id": "Q700302$D9C5FC0C-2FFF-44C6-B698-BBAD3623F5DF",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7183",
+        "label": "秦朝",
+        "label_en": "Qin dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "中国·东海",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q700302",
+        "title": "Wikidata Q700302 / 徐福",
+        "url": "https://www.wikidata.org/w/index.php?title=Q700302&oldid=2557574204",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557574204,
+        "modified_at": "2026-10-16T05:18:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

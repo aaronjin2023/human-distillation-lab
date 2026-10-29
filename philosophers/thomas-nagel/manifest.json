@@ -44,5 +44,102 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬：成为它是什么感觉",
   "verification": "2026-10-26 web 核对：在世，living_person=true。只蒸已发表著作；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q350239",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Thomas Nagel",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1937–",
+      "birth_year": {
+        "value": 1937,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q350239"
+            ],
+            "statement_id": "q350239$F3F0954C-7CAE-427B-A41B-64EE1CCE8836",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1937,
+            "raw_time": "+1937-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q350239"
+        ],
+        "statement_id": "q350239$9DBDC9DA-9755-4DF0-AB97-52D326F51344",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3711",
+        "label": "贝尔格莱德",
+        "label_en": "Belgrade",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q350239"
+        ],
+        "statement_id": "q350239$C8E925C4-B0FE-4233-B0C0-CCFAF3BFBFC9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "分析哲学·心灵哲学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q350239",
+        "title": "Wikidata Q350239 / 汤玛斯·内格尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q350239&oldid=2535777400",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2535777400,
+        "modified_at": "2026-08-24T11:26:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

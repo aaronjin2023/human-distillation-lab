@@ -49,5 +49,144 @@
   ],
   "test_prompt": "外卖平台评分的种族与阶级",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2387448",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Florestan Fernandes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1920–1995",
+      "birth_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2387448"
+            ],
+            "statement_id": "Q2387448$C6BD8DF4-68A8-4893-AB07-25F98589FCE3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-07-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1995,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2387448"
+            ],
+            "statement_id": "Q2387448$7249D656-68B4-4546-9E33-860787FDCAA3",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1995,
+            "raw_time": "+1995-08-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2387448"
+        ],
+        "statement_id": "q2387448$327863CD-4FC7-4773-AB68-A719FDB8B509",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174",
+        "label": "圣保罗",
+        "label_en": "São Paulo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q2387448"
+        ],
+        "statement_id": "Q2387448$07C1795E-BEE2-4195-AD8D-F5FB0667AE29",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2844",
+        "label": "巴西利亚",
+        "label_en": "Brasília",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2387448"
+        ],
+        "statement_id": "Q2387448$229e8acb-4281-c039-34ba-d7826845885c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174",
+        "label": "圣保罗",
+        "label_en": "São Paulo",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2387448"
+        ],
+        "statement_id": "q2387448$673C9A86-CC24-4B80-A5D5-99E2EB19B484",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴西·种族与阶级"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2387448",
+        "title": "Wikidata Q2387448 / Florestan Fernandes",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2387448&oldid=2555548461",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2555548461,
+        "modified_at": "2026-10-10T08:35:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

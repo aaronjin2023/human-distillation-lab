@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Cook, chart a new offshore wind-farm sea area coast by coast: fix the latitude by the stars, the longitude by satellite time, and let the chart be so exact that the next captain can sail by it in the dark",
   "test_question_zh": "如何精确测绘一片新的海上风电海域？",
   "verification": "三次航行（1768–1779 年）与卒于 1779 年按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7324",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Cook",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1728–1779",
+      "birth_year": {
+        "value": 1728,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7324"
+            ],
+            "statement_id": "Q7324$1FA6EDBF-36BC-469F-98BE-7DAC5F5BCDE8",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1728,
+            "raw_time": "+1728-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1779,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7324"
+            ],
+            "statement_id": "q7324$1C8F7075-E0E1-495E-AA72-FAD236839994",
+            "rank": "preferred",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1779,
+            "raw_time": "+1779-02-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7324"
+        ],
+        "statement_id": "q7324$B04059CA-CF0B-4B96-B504-8C8F824B0308",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q441541",
+        "label": "马尔顿",
+        "label_en": "Marton",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7324"
+        ],
+        "statement_id": "Q7324$3c7c2482-44c8-e90b-39c5-f0c3d5aea700",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·太平洋探险"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7324",
+        "title": "Wikidata Q7324 / 詹姆斯·库克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7324&oldid=2557948976",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557948976,
+        "modified_at": "2026-10-17T10:19:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

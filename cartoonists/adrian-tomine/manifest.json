@@ -38,5 +38,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在拉面店相对无言的情侣（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q374401",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Adrian Tomine",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1974–",
+      "birth_year": {
+        "value": 1974,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q374401"
+            ],
+            "statement_id": "Q374401$307F5008-A2E8-42A6-BE69-B09DF22D0CC8",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1974,
+            "raw_time": "+1974-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q374401"
+        ],
+        "statement_id": "Q374401$0C9650AD-5B9E-4F6E-9C3D-1D3D4AC14679",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18013",
+        "label": "萨克拉门托",
+        "label_en": "Sacramento",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q374401"
+        ],
+        "statement_id": "q374401$445BFA0A-35D0-4686-B298-70A1F68B78D0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·另类/图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q374401",
+        "title": "Wikidata Q374401 / Adrian Tomine",
+        "url": "https://www.wikidata.org/w/index.php?title=Q374401&oldid=2551512405",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551512405,
+        "modified_at": "2026-09-30T22:44:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

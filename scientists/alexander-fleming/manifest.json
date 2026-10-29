@@ -29,5 +29,117 @@
     "1928年原始论文的抑菌谱数据待原文核对",
     "溶菌酶发现的原始记录待核对"
   ],
-  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps"
+  "verification": "2026-10-26：生卒与代表作以科学家草稿 v1 为准；未逐项核对，见 known_gaps",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q37064",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alexander Fleming",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1881–1955",
+      "birth_year": {
+        "value": 1881,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37064"
+            ],
+            "statement_id": "q37064$E47B6157-9046-4E74-8034-346CB5C18F40",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1881,
+            "raw_time": "+1881-08-06T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q37064"
+            ],
+            "statement_id": "q37064$35921988-29B2-47B1-BCD9-579166684F5F",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-03-11T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q37064"
+        ],
+        "statement_id": "Q37064$DF1FB96D-332E-4FE3-BD04-3E81D7B520E8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q56619307",
+        "label": "Lochfield",
+        "label_en": "Lochfield",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q37064"
+        ],
+        "statement_id": "q37064$3DE750EE-6E07-4E19-A37F-F8D5006775B8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "医学 / 微生物"
+    },
+    "sources": [
+      {
+        "id": "WD:Q37064",
+        "title": "Wikidata Q37064 / 亚历山大·弗莱明",
+        "url": "https://www.wikidata.org/w/index.php?title=Q37064&oldid=2557646034",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557646034,
+        "modified_at": "2026-10-16T11:25:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

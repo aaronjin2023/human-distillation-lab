@@ -44,5 +44,131 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q46739",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Octavio Paz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1914–1998",
+      "birth_year": {
+        "value": 1914,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46739"
+            ],
+            "statement_id": "q46739$1BDC38A6-7732-49E8-923A-4171A85F6D67",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1914,
+            "raw_time": "+1914-03-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q46739"
+            ],
+            "statement_id": "q46739$161D21C5-DAAD-4E7B-964A-0222C292781C",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-04-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q46739"
+        ],
+        "statement_id": "Q46739$84A1DE13-22DF-4DBA-9661-77C86772E16E",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5845392",
+        "label": "Mixcoac",
+        "label_en": "Mixcoac",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q46739"
+        ],
+        "statement_id": "Q46739$262FC246-F63D-4A38-9020-8FF7C7677A98",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q96",
+        "label": "墨西哥",
+        "label_en": "Mexico",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q46739"
+        ],
+        "statement_id": "Q46739$B317788A-B0BB-4092-983B-E59F7B92BE72",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q178038",
+        "label": "西班牙第二共和国",
+        "label_en": "Second Spanish Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "墨西哥·现代诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q46739",
+        "title": "Wikidata Q46739 / 奥克塔维奥·帕斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q46739&oldid=2558187873",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558187873,
+        "modified_at": "2026-10-18T00:57:50Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -36,5 +36,131 @@
   ],
   "test_prompt": "现代题材：一只约克夏犬坐在地铁座位上，通勤者盯着手机",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q38193",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Arthur Schopenhauer",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1788–1860",
+      "birth_year": {
+        "value": 1788,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q38193"
+            ],
+            "statement_id": "q38193$14DAA7E0-A69D-4F53-9541-44703E0E612C",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1788,
+            "raw_time": "+1788-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1860,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q38193"
+            ],
+            "statement_id": "q38193$5C4EE1D4-874B-4F56-A4DA-9BE965A4BCEA",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1860,
+            "raw_time": "+1860-09-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q38193"
+        ],
+        "statement_id": "q38193$483EB138-8BAB-42A5-BA3B-1B971473813D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1792",
+        "label": "格但斯克",
+        "label_en": "Gdańsk",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q38193"
+        ],
+        "statement_id": "Q38193$E38BB132-2AF7-4B1B-8EE9-F5DA79A1C6C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q38193"
+        ],
+        "statement_id": "Q38193$7770974b-4664-cc37-303e-e019efd79cf9",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "德国观念论之后"
+    },
+    "sources": [
+      {
+        "id": "WD:Q38193",
+        "title": "Wikidata Q38193 / 亚瑟·叔本华",
+        "url": "https://www.wikidata.org/w/index.php?title=Q38193&oldid=2561212452",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561212452,
+        "modified_at": "2026-10-26T22:15:04Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -29,5 +29,115 @@
   "template": "musicians-top100-draft.md 第 7 节（画家模板音乐适配）",
   "test_prompt": "现代题材 30 秒配乐（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；Grove Music Online / IMSLP 乐谱目录未逐件核对，见 known_gaps；核心技法未逐件核对，见 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q190933",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Anton Webern",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1883–1945",
+      "birth_year": {
+        "value": 1883,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190933"
+            ],
+            "statement_id": "q190933$222DF823-8F19-4D60-B470-C0C6C71DB528",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1883,
+            "raw_time": "+1883-12-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1945,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q190933"
+            ],
+            "statement_id": "q190933$2239E5E1-C629-486C-A893-6A8270F22387",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1945,
+            "raw_time": "+1945-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q190933"
+        ],
+        "statement_id": "q190933$AC4EC5FF-244D-485F-862E-62D2016A3DF0",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q190933"
+        ],
+        "statement_id": "Q190933$EE15BB54-AE19-41C1-9A08-F7B8D2DB7ECC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q190933",
+        "title": "Wikidata Q190933 / 安东·韦伯恩",
+        "url": "https://www.wikidata.org/w/index.php?title=Q190933&oldid=2557782059",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557782059,
+        "modified_at": "2026-10-16T23:23:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

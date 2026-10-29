@@ -43,5 +43,118 @@
   "template": "tax-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "为一个假想岛国设计一套数字服务增值税（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md 与 known_gaps）；未逐部核对著作原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3084015",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Maurice Lauré",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–2001",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3084015"
+            ],
+            "statement_id": "Q3084015$CC470564-3D1B-4EF4-9621-3920DF98F8BA",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-11-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2001,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3084015"
+            ],
+            "statement_id": "Q3084015$25DB4BF1-A7C7-4E9D-836D-2AF1E188EAC7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2001,
+            "raw_time": "+2001-04-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3084015"
+        ],
+        "statement_id": "Q3084015$8faa5daa-4df5-d8dc-379e-c733b6f9ebb9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q101625",
+        "label": "马拉喀什",
+        "label_en": "Marrakech",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3084015"
+        ],
+        "statement_id": "q3084015$5F56A147-310F-481F-82E5-5B50FBE0387C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·现代增值税设计",
+      "genre": "taxation"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3084015",
+        "title": "Wikidata Q3084015 / Maurice Lauré",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3084015&oldid=2516983079",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2516983079,
+        "modified_at": "2026-07-13T08:49:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

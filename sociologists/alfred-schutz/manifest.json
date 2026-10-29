@@ -47,5 +47,130 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖骑手与顾客的地址沟通",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q94018",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alfred Schutz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1899–1959",
+      "birth_year": {
+        "value": 1899,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q94018"
+            ],
+            "statement_id": "q94018$99767897-AE07-46BB-86D7-C3E347FDC69B",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1899,
+            "raw_time": "+1899-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1959,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q94018"
+            ],
+            "statement_id": "q94018$65244AE7-39DD-40D2-9D4C-02B5C45CBA57",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1959,
+            "raw_time": "+1959-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q94018"
+        ],
+        "statement_id": "q94018$48493DB3-A14F-451C-AED2-E38C8B0A00CD",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q94018"
+        ],
+        "statement_id": "q94018$834C2CD4-1CCE-4EB9-AFB6-CC6C18CA769D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q94018"
+        ],
+        "statement_id": "Q94018$d070c08e-4742-8bbd-5858-64b5edf6a165",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现象学社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q94018",
+        "title": "Wikidata Q94018 / 阿尔弗雷德·舒茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q94018&oldid=2557698998",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557698998,
+        "modified_at": "2026-10-16T17:11:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

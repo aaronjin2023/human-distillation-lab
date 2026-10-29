@@ -36,5 +36,225 @@
   ],
   "test_prompt": "现代题材：自助结账机漏扫了一件商品，当事人是否该付款",
   "verification": "2026-10-26 web 核对：其余按哲学史通说，未核对项已记入 conflicts.md 与 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查概念、论证骨架与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q58586",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Edmund Husserl",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1859–1938",
+      "birth_year": {
+        "value": 1859,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58586"
+            ],
+            "statement_id": "q58586$43B5BAD6-59FB-4C7D-B6CB-4F00B7957228",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1859,
+            "raw_time": "+1859-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q58586"
+            ],
+            "statement_id": "Q58586$9EE5C5EB-8743-45F7-9B62-66F1A7A1822B",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "q58586$E126CE9C-83D5-4848-B882-D77AAA058AE0",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q470445",
+        "label": "普罗斯捷约夫",
+        "label_en": "Prostějov",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "Q58586$747A933D-12C7-4CBE-882E-0E1A8D391B0B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1916-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1938-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q2833",
+        "label": "布赖斯高地区弗赖堡",
+        "label_en": "Freiburg im Breisgau",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "Q58586$f73ddf2d-4aee-c93c-0d28-dab914165d23",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1901-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1916-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "Q58586$68b0c3a0-475b-430f-8916-abeae8645b1b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q28513",
+        "label": "奥匈帝国",
+        "label_en": "Austria–Hungary",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "Q58586$4086D327-FC55-4585-8F7F-6E8855E2791A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q81137",
+        "label": "奥洛穆茨",
+        "label_en": "Olomouc",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "q58586$90B903E8-9B2D-4E71-BFA1-F7D24912F2C3",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q131964",
+        "label": "奥地利帝国",
+        "label_en": "Austrian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q58586"
+        ],
+        "statement_id": "Q58586$033E23A5-8391-4055-9B01-579779734A45",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1206012",
+        "label": "德意志国",
+        "label_en": "German Reich",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现象学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q58586",
+        "title": "Wikidata Q58586 / 埃德蒙·胡塞尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q58586&oldid=2561429355",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561429355,
+        "modified_at": "2026-10-27T13:08:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

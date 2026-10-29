@@ -43,5 +43,88 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一份深夜便利店的关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4738157",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alvin Leung",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1961–",
+      "birth_year": {
+        "value": 1961,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4738157"
+            ],
+            "statement_id": "Q4738157$148A63FA-BAE7-4075-8A0F-51D4BE702E5D",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1961,
+            "raw_time": "+1961-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4738157"
+        ],
+        "statement_id": "Q4738157$60B8CA0C-7A6F-47A1-8EE9-3956964BCFFD",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "粤·分子中餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4738157",
+        "title": "Wikidata Q4738157 / 梁经伦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4738157&oldid=2529291189",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2529291189,
+        "modified_at": "2026-08-09T17:30:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

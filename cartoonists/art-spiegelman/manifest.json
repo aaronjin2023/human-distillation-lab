@@ -43,5 +43,130 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里读旧照片的老人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q325945",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Art Spiegelman",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q325945"
+            ],
+            "statement_id": "q325945$5F7527D8-E42B-4D95-A137-A4E40D8440F5",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-02-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q325945"
+        ],
+        "statement_id": "q325945$9C34C171-96E0-4C9E-9505-3F8E214A9E24",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1754",
+        "label": "斯德哥尔摩",
+        "label_en": "Stockholm",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q325945"
+        ],
+        "statement_id": "Q325945$3698A082-57E6-4FCA-BF4A-FC4FEEB4F8C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q325945"
+        ],
+        "statement_id": "Q325945$d6d09437-4e45-6555-7e1c-5bbf0af7d194",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q325945"
+          ],
+          "statement_id": "Q325945$da47523d-4130-856b-8b40-f73d97d1243a",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q325945",
+        "title": "Wikidata Q325945 / 阿爾玆·施皮格爾曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q325945&oldid=2560597234",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560597234,
+        "modified_at": "2026-10-25T07:45:27Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

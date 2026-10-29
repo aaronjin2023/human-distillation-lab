@@ -38,5 +38,118 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代城市街头涂鸦艺术家的工作服（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q158067",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vivienne Westwood",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1941–2022",
+      "birth_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q158067"
+            ],
+            "statement_id": "q158067$46D2D700-C391-4916-A4F0-D4C9A6652FBB",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-04-08T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q158067"
+            ],
+            "statement_id": "Q158067$90a2c4e0-44a0-2004-66b2-f2359f40ee83",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-12-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q158067"
+        ],
+        "statement_id": "q158067$CE5C5842-5A86-47A7-BF1F-06B6D589DE3F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q5881488",
+        "label": "Hollingworth",
+        "label_en": "Hollingworth",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q158067"
+        ],
+        "statement_id": "q158067$BF4E7F47-4CDB-455C-BE63-E2E921D88E10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·朋克 / 历史廓形",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q158067",
+        "title": "Wikidata Q158067 / 薇薇恩·韦斯特伍德",
+        "url": "https://www.wikidata.org/w/index.php?title=Q158067&oldid=2558274419",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558274419,
+        "modified_at": "2026-10-18T05:48:34Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

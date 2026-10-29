@@ -66,5 +66,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "家政工",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q267536",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Nancy Fraser",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q267536"
+            ],
+            "statement_id": "Q267536$DCE80CB6-10FD-4D4D-A18E-B0BE0B1EF1C0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-05-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q267536"
+        ],
+        "statement_id": "Q267536$85A54856-25EE-4C7D-9401-5632829DE322",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q5092",
+        "label": "巴尔的摩",
+        "label_en": "Baltimore",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q267536"
+        ],
+        "statement_id": "q267536$F81272D2-C665-4CC4-8CF2-F818E2BDA774",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "批判理论·正义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q267536",
+        "title": "Wikidata Q267536 / 南希·弗雷泽",
+        "url": "https://www.wikidata.org/w/index.php?title=Q267536&oldid=2523529001",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2523529001,
+        "modified_at": "2026-07-27T17:19:22Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

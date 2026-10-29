@@ -29,5 +29,118 @@
   "thinker": "Mulla Sadra",
   "thinker_zh": "穆拉·萨德拉",
   "verification": "2026-10-26：生卒与代表作以草稿第 1 节为准，关键条目经 web 搜索核对；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2010955",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mulla Sadra",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1571–1640",
+      "birth_year": {
+        "value": 1571,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2010955"
+            ],
+            "statement_id": "Q2010955$67FF5C41-FC15-4A5D-A2FD-058E8A807418",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1571,
+            "raw_time": "+1571-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1641,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2010955"
+            ],
+            "statement_id": "Q2010955$46FD9107-B09B-44EB-8654-9564893EF8DF",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1641,
+            "raw_time": "+1641-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "legacy_disagrees": 1640
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2010955"
+        ],
+        "statement_id": "Q2010955$27A5B1EB-45E9-40EF-840E-6A6252002B06",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q6397066",
+        "label": "设拉子",
+        "label_en": "Shiraz",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2010955"
+        ],
+        "statement_id": "Q2010955$C091D0A6-2003-4EA8-A7BF-4B26BAB06940",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18234383",
+        "label": "薩法維帝國",
+        "label_en": "Safavid Iran",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "波斯哲学 / 超越智慧学派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2010955",
+        "title": "Wikidata Q2010955 / 穆拉 沙扎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2010955&oldid=2541197974",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2541197974,
+        "modified_at": "2026-09-06T16:46:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

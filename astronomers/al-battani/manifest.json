@@ -36,5 +36,119 @@
   "test_prompt": "In the style of al-Battani, measure the tropical year from years of modern solar observations: observe patiently, compute with trigonometry, correct the standard tables, and show how far off the old tables were",
   "test_question_zh": "用白塔尼的方法，从现代多年太阳观测数据测定回归年",
   "verification": "2026-10-26：太阳年 365 日 5 时 46 分 24 秒、岁差 54.5″/年、黄道倾角 23°35′、哥白尼引用 23 次经 web 搜索核对；生年 before 858 与 c.858 两说已记入 conflicts。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11079",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "al-Battani",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "858–929",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11079"
+            ],
+            "statement_id": "Q11079$643A9F47-12E0-43DB-A2ED-EFEE1BB230DE",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 858,
+            "raw_time": "+0858-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11079"
+            ],
+            "statement_id": "Q11079$CFFBD02E-37B5-4772-823D-83933AC22709",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 930,
+            "raw_time": "+0930-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11079"
+        ],
+        "statement_id": "Q11079$5603DBF8-561E-4A41-8ECF-B92C243949C1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q199547",
+        "label": "哈兰",
+        "label_en": "Harran",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "阿拔斯·观测天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11079",
+        "title": "Wikidata Q11079 / 巴塔尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11079&oldid=2557808094",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557808094,
+        "modified_at": "2026-10-17T00:57:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

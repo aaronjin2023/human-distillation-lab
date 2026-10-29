@@ -40,5 +40,118 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "以地铁约克夏犬为兴趣中心的观察表达课（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒与代表作按教育史通说；无专著，见 conflicts.md；无确证的短句引文，本稿只用 artifact 级样本，未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q451005",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ovide Decroly",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1871–1932",
+      "birth_year": {
+        "value": 1871,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q451005"
+            ],
+            "statement_id": "Q451005$C7DED20D-86D7-42C0-BCE6-7E240291A367",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1871,
+            "raw_time": "+1871-07-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1932,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q451005"
+            ],
+            "statement_id": "Q451005$792495CE-56D3-45E9-9DC4-AF0A6EAA6316",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1932,
+            "raw_time": "+1932-09-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q451005"
+        ],
+        "statement_id": "q451005$CF4455AC-8C2C-478D-B471-BFF9629EBCF7",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q268219",
+        "label": "龙瑟",
+        "label_en": "Ronse",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q451005"
+        ],
+        "statement_id": "q451005$6F3AABA5-7696-4448-9C57-72304F521A7C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q31",
+        "label": "比利时",
+        "label_en": "Belgium",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西方·兴趣中心教学法",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q451005",
+        "title": "Wikidata Q451005 / 奥维德·德可罗利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q451005&oldid=2558204423",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558204423,
+        "modified_at": "2026-10-18T01:58:39Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

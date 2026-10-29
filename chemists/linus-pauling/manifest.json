@@ -31,5 +31,152 @@
   "test_prompt": "In the style of Linus Pauling, propose a folding model for a new protein: collect bond lengths and angles from known structures, build a hand model that satisfies hydrogen bonding and steric limits, predict its diffraction pattern, and accept the model only when X-ray data confirms it",
   "test_question_zh": "一种新蛋白质的折叠方式未知，怎么提出结构模型？",
   "verification": "2026-10-26：生卒 1901–1994、α 螺旋 1951、DNA 三螺旋证伪、1954 年诺贝尔化学奖经 web 搜索核对；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q48983",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Linus Pauling",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1994",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48983"
+            ],
+            "statement_id": "q48983$21C79203-1123-412F-BB45-709A50BD0AF0",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-02-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q48983"
+            ],
+            "statement_id": "q48983$5C4B9E04-0D5D-46C4-8FBC-5E2A48975F01",
+            "rank": "preferred",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-08-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q48983"
+        ],
+        "statement_id": "q48983$77D33C97-036D-4947-893C-23603BFCC637",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q6106",
+        "label": "波特兰",
+        "label_en": "Portland",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q48983"
+        ],
+        "statement_id": "Q48983$00642a70-4f36-36f5-5c7a-2f5c24d0edc0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1969-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1974-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q47265",
+        "label": "帕洛阿尔托",
+        "label_en": "Palo Alto",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q48983"
+        ],
+        "statement_id": "q48983$7CF0C518-6D79-45A5-AC20-ED79F5A00F3C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学键 / 结构化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q48983",
+        "title": "Wikidata Q48983 / 萊納斯·鮑林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q48983&oldid=2558127545",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558127545,
+        "modified_at": "2026-10-17T22:07:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

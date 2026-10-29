@@ -36,5 +36,117 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Jeanne Baret, a small botanist rides a research ship around the world in 2026, collecting and pressing specimens at every landing, logging each plant with place and date, no record of her own voyage, only the specimens speak.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q437168",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jeanne Baret",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1740–1807",
+      "birth_year": {
+        "value": 1740,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q437168"
+            ],
+            "statement_id": "Q437168$1FEE0756-5C62-4408-95EB-F3A619690F0C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1740,
+            "raw_time": "+1740-07-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1807,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q437168"
+            ],
+            "statement_id": "Q437168$40E32D6A-B006-4B51-9E7C-BEDEE9BBA5E7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1807,
+            "raw_time": "+1807-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q437168"
+        ],
+        "statement_id": "Q437168$8f24eee4-728f-4550-92bc-db26955b99ca",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1411357",
+        "label": "拉科梅勒",
+        "label_en": "La Comelle",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q437168"
+        ],
+        "statement_id": "q437168$BEFCD70F-0A30-4A7F-93EF-7E139737B1E7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "法国·环球"
+    },
+    "sources": [
+      {
+        "id": "WD:Q437168",
+        "title": "Wikidata Q437168 / 珍妮·芭蕾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q437168&oldid=2548746213",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548746213,
+        "modified_at": "2026-09-23T08:59:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

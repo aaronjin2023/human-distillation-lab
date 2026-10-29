@@ -31,5 +31,130 @@
   "test_prompt": "In the style of William Huggins, test a modern claim about an exoplanet's atmosphere: take its spectrum, compare every line against the laboratory spectra of candidate molecules, and report only the lines that match — stating plainly which lines remain unidentified",
   "test_question_zh": "检验一颗系外行星大气的成分宣称",
   "verification": "生卒 1824–1910、恒星光谱分类先驱、星云发射线光谱、视向速度测量按天文史通说（Wikipedia / Britannica 共识）写；星云结论修正已记入 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q160681",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Huggins",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1824–1910",
+      "birth_year": {
+        "value": 1824,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160681"
+            ],
+            "statement_id": "q160681$92EDD567-9E64-4D6D-BD0A-24BF7CBBA1E0",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1824,
+            "raw_time": "+1824-02-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q160681"
+            ],
+            "statement_id": "q160681$13CC5EE2-342F-44C9-966D-5E07CAAFBA0A",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-05-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q160681"
+        ],
+        "statement_id": "q160681$2A8EBB1E-6B76-4533-B995-6F77695C7C85",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q160681"
+        ],
+        "statement_id": "Q160681$5D813A8D-2FF4-46B6-BD45-6F0CCD832006",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q160681"
+        ],
+        "statement_id": "Q160681$ec1c7e3b-4874-1e6f-1b32-476d809b68d6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "英国·恒星光谱"
+    },
+    "sources": [
+      {
+        "id": "WD:Q160681",
+        "title": "Wikidata Q160681 / 威廉·哈金斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q160681&oldid=2559450915",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559450915,
+        "modified_at": "2026-10-21T08:33:17Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

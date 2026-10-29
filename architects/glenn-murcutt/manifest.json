@@ -42,5 +42,102 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "现代题材：建在山坡上的一座小住宅（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q333509",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Glenn Murcutt",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1936–",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q333509"
+            ],
+            "statement_id": "q333509$86818C19-3629-4F0A-9B69-9351B71B9173",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q333509"
+        ],
+        "statement_id": "Q333509$48EAC551-A971-45E5-8AD8-33ED4768CE13",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q333509"
+        ],
+        "statement_id": "Q333509$C4FEF9D4-10B6-4F51-88C6-F2A9934E0804",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q408",
+        "label": "澳大利亚",
+        "label_en": "Australia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "澳大利亚 / 乡土现代",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q333509",
+        "title": "Wikidata Q333509 / 葛蘭·穆考特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q333509&oldid=2557897872",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557897872,
+        "modified_at": "2026-10-17T06:38:10Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

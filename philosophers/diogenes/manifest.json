@@ -33,5 +33,133 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车乱停乱放",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q59180",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Diogenes",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.412–323 BCE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q59180"
+            ],
+            "statement_id": "Q59180$53b00ff9-45c7-48a3-c1dd-284b651e62e7",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -400,
+            "raw_time": "-0400-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q59180"
+            ],
+            "statement_id": "Q59180$ac8e4adf-4279-374c-00ff-173496635661",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -323,
+            "raw_time": "-0323-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q59180"
+        ],
+        "statement_id": "Q59180$B6891077-2C7F-471F-8B39-D2EE354011DA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q107557833",
+        "label": "Sinope",
+        "label_en": "Sinope",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q59180"
+        ],
+        "statement_id": "Q59180$3483F09D-48FD-4BC7-9EAB-FFD06B8A65F7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q107557833",
+        "label": "Sinope",
+        "label_en": "Sinope",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "犬儒学派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q59180",
+        "title": "Wikidata Q59180 / 锡诺普的第欧根尼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q59180&oldid=2558237279",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558237279,
+        "modified_at": "2026-10-18T03:52:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

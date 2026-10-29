@@ -31,5 +31,131 @@
   "test_prompt": "In the style of Ulugh Beg, test a modern star catalogue: re-measure a sample of a thousand stars with the largest available instrument, compare every position against the catalogue, and report the systematic offset and the single-star scatter separately",
   "test_question_zh": "检验一份现代星表的精度",
   "verification": "生卒 1394–1449、撒马尔罕天文台、1018 颗星星表按天文史通说与草稿已核对项（Linda Hall、Simple Wikipedia）写；仪器尺寸与精度数值未核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q486088",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ulugh Beg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1394–1449",
+      "birth_year": {
+        "value": 1394,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q486088"
+            ],
+            "statement_id": "q486088$E7DB2924-BE3C-4E97-B28F-B493AB680CA0",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1394,
+            "raw_time": "+1394-03-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1449,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q486088"
+            ],
+            "statement_id": "q486088$CEFA4A93-7CEE-4700-84F0-08DADE9CC0B5",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1449,
+            "raw_time": "+1449-10-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q486088"
+        ],
+        "statement_id": "q486088$0345C899-A2A5-43FB-ACC6-1EEEBEFD7095",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q4531",
+        "label": "蘇丹尼耶",
+        "label_en": "Soltaniyeh",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q486088"
+        ],
+        "statement_id": "Q486088$3457a23c-47d6-86ad-9084-4865e3b1268e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q608580",
+        "label": "兀鲁伯天文台",
+        "label_en": "Ulugh Beg Observatory",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q486088"
+        ],
+        "statement_id": "Q486088$0DB5FEA3-E103-4E94-91AF-627CA3163E27",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q484195",
+        "label": "帖木儿帝国",
+        "label_en": "Timurid Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中亚·星表天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q486088",
+        "title": "Wikidata Q486088 / 乌鲁伯格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q486088&oldid=2558266842",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558266842,
+        "modified_at": "2026-10-18T05:23:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

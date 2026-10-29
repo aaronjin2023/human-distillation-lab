@@ -28,5 +28,101 @@
     "W 相位算法细节以综述转述为准"
   ],
   "test_prompt": "现代问题：地震后数分钟内，如何判断海啸风险？",
-  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。"
+  "verification": "2026-10-26：生卒与成果名以地质草稿 v1（英文 Wikipedia 各主条目通说）为准；未逐项核对原文，见 known_gaps。",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q943693",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hiroo Kanamori",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1936–（在世）",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q943693"
+            ],
+            "statement_id": "Q943693$67195618-AA8A-4AFB-BB84-ED704247C54F",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q943693"
+        ],
+        "statement_id": "Q943693$08543E73-0524-4F2F-BC10-6CEDAC813013",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7473516",
+        "label": "东京",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q943693"
+        ],
+        "statement_id": "Q943693$5DFEA705-F84A-412B-8CF8-FDD457F9C402",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "地震学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q943693",
+        "title": "Wikidata Q943693 / 金森博雄",
+        "url": "https://www.wikidata.org/w/index.php?title=Q943693&oldid=2519772737",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2519772737,
+        "modified_at": "2026-07-19T18:10:13Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

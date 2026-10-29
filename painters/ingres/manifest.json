@@ -30,5 +30,287 @@
   "template": "painters-top100-draft.md 第 3 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：《大宫女》1814 年；《土耳其浴室》初版 1852–1859 年、1862 年改圆形",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q23380",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jean-Auguste-Dominique Ingres",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1780–1867",
+      "birth_year": {
+        "value": 1780,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23380"
+            ],
+            "statement_id": "q23380$A587CE20-F0C9-4103-A544-9415F53667F4",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1780,
+            "raw_time": "+1780-08-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1867,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23380"
+            ],
+            "statement_id": "q23380$1F726609-46A0-4180-815B-26D251B5B500",
+            "rank": "normal",
+            "reference_count": 20,
+            "qualifiers": {},
+            "value": 1867,
+            "raw_time": "+1867-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "q23380$DAC643BF-4D9F-435A-99B8-3878D3C10544",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q172593",
+        "label": "蒙托邦",
+        "label_en": "Montauban",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$FE8615A3-9574-40E6-B497-B1B1E72BCEBD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q644640",
+        "label": "当皮埃尔圣尼古拉",
+        "label_en": "Dampierre-Saint-Nicolas",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$9FA31843-DA2E-4668-A319-BAA9C7206F75",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q658776",
+        "label": "卢瓦尔河畔默恩",
+        "label_en": "Meung-sur-Loire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$2EFD0768-F164-4561-AAE2-E8E38419EC50",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$4CCAD970-6D6B-4B21-B260-4A31FEF7A93A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7880",
+        "label": "图卢兹",
+        "label_en": "Toulouse",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$22FF7887-591F-456A-8012-3F560C62DFB8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q621",
+        "label": "凡尔赛",
+        "label_en": "Versailles",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$91F74181-816E-4430-AFBC-4FE85E3A66E6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3415",
+        "label": "安科納",
+        "label_en": "Ancona",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$300420B3-80E1-40BD-AC85-D642D7E70F37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$EFDCF99F-F5C0-49C4-AA0A-32D6DA564A16",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2634",
+        "label": "那不勒斯",
+        "label_en": "Naples",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$F9381B08-2603-4020-892D-A2A7EB160033",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q541",
+        "label": "奥尔维耶托",
+        "label_en": "Orvieto",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$0C3B3B8A-7208-4897-B441-74F7A3BD0BFE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q13364",
+        "label": "拉韦纳",
+        "label_en": "Ravenna",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$4FE08EE3-B1AE-4B64-85A4-11DF69FE59CE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q220",
+        "label": "罗马",
+        "label_en": "Rome",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$343D353E-A5F1-422D-B468-F1F11965F38F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2751",
+        "label": "锡耶纳",
+        "label_en": "Siena",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "Q23380$461FAEC2-3B9A-4DD2-AB16-C2E30B5ADB71",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2759",
+        "label": "乌尔比诺",
+        "label_en": "Urbino",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q23380"
+        ],
+        "statement_id": "q23380$2145E83A-8336-4E4C-9F3E-94421F83191C",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新古典主义"
+    },
+    "sources": [
+      {
+        "id": "WD:Q23380",
+        "title": "Wikidata Q23380 / 让·奥古斯特·多米尼克·安格尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q23380&oldid=2561630528",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561630528,
+        "modified_at": "2026-10-28T08:54:44Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

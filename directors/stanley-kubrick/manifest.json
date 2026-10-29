@@ -30,5 +30,169 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（草稿第 7 节 + 关键事实 web 搜索）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2001",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Stanley Kubrick",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–1999",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2001"
+            ],
+            "statement_id": "q2001$035CB39F-652E-426C-8358-693AAC27BA59",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-07-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1999,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2001"
+            ],
+            "statement_id": "q2001$c520a0a5-499f-1193-2386-b49885dcca9e",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1999,
+            "raw_time": "+1999-03-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2001"
+        ],
+        "statement_id": "q2001$C0069C32-1CA6-4A8A-AF54-6AF9EB1CD6C1",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18426",
+        "label": "布朗克斯",
+        "label_en": "The Bronx",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q2001"
+        ],
+        "statement_id": "Q2001$3CD9DFEF-D862-47D4-AB98-12AE239E1FE8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2001"
+        ],
+        "statement_id": "q2001$7FA71288-342F-4DF8-A68D-9916AD8F2A1E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1928-07-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2001"
+        ],
+        "statement_id": "Q2001$a60dce67-4160-7d6a-df99-fbf20fddc9b8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q2001"
+          ],
+          "statement_id": "Q2001$3991b095-46bd-19e7-a90d-1f81d6c512c0",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q678551",
+          "label": "美国犹太人",
+          "label_en": "American Jews",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "美国·作者电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2001",
+        "title": "Wikidata Q2001 / 斯坦利·库布里克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2001&oldid=2561511193",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561511193,
+        "modified_at": "2026-10-27T19:03:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

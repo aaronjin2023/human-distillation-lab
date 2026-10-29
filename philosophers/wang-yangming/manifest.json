@@ -42,5 +42,118 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在自助结账机前发现有一件商品没有扫上",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q378462",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wang Yangming",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1472–1529",
+      "birth_year": {
+        "value": 1472,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378462"
+            ],
+            "statement_id": "Q378462$74BDB78B-5E41-466A-BEDF-E986F5423FFB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1472,
+            "raw_time": "+1472-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1529,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q378462"
+            ],
+            "statement_id": "Q378462$66D10508-4BBE-49D3-9AD7-24A4185440BA",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1529,
+            "raw_time": "+1529-01-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q378462"
+        ],
+        "statement_id": "Q378462$05165B10-2180-4E37-ACE1-C53956D1A912",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1011201",
+        "label": "余姚市",
+        "label_en": "Yuyao City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q378462"
+        ],
+        "statement_id": "Q378462$E3A3F591-C6AF-4DFB-9E13-004C8C5DBCF8",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "宋明理学·心学",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q378462",
+        "title": "Wikidata Q378462 / 王阳明",
+        "url": "https://www.wikidata.org/w/index.php?title=Q378462&oldid=2558277930",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558277930,
+        "modified_at": "2026-10-18T06:01:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

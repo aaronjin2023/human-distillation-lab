@@ -48,5 +48,118 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q234640",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Clara Bow",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1905–1965",
+      "birth_year": {
+        "value": 1905,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234640"
+            ],
+            "statement_id": "q234640$AE9426E0-D0FF-4503-AA0E-2396A9CBE4C1",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1905,
+            "raw_time": "+1905-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1965,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q234640"
+            ],
+            "statement_id": "q234640$2B6AABB8-DF5F-4648-92AA-E28453BED388",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1965,
+            "raw_time": "+1965-09-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q234640"
+        ],
+        "statement_id": "q234640$7E6AE6D7-CB4E-4BD2-9027-3DA43EC2B131",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q234640"
+        ],
+        "statement_id": "q234640$6562012D-5F5A-4D2B-A903-433E574B79C0",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·默片",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q234640",
+        "title": "Wikidata Q234640 / 克拉拉·鮑",
+        "url": "https://www.wikidata.org/w/index.php?title=Q234640&oldid=2528956614",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2528956614,
+        "modified_at": "2026-08-08T23:11:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

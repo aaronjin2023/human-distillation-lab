@@ -37,5 +37,152 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55452",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Vittorio Gassman",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1922–2000",
+      "birth_year": {
+        "value": 1922,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55452"
+            ],
+            "statement_id": "q55452$E760C5E2-BF7F-425A-BF73-4DECE66A7553",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1922,
+            "raw_time": "+1922-09-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2000,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55452"
+            ],
+            "statement_id": "q55452$60E0BA59-7AD6-40E1-9965-61940FC8B834",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 2000,
+            "raw_time": "+2000-06-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55452"
+        ],
+        "statement_id": "q55452$E1DC6D21-BAF5-403D-95E8-1DD8C324AACE",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1449",
+        "label": "热那亚",
+        "label_en": "Genoa",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55452"
+        ],
+        "statement_id": "q55452$611AACE0-E22A-4D0E-BE88-2FC0A5788793",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55452"
+        ],
+        "statement_id": "Q55452$B686694C-9B13-42A5-8FC5-CC3AFA5C8FF1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1946-06-18T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q172579",
+        "label": "意大利王国",
+        "label_en": "Kingdom of Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·舞台/电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q55452",
+        "title": "Wikidata Q55452 / 维托里奥·加斯曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55452&oldid=2560438131",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560438131,
+        "modified_at": "2026-10-24T21:29:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

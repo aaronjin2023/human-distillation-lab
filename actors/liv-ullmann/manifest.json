@@ -37,5 +37,128 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一位外卖骑手在雨夜等单",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q191064",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Liv Ullmann",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q191064"
+            ],
+            "statement_id": "q191064$EB739038-ADBF-4B00-AA91-D28A4EB80BC9",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-12-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q191064"
+        ],
+        "statement_id": "Q191064$B36F0E7A-B7C6-4706-864C-62435CBE7D47",
+        "rank": "preferred",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7473516",
+        "label": "东京",
+        "label_en": "Tokyo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q191064"
+        ],
+        "statement_id": "Q191064$E0C6B156-2683-453B-92F5-EC89308EA5F5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q191064"
+        ],
+        "statement_id": "Q191064$46379FBA-D34F-45D9-A84A-39AF0E0C0E02",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q20",
+        "label": "挪威",
+        "label_en": "Norway",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q191064"
+        ],
+        "statement_id": "Q191064$FEDCB418-CB2E-4F0E-BBE4-1E52AAED460D",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q34",
+        "label": "瑞典",
+        "label_en": "Sweden",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "挪威·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q191064",
+        "title": "Wikidata Q191064 / 利夫·乌尔曼",
+        "url": "https://www.wikidata.org/w/index.php?title=Q191064&oldid=2561007245",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561007245,
+        "modified_at": "2026-10-26T08:11:00Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

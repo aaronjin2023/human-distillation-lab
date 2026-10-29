@@ -49,5 +49,101 @@
   ],
   "test_prompt": "外卖骑手的无偿等待时间",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q542410",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ann Oakley",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1944–",
+      "birth_year": {
+        "value": 1944,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q542410"
+            ],
+            "statement_id": "Q542410$4084FFC1-B8B0-4477-9CE0-EB61DFA2D95A",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1944,
+            "raw_time": "+1944-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q542410"
+        ],
+        "statement_id": "Q542410$7d6adf75-45cc-4275-7600-25d7132a1551",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q542410"
+        ],
+        "statement_id": "Q542410$D68E4994-79B5-4366-A627-F62F891E8ABB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "女性主义与性别社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q542410",
+        "title": "Wikidata Q542410 / 安·奥克利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q542410&oldid=2554110465",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554110465,
+        "modified_at": "2026-10-06T19:27:07Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

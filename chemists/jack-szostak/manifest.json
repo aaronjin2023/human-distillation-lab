@@ -32,5 +32,114 @@
   "test_prompt": "In the style of Jack Szostak, test whether a new fatty-acid vesicle can support RNA copying: first build the minimal vesicle system, then add the copying chemistry step by step, and only claim a protocell function when growth, copying and division repeat together",
   "test_question_zh": "检验一种新型脂肪酸囊泡能否支持 RNA 复制",
   "verification": "2026-10-26：生卒与代表作按化学家草稿 v1 写；存疑项已记入 conflicts.md；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q104600",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jack Szostak",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q104600"
+            ],
+            "statement_id": "q104600$1EC57E8B-729D-402A-9823-EAAAD74C9A71",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-11-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q104600"
+        ],
+        "statement_id": "Q104600$DC40E4BD-91FB-4C10-824D-CCB7537F603B",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q104600"
+        ],
+        "statement_id": "q104600$FF6C7D78-0D6B-40EE-A89F-0DA9B56D6D2A",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q104600"
+        ],
+        "statement_id": "Q104600$7559DEE6-32E4-464B-B050-A86510E9C90A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16",
+        "label": "加拿大",
+        "label_en": "Canada",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "化学与生命起源"
+    },
+    "sources": [
+      {
+        "id": "WD:Q104600",
+        "title": "Wikidata Q104600 / 杰克·绍斯塔克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q104600&oldid=2560245448",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560245448,
+        "modified_at": "2026-10-24T09:02:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -43,5 +43,102 @@
   "template": "fashion-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Donatella Versace, a modern cocktail party hostess gown, body-conscious fit, bright prints, sequins, black and gold, bold sensuality, fashion photography",
   "verification": "2026-10-26 网络核对存疑项（见 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q229437",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Donatella Versace",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1955–",
+      "birth_year": {
+        "value": 1955,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q229437"
+            ],
+            "statement_id": "Q229437$1A296F2E-31C1-4522-9CD0-BB516AE6869B",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1955,
+            "raw_time": "+1955-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q229437"
+        ],
+        "statement_id": "Q229437$B1BE48C4-23BC-445A-A740-1A4BD7AB2904",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8471",
+        "label": "雷焦卡拉布里亞",
+        "label_en": "Reggio Calabria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q229437"
+        ],
+        "statement_id": "Q229437$727CD428-6667-4643-8917-6DD1C179820C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q38",
+        "label": "意大利",
+        "label_en": "Italy",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利·成衣",
+      "genre": "fashion designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q229437",
+        "title": "Wikidata Q229437 / 唐娜黛拉·凡賽斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q229437&oldid=2558022503",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558022503,
+        "modified_at": "2026-10-17T15:51:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

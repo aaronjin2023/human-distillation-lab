@@ -43,5 +43,158 @@
   "template": "philosophers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个 AI 助手回答学生问它是否有心灵",
   "verification": "2026-10-26 web 核对：其余按哲学史通说写；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q557220",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Feng Youlan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1895–1990",
+      "birth_year": {
+        "value": 1895,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557220"
+            ],
+            "statement_id": "q557220$BC335D45-81AD-468A-BD1C-0595667EB194",
+            "rank": "preferred",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1895,
+            "raw_time": "+1895-12-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1990,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q557220"
+            ],
+            "statement_id": "q557220$DBA6FDAA-9C24-4337-84BE-72A2F49E0061",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1990,
+            "raw_time": "+1990-11-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q557220"
+        ],
+        "statement_id": "Q557220$F25A43A7-1A01-40C4-A3E3-463271BC7179",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1199064",
+        "label": "唐河县",
+        "label_en": "Tanghe County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q557220"
+        ],
+        "statement_id": "Q557220$8077C71F-3B6C-4BF6-8C46-3A5D7761DE37",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q557220"
+        ],
+        "statement_id": "Q557220$F68029D4-C1E4-440B-920B-C6E49A7E3023",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q557220"
+        ],
+        "statement_id": "Q557220$3779c4b6-4d53-aa11-d24a-baa0b85cbf83",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q557220"
+        ],
+        "statement_id": "Q557220$596ad076-4dcd-4eca-9668-ac5d17bc4f72",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代新儒家",
+      "genre": "philosophy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q557220",
+        "title": "Wikidata Q557220 / 冯友兰",
+        "url": "https://www.wikidata.org/w/index.php?title=Q557220&oldid=2557877978",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557877978,
+        "modified_at": "2026-10-17T05:29:35Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

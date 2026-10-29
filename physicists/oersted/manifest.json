@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Ørsted, explain how an induction hob heats a pan: put the compass beside the wire, close the circuit, and show how the moving needle proves that a current makes a magnetic effect",
   "test_question_zh": "解释电磁炉为什么能加热锅底",
   "verification": "2026-10-26：生卒 1777–1851 与代表作按物理史通说；定量定律归属已记入 conflicts.md；其余未逐项核对原文",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q44412",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Hans Christian Ørsted",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1777–1851",
+      "birth_year": {
+        "value": 1777,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44412"
+            ],
+            "statement_id": "Q44412$7FA1A10B-DCDC-4719-91F9-6EC0C67228B3",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1777,
+            "raw_time": "+1777-08-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1851,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q44412"
+            ],
+            "statement_id": "Q44412$4475A800-D924-402A-BA05-D8B8ADF0E6DF",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1851,
+            "raw_time": "+1851-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q44412"
+        ],
+        "statement_id": "q44412$F23F47F7-37FD-435C-B93F-FE51C111D72F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q731023",
+        "label": "鲁德克宾",
+        "label_en": "Rudkøbing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q44412"
+        ],
+        "statement_id": "q44412$8DD4B5A7-5B90-4F0D-B5E2-E533EC1B0779",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q756617",
+        "label": "丹麦王国",
+        "label_en": "Kingdom of Denmark",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "电磁学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q44412",
+        "title": "Wikidata Q44412 / 汉斯·奥斯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q44412&oldid=2557907201",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557907201,
+        "modified_at": "2026-10-17T07:06:24Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

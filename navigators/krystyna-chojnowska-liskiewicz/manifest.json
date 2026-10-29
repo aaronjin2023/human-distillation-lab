@@ -35,5 +35,133 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Krystyna Chojnowska-Liskiewicz, a small Yorkshire terrier rides the subway alone. It fixes its position by the station signs, stops only to rest and resupply, and finishes the whole line quietly, without fanfare.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q6439809",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Krystyna Chojnowska-Liskiewicz",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1936–2021",
+      "birth_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6439809"
+            ],
+            "statement_id": "Q6439809$5775544A-C97E-446B-BFCF-97EFF6BB6939",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2021,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q6439809"
+            ],
+            "statement_id": "Q6439809$b122f435-4614-169b-2faa-35fd72866619",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-06-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q6439809"
+            ],
+            "statement_id": "Q6439809$093AC3EF-F4CE-477D-B2BE-30D566CE7EDD",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2021,
+            "raw_time": "+2021-06-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q6439809"
+        ],
+        "statement_id": "Q6439809$C2147358-6E25-41CB-8D6B-A491A67B4268",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q270",
+        "label": "华沙",
+        "label_en": "Warsaw",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q6439809"
+        ],
+        "statement_id": "Q6439809$AB5E7448-43B8-481B-8DA7-338AAE7B8BF6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q36",
+        "label": "波兰",
+        "label_en": "Poland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "I. 环球与单人航海",
+      "genre": "I. 环球与单人航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q6439809",
+        "title": "Wikidata Q6439809 / Krystyna Chojnowska-Liskiewicz",
+        "url": "https://www.wikidata.org/w/index.php?title=Q6439809&oldid=2552260327",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552260327,
+        "modified_at": "2026-10-02T18:46:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

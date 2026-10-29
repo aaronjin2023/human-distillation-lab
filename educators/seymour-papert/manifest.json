@@ -43,5 +43,131 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "派珀特风格：为有计算机的孩子设计一堂关于人工智能的课。不讲课：每人一个类 Logo 环境，做一只会学习的小生物，做砸了就调试，教师一起调试，在制作里学习，不考试。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q335027",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Seymour Papert",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1928–2016",
+      "birth_year": {
+        "value": 1928,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335027"
+            ],
+            "statement_id": "q335027$99E9BEC3-9431-4E05-82DD-12D960BF1A2A",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1928,
+            "raw_time": "+1928-02-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2016,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q335027"
+            ],
+            "statement_id": "Q335027$18aae222-4711-a72e-ee31-e94b94dd54fb",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2016,
+            "raw_time": "+2016-07-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q335027"
+        ],
+        "statement_id": "q335027$A97CEF61-5837-4C77-B22E-2843D8CBE1AB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3926",
+        "label": "比勒陀利亚",
+        "label_en": "Pretoria",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q335027"
+        ],
+        "statement_id": "q335027$18C9B683-B2F0-496B-92FF-2870523A83A9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q335027"
+        ],
+        "statement_id": "Q335027$ac27023f-4655-416c-e7be-32a0cf3dad64",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "建构主义 / 教育技术",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q335027",
+        "title": "Wikidata Q335027 / 西摩尔·派普特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q335027&oldid=2536360159",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2536360159,
+        "modified_at": "2026-08-25T20:35:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

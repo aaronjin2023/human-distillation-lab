@@ -42,5 +42,118 @@
   "template": "landscape-designers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "布雷·马克思风格：现代滨水步道，大胆自由形的黑白马赛克铺装如海浪，本土热带植物色块，自由形水池，欢愉抽象，铺装即画布。（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q528922",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Roberto Burle Marx",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1909–1994",
+      "birth_year": {
+        "value": 1909,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q528922"
+            ],
+            "statement_id": "Q528922$EB6BC431-9A77-48C7-A4A6-D80ABBBA7EB8",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1909,
+            "raw_time": "+1909-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q528922"
+            ],
+            "statement_id": "Q528922$DAF3C59E-252C-440A-B4D0-BD04F345D971",
+            "rank": "preferred",
+            "reference_count": 7,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q528922"
+        ],
+        "statement_id": "q528922$BCEFFD54-3FC8-4429-B246-CF71686E7AF8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q174",
+        "label": "圣保罗",
+        "label_en": "São Paulo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q528922"
+        ],
+        "statement_id": "q528922$966085D8-FE08-4760-A96E-D6DF521D5E69",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q155",
+        "label": "巴西",
+        "label_en": "Brazil",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "巴西·现代主义景观",
+      "genre": "landscape-designer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q528922",
+        "title": "Wikidata Q528922 / 罗伯托·布雷·马克思",
+        "url": "https://www.wikidata.org/w/index.php?title=Q528922&oldid=2558227643",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558227643,
+        "modified_at": "2026-10-18T03:14:32Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

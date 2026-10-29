@@ -43,5 +43,132 @@
   "template": "singers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1768",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Ella Fitzgerald",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1917–1996",
+      "birth_year": {
+        "value": 1917,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1768"
+            ],
+            "statement_id": "q1768$EF705FC0-822D-4665-8DDF-F2441D40EC30",
+            "rank": "normal",
+            "reference_count": 12,
+            "qualifiers": {},
+            "value": 1917,
+            "raw_time": "+1917-04-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1768"
+            ],
+            "statement_id": "q1768$2610D7C5-101E-46D7-94FA-107870F35950",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-06-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1768"
+        ],
+        "statement_id": "q1768$049e7df1-42ce-ea1a-4e68-5f5146dfa619",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q335017",
+        "label": "纽波特纽斯",
+        "label_en": "Newport News",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1768"
+        ],
+        "statement_id": "q1768$3558e84c-4a36-129e-374a-132a8d457d0a",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q1768"
+          ],
+          "statement_id": "Q1768$4D074F91-0C9B-4CAA-AE9F-6947B383EC08",
+          "rank": "normal",
+          "reference_count": 3,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "爵士·拟声唱法",
+      "genre": "singer"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1768",
+        "title": "Wikidata Q1768 / 艾拉·費茲潔拉",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1768&oldid=2560450027",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560450027,
+        "modified_at": "2026-10-24T21:59:03Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -30,5 +30,130 @@
   "test_prompt": "In the method of William Shockley, design a flexible transistor for a wearable device: draw the band diagram first, predict gain from the junction design, and measure current-voltage characteristics before claiming the device works",
   "test_question_zh": "为可穿戴设备设计一种柔性导电材料",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对（Wikipedia / NobelPrize.org / 机构来源共识）；其余未逐项核对原文，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q163415",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "William Shockley",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1910–1989",
+      "birth_year": {
+        "value": 1910,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q163415"
+            ],
+            "statement_id": "q163415$587165E5-289F-410D-833D-589A66D85BA5",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1910,
+            "raw_time": "+1910-02-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1989,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q163415"
+            ],
+            "statement_id": "q163415$A341C80E-F3E4-41D6-8AE8-62477ADE1DCC",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1989,
+            "raw_time": "+1989-08-12T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q163415"
+        ],
+        "statement_id": "q163415$5A14888E-EEE8-4DE7-B932-99ADE81F1B18",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q163415"
+        ],
+        "statement_id": "q163415$FB3855A0-B256-45F6-8236-9A7B05E8B1C6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q163415"
+        ],
+        "statement_id": "Q163415$56b4b014-42c0-ae51-2d29-b1db1fb8927c",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "晶体管"
+    },
+    "sources": [
+      {
+        "id": "WD:Q163415",
+        "title": "Wikidata Q163415 / 威廉·肖克利",
+        "url": "https://www.wikidata.org/w/index.php?title=Q163415&oldid=2558283556",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558283556,
+        "modified_at": "2026-10-18T06:23:57Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

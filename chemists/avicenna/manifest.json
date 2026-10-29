@@ -1,35 +1,164 @@
 {
- "chemist": "Avicenna",
- "chemist_zh": "阿维森纳 / 伊本·西那",
- "dates": "980–1037",
- "field": "波斯医学化学",
- "list_position": "化学家草稿 v1 A 炼金术与早期化学 #4",
- "living_person": false,
- "status": "draft v0.1",
- "version": "0.1",
- "date": "2026-10-26",
- "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
- "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
- "evidence_levels": [
-  "verbatim",
-  "artifact",
-  "impression"
- ],
- "source_works": [
-  "《医典》中的药物化学",
-  "炼金术批判",
-  "蒸馏技术"
- ],
- "sources": [
-  "Wikipedia 'Avicenna' https://en.wikipedia.org/wiki/Avicenna",
-  "Britannica 'Avicenna' https://www.britannica.com/biography/Avicenna"
- ],
- "test_prompt": "In the style of Avicenna, design a plan to include a newly imported medicinal plant in a drug system: first classify it by character and effect, then fix its preparation and dosage, and state what would force you to revise the classification.",
- "test_question_zh": "如何把一种新传入的药用植物纳入药物体系？",
- "verification": "2026-10-26：生卒、《医典》药物化学、炼金术批判按化学史通说写，未逐项核对原文出处，见 known_gaps",
- "known_gaps": [
-  "《医典》药物部分的原文细节未逐篇核对，多据后世译本与综述",
-  "蒸馏技术的具体操作未见原始文献核对",
-  "生年 979/980 年异说的原始出处未逐一核对"
- ]
+  "chemist": "Avicenna",
+  "chemist_zh": "阿维森纳 / 伊本·西那",
+  "dates": "980–1037",
+  "field": "波斯医学化学",
+  "list_position": "化学家草稿 v1 A 炼金术与早期化学 #4",
+  "living_person": false,
+  "status": "draft v0.1",
+  "version": "0.1",
+  "date": "2026-10-26",
+  "template": "chemists-top100-draft.md 第6节（画家模板化学家适配版）",
+  "scope": "只蒸已发表成果物：论文、专著、实验手册、方法、发现与理论；不碰私生活",
+  "evidence_levels": [
+    "verbatim",
+    "artifact",
+    "impression"
+  ],
+  "source_works": [
+    "《医典》中的药物化学",
+    "炼金术批判",
+    "蒸馏技术"
+  ],
+  "sources": [
+    "Wikipedia 'Avicenna' https://en.wikipedia.org/wiki/Avicenna",
+    "Britannica 'Avicenna' https://www.britannica.com/biography/Avicenna"
+  ],
+  "test_prompt": "In the style of Avicenna, design a plan to include a newly imported medicinal plant in a drug system: first classify it by character and effect, then fix its preparation and dosage, and state what would force you to revise the classification.",
+  "test_question_zh": "如何把一种新传入的药用植物纳入药物体系？",
+  "verification": "2026-10-26：生卒、《医典》药物化学、炼金术批判按化学史通说写，未逐项核对原文出处，见 known_gaps",
+  "known_gaps": [
+    "《医典》药物部分的原文细节未逐篇核对，多据后世译本与综述",
+    "蒸馏技术的具体操作未见原始文献核对",
+    "生年 979/980 年异说的原始出处未逐一核对"
+  ],
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8011",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Avicenna",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "980–1037",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8011"
+            ],
+            "statement_id": "Q8011$e37c76ae-4aa8-8d77-b088-7061f0084fb5",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 980,
+            "raw_time": "+0980-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q8011"
+            ],
+            "statement_id": "Q8011$634272C7-26E5-46E6-A1A2-AA706B6BC536",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 106419137,
+                  "id": "Q106419137"
+                }
+              ]
+            },
+            "value": 980,
+            "raw_time": "+0980-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1037,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8011"
+            ],
+            "statement_id": "q8011$B2FF1BB0-9C17-476F-A02E-86105D3937EF",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1037,
+            "raw_time": "+1037-06-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8011"
+        ],
+        "statement_id": "Q8011$85950CD6-8F17-4A5A-A3EB-3BBAB9DA4871",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q4072887",
+        "label": "Afshona",
+        "label_en": "Afshona",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "波斯医学化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8011",
+        "title": "Wikidata Q8011 / 伊本·西那",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8011&oldid=2557805673",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557805673,
+        "modified_at": "2026-10-17T00:49:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

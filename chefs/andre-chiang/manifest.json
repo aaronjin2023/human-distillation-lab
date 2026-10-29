@@ -43,5 +43,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一份深夜便利店的关东煮（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q15921156",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "André Chiang",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1976–",
+      "birth_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q15921156"
+            ],
+            "statement_id": "Q15921156$A8441203-2555-46E5-A0A4-63BF163A2628",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-04-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q15921156"
+        ],
+        "statement_id": "Q15921156$6D3D2388-86AC-436A-B6BE-4989068D9CE5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7497984",
+        "label": "石牌 (臺北市)",
+        "label_en": "Shipai, Beitou",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q15921156"
+        ],
+        "statement_id": "Q15921156$45DE7CEF-3904-4A5B-9FA9-C42C185B769B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q865",
+        "label": "中华民国",
+        "label_en": "Taiwan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "台湾·新中餐",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q15921156",
+        "title": "Wikidata Q15921156 / 江振誠 (廚師)",
+        "url": "https://www.wikidata.org/w/index.php?title=Q15921156&oldid=2533991045",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2533991045,
+        "modified_at": "2026-08-21T02:24:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

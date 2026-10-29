@@ -30,5 +30,181 @@
   "template": "musicians-top100-draft.md 第 7 节",
   "test_prompt": "地铁里的约克夏犬（见 style.md 第 7 节）",
   "verification": "2026-10-26：生卒与代表作按草稿第 8 节来源与英文维基通说核对；作品编号 / 调性 / 版本争议记 conflicts.md，不绑定单一版本",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1268",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Frédéric Chopin",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1810–1849",
+      "birth_year": {
+        "value": 1810,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1268"
+            ],
+            "statement_id": "q1268$086d4447-419b-5458-4472-1edccffb2b43",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1810,
+            "raw_time": "+1810-03-01T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1849,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1268"
+            ],
+            "statement_id": "q1268$E8A32906-1190-4BFB-8663-B0402EEE54F5",
+            "rank": "normal",
+            "reference_count": 16,
+            "qualifiers": {},
+            "value": 1849,
+            "raw_time": "+1849-10-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "q1268$9A97BF11-CC2F-4F02-A0D6-8102F8828ADA",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q393087",
+        "label": "熱拉佐瓦沃拉",
+        "label_en": "Żelazowa Wola",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "Q1268$5F104935-ADE3-4253-B7FB-BAA71F8C9AAC",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "q1268$8EFE8BCF-8838-4A91-ABF1-0E132640E4DF",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1835-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "Q1268$D55D4E42-74D1-461B-B748-A9A46EA91B74",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34266",
+        "label": "俄罗斯帝国",
+        "label_en": "Russian Empire",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "Q1268$29a87331-4bbf-ea77-01ae-a69caf2e843c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q152115",
+        "label": "华沙公国",
+        "label_en": "Duchy of Warsaw",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q1268"
+        ],
+        "statement_id": "Q1268$9b0015e6-42f9-5e91-de60-3e6f1b53031b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q221457",
+        "label": "波兰会议王国",
+        "label_en": "Congress Poland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "浪漫主义 / 波兰"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1268",
+        "title": "Wikidata Q1268 / 弗雷德里克·肖邦",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1268&oldid=2561506650",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561506650,
+        "modified_at": "2026-10-27T18:46:47Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

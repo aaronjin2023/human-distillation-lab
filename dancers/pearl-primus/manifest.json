@@ -37,5 +37,131 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a person buys oden at a convenience store late at night",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11698449",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Pearl Primus",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–1994",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11698449"
+            ],
+            "statement_id": "q11698449$7C608875-3ACE-4501-BD46-E72419332CC2",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-11-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1994,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11698449"
+            ],
+            "statement_id": "q11698449$EF5FB474-C9AD-45B6-911B-C3E424601B92",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1994,
+            "raw_time": "+1994-10-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11698449"
+        ],
+        "statement_id": "Q11698449$C82A8888-33FA-426B-9038-90196886630F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q39178",
+        "label": "西班牙港",
+        "label_en": "Port of Spain",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11698449"
+        ],
+        "statement_id": "Q11698449$351FDFB0-2CA9-4BD4-ACE1-7DD2F0E2FF79",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q754",
+        "label": "特立尼达和多巴哥",
+        "label_en": "Trinidad and Tobago",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q11698449"
+          ],
+          "statement_id": "Q11698449$BAD71D59-9F43-4DE8-A2A7-80B6651032A8",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q49085",
+          "label": "非裔美国人",
+          "label_en": "African Americans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "非裔现代舞·舞者 / 编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11698449",
+        "title": "Wikidata Q11698449 / Pearl Primus",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11698449&oldid=2556403550",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2556403550,
+        "modified_at": "2026-10-13T00:48:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

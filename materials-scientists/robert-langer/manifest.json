@@ -29,5 +29,101 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Robert Langer, design a flexible conductive material for a wearable device. Match degradation to release, prove the release curve in vitro first, then validate function in animals before claiming application.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**组织工程奠基的归属**：1993 年 Science 组织工程论文为兰格与 Vacanti 合著，本文件夹记为合作奠",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q669597",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Robert Langer",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1948–",
+      "birth_year": {
+        "value": 1948,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q669597"
+            ],
+            "statement_id": "Q669597$17D5A578-11C0-43A2-9626-90857E4AC401",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1948,
+            "raw_time": "+1948-08-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q669597"
+        ],
+        "statement_id": "Q669597$00A5024F-DAB4-4357-A161-88C0194B88A9",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q24861",
+        "label": "奥尔巴尼",
+        "label_en": "Albany",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q669597"
+        ],
+        "statement_id": "q669597$921D3D69-0EEB-40B5-82C4-FB5FC83CC71E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "药物递送 / 组织工程"
+    },
+    "sources": [
+      {
+        "id": "WD:Q669597",
+        "title": "Wikidata Q669597 / 伯特·S·兰格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q669597&oldid=2561799273",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561799273,
+        "modified_at": "2026-10-28T20:44:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

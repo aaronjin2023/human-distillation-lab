@@ -48,5 +48,146 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q4605",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sarah Bernhardt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1844–1923",
+      "birth_year": {
+        "value": 1844,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4605"
+            ],
+            "statement_id": "Q4605$E7130295-ECC8-4FAA-8018-AD7AA26AC7DD",
+            "rank": "preferred",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1844,
+            "raw_time": "+1844-10-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1923,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q4605"
+            ],
+            "statement_id": "Q4605$B8EA98DF-049B-4AB4-8891-A76CECA6E8B8",
+            "rank": "preferred",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1923,
+            "raw_time": "+1923-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q4605"
+        ],
+        "statement_id": "q4605$9D087BEB-D051-4F9F-86C0-94D05653B3C2",
+        "rank": "normal",
+        "reference_count": 5,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q4605"
+        ],
+        "statement_id": "Q4605$F0EAC3E5-0145-4B8D-9B40-E8F6A6118FEC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q4605"
+        ],
+        "statement_id": "q4605$1EB9F655-DF64-4BC9-87A3-6504CAB906CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q4605"
+          ],
+          "statement_id": "Q4605$9044AC03-9FBC-4CD7-81DE-3C93B862F595",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q7325",
+          "label": "犹太人",
+          "label_en": "Jewish people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "法国·舞台",
+      "genre": "actor"
+    },
+    "sources": [
+      {
+        "id": "WD:Q4605",
+        "title": "Wikidata Q4605 / 莎拉·伯恩哈特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q4605&oldid=2561566705",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561566705,
+        "modified_at": "2026-10-27T23:20:31Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

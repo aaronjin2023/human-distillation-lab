@@ -38,5 +38,131 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "阳台种菜的老人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q2330788",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raymond Briggs",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–2022",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2330788"
+            ],
+            "statement_id": "Q2330788$6280F431-A73D-4F80-8EE3-C8A80C095037",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-01-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q2330788"
+            ],
+            "statement_id": "Q2330788$cfc3d96c-4e6a-7110-32f8-2d3a86b3a14b",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-08-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q2330788"
+        ],
+        "statement_id": "Q2330788$C5FFF2F9-5953-4EEA-B951-37ACB6D2BB57",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q736742",
+        "label": "温布尔登",
+        "label_en": "Wimbledon",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q2330788"
+        ],
+        "statement_id": "Q2330788$C7F071C4-D774-4061-B2E6-0023197BC0E8",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q84",
+        "label": "伦敦",
+        "label_en": "London",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q2330788"
+        ],
+        "statement_id": "Q2330788$4E1AF9E6-E0E4-4A48-A3EC-D69C4150F4A4",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·图画书/图像小说",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q2330788",
+        "title": "Wikidata Q2330788 / 雷蒙德·布雷格斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q2330788&oldid=2550666324",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550666324,
+        "modified_at": "2026-09-28T22:33:14Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

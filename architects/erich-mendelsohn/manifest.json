@@ -44,5 +44,225 @@
   "template": "architects-top100-draft.md 第 6 节（画家模板改编为建筑师）",
   "test_prompt": "现代城市街角的一座社区图书馆（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对存疑项（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76730",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Erich Mendelsohn",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1887–1953",
+      "birth_year": {
+        "value": 1887,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76730"
+            ],
+            "statement_id": "q76730$7521696C-7325-40EF-A26F-138943DEF3E4",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1887,
+            "raw_time": "+1887-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76730"
+            ],
+            "statement_id": "q76730$79F9ED30-041A-4A3D-9641-ADE66D7C6B06",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-09-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          },
+          {
+            "source_ids": [
+              "WD:Q76730"
+            ],
+            "statement_id": "Q76730$07af3630-bae9-4f7f-8a17-dba710699b4d",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-09-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "q76730$11175A21-2CA7-4C81-BCFA-6EC717B4569B",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q82765",
+        "label": "奥尔什丁",
+        "label_en": "Olsztyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$A9E291CE-345F-4429-9F0D-0E060CB6F8BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1726",
+        "label": "慕尼黑",
+        "label_en": "Munich",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$D90826B6-A342-40B5-8E4A-CDF9F93D660F",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q64",
+        "label": "柏林",
+        "label_en": "Berlin",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$166BDC4D-D645-4EBA-8FE2-CBF74E22C7C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1218",
+        "label": "耶路撒冷",
+        "label_en": "Jerusalem",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$0FB86454-BE36-488D-9EDF-6AD34CB4F25A",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q62",
+        "label": "旧金山",
+        "label_en": "San Francisco",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$2779605c-48d4-872a-c828-ed01d70056e7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1799",
+        "label": "弗罗茨瓦夫",
+        "label_en": "Wrocław",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "q76730$91B01DD1-FDA6-444E-8552-02663AFB4698",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q145",
+        "label": "英国",
+        "label_en": "United Kingdom",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "q76730$C7AD3C7B-34C4-4701-8028-E5E739B6AF6C",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q76730"
+        ],
+        "statement_id": "Q76730$DA3417D3-AFD6-446F-9BAD-E6DB061A5E49",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "表现主义 / 现代主义",
+      "genre": "architect"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76730",
+        "title": "Wikidata Q76730 / 埃里希·门德尔松",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76730&oldid=2557870944",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557870944,
+        "modified_at": "2026-10-17T05:09:19Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -42,5 +42,150 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "雨夜等单的外卖骑手",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q55407",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Raj Kapoor",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1924–1988",
+      "birth_year": {
+        "value": 1924,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55407"
+            ],
+            "statement_id": "q55407$5BD23777-ABA9-4EAC-AD24-1AF02F805F84",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1924,
+            "raw_time": "+1924-12-14T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1988,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q55407"
+            ],
+            "statement_id": "q55407$44681E9A-EEB6-4DAF-9B17-9580C2D68160",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1988,
+            "raw_time": "+1988-06-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q55407"
+        ],
+        "statement_id": "q55407$B88C68EC-D966-4518-83F2-18C014EBE38F",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1113311",
+        "label": "白沙瓦",
+        "label_en": "Peshawar",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q55407"
+        ],
+        "statement_id": "Q55407$DA5FC3C8-389E-4B50-93D6-056EE059712F",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1947-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q129286",
+        "label": "英属印度",
+        "label_en": "British Raj",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q55407"
+        ],
+        "statement_id": "Q55407$51d12768-4b14-e19b-e587-ccbbeb3edb42",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1950-01-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q668",
+        "label": "印度",
+        "label_en": "India",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {},
+    "sources": [
+      {
+        "id": "WD:Q55407",
+        "title": "Wikidata Q55407 / 拉吉·卡浦爾",
+        "url": "https://www.wikidata.org/w/index.php?title=Q55407&oldid=2557756982",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557756982,
+        "modified_at": "2026-10-16T22:02:42Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

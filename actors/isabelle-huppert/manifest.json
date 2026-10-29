@@ -37,5 +37,101 @@
   "template": "actors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人在深夜便利店买关东煮",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q106365",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Isabelle Huppert",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1953–",
+      "birth_year": {
+        "value": 1953,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q106365"
+            ],
+            "statement_id": "q106365$71D8E393-EB3A-4FF5-BED9-29BEBE3836D1",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1953,
+            "raw_time": "+1953-03-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q106365"
+        ],
+        "statement_id": "Q106365$86144462-44bf-8212-40b6-b57e0470eb2c",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q194420",
+        "label": "巴黎十六区",
+        "label_en": "16th arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q106365"
+        ],
+        "statement_id": "q106365$9132697B-3998-48D1-BEFC-FA35CC8AB9BB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "法国·电影"
+    },
+    "sources": [
+      {
+        "id": "WD:Q106365",
+        "title": "Wikidata Q106365 / 伊莎贝尔·于佩尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q106365&oldid=2557935395",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557935395,
+        "modified_at": "2026-10-17T09:15:56Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

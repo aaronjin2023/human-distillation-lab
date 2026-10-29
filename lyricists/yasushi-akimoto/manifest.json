@@ -43,5 +43,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a small Yorkshire terrier sitting on a subway seat, watched by commuters who look away",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q457860",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yasushi Akimoto",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1958–",
+      "birth_year": {
+        "value": 1958,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q457860"
+            ],
+            "statement_id": "q457860$0c09df91-46c0-fc2d-662c-2cb2228f50bc",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1958,
+            "raw_time": "+1958-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q457860"
+        ],
+        "statement_id": "q457860$81AC8C18-21D1-47AA-9937-0D34142620DF",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q233903",
+        "label": "目黑区",
+        "label_en": "Meguro",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q457860"
+        ],
+        "statement_id": "q457860$6D019860-D36B-43EB-8F9B-B522AC540CED",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日语流行·偶像歌词",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q457860",
+        "title": "Wikidata Q457860 / 秋元康",
+        "url": "https://www.wikidata.org/w/index.php?title=Q457860&oldid=2557989914",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557989914,
+        "modified_at": "2026-10-17T13:24:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

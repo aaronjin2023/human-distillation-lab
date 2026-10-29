@@ -44,5 +44,134 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "市长越权发布禁令的纠纷（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：生卒 c.1210–c.1268、著作未完成、身后称谓见 Wikipedia；拉丁引文为通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1197107",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Henry de Bracton",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.1210–c.1268",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1197107"
+            ],
+            "statement_id": "Q1197107$AF3C9711-70C3-479D-BF53-8ABB06BFC5BF",
+            "rank": "normal",
+            "reference_count": 3,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1210,
+            "raw_time": "+1210-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1197107"
+            ],
+            "statement_id": "Q1197107$10672E13-D948-4E5C-995C-94A2FB3321D5",
+            "rank": "normal",
+            "reference_count": 7,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 1268,
+            "raw_time": "+1268-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1197107"
+        ],
+        "statement_id": "Q1197107$1d76bea3-b95d-45b4-a814-1d6eb09aa748",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23156",
+        "label": "德文郡",
+        "label_en": "Devon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1197107"
+        ],
+        "statement_id": "Q1197107$ED2E8D52-88CC-4733-BFE5-59BE4CFF7DB7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q179876",
+        "label": "英格兰王国",
+        "label_en": "Kingdom of England",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·普通法",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1197107",
+        "title": "Wikidata Q1197107 / 亨利·布来克顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1197107&oldid=2557920079",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557920079,
+        "modified_at": "2026-10-17T08:02:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

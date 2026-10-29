@@ -46,5 +46,101 @@
   "template": "sociologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "健康码与国家能力的社会反响",
   "verification": "2026-10-26 网络核对（见 sources）；存疑生卒已用 web 搜索核对（Scott 1936–2024、Becker 1928–2023、Wallerstein 1930–2019）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q130064",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Theda Skocpol",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1947–",
+      "birth_year": {
+        "value": 1947,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q130064"
+            ],
+            "statement_id": "Q130064$CD6CA60D-302B-45E0-A6E6-19F840BEA1C9",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1947,
+            "raw_time": "+1947-05-04T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q130064"
+        ],
+        "statement_id": "Q130064$D749A63F-4DB6-4B42-91B7-74548206FCA0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q12439",
+        "label": "底特律",
+        "label_en": "Detroit",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q130064"
+        ],
+        "statement_id": "q130064$0A910621-0CBA-4179-95A5-14AC39CEBA53",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "国家中心论·革命"
+    },
+    "sources": [
+      {
+        "id": "WD:Q130064",
+        "title": "Wikidata Q130064 / 西达·斯科克波",
+        "url": "https://www.wikidata.org/w/index.php?title=Q130064&oldid=2513228146",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2513228146,
+        "modified_at": "2026-07-02T20:20:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

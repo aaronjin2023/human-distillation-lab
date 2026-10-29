@@ -38,5 +38,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编，航海适配）",
   "test_prompt": "In the style of Jang Bogo, an uncrewed cargo fleet in 2026 runs a triangle route between three ports from one island base, escorting its own ships, clearing pirates from the lane, every leg guarded.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q493856",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jang Bogo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.787–846",
+      "birth_year": {
+        "value": 787,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493856"
+            ],
+            "statement_id": "Q493856$12BCF020-C270-4E57-9634-7A01A52C935B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 787,
+            "raw_time": "+0787-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 846,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q493856"
+            ],
+            "statement_id": "Q493856$63e8213e-4db7-181f-73f2-24bbc6839656",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 846,
+            "raw_time": "+0846-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q493856"
+        ],
+        "statement_id": "Q493856$30d79c81-4079-30f0-4870-def2941f30ce",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q50311",
+        "label": "莞島郡",
+        "label_en": "Wando County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q493856"
+        ],
+        "statement_id": "Q493856$fd400070-4bd2-c7db-4699-c20a354b14e6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q28456",
+        "label": "新罗",
+        "label_en": "Silla",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "新罗·黄海—东海",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q493856",
+        "title": "Wikidata Q493856 / 张保皋",
+        "url": "https://www.wikidata.org/w/index.php?title=Q493856&oldid=2550114949",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550114949,
+        "modified_at": "2026-09-27T17:47:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

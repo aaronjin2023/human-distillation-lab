@@ -43,5 +43,117 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一个人深夜刷短视频停不下来",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q208236",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Stanley Milgram",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1933–1984",
+      "birth_year": {
+        "value": 1933,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208236"
+            ],
+            "statement_id": "q208236$69417433-77C3-48E4-B03B-9AA74ABAE013",
+            "rank": "preferred",
+            "reference_count": 3,
+            "qualifiers": {},
+            "value": 1933,
+            "raw_time": "+1933-08-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1984,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q208236"
+            ],
+            "statement_id": "q208236$ABB55647-589F-49A0-9886-F2629206E934",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1984,
+            "raw_time": "+1984-12-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q208236"
+        ],
+        "statement_id": "Q208236$04C30A00-98FF-4343-82A1-B57D3D32B5A0",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q18426",
+        "label": "布朗克斯",
+        "label_en": "The Bronx",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q208236"
+        ],
+        "statement_id": "q208236$8E41E47A-D105-4D38-BD9B-A5186956EE05",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "社会心理学 / 服从研究"
+    },
+    "sources": [
+      {
+        "id": "WD:Q208236",
+        "title": "Wikidata Q208236 / 斯坦利·米尔格拉姆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q208236&oldid=2558243833",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558243833,
+        "modified_at": "2026-10-18T04:19:55Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

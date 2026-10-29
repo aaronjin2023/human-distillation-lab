@@ -30,5 +30,117 @@
   "test_prompt": "In the style of Gao Xiaoxia, measure a trace rare earth in a complex mixture: build a polarographic method, remove the interferences one by one, and prove accuracy with standard additions and recovery.",
   "test_question_zh": "复杂混合物里痕量稀土怎么测准？",
   "verification": "2026-10-26：生卒（1919–1998）、极谱分析、稀土微量分析、1980 年学部委员经 web 搜索（Wikipedia、中科院学部）核对；原始论文细节未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16908269",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Gao Xiaoxia",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1919–1998",
+      "birth_year": {
+        "value": 1919,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16908269"
+            ],
+            "statement_id": "Q16908269$12589B4C-0A3F-426C-A349-7006284F87A1",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1919,
+            "raw_time": "+1919-07-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1998,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16908269"
+            ],
+            "statement_id": "Q16908269$27FB0646-64A7-4AF7-B97F-EE1FC7A3134C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1998,
+            "raw_time": "+1998-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16908269"
+        ],
+        "statement_id": "Q16908269$316BF873-94C5-4011-94BC-A68513EA09A1",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q592727",
+        "label": "萧山区",
+        "label_en": "Xiaoshan District",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16908269"
+        ],
+        "statement_id": "Q16908269$02FE4307-3A51-47E8-99D6-B2AC5347B555",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "分析化学 / 极谱分析"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16908269",
+        "title": "Wikidata Q16908269 / 高小霞",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16908269&oldid=2542354456",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542354456,
+        "modified_at": "2026-09-08T16:42:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -37,5 +37,101 @@
   "template": "dancers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "a commuter in the rain waiting for a train",
   "verification": "2026-10-26 网络核对；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16215978",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mamela Nyamza",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1976–",
+      "birth_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16215978"
+            ],
+            "statement_id": "Q16215978$A9F400D0-F708-432E-84B7-C37E54BFE49B",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16215978"
+        ],
+        "statement_id": "Q16215978$62991709-69F5-40C9-89D9-21AEB8B55497",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1553423",
+        "label": "古古勒苏",
+        "label_en": "Gugulethu",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16215978"
+        ],
+        "statement_id": "Q16215978$948E677E-B047-4A60-A012-67CE80878B81",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q258",
+        "label": "南非",
+        "label_en": "South Africa",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "南非当代舞·编舞"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16215978",
+        "title": "Wikidata Q16215978 / Mamela Nyamza",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16215978&oldid=2551021225",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551021225,
+        "modified_at": "2026-09-29T22:01:53Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

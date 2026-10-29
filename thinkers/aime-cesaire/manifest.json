@@ -32,5 +32,158 @@
   "thinker": "Aimé Césaire",
   "thinker_zh": "埃梅·塞泽尔",
   "verification": "2026-10-26 网络核对：生卒与代表作以草稿名单为准，关键著作年份见 sources；未核对项见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q223955",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Aimé Césaire",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1913–2008",
+      "birth_year": {
+        "value": 1913,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q223955"
+            ],
+            "statement_id": "q223955$ABC4BDB6-7C08-46FB-A2BE-9FE6529F4F40",
+            "rank": "preferred",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1913,
+            "raw_time": "+1913-06-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q223955"
+            ],
+            "statement_id": "q223955$3B9C214C-62D9-4E3C-B41D-8737786346B2",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-04-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q223955"
+        ],
+        "statement_id": "q223955$9C8C4535-7E6F-4FB4-BB10-37B894111291",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1648481",
+        "label": "巴斯潘特",
+        "label_en": "Basse-Pointe",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q223955"
+        ],
+        "statement_id": "Q223955$12013813-97DF-46B0-AD21-287E932C6119",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q90",
+        "label": "巴黎",
+        "label_en": "Paris",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q223955"
+        ],
+        "statement_id": "Q223955$090BAF7B-8EA4-44B2-8CE7-43822F3AF882",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17054",
+        "label": "马提尼克",
+        "label_en": "Martinique",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q223955"
+        ],
+        "statement_id": "q223955$079E03C2-DA1F-4377-8E39-992DFF623CFA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q223955"
+          ],
+          "statement_id": "Q223955$f5204a57-4885-d5ed-363c-5232a688660b",
+          "rank": "normal",
+          "reference_count": 2,
+          "qualifiers": {},
+          "qid": "Q2050339",
+          "label": "非洲裔加勒比人",
+          "label_en": "Afro Caribbeans",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "黑人性运动 / 去殖民诗学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q223955",
+        "title": "Wikidata Q223955 / 艾梅·塞泽尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q223955&oldid=2560651294",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560651294,
+        "modified_at": "2026-10-25T10:54:12Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

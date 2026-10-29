@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "人脸识别与隐私（见 style.md 第 7 节）",
   "verification": "2026-10-26 通说核对：生卒 1856–1941、两句引文为学界通行引文；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q520840",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Louis Brandeis",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1856–1941",
+      "birth_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q520840"
+            ],
+            "statement_id": "Q520840$1A141CE2-9FBA-4D96-BF06-6B3C65CCA8EC",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-11-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1941,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q520840"
+            ],
+            "statement_id": "Q520840$DEAFC306-E265-41BC-9D98-751F1B5EDDD0",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1941,
+            "raw_time": "+1941-10-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q520840"
+        ],
+        "statement_id": "q520840$4050F080-D912-4905-B75B-6C2C18A775BB",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q43668",
+        "label": "路易斯维尔",
+        "label_en": "Louisville",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q520840"
+        ],
+        "statement_id": "q520840$00E99129-39A2-4E7E-8E36-EA97F91964DB",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·最高法院",
+      "genre": "judge / 法官"
+    },
+    "sources": [
+      {
+        "id": "WD:Q520840",
+        "title": "Wikidata Q520840 / 路易斯·布兰戴斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q520840&oldid=2559346393",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2559346393,
+        "modified_at": "2026-10-20T19:53:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

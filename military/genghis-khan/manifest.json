@@ -43,5 +43,125 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一次跨国企业的市场进入战",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q720",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Genghis Khan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1162–1227",
+      "birth_year": {
+        "value": 1162,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q720"
+            ],
+            "statement_id": "Q720$C6D9B5A9-5F06-416A-A647-452C689218A6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1162,
+            "raw_time": "+1162-05-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q720"
+            ],
+            "statement_id": "Q720$3fdc643a-42bf-ff9a-b66a-443c67ff1c2c",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 13649246,
+                  "id": "Q13649246"
+                }
+              ]
+            },
+            "value": 1227,
+            "raw_time": "+1227-08-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q720"
+        ],
+        "statement_id": "Q720$ad67060c-47c5-8fac-ca0e-913cc3c0b14e",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q2068087",
+        "label": "Delüün Boldog",
+        "label_en": "Delüün Boldog",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q720"
+        ],
+        "statement_id": "q720$C4B38A73-7E38-4F1B-A84C-7BD967F701ED",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q12557",
+        "label": "蒙古帝国",
+        "label_en": "Mongol Empire",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "蒙古·征服"
+    },
+    "sources": [
+      {
+        "id": "WD:Q720",
+        "title": "Wikidata Q720 / 成吉思汗",
+        "url": "https://www.wikidata.org/w/index.php?title=Q720&oldid=2561510915",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561510915,
+        "modified_at": "2026-10-27T19:02:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

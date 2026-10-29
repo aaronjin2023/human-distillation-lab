@@ -29,5 +29,117 @@
   "test_prompt": "In the method of Otto Schott, design a low-expansion glass for a deep-sea probe window. Start from the material system and its governing model, choose the synthesis route with its parameter window, verify structure by microscopy and diffraction, quantify performance before claiming application.",
   "test_question_zh": "为深海探测器窗口设计一种低膨胀玻璃",
   "verification": "2026-10-26：生卒与代表作按材料草稿 v1 与 web 搜索核对；未发现与草稿冲突的硬错误；未逐项核对者见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q72357",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Otto Schott",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1851–1935",
+      "birth_year": {
+        "value": 1851,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72357"
+            ],
+            "statement_id": "q72357$aeb31fad-45a9-d856-c594-f3206bf58620",
+            "rank": "normal",
+            "reference_count": 4,
+            "qualifiers": {},
+            "value": 1851,
+            "raw_time": "+1851-12-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q72357"
+            ],
+            "statement_id": "q72357$bff2d23a-4c2f-b48f-b82f-e59c3d0a54ac",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-08-27T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q72357"
+        ],
+        "statement_id": "q72357$CA881ED2-56BD-4AD9-B9CA-EC3E51DBA57C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3764",
+        "label": "维滕",
+        "label_en": "Witten",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q72357"
+        ],
+        "statement_id": "q72357$22AD7976-69A4-45B8-B396-DE106A3C61BA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "光学玻璃"
+    },
+    "sources": [
+      {
+        "id": "WD:Q72357",
+        "title": "Wikidata Q72357 / 奥托·肖特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q72357&oldid=2546347582",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2546347582,
+        "modified_at": "2026-09-15T19:45:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -35,5 +35,118 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of James Rennell, an uncrewed cargo ship crosses the Pacific in 2026. Its route follows a current chart compiled from thousands of logs, not a straight line. Every current on the chart is backed by dated log entries.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q965945",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "James Rennell",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1742–1830",
+      "birth_year": {
+        "value": 1742,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q965945"
+            ],
+            "statement_id": "Q965945$05087370-2E7B-4767-9454-14179676447F",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1742,
+            "raw_time": "+1742-12-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1830,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q965945"
+            ],
+            "statement_id": "Q965945$25A824F1-BCF4-497F-B778-477735243482",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1830,
+            "raw_time": "+1830-03-29T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q965945"
+        ],
+        "statement_id": "q965945$844AE50E-95D8-4819-8B96-72193B6B6948",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q23156",
+        "label": "德文郡",
+        "label_en": "Devon",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q965945"
+        ],
+        "statement_id": "Q965945$343B9770-3BF6-4FE0-9F0D-88644F5199CD",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "H. 科学与测量航海",
+      "genre": "H. 科学与测量航海"
+    },
+    "sources": [
+      {
+        "id": "WD:Q965945",
+        "title": "Wikidata Q965945 / 詹姆士·伦内尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q965945&oldid=2554578724",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554578724,
+        "modified_at": "2026-10-07T14:21:59Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

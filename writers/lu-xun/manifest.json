@@ -42,5 +42,168 @@
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Lu Xun",
-  "writer_zh": "鲁迅"
+  "writer_zh": "鲁迅",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q23114",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Lu Xun",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1881–1936",
+      "birth_year": {
+        "value": 1881,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23114"
+            ],
+            "statement_id": "q23114$FCCA90AF-AB3E-43EF-B103-49207928B481",
+            "rank": "preferred",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1881,
+            "raw_time": "+1881-09-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1936,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q23114"
+            ],
+            "statement_id": "q23114$5FEA4FE4-90E1-4AF8-852C-865296CCA9C6",
+            "rank": "preferred",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1936,
+            "raw_time": "+1936-10-19T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": null
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q23114"
+        ],
+        "statement_id": "q23114$FF3D91BE-5901-44BB-84EB-35851476D4C4",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42666",
+        "label": "绍兴市",
+        "label_en": "Shaoxing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q23114"
+        ],
+        "statement_id": "q23114$4bb31914-44b8-4ce4-6f2a-76a9a2321de7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q23114"
+        ],
+        "statement_id": "Q23114$16431d97-416d-4813-3151-d78955478d9d",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "documented",
+      "documented": [
+        {
+          "label": "汉族",
+          "source_ids": [
+            "BIO-LUXUN-12371"
+          ],
+          "evidence_basis": "explicit_public_biography"
+        }
+      ],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代·小说 / 杂文",
+      "genre": "novelist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q23114",
+        "title": "Wikidata Q23114 / 鲁迅",
+        "url": "https://www.wikidata.org/w/index.php?title=Q23114&oldid=2558134242",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558134242,
+        "modified_at": "2026-10-17T22:30:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      },
+      {
+        "id": "BIO-LUXUN-12371",
+        "title": "新中国英雄模范人物：鲁迅",
+        "url": "https://www.12371.cn/2013/08/05/ARTI1375669515723212.shtml",
+        "accessed_at": "2026-10-29",
+        "access_note": "已浏览共产党员网公开传记正文；首段直接写明“男，汉族，原名周树人”。"
+      }
+    ]
+  }
 }

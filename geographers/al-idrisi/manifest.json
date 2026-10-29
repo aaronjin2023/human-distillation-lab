@@ -30,5 +30,56 @@
   "test_prompt": "In the style of al-Idrisi, divide a modern metropolitan region into seventy sections and describe each one the same way: its towns, its roads, its rivers and its products — and let the sections, laid side by side, become the map",
   "test_question_zh": "如何把一座现代都市圈切成七十个分区来描述？",
   "verification": "生卒（1100–1165）与《罗杰之书》草稿第 5 节已核对；2026-10-26 抽样自检：《罗杰之书》=《行程之乐》为同一部著作，已合并。",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "unresolved",
+    "identity": {
+      "qid": null,
+      "status": "unresolved",
+      "candidates": [
+        {
+          "qid": "Q173441",
+          "status": "needs_identity_review",
+          "conflicts": [
+            "birth_year",
+            "death_year_multiple_claims"
+          ],
+          "match_basis": {
+            "name": "Muhammad al-Idrisi",
+            "compared_date_fields": 2
+          }
+        }
+      ]
+    },
+    "life": {
+      "original_text": "1100–1165",
+      "birth_year": {
+        "value": 1100,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "death_year": {
+        "value": 1165,
+        "status": "legacy_unverified",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "阿拉伯·制图与区域地理"
+    },
+    "sources": []
+  }
 }

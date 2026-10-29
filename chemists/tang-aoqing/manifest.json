@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Tang Aoqing, explain a transition-metal complex's spectrum: build its molecular orbitals, apply ligand-field splitting, compute the transitions, and check them against the measured spectrum.",
   "test_question_zh": "一种过渡金属配合物的光谱怎么从理论上解释并验证？",
   "verification": "2026-10-26：生卒（1915–2008）、分子轨道理论、配位场理论、量子化学教材体系经 Wikipedia 与中文文献共识核对；原始论文细节未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q8461812",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Tang Aoqing",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1915–2008",
+      "birth_year": {
+        "value": 1915,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8461812"
+            ],
+            "statement_id": "Q8461812$A26A25A0-3CE5-4D84-B8DC-9290C95206E6",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1915,
+            "raw_time": "+1915-11-18T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2008,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q8461812"
+            ],
+            "statement_id": "Q8461812$233484BC-3116-49CD-8B26-AD95DA704D90",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 2008,
+            "raw_time": "+2008-07-15T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q8461812"
+        ],
+        "statement_id": "Q8461812$d19cfe5b-4b91-10d0-4672-c04343619015",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1015788",
+        "label": "宜兴市",
+        "label_en": "Yixing",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q8461812"
+        ],
+        "statement_id": "Q8461812$87FAA165-6820-449F-9A35-05D7213714A6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "量子化学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q8461812",
+        "title": "Wikidata Q8461812 / 唐敖庆",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8461812&oldid=2542353635",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2542353635,
+        "modified_at": "2026-09-08T16:40:30Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

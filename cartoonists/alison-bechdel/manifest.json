@@ -43,5 +43,102 @@
   "template": "cartoonists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "在旧书店翻找家谱的年轻人（见 style.md 第 7 节）",
   "verification": "2026-10-26 按草稿通说写；存疑项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q435032",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alison Bechdel",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1960–",
+      "birth_year": {
+        "value": 1960,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q435032"
+            ],
+            "statement_id": "q435032$394D3776-3E1B-4E79-B015-2C72C0ADD7CD",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1960,
+            "raw_time": "+1960-09-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q435032"
+        ],
+        "statement_id": "Q435032$EBCE3FB4-2502-40A2-B427-44A0CD3E717A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1187817",
+        "label": "洛克黑文",
+        "label_en": "Lock Haven",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q435032"
+        ],
+        "statement_id": "q435032$B93B6685-2BD4-41BA-911D-9F7B2DAE87B7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·图像小说/自传漫画",
+      "genre": "cartoonist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q435032",
+        "title": "Wikidata Q435032 / 艾莉森·贝克德尔",
+        "url": "https://www.wikidata.org/w/index.php?title=Q435032&oldid=2549036823",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2549036823,
+        "modified_at": "2026-09-24T13:52:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

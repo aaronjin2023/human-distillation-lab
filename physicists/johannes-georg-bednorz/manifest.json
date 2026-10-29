@@ -31,5 +31,101 @@
   "test_prompt": "In the style of Johannes Georg Bednorz, explain why a Yorkshire terrier does not slip on a subway floor: search systematically for the grip mechanism, measure the friction the way you would measure a resistance drop, and let a sharp change in grip decide between explanations",
   "test_question_zh": "解释地铁里一只约克夏犬为什么不会滑倒",
   "verification": "2026-10-26：生卒与代表作按 physicists 草稿 v1 与物理史通说写；在世状态经 web 搜索核对（威尔逊在世、杨振宁 2025-10-18 去世等）；原始论文未逐句核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q76687",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Johannes Georg Bednorz",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1950–",
+      "birth_year": {
+        "value": 1950,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q76687"
+            ],
+            "statement_id": "q76687$89E2C5DC-F4BF-4F92-B853-A48279983C07",
+            "rank": "normal",
+            "reference_count": 5,
+            "qualifiers": {},
+            "value": 1950,
+            "raw_time": "+1950-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q76687"
+        ],
+        "statement_id": "Q76687$8afec9b5-42c7-0ca7-4de3-43b5901ca18b",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q182208",
+        "label": "新基兴",
+        "label_en": "Neuenkirchen",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q76687"
+        ],
+        "statement_id": "Q76687$A5FDA91C-BC59-45E7-B672-E067BEB24809",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "高温超导"
+    },
+    "sources": [
+      {
+        "id": "WD:Q76687",
+        "title": "Wikidata Q76687 / 约翰内斯·贝德诺尔茨",
+        "url": "https://www.wikidata.org/w/index.php?title=Q76687&oldid=2561461796",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561461796,
+        "modified_at": "2026-10-27T15:46:45Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

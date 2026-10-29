@@ -42,5 +42,102 @@
   "template": "educators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "达克沃斯风格：为一群容易放弃的青少年设计一堂关于人工智能的课。定一个非常长远的目标，拆成刻意练习——跳一跳的目标加快速反馈，表扬坚持而不表扬天赋，告诉学生努力重要两倍，不在第一个困难处放弃。",
   "verification": "2026-10-26 网络核对（生卒与代表作按草稿名单，辅以 Wikipedia / Britannica 通说核对；未逐项核对创作年份）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q16198258",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Angela Duckworth",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1970–",
+      "birth_year": {
+        "value": 1970,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q16198258"
+            ],
+            "statement_id": "Q16198258$9284B481-EAE9-4F87-B2B5-D849BB826AA7",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1970,
+            "raw_time": "+1970-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q16198258"
+        ],
+        "statement_id": "Q16198258$BF9F481A-B99F-4CCD-9869-251085443809",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q2710598",
+        "label": "纽泽西州",
+        "label_en": "Cherry Hill",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q16198258"
+        ],
+        "statement_id": "Q16198258$DA91094D-ED84-4158-AB59-C7B032DBA475",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "坚毅",
+      "genre": "educator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q16198258",
+        "title": "Wikidata Q16198258 / 安吉拉 李 杜克沃斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q16198258&oldid=2554561317",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2554561317,
+        "modified_at": "2026-10-07T13:40:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q169906",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Jacques Lacan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1901–1981",
+      "birth_year": {
+        "value": 1901,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q169906"
+            ],
+            "statement_id": "q169906$52AC6A76-CDCF-4F0D-A40C-68DD3F096A49",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1901,
+            "raw_time": "+1901-04-13T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1981,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q169906"
+            ],
+            "statement_id": "q169906$3485BA97-CD6D-4A65-8866-79BE3D515557",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1981,
+            "raw_time": "+1981-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q169906"
+        ],
+        "statement_id": "q169906$BA388E87-EC0F-48D1-B309-628770E2977E",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q223140",
+        "label": "巴黎第三区",
+        "label_en": "3rd arrondissement of Paris",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q169906"
+        ],
+        "statement_id": "q169906$D32E0DC3-19E1-4239-A8EB-E452E38FD96C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q142",
+        "label": "法国",
+        "label_en": "France",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "结构主义精神分析",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q169906",
+        "title": "Wikidata Q169906 / 雅各·拉冈",
+        "url": "https://www.wikidata.org/w/index.php?title=Q169906&oldid=2548076660",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2548076660,
+        "modified_at": "2026-09-21T07:12:38Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -31,5 +31,119 @@
   "test_prompt": "In the style of Strabo, describe a modern metropolitan region district by district: fix each boundary by coast, river or road, list its towns, products and customs, and judge each district by whether it can be lived in and travelled through",
   "test_question_zh": "一座现代都市圈各区宜居与可通行程度如何？",
   "verification": "生卒与代表作按地理学史通说写，未逐项核对原文出处；",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q45936",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Strabo",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.64 BCE–c.24 CE",
+      "birth_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45936"
+            ],
+            "statement_id": "Q45936$5407f6be-4c39-75f6-36dc-e50f11c7e0d0",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": -63,
+            "raw_time": "-0063-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q45936"
+            ],
+            "statement_id": "Q45936$60119AC6-B3E3-425F-8C7F-969F8298BE6E",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {
+              "P1480": [
+                {
+                  "entity-type": "item",
+                  "numeric-id": 5727902,
+                  "id": "Q5727902"
+                }
+              ]
+            },
+            "value": 23,
+            "raw_time": "+0023-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q45936"
+        ],
+        "statement_id": "Q45936$9EE31771-505C-4D64-B067-D92BA6C1C199",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q27088966",
+        "label": "Amasia",
+        "label_en": "Amasia",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "古罗马·区域地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q45936",
+        "title": "Wikidata Q45936 / 斯特拉波",
+        "url": "https://www.wikidata.org/w/index.php?title=Q45936&oldid=2558246807",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2558246807,
+        "modified_at": "2026-10-18T04:27:54Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

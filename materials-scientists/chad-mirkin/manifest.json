@@ -29,5 +29,101 @@
   "template": "materials-scientists-top100-draft.md 第6节（画家模板材料科学适配版）",
   "test_prompt": "In the method of Chad Mirkin, design a flexible conductive material for a wearable device. Program DNA onto nanoparticle surfaces, let the assembly follow the code, verify it with melting curves and spectroscopy, and prove function with a measurable readout.",
   "verification": "2026-10-26：生卒与代表作经 web 搜索核对；**SNA 发现年份口径**：DNA—金纳米颗粒组装 1996 年发表；“球形核酸”一词与结构纳米医学框架是后续系统化的",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q194539",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Chad Mirkin",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1963–",
+      "birth_year": {
+        "value": 1963,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q194539"
+            ],
+            "statement_id": "Q194539$4E5AE02C-3EE3-4221-B0DA-C1C63D4A1095",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1963,
+            "raw_time": "+1963-11-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q194539"
+        ],
+        "statement_id": "Q194539$2CE3DCB5-F14B-43D1-B3C2-06117590306C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q16556",
+        "label": "菲尼克斯",
+        "label_en": "Phoenix",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q194539"
+        ],
+        "statement_id": "Q194539$45DD99F6-174A-47E2-BCFA-99757C575E7E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "纳米组装 / 球形核酸"
+    },
+    "sources": [
+      {
+        "id": "WD:Q194539",
+        "title": "Wikidata Q194539 / 查德·米爾金",
+        "url": "https://www.wikidata.org/w/index.php?title=Q194539&oldid=2552144887",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2552144887,
+        "modified_at": "2026-10-02T11:59:29Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

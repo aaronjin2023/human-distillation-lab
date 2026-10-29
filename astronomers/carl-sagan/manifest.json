@@ -31,5 +31,117 @@
   "test_prompt": "In the style of Carl Sagan, assess a newly observed exoplanet atmosphere: combine its spectrum with its equilibrium temperature, ask what atmospheric composition explains both, and test the model against Solar System planets",
   "test_question_zh": "新系外行星大气光谱说明了什么？",
   "verification": "生卒 1934–1996、金星温室效应与托林、旅行者金唱片按天文史通说写；金星温室效应的优先权见 conflicts",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q410",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Carl Sagan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1934–1996",
+      "birth_year": {
+        "value": 1934,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q410"
+            ],
+            "statement_id": "q410$144DA533-3A18-473E-8C80-4D9862623479",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1934,
+            "raw_time": "+1934-11-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1996,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q410"
+            ],
+            "statement_id": "q410$8B59CD7C-318F-44A9-83FE-78C8D87A58FB",
+            "rank": "normal",
+            "reference_count": 10,
+            "qualifiers": {},
+            "value": 1996,
+            "raw_time": "+1996-12-20T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q410"
+        ],
+        "statement_id": "Q410$8814C1BA-AFF3-4B92-80C5-DD5535D37B61",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q18419",
+        "label": "布鲁克林区",
+        "label_en": "Brooklyn",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q410"
+        ],
+        "statement_id": "q410$4BCEC177-43DD-4E71-A1EF-492135EA5D61",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "美国·行星科学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q410",
+        "title": "Wikidata Q410 / 卡尔·萨根",
+        "url": "https://www.wikidata.org/w/index.php?title=Q410&oldid=2561500835",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561500835,
+        "modified_at": "2026-10-27T18:26:33Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

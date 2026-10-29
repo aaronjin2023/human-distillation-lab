@@ -38,5 +38,142 @@
   "template": "navigators-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Amerigo Vespucci, an uncrewed vessel works down an unknown coast in 2026, logging latitudes and star positions in letters home, arguing from the coastline that this is a new continent.",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q47674",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Amerigo Vespucci",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1454–1512",
+      "birth_year": {
+        "value": 1454,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47674"
+            ],
+            "statement_id": "Q47674$5C5ECA55-8BF3-41DA-A495-1FBA927E6C16",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1454,
+            "raw_time": "+1454-03-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1512,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q47674"
+            ],
+            "statement_id": "Q47674$6AA41AB4-5556-46AA-B866-FA83CDC8A6F7",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1512,
+            "raw_time": "+1512-02-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q47674"
+        ],
+        "statement_id": "Q47674$e6b6b12e-4537-f556-ac5c-450f376907cc",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q2044",
+        "label": "佛罗伦萨",
+        "label_en": "Florence",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q47674"
+        ],
+        "statement_id": "Q47674$f242a2b1-4913-ddd9-764e-f2e89e0309e3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q148540",
+        "label": "佛罗伦萨共和国",
+        "label_en": "Republic of Florence",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q47674"
+        ],
+        "statement_id": "Q47674$80d09b5f-4b15-d52f-da5a-aa05048ad054",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1508-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+            }
+          ]
+        },
+        "qid": "Q217196",
+        "label": "卡斯提尔联合王国",
+        "label_en": "Crown of Castile",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "意大利—西班牙·大西洋",
+      "genre": "navigator"
+    },
+    "sources": [
+      {
+        "id": "WD:Q47674",
+        "title": "Wikidata Q47674 / 亚美利哥·韦斯普奇",
+        "url": "https://www.wikidata.org/w/index.php?title=Q47674&oldid=2560426906",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560426906,
+        "modified_at": "2026-10-24T20:55:25Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

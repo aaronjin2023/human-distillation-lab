@@ -31,5 +31,144 @@
   "template": "composers-top100-draft.md 第 6 节",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26：生卒与代表作按英文维基通说核对；争议项以 web 搜索核对；作品编号/调性/版本未逐件核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q78475",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Alban Berg",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1885–1935",
+      "birth_year": {
+        "value": 1885,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78475"
+            ],
+            "statement_id": "q78475$6C745784-2F4C-415C-943F-ABFCD6780FB4",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1885,
+            "raw_time": "+1885-02-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1935,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q78475"
+            ],
+            "statement_id": "q78475$98B3C2E9-9BC7-4089-BDBA-CA94A8C183F0",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1935,
+            "raw_time": "+1935-12-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q78475"
+        ],
+        "statement_id": "q78475$5390975A-2B0C-48B8-8D6E-CB1001715E3A",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q78475"
+        ],
+        "statement_id": "Q78475$E7F36842-64B2-41C4-A143-6866E2EF22EE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q1741",
+        "label": "维也纳",
+        "label_en": "Vienna",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q78475"
+        ],
+        "statement_id": "q78475$11084B3C-B8D7-422D-9249-51D329A197C6",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q533534",
+        "label": "內萊塔尼亞",
+        "label_en": "Cisleithania",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q78475"
+        ],
+        "statement_id": "Q78475$1AC43399-0770-41CC-8F46-E33D1A0737C7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q40",
+        "label": "奥地利",
+        "label_en": "Austria",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "现代主义 / 第二维也纳乐派"
+    },
+    "sources": [
+      {
+        "id": "WD:Q78475",
+        "title": "Wikidata Q78475 / 阿尔班·贝尔格",
+        "url": "https://www.wikidata.org/w/index.php?title=Q78475&oldid=2561323483",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561323483,
+        "modified_at": "2026-10-27T05:00:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

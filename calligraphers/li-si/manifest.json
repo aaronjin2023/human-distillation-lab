@@ -51,5 +51,130 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "In the style of Li Si, small seal script calligraphy carving the names of modern Tokyo subway stations on a stone stele, perfectly even rounded strokes, symmetrical tall characters, solemn uniform columns, black rubbing ink",
   "verification": "2026-10-26 网络核对关键藏地与真迹情况；未核对项见 known_gaps 与 conflicts.md",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q152919",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Li Si",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "c.280–208 BCE",
+      "birth_year": {
+        "value": -280,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152919"
+            ],
+            "statement_id": "Q152919$B004A7FF-555F-44CF-8BFF-419E08B10CB5",
+            "rank": "normal",
+            "reference_count": 0,
+            "qualifiers": {},
+            "value": -280,
+            "raw_time": "-0280-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -208,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q152919"
+            ],
+            "statement_id": "Q152919$34CD8641-FE34-462A-B8C0-A6629F7F10D5",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -208,
+            "raw_time": "-0208-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": true,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q152919"
+        ],
+        "statement_id": "Q152919$07589612-C6C2-4A79-A427-3FB6E14333B1",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q1199103",
+        "label": "上蔡县",
+        "label_en": "Shangcai County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q152919"
+        ],
+        "statement_id": "Q152919$7C566CB1-11C5-46F5-8322-70A9C6D846EA",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q504759",
+        "label": "楚国",
+        "label_en": "Chu",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q152919"
+        ],
+        "statement_id": "Q152919$800f33b2-4ccd-c198-6e33-8d62aee10dd7",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q7183",
+        "label": "秦朝",
+        "label_en": "Qin dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "秦·小篆"
+    },
+    "sources": [
+      {
+        "id": "WD:Q152919",
+        "title": "Wikidata Q152919 / 李斯",
+        "url": "https://www.wikidata.org/w/index.php?title=Q152919&oldid=2553830647",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553830647,
+        "modified_at": "2026-10-06T08:42:15Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

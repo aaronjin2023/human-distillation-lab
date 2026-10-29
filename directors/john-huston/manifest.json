@@ -45,5 +45,131 @@
   "template": "directors-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 核对（生卒与代表作按草稿与电影史通说；梅里爱、居伊-布拉谢、维尔托夫经 web 搜索核对；未核对项已记入 conflicts.md 与 known_gaps）",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q51575",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "John Huston",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1906–1987",
+      "birth_year": {
+        "value": 1906,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51575"
+            ],
+            "statement_id": "q51575$6617385B-658C-4997-8A57-8BF3D994EB22",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1906,
+            "raw_time": "+1906-08-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1987,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q51575"
+            ],
+            "statement_id": "q51575$7D5570BD-9423-4B16-883E-DF8D527F2D2F",
+            "rank": "normal",
+            "reference_count": 13,
+            "qualifiers": {},
+            "value": 1987,
+            "raw_time": "+1987-08-28T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q51575"
+        ],
+        "statement_id": "q51575$F7FBF36E-C4A0-4042-8423-3BA0967580B5",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q959584",
+        "label": "內華達",
+        "label_en": "Nevada",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q51575"
+        ],
+        "statement_id": "Q51575$7946751B-9856-4213-9F8A-1D996B9C6563",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q34006",
+        "label": "好莱坞",
+        "label_en": "Hollywood",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q51575"
+        ],
+        "statement_id": "q51575$3C705BCD-1893-47DB-9E40-C006A1B5202B",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "美国·黑色电影 / 冒险"
+    },
+    "sources": [
+      {
+        "id": "WD:Q51575",
+        "title": "Wikidata Q51575 / 约翰·休斯顿",
+        "url": "https://www.wikidata.org/w/index.php?title=Q51575&oldid=2557990384",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557990384,
+        "modified_at": "2026-10-17T13:26:08Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

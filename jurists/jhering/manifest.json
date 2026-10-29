@@ -44,5 +44,132 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "外卖员为被扣的配送费而斗争（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对：引文见 Wikisource《为权利而斗争》第 3 章 Lalor 英译本原文；生卒 1818–1892 为通说；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q62605",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rudolf von Jhering",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1818–1892",
+      "birth_year": {
+        "value": 1818,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q62605"
+            ],
+            "statement_id": "q62605$F6F666AF-2048-4153-8786-7BEFD17BE253",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1818,
+            "raw_time": "+1818-08-22T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1892,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q62605"
+            ],
+            "statement_id": "q62605$05411EDF-C860-4A32-9406-7D1E594132C8",
+            "rank": "normal",
+            "reference_count": 8,
+            "qualifiers": {},
+            "value": 1892,
+            "raw_time": "+1892-09-17T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q62605"
+        ],
+        "statement_id": "q62605$10E37260-A764-4BFD-AEAB-C8A0B514497C",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q14839",
+        "label": "奥里希",
+        "label_en": "Aurich",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q62605"
+        ],
+        "statement_id": "Q62605$5093278C-EF5C-47C1-AE99-A7D0F916E8A9",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q62605"
+        ],
+        "statement_id": "q62605$E88E03CE-CB06-4251-A036-240C42822F10",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q27306",
+        "label": "普鲁士王国",
+        "label_en": "Kingdom of Prussia",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "目的法学",
+      "genre": "jurist / 法学家"
+    },
+    "sources": [
+      {
+        "id": "WD:Q62605",
+        "title": "Wikidata Q62605 / 鲁道夫·冯·耶林",
+        "url": "https://www.wikidata.org/w/index.php?title=Q62605&oldid=2561286242",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561286242,
+        "modified_at": "2026-10-27T02:43:16Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

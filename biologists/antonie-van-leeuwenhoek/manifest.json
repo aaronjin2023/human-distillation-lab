@@ -30,5 +30,186 @@
   "test_prompt": "In the style of Antonie van Leeuwenhoek, prove an unknown microbe in a water sample is alive: observe the same drop repeatedly, record its movement and shape, have another observer confirm it, and report only what the lens showed",
   "test_question_zh": "一份水样里出现未知微小生物，怎么证明它真的活着？",
   "verification": "生卒 1632–1723、微生物发现、单透镜观察按生物学史通说写；信件细节未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q43522",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Antonie van Leeuwenhoek",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1632–1723",
+      "birth_year": {
+        "value": 1632,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43522"
+            ],
+            "statement_id": "q43522$BA2D54F0-95FE-433C-8C06-DB4CFA9A1925",
+            "rank": "normal",
+            "reference_count": 9,
+            "qualifiers": {},
+            "value": 1632,
+            "raw_time": "+1632-10-24T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1723,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q43522"
+            ],
+            "statement_id": "q43522$DD0E4402-5953-4C75-B0B5-61A7A313293A",
+            "rank": "normal",
+            "reference_count": 6,
+            "qualifiers": {},
+            "value": 1723,
+            "raw_time": "+1723-08-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q43522"
+        ],
+        "statement_id": "Q43522$F829D7EE-B976-4231-9D4C-363192CEAD6E",
+        "rank": "normal",
+        "reference_count": 4,
+        "qualifiers": {},
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q43522"
+        ],
+        "statement_id": "Q43522$159B5235-FA38-41BE-BCD8-552FF5D2BE9D",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1654-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1723-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q690",
+        "label": "代尔夫特",
+        "label_en": "Delft",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q43522"
+        ],
+        "statement_id": "Q43522$96cd73e7-430e-4ca0-aad4-b3402cb5cb73",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1648-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1648-00-00T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 9,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q727",
+        "label": "阿姆斯特丹",
+        "label_en": "Amsterdam",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q43522"
+        ],
+        "statement_id": "q43522$0156EC72-B532-49E1-9EFF-72ED9462E5F3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q170072",
+        "label": "荷兰共和国",
+        "label_en": "Dutch Republic",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "细胞学 / 微生物学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q43522",
+        "title": "Wikidata Q43522 / 安東尼‧范‧雷文霍克",
+        "url": "https://www.wikidata.org/w/index.php?title=Q43522&oldid=2557782119",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2557782119,
+        "modified_at": "2026-10-16T23:24:11Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

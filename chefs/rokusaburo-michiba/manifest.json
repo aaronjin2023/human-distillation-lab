@@ -44,5 +44,102 @@
   "template": "chefs-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "道场六三郎风格：一份深夜便利店关东煮的重构——命之出汁、食材无国界、大胆即兴、日本灵魂与世界风味。",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q7360108",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Rokusaburo Michiba",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1931–",
+      "birth_year": {
+        "value": 1931,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q7360108"
+            ],
+            "statement_id": "Q7360108$8DD9C41E-DFAF-46BE-8348-DA246A1BE297",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1931,
+            "raw_time": "+1931-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q7360108"
+        ],
+        "statement_id": "Q7360108$d2882b22-4ee6-b8e9-e8aa-d88a2b1d4e68",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q8047872",
+        "label": "Yamanaka",
+        "label_en": "Yamanaka",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q7360108"
+        ],
+        "statement_id": "Q7360108$D87C94E1-70EC-4A96-BA8A-E8A52BB4FD47",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日本料理",
+      "genre": "chef"
+    },
+    "sources": [
+      {
+        "id": "WD:Q7360108",
+        "title": "Wikidata Q7360108 / 道场六三郎",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7360108&oldid=2527837797",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2527837797,
+        "modified_at": "2026-08-05T22:22:49Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

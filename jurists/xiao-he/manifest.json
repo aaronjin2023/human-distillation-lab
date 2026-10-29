@@ -44,5 +44,118 @@
   "template": "jurists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "共享单车堵住地铁口：按条文罚款（见 style.md 第 7 节）",
   "verification": "2026-10-26 网络核对（见 sources 与 conflicts.md）；未核对项见 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1368034",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Xiao He",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "257–193 BCE",
+      "birth_year": {
+        "value": -257,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1368034"
+            ],
+            "statement_id": "Q1368034$943f15c9-2429-4912-b148-8faeb0344d51",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -257,
+            "raw_time": "-0257-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": -193,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1368034"
+            ],
+            "statement_id": "Q1368034$94468654-3035-4DF9-861E-8BB38388E3CB",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": -193,
+            "raw_time": "-0193-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1368034"
+        ],
+        "statement_id": "Q1368034$66BABC9F-B442-4BD9-9A28-70D7A0EB3BC2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q384278",
+        "label": "丰县",
+        "label_en": "Feng County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1368034"
+        ],
+        "statement_id": "Q1368034$98599A88-5755-4870-BB87-33DF3A750FB8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q7209",
+        "label": "汉朝",
+        "label_en": "Han dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "西汉·立法",
+      "genre": "legislator / 立法者"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1368034",
+        "title": "Wikidata Q1368034 / 萧何",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1368034&oldid=2515903870",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2515903870,
+        "modified_at": "2026-07-10T15:12:02Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

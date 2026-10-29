@@ -32,5 +32,101 @@
   "test_prompt": "In the method of Sumio Iijima, design a flexible conductive nanotube material for a wearable device. Look with the electron microscope first, let the tubular structure reveal itself in the image, count layers and diameters before measuring conductivity, and claim nothing the micrograph does not show.",
   "test_question_zh": "为可穿戴设备设计一种柔性导电纳米管材料",
   "verification": "2026-10-26：生卒（1939–）经 web 搜索核对（Wikipedia / NobelPrize.org / Britannica 共识）；其余未逐项核对，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1349968",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Sumio Iijima",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1939–",
+      "birth_year": {
+        "value": 1939,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1349968"
+            ],
+            "statement_id": "Q1349968$0E14E26E-F50F-41E9-9511-2F2693AD051C",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1939,
+            "raw_time": "+1939-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1349968"
+        ],
+        "statement_id": "Q1349968$AA898F40-32C3-4944-94FE-802CDFF7F963",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q497952",
+        "label": "越谷市",
+        "label_en": "Koshigaya",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1349968"
+        ],
+        "statement_id": "Q1349968$D82EBEC0-8E6F-4A6D-9CFB-90B10664EFA6",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "碳纳米管 / 纳米材料"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1349968",
+        "title": "Wikidata Q1349968 / 饭岛澄男",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1349968&oldid=2547183417",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2547183417,
+        "modified_at": "2026-09-17T23:19:41Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

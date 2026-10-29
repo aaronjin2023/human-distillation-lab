@@ -45,5 +45,118 @@
   "template": "psychologists-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q75814",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Wilhelm Wundt",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1832–1920",
+      "birth_year": {
+        "value": 1832,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75814"
+            ],
+            "statement_id": "q75814$C8E3C213-0556-4182-88B7-AA118C151A1C",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1832,
+            "raw_time": "+1832-08-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1920,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q75814"
+            ],
+            "statement_id": "q75814$F47C30FE-DDA2-464B-B4EB-AE70136FD890",
+            "rank": "normal",
+            "reference_count": 14,
+            "qualifiers": {},
+            "value": 1920,
+            "raw_time": "+1920-08-31T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q75814"
+        ],
+        "statement_id": "q75814$DC62B72D-821A-40B1-992E-BFB58FF2B9DC",
+        "rank": "normal",
+        "reference_count": 3,
+        "qualifiers": {},
+        "qid": "Q1973682",
+        "label": "内卡劳",
+        "label_en": "Neckarau",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q75814"
+        ],
+        "statement_id": "q75814$628413C3-8440-443E-9124-3044BE5596AE",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q183",
+        "label": "德国",
+        "label_en": "Germany",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "实验心理学奠基",
+      "genre": "psychologist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q75814",
+        "title": "Wikidata Q75814 / 威廉·冯特",
+        "url": "https://www.wikidata.org/w/index.php?title=Q75814&oldid=2560843894",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560843894,
+        "modified_at": "2026-10-25T22:52:01Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

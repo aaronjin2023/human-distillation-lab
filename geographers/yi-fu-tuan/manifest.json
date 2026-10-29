@@ -31,5 +31,130 @@
   "test_prompt": "In the style of Yi-Fu Tuan, write of a Yorkshire terrier riding the subway at night: ask when a carriage stops being mere space and becomes a place, and let the dog's pause, smell and habit answer, not a survey.",
   "test_question_zh": "一只约克夏犬夜乘地铁",
   "verification": "2026-10-26：生卒与代表作按草稿 v1 与地理学史通说写；段义孚、古德柴尔德、马博贡杰、迈克·戴维斯、勒施经 web 搜索核对；其余未逐项核对原文出处，见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q3279442",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Yi-Fu Tuan",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1930–2022",
+      "birth_year": {
+        "value": 1930,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3279442"
+            ],
+            "statement_id": "Q3279442$3156E921-408E-4B46-B148-E9A4DDBBF7D0",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1930,
+            "raw_time": "+1930-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 2022,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q3279442"
+            ],
+            "statement_id": "Q3279442$350375fe-7bee-4996-94a4-e66e922d6236",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 2022,
+            "raw_time": "+2022-08-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q3279442"
+        ],
+        "statement_id": "Q3279442$D8AFCDFE-0511-481B-95A0-935D7BD0D955",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q11736",
+        "label": "天津市",
+        "label_en": "Tianjin",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q3279442"
+        ],
+        "statement_id": "Q3279442$98728B2E-0F86-4643-BFD1-59CE40A582E8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q3279442"
+        ],
+        "statement_id": "Q3279442$db3e83c7-47f2-2753-6f24-0e220649f712",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "中国—美国·人本主义地理"
+    },
+    "sources": [
+      {
+        "id": "WD:Q3279442",
+        "title": "Wikidata Q3279442 / 段义孚",
+        "url": "https://www.wikidata.org/w/index.php?title=Q3279442&oldid=2531329341",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2531329341,
+        "modified_at": "2026-08-14T13:30:28Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

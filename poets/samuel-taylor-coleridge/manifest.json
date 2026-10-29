@@ -44,5 +44,145 @@
   "template": "poets-top100-draft.md 第 6 节（画家模板改编为诗人）",
   "test_prompt": "一只坐在地铁里的约克夏犬",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q82409",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Samuel Taylor Coleridge",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1772–1834",
+      "birth_year": {
+        "value": 1772,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82409"
+            ],
+            "statement_id": "q82409$85D1DC9B-F680-4717-8D80-C4BFB3F0A2CA",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1772,
+            "raw_time": "+1772-10-21T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1834,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q82409"
+            ],
+            "statement_id": "q82409$CE5F6487-EA0C-4849-BFFA-1B1998914AFA",
+            "rank": "preferred",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1834,
+            "raw_time": "+1834-07-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q82409"
+        ],
+        "statement_id": "Q82409$CFB1BC2B-E6D1-46C2-904B-45FDCABA9E06",
+        "rank": "normal",
+        "reference_count": 2,
+        "qualifiers": {},
+        "qid": "Q1247828",
+        "label": "奥特利圣玛丽",
+        "label_en": "Ottery St Mary",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q82409"
+        ],
+        "statement_id": "Q82409$CE3FEA93-A02B-49B2-A7F3-A9A6CD33F29C",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q3033",
+        "label": "哥廷根",
+        "label_en": "Göttingen",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q82409"
+        ],
+        "statement_id": "q82409$A80DFF68-1F0D-4BBD-8D5C-0C3E40689B1E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q161885",
+        "label": "大不列颠王国",
+        "label_en": "Kingdom of Great Britain",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q82409"
+        ],
+        "statement_id": "Q82409$780fc927-49ca-4e0d-f73f-bd57a27696e5",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q174193",
+        "label": "大不列颠及爱尔兰联合王国",
+        "label_en": "United Kingdom of Great Britain and Ireland",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "英国·湖畔派诗",
+      "genre": "poet"
+    },
+    "sources": [
+      {
+        "id": "WD:Q82409",
+        "title": "Wikidata Q82409 / 塞缪尔·泰勒·柯勒律治",
+        "url": "https://www.wikidata.org/w/index.php?title=Q82409&oldid=2561185549",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561185549,
+        "modified_at": "2026-10-26T20:29:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

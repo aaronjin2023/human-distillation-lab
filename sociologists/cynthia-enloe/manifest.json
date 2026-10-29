@@ -49,5 +49,101 @@
   ],
   "test_prompt": "深夜便利店里的排队",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 known_gaps",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立"
+  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查方法、概念与禁区是否成立",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5200058",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Cynthia Enloe",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1938–",
+      "birth_year": {
+        "value": 1938,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5200058"
+            ],
+            "statement_id": "Q5200058$F17C0564-34E4-49F6-9CF1-73021B271CDE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1938,
+            "raw_time": "+1938-07-16T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5200058"
+        ],
+        "statement_id": "Q5200058$4809C34E-9CA2-45E2-A717-8295AE4A75F2",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q60",
+        "label": "纽约",
+        "label_en": "New York City",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5200058"
+        ],
+        "statement_id": "Q5200058$C7609A9D-29B3-46A5-93B4-DFDAC043DDF7",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q30",
+        "label": "美国",
+        "label_en": "United States",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "女性主义国际关系与性别社会学"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5200058",
+        "title": "Wikidata Q5200058 / Cynthia Enloe",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5200058&oldid=2560986686",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2560986686,
+        "modified_at": "2026-10-26T06:58:48Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

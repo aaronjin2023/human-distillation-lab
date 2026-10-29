@@ -38,5 +38,234 @@
   "template": "military-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "资源匮乏的社区防洪行动",
   "verification": "2026-10-26 网络核对（见 sources）；其余按军事史通说写，未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q5816",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Mao Zedong",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1893–1976",
+      "birth_year": {
+        "value": 1893,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5816"
+            ],
+            "statement_id": "q5816$bb606ede-464a-70b5-8e1e-a71e1ca5c073",
+            "rank": "normal",
+            "reference_count": 11,
+            "qualifiers": {},
+            "value": 1893,
+            "raw_time": "+1893-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1976,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q5816"
+            ],
+            "statement_id": "q5816$77f50347-4168-a1da-67e8-036fb620b0a4",
+            "rank": "normal",
+            "reference_count": 15,
+            "qualifiers": {},
+            "value": 1976,
+            "raw_time": "+1976-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q5816"
+        ],
+        "statement_id": "q5816$CAAC12D4-ECD2-4E6C-90A6-EC2A6FE0C1E3",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q838542",
+        "label": "韶山市",
+        "label_en": "Shaoshan",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q5816"
+        ],
+        "statement_id": "Q5816$463e9e3e-4c14-0c27-dd5f-3601b3bae551",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P582": [
+            {
+              "time": "+1911-12-31T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q8733",
+        "label": "清朝",
+        "label_en": "Qing dynasty",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5816"
+        ],
+        "statement_id": "Q5816$2c35eebb-456c-79de-f6b8-9e5402f467d8",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1912-01-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1949-09-30T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q13426199",
+        "label": "中华民国大陆时期",
+        "label_en": "Republic of China",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5816"
+        ],
+        "statement_id": "Q5816$14152af9-4b43-ab5d-4d3f-605aeaeb3902",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1931-11-07T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ],
+          "P582": [
+            {
+              "time": "+1937-09-22T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q1135255",
+        "label": "中华苏维埃共和国",
+        "label_en": "Chinese Soviet Republic",
+        "status": "source_recorded"
+      },
+      {
+        "source_ids": [
+          "WD:Q5816"
+        ],
+        "statement_id": "q5816$CC23F8FB-AC50-4BEB-8F86-209636E4F369",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P580": [
+            {
+              "time": "+1949-10-01T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            }
+          ]
+        },
+        "qid": "Q148",
+        "label": "中华人民共和国",
+        "label_en": "People's Republic of China",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q5816"
+          ],
+          "statement_id": "Q5816$72dc4aaf-4088-e277-a391-d32139199f94",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "中国·游击战理论"
+    },
+    "sources": [
+      {
+        "id": "WD:Q5816",
+        "title": "Wikidata Q5816 / 毛泽东",
+        "url": "https://www.wikidata.org/w/index.php?title=Q5816&oldid=2561397098",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2561397098,
+        "modified_at": "2026-10-27T11:09:43Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

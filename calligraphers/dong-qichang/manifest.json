@@ -53,5 +53,132 @@
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
   "test_prompt": "“清晨地铁站台薄雾”行书",
   "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q537211",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Dong Qichang",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1555–1636",
+      "birth_year": {
+        "value": 1555,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q537211"
+            ],
+            "statement_id": "Q537211$E19901DA-FE6D-42EA-B138-A4ADF8337041",
+            "rank": "normal",
+            "reference_count": 19,
+            "qualifiers": {},
+            "value": 1555,
+            "raw_time": "+1555-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1636,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q537211"
+            ],
+            "statement_id": "Q537211$571A3B0A-3A83-4D46-AB32-7ED8C48CA3BC",
+            "rank": "normal",
+            "reference_count": 17,
+            "qualifiers": {},
+            "value": 1636,
+            "raw_time": "+1636-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q537211"
+        ],
+        "statement_id": "q537211$A41FAC44-DAC2-407D-85DF-FF936291BC05",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q662380",
+        "label": "松江区",
+        "label_en": "Songjiang",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q537211"
+        ],
+        "statement_id": "Q537211$4A7D6824-DFA7-41B7-AB73-E244D2B10966",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q9903",
+        "label": "明朝",
+        "label_en": "Ming dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "requires_source_review",
+      "documented": [],
+      "unreviewed_source_claims": [
+        {
+          "source_ids": [
+            "WD:Q537211"
+          ],
+          "statement_id": "Q537211$3B1683F9-975F-4C04-992C-D5372ED674FB",
+          "rank": "normal",
+          "reference_count": 1,
+          "qualifiers": {},
+          "qid": "Q42740",
+          "label": "汉族",
+          "label_en": "Han Chinese people",
+          "status": "source_recorded"
+        }
+      ]
+    },
+    "legacy_context": {
+      "school": "明·行书",
+      "genre": "calligraphy"
+    },
+    "sources": [
+      {
+        "id": "WD:Q537211",
+        "title": "Wikidata Q537211 / 董其昌",
+        "url": "https://www.wikidata.org/w/index.php?title=Q537211&oldid=2553935221",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2553935221,
+        "modified_at": "2026-10-06T13:12:26Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

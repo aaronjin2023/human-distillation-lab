@@ -38,5 +38,117 @@
   "test_prompt": "In the style of Kim Jeong-hui, archaic clerical-running script, dry-brush texture, awkward ancient character forms, strong light-dark ink contrast, sparse layout",
   "transmission": "真迹存世；《岁寒图》题诗与秋史体作品多有藏地可考",
   "verification": "2026-10-26 草稿核对 + 抽查 web 核对（Inoue Yuichi、Kim Saeng、Ibn Muqla、Donald Jackson）；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q626484",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Kim Jeong-hui",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "1786–1856",
+      "birth_year": {
+        "value": 1786,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q626484"
+            ],
+            "statement_id": "Q626484$0BE77F4D-C319-4024-9328-B584993EF1E4",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1786,
+            "raw_time": "+1786-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 1856,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q626484"
+            ],
+            "statement_id": "Q626484$416E4252-D0E5-4AD0-BAA0-E9E5C229D77C",
+            "rank": "preferred",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 1856,
+            "raw_time": "+1856-10-10T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q626484"
+        ],
+        "statement_id": "Q626484$fcb5ba8f-4cfe-aa57-28ed-e000114f3cfa",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q50307",
+        "label": "禮山郡",
+        "label_en": "Yesan County",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q626484"
+        ],
+        "statement_id": "Q626484$0AC2121B-DF83-41EC-AACF-611BB11D3C1E",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q28179",
+        "label": "朝鲜王朝",
+        "label_en": "Joseon",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "朝鲜·隶书 / 行书（秋史体）"
+    },
+    "sources": [
+      {
+        "id": "WD:Q626484",
+        "title": "Wikidata Q626484 / 金正喜",
+        "url": "https://www.wikidata.org/w/index.php?title=Q626484&oldid=2551948127",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2551948127,
+        "modified_at": "2026-10-01T23:17:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

@@ -33,5 +33,131 @@
   "test_prompt": "In the style of al-Sufi, revise a modern catalogue entry for a faint nebula: re-observe it with the naked eye and a small telescope, compare the old position and brightness against your own measurement, draw the field twice, and record exactly what you see, including anything the catalogue omitted",
   "test_question_zh": "修订一条现代星表中的暗星云记录",
   "verification": "生卒 903–986、《恒星之书》约964年、1018颗星、仙女座星云最早文字记录、大麦哲伦云记录经 web 搜索核对（AAS、Public Domain Review、Ian Ridpath、Science Museum 转述）；其余见 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q11075",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Abd al-Rahman al-Sufi",
+        "compared_date_fields": 2
+      }
+    },
+    "life": {
+      "original_text": "903–986",
+      "birth_year": {
+        "value": 903,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11075"
+            ],
+            "statement_id": "Q11075$2134DF91-B63F-4455-B8E6-95738DBFD537",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 903,
+            "raw_time": "+0903-12-07T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": 986,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q11075"
+            ],
+            "statement_id": "Q11075$5C76B6C3-B8D8-4981-AB88-F9435B5B1DEE",
+            "rank": "normal",
+            "reference_count": 1,
+            "qualifiers": {},
+            "value": 986,
+            "raw_time": "+0986-05-25T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985786",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": false
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q11075"
+        ],
+        "statement_id": "Q11075$4E897963-673F-41F4-A4BF-4E58AEDE3297",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q636188",
+        "label": "拉格斯",
+        "label_en": "Ray",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [
+      {
+        "source_ids": [
+          "WD:Q11075"
+        ],
+        "statement_id": "Q11075$5B15A685-80D4-44E9-9469-8C00F4923C08",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q42053",
+        "label": "伊斯法罕",
+        "label_en": "Isfahan",
+        "status": "source_recorded"
+      }
+    ],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q11075"
+        ],
+        "statement_id": "Q11075$19615F6C-6BF4-4079-B835-011BFC6BC874",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q273874",
+        "label": "白益王朝",
+        "label_en": "Buyid dynasty",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "field": "波斯·恒星天文"
+    },
+    "sources": [
+      {
+        "id": "WD:Q11075",
+        "title": "Wikidata Q11075 / 阿卜杜勒－拉赫曼·苏菲",
+        "url": "https://www.wikidata.org/w/index.php?title=Q11075&oldid=2550579264",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2550579264,
+        "modified_at": "2026-09-28T18:10:51Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }

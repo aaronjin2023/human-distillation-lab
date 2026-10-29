@@ -42,5 +42,102 @@
   "template": "lyricists-top100-draft.md 第 6 节（画家模板改编为作词人）",
   "test_prompt": "lyrics about a man buying oden at a convenience store late at night, thinking of a thread that never breaks",
   "verification": "2026-10-26 草稿核对 + 抽查 web 搜索；未核对项已记入 conflicts.md 与 known_gaps",
-  "version": "0.1"
+  "version": "0.1",
+  "biography": {
+    "schema_version": 1,
+    "updated_at": "2026-10-29",
+    "entity_kind": "person",
+    "identity": {
+      "qid": "Q1323453",
+      "status": "matched",
+      "conflicts": [],
+      "match_basis": {
+        "name": "Miyuki Nakajima",
+        "compared_date_fields": 1
+      }
+    },
+    "life": {
+      "original_text": "1952–",
+      "birth_year": {
+        "value": 1952,
+        "status": "source_recorded",
+        "claims": [
+          {
+            "source_ids": [
+              "WD:Q1323453"
+            ],
+            "statement_id": "Q1323453$B30696E4-578C-4B0A-9F29-0734937B734C",
+            "rank": "normal",
+            "reference_count": 2,
+            "qualifiers": {},
+            "value": 1952,
+            "raw_time": "+1952-02-23T00:00:00Z",
+            "precision": 11,
+            "calendar_model": "http://www.wikidata.org/entity/Q1985727",
+            "before": 0,
+            "after": 0
+          }
+        ]
+      },
+      "death_year": {
+        "value": null,
+        "status": "unknown",
+        "claims": []
+      },
+      "legacy_approximate": false,
+      "activity_period": null,
+      "living_person_legacy": true
+    },
+    "birth_places": [
+      {
+        "source_ids": [
+          "WD:Q1323453"
+        ],
+        "statement_id": "Q1323453$BD122ABC-4E7E-4CAD-B888-31912862B6CC",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "qid": "Q37951",
+        "label": "札幌市",
+        "label_en": "Sapporo",
+        "status": "source_recorded"
+      }
+    ],
+    "work_locations": [],
+    "citizenships": [
+      {
+        "source_ids": [
+          "WD:Q1323453"
+        ],
+        "statement_id": "Q1323453$DF218488-6E42-479F-9844-07635AE3620A",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "qid": "Q17",
+        "label": "日本",
+        "label_en": "Japan",
+        "status": "source_recorded"
+      }
+    ],
+    "ethnicity": {
+      "status": "unknown",
+      "documented": [],
+      "unreviewed_source_claims": []
+    },
+    "legacy_context": {
+      "school": "日语流行·创作歌谣",
+      "genre": "lyricist"
+    },
+    "sources": [
+      {
+        "id": "WD:Q1323453",
+        "title": "Wikidata Q1323453 / 中岛美雪",
+        "url": "https://www.wikidata.org/w/index.php?title=Q1323453&oldid=2531363334",
+        "accessed_at": "2026-10-29",
+        "revision_id": 2531363334,
+        "modified_at": "2026-08-14T15:34:36Z",
+        "access_note": "已读取公开结构化API并保存指定修订；未逐条核读底层引用。民族声明仅待核，不进入默认民族筛选。"
+      }
+    ]
+  }
 }
