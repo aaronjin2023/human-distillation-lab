@@ -1,6 +1,6 @@
 # The Kitchen God's Wife
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 7, 1991. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Winnie Louie
 
 角色职责：protagonist · 身份：`identity-e42b5c792490f51d` · 独立版本：`profile-952fc24557e09c8c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在长期受压迫的处境中，表现出反复争取脱身与重建的韧性（行为推断；S13、S17、S18、S19）
 - **核心动机**：对珀尔加倍投入母爱，与担心她可能是文福之女有关（摘要直接叙述；S21）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-f1088d245a180a38` · 独立版本：`profile-fd3568b37e045d8b`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在自身疾病的家庭沟通中，倾向对母亲保留重要脆弱信息（行为推断；S5、S6）
 - **情绪反应**：少年时父亲的死亡曾引发强烈愤怒，影响其家庭经验（摘要直接叙述；S15）
 - **沟通方式**：听完母亲的往事后，终于向她说出自己患病的秘密（摘要直接叙述；S22）
@@ -40,6 +50,10 @@
 ### Helen
 
 角色职责：major-support · 身份：`identity-0338047286facbb7` · 独立版本：`profile-8a51de687bb7902c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭成员持续隐瞒时，表现出主动干预且不回避施压的倾向（行为推断；S5、S6、S7）
 - **核心动机**：以不愿带着知情秘密死去为理由，推动珀尔向母亲坦白（摘要直接叙述；S5）

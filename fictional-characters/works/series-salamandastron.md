@@ -1,6 +1,6 @@
 # Salamandastron
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Urthstripe the Strong
 
 角色职责：protagonist · 身份：`identity-bcd3c93a58795752` · 独立版本：`profile-a203127e79fe43ba`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对渗透与围攻时，倾向强硬反制并主动掌握防线（行为推断；S47、S49）
 - **核心动机**：在此战争中以阻止费拉戈夺取山地要塞为核心目标（行为推断；S3、S42、S49）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-eabd923f7697f263` · 独立版本：`profile-5bd6e14494078bd0`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在严格管束下，倾向追求自主并迅速付诸离开的行动（行为推断；S11、S17）
 - **核心动机**：最初离开山地要塞，主要因为厌倦当地严格的规矩（摘要直接叙述；S17）
 - **决策方式**：需要返回要塞时，倾向通过提供报酬换取向导协助（行为推断；S26、S27）
@@ -39,6 +49,10 @@
 ### Ferahgo the Assassin
 
 角色职责：central-antagonist · 身份：`identity-98789428aea410e7` · 独立版本：`profile-840e0f2376dad9fe`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战争与内部威胁中，表现出多疑而善于算计的倾向（行为推断；S44、S52）
 - **核心动机**：率领军队进攻山地要塞，意图取代现任獾领主（摘要直接叙述；S3）

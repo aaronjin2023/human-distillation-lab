@@ -1,6 +1,6 @@
 # The Girl Who Lived Twice
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Millennium; reported series sales: 100 million[235]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Millennium_(novel_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lisbeth Salander
 
 角色职责：co-lead · 身份：`identity-ba6e273f97ea4ce6` · 独立版本：`profile-31ec1fb35f5b76b4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追击亲人仇敌时，她表现出强硬行动与情感迟疑并存的倾向（行为推断；S19、S20、S21、S35、S36）
 - **核心动机**：她跨国追踪双胞胎姐妹卡米拉，把解决姐妹冲突作为行动中心（行为推断；S19、S20）
@@ -27,6 +33,10 @@
 ### Mikael Blomkvist
 
 角色职责：co-lead · 身份：`identity-1f4910ee36011dcd` · 独立版本：`profile-04c273e74f814fcc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在职业低潮中，他仍表现出能被具体疑案重新调动的调查倾向（行为推断；S16、S17、S22、S24）
 - **核心动机**：他接手无名死者线索，逐步查明其身份及与国防部长的关联（摘要直接叙述；S22、S23、S24）

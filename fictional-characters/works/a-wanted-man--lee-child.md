@@ -1,6 +1,6 @@
 # A Wanted Man
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 30, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Reacher
 
 角色职责：protagonist · 身份：`identity-bb1bad18dcdb5c38` · 独立版本：`profile-7a06fbeef37b7714`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困与信息不全时，倾向保持警觉并主动寻找突破（行为推断；S8、S10、S18、S32）
 - **核心动机**：索伦森遇害后，报复她的死亡成为继续突入敌巢的动力（摘要直接叙述；S28、S29）
@@ -27,6 +33,10 @@
 ### Julia Sorenson
 
 角色职责：co-lead · 身份：`identity-cee83d2b6ad1bebf` · 独立版本：`profile-52543fd6c2389043`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：案件被强行终止后，倾向坚持追查而不轻易接受封口（行为推断；S21、S22）
 - **核心动机**：在官方结案后仍以查清真相和抓住逃犯为行动目标（摘要直接叙述；S21、S22）

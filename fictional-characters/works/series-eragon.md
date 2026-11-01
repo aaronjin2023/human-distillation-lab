@@ -1,6 +1,6 @@
 # Eragon
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Inheritance Cycle; reported series sales: 33 million[275]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Inheritance_Cycle
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eragon
 
 角色职责：protagonist · 身份：`identity-5ff20089fda86162` · 独立版本：`profile-76c9f1bacb8ec6a3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在逃亡与受训过程中倾向主动承担风险，表现出行动意愿（行为推断；S28、S32、S43、S57）
 - **核心动机**：叔父遇害后最初以追杀凶手复仇作为离乡行动的目标（摘要直接叙述；S27、S28）
@@ -25,6 +31,10 @@
 
 角色职责：co-lead · 身份：`identity-ced51ad825d295b6` · 独立版本：`profile-5efaa2b63ddaf414`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在伙伴被囚或陷入劣势时倾向主动介入，表现出护伴倾向（行为推断；S43、S58）
 - **核心动机**：与骑士共同追寻杀害其亲人的凶手，并承担营救伙伴的任务（摘要直接叙述；S28、S43）
 - **价值取舍**：导师死后以魔法封存其遗体，倾向以行动表达对逝者的尊重（行为推断；S39、S40）
@@ -36,6 +46,10 @@
 ### Murtagh
 
 角色职责：major-support · 身份：`identity-5ed2afbb0e258ce3` · 独立版本：`profile-f38d0482574f99ce`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在他人遇袭时倾向出手援助，但面对组织审查保持戒备（行为推断；S38、S50）
 - **核心动机**：担忧父亲的叛徒身份带来后果，使他不愿前往反抗组织（行为推断；S47）

@@ -1,6 +1,6 @@
 # Words of Radiance
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 23, 2014. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Shallan Davar
 
 角色职责：co-lead · 身份：`identity-ea2b7bd45b470b15` · 独立版本：`profile-80fd41137c80f34e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失去导师与遭遇威胁时，倾向主动应变并继续寻找突破口（行为推断；S15、S16、S17、S33、S37）
 - **核心动机**：她决意延续共同使命，追查虚空使者与古城的秘密（摘要直接叙述；S17、S48）
@@ -28,6 +34,10 @@
 ### Kaladin
 
 角色职责：co-lead · 身份：`identity-7a54f46b8bdbfc0c` · 独立版本：`profile-4fd890e8a8842668`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭遇权贵不公的情境中，倾向强烈抗拒并直接提出挑战（行为推断；S19、S30、S61）
 - **核心动机**：他持续训练并探索与希尔的联结，希望掌握自己的新能力（摘要直接叙述；S20、S52）

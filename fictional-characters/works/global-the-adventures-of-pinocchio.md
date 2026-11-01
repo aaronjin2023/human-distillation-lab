@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Pinocchio
 
 角色职责：protagonist · 身份：`identity-a5b5f4ca0f3927fa` · 独立版本：`profile-152985cd5638c49c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在早期冒险中，他屡次冲动行事，常忽略劝告并因轻信而受骗。（行为推断；S6、S13、S19、S21、S30）
 - **核心动机**：赴学途中受戏剧吸引而卖书，显示他当时更受眼前娱乐诱惑驱动。（行为推断；S12、S13）
@@ -25,6 +31,10 @@
 
 角色职责：major-support · 身份：`identity-69f56df2c5b0c3e8` · 独立版本：`profile-9dfd1f32983da79e`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：贫困且因皮诺曹受冤入狱后，他仍表现出耐心照料与付出的倾向。（行为推断；S5、S11、S12、S56）
 - **核心动机**：他最初希望雕刻木偶，通过巡回木偶演出来维持生计。（摘要直接叙述；S3、S4）
 - **价值取舍**：他卖掉自己仅有的外套，为皮诺曹买拼写课本。（摘要直接叙述；S12）
@@ -35,6 +45,10 @@
 ### The Fairy with Turquoise Hair
 
 角色职责：major-support · 身份：`identity-c77c2c6421b86ec9` · 独立版本：`profile-ce9eb5b53bed4a5e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：她愿意持续照料皮诺曹，先救助他，再承担母亲般的角色。（行为推断；S23、S25、S29、S48、S49）
 - **核心动机**：她以成为真人的可能鼓励求学，显出引导皮诺曹向善的意图。（行为推断；S49、S50）

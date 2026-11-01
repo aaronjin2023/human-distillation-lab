@@ -1,6 +1,6 @@
 # Cross
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 3, 2006. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-bcdbfb30f2bf2823`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对伴侣另择生活地点，虽不舍仍表现出体谅倾向（行为推断；S24、S26）
 - **核心动机**：努力把时间留给家人，希望履行照顾孩子的父亲责任（摘要直接叙述；S5）
@@ -28,6 +34,10 @@
 ### John Sampson
 
 角色职责：major-support · 身份：`identity-3665240cb10af04d` · 独立版本：`profile-a170970accce5e74`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在处理朋友丧妻旧案时，表现出以私人行动介入的倾向（行为推断；S17、S18、S19）
 - **核心动机**：杀人后意图阻止外界知悉真相，因此与同伴共同掩盖（摘要直接叙述；S18）

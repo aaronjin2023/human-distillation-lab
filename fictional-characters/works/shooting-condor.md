@@ -1,6 +1,6 @@
 # 射雕英雄传
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2024年译者采访称英文版销量已超过10万册；仅英文译本数字。
 [依据来源](https://app.bjtitle.com/8816/newshow.php?did=867950049830928&mood=&newsid=6495098&typeid=3&uid=0) · 北京青年报采访译者；不将译本销量外推为中文版本销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 郭靖
 
 角色职责：protagonist · 身份：`identity-6deec5861f0bcba4` · 独立版本：`profile-5dad1e9c26109ab1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在学习与待人情境中，倾向朴实勤勉，并以长期努力弥补迟钝（行为推断；S38、S52）
 - **价值取舍**：当蒙古恩情与故国立场冲突时，选择拒绝参与对父母之邦的战争（摘要直接叙述；S36、S42、S83）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-ad85a7fb3047f84b` · 独立版本：`profile-7315b1e4a0fac6f7`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在强敌与阴谋面前，倾向机敏应变，善于寻找局势中的破绽（行为推断；S74、S77、S82）
 - **核心动机**：希望维护与郭靖的亲密关系，面对他人的婚配安排会主动抗争（行为推断；S51、S60、S71）
 - **决策方式**：面对父亲被嫁祸的困局，倾向设计揭露真相而非仅作口头辩解（行为推断；S76、S77）
@@ -44,6 +54,10 @@
 ### 杨康
 
 角色职责：central-antagonist · 身份：`identity-2040d9786b5588fa` · 独立版本：`profile-b288949629be3228`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在身份与利益受到挑战时，倾向以欺骗和嫁祸维护自己的位置（行为推断；S58、S73、S103、S104）
 - **核心动机**：难舍金国王子的荣华富贵，因此背弃与养父决裂的承诺（摘要直接叙述；S54、S58）

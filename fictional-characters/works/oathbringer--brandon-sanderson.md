@@ -1,6 +1,6 @@
 # Oathbringer
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 3, 2017. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dalinar Kholin
 
 角色职责：protagonist · 身份：`identity-0b6ee559258c64f9` · 独立版本：`profile-b0fe8b29cbe497e7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在结盟遭拒时仍表现出坚持倾向，继续寻找说服他人的办法（行为推断；S43、S54、S57）
 - **核心动机**：将联合Roshar抵御Odium作为持续推进的核心目标（摘要直接叙述；S16、S29）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-7a54f46b8bdbfc0c` · 独立版本：`profile-93f5e81abaa7adaa`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在接触逃亡Parshmen时表现出克制，愿意避免先行冲突（行为推断；S20、S21）
 - **核心动机**：希望理解风暴后Parshendi的处境，因此主动深入受灾城镇（摘要直接叙述；S20）
 - **价值取舍**：面对风暴危险仍帮助居民避难，体现对生命保护的优先考虑（行为推断；S25）
@@ -43,6 +53,10 @@
 ### Shallan
 
 角色职责：co-lead · 身份：`identity-ea2b7bd45b470b15` · 独立版本：`profile-c5f64c0c6e602ba9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在异常事件调查中表现出主动探究倾向，愿意追入未知区域（行为推断；S32、S36、S37）
 - **核心动机**：在城内调查中希望追踪异常Spren，查明潜藏的暗力（行为推断；S35、S36、S37）

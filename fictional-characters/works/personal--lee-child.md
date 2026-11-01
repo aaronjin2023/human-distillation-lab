@@ -1,6 +1,6 @@
 # Personal
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 21, 2014. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Reacher
 
 角色职责：protagonist · 身份：`identity-bb1bad18dcdb5c38` · 独立版本：`profile-2d00806273f59ccb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在缺乏官方支持且遭遇背叛时，倾向主动推进并控制局面（行为推断；S5、S11、S12、S17）
 - **核心动机**：未能保护年轻下属的痛苦记忆，持续推动他追捕科特（摘要直接叙述；S6）
@@ -27,6 +33,10 @@
 ### Tom O'Day
 
 角色职责：central-antagonist · 身份：`identity-a3295303c84c3655` · 独立版本：`profile-71c9cf59e2d25823`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在可利用的犯罪威胁面前，倾向算计他人以维护自身收益（行为推断；S15、S16）
 - **核心动机**：利用科特的真正目的，是提升自己的政治地位（摘要直接叙述；S15）

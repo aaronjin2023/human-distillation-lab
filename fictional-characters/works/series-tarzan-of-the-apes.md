@@ -1,6 +1,6 @@
 # Tarzan of the Apes
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Tarzan; reported series sales: 50 million[260]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Tarzan
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Clayton II
 
 角色职责：protagonist · 身份：`identity-ed7bb8ac0978ee35` · 独立版本：`profile-b259c25cb926cdd1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在缺乏同类指导的成长环境中，他表现出强烈探索与自学倾向（行为推断；S17、S18）
 - **核心动机**：他离开丛林追寻简，希望重新与自己所爱的女子相聚（行为推断；S29、S31、S32）
@@ -27,6 +33,10 @@
 ### Paul D'Arnot
 
 角色职责：major-support · 身份：`identity-524ab591acc68229` · 独立版本：`profile-7e63758069c01262`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被泰山救下后，他表现出耐心扶助并回馈对方的倾向（行为推断；S28、S29、S30、S33）
 - **核心动机**：他愿意带泰山进入人类社会，帮助对方获得再见简的机会（摘要直接叙述；S29）

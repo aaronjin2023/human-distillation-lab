@@ -1,6 +1,6 @@
 # 侠客行
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：京东金庸单书购买排行，2018-10-30事件期报道
 [依据来源](https://ip.people.com.cn/n1/2019/0122/c179663-30583592.html) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 石破天
 
 角色职责：protagonist · 身份：`identity-504e860e36cc61f4` · 独立版本：`profile-e811c555f71ea50c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被利用和身份误认的处境中，仍倾向仁厚而少猜忌（行为推断；S24、S31、S50、S51）
 - **价值取舍**：持令初期受养母教诲约束，坚持不向他人提出请求（摘要直接叙述；S50）
@@ -28,6 +34,10 @@
 ### 谢烟客
 
 角色职责：major-support · 身份：`identity-b8705dd8c91e6c80` · 独立版本：`profile-e1d6135df124c1b2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在承诺久悬未决时，呈现急于摆脱牵制的狠辣倾向（行为推断；S22、S50）
 - **核心动机**：误导石破天练功的直接目的，是终结玄铁令带来的后患（摘要直接叙述；S22、S50）

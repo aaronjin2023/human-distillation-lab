@@ -1,6 +1,6 @@
 # Clear and Present Danger
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 3, 1989. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan
 
 角色职责：protagonist · 身份：`identity-31fe1794b3874df8` · 独立版本：`profile-625e0174e0fffea5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：发现机构隐瞒行动时，倾向追根究底并直接承担责任（行为推断；S23、S24、S25、S31）
 - **核心动机**：最初试图查明被自己所属机构隐瞒的南美行动真相（摘要直接叙述；S22、S23、S24）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-4397c1b359d12645` · 独立版本：`profile-3114cb8c633c6ef6`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在秘密行动可能曝光时，倾向用隐瞒和交易维持局面（行为推断；S20、S28、S29）
 - **核心动机**：推动哥伦比亚秘密行动，以协助总统打击非法毒品贸易（摘要直接叙述；S5）
 - **价值取舍**：为控制政治后果而牺牲己方人员安全，暴露其责任取舍（行为推断；S28、S29）
@@ -44,6 +54,10 @@
 ### Felix Cortez
 
 角色职责：central-antagonist · 身份：`identity-e585a1f2b114699f` · 独立版本：`profile-a455e5d54c86dc11`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对组织危机时，倾向冷静算计并将混乱转为个人机会（行为推断；S18、S19、S20）
 - **核心动机**：计划挑起贩毒集团内部战争，使自己获得夺权位置（摘要直接叙述；S19）

@@ -1,6 +1,6 @@
 # The Last Thing He Told Me
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 23, 2021. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hannah
 
 角色职责：protagonist · 身份：`identity-24efbf553289d3c2` · 独立版本：`profile-d34383a47d7431b6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对丈夫失踪与身份隐瞒，倾向主动追索而非被动等待（行为推断；S5、S6、S9、S20）
 - **核心动机**：将确保继女安全作为谈判目标，延续丈夫留下的托付（摘要直接叙述；S3、S33）
@@ -29,6 +35,10 @@
 ### Bailey
 
 角色职责：co-lead · 身份：`identity-108bb64fc51a9795` · 独立版本：`profile-a4758c7630122d54`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危险与身世疑团面前，倾向自行介入而非完全听从保护（行为推断；S14、S18、S19）
 - **核心动机**：面对父亲失踪与留下的巨额现金，倾向依靠继母寻找答案（行为推断；S2、S4）

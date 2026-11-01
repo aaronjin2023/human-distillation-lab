@@ -1,6 +1,6 @@
 # Breakfast of Champions
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 1, 1973. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Kilgore Trout
 
 角色职责：co-lead · 身份：`identity-043693a769422247` · 独立版本：`profile-41146e462cc2cd17`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自认无人知晓的处境下，仍倾向接受与外界接触的机会（行为推断；S4、S6）
 - **沟通方式**：旅途中愿与陌生司机谈论政治、性及地球毁灭等广泛议题（摘要直接叙述；S6）
@@ -27,6 +33,10 @@
 ### Dwayne Hoover
 
 角色职责：co-lead · 身份：`identity-8d26b66e2786595c` · 独立版本：`profile-c9e58d230dfc8da4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在关系与认知逐渐失序时，倾向以猜疑和攻击回应他人（行为推断；S9、S13、S18）
 - **决策方式**：在阅读小说时把虚构设定当作针对自己的现实行动依据（摘要直接叙述；S16、S17、S18）

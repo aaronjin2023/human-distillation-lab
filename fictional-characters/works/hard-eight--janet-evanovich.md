@@ -1,6 +1,6 @@
 # Hard Eight
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 7, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-4df6771267876f02`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对熟人的困境时倾向心软并承担额外责任（行为推断；S5、S6）
 - **价值取舍**：在此追查中将受害母女的安全置于交出行踪之上（行为推断；S30、S31）
@@ -28,6 +34,10 @@
 
 角色职责：central-antagonist · 身份：`identity-857c20d0f3df98a5` · 独立版本：`profile-a0137e6fb5ca2ef0`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在追索失物时倾向执拗地控制并威吓他人（行为推断；S21、S22、S34）
 - **核心动机**：执意追回视为幸运护符的拿破仑勋章（摘要直接叙述；S22、S23）
 - **决策方式**：倾向用心理恐吓与人质胁迫逼取所需信息（行为推断；S21、S32、S34）
@@ -38,6 +48,10 @@
 ### Evelyn
 
 角色职责：major-support · 身份：`identity-33b34d4dd5d2aef7` · 独立版本：`profile-76f4352f5a76d25d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭受威胁时倾向警惕隐匿并自行寻找出路（行为推断；S30、S31）
 - **核心动机**：希望靠出售勋章所得与女儿开始新的生活（摘要直接叙述；S27、S30）

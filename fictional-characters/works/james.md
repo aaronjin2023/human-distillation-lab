@@ -1,6 +1,6 @@
 # James
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 29, 2024. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jim
 
 角色职责：protagonist · 身份：`identity-65d6902e9413ae89` · 独立版本：`profile-efee6a120fa82460`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在奴役与白人监视下，呈现审慎多疑、善于计算处境的倾向（摘要直接叙述；S4、S5、S6）
 - **核心动机**：得知自己将被出售后，决意争取自身自由并最终解放家人（摘要直接叙述；S3、S31）
@@ -28,6 +34,10 @@
 ### Huckleberry Finn
 
 角色职责：co-lead · 身份：`identity-a0758ebeea5c85ff` · 独立版本：`profile-393d1d023b3027d6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在种族偏见盛行的环境里，呈现较为开放且反抗既有约束的倾向（摘要直接叙述；S8、S9、S10）
 - **核心动机**：逃离施虐的帕普，旅程中的重要诉求包含摆脱伤害并求生（摘要直接叙述；S8、S12）

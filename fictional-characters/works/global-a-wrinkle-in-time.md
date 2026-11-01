@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Meg Murry
 
 角色职责：protagonist · 身份：`identity-aa55eb938c91ac67` · 独立版本：`profile-fcb1efcfaf361d99`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对亲人受困，她表现出愿意亲自突破障碍的勇敢倾向（行为推断；S21、S31、S32、S33）
 - **核心动机**：她的行动核心是救回失踪父亲，并让受控的弟弟脱险（摘要直接叙述；S4、S21、S31、S33）
@@ -24,6 +30,10 @@
 ### Charles Wallace
 
 角色职责：co-lead · 身份：`identity-7cb798b19da81f86` · 独立版本：`profile-8559d6dd26c02da1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在寻找父亲时，他表现出可能高估自身应对能力的倾向（行为推断；S12、S17）
 - **核心动机**：他希望查明父亲的囚禁地点，并参与将父亲救出的行动（摘要直接叙述；S4、S17）

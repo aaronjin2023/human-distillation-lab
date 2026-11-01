@@ -1,6 +1,6 @@
 # Polar Star
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 6, 1989. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arkady Renko
 
 角色职责：protagonist · 身份：`identity-6f0842dd10c31180` · 独立版本：`profile-ad8e75a7f2aec994`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受阻和遇险的调查中，倾向务实自保而仍保留追索能力（行为推断；S10、S11、S15、S19、S21、S22）
 - **核心动机**：最初选择自我流放与低微工作，以避免因旧事遭到拘押（摘要直接叙述；S2、S3）
@@ -28,6 +34,10 @@
 ### Karp Korobetz
 
 角色职责：central-antagonist · 身份：`identity-19bc51726dee7446` · 独立版本：`profile-50e4c7c78211c5e5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在不满与冲突中，倾向直接以致命暴力解决对手（行为推断；S14、S23、S24）
 - **核心动机**：最终因畏惧回国面临严酷惩罚，选择以溺水结束生命（摘要直接叙述；S24）

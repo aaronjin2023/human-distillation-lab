@@ -1,6 +1,6 @@
 # The Vile Village
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series A Series of Unfortunate Events; reported series sales: 65 million[250]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Violet
 
 角色职责：protagonist · 身份：`identity-2dab46a70d19a64c` · 独立版本：`profile-a5e2d181c0b215bd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在不合理规则与监禁面前，她表现出主动解决问题的务实倾向（行为推断；S29、S34、S35）
 - **核心动机**：她组织越狱与营救，旨在让自己和受困朋友摆脱迫害（行为推断；S31、S34、S38、S39、S41）
@@ -23,6 +29,10 @@
 ### Count Olaf
 
 角色职责：central-antagonist · 身份：`identity-0d1b8597dd146cfb` · 独立版本：`profile-b47b1efc70a6f25b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争夺孤儿财产时，他表现出善于伪装并利用他人受难的倾向（行为推断；S30、S31、S32）
 - **核心动机**：他计划秘密带走一名孩子，以夺取波德莱尔家族的财产（摘要直接叙述；S32）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### James Henry Trotter
 
 角色职责：protagonist · 身份：`identity-b1747ceb7431d093` · 独立版本：`profile-acfc95ca4fb895f3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在同伴遇险及旅途失控时，倾向主动设法解决困难（行为推断；S14、S16、S23）
 - **核心动机**：受虐与隔离使他渴望离开姨妈的山丘，建立友善生活（行为推断；S4、S6、S11）
@@ -24,6 +30,10 @@
 ### The Centipede
 
 角色职责：major-support · 身份：`identity-9d7b8af724321bc6` · 独立版本：`profile-d095d9ae6590f280`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在旅途中倾向张扬挑衅，对自身本领也带有夸耀意味（行为推断；S18、S33）
 - **核心动机**：他与伙伴共同渴望离开受两位姨妈折磨的山丘生活（摘要直接叙述；S11）

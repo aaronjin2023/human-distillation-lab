@@ -1,6 +1,6 @@
 # 天龙八部
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：新华书店工作人员称其为当前销量最好的金庸作品之一；属于零售商对畅销表现的定性证据，无单书总量。
 [依据来源](https://media.people.com.cn/n1/2018/1101/c40606-30375065.html) · 人民网转述书店访谈，来源报告的是金庸作品组内零售表现。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 段譽
 
 角色职责：protagonist · 身份：`identity-47d3ee8c622ed8f7` · 独立版本：`profile-4cc44a8f5ed8cb4e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：身为皇族仍无架子，待人呈现乐观善良的性格倾向（摘要直接叙述；S27）
 - **核心动机**：因厌恶杀生而不愿习武，并由此选择离家出走（摘要直接叙述；S28）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-3c08b0a80de5699e` · 独立版本：`profile-dabe4e70c4019dd8`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对江湖人际关系，他展现磊落豪爽的侠者倾向（摘要直接叙述；S20、S42）
 - **核心动机**：在辽宋冲突中，他以阻止辽国入侵宋国为行动目标（摘要直接叙述；S50）
 - **价值取舍**：面对国家与结义关系，他倾向承担代价以维护忠义（行为推断；S48、S50）
@@ -45,6 +55,10 @@
 ### 慕容復
 
 角色职责：central-antagonist · 身份：`identity-2cb817a65c5bee94` · 独立版本：`profile-0a963c8c1144b02f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在人心争夺中，他倾向自负固执且难以容纳他人（行为推断；S35、S38）
 - **核心动机**：恢复大燕是贯穿其一生、持续驱动行动的目标（摘要直接叙述；S36）

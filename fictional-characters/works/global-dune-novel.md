@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Paul Atreides
 
 角色职责：protagonist · 身份：`identity-f36da23b62d27f99` · 独立版本：`profile-90623ee7a71da44f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在致命考验与预见失灵时倾向坚忍，并主动寻求更强掌控（行为推断；S17、S43）
 - **核心动机**：希望借弗雷曼人的力量夺回厄拉科斯并控制圣战扩散（摘要直接叙述；S36）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-2a82c956369ca1fe` · 独立版本：`profile-9f668a819ab310a9`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对组织安排倾向自主取舍，逃亡中也表现出适应性（行为推断；S9、S31、S32）
 - **核心动机**：出于对雷托的爱而选择生育儿子，违背组织的育种安排（摘要直接叙述；S9）
 - **价值取舍**：在生育选择中把对爱人的情感置于组织计划之上（行为推断；S9）
@@ -44,6 +54,10 @@
 ### Baron Vladimir Harkonnen
 
 角色职责：central-antagonist · 身份：`identity-f2287db593d98541` · 独立版本：`profile-786421d80e5ee346`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权力竞争中倾向算计操控，并以隐蔽手段约束他人（行为推断；S26、S38）
 - **核心动机**：通过与皇帝合谋摧毁世仇家族，维护己方统治利益（行为推断；S6、S20、S38）

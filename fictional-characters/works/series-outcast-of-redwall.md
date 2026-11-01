@@ -1,6 +1,6 @@
 # Outcast of Redwall
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sunflash
 
 角色职责：protagonist · 身份：`identity-5224e6e459115c11` · 独立版本：`profile-e3e63c847df65426`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在逃离虐待后的旅途中，倾向主动保护弱小者（行为推断；S9、S31）
 - **核心动机**：将斯沃特视为死敌，明确立誓向他复仇（摘要直接叙述；S7）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-963743aaf2444487` · 独立版本：`profile-9e834f6ba5eab5bb`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在养育与追随关系中，常表现出抗拒约束且不愿认错的倾向（行为推断；S40、S44）
 - **价值取舍**：此前漠视他人安危，最终却以自己的生命挡下致命攻击（行为推断；S41、S55）
 - **情绪反应**：最终救援被叙述为流露出对养母隐藏的真实感情（摘要直接叙述；S55）
@@ -44,6 +54,10 @@
 
 角色职责：co-lead · 身份：`identity-57b65187fec14563` · 独立版本：`profile-7f042eff1702bb12`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对养子的恶行与放逐时，倾向执着维护而非轻易放弃（行为推断；S40、S42、S58）
 - **核心动机**：认为放逐不公，因此离开修道院追寻被逐的养子（摘要直接叙述；S42、S43）
 - **价值取舍**：在放逐争议中，倾向将养育责任置于院方裁决之上（行为推断；S38、S41、S42）
@@ -58,6 +72,10 @@
 ### Swartt Sixclaw
 
 角色职责：central-antagonist · 身份：`identity-7f4e94b2248cc134` · 独立版本：`profile-e5d52e637d9a879f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争权与对敌时，倾向残酷施压并借诡计扩大优势（行为推断；S3、S4、S14）
 - **核心动机**：将逃走的獾视为死敌，明确要求向其复仇（摘要直接叙述；S7）

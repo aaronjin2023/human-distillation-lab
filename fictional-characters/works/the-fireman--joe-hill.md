@@ -1,6 +1,6 @@
 # The Fireman
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 5, 2016. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harper Grayson
 
 角色职责：protagonist · 身份：`identity-bd57553c61d7f7e5` · 独立版本：`profile-da672c97dcc6ac18`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受迫害与资源匮乏时，仍倾向主动承担救护责任（行为推断；S17、S19、S20）
 - **核心动机**：在感染与怀孕的双重危机中，持续寻找可生存的庇护（行为推断；S6、S7、S36、S44）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-43c74be25320db9d` · 独立版本：`profile-899b2542bbd5654f`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在他人遭遇生命威胁时，倾向主动援救并承担危险（行为推断；S7、S9、S42）
 - **核心动机**：维持炉火的直接动机，是保留与已故恋人的最后联系（摘要直接叙述；S27、S28）
 - **情绪反应**：面对哈珀尝试控火时，往日丧失引发愤怒与强烈忧惧（行为推断；S26、S27）
@@ -44,6 +54,10 @@
 ### Carol
 
 角色职责：central-antagonist · 身份：`identity-12390df81146df4d` · 独立版本：`profile-fc4abae8fa730e7e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在营地权力真空中，倾向以惩罚和恐吓确立服从（行为推断；S21、S24）
 - **核心动机**：面对可能泄露营地位置的风险，试图控制哈珀的沉默（摘要直接叙述；S24）

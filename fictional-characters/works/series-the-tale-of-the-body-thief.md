@@ -1,6 +1,6 @@
 # The Tale of the Body Thief
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lestat
 
 角色职责：protagonist · 身份：`identity-00049097b25f820a` · 独立版本：`profile-0e6364a6f11e8fbf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对恢复人身的诱惑倾向急切冒险，即使多人劝阻也难以克制（行为推断；S29、S34）
 - **核心动机**：对吸血鬼本性生出悔意，想通过重新做人摆脱当前存在困境（行为推断；S2、S19、S34）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-07f347fb849f3d7e` · 独立版本：`profile-7bbc0975012385bb`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在莱斯特遭众人疏远时仍倾向相助，表现出危机中的可靠（行为推断；S39、S42、S47）
 - **价值取舍**：面对反复提出的永生邀约，起初明确坚持不成为吸血鬼（摘要直接叙述；S24）
 - **决策方式**：面对换身提议倾向保持警惕，揭示詹姆斯劣迹并劝阻交易（行为推断；S30、S34）
@@ -44,6 +54,10 @@
 ### Raglan James
 
 角色职责：central-antagonist · 身份：`identity-8198e222de052acf` · 独立版本：`profile-1b0d53c32162f056`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：即使取得财富与强大身体，仍倾向重复小偷小摸而暴露自己（行为推断；S43、S44、S46）
 - **核心动机**：把换身能力用于摆脱死亡及侵占他人身体，而非兑现公平交换（行为推断；S33、S35、S50）

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "hiten",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮主要视觉研究限定于義妹生活 Hitenアートワークス（2024）封面；仅核公开封面／宣传图及明示样图。其余履历来源只证明职业与署名，不借动画成片代替个人画作。八维配方、步骤、评审与提示词均为本库原创技法转译，不是本人逐笔规则。",
+  "recent_focus": {
+    "work": "義妹生活 Hitenアートワークス（2024）封面",
+    "year": 2024,
+    "source_ids": [
+      "S1",
+      "S4"
+    ],
+    "date_basis": "对应出版社记录的书籍／宣传发布日期；不将作品集出版年当成全部收录画作的创作年，也不声称是2026最新画风。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "義妹生活 Hitenアートワークス",
+      "url": "https://www.kadokawa.co.jp/product/322403001195/",
+      "publisher": "KADOKAWA",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "2024年9月25日作品集，收录小说、动画宣传相关插画和封面制作过程",
+        "2022首画集、2023新订版、2024项目画集和2025电击萌王专题形成近年出版脉络。"
+      ],
+      "access_note": "实际web检索或打开所列官方／出版社供稿页面；本轮候选阶段不声称已看作品图像或读画集内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "ADOLESCENCE -アドレセンス- Hiten 作品集",
+      "url": "https://artjeuness.jp/contents/104/",
+      "publisher": "アールジュネス／E☆2",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "2022年1月11日首画集；出版社介绍为台湾出身、东京在住，兼具小说插画和同人活动。"
+      ],
+      "access_note": "实际检索或打开的补充公开页面；未观察作品图像。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S3",
+      "title": "Interview with Taiwan-Born Illustrator Hiten",
+      "url": "https://www.pixivision.net/en/a/6946",
+      "publisher": "pixivision／pixiv WAEN GALLERY",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "2021本人采访与初个展Claire，明确台湾出身、赴日本发展，涉及摄影参考及细腻照明。"
+      ],
+      "access_note": "实际检索或打开的补充公开页面；未观察作品图像。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S4",
+      "title": "義妹生活 Hitenアートワークス（2024）封面：官方封面／宣传图",
+      "url": "https://cdn.kdkw.jp/cover_1000/322403/322403001195.webp",
+      "publisher": "KADOKAWA",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "人物坐在栏杆旁，浅金发束沿肩线垂落，白衬衣带浅青灰阴影，腰间浅赭色衣料与深色下装区分；左上明亮开口、右侧绿色花木与肤色形成冷暖关系。只核封面，不把其人物年龄挪入原创练习。"
+      ],
+      "access_note": "从已核定官方页面 https://www.kadokawa.co.jp/product/322403001195/ 的HTML提取实际图像URL，临时保存至/tmp并通过view_image查看。只核这张图；没有下载图片入库，没有将页面alt当视觉观察。",
+      "origin_page_url": "https://www.kadokawa.co.jp/product/322403001195/",
+      "observed_asset_sha256": "d878020b4f7f4aa7f38f709b425d002e13103e4f1764ad122a7f0df63305feba",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "人物坐在栏杆旁，浅金发束沿肩线垂落，白衬衣带浅青灰阴影，腰间浅赭色衣料与深色下装区分；左上明亮开口、右侧绿色花木与肤色形成冷暖关系。只核封面，不把其人物年龄挪入原创练习。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "2024年9月25日作品集，收录小说、动画宣传相关插画和封面制作过程",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "人物坐在栏杆旁，浅金发束沿肩线垂落，白衬衣带浅青灰阴影，腰间浅赭色衣料与深色下装区分；左上明亮开口、右侧绿色花木与肤色形成冷暖关系。只核封面，不把其人物年龄挪入原创练习。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "人物坐在栏杆旁，浅金发束沿肩线垂落，白衬衣带浅青灰阴影，腰间浅赭色衣料与深色下装区分；左上明亮开口、右侧绿色花木与肤色形成冷暖关系。只核封面，不把其人物年龄挪入原创练习。",
+      "observation": "人物坐在栏杆旁，浅金发束沿肩线垂落，白衬衣带浅青灰阴影，腰间浅赭色衣料与深色下装区分；左上明亮开口、右侧绿色花木与肤色形成冷暖关系。只核封面，不把其人物年龄挪入原创练习。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S4"
+  ],
+  "editorial_recipe": {
+    "line": "脸部细线克制，发束和衬衣边界清楚，内部线不过密",
+    "shapes": "成人普通修长比例，肩线与锁骨由柔和阴影说明",
+    "composition": "已有主体迎向柔亮区，暗侧留小面积反射光，避免背景与脸同亮",
+    "panel_rhythm": "本库原创建议：亮暗总览、视线细节、衣料折口、安静回到全貌",
+    "tonal_design": "白衣不涂成灰板，深色衣块集中，皮肤阴影低密度",
+    "environment": "环境色可以进入衣物暗侧，接触阴影仍比环境阴影更硬",
+    "acting": "一处轻微抬眼与指尖停顿即可传达情绪，不新增动作剧情",
+    "color": "本库建议暖肤、浅青灰白衣与少量赭色，基于一般反射光转译"
+  },
+  "steps": [
+    "先按既定人物与道具搭静态体块：成人普通修长比例，肩线与锁骨由柔和阴影说明；检查同一人物辨识点。",
+    "用三阶缩略图确定主次：已有主体迎向柔亮区，暗侧留小面积反射光，避免背景与脸同亮，再落实白衣不涂成灰板，深色衣块集中，皮肤阴影低密度。",
+    "按材质分层描线：脸部细线克制，发束和衬衣边界清楚，内部线不过密；检查环境色可以进入衣物暗侧，接触阴影仍比环境阴影更硬。",
+    "最后校对表演与色域：一处轻微抬眼与指尖停顿即可传达情绪，不新增动作剧情；按“本库建议暖肤、浅青灰白衣与少量赭色，基于一般反射光转译”做原创小色稿，连续页采用独立节奏建议。"
+  ],
+  "checks": [
+    "白布暗侧是否带反射色却仍保持白色材质身份？",
+    "肤色暖度是否受控，五官和锁骨仍清楚？",
+    "接触阴影是否比环境软影更硬，避免人物悬浮？"
+  ],
+  "sheet_traits_zh": "克制细线塑造成人肩颈与锁骨，发束边缘清楚；白布浅青灰暗面、深色衣块集中，暖肤留白，接触阴影明确。",
+  "avoid": [
+    "白衣阴影过重变成灰衣，原有材质身份丢失。",
+    "肤色与背景同亮，只有发型而没有清楚面部焦点。"
+  ],
+  "unknowns": [
+    "只核本条明示公开图像，没有通读完整画集或逐年比较全部时期；未承诺精确复刻。",
+    "作者原始上色与出版物装帧、文字、印刷呈色未逐项拆分，因此背景排版和标题字体不视为个人固定风格。",
+    "原创技法转译未通过真实生成样张验收；三视图只用sheet_traits_zh的静态特征，不能照搬封面透视。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

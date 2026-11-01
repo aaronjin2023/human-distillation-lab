@@ -1,6 +1,6 @@
 # Accident
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 27, 1994. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Page Clarke
 
 角色职责：protagonist · 身份：`identity-0a016b590ae0a8a8` · 独立版本：`profile-9603c6b72256c326`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭危机中倾向承担责任，并逐渐主动维护个人边界（行为推断；S8、S9、S14、S15）
 - **价值取舍**：在女儿生命受到威胁时，将及时救治置于夫妻协商之前（行为推断；S8、S9）
@@ -24,6 +30,10 @@
 ### Brad Clarke
 
 角色职责：major-support · 身份：`identity-9a8b4cd25b477b6f` · 独立版本：`profile-31738cbe188fe9b3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在女儿急救情境中表现出强调自身决定权的倾向（行为推断；S8、S9）
 - **情绪反应**：得知妻子未先征询自己便安排手术时表现得十分愤怒（摘要直接叙述；S8）

@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "mochizuki-kei",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦 2025 俗世展览官方主视觉，不复制原人物、手势或环绕物。",
+  "recent_focus": {
+    "work": "俗世",
+    "year": 2025,
+    "source_ids": [
+      "S1"
+    ],
+    "date_basis": "官方展期 2025-11-21 至 12-15，称含为本展新绘数十幅；2025 为展览年，主视觉准确落笔日期未知。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "俗世 官方介绍",
+      "url": "https://art.parco.jp/parcomuseum/detail/?id=1798",
+      "publisher": "PARCO ART",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "项目署名与年份",
+        "发行或展览范围"
+      ],
+      "access_note": "实际读取正文。只按页面公开信息核对，不推定全部作品的创作日期。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "俗世 官方公开图：页面主视觉 cname_20250916182347.jpg；含 ZOKUSE EXHIBITION 2025 字样",
+      "url": "https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20250916182347.jpg",
+      "publisher": "PARCO ART",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅此公开图的线形、明暗、色彩与构图观察"
+      ],
+      "access_note": "由官方页面提取图片链接，实际下载至临时目录并通过图像工具查看。定位：页面主视觉 cname_20250916182347.jpg；含 ZOKUSE EXHIBITION 2025 字样；不代表通读全册或检查原始图层。",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "主视觉以灰色皮肤与黑发为主体，饱和红色环绕形与白色碎片形成强对比；眼睛直视，眼睑、下睫与脸部线条比鼻口更密。只支持此主视觉。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "PARCO 核定 2025 第二次个展，约百件作品，含本展新绘作品及既有商业、个人作品。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "主视觉以灰色皮肤与黑发为主体，饱和红色环绕形与白色碎片形成强对比；眼睛直视，眼睑、下睫与脸部线条比鼻口更密。只支持此主视觉。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "主视觉以灰色皮肤与黑发为主体，饱和红色环绕形与白色碎片形成强对比；眼睛直视，眼睑、下睫与脸部线条比鼻口更密。只支持此主视觉。",
+      "observation": "主视觉以灰色皮肤与黑发为主体，饱和红色环绕形与白色碎片形成强对比；眼睛直视，眼睑、下睫与脸部线条比鼻口更密。只支持此主视觉。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "外线明确而少圆滑修饰，眼睑和发根适度加黑，皮肤内线减少到能说明骨面的数量。",
+    "shapes": "成年人物用窄长脸、清楚颧面与节制的手部关节塑形，夸张只留在比例关系而非照搬造型。",
+    "composition": "主角头部周围保留亮暗分离区，用斜向块面压近焦点，不借额外人物堆叠紧张感。",
+    "panel_rhythm": "漫画转译建议：建立视线后用局部静止反应停顿，重黑段落与留白段落交替；并非作者分镜证据。",
+    "tonal_design": "灰阶人体与纯黑、纯白构成基础，单一强调色只占有方向性的块面，阴影边缘保持清楚。",
+    "environment": "既定背景压成黑白结构或低彩纹理，环境信息不能穿入眼睛和口鼻的识别区。",
+    "acting": "眼睑下压、瞳孔位置、嘴部闭合度分别检查；情绪可冷静尖锐，不靠所有器官同时夸大。",
+    "color": "由本次主视觉转译为灰黑白配一类饱和红，禁止将展览红色当作作者永久色板。"
+  },
+  "steps": [
+    "在既定构图中先画头部周围的黑白负形。",
+    "建立成年脸与手部骨面，再决定眼睑线重。",
+    "灰阶完成后只分配一类强调色，不新增叙事物件。",
+    "缩小检查视线与嘴型，清掉压住焦点的碎片。"
+  ],
+  "checks": [
+    "眼部的浓线是否未吞掉瞳孔？",
+    "强调色是否有主方向且没有均匀撒满？",
+    "去掉强调色后黑白关系是否仍成立？"
+  ],
+  "sheet_traits_zh": "利落外线与加重眼睑区分层级，静态成年骨面清楚；皮肤灰面平整，深衣连成黑块，少量白边隔开材质。",
+  "avoid": [
+    "复制主视觉的特殊环绕手势与原角色。",
+    "所有皮肤结构都用等粗黑线画满。"
+  ],
+  "unknowns": [
+    "只看主视觉，未逐件观察展览百件作品；没有作者逐笔过程来源。",
+    "八维配方、步骤、评审及提示词为本库一般视觉技法的原创转译，不是作者本人规则；未进行生成验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

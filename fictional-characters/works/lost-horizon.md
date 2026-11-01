@@ -1,6 +1,6 @@
 # Lost Horizon
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 3, 1934. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hugh Conway
 
 角色职责：protagonist · 身份：`identity-6f5f5f16b3df2b5b` · 独立版本：`profile-4875885a70aab2cc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在香格里拉的处境中，他倾向于沉思权衡并亲近静修学术生活。（行为推断；S18、S29、S30、S34）
 - **核心动机**：决定离谷时，他是出于对马林森的爱而答应陪伴并帮助他。（摘要直接叙述；S33、S35）
@@ -28,6 +34,10 @@
 ### Charles Mallinson
 
 角色职责：co-lead · 身份：`identity-32225f60537f9fe9` · 独立版本：`profile-ade7d1acce2bd31a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在山谷滞留期间，他表现出急于离开并主动筹排行程的倾向。（行为推断；S17、S31）
 - **核心动机**：他希望雇人带自己离开香格里拉，并安排与洛珍一同出谷。（摘要直接叙述；S17、S31）

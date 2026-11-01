@@ -1,6 +1,6 @@
 # Daddy
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 26, 1989. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sarah
 
 角色职责：co-lead · 身份：`identity-c52232d8a9fafbcb` · 独立版本：`profile-7a6dae14a9b720d1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭角色与个人愿望冲突时，倾向坚持自身发展诉求（行为推断；S2、S14、S15）
 - **核心动机**：长期希望获得超越母亲身份的人生空间与发展机会（摘要直接叙述；S2、S14、S15）
@@ -28,6 +34,10 @@
 ### Oliver
 
 角色职责：protagonist · 身份：`identity-46c5a42725dbd0a6` · 独立版本：`profile-4e11a49685951201`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭照护失序时，倾向主动承担并调整生活安排（行为推断；S17、S18、S19）
 - **核心动机**：搬入纽约市的直接目的是缩短晚间回家照看孩子的时间（摘要直接叙述；S18）

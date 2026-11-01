@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charlie Bucket
 
 角色职责：protagonist · 身份：`identity-832fa2675c8d005f` · 独立版本：`profile-f7cafa795cfb7e07`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在贫困与诱惑并存的情境中呈现善良纯真且较为自持的倾向（行为推断；S2、S14、S17）
 - **核心动机**：希望找到金券获得参观机会，失败后仍继续尝试（行为推断；S6、S8、S9、S10）
@@ -24,6 +30,10 @@
 ### Willy Wonka
 
 角色职责：co-lead · 身份：`identity-6520904f5fabd275` · 独立版本：`profile-8640f3d4c748203e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在经营与挑选继承人时倾向奇特设局，并保留关键意图（行为推断；S3、S5、S17）
 - **核心动机**：借公开参观活动寻找能够继承巧克力事业的合适孩子（摘要直接叙述；S17）

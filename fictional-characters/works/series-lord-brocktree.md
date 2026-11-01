@@ -1,6 +1,6 @@
 # Lord Brocktree
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lord Brocktree
 
 角色职责：protagonist · 身份：`identity-9a35342fb0542147` · 独立版本：`profile-6c839e9ff34cd606`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在盟友陷入决战危机时倾向及时介入，表现出担当与勇决（行为推断；S27、S29、S30）
 - **核心动机**：前往古老獾族山堡，并以从占领者手中收复堡垒为目标（摘要直接叙述；S16、S19）
@@ -24,6 +30,10 @@
 ### Dorothea Duckfontein Dillworthy
 
 角色职责：co-lead · 身份：`identity-ff69f41dc2b6d062` · 独立版本：`profile-d0aae80f3d1fb40d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争取援军的情境中敢于参加较量，表现出自信与进取倾向（行为推断；S25）
 - **核心动机**：与Brocktree共同前往山堡，参与收复被占堡垒的行动（摘要直接叙述；S16、S19）

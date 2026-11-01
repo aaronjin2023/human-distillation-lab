@@ -1,6 +1,6 @@
 # From a Buick 8
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 13, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ned
 
 角色职责：protagonist · 身份：`identity-78ee9738c670790f` · 独立版本：`profile-9126ce39f283cbe6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：试图理解父亲之死时倾向执着求因，容易把巧合视为因果线索（行为推断；S14、S15、S16）
 - **核心动机**：因确信怪车与父亲之死有关，试图通过毁车回应丧失（行为推断；S14、S16、S17）
@@ -27,6 +33,10 @@
 ### Sandy Dearborn
 
 角色职责：co-lead · 身份：`identity-8b221a7ba6ad4a00` · 独立版本：`profile-e64376307d6b89bb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对少年的执念时倾向警觉照护，及时回头确认危险（行为推断；S16、S17、S18）
 - **核心动机**：察觉Ned可能毁车后，首要关切是阻止少年遭受伤害（摘要直接叙述；S16）

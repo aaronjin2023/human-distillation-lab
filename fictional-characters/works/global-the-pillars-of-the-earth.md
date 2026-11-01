@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tom Builder
 
 角色职责：protagonist · 身份：`identity-c2c0dfdfcec1fabd` · 独立版本：`profile-afc46c906ce9c20c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失业与流离中，他表现出持续寻找建造机会的执着倾向（行为推断；S17、S26、S44）
 - **核心动机**：建造一座大教堂是他的终身梦想，也是求职的重要方向（摘要直接叙述；S26、S44）
@@ -28,6 +34,10 @@
 ### Prior Philip
 
 角色职责：co-lead · 身份：`identity-e97ea5d218da5cbd` · 独立版本：`profile-5cafe0374a7dc737`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在修道院衰败与权力博弈中，他表现出积极整顿的倾向（行为推断；S21、S34、S36）
 - **核心动机**：他希望纠正修道院的财务与精神衰败，并使金斯布里奇兴盛（摘要直接叙述；S21、S47）

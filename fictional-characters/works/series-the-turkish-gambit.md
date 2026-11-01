@@ -1,6 +1,6 @@
 # The Turkish Gambit
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Erast Fandorin series; reported series sales: 18 million[323]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Erast_Fandorin
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Erast Fandorin
 
 角色职责：protagonist · 身份：`identity-446531aba983c844` · 独立版本：`profile-3c3a14a8b2d29940`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对权威已接受的嫌疑判断，他倾向保留怀疑并继续核证（行为推断；S38、S41、S49、S51）
 - **核心动机**：他以志愿参战逃避个人悲剧，随后承担追查敌方间谍的任务（摘要直接叙述；S12、S19）
@@ -24,6 +30,10 @@
 ### Varvara Suvorova
 
 角色职责：co-lead · 身份：`identity-b6a2dd885df413fb` · 独立版本：`profile-4d06f165596a0b32`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对被交付的追查任务，她倾向亲自参与而非停留在旁观位置（行为推断；S26、S35）
 - **核心动机**：她起初奔赴战区探望未婚夫，行动由亲密关系的牵引展开（摘要直接叙述；S11）
@@ -40,6 +50,10 @@
 ### Anwar Effendi
 
 角色职责：central-antagonist · 身份：`identity-66d0bd738f054aa9` · 独立版本：`profile-1bfc1eb4ff1cac13`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在情报战中，他倾向耐心经营身份并冷酷清除妨碍者（行为推断；S49、S50、S52）
 - **核心动机**：他自称为维护西方人权、理性与宽容而阻止俄国扩张（摘要直接叙述；S56、S57）

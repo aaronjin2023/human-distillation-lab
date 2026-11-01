@@ -1,6 +1,6 @@
 # Rhythm of War
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 6, 2020. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Kaladin
 
 角色职责：protagonist · 身份：`identity-7a54f46b8bdbfc0c` · 独立版本：`profile-b743361fc62060e3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身状态脆弱时，仍倾向主动承担保护他人的责任（行为推断；S34、S36）
 - **核心动机**：失去战斗职责后，通过帮助心理困境中的人重新找到意义（摘要直接叙述；S32、S34）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-bf7aad74e3f08092` · 独立版本：`profile-e8b7d2abc55dcf61`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：受敌方俘虏后，仍倾向持续探索光的机制并寻找研究突破（行为推断；S15、S16、S17、S18）
 - **成长变化**：与Urithiru的精灵Sibling结契，成为Bondsmith（摘要直接叙述；S19）
 - **价值取舍**：即使与敌方研究者产生亲近，也仍将阵营责任纳入行动取舍（行为推断；S20）
@@ -44,6 +54,10 @@
 ### Dalinar
 
 角色职责：co-lead · 身份：`identity-0b6ee559258c64f9` · 独立版本：`profile-b3f4966c2bf1cdb3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：察觉异常且自身知识不足时，倾向主动向更有经验者求助（行为推断；S9）
 - **核心动机**：与敌方订立限期决战协议，旨在让战争获得明确终局（行为推断；S12）

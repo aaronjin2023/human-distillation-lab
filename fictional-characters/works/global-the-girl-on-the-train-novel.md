@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rachel Watson
 
 角色职责：protagonist · 身份：`identity-249fea3a175c0e3c` · 独立版本：`profile-123a4c42f4598262`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失业与婚姻破裂的情境中，倾向借隐瞒和幻想维持自我价值（行为推断；S7、S10、S23）
 - **核心动机**：追查失踪案既为找回断片记忆，也使她重新获得重要感（行为推断；S21、S23）
@@ -28,6 +34,10 @@
 ### Tom
 
 角色职责：central-antagonist · 身份：`identity-b678a43a23f7a5c7` · 独立版本：`profile-34ec524e706229c3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身利益受到威胁时，倾向通过操控与暴力压制他人（行为推断；S31、S33、S35）
 - **核心动机**：杀害梅根和威胁瑞秋，均指向阻止对自己不利的信息曝光（行为推断；S33、S35）

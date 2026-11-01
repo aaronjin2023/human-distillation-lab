@@ -1,6 +1,6 @@
 # Armageddon
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 27, 2003. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rayford Steele
 
 角色职责：protagonist · 身份：`identity-ff56a9d5cb7d3019` · 独立版本：`profile-9f90da1234791b95`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对敌方控制区时倾向主动涉险，而非只作远程指挥（行为推断；S3、S5、S23）
 - **核心动机**：进入New Babylon的直接目标是救出受困卧底Chang（摘要直接叙述；S3、S6）
@@ -24,6 +30,10 @@
 
 角色职责：major-support · 身份：`identity-3ccc415c3241973c` · 独立版本：`profile-7978b67cebec1ad2`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：受拘禁与药物审讯时仍倾向坚韧守密，抗拒敌方控制（行为推断；S8、S9）
 - **核心动机**：身陷囹圄仍设法预警，促使同伴及时撤离暴露据点（摘要直接叙述；S12）
 - **价值取舍**：在此受审情境中把群体安全置于配合敌方要求之上（行为推断；S9、S12）
@@ -34,6 +44,10 @@
 ### Tsion Ben-Judah
 
 角色职责：major-support · 身份：`identity-10bff6dc901bbf61` · 独立版本：`profile-67be94a19f3720db`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：危机升级时倾向亲身承担风险，愿由领导者转为士兵（行为推断；S17、S19）
 - **核心动机**：前往Jerusalem既为共同防守，也为传福音使人得救（摘要直接叙述；S19）

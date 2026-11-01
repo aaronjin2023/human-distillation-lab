@@ -1,6 +1,6 @@
 # Nineteen Minutes
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 25, 2007. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Peter Houghton
 
 角色职责：protagonist · 身份：`identity-351f03b4c3ed0c38` · 独立版本：`profile-2ac5d622f3453d7a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在持续排斥的处境中，对羞辱与他人的接纳表现得敏感（行为推断；S21、S26、S35）
 - **核心动机**：在与乔西疏远后仍寻求亲近，倾向珍视重新获得友情的机会（行为推断；S20、S23、S35）
@@ -28,6 +34,10 @@
 ### Josie Cormier
 
 角色职责：co-lead · 身份：`identity-245494d62a69919e` · 独立版本：`profile-a2a901abdc620b32`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在校园等级压力下，倾向通过迎合群体保护自身位置（行为推断；S13、S22）
 - **核心动机**：害怕失去受欢迎群体的接纳，因而疏远曾经的朋友（摘要直接叙述；S13、S22）

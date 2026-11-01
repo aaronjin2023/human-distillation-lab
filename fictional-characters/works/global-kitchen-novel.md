@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mikage Sakurai
 
 角色职责：protagonist · 身份：`identity-3ab86ab5f964ef43` · 独立版本：`profile-b71f5e256ef98e92`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对亲密感情时，她起初倾向回避，随后转向主动表达关切（行为推断；S27、S28、S29、S30）
 - **核心动机**：在雄一丧母后，她希望支持他并避免再次失去重要的人（摘要直接叙述；S26、S30）
@@ -28,6 +34,10 @@
 ### Yuichi Tanabe
 
 角色职责：co-lead · 身份：`identity-bec7ee115a3630b8` · 独立版本：`profile-5fa6ffaea7c97f9f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在美影经历丧亲时，他表现出愿意接纳并支持他人的倾向（行为推断；S9、S23）
 - **核心动机**：自己失去母亲后，他倾向从美影的陪伴中寻求情感支撑（行为推断；S10）

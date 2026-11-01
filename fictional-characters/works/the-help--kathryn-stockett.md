@@ -1,6 +1,6 @@
 # The Help
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: January 24, 2010. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eugenia Phelan
 
 角色职责：co-lead · 身份：`identity-f13dd825464c4474` · 独立版本：`profile-6480e02d0375ce2d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对熟人回避的疑点倾向坚持追问，并逐渐质疑既有秩序（行为推断；S16、S17、S18、S29）
 - **核心动机**：希望成为作家，并通过写书揭露黑人女佣遭受的不公处境（摘要直接叙述；S11、S19、S25）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-9028fcfcc8334073` · 独立版本：`profile-d5be933522e274f3`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在跨种族合作中倾向经由持续交往建立信任，再开放个人经历（行为推断；S22、S27）
 - **核心动机**：愿意通过讲述自身经历，参与让女佣处境被公众看见的写作（行为推断；S25、S27、S32）
 - **价值取舍**：在工作与安全受到威胁的背景下，仍选择让亲历经验进入公共叙述（行为推断；S21、S26、S27）
@@ -39,6 +49,10 @@
 ### Minny Jackson
 
 角色职责：co-lead · 身份：`identity-583e543b0ea82d16` · 独立版本：`profile-6626216609ee12cd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对雇主倾向直言不满，即使这种表达已多次损害工作稳定（行为推断；S6）
 - **沟通方式**：经常直接向雇主表达自己的看法，并因此被多次解雇（摘要直接叙述；S6）

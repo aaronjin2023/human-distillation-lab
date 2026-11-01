@@ -1,6 +1,6 @@
 # Tender Is the Night
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 7, 1934. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dick Diver
 
 角色职责：protagonist · 身份：`identity-ea40ae6b5a659a7b` · 独立版本：`profile-c0c1c1ece5434bac`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻恶化阶段，他由自信友善转为讥讽且待人粗鲁。（摘要直接叙述；S28）
 - **核心动机**：他决定娶妮科尔，是希望为她提供持久的情感稳定。（摘要直接叙述；S19）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-ecb7b5a69924fbec` · 独立版本：`profile-a31c2a4ea443f0c5`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在迪克愈发粗鲁的婚姻处境中，她倾向于拉开距离并改变关系。（行为推断；S28、S30）
 - **情绪反应**：婚姻走向破裂时，她感到孤独，并与汤米开始婚外关系。（摘要直接叙述；S27、S30）
 - **决策方式**：面对恶化的婚姻，她最终选择离婚并嫁给自己的恋人汤米。（摘要直接叙述；S28、S30）
@@ -39,6 +49,10 @@
 ### Rosemary Hoyt
 
 角色职责：major-support · 身份：`identity-0c51c10a1f1ebc13` · 独立版本：`profile-537547cd98ca0429`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在迷恋迪克的情境中，她表现出主动接近并追求亲密的倾向。（行为推断；S5、S10、S11）
 - **核心动机**：在巴黎相处时，她试图把对迪克的迷恋推进为亲密接触。（行为推断；S5、S11）

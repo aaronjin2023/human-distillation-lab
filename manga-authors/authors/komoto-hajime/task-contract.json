@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "komoto-hajime",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦《マッシュル―MASHLE― 18》原版公开封面及署名书目，研究漫画作者绘画；动画团队画面不纳入。以下方案为本库原创应用，连续叙事部分不是据封面证明的作者分镜法。",
+  "recent_focus": {
+    "work": "マッシュル―MASHLE― 18",
+    "year": 2023,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "原版《マッシュル―MASHLE― 18》书目发行日为2023-10-04；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "マッシュル―MASHLE― 18：出版社书目",
+      "url": "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-883668-3&mode=1",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "作品作者署名、所选原版卷和发行日"
+      ],
+      "access_note": "已读取出版社书目正文的署名与发行日期；未通读内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "マッシュル―MASHLE― 18：公开封面观察",
+      "url": "https://www.shonenjump.com/j/comics/_comicimage/mashle018.jpg",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "所示单张封面的构图、轮廓和大色面"
+      ],
+      "access_note": "已通过view_image实际看此出版社公开封面；仅据可见图面概括，低清处不判断笔刷细节。书名、字体、边框和出版版式不自动归给漫画作者；未观察连续内页。",
+      "origin_page_url": "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-883668-3&mode=1",
+      "observed_asset_sha256": "f850bbe99ad41c2d0575f42302660f72bb4185dec88db5c8cc366382f82efd74",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面中央拳头向前伸出，面部位于其上，深色衣料形成连片大形，旁侧人物较小；少量冷亮边分开深衣重叠。蓝色建筑与白云位于背景。外圈金色边框和书名字体属于出版封面构成，不能自动归为作者绘画习惯。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "原版《マッシュル―MASHLE― 18》书目发行日为2023-10-04；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。 作者署名为甲本一。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面中央拳头向前伸出，面部位于其上，深色衣料形成连片大形，旁侧人物较小；少量冷亮边分开深衣重叠。蓝色建筑与白云位于背景。外圈金色边框和书名字体属于出版封面构成，不能自动归为作者绘画习惯。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "封面中央拳头向前伸出，面部位于其上，深色衣料形成连片大形，旁侧人物较小；少量冷亮边分开深衣重叠。蓝色建筑与白云位于背景。外圈金色边框和书名字体属于出版封面构成，不能自动归为作者绘画习惯。",
+      "observation": "封面中央拳头向前伸出，面部位于其上，深色衣料形成连片大形，旁侧人物较小；少量冷亮边分开深衣重叠。蓝色建筑与白云位于背景。外圈金色边框和书名字体属于出版封面构成，不能自动归为作者绘画习惯。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "中重外线明确衣物大轮廓，五官内线简省，拳指用少数折线说明体积。",
+    "shapes": "成年躯干保持完整胸廓，手掌可在故事需要时近距放大，但指节和腕部体积连续。",
+    "composition": "主动作以一个清楚前景形建立焦点，其余既定人物或物件按距离减小；没有配角的任务不增人。",
+    "panel_rhythm": "本库原创迁移：先用平稳中景建立动作预期，再以一格明确动作改变，后接克制反应；封面不证明作者喜剧节奏。",
+    "tonal_design": "深衣归并大块，用少量亮边区分重叠，脸手留中亮面，背景深度不靠满铺黑线。",
+    "environment": "背景以大块建筑与天光建立尺度，细节避开主动作轮廓，不复制特定魔法学校。",
+    "acting": "简省五官可维持平稳表情，主要情绪转折通过肩线与手部力度表现，服从既定人物态度。",
+    "color": "本库建议深蓝黑衣面与冷亮边对照，暖色作小焦点；色板按项目已有衣色调整。"
+  },
+  "steps": [
+    "先画三种项目构图，选择能清楚承载既定动作的一种：主动作以一个清楚前景形建立焦点，其余既定人物或物件按距离减小；没有配角的任务不增人。",
+    "在既定成年角色与服装下搭体块：成年躯干保持完整胸廓，手掌可在故事需要时近距放大，但指节和腕部体积连续。 再落实：中重外线明确衣物大轮廓，五官内线简省，拳指用少数折线说明体积。",
+    "以缩略灰阶校对材料：深衣归并大块，用少量亮边区分重叠，脸手留中亮面，背景深度不靠满铺黑线。 环境处理：背景以大块建筑与天光建立尺度，细节避开主动作轮廓，不复制特定魔法学校。",
+    "最后核对表演：简省五官可维持平稳表情，主要情绪转折通过肩线与手部力度表现，服从既定人物态度。 颜色仅在项目未锁定处尝试：本库建议深蓝黑衣面与冷亮边对照，暖色作小焦点；色板按项目已有衣色调整。"
+  ],
+  "checks": [
+    "深衣块是否仍能区分手臂与胸廓？",
+    "前伸手掌的关节与腕部是否连续？",
+    "简省表情是否仍符合既定情绪？"
+  ],
+  "sheet_traits_zh": "成年胸廓与腕指完整，中重外线组织服装大形，简省面部内线；既定深色区连成块，窄亮边分重叠，中性站姿不放大拳头。",
+  "avoid": [
+    "把大黑衣画成没有人体结构的平面袋子。",
+    "固定复制拳头朝镜头动作，改变用户原故事。"
+  ],
+  "unknowns": [
+    "视觉观察限所列单封面；未通读章节、核对助手分工或追溯所有时期。",
+    "下列八维方案、步骤与提示词是原创转译，尚未实际生成图片验证。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

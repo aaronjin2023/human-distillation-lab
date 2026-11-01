@@ -1,6 +1,6 @@
 # The Rooster Bar
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 12, 2017. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mark Frazier
 
 角色职责：co-lead · 身份：`identity-b517dc042d18bfbe` · 独立版本：`profile-c3af4807f9c8ece2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在职业前景崩塌后表现出冒险求变倾向，主动推动非法出路（行为推断；S9、S11、S12）
 - **核心动机**：希望摆脱学贷与无望的职业前景，并迅速取得足够收入（摘要直接叙述；S9、S12、S15）
@@ -28,6 +34,10 @@
 ### Zola Maal
 
 角色职责：co-lead · 身份：`identity-58942a5e6dced14d` · 独立版本：`profile-7c023431ffdd7493`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在选择非法执业时表现出犹疑，但面对亲人危机能主动行动（行为推断；S13、S23、S24）
 - **核心动机**：因看不到更好的前景而加入冒牌律所，试图寻找生活出路（摘要直接叙述；S13）

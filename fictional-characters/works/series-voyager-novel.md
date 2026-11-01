@@ -1,6 +1,6 @@
 # Voyager (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Outlander; reported series sales: 25 million[292]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Outlander_(book_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Claire Randall
 
 角色职责：protagonist · 身份：`identity-7c328d3ea0a33c6f` · 独立版本：`profile-665973a7f9133b20`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对失散亲人与危险处境，表现出持续追寻并主动救援的倾向（行为推断；S36、S37、S48、S64）
 - **核心动机**：确认杰米可能生还后，重返过去以恢复两人的共同生活（行为推断；S36、S37、S38）
@@ -28,6 +34,10 @@
 ### Jamie Fraser
 
 角色职责：co-lead · 身份：`identity-13686b184e629aa1` · 独立版本：`profile-e00d38c432445674`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战败与逃亡处境中，表现出善于变通并承担群体责任的倾向（行为推断；S21、S22、S23）
 - **价值取舍**：愿牺牲自身自由换取赏金，以帮助佃户避免饥荒（摘要直接叙述；S22）

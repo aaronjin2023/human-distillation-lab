@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charlotte A. Cavatica
 
 角色职责：protagonist · 身份：`identity-56d9fc6a5881046d` · 独立版本：`profile-644b1aec786f40d5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对Wilbur的危机，她倾向先安慰对方，再以谋划应对危险。（行为推断；S10、S11、S13、S14）
 - **核心动机**：她承诺设法救Wilbur，打算用名声改变主人宰杀他的计划。（摘要直接叙述；S11、S14）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-0c0d6e687b89a033` · 独立版本：`profile-de07fb05d0aa828e`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在此情境中，他情绪强烈而依恋朋友，面临危险时会显露脆弱。（行为推断；S8、S9、S34）
 - **核心动机**：他渴望重新亲近Fern，得知将被宰杀后表现出求生愿望。（行为推断；S8、S9、S10）
 - **关系模式**：Charlotte安慰并保护他，他始终格外珍视她的友谊。（摘要直接叙述；S10、S11、S31）
@@ -34,6 +44,10 @@
 ### Fern Arable
 
 角色职责：major-support · 身份：`identity-6ee9177b0be695db` · 独立版本：`profile-131fda6d9fe7a522`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，她富有同情心，愿意为弱小生命向父亲求情。（行为推断；S3、S4）
 - **核心动机**：她想保护最弱小的猪崽，并持续探望被送走的Wilbur。（摘要直接叙述；S3、S6、S38）

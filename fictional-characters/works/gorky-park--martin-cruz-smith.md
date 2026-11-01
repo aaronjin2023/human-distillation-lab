@@ -1,6 +1,6 @@
 # Gorky Park
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 26, 1981. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arkady Renko
 
 角色职责：protagonist · 身份：`identity-6f0842dd10c31180` · 独立版本：`profile-8ca777b409e57c1e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权势阻挠面前倾向坚持查证，不因对方受高层保护而停止追究（行为推断；S9、S22、S23、S24）
 - **价值取舍**：即使自身出身特权阶层，仍揭露精英阶层的腐败与不诚实（摘要直接叙述；S22）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-94c0148efc3aeaa0` · 独立版本：`profile-c7eb09148cc34508`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：按她对出境与营救的自述，她在困境中倾向以亲密接触争取援助（行为推断；S33）
 - **核心动机**：希望离开苏联赴美生活，最终仍明确选择留在美国（摘要直接叙述；S33、S42）
 - **决策方式**：据她自己的解释，她选择以与奥斯本亲密换取出境及营救援助（行为推断；S33）
@@ -44,6 +54,10 @@
 ### John Osborne
 
 角色职责：central-antagonist · 身份：`identity-e3be966c2a6b5248` · 独立版本：`profile-55512417295188e9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在交易与灭口情境中倾向冷酷利用他人，善意承诺不能约束其行为（行为推断；S17、S29、S30）
 - **核心动机**：利用他人捕捉并走私活紫貂，倾向为取得资源而牺牲合作者（行为推断；S29、S30）

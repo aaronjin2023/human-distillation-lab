@@ -1,6 +1,6 @@
 # First Among Equals
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 26, 1984. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Raymond Gould
 
 角色职责：co-lead · 身份：`identity-1bf8ad4b897af89d` · 独立版本：`profile-b558b2968da7b02f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻与事业交错的处境中呈现重现实利益的倾向（行为推断；S6、S8、S9）
 - **核心动机**：自幼希望进入政治领域，而非继承父亲的肉铺生意（摘要直接叙述；S5）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-050927046c1f9650` · 独立版本：`profile-ac4fbb112686d1c9`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对政治排斥与家庭困境时呈现愿意另寻出路的倾向（行为推断；S11、S12、S21、S22）
 - **价值取舍**：面对女儿内化的种族偏见，明确肯定她的身份与被爱资格（行为推断；S24）
 - **决策方式**：在联合执政谈判中，以内阁席位和选制公投作为支持条件（摘要直接叙述；S16）
@@ -35,6 +45,10 @@
 ### Charles Gurney Seymour
 
 角色职责：co-lead · 身份：`identity-9bd78b53e6a1130d` · 独立版本：`profile-17f647124f44e878`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：政治竞争中呈现强烈野心，并倾向以算计排除对手（行为推断；S33、S38、S39）
 - **核心动机**：受丘吉尔演说鼓舞后，把成为首相确立为奋斗目标（摘要直接叙述；S31、S32）

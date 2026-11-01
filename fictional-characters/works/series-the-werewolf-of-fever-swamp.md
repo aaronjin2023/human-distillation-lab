@@ -1,6 +1,6 @@
 # The Werewolf of Fever Swamp
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Goosebumps; reported series sales: 400 million[199]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Goosebumps
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Grady Tucker
 
 角色职责：protagonist · 身份：`identity-45cbe637e27b94c2` · 独立版本：`profile-b6c27806301dc509`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在怪声和动物死亡事件面前，倾向主动调查并追踪线索（行为推断；S33、S38、S39）
 - **价值取舍**：在父亲归罪宠物时，倾向维护自己相信无辜的伙伴（行为推断；S35、S36、S37）
@@ -23,6 +29,10 @@
 ### Mr. Tucker
 
 角色职责：major-support · 身份：`identity-370698e79aa80901` · 独立版本：`profile-2f216785d29fdb48`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对圈养动物遭袭，倾向迅速依据现场迹象锁定嫌疑（行为推断；S35、S36）
 - **核心动机**：迁居与饲养沼泽鹿，旨在研究它们能否适应佛罗里达（摘要直接叙述；S23、S24、S25）

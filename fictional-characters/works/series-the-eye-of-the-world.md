@@ -1,6 +1,6 @@
 # The Eye of the World
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-6451a848ae730afb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在试图观看伪龙的情境中，表现出愿意接近未知事物的好奇倾向（行为推断；S20）
 - **核心动机**：与同伴进入妖境时，以保护受到威胁的世界之眼为行动目标（摘要直接叙述；S27、S29）
@@ -23,6 +29,10 @@
 ### Moiraine Damodred
 
 角色职责：co-lead · 身份：`identity-04885aa66030b635` · 独立版本：`profile-fa010b1b4cfa3f3f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对多重威胁时倾向主动承担引导职责，并谨慎控制信息范围（行为推断；S14、S15、S26、S33）
 - **核心动机**：带领青年离乡并参与救援，意在使他们脱离黑暗势力的追捕（行为推断；S14、S15、S25）

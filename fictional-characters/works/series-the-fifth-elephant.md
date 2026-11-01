@@ -1,6 +1,6 @@
 # The Fifth Elephant
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Samuel Vimes
 
 角色职责：protagonist · 身份：`identity-77abbf7a12901176` · 独立版本：`profile-65e2258c28f0a189`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在外交身份与人身危险交织时，倾向坚持亲自查明真相（行为推断；S20、S30、S32）
 - **核心动机**：肩负争取油脂进口条件的任务，同时追查地方政变阴谋（摘要直接叙述；S15、S20）
@@ -27,6 +33,10 @@
 ### Wolfgang von Überwald
 
 角色职责：central-antagonist · 身份：`identity-7292469e65418c0f` · 独立版本：`profile-3d490b30f073eb32`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对受困对手时，倾向以残酷追猎展示自身支配能力（行为推断；S33）
 - **核心动机**：领导阴谋制造矮人内战，企图建立狼人的封建统治（摘要直接叙述；S18、S19、S21）

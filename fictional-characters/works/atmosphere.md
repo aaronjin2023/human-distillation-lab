@@ -1,6 +1,6 @@
 # Atmosphere
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 22, 2025. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Joan Goodwin
 
 角色职责：protagonist · 身份：`identity-0fa55594bac55a2a` · 独立版本：`profile-c6325bf44db8a4c6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系与职业压力交织时，倾向先承担责任并压抑个人愿望（行为推断；S7、S9、S14、S16）
 - **核心动机**：希望保护凡妮莎的职业前途，同时为弗朗西斯提供稳定照料（摘要直接叙述；S14、S16）
@@ -28,6 +34,10 @@
 ### Vanessa Ford
 
 角色职责：co-lead · 身份：`identity-15463739a7690a9e` · 独立版本：`profile-bec1ba0a5bdaf0d0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在伴侣退缩与航天危机中，呈现主动坚持并承担风险的倾向（行为推断；S16、S18）
 - **核心动机**：希望及时把尚存的同伴送回地球，为对方争取获救机会（摘要直接叙述；S18）

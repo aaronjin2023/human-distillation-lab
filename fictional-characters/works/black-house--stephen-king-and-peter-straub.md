@@ -1,6 +1,6 @@
 # Black House
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 30, 2001. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Sawyer
 
 角色职责：protagonist · 身份：`identity-e7a67a13f85c37c1` · 独立版本：`profile-eb1cc511f1575cf9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对可能唤起旧事的调查时倾向退避以保护自己（行为推断；S11、S12、S13、S14）
 - **核心动机**：最初拒绝协助办案是担心旧记忆危及精神稳定（摘要直接叙述；S13、S14）
@@ -27,6 +33,10 @@
 ### The Fisherman
 
 角色职责：central-antagonist · 身份：`identity-d1cdc1f70d83002d` · 独立版本：`profile-850311593dfba0bc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在实施杀戮时表现出刻意模仿既有凶手的倾向（行为推断；S3、S4）
 - **核心动机**：受命替猩红之王寻找能够充当破坏者的儿童（摘要直接叙述；S17）

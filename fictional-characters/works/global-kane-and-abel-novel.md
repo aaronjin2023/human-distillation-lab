@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### William Lowell Kane
 
 角色职责：co-lead · 身份：`identity-46d9511d02a19597` · 独立版本：`profile-6fa85337feea68c6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：年轻时他展现出非凡的自律与聪明，按家族传统进入银行业。（摘要直接叙述；S6、S8、S9）
 - **核心动机**：他立志成为银行掌舵者，并长期与阿贝尔争夺金融权力。（摘要直接叙述；S12、S44、S48）
@@ -24,6 +30,10 @@
 ### Abel Rosnovski
 
 角色职责：co-lead · 身份：`identity-c48273933ec237f7` · 独立版本：`profile-3b4e2d480009ae73`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在艰难求生与创业中，他表现出坚韧进取，善于把握工作机会。（行为推断；S25、S28、S29、S30）
 - **核心动机**：他因认定银行拒绝援助导致好友死亡，立志向凯恩复仇。（摘要直接叙述；S31、S32、S33）

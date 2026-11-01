@@ -1,6 +1,6 @@
 # The Good Earth
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 16, 1932. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Wang Lung
 
 角色职责：protagonist · 身份：`identity-3235c16f8984eecd` · 独立版本：`profile-3e7b3e9bb38bfa72`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在贫困务农时期，他倾向于勤勉积累，以土地经营改善处境。（行为推断；S5、S40）
 - **核心动机**：流落城市时他渴望返乡，并将所得财物投入恢复和扩张农庄。（摘要直接叙述；S18、S26、S28）
@@ -28,6 +34,10 @@
 ### O-Lan
 
 角色职责：co-lead · 身份：`identity-ce9fc01495e44de2` · 独立版本：`profile-6e6d5b1c1e5930df`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在困顿生活中，她倾向于沉默务实，以持续劳作应对艰难处境。（行为推断；S5、S47、S50）
 - **核心动机**：杀死新生女儿时，她意在免其受苦，并提高其余家人的生存机会。（摘要直接叙述；S9）

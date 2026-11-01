@@ -1,6 +1,6 @@
 # Calico Joe
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 29, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Warren Tracey
 
 角色职责：central-antagonist · 身份：`identity-1a4fa6cfac907754` · 独立版本：`profile-6690be41cda27639`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在球场冲突与多年追责中呈现自负、记恨且抗拒认错的倾向（行为推断；S4、S17、S20）
 - **核心动机**：故意击伤Joe的行为出于恶意，而非他长期宣称的意外（摘要直接叙述；S17、S20）
@@ -28,6 +34,10 @@
 
 角色职责：protagonist · 身份：`identity-3da75a41433dd745` · 独立版本：`profile-08c132849e403d0b`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在旧怨难解的情境中仍倾向主动奔走，促成他人的和解（行为推断；S12、S13、S16、S22）
 - **核心动机**：父亲濒死之际，希望促成他与被其毁掉事业的Joe见面（摘要直接叙述；S12、S16）
 - **情绪反应**：童年的虐待记忆持续阻碍他释怀，即使告别时也无法拥抱（摘要直接叙述；S22、S23）
@@ -42,6 +52,10 @@
 ### Joe Castle
 
 角色职责：co-lead · 身份：`identity-e4606d44ef2d7a37` · 独立版本：`profile-e7ab7127628f75e4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对真诚认错时呈现宽厚倾向，没有继续以仇恨回应伤害（行为推断；S19、S20、S21）
 - **价值取舍**：捐赠签约奖金时，表现出愿将个人所得用于慈善的取向（行为推断；S8）

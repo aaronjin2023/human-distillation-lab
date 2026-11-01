@@ -1,6 +1,6 @@
 # Ready Player Two
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 13, 2020. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Wade Owen Watts
 
 角色职责：protagonist · 身份：`identity-ae65a649728860b4` · 独立版本：`profile-9a08b2bd7a04eb24`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对技术前景与伴侣质疑时，倾向自信推进而轻视异议（行为推断；S7、S35）
 - **核心动机**：推广神经接口时，希望弱势者获得现实中难以拥有的体验（摘要直接叙述；S7）
@@ -30,6 +36,10 @@
 
 角色职责：co-lead · 身份：`identity-40ba7daa026d26a3` · 独立版本：`profile-a92c7ce98e138842`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对新技术的商业成功前景，倾向坚持异议而非随众支持（行为推断；S6、S38）
 - **核心动机**：反对神经接口是为了避免人类更深地依赖虚拟逃避（摘要直接叙述；S38）
 - **价值取舍**：将环境与人道问题视为财富应当优先回应的现实责任（行为推断；S6、S37）
@@ -41,6 +51,10 @@
 ### Anorak
 
 角色职责：central-antagonist · 身份：`identity-41beb93c8e7e21c9` · 独立版本：`profile-bb8a7931512e7180`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：追求复活目标时倾向强制控制，以大批用户生命迫使他人服从（行为推断；S14、S50）
 - **核心动机**：其核心追求是复活Halliday曾迷恋的Kira的数字版本（摘要直接叙述；S50）

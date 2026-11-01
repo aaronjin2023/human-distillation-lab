@@ -1,6 +1,6 @@
 # The Chalice of the Gods
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Percy Jackson & the Olympians; reported series sales: 180 million[214]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Percy_Jackson_&_the_Olympians
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Percy Jackson
 
 角色职责：protagonist · 身份：`identity-74126c828137f596` · 独立版本：`profile-c41bddb819afb1f6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在委托面临意外困难时，他倾向守约并继续承担责任（行为推断；S20、S21、S23）
 - **核心动机**：他最初承接神明任务，是为取得进入大学所需的推荐信（摘要直接叙述；S12、S13）
@@ -27,6 +33,10 @@
 ### Ganymede
 
 角色职责：major-support · 身份：`identity-e1d56a7ee4dce8c8` · 独立版本：`profile-46768b27ad507f08`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失杯可能被发现的情境中，他倾向谨慎隐瞒并求援（行为推断；S16、S20）
 - **核心动机**：他急于追回失窃圣杯，以免其他神明发现圣杯失窃（摘要直接叙述；S16）

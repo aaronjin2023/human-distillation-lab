@@ -1,6 +1,6 @@
 # The Host
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 25, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Wanderer
 
 角色职责：protagonist · 身份：`identity-1e06636ed6c2e9ca` · 独立版本：`profile-03e2b2766db86af0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭受敌意与攻击后仍救助对方，表现出强烈的体恤倾向（行为推断；S13、S14）
 - **核心动机**：为让梅兰妮重新与恋人团聚，她计划离开宿主并接受自身死亡（摘要直接叙述；S23）
@@ -28,6 +34,10 @@
 ### Melanie Stryder
 
 角色职责：co-lead · 身份：`identity-6eb91f384e5aa8ea` · 独立版本：`profile-9914040ba687f7d6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：身体被占据后仍主动引导共居者，显露争取亲人团聚的主动性（行为推断；S5、S7）
 - **核心动机**：她引导共居者寻找叔父，盼望与弟弟及恋人重新会合（摘要直接叙述；S7）

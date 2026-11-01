@@ -1,6 +1,6 @@
 # Outlander (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Outlander; reported series sales: 25 million[292]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Outlander_(book_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Claire Randall
 
 角色职责：protagonist · 身份：`identity-7c328d3ea0a33c6f` · 独立版本：`profile-1999fdbad462eb07`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生时代与受威胁处境中，表现出主动应变的倾向（行为推断；S11、S13、S34）
 - **核心动机**：起初寻找返回原时代的办法，后来主动选择留在杰米身边（摘要直接叙述；S14、S21、S28、S29）
@@ -28,6 +34,10 @@
 ### Jamie Fraser
 
 角色职责：co-lead · 身份：`identity-13686b184e629aa1` · 独立版本：`profile-89100fac80adcc3b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对克莱尔受困时，表现出反复主动承担危险的倾向（行为推断；S22、S24、S33）
 - **核心动机**：努力使克莱尔脱离囚禁与暴力威胁，即使代价由自己承担（行为推断；S22、S24、S33）

@@ -1,6 +1,6 @@
 # The Last Song
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 27, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Veronica Miller
 
 角色职责：protagonist · 身份：`identity-576ce6f55fe53106` · 独立版本：`profile-b4826b30ea955bcd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在疏离父母的阶段仍表现出保护弱小的倾向，愿为脆弱生命付出时间（行为推断；S2、S12）
 - **核心动机**：起初希望自主生活并避开离异父母，抗拒被安排的暑期相处（摘要直接叙述；S2、S3、S4）
@@ -28,6 +34,10 @@
 ### Will Blakelee
 
 角色职责：co-lead · 身份：`identity-b3c6133154f3ebf9` · 独立版本：`profile-9c023840c6275a66`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在恋人家庭遭遇病痛时倾向以实际参与表达支持与关怀（行为推断；S15、S19）
 - **核心动机**：告知将与罗妮就读同一大学时，显露希望继续相伴的倾向（行为推断；S19、S20）

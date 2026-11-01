@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lily Bloom
 
 角色职责：protagonist · 身份：`identity-fcd8c28525b9a5e0` · 独立版本：`profile-2cddd6a061f4e036`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系受伤时，呈现愿意体谅却逐步建立边界的倾向（行为推断；S10、S18、S26、S28）
 - **核心动机**：希望女儿免于目睹伴侣暴力，从而终止家庭中的虐待循环（摘要直接叙述；S28、S30）
@@ -28,6 +34,10 @@
 ### Ryle Kincaid
 
 角色职责：central-antagonist · 身份：`identity-587c2b73e763fe85` · 独立版本：`profile-8ca9aba1a045f625`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在感到伴侣与旧爱亲近时，表现出强烈嫉妒与攻击倾向（行为推断；S11、S16、S19）
 - **核心动机**：在妻子提出离婚时，明确希望挽留婚姻并请求她重新考虑（摘要直接叙述；S28、S29）

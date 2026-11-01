@@ -1,6 +1,6 @@
 # Safe Haven
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 3, 2010. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Erin
 
 角色职责：protagonist · 身份：`identity-1c53608deafa03cb` · 独立版本：`profile-83eb9f104f569512`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追杀威胁下倾向主动自救，也能在危急时奋力反抗（行为推断；S2、S16、S21）
 - **核心动机**：逃离婚姻并隐姓埋名，是为了避免再次遭受致命暴力（摘要直接叙述；S2、S10、S11）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-3fd3eb76d37389e7` · 独立版本：`profile-96ce39e0daacf835`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在家人遭遇袭击时倾向承担风险，主动返回危险现场（行为推断；S17、S18、S19）
 - **核心动机**：面对凯文的暴力袭击，行动目标集中于保护孩子与恋人（行为推断；S17、S18、S19）
 - **决策方式**：危机中先安置孩子再回援，却未掌握施暴者的追踪路径（行为推断；S17、S18、S24）
@@ -43,6 +53,10 @@
 ### Kevin
 
 角色职责：central-antagonist · 身份：`identity-3d76b711788d52cf` · 独立版本：`profile-d12365ea84bd4e0f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在妻子离开后表现出强烈控制倾向，以暴力阻断其逃离（行为推断；S12、S13、S15、S25、S26）
 - **核心动机**：追踪妻子的新身份，并企图杀死她及其新的亲密对象（摘要直接叙述；S13、S15、S26）

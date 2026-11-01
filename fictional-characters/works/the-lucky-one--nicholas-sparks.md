@@ -1,6 +1,6 @@
 # The Lucky One
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 19, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Logan Thibault
 
 角色职责：protagonist · 身份：`identity-4e118dc596f919cd` · 独立版本：`profile-0b7a7f0cc1c1c31c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在目睹警员侵犯他人隐私时，表现出主动干预的强硬倾向（行为推断；S6、S19）
 - **核心动机**：他寻找照片中的女子，受到朋友关于照片深意的信念影响（行为推断；S27、S38、S40）
@@ -28,6 +34,10 @@
 ### Keith Clayton
 
 角色职责：central-antagonist · 身份：`identity-08f037b51ca0caf0` · 独立版本：`profile-db3050427f4ae184`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权威受到挑战时表现出强烈敌意，难以接受被迫退让（行为推断；S44、S62、S81）
 - **核心动机**：他试图找到并惩罚洛根，同时担忧偷拍照片的存储卡外泄（摘要直接叙述；S44、S63、S66）

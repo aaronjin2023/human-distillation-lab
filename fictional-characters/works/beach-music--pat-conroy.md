@@ -1,6 +1,6 @@
 # Beach Music
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 16, 1995. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack McCall
 
 角色职责：protagonist · 身份：`identity-c2f96c22a1243ff3` · 独立版本：`profile-438ee60e1d4ab265`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丧妻情境下倾向远离旧生活，以环境转换缓冲创伤（行为推断；S2、S3）
 - **核心动机**：逃离故乡的直接愿望是与女儿获得平静生活（摘要直接叙述；S3）
@@ -28,6 +34,10 @@
 ### Jordan Elliot
 
 角色职责：major-support · 身份：`identity-644f509ed3d03d8e` · 独立版本：`profile-c9eae5fd2fa23818`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在父亲专横的成长环境中，表现出反抗权威的倾向（行为推断；S23）
 - **核心动机**：进入意大利教士生活的动因包含躲避丑闻的压力（摘要直接叙述；S24）

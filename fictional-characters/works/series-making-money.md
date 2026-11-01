@@ -1,6 +1,6 @@
 # Making Money
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Moist von Lipwig
 
 角色职责：protagonist · 身份：`identity-e7ac1de88332d9a1` · 独立版本：`profile-51c1baf1810ad25e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在银行困局中倾向大胆改造既有制度，不拘泥于黄金本位（行为推断；S17、S18、S25）
 - **核心动机**：起初虽厌倦缺少挑战的工作，仍想保住所满意的新生活（摘要直接叙述；S13、S14）
@@ -27,6 +33,10 @@
 ### Topsy Lavish
 
 角色职责：major-support · 身份：`identity-8f46b58faa6723d5` · 独立版本：`profile-62b470b27753af41`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在身后安排中倾向强势掌控，预先封堵继承人的退路（行为推断；S15、S16）
 - **核心动机**：遗嘱安排显示她要确保莫伊斯特接手并照管自己的狗（行为推断；S15、S16、S17）

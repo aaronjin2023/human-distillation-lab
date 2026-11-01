@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "misaki-kurehito",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮主要视觉研究限定于冴えない彼女の育てかた 深崎暮人画集 下 Fine.（2022）封面；仅核公开封面／宣传图及明示样图。其余履历来源只证明职业与署名，不借动画成片代替个人画作。八维配方、步骤、评审与提示词均为本库原创技法转译，不是本人逐笔规则。",
+  "recent_focus": {
+    "work": "冴えない彼女の育てかた 深崎暮人画集 下 Fine.（2022）封面",
+    "year": 2022,
+    "source_ids": [
+      "S2",
+      "S3"
+    ],
+    "date_basis": "对应出版社记录的书籍／宣传发布日期；不将作品集出版年当成全部收录画作的创作年，也不声称是2026最新画风。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "「深崎暮人×TSUTAYA IP書店プロジェクト Produced by TO BOOKS」特設サイト",
+      "url": "https://www.tobooks.jp/misakikurehito/",
+      "publisher": "TO Books",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "2024启动IP角色考案、设计；2025年4月25日书籍化",
+        "官方项目明确角色考案、角色设计与2025书籍化；文字另署铃木大辅，不把插画者当小说作者。"
+      ],
+      "access_note": "实际web检索或打开所列官方／出版社供稿页面；本轮候选阶段不声称已看作品图像或读画集内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "冴えない彼女の育てかた 深崎暮人画集 下 Fine.",
+      "url": "https://www.kadokawa.co.jp/product/321912000717/",
+      "publisher": "KADOKAWA",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "2022年5月2日发布；深崎暮人画集，丸户史明为小说原作者。"
+      ],
+      "access_note": "实际读取官方页面公开文字／HTML；未阅读全书。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S3",
+      "title": "冴えない彼女の育てかた 深崎暮人画集 下 Fine.（2022）封面：官方封面／宣传图",
+      "url": "https://cdn.kdkw.jp/cover_1000/321912/321912000717.webp",
+      "publisher": "TO Books",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "封面以居中的半身人物为主，紫灰发束、暖粉面颊和白色衬衣分层；领部灰紫薄布与散在前方的虚化白花共同包围脸，衣料阴影透亮，未见大块纯黑背景。"
+      ],
+      "access_note": "从已核定官方页面 https://www.kadokawa.co.jp/product/321912000717/ 的HTML提取实际图像URL，临时保存至/tmp并通过view_image查看。只核这张图；没有下载图片入库，没有将页面alt当视觉观察。",
+      "origin_page_url": "https://www.kadokawa.co.jp/product/321912000717/",
+      "observed_asset_sha256": "e4241cfa4cc6d5d958f1dce1a5c71a2f1a24ded635ba3127147f47ba9eb2dd98",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面以居中的半身人物为主，紫灰发束、暖粉面颊和白色衬衣分层；领部灰紫薄布与散在前方的虚化白花共同包围脸，衣料阴影透亮，未见大块纯黑背景。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "2024启动IP角色考案、设计；2025年4月25日书籍化",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面以居中的半身人物为主，紫灰发束、暖粉面颊和白色衬衣分层；领部灰紫薄布与散在前方的虚化白花共同包围脸，衣料阴影透亮，未见大块纯黑背景。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "封面以居中的半身人物为主，紫灰发束、暖粉面颊和白色衬衣分层；领部灰紫薄布与散在前方的虚化白花共同包围脸，衣料阴影透亮，未见大块纯黑背景。",
+      "observation": "封面以居中的半身人物为主，紫灰发束、暖粉面颊和白色衬衣分层；领部灰紫薄布与散在前方的虚化白花共同包围脸，衣料阴影透亮，未见大块纯黑背景。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S3"
+  ],
+  "editorial_recipe": {
+    "line": "面部线轻，发束边缘清楚，薄布褶使用低反差细线",
+    "shapes": "成人头颈与胸廓比例自然，衣领和薄布不掩盖肩部位置",
+    "composition": "让清楚面部与外围柔化形状相对，既有动作留在明亮区域",
+    "panel_rhythm": "本库原创建议：整体关系、领口和手部细节、目光停顿、整体余韵",
+    "tonal_design": "大白面维持明度，深值仅留发根与服装交叠，避免满面灰",
+    "environment": "外围可用低对比色块制造空气感，主体边界仍完整",
+    "acting": "嘴角小幅张合、面颊轻暖，眼神先保持稳定再改变",
+    "color": "本库建议灰紫阴影、暖粉肤色与象牙白衣料；仅受该封面启发"
+  },
+  "steps": [
+    "先按既定人物与道具搭静态体块：成人头颈与胸廓比例自然，衣领和薄布不掩盖肩部位置；检查同一人物辨识点。",
+    "用三阶缩略图确定主次：让清楚面部与外围柔化形状相对，既有动作留在明亮区域，再落实大白面维持明度，深值仅留发根与服装交叠，避免满面灰。",
+    "按材质分层描线：面部线轻，发束边缘清楚，薄布褶使用低反差细线；检查外围可用低对比色块制造空气感，主体边界仍完整。",
+    "最后校对表演与色域：嘴角小幅张合、面颊轻暖，眼神先保持稳定再改变；按“本库建议灰紫阴影、暖粉肤色与象牙白衣料；仅受该封面启发”做原创小色稿，连续页采用独立节奏建议。"
+  ],
+  "checks": [
+    "浅衣与浅底是否靠低反差阴影仍能分开？",
+    "外围柔化之后，眼睛、嘴角和领部接触边是否仍有清楚焦点？",
+    "灰紫暗面是否保留透亮感，而非给整张脸覆盖粉灰滤镜？"
+  ],
+  "sheet_traits_zh": "轻面线配清楚发束，成人肩颈胸廓自然；薄布用低反差褶线，白衣大面透亮，发根与交叠处少量深灰。",
+  "avoid": [
+    "模糊滤镜同时覆盖五官和领口，导致焦点不清。",
+    "浅色薄布用浓黑褶线描满，失去透明轻量的材质层级。"
+  ],
+  "unknowns": [
+    "只核本条明示公开图像，没有通读完整画集或逐年比较全部时期；未承诺精确复刻。",
+    "作者原始上色与出版物装帧、文字、印刷呈色未逐项拆分，因此背景排版和标题字体不视为个人固定风格。",
+    "原创技法转译未通过真实生成样张验收；三视图只用sheet_traits_zh的静态特征，不能照搬封面透视。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

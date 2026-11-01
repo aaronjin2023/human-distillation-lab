@@ -1,6 +1,6 @@
 # Rage of Angels
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 13, 1980. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jennifer Parker
 
 角色职责：protagonist · 身份：`identity-21551cc8878966f4` · 独立版本：`profile-50bea3b4c260f9e7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在职业声誉遭毁后倾向顽强重建，不轻易放弃成为成功律师的追求（行为推断；S3、S4、S6、S15）
 - **核心动机**：面临儿子被绑架的危机时，救回孩子压过对莫雷蒂的长期排斥（行为推断；S16、S17）
@@ -28,6 +34,10 @@
 ### Michael Moretti
 
 角色职责：central-antagonist · 身份：`identity-4b35ac2fa255ac14` · 独立版本：`profile-44599829c43bc930`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追求利益与亲密关系时倾向操纵他人，遇到疑似背叛便诉诸暴力（行为推断；S2、S18、S20）
 - **核心动机**：起初利用新任检察官逃脱审判，显示其维护自身犯罪利益的意图（行为推断；S2）

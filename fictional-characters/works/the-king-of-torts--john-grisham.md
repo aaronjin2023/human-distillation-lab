@@ -1,6 +1,6 @@
 # The King of Torts
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 23, 2003. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Clay Carter
 
 角色职责：protagonist · 身份：`identity-3b208f13c288b2dd` · 独立版本：`profile-054ab4344d5003ce`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：连续获利后倾向自信冒进，低估新案举证与扩张风险（行为推断；S14、S17、S18）
 - **核心动机**：追求财富部分是为挽回Rebecca，并因此接受秘密交易（摘要直接叙述；S10、S11）
@@ -28,6 +34,10 @@
 ### Max Pace
 
 角色职责：central-antagonist · 身份：`identity-55e43d4ede4c254a` · 独立版本：`profile-6100c54c5afe1640`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：接近Clay时倾向借神秘信息建立权威，逐步取得信任（行为推断；S8、S13、S14、S16）
 - **核心动机**：以药企委托为说辞，推动Clay离职处理秘密赔偿（摘要直接叙述；S10）

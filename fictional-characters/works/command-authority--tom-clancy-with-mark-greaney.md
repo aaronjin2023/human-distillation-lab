@@ -1,6 +1,6 @@
 # Command Authority
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 22, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan Jr.
 
 角色职责：protagonist · 身份：`identity-d45152c2b412eab4` · 独立版本：`profile-69df001408b1d49b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查遭遇暴力阻挠时，倾向持续追索而非立即退出（行为推断；S12、S14、S18）
 - **核心动机**：他受父亲委托，追查代号与冷战杀手身份之间的联系（摘要直接叙述；S11）
@@ -28,6 +34,10 @@
 ### Valeri Volodin
 
 角色职责：central-antagonist · 身份：`identity-8a2c842fdbe53e8a` · 独立版本：`profile-a9622d659512b57e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在推进对外扩张时，倾向操纵事由并掩饰自身责任（行为推断；S3、S5、S8）
 - **核心动机**：他试图为入侵乌克兰制造正当理由，并将军队推进至基辅（摘要直接叙述；S3、S8）

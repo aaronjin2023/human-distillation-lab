@@ -1,6 +1,6 @@
 # Redwall (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Matthias
 
 角色职责：protagonist · 身份：`identity-cef17b2d14357ca8` · 独立版本：`profile-aa87fcaa724d3842`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家园受威胁时，倾向迎向危险并持续寻找应对办法（行为推断；S19、S30、S34）
 - **核心动机**：渴望成为像马丁一样的战士，并以寻剑回应家园危机（摘要直接叙述；S19、S50、S51）
@@ -24,6 +30,10 @@
 ### Cluny the Scourge
 
 角色职责：central-antagonist · 身份：`identity-683a7c820f4de580` · 独立版本：`profile-86999ef8cf46a205`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对接连失败时，倾向执拗地更换手段继续夺取目标（行为推断；S9、S77）
 - **核心动机**：以占领红墙修道院为明确目标，持续发动围攻（摘要直接叙述；S76、S77）

@@ -1,0 +1,308 @@
+{
+  "status": "passed",
+  "created_at": "2026-11-01T13:57:04.311306+00:00",
+  "scope": "repository integrity, targeted static regression and documentation schema; no model generation or runtime service tests",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/distill_characters.py",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: work identity, evidence, unknown dimensions, duplicates, rejection consistency\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_characters.py",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Readable-card negative tests passed: deleted body, modified trait, missing/extra card, forged/omitted receipt hash\nSelf-test passed: exact identity evidence, ambiguity, different-work separation, stable IDs\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_characters.py",
+        "validate",
+        "--complete"
+      ],
+      "returncode": 0,
+      "output": "Character library validation passed\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_worldviews.py",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Worldview self-test passed: duplicates, references, dimensions, paths and scope\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_worldviews.py",
+        "validate"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"passed\", \"worldviews\": {\"real\": 50, \"fictional\": 50}, \"claims\": {\"source_summary\": 293, \"synthesis\": 258, \"unknown\": 49}, \"source_records\": 116, \"unique_source_urls\": 114, \"checks\": [\"unique scoped IDs\", \"six dimensions\", \"resolved source IDs\", \"source metadata\", \"version scope\", \"use-specific readiness\", \"original application label\", \"character work references\", \"generated content equality\", \"local links\"], \"input_sha256\": {\"real.json\": \"d26ed43dc7ab5aafd2a0f8649a0fe4f30e4270cc881006dd032e72c0b34ddb83\", \"fictional.json\": \"21e8d0565650d1a21e679e01dcafd778c7dc40287969fc9387b1e992c4e5917f\"}}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_commentary_personas.py",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: evidence binding, unique dimensions/IDs, hidden slots excluded\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_commentary_personas.py",
+        "validate"
+      ],
+      "returncode": 0,
+      "output": "Commentary persona validation passed\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_library.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"frameworks\": 43,\n  \"collections\": {\n    \"personalities\": 19,\n    \"human-patterns\": 24\n  },\n  \"source_records\": 88,\n  \"reviewed_people\": 1,\n  \"profiles\": 1,\n  \"local_links\": 291,\n  \"status\": \"passed\"\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_library.py",
+        "--self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: all framework method-free bodies rejected, source integrity, metadata, path boundaries, cross-collection composition, missing references and duplicate IDs\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_experts.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"domains\": {\n    \"medicine\": {\n      \"existing\": 20,\n      \"new\": 4,\n      \"total\": 24\n    },\n    \"history\": {\n      \"existing\": 6,\n      \"new\": 6,\n      \"total\": 12\n    },\n    \"education\": {\n      \"existing\": 100,\n      \"new\": 0,\n      \"total\": 100\n    },\n    \"politics\": {\n      \"existing\": 20,\n      \"new\": 12,\n      \"total\": 32\n    },\n    \"economics\": {\n      \"existing\": 6,\n      \"new\": 6,\n      \"total\": 12\n    },\n    \"anthropology-folklore\": {\n      \"existing\": 4,\n      \"new\": 8,\n      \"total\": 12\n    },\n    \"linguistics\": {\n      \"existing\": 1,\n      \"new\": 11,\n      \"total\": 12\n    },\n    \"climatology\": {\n      \"existing\": 8,\n      \"new\": 4,\n      \"total\": 12\n    },\n    \"ecology\": {\n      \"existing\": 10,\n      \"new\": 2,\n      \"total\": 12\n    },\n    \"religious-studies\": {\n      \"existing\": 3,\n      \"new\": 9,\n      \"total\": 12\n    },\n    \"game-design\": {\n      \"existing\": 0,\n      \"new\": 12,\n      \"total\": 12\n    }\n  },\n  \"new_experts\": 74,\n  \"new_source_records\": 147,\n  \"local_links\": 1217,\n  \"status\": \"passed\"\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_experts.py",
+        "--self-test"
+      ],
+      "returncode": 0,
+      "output": "Expert body self-test passed: all source-only bodies and deleted process files rejected\nExpert self-test passed: duplicate sources, rights, unsafe URLs, access coverage and domain mismatch\nPolitical expert self-test passed: living status requires a boolean\nGame expert self-test passed: conditional activation required\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_expert_biographies.py",
+        "validate"
+      ],
+      "returncode": 0,
+      "output_summary": "Final actual run completed with structural_checks_passed for 3684 entries; 2961 matched, 703 unresolved, 20 not_applicable.",
+      "execution_evidence": "exec session 32890; final completion exit_code=0"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_expert_biographies.py",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "self-test passed: BCE, namesakes, chronology, uncertainty, null overrides, collectives and ethnicity filtering\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_manga_authors.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"status\": \"structural-checks-passed-render-not-run\",\n  \"research_date\": \"2026-11-01\",\n  \"authors\": 100,\n  \"creator_types\": {\n    \"illustrator\": 20,\n    \"manga-artist\": 80\n  },\n  \"legacy_author_links\": 5,\n  \"new_research_subjects\": 95,\n  \"generated_author_files\": 500,\n  \"prompt_templates\": 300,\n  \"language_variants\": 600,\n  \"source_records\": 309,\n  \"unique_source_urls\": 305,\n  \"access_methods\": {\n    \"interview_text\": 19,\n    \"page_text\": 68,\n    \"search_excerpt\": 101,\n    \"visual_preview\": 121\n  },\n  \"finding_basis\": {\n    \"source_summary\": 117,\n    \"visual_observation\": 92\n  },\n  \"recipes\": \"100 original syntheses and unvalidated task contracts; no image style acceptance\",\n  \"input_sha256\": \"10a8362b4c35198dc9a7491b434ac5ba1067669717bfb079e362baebb054490b\",\n  \"checks\": [\n    \"100 distinct individual author IDs and names\",\n    \"80 manga artists and 20 illustrators\",\n    \"traceable work stages and date bases\",\n    \"source scope and credit references\",\n    \"8 drawing dimensions\",\n    \"different creative briefs\",\n    \"legacy identity links\",\n    \"artist names allowed; no false authorship\",\n    \"typed method evidence and exact supported findings\",\n    \"sourced recognition features and explicit unknowns\",\n    \"loadable task contracts with output conflict rules\",\n    \"generated file equality\",\n    \"local links\"\n  ],\n  \"focus_years\": {\n    \"2012\": 1,\n    \"2014\": 2,\n    \"2015\": 1,\n    \"2016\": 5,\n    \"2018\": 4,\n    \"2019\": 6,\n    \"2020\": 9,\n    \"2021\": 5,\n    \"2022\": 6,\n    \"2023\": 7,\n    \"2024\": 13,\n    \"2025\": 35,\n    \"2026\": 5,\n    \"unknown\": 1\n  },\n  \"focus_years_note\": \"Reference years include original volumes, project releases and method interviews; not all are artwork creation dates.\",\n  \"authors_with_method_or_visual_evidence\": 100,\n  \"authors_with_visual_observations\": 90,\n  \"checked_local_links\": 1131\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_manga_authors.py",
+        "--self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: invalid evidence/features rejected; names allowed; key method changes reach task contracts and prompt starter versions; output conflicts explicit. Image validation not run.\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_audit_repairs.py"
+      ],
+      "returncode": 0,
+      "output": "PASS: 6 packages; process, branch, evidence and source gates present. Static checks only.\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_audit_repairs.py",
+        "--self-test"
+      ],
+      "returncode": 0,
+      "output": "PASS: 3 injected regressions rejected; source packages untouched. Static checks only.\n"
+    },
+    {
+      "command": [
+        "/Users/aaron/.local/share/uv/tools/serena-agent/bin/python",
+        "scripts/check_service_docs.py"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"passed\", \"scope\": \"JSON-Schema-and-synthetic-fixtures-only\", \"schemas\": 24, \"operations\": 6, \"valid_examples\": 16, \"rejected_examples\": 6, \"runtime_tested\": false, \"full_openapi_meta_schema_tested\": false}\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": ""
+    }
+  ],
+  "check_count": 19,
+  "runtime_service_tested": false,
+  "actual_style_generation_tested": false,
+  "downstream_modified": false,
+  "schema_checker": "existing jsonschema in local Serena tool environment; no dependency installed; OpenAPI wrapper checked for references/operations, not full OAS meta-schema",
+  "initial_failures": [
+    {
+      "command": [
+        "python3",
+        "scripts/build_expert_biographies.py",
+        "validate"
+      ],
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 365, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 362, in main\n    print(json.dumps(build(args.root,args.command=='build'),ensure_ascii=False,indent=2))\n                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 263, in build\n    assert '[基本资料](biography.md)' in skill_path.read_text(), f'Missing biography entrypoint: {relative}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Missing biography entrypoint: calligraphers/ni-yuanlu\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 2,
+      "output": "scripts/build_characters.py:238: trailing whitespace.\n+    stats['constraint_scope']='Todd supplement locally checked against retained synopsis; all other categories unknown/unreviewed' \n"
+    }
+  ],
+  "resolved_initial_failures": [
+    "Restored expected biography entrypoint label in Ni Yuanlu SKILL; actual biography data unchanged. Added six-package entrypoint regression.",
+    "Removed trailing whitespace in build_characters.py.",
+    "Li Qingzhao school branch changed; synchronized manifest.biography.legacy_context with source metadata. Life, location, identity and ethnicity facts unchanged; biography.md rendered identically."
+  ],
+  "file_sha256": {
+    "docs/expert-service/api.md": "10e56cfa27dba55b31c57e21e953443d07f1f6e3e542c949d86a8b7a0a269f03",
+    "docs/expert-service/examples.json": "312f48399a9caf3658bbb581e4e6ce393cbc7c3cda4be8c23abfa43f097fe9a5",
+    "docs/expert-service/downstream-handoff.md": "82c024b8e3e29044d88f3152f9fd49927d28e445300ba804700e25c5a5213f3e",
+    "docs/expert-service/README.md": "e4a4b3703dda260961d722d4973a827f4b630352483ecbf5dd244712e9a0a06f",
+    "docs/expert-service/knowledge-contract.md": "58f5d0b88be2e857fc29e50a56bcd948683f01b676d4253a7f4656c38b84eace",
+    "docs/expert-service/design.md": "b87f60847a4ae6d3e7eb3a27613e44902e9eb686f925f94f2c1bfcd8e454afde",
+    "docs/expert-service/openapi.json": "4d5943b855760062fbc338c4cec68fb33f45e6cdba377e3c635271973052e516",
+    "docs/expert-service/acceptance.md": "35e9239a87a3d3baa7858bfae0a6058746d97a80bd79c9832a95dbaa321825f2",
+    "README.md": "1128e4706b2d8fcca7bbbdfe7f50027d069cbb2f75b157a04e46e8c1caaf81d3",
+    "profiles/research-collaborator/manifest.json": "5cd0d19becf1e51578469728474ea4e0366cd56824728a3376f823af0f0eeec5",
+    "scripts/build_characters.py": "d18f6e8dd4574fb404abdcf1c4155780bc7312d5d54be2fd63090fcac3bcfbfb",
+    "scripts/build_commentary_personas.py": "59c49831a71d124b8a4ad13f7a3d6cf3de3a5c6dd0f2ec7cd92d482692332c4b",
+    "scripts/validate_experts.py": "3902ade02bccb4cea7de6c0e74bc131dfaaca3ef0e5a38f1d434c686a85f1380",
+    "scripts/check_audit_repairs.py": "4a7eada27276182c581784fd63e0428dd285d3e19ccaf83c7a1c4632487cf9b5",
+    "scripts/validate_library.py": "56a64e493f02734246a3cf84dfb998033e25475736c12fad5ec669c387c906c4",
+    "scripts/distill_characters.py": "a6796453ce80b0def6d1f5c8b635dfee2d3523563829342df0a52c0e909c47cb",
+    "scripts/build_worldviews.py": "a982e970ae89cb87747738d1807b0cb397e75061c025622a3b93e55be8a696b6",
+    "scripts/build_expert_biographies.py": "2b7cf0124feefb0d6f5cbb1e93bc8f291be48b20bc0928fb6c061556f4a2d793",
+    "scripts/check_service_docs.py": "081a8c468f0ce665a0db34db325da33d18e4dd81938313ddc94d854fe7e91b25",
+    "scripts/build_manga_authors.py": "903aa1721e56ac0eecfe685ee266115097663da98a102c41f2bd99515b25a904",
+    "scripts/fixtures/method-body-sha256.json": "61f98ec3a48db7b324763c2943e011b3b6485c721bc12f354f2f8bbc5d60ab4f",
+    "calligraphers/ni-yuanlu/language.md": "8f22e04998a6a47015c083624d9240ed49b1f74ad899654250ad44b26f64b6d5",
+    "calligraphers/ni-yuanlu/process.md": "5c86e79ab2015c1f075cac5bc55411f5cec839577b5aca2f1739c3b8fb9aff16",
+    "calligraphers/ni-yuanlu/conflicts.md": "516f1b193857aa1d56d5c9c47d9cca89cac4b86f5c464acbd2db3d0e1c7004b9",
+    "calligraphers/ni-yuanlu/technique.md": "a64929914c204272c618d48d14feb6d3fa38be0df406e21be284f4ef10ad25d0",
+    "calligraphers/ni-yuanlu/style.md": "46bc04836595a6f2ea49930111e11d2895c86976b890d4914e1ba70e8cf5c62a",
+    "calligraphers/ni-yuanlu/SKILL.md": "bcaff8f1ca368b73f04de43522b6f467fd1b3c4f5bbcdc13675b4b304a03e5e9",
+    "calligraphers/ni-yuanlu/manifest.json": "617f4d2a0d09342db50ea5a8c98c265aa3c56278cebad032b68000b9ed5d0fed",
+    "calligraphers/ni-yuanlu/motifs.md": "cfafe9ce828d6d9ee1e796968e6d56b0a2231c770795e1b7e3381a0db5107cab",
+    "calligraphers/ni-yuanlu/decisions.md": "a37685f18b9cb6996674fb7af534a2c78f6867b2d74da79e1e1d238a4903c872",
+    "calligraphers/ni-yuanlu/biography.md": "1762cdac08c50c7d5230248738b6f174eaa5b66e4ef9718b74a497d4b3f45e52",
+    "geologists/inge-lehmann/language.md": "471f50b29d0e6367694181ed489f1fa432afa5ab7b134dad8f1e6f8dfe352114",
+    "geologists/inge-lehmann/process.md": "baecc9de7eb4ec66b6cd5a3afdd728e816a52bd4aab56dfb8876b8edb5fabad5",
+    "geologists/inge-lehmann/conflicts.md": "c300b4cd1eee05d0b8ab701dfeb5eda3dc80ec895b3639c3ccbd8a4e4f38504c",
+    "geologists/inge-lehmann/technique.md": "44066ca64efd3e865088368f33edea01662d99d5cb053ad019d369e8d0aea1a1",
+    "geologists/inge-lehmann/style.md": "0de94e140f4f611902c54cd5d47bfb25edda340c9259ed6c586cf10c89c12461",
+    "geologists/inge-lehmann/SKILL.md": "0acd1f86b667f44c084a8a79153f01fcde521dea5e9beb54fd780ec35ff68f95",
+    "geologists/inge-lehmann/manifest.json": "09eceb95efa158518c2c02c2e9bf1db9d27441457d8560fb8e412558735d02e4",
+    "geologists/inge-lehmann/motifs.md": "5aa9cf4a969d2b1bc855a500f3822ec1abd607652d6ec6c609fb7e6a46ada70a",
+    "geologists/inge-lehmann/decisions.md": "f1f29475f708e320772d049ad90a5971c2bb332b233811081e6cc59bcbc7bd06",
+    "geologists/inge-lehmann/biography.md": "0de2c0f5878a6c3a17e9bfcf1654859ece576771235eb9258247941ed403e641",
+    "landscape-designers/kobori-enshu/language.md": "631c13c1ec0bd8e666d301267870edbd5d848459944df11bd94b73f79ae256e9",
+    "landscape-designers/kobori-enshu/process.md": "8a73bbc0bebbb25ce6f334af11603e335421500f1e6331bea6783e548dbdd195",
+    "landscape-designers/kobori-enshu/conflicts.md": "6a425ab38532a0cfddb1fb0cd743e63306f5527bf6cc8cd1b6a3bea8e5fe5a38",
+    "landscape-designers/kobori-enshu/technique.md": "e5c1aab1f6a3bcc9dafdada90c03647aaa574a317772fe343664d084dd329abf",
+    "landscape-designers/kobori-enshu/style.md": "5d8143301e787f233d2d1e58b0d48362a49fe6c90f2cba2c4819a85441e34163",
+    "landscape-designers/kobori-enshu/SKILL.md": "490f3f4dce99e4ff170405813b59c34fb2344b81db0ec9cec101d7567d65a15e",
+    "landscape-designers/kobori-enshu/manifest.json": "b62c7f167db0fd8c29b44cf25a9f3e3f5d601e89f4724cf2e4276e4576f3010c",
+    "landscape-designers/kobori-enshu/motifs.md": "cadcc36dd6a73e65f3ad6fb6c22cff744d63efbfbc1a9e923513e0556bb3ce71",
+    "landscape-designers/kobori-enshu/decisions.md": "5282cc549b04cd4b5d35e90e8264cf361edf4328dfc9c5e8dd43f35d747af97a",
+    "landscape-designers/kobori-enshu/biography.md": "3f4aed9d8df4fe5f136fbc7c75de5340eb33ff385a7f8ef807f0fc26bea3dd38",
+    "managers/karl-weick/language.md": "1fc24db97083e0c5f5383503dd8e909f6a7cf060e291867cad07ccf771cae7dd",
+    "managers/karl-weick/process.md": "1569a2f190dda6bb6a9db18e30bf7f4dcd8bea0a9a1081c93f75ee5676570928",
+    "managers/karl-weick/conflicts.md": "60c2338b242255561a16522d0bb4156fc7a19c029ba3087282ea3b3629db1e6e",
+    "managers/karl-weick/technique.md": "d26b0376e98a7aecdb05a6de15dcadc0b4f14c6c294d5ce54d562aaa32fb8683",
+    "managers/karl-weick/style.md": "f2d8cc959852d0a4a7179b65ac976f067ad5926d4cd6f53e3efd2c896ae0662d",
+    "managers/karl-weick/SKILL.md": "0cf9ec2cc2e385bf1d163d90c0686012b1eb7ecb323dfc37118097ca6102b7d0",
+    "managers/karl-weick/manifest.json": "3ec41810a3c60bdfd89cdafe5e9d43a3bf5262c85821c0405bf09dffdaf10efc",
+    "managers/karl-weick/motifs.md": "824f29332d698a25ea1d16a6145971ad2c44d37a1d5fa652df0d30d7fe9d802f",
+    "managers/karl-weick/decisions.md": "1690cd69bbf0098af57ce88783dc5f9a1b843d1913d33213e3937e934a02cb25",
+    "managers/karl-weick/biography.md": "eeba75d05c7c4d8c36179663b8690084f7cb0e68f663fdbe630b11086ac07ac1",
+    "materials-scientists/konstantin-novoselov/language.md": "240355c5b86dbd111111e74f0f06a24c14eda7567b293e8653432ba032018653",
+    "materials-scientists/konstantin-novoselov/process.md": "10565a20bbe19a7145c0738d7d0d1eab368f645f5eb6697480edd8f86c956c8c",
+    "materials-scientists/konstantin-novoselov/conflicts.md": "55e925d20fe13e582660b5832ba87be5f17c1c5ecdda4b1afeb91fc417d17997",
+    "materials-scientists/konstantin-novoselov/technique.md": "269ab1a63bfdf7781866bfccdf9a8b17b69025e089980953c1fe150007cf8d9d",
+    "materials-scientists/konstantin-novoselov/style.md": "652d10f6c904bab261d3dd23af470e2e07cb395c467ad89e449100e00478bb90",
+    "materials-scientists/konstantin-novoselov/SKILL.md": "fdaa9c1224cd505049a4b8f59d277df415157f78d6bfefd74d4d8d3a6a3564ab",
+    "materials-scientists/konstantin-novoselov/manifest.json": "4851898513f74e30476352a9ff4e7fb4a32b5b8b3413ce15e352cd012a84cadf",
+    "materials-scientists/konstantin-novoselov/motifs.md": "6eedbc0d64aa4d249db308e05093c27e9fc76d3e62f6b66132b4c520352472d9",
+    "materials-scientists/konstantin-novoselov/decisions.md": "116894186f4c6c24afd3620094d8ac5e5d5dd71e1de5d821b053dc4c8a38743e",
+    "materials-scientists/konstantin-novoselov/biography.md": "00fdc9c45855f11eba727e385f689de892a2edc40a5c898fd3b7bc82901d19ce",
+    "writers/li-qingzhao/language.md": "6e9531d0feb8cfffa626fcd5eadad0b8915154c3e2ab6a952cb555c5ae052676",
+    "writers/li-qingzhao/process.md": "196dad7c367b33d658df9df6785dddbb80ea7e86c9809e2171b7bd1f359b56c5",
+    "writers/li-qingzhao/conflicts.md": "e5d41c8ec0d1fca346e64739536cb5f93174afaf9b8a152c944070a7c5a786db",
+    "writers/li-qingzhao/technique.md": "bac1c2fc7d81251bcb282e9048a3976356a151b269e5d97f3bae4bc1eb0273e2",
+    "writers/li-qingzhao/style.md": "60c180620e46f6458da8291c2e942efaaa07fa77b72158e2d2f5fa4858b162a4",
+    "writers/li-qingzhao/SKILL.md": "d382148931b7370472596ed64c73c62fbf2ace3d850d730e9840b164ef7570a8",
+    "writers/li-qingzhao/manifest.json": "e40078f821765de10d252af1773c5f7a7bd057fd567a3f1c2dde7c1911b5f80e",
+    "writers/li-qingzhao/motifs.md": "84135fda2d4e0e951b7dbc7df895bf895f81c65a584d6cba357c998152cd0291",
+    "writers/li-qingzhao/decisions.md": "de68a7dd13edf51b1fa8b8604e75ae907fedab2af497a4175927fa3687bde3d9",
+    "writers/li-qingzhao/biography.md": "70b52a1111d48b3b82d82ffbe43c0a758bae80e1ecde8d5e44e8dce4f667e653"
+  },
+  "worldview_preservation": "Both HEAD input collections equal current collections after removing only the added use_readiness field.",
+  "remaining": [
+    "R01: same-stage multi-image research and real generation comparison not run; 99 recognition candidates pending review.",
+    "R08: only Todd supplemental action facts reviewed; other versions retain unknown constraint categories.",
+    "R10: integrity guards are not semantic or model-effect evaluation.",
+    "R11/R12: downstream application unchanged; concrete repair handoff only.",
+    "Service implementation, HTTP runtime tests, actual billing/model channel and performance not run."
+  ],
+  "intermediate_failures": [
+    {
+      "command": [
+        "python3",
+        "scripts/build_expert_biographies.py",
+        "validate"
+      ],
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 365, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 362, in main\n    print(json.dumps(build(args.root,args.command=='build'),ensure_ascii=False,indent=2))\n                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/aaron/codex_workspace/skills/references/human-distillation-lab/scripts/build_expert_biographies.py\", line 261, in build\n    assert data.get('biography') == bio, f'Stale biography: {relative}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Stale biography: writers/li-qingzhao\n"
+    }
+  ],
+  "six_package_biography_preservation": "All biography.md files byte-identical to HEAD; all biography fields other than Li Qingzhao legacy_context equal HEAD."
+}

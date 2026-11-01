@@ -1,6 +1,6 @@
 # Gone Tomorrow
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 7, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Reacher
 
 角色职责：protagonist · 身份：`identity-bb1bad18dcdb5c38` · 独立版本：`profile-6f35b179f8979cdb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接连受到威胁时仍倾向执拗追问，不轻易退让（行为推断；S5、S8、S19、S32）
 - **核心动机**：怀疑自己诱发自杀的内疚，推动他追查死亡真相（摘要直接叙述；S4、S5）
@@ -27,6 +33,10 @@
 ### Lila Hoth
 
 角色职责：central-antagonist · 身份：`identity-beb4604dff096aa4` · 独立版本：`profile-2bb68e088406b55b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在控制受害者时表现出冷酷倾向，以酷刑制造恐惧（行为推断；S22、S29、S36）
 - **核心动机**：她与同伙试图让涉及本拉登的敏感照片消失（行为推断；S25、S26）

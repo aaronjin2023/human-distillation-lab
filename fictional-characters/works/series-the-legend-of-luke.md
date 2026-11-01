@@ -1,6 +1,6 @@
 # The Legend of Luke
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Martin the Warrior
 
 角色职责：protagonist · 身份：`identity-6e5f28d4a19f5874` · 独立版本：`profile-8f4104e7e54feb6b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对父亲身世的线索时，倾向主动追问并付诸探寻（行为推断；S4、S5）
 - **核心动机**：踏上北行旅程，是为了进一步了解父亲的生命经历（摘要直接叙述；S5、S7、S8）
@@ -24,6 +30,10 @@
 ### Luke the Warrior
 
 角色职责：co-lead · 身份：`identity-0adb3c6fe5e2d684` · 独立版本：`profile-e62bb2e9b9d314d5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对奴役与压迫时，表现出激烈反抗和不肯屈服的倾向（行为推断；S32、S35、S36）
 - **核心动机**：妻子与族人遇害后，明确以向达斯卡复仇为目标（摘要直接叙述；S10、S11）

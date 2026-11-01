@@ -1,6 +1,6 @@
 # Patriot Games
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 2, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan
 
 角色职责：protagonist · 身份：`identity-31fe1794b3874df8` · 独立版本：`profile-0a098e3391fa752a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在突发暴力面前，倾向主动介入并承担保护他人的风险（行为推断；S5、S6、S28、S29）
 - **核心动机**：家人遇袭后更加投入反恐工作，以应对持续存在的威胁（行为推断；S16、S22、S23）
@@ -29,6 +35,10 @@
 ### Sean Miller
 
 角色职责：central-antagonist · 身份：`identity-c273dde3523cbcdc` · 独立版本：`profile-7d8182a62e6562e3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在行动受挫后，倾向执着报复并把暴力扩大到对手家人（行为推断；S5、S14、S15、S16）
 - **核心动机**：推动赴美袭击主要为了报复赖恩，并同时打击竞争组织支持度（摘要直接叙述；S14、S15）

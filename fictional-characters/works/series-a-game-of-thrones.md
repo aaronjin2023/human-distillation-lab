@@ -1,6 +1,6 @@
 # A Game of Thrones
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series A Song of Ice and Fire; reported series sales: 100 million[231]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eddard Stark
 
 角色职责：co-lead · 身份：`identity-15696950e634cca8` · 独立版本：`profile-f65c8f9a3b8e846f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对前任首相死亡与继承疑点，倾向持续追查而非置之不理（行为推断；S32）
 - **核心动机**：在查明王室子女身世后，试图阻止瑟曦与乔佛里掌控王权（行为推断；S32、S33、S34）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-21b33f056c4ee816` · 独立版本：`profile-a0ec5d3dd039f10c`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对严酷教官与弱势同伴，倾向组织伙伴并主动保护受压者（行为推断；S46）
 - **核心动机**：受到叔父班扬的榜样影响，希望加入守夜人承担边境职责（摘要直接叙述；S43、S44）
 - **情绪反应**：发现守夜人新兵多为罪犯后，对最初向往的组织感到幻灭（摘要直接叙述；S45）
@@ -43,6 +53,10 @@
 ### Daenerys Targaryen
 
 角色职责：co-lead · 身份：`identity-85041b2061d2549b` · 独立版本：`profile-c08cd2520ab155af`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丧失丈夫与孩子后的危机中，倾向采取极端而自主的行动（行为推断；S60、S62、S63）
 - **核心动机**：卓戈负伤后急于挽救其生命，因而要求俘虏医者施救（摘要直接叙述；S59）

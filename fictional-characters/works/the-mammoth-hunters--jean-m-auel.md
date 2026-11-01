@@ -1,6 +1,6 @@
 # The Mammoth Hunters
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 24, 1985. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ayla
 
 角色职责：protagonist · 身份：`identity-276987299f965d6e` · 独立版本：`profile-98b5258991db821f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对被排斥的孩子时呈现主动理解、愿意接纳的倾向（行为推断；S13、S14、S16）
 - **价值取舍**：在族群偏见面前坚持维护混血孩子作为人的尊严（行为推断；S16）
@@ -24,6 +30,10 @@
 ### Jondalar
 
 角色职责：co-lead · 身份：`identity-d06850366cb38b78` · 独立版本：`profile-8a77bed87b0ad46b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：身处异族群体时呈现对亲密关系距离较敏感的倾向（行为推断；S18）
 - **情绪反应**：艾拉越被当地社会接纳，他越感到与她有所疏离（摘要直接叙述；S18）

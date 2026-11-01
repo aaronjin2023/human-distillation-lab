@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hazel Grace Lancaster
 
 角色职责：protagonist · 身份：`identity-613b573d6000ba6a` · 独立版本：`profile-c0a7377314acd39f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对与自身病痛相映的故事，倾向认真追问未解的结局（行为推断；S5、S9）
 - **核心动机**：希望弄清珍爱小说的结尾，因此参与联系作者并赴约（行为推断；S9、S10、S11）
@@ -24,6 +30,10 @@
 ### Augustus Waters
 
 角色职责：co-lead · 身份：`identity-6e68d5d27252bada` · 独立版本：`profile-31945cf0c7c087ac`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在朋友与恋人有所需要时，倾向主动提供陪伴和实际帮助（行为推断；S3、S8、S10）
 - **核心动机**：对小说未完结感到不满，也希望与海瑟一起向作者求解（行为推断；S6、S8、S9）

@@ -1,6 +1,6 @@
 # 神雕侠侣
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：京东金庸单书购买排行，2018-10-30事件期报道
 [依据来源](https://ip.people.com.cn/n1/2019/0122/c179663-30583592.html) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 杨过
 
 角色职责：protagonist · 身份：`identity-22904822cd3b374d` · 独立版本：`profile-4fd161559e96c038`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在感情遭遇礼俗阻碍时，倾向执拗坚持自己的选择（行为推断；S25、S26）
 - **价值取舍**：面对婚配与师徒禁忌，优先维护和小龙女的爱情（行为推断；S14、S26）
@@ -28,6 +34,10 @@
 ### 小龙女
 
 角色职责：co-lead · 身份：`identity-b66c36c7b49f0e58` · 独立版本：`profile-ffbd7100b96482fd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对反复阻挠的亲密关系，仍表现出持续投入的倾向（行为推断；S21、S25、S34、S37）
 - **关系模式**：与杨过兼具师徒和恋人关系，亲密联结承受礼俗压力（摘要直接叙述；S3、S21、S22）

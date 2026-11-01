@@ -1,6 +1,6 @@
 # A Dance with Dragons
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series A Song of Ice and Fire; reported series sales: 100 million[231]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jon Snow
 
 角色职责：co-lead · 身份：`identity-21b33f056c4ee816` · 独立版本：`profile-691a4b235033939a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对传统敌我界线，倾向务实合作而非固守守夜人的旧有敌意（行为推断；S21、S22、S26）
 - **核心动机**：担任总司令后以应对异鬼威胁为要务，谋求扩大共同防御力量（摘要直接叙述；S20、S21）
@@ -27,6 +33,10 @@
 ### Daenerys Targaryen
 
 角色职责：co-lead · 身份：`identity-85041b2061d2549b` · 独立版本：`profile-92881ae489b470b5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在弥林统治危机中，倾向以限制龙和政治联姻作现实妥协（行为推断；S44、S46）
 - **核心动机**：统治弥林时希望维持各派和平，压制持续威胁城市的暴力抵抗（摘要直接叙述；S43、S46）

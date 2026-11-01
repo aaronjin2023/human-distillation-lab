@@ -1,6 +1,6 @@
 # Mossflower
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Martin the Warrior
 
 角色职责：protagonist · 身份：`identity-6e5f28d4a19f5874` · 独立版本：`profile-999c6736a869ccb6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接连遭遇囚禁与险境时，倾向继续抗争而非退却（行为推断；S11、S38、S40、S48）
 - **核心动机**：在此行动中以结束察尔米娜的残酷统治为目标（行为推断；S11、S12、S48）
@@ -24,6 +30,10 @@
 ### Tsarmina
 
 角色职责：central-antagonist · 身份：`identity-75a3d30fe2ccb007` · 独立版本：`profile-c3f6d4868907d8d5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争夺王位时，表现出阴狠且主动排除亲人的倾向（行为推断；S7、S8）
 - **核心动机**：通过除掉父亲并囚禁兄弟，谋求由自己独占王位（行为推断；S7、S8）

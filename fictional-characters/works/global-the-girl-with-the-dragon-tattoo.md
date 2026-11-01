@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mikael Blomkvist
 
 角色职责：protagonist · 身份：`identity-1f4910ee36011dcd` · 独立版本：`profile-693985f41f5b5ab7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查受阻与自身蒙羞的情境中，仍倾向持续追索事实（行为推断；S2、S15、S23、S28、S29）
 - **核心动机**：接受旧案委托兼有查明失踪真相与洗刷职业污名的动机（行为推断；S7、S8、S29）
@@ -28,6 +34,10 @@
 ### Lisbeth Salander
 
 角色职责：co-lead · 身份：`identity-ba6e273f97ea4ce6` · 独立版本：`profile-6c1cc043351af4ff`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在同伴遇险与证据不足时，倾向主动介入并采取实际行动（行为推断；S21、S28）
 - **核心动机**：后续调查行动指向揭开温纳斯特伦超出原报道的犯罪事实（行为推断；S28、S29）

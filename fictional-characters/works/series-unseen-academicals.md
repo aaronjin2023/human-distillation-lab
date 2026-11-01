@@ -1,6 +1,6 @@
 # Unseen Academicals
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mr Nutt
 
 角色职责：co-lead · 身份：`identity-60f5ef066623c45f` · 独立版本：`profile-d35a16e06abccd3a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：资料明确将他描写为有教养、富于理想且令人难以看透的人（摘要直接叙述；S2）
 - **核心动机**：身份真相浮现后，需要克服自己及人类对其种族的恐惧（摘要直接叙述；S16）
@@ -27,6 +33,10 @@
 ### Trevor Likely
 
 角色职责：co-lead · 身份：`identity-a9cd26b7698d8e43` · 独立版本：`profile-876b39ece48dbf5b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在足球承诺的考验中倾向克制个人才能，并非有才便上场（行为推断；S2、S18）
 - **价值取舍**：对亡母所作的不踢球承诺，构成约束自身行动的重要准则（摘要直接叙述；S18）

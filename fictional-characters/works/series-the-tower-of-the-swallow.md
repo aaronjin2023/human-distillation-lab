@@ -1,6 +1,6 @@
 # The Tower of the Swallow
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Wiedźmin (The Witcher); reported series sales: 15 million[335]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Witcher
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ciri
 
 角色职责：protagonist · 身份：`identity-64a6a72813abc799` · 独立版本：`profile-cfdeb9dfef893307`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在持续追捕中，表现出利用环境扭转被动局面的应变倾向（行为推断；S57、S58）
 - **核心动机**：得知有人冒用身份后，希望夺回继承权并揭穿皇帝谎言（摘要直接叙述；S18、S19）
@@ -28,6 +34,10 @@
 ### Geralt
 
 角色职责：co-lead · 身份：`identity-aba090dda4581d03` · 独立版本：`profile-d33ff4fc8c853807`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在预言劝阻与追捕压力下，仍表现出持续寻人的执着（行为推断；S26、S34、S35）
 - **核心动机**：希望借德鲁伊的能力定位希里，继续推进寻找行动（摘要直接叙述；S25）

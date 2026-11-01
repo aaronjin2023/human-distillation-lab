@@ -1,6 +1,6 @@
 # 兄弟
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2006年度全国图书零售市场报告称《兄弟》（上下册）摘得虚构类图书销售桂冠；套册榜次不拆为单册销量。
 [依据来源](https://ent.sina.cn/qt/2007-01-12/detail-iavxeafr8891832.d.html) · 新浪转述全国零售市场年度报告。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 李光头
 
 角色职责：co-lead · 身份：`identity-f3e57bbc787e543d` · 独立版本：`profile-4778d4f3aca2a007`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在经商受挫时倾向迅速另找机会，行动大胆且善于借势（行为推断；S33、S34、S37、S46）
 - **核心动机**：对林红的追求持续而强烈，甚至以结扎表达自己的爱情决心（摘要直接叙述；S29、S32、S64）
@@ -28,6 +34,10 @@
 ### 宋钢
 
 角色职责：co-lead · 身份：`identity-b884c197501dec7d` · 独立版本：`profile-1fe65fb1ddacb449`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在兄弟困顿与关系破裂的处境中，倾向体谅退让并持续照顾他人（行为推断；S35、S51、S70、S76）
 - **价值取舍**：重视对继母许下的照护承诺，即使自身生活受限仍接济弟弟（行为推断；S22、S24、S35）

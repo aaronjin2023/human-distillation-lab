@@ -1,6 +1,6 @@
 # It
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 14, 1986. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### William Denbrough
 
 角色职责：protagonist · 身份：`identity-6f920d12761b7a20` · 独立版本：`profile-e8b42adf57891db0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在恐怖威胁面前呈现敢于承担正面对抗的倾向（行为推断；S22、S24、S46、S51）
 - **核心动机**：成年重返德里后，与伙伴共同追求彻底终结怪物威胁（摘要直接叙述；S33、S35）
@@ -24,6 +30,10 @@
 ### Mike Hanlon
 
 角色职责：co-lead · 身份：`identity-7c0dc53b17a92949` · 独立版本：`profile-2784b75517f3c05b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在长期威胁下呈现重视记录、主动承担联络的倾向（行为推断；S14、S30、S34、S58）
 - **核心动机**：发现杀戮重现后，致力于召回伙伴履行共同誓约（摘要直接叙述；S30）
@@ -40,6 +50,10 @@
 ### It
 
 角色职责：central-antagonist · 身份：`identity-9e075deb65d69a17` · 独立版本：`profile-b593ce274ab93c5f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在捕食与自保时呈现善用恐惧、操控他人的倾向（行为推断；S5、S10、S20、S42）
 - **核心动机**：周期性苏醒捕食儿童，并试图消灭威胁自己的伙伴群体（摘要直接叙述；S17、S20、S34、S41）

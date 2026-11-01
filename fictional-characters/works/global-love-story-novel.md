@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Oliver Barrett IV
 
 角色职责：protagonist · 身份：`identity-d74d646e32ec667a` · 独立版本：`profile-4e68dcb52e39066b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对亲密关系危机时，他倾向独自承压并隐瞒困难信息（行为推断；S10、S12）
 - **价值取舍**：在婚姻选择上，他将与珍妮结合置于父亲认可和资助之前（行为推断；S4、S5）
@@ -28,6 +34,10 @@
 ### Jennifer
 
 角色职责：co-lead · 身份：`identity-e5dc6017731585b5` · 独立版本：`profile-0fc91208a0604594`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在察觉病情被隐瞒时，她倾向主动追问并直面事实（行为推断；S11）
 - **价值取舍**：在经济困难的婚姻中，她倾向以实际劳动分担共同生活（行为推断；S5、S6）

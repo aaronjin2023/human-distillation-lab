@@ -1,6 +1,6 @@
 # The Voyage of the Dawn Treader
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Chronicles of Narnia; reported series sales: 120 million[228]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eustace Scrubb
 
 角色职责：co-lead · 身份：`identity-906e27e6d596c1c8` · 独立版本：`profile-42e13cad30051550`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在航船修缮与发现财宝时，倾向逃避劳作并先顾自身利益（行为推断；S29、S30）
 - **情绪反应**：变龙后反省旧日行为，并显出摆脱当前形态的愿望（行为推断；S31）
@@ -27,6 +33,10 @@
 ### Caspian X
 
 角色职责：co-lead · 身份：`identity-56eca1c49ff12d9c` · 独立版本：`profile-a356c2fb5346df1b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在探索世界尽头时显出强烈自主倾向，受阻后容易动怒（行为推断；S45、S46、S47）
 - **核心动机**：远航主要为兑现加冕誓言，寻找失踪的七位纳尼亚领主（摘要直接叙述；S18）

@@ -1,6 +1,6 @@
 # Live and Let Die (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series James Bond; reported series sales: 100 million[233]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/James_Bond
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### James Bond
 
 角色职责：protagonist · 身份：`identity-360901462b1a4d14` · 独立版本：`profile-0efc3c5241ad134f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受伤与同伴遇害风险面前，他仍倾向主动深入危险调查（行为推断；S22、S27、S28、S32）
 - **核心动机**：他追查大先生的金币走私，旨在查清其支持间谍活动的网络（摘要直接叙述；S15、S16、S28）
@@ -23,6 +29,10 @@
 ### Buonaparte Ignace Gallia
 
 角色职责：central-antagonist · 身份：`identity-6c3ae3ae780f7dcc` · 独立版本：`profile-091155272956dd56`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在应对调查者时，他倾向以残酷惩罚展示支配能力（行为推断；S22、S33）
 - **核心动机**：其金币走私被怀疑旨在为苏联在美国的间谍行动筹集资金（摘要直接叙述；S16）

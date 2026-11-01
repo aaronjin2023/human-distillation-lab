@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "shirahama-kamome",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "尖帽子的魔法工房（Witch Hat Atelier）第1卷英译版。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 本轮阶段说明：关注2026年公开的本人媒材与幻想世界匹配说明；不把文章回顾的首卷或插图全部重标为2026年新绘。",
+  "recent_focus": {
+    "work": "UNESCO Courier《Witch Hat Atelier》本人访谈",
+    "year": 2026,
+    "source_ids": [
+      "S2"
+    ],
+    "date_basis": "正文明确2026年4月2日发表、4月9日更新；不采用URL pubDate=20260426；不是旧漫画图绘制年。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Witch Hat Atelier by Kamome Shirahama – Manga Series | Kodansha",
+      "url": "https://kodansha.us/series/witch-hat-atelier/",
+      "publisher": "Kodansha",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社列Kamome Shirahama为作者，介绍学习魔法的故事并提供预览入口；本轮未加载预览图像。"
+      ],
+      "access_note": "实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Kamome Shirahama: My stories can speak to readers who feel uncertain about themselves",
+      "url": "https://courier.unesco.org/en/articles/kamome-shirahama-my-stories-can-speak-readers-who-feel-uncertain-about-themselves?pubDate=20260426",
+      "publisher": "The UNESCO Courier",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "白滨在联合国教科文组织访谈说明，为呈现西式幻想世界考虑版画与古典视觉语言，技法应服务世界的时代气氛；这是通用的媒材与世界匹配原则，不是某个构图模板。"
+      ],
+      "access_note": "实际打开并阅读绘画风格问答；正文标2026年4月2日发布、4月9日更新，URL查询日期不作为发表日；未把网页图像标签当视觉观察。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "白滨在联合国教科文组织访谈说明，为呈现西式幻想世界考虑版画与古典视觉语言，技法应服务世界的时代气氛；这是通用的媒材与世界匹配原则，不是某个构图模板。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社列Kamome Shirahama为作者，介绍学习魔法的故事并提供预览入口；本轮未加载预览图像。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "白滨在联合国教科文组织访谈说明，为呈现西式幻想世界考虑版画与古典视觉语言，技法应服务世界的时代气氛；这是通用的媒材与世界匹配原则，不是某个构图模板。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": "No inspected visual finding; work-stage visual target requires references and review.",
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "用细钢笔感轮廓与短交叉排线，线组随曲面转向。",
+    "shapes": "成年工匠用修长身形，宽袖与工具袋扩大轮廓。",
+    "composition": "拱形门框包围制作台，光从台面向脸引导。",
+    "panel_rhythm": "原创建议：总览工具、分两格操作、宽格展示结果。",
+    "tonal_design": "背景密排线，操作手和纸面留纯白。",
+    "environment": "卷轴、标尺与架子组成可工作的房间。",
+    "acting": "手掌按压与专注前倾构成施作动作。",
+    "color": "本库原创彩色建议：象牙白、墨绿与黄铜；本轮未核作者色稿，不归为作者固定色板。"
+  },
+  "steps": [
+    "先做三厘米缩略图：拱形门框包围制作台，光从台面向脸引导。",
+    "搭人物体块并落实动作：成年工匠用修长身形，宽袖与工具袋扩大轮廓。手掌按压与专注前倾构成施作动作。",
+    "描线时明确材质与环境：用细钢笔感轮廓与短交叉排线，线组随曲面转向。卷轴、标尺与架子组成可工作的房间。",
+    "压成三阶黑白再复查：背景密排线，操作手和纸面留纯白。扩展连续页时，原创建议：总览工具、分两格操作、宽格展示结果。"
+  ],
+  "checks": [
+    "工具之间有可操作距离",
+    "拱框不与头部相切",
+    "排线方向解释体积"
+  ],
+  "sheet_traits_zh": "细钢笔感外线与随曲面转向的短交叉排线塑造修长成人；宽衣保留胸腰结构，布褶灰层细密，脸手纯白，折口深黑。",
+  "avoid": [
+    "套用现成魔法徽记",
+    "细线密度覆盖手部操作"
+  ],
+  "unknowns": [
+    "已核补充采访或机构评述，但仍未直接观察漫画内页。配方中的线、造型、构图和节奏是本库原创转译，未逐项确认为作者本人规则。",
+    "未比对原版、译本、早晚期画风与彩色原稿；本配方不承诺风格复刻。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

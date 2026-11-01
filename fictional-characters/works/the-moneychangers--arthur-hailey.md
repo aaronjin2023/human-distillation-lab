@@ -1,6 +1,6 @@
 # The Moneychangers
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 4, 1975. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Vandervoort
 
 角色职责：protagonist · 身份：`identity-6b8947c2a63ff965` · 独立版本：`profile-79996f1a4df10551`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在银行经营与接班竞争中，他表现诚实且积极进取的行事倾向（摘要直接叙述；S3、S4）
 - **核心动机**：他争取银行最高职位，同时希望通过零售业务与新技术推动增长（摘要直接叙述；S3、S4、S22）
@@ -28,6 +34,10 @@
 ### Roscoe Heyward
 
 角色职责：central-antagonist · 身份：`identity-e52b23fb69c64c60` · 独立版本：`profile-e2f772cf71e52afd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在高层竞争中，他外表圆滑却虚伪，并擅长运用董事会政治（摘要直接叙述；S4）
 - **核心动机**：他追逐银行最高职位，并在竞争过程中逐渐牺牲原有道德要求（摘要直接叙述；S21、S22）

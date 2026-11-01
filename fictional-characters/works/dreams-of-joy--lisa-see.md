@@ -1,6 +1,6 @@
 # Dreams of Joy
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 19, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Joy
 
 角色职责：protagonist · 身份：`identity-dee646f205e6e2aa` · 独立版本：`profile-17f340398ce204c3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在身份受挫时倾向冲动行动，对新生活抱有天真热情（行为推断；S3、S5、S7、S9）
 - **核心动机**：在身世欺瞒引发的愤怒中，她以寻父和投身新社会回应身份困境（行为推断；S5）
@@ -28,6 +34,10 @@
 ### Pearl
 
 角色职责：co-lead · 身份：`identity-e36c592c787962b4` · 独立版本：`profile-d222a4d0432bb74b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争取与女儿重建联系时，她表现出耐心且能承受艰苦的倾向（行为推断；S30、S31、S32）
 - **核心动机**：追随女儿赴华的核心愿望是修复关系并保全家人（摘要直接叙述；S30、S32）

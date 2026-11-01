@@ -1,6 +1,6 @@
 # Mariel of Redwall
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mariel
 
 角色职责：protagonist · 身份：`identity-528590cf43cf6b53` · 独立版本：`profile-5cb47d4a48928014`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困或遭威胁时，倾向迅速反击并强烈坚持自主（行为推断；S28、S52、S68）
 - **核心动机**：恢复记忆后，立即将杀死加布尔作为行动目标（摘要直接叙述；S44、S46、S60）
@@ -28,6 +34,10 @@
 ### Gabool the Wild
 
 角色职责：central-antagonist · 身份：`identity-95a3daea36aa7b70` · 独立版本：`profile-a08e8ecd2928ff78`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对挑战与失面子时，倾向以欺诈和致命暴力回应（行为推断；S19、S32、S53）
 - **核心动机**：旗舰遭窃后，以高位悬赏驱使部下追杀窃船者（摘要直接叙述；S33、S34）

@@ -1,6 +1,6 @@
 # Couples
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 30, 1968. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Piet Hanema
 
 角色职责：protagonist · 身份：`identity-ddcfb5c35b4ceaca` · 独立版本：`profile-51400b58e0eba2e4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在多段婚外关系中频繁转移投入，呈现追逐新鲜感的倾向（行为推断；S3、S6、S13）
 - **核心动机**：在婚姻与情感困境中寻求安慰，却难从新的亲密接触获得满足（摘要直接叙述；S13）
@@ -28,6 +34,10 @@
 ### Foxy
 
 角色职责：co-lead · 身份：`identity-638d8662a872df3c` · 独立版本：`profile-c15c3a9747a2fd7e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在流产临近时重新迟疑，呈现会因切身情感而动摇原计划的倾向（行为推断；S8、S11）
 - **核心动机**：起初希望与皮特低调处理再次怀孕，避免将后果公开扩大（行为推断；S7、S8）

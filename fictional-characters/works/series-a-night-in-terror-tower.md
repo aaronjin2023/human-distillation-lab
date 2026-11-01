@@ -1,6 +1,6 @@
 # A Night in Terror Tower
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Goosebumps; reported series sales: 400 million[199]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Goosebumps
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sue
 
 角色职责：co-lead · 身份：`identity-20b446d22a5e9458` · 独立版本：`profile-aacb32efd2433590`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生游览环境中，表现出留意异常跟踪的警觉倾向（行为推断；S21）
 - **核心动机**：在被追捕和面临处决时，希望脱离危险并返回未来（摘要直接叙述；S26、S33、S34）
@@ -23,6 +29,10 @@
 ### Eddie
 
 角色职责：co-lead · 身份：`identity-b62f98a4da10fb84` · 独立版本：`profile-be5cceb236812b37`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在成人拒绝援助后，呈现机敏且敢于自行破局的倾向（行为推断；S34、S35）
 - **核心动机**：在面临处决时，试图让自己与姐姐一起回到安全的未来（摘要直接叙述；S33、S34、S35）

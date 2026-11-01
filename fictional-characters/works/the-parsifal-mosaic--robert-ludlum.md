@@ -1,6 +1,6 @@
 # The Parsifal Mosaic
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 21, 1982. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Michael Havelock
 
 角色职责：protagonist · 身份：`identity-3ec9d8163e054bc4` · 独立版本：`profile-85028f160b30e25d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在官方结论与亲眼所见冲突时倾向坚持追查，不轻易接受定论（行为推断；S8、S9、S10、S11、S12）
 - **核心动机**：对珍娜的深厚感情推动他跨国寻找她，并查明双方受骗的真相（行为推断；S3、S10、S23）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-692ccd25b4b09a11` · 独立版本：`profile-ecb3b602d66cf148`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在被告知恋人要杀害自己时倾向警惕回避，而非贸然接近（行为推断；S9、S21、S22）
 - **情绪反应**：对迈克尔的恐惧建立在被灌输的敌人身份与追杀信息之上（摘要直接叙述；S9、S21、S22）
 - **关系模式**：核实双方都受欺骗后，能够恢复与迈克尔的信任及合作（行为推断；S23、S24、S35）
@@ -43,6 +53,10 @@
 ### Parsifal
 
 角色职责：major-support · 身份：`identity-4f9d68bd93bbb042` · 独立版本：`profile-7f9412c88cf7a7f6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在揭露权力风险时倾向采取极端试探，但仍保有退让与牺牲能力（行为推断；S17、S18、S32、S33、S34）
 - **核心动机**：制造文件危机旨在证明任何个人都不应被托付过大的权力（摘要直接叙述；S32）

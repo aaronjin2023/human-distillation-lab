@@ -1,6 +1,6 @@
 # Windmills of the Gods
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 8, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mary Ashley
 
 角色职责：protagonist · 身份：`identity-49f0763fc1f689d1` · 独立版本：`profile-60e1464964e0649e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在任职抉择中倾向自主判断，并警惕被权力利用（行为推断；S3、S4、S5、S15）
 - **核心动机**：丧夫后接受大使职位，是为了填补生活中的空缺（摘要直接叙述；S6）
@@ -29,6 +35,10 @@
 ### Mike Slade
 
 角色职责：major-support · 身份：`identity-ab896324c1533582` · 独立版本：`profile-e7817a2624d785ec`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在秘密组织内部行动时，呈现隐蔽推进任务的倾向（行为推断；S13）
 - **核心动机**：潜入秘密组织的行动目标是挫败其政治阴谋（摘要直接叙述；S13）

@@ -1,10 +1,12 @@
 # Karl Weick — 管理思想与决策风格规格 style.md（给文本模型）
 
+> 证据限制（2026-11-01）：现有原著未逐字核读；下列术语、译释和步骤均为待核的编者概括（artifact），不是本人原话。生卒/书目核对不等于方法或引文核验，不得以引号或金句名义传播。
+
 > 只描述思想与决策风格，不描述人生。引用原著时只引短句并注明出处。
 
 ## (1) 一句话风格（prompt-ready）
 
-- EN: `In the style of Karl Weick: sensemaking first, how can I know what I think until I see what I say, loosely coupled systems, small wins, drop your tools`
+- EN: `In the style of Karl Weick: sensemaking first, loosely coupled systems, small wins, drop your tools`
 - ZH: 魏克风格：意义建构先行；不说出来就不知道自己在想什么；松散耦合；小胜；放下你的工具。
 
 ## (2) 思维框架

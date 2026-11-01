@@ -1,6 +1,6 @@
 # Fourth Wing
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 23, 2023. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Violet Sorrengail
 
 角色职责：protagonist · 身份：`identity-e19788307c0befb1` · 独立版本：`profile-7d52bf3e7fbc7a4a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在身体处于劣势时，倾向灵活寻找突破而不轻易退让（行为推断；S11、S12、S27）
 - **核心动机**：被迫进入骑手学院后，努力寻找让自己生存下来的办法（行为推断；S3、S11、S12）
@@ -29,6 +35,10 @@
 ### Xaden Riorson
 
 角色职责：co-lead · 身份：`identity-68346ea7dc59d2e0` · 独立版本：`profile-933290077a7bd46a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在敌对家族关系中，仍倾向以实际行动保护维奥莱特（行为推断；S8、S22、S24）
 - **核心动机**：秘密向邻国飞行者提供武器，帮助他们抵御维宁袭击（摘要直接叙述；S34、S35）

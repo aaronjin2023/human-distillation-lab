@@ -1,6 +1,6 @@
 # The Hitchhiker's Guide to the Galaxy (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Hitchhiker's Guide to the Galaxy; reported series sales: 16 million[326][327]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arthur Dent
 
 角色职责：protagonist · 身份：`identity-71a92373f506ea36` · 独立版本：`profile-cef7f1943318bd7c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对强势者要夺走切身事物时，他倾向直接抵抗而不立即服从（行为推断；S14、S41）
 - **核心动机**：他起初努力保住房屋，随后在地球毁灭后的险境中争取生存（行为推断；S14、S18、S41、S42）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-a70fd0a5b635ae2f` · 独立版本：`profile-fef940eeec7e343c`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在日常冲突与太空险境中，他倾向机敏变通并主动寻找解释（行为推断；S15、S19、S45）
 - **核心动机**：他作为旅行指南研究员驻留地球，以伪装身份开展长期活动（摘要直接叙述；S19）
 - **决策方式**：面对拆屋僵局，他倾向通过说服他人替位来带朋友脱身（行为推断；S15）
@@ -34,6 +44,10 @@
 ### Zaphod Beeblebrox
 
 角色职责：co-lead · 身份：`identity-35cfa64f1bfb1b62` · 独立版本：`profile-919f6b4b25c19730`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追逐新目标时，他倾向越过身份规范并采取冒险行动（行为推断；S21、S25、S30）
 - **核心动机**：他带众人前往传说中的行星，但自称行动受到失忆的神经程序驱动（摘要直接叙述；S25、S31）

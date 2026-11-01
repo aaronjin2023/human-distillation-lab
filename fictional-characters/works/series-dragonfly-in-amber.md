@@ -1,6 +1,6 @@
 # Dragonfly in Amber
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Outlander; reported series sales: 25 million[292]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Outlander_(book_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Claire Randall
 
 角色职责：protagonist · 身份：`identity-7c328d3ea0a33c6f` · 独立版本：`profile-ad1ae4a9c7d5d99d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对已知历史灾难，表现出主动干预而非消极接受的倾向（行为推断；S20、S21、S50）
 - **核心动机**：试图阻止詹姆斯党起义，以避免预知中的苏格兰惨剧（摘要直接叙述；S2、S20）
@@ -28,6 +34,10 @@
 ### Jamie Fraser
 
 角色职责：co-lead · 身份：`identity-13686b184e629aa1` · 独立版本：`profile-cb84638c0d86113e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在与兰德尔的冲突中，表现出采取激烈正面对抗的倾向（行为推断；S27）
 - **核心动机**：与克莱尔共同设法破坏起义筹资，避免随后发生的屠杀（摘要直接叙述；S20、S21）

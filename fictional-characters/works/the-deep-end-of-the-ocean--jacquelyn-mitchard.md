@@ -1,6 +1,6 @@
 # The Deep End of the Ocean
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 6, 1996. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Beth Cappadora
 
 角色职责：co-lead · 身份：`identity-b5f182c5a08fbeca` · 独立版本：`profile-61c242d22230372d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在疑似重逢的情境中，她倾向主动核实直觉并寻求家人协助（行为推断；S6、S7）
 - **核心动机**：发现相似男孩后，她希望确认其身份并找回失踪的儿子（行为推断；S5、S6、S7）
@@ -28,6 +34,10 @@
 ### Ben
 
 角色职责：co-lead · 身份：`identity-3ed5fc841529c709` · 独立版本：`profile-318cb4d008fd5c83`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在兄弟重建联系时，他呈现愿意理解并解除对方自责的倾向（行为推断；S14）
 - **价值取舍**：他珍视成长中形成的希腊文化身份，不因血缘重认而自然舍弃（行为推断；S9、S10、S11）

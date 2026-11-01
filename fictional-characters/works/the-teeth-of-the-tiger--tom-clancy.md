@@ -1,6 +1,6 @@
 # The Teeth of the Tiger
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 31, 2003. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan Jr.
 
 角色职责：protagonist · 身份：`identity-d45152c2b412eab4` · 独立版本：`profile-bf4bcda4271ca864`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：临时被迫接手刺杀后，仍倾向把握机会收集情报（行为推断；S27、S28）
 - **核心动机**：希望在九一一之后报效国家，因此加入机构担任分析员（摘要直接叙述；S6、S7）
@@ -23,6 +29,10 @@
 ### Brian Caruso
 
 角色职责：co-lead · 身份：`identity-627e70a80021cbb4` · 独立版本：`profile-2d66e892833554d9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对预防性暗杀时起初倾向自省，并非毫无道德迟疑（行为推断；S12、S13）
 - **价值取舍**：最初即使对象是恐怖分子，也质疑先发暗杀的正当性（摘要直接叙述；S13）

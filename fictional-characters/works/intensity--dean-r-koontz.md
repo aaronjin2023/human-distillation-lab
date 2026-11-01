@@ -1,6 +1,6 @@
 # Intensity
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: January 28, 1996. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Chyna Shepherd
 
 角色职责：protagonist · 身份：`identity-3f1eb977c9505d05` · 独立版本：`profile-04c5a9bbe2bb0016`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在极端威胁下，她倾向机敏应变，并主动承担救人的危险（行为推断；S13、S14、S15、S28、S32）
 - **核心动机**：得知Ariel被囚后，她想跟踪凶手救出女孩而非独自逃离（行为推断；S11、S12、S13）
@@ -28,6 +34,10 @@
 ### Edgler Foreman Vess
 
 角色职责：central-antagonist · 身份：`identity-075c10a88a430e3d` · 独立版本：`profile-e87e987f46e14352`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追捕与囚禁中，他倾向把他人反抗当作延长刺激的游戏（行为推断；S17、S22、S24、S51、S52）
 - **核心动机**：他为不断获得强烈感官与存在体验而杀人，并追求新的刺激（摘要直接叙述；S23、S41）

@@ -1,6 +1,6 @@
 # The Fires of Heaven
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al’Thor
 
 角色职责：co-lead · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-78be759b813dda30`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对摩格丝死讯与同伴遇害的打击，倾向以冒险强攻回应（行为推断；S23、S24、S44）
 - **核心动机**：追赶库拉丁并集结部族，是为阻止征服行动并稳固领袖地位（行为推断；S14、S19、S20、S21）
@@ -28,6 +34,10 @@
 ### Nynaeve
 
 角色职责：co-lead · 身份：`identity-b7314bea61846c15` · 独立版本：`profile-eaa81d1ca80c8a09`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：追踪魔格丁时显出执拗冒险倾向，即使受警告仍独自涉险（行为推断；S33、S34）
 - **核心动机**：持续追捕魔格丁，并在得知兰德遇险后将行动转向救援（摘要直接叙述；S33、S41、S42）

@@ -1,6 +1,6 @@
 # The Judge's List
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 7, 2021. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lacy Stolz
 
 角色职责：protagonist · 身份：`identity-5b7e44fce8ee94c4` · 独立版本：`profile-884cdfae77420099`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在疲惫且不愿介入的处境中，仍表现出承担调查责任的倾向（行为推断；S2、S4、S8、S10）
 - **情绪反应**：对司法调查工作感到倦怠，最初对新案件持犹疑态度（摘要直接叙述；S2、S4）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-d6ad429674b6d625` · 独立版本：`profile-e75363919d7f8ca9`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在父亲案件长期未破的情境中，呈现执着追查而不轻易放弃的倾向（行为推断；S4、S5、S6、S12）
 - **核心动机**：因父亲遇害悬案持续追查，强烈希望让班尼克受到司法追究（摘要直接叙述；S4、S5、S6）
 - **情绪反应**：向莱西求助时显得紧张，追责愿望却仍十分强烈（摘要直接叙述；S3、S4）
@@ -42,6 +52,10 @@
 ### Ross Bannick
 
 角色职责：central-antagonist · 身份：`identity-7cdfe12f6b0a7f41` · 独立版本：`profile-229db014be90e70b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在处理自认受到的冒犯时，呈现记恨并实施报复的倾向（行为推断；S8）
 - **核心动机**：将曾以某种方式得罪自己的人列为目标，推动针对性报复（行为推断；S3、S8）

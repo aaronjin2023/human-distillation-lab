@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Amy Elliott Dunne
 
 角色职责：co-lead · 身份：`identity-c8aec4c0ecd7ae66` · 独立版本：`profile-cfa2cbfdf0a83609`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻受挫时，她倾向长期筹划并操纵证据与他人认知（行为推断；S28、S29、S49、S54）
 - **核心动机**：她将丈夫的不忠视为对自身付出的辜负，意图让他付出代价（摘要直接叙述；S52、S53、S54）
@@ -28,6 +34,10 @@
 ### Lance Nicholas Dunne
 
 角色职责：co-lead · 身份：`identity-cca9bde81815851a` · 独立版本：`profile-35fcffb35d52502e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻与调查压力下，他倾向回避责任并管理别人对自己的观感（行为推断；S20、S26、S59、S63）
 - **核心动机**：识破妻子的布局后，他试图通过召回妻子摆脱谋杀嫌疑（行为推断；S30、S36、S67）

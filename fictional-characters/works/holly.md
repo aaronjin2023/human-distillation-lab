@@ -1,6 +1,6 @@
 # Holly
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 24, 2023. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Holly Gibney
 
 角色职责：protagonist · 身份：`identity-c5ca2668a05bf80d` · 独立版本：`profile-9a7045e9bd6251e8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查受阻和遭到囚禁时，倾向保持主动并寻找突破口。（行为推断；S15、S16、S19、S20）
 - **核心动机**：失踪委托引起她的兴趣，促使休假中的她重新投入调查。（摘要直接叙述；S3、S4）
@@ -28,6 +34,10 @@
 ### Emily Harris
 
 角色职责：central-antagonist · 身份：`identity-293b37564aa4c082` · 独立版本：`profile-1ff399815bc24d20`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在应对自身病痛时，表现出将熟人当作可支配资源的冷酷。（行为推断；S11、S12、S13、S14）
 - **核心动机**：相信食用人肉能缓解疾病，因此与丈夫持续绑架杀人。（摘要直接叙述；S12、S13、S14）

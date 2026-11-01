@@ -1,6 +1,6 @@
 # Towers of Midnight
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Perrin Aybara
 
 角色职责：co-lead · 身份：`identity-5628a4c87db4e593` · 独立版本：`profile-bdfaab8419cdf77b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受到追责与追杀时，倾向承担后果并主动保护同伴（行为推断；S16、S22）
 - **价值取舍**：在同伴可能继续伤亡时，把减少他人受害置于自身安全之前（摘要直接叙述；S22）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-289c3c2dc2dfa607`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对亲近者违抗安排时，倾向坚持指挥边界而不迁就（行为推断；S23）
 - **核心动机**：试图阻止她所理解的毁世风险，为此推动各国联合（摘要直接叙述；S57、S58、S59）
 - **决策方式**：追捕梅萨娜时，倾向借议事会议掩护诱敌设伏的安排（行为推断；S25、S26）
@@ -44,6 +54,10 @@
 ### Mat Cauthon
 
 角色职责：co-lead · 身份：`identity-2c108f97a6d39bc9` · 独立版本：`profile-9ea303d304fe94ac`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在救援陷入绝境时，倾向继续寻找可用出路而不放弃（行为推断；S51、S53）
 - **核心动机**：主动进入异界高塔，试图救回被认为已经死亡的沐瑞（摘要直接叙述；S48）

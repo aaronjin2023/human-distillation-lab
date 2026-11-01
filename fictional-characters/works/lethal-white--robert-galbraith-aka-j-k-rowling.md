@@ -1,6 +1,6 @@
 # Lethal White
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 7, 2018. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Cormoran Strike
 
 角色职责：co-lead · 身份：`identity-ae33fa8d464595b7` · 独立版本：`profile-2ff6d9ae184f1e2a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查疑案时倾向保持怀疑，不轻易接受表面的结案解释（行为推断；S16、S17）
 - **核心动机**：在此案中持续追索勒索与死亡的联系，力求找出真正凶手（行为推断；S17、S27）
@@ -23,6 +29,10 @@
 ### Robin Ellacott
 
 角色职责：co-lead · 身份：`identity-132838cbab60a1c7` · 独立版本：`profile-8e19331715b2affd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在工作受干扰且创伤持续的处境中，仍表现出职业韧性（行为推断；S11、S20）
 - **核心动机**：愿意承受婚姻压力继续调查，表现出维护侦探事业的意愿（行为推断；S4、S11、S12、S20）
@@ -39,6 +49,10 @@
 ### Raphael
 
 角色职责：central-antagonist · 身份：`identity-992c579363f4877f` · 独立版本：`profile-3f33790b871fcb12`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在谋取遗产时表现出操纵倾向，利用他人的感情与信息（行为推断；S28、S29）
 - **核心动机**：杀父计划以取得画作带来的财富为目标，并借Kinvara实现（摘要直接叙述；S29）

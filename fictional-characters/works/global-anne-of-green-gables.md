@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Anne Shirley
 
 角色职责：protagonist · 身份：`identity-58c66dc1c6038103` · 独立版本：`profile-d02c0df5b3433d0b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，她想象力丰沛、敏感健谈，受伤时也会迅速动怒。（行为推断；S2、S3、S17、S18）
 - **核心动机**：经历早年的辗转寄养后，她渴望在Green Gables获得家庭归属。（行为推断；S4、S5）
@@ -24,6 +30,10 @@
 
 角色职责：major-support · 身份：`identity-b656c109002af9c0` · 独立版本：`profile-d97d2d1a5ce56637`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在此情境中，她严肃公正，努力管教Anne，同时逐渐接纳她的活力。（行为推断；S6、S7）
 - **核心动机**：承担主要养育责任时，她希望通过管教让Anne学会守纪律。（行为推断；S7、S10）
 - **价值取舍**：在养育Anne时，她重视纪律，也逐渐欣赏孩子的活力与快乐。（行为推断；S6、S7）
@@ -34,6 +44,10 @@
 ### Matthew Cuthbert
 
 角色职责：major-support · 身份：`identity-321a95f8b030eece` · 独立版本：`profile-a166096f44cc72a6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他羞怯而温和，从一开始便对Anne抱有好感。（行为推断；S8、S9）
 - **决策方式**：在养育Anne时，他不介意宠着她，给她漂亮衣服和精致鞋子。（摘要直接叙述；S10）

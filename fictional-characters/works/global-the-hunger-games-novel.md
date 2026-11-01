@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Katniss Everdeen
 
 角色职责：protagonist · 身份：`identity-5785d50eb57a4676` · 独立版本：`profile-e5b1ed75fe95e59b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲近者受威胁的情境中，倾向主动承担危险加以保护（行为推断；S3、S28）
 - **核心动机**：求生之外，她也努力保全妹妹与竞技场中伙伴的生命（行为推断；S3、S27、S28、S35、S36）
@@ -28,6 +34,10 @@
 ### Peeta Mellark
 
 角色职责：co-lead · 身份：`identity-5581160010ea11ac` · 独立版本：`profile-8de8c37ef17261d6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在他人困窘或遇险时，倾向以具体援助表达关切（行为推断；S4、S19、S26）
 - **核心动机**：竞技场中的结盟以保护凯特尼斯为目的，而非伺机杀她（摘要直接叙述；S19、S26）

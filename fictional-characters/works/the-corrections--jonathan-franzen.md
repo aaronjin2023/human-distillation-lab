@@ -1,6 +1,6 @@
 # The Corrections
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 14, 2001. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Enid Lambert
 
 角色职责：co-lead · 身份：`identity-d301a437762cceb6` · 独立版本：`profile-6bf86b8bdfaad146`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对家庭失序时倾向以传统标准干预成年子女（行为推断；S5、S16、S17）
 - **核心动机**：丈夫病情恶化时愈发急于促成全家圣诞团聚（摘要直接叙述；S16、S17）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-6119db5bd02a3b41` · 独立版本：`profile-6b68c89d11b83ae7`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在事业受挫时倾向执着个人创作而回避债务责任（行为推断；S7）
 - **核心动机**：失业后将精力投注于剧本以寻求新的事业出口（行为推断；S6、S7）
 - **价值取舍**：在接受诈骗工作时未将投资者利益作为行为底线（行为推断；S8）
@@ -40,6 +50,10 @@
 ### Denise
 
 角色职责：co-lead · 身份：`identity-d6a5d1ea30bac0f1` · 独立版本：`profile-79086c68e568522d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在事业与亲密关系中同时表现出勤奋和冲动倾向（摘要直接叙述；S14）
 - **核心动机**：在母亲反对下仍投入厨师事业并承担新餐厅筹建（行为推断；S13）

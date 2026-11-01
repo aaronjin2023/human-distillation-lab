@@ -1,6 +1,6 @@
 # Inheritance (Paolini novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Inheritance Cycle; reported series sales: 33 million[275]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Inheritance_Cycle
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eragon
 
 角色职责：protagonist · 身份：`identity-5ff20089fda86162` · 独立版本：`profile-34f2fb95243385c8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在统帅压力与力量差距面前倾向求索新办法，而非停留于挫败（行为推断；S24、S25、S27、S43）
 - **核心动机**：击败统治者后将行动重心转向幼龙安全与骑士传承（摘要直接叙述；S50、S51、S53）
@@ -30,6 +36,10 @@
 
 角色职责：major-support · 身份：`identity-5ed2afbb0e258ce3` · 独立版本：`profile-9ff7b552c854f2b2`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在情感关系改变后表现出反抗控制的倾向，敢于倒向原对手（行为推断；S41）
 - **核心动机**：摆脱统治者后选择与龙远行，以修复共同经历的创伤（摘要直接叙述；S45）
 - **关系模式**：参与俘获Nasuada后，在她被囚期间对她产生感情（摘要直接叙述；S22、S41）
@@ -45,6 +55,10 @@
 ### Galbatorix
 
 角色职责：central-antagonist · 身份：`identity-985d1d19b9dbb835` · 独立版本：`profile-2be3132700901a05`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在占据压倒优势时倾向操弄他人，以强制较量满足自身娱乐（行为推断；S37、S39）
 - **核心动机**：命令两名骑士仅以剑术交战，是为了取悦自己而安排争斗（摘要直接叙述；S39）

@@ -1,6 +1,6 @@
 # The Wise Man's Fear
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 20, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Kvothe
 
 角色职责：protagonist · 身份：`identity-962c883310a631ee` · 独立版本：`profile-f5d60e80e3304956`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在冲突与考验中，他倾向主动应对并灵活运用已有知识（行为推断；S4、S12、S18、S26）
 - **核心动机**：寻求贵族赞助与安排学费收益，都服务于摆脱经济困境（行为推断；S6、S7、S25、S26）
@@ -29,6 +35,10 @@
 ### Maershon Lerand Alveron
 
 角色职责：major-support · 身份：`identity-fd758d22a5b8939e` · 独立版本：`profile-99fbdab10dd6e87d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻压力与受恩关系间，他表现出务实折中的倾向（行为推断；S24、S25）
 - **核心动机**：寻求Kvothe帮助的初衷，是赢得符合自己身份的婚姻对象（摘要直接叙述；S7）

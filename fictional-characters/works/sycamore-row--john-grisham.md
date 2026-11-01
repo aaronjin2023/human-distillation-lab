@@ -1,6 +1,6 @@
 # Sycamore Row
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 10, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Seth Hubbard
 
 角色职责：co-lead · 身份：`identity-3bafca920a36c08b` · 独立版本：`profile-cb15cd9b02333e3e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在安排身后事务时倾向周密控制，并带有惩戒意味（行为推断；S7、S12、S13）
 - **核心动机**：希望以大部分遗产弥补父亲侵夺黑人土地的罪行（摘要直接叙述；S36、S37）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-c54d2696bc9a8af5` · 独立版本：`profile-98814675d6212f54`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在继承争议结束时表现出愿意让步的和解倾向（行为推断；S46、S47、S48）
 - **核心动机**：希望重获祖父土地，为自己与子孙建立安稳居所（摘要直接叙述；S47）
 - **价值取舍**：在财富取舍中更看重家族归属，也容许对方分享遗产（行为推断；S45、S47）
@@ -38,6 +48,10 @@
 ### Jake Brigance
 
 角色职责：protagonist · 身份：`identity-4f6ece2e36b01487` · 独立版本：`profile-b971cf2ca6325c8c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遗产争议的收束中呈现愿意承接长期责任的倾向（行为推断；S44、S46）
 - **核心动机**：在此案中承担落实新遗嘱的任务，维护死者分配意愿（行为推断；S8、S13、S44）

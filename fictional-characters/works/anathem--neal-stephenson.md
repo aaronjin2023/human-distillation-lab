@@ -1,6 +1,6 @@
 # Anathem
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 28, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Fraa Erasmas
 
 角色职责：protagonist · 身份：`identity-352e00d2a3dbf780` · 独立版本：`profile-3420984741278b75`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权威安排与求知需要冲突时，倾向主动探究而非被动服从（行为推断；S12、S13、S24）
 - **核心动机**：他偏离直接赴会的路线，选择寻找遭放逐的导师并了解发现（行为推断；S8、S13、S14、S15）
@@ -24,6 +30,10 @@
 ### Fraa Orolo
 
 角色职责：major-support · 身份：`identity-493d9d3c78502a97` · 独立版本：`profile-1f34cf877be504bd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在知识探索受到禁令限制时，表现出敢于越界求证的倾向（行为推断；S7、S8、S52）
 - **核心动机**：他致力理解外来飞船与宇宙结构，并主动促成接触（行为推断；S7、S15、S16）

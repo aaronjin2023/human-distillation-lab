@@ -1,6 +1,6 @@
 # Ten Big Ones
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 11, 2004. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-295e20d9e23395ce`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对帮派威胁时倾向自主应对，不愿完全受人保护（行为推断；S7、S9）
 - **核心动机**：希望彻底解除帮派威胁，暂时安全仍不足以安心（摘要直接叙述；S7、S10）
@@ -28,6 +34,10 @@
 ### Carlos Manoso
 
 角色职责：major-support · 身份：`identity-d110d96db6991258` · 独立版本：`profile-79e87d3f209ea892`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对Stephanie受威胁时倾向提供实际帮助与持续庇护（行为推断；S8、S16）
 - **核心动机**：通过提供交通与住处，帮助Stephanie避开帮派威胁（行为推断；S8、S16）

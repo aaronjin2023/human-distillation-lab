@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from validate_library import check_links, local_path, read_json, require
+from validate_library import check_body_baseline, check_links, local_path, read_json, require
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ("SKILL.md", "style.md", "process.md", "technique.md", "language.md",
@@ -44,6 +44,7 @@ def check_expert(data, slug, domain, body):
     require(rights.get("summary") and rights.get("item_reproduction") == "not-included", "Missing materials scope")
     require(rights.get("source_ids") and set(rights["source_ids"]) <= set(ids), "Invalid rights source reference")
 
+    check_body_baseline(f"expert/{slug}", body)
 
 def validate(root, write_catalog=False):
     index = read_json(root / "domains/index.json")
@@ -127,6 +128,22 @@ def self_test():
             pass
         else:
             raise AssertionError("Invalid expert metadata accepted")
+    index = read_json(ROOT / "domains/index.json")
+    for entry in index["domains"]:
+        for relative in entry["new_paths"]:
+            package = ROOT / relative
+            data = read_json(package / "manifest.json")
+            parts = {name: (package / name).read_text() for name in FILES if name.endswith(".md")}
+            citations = "\n".join(f"{source['id']} {source['url']}" for source in data["sources"])
+            without_process = "\n".join(text for name, text in parts.items() if name != "process.md")
+            for invalid_body in (citations, without_process + "\n" + citations):
+                try:
+                    check_expert(data, package.name, entry["id"], invalid_body)
+                except ValueError as error:
+                    assert "body baseline mismatch" in str(error), str(error)
+                else:
+                    raise AssertionError(f"Method-free expert accepted: {relative}")
+    print("Expert body self-test passed: all source-only bodies and deleted process files rejected")
     print("Expert self-test passed: duplicate sources, rights, unsafe URLs, access coverage and domain mismatch")
     political = copy.deepcopy(original)
     political.update(domain="politics", living_person=False)

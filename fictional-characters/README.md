@@ -9,7 +9,8 @@
 | 文件 | 用途 |
 |---|---|
 | `works.jsonl` | 作品、入选依据、来源版本、材料限制和角色版本链接 |
-| `characters.jsonl` | 各作品中的角色版本；性格、动机、价值、决策、情绪、关系、沟通、成长八个维度中有证据的部分 |
+| `characters.jsonl` | 各作品中的角色版本；有据维度，以及必须一起加载的 task_constraints 和 unknown_constraint_categories |
+| `task-constraints.jsonl` | 按 profile_id 与 work_id 绑定的专项核读约束补充表；[schema](task-constraints.schema.json) |
 | `identities.jsonl` | 来源实体标识、系列信息或逐组核对支持的跨作品身份关联 |
 | `identity-merges.jsonl` | 逐组身份合并决定、原始标识、理由和来源证据 |
 | `evidence.jsonl` | 提炼与审校所用的完整摘要选摘、维度引用的句号、原页面、修订信息、归属和许可 |
@@ -22,6 +23,14 @@
 一行 JSON 是一个独立记录。可按 `work_id` 连接作品、人物版本和证据，按 `identity_id` 查看同一身份的不同叙事版本；不要用角色名直接连接表。`explicit` 表示摘要直接叙述，`interpretation` 表示从具体行为作出的有限推断。未获得支持的维度放入 `unknown_dimensions`，不补人格分数、MBTI、诊断或台词。
 
 维度判断有逐条句号引用；`tensions` 是依据完整摘要另行审校的综合笔记，没有逐项句号定位，其证据范围在 `tensions_evidence_scope` 中明确标注。完整摘要选摘随库保留并校验句数与哈希，避免只导出维度用到的句子而丢失综合笔记的依据。这些选摘仍是公开摘要，不是原作全文。
+
+## 必须一起加载的任务约束
+
+机器消费者读取 `characters.jsonl` 的单个版本时，必须同时保留 `id`、`work_id`、`identity_id`、`task_constraints`、`unknown_constraint_categories`、`traits`、`unknown_dimensions`、`tensions` 及其证据范围，并按 `evidence_ids` 连接 `evidence.jsonl`。不可只投影 traits/tensions。Markdown 消费者加载完整作品卡与其中的独立版本，不能截掉约束段、未知与证据。若任务依赖未知的视觉、职业权限、关系或经历条件，先报告缺口；不能默认满足。新合成设定单列，不能回写成来源事实。
+
+`task-constraints.jsonl` 是兼容既有模型批次的独立补充表，其 schema 只用于该表，不改变历史提炼／审校 schema。每行绑定一个 `profile_id` 和 `work_id`，每条包含类别（identity/body/relationships/experience）、来源事实 `fact`、编者转译 `task_rule`、逐句引用 `evidence_ids` 与可核对的原文片段 `evidence_excerpt`。构建时验证绑定和片段、合并到全部版本并渲染到阅读卡；缺项一律在 `unknown_constraint_categories` 中保留。unknown 包括未专项核读，不表示原作没有该事实；一类已补也不代表该类穷尽。
+
+本次仅专项核读《The White Countess》的 Todd Jackson：前国务院官员（S3–S4）、失明（S5）、与 Sofia 的职业及渐进感情关系（S6）、丧亲经历（S3–S4）。任务不得默认其直接看见环境，也不能从丧亲推定精神诊断。其余角色的四类约束全部保留未知／未专项核读；没有重跑 1,000 部作品蒸馏。原来的八维判断及身份版本均保留。维度数量合格不代表可完成具体任务，低证据缺项不能用重复描述、口头禅或臆造事实填补。
 
 ## 筛选与复核
 
@@ -55,6 +64,8 @@ python3 scripts/build_characters.py self-test
 python3 scripts/build_characters.py build
 python3 scripts/build_characters.py validate --complete
 ```
+
+`validate` 会检查完整卡集合，并将全部 1,000 张卡逐字与结构化记录的统一渲染比较；哈希回执也必须覆盖全部卡。正文损坏后仅更新哈希仍会失败。`build` 从已审校批次和约束补充表重新渲染，而不是重新认可现有 Markdown。历史 final-checks/model-batches 回执保留其原时间与范围；本轮修复检查见 [repair-checks.json](verification/repair-checks.json)，不代表真实角色模拟验收。
 
 `build` 仅使用 `selection.json` 指定批次中完成审校的输出；`validate --complete` 还要求目标数量达到 1,000。来源缓存、模型过程文件留在本地 `intake/`、`batches/`，不会被当作正式角色记录。可携带的数据和阅读卡保留必要引用证据，不依赖模型过程日志阅读。
 

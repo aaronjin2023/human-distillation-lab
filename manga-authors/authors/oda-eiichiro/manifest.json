@@ -1,0 +1,195 @@
+{
+  "id": "oda-eiichiro",
+  "name": "Eiichiro Oda",
+  "name_zh": "尾田荣一郎",
+  "legacy_refs": [
+    "cartoonists/oda-eiichiro"
+  ],
+  "name_ja": "尾田栄一郎",
+  "family": "动作与冒险",
+  "scope": "本轮重点为《ONE PIECE 第105卷》的公开封面／主视觉及对应书目；旧作品研究另留在 archive 初稿，不能把不同时期合成固定画风。下列绘画方案为本库原创转译，封面观察不证明连续内页的分镜规律。",
+  "reference_works": [
+    {
+      "title": "ONE PIECE 第105卷",
+      "role": "漫画作者",
+      "source_ids": [
+        "RECENT1",
+        "RECENT2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "作品概要｜ONE PIECE.com",
+      "url": "https://one-piece.com/about/",
+      "publisher": "ONE PIECE 官方网站",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "官网作品信息确认尾田栄一郎为漫画作者，说明1997年《周刊少年Jump》连载与漫画、动画及真人版的不同形态。"
+      ],
+      "access_note": "早期研究对照：实际检索获得出版社/机构摘要；未据摘要声称阅读漫画内页。",
+      "context": "historical_reference",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "SP1",
+      "title": "VIZ One Piece, Vol. 1 官方商品页与封面",
+      "url": "https://www.viz.com/manga-books/manga/one-piece-volume-1-0/product/139",
+      "publisher": "VIZ Media",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "第1卷Story and Art署名、封面群像与空间层次"
+      ],
+      "access_note": "早期研究对照：核读商品页并在浏览器实际查看300×450封面 https://dw9to29mmj727.cloudfront.net/products/1569319014.jpg 。观察限定此英文版封面；未观察内页或动画。",
+      "context": "historical_reference",
+      "evidence_type": "inspected-visual",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT1",
+      "title": "ONE PIECE 第105卷：官方书目／项目页",
+      "url": "https://one-piece.com/comics/62160/index.html",
+      "publisher": "集英社／ONE PIECE.com",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选作品署名与版本范围",
+        "所选日文原版卷首次出版年份；封面原稿具体作画日未核定"
+      ],
+      "access_note": "本轮核对公开书目／项目文字；时间含义见date_basis，不表示通读作品。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT2",
+      "title": "ONE PIECE 第105卷：已观察的公开图像",
+      "url": "https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088834368/240/9784088834368.jpg",
+      "publisher": "集英社／ONE PIECE.com",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定单幅公开图像的形体、线条、色块与构图观察"
+      ],
+      "access_note": "实际通过图像工具查看此公开封面／主视觉，未观察整卷内页；周围排版、字体与出版设计不自动归作者。",
+      "origin_page_url": "https://one-piece.com/comics/62160/index.html",
+      "observed_asset_sha256": "e3ed5520fd282ddf9c36a9a9340df8b51906c6466f5ad8f9a393f7df99e2fef0",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "多个人物的大小头像上下错层，张口、露齿、抬手使轮廓明显；上方较沉静的半身与下方夸张动态相对，暖橙底、蓝色局部和高亮白发分离。观察为240px封面，不判断小格节奏。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "所选日文原版卷首次出版年份；封面原稿具体作画日未核定；署名分工：漫画作者",
+      "basis": "source_summary",
+      "source_ids": [
+        "RECENT1"
+      ]
+    },
+    {
+      "text": "多个人物的大小头像上下错层，张口、露齿、抬手使轮廓明显；上方较沉静的半身与下方夸张动态相对，暖橙底、蓝色局部和高亮白发分离。观察为240px封面，不判断小格节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "明确外轮廓与夸张表情线优先，细碎装备线集中局部。",
+    "shapes": "成年人物体型可差异大，手掌与脸部夸张但结构自洽。",
+    "composition": "上下错层的重心与大小变化安排两人和机械鸟，避免平均并排。",
+    "panel_rhythm": "原创分镜建议：先交代空间，再给道具与手部动作，接人物反应，最后显示动作结果；不是由单幅封面推得的作者分镜规律。",
+    "tonal_design": "发块与衣块拉开暗面，动作焦点留亮，背景不满版等密。",
+    "environment": "原创港口物件给出人物尺度，装饰环绕而不遮主动作。",
+    "acting": "张口、露齿或抬手可用一项，眼睛仍指向交接行为。",
+    "color": "本库原创色彩转译：暖橙底与少量蓝白亮块，明确区分相邻角色。；只借所见单图的配色关系，不称固定作者色板。"
+  },
+  "drawing_steps": [
+    "先以本项目故事画三张小构图，应用：上下错层的重心与大小变化安排两人和机械鸟，避免平均并排。",
+    "确认成年人物和原创衣物的结构：成年人物体型可差异大，手掌与脸部夸张但结构自洽。 再核对手与道具接触。",
+    "按材质分层落线：明确外轮廓与夸张表情线优先，细碎装备线集中局部。 环境处理：原创港口物件给出人物尺度，装饰环绕而不遮主动作。",
+    "最后以灰阶缩图核对：发块与衣块拉开暗面，动作焦点留亮，背景不满版等密。 彩色版再应用：本库原创色彩转译：暖橙底与少量蓝白亮块，明确区分相邻角色。；只借所见单图的配色关系，不称固定作者色板。"
+  ],
+  "review_checks": [
+    "缩至缩略图时，主动作和手中物是否仍先于装饰可见？",
+    "人物结构与所选处理是否兼容：成年人物体型可差异大，手掌与脸部夸张但结构自洽。",
+    "灰阶检查能否区分脸、手、衣物与背景：发块与衣块拉开暗面，动作焦点留亮，背景不满版等密。",
+    "用于连续页时，是否保持原故事人数、动作顺序、服装与道具方向？"
+  ],
+  "avoid": [
+    "把这张封面的观察当成整部作品、所有时期或全部分镜的定律。",
+    "把原封面人物、专属服饰、标志和签名带入原创角色；或把书封排版视为作者本人绘画。"
+  ],
+  "best_for": [
+    "夸张表情与错层重心",
+    "暖色冒险插画"
+  ],
+  "prompt_core_zh": "将表情和姿势概括为大而清楚的轮廓，脸部与手势分区；用上下错层而非整齐并排表现关系，暖橙背景上保留少量蓝与白的高亮，繁密细节围绕主动作。",
+  "prompt_core_en": "Simplify expressions and poses into large readable shapes. Separate faces from hand gestures, stagger visual weight vertically, and reserve small blue and white highlights against warm orange while keeping detail subordinate to the main action.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "本轮核定为日本漫画出版或展览语境；不据此推定民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "生卒未逐人全面核查，保留null；公开署名为笔名时不当作法定姓名。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "method_evidence_source_ids": [
+    "RECENT2"
+  ],
+  "known_gaps": [
+    "本轮新阶段视觉观察限所列单图；未逐章核内页节奏、助手分工和长期画风变化。",
+    "原版出版或项目发布年份不等于每一笔原稿的绘制日期；具体日期边界见recent_focus。",
+    "本库8维方案、步骤和提示词属于原创转译，尚未用真实生成图验证一致性。"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "成年身体可适当夸张胸肩与手掌，但关节结构一致；表情轮廓明确，衣褶用少数大弧线，颜色分区清楚。",
+  "focus": "动作与冒险/群像",
+  "historical_scope": "《ONE PIECE》原作漫画第1卷及官网漫画作品概要；排除动画、真人剧和衍生作者作画 补充核读范围：航海王（One Piece）VIZ英文第1卷封面，ISBN 9781569319017。",
+  "recent_focus": {
+    "work": "ONE PIECE 第105卷",
+    "year": 2023,
+    "source_ids": [
+      "RECENT1",
+      "RECENT2"
+    ],
+    "date_basis": "所选日文原版卷首次出版年份；封面原稿具体作画日未核定"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [
+    {
+      "text": "多个人物的大小头像上下错层，张口、露齿、抬手使轮廓明显；上方较沉静的半身与下方夸张动态相对，暖橙底、蓝色局部和高亮白发分离。观察为240px封面，不判断小格节奏。",
+      "observation": "多个人物的大小头像上下错层，张口、露齿、抬手使轮廓明显；上方较沉静的半身与下方夸张动态相对，暖橙底、蓝色局部和高亮白发分离。观察为240px封面，不判断小格节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

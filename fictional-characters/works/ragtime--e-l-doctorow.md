@@ -1,6 +1,6 @@
 # Ragtime
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 24, 1975. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Coalhouse Walker Jr.
 
 角色职责：protagonist · 身份：`identity-37ff4750dd2ab5cd` · 独立版本：`profile-e4595338147d498e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对种族羞辱时，他倾向坚持讨回公道，并在受阻后愈发强硬（行为推断；S10、S11、S13）
 - **核心动机**：他要求汽车恢复原状，并要求破坏者康克林被交出接受追究（摘要直接叙述；S13）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-74e8282afd4c2a40` · 独立版本：`profile-5ea84e7b8a37ed16`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对无人照料的孩子，她倾向主动承担照护而不因丈夫反对退让（行为推断；S14）
 - **价值取舍**：在家庭意见冲突中，她倾向将孩子的照护需要置于夫妻一致之上（行为推断；S14）
 - **关系模式**：她与泰特结婚后接纳彼此的孩子，也共同抚养科尔豪斯的儿子（摘要直接叙述；S29、S30）
@@ -43,6 +53,10 @@
 ### Tateh
 
 角色职责：co-lead · 身份：`identity-78b9a70570088a48` · 独立版本：`profile-85f7e045ea17e951`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对生计困境时，他倾向尝试不同劳动路径并将艺术技能转化为机会（行为推断；S25、S26、S27）
 - **核心动机**：贫困移民生活中，他努力维持自己与女儿的基本生计（摘要直接叙述；S22、S25）

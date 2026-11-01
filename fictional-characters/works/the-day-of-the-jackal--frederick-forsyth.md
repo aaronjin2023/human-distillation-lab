@@ -1,6 +1,6 @@
 # The Day of the Jackal
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 17, 1971. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### The Jackal
 
 角色职责：central-antagonist · 身份：`identity-31881ce85eae3bfe` · 独立版本：`profile-d254e0a5e20a87dd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追捕压力下仍连续更换身份与藏身方式，呈现冷静应变倾向（行为推断；S39、S42、S48、S53、S56）
 - **核心动机**：其接受刺杀任务的明确条件，是分两次支付的高额金钱报酬（摘要直接叙述；S6、S13）
@@ -27,6 +33,10 @@
 ### Claude Lebel
 
 角色职责：protagonist · 身份：`identity-9c18e7dd3f9c5ac5` · 独立版本：`profile-0a390bcdaa743b5c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对反复扑空仍细查现场，表现出耐心执着且不轻信巧合的倾向（行为推断；S45、S58、S59）
 - **核心动机**：围绕查明杀手身份持续推进调查，以阻止针对总统的刺杀（摘要直接叙述；S18、S19、S59）

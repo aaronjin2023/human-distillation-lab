@@ -1,6 +1,6 @@
 # The Underground Railroad
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 28, 2016. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Cora
 
 角色职责：protagonist · 身份：`identity-6e8966c481409a05` · 独立版本：`profile-54e7d116671f8158`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在反复被捕与失去庇护后，仍表现出顽强求生倾向（行为推断；S23、S25、S30、S31、S32、S34）
 - **核心动机**：逃离奴役与持续追捕，是她不断寻找出路的核心目标（行为推断；S8、S16、S32、S34）
@@ -29,6 +35,10 @@
 ### Ridgeway
 
 角色职责：central-antagonist · 身份：`identity-c7f3d08afd4ea50f` · 独立版本：`profile-83fa69e23242ac27`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追捕接连受阻后，仍表现出执拗追索目标的倾向（行为推断；S12、S23、S25、S31）
 - **核心动机**：追捕Cora与Caesar，主要为了报复未能抓回Mabel的失败（摘要直接叙述；S12）

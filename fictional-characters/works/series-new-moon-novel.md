@@ -1,6 +1,6 @@
 # New Moon (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Twilight; reported series sales: 160 million[217]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Twilight_(novel_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bella Swan
 
 角色职责：protagonist · 身份：`identity-467346738db7bda3` · 独立版本：`profile-d09be12f65109dcb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在分离痛苦中，她倾向主动追寻仍能维系情感联系的体验（行为推断；S19、S20）
 - **情绪反应**：爱德华离开后，她经历持续数月的记忆缺失与低落状态（摘要直接叙述；S18）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-59b431852ba8a9ba` · 独立版本：`profile-ef4cccea31480924`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：试图保护贝拉时，他倾向替她安排分离并隐瞒自己的真实动机（行为推断；S17）
 - **核心动机**：他带家人离开福克斯，实际是为减少贝拉遭受伤害的风险（摘要直接叙述；S17、S40）
 - **沟通方式**：他以不再爱她的说法促使分离，后来才说明保护她的本意（摘要直接叙述；S17、S40）
@@ -42,6 +52,10 @@
 ### Jacob Black
 
 角色职责：co-lead · 身份：`identity-b38e7589a10a55af` · 独立版本：`profile-592410d49dcb4396`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：转变前他被描写为开朗伙伴，转变后显得疏离而隐秘（摘要直接叙述；S20、S24、S25）
 - **关系模式**：他对贝拉产生爱情，却因她仍爱爱德华而未获回应（摘要直接叙述；S28、S29）

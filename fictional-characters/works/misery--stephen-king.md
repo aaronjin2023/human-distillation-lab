@@ -1,6 +1,6 @@
 # Misery
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 7, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Paul Sheldon
 
 角色职责：protagonist · 身份：`identity-1ca70be5f833d23b` · 独立版本：`profile-9522ef128906f810`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在囚禁与伤害中，倾向隐忍观察并寻找可利用的反击机会（行为推断；S9、S10、S17、S21）
 - **核心动机**：原本希望借新犯罪小说开启摆脱米泽莉系列的创作生涯（摘要直接叙述；S3、S8）
@@ -29,6 +35,10 @@
 ### Annie Wilkes
 
 角色职责：central-antagonist · 身份：`identity-8aaf059921e96d3e` · 独立版本：`profile-52ede7363259c2fb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在作品或作者违背期待时，倾向以强制和残酷惩罚恢复控制（行为推断；S7、S8、S13、S14）
 - **核心动机**：执意让心爱的小说人物复活，迫使作者按自己的要求续写（摘要直接叙述；S5、S8）

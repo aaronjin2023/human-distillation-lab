@@ -10,27 +10,27 @@
   ],
   "genre": "calligraphy",
   "known_gaps": [
-    "三件代表作皆为泛称，具体卷名与藏地待核对；本条 verbatim 证据最薄",
-    "风格描述多赖 impression，需逐件落实具体卷名后补 verbatim 样本"
+    "三项作品仅为泛称，具体卷名、藏地、版本和图像位置未核，不能作为蒸馏源",
+    "旧impression无具名评价者，现仅保留为编者研究问题；无已核读风格证据"
   ],
   "list_position": "calligraphers-top100-draft v1 #47",
   "living_person": false,
-  "next_step": "用 style.md 的测试提示词跑 1 条图像生成，对照检查笔法、结字、章法与墨色是否成立",
+  "next_step": "先核对具体作品、版本、可见图像与观察位置；未补齐前不运行作者风格出图验收",
   "school": "明·行书 / 草书",
-  "scope": "只蒸作品（书法作品本身 + 关于书法的公开文字 + 著录 / 评论 / 研究），不蒸私生活",
+  "scope": "来源不足：三件旧作品名均为泛称，具体卷名、藏地、版本及可见图像待核；不得作为蒸馏源。当前只有编者待验证假设，不能作为倪元璐本人风格预设，也不能称已复现。",
   "scripts": "行书、草书",
   "source_works": [
     {
       "title": "《行书诗卷》",
-      "transmission": "真迹存世；泛称，具体卷名待核对，见 gaps"
+      "transmission": "泛称检索线索；具体卷名、藏地、版本与真迹状态均待核；不得作为蒸馏源"
     },
     {
       "title": "《草书诗卷》",
-      "transmission": "真迹存世；泛称，具体卷名待核对，见 gaps"
+      "transmission": "泛称检索线索；具体卷名、藏地、版本与真迹状态均待核；不得作为蒸馏源"
     },
     {
       "title": "《自书诗卷》",
-      "transmission": "真迹存世；泛称，具体卷名待核对，见 gaps"
+      "transmission": "泛称检索线索；具体卷名、藏地、版本与真迹状态均待核；不得作为蒸馏源"
     }
   ],
   "sources": [
@@ -39,8 +39,8 @@
   ],
   "status": "draft v0.1",
   "template": "calligraphers-top100-draft.md 第 6 节（画家模板改编）",
-  "test_prompt": "“窗台上的一杯外卖咖啡”行草",
-  "verification": "2026-10-26 网络核对存疑项；未核对项已记入 conflicts.md 与 known_gaps",
+  "test_prompt": "来源门禁反例：三项泛称均不得当作有效蒸馏源；仅列待核清单，不生成本人风格作品",
+  "verification": "2026-11-01：本地限制传播修复；尚未新增核读具体书法作品或评价原文；无作者风格生成/验收结果",
   "version": "0.1",
   "biography": {
     "schema_version": 1,

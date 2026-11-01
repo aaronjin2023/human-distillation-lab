@@ -1,6 +1,6 @@
 # The Lincoln Highway
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 24, 2021. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Emmett Watson
 
 角色职责：protagonist · 身份：`identity-83cc448d2872a154` · 独立版本：`profile-a6c8368a1bc28690`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在面对旧事引发的挑衅时，倾向克制反击以终止冲突。（行为推断；S5、S6）
 - **核心动机**：希望取回汽车，与弟弟继续前往旧金山寻找母亲。（摘要直接叙述；S9、S12、S27）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-cc5ef4a9578478db` · 独立版本：`profile-224837539611d310`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在哥哥的描述中，他不只遵守规则，还对规则格外较真。（摘要直接叙述；S45、S46）
 - **核心动机**：希望循母亲留下的明信片线索，在旧金山与她重逢。（摘要直接叙述；S39、S40、S42）
 - **决策方式**：在寻找答案时，倾向从故事细节与既有线索建立推断。（行为推断；S24、S39、S40、S42）
@@ -40,6 +50,10 @@
 ### Daniel “Duchess” Hewett
 
 角色职责：co-lead · 身份：`identity-4f95aa28554ddf65` · 独立版本：`profile-36a3bc48057b85c9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在表达与兴趣上倾向夸饰，热衷表演并迷恋欺骗高手。（行为推断；S48、S50）
 - **核心动机**：希望清算自己认定的人情债与伤害，以获得内心安宁。（摘要直接叙述；S54）

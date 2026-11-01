@@ -1,6 +1,6 @@
 # The Hollow Hills
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 9, 1973. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Merlin
 
 角色职责：protagonist · 身份：`identity-898f25ecb14eb7ba` · 独立版本：`profile-ae9cfd816774c929`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对王位继承的危险局面，他倾向隐忍筹划并长期照看后辈成长（行为推断；S2、S3、S7）
 - **核心动机**：他持续安排亚瑟的养育与教育，使孩子在隐匿身份中获得成长条件（行为推断；S2、S3、S7）
@@ -24,6 +30,10 @@
 ### Arthur
 
 角色职责：co-lead · 身份：`identity-3ac55f9d755cacbf` · 独立版本：`profile-3a25937f66787ea6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在初战与继承权受质疑时，他倾向以实际行动回应外部挑战（行为推断；S9、S11）
 - **核心动机**：面对诸王对出身的质疑，他试图以展示宝剑证明自己的继承资格（行为推断；S11）

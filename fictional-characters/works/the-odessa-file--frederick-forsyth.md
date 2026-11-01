@@ -1,6 +1,6 @@
 # The Odessa File
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 25, 1973. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Peter Miller
 
 角色职责：protagonist · 身份：`identity-e490e9f8d1e95b72` · 独立版本：`profile-566337e39bd42d16`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在官方冷淡且自身遇险的情境中，仍表现出执着追索的倾向（行为推断；S8、S12、S14、S16、S17）
 - **核心动机**：追捕的核心动力是为遇害父亲寻求个人正义，而非意识形态职责（摘要直接叙述；S18）
@@ -27,6 +33,10 @@
 ### Eduard Roschmann
 
 角色职责：central-antagonist · 身份：`identity-2b6664baba980886` · 独立版本：`profile-c7097720bedb24c6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被持枪质问时，仍倾向为自身暴行辩护而非承认责任（行为推断；S17、S18）
 - **价值取舍**：以种族理由替战时暴行辩护，将种族等级置于受害者生命之上（行为推断；S6、S18）

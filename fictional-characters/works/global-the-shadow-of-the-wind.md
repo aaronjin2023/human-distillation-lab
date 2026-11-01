@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Daniel
 
 角色职责：protagonist · 身份：`identity-18c475c92ef6aab7` · 独立版本：`profile-481f4d1866ff8941`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对作者失踪之谜，他表现出由阅读热情驱动的探究倾向（行为推断；S6、S7、S8、S14）
 - **核心动机**：他希望查明卡拉克斯及其作品消失的原因（摘要直接叙述；S7、S8）
@@ -24,6 +30,10 @@
 ### Julián Carax
 
 角色职责：co-lead · 身份：`identity-684c68fb2fd5acfa` · 独立版本：`profile-b86ca5cea09e56a2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失去爱人的打击下，他表现出将痛苦转向自我否定的倾向（行为推断；S26、S27、S28）
 - **核心动机**：对佩内洛佩持续不灭的思念，推动他返回巴塞罗那（摘要直接叙述；S21）

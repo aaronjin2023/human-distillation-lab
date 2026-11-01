@@ -1,6 +1,6 @@
 # Crossroads of Ravens
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Wiedźmin (The Witcher); reported series sales: 15 million[335]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Witcher
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Geralt of Rivia
 
 角色职责：protagonist · 身份：`identity-aba090dda4581d03` · 独立版本：`profile-e5ec5809fc8c31a3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在弱者遭受即时威胁时，倾向主动介入而不回避自身风险（行为推断；S12、S22、S24）
 - **核心动机**：得知针对导师与女祭司的谋杀计划后，主动阻止相关威胁（行为推断；S18、S22）
@@ -28,6 +34,10 @@
 ### Preston Holt
 
 角色职责：major-support · 身份：`identity-f81159fd032d5651` · 独立版本：`profile-d7d76a337e3eb9cd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在幸存负罪感的驱使下，表现出难以放下旧日创伤的倾向（行为推断；S15、S16）
 - **核心动机**：因抛下同伴逃离屠杀而负疚，随后杀死获放过的主谋（摘要直接叙述；S15、S16）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bruce Wayne
 
 角色职责：protagonist · 身份：`identity-8a9e8e464a744c51` · 独立版本：`profile-56ddc8ff10febe7b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对他人丧亲与生命危险时倾向承担照护和救援责任（行为推断；S1、S8、S20）
 - **价值取舍**：面对脑部技术提案时倾向重视潜在问题，而非仅认可新发明（行为推断；S3）
@@ -27,6 +33,10 @@
 ### Dick
 
 角色职责：co-lead · 身份：`identity-b3c601d7c999d283` · 独立版本：`profile-018190dbbbff13f5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：失去家人后倾向主动投入对抗，但关键时刻仍有克制（行为推断；S7、S9、S17）
 - **核心动机**：失亲后倾向将成为蝙蝠侠搭档视为追求复仇的途径（行为推断；S9）

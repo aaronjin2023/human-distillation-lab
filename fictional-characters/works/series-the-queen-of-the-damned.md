@@ -1,6 +1,6 @@
 # The Queen of the Damned
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Akasha
 
 角色职责：central-antagonist · 身份：`identity-afa097c9cc33d558` · 独立版本：`profile-7ec512a2fe4b10d8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在推进统治方案时倾向专断强制，把拒绝者视作可消灭对象（行为推断；S29、S30）
 - **核心动机**：企图消灭绝大多数男性，建立由女性奉她为女神的新世界（摘要直接叙述；S29）
@@ -28,6 +34,10 @@
 ### Maharet
 
 角色职责：co-lead · 身份：`identity-73861dcbcf05c0cb` · 独立版本：`profile-0212302ada39b926`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：经历漫长分离后仍倾向持续守护后代，以亲缘维系自身行动（行为推断；S59、S60、S61）
 - **核心动机**：在与孪生姐妹分离期间，回去照看自己的女儿及其后代（摘要直接叙述；S60）

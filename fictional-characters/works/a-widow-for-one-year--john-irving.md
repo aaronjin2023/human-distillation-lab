@@ -1,6 +1,6 @@
 # A Widow For One Year
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 14, 1998. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ruth Cole
 
 角色职责：protagonist · 身份：`identity-4df24678fc61c03b` · 独立版本：`profile-3f87138018b832fe`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在小说研究中，她倾向深入陌生环境并细致观察具体经验。（行为推断；S16、S18、S22）
 - **核心动机**：她进入阿姆斯特丹红灯区，是为了给下一部小说收集材料。（摘要直接叙述；S16）
@@ -29,6 +35,10 @@
 ### Ted Cole
 
 角色职责：major-support · 身份：`identity-c4c5141b102e3ef5` · 独立版本：`profile-5efd5cebac793a90`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婚姻与监护权争夺中，他倾向预先布局并操纵他人弱点。（行为推断；S7、S10、S11）
 - **核心动机**：他希望诱使Marion出轨，从而提高自己取得女儿监护权的机会。（摘要直接叙述；S7、S10）

@@ -1,6 +1,6 @@
 # 斗破苍穹
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：公开报道截至2026年称实体书累计销量超300万册，另报全网阅读量近100亿次；分别保留，不混算为销售。
 [依据来源](https://finance.sina.com.cn/wm/2026-06-29/doc-iniezxce7086450.shtml) · 新浪财经转载的行业/版权报道；线上阅读量是点击口径，不是销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 萧炎
 
 角色职责：protagonist · 身份：`identity-cebf4d41cecf93b8` · 独立版本：`profile-be34668723e49676`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受辱与家族遇袭的处境中，倾向主动迎战且容易受愤怒驱动（行为推断；S10、S19、S20、S22）
 - **核心动机**：前期力求回应退婚羞辱，后来持续为父亲与师父的遭遇抗争（行为推断；S10、S29、S30、S35）
@@ -28,6 +34,10 @@
 ### 药老
 
 角色职责：major-support · 身份：`identity-a1d3b7eaf39c57cf` · 独立版本：`profile-600ff322274c3fd1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在收徒传授功法的情境中，倾向以实质性资源扶持后辈成长（行为推断；S11、S12）
 - **核心动机**：在师徒合作中倾向帮助萧炎提升实力，以传授焚诀支持其修炼（行为推断；S11、S12、S17）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### William of Baskerville
 
 角色职责：protagonist · 身份：`identity-6235030d9a81a129` · 独立版本：`profile-42fd9a04de10456f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他面对连环死亡仍持续调查，重视推理与查证。（行为推断；S4、S10、S33、S35）
 - **核心动机**：他受命查明修道院死亡事件，并追索被隐藏的书籍。（摘要直接叙述；S4、S12、S24、S26）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-c7fc703f4d901222` · 独立版本：`profile-967774b17b8c539b`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在调查禁书的情境中，他表现出主动探查禁地的倾向。（行为推断；S10、S15、S33）
 - **核心动机**：他持续参与禁书调查，表现出协助William追索秘密的意愿。（行为推断；S10、S26、S33）
 - **情绪反应**：与村中女子发生关系后，他向William忏悔却仍感到内疚。（摘要直接叙述；S17、S18）
@@ -34,6 +44,10 @@
 ### Jorge of Burgos
 
 角色职责：central-antagonist · 身份：`identity-2dd0ce77ed08d324` · 独立版本：`profile-1e554d96efabd14a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他以严厉的教义确信压制笑声与知识带来的挑战。（行为推断；S5、S43、S44）
 - **核心动机**：他要守住禁书，阻止僧侣阅读讨论笑声的亚里士多德著作。（行为推断；S38、S43）

@@ -1,6 +1,6 @@
 # The Shadow Rising
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：co-lead · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-0bcac259e37f3c1f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对领袖资格争议时，倾向正面提出证据并主动压住局势（行为推断；S45、S46、S47）
 - **核心动机**：前往艾伊尔荒漠，是为取得其预言领袖身份的正式承认（摘要直接叙述；S22）
@@ -28,6 +34,10 @@
 ### Perrin Aybara
 
 角色职责：co-lead · 身份：`identity-5628a4c87db4e593` · 独立版本：`profile-8cc317a2d1c85ede`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：家乡受威胁时倾向集结各方力量，在危机中主动承担领导（行为推断；S56、S58、S59）
 - **核心动机**：获知双河地区出事后返乡，希望应对威胁并保卫故土（行为推断；S28、S56、S58）

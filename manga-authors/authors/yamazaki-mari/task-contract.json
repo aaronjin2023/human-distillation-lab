@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "yamazaki-mari",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮重点为《続テルマエ・ロマエ 第3卷》的公开封面／主视觉及对应书目；旧作品研究另留在 archive 初稿，不能把不同时期合成固定画风。下列绘画方案为本库原创转译，封面观察不证明连续内页的分镜规律。",
+  "recent_focus": {
+    "work": "続テルマエ・ロマエ 第3卷",
+    "year": 2026,
+    "source_ids": [
+      "RECENT1",
+      "RECENT2"
+    ],
+    "date_basis": "集英社商品页正文明确纸本与数字版均 2026-10-02 首发；2026 为续作第3卷首次出版年，不混原《テルマエ・ロマエ》或译本年；封面原画日期未核。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Thermae Romae, Vol. 1 | Manga | Yen Press",
+      "url": "https://yenpress.com/titles/9780316229197-thermae-romae-vol-1",
+      "publisher": "Yen Press",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社列Mari Yamazaki为作者，故事为罗马建筑师在古代浴场与现代日本之间的文化误读。"
+      ],
+      "access_note": "早期研究对照：实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "context": "historical_reference",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Thermae Romae Vol.I英译封面：官方公开图像",
+      "url": "https://yenpress.com/uploads/preview/9780316232227/single/001.jpg",
+      "publisher": "Yen Press",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "封面近正面的雕塑式人体用密集细线塑造肌肉体面，石牌横遮中段，红布是几乎唯一强彩色；大片白底使写实明暗与幽默器物并置。只观察封面，不推断内页都使用该密度。"
+      ],
+      "access_note": "早期研究对照：从公开页面 https://yenpress.com/titles/9780316229197-thermae-romae-vol-1 的HTML明确提取图像URL，下载到自有/tmp后实际通过view_image查看。定位：Thermae Romae Vol.I英译封面。仅查看这一封面/展示图，未阅读内页；未将HTML alt当作视觉证据。",
+      "origin_page_url": "https://yenpress.com/titles/9780316229197-thermae-romae-vol-1",
+      "observed_asset_sha256": "0bf4b8ff89904a75990f8b31d9a12230a809c380df6c6a5b8b3b0e1d59e52683",
+      "context": "historical_reference",
+      "evidence_type": "inspected-visual",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT1",
+      "title": "続テルマエ・ロマエ 第3卷：官方书目／项目页",
+      "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-792625-5",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "所选作品署名与版本范围",
+        "集英社商品页正文明确纸本与数字版均 2026-10-02 首发；2026 为续作第3卷首次出版年，不混原《テルマエ・ロマエ》或译本年；封面原画日期未核。"
+      ],
+      "access_note": "本轮核对公开书目／项目文字；时间含义见date_basis，不表示通读作品。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT2",
+      "title": "続テルマエ・ロマエ 第3卷：已观察的公开图像",
+      "url": "https://dosbg3xlm0x1t.cloudfront.net/images/items/9784087926255/240/9784087926255.jpg",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定单幅公开图像的形体、线条、色块与构图观察"
+      ],
+      "access_note": "实际通过图像工具查看此公开封面／主视觉，未观察整卷内页；周围排版、字体与出版设计不自动归作者。",
+      "origin_page_url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-792625-5",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看第3卷官方封面缩略图：上下两个人物面部裁切构成叠层，厚重眉弓和鼻部阴影清楚，胡须、发丝与脸部排线密度不同；整体彩度极低，书名与侧边灰黑形成强版面。仅240像素书影，不能推定细排线工序或内页对话节奏。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "集英社商品页正文明确纸本与数字版均 2026-10-02 首发；2026 为续作第3卷首次出版年，不混原《テルマエ・ロマエ》或译本年；封面原画日期未核。；署名分工：漫画作者：ヤマザキマリ；本次为续作，不是原作新装版",
+      "basis": "source_summary",
+      "source_ids": [
+        "RECENT1"
+      ]
+    },
+    {
+      "text": "实际查看第3卷官方封面缩略图：上下两个人物面部裁切构成叠层，厚重眉弓和鼻部阴影清楚，胡须、发丝与脸部排线密度不同；整体彩度极低，书名与侧边灰黑形成强版面。仅240像素书影，不能推定细排线工序或内页对话节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看第3卷官方封面缩略图：上下两个人物面部裁切构成叠层，厚重眉弓和鼻部阴影清楚，胡须、发丝与脸部排线密度不同；整体彩度极低，书名与侧边灰黑形成强版面。仅240像素书影，不能推定细排线工序或内页对话节奏。",
+      "observation": "实际查看第3卷官方封面缩略图：上下两个人物面部裁切构成叠层，厚重眉弓和鼻部阴影清楚，胡须、发丝与脸部排线密度不同；整体彩度极低，书名与侧边灰黑形成强版面。仅240像素书影，不能推定细排线工序或内页对话节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "RECENT2"
+  ],
+  "editorial_recipe": {
+    "line": "成年骨面用明确线与短排线组织，发须较密、额面较疏；低分辨封面不足推断精确笔刷。",
+    "shapes": "眉弓、鼻梁、下颌与颈部有自然厚度，体块不能被大量皱纹取代。",
+    "composition": "灰白大面与小深块形成阅读秩序，裁切叠层服从用户版式，不自动增加第二人物。",
+    "panel_rhythm": "原创迁移建议：对话信息与细小表情反应交替，关键说明留清晰视线；未把封面当内页节奏证据。",
+    "tonal_design": "额面留亮、骨面中灰、毛发和深衣合黑，排线疏密随面变化而非均匀铺灰。",
+    "environment": "保持既定场景，以较少结构线交代空间，不自动添加古代建筑、浴场或历史身份。",
+    "acting": "眼睑、眉弓与嘴型差异表达态度，成年骨面稳定后再夸张局部反应。",
+    "color": "本次封面以极低彩灰白为主；彩色转译建议采用低彩暖灰与极少赭色，非原作固定色板。"
+  },
+  "steps": [
+    "先以本项目故事画三张小构图，应用：灰白大面与小深块形成阅读秩序，裁切叠层服从用户版式，不自动增加第二人物。",
+    "确认成年人物和原创衣物的结构：眉弓、鼻梁、下颌与颈部有自然厚度，体块不能被大量皱纹取代。 再核对手与道具接触。",
+    "按材质分层落线：成年骨面用明确线与短排线组织，发须较密、额面较疏；低分辨封面不足推断精确笔刷。 环境处理：保持既定场景，以较少结构线交代空间，不自动添加古代建筑、浴场或历史身份。",
+    "最后以灰阶缩图核对：额面留亮、骨面中灰、毛发和深衣合黑，排线疏密随面变化而非均匀铺灰。 彩色版再应用：本次封面以极低彩灰白为主；彩色转译建议采用低彩暖灰与极少赭色，非原作固定色板。"
+  ],
+  "checks": [
+    "缩至缩略图时，主动作和手中物是否仍先于装饰可见？",
+    "人物结构与所选处理是否兼容：眉弓、鼻梁、下颌与颈部有自然厚度，体块不能被大量皱纹取代。",
+    "灰阶检查能否区分脸、手、衣物与背景：额面留亮、骨面中灰、毛发和深衣合黑，排线疏密随面变化而非均匀铺灰。",
+    "用于连续页时，是否保持原故事人数、动作顺序、服装与道具方向？"
+  ],
+  "sheet_traits_zh": "成年眉弓鼻梁下颌分面明确，静态头颈有厚度；短排线集中转折和毛发，额面留白，深衣黑块完整。",
+  "avoid": [
+    "把这张封面的观察当成整部作品、所有时期或全部分镜的定律。",
+    "把原封面人物、专属服饰、标志和签名带入原创角色；或把书封排版视为作者本人绘画。"
+  ],
+  "unknowns": [
+    "本轮新阶段视觉观察限所列单图；未逐章核内页节奏、助手分工和长期画风变化。",
+    "原版出版或项目发布年份不等于每一笔原稿的绘制日期；具体日期边界见recent_focus。",
+    "本库8维方案、步骤和提示词属于原创转译，尚未用真实生成图验证一致性。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

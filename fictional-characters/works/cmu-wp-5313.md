@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jen Yu
 
 角色职责：protagonist · 身份：`identity-f31e35e7a377f08a` · 独立版本：`profile-6253385bbc7082e0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争取行动自主时，表现出强烈好胜且难以接受他人约束的倾向（行为推断；S7、S15、S26、S27、S28）
 - **核心动机**：面对包办婚姻，渴望冒险并羡慕Shu Lien的女侠生活（摘要直接叙述；S7）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-dbc83546556c2fa0` · 独立版本：`profile-8ed426048b75b155`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在面对相互爱慕的友人时，起初表现出克制且压抑表达的倾向（行为推断；S3、S4）
 - **核心动机**：赠出随身宝剑的明确意图，是结束自己作为武人的生活（摘要直接叙述；S5）
 - **关系模式**：与Shu Lien互有感情，却长期未承认或付诸行动（摘要直接叙述；S4）
@@ -44,6 +54,10 @@
 ### Yu Shu Lien
 
 角色职责：co-lead · 身份：`identity-5ff0e84992854027` · 独立版本：`profile-ec020d59f34ab27d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在占据决斗优势时，表现出能够克制杀伤并向对手留情的倾向（行为推断；S27、S28）
 - **核心动机**：在宝剑失窃后，倾向承担追回受托之物并查明线索的责任（行为推断；S5、S8、S9）

@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-01",
+  "scope": "R06 readable card integrity and R08 loadable task constraints; local structural/source-binding tests only",
+  "status": "passed",
+  "baseline": {
+    "works": 1000,
+    "profiles": 2257,
+    "identities": 1829,
+    "trait_claims": 10222,
+    "hashed_cards": 1000,
+    "constraint_claims": 4,
+    "profiles_with_constraints": 1,
+    "other_profiles_constraint_categories_unknown": 2256
+  },
+  "checks": [
+    {
+      "case": "full_isolated_baseline_1000",
+      "passed": true
+    },
+    {
+      "case": "existing_card_body_deleted",
+      "rejected": true,
+      "reason": "Readable card differs from reviewed data: cmu-wp-4213154"
+    },
+    {
+      "case": "damaged_card_rehashed_into_receipt",
+      "rejected": true,
+      "reason": "Readable card differs from reviewed data: cmu-wp-4213154"
+    },
+    {
+      "case": "protected_body_constraint_changed",
+      "rejected": true,
+      "reason": "Readable card differs from reviewed data: cmu-wp-4213154"
+    },
+    {
+      "case": "missing_card",
+      "rejected": true,
+      "reason": "Missing or extra readable card"
+    },
+    {
+      "case": "unexpected_card",
+      "rejected": true,
+      "reason": "Missing or extra readable card"
+    },
+    {
+      "case": "loaded_profile_loses_body_constraint",
+      "rejected": true,
+      "reason": "Missing or modified loaded task constraints"
+    },
+    {
+      "case": "constraint_not_bound_to_existing_version",
+      "rejected": true,
+      "reason": "Unknown/duplicate constraint profile"
+    },
+    {
+      "case": "constraint_excerpt_not_in_source",
+      "rejected": true,
+      "reason": "Constraint excerpt not in cited source"
+    }
+  ],
+  "historical_profile_fields_preserved": true,
+  "unchanged_artifacts": [
+    "works.jsonl",
+    "evidence.jsonl",
+    "identities.jsonl",
+    "CATALOG.md",
+    "verification/model-batches.json"
+  ],
+  "commands": [
+    "python3 scripts/distill_characters.py self-test",
+    "python3 scripts/build_characters.py self-test",
+    "python3 scripts/build_characters.py build",
+    "python3 scripts/build_characters.py validate --complete"
+  ],
+  "inputs": {
+    "scripts/build_characters.py": "d028e2a57ba9ac5c0079965f49d6bf07be4f50f47ab032a47701b0bc87025c3d",
+    "scripts/distill_characters.py": "a6796453ce80b0def6d1f5c8b635dfee2d3523563829342df0a52c0e909c47cb",
+    "fictional-characters/task-constraints.jsonl": "ea8c85198a35c5547ecec3c3219f260c06a6478a9bb27493c2f0f15f9ccc4040",
+    "fictional-characters/task-constraints.schema.json": "c77c3c8dd787d9489620c03004f80d202ae386854437525e3a255c79cd02d0d5",
+    "fictional-characters/characters.jsonl": "89a26d5558a8e5f100cccb8a507c0dabd5eb29ec840b17d13b73e2484e85e9b2",
+    "fictional-characters/verification/build.json": "03a95332bd0e0b6d0fcf240fcda531c8009ff9afe655516988e00e1cc4e00864"
+  },
+  "limits": [
+    "Only Todd task constraints received targeted source-grounded local review; no exhaustive source reread.",
+    "Existing traits preserved; numeric dimension coverage is not semantic independence or task sufficiency.",
+    "No 1000-work LLM redistillation, paid API, image generation, real character simulation, service implementation, commit or push.",
+    "Render/hash checks detect export drift; not a semantic proof of source claims or model obedience.",
+    "Historical final-checks and model-batches receipts retain their original scope."
+  ]
+}

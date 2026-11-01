@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Elena Greco
 
 角色职责：co-lead · 身份：`identity-07a444e7e47689cf` · 独立版本：`profile-bf9a00f43cc4b4d7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在与莉拉比较时，倾向以勤奋追赶回应钦佩和自我压力（行为推断；S7、S10、S11）
 - **核心动机**：受到莉拉才华的激励，努力提升自己以跟上朋友的步伐（摘要直接叙述；S10、S11）
@@ -28,6 +34,10 @@
 ### Raffaella Cerullo
 
 角色职责：co-lead · 身份：`identity-5f65ccdc1dd061aa` · 独立版本：`profile-2fbc716012e6347e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭与街区权势施压时，呈现反抗安排并坚持己见的倾向（行为推断；S16、S24）
 - **核心动机**：在父亲鞋店工作时，希望通过设计新式鞋履让家人富裕起来（摘要直接叙述；S21、S22）

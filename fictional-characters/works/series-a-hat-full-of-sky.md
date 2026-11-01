@@ -1,6 +1,6 @@
 # A Hat Full of Sky
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiffany Aching
 
 角色职责：protagonist · 身份：`identity-7277dfe86e1cccf7` · 独立版本：`profile-104a57776acdb26e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对必须处理的hiver，最终倾向以接纳和帮助化解威胁（行为推断；S40、S47、S48、S49）
 - **核心动机**：摆脱附身之后，仍认为必须主动处理hiver带来的危险（摘要直接叙述；S37、S40）
@@ -28,6 +34,10 @@
 ### Granny Weatherwax
 
 角色职责：major-support · 身份：`identity-6bec297fb3d8e9f3` · 独立版本：`profile-63150131a0c1685c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对学徒的恐惧，倾向保持坚定而不替她完成全部考验（行为推断；S46）
 - **价值取舍**：在指导Tiffany时，倾向把独立面对问题视为成长所需（行为推断；S46）

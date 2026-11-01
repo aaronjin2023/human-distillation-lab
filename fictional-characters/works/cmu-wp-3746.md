@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rick Deckard
 
 角色职责：protagonist · 身份：`identity-e16ba0933316a7bc` · 独立版本：`profile-ed698fce794725e1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在侦查情境中，倾向依靠细小物证耐心追索目标（行为推断；S15）
 - **核心动机**：重返追捕工作主要出于上司威胁，而非主动请缨（摘要直接叙述；S6、S7）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-c3d18d3b2eed3edf` · 独立版本：`profile-fa9f2b0c7522dbae`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对寿命限制时，表现出强烈抗争和主动求解的倾向（行为推断；S10、S22）
 - **核心动机**：突破制造者设定的寿命，争取继续生存的机会（摘要直接叙述；S22）
 - **决策方式**：为接近戒备森严的制造者，先逼问线索再借人引路（摘要直接叙述；S10、S11、S22）
@@ -44,6 +54,10 @@
 ### Rachael
 
 角色职责：co-lead · 身份：`identity-98d172946e606750` · 独立版本：`profile-a2f266e69e5790a4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：身份受到质疑时，倾向主动寻找证据维护自我认知（行为推断；S12）
 - **核心动机**：试图以家庭照片证明人类身份，保住原有身世认同（摘要直接叙述；S12、S13）

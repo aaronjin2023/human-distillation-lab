@@ -1,6 +1,6 @@
 # Bury Our Bones in the Midnight Soil
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 29, 2025. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### María
 
 角色职责：co-lead · 身份：`identity-4343dd9e693bd1e4` · 独立版本：`profile-b2b996772b505f60`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受限处境中，她表现出强烈自主倾向，并以逃离争取自由。（行为推断；S20、S23、S27）
 - **核心动机**：她想避免怀孕、摆脱丈夫控制，并获得自由。（摘要直接叙述；S2、S12、S20）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-c0579e1b51065a5d` · 独立版本：`profile-ae9bcfdff4fac375`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在伴侣接连被萨宾杀害后，她倾向回避持久的亲密关系。（行为推断；S63、S64）
 - **价值取舍**：目睹萨宾屠杀一家人后，她倾向将道德反感置于旧情之上。（行为推断；S51、S54、S55）
 - **关系模式**：她对萨宾不加伤害的承诺，后来成为无法反击对方的束缚。（摘要直接叙述；S52、S55）
@@ -42,6 +52,10 @@
 ### Alice
 
 角色职责：protagonist · 身份：`identity-8306316c2daa43bc` · 独立版本：`profile-9db5b88b319d53e6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，她从羞怯迷惘转向愤怒，并主动追索转化真相。（行为推断；S38、S40、S66、S69）
 - **核心动机**：她急于找到洛蒂，弄清自己为何变成吸血鬼及能否恢复原状。（行为推断；S39、S40、S66）

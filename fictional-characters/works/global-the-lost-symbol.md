@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Robert Langdon
 
 角色职责：protagonist · 身份：`identity-710cf6abca59cabf` · 独立版本：`profile-70c5a769fc27554f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在反复遭遇胁迫后，仍倾向投入行动而不放弃救援（行为推断；S30、S31、S35、S36、S40）
 - **核心动机**：参与危险解谜的核心牵引，是救出遭绑架的导师彼得（行为推断；S3、S6、S13、S36）
@@ -23,6 +29,10 @@
 ### Peter Solomon
 
 角色职责：major-support · 身份：`identity-8eec31965b1b31b7` · 独立版本：`profile-ef1fb2fb046a57b7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭责任冲突中，倾向坚持原则却难以割舍亲情（行为推断；S17、S39、S40）
 - **价值取舍**：处理儿子入狱时，他重视承担后果而非用财富消除惩罚（行为推断；S17）
@@ -38,6 +48,10 @@
 ### Mal'akh
 
 角色职责：central-antagonist · 身份：`identity-23f71069bd8074f6` · 独立版本：`profile-ff6dc92c4dff6b77`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追逐秘密力量时，倾向以操控和残酷胁迫支配他人（行为推断；S6、S30、S32、S33）
 - **核心动机**：渴望取得古老力量，并相信献祭能使自己成为邪恶灵体（摘要直接叙述；S15、S38）

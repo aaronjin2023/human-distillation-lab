@@ -1,6 +1,6 @@
 # Winter of the World
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 7, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Carla von Ulrich
 
 角色职责：co-lead · 身份：`identity-b2b60e1abfe5f566` · 独立版本：`profile-7679123f46a81daf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在制度排斥与战争暴力中，倾向坚韧行动并保护弱者（行为推断；S7、S8、S9、S11）
 - **核心动机**：父亲遭杀害后投入抵抗，以实际协助对抗纳粹统治（行为推断；S8）
@@ -23,6 +29,10 @@
 ### Daisy Peshkov
 
 角色职责：co-lead · 身份：`identity-d4ca83ab74cbdbab` · 独立版本：`profile-2d574f2a9d9404b5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：早期既向往上流社会的认可，也保有善良待人的一面（摘要直接叙述；S26）
 - **核心动机**：遭本地上流社会排斥后，试图通过英国贵族婚姻获得接纳（行为推断；S27）
@@ -38,6 +48,10 @@
 ### Vladimir Peshkov
 
 角色职责：co-lead · 身份：`identity-26262cd393dad24d` · 独立版本：`profile-33905692d66384e7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：目睹斯大林镇压后，倾向重新审视自己原有的政治信念（行为推断；S39）
 - **核心动机**：在战时情报工作中，以获取军事及核技术秘密服务苏联（行为推断；S37、S38）

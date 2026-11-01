@@ -1,6 +1,6 @@
 # Cold Vengeance
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 21, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Pendergast
 
 角色职责：protagonist · 身份：`identity-16b7c29abb7231f8` · 独立版本：`profile-cdb82fe9d52f16a8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追查妻子遭遇时呈现强烈执着，面对相反检验结果仍不放弃（行为推断；S2、S26、S30）
 - **核心动机**：决意追究所有涉案者，并在怀疑妻子生还后持续寻找她（摘要直接叙述；S2、S26、S32、S53）
@@ -27,6 +33,10 @@
 ### Esterhazy
 
 角色职责：central-antagonist · 身份：`identity-4c793075af6b2f76` · 独立版本：`profile-20b29e6e5918b198`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在敌对行动中倾向欺骗与利用他人，必要时以无辜者作筹码（行为推断；S35、S36、S37、S48）
 - **核心动机**：面临组织威胁时把自保置于服从之上，转而杀死同伙求生（摘要直接叙述；S45）

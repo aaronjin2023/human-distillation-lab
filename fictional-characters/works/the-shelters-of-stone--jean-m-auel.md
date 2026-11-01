@@ -1,6 +1,6 @@
 # The Shelters of Stone
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 19, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ayla
 
 角色职责：protagonist · 身份：`identity-276987299f965d6e` · 独立版本：`profile-4a23716cb3094442`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对族群偏见时倾向主动介入并为弱者争取照料（行为推断；S12、S13）
 - **核心动机**：希望被族人承认为治疗者而接受灵性学徒身份（摘要直接叙述；S19）
@@ -28,6 +34,10 @@
 ### Zelandoni
 
 角色职责：major-support · 身份：`identity-1bdb98459fa3436f` · 独立版本：`profile-7827b5744873f4e7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对外来治疗者时倾向开放接纳并发现其贡献（行为推断；S10、S11）
 - **核心动机**：希望通过吸纳艾拉让洞穴群体接受她的医术（摘要直接叙述；S11）

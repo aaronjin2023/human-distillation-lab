@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "fuzichoco",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮主要视觉研究限定于藤ちょこ画集 祝彩巡礼（2025）封面；仅核公开封面／宣传图及明示样图。其余履历来源只证明职业与署名，不借动画成片代替个人画作。八维配方、步骤、评审与提示词均为本库原创技法转译，不是本人逐笔规则。",
+  "recent_focus": {
+    "work": "藤ちょこ画集 祝彩巡礼（2025）封面",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "对应出版社记录的书籍／宣传发布日期；不将作品集出版年当成全部收录画作的创作年，也不声称是2026最新画风。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "藤ちょこ画集 祝彩巡礼",
+      "url": "https://www.kadokawa.co.jp/product/322502000275/",
+      "publisher": "KADOKAWA",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "2025年5月21日作品集，192页纸版",
+        "官方出版页明确鲜明色彩、细线与幻想世界的组合，为2025新样本。"
+      ],
+      "access_note": "实际web检索或打开所列官方／出版社供稿页面；本轮候选阶段不声称已看作品图像或读画集内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "藤ちょこ画集 祝彩巡礼（2025）封面：官方封面／宣传图",
+      "url": "https://cdn.kdkw.jp/cover_1000/322502/322502000275.webp",
+      "publisher": "KADOKAWA",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "封面人物偏右居中，浅色多层服装和花样饰物被红紫蓝的大量建筑、带状图案围绕；前方多条斜带穿过下半幅，但人物脸颈仍呈浅色小焦点。只观察封面构成，不推断内部绘制流程。"
+      ],
+      "access_note": "从已核定官方页面 https://www.kadokawa.co.jp/product/322502000275/ 的HTML提取实际图像URL，临时保存至/tmp并通过view_image查看。只核这张图；没有下载图片入库，没有将页面alt当视觉观察。",
+      "origin_page_url": "https://www.kadokawa.co.jp/product/322502000275/",
+      "observed_asset_sha256": "d43d2d5623e05e71aecb9d6768c07786edefa625575c12dbc9e99ed8d57c098b",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面人物偏右居中，浅色多层服装和花样饰物被红紫蓝的大量建筑、带状图案围绕；前方多条斜带穿过下半幅，但人物脸颈仍呈浅色小焦点。只观察封面构成，不推断内部绘制流程。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "2025年5月21日作品集，192页纸版",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面人物偏右居中，浅色多层服装和花样饰物被红紫蓝的大量建筑、带状图案围绕；前方多条斜带穿过下半幅，但人物脸颈仍呈浅色小焦点。只观察封面构成，不推断内部绘制流程。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "封面人物偏右居中，浅色多层服装和花样饰物被红紫蓝的大量建筑、带状图案围绕；前方多条斜带穿过下半幅，但人物脸颈仍呈浅色小焦点。只观察封面构成，不推断内部绘制流程。",
+      "observation": "封面人物偏右居中，浅色多层服装和花样饰物被红紫蓝的大量建筑、带状图案围绕；前方多条斜带穿过下半幅，但人物脸颈仍呈浅色小焦点。只观察封面构成，不推断内部绘制流程。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "细线分组刻画装饰，主体外缘在繁密线中保持连续",
+    "shapes": "成人胸腰先由完整体块建立，再叠加宽布与小配件",
+    "composition": "同一主体周围用大小相间色面引导视线，脸颈是少量安静浅区",
+    "panel_rhythm": "本库原创建议：完整色域、局部工艺、面部停顿、整体再读，密格之间留疏格",
+    "tonal_design": "饱和暗色归并为几组，白衣和皮肤不被细纹填满",
+    "environment": "环境细节按层级减量，装饰不能每个都用最强对比",
+    "acting": "眼神与头部角度克制，复杂服饰之外手势仍必须可读",
+    "color": "本库建议红紫、青蓝和暖白分三组，焦点小面积亮色，避免复制具体纹章"
+  },
+  "steps": [
+    "先按既定人物与道具搭静态体块：成人胸腰先由完整体块建立，再叠加宽布与小配件；检查同一人物辨识点。",
+    "用三阶缩略图确定主次：同一主体周围用大小相间色面引导视线，脸颈是少量安静浅区，再落实饱和暗色归并为几组，白衣和皮肤不被细纹填满。",
+    "按材质分层描线：细线分组刻画装饰，主体外缘在繁密线中保持连续；检查环境细节按层级减量，装饰不能每个都用最强对比。",
+    "最后校对表演与色域：眼神与头部角度克制，复杂服饰之外手势仍必须可读；按“本库建议红紫、青蓝和暖白分三组，焦点小面积亮色，避免复制具体纹章”做原创小色稿，连续页采用独立节奏建议。"
+  ],
+  "checks": [
+    "复杂色域是否归入可辨的红紫、青蓝、暖白层级？",
+    "装饰减半后成人胸腰与服装层次是否仍成立？",
+    "浅色脸颈是否有安静区，未被全部花纹穿过？"
+  ],
+  "sheet_traits_zh": "细线分组刻画装饰，成人胸腰体块完整；宽布与配件分层，深色归并数块，白衣皮肤少纹，材质边缘轻重有别。",
+  "avoid": [
+    "每个装饰都使用最高饱和度和最硬边，主次消失。",
+    "先堆满花纹再补身体，宽衣中的成人胸腰结构不成立。"
+  ],
+  "unknowns": [
+    "只核本条明示公开图像，没有通读完整画集或逐年比较全部时期；未承诺精确复刻。",
+    "作者原始上色与出版物装帧、文字、印刷呈色未逐项拆分，因此背景排版和标题字体不视为个人固定风格。",
+    "原创技法转译未通过真实生成样张验收；三视图只用sheet_traits_zh的静态特征，不能照搬封面透视。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

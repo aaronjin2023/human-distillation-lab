@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One reviewed character task-constraint supplement JSONL row",
+  "type": "object",
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "review_scope": {
+      "const": "cited-synopsis-only"
+    },
+    "constraints": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "enum": [
+              "identity",
+              "body",
+              "relationships",
+              "experience"
+            ]
+          },
+          "fact": {
+            "type": "string",
+            "minLength": 1
+          },
+          "task_rule": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_excerpt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "category",
+          "fact",
+          "task_rule",
+          "evidence_excerpt",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "profile_id",
+    "work_id",
+    "review_scope",
+    "constraints"
+  ],
+  "additionalProperties": false
+}

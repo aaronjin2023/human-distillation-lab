@@ -1,6 +1,6 @@
 # Marlfox
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Songbreeze Swifteye
 
 角色职责：protagonist · 身份：`identity-2171ee261ddcb182` · 独立版本：`profile-ffbada12875164e3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对院中珍宝被夺时，倾向主动承担追索而非留守等待（行为推断；S29、S34）
 - **核心动机**：与年轻同伴追踪莫坎，明确以夺回马丁挂毯为目标（摘要直接叙述；S29）
@@ -24,6 +30,10 @@
 ### Mokkan
 
 角色职责：central-antagonist · 身份：`identity-4a93e0a28cc34fcd` · 独立版本：`profile-406e3b28f28c1b36`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在利益与亲族发生冲突时，倾向优先保全自身并夺取优势（行为推断；S28、S36）
 - **核心动机**：回岛发现母亲被杀后，意图夺取王位并排除已掌权的姐妹（行为推断；S35、S36）

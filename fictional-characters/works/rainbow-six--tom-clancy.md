@@ -1,6 +1,6 @@
 # Rainbow Six
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 23, 1998. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Clark
 
 角色职责：protagonist · 身份：`identity-e12c605d7f5e9e94` · 独立版本：`profile-ff1d94bb8679e5d4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在连续危机中，他倾向主动整合力量并追查更深层的威胁。（行为推断；S2、S7、S19）
 - **核心动机**：他组织跨国反恐力量，致力于应对恐怖活动并阻断灭绝计划。（行为推断；S2、S17、S19）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-b7df8386cc079cf2` · 独立版本：`profile-eac8c61da89b6f7f`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在环保目标的驱动下，他倾向极端控制并自行筛选生存资格。（行为推断；S9、S11）
 - **核心动机**：他计划以消灭绝大多数人类的方式终止环境破坏。（摘要直接叙述；S9）
 - **价值取舍**：他把地球环境及少数继承者置于绝大多数人的生命之上。（行为推断；S9、S11）
@@ -44,6 +54,10 @@
 ### Dimitry Popov
 
 角色职责：major-support · 身份：`identity-6511d09cb58c921e` · 独立版本：`profile-ad3cec8f375e2b0f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在发现任务真相后，他表现出会因道德震动而改变阵营的倾向。（行为推断；S15、S16）
 - **情绪反应**：得知灭绝计划的完整规模后，他对自己无意协助的后果震惊。（摘要直接叙述；S15、S16）

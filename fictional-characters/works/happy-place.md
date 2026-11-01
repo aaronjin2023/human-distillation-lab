@@ -1,6 +1,6 @@
 # Happy Place
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 14, 2023. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harriet Kilpatrick
 
 角色职责：protagonist · 身份：`identity-9308fd9dc93b8c98` · 独立版本：`profile-067523f12a64626e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭与亲密关系中，倾向回避冲突并封闭自己的情绪。（摘要直接叙述；S21、S24）
 - **核心动机**：相信必须足够完美且有所成就，才能维系家庭完整。（摘要直接叙述；S22、S23）
@@ -28,6 +34,10 @@
 ### Wyndham Connor
 
 角色职责：co-lead · 身份：`identity-33d410018521053d` · 独立版本：`profile-97b077aa3a1faf45`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自我评价与关系压力下，倾向贬低自己并回避冲突。（摘要直接叙述；S30、S31）
 - **情绪反应**：常将自己与成就突出的姐妹比较，因此难以确认自身价值。（摘要直接叙述；S30）

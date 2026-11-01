@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Amir
 
 角色职责：protagonist · 身份：`identity-99dc151b6cde5197` · 独立版本：`profile-94cfae2c8e273f4d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：童年面对哈桑受害及其后果时，他表现出畏惧与回避的倾向。（行为推断；S13、S14、S15）
 - **核心动机**：童年受到父亲批评并嫉妒哈桑时，他显得格外渴望父亲的认可。（行为推断；S6、S10）
@@ -25,6 +31,10 @@
 
 角色职责：major-support · 身份：`identity-fe9f577938809e4b` · 独立版本：`profile-fa1e9c17200053fa`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对威胁时他表现出忠诚与勇敢，曾以弹弓挺身保护阿米尔。（行为推断；S8）
 - **核心动机**：为阿米尔追风筝后拒绝交出它，显示他在威胁下仍想保住这只风筝。（行为推断；S3、S11、S12）
 - **决策方式**：面对阿米尔的偷窃诬陷，他选择承认自己并未犯下的罪行。（摘要直接叙述；S15）
@@ -35,6 +45,10 @@
 ### Assef
 
 角色职责：central-antagonist · 身份：`identity-720b6a99ac198614` · 独立版本：`profile-540e1698e4b6e35a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：他对暴力抱有残酷兴趣，并以种族偏见嘲弄阿米尔与哈桑交往。（摘要直接叙述；S7）
 - **核心动机**：哈桑阻止他伤害阿米尔后，他怀恨在心并发誓报复。（摘要直接叙述；S8、S9）

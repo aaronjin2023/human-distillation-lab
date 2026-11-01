@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "lack",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦 2023 初次个展采访与现场左侧窗面主视觉；不把角色造型抄入新任务。",
+  "recent_focus": {
+    "work": "喫茶 珈琲紳士",
+    "year": 2023,
+    "source_ids": [
+      "S1"
+    ],
+    "date_basis": "采访发布 2023-07-12，记展览截至 2023-07-26；2023 指展览和采访发表年，展出旧作并非全部新绘。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "喫茶 珈琲紳士 官方介绍及作者访谈",
+      "url": "https://www.pixivision.net/ja/a/8838",
+      "publisher": "pixivision／pixiv WAEN GALLERY",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "项目署名与年份",
+        "公开方法说明"
+      ],
+      "access_note": "实际读取正文。已读关于轮廓、电影布光、沟通草图的问答段；不把采访改写成逐笔教学。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "已读采访中关于偏爱简单而有识别度的剪影、学习悬疑与科幻电影的强烈布光及切镜、会谈时用草图分享方案的问答。它支持轮廓与布光研究方向，不能证明每件作品都采取相同流程。"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "喫茶 珈琲紳士 官方公开图：采访开头展馆外观照片 112480669.jpg，左侧窗面宣传插画",
+      "url": "https://i.pximg.net/imgaz/upload/20230706/112480669.jpg",
+      "publisher": "pixivision／pixiv WAEN GALLERY",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅此公开图的线形、明暗、色彩与构图观察"
+      ],
+      "access_note": "由官方页面提取图片链接，实际下载至临时目录并通过图像工具查看。定位：采访开头展馆外观照片 112480669.jpg，左侧窗面宣传插画；不代表通读全册或检查原始图层。",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看现场照片左侧窗面主视觉：深色长衣与帽形构成完整剪影，人物被较亮的暖色空间衬托，少量青色和橙色分开深浅区域。因隔玻璃与现场摄影，只作有限色光观察。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "2023 采访确认首次个展约 120 幅，涵盖商业作品；个人公开署名 lack，采访中列有 TCG、游戏及虚拟角色设计工作。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "实际查看现场照片左侧窗面主视觉：深色长衣与帽形构成完整剪影，人物被较亮的暖色空间衬托，少量青色和橙色分开深浅区域。因隔玻璃与现场摄影，只作有限色光观察。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "text": "已读采访中关于偏爱简单而有识别度的剪影、学习悬疑与科幻电影的强烈布光及切镜、会谈时用草图分享方案的问答。它支持轮廓与布光研究方向，不能证明每件作品都采取相同流程。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看现场照片左侧窗面主视觉：深色长衣与帽形构成完整剪影，人物被较亮的暖色空间衬托，少量青色和橙色分开深浅区域。因隔玻璃与现场摄影，只作有限色光观察。",
+      "observation": "实际查看现场照片左侧窗面主视觉：深色长衣与帽形构成完整剪影，人物被较亮的暖色空间衬托，少量青色和橙色分开深浅区域。因隔玻璃与现场摄影，只作有限色光观察。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S1",
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "大轮廓要在暗部仍可辨，亮边用短而明确的线补足；内部笔触随面转折，不逐件描边。",
+    "shapes": "成年体型先定胸廓、骨盆和收束腰线，衣服外形有独立辨识度，不靠密集配件。",
+    "composition": "先选主光方向，让人物轮廓与背景亮区错开；既定物件只保留与主体有关的边。",
+    "panel_rhythm": "漫画转译建议：建立空间后切近表情或手部信息，保持光向一致；停顿长度按故事需求调整。",
+    "tonal_design": "把暗部合并为可读大块，留出少量中间灰说明衣料层叠，禁止靠满屏轮廓光补救。",
+    "environment": "环境有主次景深与冷暖层，亮区放在主体需要分离之处，不另造新地点。",
+    "acting": "肩颈状态和眼睛方向共同表现态度，手部形状服务既定动作，不套用样本手势。",
+    "color": "此展示图转译为暖光、青冷暗部与少量橙色材料；具体色温为本库建议，不归为作者固定流程。"
+  },
+  "steps": [
+    "先用剪影检查既定角色服装的辨识度。",
+    "选择一处主光与背景亮区，画灰度缩略图。",
+    "建立成年人体结构后分离厚布、皮革和皮肤明暗。",
+    "最后补眼部与接触边，检查不同镜头光向是否一致。"
+  ],
+  "checks": [
+    "遮住颜色后剪影是否仍可认？",
+    "主光与背景亮区是否帮助主体分离？",
+    "材质差异是否来自边缘和明暗而非多画纹样？"
+  ],
+  "sheet_traits_zh": "外轮廓完整而内线节制，静态成年胸廓与收腰体块明确；厚布暗块、皮革亮边和皮肤浅面各自成区。",
+  "avoid": [
+    "只学细腰与服饰，遗漏骨盆胸廓关系。",
+    "把每件配件都照亮导致失去主光。"
+  ],
+  "unknowns": [
+    "现场图有玻璃反射且分辨率有限；未把展馆内远处图片当作已读作品。",
+    "采访主要谈方法取向与职业经验，不提供完整逐层作画过程。",
+    "八维配方、步骤、评审及提示词为本库一般视觉技法的原创转译，不是作者本人规则；未进行生成验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

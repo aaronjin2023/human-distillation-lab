@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Batman
 
 角色职责：protagonist · 身份：`identity-8a9e8e464a744c51` · 独立版本：`profile-ad2772755105473d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被操纵和栽赃的危机中，倾向保持应变并寻找可反用的证据（行为推断；S18、S19）
 - **核心动机**：在城市接连遭袭时，以阻止绑架和大规模伤害为行动目标（行为推断；S13、S21、S22）
@@ -28,6 +34,10 @@
 
 角色职责：central-antagonist · 身份：`identity-91083df805a51f0f` · 独立版本：`profile-5bf928b63d1399b5`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在谋求社会地位时倾向操纵公众观感，失败后又迅速转为报复（行为推断；S4、S19）
 - **核心动机**：希望离开地下生活进入哥谭上层，并借政治机会扩张自身地位（行为推断；S3、S4、S8、S19）
 - **沟通方式**：对盟友使用犯罪把柄施压，对公众则用伪造的救人行动塑造形象（行为推断；S3、S4）
@@ -42,6 +52,10 @@
 ### Selina Kyle
 
 角色职责：co-lead · 身份：`identity-3726b626a2f3f931` · 独立版本：`profile-9074f6af9df6f735`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭老板谋害后的报复情境中，倾向主动反击并拒绝继续受其支配（行为推断；S5、S7、S26）
 - **核心动机**：成为猫女后把向施雷克复仇作为核心行动方向（摘要直接叙述；S7）

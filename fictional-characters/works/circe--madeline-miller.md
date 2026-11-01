@@ -1,6 +1,6 @@
 # Circe
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 29, 2018. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Circe
 
 角色职责：protagonist · 身份：`identity-5300791f89eb14a7` · 独立版本：`profile-eb6dfb12efa668dc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被排斥与流放的处境中表现出韧性，倾向发展自身能力（行为推断；S3、S13、S14）
 - **核心动机**：面对神明对儿子的威胁，强烈希望保障孩子成长与远行安全（行为推断；S29、S30、S31）
@@ -29,6 +35,10 @@
 ### Telegonus
 
 角色职责：major-support · 身份：`identity-13d1ca14ffaf9fdf` · 独立版本：`profile-0e48aa300d546694`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在离岛选择上表现出探索与独立倾向，不满足于受保护生活（行为推断；S31、S35）
 - **核心动机**：少年时期渴望与父亲建立联系，因此恳求母亲允许离岛（摘要直接叙述；S31）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Anne Welles
 
 角色职责：protagonist · 身份：`identity-7e5451c071e63e26` · 独立版本：`profile-785308a120ab7af0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：她在此情境中重视个人选择，即使深爱里昂仍拒绝回乡生活。（行为推断；S14、S15）
 - **核心动机**：她离开马萨诸塞州的家乡前往纽约，明确是为了摆脱沉闷生活。（摘要直接叙述；S2）
@@ -25,6 +31,10 @@
 
 角色职责：co-lead · 身份：`identity-618e57ccc7ea6f2e` · 独立版本：`profile-045305dd3795e3ee`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在工作与婚姻压力下，她表现出易怒和以离场应对困境的倾向。（行为推断；S25）
 - **核心动机**：她追求舞台与银幕事业，接受重返演出以重启职业生涯。（摘要直接叙述；S3、S13、S28、S29）
 - **决策方式**：她无法承受排练要求，曾以过量服药逃避演出，后来又远走欧洲。（摘要直接叙述；S30、S31）
@@ -36,6 +46,10 @@
 ### Jennifer North
 
 角色职责：major-support · 身份：`identity-7ebcc55c2737f124` · 独立版本：`profile-de13029b6e473c4a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：她在此情境中渴望被当作完整的人珍爱，而不只因外貌受到关注。（行为推断；S10、S34、S36）
 - **核心动机**：与年长参议员订婚时，她期待结婚生子，并相信自己得到超越外貌的爱。（摘要直接叙述；S34）

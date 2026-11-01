@@ -1,6 +1,6 @@
 # 活着
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：中国作家网文章称截至2023年销量超过2000万册；属作品累计销量报道。
 [依据来源](https://www.chinawriter.com.cn/n1/2024/0222/c404030-40181661.html) · 中国作家网刊载《小说评论》文章；销量为该文转述口径。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 徐福贵
 
 角色职责：protagonist · 身份：`identity-e90f057a5e348cd3` · 独立版本：`profile-39ac0acf7675a409`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在晚年接连丧亲的处境中，倾向承受苦难并继续维持生活（行为推断；S5、S31、S32、S33、S35）
 - **核心动机**：晚年的生存不再依赖宏大目标，而被概括为单纯为了活着（摘要直接叙述；S33）
@@ -28,6 +34,10 @@
 ### 陈家珍
 
 角色职责：major-support · 身份：`identity-e46ba9a6ed93eb4f` · 独立版本：`profile-9c0ba02c4fca551f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丈夫戒赌后的共同困境中，倾向坚韧承担而少有抱怨（行为推断；S45、S46）
 - **决策方式**：对婚姻去留并非始终被动忍受，确认丈夫戒赌后才返回（行为推断；S44、S45）

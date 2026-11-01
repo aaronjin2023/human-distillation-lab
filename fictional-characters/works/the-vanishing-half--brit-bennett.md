@@ -1,6 +1,6 @@
 # The Vanishing Half
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 21, 2020. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Estelle Vignes
 
 角色职责：co-lead · 身份：`identity-ad9e2fd12b151bef` · 独立版本：`profile-c4a6072cdd8d2b6b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在身份可能暴露的情境中倾向隐瞒与退避以求自保（行为推断；S14、S15、S27）
 - **核心动机**：最初借白人身份争取工作，随后持续维护已建立的生活（摘要直接叙述；S9、S12、S14）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-ed331fca36f6cab8` · 独立版本：`profile-630efc9c19fde30e`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对受限或受虐处境时，表现出主动离开的倾向（行为推断；S5、S8、S17）
 - **核心动机**：在婚姻受虐后倾向带女儿脱离伤害，重新安顿生活（行为推断；S17）
 - **情绪反应**：孪生姐妹不告而别，使她陷入强烈的失落与心碎（摘要直接叙述；S2、S10、S11）
@@ -39,6 +49,10 @@
 ### Jude
 
 角色职责：co-lead · 身份：`identity-df97f84411d9414d` · 独立版本：`profile-71e4e6e6a182197f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系中表现出愿意付诸实际行动支持对方的倾向（行为推断；S21、S28）
 - **核心动机**：通过餐饮兼职帮助里斯积攒手术费用，支持伴侣目标（摘要直接叙述；S21）

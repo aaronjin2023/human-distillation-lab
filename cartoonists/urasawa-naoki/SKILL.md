@@ -27,3 +27,7 @@
 ## 基本资料与筛选
 
 生卒／活动年代、出生地、工作地、国籍与民族／文化认同见 [基本资料](biography.md)；未知与待核对字段明确保留。
+
+## 日漫创作研究补充（2026-11-01）
+
+使用[新版创作研究卡](../../manga-authors/authors/urasawa-naoki/SKILL.md)查看本轮核读范围、作品分工与来源；[绘图模板](../../manga-authors/authors/urasawa-naoki/prompts.md)将一般视觉技法用于原创题材。旧稿的风格描述与`verbatim`标记不自动视为本轮已核实的引文或视觉证据；实际出图按[统一流程](../../manga-authors/WORKFLOW.md)检查。

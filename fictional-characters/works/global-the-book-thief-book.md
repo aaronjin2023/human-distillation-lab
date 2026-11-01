@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Liesel Meminger
 
 角色职责：protagonist · 身份：`identity-cb03af9eafb4dbf5` · 独立版本：`profile-4e442c8465161762`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对失落与战争，她表现出主动借文字探索经验的倾向（行为推断；S3、S5、S8、S12）
 - **核心动机**：她对文字力量的着迷，推动她不断获取并分享书籍（摘要直接叙述；S5、S27）
@@ -24,6 +30,10 @@
 ### Hans Hubermann
 
 角色职责：major-support · 身份：`identity-e399f49768062c99` · 独立版本：`profile-4a6f9eba1ffd6dba`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在照顾莉赛尔时，他表现出耐心支持与共同学习的倾向（行为推断；S4、S30、S31、S32）
 - **核心动机**：他庇护马克斯的行动，与报答其父亲的救命之恩有关（摘要直接叙述；S33、S39、S41）

@@ -1,6 +1,6 @@
 # The Amazing Maurice and His Educated Rodents
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Maurice
 
 角色职责：protagonist · 身份：`identity-b62b1c229f8d8fae` · 独立版本：`profile-fa818f6a48bc468d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：经营骗局时表现得狡黠善操纵，并以犬儒眼光理解世事（摘要直接叙述；S43）
 - **价值取舍**：起初不认为诈骗有错，危机中却愿以自身生命救回同伴（行为推断；S11、S33）
@@ -27,6 +33,10 @@
 ### Keith
 
 角色职责：co-lead · 身份：`identity-93d4fc63800dd173` · 独立版本：`profile-558d24030e064d1b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在老鼠伙伴受到威胁时，倾向主动维护这个替代家庭（行为推断；S35、S47）
 - **核心动机**：最初参与Maurice的骗局，主要是为了让自己有事可做（摘要直接叙述；S47）

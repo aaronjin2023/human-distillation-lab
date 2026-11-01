@@ -1,6 +1,6 @@
 # Smiley's People
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: January 20, 1980. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### George Smiley
 
 角色职责：protagonist · 身份：`identity-fd0c0cc5acad113a` · 独立版本：`profile-a4aed938b11f4626`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在机构急于息事宁人时倾向认真追究被忽视的线索，保持耐心与审慎（行为推断；S10、S12、S13、S14、S15）
 - **核心动机**：调查中既追查弗拉基米尔的发现，也争取保护仍面临灭口危险的人（行为推断；S13、S20）
@@ -28,6 +34,10 @@
 ### Karla
 
 角色职责：central-antagonist · 身份：`identity-6833b91e05f16883` · 独立版本：`profile-25de2b0b4b567c0a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在维护秘密时倾向冷酷清除知情者，却会为女儿承担个人风险（行为推断；S11、S19、S22、S23）
 - **核心动机**：秘密挪用资金和安排虚假身份，是为了让女儿在瑞士得到照护（摘要直接叙述；S22、S23）

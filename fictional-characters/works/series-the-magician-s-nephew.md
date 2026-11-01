@@ -1,6 +1,6 @@
 # The Magician's Nephew
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Chronicles of Narnia; reported series sales: 120 million[228]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Digory
 
 角色职责：protagonist · 身份：`identity-95d127f5c7e10495` · 独立版本：`profile-bfa26dca5ab416b5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生魔法物件时好奇心较强，倾向越过同伴的劝阻（行为推断；S25、S26）
 - **核心动机**：承担取苹果任务，是为补偿自己唤醒并带来女巫的责任（摘要直接叙述；S38、S39、S40）
@@ -28,6 +34,10 @@
 ### Jadis
 
 角色职责：central-antagonist · 身份：`identity-d8b0a69e814cec97` · 独立版本：`profile-af9297d9369ee4c9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权力受到挑战时，倾向以极端破坏和强制手段维护自身（行为推断；S26、S30、S35）
 - **核心动机**：离开查恩后仍追求扩大统治，抵达英国便企图征服地球（摘要直接叙述；S28）

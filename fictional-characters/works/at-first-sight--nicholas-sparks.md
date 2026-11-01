@@ -1,6 +1,6 @@
 # At First Sight
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 6, 2005. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jeremy
 
 角色职责：protagonist · 身份：`identity-d75c2bfcb38a643e` · 独立版本：`profile-77ca3d10b0716b04`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲子疑虑与信息缺口下，他倾向反复求证并放大隐瞒感（行为推断；S19、S29、S30）
 - **情绪反应**：写作停滞与新家庭责任叠加，使他承受明显的生活压力（摘要直接叙述；S7、S8）
@@ -28,6 +34,10 @@
 ### Lexie
 
 角色职责：co-lead · 身份：`identity-9056646b60a4186f` · 独立版本：`profile-39c6bd0d4e9369be`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在仓促成婚的情境中，她倾向谨慎管理外界对婚姻的评价（行为推断；S5）
 - **核心动机**：她要求婚前保密怀孕，是为了避免婚姻动机遭到误解（摘要直接叙述；S5）

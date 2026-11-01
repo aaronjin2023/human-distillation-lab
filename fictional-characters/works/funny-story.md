@@ -1,6 +1,6 @@
 # Funny Story
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 12, 2024. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Daphne Vincent
 
 角色职责：protagonist · 身份：`identity-90d7abf816427f3b` · 独立版本：`profile-3b1c1390754a16c1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在感情受挫与重新动心时，倾向先以退避保护自己。（行为推断；S5、S15、S17、S30）
 - **核心动机**：即使打算离开当地，仍希望完成自己热爱的图书馆募款活动。（摘要直接叙述；S5）
@@ -28,6 +34,10 @@
 ### Miles Nowak
 
 角色职责：co-lead · 身份：`identity-427ed75af8610f7b` · 独立版本：`profile-78a07e7682c1aabc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系变复杂时倾向慌乱退缩，却也会主动照顾对方。（行为推断；S16、S21、S29、S34）
 - **核心动机**：希望Daphne留在密歇根，与自己继续发展感情。（摘要直接叙述；S37）

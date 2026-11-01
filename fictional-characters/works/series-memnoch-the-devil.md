@@ -1,6 +1,6 @@
 # Memnoch the Devil
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lestat de Lioncourt
 
 角色职责：protagonist · 身份：`identity-00049097b25f820a` · 独立版本：`profile-4e6ea7e45440ed83`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对超自然启示倾向既受震动又保留疑心，难以轻易确定立场（行为推断；S20、S21、S23）
 - **价值取舍**：在猎食选择上试图以读心辨恶为界，维持自己的道德区分（摘要直接叙述；S35）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-ae4f20836cd08ae0` · 独立版本：`profile-892fa20eec611992`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在招募莱斯特时倾向主导解释框架，以自身历史版本争取认同（行为推断；S18、S19）
 - **核心动机**：试图说服莱斯特加入自己，作为上帝对手承担其身旁的工作（摘要直接叙述；S2、S18）
 - **价值取舍**：按其自述，他质疑人类必须受苦而不能立即进入天堂的安排（摘要直接叙述；S53）
@@ -42,6 +52,10 @@
 ### Theodora
 
 角色职责：major-support · 身份：`identity-3617f588ba64abb8` · 独立版本：`profile-3e045d1e01961d20`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对被视为神迹的事物倾向迅速投入，并把私人震动转成行动（行为推断；S24、S25、S43、S44）
 - **核心动机**：作为虔诚的基督徒，一直等待能够激发自身信念与行动的奇迹（摘要直接叙述；S37、S39）

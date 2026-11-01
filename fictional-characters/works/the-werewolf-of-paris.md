@@ -1,6 +1,6 @@
 # The Werewolf of Paris
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 17, 1933. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bertrand Caillet
 
 角色职责：protagonist · 身份：`identity-f78666f9d0b9e083` · 独立版本：`profile-4212c8f04e4493e4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在担忧伤害恋人时，他表现出保护她却将危险转向他人的倾向。（行为推断；S13、S14）
 - **核心动机**：他害怕意外杀死索菲，因此外出寻找别的人作为进食对象。（摘要直接叙述；S13）
@@ -29,6 +35,10 @@
 
 角色职责：major-support · 身份：`identity-ba05401fc37010ac` · 独立版本：`profile-214f377b3984db52`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在追寻贝特朗时，他表现出借具体罪案细节持续追查的倾向。（行为推断；S9）
 - **核心动机**：他通过研究当地谋杀与毁尸案件，试图找到出逃的贝特朗。（摘要直接叙述；S8、S9）
 - **决策方式**：找到贝特朗后，他因认为爱情已将其治愈而决定不采取行动。（摘要直接叙述；S12）
@@ -44,6 +54,10 @@
 ### Sophie de Blumenberg
 
 角色职责：major-support · 身份：`identity-c6dd7c62cfd5b77c` · 独立版本：`profile-b93b6e1535a6850f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在与贝特朗的亲密关系中，她表现出接受危险伤害的倾向。（行为推断；S11）
 - **核心动机**：她允许贝特朗割伤自己并吸血，以帮助他避免变身的暴力后果。（摘要直接叙述；S11）

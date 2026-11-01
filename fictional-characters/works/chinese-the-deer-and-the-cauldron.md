@@ -1,6 +1,6 @@
 # 鹿鼎记
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：京东金庸单书购买排行，2018-10-30事件期报道
 [依据来源](https://ip.people.com.cn/n1/2019/0122/c179663-30583592.html) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 韦小宝
 
 角色职责：protagonist · 身份：`identity-05f7e79980ca254b` · 独立版本：`profile-b802f6f76be2598f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在险恶权力环境中倾向机巧周旋，善于变通求生（行为推断；S12、S14、S19、S20）
 - **核心动机**：初入宫廷时以活命为直接目标，借身份伪装获得立足点（摘要直接叙述；S14）
@@ -29,6 +35,10 @@
 ### 康熙皇帝
 
 角色职责：co-lead · 身份：`identity-20a3fdd2e9381cb4` · 独立版本：`profile-9e9a07529c70376b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：处理韦小宝的双重身份时，呈现强硬与念旧并存的倾向（行为推断；S34、S36、S37）
 - **核心动机**：在发现天地会关联后，持续要求韦小宝协助清除该组织（摘要直接叙述；S34、S37）

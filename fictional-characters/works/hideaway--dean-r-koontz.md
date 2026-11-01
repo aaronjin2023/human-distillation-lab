@@ -1,6 +1,6 @@
 # Hideaway
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 2, 1992. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hatch Harrison
 
 角色职责：protagonist · 身份：`identity-b98be8e457dbab4b` · 独立版本：`profile-75f0661d9b11db5d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丧子与濒死经历后，表现出重新投入家庭关系的倾向（行为推断；S5、S6、S16）
 - **核心动机**：经历事故后希望与妻子修复婚姻，重新建立共同生活（摘要直接叙述；S5）
@@ -25,6 +31,10 @@
 ### Jeremy Nyebern
 
 角色职责：central-antagonist · 身份：`identity-6d6b42292695cb17` · 独立版本：`profile-8fcdef534051d740`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自认具有恶魔身份的情境中，表现出极端自我神化倾向（行为推断；S3、S11）
 - **核心动机**：杀害无辜者是为献祭主人，换取死后居于地狱高位（摘要直接叙述；S3）

@@ -1,6 +1,6 @@
 # Loamhedge
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bragoon
 
 角色职责：co-lead · 身份：`identity-ae971ead707291b5` · 独立版本：`profile-1b22a6722bb19d21`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在求生与险境中，倾向机巧应变并愿意为年轻同伴担当（行为推断；S27、S29、S61）
 - **核心动机**：听闻玛莎的处境后，决定远赴废弃修道院寻找疗法（摘要直接叙述；S34、S35）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-95a7157ba04ef0fb` · 独立版本：`profile-9466ba87d2670ab9`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：遭到伏击时，倾向灵活脱身求援而非只与敌人硬拼（行为推断；S54、S55）
 - **核心动机**：为帮助玛莎寻找行走的办法，与老友共同前往洛姆赫奇（摘要直接叙述；S34、S35）
 - **决策方式**：对擅自跟来的年轻人，倾向根据路程与再被俘风险调整安排（行为推断；S37、S38）
@@ -40,6 +50,10 @@
 ### Lonna Bowstripe
 
 角色职责：co-lead · 身份：`identity-5744d1065e8902f9` · 独立版本：`profile-10dee653b14015ee`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：遭袭濒死后，表现出执拗追敌并以强硬暴力反击的倾向（行为推断；S19、S21、S22、S53）
 - **核心动机**：明确立誓猎杀整支海盗船员，以此完成复仇（摘要直接叙述；S21、S22）

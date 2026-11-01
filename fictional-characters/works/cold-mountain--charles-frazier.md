@@ -1,6 +1,6 @@
 # Cold Mountain
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 31, 1997. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Inman
 
 角色职责：co-lead · 身份：`identity-a3ba2272eab78ac1` · 独立版本：`profile-ae2e3403b8020e53`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在暴力威胁中，他仍倾向对弱者保留同情与克制（行为推断；S21、S40）
 - **核心动机**：他厌倦从未认同的战争，渴望返乡并与Ada共同生活（摘要直接叙述；S3、S4、S31、S38）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-9e4bf1c1cfc70ba1` · 独立版本：`profile-bb69d34bb53d6a5c`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在生存压力下，她呈现愿意学习并与他人合作的倾向（行为推断；S6、S8、S9）
 - **核心动机**：她希望维持农场生活，同时自主选择与Inman的感情（行为推断；S8、S35、S38）
 - **价值取舍**：她珍视Ruby的共同生活地位，不愿以婚姻取代这段关系（行为推断；S36）
@@ -44,6 +54,10 @@
 ### Ruby
 
 角色职责：major-support · 身份：`identity-605a39370d948af8` · 独立版本：`profile-04abd641f1c499be`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在匮乏环境中，她表现出善于谋生并实际解决困难的倾向（行为推断；S7、S8、S9）
 - **价值取舍**：面对曾遗弃自己的父亲，她仍愿意给予食物与救助（行为推断；S23、S24、S29、S30）

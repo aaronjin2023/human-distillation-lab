@@ -1,6 +1,6 @@
 # Seven Up
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 8, 2001. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-75f04b5fd3cd429c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对逃犯与人质危机时倾向灵活应变而持续追查（行为推断；S8、S14、S15、S23）
 - **核心动机**：既要完成追捕任务也要救出遭绑架的亲人与朋友（摘要直接叙述；S13、S14、S15、S16、S18）
@@ -23,6 +29,10 @@
 ### Eddie DeChooch
 
 角色职责：central-antagonist · 身份：`identity-4c6ab6d2d0e47f13` · 独立版本：`profile-b7581b5dd44d033a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受窘与被追捕时倾向以强撑自尊掩饰脆弱（行为推断；S21、S24）
 - **核心动机**：急于追回遗失的心脏以应付死者遗孀的要求（摘要直接叙述；S9、S12）

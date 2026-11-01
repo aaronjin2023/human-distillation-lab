@@ -1,6 +1,6 @@
 # The Ocean at the End of the Lane
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 7, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 未具名主人公
 
 角色职责：protagonist · 身份：`identity-a32df05e0291b5ec` · 独立版本：`profile-a7de930649c8e4b3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身安危危及周围世界时，呈现愿意自我牺牲的倾向（行为推断；S22、S23）
 - **核心动机**：遭遇超自然侵害后寻求安全，也希望阻止世界被吞食（行为推断；S6、S15、S16、S22、S23）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-5a661aecc3d63321` · 独立版本：`profile-dc325d063a06465b`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在男孩遭遇危险时呈现坚定护持、愿意承担风险的倾向（行为推断；S7、S20、S23）
 - **核心动机**：希望帮助男孩摆脱异物侵害，并使他逃过饥饿鸟追索（行为推断；S7、S20、S23）
 - **价值取舍**：在男孩面临死亡时将保护他的生命置于自身安全之前（行为推断；S23、S25）
@@ -40,6 +50,10 @@
 ### Ursula Monkton
 
 角色职责：central-antagonist · 身份：`identity-8eae6d9794a0505f` · 独立版本：`profile-199458bce6bbf494`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在拒绝撤离时呈现自负倾向，不相信外界力量能够伤害她（行为推断；S17、S18）
 - **核心动机**：借男孩进入其世界后，试图继续占据住所而不愿离开（行为推断；S12、S17）

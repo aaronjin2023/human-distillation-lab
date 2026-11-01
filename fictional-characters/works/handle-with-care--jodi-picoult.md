@@ -1,6 +1,6 @@
 # Handle With Care
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 22, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charlotte O'Keefe
 
 角色职责：co-lead · 身份：`identity-26ac05e211247db5` · 独立版本：`profile-8c7f59c7230d1561`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在女儿医疗保障问题上，表现出承受关系代价的执着倾向（行为推断；S8、S28、S33）
 - **核心动机**：她提起诉讼的明确目标，是为薇洛 확보所需医疗资源（摘要直接叙述；S28）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-ec9c3a2a694b026b` · 独立版本：`profile-4d33b818f1357855`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在家庭责任面前倾向尽力承担，却不无限压抑自身立场（行为推断；S32、S33）
 - **核心动机**：他努力工作以支撑家庭，并曾试图支持妻子的诉讼选择（摘要直接叙述；S32、S33）
 - **价值取舍**：当支持配偶与个人伦理冲突时，他最终坚持反对此类诉讼（行为推断；S33）
@@ -44,6 +54,10 @@
 ### Willow O'Keefe
 
 角色职责：protagonist · 身份：`identity-ee6860be1c9f6523` · 独立版本：`profile-dc6f28ff72cb4a4f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在反复骨折的生活中，表现出借阅读保持求知的倾向（行为推断；S36）
 - **情绪反应**：诉讼期间，她因身体不完美而担忧父母不再需要自己（摘要直接叙述；S37）

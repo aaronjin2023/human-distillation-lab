@@ -1,6 +1,6 @@
 # Duma Key
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 10, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Edgar Freemantle
 
 角色职责：protagonist · 身份：`identity-41099b0ca29f7668` · 独立版本：`profile-8ea3e7531f854365`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在超常绘画体验中表现出强烈投入与沉迷探索的倾向（行为推断；S10）
 - **核心动机**：最初借重拾绘画修复事故后的生活与身心状态（行为推断；S6、S7、S10）
@@ -28,6 +34,10 @@
 ### Elizabeth Eastlake
 
 角色职责：major-support · 身份：`identity-de615aa47aa4e7d3` · 独立版本：`profile-da0369e218bdfd60`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在辨认超自然威胁时，表现出警觉与反抗倾向（行为推断；S13、S18、S26）
 - **核心动机**：力图阻止岛上邪力再度扩张，促使后来者应对威胁（行为推断；S13、S17、S48）

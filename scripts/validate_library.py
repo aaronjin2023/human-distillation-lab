@@ -3,6 +3,7 @@
 
 import argparse
 import copy
+import hashlib
 import json
 import re
 import shutil
@@ -31,6 +32,15 @@ def require(condition, message):
 
 def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+
+def check_body_baseline(key, body):
+    # shortcut: exact-body baseline, review and update the fixture when prose intentionally changes.
+    baseline = read_json(ROOT / "scripts/fixtures/method-body-sha256.json")["sha256"]
+    require(key in baseline, f"{key}: missing body baseline; review the new method before adding it")
+    require(hashlib.sha256(body.encode("utf-8")).hexdigest() == baseline[key],
+            f"{key}: body baseline mismatch; inspect method loss or review the intended body change")
 
 
 def local_path(root, value):
@@ -81,6 +91,7 @@ def check_manifest(data, folder, body, extended=False):
     require(rights.get("source_ids") and set(rights["source_ids"]) <= source_ids,
             f"{folder}: rights refer to unknown sources")
 
+    check_body_baseline(f"framework/{folder}", body)
 
 def check_links(root, files):
     count = 0
@@ -102,6 +113,8 @@ def validate(root, write_catalog=False):
         members = sorted(p for p in (root / collection / "frameworks").iterdir() if p.is_dir())
         require(members, f"No framework entries: {collection}")
         folders.extend(members)
+    folder_ids = [read_json(folder / "manifest.json").get("id") for folder in folders]
+    require(len(folder_ids) == len(set(folder_ids)), "Framework IDs must be unique across collections")
     records = []
     source_count = 0
     for folder in folders:
@@ -121,7 +134,6 @@ def validate(root, write_catalog=False):
         if extended:
             records[-1].update(domain=data["domain"], analysis_level=data["analysis_level"])
     ids = {row["id"] for row in records}
-    require(len(ids) == len(records), "Framework IDs must be unique across collections")
     people = read_json(root / "people/index.json")
     require(people["coverage"] == "reviewed-links-only", "Identity coverage must be explicit")
     person_ids, expert_paths = set(), set()
@@ -216,6 +228,19 @@ def self_test():
             pass
         else:
             raise AssertionError("Incomplete human-pattern manifest accepted")
+    for collection in COLLECTIONS:
+        for path in sorted((ROOT / collection / "frameworks").glob("*/manifest.json")):
+            data = read_json(path)
+            original_body = (path.parent / "framework.md").read_text(encoding="utf-8")
+            headers = "\n".join(line for line in original_body.splitlines() if line.startswith("#"))
+            citations = "\n".join(f"{source['id']} {source['url']}" for source in data["sources"])
+            for invalid_body in (citations, headers + "\n" + citations):
+                try:
+                    check_manifest(data, path.parent.name, invalid_body, collection == "human-patterns")
+                except ValueError as error:
+                    assert "body baseline mismatch" in str(error), str(error)
+                else:
+                    raise AssertionError(f"Method-free framework accepted: {path.parent.name}")
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
         (root / "valid").touch()
@@ -266,7 +291,7 @@ def self_test():
             assert "unique across collections" in str(error)
         else:
             raise AssertionError("Ambiguous framework ID accepted")
-    print("Self-test passed: source integrity, metadata, path boundaries, cross-collection composition, missing references and duplicate IDs")
+    print("Self-test passed: all framework method-free bodies rejected, source integrity, metadata, path boundaries, cross-collection composition, missing references and duplicate IDs")
 
 
 if __name__ == "__main__":

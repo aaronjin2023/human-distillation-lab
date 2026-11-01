@@ -1,6 +1,6 @@
 # The Reptile Room
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series A Series of Unfortunate Events; reported series sales: 65 million[250]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Violet
 
 角色职责：protagonist · 身份：`identity-2dab46a70d19a64c` · 独立版本：`profile-501fdbd89f1b77ab`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在成年人不信任孩子时，她表现出主动组织并动手解困的倾向（行为推断；S31、S34、S35）
 - **核心动机**：她设法取得行李中的物证，以揭穿奥拉夫伪装并摆脱其控制（行为推断；S22、S26、S35、S39、S40）
@@ -23,6 +29,10 @@
 ### Montgomery Montgomery
 
 角色职责：major-support · 身份：`identity-1bb3a9f71fcf8654` · 独立版本：`profile-6461d918400c79f4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在照料孤儿时，他表现出亲切慷慨并愿意给予自主空间的倾向（行为推断；S17、S18）
 - **核心动机**：他计划带孩子前往秘鲁研究蛇类，并安排各人参与准备工作（摘要直接叙述；S18、S21）

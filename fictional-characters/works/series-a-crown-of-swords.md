@@ -1,6 +1,6 @@
 # A Crown of Swords
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：co-lead · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-656fb4735a532a77`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：遭受重伤后仍重返对抗萨麦尔的行动，表现出持续推进的倾向（行为推断；S8、S9）
 - **核心动机**：同时寻求压制凯瑞安贵族叛乱与消除萨麦尔在伊利安的威胁（摘要直接叙述；S8）
@@ -23,6 +29,10 @@
 ### Egwene al'Vere
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-f262148d2c7aab9b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对内部权力格局时，倾向善用他人的隐秘弱点扩大控制（行为推断；S12）
 - **核心动机**：与史汪协作影响沙力达两仪师，使其力量转向对抗白塔阵营（摘要直接叙述；S11）

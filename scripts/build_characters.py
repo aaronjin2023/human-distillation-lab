@@ -12,7 +12,7 @@ import fcntl
 from urllib.parse import unquote, urlsplit
 import unicodedata
 
-from distill_characters import BASE, DIMS, LABELS, normalized, read_lines, require, validate_result, write_json, write_lines
+from distill_characters import BASE, DIMS, LABELS, task_constraints, normalized, read_lines, require, validate_result, write_json, write_lines
 
 
 def digest(value):
@@ -71,6 +71,36 @@ def source_info(row):
             'license_url':p.get('license_url') or 'https://creativecommons.org/licenses/by-sa/4.0/',
             'attribution':row.get('source_attribution') or ('Wikipedia contributors; '+p.get('citation','')+'; '+p.get('dataset_url','')),
             'source_sha256':row['source_sha256']}
+
+
+def render_card(w, profiles, e):
+    info=w['source']
+    md=[f"# {w['title']}", '', f"作品类型：{w['medium']} · 年份：{w.get('year','未单独核验')}", '',f"传播依据：{w['popularity']['basis']}",f"[依据来源]({w['popularity']['url']}) · {w['popularity'].get('note','')}", '',f"剧情来源：[原页面/修订]({info['url']})", '', '## 角色资料', '', '加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。', '']
+    for c in profiles:
+        md.extend([f"### {c['name']}", '',f"角色职责：{c['role']} · 身份：`{c['identity_id']}` · 独立版本：`{c['id']}`", ''])
+        md.extend(['**任务约束（绑定本版本）**', ''])
+        for t in c['task_constraints']:
+            md.append(f"- **{t['category']}**：{t['fact']}；任务应用：{t['task_rule']}（{ '、'.join(t['evidence_ids']) }）")
+        md.extend(['约束未知／未专项核读：'+('、'.join(c['unknown_constraint_categories']) or '无类别缺项；各类仍限所引摘要，不代表穷尽'), ''])
+        for t in c['traits']:
+            refs='、'.join('S'+r.rsplit(':s',1)[1] for r in t['evidence_ids'])
+            md.append(f"- **{LABELS[t['dimension']]}**：{t['claim']}（{'行为推断' if t['basis']=='interpretation' else '摘要直接叙述'}；{refs}）")
+        md.extend(['', '暂无支持：'+'、'.join(LABELS[d] for d in c['unknown_dimensions']), ''])
+        if c['tensions']:
+            md.extend(['矛盾与变化：'+'；'.join(c['tensions']), '', '以上为依据完整摘要审校的综合笔记，未逐项标注句号；可结合下列完整选摘核对。', ''])
+    md.extend(['## 材料限制', '',*['- '+x for x in w['limitations']], '', '## 引用证据', '', '以下保留提炼与审校所用的完整摘要选摘，包括未被维度判断直接引用的句子，以保全综合笔记的上下文。', ''])
+    md.extend(f"- **S{x['source_sentence']}**：{x['text']}" for x in e['sentences'])
+    md.extend(['', '## 来源与许可', '',info['attribution'], '',f"[{info['license']}]({info['license_url']})；本页相应改写按同一许可提供。", '', '本页为有改写的角色研究与证据选摘；不是原著/剧本全文，也不代表测量结果。', ''])
+    return '\n'.join(md)
+
+
+def validate_cards(base, works, profiles, evidence):
+    expected={f"{w['id']}.md" for w in works}
+    require({p.relative_to(base/'works').as_posix() for p in (base/'works').rglob('*') if p.is_file()}==expected, 'Missing or extra readable card')
+    by_profile={c['id']:c for c in profiles}
+    by_evidence={e['work_id']:e for e in evidence}
+    for w in works:
+        require((base/'works'/f"{w['id']}.md").read_bytes()==render_card(w,[by_profile[pid] for pid in w['profile_ids']],by_evidence[w['id']]).encode(), 'Readable card differs from reviewed data: '+w['id'])
 
 
 def build():
@@ -150,7 +180,6 @@ def build():
         ev=[{'id':f"{work_id}:s{x['index']}",'text':x['text'],'source_sentence':x['index']} for x in s['source_units']]
         evidence.append({'work_id':work_id,'source':info,'scope':'complete-model-input-synopsis','source_unit_count':len(s['source_units']),'source_units_sha256':hashlib.sha256(json.dumps(s['source_units'],ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'sentences':ev})
         profile_ids=[]
-        md=[f"# {s['title']}", '', f"作品类型：{s['medium']} · 年份：{s.get('year','未单独核验')}", '',f"传播依据：{s['popularity']['basis']}",f"[依据来源]({s['popularity']['url']}) · {s['popularity'].get('note','')}", '',f"剧情来源：[原页面/修订]({info['url']})", '', '## 角色资料', '']
         for c in row['characters']:
             profile_id='profile-'+digest(work_id+'|'+normalized(c['name']))
             key,method=resolved_identity(c,s,overrides)
@@ -169,18 +198,18 @@ def build():
             identity['source_keys']=sorted(set(identity['source_keys']+[original_key]))
             identity['names']=sorted(set(identity['names']+[c['name']]+c['aliases']))
             identity['profile_ids'].append(profile_id)
-            md.extend([f"### {c['name']}", '',f"角色职责：{c['role']} · 身份：`{entity_id}` · 独立版本：`{profile_id}`", ''])
-            for t in c['traits']:
-                refs='、'.join(f'S{i}' for i in t['evidence_sentences'])
-                md.append(f"- **{LABELS[t['dimension']]}**：{t['claim']}（{'行为推断' if t['basis']=='interpretation' else '摘要直接叙述'}；{refs}）")
-            md.extend(['', '暂无支持：'+'、'.join(LABELS[d] for d in c['unknown_dimensions']), ''])
-            if c['tensions']:
-                md.extend(['矛盾与变化：'+'；'.join(c['tensions']), '', '以上为依据完整摘要审校的综合笔记，未逐项标注句号；可结合下列完整选摘核对。', ''])
-        md.extend(['## 材料限制', '',*['- '+x for x in row['limitations']], '', '## 引用证据', '', '以下保留提炼与审校所用的完整摘要选摘，包括未被维度判断直接引用的句子，以保全综合笔记的上下文。', ''])
-        md.extend(f"- **S{x['source_sentence']}**：{x['text']}" for x in ev)
-        md.extend(['', '## 来源与许可', '',info['attribution'], '',f"[{info['license']}]({info['license_url']})；本页相应改写按同一许可提供。", '', '本页为有改写的角色研究与证据选摘；不是原著/剧本全文，也不代表测量结果。', ''])
-        (cards/f'{work_id}.md').write_text('\n'.join(md))
         works.append({'id':work_id,'title':s['title'],'medium':s['medium'],'year':s.get('year'),'authors':s.get('authors',[]),'original_language_label':s.get('original_language_label'),'reported_language_labels':s.get('reported_languages',[]),'production_region_labels':s.get('production_countries',[]),'popularity':s['popularity'],'source':info,'profile_ids':profile_ids,'limitations':row['limitations'],'review':{'group':group,'batch':batch,'extraction_model':r['extraction'].get('model'),'review_model':r['review']['model']}})
+    constraint_rows=read_lines(BASE/'task-constraints.jsonl')
+    require((BASE/'task-constraints.jsonl').exists(), 'Missing constraint supplement')
+    merged=task_constraints(constraint_rows,profiles,evidence)
+    for c in profiles:
+        c.update(merged[c['id']])
+    by_profile={c['id']:c for c in profiles}
+    by_evidence={e['work_id']:e for e in evidence}
+    for w in works:
+        (cards/f"{w['id']}.md").write_text(render_card(w,[by_profile[pid] for pid in w['profile_ids']],by_evidence[w['id']]))
+    write_lines(staging/'task-constraints.jsonl',constraint_rows)
+    shutil.copyfile(BASE/'task-constraints.schema.json',staging/'task-constraints.schema.json')
     for filename,rows in [('works.jsonl',works),('characters.jsonl',profiles),('identities.jsonl',list(identities.values())),('evidence.jsonl',evidence),('rejected.jsonl',rejected)]:
         write_lines(staging/filename,rows)
     # Same-name unresolved records are review candidates, never automatic identity merges.
@@ -202,7 +231,11 @@ def build():
     catalog=['# 文学与影视角色目录','',f"已保存 {len(works)} 部作品、{len(profiles)} 个角色版本、{len(identities)} 个身份节点。",'', '每个版本独立保留判断与证据；身份关联不会覆盖原著、改编或续作差异。', '', '| 作品 | 类型 | 角色数 |', '|---|---|---|']
     catalog.extend(f"| [{w['title'].replace('|','/')}](works/{w['id']}.md) | {w['medium']} | {len(w['profile_ids'])} |" for w in works)
     (staging/'CATALOG.md').write_text('\n'.join(catalog)+'\n')
-    stats['artifact_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in staging.iterdir() if p.is_file()}
+    stats['artifact_sha256']={p.relative_to(staging).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in staging.rglob('*') if p.is_file()}
+    stats['readable_cards_integrity']='all cards byte-equivalent to render of reviewed exports; exact file set'
+    stats['task_constraint_claims']=sum(len(c['task_constraints']) for c in profiles)
+    stats['profiles_with_task_constraints']=sum(bool(c['task_constraints']) for c in profiles)
+    stats['constraint_scope']='Todd supplement locally checked against retained synopsis; all other categories unknown/unreviewed'
     write_json(staging/'verification'/'build.json',stats)
     validate(False,staging)
     # Validate the whole generated set first; publish its integrity receipt last.
@@ -236,19 +269,26 @@ def validate(complete,base=BASE):
     for w in works:
         require(2<=len(w['profile_ids'])<=5 and set(w['profile_ids'])<=pids,'Invalid work profiles')
         require(set(w['profile_ids'])=={c['id'] for c in profiles if c['work_id']==w['id']},'Work/profile membership mismatch')
-        require((base/'works'/f"{w['id']}.md").exists(),'Missing readable card')
     for c in profiles:
         require(c['work_id'] in wids and c['identity_id'] in iids,'Broken profile link')
         dims={t['dimension'] for t in c['traits']}
         require(len(dims)==len(c['traits'])>=4 and set(c['unknown_dimensions'])==set(DIMS)-dims,'Invalid dimensions')
         require(all(t['evidence_ids'] and set(t['evidence_ids'])<=lookup[c['work_id']] for t in c['traits']),'Broken evidence link')
         require(not c.get('tensions') or c.get('tensions_evidence_scope'),'Unlabelled tension evidence scope')
+    merged=task_constraints(read_lines(base/'task-constraints.jsonl'),profiles,evidence)
+    for c in profiles:
+        require(all(c.get(k)==v for k,v in merged[c['id']].items()), 'Missing or modified loaded task constraints')
+    validate_cards(base,works,profiles,evidence)
     for i in identities:
         require(set(i['profile_ids'])<=pids,'Broken identity links')
         require(set(i['profile_ids'])=={c['id'] for c in profiles if c['identity_id']==i['id']},'Identity/profile membership mismatch')
     require(sum(len(i['profile_ids']) for i in identities)==len(profiles),'Profile identity membership mismatch')
     receipt=json.loads((base/'verification'/'build.json').read_text())
-    for name,expected in receipt.get('artifact_sha256',{}).items():
+    hashes=receipt.get('artifact_sha256',{})
+    required={'works.jsonl','characters.jsonl','identities.jsonl','evidence.jsonl','task-constraints.jsonl','task-constraints.schema.json','CATALOG.md'}|{f"works/{w['id']}.md" for w in works}
+    require(required<=set(hashes), 'Integrity receipt does not cover every loaded artifact')
+    for name,expected in hashes.items():
+        require(not Path(name).is_absolute() and '..' not in Path(name).parts, 'Unsafe artifact path')
         require(hashlib.sha256((base/name).read_bytes()).hexdigest()==expected,'Mixed or modified export: '+name)
     if complete:
         require(Counter(w['medium'] for w in works)=={'literature':500,'film':500},'Target not complete')
@@ -285,6 +325,43 @@ def self_test():
     assert not series_confirmed(legacy,{'legacy':{'ok':False}})
     assert series_confirmed(legacy,{'legacy':{'ok':True}})
     assert series_confirmed({'id':'new','series_verified':{'article_series_field':'Twilight'}},{})
+    # Exercise the public validator on an isolated real-source fixture, including forged hashes.
+    w=read_lines(BASE/'works.jsonl')[0]
+    profiles=[c for c in read_lines(BASE/'characters.jsonl') if c['id'] in w['profile_ids']]
+    evidence=[e for e in read_lines(BASE/'evidence.jsonl') if e['work_id']==w['id']]
+    identities=[i for i in read_lines(BASE/'identities.jsonl') if i['id'] in {c['identity_id'] for c in profiles}]
+    for i in identities:
+        i['profile_ids']=[c['id'] for c in profiles if c['identity_id']==i['id']]
+    merged=task_constraints([],profiles,evidence)
+    for c in profiles:c.update(merged[c['id']])
+    with tempfile.TemporaryDirectory() as folder:
+        base=Path(folder);(base/'works').mkdir()
+        for name,rows in [('works', [w]),('characters',profiles),('identities',identities),('evidence',evidence),('task-constraints',[])]:
+            write_lines(base/(name+'.jsonl'),rows)
+        shutil.copyfile(BASE/'task-constraints.schema.json',base/'task-constraints.schema.json')
+        (base/'CATALOG.md').write_text('Fixture catalog')
+        card=base/'works'/f"{w['id']}.md"
+        text=render_card(w,profiles,evidence[0]);card.write_text(text)
+        hashes={p.relative_to(base).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in base.rglob('*') if p.is_file()}
+        write_json(base/'verification'/'build.json',{'artifact_sha256':hashes})
+        assert validate(False,base)
+        def must_fail(label):
+            try:validate(False,base)
+            except ValueError:return
+            raise AssertionError('Invalid readable export accepted: '+label)
+        card.write_text('# damaged card\n');must_fail('body deleted but file exists')
+        hashes['works/'+card.name]=hashlib.sha256(card.read_bytes()).hexdigest()
+        write_json(base/'verification'/'build.json',{'artifact_sha256':hashes})
+        must_fail('damaged card rehashed into receipt')
+        card.write_text(text.replace(profiles[0]['traits'][0]['claim'],'受保护正文已被替换',1));must_fail('protected trait text modified')
+        card.unlink();must_fail('missing card')
+        card.write_text(text)
+        extra=base/'works'/'unexpected.md';extra.write_text('extra');must_fail('extra card');extra.unlink()
+        hashes['works/'+card.name]=hashlib.sha256(card.read_bytes()).hexdigest()
+        del hashes['works/'+card.name]
+        write_json(base/'verification'/'build.json',{'artifact_sha256':hashes})
+        must_fail('card omitted from receipt')
+    print('Readable-card negative tests passed: deleted body, modified trait, missing/extra card, forged/omitted receipt hash')
     print('Self-test passed: exact identity evidence, ambiguity, different-work separation, stable IDs')
 
 

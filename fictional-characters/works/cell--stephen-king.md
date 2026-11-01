@@ -1,6 +1,6 @@
 # Cell
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 12, 2006. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Clayton Riddell
 
 角色职责：protagonist · 身份：`identity-87315f88fe2c3283` · 独立版本：`profile-fc3c2aaaf81a08ba`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在灾变与同伴分流的处境中，他呈现执着寻亲的倾向（行为推断；S6、S22、S34）
 - **核心动机**：他始终把找到儿子并与之团聚作为穿越灾区的核心目标（摘要直接叙述；S6、S34、S35）
@@ -28,6 +34,10 @@
 ### Jordan
 
 角色职责：major-support · 身份：`identity-508433d7aa95cace` · 独立版本：`profile-989a2f0ccf8448ed`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对难以解释的灾变，他倾向以分析和类比寻找规律（行为推断；S27、S49）
 - **关系模式**：他忠实陪伴具有父亲般意义的校长，直到校长遭遇死亡（摘要直接叙述；S48、S50）

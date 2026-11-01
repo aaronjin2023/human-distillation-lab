@@ -1,6 +1,6 @@
 # Mort
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mort
 
 角色职责：protagonist · 身份：`identity-1dcd554923597d02` · 独立版本：`profile-222d299e54de2ee2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在职责与眼前生命冲突时，倾向按个人关切越过权威禁令（行为推断；S19、S20、S40）
 - **核心动机**：发现改命后果仍试图保住凯莉，并阻止她随替代现实消失（摘要直接叙述；S24、S32、S38）
@@ -28,6 +34,10 @@
 ### Death
 
 角色职责：co-lead · 身份：`identity-977874a7729c02cb` · 独立版本：`profile-6c4e2be40f6b62dc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：起初坚持职务秩序，但在冲突后表现出容许例外的倾向（行为推断；S19、S40、S41、S42）
 - **核心动机**：渴望体验作为人类的生活，主动尝试娱乐与普通工作（摘要直接叙述；S29）

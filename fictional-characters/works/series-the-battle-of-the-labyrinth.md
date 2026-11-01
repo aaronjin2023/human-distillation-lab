@@ -1,6 +1,6 @@
 # The Battle of the Labyrinth
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Percy Jackson & the Olympians; reported series sales: 180 million[214]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Percy_Jackson_&_the_Olympians
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Percy Jackson
 
 角色职责：protagonist · 身份：`identity-74126c828137f596` · 独立版本：`profile-a63c15b7702b35be`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在营地面临入侵时，他倾向持续投入而非置身事外（行为推断；S6、S34、S43）
 - **核心动机**：他参与迷宫行动，意在阻止卢克获得入侵营地的通路（摘要直接叙述；S6、S56）
@@ -23,6 +29,10 @@
 ### Nico di Angelo
 
 角色职责：major-support · 身份：`identity-3e5732d25ced4864` · 独立版本：`profile-35457b15d3e84234`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丧亲情境中，他倾向执着寻找逆转死亡的办法（行为推断；S23、S75）
 - **核心动机**：他最初寻求灵魂交换，是为了让死去的姐姐复生（摘要直接叙述；S23、S75）
@@ -38,6 +48,10 @@
 ### Daedalus
 
 角色职责：major-support · 身份：`identity-f32c683d5dfcda85` · 独立版本：`profile-14435c65b82e72c6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身生死问题上，他起初倾向反复设法逃避终结（行为推断；S79）
 - **决策方式**：判断营地是否值得拯救时，他选择化名进入内部观察（摘要直接叙述；S80）

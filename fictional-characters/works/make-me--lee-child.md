@@ -1,6 +1,6 @@
 # Make Me
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 27, 2015. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Reacher
 
 角色职责：protagonist · 身份：`identity-bb1bad18dcdb5c38` · 独立版本：`profile-9e58e7b8cc9294b4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生小镇遭遇回避与敌意时，倾向追根究底并主动介入（行为推断；S2、S3、S5）
 - **核心动机**：最初由地名好奇心驱动，随后转向协助寻找失踪调查员（摘要直接叙述；S2、S4、S5）
@@ -28,6 +34,10 @@
 ### Michelle Chang
 
 角色职责：co-lead · 身份：`identity-d97610d282a712c4` · 独立版本：`profile-7fdf0412c461c2dc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接连遭遇袭击后，仍倾向坚持追查而非退出调查（行为推断；S17、S19、S20、S29、S34）
 - **核心动机**：起初希望找到失踪同事，最终参与为同事及受害者复仇（摘要直接叙述；S4、S34）

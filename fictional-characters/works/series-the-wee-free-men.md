@@ -1,6 +1,6 @@
 # The Wee Free Men
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiffany Aching
 
 角色职责：protagonist · 身份：`identity-7277dfe86e1cccf7` · 独立版本：`profile-a0279f5eeae57605`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生怪物与仙境危险，倾向主动设法应对而非等待救援（行为推断；S18、S23）
 - **核心动机**：弟弟被掳走后，以将他带回家作为进入仙境的直接目标（摘要直接叙述；S23）
@@ -28,6 +34,10 @@
 ### The Queen
 
 角色职责：central-antagonist · 身份：`identity-807a34b2ad7a430c` · 独立版本：`profile-08437440adb70720`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：与Tiffany对抗时，倾向抓住对方的不安全感施加打击（行为推断；S32）
 - **核心动机**：在仙境追逐中，倾向阻止Tiffany带着被困者脱离控制（行为推断；S30、S31、S32）

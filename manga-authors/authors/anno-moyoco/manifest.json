@@ -1,0 +1,195 @@
+{
+  "id": "anno-moyoco",
+  "name": "Moyoco Anno",
+  "name_zh": "安野梦洋子",
+  "legacy_refs": [],
+  "name_ja": "安野モヨコ",
+  "family": "情感与日常",
+  "scope": "本轮重点为《後ハッピーマニア 第1卷官方宣传图》的公开封面／主视觉及对应书目；旧作品研究另留在 archive 初稿，不能把不同时期合成固定画风。下列绘画方案为本库原创转译，封面观察不证明连续内页的分镜规律。",
+  "reference_works": [
+    {
+      "title": "後ハッピーマニア 第1卷官方宣传图",
+      "role": "漫画作者",
+      "source_ids": [
+        "RECENT1",
+        "RECENT2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sakuran | Egmont Shop",
+      "url": "https://www.egmont-shop.de/sakuran/",
+      "publisher": "Egmont Manga",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社列Moyoco Anno为作者，312页2024年德语版，介绍江户吉原的制度环境与人物反抗。电影色彩不作为漫画色稿依据。"
+      ],
+      "access_note": "早期研究对照：实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "context": "historical_reference",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Sakuran Egmont Manga德语版封面，2024：官方公开图像",
+      "url": "https://www.egmont-shop.de/globalassets/04_produkte/produktbilder/manga/fs-2024/finale-cover/sakuran.png",
+      "publisher": "Egmont Manga",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "人物头部、发饰与开口表情居中，右上白烟横向延伸，左侧持烟管，巨幅和服袖与花纹环绕躯干；后方几何室内线与自然图案对照。只核这版彩色封面，不把电影配色归作者漫画。"
+      ],
+      "access_note": "早期研究对照：从公开页面 https://www.egmont-shop.de/sakuran/ 的HTML明确提取图像URL，下载到自有/tmp后实际通过view_image查看。定位：Sakuran Egmont Manga德语版封面，2024。仅查看这一封面/展示图，未阅读内页；未将HTML alt当作视觉证据。",
+      "origin_page_url": "https://www.egmont-shop.de/sakuran/",
+      "observed_asset_sha256": "9202879ae9b94303ac8fba9e55ca093a1ec12716635af6960047123fc4ebd1c6",
+      "context": "historical_reference",
+      "evidence_type": "inspected-visual",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT1",
+      "title": "後ハッピーマニア 第1卷官方宣传图：官方书目／项目页",
+      "url": "https://www.shodensha.co.jp/gohappymania/",
+      "publisher": "祥伝社",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选作品署名与版本范围",
+        "官方首卷宣传图标2020年8月6日発売；页面另有2021年奖项标识，不据此把画面改记为2021创作"
+      ],
+      "access_note": "本轮核对公开书目／项目文字；时间含义见date_basis，不表示通读作品。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT2",
+      "title": "後ハッピーマニア 第1卷官方宣传图：已观察的公开图像",
+      "url": "https://www.shodensha.co.jp/gohappymania/images/slid_01_04.jpg",
+      "publisher": "祥伝社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定单幅公开图像的形体、线条、色块与构图观察"
+      ],
+      "access_note": "实际通过图像工具查看此公开封面／主视觉，未观察整卷内页；周围排版、字体与出版设计不自动归作者。",
+      "origin_page_url": "https://www.shodensha.co.jp/gohappymania/",
+      "observed_asset_sha256": "111174eeb9b18dd1e1b4ec41c182f5c2a28d5026b303f2b6d0d75416ea1e7a2a",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "短发人物正面眨眼，手指夹小圆物靠近嘴边，另一手上举；细长脖颈、眼下阴影和分束乱发形成成年面貌。棕色衣面、鲜粉图形与大白底相对，周围营销文字不算作者画笔证据。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "官方首卷宣传图标2020年8月6日発売；页面另有2021年奖项标识，不据此把画面改记为2021创作；署名分工：漫画作者",
+      "basis": "source_summary",
+      "source_ids": [
+        "RECENT1"
+      ]
+    },
+    {
+      "text": "短发人物正面眨眼，手指夹小圆物靠近嘴边，另一手上举；细长脖颈、眼下阴影和分束乱发形成成年面貌。棕色衣面、鲜粉图形与大白底相对，周围营销文字不算作者画笔证据。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "眼周细纹和发梢长线有轻重，轮廓在尖角与圆转间切换。",
+    "shapes": "成年人脸与颈肩保留年龄感，手指修长不僵。",
+    "composition": "用近脸和小手势作核心，鲜色平面留在外侧，脸旁保白。",
+    "panel_rhythm": "原创分镜建议：先交代空间，再给道具与手部动作，接人物反应，最后显示动作结果；不是由单幅封面推得的作者分镜规律。",
+    "tonal_design": "深发块配浅脸与灰衣，眼下薄影不涂成脏点。",
+    "environment": "背景用少数生活物件交代场景，几何色块不能掩盖角色。",
+    "acting": "眼神、嘴角、手指各表达一点矛盾，避免所有部位同样夸张。",
+    "color": "本库原创色彩转译：棕灰、鲜粉和大白区，头发保留暖浅高光。；只借所见单图的配色关系，不称固定作者色板。"
+  },
+  "drawing_steps": [
+    "先以本项目故事画三张小构图，应用：用近脸和小手势作核心，鲜色平面留在外侧，脸旁保白。",
+    "确认成年人物和原创衣物的结构：成年人脸与颈肩保留年龄感，手指修长不僵。 再核对手与道具接触。",
+    "按材质分层落线：眼周细纹和发梢长线有轻重，轮廓在尖角与圆转间切换。 环境处理：背景用少数生活物件交代场景，几何色块不能掩盖角色。",
+    "最后以灰阶缩图核对：深发块配浅脸与灰衣，眼下薄影不涂成脏点。 彩色版再应用：本库原创色彩转译：棕灰、鲜粉和大白区，头发保留暖浅高光。；只借所见单图的配色关系，不称固定作者色板。"
+  ],
+  "review_checks": [
+    "缩至缩略图时，主动作和手中物是否仍先于装饰可见？",
+    "人物结构与所选处理是否兼容：成年人脸与颈肩保留年龄感，手指修长不僵。",
+    "灰阶检查能否区分脸、手、衣物与背景：深发块配浅脸与灰衣，眼下薄影不涂成脏点。",
+    "用于连续页时，是否保持原故事人数、动作顺序、服装与道具方向？"
+  ],
+  "avoid": [
+    "把这张封面的观察当成整部作品、所有时期或全部分镜的定律。",
+    "把原封面人物、专属服饰、标志和签名带入原创角色；或把书封排版视为作者本人绘画。"
+  ],
+  "best_for": [
+    "成年神态与眼周细节",
+    "鲜色平面中的小手势"
+  ],
+  "prompt_core_zh": "使用有年龄感的眼周细线、尖圆交替的脸部轮廓和蓬松短发束；以细长手指表达克制的小动作，棕灰衣面配少量鲜粉平块，大白区防止装饰抢走神态。",
+  "prompt_core_en": "Use subtle age lines around the eyes, alternating angular and rounded facial contours, and loose grouped short hair. Convey small restrained gestures through slender fingers, pairing brown-gray clothing with a little vivid pink and ample white space.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "Egmont Manga的漫画出版或公开机构介绍语境；不推断民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "本轮不采集私人生活；未核生卒保持null。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "known_gaps": [
+    "本轮新阶段视觉观察限所列单图；未逐章核内页节奏、助手分工和长期画风变化。",
+    "原版出版或项目发布年份不等于每一笔原稿的绘制日期；具体日期边界见recent_focus。",
+    "本库8维方案、步骤和提示词属于原创转译，尚未用真实生成图验证一致性。"
+  ],
+  "method_evidence_source_ids": [
+    "RECENT2"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "成年面部保留眼下与嘴角细纹，颈肩修长但解剖合理，发束松散；衣物大面简洁，手指线条清楚。",
+  "focus": "历史与社会",
+  "historical_scope": "Sakuran 德语漫画版，Egmont 2024。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。",
+  "recent_focus": {
+    "work": "後ハッピーマニア 第1卷官方宣传图",
+    "year": 2020,
+    "source_ids": [
+      "RECENT1",
+      "RECENT2"
+    ],
+    "date_basis": "官方首卷宣传图标2020年8月6日発売；页面另有2021年奖项标识，不据此把画面改记为2021创作"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [
+    {
+      "text": "短发人物正面眨眼，手指夹小圆物靠近嘴边，另一手上举；细长脖颈、眼下阴影和分束乱发形成成年面貌。棕色衣面、鲜粉图形与大白底相对，周围营销文字不算作者画笔证据。",
+      "observation": "短发人物正面眨眼，手指夹小圆物靠近嘴边，另一手上举；细长脖颈、眼下阴影和分束乱发形成成年面貌。棕色衣面、鲜粉图形与大白底相对，周围营销文字不算作者画笔证据。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "aimoto-sho",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦《怪物事変 24》原版公开封面及署名书目，研究漫画作者绘画；动画团队画面不纳入。以下方案为本库原创应用，连续叙事部分不是据封面证明的作者分镜法。",
+  "recent_focus": {
+    "work": "怪物事変 24",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "原版《怪物事変 24》书目发行日为2025-12-04；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "怪物事変 24：出版社书目",
+      "url": "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-884705-4",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "作品作者署名、所选原版卷和发行日"
+      ],
+      "access_note": "已读取出版社书目正文的署名与发行日期；未通读内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "怪物事変 24：公开封面观察",
+      "url": "https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088847054/240/9784088847054.jpg",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "所示单张封面的构图、轮廓和大色面"
+      ],
+      "access_note": "已通过view_image实际看此出版社公开封面；仅据可见图面概括，低清处不判断笔刷细节。书名、字体、边框和出版版式不自动归给漫画作者；未观察连续内页。",
+      "origin_page_url": "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-884705-4",
+      "observed_asset_sha256": "4813bf3c9c67256fc751f059d6425d9fa2febd304a39028f506015e8cb5a307a",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "低清封面中，红色侧脸与手从深灰高领衣装中显出，浅色毛发和袖口分出另一层，金属勋章为小面积暖亮点。只据152像素宽图观察侧面剪影及大明度关系，不推断细笔刷、毛发刻线或连续页表现。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "原版《怪物事変 24》书目发行日为2025-12-04；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。 作者署名为藍本松。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "低清封面中，红色侧脸与手从深灰高领衣装中显出，浅色毛发和袖口分出另一层，金属勋章为小面积暖亮点。只据152像素宽图观察侧面剪影及大明度关系，不推断细笔刷、毛发刻线或连续页表现。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "低清封面中，红色侧脸与手从深灰高领衣装中显出，浅色毛发和袖口分出另一层，金属勋章为小面积暖亮点。只据152像素宽图观察侧面剪影及大明度关系，不推断细笔刷、毛发刻线或连续页表现。",
+      "observation": "低清封面中，红色侧脸与手从深灰高领衣装中显出，浅色毛发和袖口分出另一层，金属勋章为小面积暖亮点。只据152像素宽图观察侧面剪影及大明度关系，不推断细笔刷、毛发刻线或连续页表现。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "主轮廓保持清楚，衣领转折略硬，面部和手的内部线减少以免暗面碎裂。",
+    "shapes": "成年头颈与手掌按既定物种结构建立，厚领围绕颈肩体积，不套用样本异形五官。",
+    "composition": "以侧向头部和既定手势建立连贯视觉方向，装饰只在项目已有部位形成小焦点。",
+    "panel_rhythm": "本库原创迁移：全貌交代角色状态，转向表情和手的具体反应，再回到关系空间；不据封面概括怪谈分镜。",
+    "tonal_design": "大暗衣块包住中亮脸手，浅材质仅作窄层分隔，小配件亮点控制数量。",
+    "environment": "背景保持低密度，必要结构沿人物外缘退让；不额外增加恐怖符号或敌人。",
+    "acting": "侧脸下颌角度和手指收放共同表达防备或从容，按项目情绪决定，不固定狞笑。",
+    "color": "本库建议将暖红焦点放在项目允许的材料区，与冷灰暗部对照；不强制改变肤色或物种。"
+  },
+  "steps": [
+    "先画三种项目构图，选择能清楚承载既定动作的一种：以侧向头部和既定手势建立连贯视觉方向，装饰只在项目已有部位形成小焦点。",
+    "在既定成年角色与服装下搭体块：成年头颈与手掌按既定物种结构建立，厚领围绕颈肩体积，不套用样本异形五官。 再落实：主轮廓保持清楚，衣领转折略硬，面部和手的内部线减少以免暗面碎裂。",
+    "以缩略灰阶校对材料：大暗衣块包住中亮脸手，浅材质仅作窄层分隔，小配件亮点控制数量。 环境处理：背景保持低密度，必要结构沿人物外缘退让；不额外增加恐怖符号或敌人。",
+    "最后核对表演：侧脸下颌角度和手指收放共同表达防备或从容，按项目情绪决定，不固定狞笑。 颜色仅在项目未锁定处尝试：本库建议将暖红焦点放在项目允许的材料区，与冷灰暗部对照；不强制改变肤色或物种。"
+  ],
+  "checks": [
+    "高领衣物是否围绕真实颈肩体积？",
+    "小金属亮点是否服务结构而非盖过表情？",
+    "处理后是否保留既定物种和肤色？"
+  ],
+  "sheet_traits_zh": "主轮廓清楚，成年颈肩和手掌符合既定物种，厚衣领随体积转折；暗衣与中亮面分层，浅材质窄边及少量金属亮点区分结构。",
+  "avoid": [
+    "用样本红肤、异形耳鼻或勋章替换项目角色。",
+    "把低清图看不清的笔刷纹理补写成作者定律。"
+  ],
+  "unknowns": [
+    "视觉观察限所列单封面；未通读章节、核对助手分工或追溯所有时期。",
+    "下列八维方案、步骤与提示词是原创转译，尚未实际生成图片验证。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

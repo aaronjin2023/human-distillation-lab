@@ -1,6 +1,6 @@
 # The Closers
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 5, 2005. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harry Bosch
 
 角色职责：protagonist · 身份：`identity-01de90114591ba50` · 独立版本：`profile-88b9107326af1ac8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：重查陈年命案时，他呈现耐心追索且不轻放遗漏的倾向（行为推断；S12、S22、S25）
 - **核心动机**：他希望给受害者家庭明确答案，使其有机会走出长期不确定（摘要直接叙述；S15、S16）
@@ -27,6 +33,10 @@
 ### Kiz Rider
 
 角色职责：co-lead · 身份：`identity-dd7df153c96c09cf` · 独立版本：`profile-ef03d5b18adfe988`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在重查旧案的合作中，她表现出持续投入和细致求证的倾向（行为推断；S9、S10、S25）
 - **核心动机**：她与搭档共同追求还原遇害当晚经过并确定责任人的目标（摘要直接叙述；S25）

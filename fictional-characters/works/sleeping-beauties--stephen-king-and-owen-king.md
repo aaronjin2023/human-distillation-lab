@@ -1,6 +1,6 @@
 # Sleeping Beauties
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 15, 2017. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Clint Norcross
 
 角色职责：protagonist · 身份：`identity-f19a9b5657446b0b` · 独立版本：`profile-74011c891e367d9f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在囚犯受到污名的环境中，倾向以体谅而非定罪看待她们（行为推断；S39、S40）
 - **价值取舍**：重视女性囚犯作为人的尊严，相信她们具有改善处境的可能（摘要直接叙述；S39、S40）
@@ -27,6 +33,10 @@
 ### Lila Norcross
 
 角色职责：co-lead · 身份：`identity-762e0b84a5b460d0` · 独立版本：`profile-fbc3025fafcf28b6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在睡眠不足与公共危机中，呈现强硬且不容顶撞的倾向（行为推断；S35、S36）
 - **核心动机**：即使受到沉睡疾病威胁，仍坚持清醒以继续帮助镇民（摘要直接叙述；S36）
@@ -44,6 +54,10 @@
 
 角色职责：central-antagonist · 身份：`identity-2397fa6910cc758d` · 独立版本：`profile-4d34643e99ece723`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在冲突中容易暴怒，并倾向为自己的失控寻找合理解释（摘要直接叙述；S43、S44）
 - **核心动机**：面对女性集体沉睡的危机，企图控制伊薇以救回她们（摘要直接叙述；S12）
 - **价值取舍**：倾向维护自己是好人的判断，将伤人冲动解释为必要手段（行为推断；S44）
@@ -59,6 +73,10 @@
 ### Eve Black
 
 角色职责：central-antagonist · 身份：`identity-eb37515810311c88` · 独立版本：`profile-139bdb14e3c4c7cc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在检验男性是否值得存续时，倾向设局诱发预期中的暴力（行为推断；S25、S26）
 - **核心动机**：以使者使命解释自身行动，意在检验失去女性后的男性社会（摘要直接叙述；S9、S52）

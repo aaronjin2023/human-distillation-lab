@@ -1,6 +1,6 @@
 # The Hostile Hospital
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series A Series of Unfortunate Events; reported series sales: 65 million[250]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Klaus Baudelaire
 
 角色职责：co-lead · 身份：`identity-89ae14c3f98d1139` · 独立版本：`profile-b80519b32f98de1c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在维奥莱特被抓且面临手术威胁时，他表现出冷静应变的倾向（行为推断；S28、S29、S32、S34）
 - **核心动机**：他追查名单并冒充医护，直接目的是找回并救出维奥莱特（行为推断；S29、S31、S32、S34）
@@ -27,6 +33,10 @@
 ### Violet Baudelaire
 
 角色职责：co-lead · 身份：`identity-2dab46a70d19a64c` · 独立版本：`profile-b770aca46137f069`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在火灾封锁逃生路线时，她表现出依靠动手能力解困的倾向（行为推断；S35、S36）
 - **核心动机**：她与弟妹追索档案，是为了查清父母与家族灾难的真相（行为推断；S25、S26、S37）

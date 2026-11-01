@@ -1,6 +1,6 @@
 # The Shepherd's Crown
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiffany Aching
 
 角色职责：protagonist · 身份：`identity-7277dfe86e1cccf7` · 独立版本：`profile-7e460525d9ece3aa`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在继承重担与入侵压力下倾向主动承担，也愿尝试接纳敌方（行为推断；S21、S26、S28、S29）
 - **价值取舍**：面对被逐出族群的前精灵女王，仍选择收留并教她理解善意（行为推断；S25、S26、S28）
@@ -28,6 +34,10 @@
 
 角色职责：major-support · 身份：`identity-4bd117f1380534dd` · 独立版本：`profile-86aef6a3b8844338`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在新群体中倾向安抚并融洽相处，获得编织平静者的称呼（行为推断；S22）
 - **核心动机**：因不满父亲的狩猎方式而离家，希望走上成为女巫的道路（摘要直接叙述；S18）
 - **价值取舍**：明确坚持素食与和平主义，并把狩猎习俗视为野蛮行为（摘要直接叙述；S17、S18）
@@ -43,6 +53,10 @@
 ### Nightshade
 
 角色职责：major-support · 身份：`identity-ca9a23f2324d031d` · 独立版本：`profile-d078cccd5c982891`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受收留与善意教导后表现出改变立场、回应友谊的倾向（行为推断；S26、S28、S36）
 - **关系模式**：与蒂凡妮的关系从被收留的异族女王转为她认可的朋友（摘要直接叙述；S26、S36）

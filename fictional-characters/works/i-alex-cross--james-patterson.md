@@ -1,6 +1,6 @@
 # I, Alex Cross
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 6, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-2ce0bf4b2ad080af`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对权力机构施压仍倾向坚持追查，不轻易交出调查主导权（行为推断；S8、S9、S16）
 - **核心动机**：侄女遇害促使他亲自接案，并追查相关受害者背后的共同凶手（行为推断；S2、S4、S7）
@@ -24,6 +30,10 @@
 ### Theodore Vance
 
 角色职责：central-antagonist · 身份：`identity-29479e91275244ed` · 独立版本：`profile-41bf52a63f65cee8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在隐秘活动中倾向严密遮蔽身份，并依赖权势网络维持秘密（行为推断；S7、S14、S15）
 - **核心动机**：借助身边人员的掩护，持续满足自己对年轻应召者的欲望（摘要直接叙述；S15）

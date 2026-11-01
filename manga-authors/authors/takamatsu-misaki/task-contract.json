@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "takamatsu-misaki",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮限定《スキップとローファー 第12卷发行纪念新绘卡》的公开书目与官方第12卷发行纪念宣传图 skiptoloafer_250801main.jpg，下方四张新绘卡（非封面、非连续漫画页）。其他时期未逐年比较；不将改编动画或影视团队成果归本人。八维配方为原创一般技法迁移，连续分镜建议不冒称封面可证。",
+  "recent_focus": {
+    "work": "スキップとローファー 第12卷发行纪念新绘卡",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "官方2025-08-01公告明确第12卷2025-08-22发行，并说明特典卡为高松美咲新绘；2025指该发行纪念项目发表年，单图落笔日未核。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "スキップとローファー 第12卷发行纪念新绘卡：公开书目与署名",
+      "url": "https://afternoon.kodansha.co.jp/news/5867.html",
+      "publisher": "讲谈社／Afternoon",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选漫画的作者署名与版本范围",
+        "官方2025-08-01公告明确第12卷2025-08-22发行，并说明特典卡为高松美咲新绘；2025指该发行纪念项目发表年，单图落笔日未核。"
+      ],
+      "access_note": "实际读公开正文／出版社供稿书目；不表示通读整卷，不以动画或影视改编替代漫画证据。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "スキップとローファー 第12卷发行纪念新绘卡：实际观察的公开图",
+      "url": "https://afternoon.kodansha.co.jp//c/skiptoloafer/kc12/skiptoloafer_250801main.jpg",
+      "publisher": "讲谈社／Afternoon",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅该公开图可见的线形、体块、明暗、色彩及构图"
+      ],
+      "access_note": "从上述公开页面明确提取图像链接，下载到临时文件后实际通过 view_image 查看。定位：官方第12卷发行纪念宣传图 skiptoloafer_250801main.jpg，下方四张新绘卡（非封面、非连续漫画页）；只支持该画面，未读内页；字体与书封装帧不自动视为作者绘画。",
+      "origin_page_url": "https://afternoon.kodansha.co.jp/news/5867.html",
+      "observed_asset_sha256": "9a87a73dbad6f55dfcf4eaf68d9733f644dd31708d4e52204fc2065e5ce02771",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看宣传图中四张新绘卡：人物五官简省，细线轮廓与自然手部并置；衣服低彩红、青、赭按大面分开，浅灰阴影轻，背景窗框、家具和植物的线条较细且不压住脸。四张卡中的原人数、动物和动作均不移入提示词。只支持这些静态展示图。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "Afternoon公告把四种特典明确称为高松美咲氏描き下ろしチェキ風カード，核定第12卷发行日期；本次图像依据是新绘宣传展示，不是动画画面或声称已看书内页。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "实际查看宣传图中四张新绘卡：人物五官简省，细线轮廓与自然手部并置；衣服低彩红、青、赭按大面分开，浅灰阴影轻，背景窗框、家具和植物的线条较细且不压住脸。四张卡中的原人数、动物和动作均不移入提示词。只支持这些静态展示图。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看宣传图中四张新绘卡：人物五官简省，细线轮廓与自然手部并置；衣服低彩红、青、赭按大面分开，浅灰阴影轻，背景窗框、家具和植物的线条较细且不压住脸。四张卡中的原人数、动物和动作均不移入提示词。只支持这些静态展示图。",
+      "observation": "实际查看宣传图中四张新绘卡：人物五官简省，细线轮廓与自然手部并置；衣服低彩红、青、赭按大面分开，浅灰阴影轻，背景窗框、家具和植物的线条较细且不压住脸。四张卡中的原人数、动物和动作均不移入提示词。只支持这些静态展示图。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "简省五官配清楚中细外线，衣褶以少量长短线说明方向，背景结构线比人物关键线更细。",
+    "shapes": "自然成年肩胸、头颈和手部连接为底层，表情可以概括但不继承样本高中生比例和制服。",
+    "composition": "既定角色数量与行动不变，用脸旁干净浅区和明确手部关系组织主次，背景线只提供必要支撑。",
+    "panel_rhythm": "原创分镜迁移建议：既定动作后给细小反应，再回到关系镜头；四张独立特典卡不能证明实际内页排格或时长。",
+    "tonal_design": "浅皮肤、衣料中灰与少量发根深色分层，阴影面积小而清楚，不靠全图柔焦制造轻松感。",
+    "environment": "保留项目已有地点，以较细结构线和低彩材料说明位置；不能自动加入猫狗、花盆或原图室内。",
+    "acting": "眼眉位置与嘴角不同幅度区分态度，手指放松或用力服从既定动作，各人不套同一笑脸。",
+    "color": "由宣传图转译为低彩赭红、青灰与奶白的有限关系；服装和发色已锁定时只借色温和明度。"
+  },
+  "steps": [
+    "先锁定项目人数与成年外形，用浅区标出面部与关键手部。",
+    "建立自然肩胸和手指结构，再用少量线简化五官。",
+    "衣服分中灰大面，背景以更细线交代既定空间。",
+    "检查每个既定表情的眼眉嘴角差异，减少抢焦点的纹样和环境对比。"
+  ],
+  "checks": [
+    "简省五官是否仍能区分不同情绪与人物？",
+    "手部是否有明确接触与成年比例？",
+    "背景是否细而可信，且没有偷换地点或加入动物道具？"
+  ],
+  "sheet_traits_zh": "简省五官配清楚中细线，静态成年肩胸手部自然；皮肤浅面、衣料中灰与局部深块分层，布褶疏朗。",
+  "avoid": [
+    "把独立新绘卡排成已证实的原作连续分镜。",
+    "复制宣传卡中的制服、动物或固定人物组合。"
+  ],
+  "unknowns": [
+    "实际查看的是四张独立新绘卡的宣传展示，不是第12卷封面或内页。",
+    "未读连续内页与作者过程访谈，分镜仅为原创迁移；特典排版不自动归作者。",
+    "8维方案、4步骤、评审与提示词为本库原创转译，未实际生成或完成画面一致性验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

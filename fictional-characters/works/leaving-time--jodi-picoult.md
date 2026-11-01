@@ -1,6 +1,6 @@
 # Leaving Time
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 2, 2014. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jenna
 
 角色职责：protagonist · 身份：`identity-d3afc31b423dc91b` · 独立版本：`profile-7731213a0bcb969a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对长期失踪的母亲，倾向主动争取帮助并持续追索（行为推断；S7、S12）
 - **核心动机**：寻找母亲的下落，是她组织调查并追踪相关人的目标（摘要直接叙述；S2、S7、S12）
@@ -27,6 +33,10 @@
 ### Serenity
 
 角色职责：major-support · 身份：`identity-30e94b08e0c60ff2` · 独立版本：`profile-4fcf47dc956bafae`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在无法获得通灵结果时，倾向用安慰性虚构回应求助（行为推断；S19）
 - **核心动机**：伪造幻象的直接目的，是让以为丧母的女孩获得释怀（摘要直接叙述；S17、S19）

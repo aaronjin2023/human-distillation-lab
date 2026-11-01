@@ -1,6 +1,6 @@
 # Verity
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 16, 2022. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lowen Ashleigh
 
 角色职责：protagonist · 身份：`identity-a12bf63fa174a402` · 独立版本：`profile-bb79bd6f11b9bd6b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在疑惧与情感卷入中，她倾向监视求证又回避不利真相（行为推断；S19、S30、S31）
 - **核心动机**：在经济不安与职业信心不足的处境中，她渴望获得写作发展机会（行为推断；S2、S3、S33）
@@ -30,6 +36,10 @@
 
 角色职责：major-support · 身份：`identity-0ee0065467260828` · 独立版本：`profile-cebf0c28cc2e9595`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在自身解释中，她面对丈夫威胁时倾向隐匿而非当面对抗（行为推断；S29）
 - **核心动机**：按她信中的说法，伪装受损是为等待带Crew逃离的机会（摘要直接叙述；S29）
 - **决策方式**：在两份相互冲突的文本中，她都以书写安排自身行为的解释（行为推断；S14、S16、S27、S28）
@@ -45,6 +55,10 @@
 ### Jeremy Crawford
 
 角色职责：major-support · 身份：`identity-8a0fa567aceb62a5` · 独立版本：`profile-12abc2dd5e6ee824`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在认定妻子欺骗自己时，他表现出愤怒驱动的暴力倾向（行为推断；S21、S23）
 - **核心动机**：丧失两个女儿后，他努力维系家庭并保护幸存的儿子（摘要直接叙述；S41）

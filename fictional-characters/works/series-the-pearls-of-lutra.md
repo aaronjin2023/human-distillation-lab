@@ -1,6 +1,6 @@
 # The Pearls of Lutra
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tansy
 
 角色职责：co-lead · 身份：`identity-718654b4cb107870` · 独立版本：`profile-b7fd98adfb95b0e5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对未知线索时，倾向积极探究并持续推进困难搜寻（行为推断；S17、S35、S71）
 - **核心动机**：参与寻找散藏院内的六颗珍珠，持续推进谜团的破解（摘要直接叙述；S35、S50、S53）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-d8e65dcec08abdea` · 独立版本：`profile-7ee82d17f5f5abd2`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对同伴遇险时，倾向主动救援并坚持长途追踪（行为推断；S16、S40、S44）
 - **核心动机**：追逐绑架者横渡海洋，以救回被掳的修道院院长（摘要直接叙述；S39、S40、S44、S67）
 - **决策方式**：追救力量受损后，倾向送伤者返院并联合新盟友继续行动（行为推断；S41、S42、S44）
@@ -39,6 +49,10 @@
 ### Grath Longfletch
 
 角色职责：co-lead · 身份：`identity-dbcd8e932f8c83c6` · 独立版本：`profile-217d034e60b201c8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：从濒死状态恢复后，表现出顽强且主动反击的倾向（行为推断；S26、S27、S28）
 - **核心动机**：为遭海盗杀害的家人复仇，主动寻找并追击凶手（摘要直接叙述；S27、S28）

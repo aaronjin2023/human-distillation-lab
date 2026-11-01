@@ -1,6 +1,6 @@
 # Without Remorse
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 29, 1993. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Terrence Kelly
 
 角色职责：protagonist · 身份：`identity-e12c605d7f5e9e94` · 独立版本：`profile-47fd564f17cd6f57`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失去爱人与遭遇威胁后，倾向以主动而极端的行动应对（行为推断；S6、S12、S13、S23）
 - **核心动机**：针对毒品集团的私人行动以替帕姆复仇为核心驱动力（摘要直接叙述；S6、S12、S23）
@@ -28,6 +34,10 @@
 ### Winslow Holland "Dutch" Maxwell
 
 角色职责：major-support · 身份：`identity-75a67bcaccfa8830` · 独立版本：`profile-9da5f57ca00528b4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战俘危机中倾向积极组织干预，而非被动等待局势变化（行为推断；S8、S15、S53）
 - **核心动机**：组织秘密营救旨在救回掌握高度机密的军官及其他战俘（摘要直接叙述；S7、S8）

@@ -1,6 +1,6 @@
 # Lord of Chaos
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-694684e156809e5b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对两仪师争取与强制约束，倾向高度警惕他人控制自身（行为推断；S20、S21、S25）
 - **核心动机**：推动男性导引者组织化训练，以建立可供运用的独立力量（行为推断；S18、S19）
@@ -27,6 +33,10 @@
 ### Egwene al'Vere
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-732db21e26a8f0d0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：新任玉座后倾向主动行使权力，并以隐蔽行动处理敏感事务（行为推断；S29、S30、S32）
 - **核心动机**：派出寻宝队伍的直接目标，是解除暗帝对异常气候的控制（摘要直接叙述；S30）

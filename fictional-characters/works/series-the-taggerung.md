@@ -1,6 +1,6 @@
 # The Taggerung
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Deyna
 
 角色职责：protagonist · 身份：`identity-17ba661fe4835a59` · 独立版本：`profile-71eadd14072c774d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在族群暴力规范下，表现出有主见且敢于拒绝服从的倾向（行为推断；S23、S24、S25）
 - **价值取舍**：拒绝以杀戮取乐，也不肯执行对逃亡者剥皮的命令（摘要直接叙述；S23、S24）
@@ -28,6 +34,10 @@
 ### Sawney Rath
 
 角色职责：central-antagonist · 身份：`identity-bc87402c9ac62913` · 独立版本：`profile-dfbbbe92595bfabb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对养子不服从时，表现出强烈控制欲与报复性反应（行为推断；S21、S24、S25）
 - **核心动机**：夺取传说中的婴儿战士，意在将其收养并纳入自己的控制（摘要直接叙述；S18、S21）

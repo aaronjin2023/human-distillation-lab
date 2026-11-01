@@ -1,6 +1,6 @@
 # The Reversal
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 24, 2010. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mickey Haller
 
 角色职责：co-lead · 身份：`identity-5ce9320fa322417b` · 独立版本：`profile-0620095d306d6f02`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对高风险重审，他倾向主动控制团队配置与诉讼节奏（行为推断；S3、S11、S18）
 - **核心动机**：在日益不满辩护律师角色的背景下，他倾向尝试公诉职责（行为推断；S2）
@@ -28,6 +34,10 @@
 ### Harry Bosch
 
 角色职责：co-lead · 身份：`identity-01de90114591ba50` · 独立版本：`profile-5aca36ddaee25a21`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对证人受攻击与线索断裂，他表现出持续追查的倾向（行为推断；S18、S19、S22）
 - **核心动机**：作为调查员，他倾向通过查清证人关联来支撑案件指控（行为推断；S3、S18、S19、S20）

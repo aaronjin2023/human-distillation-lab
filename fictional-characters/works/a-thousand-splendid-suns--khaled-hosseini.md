@@ -1,6 +1,6 @@
 # A Thousand Splendid Suns
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 10, 2007. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mariam
 
 角色职责：co-lead · 身份：`identity-29e27817d02b8fdc` · 独立版本：`profile-1c634d1f3c86a8e3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在共同受虐的关系中，逐渐表现出照护与坚决保护倾向（行为推断；S20、S32、S33）
 - **核心动机**：在致命暴力面前，以保住莱拉及孩子的未来为行动目标（摘要直接叙述；S32、S33）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-a363a6d181114c86` · 独立版本：`profile-74a1a565d3906a11`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在压迫与阻拦下表现出韧性，仍持续维护孩子的联系（行为推断；S21、S26、S29）
 - **核心动机**：得知自己怀孕后，倾向以隐瞒生父身份和结婚寻求保障（行为推断；S17、S18）
 - **价值取舍**：脱离危险之后仍重视公共责任，愿意投入家园重建（行为推断；S37、S40）
@@ -44,6 +54,10 @@
 ### Rasheed
 
 角色职责：central-antagonist · 身份：`identity-00419ab3adbec5b7` · 独立版本：`profile-53c0c1728d2a26eb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭权力受到挑战时，倾向以控制和暴力回应（行为推断；S21、S28、S31）
 - **核心动机**：为了让莱拉留下并嫁给自己，主动制造恋人已死的假讯（摘要直接叙述；S28）

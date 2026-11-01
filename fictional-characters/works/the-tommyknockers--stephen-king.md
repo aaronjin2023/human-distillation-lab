@@ -1,6 +1,6 @@
 # The Tommyknockers
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 29, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### James Eric Gardener
 
 角色职责：protagonist · 身份：`identity-8e5c0bcbafdb417d` · 独立版本：`profile-19bfd43def635a9b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在朋友与群体被异化时，倾向保留警惕并承担危险的抵抗（行为推断；S8、S9、S12、S18、S19）
 - **核心动机**：把与鲍比的友谊视为少数生活支撑，留下来试图阻止她恶化（摘要直接叙述；S9）
@@ -29,6 +35,10 @@
 ### Roberta Anderson
 
 角色职责：co-lead · 身份：`identity-3b24ef548f98c0eb` · 独立版本：`profile-fe2b05c663d08a51`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在飞船异化加深的情境中，呈现沉迷力量并以强制应对威胁的倾向（行为推断；S8、S14）
 - **核心动机**：受到与飞船合一的强烈欣快感驱动，持续参与发掘（行为推断；S8、S11）

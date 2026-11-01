@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Okonkwo
 
 角色职责：protagonist · 身份：`identity-1a096475c6c09392` · 独立版本：`profile-49e2b3fb8d7baa75`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在可能被视为软弱的情境中，他倾向以强硬行动维护自我形象（行为推断；S6、S10、S26）
 - **核心动机**：他努力积累名望与财富，以摆脱父亲无力养家的负面榜样（摘要直接叙述；S4、S5）
@@ -28,6 +34,10 @@
 ### Nwoye
 
 角色职责：major-support · 身份：`identity-e2c1b6d62bb6bdd6` · 独立版本：`profile-e366ed5c340c0127`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在新宗教进入本地时，他表现出愿意探究陌生信仰的倾向（行为推断；S16、S17、S18）
 - **核心动机**：再次遭父亲殴打后，他明确选择离家以获得独立生活（摘要直接叙述；S16）

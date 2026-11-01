@@ -1,6 +1,6 @@
 # Night Watch (Pratchett novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sir Samuel Vimes
 
 角色职责：protagonist · 身份：`identity-77abbf7a12901176` · 独立版本：`profile-334a8f9b21ed3075`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：身处动乱并承担指挥时，倾向克制武力并优先保护居民（行为推断；S20、S21）
 - **核心动机**：初到过去时首先希望返回家中，结束与原有生活的分离（摘要直接叙述；S14）
@@ -28,6 +34,10 @@
 ### Carcer
 
 角色职责：central-antagonist · 身份：`identity-ec13fb3295452626` · 独立版本：`profile-322d5b1aabf7b612`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：进入陌生时代后，倾向迅速依附能容纳暴力的权力机构（行为推断；S15）
 - **核心动机**：受新统治者指派后，将杀死被视为威胁的Keel作为目标（摘要直接叙述；S24）

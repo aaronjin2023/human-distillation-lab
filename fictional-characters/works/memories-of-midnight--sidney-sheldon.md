@@ -1,6 +1,6 @@
 # Memories of Midnight
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 2, 1990. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Catherine Douglas
 
 角色职责：protagonist · 身份：`identity-763a61915dc76b42` · 独立版本：`profile-77c637bc242f93de`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失忆与陌生环境中表现出主动探索倾向，而非完全接受安排（行为推断；S2、S4、S27）
 - **核心动机**：离开修道院的明确目的，是找回自己失落的个人过去（摘要直接叙述；S4）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-f415fab3a88cb80d` · 独立版本：`profile-a6356a694436de15`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在地位受到威胁时倾向控制他人，并以暴力排除不利因素（行为推断；S6、S16、S20）
 - **核心动机**：压制凯瑟琳的记忆线索，是为避免先前定罪内幕遭到揭露（摘要直接叙述；S5、S6）
 - **价值取舍**：在保全自身利益时倾向牺牲他人生命与承诺的真实性（行为推断；S16、S20、S25）
@@ -44,6 +54,10 @@
 ### Napoleon Chotas
 
 角色职责：major-support · 身份：`identity-0eb3bbffa932f16f` · 独立版本：`profile-cdd98e4a36bcdf96`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在担忧自身安危及后续对抗中，表现出筹划反制的倾向（行为推断；S10、S24、S25、S32、S33）
 - **核心动机**：最终行动包含对科斯塔所施伤害的报复，以及不愿继续活下去（行为推断；S32、S33）

@@ -1,6 +1,6 @@
 # The Dark Tower II: The Drawing of the Three
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Dark Tower; reported series sales: 30 million[280]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Roland of Gilead
 
 角色职责：protagonist · 身份：`identity-b9d3efb9315a39d9` · 独立版本：`profile-996d8aafc93c5f0b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在伤势感染与体力衰退中，仍表现出顽强的行动倾向（行为推断；S16、S17、S18）
 - **核心动机**：通过异时空之门招募伙伴，以继续通往暗黑塔的追索（摘要直接叙述；S3、S20）
@@ -27,6 +33,10 @@
 ### Eddie Dean
 
 角色职责：co-lead · 身份：`identity-cef5a6e0c3c60e56` · 独立版本：`profile-48c77f2e09bf16e1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在黑帮监控与威逼下，倾向机敏应变并主动寻找突破口（行为推断；S23、S25、S26）
 - **决策方式**：面对受控局面，倾向利用跨界通道改变敌我力量关系（行为推断；S25、S26、S27、S28）

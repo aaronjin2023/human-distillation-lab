@@ -1,6 +1,6 @@
 # The Secret of Secrets
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 28, 2025. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Robert Langdon
 
 角色职责：protagonist · 身份：`identity-710cf6abca59cabf` · 独立版本：`profile-54d699885322ee29`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追捕与误导中，倾向主动查证并寻找表象背后的操控机制（行为推断；S8、S23、S24、S42）
 - **核心动机**：努力洗清自己与凯瑟琳的嫌疑，并保护她及其研究成果（行为推断；S7、S20、S24、S42）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-e0b888547d93a85a` · 独立版本：`profile-ef2285fd01c701fc`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在研究可能被秘密利用的处境中，呈现坚持伦理边界的倾向（行为推断；S12、S22、S31）
 - **核心动机**：希望通过著作提出意识研究证据，将相关发现带给读者（行为推断；S22、S41、S43）
 - **价值取舍**：明确反对将相关意识研究武器化，因此与秘密项目发生冲突（摘要直接叙述；S12）
@@ -44,6 +54,10 @@
 ### Everett Finch
 
 角色职责：central-antagonist · 身份：`identity-36d2060830fe8c93` · 独立版本：`profile-2a1ab33c83abc6a9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在项目秘密受到威胁时，倾向以强制控制排除异议与泄密风险（行为推断；S14、S16、S26、S34）
 - **核心动机**：力求维持阈限项目的秘密，阻止凯瑟琳著作揭露技术来源（摘要直接叙述；S14、S31、S33）

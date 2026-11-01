@@ -1,6 +1,6 @@
 # Interview with the Vampire
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Louis de Pointe du Lac
 
 角色职责：protagonist · 身份：`identity-105e187c126ad4f4` · 独立版本：`profile-02134f344d991712`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对吸血生活倾向反复自省，不满足于力量而追问道德意义（行为推断；S22、S24、S42）
 - **核心动机**：最初接受转化，是希望借失去人性摆脱弟弟死亡带来的悲痛（摘要直接叙述；S19、S21）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-00049097b25f820a` · 独立版本：`profile-292e782256fd4ef8`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在害怕路易离开时倾向操控关系，以创造依赖维持陪伴（行为推断；S31、S32）
 - **核心动机**：把女孩变成共同的女儿，明确是为了给路易留下的理由（摘要直接叙述；S32）
 - **决策方式**：面对伴侣可能离去，倾向制造新的共同牵系而非接受分离（行为推断；S31、S32、S34）
@@ -44,6 +54,10 @@
 ### Claudia
 
 角色职责：co-lead · 身份：`identity-42b73096000e0164` · 独立版本：`profile-fc0cbe4516d1b0be`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被永久困于幼童身体后倾向主动反抗，而非接受创造者安排（行为推断；S35、S36）
 - **核心动机**：在永久幼童的困境中责怪莱斯特，并谋求杀死这位创造者（行为推断；S35、S36）

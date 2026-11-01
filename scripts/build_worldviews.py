@@ -53,6 +53,11 @@ def check_records(records, work_ids):
             require(c['basis'] == 'unknown' or c['source_ids'], 'Unsupported claim')
         for field in ('boundaries', 'tensions'):
             require(isinstance(r[field], list) and len(r[field]) >= 2 and all(isinstance(t, str) and t.strip() for t in r[field]), f'Missing {field}')
+        readiness = r.get('use_readiness', {})
+        require(readiness.get('perspective_reference') == 'source-bound-draft' and
+                readiness.get('action_rule_execution') == 'insufficient-evidence' and
+                isinstance(readiness.get('reason'), str) and readiness['reason'].strip(),
+                'Missing use readiness or unsupported action-readiness promotion')
         a = r['application']
         require(a['scope'] == 'original_synthesis' and isinstance(a['steps'], list) and len(a['steps']) == 3 and all(isinstance(s, str) and s.strip() for s in a['steps']), 'Invalid application steps')
         require(all(isinstance(a[k], str) and a[k].strip() for k in ('scenario', 'example')), 'Incomplete application example')
@@ -72,6 +77,10 @@ def skill_text(r):
     for c in r['claims']:
         refs = '、'.join(c['source_ids']) or '无充分来源'
         lines += [f"- **{LABELS[c['dimension']]}**（{BASIS[c['basis']]}）：{c['text']}〔{refs}〕"]
+    lines += ['', '## 按用途加载', '',
+              '**主题／思想参考：有来源草稿；具体行动规则执行：材料不足。**', '', r['use_readiness']['reason'], '',
+              '推演前先列本次行动的前提、例外、代价和版本，并逐项绑定来源。未知前提不得默认满足；原创补全须单列为本次项目新增设定，不回写为原作规则。', '',
+              '必须一起读取范围、六维判断及其来源、张力限制和本节；不能仅取 summary。']
     lines += ['', '## 张力与限制', ''] + ['- ' + t for t in r['tensions']]
     lines += [''] + ['- ' + b for b in r['boundaries']]
     if r.get('related_worldview_ids'):
@@ -103,7 +112,7 @@ def generated(records):
             path = folder + '/SKILL.md'
             output[path] = skill_text(r)
             output[folder + '/manifest.json'] = json.dumps(r, ensure_ascii=False, indent=2) + '\n'
-            catalog.append({k: r[k] for k in ('id', 'title', 'kind', 'family', 'scope')} | {'path': path})
+            catalog.append({k: r[k] for k in ('id', 'title', 'kind', 'family', 'scope')} | {'path': path, 'use_readiness': r['use_readiness']})
             lines += [f"| [{r['title']}]({path}) | {r['family']} | {r['scope'].replace('|', '／')} |"]
         lines += ['']
     output['CATALOG.md'] = '\n'.join(lines).rstrip() + '\n'
@@ -136,7 +145,7 @@ def run(build=False):
                'claims': dict(Counter(c['basis'] for r in records for c in r['claims'])),
                'source_records': sum(len(r['sources']) for r in records),
                'unique_source_urls': len({s['url'] for r in records for s in r['sources']}),
-               'checks': ['unique scoped IDs', 'six dimensions', 'resolved source IDs', 'source metadata', 'version scope', 'original application label', 'character work references', 'generated content equality', 'local links'],
+               'checks': ['unique scoped IDs', 'six dimensions', 'resolved source IDs', 'source metadata', 'version scope', 'use-specific readiness', 'original application label', 'character work references', 'generated content equality', 'local links'],
                'input_sha256': {k + '.json': hashlib.sha256((BASE / (k + '.json')).read_bytes()).hexdigest() for k in KINDS}}
     if build:
         write_json(BASE / 'verification/build.json', receipt)
@@ -154,7 +163,9 @@ def self_test():
     unsafe_slug = copy.deepcopy(rows); unsafe_slug[0]['slug'] = '../escape'
     missing_scope = copy.deepcopy(rows); missing_scope[0]['scope'] = ''
     wrong_steps = copy.deepcopy(rows); wrong_steps[0]['application']['steps'] = 'abc'
-    for bad in (rows + [rows[0]], missing_source, duplicate_dim, unsafe_slug, missing_scope, wrong_steps):
+    missing_readiness = copy.deepcopy(rows); missing_readiness[0].pop('use_readiness')
+    false_ready = copy.deepcopy(rows); false_ready[0]['use_readiness']['action_rule_execution'] = 'validated'
+    for bad in (missing_readiness, false_ready, rows + [rows[0]], missing_source, duplicate_dim, unsafe_slug, missing_scope, wrong_steps):
         try:
             check_records(bad, works)
         except ValueError:

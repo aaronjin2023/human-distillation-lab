@@ -1,6 +1,6 @@
 # The Night Fire
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 10, 2019. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harry Bosch
 
 角色职责：co-lead · 身份：`identity-01de90114591ba50` · 独立版本：`profile-200452ec4160de17`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查中倾向细查证据链，不轻易接受既有案件结论（行为推断；S12、S23、S25、S26）
 - **核心动机**：在自身患病的处境中，倾向为女儿争取经济保障（行为推断；S14、S15）
@@ -28,6 +34,10 @@
 ### Renée Ballard
 
 角色职责：co-lead · 身份：`identity-21e5fb9b37d33875` · 独立版本：`profile-77ab7360aae9ba0e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对旧案疑点和追捕阻力时，表现出警觉而执着的倾向（行为推断；S5、S7、S22、S31）
 - **核心动机**：倾向以查明旧案真相为目标，持续追索可疑调查环节（行为推断；S5、S6、S7、S19）

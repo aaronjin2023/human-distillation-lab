@@ -1,5 +1,7 @@
 # Inge Lehmann — 发现方法与理论风格规格 style.md（给文本模型）
 
+> 流程范围：采用 process.md 的编者现代研究方案；原论文参数及数据尚未逐项核读，方案一致不等于原方法复现或效果通过。
+
 > 只描述研究工作，不描述人生。
 
 ## (1) 一句话风格（prompt-ready）
@@ -7,7 +9,7 @@
 - EN: `In the style of Inge Lehmann, test for a solid inner core from core phases: look for weak arrivals inside the shadow zone, fit them with the simplest model that adds one interface, and claim nothing about composition beyond what the waves require`
 - ZH: 英厄·莱曼风格：地核里面还有什么？
 
-## (2) 野外观察方式
+## (2) 地震观测方式
 
 - 从反常震相读内核：分析远震 P 波在地核影区内出现的微弱到时，发现液态外核之内还有一个固态内核。观察粒度是全球走时曲线上的细微异常。 `artifact`
 
@@ -19,7 +21,7 @@
 ## (4) 理论建构方式
 
 - 内核假说：地核分外核（液态）与内核（固态）；理论只为解释反常到时而立，不多做成分断言。 `artifact`
-- 理论的尺度：从野外与记录尺度出发，逐步推广到区域乃至全球模型；推广一步，证据须跟一步；对反例的态度是限定适用范围或修正模型，而非回避。`impression`（学界共识）
+- 理论的尺度：从地震观测记录出发，逐步推广到区域乃至全球模型；推广一步，证据须跟一步；对反例的态度是限定适用范围或修正模型，而非回避。`impression`（学界共识）
 
 ## (5) 论证语言
 

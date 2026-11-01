@@ -1,6 +1,6 @@
 # Anansi Boys
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 9, 2005. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charles "Fat Charlie" Nancy
 
 角色职责：protagonist · 身份：`identity-6164c254f73acf33` · 独立版本：`profile-01617a1714dd4e55`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：故事初期他胆怯而缺乏抱负，一直生活在张扬父亲的阴影下（摘要直接叙述；S2、S5）
 - **情绪反应**：未婚妻转向兄弟后，他感到怨愤并急于摆脱兄弟的介入（摘要直接叙述；S22、S26、S27）
@@ -28,6 +34,10 @@
 ### Spider
 
 角色职责：co-lead · 身份：`identity-3a8dd6755a2d9c0d` · 独立版本：`profile-3be20c456d593c9a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：初到兄弟生活中时，他呈现自信随性且忽略他人边界的倾向（行为推断；S18、S20、S22）
 - **情绪反应**：得知父亲去世后，他因悲伤及自己未曾察觉而自责（摘要直接叙述；S17）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Elizabeth Bennet
 
 角色职责：protagonist · 身份：`identity-fe39640aade1eaa8` · 独立版本：`profile-88f2dc6833c0b946`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在社交判断中倾向机敏直率，却容易固守带偏见的初印象（行为推断；S13、S18、S61）
 - **价值取舍**：在婚姻选择中坚持个人判断，不因求婚或权势压力让步（行为推断；S19、S26、S41、S42）
@@ -28,6 +34,10 @@
 ### Mr Fitzwilliam Darcy
 
 角色职责：co-lead · 身份：`identity-c42e47c664e41b8b` · 独立版本：`profile-3698c0e213cbf3e6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在初期交往中倾向拘谨自持，其疏离表现容易伤及他人（行为推断；S12、S25、S65）
 - **核心动机**：受到伊丽莎白的机智与坦率吸引，并持续寻求婚姻结合（摘要直接叙述；S13、S25、S43）

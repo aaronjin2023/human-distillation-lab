@@ -1,6 +1,6 @@
 # Cometh the Hour
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 6, 2016. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sir Giles Barrington
 
 角色职责：protagonist · 身份：`identity-f8ac86e2e4a5d4ee` · 独立版本：`profile-9e0ec918711bd0a8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对政治与感情风险时，呈现审慎权衡多重可能的倾向（行为推断；S4、S5、S6、S7）
 - **核心动机**：希望帮助所爱的卡琳离开东德，并考虑为此结束仕途（摘要直接叙述；S6）
@@ -27,6 +33,10 @@
 ### Lady Virginia Fenwick
 
 角色职责：major-support · 身份：`identity-94718826ed0cd125` · 独立版本：`profile-804ca849ac6d3943`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在破产威胁下，倾向利用他人的轻信谋求自身利益（行为推断；S8、S9、S11）
 - **核心动机**：面临几乎失去全部财产的处境，急于寻找财务出路（行为推断；S8、S9、S11）

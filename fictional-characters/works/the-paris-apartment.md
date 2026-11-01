@@ -1,6 +1,6 @@
 # The Paris Apartment
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 13, 2022. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jess Hadley
 
 角色职责：protagonist · 身份：`identity-8dde317a6a5afdca` · 独立版本：`profile-ef63c56608819aef`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭遇冷遇与威胁时，倾向坚持追查而不轻易退缩（行为推断；S9、S10、S22、S31）
 - **核心动机**：因哥哥失踪而执意寻找下落，并弄清他卷入的危险（摘要直接叙述；S2、S3、S10、S11）
@@ -24,6 +30,10 @@
 ### Sophie Meunier
 
 角色职责：major-support · 身份：`identity-e854c27ca1ad7c25` · 独立版本：`profile-a57195d88bfb9653`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对家庭命案危机时，倾向主动掌控信息与他人的认知（行为推断；S28、S29）
 - **决策方式**：通过隐瞒伤者和误导家人来控制事态及掩盖死亡真相（行为推断；S28、S29）
@@ -40,6 +50,10 @@
 ### Mimi
 
 角色职责：major-support · 身份：`identity-565851e67cb8e13a` · 独立版本：`profile-4af91ed40ec351a9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在爱情期待受挫时，表现出情绪强烈且容易外溢的倾向（行为推断；S21、S26、S27）
 - **核心动机**：相信本也爱自己，希望通过主动接近发展亲密关系（摘要直接叙述；S25、S26）

@@ -1,6 +1,6 @@
 # The Last Olympian
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Percy Jackson & the Olympians; reported series sales: 180 million[214]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Percy_Jackson_&_the_Olympians
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Percy Jackson
 
 角色职责：protagonist · 身份：`identity-74126c828137f596` · 独立版本：`profile-1debd7899e1ab8ac`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在伤亡与劣势持续扩大时，他倾向坚持抵抗而非屈服（行为推断；S25、S26、S28、S35）
 - **核心动机**：他召集营员并协调援军，直接目标是守住奥林匹斯（摘要直接叙述；S23、S34、S35）
@@ -23,6 +29,10 @@
 ### Luke
 
 角色职责：central-antagonist · 身份：`identity-21fd8872eb68a24d` · 独立版本：`profile-55e2bf69d15ab5de`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在安娜贝丝遭袭的关键时刻，他仍表现出保护她的倾向（行为推断；S40）
 - **决策方式**：夺回身体控制权后，他选择伤及自身弱点击败克洛诺斯（摘要直接叙述；S40）

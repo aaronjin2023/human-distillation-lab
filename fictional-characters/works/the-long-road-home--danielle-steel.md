@@ -1,6 +1,6 @@
 # The Long Road Home
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 26, 1998. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Gabriella Harrison
 
 角色职责：protagonist · 身份：`identity-c75e1a5c3a61e1b2` · 独立版本：`profile-a55e715f2542d6dc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在反复失落和伤害之后，她仍表现出重建生活并关切弱者的倾向。（行为推断；S14、S16、S17、S32）
 - **核心动机**：她希望弄清父母为何遗弃自己，以面对长期未解的自我疑问。（摘要直接叙述；S28、S29）
@@ -29,6 +35,10 @@
 ### Eloise
 
 角色职责：central-antagonist · 身份：`identity-50e84b3451263288` · 独立版本：`profile-ace9932e10f9f313`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭关系中，她表现出以惩罚和指责支配亲近者的倾向。（行为推断；S2、S6、S7、S31）
 - **核心动机**：她把女儿送往修道院，是为了摆脱自己眼中的重大失望。（摘要直接叙述；S8）

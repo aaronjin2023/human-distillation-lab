@@ -1,6 +1,6 @@
 # Sourcery
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rincewind
 
 角色职责：protagonist · 身份：`identity-c93556c44c84481e` · 独立版本：`profile-57a6a2daa384b26f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：虽倾向先避开威胁，在身份与同伴受触动后仍能挺身承担（行为推断；S24、S39、S40、S48）
 - **情绪反应**：听到反巫师言论后感到愤怒与羞辱，并因此离开同行者（摘要直接叙述；S39）
@@ -28,6 +34,10 @@
 ### Coin
 
 角色职责：co-lead · 身份：`identity-8efa6f219fdaf454` · 独立版本：`profile-df0e9026c80b533a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在父亲影响下倾向以力量支配他人，后来显示出自我修正能力（行为推断；S21、S22、S28、S52、S54）
 - **核心动机**：前期推动巫师统治世界，并试图摆脱诸神对权力的限制（摘要直接叙述；S15、S28、S43、S44）

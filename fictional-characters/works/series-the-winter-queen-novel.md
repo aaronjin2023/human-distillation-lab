@@ -1,6 +1,6 @@
 # The Winter Queen (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Erast Fandorin series; reported series sales: 18 million[323]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Erast_Fandorin
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Erast Fandorin
 
 角色职责：protagonist · 身份：`identity-446531aba983c844` · 独立版本：`profile-ca2eaf4a5e0c7661`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在案件接连出现危险时，他倾向继续追索而不满足表面解释（行为推断；S25、S36、S47、S49、S52）
 - **核心动机**：他试图沿遗产与组织联络的线索查明死亡事件背后的阴谋（行为推断；S30、S31、S45、S46、S51）
@@ -28,6 +34,10 @@
 ### Lady Astair
 
 角色职责：central-antagonist · 身份：`identity-3e4ab5e220d2e34a` · 独立版本：`profile-6668735327412663`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在维持组织控制时，她倾向把慈善外表与强制改造结合使用（行为推断；S32、S54、S55）
 - **核心动机**：她培养聪明孤儿为组织效命，谋求最终取得世界控制权（摘要直接叙述；S53、S54）

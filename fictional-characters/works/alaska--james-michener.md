@@ -1,6 +1,6 @@
 # Alaska
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 3, 1988. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sofia Kuchovskaya
 
 角色职责：major-support · 身份：`identity-af55eeb0c46c0fce` · 独立版本：`profile-b3882c117120cf5b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭受虐待后，表现出试图主动策划反击的倾向（行为推断；S16、S17）
 - **核心动机**：最初希望通过婚礼上的拒绝，使虐待自己的水手遭到羞辱（摘要直接叙述；S17）
@@ -28,6 +34,10 @@
 ### Tom Venn
 
 角色职责：major-support · 身份：`identity-4e45f0a9855e596a` · 独立版本：`profile-fe810aa4cad2f447`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在经营与地方权益冲突中，表现出难以体察原住民处境的倾向（行为推断；S39、S41、S42）
 - **核心动机**：在建州争议中主张维持领地身份及西雅图商业势力的控制（摘要直接叙述；S49）

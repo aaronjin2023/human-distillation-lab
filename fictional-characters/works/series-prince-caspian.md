@@ -1,6 +1,6 @@
 # Prince Caspian
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Chronicles of Narnia; reported series sales: 120 million[228]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Prince Caspian
 
 角色职责：protagonist · 身份：`identity-56eca1c49ff12d9c` · 独立版本：`profile-386cb964cb9beefc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在流亡与弱势处境中，他倾向接纳帮助并建立跨族群联盟（行为推断；S23、S25、S26）
 - **核心动机**：他联合旧纳尼亚居民对抗篡位者，争取恢复自己的王位（行为推断；S21、S25、S51）
@@ -23,6 +29,10 @@
 ### Peter Pevensie
 
 角色职责：co-lead · 身份：`identity-59d2d7407c611735` · 独立版本：`profile-7295b9d8bb10505f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对营地内乱与战局时，他倾向主动承担直接对抗的责任（行为推断；S33、S34）
 - **核心动机**：他参与清除威胁并挑战米拉兹，意在帮助凯斯宾取得胜利（行为推断；S33、S34）

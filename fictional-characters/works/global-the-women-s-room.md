@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mira
 
 角色职责：protagonist · 身份：`identity-4b2d76df74120849` · 独立版本：`profile-996eb685d5b0807e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在关系与观念受挑战时倾向反思，并逐步坚持自主（行为推断；S7、S18、S25、S29、S33）
 - **核心动机**：离婚后希望通过文学博士学习实现长期的教学梦想（摘要直接叙述；S23）
@@ -28,6 +34,10 @@
 ### Val
 
 角色职责：major-support · 身份：`identity-c6e1da4c12b6cd43` · 独立版本：`profile-dc683efd877e4380`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在性别暴力面前倾向激烈对抗，并采取直接行动（行为推断；S24、S32、S34）
 - **核心动机**：试图解救因反抗强奸而杀人并遭定罪的女性（摘要直接叙述；S34）

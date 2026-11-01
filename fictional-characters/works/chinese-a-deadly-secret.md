@@ -1,6 +1,6 @@
 # 连城诀
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：京东金庸单书购买排行，2018-10-30事件期报道
 [依据来源](https://ip.people.com.cn/n1/2019/0122/c179663-30583592.html) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 狄云
 
 角色职责：protagonist · 身份：`identity-bf06dc831c919088` · 独立版本：`profile-f0d8af025c4e696c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接连受害后虽显得厌世，仍保有可被他人察觉的善意（行为推断；S35、S43）
 - **核心动机**：受诬入狱后持续追索加害者，希望清算自身遭遇的不公（摘要直接叙述；S3、S4、S37、S38）
@@ -28,6 +34,10 @@
 ### 万圭
 
 角色职责：central-antagonist · 身份：`identity-c51b6adf8de759ae` · 独立版本：`profile-56547394ec17f1d9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争取戚芳时呈现算计倾向，善意表象掩盖实际加害（行为推断；S18、S19）
 - **核心动机**：为了赢得戚芳的感情，刻意营造替狄云求情的形象（摘要直接叙述；S19）

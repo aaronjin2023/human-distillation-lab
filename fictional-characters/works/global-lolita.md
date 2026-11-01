@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Humbert Humbert
 
 角色职责：protagonist · 身份：`identity-94310a2526d17e5b` · 独立版本：`profile-4dead6b80fca4767`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接近并控制Dolores时，他倾向隐瞒意图并欺骗他人。（行为推断；S19、S20、S24、S25）
 - **核心动机**：他试图占有Dolores，并将她投射为早逝初恋的替身。（行为推断；S15、S33、S36）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-bb840a160e811075` · 独立版本：`profile-6e04f8048883050c`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在受控制的处境中，她仍会表达不满并坚持某些个人界限。（行为推断；S39、S54、S56）
 - **核心动机**：她曾想离开小镇再次旅行，重逢时则拒绝随Humbert离开。（摘要直接叙述；S41、S56）
 - **决策方式**：面对Quilty要求出演色情片，她选择拒绝并因此被赶走。（摘要直接叙述；S54）
@@ -38,6 +48,10 @@
 ### Clare Quilty
 
 角色职责：central-antagonist · 身份：`identity-4c3382754d2a6a6a` · 独立版本：`profile-7a736fa3dccf099d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在Dolores拒演色情片后，他表现出冷酷而有条件的接纳。（行为推断；S54）
 - **核心动机**：他带走Dolores后，曾试图让她参与自己的色情电影。（行为推断；S54）

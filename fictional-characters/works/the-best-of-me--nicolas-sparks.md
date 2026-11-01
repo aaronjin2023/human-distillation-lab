@@ -1,6 +1,6 @@
 # The Best of Me
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 30, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dawson Cole
 
 角色职责：protagonist · 身份：`identity-324888d2145a6262` · 独立版本：`profile-c60eb7a9094f7fa2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在犯罪家庭的压力下表现出抗拒同流的倾向，也会强硬自卫（行为推断；S11、S13、S22）
 - **核心动机**：为履行视若父亲的Tuck的遗愿，愿意重返长期逃离的故乡（摘要直接叙述；S2、S9、S15）
@@ -28,6 +34,10 @@
 ### Amanda Collier
 
 角色职责：co-lead · 身份：`identity-0f7b2ddedae30a81` · 独立版本：`profile-87d6465bee538186`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在旧情与婚姻冲突中呈现重情而审慎的倾向，最终选择返家（行为推断；S43、S44）
 - **情绪反应**：女儿去世后丈夫酗酒令她对婚姻失望，旧爱离世又带来哀痛（摘要直接叙述；S31、S50）

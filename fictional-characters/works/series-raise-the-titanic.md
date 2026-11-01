@@ -1,6 +1,6 @@
 # Raise the Titanic!
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Dirk Pitt; reported series sales: 120 million[226]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Dirk_Pitt
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dirk Pitt
 
 角色职责：protagonist · 身份：`identity-a82d0e800499fe6d` · 独立版本：`profile-a3f66ff5ecc9ad7e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在救援与打捞险境中，他表现出迎难行动并持续解题的倾向（行为推断；S23、S30、S36、S43）
 - **核心动机**：他承担打捞任务，行动目标是找回支撑防御项目的稀有矿物（摘要直接叙述；S28、S29、S43）
@@ -23,6 +29,10 @@
 ### Gene Seagram
 
 角色职责：co-lead · 身份：`identity-2108577d3bf82861` · 独立版本：`profile-17362155ae11d886`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在技术瓶颈面前，他倾向设定雄心勃勃的目标并推动执行（行为推断；S18、S29）
 - **核心动机**：他追索稀有矿物，是为了满足导弹防御项目的巨大能源需求（摘要直接叙述；S19、S20、S28、S29）

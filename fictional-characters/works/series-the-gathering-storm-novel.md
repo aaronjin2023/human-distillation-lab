@@ -1,6 +1,6 @@
 # The Gathering Storm (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-9bb8702bac177ed9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭受操控与伤害后，倾向以冷硬和威吓隔绝脆弱（行为推断；S21、S22、S24、S25）
 - **核心动机**：试图统一并动员世界各方力量，为最后战争作准备（摘要直接叙述；S18）
@@ -29,6 +35,10 @@
 ### Egwene al'Vere
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-3bacc0309a65c3c9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在囚禁和指控之下仍倾向坚持立场，表现出韧性（行为推断；S38）
 - **核心动机**：致力于弥合白塔分裂，并清除隐藏其中的黑宗势力（摘要直接叙述；S19、S38、S45）

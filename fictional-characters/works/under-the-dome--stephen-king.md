@@ -1,6 +1,6 @@
 # Under the Dome
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 29, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dale Barbara
 
 角色职责：protagonist · 身份：`identity-3ac96b6457cb175f` · 独立版本：`profile-6438ffc677968013`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困与政治打压中仍倾向承担风险，持续寻找集体求生机会（行为推断；S18、S32、S46）
 - **核心动机**：被困后参与制止镇内局势恶化，并尝试争取幸存者获释（摘要直接叙述；S18、S32）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-dea301d5479da72b` · 独立版本：`profile-be0b993e40676ba8`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在公共危机中倾向主动介入，并敢于尝试看似渺茫的求生路径（行为推断；S18、S32、S46）
 - **核心动机**：努力阻止镇内恐慌升级，并通过接触控制者争取幸存者自由（摘要直接叙述；S18、S32、S34）
 - **沟通方式**：以反复强调生命真实和分享自身创痛，唤起控制者的同情（摘要直接叙述；S34）
@@ -39,6 +49,10 @@
 ### James Rennie
 
 角色职责：central-antagonist · 身份：`identity-ba02879fa4937017` · 独立版本：`profile-a6e2b7ff2dbe71e9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在灾难造成权力真空时表现出强烈支配倾向，持续扩张控制（行为推断；S6、S7、S8、S18）
 - **核心动机**：利用穹顶危机夺取小镇权力，并试图掩盖自己的制毒生意（摘要直接叙述；S6、S24）

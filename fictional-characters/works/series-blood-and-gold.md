@@ -1,6 +1,6 @@
 # Blood and Gold
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Marius de Romanus
 
 角色职责：protagonist · 身份：`identity-8955db41db1b5373` · 独立版本：`profile-1792671be2e49da9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密与守护关系遭挑战时倾向强烈反应，愤怒会推动决裂（行为推断；S28、S39）
 - **核心动机**：承担始祖守护，是因为得知他们死亡将使全部吸血鬼同遭毁灭（摘要直接叙述；S23、S24）
@@ -28,6 +34,10 @@
 ### Pandora
 
 角色职责：major-support · 身份：`identity-b22942ff88422fa9` · 独立版本：`profile-9d56b4a355fa6bfe`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在马里乌斯试图重建关系时倾向坚持自身选择，不因挽留而让步（行为推断；S69、S70）
 - **核心动机**：德累斯顿重逢时希望留在旅行伴侣身边，而非搬去共同生活（摘要直接叙述；S69）

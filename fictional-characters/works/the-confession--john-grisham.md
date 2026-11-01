@@ -1,6 +1,6 @@
 # The Confession
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 14, 2010. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Travis Boyette
 
 角色职责：central-antagonist · 身份：`identity-7714176f040d5af8` · 独立版本：`profile-2de324ac19f89946`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对无辜者受刑与自身追责风险，他表现出冷漠且自保的倾向（行为推断；S4、S16）
 - **核心动机**：病情恶化并反省人生后，他一度希望以认罪做出正确之举（摘要直接叙述；S10、S11）
@@ -28,6 +34,10 @@
 ### Reverend Keith Schroeder
 
 角色职责：major-support · 身份：`identity-242e08adba74752f` · 独立版本：`profile-bdf39fee341b26ff`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在死刑迫近的处境中，他表现出愿担风险帮助纠错的倾向（行为推断；S11、S12、S17）
 - **核心动机**：带认罪者赶赴Slone的行动，旨在促成对即将执行案件的纠正（行为推断；S11、S12、S13）

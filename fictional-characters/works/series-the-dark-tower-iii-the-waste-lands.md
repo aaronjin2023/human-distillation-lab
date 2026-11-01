@@ -1,6 +1,6 @@
 # The Dark Tower III: The Waste Lands
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Dark Tower; reported series sales: 30 million[280]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Roland
 
 角色职责：protagonist · 身份：`identity-b9d3efb9315a39d9` · 独立版本：`profile-9764fa6f534954f1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对自身精神困境时，表现出向同伴承认脆弱的倾向（行为推断；S18、S19）
 - **核心动机**：在此行程中，以沿光束路径深入中世界并前往卢德为阶段目标（行为推断；S16、S17、S32）
@@ -27,6 +33,10 @@
 ### Jake Chambers
 
 角色职责：co-lead · 身份：`identity-f5478ef3536f0766` · 独立版本：`profile-b6a12e9a601baefe`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在记忆冲突与陌生危险中，表现出主动探索的勇气（行为推断；S21、S24、S25）
 - **情绪反应**：彼此矛盾的记忆造成精神痛苦，重聚后才得以解除（摘要直接叙述；S21、S28）

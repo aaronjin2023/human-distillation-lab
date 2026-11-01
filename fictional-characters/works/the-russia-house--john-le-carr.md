@@ -1,6 +1,6 @@
 # The Russia House
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 11, 1989. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bartholomew Scott Blair
 
 角色职责：protagonist · 身份：`identity-4bf3b36f8026b685` · 独立版本：`profile-9a49d1476e60135a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被卷入情报任务后，倾向独立判断并为私人承诺冒险（行为推断；S12、S19、S23、S24）
 - **核心动机**：卷入任务后，逐渐把帮助卡佳及其家人脱险作为行动核心（行为推断；S13、S23）
@@ -28,6 +34,10 @@
 ### Yakov
 
 角色职责：major-support · 身份：`identity-abcb6ea722819dd1` · 独立版本：`profile-ab9ab5e7c32dec22`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在可能遭监视的处境中，呈现紧张而仍试图传递警示的倾向（行为推断；S14、S16）
 - **核心动机**：希望通过公开苏联核能力资料加速本国民主到来的进程（摘要直接叙述；S7、S8）

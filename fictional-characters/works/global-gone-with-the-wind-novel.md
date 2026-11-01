@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Katie Scarlett Hamilton Kennedy Butler née O'Hara
 
 角色职责：protagonist · 身份：`identity-f3c0a2828f9e3aad` · 独立版本：`profile-70d5dc7dfde549a9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战时困境中，她表现出强烈求生韧性，亲自下地劳作并守护家园。（行为推断；S43、S44、S46）
 - **核心动机**：她持续渴望艾希礼，即使多次结婚仍希望自己嫁给他。（摘要直接叙述；S3、S61）
@@ -25,6 +31,10 @@
 
 角色职责：co-lead · 身份：`identity-1cf4edfb5d13d847` · 独立版本：`profile-0fd18ceb3d747a43`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：与斯嘉丽交往时，他显得世故敏锐，能识破伪装与未明说的愿望。（行为推断；S23、S56）
 - **核心动机**：他起初追求与斯嘉丽的亲密关系，后来坦言爱她却不愿让她知道。（摘要直接叙述；S28、S67、S68）
 - **决策方式**：他看穿斯嘉丽为求钱财而假意示好，于是拒绝资助她。（摘要直接叙述；S53、S54、S55、S56）
@@ -35,6 +45,10 @@
 ### Major George Ashley Wilkes
 
 角色职责：major-support · 身份：`identity-11045749cfec7929` · 独立版本：`profile-6d9b354301966327`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：他被直接描述为高尚而有荣誉感的人，并且博览群书、富有教养。（摘要直接叙述；S69、S70）
 - **价值取舍**：他表示若非战争先行，也会在父亲死后释放父亲奴役的人。（摘要直接叙述；S71）

@@ -1,6 +1,6 @@
 # The Great Hunt
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-ca1b9359cb008af3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在与巴尔阿煞蒙决战时，倾向以自身受伤为代价争取反击机会（行为推断；S67、S68）
 - **核心动机**：参与南下追踪，是为追回被夺走的瓦力尔号角与污染匕首（摘要直接叙述；S27、S28、S41）
@@ -27,6 +33,10 @@
 ### Nynaeve al'Meara
 
 角色职责：co-lead · 身份：`identity-b7314bea61846c15` · 独立版本：`profile-dca8ce5ef61f2b93`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：逃离俘虏危机后仍返回救援，在此情境表现出不轻弃同伴的倾向（行为推断；S58、S60、S61）
 - **核心动机**：前往白塔是为接受两仪师训练，并在试炼中取得晋阶资格（摘要直接叙述；S29、S32）

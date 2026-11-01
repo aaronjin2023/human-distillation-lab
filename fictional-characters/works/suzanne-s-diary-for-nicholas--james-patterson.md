@@ -1,6 +1,6 @@
 # Suzanne's Diary for Nicholas
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 5, 2001. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Katie Wilkinson
 
 角色职责：protagonist · 身份：`identity-6d8638625a73a280` · 独立版本：`profile-a3fc488764ecfb45`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：得知恋人丧亲后倾向主动探访并尝试理解其处境（行为推断；S13、S14）
 - **情绪反应**：先因突然分手受创又因得知恋人丧亲而悲痛（摘要直接叙述；S2、S13）
@@ -23,6 +29,10 @@
 ### Matthew Harrison
 
 角色职责：co-lead · 身份：`identity-d30b787aecbe054a` · 独立版本：`profile-efc197c2d5dabdfb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丧亲后的亲密关系中倾向因负疚而退缩（行为推断；S2、S13）
 - **情绪反应**：失去妻儿后的巨大悲痛与内疚阻碍他走向新关系（摘要直接叙述；S12、S13）
@@ -38,6 +48,10 @@
 ### Suzanne Bedford Harrison
 
 角色职责：co-lead · 身份：`identity-5c74f545ba8b933d` · 独立版本：`profile-662c1b75a856ac94`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：遭遇健康与感情打击后仍倾向主动重建生活（行为推断；S5、S6）
 - **核心动机**：迁居并购置待修房屋是为了给自己一个新开始（摘要直接叙述；S6）

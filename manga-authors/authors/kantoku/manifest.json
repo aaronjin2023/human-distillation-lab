@@ -1,0 +1,160 @@
+{
+  "id": "kantoku",
+  "name": "Kantoku",
+  "name_zh": "カントク",
+  "name_ja": "カントク",
+  "legacy_refs": [],
+  "creator_type": "illustrator",
+  "family": "光色与日常角色",
+  "scope": "本轮主要视觉研究限定于光の通り路（2025）出版社横幅宣传图；仅核公开封面／宣传图及明示样图。其余履历来源只证明职业与署名，不借动画成片代替个人画作。八维配方、步骤、评审与提示词均为本库原创技法转译，不是本人逐笔规则。",
+  "reference_works": [
+    {
+      "title": "光の通り路（2025）出版社横幅宣传图",
+      "role": "插画／角色视觉创作；书籍文字、编辑、装帧与动画协作另有署名，不并入个人作画",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "カントク 少女風景画集 光の通り路",
+      "url": "https://artjeuness.jp/contents/819/",
+      "publisher": "E☆2／アールジュネス",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "2025年6月3日发布，官方介绍以摄影集式印刷和光影场面为核心，含作者拍摄的资料照片。"
+      ],
+      "access_note": "已实际获取官方公开HTML并核读书籍与创作选材介绍；不声称阅读完整内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "光の通り路（2025）出版社横幅宣传图：官方封面／宣传图",
+      "url": "https://artjeuness.jp/assets/article_contents/819/xl/1_819_682c19ec3b74b.jpg",
+      "publisher": "E☆2／アールジュネス",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "人物坐于木桥左侧，桥面斜向右下延伸，绿色树荫与水面反光围出暖色人物；背景刻画明显多于面部，阴影下脸部仍保持可辨。只观察这张宣传图，未读画集。"
+      ],
+      "access_note": "从已核定官方页面 https://artjeuness.jp/contents/819/ 的HTML提取实际图像URL，临时保存至/tmp并通过view_image查看。只核这张图；没有下载图片入库，没有将页面alt当视觉观察。",
+      "origin_page_url": "https://artjeuness.jp/contents/819/",
+      "observed_asset_sha256": "b0a4c57203eb59cc64545347c24e9fced54cc17a3a3cb0e2eb50e5dd21d68ee4",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "人物坐于木桥左侧，桥面斜向右下延伸，绿色树荫与水面反光围出暖色人物；背景刻画明显多于面部，阴影下脸部仍保持可辨。只观察这张宣传图，未读画集。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "2025年6月3日发布，官方介绍以摄影集式印刷和光影场面为核心，含作者拍摄的资料照片。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "人物坐于木桥左侧，桥面斜向右下延伸，绿色树荫与水面反光围出暖色人物；背景刻画明显多于面部，阴影下脸部仍保持可辨。只观察这张宣传图，未读画集。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "recent_focus": {
+    "work": "光の通り路（2025）出版社横幅宣传图",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "对应出版社记录的书籍／宣传发布日期；不将作品集出版年当成全部收录画作的创作年，也不声称是2026最新画风。"
+  },
+  "visual_recipe": {
+    "line": "柔细人物外线与略硬的服装边线分工，发束内线减少",
+    "shapes": "各既定成年人物自然头身，胸腰由柔和体面而非浓黑排线建立",
+    "composition": "用一个倾斜结构与成片柔影引导已有主体，焦点脸部保持浅值",
+    "panel_rhythm": "本库原创建议：先说明亮暗关系，再给表情和材质细节，最后恢复完整空间",
+    "tonal_design": "深色集中衣物折口，皮肤浅白，软灰阴影分出衣料厚度",
+    "environment": "环境纹理在主体周围降低密度，反射光明确但不吞轮廓",
+    "acting": "表情微变由眼睑和嘴角控制，肩颈保持放松",
+    "color": "本库建议暖肤、青绿环境光与少量暖赭；借取一般色温关系，不宣称固定色板"
+  },
+  "sheet_traits_zh": "柔细外线配简洁发束，成人体块自然；服装边缘略硬，折口局部深黑，皮肤浅白，柔灰区分布料厚度。",
+  "drawing_steps": [
+    "先按既定人物与道具搭静态体块：各既定成年人物自然头身，胸腰由柔和体面而非浓黑排线建立；检查同一人物辨识点。",
+    "用三阶缩略图确定主次：用一个倾斜结构与成片柔影引导已有主体，焦点脸部保持浅值，再落实深色集中衣物折口，皮肤浅白，软灰阴影分出衣料厚度。",
+    "按材质分层描线：柔细人物外线与略硬的服装边线分工，发束内线减少；检查环境纹理在主体周围降低密度，反射光明确但不吞轮廓。",
+    "最后校对表演与色域：表情微变由眼睑和嘴角控制，肩颈保持放松；按“本库建议暖肤、青绿环境光与少量暖赭；借取一般色温关系，不宣称固定色板”做原创小色稿，连续页采用独立节奏建议。"
+  ],
+  "review_checks": [
+    "缩小后人物的脸是否比周边绿灰色块更清楚？",
+    "柔阴影内能否区分皮肤、布料和硬边，而不是全部融成灰？",
+    "转为三视图后同一人物肩胸体量是否一致，且没有沿用宣传图的空间斜线？"
+  ],
+  "avoid": [
+    "环境青绿反射铺满肤色，人物脸部失去焦点。",
+    "把柔和阴影全部擦掉，衣料厚度与接触关系消失。"
+  ],
+  "best_for": [
+    "成年原创角色造型与材质练习",
+    "同一角色三视图的线条和色块控制",
+    "既定故事的彩色插画／连续页转译"
+  ],
+  "prompt_core_zh": "原创视觉技法：柔细人物外线与略硬的服装边线分工，发束内线减少；各既定成年人物自然头身，胸腰由柔和体面而非浓黑排线建立；深色集中衣物折口，皮肤浅白，软灰阴影分出衣料厚度。保留既定人物、场景和剧情，只迁移技法。",
+  "prompt_core_en": "Use delicate figure contours and slightly firmer clothing edges, with grouped hair and natural adult proportions. Organize the existing subject through broad soft shadow shapes and one directional structural line. Keep the face lighter than nearby forms. Contrast warm skin with cooler reflected light, preserving fabric thickness without dense hatching. Maintain the supplied narrative, props, identity, and actions; invent no additional characters or setting.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    },
+    "region_context": "已核日本商业出版／项目或展览语境；本轮未核国籍、民族或居住地，不据姓名推断。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "仅记录公开创作者署名与已核出版／活动地区，未知生日和生卒为null；不据姓名、国籍推民族。"
+  },
+  "known_gaps": [
+    "只核本条明示公开图像，没有通读完整画集或逐年比较全部时期；未承诺精确复刻。",
+    "作者原始上色与出版物装帧、文字、印刷呈色未逐项拆分，因此背景排版和标题字体不视为个人固定风格。",
+    "原创技法转译未通过真实生成样张验收；三视图只用sheet_traits_zh的静态特征，不能照搬封面透视。"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "recognition_features": [
+    {
+      "text": "人物坐于木桥左侧，桥面斜向右下延伸，绿色树荫与水面反光围出暖色人物；背景刻画明显多于面部，阴影下脸部仍保持可辨。只观察这张宣传图，未读画集。",
+      "observation": "人物坐于木桥左侧，桥面斜向右下延伸，绿色树荫与水面反光围出暖色人物；背景刻画明显多于面部，阴影下脸部仍保持可辨。只观察这张宣传图，未读画集。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

@@ -1,6 +1,6 @@
 # Sophie's Choice
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 22, 1979. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sophie Zawistowska
 
 角色职责：protagonist · 身份：`identity-5c1c71d732ce2274` · 独立版本：`profile-41ce5ec5ef109b6f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在子女生存受威胁时，倾向冒险周旋并主动寻找生路（行为推断；S9、S10）
 - **核心动机**：试图让儿子脱离集中营，为此愿接受他被当作德国孩子抚养（摘要直接叙述；S10）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-dca624feff598aab` · 独立版本：`profile-e3e4d655a6c1852b`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在索菲遭遇危险时，倾向投入陪伴并以实际承诺回应（行为推断；S14、S17）
 - **核心动机**：失去出版业工作后，希望借廉价寄居生活专心完成小说（摘要直接叙述；S2）
 - **关系模式**：他对索菲的投入超出倾听往事，发展为希望共同生活的爱意（行为推断；S8、S17）
@@ -40,6 +50,10 @@
 ### Nathan Landau
 
 角色职责：co-lead · 身份：`identity-81f886b06a104f9b` · 独立版本：`profile-d96a04c9e966de8f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密相处中，他既有慷慨表现，也会变得暴虐而令人恐惧（摘要直接叙述；S7）
 - **沟通方式**：他以虚构的名校学历与科研职业向身边人呈现自身身份（摘要直接叙述；S5）

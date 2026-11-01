@@ -1,6 +1,6 @@
 # Sole Survivor
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 2, 1997. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Joe Carpenter
 
 角色职责：protagonist · 身份：`identity-3adc9b8f89ebac14` · 独立版本：`profile-8e06d5faf4df7fb6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对事故疑点和生命威胁，他倾向继续追索而非接受定论（行为推断；S5）
 - **核心动机**：他想弄清夺走妻女的空难真相，为长期无法释怀的丧失求解（行为推断；S2、S3、S5）
@@ -28,6 +34,10 @@
 ### Rose
 
 角色职责：co-lead · 身份：`identity-5ef579e1de33fdf3` · 独立版本：`profile-72cd4fa4951e7551`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追杀威胁下，她倾向主动保护女孩并承受长期逃亡风险（行为推断；S10、S12、S14）
 - **核心动机**：她持续保护自己创造的女孩，等待其治愈能力充分成熟（摘要直接叙述；S10、S23）

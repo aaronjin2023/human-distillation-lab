@@ -1,6 +1,6 @@
 # Cujo
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 23, 1981. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Donna Trenton
 
 角色职责：protagonist · 身份：`identity-56ed167a13b8c11f` · 独立版本：`profile-7545becb0e2e3057`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困且负伤的情境中倾向顽强求生，没有完全放弃反抗（行为推断；S18、S24）
 - **核心动机**：意识到儿子可能因脱水死亡后，保护孩子成为她主动搏斗的直接动力（摘要直接叙述；S24）
@@ -28,6 +34,10 @@
 
 角色职责：central-antagonist · 身份：`identity-b6799d1f823e8b59` · 独立版本：`profile-af85021ca41280ed`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：患病前被明确描写为友善温顺，不能以病后的暴力倒推其本性（摘要直接叙述；S9、S34、S36）
 - **核心动机**：未受疾病摧残时总想让主人高兴，具有取悦主人的行为动机（摘要直接叙述；S34）
 - **情绪反应**：狂犬病前驱期出现倦怠与易怒，情绪变化被明确关联于感染（摘要直接叙述；S11、S12）
@@ -42,6 +52,10 @@
 ### Charity Camber
 
 角色职责：major-support · 身份：`identity-ed7a39643ed36c4f` · 独立版本：`profile-c6b5f1b8bc9e1665`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受虐家庭处境中倾向务实寻找转机，利用可用资源争取行动空间（行为推断；S6、S7）
 - **核心动机**：希望儿子见到更好生活的可能，因此争取带他探访自己的姐姐（摘要直接叙述；S7）

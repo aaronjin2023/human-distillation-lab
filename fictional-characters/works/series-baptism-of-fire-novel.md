@@ -1,6 +1,6 @@
 # Baptism of Fire (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Wiedźmin (The Witcher); reported series sales: 15 million[335]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Witcher
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Geralt of Rivia
 
 角色职责：protagonist · 身份：`identity-aba090dda4581d03` · 独立版本：`profile-e15790afc87690fc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在伤后休养的情境中，仍表现出急于寻找希里的执着（行为推断；S19）
 - **核心动机**：将离开疗养地寻找希里作为接下来行动的明确目标（摘要直接叙述；S19）
@@ -27,6 +33,10 @@
 ### Milva
 
 角色职责：major-support · 身份：`identity-8d3381a0a1c506ec` · 独立版本：`profile-169f832c13cc6ddf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在是否同行的选择上，倾向不让个人好恶完全支配行动（行为推断；S21）
 - **价值取舍**：在战乱情境中，愿意为零散精灵队伍提供避难支持（行为推断；S20）

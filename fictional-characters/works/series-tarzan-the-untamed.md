@@ -1,6 +1,6 @@
 # Tarzan the Untamed
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Tarzan; reported series sales: 50 million[260]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Tarzan
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Clayton
 
 角色职责：protagonist · 身份：`identity-ed7bb8ac0978ee35` · 独立版本：`profile-fec53a27546a27a0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在疑似丧妻的情境中倾向激烈反击，并将敌意扩大到群体（行为推断；S19、S20）
 - **核心动机**：最初以报复庄园袭击者为目标，后来反复投入同伴救援（摘要直接叙述；S22、S24、S27、S41、S47）
@@ -29,6 +35,10 @@
 ### Bertha Kircher
 
 角色职责：co-lead · 身份：`identity-ccd9789755de2d7a` · 独立版本：`profile-462bc589c6cbe4a7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身刚脱险后仍敢组织救援，表现出临危主动的倾向（行为推断；S33、S36）
 - **核心动机**：得知保护者被俘后，主动以救出他及其同囚者为目标（摘要直接叙述；S36）

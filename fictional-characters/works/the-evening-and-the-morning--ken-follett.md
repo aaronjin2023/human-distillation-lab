@@ -1,6 +1,6 @@
 # The Evening and the Morning
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 4, 2020. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ragna
 
 角色职责：protagonist · 身份：`identity-0060e06d64677a3a` · 独立版本：`profile-1a0bfbe1ff1dbb4c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：遭遇婚姻欺瞒与权力阻挠时，倾向务实接管事务争取主动（行为推断；S17、S19、S20、S23）
 - **核心动机**：失去丈夫后争取摄政，意在延续长子未来继承的政治位置（摘要直接叙述；S45）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-223e9ff90f5352cf` · 独立版本：`profile-a25e4ab40d7ba274`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对Dreng杀害婴儿，倾向挺身抗议并到法庭作证（行为推断；S26、S27）
 - **核心动机**：参与渡口与桥梁建设，倾向以自身技艺改善迁居社区的生计（行为推断；S15、S24、S33）
 - **价值取舍**：面对奴隶所受伤害，倾向重视其生命与遭遇而非服从主人权威（行为推断；S24、S26、S27）
@@ -40,6 +50,10 @@
 ### Aldred
 
 角色职责：co-lead · 身份：`identity-7c944ec50de33779` · 独立版本：`profile-b60a1b50606f5c90`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：遭到调离后倾向继续经营基层事务，逐步重建有纪律的修院（行为推断；S30、S31）
 - **核心动机**：希望建立规模可观的图书馆，使Shiring成为学术中心（摘要直接叙述；S3）

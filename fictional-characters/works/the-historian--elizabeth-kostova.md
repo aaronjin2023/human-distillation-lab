@@ -1,6 +1,6 @@
 # The Historian
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 3, 2005. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Paul
 
 角色职责：co-lead · 身份：`identity-c0901c7294739771` · 独立版本：`profile-cb3fbbb304f4f320`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：导师失踪后，他呈现愿意深入险境追索答案的执着倾向（行为推断；S15、S16、S31、S43）
 - **核心动机**：他最初调查Dracula，是因为确信失踪导师遭遇了不幸（摘要直接叙述；S15、S16）
@@ -23,6 +29,10 @@
 ### Helen Rossi
 
 角色职责：co-lead · 身份：`identity-ac314c206491e8e3` · 独立版本：`profile-6bf8c3f1de2dd8b3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对持续的超自然威胁，她表现出由防御转向主动反击的倾向（行为推断；S35、S53、S56）
 - **核心动机**：她决定追杀Dracula，是为了摆脱其威胁及自身长期恐惧（摘要直接叙述；S53）
@@ -38,6 +48,10 @@
 ### 叙述者
 
 角色职责：protagonist · 身份：`identity-f8a99110804de3ad` · 独立版本：`profile-3aa9fbdc871af232`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对父亲留下的秘密，她呈现好奇且不愿被动等待的倾向（行为推断；S23、S24、S25）
 - **核心动机**：发现父亲正在寻找被认为已死的母亲后，她决定追寻父亲（摘要直接叙述；S25）

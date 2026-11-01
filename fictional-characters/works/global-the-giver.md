@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jonas
 
 角色职责：protagonist · 身份：`identity-dc9d5120f9bc8c3f` · 独立版本：`profile-e50e9f0336aea3d5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在婴儿生命受威胁时，表现出关切弱者并敢于抗命的倾向（行为推断；S22、S31）
 - **核心动机**：既想让社区重新获得记忆，也急于保护面临死亡的婴儿（摘要直接叙述；S29、S30、S31）
@@ -28,6 +34,10 @@
 ### the Giver
 
 角色职责：major-support · 身份：`identity-1b484d42062af1ca` · 独立版本：`profile-a03e5d01799cd3e5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对社区的道德盲区，倾向耐心解释而非简单谴责个人（行为推断；S27）
 - **价值取舍**：倾向把理解善恶的能力，与接触共同历史和痛苦相联系（行为推断；S17、S27、S29）

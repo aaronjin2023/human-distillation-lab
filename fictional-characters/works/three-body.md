@@ -1,6 +1,6 @@
 # 三体
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：《三体》系列2023年国内总销量超过350万册，且第一部单行本套装在2024年5月当当小说畅销榜排第4；系列数字不等于本条单册销量。
 [依据来源](https://sw.kpcswa.org.cn/Catalog/202402/Research/2024/0807/588.html) · 《科普创作评论》刊载出版编辑文章，转述开卷/产业报告的系列销量和套装榜次。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 汪淼
 
 角色职责：protagonist · 身份：`identity-d300cd93ed81fa79` · 独立版本：`profile-17c8a4c12927a7aa`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对难以解释的异常现象，倾向在困惑中持续追查线索（行为推断；S44、S45、S46）
 - **核心动机**：调查由科学家异常死亡事件展开，逐渐指向揭露三体组织（摘要直接叙述；S42、S45、S46）
@@ -24,6 +30,10 @@
 ### 叶文洁
 
 角色职责：central-antagonist · 身份：`identity-bf6de893eac35a90` · 独立版本：`profile-e7c94ca600675be9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在对人类绝望的情境中，倾向秘密而决绝地推进替代方案（行为推断；S72、S75）
 - **核心动机**：希望由外星先进文明取代人类，回应自己对人类的绝望（摘要直接叙述；S72）
@@ -40,6 +50,10 @@
 ### 史强
 
 角色职责：major-support · 身份：`identity-f88450f5dbb30120` · 独立版本：`profile-840e2077beeb603b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在跨领域危机调查中，倾向胆大而细致地突破常规做法（行为推断；S50、S51、S53）
 - **核心动机**：在危机应对中着力摧毁敌方组织，并取得关键通讯情报（行为推断；S52、S53）

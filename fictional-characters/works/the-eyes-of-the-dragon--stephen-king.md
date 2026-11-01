@@ -1,6 +1,6 @@
 # The Eyes of the Dragon
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 1, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Prince Peter
 
 角色职责：protagonist · 身份：`identity-e87c95cfecf9bfa5` · 独立版本：`profile-661a79bd4adac5e0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：长期囚禁中呈现耐心坚韧、善用有限资源的倾向（行为推断；S19、S21）
 - **核心动机**：蒙冤入狱后以摆脱囚禁、恢复行动自由为直接目标（行为推断；S17、S19、S21）
@@ -24,6 +30,10 @@
 ### Prince Thomas
 
 角色职责：co-lead · 身份：`identity-2d45c03bbbf4e9f6` · 独立版本：`profile-9e2d858728ea8e96`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在父爱失衡与少年执政情境中呈现易受影响的倾向（行为推断；S18、S48、S50、S51）
 - **情绪反应**：长期感到被兄长遮蔽，并因父亲偏爱而心生怨嫉（摘要直接叙述；S9、S48）
@@ -40,6 +50,10 @@
 ### Flagg
 
 角色职责：central-antagonist · 身份：`identity-12b39acaab198f38` · 独立版本：`profile-87f06b21d4247673`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对权力威胁时呈现善于操纵他人且冷酷的倾向（行为推断；S7、S10、S13、S16）
 - **核心动机**：他谋求毁灭德莱恩王国，并清除威胁自身地位的人（摘要直接叙述；S4、S5、S8）

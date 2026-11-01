@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "yukimura-makoto",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本次仅选《海盗战记》漫画出版版本，作为题材与署名核对范围；未通读全卷、未核对跨时期画法，不纳入动画改编或他人绘画衍生作。下列配方、步骤、检查与提示词均为本库原创创作转译，不是作者规则。 补充2024年作者公开采访中的人物转变与心理视角方法；不扩成动画视觉研究。 本轮阶段说明：关注本人对人物心理、非暴力转向的回顾；未看其最新漫画内页或使用动画图证明漫画笔法。",
+  "recent_focus": {
+    "work": "Anime Feminist《Vinland Saga》人物与叙事本人访谈",
+    "year": 2024,
+    "source_ids": [
+      "S2"
+    ],
+    "date_basis": "正文作者栏标October 30, 2024；这是访谈文章发表年，不是文中旧剧情或配图绘制年。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Vinland Saga – Kodansha – By Makoto Yukimura",
+      "url": "https://kodansha.us/series/vinland-saga/",
+      "publisher": "Kodansha",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社署名Makoto Yukimura，介绍北欧航海、复仇与追求无战争和奴役之地的历史漫画前提。"
+      ],
+      "access_note": "实际web检索返回的官方页面摘要与可见文字；未打开漫画内页或色稿，未进行视觉观察。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Every Inch of My Imagination: Mangaka Makoto Yukimura on writing women and slavery in Vinland Saga",
+      "url": "https://www.animefeminist.com/yukimura-makoto-interview/",
+      "publisher": "Anime Feminist／作者直接采访",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "幸村在直接采访说明，角色转向非暴力是预先计划，需要给故事足够时间让读者接受变化；创作被奴役女性角色时尝试具体想象其心理和处境，而不宣称自身拥有同样经验。此支持人物动机与视角的叙事方法，不证明具体描线。"
+      ],
+      "access_note": "实际打开并阅读2024年10月30日采访正文与公开Q&A，重点为L48–55和L69–79人物转向及心理处理段；未查看页面配图，不能把其中动漫截图当漫画观察。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "幸村在直接采访说明，角色转向非暴力是预先计划，需要给故事足够时间让读者接受变化；创作被奴役女性角色时尝试具体想象其心理和处境，而不宣称自身拥有同样经验。此支持人物动机与视角的叙事方法，不证明具体描线。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社署名Makoto Yukimura，介绍北欧航海、复仇与追求无战争和奴役之地的历史漫画前提。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "幸村在直接采访说明，角色转向非暴力是预先计划，需要给故事足够时间让读者接受变化；创作被奴役女性角色时尝试具体想象其心理和处境，而不宣称自身拥有同样经验。此支持人物动机与视角的叙事方法，不证明具体描线。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": "No inspected visual finding; work-stage visual target requires references and review.",
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "人物面部细线与土地短排线分开，木器顺纹理方向",
+    "shapes": "成人体格因劳动方式区分，农人低重心、航海者肩背宽",
+    "composition": "两人位于左右三分线，犁沟通向海面，船只缩在远端",
+    "panel_rhythm": "本库原创节奏建议：先交代劳动、短格手停下、双人长格谈话、最后看向远船",
+    "tonal_design": "衣物中灰、土块黑点、海天大白，冲突由距离而非暗影渲染",
+    "environment": "田地到海岸的可走路径连续，工具具备真实握持点",
+    "acting": "两人看向不同目标，手势一人指地一人指海，表情克制",
+    "color": "本库建议土褐、雾蓝和亚麻白，不归为作者固定色板"
+  },
+  "steps": [
+    "先做三值缩略图：两人位于左右三分线，犁沟通向海面，船只缩在远端。",
+    "用骨架和体块定位动作：成人体格因劳动方式区分，农人低重心、航海者肩背宽；同时落实田地到海岸的可走路径连续，工具具备真实握持点。",
+    "分层落线：人物面部细线与土地短排线分开，木器顺纹理方向；动作重点为两人看向不同目标，手势一人指地一人指海，表情克制。",
+    "最后组织黑白：衣物中灰、土块黑点、海天大白，冲突由距离而非暗影渲染；按“先交代劳动、短格手停下、双人长格谈话、最后看向远船”检查前后阅读顺序。"
+  ],
+  "checks": [
+    "缩小至四分之一尺寸后，是否仍看清“成年航海者和农人站在刚翻好的海边田地讨论留下或远行”的主动作？",
+    "关闭纹理后，是否仍满足“两人位于左右三分线，犁沟通向海面，船只缩在远端”？",
+    "逐格检查：先交代劳动、短格手停下、双人长格谈话、最后看向远船，空间与物体位置是否连续？"
+  ],
+  "sheet_traits_zh": "面部细线与布料短排线分开，成人肩背有劳动形成的厚度；衣物中灰保留纤维方向，发与折口少量黑，皮肤留白。",
+  "avoid": [
+    "把历史材质变成随意古装符号",
+    "壮观战斗压过劳动与选择的主题"
+  ],
+  "unknowns": [
+    "本次补的是人物转变与心理视角的直接采访依据；没有直接观察漫画内页，不能据此验证笔法或战争史实。",
+    "仅核实本条列出的出版作品与所述公开信息；未核查作者完整生涯及跨卷、跨时期变化。",
+    "没有本轮实际阅读的彩色色稿证据；彩色方案为本库建议。",
+    "本条没有已打开核读的作者技法访谈或足够具体的出版社视觉评述；配方仅为题材启发的原创练习，不是风格实证。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

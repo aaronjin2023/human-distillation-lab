@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sensei
 
 角色职责：co-lead · 身份：`identity-bdeadb0487cd851c` · 独立版本：`profile-040848a30bed27b0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系中倾向猜疑与退缩，受到威胁时也会自利算计（行为推断；S11、S45、S46、S61、S64）
 - **核心动机**：既渴望与所爱女子结合，又试图向叙述者交代隐秘过去（行为推断；S14、S36、S54、S64）
@@ -30,6 +36,10 @@
 
 角色职责：major-support · 身份：`identity-af3790660d5cf637` · 独立版本：`profile-27e8ac86d6ad5aec`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在求学与情感选择中倾向严肃执着，却难以调和理想与欲望（行为推断；S48、S49、S60）
 - **核心动机**：坚持追求宗教与哲学兴趣，即使因此失去养家的支持（摘要直接叙述；S47、S48）
 - **价值取舍**：重视自律及献身理想，因此把新生爱情体验为内在冲突（行为推断；S60、S61）
@@ -45,6 +55,10 @@
 ### the narrator
 
 角色职责：co-lead · 身份：`identity-d8c5b929c1769bb3` · 独立版本：`profile-e3f3f94a1f74b1df`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在面对疏离的年长者时倾向主动亲近，并持续寻求回应（行为推断；S5、S6、S8、S10、S23）
 - **核心动机**：希望深化与先生的交往，并了解其始终保留的过去（行为推断；S6、S10、S14、S29）

@@ -1,6 +1,6 @@
 # Four Blind Mice
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 8, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-4a424e794856eba5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对军方冤案时倾向持续深挖，不止步于直接执行者（行为推断；S4、S6、S8、S9）
 - **核心动机**：以追查Cooper冤杀案为起点，寻找连续构陷背后的责任者（行为推断；S4、S9）
@@ -23,6 +29,10 @@
 ### General Mark Hutchinson
 
 角色职责：central-antagonist · 身份：`identity-31753a340d58bc2f` · 独立版本：`profile-012c6663ece074c9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面临秘密暴露风险时倾向冷酷控制，主动清除知情者（行为推断；S11、S12）
 - **核心动机**：为避免阴谋败露妨碍晋升，安排杀害发现真相的军官（摘要直接叙述；S11）

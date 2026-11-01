@@ -1,6 +1,6 @@
 # The Bonfire of the Vanities
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: January 24, 1988. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sherman McCoy
 
 角色职责：protagonist · 身份：`identity-dfd5db7789ebb0f4` · 独立版本：`profile-efcb59ac6383294d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危机前自视甚高，并倾向以社会地位维持自我认同（行为推断；S2、S3）
 - **核心动机**：寄望完成巨额债券交易，以偿付住宅贷款和家庭开支（摘要直接叙述；S11）
@@ -29,6 +35,10 @@
 ### Peter Fallow
 
 角色职责：major-support · 身份：`identity-388ef5572201eaad` · 独立版本：`profile-8df5d8c663d9d608`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对职业翻身机会时，倾向带着犬儒态度接受他人的操弄（行为推断；S6、S7）
 - **核心动机**：在事业失意时借兰姆案争取转机，并试图查明肇事者身份（行为推断；S6、S7、S15、S16）

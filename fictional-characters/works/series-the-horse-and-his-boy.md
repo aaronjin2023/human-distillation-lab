@@ -1,6 +1,6 @@
 # The Horse and His Boy
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Chronicles of Narnia; reported series sales: 120 million[228]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Shasta
 
 角色职责：protagonist · 身份：`identity-82b18762c1bf69b9` · 独立版本：`profile-b8884f7be29a81c9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：同伴受伤而警讯仍待传递时，倾向独自承担艰难的后续行动（行为推断；S30、S31、S32）
 - **核心动机**：最初为逃离被卖为奴的危险，接受布里的提议前往纳尼亚（摘要直接叙述；S16、S19、S20）
@@ -24,6 +30,10 @@
 ### Aravis
 
 角色职责：co-lead · 身份：`identity-fd7fc1c57878b6c0` · 独立版本：`profile-f5cf4bd46a00fb40`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对政治婚姻安排，在此情境显出不愿顺从的自主倾向（行为推断；S21）
 - **核心动机**：出逃的直接目的，是摆脱与年长宰相之间的政治婚姻（摘要直接叙述；S21）
@@ -39,6 +49,10 @@
 ### Bree
 
 角色职责：co-lead · 身份：`identity-04f39782d2ccdd67` · 独立版本：`profile-e166eb8d830e6668`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对受困处境，倾向主动提出出逃方案并争取同行伙伴（行为推断；S18、S19）
 - **核心动机**：逃亡的核心愿望是回到幼时被掳离的故乡纳尼亚（摘要直接叙述；S19、S21）

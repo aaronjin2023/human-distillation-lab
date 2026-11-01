@@ -1,6 +1,6 @@
 # Sleeping Murder
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 7, 1976. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Gwenda Reed
 
 角色职责：protagonist · 身份：`identity-cabae3b041d9a01a` · 独立版本：`profile-252e2840951ecc11`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生房屋唤起异常记忆时，她倾向主动核实而非放弃追究（行为推断；S3、S4、S5、S15）
 - **核心动机**：她与丈夫共同追查旧事，希望弄清童年记忆中的死亡谜团（行为推断；S8、S14、S15）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-f5c6d4e2a244fa54` · 独立版本：`profile-a4aab9e991a47870`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对离奇记忆与命案，她倾向耐心查访并重视容易被忽略的线索（行为推断；S12、S18、S19、S38）
 - **核心动机**：她协助格温达将异常体验还原为可以查证的童年经历（行为推断；S12、S14、S18、S19）
 - **决策方式**：她先寻找旧园丁和厨娘，从家庭生活见证者处重建旧案背景（摘要直接叙述；S18、S19）
@@ -35,6 +45,10 @@
 ### Dr Kennedy
 
 角色职责：central-antagonist · 身份：`identity-6c4d16d96efecf8b` · 独立版本：`profile-b6daee1a631ffe03`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在掩盖杀人事实时，他倾向周密操纵他人的认知与调查证据（行为推断；S34、S35、S37）
 - **核心动机**：面对可能揭露旧案的人，他倾向通过灭口阻止真相暴露（行为推断；S24、S27、S30、S37）

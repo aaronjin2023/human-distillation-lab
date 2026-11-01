@@ -1,6 +1,6 @@
 # Fearless Fourteen
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 6, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie Plum
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-4ea98719ddd47c1f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在照护与工作不断失控时，表现出持续应变并承担责任的倾向（行为推断；S3、S12、S13、S30）
 - **核心动机**：她持续追查绑架与赃款线索，力图找到并救回洛蕾塔（行为推断；S13、S24、S25、S30）
@@ -24,6 +30,10 @@
 ### Dom
 
 角色职责：major-support · 身份：`identity-d9b690f5693bac3a` · 独立版本：`profile-b43c5e8789f40f7f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：涉及家人时容易愤怒，并倾向在未经确认前作出激烈反应（行为推断；S10、S11、S39）
 - **核心动机**：他以为莫雷利抛弃妹妹和孩子，因此产生杀死对方的念头（摘要直接叙述；S11、S38）

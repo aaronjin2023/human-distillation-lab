@@ -1,6 +1,6 @@
 # The Bourne Supremacy
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 9, 1986. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### David Webb
 
 角色职责：protagonist · 身份：`identity-2ac7e016769e4253` · 独立版本：`profile-0c95b37a7585853c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：妻子失踪时呈现高度戒备、急于夺回主动权的倾向（行为推断；S9、S10、S15）
 - **核心动机**：起初为救回玛丽行动，后来也因同伴牺牲决定除掉盛（摘要直接叙述；S13、S29）
@@ -29,6 +35,10 @@
 ### Marie
 
 角色职责：co-lead · 身份：`identity-b76ad28f8dcb423a` · 独立版本：`profile-f5c61e64fe4d9f6b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：被囚禁时呈现主动自救、善于寻找脱身机会的倾向（行为推断；S17、S18）
 - **核心动机**：逃离拘禁后致力于避开中情局，并寻找失散的丈夫（摘要直接叙述；S18）

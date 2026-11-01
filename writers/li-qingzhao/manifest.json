@@ -24,8 +24,8 @@
     }
   ],
   "list_position": "writers-top100-draft v1 #8",
-  "next_step": "用 style.md 的测试提示词跑 1 条文本，对照检查句式、意象与收束是否成立",
-  "school": "宋·婉约词",
+  "next_step": "分别执行 style.md 的A/B同题对照并保存输入输出、版本和分支检查；当前未做效果验收",
+  "school": "宋·词与议论绝句（按作品分支选择）",
   "scope": "只蒸作品（作品本身 + 关于作品的公开文字 + 评论/研究），不蒸私生活",
   "source_works": [
     "《声声慢》",
@@ -38,7 +38,7 @@
   ],
   "status": "draft v0.1",
   "template": "writers-top100-draft.md 第 6 节（画家模板改编）",
-  "test_prompt": "写给十年后自己的一封信（见 style.md 第 7 节）",
+  "test_prompt": "同题“面对一次必须承担的责任”，分别选A《声声慢》式词练习与B《夏日绝句》式五言绝句；禁止跨分支套负提示",
   "verification": "2026-10-26 网络核对（见 sources）；未核对项见 conflicts.md 与 known_gaps",
   "version": "0.1",
   "writer": "Li Qingzhao",
@@ -155,7 +155,7 @@
       ]
     },
     "legacy_context": {
-      "school": "宋·婉约词",
+      "school": "宋·词与议论绝句（按作品分支选择）",
       "genre": "poet"
     },
     "sources": [

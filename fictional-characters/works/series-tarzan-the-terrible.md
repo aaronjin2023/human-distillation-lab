@@ -1,6 +1,6 @@
 # Tarzan the Terrible
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Tarzan; reported series sales: 50 million[260]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Tarzan
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tarzan
 
 角色职责：protagonist · 身份：`identity-ed7bb8ac0978ee35` · 独立版本：`profile-60b949b1e87a2d0d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生且敌对的环境中倾向持续应对，表现出坚韧与开放（行为推断；S19、S20、S24）
 - **核心动机**：确认妻子可能生还后，寻回爱人成为冒险的持续目标（摘要直接叙述；S16、S17、S24）
@@ -27,6 +33,10 @@
 ### Jane
 
 角色职责：co-lead · 身份：`identity-48478a2ad6e11755` · 独立版本：`profile-1f1b9b44b4be2ef6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被囚与丛林逆境中表现出主动自救和自立的倾向（行为推断；S21、S22、S23）
 - **核心动机**：身处宗教权力争斗时倾向争取脱身，摆脱被控制处境（行为推断；S22）

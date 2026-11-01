@@ -1,6 +1,6 @@
 # The Long Patrol
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tamello De Fformelo Tussock
 
 角色职责：protagonist · 身份：`identity-e09a63d8cc7607e3` · 独立版本：`profile-e9a1f44ac1d7d501`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对父亲阻拦时，倾向坚持个人志向并冒险踏出家门（行为推断；S18、S19、S21、S22）
 - **核心动机**：渴望加入萨拉曼达斯特隆的长巡队，并为此出发寻找（摘要直接叙述；S18、S22）
@@ -28,6 +34,10 @@
 ### Cregga Rose Eyes
 
 角色职责：co-lead · 身份：`identity-9afa30a1fb9a3674` · 独立版本：`profile-25dcfb82054f1389`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在决定性战斗中，表现出猛烈进攻并亲自制敌的倾向（行为推断；S40、S41）
 - **核心动机**：在守军濒败时率援军出现，以阻止达穆格赢得战争（行为推断；S39、S40、S41）

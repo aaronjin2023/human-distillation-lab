@@ -1,6 +1,6 @@
 # The Street Lawyer
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 22, 1998. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Michael Brock
 
 角色职责：protagonist · 身份：`identity-66bacccdf1da13af` · 独立版本：`profile-f2482105473b2cf5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受害经历冲击下，他倾向追问真相而非恢复原有安稳（行为推断；S3、S6、S9）
 - **核心动机**：他希望追查非法驱逐责任，也帮助无家可归的Ruby戒毒见子（行为推断；S3、S6、S7、S33）
@@ -28,6 +34,10 @@
 ### Mordecai Green
 
 角色职责：major-support · 身份：`identity-6788e5b7831afbc9` · 独立版本：`profile-29d52bf37cfa3b03`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在基层法律援助中，他呈现持续投入弱势处境的倾向（行为推断；S4、S5）
 - **核心动机**：他的援助目标是让社会最困顿者获得实际法律帮助（摘要直接叙述；S5）

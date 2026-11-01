@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "hino-matsuri",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "吸血鬼骑士（Vampire Knight）漫画第1卷。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 补充有限视觉观察：Vampire Knight: Memories Vol.10英译封面（补充观察）；具体图只支撑对应封面/展示图，不混同原版内页。 本轮阶段说明：限旧卡续作第10卷封面构成；未检查其他卷的最新视觉。",
+  "recent_focus": {
+    "work": "ヴァンパイア騎士 memories 10（日文原版，对应旧卡英译封面卷号）",
+    "year": 2024,
+    "source_ids": [
+      "S2",
+      "SPDATE1"
+    ],
+    "date_basis": "白泉社书目标2024.10.04发售；不是原作第1卷或英译版出版年。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "VIZ | The Official Website for Vampire Knight",
+      "url": "https://www.viz.com/vampire-knight",
+      "publisher": "VIZ Media",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社署名Matsuri Hino，介绍日夜两组学生与隐秘身份的设定；配方改用成年人物与原创地点。"
+      ],
+      "access_note": "实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Vampire Knight: Memories Vol.10英译封面（补充观察）：官方公开图像",
+      "url": "https://dw9to29mmj727.cloudfront.net/products/1974758753.jpg",
+      "publisher": "VIZ Media",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "两人侧脸近距离对向，浅发与深发形成明度区别，肩甲和高领是坚硬结构；人物中间亮白面与冷蓝外缘相对。此为续作第10卷封面，不是原作第1卷或连续内页。"
+      ],
+      "access_note": "从公开页面 https://www.viz.com/vampire-knight 的HTML明确提取图像URL，下载到自有/tmp后实际通过view_image查看。定位：Vampire Knight: Memories Vol.10英译封面（补充观察）。仅查看这一封面/展示图，未阅读内页；未将HTML alt当作视觉证据。",
+      "origin_page_url": "https://www.viz.com/vampire-knight",
+      "observed_asset_sha256": "156cef2d09636863c8cd91882a8cf3eb204129adbc22a3e07da0a69e66b8d6a6",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "两人侧脸近距离对向，浅发与深发形成明度区别，肩甲和高领是坚硬结构；人物中间亮白面与冷蓝外缘相对。此为续作第10卷封面，不是原作第1卷或连续内页。"
+      ]
+    },
+    {
+      "id": "SPDATE1",
+      "title": "ヴァンパイア騎士 memories 10｜白泉社",
+      "url": "https://www.hakusensha.co.jp/comicslist/72292/",
+      "publisher": "白泉社",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "樋野まつり署名，第10卷日本原版2024年10月4日发行。"
+      ],
+      "access_note": "本轮实际检索摘要或打开公开正文核对日期；未新增图像观察。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社署名Matsuri Hino，介绍日夜两组学生与隐秘身份的设定；配方改用成年人物与原创地点。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "两人侧脸近距离对向，浅发与深发形成明度区别，肩甲和高领是坚硬结构；人物中间亮白面与冷蓝外缘相对。此为续作第10卷封面，不是原作第1卷或连续内页。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "两人侧脸近距离对向，浅发与深发形成明度区别，肩甲和高领是坚硬结构；人物中间亮白面与冷蓝外缘相对。此为续作第10卷封面，不是原作第1卷或连续内页。",
+      "observation": "两人侧脸近距离对向，浅发与深发形成明度区别，肩甲和高领是坚硬结构；人物中间亮白面与冷蓝外缘相对。此为续作第10卷封面，不是原作第1卷或连续内页。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "头发用成束长线，眼睑与制服边缘局部加重。",
+    "shapes": "成年人物修长直立，颈与肩的转向略不同。",
+    "composition": "门两侧人物形成对峙，前景一只手打断对称。",
+    "panel_rhythm": "原创建议：门外静候、手部犹豫、眼神互切、门内黑场。",
+    "tonal_design": "黑外套压住下半画面，白衬领把脸托起。",
+    "environment": "走廊灯与门缝光界定两个活动领域。",
+    "acting": "眼睛看向对方，脚尖却朝离开方向。",
+    "color": "本库原创彩色建议：冷蓝夜色加窄暖光；本轮仅见所列公开封面/展示图，未系统核作者色稿，不归为作者固定色板。"
+  },
+  "steps": [
+    "先做三厘米缩略图：门两侧人物形成对峙，前景一只手打断对称。",
+    "搭人物体块并落实动作：成年人物修长直立，颈与肩的转向略不同。眼睛看向对方，脚尖却朝离开方向。",
+    "描线时明确材质与环境：头发用成束长线，眼睑与制服边缘局部加重。走廊灯与门缝光界定两个活动领域。",
+    "压成三阶黑白再复查：黑外套压住下半画面，白衬领把脸托起。扩展连续页时，原创建议：门外静候、手部犹豫、眼神互切、门内黑场。"
+  ],
+  "checks": [
+    "门框确实分隔两个空间",
+    "视线和脚尖形成可读矛盾",
+    "黑衣中手部没有丢失"
+  ],
+  "sheet_traits_zh": "成束长线组织发形，眼睑和衣缘局部加重；成人身躯修长、颈肩自然，深黑外层由白领口分开，面部少灰。",
+  "avoid": [
+    "依赖知名校服纹章",
+    "反复眼睛特写而无空间变化"
+  ],
+  "unknowns": [
+    "已实际观察所列封面或公开展示图，范围与卷版见对应来源；未由封面推断连续分镜。八维配方、流程和提示词仍为本库原创转译，不是作者通用作画规则。",
+    "未比对原版、译本、早晚期画风与彩色原稿；本配方不承诺风格复刻。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

@@ -1,6 +1,6 @@
 # So Long, and Thanks for All the Fish
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Hitchhiker's Guide to the Galaxy; reported series sales: 16 million[326][327]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arthur Dent
 
 角色职责：protagonist · 身份：`identity-71a92373f506ea36` · 独立版本：`profile-d4a4c07788670751`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对无法解释的重逢与异常时，他倾向持续追寻具体的人与线索（行为推断；S23、S25、S27、S37）
 - **核心动机**：他希望理解自己与Fenchurch的关联，并与她共同探索地球的变化（行为推断；S25、S31、S36、S37）
@@ -24,6 +30,10 @@
 ### Fenchurch
 
 角色职责：co-lead · 身份：`identity-5f4aa242f7e5838d` · 独立版本：`profile-0875faa910021bcf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对无法回忆的顿悟与异常体验，她倾向开放交流并主动探索（行为推断；S32、S33、S36、S43）
 - **核心动机**：她明确希望与Arthur共同进入太空，并找到神留下最终留言的地点（摘要直接叙述；S43）

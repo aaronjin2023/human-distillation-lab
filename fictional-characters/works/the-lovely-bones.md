@@ -1,6 +1,6 @@
 # The Lovely Bones
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 18, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Susie Salmon
 
 角色职责：protagonist · 身份：`identity-7587251320a678c2` · 独立版本：`profile-e0442ae440af0190`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：死后观察人间时，她倾向于留恋日常生活与尚未体验的亲密关系。（行为推断；S39、S48）
 - **核心动机**：看见妹妹与恋人的爱情后，她渴望亲自体验与雷的身体亲密。（摘要直接叙述；S39）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-bdc3e838c264fe4b` · 独立版本：`profile-57dfbdb19a9f3361`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：女儿遇害后，他倾向于执着追查，警方停止调查后仍主动寻找嫌疑人。（行为推断；S9、S13、S14、S15）
 - **核心动机**：他试图追究女儿遇害的真相，并阻止自己所猜测的毁证行为。（行为推断；S9、S15、S20）
 - **情绪反应**：女儿死后，他深陷未能救下她的内疚之中。（摘要直接叙述；S50）
@@ -44,6 +54,10 @@
 ### Lindsey Salmon
 
 角色职责：major-support · 身份：`identity-a17f6d0f06c8a15a` · 独立版本：`profile-a1db828f2802002a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：帮助父亲调查时，她倾向于主动冒险查证，而非仅停留在怀疑上。（行为推断；S10、S20）
 - **核心动机**：她潜入邻居住宅寻找证据，意在帮助父亲证明对凶手的怀疑。（摘要直接叙述；S20）

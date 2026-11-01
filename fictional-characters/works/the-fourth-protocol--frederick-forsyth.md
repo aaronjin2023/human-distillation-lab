@@ -1,6 +1,6 @@
 # The Fourth Protocol
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 16, 1984. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Preston
 
 角色职责：protagonist · 身份：`identity-22c4d94b17713685` · 独立版本：`profile-0acac1b79777e878`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：调查受阻时呈现耐心追索、不轻易放弃疑点的倾向（行为推断；S15、S16、S22、S24）
 - **核心动机**：发现核材料线索后，持续追查潜入英国的秘密行动（摘要直接叙述；S13、S14、S16、S22、S25）
@@ -29,6 +35,10 @@
 ### Sir Nigel Irvine
 
 角色职责：major-support · 身份：`identity-5bc05e5a74adf5a2` · 独立版本：`profile-aab2d2b01dd4efae`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在情报对抗中呈现务实冷峻、善于迂回布局的倾向（行为推断；S8、S16、S30、S32、S34）
 - **核心动机**：通过秘密支持调查与误导对手，推动破坏核袭击计划（行为推断；S16、S17、S30、S31）

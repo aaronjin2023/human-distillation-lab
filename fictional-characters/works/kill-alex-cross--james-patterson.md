@@ -1,6 +1,6 @@
 # Kill Alex Cross
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 4, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-e625bfeec40fe203`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在机构封锁信息时，他倾向持续追问而不轻易退出调查（行为推断；S11、S26、S38、S39、S50）
 - **核心动机**：围绕孩子失踪持续查证与追捕，行动目标是将他们救回（行为推断；S26、S38、S39、S51、S52）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-551b5f2e2db8c7fa` · 独立版本：`profile-d38e01ddcb844c8a`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在妻子的描述中，他丧子后倾向迁怒他人并以控制回应痛苦（行为推断；S46、S47）
 - **核心动机**：摘要推测他因失去自己的孩子而不愿总统保有孩子（行为推断；S48）
 - **决策方式**：据通信线索推测，他可能借用不同学生的手机接近绑架目标（行为推断；S39、S41、S42、S52、S55）
@@ -44,6 +54,10 @@
 ### Hala
 
 角色职责：central-antagonist · 身份：`identity-b5464a30df33c362` · 独立版本：`profile-ba6747997484fcc5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在组织要求自我毁灭时，她表现出反抗支配的强烈倾向（行为推断；S58、S59、S60）
 - **核心动机**：遭组织安排赴死后，她转而以脱离组织并开始新生活为目标（摘要直接叙述；S59、S60）

@@ -1,6 +1,6 @@
 # Tarzan and the Golden Lion
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Tarzan; reported series sales: 50 million[260]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Tarzan
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tarzan
 
 角色职责：protagonist · 身份：`identity-ed7bb8ac0978ee35` · 独立版本：`profile-a80b10971a06944b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对孤幼动物倾向主动照料，表现出建立跨物种联系的意愿（行为推断；S15）
 - **核心动机**：资助战争导致庄园财力枯竭，促使他再次寻找黄金补充资产（摘要直接叙述；S20）
@@ -24,6 +30,10 @@
 ### Esteban Miranda
 
 角色职责：central-antagonist · 身份：`identity-aecb1bc408983a2e` · 独立版本：`profile-a85d579f756f9315`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在冒充他人参与寻宝时倾向伺机谋利，表现出投机性（行为推断；S18、S26、S27、S28）
 - **核心动机**：取得黄金后将其藏起，明确打算留待自己日后占有（摘要直接叙述；S27）

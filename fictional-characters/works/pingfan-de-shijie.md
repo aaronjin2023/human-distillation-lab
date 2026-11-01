@@ -1,6 +1,6 @@
 # 平凡的世界
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：截至2020年国内出版界统计销量超过1800万册；这是全书/各版本合计的报道，不代表某一版销量。
 [依据来源](https://www.chinawriter.com.cn/n1/2022/0402/c404063-32390470.html) · 中国作家网转述出版统计；历史累计口径。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 孙少平
 
 角色职责：co-lead · 身份：`identity-bb73e3c58bfd212b` · 独立版本：`profile-360e929137618cb7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在封闭与困顿的处境中，倾向主动探索而不满足于既有生活（行为推断；S14、S48、S51）
 - **核心动机**：谋生之外还追求生活意义，不愿只以获得收入衡量出路（行为推断；S48、S51、S66）
@@ -28,6 +34,10 @@
 ### 孙少安
 
 角色职责：co-lead · 身份：`identity-d5c44a02fb243cd1` · 独立版本：`profile-5dd2c3bc78c3d1ac`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在贫困与经营挫折面前，倾向务实进取并重新寻找出路（行为推断；S41、S42、S79）
 - **核心动机**：希望改变乡村贫穷面貌，将个人经营与村庄发展相连接（行为推断；S34、S81）

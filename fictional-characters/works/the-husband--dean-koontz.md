@@ -1,6 +1,6 @@
 # The Husband
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 18, 2006. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mitch Rafferty
 
 角色职责：protagonist · 身份：`identity-dfcba49ddb4bdf06` · 独立版本：`profile-201f074a91c1e2a3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在妻子遭绑架时，他表现出执拗自救且难以信任他人的倾向（行为推断；S18、S61、S62）
 - **核心动机**：他将救回妻子视为迫在眉睫且不能交给他人的责任（摘要直接叙述；S62）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-564869309a26fb7e` · 独立版本：`profile-b08d1aa19bfca667`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在武力悬殊的囚禁中，她倾向耐心寻找微小的反抗机会（行为推断；S49、S51、S66）
 - **核心动机**：起初她反复撬动钉子，是为了给困境中的自己一个专注目标（摘要直接叙述；S50）
 - **决策方式**：面对绑匪的异象信念，她选择顺势伪装而非直接对抗（行为推断；S55、S65、S66）
@@ -39,6 +49,10 @@
 ### Anson
 
 角色职责：central-antagonist · 身份：`identity-131deb79815977b2` · 独立版本：`profile-dca02b54a0fc2d24`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对弟弟的绝境，他呈现冷酷且以他人痛苦取乐的倾向（行为推断；S36、S47）
 - **核心动机**：他希望弟弟此后每逢婚姻生活都会想起赎金的肮脏来源（摘要直接叙述；S47）

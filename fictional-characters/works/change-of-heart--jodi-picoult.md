@@ -1,6 +1,6 @@
 # Change of Heart
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 23, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Shay Bourne
 
 角色职责：protagonist · 身份：`identity-910cae8c5cddff14` · 独立版本：`profile-9d50475d34667e3f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲人面临惩罚时表现出自我牺牲倾向，愿意替妹妹承担罪责（行为推断；S26、S27）
 - **核心动机**：他希望向克莱尔捐心，神父作证称这关乎其救赎信念（摘要直接叙述；S12、S13、S21）
@@ -28,6 +34,10 @@
 ### June Nealon
 
 角色职责：co-lead · 身份：`identity-4b0b9c4f9b29eaa3` · 独立版本：`profile-adc533b7986daac2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在女儿住院的压力下，表现出愿意突破规则给予安慰的倾向（行为推断；S20）
 - **核心动机**：她把宠物偷偷带入医院，明确希望改善患病女儿的心情（摘要直接叙述；S20）

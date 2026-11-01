@@ -1,6 +1,6 @@
 # Threat Vector
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 23, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan Jr.
 
 角色职责：protagonist · 身份：`identity-d45152c2b412eab4` · 独立版本：`profile-6960d891c6ed068b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追查线索时倾向主动冒险，甚至越过上级命令（行为推断；S15、S16、S17）
 - **核心动机**：在发现女友监控自己后，继续追查幕后组织的所在（行为推断；S21、S24、S28、S29）
@@ -28,6 +34,10 @@
 
 角色职责：central-antagonist · 身份：`identity-1459b90f5211496e` · 独立版本：`profile-658cf3c3f0408935`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在身份面临暴露时，倾向以高度控制和灭口消除威胁（行为推断；S18、S19、S20、S25）
 - **核心动机**：通过清除知情者和情报档案，维持幽灵船组织的隐蔽（摘要直接叙述；S19、S25）
 - **决策方式**：倾向把网络渗透与线下暗杀结合，追踪并打击调查者（行为推断；S16、S20、S21、S22）
@@ -38,6 +48,10 @@
 ### Wei Zhen Lin
 
 角色职责：major-support · 身份：`identity-052fdd0dbb1606fb` · 独立版本：`profile-b83a1e17c49239be`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在政治生存受威胁时，呈现出受制于人且急于脱困的倾向（行为推断；S4、S5、S31、S36）
 - **核心动机**：为挽回经济损失并维持生存，转向以军事扩张解困（摘要直接叙述；S3、S4、S5）

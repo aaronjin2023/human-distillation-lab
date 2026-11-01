@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Pierre (Pyotr Kirilovich) Bezukhov
 
 角色职责：protagonist · 身份：`identity-7bc2fcd3bd706376` · 独立版本：`profile-6ab000466ef8e662`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：初入社交场合时，他心地善良却显得笨拙，难以融入彼得堡上流社会。（摘要直接叙述；S7）
 - **核心动机**：继承财富后，他转向追问如何在道德有缺陷的世界过正直生活。（摘要直接叙述；S46、S53、S55、S56）
@@ -25,6 +31,10 @@
 
 角色职责：co-lead · 身份：`identity-acccf66f57f6d8b4` · 独立版本：`profile-5f61c4bab039b460`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在此阶段，他厌倦彼得堡社交生活与婚姻，认为妻子空洞肤浅。（摘要直接叙述；S11）
 - **核心动机**：他参军既为逃离难以忍受的生活，也怀有取得拿破仑式战功的期待。（行为推断；S14、S33）
 - **价值取舍**：重伤后，他开始怀疑追逐荣耀的价值，转而关注军队组织与生命损失。（行为推断；S35、S59、S62）
@@ -36,6 +46,10 @@
 ### Natasha (Natalia Ilyinichna) Rostova
 
 角色职责：co-lead · 身份：`identity-9cb183a47d8b5578` · 独立版本：`profile-132f20131e82e56e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：少女时期她容易被浪漫想象牵引，后来又展现活泼魅力并带动他人。（行为推断；S19、S70）
 - **核心动机**：订婚后因安德烈离去而痛苦，显示她在此阶段渴望与他相伴。（行为推断；S71、S73）

@@ -1,6 +1,6 @@
 # High Rhulain
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiria Wildlough
 
 角色职责：protagonist · 身份：`identity-546f7128b6c6633d` · 独立版本：`profile-ec792fa637a89f54`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困者遭到威胁时，她倾向主动介入而非旁观（行为推断；S9、S10、S39）
 - **核心动机**：她的远行可理解为响应梦中关于绿岛援助与领导的召唤（行为推断；S12、S13、S33）
@@ -28,6 +34,10 @@
 ### Riggu Felis
 
 角色职责：central-antagonist · 身份：`identity-89aebac1adb14f99` · 独立版本：`profile-1ddf761727c15391`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在捕杀鱼鹰时，他轻蔑儿子的表现并倾向亲自以恐吓压服猎物（行为推断；S3、S4）
 - **核心动机**：遭鱼鹰重创后，他下令杀尽岛上鸟类，显出报复自身伤害的动机（行为推断；S5、S6、S7）

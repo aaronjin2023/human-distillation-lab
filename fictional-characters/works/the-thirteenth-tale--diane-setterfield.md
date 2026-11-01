@@ -1,6 +1,6 @@
 # The Thirteenth Tale
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 1, 2006. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Vida Winter
 
 角色职责：co-lead · 身份：`identity-d99d5f0fd6affcb0` · 独立版本：`profile-3c93cb7bd85d2a71`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在个人往事受到追问时，倾向保持戒备并掌握披露节奏（行为推断；S3、S15、S19）
 - **核心动机**：在健康衰退与死亡临近时，希望终于留下真实的人生叙述（摘要直接叙述；S4、S7）
@@ -28,6 +34,10 @@
 ### Margaret Lea
 
 角色职责：co-lead · 身份：`identity-303753f33472a2c0` · 独立版本：`profile-8795801a7b3e993a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生作家的身世邀请，表现出好奇与审慎并存的倾向（行为推断；S9、S11、S14）
 - **核心动机**：被缺失的第十三个故事吸引，希望弄清作品留下的疑问（摘要直接叙述；S10、S11）

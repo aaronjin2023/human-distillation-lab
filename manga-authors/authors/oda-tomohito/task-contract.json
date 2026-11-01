@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "oda-tomohito",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦《古見さんは、コミュ症です。37》日文原版官方封面与出版社书目。只看这一封面，不含连续内页；不使用动画改编图。学校剧情、学生年龄与封面群像不带入成年原创任务；书封字体与原作者绘画分开。",
+  "recent_focus": {
+    "work": "古見さんは、コミュ症です。37",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "出版社所列日本原版发行日为2025-03-18；这是卷册出版年，不是每幅画或封面原稿实际绘制日。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "古見さんは、コミュ症です。37：出版社书目",
+      "url": "https://shogakukan-comic.jp/book?isbn=9784098540297",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "漫画作者：オダトモヒト（该卷未另列原作）",
+        "2025-03-18日本原版出版及卷号"
+      ],
+      "access_note": "本轮实际web打开并读取出版社公开书目信息；另获取页面HTML核定主封面地址。未进入账号、付费章节或阅读完整内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "古見さんは、コミュ症です。37：日文原版官方封面",
+      "url": "https://shogakukan-comic.jp/book-images/w400/books/9784098540297.jpg",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定这张封面的轮廓、体块、色光与构图观察"
+      ],
+      "access_note": "从上述官方书目提取主封面链接，下载临时缩略图并实际通过view_image查看；未将alt文字当观察。只支持封面可见大关系，文字排版与装帧不自动归漫画作者。",
+      "origin_page_url": "https://shogakukan-comic.jp/book?isbn=9784098540297",
+      "observed_asset_sha256": "63b87a9f45c00043cd67bd32e6c03b3d27beca87a92e425dfa466aeced82feac",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面正中人物闭眼微笑并持长筒物，面部留浅且有薄腮红，外套硬边与裙褶线清楚；周围多人表情有不同程度概括，校舍窗格与地砖向后退，粉色花瓣在前景穿过。只记此封面主次，不据此声称全卷固定表情或镜头。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "漫画作者：オダトモヒト（该卷未另列原作）；出版社列日本原版2025-03-18发行。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面正中人物闭眼微笑并持长筒物，面部留浅且有薄腮红，外套硬边与裙褶线清楚；周围多人表情有不同程度概括，校舍窗格与地砖向后退，粉色花瓣在前景穿过。只记此封面主次，不据此声称全卷固定表情或镜头。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "封面正中人物闭眼微笑并持长筒物，面部留浅且有薄腮红，外套硬边与裙褶线清楚；周围多人表情有不同程度概括，校舍窗格与地砖向后退，粉色花瓣在前景穿过。只记此封面主次，不据此声称全卷固定表情或镜头。",
+      "observation": "封面正中人物闭眼微笑并持长筒物，面部留浅且有薄腮红，外套硬边与裙褶线清楚；周围多人表情有不同程度概括，校舍窗格与地砖向后退，粉色花瓣在前景穿过。只记此封面主次，不据此声称全卷固定表情或镜头。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "外套和硬物边缘用清楚直线，脸部轮廓转圆，眉眼关键短线加重，次要衣纹减轻。",
+    "shapes": "成年躯干以肩线、胸廓、骨盆稳定中轴，衣物折面有明确方向，面部不强制大眼或任何原作发型。",
+    "composition": "让既定表情或操作处成为最清楚区域，周围重复线条降低密度，前景不添加原封面花瓣。",
+    "panel_rhythm": "原创迁移建议：既定信息点出现时转近清楚表情，反应后回到操作关系；不把封面群像当分镜证据。",
+    "tonal_design": "脸部浅、服装中灰、瞳孔及接缝深，亮面连贯；黑白稿将彩色图案压成从属小灰。",
+    "environment": "以既定空间的重复结构交代远近，越远线越轻，不移入校舍或毕业背景。",
+    "acting": "眼睛闭合与张口也需有眼睑方向及嘴腔关系，肩和手指紧张度与既定情绪一致。",
+    "color": "本库原创色彩转译为低彩蓝灰与少量暖红；强调色位置服从项目物件，发色不因封面而改变。"
+  },
+  "steps": [
+    "先决定既定表情或手部信息的优先级，画清主体外形。",
+    "用成年中轴和肩胸厚度修正衣物形状，再核对握持。",
+    "分开脸、服装和接缝三档明度，把重复图案降为从属。",
+    "减轻远处结构线和装饰，检查表情在缩图后仍清晰。"
+  ],
+  "checks": [
+    "衣物硬边是否没有让脸部也变得僵硬？",
+    "闭眼或张口表情是否仍有明确方向和意图？",
+    "重复背景纹理是否始终弱于脸手信息？"
+  ],
+  "sheet_traits_zh": "清楚衣缘直线配圆转面部，静态成年肩胸骨盆有厚度；浅皮肤与中灰布面分开，接缝局部重，图案压低对比。",
+  "avoid": [
+    "把每处图案和背景格线画成同样粗黑。",
+    "照搬群像人数、毕业物件或标志性发型。"
+  ],
+  "unknowns": [
+    "本轮只观察一张官方封面，未逐页研究内页、长期画风变化、助手分工或作者完整制作流程。",
+    "八维配方、步骤、检查与提示词均为一般视觉技法的原创组合，分镜建议不冒充作者本人规则。",
+    "未生成图片，不能据此声称人物一致性、三视图或六格节奏已实测。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

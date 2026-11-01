@@ -1,6 +1,6 @@
 # The Racketeer
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 11, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Malcolm Bannister
 
 角色职责：protagonist · 身份：`identity-0ec1610f12535bd4` · 独立版本：`profile-90186b1b9b833ee5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在争取脱身与取得黄金时表现出精于布局、善用伪装的倾向（行为推断；S10、S12、S17）
 - **核心动机**：计划旨在离开监狱并取得真凶的黄金后洗清Quinn嫌疑（摘要直接叙述；S17）
@@ -28,6 +34,10 @@
 ### Nathan Cooley
 
 角色职责：central-antagonist · 身份：`identity-5556ba450db112fa` · 独立版本：`profile-42c991ab1c04e477`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在谋求提前出狱的情境中表现出利用秘密换取帮助的倾向（行为推断；S19）
 - **核心动机**：计划窃取法官通过不当裁决获得的黄金（摘要直接叙述；S19）

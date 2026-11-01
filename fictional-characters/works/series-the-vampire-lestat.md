@@ -1,6 +1,6 @@
 # The Vampire Lestat
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Lestat de Lioncourt
 
 角色职责：protagonist · 身份：`identity-00049097b25f820a` · 独立版本：`profile-0c16859884d107e6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对禁令与隐匿惯例时倾向越界探索，难压抑公开表达的冲动（行为推断；S19、S20、S48、S49）
 - **核心动机**：借自传与摇滚声名寻找旧日关系，同时希望向世界揭露吸血鬼（摘要直接叙述；S19、S20）
@@ -28,6 +34,10 @@
 ### Armand
 
 角色职责：central-antagonist · 身份：`identity-a99d7d073035797b` · 独立版本：`profile-200145bbe3ee3b2a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭拒绝的亲密关系中倾向长期记恨，并以操控报复回应（行为推断；S54、S55、S56）
 - **核心动机**：主动向莱斯特要求陪伴，显示其严苛组织身份之外的亲近需求（摘要直接叙述；S33、S36）

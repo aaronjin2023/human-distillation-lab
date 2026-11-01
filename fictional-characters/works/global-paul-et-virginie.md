@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Paul
 
 角色职责：co-lead · 身份：`identity-7995aac7d4df0080` · 独立版本：`profile-99f2db94cb25b53e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在共同生活与救助情境中，倾向陪伴他人并付诸行动（行为推断；S10、S15、S39）
 - **核心动机**：与维吉妮分离后，他努力维系联系并盼望感情得以延续（行为推断；S35、S36）
@@ -24,6 +30,10 @@
 ### Virginie
 
 角色职责：co-lead · 身份：`identity-b35ad8d5df1ae2a5` · 独立版本：`profile-5fbb92338580270a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对受虐者时倾向主动怜悯，但对家庭安排又表现顺从（行为推断；S14、S34）
 - **价值取舍**：在沉船危机中，她依作者所述将羞耻规范置于脱险便利之前（摘要直接叙述；S40）

@@ -1,6 +1,6 @@
 # 丰乳肥臀
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2012年开卷虚构畅销榜报道列名作品
 [依据来源](https://www.chinanews.com/cul/2013/01-11/4481265.shtml) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 上官鲁氏
 
 角色职责：co-lead · 身份：`identity-8b086003f80a9ebc` · 独立版本：`profile-82411086561ec19e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战争与饥荒接连打击下，倾向持续承担家庭存续责任（行为推断；S53、S57、S60、S69）
 - **核心动机**：面对饥饿和迁徙损失，优先寻找能让家人活下去的出路（行为推断；S56、S57、S68、S69）
@@ -28,6 +34,10 @@
 ### 上官金童
 
 角色职责：protagonist · 身份：`identity-3331618b664bfbf1` · 独立版本：`profile-966c35b7867f9ff7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在成年后的困境中，呈现依赖母亲并反复回归庇护的倾向（行为推断；S79、S80、S83）
 - **核心动机**：在生活受挫时倾向寻求熟悉的照料，维持自身生活依托（行为推断；S79、S81、S83）

@@ -1,6 +1,6 @@
 # Executive Orders
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 1, 1996. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Ryan
 
 角色职责：protagonist · 身份：`identity-31fe1794b3874df8` · 独立版本：`profile-7fa7b2562e745426`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在政权与安全危机叠加时，他倾向主动集中责任并强硬应对（行为推断；S3、S11、S14、S18）
 - **核心动机**：他试图重建政府运作，控制疫情并阻止盟国遭受军事侵略（摘要直接叙述；S3、S11、S14）
@@ -28,6 +34,10 @@
 ### Ayatollah Mahmoud Haji Daryaei
 
 角色职责：central-antagonist · 身份：`identity-434f9e2d95e887e6` · 独立版本：`profile-c56f99d449bceaea`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在美国遭受重创时，他倾向趁势扩张并低估新任总统的能力（行为推断；S4、S9、S25）
 - **核心动机**：他希望借区域吞并和削弱美国，使新政权取得超级大国地位（摘要直接叙述；S4、S5、S9、S25）

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "fukuda-shinichi",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦《その着せ替え人形は恋をする 15（完）》日文原版官方封面与出版社书目。只看这一封面，不含连续内页；不使用动画改编图。只研究漫画单行本封面，不把TV动画设定或ちょぼらうにょぽみ绘画的衍生漫画归本人画法。",
+  "recent_focus": {
+    "work": "その着せ替え人形は恋をする 15（完）",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "出版社所列日本原版发行日为2025-07-25；这是卷册出版年，不是每幅画或封面原稿实际绘制日。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "その着せ替え人形は恋をする 15（完）：出版社书目",
+      "url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757599727/",
+      "publisher": "SQUARE ENIX",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "漫画作者：福田晋一（原作漫画；不含其他画者衍生作）",
+        "2025-07-25日本原版出版及卷号"
+      ],
+      "access_note": "本轮实际web打开并读取出版社公开书目信息；另获取页面HTML核定主封面地址。未进入账号、付费章节或阅读完整内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "その着せ替え人形は恋をする 15（完）：日文原版官方封面",
+      "url": "https://magazine.jp.square-enix.com/top/shoei/9784757599727.jpg?t=20250722173344",
+      "publisher": "SQUARE ENIX",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定这张封面的轮廓、体块、色光与构图观察"
+      ],
+      "access_note": "从上述官方书目提取主封面链接，下载临时缩略图并实际通过view_image查看；未将alt文字当观察。只支持封面可见大关系，文字排版与装帧不自动归漫画作者。",
+      "origin_page_url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757599727/",
+      "observed_asset_sha256": "3529a0524e9a39c2be13c6fc72f984fb0556a5f8a597137a8a43e6d4030565b7",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面近脸几乎对称，闭合笑眼、密睫与大幅露齿笑容居中；两颊粉红软面衬白肤，浅色头巾在上方构成尖拱，白衣以极淡花纹及红褐交叉边缘分层。只支持这张封面的留白、集中表情与浅材质区分，不证明连续剧情或全书色板。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "漫画作者：福田晋一（原作漫画；不含其他画者衍生作）；出版社列日本原版2025-07-25发行。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面近脸几乎对称，闭合笑眼、密睫与大幅露齿笑容居中；两颊粉红软面衬白肤，浅色头巾在上方构成尖拱，白衣以极淡花纹及红褐交叉边缘分层。只支持这张封面的留白、集中表情与浅材质区分，不证明连续剧情或全书色板。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "封面近脸几乎对称，闭合笑眼、密睫与大幅露齿笑容居中；两颊粉红软面衬白肤，浅色头巾在上方构成尖拱，白衣以极淡花纹及红褐交叉边缘分层。只支持这张封面的留白、集中表情与浅材质区分，不证明连续剧情或全书色板。",
+      "observation": "封面近脸几乎对称，闭合笑眼、密睫与大幅露齿笑容居中；两颊粉红软面衬白肤，浅色头巾在上方构成尖拱，白衣以极淡花纹及红褐交叉边缘分层。只支持这张封面的留白、集中表情与浅材质区分，不证明连续剧情或全书色板。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "眼睫与既定眼睑折线稍重，面部内线极少；衣纹和装饰纹样用轻细线，硬边饰条清楚收口。",
+    "shapes": "成年头颈、锁骨与肩胸保持自然厚度，张口时让颌骨与口腔有空间；不强制样本头巾或服饰。",
+    "composition": "围绕既定表情保留连续浅面，肩线及已有衣缘形成稳定方向，留白不被小花纹切碎。",
+    "panel_rhythm": "原创迁移建议：先读清既定动作，再让表情变化成为反应点，随后回到结果；封面不能证明漫画转场规律。",
+    "tonal_design": "保持既定肤色与服色，以轮廓轻重和薄灰差分区；有浅色材料时可连成大亮面，深部用于眼、口腔及必要接缝。",
+    "environment": "背景压到不抢焦点的浅层，保留项目要求的必要结构，不添加婚礼场景或服饰。",
+    "acting": "检查眼睑、眉位和嘴角是否共同表达既定情绪；若表情需要露齿，牙齿以整体概括，避免逐颗画黑线。",
+    "color": "本库由该封面转译为大面积白与薄暖红气色，深色饰边少量定位；发色、服色及情绪强度服从既定项目。"
+  },
+  "steps": [
+    "先用成年头颈肩胸建立自然结构，再安放既定表情。",
+    "圈定连续浅面，把衣缘和口眼信息分主次。",
+    "保持既定肤色与衣色，以薄灰及边缘区别相邻材料，只在必要接缝加深。",
+    "检查眼眉嘴与既定情绪一致，降低花纹对比并保持已有衣物造型。"
+  ],
+  "checks": [
+    "同为浅色的皮肤和布料是否仍可区分？",
+    "表情强度是否没有破坏下颌与口腔体积？",
+    "装饰纹样是否始终轻于眉眼和主要衣缘？"
+  ],
+  "sheet_traits_zh": "眉眼稍重而面部内线少，静态成年头颈肩胸自然；保持既定肤色与衣色，以薄灰和线重分材料，花纹轻，硬饰边清楚。",
+  "avoid": [
+    "用每颗牙齿黑描边或过多脸线破坏明亮表情。",
+    "把原封面婚礼衣装、发饰、角色或独有图案搬入新方案。"
+  ],
+  "unknowns": [
+    "本轮只观察一张官方封面，未逐页研究内页、长期画风变化、助手分工或作者完整制作流程。",
+    "八维配方、步骤、检查与提示词均为一般视觉技法的原创组合，分镜建议不冒充作者本人规则。",
+    "未生成图片，不能据此声称人物一致性、三视图或六格节奏已实测。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

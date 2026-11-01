@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Robert Langdon
 
 角色职责：protagonist · 身份：`identity-710cf6abca59cabf` · 独立版本：`profile-cd9fcd0f87ac234a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追查谜题时，他倾向冷静解读符号，并在危机中保留判断。（行为推断；S7、S11、S27、S28）
 - **核心动机**：在追索钥匙石的过程中，他倾向继续查明圣杯线索的含义。（行为推断；S11、S14、S17、S20）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-60ab18a6b032fec7` · 独立版本：`profile-eef90eeb2847d7e3`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在解谜与逃亡中，她表现出敏锐，能识别祖父留给她的暗示。（行为推断；S8、S10、S11、S13）
 - **核心动机**：面对祖父留下的暗示，她倾向与兰登合作追查其指向。（行为推断；S8、S11、S13、S17）
 - **决策方式**：她判断祖父意在引导兰登解码，随后与他沿线索逃离警方。（摘要直接叙述；S8、S11、S13）
@@ -34,6 +44,10 @@
 ### Sir Leigh Teabing
 
 角色职责：central-antagonist · 身份：`identity-ca11c1cdde9c05e7` · 独立版本：`profile-2faa91b17beea1ed`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在圣杯追索中，他倾向隐瞒幕后身份，并以胁迫推进目的。（行为推断；S3、S17、S25、S27）
 - **核心动机**：他想借自己相信存在的圣杯相关文件打击梵蒂冈。（摘要直接叙述；S26）

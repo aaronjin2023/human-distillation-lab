@@ -1,6 +1,6 @@
 # Shopaholic & Baby
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 18, 2007. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Becky
 
 角色职责：protagonist · 身份：`identity-1ebc024e50112276` · 独立版本：`profile-a26485dfc7817800`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在孕期期待与不确定感中，倾向冲动求证并追逐理想体验（行为推断；S4、S10、S11）
 - **核心动机**：察觉婚姻与丈夫事业受威胁后，积极寻求维护家庭的办法（行为推断；S16、S26、S30、S31）
@@ -28,6 +34,10 @@
 ### Luke
 
 角色职责：co-lead · 身份：`identity-1a4b42fad520a07a` · 独立版本：`profile-adf4e48b1f7e1c90`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在妻子遭前女友公开贬低时，表现出明确维护伴侣的倾向（行为推断；S32、S33）
 - **核心动机**：面对妻子对不忠的担忧，试图澄清关系并修复信任（行为推断；S20、S21、S22）

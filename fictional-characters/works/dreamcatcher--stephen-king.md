@@ -1,6 +1,6 @@
 # Dreamcatcher
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 8, 2001. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Henry Devlin
 
 角色职责：protagonist · 身份：`identity-80538e9fcfcbf1ef` · 独立版本：`profile-db26d0acfd8fe2cc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对失控危机时倾向主动组织援助并持续行动（行为推断；S23、S24、S27、S28、S50）
 - **核心动机**：力图阻止外星存在借朋友的身体传播致命感染（摘要直接叙述；S23、S24、S26）
@@ -23,6 +29,10 @@
 ### Gary Jones
 
 角色职责：co-lead · 身份：`identity-d6bcc2bd0384f7b8` · 独立版本：`profile-8641562b8cc7833e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：被困意识深处时仍表现出寻找反制机会的韧性（行为推断；S22、S25、S39、S40）
 - **核心动机**：即使无法控制身体仍试图协助朋友阻止入侵计划（摘要直接叙述；S25、S26）
@@ -38,6 +48,10 @@
 ### Mr. Gray
 
 角色职责：central-antagonist · 身份：`identity-714eef27b07aa6cc` · 独立版本：`profile-fbbb0d95ca65a0b4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：获得宿主后倾向迅速利用可乘之机扩大感染（行为推断；S19、S20、S22、S38）
 - **核心动机**：企图借受感染动物污染水源并推进对地球的入侵（摘要直接叙述；S18、S38）

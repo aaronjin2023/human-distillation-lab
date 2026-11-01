@@ -1,6 +1,6 @@
 # Mostly Harmless
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Hitchhiker's Guide to the Galaxy; reported series sales: 16 million[326][327]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arthur Dent
 
 角色职责：protagonist · 身份：`identity-71a92373f506ea36` · 独立版本：`profile-cbdbccdfae6c2fde`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在不断失去熟悉事物后，他倾向寻找朴素日常作为暂时的安顿（行为推断；S16、S17、S18）
 - **核心动机**：女儿离开星球后，他与Ford追往地球，试图找到她的下落（行为推断；S28、S37）
@@ -28,6 +34,10 @@
 ### Random Dent
 
 角色职责：co-lead · 身份：`identity-ce790e6012665392` · 独立版本：`profile-27972a4ad68662aa`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在对家庭处境不满时，她倾向自行采取激烈行动突破限制（行为推断；S26、S27、S40）
 - **核心动机**：她离开令自己沮丧的星球，并被同行者判断为正在寻找母亲（行为推断；S26、S27、S28）

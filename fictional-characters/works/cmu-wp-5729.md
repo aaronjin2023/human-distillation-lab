@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harold Abrahams
 
 角色职责：co-lead · 身份：`identity-738d7daade2bc466` · 独立版本：`profile-49d6dc45017f2c3c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在竞技受挫时，他倾向强烈在意成败并寻求改进自身表现（行为推断；S8、S9、S23、S24）
 - **核心动机**：在二百米失利后，他将百米视为最后夺牌机会全力争取（摘要直接叙述；S23、S24、S25）
@@ -28,6 +34,10 @@
 ### Eric Liddell
 
 角色职责：co-lead · 身份：`identity-9b85ac8d6fb5a22b` · 独立版本：`profile-8ee842777e917c7b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在国家荣誉与宗教要求冲突时，他倾向坚定承受外界压力（行为推断；S17、S18、S21）
 - **核心动机**：他把跑步视为荣耀上帝的方式，并计划之后赴中国传教（摘要直接叙述；S7、S14）

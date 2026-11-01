@@ -1,0 +1,148 @@
+{
+  "id": "kui-ryoko",
+  "name": "Ryoko Kui",
+  "name_zh": "九井谅子",
+  "legacy_refs": [],
+  "name_ja": "九井諒子",
+  "family": "科幻与空间",
+  "scope": "迷宫饭（Delicious in Dungeon）第1卷英译版。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 本轮阶段说明：用于2024年访谈方法关注，不给旧封面或漫画页重新定年，不据此排序采访先后。",
+  "reference_works": [
+    {
+      "title": "迷宫饭（Delicious in Dungeon）第1卷英译版",
+      "role": "独立漫画创作（本次出版社作者署名范围）",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Delicious in Dungeon, Vol. 1 | Manga | Yen Press",
+      "url": "https://yenpress.com/titles/9780316473064-delicious-in-dungeon-vol-1",
+      "publisher": "Yen Press",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社列Ryoko Kui为作者，系列为地城冒险漫画；本轮仅核出版信息，未看内页。"
+      ],
+      "access_note": "实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Exploring Delicious in Dungeon with Manga Author Ryoko Kui",
+      "url": "https://anitrendz.net/news/2024/06/29/exploring-delicious-in-dungeon-with-manga-author-ryoko-kui/",
+      "publisher": "Anime Trending／作者直接采访",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "九井在访谈说明按地城层级和环境推进，先设该层生物再推可做食物；怪物借现实生态提高熟悉感。此为世界与料理的设计顺序，不证明特定描线方法。"
+      ],
+      "access_note": "实际打开问答正文并阅读地城、料理和生物设计段；页面发布日期与文末采访日期前后不一致，保留此日期元数据缺口，不用来确定采访先后。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "九井在访谈说明按地城层级和环境推进，先设该层生物再推可做食物；怪物借现实生态提高熟悉感。此为世界与料理的设计顺序，不证明特定描线方法。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社列Ryoko Kui为作者，系列为地城冒险漫画；本轮仅核出版信息，未看内页。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "九井在访谈说明按地城层级和环境推进，先设该层生物再推可做食物；怪物借现实生态提高熟悉感。此为世界与料理的设计顺序，不证明特定描线方法。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "圆滑外轮廓配少量功能性短线，食材切面独立描边。",
+    "shapes": "成年队员采用高矮胖瘦四种清楚剪影。",
+    "composition": "俯视锅与食材为中心，众人动作向中心聚拢。",
+    "panel_rhythm": "原创建议：发现—拆解—烹饪—各异反应四拍。",
+    "tonal_design": "食物中灰、装备黑块、皮肤保白。",
+    "environment": "让虚构生物的器官结构影响烹饪工具和动作。",
+    "acting": "同一味觉刺激用四种嘴形与坐姿反馈。",
+    "color": "本库原创彩色建议：苔绿环境配暖褐食物；本轮未核作者色稿，不归为作者固定色板。"
+  },
+  "drawing_steps": [
+    "先做三厘米缩略图：俯视锅与食材为中心，众人动作向中心聚拢。",
+    "搭人物体块并落实动作：成年队员采用高矮胖瘦四种清楚剪影。同一味觉刺激用四种嘴形与坐姿反馈。",
+    "描线时明确材质与环境：圆滑外轮廓配少量功能性短线，食材切面独立描边。让虚构生物的器官结构影响烹饪工具和动作。",
+    "压成三阶黑白再复查：食物中灰、装备黑块、皮肤保白。扩展连续页时，原创建议：发现—拆解—烹饪—各异反应四拍。"
+  ],
+  "review_checks": [
+    "四人缩成黑影仍可区分",
+    "食材加工前后形态相连",
+    "锅具尺寸能容纳材料"
+  ],
+  "avoid": [
+    "只画漂亮餐点忽略生态逻辑",
+    "把队员体型全部统一成修长型"
+  ],
+  "best_for": [
+    "科幻与空间原创短篇",
+    "人物与环境关系练习"
+  ],
+  "prompt_core_zh": "中性成年人物的原创漫画视觉方向：圆滑少线轮廓区分高矮胖瘦成人剪影，动作向既定焦点聚拢；材料切面清晰，中灰质感与黑色配件错开。保留既定故事、身份、场景与道具，只迁移这些视觉技法，适配所需格式。",
+  "prompt_core_en": "Apply economical curved outlines, distinct tall and compact adult silhouettes, converging gestures around the existing focal action, readable surfaces, medium gray textures and reserved black equipment accents. Preserve the supplied story, character roles, setting, props, and action sequence. Use neutral adult anatomy and original designs. Adapt these visual choices to the requested format without adding a new narrative. Keep focal hierarchy and spatial continuity readable.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "Yen Press的漫画出版或公开机构介绍语境；不推断民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "本轮不采集私人生活；未核生卒保持null。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "known_gaps": [
+    "已核补充采访或机构评述，但仍未直接观察漫画内页。配方中的线、造型、构图和节奏是本库原创转译，未逐项确认为作者本人规则。",
+    "未比对原版、译本、早晚期画风与彩色原稿；本配方不承诺风格复刻。",
+    "Anime Trending采访网页发布日期与文末采访日期存在先后矛盾；本轮不据此断言准确采访日。"
+  ],
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "圆滑轮廓配少量功能性结构线，成人身躯自然匀称；衣料和配件按材质分面，硬质小块黑、软布中灰、脸手白。",
+  "focus": "科幻与空间",
+  "recent_focus": {
+    "work": "Anime Trending《Delicious in Dungeon》本人设计方法访谈",
+    "year": 2024,
+    "source_ids": [
+      "S2"
+    ],
+    "date_basis": "页面头标2024年6月29日，末尾称采访2024年7月5日，先后存在矛盾；两处同为2024，因此只取年份并保留日/月元数据冲突。"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [],
+  "recognition_unknown": "No inspected visual finding; work-stage visual target requires references and review.",
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

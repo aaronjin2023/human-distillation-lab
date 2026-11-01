@@ -1,6 +1,6 @@
 # Wintersmith
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiffany Aching
 
 角色职责：protagonist · 身份：`identity-7277dfe86e1cccf7` · 独立版本：`profile-4f0f2d5f1728eaae`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在舞蹈吸引下倾向先随兴参与，对预先警告的克制不足（行为推断；S17）
 - **价值取舍**：在他人尚不能独立任事时，倾向提供实际帮助而非置身事外（行为推断；S27）
@@ -27,6 +33,10 @@
 ### Wintersmith
 
 角色职责：central-antagonist · 身份：`identity-14a29fcde99f0657` · 独立版本：`profile-96edcf73c04b6883`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追求蒂凡妮时倾向执着推进，难以理解对方拒绝的含义（行为推断；S22、S29、S31）
 - **核心动机**：把变成人视为获得蒂凡妮回应、使她属于自己的途径（摘要直接叙述；S29、S30、S31）

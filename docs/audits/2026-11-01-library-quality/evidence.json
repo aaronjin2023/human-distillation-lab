@@ -1,0 +1,1169 @@
+{
+  "audit_date": "2026-11-01",
+  "created_at": "2026-11-01T13:11:04.654763+00:00",
+  "mode": "read-only audit; report artifacts only",
+  "assumed_load": "one maintainer and downstream agents reading a local reference library, no workbench runtime deployment",
+  "repository": "/Users/aaron/codex_workspace/skills/references/human-distillation-lab",
+  "head": "07d79bebdfbea3c380e6e796a5d184ca37cd8626",
+  "working_tree_snapshot": "f0ffa28e9773a5225942685f141cd3f93e096fa10d4a82e8f10e83951560c736",
+  "census": {
+    "head": "07d79bebdfbea3c380e6e796a5d184ca37cd8626",
+    "files": 40160,
+    "bytes": 276841489,
+    "files_by_root": {
+      "README.md": 1,
+      "actors": 1000,
+      "actors-top100-draft.md": 1,
+      "architects": 1000,
+      "architects-top100-draft.md": 1,
+      "astronomers": 1000,
+      "astronomers-top100-draft.md": 1,
+      "biologists": 1000,
+      "biologists-top100-draft.md": 1,
+      "calligraphers": 1000,
+      "calligraphers-top100-draft.md": 1,
+      "cartoonists": 1100,
+      "cartoonists-top100-draft.md": 1,
+      "chefs": 1000,
+      "chefs-top100-draft.md": 1,
+      "chemists": 1000,
+      "chemists-top100-draft.md": 1,
+      "commentary-personas": 163,
+      "composers": 1000,
+      "composers-top100-draft.md": 1,
+      "dancers": 1000,
+      "dancers-top100-draft.md": 1,
+      "directors": 1000,
+      "directors-top100-draft.md": 1,
+      "docs": 7,
+      "domains": 13,
+      "educators": 1000,
+      "educators-top100-draft.md": 1,
+      "fashion-designers": 1000,
+      "fashion-designers-top100-draft.md": 1,
+      "fictional-characters": 2324,
+      "geographers": 1000,
+      "geographers-top100-draft.md": 1,
+      "geologists": 1000,
+      "geologists-top100-draft.md": 1,
+      "historians": 60,
+      "human-patterns": 75,
+      "jurists": 1000,
+      "jurists-top100-draft.md": 1,
+      "landscape-designers": 1000,
+      "landscape-designers-top100-draft.md": 1,
+      "lyricists": 1000,
+      "lyricists-top100-draft.md": 1,
+      "managers": 1000,
+      "managers-top100-draft.md": 1,
+      "manga-authors": 410,
+      "marketers": 1000,
+      "marketers-top100-draft.md": 1,
+      "materials-scientists": 1000,
+      "materials-scientists-top100-draft.md": 1,
+      "medical-experts": 40,
+      "military": 1000,
+      "military-top100-draft.md": 1,
+      "musicians": 1000,
+      "musicians-top100-draft.md": 1,
+      "navigators": 1000,
+      "navigators-top100-draft.md": 1,
+      "painters": 1000,
+      "painters-top100-draft-v2.md": 1,
+      "painters-top100-draft.md": 1,
+      "people": 7,
+      "personalities": 60,
+      "philosophers": 1000,
+      "philosophers-top100-draft.md": 1,
+      "physicists": 1000,
+      "physicists-top100-draft.md": 1,
+      "poets": 1000,
+      "poets-top100-draft.md": 1,
+      "politicians": 120,
+      "profiles": 2,
+      "psychologists": 1000,
+      "psychologists-top100-draft.md": 1,
+      "scientists": 1000,
+      "scientists-top100-draft.md": 1,
+      "screenwriters": 1000,
+      "screenwriters-top100-draft.md": 1,
+      "scripts": 8,
+      "singers": 1000,
+      "singers-top100-draft.md": 1,
+      "sociologists": 1000,
+      "sociologists-top100-draft.md": 1,
+      "tax": 1000,
+      "tax-top100-draft.md": 1,
+      "thinkers": 1000,
+      "thinkers-top100-draft.md": 1,
+      "worldbuilding-experts": 521,
+      "worldviews": 211,
+      "writers": 1000,
+      "writers-top100-draft.md": 1,
+      "第一次实验.md": 1
+    },
+    "manifest_counts": {
+      "actors": 100,
+      "architects": 100,
+      "astronomers": 100,
+      "biologists": 100,
+      "calligraphers": 100,
+      "cartoonists": 110,
+      "chefs": 100,
+      "chemists": 100,
+      "commentary-personas": 69,
+      "composers": 100,
+      "dancers": 100,
+      "directors": 100,
+      "educators": 100,
+      "fashion-designers": 100,
+      "geographers": 100,
+      "geologists": 100,
+      "historians": 6,
+      "human-patterns": 24,
+      "jurists": 100,
+      "landscape-designers": 100,
+      "lyricists": 100,
+      "managers": 100,
+      "manga-authors": 100,
+      "marketers": 100,
+      "materials-scientists": 100,
+      "medical-experts": 4,
+      "military": 100,
+      "musicians": 100,
+      "navigators": 100,
+      "painters": 100,
+      "personalities": 19,
+      "philosophers": 100,
+      "physicists": 100,
+      "poets": 100,
+      "politicians": 12,
+      "profiles": 1,
+      "psychologists": 100,
+      "scientists": 100,
+      "screenwriters": 100,
+      "singers": 100,
+      "sociologists": 100,
+      "tax": 100,
+      "thinkers": 100,
+      "worldbuilding-experts": 52,
+      "worldviews": 100,
+      "writers": 100
+    },
+    "manifest_status_by_root": {
+      "actors": {
+        "draft v0.1": 100
+      },
+      "architects": {
+        "draft v0.1": 100
+      },
+      "astronomers": {
+        "draft v0.1": 100
+      },
+      "biologists": {
+        "draft v0.1": 100
+      },
+      "calligraphers": {
+        "draft v0.1": 100
+      },
+      "cartoonists": {
+        "draft v0.1": 110
+      },
+      "chefs": {
+        "draft v0.1": 100
+      },
+      "chemists": {
+        "draft v0.1": 100
+      },
+      "commentary-personas": {
+        "available": 69
+      },
+      "composers": {
+        "draft v0.1": 100
+      },
+      "dancers": {
+        "draft v0.1": 100
+      },
+      "directors": {
+        "draft v0.1": 100
+      },
+      "educators": {
+        "draft v0.1": 100
+      },
+      "fashion-designers": {
+        "draft v0.1": 100
+      },
+      "geographers": {
+        "draft v0.1": 100
+      },
+      "geologists": {
+        "draft v0.1": 100
+      },
+      "historians": {
+        "source-grounded-draft": 6
+      },
+      "human-patterns": {
+        "source-grounded-draft": 24
+      },
+      "jurists": {
+        "draft v0.1": 100
+      },
+      "landscape-designers": {
+        "draft v0.1": 100
+      },
+      "lyricists": {
+        "draft v0.1": 100
+      },
+      "managers": {
+        "draft v0.1": 100
+      },
+      "manga-authors": {
+        "source-grounded-draft": 100
+      },
+      "marketers": {
+        "draft v0.1": 100
+      },
+      "materials-scientists": {
+        "draft v0.1": 100
+      },
+      "medical-experts": {
+        "source-grounded-draft": 4
+      },
+      "military": {
+        "draft v0.1": 100
+      },
+      "musicians": {
+        "draft v0.1": 100
+      },
+      "navigators": {
+        "draft v0.1": 100
+      },
+      "painters": {
+        "draft v0.1": 46,
+        "batch 1 draft v0.1": 20,
+        "distillation draft v0.1": 11,
+        "batch-3 draft v0.1": 21,
+        "pilot draft v0.2": 2
+      },
+      "personalities": {
+        "source-grounded-draft": 19
+      },
+      "philosophers": {
+        "draft v0.1": 100
+      },
+      "physicists": {
+        "draft v0.1": 100
+      },
+      "poets": {
+        "draft v0.1": 100
+      },
+      "politicians": {
+        "source-grounded-draft": 12
+      },
+      "profiles": {
+        "<absent>": 1
+      },
+      "psychologists": {
+        "draft v0.1": 100
+      },
+      "scientists": {
+        "draft v0.1": 100
+      },
+      "screenwriters": {
+        "draft v0.1": 100
+      },
+      "singers": {
+        "draft v0.1": 100
+      },
+      "sociologists": {
+        "draft v0.1": 100
+      },
+      "tax": {
+        "draft v0.1": 100
+      },
+      "thinkers": {
+        "draft v0.1": 75,
+        "thinker draft v0.1": 25
+      },
+      "worldbuilding-experts": {
+        "source-grounded-draft": 52
+      },
+      "worldviews": {
+        "<absent>": 100
+      },
+      "writers": {
+        "draft v0.1": 100
+      }
+    },
+    "json_parse_errors": [],
+    "baseline_manifest_sha256": "f0ffa28e9773a5225942685f141cd3f93e096fa10d4a82e8f10e83951560c736"
+  },
+  "legacy": {
+    "categories": [
+      "actors",
+      "architects",
+      "astronomers",
+      "biologists",
+      "calligraphers",
+      "cartoonists",
+      "chefs",
+      "chemists",
+      "composers",
+      "dancers",
+      "directors",
+      "educators",
+      "fashion-designers",
+      "geographers",
+      "geologists",
+      "jurists",
+      "landscape-designers",
+      "lyricists",
+      "managers",
+      "marketers",
+      "materials-scientists",
+      "military",
+      "musicians",
+      "navigators",
+      "painters",
+      "philosophers",
+      "physicists",
+      "poets",
+      "psychologists",
+      "scientists",
+      "screenwriters",
+      "singers",
+      "sociologists",
+      "tax",
+      "thinkers",
+      "writers"
+    ],
+    "stats": [
+      {
+        "category": "actors",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 178,
+        "md_http_files": 94,
+        "test_result_named_file": 0,
+        "verbatim_samples": 50,
+        "verbatim_without_locator_fields": 50
+      },
+      {
+        "category": "architects",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "verbatim_samples": 15,
+        "verbatim_without_locator_fields": 15,
+        "md_files": 900,
+        "md_verbatim_files": 264,
+        "md_http_files": 84,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "astronomers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 57,
+        "md_files": 900,
+        "md_verbatim_files": 100,
+        "md_http_files": 91,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "biologists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 50,
+        "md_files": 900,
+        "md_verbatim_files": 153,
+        "md_http_files": 90,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "calligraphers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 244,
+        "md_http_files": 52,
+        "test_result_named_file": 0,
+        "verbatim_samples": 11,
+        "verbatim_without_locator_fields": 11
+      },
+      {
+        "category": "cartoonists",
+        "packages": 110,
+        "draft": 110,
+        "legacy_url": 0,
+        "md_files": 990,
+        "md_verbatim_files": 467,
+        "md_http_files": 88,
+        "test_result_named_file": 0,
+        "verbatim_samples": 7,
+        "verbatim_without_locator_fields": 7
+      },
+      {
+        "category": "chefs",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 104,
+        "md_http_files": 64,
+        "test_result_named_file": 0,
+        "verbatim_samples": 5,
+        "verbatim_without_locator_fields": 5
+      },
+      {
+        "category": "chemists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 97,
+        "md_files": 900,
+        "md_verbatim_files": 178,
+        "md_http_files": 85,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "composers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 253,
+        "md_http_files": 97,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "dancers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 7,
+        "verbatim_samples": 43,
+        "verbatim_without_locator_fields": 43,
+        "md_files": 900,
+        "md_verbatim_files": 127,
+        "md_http_files": 55,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "directors",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "verbatim_samples": 50,
+        "verbatim_without_locator_fields": 50,
+        "md_files": 900,
+        "md_verbatim_files": 416,
+        "md_http_files": 95,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "educators",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 5,
+        "verbatim_samples": 47,
+        "verbatim_without_locator_fields": 47,
+        "md_files": 900,
+        "md_verbatim_files": 134,
+        "md_http_files": 88,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "fashion-designers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 272,
+        "md_http_files": 82,
+        "test_result_named_file": 0,
+        "verbatim_samples": 27,
+        "verbatim_without_locator_fields": 27
+      },
+      {
+        "category": "geographers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 25,
+        "md_files": 900,
+        "md_verbatim_files": 131,
+        "md_http_files": 84,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "geologists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 79,
+        "md_files": 900,
+        "md_verbatim_files": 225,
+        "md_http_files": 82,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "jurists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 137,
+        "md_http_files": 75,
+        "test_result_named_file": 0,
+        "verbatim_samples": 56,
+        "verbatim_without_locator_fields": 56
+      },
+      {
+        "category": "landscape-designers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 8,
+        "md_files": 900,
+        "md_verbatim_files": 104,
+        "md_http_files": 60,
+        "test_result_named_file": 0,
+        "verbatim_samples": 18,
+        "verbatim_without_locator_fields": 18
+      },
+      {
+        "category": "lyricists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 209,
+        "md_http_files": 66,
+        "test_result_named_file": 0,
+        "verbatim_samples": 93,
+        "verbatim_without_locator_fields": 93
+      },
+      {
+        "category": "managers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "verbatim_samples": 30,
+        "verbatim_without_locator_fields": 30,
+        "md_files": 900,
+        "md_verbatim_files": 135,
+        "md_http_files": 84,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "marketers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 109,
+        "md_http_files": 55,
+        "test_result_named_file": 0,
+        "verbatim_samples": 29,
+        "verbatim_without_locator_fields": 29
+      },
+      {
+        "category": "materials-scientists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 33,
+        "md_files": 900,
+        "md_verbatim_files": 200,
+        "md_http_files": 79,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "military",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 212,
+        "md_http_files": 74,
+        "test_result_named_file": 0,
+        "verbatim_samples": 3,
+        "verbatim_without_locator_fields": 3
+      },
+      {
+        "category": "musicians",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 174,
+        "md_http_files": 95,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "navigators",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 102,
+        "md_http_files": 69,
+        "test_result_named_file": 0,
+        "verbatim_samples": 1,
+        "verbatim_without_locator_fields": 1
+      },
+      {
+        "category": "painters",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 56,
+        "md_files": 900,
+        "md_verbatim_files": 466,
+        "md_http_files": 71,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "philosophers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 153,
+        "md_http_files": 78,
+        "test_result_named_file": 0,
+        "verbatim_samples": 38,
+        "verbatim_without_locator_fields": 38
+      },
+      {
+        "category": "physicists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 75,
+        "md_files": 900,
+        "md_verbatim_files": 149,
+        "md_http_files": 94,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "poets",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 141,
+        "md_http_files": 88,
+        "test_result_named_file": 0,
+        "verbatim_samples": 92,
+        "verbatim_without_locator_fields": 92
+      },
+      {
+        "category": "psychologists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 200,
+        "md_http_files": 84,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "scientists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 28,
+        "md_files": 900,
+        "md_verbatim_files": 215,
+        "md_http_files": 92,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "screenwriters",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 201,
+        "md_http_files": 93,
+        "test_result_named_file": 0,
+        "verbatim_samples": 13,
+        "verbatim_without_locator_fields": 13
+      },
+      {
+        "category": "singers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 2,
+        "verbatim_samples": 140,
+        "verbatim_without_locator_fields": 140,
+        "md_files": 900,
+        "md_verbatim_files": 194,
+        "md_http_files": 88,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "sociologists",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 150,
+        "md_http_files": 90,
+        "test_result_named_file": 0,
+        "verbatim_samples": 3,
+        "verbatim_without_locator_fields": 3
+      },
+      {
+        "category": "tax",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 0,
+        "md_files": 900,
+        "md_verbatim_files": 111,
+        "md_http_files": 72,
+        "test_result_named_file": 0,
+        "verbatim_samples": 7,
+        "verbatim_without_locator_fields": 7
+      },
+      {
+        "category": "thinkers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 31,
+        "md_files": 900,
+        "md_verbatim_files": 102,
+        "md_http_files": 64,
+        "test_result_named_file": 0
+      },
+      {
+        "category": "writers",
+        "packages": 100,
+        "draft": 100,
+        "legacy_url": 10,
+        "verbatim_samples": 124,
+        "verbatim_without_locator_fields": 124,
+        "md_files": 900,
+        "md_verbatim_files": 154,
+        "md_http_files": 89,
+        "test_result_named_file": 0
+      }
+    ],
+    "totals": {
+      "packages": 3610,
+      "draft": 3610,
+      "md_files": 32490,
+      "md_verbatim_files": 6864,
+      "md_http_files": 2891,
+      "verbatim_samples": 902,
+      "verbatim_without_locator_fields": 902,
+      "legacy_url": 563
+    },
+    "samples": [
+      "actors/john-gielgud",
+      "architects/johann-bernhard-fischer-von-erlach",
+      "astronomers/hipparchus",
+      "biologists/kinji-imanishi",
+      "calligraphers/ni-yuanlu",
+      "cartoonists/kubo-tite",
+      "chefs/julia-child",
+      "chemists/jean-marie-lehn",
+      "composers/heitor-villa-lobos",
+      "dancers/khon",
+      "directors/ingmar-bergman",
+      "educators/john-henry-newman",
+      "fashion-designers/krizia",
+      "geographers/jared-diamond",
+      "geologists/inge-lehmann",
+      "jurists/ibn-khaldun",
+      "landscape-designers/kobori-enshu",
+      "lyricists/lin-manuel-miranda",
+      "managers/karl-weick",
+      "marketers/joe-pulizzi",
+      "materials-scientists/konstantin-novoselov",
+      "military/lyudmila-pavlichenko",
+      "musicians/heinrich-schutz",
+      "navigators/joshua-slocum",
+      "painters/manet",
+      "philosophers/liang-shuming",
+      "physicists/john-robert-schrieffer",
+      "poets/matsuo-basho",
+      "psychologists/ivan-pavlov",
+      "scientists/ignaz-semmelweis",
+      "screenwriters/john-milius",
+      "singers/joao-gilberto",
+      "sociologists/jurgen-habermas",
+      "tax/kautilya",
+      "thinkers/liang-qichao",
+      "writers/li-qingzhao"
+    ],
+    "extra_stats": {
+      "has_5_step_process": 3585,
+      "process_has_percent": 3610,
+      "has_test_prompt": 3610,
+      "has_style_test_section": 3610,
+      "decisions_identity_test": 1660,
+      "impression_no_named_attribution": 3439
+    },
+    "old_package_filename_inventory": {
+      "language.md": 3610,
+      "process.md": 3610,
+      "conflicts.md": 3610,
+      "technique.md": 3610,
+      "style.md": 3610,
+      "SKILL.md": 3610,
+      "manifest.json": 3610,
+      "motifs.md": 3610,
+      "decisions.md": 3610,
+      "biography.md": 3610
+    },
+    "repository_image_paths": []
+  },
+  "narrative_results": {
+    "fictional": {
+      "works": 1000,
+      "versions": 2257,
+      "identities": 1829,
+      "claims": 10222,
+      "dimensions": {
+        "personality": 2257,
+        "motivation": 1951,
+        "values": 1415,
+        "emotion": 597,
+        "relationships": 1227,
+        "decision_style": 1891,
+        "development": 684,
+        "communication": 200
+      },
+      "source_units": {
+        "minimum": 6,
+        "max": 289
+      },
+      "all_traits_share_single_sentence": 2,
+      "version_scope_counts": {
+        "work-local-unresolved": 854,
+        "reviewed-work-family-and-synopsis": 429,
+        "source-series-and-exact-name": 135,
+        "source-character-id": 837,
+        "reviewed-source-identity-exception": 2
+      },
+      "identity_node_link_method_counts": {
+        "work-local-unresolved": 854,
+        "reviewed-work-family-and-synopsis": 117,
+        "source-series-and-exact-name": 101,
+        "source-character-id": 755,
+        "reviewed-source-identity-exception": 2
+      }
+    },
+    "corrupted_readable_character_card_validate_passed": true,
+    "false_worldview_claim_same_source_ids_accepted": true,
+    "false_persona_claim_same_evidence_fields_accepted": true,
+    "worldviews": {
+      "records": 100,
+      "claims": {
+        "source_summary": 293,
+        "synthesis": 258,
+        "unknown": 49
+      },
+      "related_work_links": 2,
+      "source_access": {
+        "web_open": 108,
+        "web_open_and_search_excerpt": 1,
+        "web_search_excerpt": 7
+      }
+    },
+    "commentary": {
+      "records": 69,
+      "catalog": 72,
+      "observations": 414
+    },
+    "receipt_identity_count_comparison": {
+      "status": "matches",
+      "note": "final-checks counts identities (1829); version_scope_counts counts profiles (2257). Initial drift claim withdrawn."
+    }
+  },
+  "method_probe_results": {
+    "personalities_method_removed_metadata_still_passes": 19,
+    "human-patterns_method_removed_metadata_still_passes": 24,
+    "new_expert_method_removed_metadata_still_passes": 74,
+    "personalities_framework_link": 19,
+    "human-patterns_framework_link": 24,
+    "counts": {
+      "catalog_entries": 3684,
+      "unique_matched_qids": 2523,
+      "duplicate_qid_groups": 367
+    },
+    "repository_mutated": false,
+    "all_six_validation_commands_exit": 0,
+    "frameworks": 43,
+    "new_experts": 74,
+    "domains": 11,
+    "domain_slots": 252,
+    "confirmed_current_identity_or_filter_bugs": 0,
+    "behavior_evidence": "Manual observed summaries exist; no replay trace in repo; not evidence that tests never ran"
+  },
+  "manga_active_visual_single_source_count": 88,
+  "manga_probes": [
+    {
+      "probe": "generic_recipe_without_araki_landmarks",
+      "validator": "check_author + check_prompt",
+      "result": "accepted",
+      "modified_fields": [
+        "prompt_core_zh",
+        "prompt_core_en",
+        "sheet_traits_zh"
+      ],
+      "scope": "record-level; not a render or full build"
+    },
+    {
+      "probe": "bibliographic_page_as_only_method_evidence",
+      "validator": "check_author",
+      "result": "accepted",
+      "supports": [
+        "所选作品署名与版本范围",
+        "所选日文原版卷首次出版年份；封面原稿具体作画日未核定"
+      ],
+      "scope": "record-level"
+    },
+    {
+      "probe": "changed_shapes_steps_checks_do_not_change_six_prompts",
+      "validator": "check_author + prompts equality",
+      "result": "accepted_and_all_prompts_identical",
+      "scope": "builder routing; manual reading can still use the changed fields"
+    },
+    {
+      "probe": "named_author_request",
+      "result": "rejected",
+      "message": "Artist name leaked into generation prompt: araki-hirohiko"
+    }
+  ],
+  "readable_card_probe_independent_recheck": {
+    "probe": "replaced_readable_work_card",
+    "target": "fictional-characters/works/cmu-wp-4213154.md",
+    "replacement": "# intentionally corrupted card",
+    "validate_complete_returned": true,
+    "original_unchanged": true,
+    "original_sha256": "33afce374e101f4bde5271a2a57ad3d4e0d86a43ed9843fdaaa32143789c6699",
+    "test_tree": "temporary symlinks to read-only data; changed card only inside TemporaryDirectory; cleaned after test"
+  },
+  "existing_check_runs": [
+    {
+      "command": [
+        "distill_characters",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: work identity, evidence, unknown dimensions, duplicates, rejection consistency\n"
+    },
+    {
+      "command": [
+        "build_characters",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: exact identity evidence, ambiguity, different-work separation, stable IDs\n"
+    },
+    {
+      "command": [
+        "build_characters",
+        "validate",
+        "--complete"
+      ],
+      "returncode": 0,
+      "output": "Character library validation passed\n"
+    },
+    {
+      "command": [
+        "build_worldviews",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Worldview self-test passed: duplicates, references, dimensions, paths and scope\n"
+    },
+    {
+      "command": [
+        "build_worldviews",
+        "validate"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"passed\", \"worldviews\": {\"real\": 50, \"fictional\": 50}, \"claims\": {\"source_summary\": 293, \"synthesis\": 258, \"unknown\": 49}, \"source_records\": 116, \"unique_source_urls\": 114, \"checks\": [\"unique scoped IDs\", \"six dimensions\", \"resolved source IDs\", \"source metadata\", \"version scope\", \"original application label\", \"character work references\", \"generated content equality\", \"local links\"], \"input_sha256\": {\"real.json\": \"a559934307b9f0e8d684a50286844aeea338aa297d5f778ddff34d7644b8a123\", \"fictional.json\": \"989d4e28790980d964823564793db42fbdb479f4c68054090045c5404b03d57a\"}}\n"
+    },
+    {
+      "command": [
+        "build_commentary_personas",
+        "self-test"
+      ],
+      "returncode": 0,
+      "output": "Self-test passed: evidence binding, unique dimensions/IDs, hidden slots excluded\n"
+    },
+    {
+      "command": [
+        "build_commentary_personas",
+        "validate"
+      ],
+      "returncode": 0,
+      "output": "Commentary persona validation passed\n"
+    },
+    {
+      "command": "python3 scripts/validate_library.py",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/validate_library.py --self-test",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/validate_experts.py",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/validate_experts.py --self-test",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/build_expert_biographies.py validate",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/build_expert_biographies.py self-test",
+      "returncode": 0,
+      "evidence": "audit_methods actual command execution summary; full figures in method_probe_results"
+    },
+    {
+      "command": "python3 scripts/build_manga_authors.py",
+      "returncode": 0,
+      "result": {
+        "status": "structural-checks-passed-render-not-run",
+        "research_date": "2026-11-01",
+        "authors": 100,
+        "creator_types": {
+          "illustrator": 20,
+          "manga-artist": 80
+        },
+        "legacy_author_links": 5,
+        "new_research_subjects": 95,
+        "generated_author_files": 400,
+        "prompt_templates": 300,
+        "language_variants": 600,
+        "source_records": 309,
+        "unique_source_urls": 305,
+        "access_methods": {
+          "interview_text": 19,
+          "page_text": 68,
+          "search_excerpt": 101,
+          "visual_preview": 121
+        },
+        "finding_basis": {
+          "source_summary": 117,
+          "visual_observation": 92
+        },
+        "recipes": "100 original syntheses; not author quotations or trained styles",
+        "input_sha256": "4464ed21d1c0b2350922146a5b3483c37cad127a69b26d4204aa4ce77e1d696a",
+        "checks": [
+          "100 distinct individual author IDs and names",
+          "80 manga artists and 20 illustrators",
+          "traceable work stages and date bases",
+          "source scope and credit references",
+          "8 drawing dimensions",
+          "different creative briefs",
+          "legacy identity links",
+          "no artist names in generated prompts",
+          "generated file equality",
+          "local links"
+        ],
+        "focus_years": {
+          "2012": 1,
+          "2014": 2,
+          "2015": 1,
+          "2016": 5,
+          "2018": 4,
+          "2019": 6,
+          "2020": 9,
+          "2021": 5,
+          "2022": 6,
+          "2023": 7,
+          "2024": 13,
+          "2025": 35,
+          "2026": 5,
+          "unknown": 1
+        },
+        "focus_years_note": "Reference years include original volumes, project releases and method interviews; not all are artwork creation dates.",
+        "authors_with_method_or_visual_evidence": 100,
+        "authors_with_visual_observations": 90,
+        "checked_local_links": 832
+      }
+    },
+    {
+      "command": "python3 scripts/build_manga_authors.py --self-test",
+      "returncode": 0,
+      "output": "Self-test passed: sources, URLs, distinct people, dates, dimensions, render status and prompt boundaries"
+    }
+  ],
+  "existing_check_run_count": 15,
+  "file_sha256": {
+    "README.md": "b90527aef136aebb156d0682c120ba4159d5d027f0bf2a3bcb8cd19133ef1b11",
+    "scripts/build_manga_authors.py": "865d1a509e9a0ab6fec295334f7fc1b58cce7deb97585162869ecdd0fcfda2bf",
+    "scripts/build_characters.py": "67813cfc89ff044d982e41a8b3fdace1aac86e926197a53cc959fe65f41bef8f",
+    "scripts/validate_library.py": "c5efba51867e03c201f26923d5509c3ab8a4dbdd84591d1c651149f9cbd001d9",
+    "scripts/validate_experts.py": "2fef7ecbcfe8a21e940b193d613cf02b3fbb4bc2476c277824624230f009f39b",
+    "manga-authors/authors.json": "4464ed21d1c0b2350922146a5b3483c37cad127a69b26d4204aa4ce77e1d696a",
+    "docs/composition-guide.md": "be112ae024573ee4042071e2388e411887362759031f08bcbb1d4a1f52d60d59",
+    "docs/expert-deliberation-protocol.md": "a6ce800a4117bf1aaf984ac08c401fece710138cbd902c842e405eed1a5e7152",
+    "docs/expert-deliberation-template.md": "2f5934c2f08bac04d174a44d1d70329b8ff8d654c491799336c20f6a330f0be6",
+    "landscape-designers/kobori-enshu/process.md": "24d0f0a4f0d7aea4150117f3d66e0ab54720dcccc9303fa5f07fcb80cec2f7b3",
+    "geologists/inge-lehmann/process.md": "9a3a05d4ccef015872019e51f64fecb5864133b9b4a82d2f271d1a4ced7d68e5",
+    "writers/li-qingzhao/style.md": "f61c4fb4f734bc50584dfcfba13ab6d841671ef6dc3f7b6bbc65dc811c48f8e5",
+    "writers/li-qingzhao/technique.md": "3c37602b400a364ddb0bc2c72221b98d91e30e1f83ad1ccc3764f7545934acc0",
+    "managers/karl-weick/manifest.json": "593f0a113d26bdf45cf17d662fa1531744e6f0bc2d52ba2d63fd5ea4dcded0b3",
+    "calligraphers/ni-yuanlu/conflicts.md": "72faecc1a017950b43f42d61d8664e57e610afd0386e3a5dce42d41cd6e605be",
+    "calligraphers/ni-yuanlu/style.md": "ab28ee50480c6a46d448343336427c2fb6a55afac5ef9a5beb504b4c878d824c",
+    "fictional-characters/characters.jsonl": "e1e618a433464b59b2732a70389dc95a9228dd014bd5251741e19bf9e524cd4f",
+    "fictional-characters/identities.jsonl": "3c0c1814a52b57dde3d5b5734844804b047c7829d8c540db8154f4f8eb414bb6",
+    "fictional-characters/works/cmu-wp-4213154.md": "33afce374e101f4bde5271a2a57ad3d4e0d86a43ed9843fdaaa32143789c6699",
+    "fictional-characters/verification/final-checks.json": "b4e50fcdedd1e5f67dbda4053dffd94d164dcf5f327b1d443db9d389cae2b718",
+    "worldviews/fictional/death-note/SKILL.md": "b9bc458fbf2e7b6b1730e54e5cf6ede573cbf45936d574ef2176ec127a758bca",
+    "manga-authors/WORKFLOW.md": "a3baa8aa5a3b2abbcb2167f1d216b74f3b039eaa28c8f0da59d95b0496aa322d",
+    "manga-authors/SKILL.md": "378a3fed13094aef8f5996ffc1a82757e30e6afdd16bf0323ee9958c3b67b90c",
+    "manga-authors/authors/araki-hirohiko/SKILL.md": "8d7fce39414978f04984a36c81796d9303ce7c363a68d518cc35f60abe76e82a",
+    "managers/karl-weick/SKILL.md": "0cbbf923b309d78fd5115257f742c759a9b04bdd148403b70534c8e90f2ff64e",
+    "calligraphers/ni-yuanlu/manifest.json": "5d2fe954ba709d7ceb5d4b47ad208fa8a1ec622dc0b7a9df16278ccce5120aaa",
+    "profiles/research-collaborator/manifest.json": "3a032cea454807c10f972cba7b48f759b30551011e6dee80b4948f16d5c9b06a",
+    "docs/verification.json": "c59e6b943c6772c6abdb89ceba71d2ef84687ec6c22654b293a853cf2a2da58b",
+    "scripts/distill_characters.py": "a61d047a405cfb5808a676b41ec32e532f6214f39d97b014487ceff758133dbb",
+    "commentary-personas/verification/skill-smoke.json": "76bf6bc3b50c4a3aad383ba01c5783b423ce08e3184ca1aef48800288ba55ce8",
+    "worldviews/verification/skill-smoke.json": "878fa69c8b75dce22ffe7c19a8e82ea2379f5eb9f13ae801a4f0d3acdbc234fe",
+    "manga-authors/authors/obata-takeshi/SKILL.md": "dbbcee2f74df899c7e414410fc133b965ac1a4cf7f473624ee5041fcc118479c"
+  },
+  "consumer_sha256": {
+    "/Users/aaron/workspace/playground/character-studio/scripts/sync-manga-effects.mjs": "97c285e62a4a75938c40ab86696ac2f7b8d34538302eb7a87cf287c60d44f192",
+    "/Users/aaron/workspace/playground/character-studio/generation.mjs": "5c285707f80d1805eb3dddd54282f464fd19c2b93ad3cf227019b71dc05b5fb8",
+    "/Users/aaron/workspace/playground/character-studio/test/workflow.test.mjs": "9d0d3079d46ffbfd86ccfdbd4e059c0d0e25623c183696cec09230a5bd0bebb1",
+    "/Users/aaron/workspace/playground/character-studio/data/effect-sources/manga-adaptations.json": "a4146ae6f20e671bc949718753ed1c1d087068eaaf3eaa4358e3526a5bd82ec7",
+    "/Users/aaron/workspace/playground/character-studio/data/effect-sources/manga-labels.json": "031caeac218dfffe72c21e4253ce9b5ac65c7ed83c6a77fc2b487953e4b2fe02",
+    "/Users/aaron/workspace/playground/character-studio/public/manga-effects.js": "b6dbe4ae3d6993a1b7143a6d781caeeb3fc73e54659e94d941f7ddcdebfd7c31"
+  },
+  "limits": [
+    "No new image, music, video or live model generation",
+    "No complete read of every source or original work",
+    "No inference of full-library semantic accuracy or style-fidelity rate from samples",
+    "No inference that historical testing never happened because raw outputs are absent",
+    "No claim that restoring artist names isolates the generation failure cause",
+    "No confirmed identity/filter bug; corrected comparison of identity nodes vs character versions is included in narrative_results"
+  ],
+  "consumer_concurrent_changes": [
+    {
+      "path": "/Users/aaron/workspace/playground/character-studio/generation.mjs",
+      "first_observed_sha256": "67c90b1820adfe78f652cdbfd0dbd8a6b1fb215a0941244762c888530a8c7894",
+      "rechecked_sha256": "5c285707f80d1805eb3dddd54282f464fd19c2b93ad3cf227019b71dc05b5fb8",
+      "note": "external concurrent change; source-owned edit, not this audit; relevant effectPrompt call reread at line 88; new fantasy path not audited"
+    }
+  ],
+  "consumer_rechecked_at": "2026-11-01T13:15:34.554898+00:00",
+  "preservation_check": {
+    "baseline_files": 40160,
+    "changed_existing_files": [],
+    "missing_existing_files": [],
+    "result": "all baseline files unchanged before report installation"
+  }
+}

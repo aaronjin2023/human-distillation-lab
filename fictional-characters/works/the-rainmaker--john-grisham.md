@@ -1,6 +1,6 @@
 # The Rainmaker
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 30, 1995. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rudy Baylor
 
 角色职责：protagonist · 身份：`identity-2e7584a59efb755b` · 独立版本：`profile-0b806cc98807017f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在弱者遭受伤害时，倾向主动介入并持续提供支持（行为推断；S16、S17、S24）
 - **核心动机**：起初向往凭重大诉讼获得成功与丰厚收入的律师生涯（摘要直接叙述；S2、S3）
@@ -28,6 +34,10 @@
 ### Kelly Riker
 
 角色职责：co-lead · 身份：`identity-7149610921525e0d` · 独立版本：`profile-f09db1364b1f7397`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在持续家暴威胁下倾向谨慎自保，却也能冒险保护爱人（行为推断；S15、S26）
 - **情绪反应**：对丈夫可能杀害自己的恐惧，明显限制了离婚意愿（摘要直接叙述；S15）

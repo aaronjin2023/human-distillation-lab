@@ -1,6 +1,6 @@
 # Alex Cross, Run
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 10, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-53136cc9557679e6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在调查受限的情境中，倾向坚持追索而不轻易放弃（行为推断；S23、S29）
 - **核心动机**：寻找失踪的艾娃成为暂时压过警务职责的个人目标（摘要直接叙述；S38、S39）
@@ -28,6 +34,10 @@
 
 角色职责：central-antagonist · 身份：`identity-4ec994e9c9df7b4f` · 独立版本：`profile-36415f96cc1606ec`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在暂时脱罪后倾向挑衅炫耀，对追查者表现出轻蔑（行为推断；S30、S31）
 - **核心动机**：将对前妻和女儿的杀意转移到其他女性身上（摘要直接叙述；S35、S36）
 - **价值取舍**：在处理婚姻破裂时，将控制前妻置于他人生命之上（行为推断；S28、S36）
@@ -38,6 +48,10 @@
 ### Ron Guidice
 
 角色职责：central-antagonist · 身份：`identity-43898c256222ff55` · 独立版本：`profile-a4a7fd6248d72f00`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在针对克罗斯的行动中，呈现出侵入生活的报复倾向（行为推断；S10、S17、S20）
 - **核心动机**：因未婚妻被警员杀害而归罪克罗斯并持续攻击他（摘要直接叙述；S10）

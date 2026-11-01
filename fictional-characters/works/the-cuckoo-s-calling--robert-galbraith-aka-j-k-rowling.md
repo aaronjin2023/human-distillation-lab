@@ -1,6 +1,6 @@
 # The Cuckoo's Calling
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 11, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Cormoran Strike
 
 角色职责：protagonist · 身份：`identity-ae33fa8d464595b7` · 独立版本：`profile-8e10135cf02efa48`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在证词相互冲突时呈现审慎求证、不急于接受表象的倾向（行为推断；S13、S14、S17、S18）
 - **核心动机**：起初虽不信案件有疑点，仍因偿还父亲借款而接案（摘要直接叙述；S5）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-132838cbab60a1c7` · 独立版本：`profile-bbb23b6584fa0a14`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在临时任职中展现主动与机敏，能超出秘书职责寻找线索（行为推断；S6、S15、S30）
 - **核心动机**：对侦探工作怀有热情，最终选择继续参与事务所工作（摘要直接叙述；S23、S30）
 - **决策方式**：调查时倾向将身份信息转化为可追踪的人物线索（行为推断；S15）
@@ -40,6 +50,10 @@
 ### John Bristow
 
 角色职责：central-antagonist · 身份：`identity-0dbbd63792f0ec7b` · 独立版本：`profile-cbf9db5ce5431b9d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在掩盖罪行时呈现操纵倾向，试图让调查服务于嫁祸（行为推断；S19、S21）
 - **核心动机**：因嫉妒卢拉的成功并急需填补挪用款项而向她下手（摘要直接叙述；S19）

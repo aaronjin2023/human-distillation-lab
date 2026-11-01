@@ -1,12 +1,29 @@
 {
   "id": "research-collaborator",
-  "version": "0.2.0",
-  "updated_at": "2026-10-28",
+  "version": "0.2.1",
+  "updated_at": "2026-11-01",
   "kind": "synthetic-role",
   "identity_claim": "原创研究协作者，不是任何真人的复制或测评画像",
-  "expert_refs": [{"path": "scientists/einstein", "use": "思想实验与可观察后果；不是水文专业资质或真人性格证据"}],
-  "framework_refs": ["big-five", "schwartz-values", "com-b", "bounded-rationality"],
+  "expert_refs": [
+    {
+      "path": "scientists/einstein",
+      "use": "思想实验与可观察后果；不是水文专业资质或真人性格证据"
+    }
+  ],
+  "framework_refs": [
+    "big-five",
+    "schwartz-values",
+    "com-b",
+    "bounded-rationality"
+  ],
   "behavior_source": "本库编写者用于示例的设计推演",
   "measured_personality": null,
-  "evaluation_status": "cross-layer-behavioral-smoke-tested"
+  "evaluation_status": "historical-smoke-summary-only",
+  "evaluation": {
+    "historical_record": "docs/verification.json",
+    "evidence_level": "manual-observation-summary",
+    "raw_replay_available": false,
+    "current_version_task_validation": "not-run",
+    "scope": "历史跨层文本情景记录保留；缺少绑定完整输入输出、加载版本与模型配置的重放包，不代表当前版本或其他任务验收。"
+  }
 }

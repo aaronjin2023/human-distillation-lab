@@ -1,6 +1,6 @@
 # Brisingr
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Inheritance Cycle; reported series sales: 33 million[275]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Inheritance_Cycle
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Eragon
 
 角色职责：protagonist · 身份：`identity-5ff20089fda86162` · 独立版本：`profile-a62698b401e05555`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在救援与备战压力下倾向持续承担任务，表现出责任倾向（行为推断；S26、S27、S28、S38、S61）
 - **核心动机**：持续以推翻帝国统治为目标，导师遇害后又加入复仇意愿（摘要直接叙述；S4、S68）
@@ -24,6 +30,10 @@
 ### Roran
 
 角色职责：co-lead · 身份：`identity-141c3f81b718a64c` · 独立版本：`profile-10a2f25202e74e9f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在上级指挥危及全队时倾向挺身接管，表现出果决与担当（行为推断；S55、S56）
 - **核心动机**：起初为救出未婚妻投入行动，随后承担反抗军的作战任务（摘要直接叙述；S25、S26、S53）
@@ -40,6 +50,10 @@
 ### Nasuada
 
 角色职责：co-lead · 身份：`identity-02031f421dc68d25` · 独立版本：`profile-697e493061f21106`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战争组织中倾向主动配置人才，表现出务实统筹的倾向（行为推断；S36、S37、S58）
 - **核心动机**：通过争取矮人王位支持与推动混编部队，巩固反抗联盟（行为推断；S37、S58）

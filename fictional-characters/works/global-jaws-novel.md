@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Martin Brody
 
 角色职责：protagonist · 身份：`identity-e3da0759383d2551` · 独立版本：`profile-e04dc214ae1b6349`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在公共危机中倾向主动担责，但亲密关系猜疑会削弱自制（行为推断；S11、S24、S30、S40）
 - **核心动机**：试图通过关闭海滩与组织猎鲨阻止更多人遇害（行为推断；S5、S11、S26）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-c8e97c53897a03c7` · 独立版本：`profile-39b4e921fbfb3601`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在面对巨鲨时倾向好奇投入，也表现出冒险自信（行为推断；S32、S37、S43）
 - **核心动机**：希望凭借专业知识和水下装备参与解决巨鲨威胁（行为推断；S13、S14、S37）
 - **价值取舍**：在猎鲨情境中反感残酷处理动物及非法获取诱饵（行为推断；S29）
@@ -44,6 +54,10 @@
 ### Quint
 
 角色职责：co-lead · 身份：`identity-b323891fcd62ee90` · 独立版本：`profile-118f255011c23f72`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在猎鲨合作中倾向强硬执拗，对富裕年轻专家抱有轻蔑（行为推断；S28、S38、S46）
 - **核心动机**：猎鲨目标逐渐超越报酬，成为即使无钱也要完成的事（摘要直接叙述；S38、S46）

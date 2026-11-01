@@ -1,6 +1,6 @@
 # Doctor Sleep
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 13, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Danny Torrance
 
 角色职责：protagonist · 身份：`identity-b848ac275f6b69f2` · 独立版本：`profile-47cb64cb368a820f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在面对临终者时呈现体恤倾向，愿意照料曾敌视自己的人（行为推断；S9、S34）
 - **核心动机**：希望摆脱酒精影响，并帮助阿布拉逃离持续追猎（行为推断；S7、S19、S22、S27）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-5936c9857faf8eb0` · 独立版本：`profile-aca11788642030f2`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在遭到追猎时呈现主动应对倾向，并非仅等待救援（行为推断；S19、S26、S27）
 - **核心动机**：面对绑架威胁希望获得保护，并终结罗斯的追猎（行为推断；S17、S19、S26）
 - **决策方式**：倾向借求助与心灵协作反制敌人，并主动设置诱局（行为推断；S19、S26、S27）
@@ -40,6 +50,10 @@
 ### Rose the Hat
 
 角色职责：central-antagonist · 身份：`identity-6223af398f95b46a` · 独立版本：`profile-09ab992a905fe747`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追逐阿布拉时呈现执拗倾向，难以因团队分裂收手（行为推断；S22、S25、S26）
 - **核心动机**：企图长期囚禁阿布拉，获取能够持续供给的灵质（摘要直接叙述；S17）

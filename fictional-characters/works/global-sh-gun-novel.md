@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Blackthorne
 
 角色职责：protagonist · 身份：`identity-f5fada4435938cee` · 独立版本：`profile-c5a597c2c49c102d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生文化与威胁中，他表现出适应力与冒险行动的倾向（行为推断；S16、S18、S20、S21）
 - **价值取舍**：面对村庄因自己受罚的威胁，他倾向以自身性命承担压力（行为推断；S18、S19）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-b37b8ce10e96ec3e` · 独立版本：`profile-cf6c5b0392d90cde`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在权力竞争中，他表现出克制外露意图并长期布局的倾向（行为推断；S24、S25、S35）
 - **核心动机**：他将成为将军视为自身命运，并围绕这一目标调配资源（行为推断；S6、S35、S36）
 - **决策方式**：他以示弱、退出和间接施压保存实力并削弱对手（行为推断；S15、S24、S25、S31）
@@ -44,6 +54,10 @@
 ### Toda Mariko
 
 角色职责：major-support · 身份：`identity-988f4f83c42e01e4` · 独立版本：`profile-0baaeb5842593642`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在政治胁迫中，她表现出坚定并愿承担极端代价的倾向（行为推断；S26、S27、S28、S30）
 - **价值取舍**：她虽接受天主教教育，忠诚的优先对象仍是虎长（摘要直接叙述；S11）

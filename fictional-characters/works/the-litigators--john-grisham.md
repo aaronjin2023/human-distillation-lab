@@ -1,6 +1,6 @@
 # The Litigators
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 13, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### David Zinc
 
 角色职责：protagonist · 身份：`identity-d48506eb4046b872` · 独立版本：`profile-2c2613d18c8e5b80`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对职业窒息感时倾向果断抽身，并愿意降低身份重新开始（行为推断；S3、S4）
 - **核心动机**：希望摆脱高薪却消磨人的大所生活，寻找不同的执业出路（摘要直接叙述；S3、S4）
@@ -23,6 +29,10 @@
 ### Wally Figg
 
 角色职责：co-lead · 身份：`identity-c8b7230f8a37c189` · 独立版本：`profile-dad1ea585592c5f2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对高额诉讼收益时倾向投机冒进，低估自身办案能力限制（行为推断；S5、S7）
 - **核心动机**：参与药物集体诉讼，主要受庭外和解可使众人致富的期待驱动（行为推断；S5、S7）

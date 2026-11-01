@@ -1,6 +1,6 @@
 # Double Cross
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 2, 2007. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-fe53ece103d47a38`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在凶案持续升级时，倾向主动承担超出原职务的责任（行为推断；S5、S12）
 - **核心动机**：即使已经离开警职，仍希望协助制止连续杀人（行为推断；S5、S12）
@@ -29,6 +35,10 @@
 
 角色职责：central-antagonist · 身份：`identity-605bf1e959db4acd` · 独立版本：`profile-04122bad0b0bdc57`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在连续犯罪中倾向追求表演效果，主动吸引公众关注（行为推断；S8、S9、S13、S14）
 - **核心动机**：通过公开杀人影像与挑衅信息，为犯罪争取观众（摘要直接叙述；S9、S14、S29）
 - **决策方式**：反复借用不同身份接近目标，隐藏自身犯罪关联（行为推断；S13、S40、S50）
@@ -40,6 +50,10 @@
 ### Kyle Craig
 
 角色职责：central-antagonist · 身份：`identity-9e6e78bbdec711d1` · 独立版本：`profile-daaf3cd7b5351063`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追究旧怨时表现出报复倾向，并以致命暴力回应（行为推断；S3、S22、S23、S43）
 - **核心动机**：把被捕归责于克罗斯，持续寻求向他实施报复（摘要直接叙述；S3、S56）

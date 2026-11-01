@@ -1,6 +1,6 @@
 # The Sable Quean
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Redwall; reported series sales: 20 million[306]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Redwall
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Buckler Kordyne
 
 角色职责：protagonist · 身份：`identity-93eee5c20f70c52a` · 独立版本：`profile-5c7616d9f19841b1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对弱者受威胁时，他倾向承担保护责任并直接迎敌（行为推断；S23、S32、S80、S82）
 - **核心动机**：他最初希望摆脱山中生活的乏味，并借差事探望兄长（行为推断；S5、S6）
@@ -25,6 +31,10 @@
 
 角色职责：major-support · 身份：`identity-feb48e36d794eef0` · 独立版本：`profile-e5fb2c9e790db001`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在囚禁与追捕中，她倾向主动反抗而不随众陷入绝望（行为推断；S30、S38、S42）
 - **核心动机**：她试图组织被囚幼童秘密脱逃，争取集体获救的机会（摘要直接叙述；S38）
 - **价值取舍**：在获救之后，她仍倾向保护更年幼且缺乏自卫能力的伙伴（行为推断；S41、S42）
@@ -35,6 +45,10 @@
 ### Vilaya
 
 角色职责：central-antagonist · 身份：`identity-976eb842213a4b83` · 独立版本：`profile-61d50cc2f9ec54fe`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在控制受挫或受到反抗时，她倾向以残酷惩罚恢复威势（行为推断；S45、S46、S55）
 - **核心动机**：她与同伙扣押幼童，企图迫使修道院接受其投降要求（摘要直接叙述；S27、S28、S35）

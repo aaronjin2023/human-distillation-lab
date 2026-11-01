@@ -1,6 +1,6 @@
 # The Last Puritan
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 10, 1936. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Nathaniel Alden
 
 角色职责：major-support · 身份：`identity-007b5d8d24a08e35` · 独立版本：`profile-e09bf1338c08d96c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他显得寡社交，习惯把交往理解为履行责任。（行为推断；S20、S21、S23、S25）
 - **核心动机**：他试图使彼得回到自己认定的上帝旨意与社会秩序。（摘要直接叙述；S10、S11）
@@ -27,6 +33,10 @@
 ### Peter Alden
 
 角色职责：major-support · 身份：`identity-8fd26fd51c799c5d` · 独立版本：`profile-0dad07e3712eb421`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：年轻时他偏爱游乐与自由探索，后来逐渐陷入职责惯例。（行为推断；S18、S19、S44、S45）
 - **核心动机**：成年后他选择婚姻以求安宁，而非寻求情感陪伴。（摘要直接叙述；S49、S50、S51）

@@ -1,0 +1,161 @@
+{
+  "id": "abe-tsukasa",
+  "name": "Tsukasa Abe",
+  "name_zh": "アベツカサ",
+  "name_ja": "アベツカサ",
+  "legacy_refs": [],
+  "legacy_expert_refs": [],
+  "creator_type": "manga-artist",
+  "family": "幻想空间／安静人物与建筑层次",
+  "scope": "聚焦《葬送のフリーレン 14》日文原版官方封面与出版社书目。只看这一封面，不含连续内页；不使用动画改编图。叙事主题与脚本不能全归画者；原作分工另署山田鐘人，成年原创方案不复制封面角色或造型。",
+  "reference_works": [
+    {
+      "title": "葬送のフリーレン 14",
+      "role": "漫画绘画：アベツカサ；原作：山田鐘人",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "葬送のフリーレン 14：出版社书目",
+      "url": "https://shogakukan-comic.jp/book?jdcn=098540170000d0000000",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "漫画绘画：アベツカサ；原作：山田鐘人",
+        "2025-03-18日本原版出版及卷号"
+      ],
+      "access_note": "本轮实际web打开并读取出版社公开书目信息；另获取页面HTML核定主封面地址。未进入账号、付费章节或阅读完整内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "葬送のフリーレン 14：日文原版官方封面",
+      "url": "https://shogakukan-comic.jp/book-images/w400/books/9784098540174.jpg",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定这张封面的轮廓、体块、色光与构图观察"
+      ],
+      "access_note": "从上述官方书目提取主封面链接，下载临时缩略图并实际通过view_image查看；未将alt文字当观察。只支持封面可见大关系，文字排版与装帧不自动归漫画作者。",
+      "origin_page_url": "https://shogakukan-comic.jp/book?jdcn=098540170000d0000000",
+      "observed_asset_sha256": "a3f39c553ff4d43586259812acbc4444838586aba2b2c55718c1f1d598252229",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面中央浅衣人物在台阶较低处，红衣人物在上方，左右深衣人物形成侧向框架；细直建筑线与拱形窗组织空间，头部和手部的轮廓较简，窗外蓝紫光与烟火状亮点提供背景层次。只支持这张封面的空间及明暗组织，不证明内页节奏。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "漫画绘画：アベツカサ；原作：山田鐘人；出版社列日本原版2025-03-18发行。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面中央浅衣人物在台阶较低处，红衣人物在上方，左右深衣人物形成侧向框架；细直建筑线与拱形窗组织空间，头部和手部的轮廓较简，窗外蓝紫光与烟火状亮点提供背景层次。只支持这张封面的空间及明暗组织，不证明内页节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "人物用连续中细外线，鼻口内线少；建筑细直线比脸部更轻，衣领接缝局部加重。",
+    "shapes": "使用既定成年比例，胸廓与骨盆厚度先于披覆衣物；以长短不同的衣料大面组织轮廓，不复制样本服装。",
+    "composition": "用既定主体与物件的前后错层建立深度，脸和手放在不会被建筑线切断的清楚区域。",
+    "panel_rhythm": "原创迁移建议：空间信息与细小表情交替，关键变化前保留可读的静止状态；单幅封面不能证明作者分镜规则。",
+    "tonal_design": "浅人体、衣物中灰与深背景三层；近处衣褶多于远处，黑块之间保留窄亮缝。",
+    "environment": "把用户环境概括成直线结构与少量弧形开口，远处降低对比，不擅自加台阶、拱窗或烟火。",
+    "acting": "眼睑、下颌和手指的轻微变化承担情绪，身体重心与脚下接触必须成立。",
+    "color": "本库从这张封面转译为冷蓝紫空间配少量暖色焦点；不是作者固定色板，人物发色衣色仍服从项目。"
+  },
+  "drawing_steps": [
+    "先标既定主体、物件与背景的前后层，避免结构线穿脸。",
+    "搭成年胸廓骨盆，再铺衣料大面，检查承重与接触。",
+    "按浅、中、深三群落色，远景线和纹理同时减轻。",
+    "只在既定焦点加少量暖色或亮边，缩图检查安静表情是否清楚。"
+  ],
+  "review_checks": [
+    "人物脸手是否未被背景细线割碎？",
+    "衣料之下的成年体块及承重是否成立？",
+    "转成灰度后前后层是否仍能区分？"
+  ],
+  "avoid": [
+    "用密集建筑线填满所有留白，吞掉人物。",
+    "复制耳形、帽服或烟火布景来代替通用空间技法。"
+  ],
+  "best_for": [
+    "安静幻想场景的空间组织",
+    "人物与建筑的明度分层"
+  ],
+  "prompt_core_zh": "保持既定成年角色、发色发长和人数，以连续中细轮廓与简省鼻口线建立清楚体块。浅、中、深三群组织前后层，衣褶比远景细线更明确，建筑边缘避开脸手；冷调空间配少量暖色焦点，以克制眼神和稳定承重传达情绪。",
+  "prompt_core_en": "Preserve the specified adult character, hair, cast, and content. Use continuous medium fine contours with economical facial marks over coherent volumes. Organize depth into light, middle, and dark groups, keeping clothing folds clearer than distant structural lines. Prevent background edges from cutting through faces or hands. Balance a cool setting with restrained warm accents near the intended focus. Communicate emotion through readable eyelids, a stable center of gravity, and carefully controlled detail density.",
+  "sheet_traits_zh": "连续中细外线配简省鼻口，静态成年胸廓骨盆明确；布料大面分浅中灰，深色连接处成块，材质以接缝区分。",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "recent_focus": {
+    "work": "葬送のフリーレン 14",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "出版社所列日本原版发行日为2025-03-18；这是卷册出版年，不是每幅画或封面原稿实际绘制日。"
+  },
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "以小学馆公开日文漫画出版署名为活动语境，不据此推定国籍或民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    },
+    "note": "只用公开署名，未核实生卒保持null，民族未知。"
+  },
+  "known_gaps": [
+    "本轮只观察一张官方封面，未逐页研究内页、长期画风变化、助手分工或作者完整制作流程。",
+    "八维配方、步骤、检查与提示词均为一般视觉技法的原创组合，分镜建议不冒充作者本人规则。",
+    "未生成图片，不能据此声称人物一致性、三视图或六格节奏已实测。"
+  ],
+  "recipe_basis": "original_synthesis",
+  "image_validation": "not-run",
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "recognition_features": [
+    {
+      "text": "封面中央浅衣人物在台阶较低处，红衣人物在上方，左右深衣人物形成侧向框架；细直建筑线与拱形窗组织空间，头部和手部的轮廓较简，窗外蓝紫光与烟火状亮点提供背景层次。只支持这张封面的空间及明暗组织，不证明内页节奏。",
+      "observation": "封面中央浅衣人物在台阶较低处，红衣人物在上方，左右深衣人物形成侧向框架；细直建筑线与拱形窗组织空间，头部和手部的轮廓较简，窗外蓝紫光与烟火状亮点提供背景层次。只支持这张封面的空间及明暗组织，不证明内页节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

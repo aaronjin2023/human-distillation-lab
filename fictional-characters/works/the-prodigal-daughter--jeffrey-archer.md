@@ -1,6 +1,6 @@
 # The Prodigal Daughter
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 4, 1982. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Florentyna Rosnovski
 
 角色职责：protagonist · 身份：`identity-f90ba8337995a96f` · 独立版本：`profile-5f89547b01f2ae89`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲情阻挠与事业受挫时倾向争取自主，并重新投入行动（行为推断；S9、S10、S19、S20）
 - **核心动机**：政治生涯中以成为美国首位女总统为明确追求（摘要直接叙述；S20、S21、S25）
@@ -28,6 +34,10 @@
 ### Abel
 
 角色职责：major-support · 身份：`identity-c48273933ec237f7` · 独立版本：`profile-3d16f167d4dc00ef`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在两家宿怨中倾向固执排斥，但面对恩情真相能够修正态度（行为推断；S9、S12、S13、S14）
 - **关系模式**：对女儿保持关爱和暗中支持，却曾拒绝接纳她选择的丈夫（摘要直接叙述；S9、S12）

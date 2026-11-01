@@ -1,6 +1,6 @@
 # 碧血剑
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：京东金庸单书购买排行，2018-10-30事件期报道
 [依据来源](https://ip.people.com.cn/n1/2019/0122/c179663-30583592.html) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 袁承志
 
 角色职责：protagonist · 身份：`identity-665c0450a8f156e1` · 独立版本：`profile-c8082f2636523c9b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对江湖纷争时倾向忠厚诚恳，愿意出面调解恩怨（行为推断；S12）
 - **核心动机**：为父报仇构成习武与支持推翻明朝君王的重要动力（摘要直接叙述；S11、S13）
@@ -28,6 +34,10 @@
 ### 李自成
 
 角色职责：major-support · 身份：`identity-ce7b7f425201c55c` · 独立版本：`profile-6e71c9e5053be74f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：攻入北京后面对胜利果实，呈现沉溺美酒美色的倾向（行为推断；S16）
 - **核心动机**：作为反抗军首领，其政治行动以反抗明朝政府为目标（摘要直接叙述；S42）

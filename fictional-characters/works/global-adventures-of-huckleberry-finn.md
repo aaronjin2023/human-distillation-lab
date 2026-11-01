@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Huckleberry Finn
 
 角色职责：protagonist · 身份：`identity-a0758ebeea5c85ff` · 独立版本：`profile-4deec190f928b69b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在逃亡与冲突中倾向机敏应变，也能承认伤害朋友的过错（行为推断；S9、S20、S23、S39）
 - **核心动机**：希望摆脱父亲的暴力控制与他人强加的收养生活（行为推断；S7、S8、S9、S46）
@@ -28,6 +34,10 @@
 ### Jim
 
 角色职责：co-lead · 身份：`identity-65d6902e9413ae89` · 独立版本：`profile-79a8cd31df057ef2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在逃亡压力下倾向温厚照护同伴，并非只顾自身安危（行为推断；S12、S43、S61）
 - **核心动机**：为避免被出售而逃离奴役，并与哈克共同寻找自由出路（摘要直接叙述；S9、S10、S62）

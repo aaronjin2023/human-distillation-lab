@@ -1,6 +1,6 @@
 # Long Lost
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: April 19, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Myron Bolitar
 
 角色职责：protagonist · 身份：`identity-c7bd5b9567a04b7b` · 独立版本：`profile-cc787577e5b324ce`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在绑架与伏击接连发生时，仍表现出持续追索的倾向（行为推断；S7、S8、S16、S17、S20）
 - **核心动机**：他试图厘清少女身份及其与特蕾丝失女经历的关联（行为推断；S6、S7、S13）
@@ -23,6 +29,10 @@
 ### Terese
 
 角色职责：co-lead · 身份：`identity-3588a43bfccd15ac` · 独立版本：`profile-170be2d449f07bb9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危机中倾向主动求助旧日亲密对象，借助既有信任（行为推断；S2、S3）
 - **核心动机**：携女隐匿海外的行为，显示此时倾向优先保障女儿安全（行为推断；S20）

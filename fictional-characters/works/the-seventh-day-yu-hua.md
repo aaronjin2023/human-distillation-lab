@@ -1,6 +1,6 @@
 # 第七天
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2013年报道引述出版方称预售半日超过70万册；这是预订量，不是实销。
 [依据来源](https://www.jjckb.cn/dspd/2013-05/30/content_447972.htm) · 经济参考报转载文汇报对出版方的报道，名家新作预售热度，不代表后来销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Yang Fei
 
 角色职责：protagonist · 身份：`identity-c9822c20d66638ee` · 独立版本：`profile-f08b18288248df43`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：资料明确将他描写为诚实而内敛、不善张扬的人（摘要直接叙述；S47）
 - **核心动机**：死后仍以寻找养父为重要牵引，持续追索父亲去向（摘要直接叙述；S32、S37、S43）
@@ -23,6 +29,10 @@
 ### Yang Jinbiao
 
 角色职责：major-support · 身份：`identity-a15c9c18ddea63d6` · 独立版本：`profile-d308430ffa06484e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在抚养关系中表现出执拗而持续投入的照护倾向（摘要直接叙述；S29、S52）
 - **价值取舍**：在伴侣要求与养育责任冲突时，最终将孩子置于优先位置（行为推断；S51、S52）

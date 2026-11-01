@@ -1,6 +1,6 @@
 # Gerald's Game
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 19, 1992. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jessie Burlingame
 
 角色职责：protagonist · 身份：`identity-c58c5daee320df76` · 独立版本：`profile-6e2cfa0b1df6ea99`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在孤立求生情境中表现出韧性，能从失败尝试转向新办法（行为推断；S22、S23、S24、S25）
 - **核心动机**：脱困之后进一步追求摆脱创伤隐瞒，重新诚实面对过去（摘要直接叙述；S31、S32、S35）
@@ -29,6 +35,10 @@
 ### Gerald
 
 角色职责：central-antagonist · 身份：`identity-06257569e92cbbec` · 独立版本：`profile-fde79231b9bfbb02`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密情境中表现出控制倾向，不愿承认妻子的明确拒绝（行为推断；S5、S6、S7、S17）
 - **核心动机**：将妻子束缚在床上的性游戏，是其获得兴奋的重要来源（摘要直接叙述；S4）

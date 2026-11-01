@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Marie-Laure LeBlanc
 
 角色职责：co-lead · 身份：`identity-62d50c8968851c42` · 独立版本：`profile-e3768126ddabfeee`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受困与追捕中，她表现出利用现有资源坚持自救的倾向（行为推断；S45、S46）
 - **核心动机**：她延续马内克夫人的抵抗工作，参与秘密信息传递（摘要直接叙述；S13、S14、S15、S16）
@@ -24,6 +30,10 @@
 ### Werner Pfennig
 
 角色职责：co-lead · 身份：`identity-ab2a3785e370b509` · 独立版本：`profile-57fa1ab816725ae2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在技术与道德困境中，他表现出善于钻研并能反省的倾向（行为推断；S22、S23、S37、S50）
 - **情绪反应**：无辜女孩因错误定位被杀，使他对自身处境日益幻灭（摘要直接叙述；S37）

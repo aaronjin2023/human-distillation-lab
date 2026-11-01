@@ -1,0 +1,800 @@
+{
+  "status": "synthetic-documentation-fixtures-not-runtime",
+  "valid": [
+    {
+      "name": "create-world",
+      "schema": "CreateConsultation",
+      "value": {
+        "task": {
+          "kind": "world_review",
+          "question": "原创群岛能否支撑既定人口？先判断还缺哪些水源、贸易与生态依据。",
+          "desired_output": "返回条件性建议、瓶颈和最小补查清单，不编造人口上限。"
+        },
+        "context": {
+          "summary": "雨季有淡水，旱季水量与储水损耗尚未知。",
+          "scope": "原创世界draft-3；现实方法只用于一致性审查。",
+          "material_ids": [],
+          "decisions": [
+            "居民不迁离现有岛屿"
+          ]
+        },
+        "hard_constraints": [
+          {
+            "id": "no-magic-water",
+            "text": "没有魔法无限水源"
+          }
+        ],
+        "preferences": [
+          "优先低维护方案"
+        ],
+        "mode": "auto",
+        "required_method_ids": [],
+        "excluded_method_ids": [],
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "limits": {
+          "deadline_seconds": 180,
+          "max_model_calls": 4,
+          "max_output_tokens": 6000
+        },
+        "parent_id": null
+      }
+    },
+    {
+      "name": "queued",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 1,
+        "execution_status": "queued",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": null,
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": false
+      }
+    },
+    {
+      "name": "needs-input",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 2,
+        "execution_status": "needs_input",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": null,
+        "questions": [
+          {
+            "id": "q-water",
+            "prompt": "本轮是否已有旱季可用水量范围？没有则回答未知。",
+            "reason": "决定能否作定量判断。"
+          }
+        ],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": false
+      }
+    },
+    {
+      "name": "answer",
+      "schema": "SubmitAnswers",
+      "value": {
+        "answers": [
+          {
+            "question_id": "q-water",
+            "text": "未知，请给出条件性补查建议。"
+          }
+        ]
+      }
+    },
+    {
+      "name": "cancel-request",
+      "schema": "CancelRequest",
+      "value": {
+        "reason": "改用新世界版本，取消旧任务。"
+      }
+    },
+    {
+      "name": "conditional",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 3,
+        "execution_status": "completed",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": {
+          "answer_status": "conditional",
+          "actual_mode": "single",
+          "recommendation": "先补旱季可用水量、储水损耗及贸易中断情景，再比较储水与进口方案。",
+          "conditions": [
+            "仅作决策结构建议，尚未计算承载人口。"
+          ],
+          "claims": [
+            {
+              "id": "claim-1",
+              "text": "现有输入缺旱季供需条件，不能据此确定人口上限。",
+              "basis": "inference",
+              "evidence_refs": []
+            }
+          ],
+          "constraint_checks": [
+            {
+              "constraint_id": "no-magic-water",
+              "status": "met",
+              "reason": "未引入无限水源，所有候选需验证真实水量。"
+            }
+          ],
+          "alternatives": [
+            "储水与季节贸易分别评估，不先决定比例。"
+          ],
+          "dissent": [],
+          "next_checks": [
+            {
+              "action": "补旱季供给、损耗、需求与储水参数",
+              "observable_criterion": "同一时间尺度的水量收支和缺水持续时间可计算"
+            }
+          ]
+        },
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": true
+      }
+    },
+    {
+      "name": "partial",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 3,
+        "execution_status": "partial",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": {
+          "answer_status": "conditional",
+          "actual_mode": "single",
+          "recommendation": "先补旱季可用水量、储水损耗及贸易中断情景，再比较储水与进口方案。",
+          "conditions": [
+            "仅作决策结构建议，尚未计算承载人口。"
+          ],
+          "claims": [
+            {
+              "id": "claim-1",
+              "text": "现有输入缺旱季供需条件，不能据此确定人口上限。",
+              "basis": "inference",
+              "evidence_refs": []
+            }
+          ],
+          "constraint_checks": [
+            {
+              "constraint_id": "no-magic-water",
+              "status": "met",
+              "reason": "未引入无限水源，所有候选需验证真实水量。"
+            }
+          ],
+          "alternatives": [
+            "储水与季节贸易分别评估，不先决定比例。"
+          ],
+          "dissent": [],
+          "next_checks": [
+            {
+              "action": "补旱季供给、损耗、需求与储水参数",
+              "observable_criterion": "同一时间尺度的水量收支和缺水持续时间可计算"
+            }
+          ]
+        },
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": {
+          "code": "deadline_exceeded",
+          "detail": "合成示例：仅演示有部分意见但执行未完成的形状。"
+        },
+        "provenance_available": true
+      }
+    },
+    {
+      "name": "failed",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 1,
+        "execution_status": "failed",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": null,
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": {
+          "code": "provider_outcome_unknown",
+          "detail": "合成示例：不确定提供商是否已执行，不盲目重试。"
+        },
+        "provenance_available": false
+      }
+    },
+    {
+      "name": "insufficient",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 3,
+        "execution_status": "completed",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": {
+          "answer_status": "insufficient_evidence",
+          "actual_mode": "not_executed",
+          "recommendation": "当前发布集没有覆盖本次必要判断的合格方法，需要补充方法或缩小问题。",
+          "conditions": [
+            "仅作决策结构建议，尚未计算承载人口。"
+          ],
+          "claims": [
+            {
+              "id": "claim-1",
+              "text": "现有输入缺旱季供需条件，不能据此确定人口上限。",
+              "basis": "inference",
+              "evidence_refs": []
+            }
+          ],
+          "constraint_checks": [
+            {
+              "constraint_id": "no-magic-water",
+              "status": "met",
+              "reason": "未引入无限水源，所有候选需验证真实水量。"
+            }
+          ],
+          "alternatives": [
+            "储水与季节贸易分别评估，不先决定比例。"
+          ],
+          "dissent": [],
+          "next_checks": [
+            {
+              "action": "补旱季供给、损耗、需求与储水参数",
+              "observable_criterion": "同一时间尺度的水量收支和缺水持续时间可计算"
+            }
+          ]
+        },
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": true
+      }
+    },
+    {
+      "name": "cancelled",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 1,
+        "execution_status": "cancelled",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": null,
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": false
+      }
+    },
+    {
+      "name": "problem",
+      "schema": "Problem",
+      "value": {
+        "type": "about:blank",
+        "title": "Request version conflict",
+        "status": 412,
+        "detail": "读取最新任务并按新ETag决定是否重试。",
+        "code": "revision_mismatch",
+        "request_id": "example-request-1"
+      }
+    },
+    {
+      "name": "provenance-shape",
+      "schema": "Provenance",
+      "value": {
+        "consultation_id": "example-consultation-1",
+        "revision": 3,
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "request_digest": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+        "method_selection_note": "合成形状示例，不证明任何方法执行。",
+        "methods": [
+          {
+            "method_id": "example-water-reasoning",
+            "package_digest": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+            "scope": "合成方法形状示例，不对应真实专家包",
+            "readiness": "research_only",
+            "selection_reason": "只演示完整加载追溯，不提供真实结论",
+            "files": [
+              {
+                "path": "examples/fictional-method.md",
+                "digest": "sha256:4444444444444444444444444444444444444444444444444444444444444444"
+              }
+            ],
+            "critical_item_ids": [
+              "necessary-inputs",
+              "optional-tone"
+            ],
+            "critical_item_mappings": [
+              {
+                "critical_item_id": "necessary-inputs",
+                "source_locator": "合成方法第1条",
+                "request_artifact_id": "example-request",
+                "request_locator": "第1句",
+                "disposition": "preserved",
+                "reason": "未知前提影响结论",
+                "impact": "只能给条件性建议"
+              },
+              {
+                "critical_item_id": "optional-tone",
+                "source_locator": "合成方法第2条",
+                "request_artifact_id": null,
+                "request_locator": null,
+                "disposition": "not_used",
+                "reason": "本任务只评审依据，不要求指定表达风格",
+                "impact": "不声称还原任何专家语气"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "example-step-1",
+            "role": "single",
+            "round": 0,
+            "status": "succeeded",
+            "model": "synthetic-example-only",
+            "configuration_artifact_id": "example-config",
+            "input_artifact_id": "example-request",
+            "output_artifact_id": "example-response",
+            "provider_request_id": null,
+            "limitation": "文档形状，不是实际调用"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "example-evidence-1",
+            "artifact_id": "example-source",
+            "locator": "第1句",
+            "source_url": null,
+            "accessed_at": "2026-11-01T00:00:00Z",
+            "support_scope": "合成用户提供的未知水量，仅用于示例"
+          }
+        ],
+        "independence_limits": [
+          "未运行真实席位，不产生共识。"
+        ],
+        "missing_materials": [
+          "旱季供需参数"
+        ],
+        "artifact_ids": [
+          "example-request",
+          "example-response",
+          "example-source",
+          "example-config"
+        ]
+      }
+    },
+    {
+      "name": "example-request",
+      "schema": "Artifact",
+      "value": {
+        "id": "example-request",
+        "media_type": "text/plain",
+        "digest": "sha256:6f4b025df21aa82e68a2a03f1b75d87421a0e533f6398fe2f9a1490db028aab4",
+        "content": "合成请求：先核对必要参数，未知不得当满足；本例不要求讨论风格。"
+      }
+    },
+    {
+      "name": "example-response",
+      "schema": "Artifact",
+      "value": {
+        "id": "example-response",
+        "media_type": "text/plain",
+        "digest": "sha256:bc7919222f85a0b47ec61346dca72d49742b59fc89bb53e010cffe037c05b5aa",
+        "content": "合成意见：水量未知，先列补查条件。"
+      }
+    },
+    {
+      "name": "example-source",
+      "schema": "Artifact",
+      "value": {
+        "id": "example-source",
+        "media_type": "text/plain",
+        "digest": "sha256:b353152b5259177bf3b74733fde13ad63174b115b48d298e5e7a33441f0d5664",
+        "content": "合成材料：旱季可用水量尚未知。"
+      }
+    },
+    {
+      "name": "example-config",
+      "schema": "Artifact",
+      "value": {
+        "id": "example-config",
+        "media_type": "application/json",
+        "digest": "sha256:ce2d551d9aef7f5ab95b0c55c23778a460c766d3979741e78b6d54fba70a1eb9",
+        "content": "{\"fixture\":true,\"model\":\"synthetic-example-only\"}"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "name": "completed-without-result",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 1,
+        "execution_status": "completed",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": null,
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": null,
+        "provenance_available": false
+      }
+    },
+    {
+      "name": "partial-claims-answered",
+      "schema": "Consultation",
+      "value": {
+        "id": "example-consultation-1",
+        "parent_id": null,
+        "revision": 3,
+        "execution_status": "partial",
+        "created_at": "2026-11-01T00:00:00Z",
+        "updated_at": "2026-11-01T00:00:00Z",
+        "deadline_at": "2026-11-01T00:03:00Z",
+        "result": {
+          "answer_status": "answered",
+          "actual_mode": "single",
+          "recommendation": "先补旱季可用水量、储水损耗及贸易中断情景，再比较储水与进口方案。",
+          "conditions": [
+            "仅作决策结构建议，尚未计算承载人口。"
+          ],
+          "claims": [
+            {
+              "id": "claim-1",
+              "text": "现有输入缺旱季供需条件，不能据此确定人口上限。",
+              "basis": "inference",
+              "evidence_refs": []
+            }
+          ],
+          "constraint_checks": [
+            {
+              "constraint_id": "no-magic-water",
+              "status": "met",
+              "reason": "未引入无限水源，所有候选需验证真实水量。"
+            }
+          ],
+          "alternatives": [
+            "储水与季节贸易分别评估，不先决定比例。"
+          ],
+          "dissent": [],
+          "next_checks": [
+            {
+              "action": "补旱季供给、损耗、需求与储水参数",
+              "observable_criterion": "同一时间尺度的水量收支和缺水持续时间可计算"
+            }
+          ]
+        },
+        "questions": [],
+        "usage": {
+          "model_calls_started": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cost_amount": null,
+          "cost_currency": null,
+          "measurement_note": "合成文档示例，未发生调用或扣费。"
+        },
+        "failure": {
+          "code": "deadline_exceeded",
+          "detail": "合成示例：仅演示有部分意见但执行未完成的形状。"
+        },
+        "provenance_available": true
+      }
+    },
+    {
+      "name": "arbitrary-path-field",
+      "schema": "CreateConsultation",
+      "value": {
+        "task": {
+          "kind": "world_review",
+          "question": "原创群岛能否支撑既定人口？先判断还缺哪些水源、贸易与生态依据。",
+          "desired_output": "返回条件性建议、瓶颈和最小补查清单，不编造人口上限。"
+        },
+        "context": {
+          "summary": "雨季有淡水，旱季水量与储水损耗尚未知。",
+          "scope": "原创世界draft-3；现实方法只用于一致性审查。",
+          "material_ids": [],
+          "decisions": [
+            "居民不迁离现有岛屿"
+          ],
+          "local_path": "/private/data"
+        },
+        "hard_constraints": [
+          {
+            "id": "no-magic-water",
+            "text": "没有魔法无限水源"
+          }
+        ],
+        "preferences": [
+          "优先低维护方案"
+        ],
+        "mode": "auto",
+        "required_method_ids": [],
+        "excluded_method_ids": [],
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "limits": {
+          "deadline_seconds": 180,
+          "max_model_calls": 4,
+          "max_output_tokens": 6000
+        },
+        "parent_id": null
+      }
+    },
+    {
+      "name": "unbounded-model-calls",
+      "schema": "CreateConsultation",
+      "value": {
+        "task": {
+          "kind": "world_review",
+          "question": "原创群岛能否支撑既定人口？先判断还缺哪些水源、贸易与生态依据。",
+          "desired_output": "返回条件性建议、瓶颈和最小补查清单，不编造人口上限。"
+        },
+        "context": {
+          "summary": "雨季有淡水，旱季水量与储水损耗尚未知。",
+          "scope": "原创世界draft-3；现实方法只用于一致性审查。",
+          "material_ids": [],
+          "decisions": [
+            "居民不迁离现有岛屿"
+          ]
+        },
+        "hard_constraints": [
+          {
+            "id": "no-magic-water",
+            "text": "没有魔法无限水源"
+          }
+        ],
+        "preferences": [
+          "优先低维护方案"
+        ],
+        "mode": "auto",
+        "required_method_ids": [],
+        "excluded_method_ids": [],
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "limits": {
+          "deadline_seconds": 180,
+          "max_model_calls": 100,
+          "max_output_tokens": 6000
+        },
+        "parent_id": null
+      }
+    },
+    {
+      "name": "selected-method-without-mapping",
+      "schema": "Provenance",
+      "value": {
+        "consultation_id": "example-consultation-1",
+        "revision": 3,
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "request_digest": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+        "method_selection_note": "合成形状示例，不证明任何方法执行。",
+        "methods": [
+          {
+            "method_id": "example-water-reasoning",
+            "package_digest": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+            "scope": "合成方法形状示例，不对应真实专家包",
+            "readiness": "research_only",
+            "selection_reason": "只演示完整加载追溯，不提供真实结论",
+            "files": [
+              {
+                "path": "examples/fictional-method.md",
+                "digest": "sha256:4444444444444444444444444444444444444444444444444444444444444444"
+              }
+            ],
+            "critical_item_ids": [
+              "necessary-inputs",
+              "optional-tone"
+            ],
+            "critical_item_mappings": []
+          }
+        ],
+        "steps": [
+          {
+            "id": "example-step-1",
+            "role": "single",
+            "round": 0,
+            "status": "succeeded",
+            "model": "synthetic-example-only",
+            "configuration_artifact_id": "example-config",
+            "input_artifact_id": "example-request",
+            "output_artifact_id": "example-response",
+            "provider_request_id": null,
+            "limitation": "文档形状，不是实际调用"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "example-evidence-1",
+            "artifact_id": "example-source",
+            "locator": "第1句",
+            "source_url": null,
+            "accessed_at": "2026-11-01T00:00:00Z",
+            "support_scope": "合成用户提供的未知水量，仅用于示例"
+          }
+        ],
+        "independence_limits": [
+          "未运行真实席位，不产生共识。"
+        ],
+        "missing_materials": [
+          "旱季供需参数"
+        ],
+        "artifact_ids": [
+          "example-request",
+          "example-response",
+          "example-source",
+          "example-config"
+        ]
+      }
+    },
+    {
+      "name": "preserved-item-without-request-locator",
+      "schema": "Provenance",
+      "value": {
+        "consultation_id": "example-consultation-1",
+        "revision": 3,
+        "knowledge_release_id": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+        "request_digest": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+        "method_selection_note": "合成形状示例，不证明任何方法执行。",
+        "methods": [
+          {
+            "method_id": "example-water-reasoning",
+            "package_digest": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+            "scope": "合成方法形状示例，不对应真实专家包",
+            "readiness": "research_only",
+            "selection_reason": "只演示完整加载追溯，不提供真实结论",
+            "files": [
+              {
+                "path": "examples/fictional-method.md",
+                "digest": "sha256:4444444444444444444444444444444444444444444444444444444444444444"
+              }
+            ],
+            "critical_item_ids": [
+              "necessary-inputs",
+              "optional-tone"
+            ],
+            "critical_item_mappings": [
+              {
+                "critical_item_id": "necessary-inputs",
+                "source_locator": "合成方法第1条",
+                "request_artifact_id": "example-request",
+                "request_locator": null,
+                "disposition": "preserved",
+                "reason": "未知前提影响结论",
+                "impact": "只能给条件性建议"
+              },
+              {
+                "critical_item_id": "optional-tone",
+                "source_locator": "合成方法第2条",
+                "request_artifact_id": null,
+                "request_locator": null,
+                "disposition": "not_used",
+                "reason": "本任务只评审依据，不要求指定表达风格",
+                "impact": "不声称还原任何专家语气"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "example-step-1",
+            "role": "single",
+            "round": 0,
+            "status": "succeeded",
+            "model": "synthetic-example-only",
+            "configuration_artifact_id": "example-config",
+            "input_artifact_id": "example-request",
+            "output_artifact_id": "example-response",
+            "provider_request_id": null,
+            "limitation": "文档形状，不是实际调用"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "example-evidence-1",
+            "artifact_id": "example-source",
+            "locator": "第1句",
+            "source_url": null,
+            "accessed_at": "2026-11-01T00:00:00Z",
+            "support_scope": "合成用户提供的未知水量，仅用于示例"
+          }
+        ],
+        "independence_limits": [
+          "未运行真实席位，不产生共识。"
+        ],
+        "missing_materials": [
+          "旱季供需参数"
+        ],
+        "artifact_ids": [
+          "example-request",
+          "example-response",
+          "example-source",
+          "example-config"
+        ]
+      }
+    }
+  ]
+}

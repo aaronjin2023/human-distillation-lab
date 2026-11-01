@@ -1,6 +1,6 @@
 # Wyrd Sisters
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Granny Weatherwax
 
 角色职责：protagonist · 身份：`identity-6bec297fb3d8e9f3` · 独立版本：`profile-071009b5eb8e667c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在预定秩序无法及时救民时，倾向主动介入并灵活改局（行为推断；S20、S22、S23、S34）
 - **核心动机**：试图阻止新王对土地与臣民造成不可逆转的持续伤害（行为推断；S21、S22、S23）
@@ -28,6 +34,10 @@
 ### Leonal Felmet
 
 角色职责：central-antagonist · 身份：`identity-0ae8ad4c98d865d6` · 独立版本：`profile-ec80f87f3361c568`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在统治合法性受威胁时，倾向以操纵公众认识维护自身（行为推断；S24、S25）
 - **核心动机**：希望借有利于自己的戏剧赢得民心，并削弱女巫的力量（摘要直接叙述；S24、S25）

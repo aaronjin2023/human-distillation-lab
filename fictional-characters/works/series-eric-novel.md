@@ -1,6 +1,6 @@
 # Eric (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rincewind
 
 角色职责：protagonist · 身份：`identity-c93556c44c84481e` · 独立版本：`profile-1f77dd37fa0f4b9c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被误认并受困的局面中，倾向机敏应变以寻找脱身机会（行为推断；S32、S42、S44）
 - **核心动机**：面对不断变化的囚困与险境，持续谋求自己和埃里克的脱身（行为推断；S32、S42、S44）
@@ -28,6 +34,10 @@
 ### Eric Thursley
 
 角色职责：co-lead · 身份：`identity-7cb7d0ecf14533c6` · 独立版本：`profile-2a153f9260301f8c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追求愿望时倾向凭理想化想象行动，低估愿望的实际含义（行为推断；S21、S29、S35、S38、S41）
 - **核心动机**：通过召唤恶魔追求统治世界、遇见绝世美人与永生（摘要直接叙述；S16、S21、S29、S38）

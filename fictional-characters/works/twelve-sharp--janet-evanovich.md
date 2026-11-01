@@ -1,6 +1,6 @@
 # Twelve Sharp
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 9, 2006. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-ec0582a58ec99a1e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被绑架的险境中，她倾向抓住对方需求灵活周旋（行为推断；S13）
 - **决策方式**：面对绑架者的资金需求，她选择以赏金目标转移行动方向（摘要直接叙述；S13）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-d110d96db6991258` · 独立版本：`profile-6b28d4bd9c74d9bd`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在女儿遇险的情境中，他表现出持续行动的坚韧倾向（行为推断；S6、S25）
 - **核心动机**：即使遭警方追捕，他仍将寻找被绑架的女儿作为目标（摘要直接叙述；S6）
 - **决策方式**：救援时他选择利用诱饵和定位装置追踪绑架者（摘要直接叙述；S10、S11）
@@ -42,6 +52,10 @@
 ### Edward Scrog
 
 角色职责：central-antagonist · 身份：`identity-cb748a70516ffaf1` · 独立版本：`profile-692d55baf43af740`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在冒充他人的过程中，他呈现强烈占有与控制倾向（行为推断；S7、S12、S14）
 - **核心动机**：他想取代Ranger的身份，并拼凑属于自己的家庭（摘要直接叙述；S9、S12）

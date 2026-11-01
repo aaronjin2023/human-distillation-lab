@@ -1,6 +1,6 @@
 # Edge of Eternity
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 5, 2014. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Dmitri Dvorkin
 
 角色职责：co-lead · 身份：`identity-728018b05d8dcec0` · 独立版本：`profile-689713b76336fa0d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对僵化的官僚领导时，倾向持续寻找改变现状的机会（行为推断；S32）
 - **核心动机**：他持续寻找改革派领导人，并参与帮助戈尔巴乔夫上台（摘要直接叙述；S32）
@@ -27,6 +33,10 @@
 ### Tanya Dvorkin
 
 角色职责：co-lead · 身份：`identity-f95df9acfb2568a9` · 独立版本：`profile-9dc991424837dbeb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在高压新闻环境中，倾向隐蔽行事并承担异议表达风险（行为推断；S33）
 - **核心动机**：秘密写作和外运禁文的行动，倾向让官方之外的观点流通（行为推断；S33）

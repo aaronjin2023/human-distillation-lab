@@ -1,6 +1,6 @@
 # A Memory of Light
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-ccfbb9fa197117f0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在各国利益冲突面前，倾向坚持整体方案并争取协同（行为推断；S11、S13、S15、S20）
 - **核心动机**：既要集结力量迎战暗帝，也要为战后建立持久和平（摘要直接叙述；S11、S13）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-2c108f97a6d39bc9` · 独立版本：`profile-feb80baa3f313da3`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在战局崩溃的压力下，倾向主动重组力量并制造转机（行为推断；S29、S30、S46）
 - **核心动机**：承担联军指挥后，致力于集结残部并赢得最后战场（行为推断；S29、S46）
 - **决策方式**：倾向用示弱和误导诱使敌将投入资源，再组织反击（行为推断；S30、S46）
@@ -43,6 +53,10 @@
 ### Egwene
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-3d5ebce0de89078a`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在战斗造成重大损失时，倾向迎击威胁并尝试突破困局（行为推断；S41、S42、S43）
 - **价值取舍**：为消灭造成大规模伤亡的敌人，愿意付出自身生命（摘要直接叙述；S42、S43）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jay Gatsby
 
 角色职责：protagonist · 身份：`identity-0bc8b4f7c4a5a897` · 独立版本：`profile-d83e667c377adda0`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追求黛西时，呈现执着于理想爱情并难以接受复杂现实的倾向（行为推断；S25、S29、S30、S36）
 - **核心动机**：希望凭借新获得的财富与盛大聚会，使黛西重新选择自己（摘要直接叙述；S25）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-5afda77901c0b5da` · 独立版本：`profile-5df4574bd065bc75`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在两段关系正面冲突时，呈现情感摇摆并倾向退回既有婚姻（行为推断；S30、S31、S32）
 - **关系模式**：对丈夫与旧爱都保留感情，无法满足任何一方的排他期待（摘要直接叙述；S29、S30）
 - **决策方式**：得知盖茨比财富来自非法生意后，选择继续留在丈夫身边（摘要直接叙述；S31、S32）
@@ -43,6 +53,10 @@
 ### Tom Buchanan
 
 角色职责：central-antagonist · 身份：`identity-26611ec54d2140ec` · 独立版本：`profile-76deba650bb0eed3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在情人触及妻子话题时，表现出以暴力维护关系界限的倾向（行为推断；S15）
 - **核心动机**：在妻子婚外情曝光后，倾向维护婚姻归属并压倒竞争者（行为推断；S27、S28、S31、S33）

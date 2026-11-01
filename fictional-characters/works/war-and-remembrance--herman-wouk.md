@@ -1,6 +1,6 @@
 # War and Remembrance
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: November 12, 1978. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Victor Henry
 
 角色职责：protagonist · 身份：`identity-45186ecb3e1199dd` · 独立版本：`profile-d61839907582db32`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：他为人直率诚实，因此获得政治领袖和私人情敌的尊重（摘要直接叙述；S27）
 - **成长变化**：他从巡洋舰舰长升为海军少将，后来出任总统海军副官（摘要直接叙述；S14、S20、S26）
@@ -24,6 +30,10 @@
 ### Byron Henry
 
 角色职责：co-lead · 身份：`identity-83b9b2822431cab9` · 独立版本：`profile-bd8638cf7c1798aa`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家人下落不明时，他倾向持续寻找并主动争取行动机会（行为推断；S46、S64、S65、S66）
 - **核心动机**：他反复争取欧洲任务，希望与妻子团聚并找回失散的儿子（摘要直接叙述；S46、S64、S65）
@@ -41,6 +51,10 @@
 
 角色职责：co-lead · 身份：`identity-29195dadc151d06f` · 独立版本：`profile-acff5b5076101514`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在早期判断纳粹威胁时，她倾向相信熟悉的文明形象而低估危险（行为推断；S9、S10）
 - **核心动机**：她拒绝立即随丈夫离开，是因为担忧携带幼子穿越战乱的风险（摘要直接叙述；S47、S48）
 - **决策方式**：面对逃亡选择，她接受等待护照的安排，希望取得正式出境条件（行为推断；S49）
@@ -55,6 +69,10 @@
 ### Aaron Jastrow
 
 角色职责：co-lead · 身份：`identity-8fc62876a78329d3` · 独立版本：`profile-f86f46b3906b0a89`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在获得旧学生保护承诺时，他倾向相信私人关系能提供安全（行为推断；S75、S76）
 - **价值取舍**：即使保护者提出要求，他仍拒绝参与为轴心国服务的宣传广播（摘要直接叙述；S77、S78）

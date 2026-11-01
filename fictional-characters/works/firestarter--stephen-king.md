@@ -1,6 +1,6 @@
 # Firestarter
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 28, 1980. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charlene McGee
 
 角色职责：protagonist · 身份：`identity-a1ccb0c9a178e9a2` · 独立版本：`profile-29e8e93b2f25dfbd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在机构拘禁中倾向坚持自主，以拒绝展示能力抵抗对方控制（行为推断；S20、S22）
 - **关系模式**：对伪装成清洁工的雷恩伯德建立信任，因而开始配合能力展示（摘要直接叙述；S23、S25）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-8cd040c2898d6ed1` · 独立版本：`profile-ad4977853e5ac7e8`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在女儿受威胁时倾向冒险保护，即使自身能力伴随严重身体代价（行为推断；S7、S9、S10、S11）
 - **核心动机**：持续逃亡与策划越狱的核心目标，是让自己与女儿摆脱机构控制（摘要直接叙述；S12、S13、S26）
 - **决策方式**：恢复能力后倾向隐藏真实状态，通过操纵关键人员积累逃脱条件（行为推断；S24、S26）
@@ -44,6 +54,10 @@
 ### John Rainbird
 
 角色职责：central-antagonist · 身份：`identity-cf48f211ec3db6a3` · 独立版本：`profile-429cda73835306c5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在接近查理时倾向耐心伪装与操纵，把建立信任作为控制手段（行为推断；S18、S23、S25）
 - **核心动机**：对查理能力的兴趣发展为执迷，企图先与她结交再亲手杀死她（摘要直接叙述；S18）

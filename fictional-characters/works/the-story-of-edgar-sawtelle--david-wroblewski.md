@@ -1,6 +1,6 @@
 # The Story of Edgar Sawtelle
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 5, 2008. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Edgar
 
 角色职责：protagonist · 身份：`identity-2bdb9dd1f823d086` · 独立版本：`profile-ea94fd49f2e48224`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在父亲死因存疑时表现出强烈求证倾向，不愿轻易接受表象（行为推断；S25、S27、S28、S29）
 - **核心动机**：他试图确认叔父是否杀害父亲，并寻找能够证明的毒物（摘要直接叙述；S27、S51、S52）
@@ -28,6 +34,10 @@
 ### Claude
 
 角色职责：central-antagonist · 身份：`identity-2b28e454b1a3f504` · 独立版本：`profile-8e773a95b64a05ee`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在秘密可能被揭穿时，倾向隐瞒与算计而非正面澄清（行为推断；S49、S51、S53、S61）
 - **核心动机**：移动毒物并袭击埃德加的行为，显示此时意在阻止秘密暴露（行为推断；S51、S52、S60、S61）

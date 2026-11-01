@@ -1,6 +1,6 @@
 # Finger Lickin' Fifteen
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 12, 2009. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-e358b257e28536af`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在追查连续盗窃时表现出耐心求证的倾向，能坚持辨明幕后手法（行为推断；S14）
 - **核心动机**：在协助朋友之外，也投入调查以查清兰杰客户接连失窃的原因（行为推断；S4、S6、S14）
@@ -23,6 +29,10 @@
 ### Lula
 
 角色职责：co-lead · 身份：`identity-d819e2c141aa56ce` · 独立版本：`profile-26910e8ca5587921`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在报酬诱惑与追杀压力下表现出冒险倾向，缺少厨艺仍投入比赛（行为推断；S3、S4、S8）
 - **核心动机**：希望借烤肉比赛接近可疑厨师，取得抓获凶手的高额悬赏（摘要直接叙述；S3）
@@ -38,6 +48,10 @@
 ### Ranger
 
 角色职责：major-support · 身份：`identity-d110d96db6991258` · 独立版本：`profile-1de1d412ebbf4684`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在客户失窃危机中倾向谨慎部署，并借可信赖的合作者展开调查（行为推断；S5、S6）
 - **核心动机**：面对客户接连失窃，倾向查清盗窃来源并维护公司的经营安全（行为推断；S5、S6、S16）

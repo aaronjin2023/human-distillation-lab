@@ -1,6 +1,6 @@
 # Never Go Back
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 22, 2013. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Reacher
 
 角色职责：protagonist · 身份：`identity-bb1bad18dcdb5c38` · 独立版本：`profile-ec6797c0df4d14a4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受威吓与制度阻拦时呈现强硬、不轻易退让的倾向（行为推断；S2、S3、S7、S12）
 - **核心动机**：面对构陷持续追查，意在洗清指控并揭露军内犯罪（行为推断；S10、S12、S18、S26、S27）
@@ -28,6 +34,10 @@
 ### Susan Turner
 
 角色职责：co-lead · 身份：`identity-0254197ba92defad` · 独立版本：`profile-8e78852e850db25b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被构陷与逃亡期间仍呈现冷静梳理线索的倾向（行为推断；S18、S22）
 - **核心动机**：在共同调查中寻求揭开任务背后的勾连并洗清嫌疑（行为推断；S22、S26、S28）

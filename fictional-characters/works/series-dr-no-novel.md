@@ -1,6 +1,6 @@
 # Dr. No (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series James Bond; reported series sales: 100 million[233]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/James_Bond
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### James Bond
 
 角色职责：protagonist · 身份：`identity-360901462b1a4d14` · 独立版本：`profile-3cd8034b7d06716f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭到监视和连续暗算时，他表现出迎险追查的坚韧倾向（行为推断；S24、S25、S26）
 - **核心动机**：他潜入蟹岛，是为了查明诺博士与同僚失踪是否有关（摘要直接叙述；S20、S26）
@@ -23,6 +29,10 @@
 ### Doctor Julius No
 
 角色职责：central-antagonist · 身份：`identity-d42af1531a89d75f` · 独立版本：`profile-87b146b67b8214e1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在掌控俘虏时，他表现出将他人痛苦对象化的残酷倾向（行为推断；S34、S35）
 - **核心动机**：他刻意设置受难过程，以观察人体承受疼痛与生存的能力（摘要直接叙述；S34、S35）

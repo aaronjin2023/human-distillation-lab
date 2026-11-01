@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "tamura-yumi",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮限定《ミステリと言う勿れ 第16卷》的公开书目与小学馆商品页OGP，居中第16卷封面（两侧为模糊填充）。其他时期未逐年比较；不将改编动画或影视团队成果归本人。八维配方为原创一般技法迁移，连续分镜建议不冒称封面可证。",
+  "recent_focus": {
+    "work": "ミステリと言う勿れ 第16卷",
+    "year": 2026,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "小学馆核定日文第16卷通常版 2026-02-10 发行；2026 是该卷出版年，不能把原画作画日或全书画面日期一并推定。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ミステリと言う勿れ 第16卷：公开书目与署名",
+      "url": "https://shogakukan-comic.jp/book?isbn=9784098732951",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选漫画的作者署名与版本范围",
+        "小学馆核定日文第16卷通常版 2026-02-10 发行；2026 是该卷出版年，不能把原画作画日或全书画面日期一并推定。"
+      ],
+      "access_note": "实际读公开正文／出版社供稿书目；不表示通读整卷，不以动画或影视改编替代漫画证据。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "ミステリと言う勿れ 第16卷：实际观察的公开图",
+      "url": "https://shogakukan-comic.jp/book-images/ogp/books/9784098732951.jpg",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅该公开图可见的线形、体块、明暗、色彩及构图"
+      ],
+      "access_note": "从上述公开页面明确提取图像链接，下载到临时文件后实际通过 view_image 查看。定位：小学馆商品页OGP，居中第16卷封面（两侧为模糊填充）；只支持该画面，未读内页；字体与书封装帧不自动视为作者绘画。",
+      "origin_page_url": "https://shogakukan-comic.jp/book?isbn=9784098732951",
+      "observed_asset_sha256": "306be9b8c341b91f379db2fac4aa079371e207f623f3aa2f4d112662ffb8d55c",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看官方OGP中的第16卷封面：近距人物面部叠在岩石与海岸形背景上方，黑色蓬松发形对照暖黄亮脸，鼻颧与下颌由柔和色面转折表现；紫灰暗部和褐暖环境相邻。书影外围模糊填充与字体仅视为宣传版式，不归作者笔法。只支持可见封面。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "官方商品页署名田村由美、核定第16卷ISBN与发行年月；本轮只研究漫画书影，不使用真人剧照或影视宣传美术。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "实际查看官方OGP中的第16卷封面：近距人物面部叠在岩石与海岸形背景上方，黑色蓬松发形对照暖黄亮脸，鼻颧与下颌由柔和色面转折表现；紫灰暗部和褐暖环境相邻。书影外围模糊填充与字体仅视为宣传版式，不归作者笔法。只支持可见封面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看官方OGP中的第16卷封面：近距人物面部叠在岩石与海岸形背景上方，黑色蓬松发形对照暖黄亮脸，鼻颧与下颌由柔和色面转折表现；紫灰暗部和褐暖环境相邻。书影外围模糊填充与字体仅视为宣传版式，不归作者笔法。只支持可见封面。",
+      "observation": "实际查看官方OGP中的第16卷封面：近距人物面部叠在岩石与海岸形背景上方，黑色蓬松发形对照暖黄亮脸，鼻颧与下颌由柔和色面转折表现；紫灰暗部和褐暖环境相邻。书影外围模糊填充与字体仅视为宣传版式，不归作者笔法。只支持可见封面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "五官关键线清楚而皮肤轮廓相对柔和，发形以深色大群与少量细线分层，鼻颧转折优先用明暗面。",
+    "shapes": "成年脸部鼻梁、颧骨、下颌与颈部有厚度，写实骨面与简省线条并置，不套原角色发形。",
+    "composition": "让既定焦点占有连续浅面，环境信息可在其周围低对比叠层；必须保留项目实际空间，不自动改成海岸。",
+    "panel_rhythm": "原创分镜迁移建议：谈话信息与安静反应镜头交替，用视线连接既定空间；没有从封面推定原作实际对话排格。",
+    "tonal_design": "深色发群、灰阶皮肤和暖色背景分三层，暗面相连但保留鼻翼、眼睑和嘴部识别。",
+    "environment": "用户指定的环境以材料纹理和宽色面建立深度，纹理对比低于脸部骨点；不借新地点制造悬疑。",
+    "acting": "用目光聚焦、眼睑张力和嘴部微差表达思考，成年骨面不能被统一美化成同一张脸。",
+    "color": "由本次封面转译为暖赭亮面与紫灰暗面，低彩金黄集中焦点；已有发色衣色锁定时保留本色。"
+  },
+  "steps": [
+    "在项目既定场景中先划分脸部浅面与周围中深色群。",
+    "搭建成年头颈肩胸骨面，以色面确定鼻颧和下颌转折。",
+    "合并发群与衣服暗面，环境纹理降低对比，保护五官边界。",
+    "逐项核对目光、嘴角与场景层次，删去来自原封面的标志性造型。"
+  ],
+  "checks": [
+    "鼻颧与下颌是否靠体积而非大量描线成立？",
+    "环境叠层是否没有压住眼鼻口？",
+    "保持既定外形与故事后，表情是否仍能读出思考态度？"
+  ],
+  "sheet_traits_zh": "成年鼻梁颧骨下颌有明确厚度，五官线清楚而皮肤边略软；发群深块、布料中灰与皮肤浅面分层。",
+  "avoid": [
+    "把原封面的卷发、人物身份或海岸背景复制到项目。",
+    "把宣传图两侧的模糊填充当成作者固定作画法。"
+  ],
+  "unknowns": [
+    "只观察宣传图中居中第16卷书影，未看整卷内页和细笔刷；OGP压缩及印刷会影响色彩。",
+    "尚未核该卷助手分工或直接作者过程说明，八维建议不冒称本人流程。",
+    "8维方案、4步骤、评审与提示词为本库原创转译，未实际生成或完成画面一致性验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

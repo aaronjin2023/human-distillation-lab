@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "asano-inio",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "晚安，布布（Goodnight Punpun）。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 本轮阶段说明：关注已读本人关于生活背景与伏笔安排的方法；不据此宣称2026年的数字绘画流程。",
+  "recent_focus": {
+    "work": "The Strange Everyday Worlds of Manga Creator Inio Asano（本人方法访谈）",
+    "year": 2018,
+    "source_ids": [
+      "S2"
+    ],
+    "date_basis": "正文标2018年6月14日；该年份为采访文章发表年，不是《晚安，布布》单行本或配图绘制年。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "VIZ | The Official Website for Goodnight Punpun",
+      "url": "https://www.viz.com/goodnight-punpun",
+      "publisher": "VIZ Media",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社署名浅野一二〇，介绍以家庭失序与成长为故事范围。"
+      ],
+      "access_note": "实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "The Strange Everyday Worlds of Manga Creator Inio Asano (2018 interview)",
+      "url": "https://www.barnesandnoble.com/blog/the-strange-everyday-worlds-of-manga-creator-inio-asano/",
+      "publisher": "Barnes & Noble",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "浅野在TCAF采访中说明预先安排故事起止与线索，并从居住地周围取背景，追求小范围生活的丰富感。开篇鸟形描述是采访者分析，不混作本人方法。"
+      ],
+      "access_note": "实际打开采访正文并定位生活背景与伏笔问答；未读取漫画内页，也不外推到其2026全部数字工具。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "浅野在TCAF采访中说明预先安排故事起止与线索，并从居住地周围取背景，追求小范围生活的丰富感。开篇鸟形描述是采访者分析，不混作本人方法。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社署名浅野一二〇，介绍以家庭失序与成长为故事范围。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "浅野在TCAF采访中说明预先安排故事起止与线索，并从居住地周围取背景，追求小范围生活的丰富感。开篇鸟形描述是采访者分析，不混作本人方法。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": "No inspected visual finding; work-stage visual target requires references and review.",
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "建筑用细直线，成年人物外轮廓略粗，内轮廓省略三分之一。",
+    "shapes": "现实成年人体配极简椭圆脸，避免使用鸟形主角。",
+    "composition": "广角街道占画面三分之二，孤立人物偏角落。",
+    "panel_rhythm": "原创建议：三格相近街景后接一格无台词近景。",
+    "tonal_design": "路面中灰，窗洞实黑，人物脸保白。",
+    "environment": "电线、店窗与路口提供生活密度，不贴照片冒作手绘。",
+    "acting": "以垂肩、收下巴和回避视线表现犹豫。",
+    "color": "本库原创彩色建议：灰蓝街景加一处橙灯；本轮未核作者色稿，不归为作者固定色板。"
+  },
+  "steps": [
+    "先做三厘米缩略图：广角街道占画面三分之二，孤立人物偏角落。",
+    "搭人物体块并落实动作：现实成年人体配极简椭圆脸，避免使用鸟形主角。以垂肩、收下巴和回避视线表现犹豫。",
+    "描线时明确材质与环境：建筑用细直线，成年人物外轮廓略粗，内轮廓省略三分之一。电线、店窗与路口提供生活密度，不贴照片冒作手绘。",
+    "压成三阶黑白再复查：路面中灰，窗洞实黑，人物脸保白。扩展连续页时，原创建议：三格相近街景后接一格无台词近景。"
+  ],
+  "checks": [
+    "缩略图里人物虽小仍能定位",
+    "黑窗不吞没头部轮廓",
+    "重复街景中只改变一项动作"
+  ],
+  "sheet_traits_zh": "成人外轮廓略粗，五官简化为清楚椭圆与短线；身体保持现实比例，服装内线减量，发和折口黑、皮肤白、布面灰。",
+  "avoid": [
+    "把简化人物直接画成原作鸟形",
+    "背景密度使情绪焦点失踪"
+  ],
+  "unknowns": [
+    "已核补充采访或机构评述，但仍未直接观察漫画内页。配方中的线、造型、构图和节奏是本库原创转译，未逐项确认为作者本人规则。",
+    "未比对原版、译本、早晚期画风与彩色原稿；本配方不承诺风格复刻。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

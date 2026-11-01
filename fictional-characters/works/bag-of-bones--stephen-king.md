@@ -1,6 +1,6 @@
 # Bag of Bones
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 11, 1998. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mike Noonan
 
 角色职责：protagonist · 身份：`identity-652f97ef3e7fcf88` · 独立版本：`profile-dee3ebf16f3711f6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对自身恐惧与母女的困境时，他倾向主动介入并承担保护责任。（行为推断；S4、S7、S17、S25、S27）
 - **情绪反应**：妻子去世多年后，他仍深陷哀伤，并受到噩梦持续困扰。（摘要直接叙述；S2、S3）
@@ -29,6 +35,10 @@
 ### Sara Tidwell
 
 角色职责：central-antagonist · 身份：`identity-dae830db500713af` · 独立版本：`profile-a50a26b9bdcebccb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在死后复仇的情境中，她倾向持续追索并把报复扩大。（行为推断；S22、S24、S26）
 - **核心动机**：她的诅咒指向自己及儿子遭杀害的旧案，意在追偿伤害。（行为推断；S24、S26）

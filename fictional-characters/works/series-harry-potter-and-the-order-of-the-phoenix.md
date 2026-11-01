@@ -1,6 +1,6 @@
 # Harry Potter and the Order of the Phoenix
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Harry Potter; reported series sales: 600 million[13][197][198]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Harry_Potter
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harry Potter
 
 角色职责：protagonist · 身份：`identity-6731c01eb468c5e3` · 独立版本：`profile-1cf1554fb1e3e316`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭到排斥与压制时，倾向主动争取参与和行动空间（行为推断；S18、S22、S27）
 - **核心动机**：希望参与对抗伏地魔，并帮助同学获得实际防御能力（摘要直接叙述；S22、S27）
@@ -27,6 +33,10 @@
 ### Dolores Umbridge
 
 角色职责：central-antagonist · 身份：`identity-474d14d52448a9ba` · 独立版本：`profile-07bde1c09a853ebc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在学校权力运作中，呈现强势控制与压制自主性的倾向（行为推断；S26、S33、S35）
 - **价值取舍**：在教学治理中，倾向把服从规定置于学生实践能力之前（行为推断；S26、S33）

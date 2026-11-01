@@ -1,6 +1,6 @@
 # The Magician's Land
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 24, 2014. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Quentin Coldwater
 
 角色职责：protagonist · 身份：`identity-f980a58b31a88864` · 独立版本：`profile-9e3aa390e970b3cb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对救援代价与世界崩毁时，倾向持续行动而不轻易放弃（行为推断；S4、S5、S17、S18）
 - **核心动机**：在得知旧世界即将毁灭后，倾向把挽救它作为行动目标（行为推断；S13、S17、S18）
@@ -28,6 +34,10 @@
 ### Alice
 
 角色职责：co-lead · 身份：`identity-e65626067cf85e69` · 独立版本：`profile-7628a09a3bf7dee6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对世界末日时仍倾向迎向危险，表现出不轻易退却的韧性（行为推断；S17）
 - **情绪反应**：被恢复成人类形态之初，她对这一改变感到强烈愤怒（摘要直接叙述；S13、S14）

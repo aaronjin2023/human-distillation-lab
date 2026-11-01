@@ -1,6 +1,6 @@
 # Triple
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 9, 1979. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Nathaniel Dickstein
 
 角色职责：protagonist · 身份：`identity-6962a731f02a8ba4` · 独立版本：`profile-e9c9e69774d7066d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在持续跟踪与复杂任务中倾向沉着周旋，反复寻找可操作的突破口（行为推断；S11、S12、S16、S18、S26、S27）
 - **核心动机**：奉命为以色列夺取铀矿，既防范埃及核威胁也支持本国核武计划（摘要直接叙述；S8、S9）
@@ -28,6 +34,10 @@
 ### Yasif Hassan
 
 角色职责：central-antagonist · 身份：`identity-05b3ae9f32a6f9ae` · 独立版本：`profile-55234b9f52ded8b6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在多方情报合作中倾向机会主义周旋，为自己的目标背弃既有伙伴（行为推断；S13、S16、S25）
 - **核心动机**：意图将铀矿交给巴勒斯坦游击队，而非按合作方预期处理战利品（摘要直接叙述；S25）

@@ -1,6 +1,6 @@
 # The Hotel New Hampshire
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 27, 1981. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Berry
 
 角色职责：protagonist · 身份：`identity-acda39d99fc7d39d` · 独立版本：`profile-de2e2ab04c6580bc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭受创时倾向以照护和实际投入回应，带有保护亲人的倾向（行为推断；S40、S46、S47）
 - **核心动机**：渴望保护弗兰妮并得到她的认可，也试图减轻未能阻止袭击的内疚（摘要直接叙述；S40）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-fdd032a90736a0b7` · 独立版本：`profile-b8967c2f2042c316`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在家庭危机中倾向主动承担领导与保护责任，有时表现得冒失强硬（行为推断；S49、S50）
 - **核心动机**：其外向甚至冒进的举动，主要出于保护所爱之人的意愿（摘要直接叙述；S50）
 - **情绪反应**：性暴力经历使她显露敏感与自我怀疑，并持续影响此后人生（摘要直接叙述；S52）
@@ -44,6 +54,10 @@
 ### Win Berry
 
 角色职责：major-support · 身份：`identity-2bde06134c1a74d5` · 独立版本：`profile-2071b664c639f327`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在生活不如意时倾向寄望理想化的新事业，持续寻找更好的生活（行为推断；S6、S7、S13、S14）
 - **核心动机**：对既有教职生活的不满足，推动他把废弃学校改造成旅馆（行为推断；S6、S7、S13）

@@ -1,6 +1,6 @@
 # The Son of Tarzan
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Tarzan; reported series sales: 50 million[260]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Tarzan
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack
 
 角色职责：protagonist · 身份：`identity-e5d75856cc416b7f` · 独立版本：`profile-b1a6772367325824`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭禁令面前倾向追随好奇心，主动接近陌生生命（行为推断；S21、S22）
 - **核心动机**：对野生动物与荒野的强烈兴趣推动他越出优裕生活（行为推断；S21、S22）
@@ -29,6 +35,10 @@
 ### Alexis Paulvitch
 
 角色职责：central-antagonist · 身份：`identity-344a783ecc9efdcb` · 独立版本：`profile-259a114c98b95ef9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遇到可利用的信任时倾向伪装合作，隐藏伤害意图（行为推断；S20、S27）
 - **核心动机**：发现旧敌之子后，报复机会直接驱动其谋杀企图（摘要直接叙述；S27）

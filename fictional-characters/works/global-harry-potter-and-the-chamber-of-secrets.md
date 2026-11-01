@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harry Potter
 
 角色职责：protagonist · 身份：`identity-6731c01eb468c5e3` · 独立版本：`profile-47a4ab4677fc19e6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危险情境中，他倾向冒险查明威胁并救助受困同学。（行为推断；S23、S24、S25、S28、S30）
 - **核心动机**：金妮被带入密室后，他与罗恩的追查可理解为试图营救她。（行为推断；S25、S28、S33）
@@ -23,6 +29,10 @@
 ### Dobby
 
 角色职责：major-support · 身份：`identity-67a25563faf6f93c` · 独立版本：`profile-f5168cae260a19d3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在阻止哈利返校时，他倾向强行干预，不顾对方明确拒绝。（行为推断；S3、S4、S16）
 - **核心动机**：他认为哈利身处危险，要求哈利承诺不再返回学校。（摘要直接叙述；S3）

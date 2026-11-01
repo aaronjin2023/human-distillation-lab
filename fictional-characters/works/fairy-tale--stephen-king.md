@@ -1,6 +1,6 @@
 # Fairy Tale
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 25, 2022. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Charlie Reade
 
 角色职责：protagonist · 身份：`identity-80c2822c069d375f` · 独立版本：`profile-8fccf1cf5d234a8b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在他者需要帮助时，他倾向主动照护并承担危险（行为推断；S6、S7、S9、S17、S37）
 - **核心动机**：最初出手照护邻人与狗，源于对父亲戒酒康复的感恩（摘要直接叙述；S3、S6、S7、S9）
@@ -29,6 +35,10 @@
 
 角色职责：major-support · 身份：`identity-3e11a84bada103e8` · 独立版本：`profile-21dcdb088447436a`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对Elden作恶的消息，她倾向先受亲情牵引而抗拒相信（行为推断；S30、S35）
 - **核心动机**：在Charlie劝说后，她参与阻止Elden再次开启深井的行动（摘要直接叙述；S34、S36、S37）
 - **价值取舍**：亲眼确认Elden的转变后，她选择制止危害而不再回避亲情冲突（行为推断；S35、S38）
@@ -44,6 +54,10 @@
 ### Elden
 
 角色职责：central-antagonist · 身份：`identity-22bec29702abf9e6` · 独立版本：`profile-53623569ee7f6715`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在长期受欺凌的背景下，他表现出将怨恨转成报复的倾向（行为推断；S31、S33）
 - **核心动机**：诅咒Empis的明确动机是报复自己曾遭受的虐待（摘要直接叙述；S33）

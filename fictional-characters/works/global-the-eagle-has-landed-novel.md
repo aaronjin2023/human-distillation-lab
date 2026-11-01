@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Oberst Kurt Steiner
 
 角色职责：co-lead · 身份：`identity-684ec6dc13fccb2c` · 独立版本：`profile-1bfd1913dfbc3f51`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在任务败局中，他仍执意继续行动，但接近目标时出现迟疑。（行为推断；S20、S22、S23）
 - **核心动机**：他接受绑架任务，是为了确保自己反纳粹父亲的安全。（摘要直接叙述；S15）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-bb9afd0399edc15c` · 独立版本：`profile-67cf7ad6b12a0efa`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在此次行动中，他虽不情愿为德方情报机构效力，仍能执行潜伏。（行为推断；S12）
 - **价值取舍**：在Molly面临性暴力威胁时，他的救助表现出保护受害者的取向。（行为推断；S13）
 - **决策方式**：潜入英国时，他冒充受伤退伍军人，并借Grey安排取得职位。（摘要直接叙述；S12）
@@ -34,6 +44,10 @@
 ### Oberst Radl
 
 角色职责：major-support · 身份：`identity-e4b210be1ffabc56` · 独立版本：`profile-b150acd2f30c743f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在绑架计划的筹备中，他表现得十分自信，确信行动能够成功。（行为推断；S9、S10）
 - **核心动机**：他受命研究绑架Churchill的可行性，并据线报设计行动。（摘要直接叙述；S6、S7、S9）

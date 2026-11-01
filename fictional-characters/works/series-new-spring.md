@@ -1,6 +1,6 @@
 # New Spring
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Moiraine Damodred
 
 角色职责：protagonist · 身份：`identity-04885aa66030b635` · 独立版本：`profile-87549eb8c0a71f36`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生人与阴谋面前倾向保持戒心，并主动核查疑点（行为推断；S26、S35）
 - **核心动机**：在怀疑搜寻遭黑宗阻挠后，仍倾向持续寻找转生真龙（行为推断；S19、S21、S51）
@@ -28,6 +34,10 @@
 ### Lan
 
 角色职责：co-lead · 身份：`identity-19f02e648b76a741` · 独立版本：`profile-2fe48a64db0fbc27`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对他人安排的政治与婚姻角色时，倾向抗拒受控（行为推断；S33、S38）
 - **核心动机**：试图阻止埃黛恩召集故国遗民发动夺回家园的行动（摘要直接叙述；S23、S24）

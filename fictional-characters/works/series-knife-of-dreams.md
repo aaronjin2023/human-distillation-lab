@@ -1,6 +1,6 @@
 # Knife of Dreams
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：protagonist · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-8997180cc325151d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在外部战争与内部冲突并存时，表现出寻求妥协的倾向（行为推断；S22、S23）
 - **核心动机**：试图与霄辰达成停战，以缓和持续的军事对立（摘要直接叙述；S22）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-5628a4c87db4e593` · 独立版本：`profile-4fa7075dcb17b818`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在营救妻子的压力下，倾向务实整合可用的外部力量（行为推断；S26、S27）
 - **核心动机**：以击败沙度并救回妻子菲尔作为这条行动线的核心目标（摘要直接叙述；S26）
 - **决策方式**：面对敌方导引者的数量优势，倾向先削弱能力再交战（行为推断；S27）
@@ -42,6 +52,10 @@
 ### Egwene al'Vere
 
 角色职责：co-lead · 身份：`identity-f8fd743a0b3a6a82` · 独立版本：`profile-df51c2de065d9515`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被囚禁且受严厉惩戒时，表现出不轻易屈服的倾向（行为推断；S32、S33）
 - **核心动机**：在被囚期间仍试图削弱白塔内部对伊莱达领导资格的认可（行为推断；S32、S33）

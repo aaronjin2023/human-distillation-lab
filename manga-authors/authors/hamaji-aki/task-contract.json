@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "hamaji-aki",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮限定《ぼっち・ざ・ろっく！ 第8卷》的公开书目与原版第8卷公开封面，Hanmoto 600px书影。其他时期未逐年比较；不将改编动画或影视团队成果归本人。八维配方为原创一般技法迁移，连续分镜建议不冒称封面可证。",
+  "recent_focus": {
+    "work": "ぼっち・ざ・ろっく！ 第8卷",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "出版社供稿书目核定日文第8卷 2025-11-27 首发；2025 为卷册出版年，封面作画日未核，不用动画年份代替。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ぼっち・ざ・ろっく！ 第8卷：公开书目与署名",
+      "url": "https://www.hanmoto.com/bd/isbn/9784832296770",
+      "publisher": "芳文社供稿／版元ドットコム",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选漫画的作者署名与版本范围",
+        "出版社供稿书目核定日文第8卷 2025-11-27 首发；2025 为卷册出版年，封面作画日未核，不用动画年份代替。"
+      ],
+      "access_note": "实际读公开正文／出版社供稿书目；不表示通读整卷，不以动画或影视改编替代漫画证据。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "ぼっち・ざ・ろっく！ 第8卷：实际观察的公开图",
+      "url": "https://img.hanmoto.com/bd/img/9784832296770_600.jpg?lastupdated=2025-10-30T11%3A46%3A56%2B09%3A00",
+      "publisher": "芳文社供稿／版元ドットコム",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅该公开图可见的线形、体块、明暗、色彩及构图"
+      ],
+      "access_note": "从上述公开页面明确提取图像链接，下载到临时文件后实际通过 view_image 查看。定位：原版第8卷公开封面，Hanmoto 600px书影；只支持该画面，未读内页；字体与书封装帧不自动视为作者绘画。",
+      "origin_page_url": "https://www.hanmoto.com/bd/isbn/9784832296770",
+      "observed_asset_sha256": "fbf1ae6d3b45fb0e442071ff303048eda463c088088d36ca85c35edcdb9f67b6",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看第8卷书影：四位原角色围在近距桌旁，服装大黑块被窄灰亮边分开，脸部明亮且各自表情不同；桌面暖黄与后景低彩深色对照，头部相互遮挡但仍能分别识别。只支持此封面，不推定四格节奏。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "公开书目明确はまじあき为著者、芳文社发行，第8卷120页；本轮采用原版书影，未把外传或动画作画计为本人。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "实际查看第8卷书影：四位原角色围在近距桌旁，服装大黑块被窄灰亮边分开，脸部明亮且各自表情不同；桌面暖黄与后景低彩深色对照，头部相互遮挡但仍能分别识别。只支持此封面，不推定四格节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看第8卷书影：四位原角色围在近距桌旁，服装大黑块被窄灰亮边分开，脸部明亮且各自表情不同；桌面暖黄与后景低彩深色对照，头部相互遮挡但仍能分别识别。只支持此封面，不推定四格节奏。",
+      "observation": "实际查看第8卷书影：四位原角色围在近距桌旁，服装大黑块被窄灰亮边分开，脸部明亮且各自表情不同；桌面暖黄与后景低彩深色对照，头部相互遮挡但仍能分别识别。只支持此封面，不推定四格节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "眼口用清楚少线表达，发束内线稀疏，深衣边缘用少量窄灰线分材料。",
+    "shapes": "原创角色使用自然成年胸廓骨盆，头部可适度概括但不继承原角色年龄、发型和服装。",
+    "composition": "按照项目已有角色数量安排轮廓空隙，焦点脸部保持亮区，深衣与周围暗形不要糊成整体。",
+    "panel_rhythm": "原创分镜迁移建议：建立既定关系后给细小反应，再恢复空间；未观察内页，不声称此为作者固定四格方法。",
+    "tonal_design": "深衣归一大明度群，脸手留浅，接缝和硬材用窄亮边区分；背景暗面比主体关键线更弱。",
+    "environment": "保留用户已有场景与物件，只通过低彩中远层衬主体；不自动加入桌椅、乐器或演出环境。",
+    "acting": "各既定成年人物以眼睑、嘴型和目光方向表达不同态度，避免所有人复制同一笑脸。",
+    "color": "由封面转译为深中性色、暖黄亮面和少量红色强调；已有发色、衣色锁定时只调光影，不强行换色。"
+  },
+  "steps": [
+    "在既定人物数量与故事中画明暗缩图，先保证各头部和手部可以区分。",
+    "建立成年结构，服装大面先于接缝细节完成，保留原定发型衣色。",
+    "把深衣合成黑灰群，再补脸手浅面和少量材料亮边。",
+    "逐个检查目光、嘴型与既定情绪，压低无关环境对比。"
+  ],
+  "checks": [
+    "缩图后各既定角色的头部和手部是否可分？",
+    "深衣是否仍有接缝与材料层次而非一团黑？",
+    "表情是否符合各自意图且没有新增人物事件？"
+  ],
+  "sheet_traits_zh": "清楚眼口配简省发束线，静态成年体块自然；深衣连黑区，皮肤浅面，窄灰边区分布料与硬材。",
+  "avoid": [
+    "照搬封面四人数量、发色、制服或桌边场景。",
+    "把封面表情分析误称已核内页四格节奏。"
+  ],
+  "unknowns": [
+    "实际只看第8卷封面；未看连续内页，无法核本人排格与助手分工。",
+    "仅有出版社供稿书目，未读直接作者方法访谈。",
+    "8维方案、4步骤、评审与提示词为本库原创转译，未实际生成或完成画面一致性验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

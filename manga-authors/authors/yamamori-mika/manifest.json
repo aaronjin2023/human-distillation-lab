@@ -1,0 +1,179 @@
+{
+  "id": "yamamori-mika",
+  "name": "Mika Yamamori",
+  "name_zh": "山森三香",
+  "legacy_refs": [],
+  "name_ja": "やまもり三香",
+  "family": "情感与日常",
+  "scope": "皎洁深宵之月（In the Clear Moonlit Dusk）第1卷漫画。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 补充有限视觉观察：うるわしの宵の月（1）日文原版封面；具体图只支撑对应封面/展示图，不混同原版内页。 本轮阶段说明：旧卡确为这一日文第1卷封面；不能因2026年动画或第10卷发行而重标旧视觉。",
+  "reference_works": [
+    {
+      "title": "皎洁深宵之月（In the Clear Moonlit Dusk）第1卷漫画",
+      "role": "独立漫画创作（本次出版社作者署名范围）",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "title": "うるわしの宵の月（1）日文原版封面",
+      "role": "该作公开封面/展示图的有限观察；设计装帧与内页画法分开",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "In the Clear Moonlit Dusk Volume 1 – Kodansha",
+      "url": "https://kodansha.us/book/in-the-clear-moonlit-dusk/in-the-clear-moonlit-dusk-volume-1/",
+      "publisher": "Kodansha",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社署名Mika Yamamori，介绍人物因外貌被称王子而被误读的关系故事；原创方案使用成年人物。"
+      ],
+      "access_note": "实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "うるわしの宵の月（1）日文原版封面：官方公开图像",
+      "url": "https://dvs-cover.kodansha.co.jp/0000347553/gTjKAOtKPxMt219NCuS2ZEqF9F5CkUVvWCmOuGgL.jpg",
+      "publisher": "讲谈社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "两张近脸错层相靠，深发与几乎白发形成强对比；下颌和鼻梁线简洁，黑衣白领是下部大块，红色底让目光更集中。只支持这一封面的脸部线、明度和距离组织。"
+      ],
+      "access_note": "从公开页面 https://www.kodansha.co.jp/titles/1000038268 的HTML明确提取图像URL，下载到自有/tmp后实际通过view_image查看。定位：うるわしの宵の月（1）日文原版封面。仅查看这一封面/展示图，未阅读内页；未将HTML alt当作视觉证据。",
+      "origin_page_url": "https://www.kodansha.co.jp/titles/1000038268",
+      "observed_asset_sha256": "a3aab6045720053595331283ec98ccd6afb6c3288c475522d7bde5efe1b4544e",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "两张近脸错层相靠，深发与几乎白发形成强对比；下颌和鼻梁线简洁，黑衣白领是下部大块，红色底让目光更集中。只支持这一封面的脸部线、明度和距离组织。"
+      ]
+    },
+    {
+      "id": "SPDATE1",
+      "title": "うるわしの宵の月（1）｜讲谈社",
+      "url": "https://www.kodansha.co.jp/comic/products/0000347553",
+      "publisher": "讲谈社",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "日本原版第1卷2020年12月11日发行。"
+      ],
+      "access_note": "本轮实际检索摘要或打开公开正文核对日期；未新增图像观察。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社署名Mika Yamamori，介绍人物因外貌被称王子而被误读的关系故事；原创方案使用成年人物。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "两张近脸错层相靠，深发与几乎白发形成强对比；下颌和鼻梁线简洁，黑衣白领是下部大块，红色底让目光更集中。只支持这一封面的脸部线、明度和距离组织。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "下颌与鼻梁用干净直弧线，头发以宽束负形塑造。",
+    "shapes": "成年人物修长，气质靠重心与肩线而非性别夸张。",
+    "composition": "平视半身双人像，手与肩的间隙构成中心。",
+    "panel_rhythm": "原创建议：外貌印象全身格、真正交流半身格、手部回应。",
+    "tonal_design": "黑衣大块保持完整，脸与锁骨区域清亮。",
+    "environment": "简洁咖啡店与门口照明支撑人物相遇。",
+    "acting": "抬眼与略后移的肩展示被注视时的不习惯。",
+    "color": "本库原创彩色建议：奶白、炭灰与一处薄荷绿；本轮仅见所列公开封面/展示图，未系统核作者色稿，不归为作者固定色板。"
+  },
+  "drawing_steps": [
+    "先做三厘米缩略图：平视半身双人像，手与肩的间隙构成中心。",
+    "搭人物体块并落实动作：成年人物修长，气质靠重心与肩线而非性别夸张。抬眼与略后移的肩展示被注视时的不习惯。",
+    "描线时明确材质与环境：下颌与鼻梁用干净直弧线，头发以宽束负形塑造。简洁咖啡店与门口照明支撑人物相遇。",
+    "压成三阶黑白再复查：黑衣大块保持完整，脸与锁骨区域清亮。扩展连续页时，原创建议：外貌印象全身格、真正交流半身格、手部回应。"
+  ],
+  "review_checks": [
+    "身份气质不靠性别符号刻板划分",
+    "两人手肩间隙有清楚形状",
+    "黑衣边界在暗背景中可分辨"
+  ],
+  "avoid": [
+    "把修长等同未成年体型",
+    "只画精致脸却忽略身体互动"
+  ],
+  "best_for": [
+    "情感与日常原创短篇",
+    "人物与环境关系练习"
+  ],
+  "prompt_core_zh": "中性成年人物的原创漫画视觉方向：干净下颌鼻梁直弧线配宽束发形负空间，成人修长但不幼态；平视构图把手肩间隙放在中心，完整黑块托白脸，抬眼含蓄。保留既定故事、身份、场景与道具，只迁移这些视觉技法，适配所需格式。",
+  "prompt_core_en": "Apply clean jaw and nose contours, broad hair negative spaces and elegant adult proportions, level-view framing with a deliberate gap between hands and shoulders, uninterrupted dark masses and pale facial planes. Preserve the supplied story, character roles, setting, props, and action sequence. Use neutral adult anatomy and original designs. Adapt these visual choices to the requested format without adding a new narrative. Keep focal hierarchy and spatial continuity readable.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "Kodansha的漫画出版或公开机构介绍语境；不推断民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "本轮不采集私人生活；未核生卒保持null。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "known_gaps": [
+    "已实际观察所列封面或公开展示图，范围与卷版见对应来源；未由封面推断连续分镜。八维配方、流程和提示词仍为本库原创转译，不是作者通用作画规则。",
+    "未比对原版、译本、早晚期画风与彩色原稿；本配方不承诺风格复刻。"
+  ],
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "下颌鼻梁用干净直弧线，发形以宽束负形划分；成人修长但胸肩成熟，完整黑衣托住白脸和清亮锁骨，衣褶节制。",
+  "focus": "情感与日常",
+  "recent_focus": {
+    "work": "うるわしの宵の月（1）日文原版封面",
+    "year": 2020,
+    "source_ids": [
+      "S2",
+      "SPDATE1"
+    ],
+    "date_basis": "讲谈社纸版及电子版均为2020年12月11日发行；初出为デザート2020年9–12月号。"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [
+    {
+      "text": "两张近脸错层相靠，深发与几乎白发形成强对比；下颌和鼻梁线简洁，黑衣白领是下部大块，红色底让目光更集中。只支持这一封面的脸部线、明度和距离组织。",
+      "observation": "两张近脸错层相靠，深发与几乎白发形成强对比；下颌和鼻梁线简洁，黑衣白领是下部大块，红色底让目光更集中。只支持这一封面的脸部线、明度和距离组织。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

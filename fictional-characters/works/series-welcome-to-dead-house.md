@@ -1,6 +1,6 @@
 # Welcome to Dead House
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Goosebumps; reported series sales: 400 million[199]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Goosebumps
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Amanda Benson
 
 角色职责：co-lead · 身份：`identity-d529c774c0452dcf` · 独立版本：`profile-c5351b57cc6c88ff`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生住宅与居民，表现出细察异常的敏感倾向（行为推断；S19、S26、S31、S39）
 - **情绪反应**：对搬迁环境的不安并非固定不变，看到卧室后曾感到好转（摘要直接叙述；S19、S27）
@@ -27,6 +33,10 @@
 ### Josh Benson
 
 角色职责：co-lead · 身份：`identity-ed8fb8c9815bf2cb` · 独立版本：`profile-2da9a9c6d5589021`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在搬迁与危险情境中，倾向直接表达不满并迅速采取行动（行为推断；S24、S49、S59）
 - **核心动机**：宠物失踪后，希望找到它，并主动提出再次搜索墓地（摘要直接叙述；S42、S43）

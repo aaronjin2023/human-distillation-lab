@@ -1,6 +1,6 @@
 # The Runaway Jury
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 2, 1996. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Nicholas Easter
 
 角色职责：co-lead · 身份：`identity-b67985d72011835e` · 独立版本：`profile-05dda03a08cd1bcd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陪审团操盘中，他倾向灵活亲近可争取者并强硬排除阻力（行为推断；S10、S11、S12）
 - **核心动机**：他与Marlee共同追求打破烟草公司的胜诉优势并获得正义满足（行为推断；S20、S25）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-f8cf84b4484a6db6` · 独立版本：`profile-44be613ceffe4aef`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在秘密交涉中，她呈现善于伪装意图并严密保护身份的倾向（行为推断；S13、S14、S16、S18）
 - **核心动机**：父母因烟草死亡的经历，使她以反吸烟立场介入这场审判（行为推断；S18）
 - **价值取舍**：她将欺骗理解为对付烟草公司的必要办法，并坚持返还原始贿款（摘要直接叙述；S26、S27）
@@ -44,6 +54,10 @@
 ### Rankin Fitch
 
 角色职责：central-antagonist · 身份：`identity-483da9ab1229024e` · 独立版本：`profile-ae3d64c5fba71c58`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在诉讼竞争中，他倾向把他人的隐私与处境视为可利用弱点（行为推断；S5、S6、S7、S8）
 - **核心动机**：他希望继续替烟草行业赢得审判，阻止不利赔偿判决出现（摘要直接叙述；S5、S17）

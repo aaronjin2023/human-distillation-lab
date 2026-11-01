@@ -1,6 +1,6 @@
 # Lessons in Chemistry
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 25, 2022. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Elizabeth Zott
 
 角色职责：protagonist · 身份：`identity-a65a31ecb70d5fd4` · 独立版本：`profile-a8ed5d9aade95f34`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭遇侵犯与职业压制时，倾向直接反抗而非顺从权威。（行为推断；S2、S26、S27、S35、S36）
 - **核心动机**：即使被机构排斥，仍持续寻求开展化学研究的机会。（行为推断；S12、S13、S46、S49）
@@ -28,6 +34,10 @@
 ### Miss Frask
 
 角色职责：major-support · 身份：`identity-d6c44daf43092d42` · 独立版本：`profile-b2e2ae7a250c93fd`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在了解Zott的遭遇后，倾向以实际支持表达同情与担当。（行为推断；S23、S25、S45）
 - **价值取舍**：面对歪曲Zott的报道，倾向维护当事人获得公正呈现的权利。（行为推断；S41、S43、S45）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### The Narrator/the Second Mrs de Winter
 
 角色职责：protagonist · 身份：`identity-88e0a860095a3f94` · 独立版本：`profile-1cbf09ceb2580ee8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：初到曼德利时，她怯懦天真，容易被丹弗斯太太和周遭评价压制。（摘要直接叙述；S9、S13、S38、S45）
 - **核心动机**：她希望得到马克西姆的爱与肯定，因此担心他后悔娶她且仍眷恋丽贝卡。（行为推断；S14、S26）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-ddc4306411c36a7f` · 独立版本：`profile-db1ee28f7c467991`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：他平日克制寡言，婚后对新妻显得冷淡，且受创伤影响。（摘要直接叙述；S46、S47、S48）
 - **核心动机**：丽贝卡以让他抚养别人的孩子相挑衅时，他因愤怒而开枪杀害她。（摘要直接叙述；S23、S24）
 - **决策方式**：杀人后把尸体置于船中沉海，显示他在此时选择隐匿证据以掩盖真相。（行为推断；S24、S25）
@@ -34,6 +44,10 @@
 ### Mrs Danvers
 
 角色职责：central-antagonist · 身份：`identity-9fb5302b2c557016` · 独立版本：`profile-b12f05f468418e03`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：她冷酷专横，持续以心理打压孤立并折磨曼德利的新女主人。（摘要直接叙述；S9、S13、S50、S53）
 - **核心动机**：她执着守护丽贝卡的记忆，并反感新夫人取代丽贝卡的位置。（摘要直接叙述；S11、S52、S53）

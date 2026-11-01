@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jonathan Livingston Seagull
 
 角色职责：protagonist · 身份：`identity-93ee62de1f638d60` · 独立版本：`profile-5cddd7cd7338a447`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对群体排斥，仍表现出独立探索并持续精进飞行的倾向（行为推断；S2、S3、S4、S5）
 - **核心动机**：从追求更高飞行境界，进一步转向把所学传给原来的鸥群（摘要直接叙述；S3、S12、S14）
@@ -28,6 +34,10 @@
 ### Fletcher Lynd Seagull
 
 角色职责：major-support · 身份：`identity-61ab18fc8622ecbb` · 独立版本：`profile-87e603559227e619`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在从学生转为教师时，表现出愿意反省并修正理解的倾向（行为推断；S26、S27）
 - **核心动机**：热爱飞行并继续传授所学，希望新学生理解自由的可能性（行为推断；S15、S25、S26）

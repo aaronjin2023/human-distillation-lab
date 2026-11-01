@@ -1,0 +1,147 @@
+{
+  "id": "ito-junji",
+  "name": "Junji Ito",
+  "name_zh": "伊藤润二",
+  "legacy_refs": [],
+  "name_ja": "伊藤潤二",
+  "family": "怪谈与悬疑",
+  "scope": "《うずまき》2009年小学馆合本版书目；补2023年4Gamer本人访谈，卡牌制作方法不自动泛化为全部漫画 本轮阶段说明：年份对应本人访谈发表及当次委托语境；不把所谈旧漫画画面定为2023年新作。",
+  "reference_works": [
+    {
+      "title": "うずまき",
+      "role": "漫画独立创作",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "うずまき｜小学館コミック",
+      "url": "https://shogakukan-comic.jp/book?isbn=9784091832429",
+      "publisher": "小学館",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社署名伊藤潤二并介绍小镇异常与离开困境；实际绘画方法另外依据2023年本人访谈。"
+      ],
+      "access_note": "实际检索获得出版社/机构摘要；未据摘要声称阅读漫画内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "伊藤潤二氏にカードイラストと創作について聞いた",
+      "url": "https://www.4gamer.net/games/136/G013687/20230413048/",
+      "publisher": "4Gamer",
+      "accessed_at": "2026-11-01",
+      "access_method": "interview_text",
+      "supports": [
+        "伊藤在2023年访谈谈此次单色卡牌委托时强调白纸与黑笔对比，以排线而非淡墨形成调子；谈漫画则说明先保留有趣的点子，再从短笔记扩成文字与分镜，若趣味丢失会回头修改。"
+      ],
+      "access_note": "实际web打开并find阅读L243—269及L290—306；卡牌委托的排线选择不泛化成全部漫画固定规程。",
+      "evidence_type": "method-statement",
+      "supported_claims": [
+        "伊藤在2023年访谈谈此次单色卡牌委托时强调白纸与黑笔对比，以排线而非淡墨形成调子；谈漫画则说明先保留有趣的点子，再从短笔记扩成文字与分镜，若趣味丢失会回头修改。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社署名伊藤潤二并介绍小镇异常与离开困境；实际绘画方法另外依据2023年本人访谈。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "伊藤在2023年访谈谈此次单色卡牌委托时强调白纸与黑笔对比，以排线而非淡墨形成调子；谈漫画则说明先保留有趣的点子，再从短笔记扩成文字与分镜，若趣味丢失会回头修改。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "正常成人脸用清洁细线，异常表面用方向一致的密排线，与脸部留白对照",
+    "shapes": "成年观察者自然头身，异常从无生命物件发生，不照搬已有怪物",
+    "composition": "前景日常物件占三分之一，成年观察者在后方，焦点是一处不符合材质的接缝",
+    "panel_rhythm": "本库建议正常物件、首次异常、重复验证、扩大后果逐步递进，揭示格避免文字遮挡",
+    "tonal_design": "只用白纸与黑线制造三级密度，不靠灰色模糊滤镜",
+    "environment": "普通厨房的瓷面与木纹各有稳定材质，异常破坏其中一条规则",
+    "acting": "观察者先眯眼再后仰，手缩回，恐惧来自验证后的理解",
+    "color": "本库建议单色墨黑加旧白纸；无作者彩稿依据，不规定其色板"
+  },
+  "drawing_steps": [
+    "记录一个普通物件令人不适的原创细节",
+    "先画完全正常版本作为对照",
+    "只破坏一条材质规则，再画成年人的验证动作",
+    "用排线密度强化异常并检查最初有趣之处是否仍在"
+  ],
+  "review_checks": [
+    "异常是否有清楚的正常版本参照",
+    "排线方向是否解释表面而非噪点",
+    "验证动作是否使恐惧增加"
+  ],
+  "avoid": [
+    "直接套用螺旋等代表性机制会使原创性不足",
+    "过早堆满怪物会失去日常物件变可怕的过程"
+  ],
+  "best_for": [
+    "成人物件怪谈",
+    "逐步验证悬疑",
+    "黑白纹理练习"
+  ],
+  "prompt_core_zh": "正常成年脸用洁净细线，异常表面用定向密排线，头身自然。前景物件与后方观察者分层，只破坏一条材质规则，白纸黑线形成三级密度；眯眼、缩手和后仰表现验证后的恐惧，诡异来自熟悉材料的矛盾。",
+  "prompt_core_en": "Use clean fine outlines for naturally proportioned adult faces and dense directional hatching for only one abnormal surface. Layer a foreground object against a person observing from behind, breaking a single material rule rather than filling the image with monsters. Separate three densities of black line and reserved white paper. A narrowed eye, withdrawing hand, and backward lean should show fear growing through verification, making the uncanny arise from a sustained contradiction within familiar material.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "本轮核定为日本漫画出版或展览语境；不据此推定民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "生卒未逐人全面核查，保留null；公开署名为笔名时不当作法定姓名。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "known_gaps": [
+    "除单独列出的有限方法或视觉证据外，未逐页核查原漫画、各生涯阶段或原稿工具；八维配方、流程与提示词为本库原创转译，不是作者原话。"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "成年自然体块配清洁细脸线，衣料纹理采用同向密排线并避开五官；以白纸、疏线、密线形成三级明暗，轮廓不靠模糊灰化。",
+  "focus": "怪谈与悬疑/纹理",
+  "recent_focus": {
+    "work": "4Gamer单色卡牌插画与漫画创作本人访谈",
+    "year": 2023,
+    "source_ids": [
+      "S2"
+    ],
+    "date_basis": "本轮重开正文L187明确2023/05/03 10:32；URL中20230413不是文章显示发布日期。"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [],
+  "recognition_unknown": "No inspected visual finding; work-stage visual target requires references and review.",
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

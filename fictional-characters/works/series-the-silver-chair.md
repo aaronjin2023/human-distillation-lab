@@ -1,6 +1,6 @@
 # The Silver Chair
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Chronicles of Narnia; reported series sales: 120 million[228]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jill Pole
 
 角色职责：co-lead · 身份：`identity-f8f504b58e7eeb77` · 独立版本：`profile-9b13d309e5fb56ae`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在悬崖边展示自己时倾向逞强，对眼前危险的判断不足（行为推断；S17）
 - **核心动机**：进入纳尼亚后的行动目标是协助寻找失踪多年的王子（摘要直接叙述；S19、S20）
@@ -28,6 +34,10 @@
 ### Eustace Scrubb
 
 角色职责：co-lead · 身份：`identity-906e27e6d596c1c8` · 独立版本：`profile-3297954f6c1673a2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对吉尔临近悬崖的危险，在此情境倾向主动保护同伴（行为推断；S17）
 - **核心动机**：遭受校园欺凌威胁时，希望借阿斯兰的帮助摆脱困境（摘要直接叙述；S15、S16）

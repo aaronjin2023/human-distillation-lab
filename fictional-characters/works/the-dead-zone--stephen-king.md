@@ -1,6 +1,6 @@
 # The Dead Zone
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: October 14, 1979. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Johnny Smith
 
 角色职责：protagonist · 身份：`identity-3be908e81fc72c7f` · 独立版本：`profile-9aca9e9c72b97bc8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对杀人可能性时倾向反复自省与迟疑，不轻易把预见当作行动许可（行为推断；S23、S24）
 - **核心动机**：原本希望恢复普通教学生活，后来转以阻止核战争为首要目标（摘要直接叙述；S11、S12、S27）
@@ -28,6 +34,10 @@
 ### Greg Stillson
 
 角色职责：central-antagonist · 身份：`identity-04a23444aac5c1b5` · 独立版本：`profile-f47427b8509df200`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在受挫与权力竞争中倾向报复和威吓，以暴力压制弱者及阻碍者（行为推断；S3、S18）
 - **核心动机**：为取得政治职位和所需资源，积极迫使他人为自己的竞选提供支持（行为推断；S18、S19、S20）

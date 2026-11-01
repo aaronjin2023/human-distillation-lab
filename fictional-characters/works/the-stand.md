@@ -1,6 +1,6 @@
 # The Stand
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 13, 1990. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stuart Redman
 
 角色职责：protagonist · 身份：`identity-d56b708bddb3ad83` · 独立版本：`profile-c8f69d4967253540`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：受拘禁与生命威胁时，他倾向于主动求生，寻找机会逃离控制。（行为推断；S13、S14）
 - **价值取舍**：途中受伤时，他倾向于让共同任务继续，接受自己被留下的风险。（行为推断；S34、S41、S42）
@@ -23,6 +29,10 @@
 ### Abagail Freemantle
 
 角色职责：co-lead · 身份：`identity-0455adc077d0fadd` · 独立版本：`profile-1ee44ebb8a898c8d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：共同体壮大后，她倾向于严格反省自身，因认为骄傲而自我放逐。（行为推断；S30）
 - **核心动机**：临终时，她将对抗弗拉格作为四名幸存者必须承担的使命传达。（摘要直接叙述；S34）
@@ -39,6 +49,10 @@
 ### Randall Flagg
 
 角色职责：central-antagonist · 身份：`identity-12b39acaab198f38` · 独立版本：`profile-8fb5a8dbbebb2d11`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在建立统治与面对异议时，他倾向于以威慑和暴力巩固控制。（行为推断；S26、S43、S45）
 - **核心动机**：他建立拉斯维加斯势力，并筹备向博尔德发动战争。（摘要直接叙述；S25、S29）

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Robert Langdon
 
 角色职责：protagonist · 身份：`identity-710cf6abca59cabf` · 独立版本：`profile-10c8ee9ed8bcbd7c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他面对连续危机仍坚持追查线索并设法救人。（行为推断；S7、S8、S11、S12）
 - **核心动机**：他与Vittoria合作追查绑架案，试图阻止针对梵蒂冈的袭击。（行为推断；S5、S6、S7、S8、S10、S27）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-ae395564fef5bbaa` · 独立版本：`profile-00d5afd25496f741`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在追查危机时，她表现出协作意愿，获救后仍协力反击刺客。（行为推断；S7、S8、S12）
 - **核心动机**：养父遭谋杀后，她参与调查，试图查明失窃反物质所涉阴谋。（行为推断；S3、S4、S5、S6、S7）
 - **决策方式**：她与Langdon依循线索奔走教堂，最终共同击败刺客。（摘要直接叙述；S7、S8、S12）
@@ -34,6 +44,10 @@
 ### Carlo Ventresca
 
 角色职责：central-antagonist · 身份：`identity-63f0aba37a57e6f0` · 独立版本：`profile-f5b0240297c30b01`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他用公开的虔诚姿态掩护阴谋，暴露后表现失控。（行为推断；S23、S24、S37、S39、S42）
 - **核心动机**：他策划伪旗袭击，使教会团结于自己，并诋毁相关科学进展。（摘要直接叙述；S39）

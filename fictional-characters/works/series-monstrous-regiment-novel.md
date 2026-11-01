@@ -1,6 +1,6 @@
 # Monstrous Regiment (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Polly Perks
 
 角色职责：protagonist · 身份：`identity-f03b44463ee48bba` · 独立版本：`profile-62e9e862ac8d0ecf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对限制女性的制度，倾向务实变通并主动争取行动空间（行为推断；S22、S25、S39）
 - **核心动机**：参军主要为了确认哥哥是否生还，也希望保障自己的未来（摘要直接叙述；S24）
@@ -28,6 +34,10 @@
 ### Sergeant-Major Jack Jackrum
 
 角色职责：major-support · 身份：`identity-41efb9b1808952ea` · 独立版本：`profile-769bf9edcc2c73b9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在带兵情境中外表粗厉，却对部下保有实际善意（摘要直接叙述；S26）
 - **价值取舍**：面对排斥女兵的军方裁决，倾向让部下权益优先于保密惯例（行为推断；S42）

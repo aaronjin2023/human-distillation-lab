@@ -1,6 +1,6 @@
 # Blood of Elves
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Wiedźmin (The Witcher); reported series sales: 15 million[335]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Witcher
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Geralt of Rivia
 
 角色职责：protagonist · 身份：`identity-aba090dda4581d03` · 独立版本：`profile-c13017a5101582d7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在保护希里的情境中，倾向主动承担危险与照护责任（行为推断；S22、S30、S34）
 - **核心动机**：追查追捕者及其幕后雇主，以应对希里面临的威胁（行为推断；S26、S34、S35）
@@ -28,6 +34,10 @@
 
 角色职责：co-lead · 身份：`identity-64a6a72813abc799` · 独立版本：`profile-24e2d1089b9cbc54`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在接受叶奈法指导时，起初抗拒但能够逐渐建立信任（行为推断；S39、S41、S42）
 - **情绪反应**：在神殿求学期间，持续受到令人不安的梦境困扰（摘要直接叙述；S40）
 - **关系模式**：与叶奈法的关系由最初对立逐渐发展为母女般的依恋（摘要直接叙述；S41）
@@ -43,6 +53,10 @@
 ### Yennefer of Vengerberg
 
 角色职责：major-support · 身份：`identity-6739a1799f41c98a` · 独立版本：`profile-b389ea3e040cecda`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在丹德里恩遭刑讯时，表现出主动介入危险的保护倾向（行为推断；S27、S28）
 - **核心动机**：承担理解希里魔法力量的任务，并开始教导她使用魔法（摘要直接叙述；S40、S57）

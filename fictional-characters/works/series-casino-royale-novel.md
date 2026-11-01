@@ -1,6 +1,6 @@
 # Casino Royale (novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series James Bond; reported series sales: 100 million[233]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/James_Bond
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### James Bond
 
 角色职责：protagonist · 身份：`identity-360901462b1a4d14` · 独立版本：`profile-645c55cb9fb7771b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在赌局受挫并遭遇杀机时，他仍表现出继续较量的冒险倾向（行为推断；S15、S16、S18、S19）
 - **核心动机**：他的任务目标是赢走勒希弗掌管的资金，使其陷入破产（摘要直接叙述；S12、S19）
@@ -27,6 +33,10 @@
 ### Vesper Lynd
 
 角色职责：co-lead · 身份：`identity-ea0f5a51ae229352` · 独立版本：`profile-c156f06de06c7b3c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在胁迫与追踪之下，她表现出受关系责任牵动的挣扎倾向（行为推断；S28、S29）
 - **核心动机**：她参与破坏任务并非自愿，而是遭到以被绑恋人为筹码的勒索（摘要直接叙述；S27、S28）

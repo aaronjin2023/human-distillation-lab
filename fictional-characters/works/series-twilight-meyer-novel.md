@@ -1,6 +1,6 @@
 # Twilight (Meyer novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Twilight; reported series sales: 160 million[217]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Twilight_(novel_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Isabella Swan
 
 角色职责：protagonist · 身份：`identity-467346738db7bda3` · 独立版本：`profile-93bc6d14f849bd64`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：她被直接描述为内向羞怯，并不适应多人争夺关注（摘要直接叙述；S2、S11、S13）
 - **决策方式**：面对爱德华的异常表现，她倾向主动搜集线索并交叉比对（行为推断；S18、S21、S22）
@@ -23,6 +29,10 @@
 ### Edward Cullen
 
 角色职责：co-lead · 身份：`identity-59b431852ba8a9ba` · 独立版本：`profile-64f784966ec42975`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对对贝拉的危险欲望时，他表现出主动克制的倾向（行为推断；S28、S29）
 - **核心动机**：他最初试图远离贝拉，是为了避免自己伤害她（摘要直接叙述；S29）

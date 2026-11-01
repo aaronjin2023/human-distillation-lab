@@ -1,6 +1,6 @@
 # Prey
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 15, 2002. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jack Forman
 
 角色职责：protagonist · 身份：`identity-3195d32b929f8c43` · 独立版本：`profile-74741150111235d8`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对新技术时倾向保留怀疑，不因演示惊艳就放下戒心（行为推断；S5）
 - **核心动机**：识别感染后持续争取阻断传播，并最终救治家人（行为推断；S26、S32、S35）
@@ -28,6 +34,10 @@
 ### Mae
 
 角色职责：co-lead · 身份：`identity-13d2ca043530c555` · 独立版本：`profile-c256c4689ffd71b5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对致命群体时倾向主动查证并继续承担实地风险（行为推断；S15、S18、S20）
 - **核心动机**：发现共生感染后，与Jack共同寻找阻断感染的办法（行为推断；S22、S25、S33）

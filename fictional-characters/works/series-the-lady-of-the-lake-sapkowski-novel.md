@@ -1,6 +1,6 @@
 # The Lady of the Lake (Sapkowski novel)
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Wiedźmin (The Witcher); reported series sales: 15 million[335]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Witcher
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Ciri
 
 角色职责：protagonist · 身份：`identity-64a6a72813abc799` · 独立版本：`profile-1f8061a7c2a9c86f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在多方试图支配其命运时，表现出反复争取自主行动的倾向（行为推断；S33、S36、S37、S61）
 - **核心动机**：穿越诸世界寻找归途，并主动前往城堡营救叶奈法（摘要直接叙述；S40、S46）
@@ -29,6 +35,10 @@
 ### Geralt
 
 角色职责：co-lead · 身份：`identity-aba090dda4581d03` · 独立版本：`profile-e1e653e3c60dfb17`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在朋友遭到暴力威胁时，倾向亲自介入并承担身体风险（行为推断；S63、S64）
 - **核心动机**：得知叶奈法实际遭到囚禁后，重新投入寻人与营救行动（行为推断；S29、S31、S32、S47）

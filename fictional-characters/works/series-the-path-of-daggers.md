@@ -1,6 +1,6 @@
 # The Path of Daggers
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Wheel of Time; reported series sales: 90 million[236]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Wheel_of_Time
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rand al'Thor
 
 角色职责：co-lead · 身份：`identity-ba5166afa34c91e8` · 独立版本：`profile-e95d10199f2bf2b4`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：初期交战获胜后倾向继续进逼，对撤退劝告表现出强硬坚持（行为推断；S23、S24）
 - **核心动机**：率领联军进入阿特拉，是为击退霄辰入侵并削弱其军事威胁（摘要直接叙述；S22、S23、S26）
@@ -27,6 +33,10 @@
 ### Elayne Trakand
 
 角色职责：co-lead · 身份：`identity-3eaa636d666fc4db` · 独立版本：`profile-a25bff98197c7ac1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对跨群体的气候危机，在此情境倾向通过联合行动解决问题（行为推断；S15）
 - **核心动机**：抵达凯姆林后将行动转向争取王位，明确提出自身继承主张（摘要直接叙述；S17）

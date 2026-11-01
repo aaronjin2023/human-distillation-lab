@@ -1,6 +1,6 @@
 # Onyx Storm
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: February 9, 2025. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Violet Sorrengail
 
 角色职责：protagonist · 身份：`identity-e19788307c0befb1` · 独立版本：`profile-138ceeb202ebbf94`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在同伴离去的情境中，倾向克制占有而承受失落（行为推断；S9）
 - **核心动机**：参与远航寻找治愈泽登异变的方法并争取战时盟友（摘要直接叙述；S3）
@@ -28,6 +34,10 @@
 ### Xaden Riorson
 
 角色职责：co-lead · 身份：`identity-68346ea7dc59d2e0` · 独立版本：`profile-6be76fe50de396ca`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在决战压力下，倾向冒着自身异变的风险加码力量（行为推断；S11）
 - **核心动机**：参与寻找治愈自身异变的方法及争取抗敌盟友（摘要直接叙述；S3）

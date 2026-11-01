@@ -1,6 +1,6 @@
 # Blackwood Farm
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Vampire Chronicles; reported series sales: 80 million[244]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Vampire_Chronicles
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tarquin Blackwood
 
 角色职责：protagonist · 身份：`identity-6efc2d077fb6a68a` · 独立版本：`profile-962a7aa77addc04b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在长期纠缠愈发危险时倾向主动求援，而非独自硬撑到底（行为推断；S15、S16）
 - **核心动机**：寻找莱斯特的直接目标，是摆脱日益恶毒的幽灵哥布林（摘要直接叙述；S16）
@@ -23,6 +29,10 @@
 ### Lestat de Lioncourt
 
 角色职责：major-support · 身份：`identity-00049097b25f820a` · 独立版本：`profile-499ec8ee444ef8e7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲自驱逐幽灵失败后倾向承认局限，愿意转向更合适的援手（行为推断；S19）
 - **核心动机**：接受奎因的求助后，持续寻找能够解除幽灵纠缠的解决办法（行为推断；S16、S18、S19）

@@ -1,6 +1,6 @@
 # The Dark Tower IV: Wizard and Glass
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Dark Tower; reported series sales: 30 million[280]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Roland
 
 角色职责：protagonist · 身份：`identity-b9d3efb9315a39d9` · 独立版本：`profile-81225da67f2ed990`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在少年情境中，表现出容易被复仇与爱情强烈牵动的倾向（行为推断；S25、S33、S34）
 - **核心动机**：接触巫师玻璃后，寻找暗黑塔成为压倒其他目标的优先事项（摘要直接叙述；S48、S49）
@@ -28,6 +34,10 @@
 ### Susan Delgado
 
 角色职责：co-lead · 身份：`identity-52ca65652aa41a57` · 独立版本：`profile-4306963c2ae5abfa`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在恋人与朋友遭陷害时，表现出敢于介入险局的倾向（行为推断；S38、S39）
 - **核心动机**：在追捕局势中，倾向帮助罗兰一行脱困并准备反击（行为推断；S39、S40）

@@ -1,6 +1,6 @@
 # The Bourne Ultimatum
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 18, 1990. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### David Webb
 
 角色职责：protagonist · 身份：`identity-2ac7e016769e4253` · 独立版本：`profile-cada76fa33854a91`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家人遭受持续威胁时，倾向保持警觉并主动应变（行为推断；S5、S6、S33、S34）
 - **核心动机**：在家人受威胁的情境中，追杀旧敌意在抢先解除危险（行为推断；S5、S6）
@@ -28,6 +34,10 @@
 ### Carlos the Jackal
 
 角色职责：central-antagonist · 身份：`identity-1b4d26dd511a5660` · 独立版本：`profile-6602b1843270b460`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭到拒绝或背叛时，倾向以极端暴力恢复控制（行为推断；S17、S40、S42、S43）
 - **核心动机**：因衰老和恶名消退，决意死前杀死旧敌并摧毁训练基地（摘要直接叙述；S3）

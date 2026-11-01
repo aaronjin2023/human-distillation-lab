@@ -1,6 +1,6 @@
 # What the Night Knows
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: January 16, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### John Calvino
 
 角色职责：protagonist · 身份：`identity-62ed241dba9f9e57` · 独立版本：`profile-ed44d792a3331b09`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对不合常理的线索，他倾向持续核查而非立即排除（行为推断；S7、S11、S12、S13）
 - **核心动机**：判断恶灵将再度袭来后，他的行动集中于保全现有家庭（行为推断；S29、S32、S33）
@@ -28,6 +34,10 @@
 ### Alton Turner Blackwood
 
 角色职责：central-antagonist · 身份：`identity-e343aab30ccb5052` · 独立版本：`profile-489415b1423b5ccf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在持续侵害家庭的行为中，他表现出操控且残酷的倾向（行为推断；S18、S22、S30、S31）
 - **核心动机**：其附身行为持续指向借他人之身实施暴行并袭击John一家（行为推断；S22、S29、S30、S31）

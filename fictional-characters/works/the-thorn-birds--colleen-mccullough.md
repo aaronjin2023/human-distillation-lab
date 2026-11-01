@@ -1,6 +1,6 @@
 # The Thorn Birds
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: June 19, 1977. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Meghann Cleary
 
 角色职责：protagonist · 身份：`identity-5ef8e0ef4cfc5d1c` · 独立版本：`profile-20b41c8587f4fbab`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在亲密关系屡次受挫时，她倾向主动设法改变处境而非持续等待（行为推断；S49、S54、S62、S63）
 - **核心动机**：她希望通过生育改变卢克的志向，使他愿意安定下来共同生活（摘要直接叙述；S54）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-8c98e948375038c2` · 独立版本：`profile-d8f4b1b1c551e4ba`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在爱情与教会前途冲突时，他倾向反复克制私情并维护晋升道路（行为推断；S11、S38、S40、S41、S47）
 - **核心动机**：他希望借玛丽对教会的大额遗赠摆脱偏远教区并获得升迁（摘要直接叙述；S9、S10、S11、S32）
 - **价值取舍**：即使看穿遗嘱旨在拆散两人，他仍选择使有利教会前途的安排生效（行为推断；S33、S38、S39、S40）
@@ -44,6 +54,10 @@
 ### Justine
 
 角色职责：major-support · 身份：`identity-5f6c15ebc3e37b91` · 独立版本：`profile-57aea3dcb40814ce`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：成长过程中她独立而聪敏，对母亲示爱之外的人际接近也较疏离（摘要直接叙述；S67）
 - **核心动机**：她决定以演员为职业，并离开澳大利亚前往英国寻求事业发展（摘要直接叙述；S73）

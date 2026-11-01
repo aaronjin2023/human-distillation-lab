@@ -1,6 +1,6 @@
 # Against All Enemies
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 3, 2011. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Maxwell Steven Moore
 
 角色职责：protagonist · 身份：`identity-544d50ca48a9654c` · 独立版本：`profile-8d0b37d87c7e072d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在跨国追查中倾向灵活务实，能够借敌对势力之间的矛盾行动（行为推断；S4、S5、S6）
 - **核心动机**：围绕打击贩毒集团与追捕恐袭组织者展开持续的调查行动（摘要直接叙述；S4、S21、S22）
@@ -27,6 +33,10 @@
 ### Mullah Abdul Samad
 
 角色职责：central-antagonist · 身份：`identity-e50e7218763b9838` · 独立版本：`profile-806004b704eaa463`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：推进袭击计划时呈现冷酷强硬的倾向，将阻路者视为可清除障碍（行为推断；S18、S20）
 - **核心动机**：企图越境进入美国，以多城市协同袭击造成大规模航空伤亡（摘要直接叙述；S17、S19、S20）

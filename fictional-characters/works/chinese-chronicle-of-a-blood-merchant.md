@@ -1,6 +1,6 @@
 # 许三观卖血记
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2024年3月开卷实体店虚构类新书销量第4名（2024版；转引）
 [依据来源](https://www.sohu.com/a/771779927_121117491) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 许三观
 
 角色职责：protagonist · 身份：`identity-df5c7a3c7d24cce6` · 独立版本：`profile-5d3e46097d4fb589`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在家庭危机中倾向亲自硬扛，以身体付出来维持家人生计（行为推断；S23、S54、S55、S56、S57）
 - **核心动机**：反复卖血主要为了改善家庭生活，并应付亲人的紧急困境（摘要直接叙述；S3、S7、S54、S55）
@@ -29,6 +35,10 @@
 ### 一乐
 
 角色职责：major-support · 身份：`identity-d23f05b094e421c6` · 独立版本：`profile-bcabf4e4ec161646`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被排除于家庭照料之外时，倾向主动寻找可接纳自己的关系（行为推断；S29、S30、S31）
 - **核心动机**：遭许三观区别对待后，希望从疑似生父那里获得接纳（摘要直接叙述；S29、S30）

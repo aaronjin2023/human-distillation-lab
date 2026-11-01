@@ -1,6 +1,6 @@
 # Servant of the Bones
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: August 25, 1996. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Azriel
 
 角色职责：protagonist · 身份：`identity-59e0c703dd34b6f5` · 独立版本：`profile-772784ff6965df4d`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在长期受支配的处境中，他逐渐呈现反抗主人控制的倾向（行为推断；S2、S3、S22、S23）
 - **核心动机**：他执意为短暂相识的Esther复仇，并追问自己被召来的原因（摘要直接叙述；S5、S26）
@@ -28,6 +34,10 @@
 ### Gregory Belkin
 
 角色职责：central-antagonist · 身份：`identity-bac3b322c5dfe774` · 独立版本：`profile-3b2ab52a7412b995`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在救世构想中，他呈现不惜代价实现个人愿景的控制倾向（行为推断；S6、S29、S30）
 - **核心动机**：他希望借宗教组织建立新世界政府，实现自认的救世使命（摘要直接叙述；S6、S29、S30）

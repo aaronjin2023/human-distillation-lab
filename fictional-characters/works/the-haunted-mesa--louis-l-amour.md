@@ -1,6 +1,6 @@
 # The Haunted Mesa
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: May 31, 1987. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mike Raglan
 
 角色职责：protagonist · 身份：`identity-89ebdbed334e4e0b` · 独立版本：`profile-c2a7488d2712ec08`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在救援受阻时仍倾向坚持目标，同时会避开眼前强敌（行为推断；S37、S39、S40、S42）
 - **核心动机**：深入第三世界的主要动机是救出遭绑架的老友（摘要直接叙述；S33、S37）
@@ -28,6 +34,10 @@
 ### Erik Hokart
 
 角色职责：co-lead · 身份：`identity-8f016b7ff6525a21` · 独立版本：`profile-6f2a14e5458fc963`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对异常现象时呈现好奇与不安并存的探索倾向（行为推断；S9、S10、S11）
 - **核心动机**：最初勘察台地是为了给自己建造远离喧嚣的住所（摘要直接叙述；S4）

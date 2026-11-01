@@ -1,6 +1,6 @@
 # 蛙
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：2012年开卷虚构畅销榜报道列名作品
 [依据来源](https://www.chinanews.com/cul/2013/01-11/4481265.shtml) · 历史榜单或购买排行；不据此主张当前销量、全球名次或单册累计销量。
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### 姑姑
 
 角色职责：protagonist · 身份：`identity-201302e8acd15da8` · 独立版本：`profile-eb1831fdf612c9d3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在政治忠诚受到怀疑后，呈现以强硬行动回应压力的倾向（行为推断；S15、S16）
 - **核心动机**：严厉执行计划生育的重要动机，是修复受损的政治声誉（摘要直接叙述；S15、S16）
@@ -28,6 +34,10 @@
 ### 陈眉
 
 角色职责：major-support · 身份：`identity-a6b96aaf99761ef3` · 独立版本：`profile-c01171a1fe478175`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在贫困与社区排斥中，寻找孩子时表现出急切执着的倾向（行为推断；S24、S25、S26、S27）
 - **核心动机**：在受损的生活处境中持续寻找婴儿，试图保住母子联结（行为推断；S24、S25、S26、S27）

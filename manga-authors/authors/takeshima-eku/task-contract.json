@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "takeshima-eku",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮限定《ささやくように恋を唄う 第11卷》的公开书目与第11卷通常版出版社封面 static-data/9784758029261.jpg。其他时期未逐年比较；不将改编动画或影视团队成果归本人。八维配方为原创一般技法迁移，连续分镜建议不冒称封面可证。",
+  "recent_focus": {
+    "work": "ささやくように恋を唄う 第11卷",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "一迅社核定日文第11卷通常版 2025-06-27 发行；2025 是原版卷出版年，不是所有画作的落笔年。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ささやくように恋を唄う 第11卷：公开书目与署名",
+      "url": "https://data.ichijinsha.co.jp/detail/75802926",
+      "publisher": "一迅社",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选漫画的作者署名与版本范围",
+        "一迅社核定日文第11卷通常版 2025-06-27 发行；2025 是原版卷出版年，不是所有画作的落笔年。"
+      ],
+      "access_note": "实际读公开正文／出版社供稿书目；不表示通读整卷，不以动画或影视改编替代漫画证据。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "ささやくように恋を唄う 第11卷：实际观察的公开图",
+      "url": "https://static-data.ichijinsha.co.jp/u/cover/9784758029261.jpg",
+      "publisher": "一迅社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅该公开图可见的线形、体块、明暗、色彩及构图"
+      ],
+      "access_note": "从上述公开页面明确提取图像链接，下载到临时文件后实际通过 view_image 查看。定位：第11卷通常版出版社封面 static-data/9784758029261.jpg；只支持该画面，未读内页；字体与书封装帧不自动视为作者绘画。",
+      "origin_page_url": "https://data.ichijinsha.co.jp/detail/75802926",
+      "observed_asset_sha256": "574d3b8e8b3eed67bc085fbf6125354fb597363491e13e35d381a2924270ce53",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "实际查看通常版第11卷封面：两个原角色上半身靠近，长发束以细线分出大组，粉色针织外衣与黑白衣料分明；眼口轮廓清爽，褶线方向和衣料接触点较明确，周围浅底上有少量低彩水彩状色块。只支持此封面。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "出版社明确竹嶋えく署名、ISBN与第11卷发行日期；本轮采用通常版书影，不混特装版附赠或动画画面。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "实际查看通常版第11卷封面：两个原角色上半身靠近，长发束以细线分出大组，粉色针织外衣与黑白衣料分明；眼口轮廓清爽，褶线方向和衣料接触点较明确，周围浅底上有少量低彩水彩状色块。只支持此封面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "实际查看通常版第11卷封面：两个原角色上半身靠近，长发束以细线分出大组，粉色针织外衣与黑白衣料分明；眼口轮廓清爽，褶线方向和衣料接触点较明确，周围浅底上有少量低彩水彩状色块。只支持此封面。",
+      "observation": "实际查看通常版第11卷封面：两个原角色上半身靠近，长发束以细线分出大组，粉色针织外衣与黑白衣料分明；眼口轮廓清爽，褶线方向和衣料接触点较明确，周围浅底上有少量低彩水彩状色块。只支持此封面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "人物外线中细，衣褶细线顺材料方向，眼睑略重但鼻口保持轻量，发束用大组线而非逐根密铺。",
+    "shapes": "自然成年头颈肩胸作为底层，衣料松紧与接触点各有厚度，不搬用原角色学生身材与制服。",
+    "composition": "只按项目既定人物数量组织靠近或分离关系，脸周围留浅面，关键接触边不被发束遮住。",
+    "panel_rhythm": "原创分镜迁移建议：既定接触或交流后用目光反应补充情绪，整体和细节交替；封面不证明实际分页节奏。",
+    "tonal_design": "深衣黑块与浅衣灰面分群，皮肤用轻灰区别白布；针织边以少量规律短线说明厚度。",
+    "environment": "保持用户场景，外围以低对比软色块减噪，不新增花瓣、学校环境或恋爱道具。",
+    "acting": "用眼睑方向、嘴角和手指松紧表达既定态度，强烈表情也要保留手臂连接和接触合理性。",
+    "color": "由封面转译为中性黑白、低彩粉暖面与灰紫阴影；发色衣色服从项目锁定，色温不等于改色。"
+  },
+  "steps": [
+    "先锁定成年人物数量外形，在既定动作中画清肩颈与接触关系。",
+    "衣料分深浅两群，轻灰分开皮肤与浅布，先不画纹样。",
+    "用顺向细褶和少量针织边说明材料，减掉遮住眼口的发丝。",
+    "检查眼睑嘴角和手指态度一致，背景只留项目必需信息。"
+  ],
+  "checks": [
+    "发束是否分组清楚且没有吞掉面部？",
+    "浅布、皮肤与深衣是否灰阶可分？",
+    "既定接触点是否有合理重量且未引入额外手臂？"
+  ],
+  "sheet_traits_zh": "中细外线配顺向细褶，静态成年头颈肩胸明确；皮肤浅灰与白布分层，深衣合黑块，针织边少量短线。",
+  "avoid": [
+    "照搬原封面双人数量、发长或亲密动作。",
+    "用过密发丝与褶线把轻衣画成硬壳。"
+  ],
+  "unknowns": [
+    "只观察通常版第11卷封面，未读内页与作画过程；分镜建议只是原创迁移。",
+    "画面浅底色层可能受印刷影响，不能证明具体水彩工具。",
+    "8维方案、4步骤、评审与提示词为本库原创转译，未实际生成或完成画面一致性验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bruce Wayne
 
 角色职责：protagonist · 身份：`identity-8a9e8e464a744c51` · 独立版本：`profile-56bc777dcc9c2cb9`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在打击犯罪时，倾向严密区隔公开形象与秘密行动（行为推断；S2）
 - **核心动机**：目睹父母遇害后立誓复仇，将打击犯罪作为终身任务（摘要直接叙述；S1、S2）
@@ -27,6 +33,10 @@
 ### Jack Napier
 
 角色职责：central-antagonist · 身份：`identity-85a1f29b76ac9150` · 独立版本：`profile-1b422411bb19eaa5`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在掌控城市的行动中，倾向以戏剧化展示放大伤害效果（行为推断；S13、S14、S20）
 - **核心动机**：遭背叛与毁容后重塑犯罪身份，并夺取原老板的势力（摘要直接叙述；S8、S12、S13、S14）

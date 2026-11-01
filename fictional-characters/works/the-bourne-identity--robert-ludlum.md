@@ -1,6 +1,6 @@
 # The Bourne Identity
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 23, 1980. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Jason Charles Bourne
 
 角色职责：protagonist · 身份：`identity-2ac7e016769e4253` · 独立版本：`profile-8cf0b41ebc4a7987`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失忆与追杀中倾向主动追查身份，也能为曾被自己利用的人冒险（行为推断；S6、S9、S10、S13、S18）
 - **核心动机**：寻找自身过去是最初行动核心，随后又出现难以解释的追捕卡洛斯冲动（摘要直接叙述；S5、S6、S15、S17）
@@ -28,6 +34,10 @@
 ### Marie St. Jacques
 
 角色职责：co-lead · 身份：`identity-b76ad28f8dcb423a` · 独立版本：`profile-1d4274fa274b8674`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭到胁持后仍能依据救助行为重新判断对方，倾向保留修正看法的空间（行为推断；S9、S10、S12、S13、S14）
 - **核心动机**：获救后选择帮助伯恩寻找过去，随后继续为证明其清白而行动（摘要直接叙述；S13、S14、S15、S35）

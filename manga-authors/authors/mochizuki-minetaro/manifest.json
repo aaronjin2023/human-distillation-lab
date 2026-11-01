@@ -1,0 +1,195 @@
+{
+  "id": "mochizuki-minetaro",
+  "name": "Minetaro Mochizuki",
+  "name_zh": "望月峰太郎",
+  "legacy_refs": [],
+  "name_ja": "望月峯太郎",
+  "family": "情感与日常",
+  "scope": "本轮重点为《ちいさこべえ 第3卷》的公开封面／主视觉及对应书目；旧作品研究另留在 archive 初稿，不能把不同时期合成固定画风。下列绘画方案为本库原创转译，封面观察不证明连续内页的分镜规律。",
+  "reference_works": [
+    {
+      "title": "ちいさこべえ 第3卷",
+      "role": "漫画改编与绘画：望月ミネタロウ；原作：山本周五郎",
+      "source_ids": [
+        "RECENT1",
+        "RECENT2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Dragon Head – Kodansha – By Minetaro Mochizuki",
+      "url": "https://kodansha.us/series/dragon-head/",
+      "publisher": "Kodansha",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "出版社列Minetaro Mochizuki为作者，简介以隧道脱轨与幸存者缺乏光和食物后的心理压力为核心。"
+      ],
+      "access_note": "早期研究对照：实际web检索得到该URL与摘要/展开片段；未查看漫画内页、付费内容或色稿。可证明出版身份与简介，不能证明具体分镜和笔法。",
+      "context": "historical_reference",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "Dragon Head 1英译新版封面，ISBN 9781647294946：官方公开图像",
+      "url": "https://images2.penguinrandomhouse.com/cover/9781647294946",
+      "publisher": "Penguin Random House／Kodansha发行记录",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "两名人物低身回望，夸张瞳孔与汗滴可读，前景手臂向下形成三角支撑；蓝色人物、橙色头发和灰白碎裂背景分层。这是新版封面配色，不能证实内页黑量比例。"
+      ],
+      "access_note": "早期研究对照：从公开页面 https://www.penguinrandomhouse.com/series/HDJ/dragon-head/ 的HTML明确提取图像URL，下载到自有/tmp后实际通过view_image查看。定位：Dragon Head 1英译新版封面，ISBN 9781647294946。仅查看这一封面/展示图，未阅读内页；未将HTML alt当作视觉证据。",
+      "origin_page_url": "https://www.penguinrandomhouse.com/series/HDJ/dragon-head/",
+      "observed_asset_sha256": "69cd18499d69a55afdc768fc227c8bc72d390a472993435001a99bb82c99a76a",
+      "context": "historical_reference",
+      "evidence_type": "inspected-visual",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT1",
+      "title": "ちいさこべえ 第3卷：官方书目／项目页",
+      "url": "https://shogakukan-comic.jp/book?isbn=9784091861375",
+      "publisher": "小学館",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选作品署名与版本范围",
+        "本次出版社页明确第3卷2014年电子出版，不能据此证明封面原稿绘制日；不是《Dragon Head》近期重版"
+      ],
+      "access_note": "本轮核对公开书目／项目文字；时间含义见date_basis，不表示通读作品。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT2",
+      "title": "ちいさこべえ 第3卷：已观察的公开图像",
+      "url": "https://shogakukan-comic.jp/book-images/w400/digital/091861370000d0000000.jpg",
+      "publisher": "小学館",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定单幅公开图像的形体、线条、色块与构图观察"
+      ],
+      "access_note": "实际通过图像工具查看此公开封面／主视觉，未观察整卷内页；周围排版、字体与出版设计不自动归作者。",
+      "origin_page_url": "https://shogakukan-comic.jp/book?isbn=9784091861375",
+      "observed_asset_sha256": "dee4c58590745722813307900fb6ba8ab51dd4818df071211180de7dcea204e5",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面长发胡须人物穿简单T恤并背紫色背包，轮廓连贯而内线少；墨镜、胡须和树林形成深块，灰绿衣面与浅蓝天大面积平涂，几乎无强烈渐变。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "本次出版社页明确第3卷2014年电子出版，不能据此证明封面原稿绘制日；不是《Dragon Head》近期重版；署名分工：漫画改编与绘画：望月ミネタロウ；原作：山本周五郎",
+      "basis": "source_summary",
+      "source_ids": [
+        "RECENT1"
+      ]
+    },
+    {
+      "text": "封面长发胡须人物穿简单T恤并背紫色背包，轮廓连贯而内线少；墨镜、胡须和树林形成深块，灰绿衣面与浅蓝天大面积平涂，几乎无强烈渐变。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "外轮廓连续清楚，衣服内线少，发须主要按大块。",
+    "shapes": "自然成年日常体型，肩颈和背带说明衣物重量。",
+    "composition": "把安静人物置在有层次的普通风景前，手中物不能隐入大暗发块。",
+    "panel_rhythm": "原创分镜建议：先交代空间，再给道具与手部动作，接人物反应，最后显示动作结果；不是由单幅封面推得的作者分镜规律。",
+    "tonal_design": "既定发须、衣服和天空用不同明度组织，纹理密度服从空间层级。",
+    "environment": "树群或建筑用较平整形状表达远近，场景不过度写实噪声。",
+    "acting": "平静姿势和小角度转头传递关系，动作强度保持日常。",
+    "color": "本库原创色彩转译：灰绿、紫灰与浅蓝平涂，减少剧烈光影。；只借所见单图的配色关系，不称固定作者色板。"
+  },
+  "drawing_steps": [
+    "先以本项目故事画三张小构图，应用：把安静人物置在有层次的普通风景前，手中物不能隐入大暗发块。",
+    "确认成年人物和原创衣物的结构：自然成年日常体型，肩颈和背带说明衣物重量。 再核对手与道具接触。",
+    "按材质分层落线：外轮廓连续清楚，衣服内线少，发须主要按大块。 环境处理：树群或建筑用较平整形状表达远近，场景不过度写实噪声。",
+    "最后以灰阶缩图核对：既定发须、衣服和天空用不同明度组织，纹理密度服从空间层级。 彩色版再应用：本库原创色彩转译：灰绿、紫灰与浅蓝平涂，减少剧烈光影。；只借所见单图的配色关系，不称固定作者色板。"
+  ],
+  "review_checks": [
+    "缩至缩略图时，主动作和手中物是否仍先于装饰可见？",
+    "人物结构与所选处理是否兼容：自然成年日常体型，肩颈和背带说明衣物重量。",
+    "灰阶检查能否区分脸、手、衣物与背景：既定发须、衣服和天空用不同明度组织，纹理密度服从空间层级。",
+    "用于连续页时，是否保持原故事人数、动作顺序、服装与道具方向？"
+  ],
+  "avoid": [
+    "把这张封面的观察当成整部作品、所有时期或全部分镜的定律。",
+    "把原封面人物、专属服饰、标志和签名带入原创角色；或把书封排版视为作者本人绘画。"
+  ],
+  "best_for": [
+    "平涂日常人物",
+    "连续轮廓与低密度风景"
+  ],
+  "prompt_core_zh": "用连贯外轮廓和少量内线处理成年人物，发须以大暗块为主；日常衣服与背带结构明确，灰绿、紫灰和浅蓝分成平面，环境线密度低，气氛来自姿态和间距。",
+  "prompt_core_en": "Use continuous outer contours and sparse internal lines for adult figures, grouping hair into large dark shapes. Clarify everyday clothing and straps, divide gray-green, muted purple and pale blue into flat areas, and let posture and spacing carry mood.",
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "Kodansha的漫画出版或公开机构介绍语境；不推断民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "note": "本轮不采集私人生活；未核生卒保持null。",
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    }
+  },
+  "known_gaps": [
+    "本轮新阶段视觉观察限所列单图；未逐章核内页节奏、助手分工和长期画风变化。",
+    "原版出版或项目发布年份不等于每一笔原稿的绘制日期；具体日期边界见recent_focus。",
+    "本库8维方案、步骤和提示词属于原创转译，尚未用真实生成图验证一致性。"
+  ],
+  "method_evidence_source_ids": [
+    "RECENT2"
+  ],
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "image_validation": "not-run",
+  "recipe_basis": "original_synthesis",
+  "sheet_traits_zh": "成年头身与姿态自然，发须按大块组织，T恤和腰带衣缝少而清晰；色块平整，无夸张肌肉刻线。",
+  "focus": "怪谈与悬疑",
+  "historical_scope": "末日（Dragon Head）第1卷数字漫画。仅限该漫画版本的署名与公开介绍；不外推全部生涯，不以动画或真人改编替代漫画观察。 补充有限视觉观察：Dragon Head 1英译新版封面，ISBN 9781647294946；具体图只支撑对应封面/展示图，不混同原版内页。",
+  "recent_focus": {
+    "work": "ちいさこべえ 第3卷",
+    "year": 2014,
+    "source_ids": [
+      "RECENT1",
+      "RECENT2"
+    ],
+    "date_basis": "本次出版社页明确第3卷2014年电子出版，不能据此证明封面原稿绘制日；不是《Dragon Head》近期重版"
+  },
+  "creator_type": "manga-artist",
+  "recognition_features": [
+    {
+      "text": "封面长发胡须人物穿简单T恤并背紫色背包，轮廓连贯而内线少；墨镜、胡须和树林形成深块，灰绿衣面与浅蓝天大面积平涂，几乎无强烈渐变。",
+      "observation": "封面长发胡须人物穿简单T恤并背紫色背包，轮廓连贯而内线少；墨镜、胡须和树林形成深块，灰绿衣面与浅蓝天大面积平涂，几乎无强烈渐变。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

@@ -1,6 +1,6 @@
 # The Testaments
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 29, 2019. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Aunt Lydia
 
 角色职责：co-lead · 身份：`identity-7e091ecf12c74426` · 独立版本：`profile-531cfb96c4fb1fd3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在高压体制内倾向隐忍筹划，以隐蔽布局争取行动空间（行为推断；S6、S25、S30、S44）
 - **核心动机**：在求生的同时暗中追求正义、公平与对他人的怜悯（摘要直接叙述；S44）
@@ -29,6 +35,10 @@
 
 角色职责：co-lead · 身份：`identity-696ff9252df927c6` · 独立版本：`profile-261fb1aa68898ac1`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：面对被安排的危险婚姻时，倾向寻找制度内的自救出口（行为推断；S13、S46、S47）
 - **核心动机**：最初寻求摆脱强制婚配，后来愿为运出揭弊资料冒险（摘要直接叙述；S13、S55）
 - **决策方式**：受限时倾向借用被认可的身份，为自己争取新的选择（行为推断；S47、S48、S49）
@@ -40,6 +50,10 @@
 ### Nicole
 
 角色职责：co-lead · 身份：`identity-7b3535ba4079a35a` · 独立版本：`profile-5fc18ff0c0d96497`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在得知真实身份后，表现出愿意冒险参与行动的倾向（行为推断；S20、S21、S22、S26）
 - **核心动机**：关注邻国的人权侵害，并参与获取与运出关键情报（摘要直接叙述；S21、S25、S58）

@@ -1,6 +1,6 @@
 # The Colour of Magic
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Rincewind
 
 角色职责：protagonist · 身份：`identity-c93556c44c84481e` · 独立版本：`profile-d9e07ea83768b337`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危险和责任面前倾向先求自保，带有明确的犬儒倾向（行为推断；S15、S17、S29）
 - **核心动机**：起初想带着导游预付款脱身，随后受威胁承担保护责任（摘要直接叙述；S17）
@@ -27,6 +33,10 @@
 ### Twoflower
 
 角色职责：co-lead · 身份：`identity-99f93d68379b56ed` · 独立版本：`profile-510c00a3e8503c23`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生世界倾向天真而好奇，常低估当地的现实风险（行为推断；S15、S19、S24、S37）
 - **核心动机**：旅行的动力是亲自见识异域风物，甚至期待探索其他世界（摘要直接叙述；S15、S37）

@@ -1,6 +1,6 @@
 # The Restaurant at the End of the Universe
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series The Hitchhiker's Guide to the Galaxy; reported series sales: 16 million[326][327]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Arthur Dent
 
 角色职责：protagonist · 身份：`identity-71a92373f506ea36` · 独立版本：`profile-0d530159df4cdde7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在陌生宇宙环境中，他倾向执着于熟悉生活的具体细节（行为推断；S15、S16）
 - **核心动机**：被困原始星球后，他先寻找离开的机会，继而尝试维持当地生存（行为推断；S44、S49）
@@ -24,6 +30,10 @@
 ### Zaphod Beeblebrox
 
 角色职责：co-lead · 身份：`identity-35cfa64f1bfb1b62` · 独立版本：`profile-8774355f77aeada7`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在遭遇威胁与宏大使命时，他倾向维护自我中心的解释并寻找退路（行为推断；S25、S29、S40）
 - **核心动机**：即使一再逃离被安排的任务，他仍承认自己想解开终极问题（摘要直接叙述；S29、S34、S40）

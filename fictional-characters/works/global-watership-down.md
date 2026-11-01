@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hazel
 
 角色职责：protagonist · 身份：`identity-5784158c298ab49c` · 独立版本：`profile-cf141207ae2f21a1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他善于判断局势、关照弱者，并能凝聚同伴。（行为推断；S5、S7、S57、S58）
 - **核心动机**：他努力为兔群寻找安全新家，并解决没有雌兔导致的延续问题。（行为推断；S2、S19、S23、S25、S34）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-907ce09ff6d45e00` · 独立版本：`profile-5d419c051f1ceaa1`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在此情境中，他虽羞怯，却会在危险被忽视时坚定警告同伴。（行为推断；S11、S13、S62、S63）
 - **核心动机**：他试图让同伴避开即将毁灭的家园及伪装安全的危险兔群。（摘要直接叙述；S2、S11、S13）
 - **决策方式**：他依靠预见和直觉判断风险，并把警告持续传达给Hazel等人。（摘要直接叙述；S2、S11、S18、S44、S63）
@@ -34,6 +44,10 @@
 ### General Woundwort
 
 角色职责：central-antagonist · 身份：`identity-92e0f89a146d4177` · 独立版本：`profile-22a906b2b48781d3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他专断强硬，面对败局仍固执地留在战场。（行为推断；S31、S47）
 - **核心动机**：他要摧毁Watership兔群并带回从Efrafa逃出的兔子。（摘要直接叙述；S31、S43）

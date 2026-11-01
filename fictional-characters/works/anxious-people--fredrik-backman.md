@@ -1,6 +1,6 @@
 # Anxious People
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: September 27, 2020. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bank Robber
 
 角色职责：protagonist · 身份：`identity-92152f7be5c88a73` · 独立版本：`profile-2068fd929f7dc524`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在失控情境中倾向慌乱退避，面对他人又显得犹疑（行为推断；S6、S8）
 - **核心动机**：抢银行的直接动机是筹得房租，避免失去孩子（摘要直接叙述；S5）
@@ -28,6 +34,10 @@
 ### Zara
 
 角色职责：major-support · 身份：`identity-72d35cf69f9e6877` · 独立版本：`profile-42dc7830bb57eb2b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在与他人相处时倾向疏离，对社会问题抱持尖锐批判（行为推断；S3、S16）
 - **情绪反应**：长期背负与跳桥者有关的内疚，最终才得以释怀（摘要直接叙述；S33、S34）

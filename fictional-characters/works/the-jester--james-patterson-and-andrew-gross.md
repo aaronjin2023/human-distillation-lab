@@ -1,6 +1,6 @@
 # The Jester
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: March 23, 2003. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Hugh De Luc
 
 角色职责：protagonist · 身份：`identity-0108103924a02c61` · 独立版本：`profile-7fc2576f3e81f1a2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对压迫与受难者时倾向反抗，不轻易接受强者支配（行为推断；S6、S8、S25）
 - **核心动机**：最初参战是为追求自由，返乡后则以寻找妻子为重（摘要直接叙述；S6、S10、S12）
@@ -28,6 +34,10 @@
 ### Emilie
 
 角色职责：major-support · 身份：`identity-89d41c010285e558` · 独立版本：`profile-47b24459e9f6e281`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对受伤的Hugh时倾向主动援助，并持续提供照料（行为推断；S13、S15）
 - **核心动机**：在这段交往中持续帮助Hugh脱险并推进城堡潜入计划（行为推断；S13、S15、S16、S17）

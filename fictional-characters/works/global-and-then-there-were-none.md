@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Mr Justice Wargrave
 
 角色职责：central-antagonist · 身份：`identity-f66ef0892686ccfb` · 独立版本：`profile-e396f58d390538dc`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在此情境中，他把强烈正义感与杀人欲并置，呈现内在矛盾。（摘要直接叙述；S31、S32）
 - **核心动机**：他借惩罚逃脱司法制裁的致死者，满足亲自杀人的欲望。（摘要直接叙述；S33、S34）
@@ -27,6 +33,10 @@
 ### Vera Claythorne
 
 角色职责：co-lead · 身份：`identity-5e5bfbe16ca087d9` · 独立版本：`profile-5de4cf02bbc2820e`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在只剩两人的险境中，她表现出主动制造机会的机敏。（行为推断；S22、S23）
 - **核心动机**：在接连死亡且似乎只剩两人时，她夺枪杀人可能出于求生。（行为推断；S22、S23）

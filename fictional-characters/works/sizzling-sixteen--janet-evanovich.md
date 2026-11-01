@@ -1,6 +1,6 @@
 # Sizzling Sixteen
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 11, 2010. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie Plum
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-8abcf7b13de9a9f2`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在营救压力下倾向逞强自立，多次抵抗向亲近男性求助（行为推断；S14、S15）
 - **核心动机**：即使无人愿意出钱，仍投入行动筹款营救被绑架的表亲（摘要直接叙述；S3、S4、S10）
@@ -27,6 +33,10 @@
 ### Jo Morelli
 
 角色职责：major-support · 身份：`identity-b5d4b1e117ef78c2` · 独立版本：`profile-ab761f135ba409cf`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在恋情暂歇的情境下仍倾向主动关照，并为对方保留选择（行为推断；S8、S11）
 - **核心动机**：面对斯蒂芬妮的营救困境，倾向帮助她取得信息并脱险（行为推断；S11、S16）

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "mika-pikazo",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦 2024 展览图录官方印刷案例的 MikaPikazo_07 实物图；只提取可见画面，不把版式加工归为绘画笔法。",
+  "recent_focus": {
+    "work": "UNDER VOYAGER 图录",
+    "year": 2024,
+    "source_ids": [
+      "S1"
+    ],
+    "date_basis": "印刷方案页明记 Year of production: 2024，图录对应 2024 年 5 月第四次展览；是图录制作年，单幅原画日期未核。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "UNDER VOYAGER 图录 官方介绍",
+      "url": "https://sunm.co.jp/en/works/1VSeBDbDOPolgHYKsdjxeC",
+      "publisher": "SunM Color（图录印刷方）",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "项目署名与年份",
+        "发行或展览范围"
+      ],
+      "access_note": "实际读取正文。只按页面公开信息核对，不推定全部作品的创作日期。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "UNDER VOYAGER 图录 官方公开图：印刷案例第 2 张图 MikaPikazo_07.webp（圆形封面与透明外套）",
+      "url": "https://images.ctfassets.net/sl0e8b6sqtrk/4XU7qOd4LjepHkaUUr4Dl1/b0099d5b0da4d395bed10ada69c32920/MikaPikazo_07.webp",
+      "publisher": "SunM Color（图录印刷方）",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "仅此公开图的线形、明暗、色彩与构图观察"
+      ],
+      "access_note": "由官方页面提取图片链接，实际下载至临时目录并通过图像工具查看。定位：印刷案例第 2 张图 MikaPikazo_07.webp（圆形封面与透明外套）；不代表通读全册或检查原始图层。",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "MikaPikazo_07 实物照片显示圆形封面上的近距眼部裁切，细密冷灰蓝发线与大块白色并置，虹膜用暖橙局部强调；外套为白线与透明材料。观察限实物可见图面。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "印刷方案页确认图录对应 2024 年 5 月展览，包含故事、插画、展览照片及构想记录。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "MikaPikazo_07 实物照片显示圆形封面上的近距眼部裁切，细密冷灰蓝发线与大块白色并置，虹膜用暖橙局部强调；外套为白线与透明材料。观察限实物可见图面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "MikaPikazo_07 实物照片显示圆形封面上的近距眼部裁切，细密冷灰蓝发线与大块白色并置，虹膜用暖橙局部强调；外套为白线与透明材料。观察限实物可见图面。",
+      "observation": "MikaPikazo_07 实物照片显示圆形封面上的近距眼部裁切，细密冷灰蓝发线与大块白色并置，虹膜用暖橙局部强调；外套为白线与透明材料。观察限实物可见图面。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "在发束或衣褶中用顺形细线群，轮廓仍以较完整的中细线维持；密线不盖住五官。",
+    "shapes": "成年人物头部先设清楚骨面，放大的视觉细节集中于眼部，其余结构简化成大面。",
+    "composition": "按用户版式选择焦点裁切，眼部邻近留一块干净浅面，以线群和空白形成密疏对照。",
+    "panel_rhythm": "漫画转译建议：重要信息用局部细节镜头，随后退回清楚的主体轮廓；不预设格数或新事件。",
+    "tonal_design": "白色大面、冷中灰线群和极少黑色形成秩序，眼部保留明暗分层而非纯色圆点。",
+    "environment": "只在既定环境必要处保留细线质感，主体附近的背景密度随焦点调整。",
+    "acting": "瞳孔位置、眼睑厚度和嘴角角度互相校准，强烈眼部设计不能替代表情结构。",
+    "color": "由可见封面转译为冷灰蓝和白为底、暖橙小面积焦点；此图并不能代表作者全部高彩作品。"
+  },
+  "steps": [
+    "先以三档灰度确定焦点周围的白面。",
+    "建立成年骨面与视线，把细线密度集中在指定材料内。",
+    "给眼部或既定焦点加暖色小块，其余区域保留冷灰。",
+    "逐项删去穿过五官的杂线，缩小检查密疏节奏。"
+  ],
+  "checks": [
+    "线群是否顺着体积而非随机涂鸦？",
+    "大面积白色是否给细节留出可读空间？",
+    "眼部焦点是否保留瞳孔与眼睑的准确关系？"
+  ],
+  "sheet_traits_zh": "中细轮廓保持连贯，静态成年头身大面简洁；发束局部排细线，白衣与灰块分区，亮滑材料留窄高光。",
+  "avoid": [
+    "把局部密线扩大为整幅无层次噪声。",
+    "把透明外套加工误写为原画的绘制步骤。"
+  ],
+  "unknowns": [
+    "仅观察图录实物照片一张；未打开完整图录，不推定全部画作的制作方法。",
+    "原始数字颜色可能与照片和印刷色不同。",
+    "八维配方、步骤、评审及提示词为本库一般视觉技法的原创转译，不是作者本人规则；未进行生成验收。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

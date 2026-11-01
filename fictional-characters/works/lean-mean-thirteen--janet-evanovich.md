@@ -1,6 +1,6 @@
 # Lean Mean Thirteen
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 8, 2007. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-68d92ebedf808645`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在旧日背叛被轻描淡写时，倾向冲动地表达愤怒（行为推断；S7、S8、S9）
 - **核心动机**：面对前夫失踪带来的嫌疑，主动追查背后的资金秘密（行为推断；S11、S15、S18、S19）
@@ -28,6 +34,10 @@
 ### Richard Orr
 
 角色职责：major-support · 身份：`identity-d4e18f97b7731d02` · 独立版本：`profile-b850333c21febbe3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在合伙人追索巨款的危机中，倾向先为自己筹划退路（行为推断；S27、S28）
 - **核心动机**：据莫雷利推测，他寻求保护实为取回巨款账户钥匙（行为推断；S29）

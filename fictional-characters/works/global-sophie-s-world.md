@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Sophie Amundsen
 
 角色职责：protagonist · 身份：`identity-87eec25d16687d07` · 独立版本：`profile-21d63511302e5922`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在自身世界可能虚构的处境中，她持续追问并尝试突破限制。（行为推断；S10、S11、S15、S30、S33）
 - **核心动机**：她学习哲学，并与阿尔贝托设法逃离克纳格的想象世界。（摘要直接叙述；S5、S6、S13、S15、S19）
@@ -24,6 +30,10 @@
 
 角色职责：co-lead · 身份：`identity-0de5d01c16ee9a2e` · 独立版本：`profile-79c2d7b9a617f2bf`
 
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
+
 - **性格倾向**：在受作者控制的处境中，他显得善于筹划，并坚持寻找脱身办法。（行为推断；S13、S15、S18、S19）
 - **核心动机**：他教索菲哲学，并谋划让两人逃离克纳格的想象。（摘要直接叙述；S5、S6、S13、S15）
 - **决策方式**：他把哲学知识用于理解控制处境，并在庭园混乱时执行逃离计划。（行为推断；S10、S13、S15、S17、S19）
@@ -34,6 +44,10 @@
 ### Hilde Møller Knag
 
 角色职责：major-support · 身份：`identity-a2355ddaf8a66074` · 独立版本：`profile-fc9b438bd4b4e1c1`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：发现父亲干涉索菲生活后，她转而反抗，之后又愿意原谅他。（摘要直接叙述；S12、S21、S26）
 - **核心动机**：她读完手稿后，决定协助索菲和阿尔贝托向父亲回敬。（摘要直接叙述；S12、S21）

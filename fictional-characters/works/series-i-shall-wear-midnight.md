@@ -1,6 +1,6 @@
 # I Shall Wear Midnight
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Discworld; reported series sales: 90 million[237]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Discworld
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Tiffany Aching
 
 角色职责：protagonist · 身份：`identity-7277dfe86e1cccf7` · 独立版本：`profile-3e08535c6339afd6`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在偏见与指控下仍倾向主动履职，没有因敌意放弃介入（行为推断；S16、S17、S18、S30）
 - **价值取舍**：面对士兵挖掘精灵族土丘，倾向保护伙伴免受集体敌意侵扰（行为推断；S29、S30）
@@ -27,6 +33,10 @@
 ### The Cunning Man
 
 角色职责：central-antagonist · 身份：`identity-51b468a6d2daa37f` · 独立版本：`profile-9188fe1973a8bf76`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在当前冲突中倾向把敌意扩散给他人，以猜疑推动伤害（行为推断；S27、S30、S31）
 - **情绪反应**：死后成为纯粹仇恨的恶灵，并能让他人的心智滋生憎恨（摘要直接叙述；S27）

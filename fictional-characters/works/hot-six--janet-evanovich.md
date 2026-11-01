@@ -1,6 +1,6 @@
 # Hot Six
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: July 9, 2000. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Stephanie Plum
 
 角色职责：protagonist · 身份：`identity-4b82cd98f0529c29` · 独立版本：`profile-2ce4248781b25b3c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在危险和牵制交织时，她倾向随机应变并寻找迂回出路。（行为推断；S20、S21、S23、S30）
 - **核心动机**：她既要完成追捕任务，也想弄清Ranger是否真的杀人。（行为推断；S6、S7、S9、S24）
@@ -28,6 +34,10 @@
 ### Ranger
 
 角色职责：co-lead · 身份：`identity-d110d96db6991258` · 独立版本：`profile-79b6a4bb554c3d45`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在被追捕和帮派冲突中，他倾向谨慎控制自己的暴露。（行为推断；S11、S28）
 - **核心动机**：他介入犯罪派系之间的争端，希望阻止冲突升级成战争。（摘要直接叙述；S28）

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "miura-koji",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "聚焦《アオのハコ 22》原版公开封面及署名书目，研究漫画作者绘画；动画团队画面不纳入。以下方案为本库原创应用，连续叙事部分不是据封面证明的作者分镜法。",
+  "recent_focus": {
+    "work": "アオのハコ 22",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "原版《アオのハコ 22》书目发行日为2025-10-03；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "アオのハコ 22：出版社书目",
+      "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-884693-4",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "search_excerpt",
+      "supports": [
+        "作品作者署名、所选原版卷和发行日"
+      ],
+      "access_note": "实际检索返回的出版社页面片段包含作品、署名和发行日；打开正文失败，未标为全文核读。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "アオのハコ 22：公开封面观察",
+      "url": "https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088846934/240/9784088846934.jpg",
+      "publisher": "集英社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "所示单张封面的构图、轮廓和大色面"
+      ],
+      "access_note": "已通过view_image实际看此出版社公开封面；仅据可见图面概括，低清处不判断笔刷细节。书名、字体、边框和出版版式不自动归给漫画作者；未观察连续内页。",
+      "origin_page_url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-884693-4",
+      "observed_asset_sha256": "eefd29a8db4a5c829af10b86b0613261edbdaffabd4f28f286900272dcd5f912",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "低清封面里，前景两只手指框出中央人物，脸与视线位于框内；青蓝衣面、浅肤和暖棕发分层，背景为淡化的建筑与植被。只观察这张小图的框景和大色面，不判断睫毛笔触或书内恋爱叙事节奏。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "原版《アオのハコ 22》书目发行日为2025-10-03；参考年份是这一卷的出版年，不是每幅原稿的绘制日期，也未声称它是当前最新卷。 作者署名为三浦糀。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "低清封面里，前景两只手指框出中央人物，脸与视线位于框内；青蓝衣面、浅肤和暖棕发分层，背景为淡化的建筑与植被。只观察这张小图的框景和大色面，不判断睫毛笔触或书内恋爱叙事节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "低清封面里，前景两只手指框出中央人物，脸与视线位于框内；青蓝衣面、浅肤和暖棕发分层，背景为淡化的建筑与植被。只观察这张小图的框景和大色面，不判断睫毛笔触或书内恋爱叙事节奏。",
+      "observation": "低清封面里，前景两只手指框出中央人物，脸与视线位于框内；青蓝衣面、浅肤和暖棕发分层，背景为淡化的建筑与植被。只观察这张小图的框景和大色面，不判断睫毛笔触或书内恋爱叙事节奏。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "editorial_recipe": {
+    "line": "面部和衣领用清爽细线，服装外缘略重，背景线淡化，发束按既定长度归组。",
+    "shapes": "成年面部与肩颈比例自然，前景若已有手则保持掌指连接；不为框景新增肢体。",
+    "composition": "用项目已有前景边缘形成不封闭的框，让脸部或主动作落在留出的空隙内；不强制采用手指框。",
+    "panel_rhythm": "本库原创迁移：环境中景确定距离，小幅表情变化承接回应，再以更开阔视野收束；封面不证明作者内页节奏。",
+    "tonal_design": "人物外轮廓清楚，浅脸与中灰衣物分层，背景整体退到更浅且低对比的区域。",
+    "environment": "以少量既定环境结构说明地点，靠近脸部留低纹理区域，保持已定空间方向，不增添建筑或植被。",
+    "acting": "视线与嘴角的小变化承载情绪，肩颈避免僵硬；不以统一笑脸代替角色反应。",
+    "color": "本库建议青蓝与暖赭形成柔和对照，浅色中留灰阶；保留指定发色、肤色与衣色。"
+  },
+  "steps": [
+    "先画三种项目构图，选择能清楚承载既定动作的一种：用项目已有前景边缘形成不封闭的框，让脸部或主动作落在留出的空隙内；不强制采用手指框。",
+    "在既定成年角色与服装下搭体块：成年面部与肩颈比例自然，前景若已有手则保持掌指连接；不为框景新增肢体。 再落实：面部和衣领用清爽细线，服装外缘略重，背景线淡化，发束按既定长度归组。",
+    "以缩略灰阶校对材料：人物外轮廓清楚，浅脸与中灰衣物分层，背景整体退到更浅且低对比的区域。 环境处理：少量建筑或植被大形说明地点，靠近脸部留低纹理区域，保持既定空间方向。",
+    "最后核对表演：视线与嘴角的小变化承载情绪，肩颈避免僵硬；不以统一笑脸代替角色反应。 颜色仅在项目未锁定处尝试：本库建议青蓝与暖赭形成柔和对照，浅色中留灰阶；保留指定发色、肤色与衣色。"
+  ],
+  "checks": [
+    "前景框是否指向主动作且未挡住五官？",
+    "轻线条下颈肩和衣领是否仍有结构？",
+    "情绪是否由视线和嘴角共同表达？"
+  ],
+  "sheet_traits_zh": "自然成年面部肩颈，清爽细线配稍重衣物外缘；既定发束按原长度分组，脸与衣料以相邻灰阶分层，三视图不套前景框手。",
+  "avoid": [
+    "为复制封面框景额外长出手指或道具。",
+    "全画面都使用浅灰导致人物和背景融合。"
+  ],
+  "unknowns": [
+    "视觉观察限所列单封面；未通读章节、核对助手分工或追溯所有时期。",
+    "下列八维方案、步骤与提示词是原创转译，尚未实际生成图片验证。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

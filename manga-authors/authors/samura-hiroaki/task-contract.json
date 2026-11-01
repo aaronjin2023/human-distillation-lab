@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "kind": "manga-task-contract",
+  "author_id": "samura-hiroaki",
+  "legacy_generation_mode_note": "generation_mode preserves recipe provenance for old consumers; select execution intent through task_modes, not this legacy field.",
+  "status": "source-grounded-draft",
+  "image_validation": "not-run",
+  "modes": {
+    "technique-study": "Select compatible techniques for a stated purpose; selection is not a complete author method.",
+    "work-stage-target": "Use the exact researched work/stage and all applicable recognition features. Missing visual evidence, unresolved conflicts or discarded identifying features require narrowing the target or marking it unverified."
+  },
+  "required_files": [
+    "SKILL.md",
+    "drawing.md",
+    "manifest.json",
+    "task-contract.json",
+    "../../WORKFLOW.md"
+  ],
+  "required_task_inputs": [
+    "mode",
+    "output_form",
+    "target_work_stage",
+    "medium",
+    "user_character_and_world_constraints"
+  ],
+  "scope": "本轮重点为《波よ聞いてくれ 第1卷》的公开封面／主视觉及对应书目；旧作品研究另留在 archive 初稿，不能把不同时期合成固定画风。下列绘画方案为本库原创转译，封面观察不证明连续内页的分镜规律。",
+  "recent_focus": {
+    "work": "波よ聞いてくれ 第1卷",
+    "year": 2015,
+    "source_ids": [
+      "RECENT1",
+      "RECENT2"
+    ],
+    "date_basis": "首卷2015年出版；出版社初出为2014—2015年杂志号，不以2023年真人剧年份替代"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "無限の住人｜アフタヌーン公式サイト",
+      "url": "https://afternoon.kodansha.co.jp/c/mugenin/",
+      "publisher": "讲谈社アフタヌーン",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "官方作品页明确沙村広明1993年以本作出道及2012年末完结；后续《幕末ノ章》另署原案、漫画、协力，不归为其独立作画。"
+      ],
+      "access_note": "早期研究对照：已打开官方作品页并核读作者介绍及续作新闻署名；未观察内页。",
+      "context": "historical_reference",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "讲谈社《無限の住人》作品页缩略宣传图（未标卷号）：官方图像",
+      "url": "https://afternoon.kodansha.co.jp//c/mugenin/thumbnail.jpg",
+      "publisher": "讲谈社アフタヌーン",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "双人半身重叠，面部和发丝由多层细短线叠出，浅赭底透出类似纸面的纹理；男性偏暗面部与女性较白的脸分开，前景长物形成指向面部的斜线。仅此官方图可证该构成。"
+      ],
+      "access_note": "早期研究对照：从已核定官方页面 https://afternoon.kodansha.co.jp/c/mugenin/ 提取该实际图像URL，下载至临时预览文件并通过view_image查看研究联系表。只看此封面／宣传图，不含内页；本库未生成或仿制图像。",
+      "context": "historical_reference",
+      "evidence_type": "inspected-visual",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT1",
+      "title": "波よ聞いてくれ 第1卷：官方书目／项目页",
+      "url": "https://www.kodansha.co.jp/comic/products/0000047417",
+      "publisher": "講談社",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "所选作品署名与版本范围",
+        "首卷2015年出版；出版社初出为2014—2015年杂志号，不以2023年真人剧年份替代"
+      ],
+      "access_note": "本轮核对公开书目／项目文字；时间含义见date_basis，不表示通读作品。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "RECENT2",
+      "title": "波よ聞いてくれ 第1卷：已观察的公开图像",
+      "url": "https://dvs-cover.kodansha.co.jp/0000047417/UdMyHqf66qMV5I1iPTvRBCNH7zjPmu2wwQyBNNCk.jpg",
+      "publisher": "講談社",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定单幅公开图像的形体、线条、色块与构图观察"
+      ],
+      "access_note": "实际通过图像工具查看此公开封面／主视觉，未观察整卷内页；周围排版、字体与出版设计不自动归作者。",
+      "origin_page_url": "https://www.kodansha.co.jp/comic/products/0000047417",
+      "observed_asset_sha256": "0745c056abd5b01e7431887a281cc73da358e82b3cff6c806664a9061f2ddd62",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "人物手握麦克风并张口，抬起眉毛与眼睫形成强表情；颈肩和手部以细涩笔触与薄赭色明暗塑造，头戴耳机的黑块对照亮面，斜裁切增加紧迫感。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "首卷2015年出版；出版社初出为2014—2015年杂志号，不以2023年真人剧年份替代；署名分工：漫画作者",
+      "basis": "source_summary",
+      "source_ids": [
+        "RECENT1"
+      ]
+    },
+    {
+      "text": "人物手握麦克风并张口，抬起眉毛与眼睫形成强表情；颈肩和手部以细涩笔触与薄赭色明暗塑造，头戴耳机的黑块对照亮面，斜裁切增加紧迫感。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "recognition_features": [
+    {
+      "text": "人物手握麦克风并张口，抬起眉毛与眼睫形成强表情；颈肩和手部以细涩笔触与薄赭色明暗塑造，头戴耳机的黑块对照亮面，斜裁切增加紧迫感。",
+      "observation": "人物手握麦克风并张口，抬起眉毛与眼睫形成强表情；颈肩和手部以细涩笔触与薄赭色明暗塑造，头戴耳机的黑块对照亮面，斜裁切增加紧迫感。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "RECENT2"
+      ]
+    }
+  ],
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "recognition_unknown": null,
+  "feature_review": "observation-transfer-pending-review",
+  "method_evidence_source_ids": [
+    "RECENT2"
+  ],
+  "editorial_recipe": {
+    "line": "略有颗粒感的细线塑造颈肩与手部，头发多层短线。",
+    "shapes": "自然成年比例，肩颈受力明确，配件与人体有体积差。",
+    "composition": "适度斜裁切的近景强化表达，手与关键道具形成连贯轮廓。",
+    "panel_rhythm": "原创分镜建议：先交代空间，再给道具与手部动作，接人物反应，最后显示动作结果；不是由单幅封面推得的作者分镜规律。",
+    "tonal_design": "暗色配件衬浅脸，薄赭阴影过渡，不将所有细节压成黑。",
+    "environment": "少量符合项目设定的设备或栏杆说明地点。",
+    "acting": "不对称眉眼与开口形状对应说话强度，手势同时可信。",
+    "color": "本库原创色彩转译：暖赭与低饱和橘灰为主，深色耳机类配件仅作结构参考。；只借所见单图的配色关系，不称固定作者色板。"
+  },
+  "steps": [
+    "先以本项目故事画三张小构图，应用：适度斜裁切的近景强化表达，手与关键道具形成连贯轮廓。",
+    "确认成年人物和原创衣物的结构：自然成年比例，肩颈受力明确，配件与人体有体积差。 再核对手与道具接触。",
+    "按材质分层落线：略有颗粒感的细线塑造颈肩与手部，头发多层短线。 环境处理：少量符合项目设定的设备或栏杆说明地点。",
+    "最后以灰阶缩图核对：暗色配件衬浅脸，薄赭阴影过渡，不将所有细节压成黑。 彩色版再应用：本库原创色彩转译：暖赭与低饱和橘灰为主，深色耳机类配件仅作结构参考。；只借所见单图的配色关系，不称固定作者色板。"
+  ],
+  "checks": [
+    "缩至缩略图时，主动作和手中物是否仍先于装饰可见？",
+    "人物结构与所选处理是否兼容：自然成年比例，肩颈受力明确，配件与人体有体积差。",
+    "灰阶检查能否区分脸、手、衣物与背景：暗色配件衬浅脸，薄赭阴影过渡，不将所有细节压成黑。",
+    "用于连续页时，是否保持原故事人数、动作顺序、服装与道具方向？"
+  ],
+  "sheet_traits_zh": "自然成年面部，颈肩有细腻明暗，发丝与衣褶略带涩笔；三视图采用放松闭口表情和中性站姿。",
+  "avoid": [
+    "把这张封面的观察当成整部作品、所有时期或全部分镜的定律。",
+    "把原封面人物、专属服饰、标志和签名带入原创角色；或把书封排版视为作者本人绘画。"
+  ],
+  "unknowns": [
+    "本轮新阶段视觉观察限所列单图；未逐章核内页节奏、助手分工和长期画风变化。",
+    "原版出版或项目发布年份不等于每一笔原稿的绘制日期；具体日期边界见recent_focus。",
+    "本库8维方案、步骤和提示词属于原创转译，尚未用真实生成图验证一致性。"
+  ],
+  "replaceable_content": [
+    "subject",
+    "characters",
+    "clothing",
+    "props",
+    "setting",
+    "action",
+    "emotion"
+  ],
+  "adaptation_rules": {
+    "all": "Replace example story content in steps/checks; preserve sourced method scope. Record applied, adapted, omitted features and why. Do not paste all eight dimensions into every task.",
+    "character-sheet": "Orthographic front/right/back, neutral pose and user body/clothing win. Use only compatible line/shape/tone; omit scene composition, perspective, dramatic gestures and panel rhythm. Adapt shape ratios to the locked user body; log any lost recognition feature.",
+    "illustration": "Resolve composition and environment against the user scene; apply color relations only if compatible with locked colors and the selected medium.",
+    "six-panel-page": "Panel rhythm from a single cover is editorial synthesis, never observed author page grammar; keep user continuity and panel order.",
+    "conflicts": "User identity/body/palette/world and output geometry take priority. Remove or rewrite conflicting instructions, not an appended keep-consistent sentence. If a required identifying feature is lost, disclose reduced target coverage; never claim a full match."
+  },
+  "validation": "Document/source checks only; image resemblance and cross-subject transfer not run."
+}

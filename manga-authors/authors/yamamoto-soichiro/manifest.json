@@ -1,0 +1,161 @@
+{
+  "id": "yamamoto-soichiro",
+  "name": "Soichiro Yamamoto",
+  "name_zh": "山本崇一朗",
+  "name_ja": "山本崇一朗",
+  "legacy_refs": [],
+  "legacy_expert_refs": [],
+  "creator_type": "manga-artist",
+  "family": "日常表情／轻轮廓与家具负形",
+  "scope": "聚焦《マネマネにちにち 2》日文原版官方封面与出版社书目。只看这一封面，不含连续内页；不使用动画改编图。不采用由其他作者绘画的《からかい上手の（元）高木さん》衍生作封面，也不混用动画设定。",
+  "reference_works": [
+    {
+      "title": "マネマネにちにち 2",
+      "role": "漫画作者：山本崇一朗（该卷未另列原作）",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "マネマネにちにち 2：出版社书目",
+      "url": "https://shogakukan-comic.jp/book?isbn=9784098542567",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "page_text",
+      "supports": [
+        "漫画作者：山本崇一朗（该卷未另列原作）",
+        "2025-09-11日本原版出版及卷号"
+      ],
+      "access_note": "本轮实际web打开并读取出版社公开书目信息；另获取页面HTML核定主封面地址。未进入账号、付费章节或阅读完整内页。",
+      "evidence_type": "bibliographic-context",
+      "supported_claims": []
+    },
+    {
+      "id": "S2",
+      "title": "マネマネにちにち 2：日文原版官方封面",
+      "url": "https://shogakukan-comic.jp/book-images/w400/books/9784098542567.jpg",
+      "publisher": "小学馆",
+      "accessed_at": "2026-11-01",
+      "access_method": "visual_preview",
+      "supports": [
+        "限定这张封面的轮廓、体块、色光与构图观察"
+      ],
+      "access_note": "从上述官方书目提取主封面链接，下载临时缩略图并实际通过view_image查看；未将alt文字当观察。只支持封面可见大关系，文字排版与装帧不自动归漫画作者。",
+      "origin_page_url": "https://shogakukan-comic.jp/book?isbn=9784098542567",
+      "observed_asset_sha256": "904af27e668048f46a01dc04f7bfc2c52c42998e76516ab4697bfa17eee5fa39",
+      "evidence_type": "inspected-visual",
+      "supported_claims": [
+        "封面三人围桌坐，人物脸部鼻口线很少、嘴型及闭眼弧线直接表达愉快；白上衣与红结、深裙分块，桌椅细直金属框在下半部形成清楚空隙，窗外浅蓝山与绿树对比弱于人物。观察仅此封面，不借学生人数或场景生成新方案。"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "text": "漫画作者：山本崇一朗（该卷未另列原作）；出版社列日本原版2025-09-11发行。",
+      "basis": "source_summary",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "text": "封面三人围桌坐，人物脸部鼻口线很少、嘴型及闭眼弧线直接表达愉快；白上衣与红结、深裙分块，桌椅细直金属框在下半部形成清楚空隙，窗外浅蓝山与绿树对比弱于人物。观察仅此封面，不借学生人数或场景生成新方案。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "visual_recipe": {
+    "line": "圆转细线维持面部与手的可读性，鼻梁尽量少线，桌边或硬质接口用直线作轻微对照。",
+    "shapes": "成年自然比例以圆简胸廓、完整手掌和清楚膝肘搭建，衣料不过度刻肌肉，不沿样本年龄比例。",
+    "composition": "在既定物件之间保留可辨负形，横竖结构围住焦点，避免道具遮住表情与操作接触。",
+    "panel_rhythm": "原创迁移建议：先让既定动作读清，再用眉眼和嘴角的小变化形成停顿；不添加新人物或校园事件。",
+    "tonal_design": "皮肤与浅衣大面积留白，深色块集中在已有衣物局部，投影薄而有方向。",
+    "environment": "用少量硬边说明既定物件，远处形状平整且低彩，不自动加入教室、桌椅或山景。",
+    "acting": "眼睛闭合时仍须用眉角和嘴型区别情绪；手掌朝向与所接物体准确吻合。",
+    "color": "本库建议浅暖肤色与低彩环境配小面积红色强调；取自所见单幅色比，不改变用户既定发色服色。"
+  },
+  "drawing_steps": [
+    "先画既定角色与物件的简洁轮廓，留出手臂间的负形。",
+    "用成年关节和手掌校正动作，表情仅保留必要眉眼嘴线。",
+    "将浅面连起来，再用少量深块和薄投影分离材料。",
+    "降低背景色度，缩图核对目光、嘴型和接触点。"
+  ],
+  "review_checks": [
+    "少量面部线是否仍表达了既定情绪？",
+    "物件之间的空隙是否清楚而非粘成一团？",
+    "薄阴影是否既能说明体积又未压脏浅面？"
+  ],
+  "avoid": [
+    "以巨大幼态头部代替自然成年结构。",
+    "把封面桌边多人日常直接移入既定剧情。"
+  ],
+  "best_for": [
+    "轻快日常人物造型",
+    "简洁表情与物件关系"
+  ],
+  "prompt_core_zh": "保留既定成年角色、发型颜色和人数，用圆转细线、简省鼻口与完整手掌组织自然体块。浅面连续，深色集中在已有衣物，薄投影说明体积；物件间留清楚负形，背景低彩减密，以眉角、嘴型和准确接触关系表现轻快但可读的情绪。",
+  "prompt_core_en": "Keep the specified adult character, hair, cast, and narrative. Combine rounded fine contours, economical facial marks, and complete hand structures with natural proportions. Connect broad pale areas and concentrate dark values within existing clothing. Use thin directional shadows to describe volume, leaving clear negative spaces between forms. Reduce background saturation and detail. Let small changes in brows and mouth shapes express a readable light mood while keeping all intended object contacts physically coherent.",
+  "sheet_traits_zh": "圆转细轮廓配少量眉眼鼻口，静态成年体块自然，手掌完整；浅衣留白配薄灰折面，深布黑块局部集中。",
+  "method_evidence_source_ids": [
+    "S2"
+  ],
+  "recent_focus": {
+    "work": "マネマネにちにち 2",
+    "year": 2025,
+    "source_ids": [
+      "S1",
+      "S2"
+    ],
+    "date_basis": "出版社所列日本原版发行日为2025-09-11；这是卷册出版年，不是每幅画或封面原稿实际绘制日。"
+  },
+  "biography": {
+    "birth_year": null,
+    "death_year": null,
+    "region_context": "以小学馆公开日文漫画出版署名为活动语境，不据此推定国籍或民族。",
+    "source_ids": [
+      "S1"
+    ],
+    "ethnicity": {
+      "value": null,
+      "status": "unknown"
+    },
+    "note": "只用公开署名，未核实生卒保持null，民族未知。"
+  },
+  "known_gaps": [
+    "本轮只观察一张官方封面，未逐页研究内页、长期画风变化、助手分工或作者完整制作流程。",
+    "八维配方、步骤、检查与提示词均为一般视觉技法的原创组合，分镜建议不冒充作者本人规则。",
+    "未生成图片，不能据此声称人物一致性、三视图或六格节奏已实测。"
+  ],
+  "recipe_basis": "original_synthesis",
+  "image_validation": "not-run",
+  "schema_version": 1,
+  "kind": "manga-author-study",
+  "entity_kind": "person",
+  "status": "source-grounded-draft",
+  "research_date": "2026-11-01",
+  "generation_mode": "original-general-techniques",
+  "recognition_features": [
+    {
+      "text": "封面三人围桌坐，人物脸部鼻口线很少、嘴型及闭眼弧线直接表达愉快；白上衣与红结、深裙分块，桌椅细直金属框在下半部形成清楚空隙，窗外浅蓝山与绿树对比弱于人物。观察仅此封面，不借学生人数或场景生成新方案。",
+      "observation": "封面三人围桌坐，人物脸部鼻口线很少、嘴型及闭眼弧线直接表达愉快；白上衣与红结、深裙分块，桌椅细直金属框在下半部形成清楚空隙，窗外浅蓝山与绿树对比弱于人物。观察仅此封面，不借学生人数或场景生成新方案。",
+      "basis": "visual_observation",
+      "source_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "feature_review": "observation-transfer-pending-review",
+  "recognition_limits": [
+    "识别候选只转交既有观察，尚未完成跨题材保留项评审或实际出图对照；不得据此称为完整作者风格。",
+    "来源未覆盖的形体、分镜或色板保持未知；八维配方及步骤仍是本库原创迁移。"
+  ],
+  "task_modes": [
+    "technique-study",
+    "work-stage-target"
+  ]
+}

@@ -1,6 +1,6 @@
 # Breaking Dawn
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Individual novel in the documented best-selling series Twilight; reported series sales: 160 million[217]
 [依据来源](https://en.wikipedia.org/wiki/List_of_best-selling_books) · Series-level historical estimate from a secondary sourced compilation. Individual-volume sales are not asserted. Series membership source: https://en.wikipedia.org/wiki/Twilight_(novel_series)
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Bella Swan
 
 角色职责：protagonist · 身份：`identity-467346738db7bda3` · 独立版本：`profile-8050e1584c14e01b`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在妊娠危及生命时，她表现出坚持自身选择的强烈倾向（行为推断；S18、S19）
 - **价值取舍**：她将让孩子出生置于回避自身死亡风险之前（行为推断；S19）
@@ -27,6 +33,10 @@
 ### Jacob Black
 
 角色职责：co-lead · 身份：`identity-b38e7589a10a55af` · 独立版本：`profile-14b58872a548913f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在认定亲近者受害时，他倾向迅速采取激烈的保护行动（行为推断；S16、S17、S22、S23）
 - **核心动机**：见到妊娠中的贝拉后，他希望终止妊娠以保住她的生命（摘要直接叙述；S18）

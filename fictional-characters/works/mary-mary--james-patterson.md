@@ -1,6 +1,6 @@
 # Mary, Mary
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 4, 2005. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Alex Cross
 
 角色职责：protagonist · 身份：`identity-a4dadec7d123d1dc` · 独立版本：`profile-2c26681d475e8abb`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在案件与私人生活冲突时，他呈现难以抽离工作的倾向（行为推断；S8、S17、S20）
 - **核心动机**：面对表面已经指向嫌疑人的证据，他仍要继续查清杀人真相（行为推断；S30、S32、S36、S37）
@@ -28,6 +34,10 @@
 ### Michael Bell
 
 角色职责：central-antagonist · 身份：`identity-e15e93bc98f2cfb2` · 独立版本：`profile-5be8c8e7727abb9f`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在连环杀人中，他呈现操纵他人认知与转嫁责任的倾向（行为推断；S5、S6、S38、S39）
 - **决策方式**：他通过嫁祸他人隐藏真实身份，使调查沿错误对象推进（摘要直接叙述；S26、S38、S39）

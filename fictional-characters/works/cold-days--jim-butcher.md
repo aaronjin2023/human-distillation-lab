@@ -1,6 +1,6 @@
 # Cold Days
 
-作品类型：literature · 年份：未单独核验
+作品类型：literature · 年份：None
 
 传播依据：Hawes Publications index records this title as reaching No. 1 on the NYT adult hardcover fiction list.
 [依据来源](https://hawes.com/no1_f_d.htm) · Secondary index; first date shown: December 16, 2012. This is U.S. adult hardcover chart evidence, not global unit sales.
@@ -9,9 +9,15 @@
 
 ## 角色资料
 
+加载契约：每个独立版本必须一起加载 task_constraints、unknown_constraint_categories、traits、unknown_dimensions 与引用证据；未知条件不能默认满足。任务约束中的应用规则为编者转译，不是原文引语。
+
 ### Harry
 
 角色职责：protagonist · 身份：`identity-b60d1b70800e5468` · 独立版本：`profile-55553af8019698e3`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：面对陌生职责与强敌时，倾向主动求证并灵活借力（行为推断；S7、S10、S13、S18）
 - **核心动机**：在获知监狱失控后，以阻止大范围毁灭为核心目标（行为推断；S12、S16、S19）
@@ -27,6 +33,10 @@
 ### Maeve
 
 角色职责：central-antagonist · 身份：`identity-ff6dc94ef50c896a` · 独立版本：`profile-f726b9e8ec875e8c`
+
+**任务约束（绑定本版本）**
+
+约束未知／未专项核读：identity、body、relationships、experience
 
 - **性格倾向**：在权威受到挑战时，呈现出强烈抗拒并升级冲突的倾向（行为推断；S23、S24）
 - **核心动机**：在冬廷聚会中布置杀局，试图除掉新任冬骑士哈里（摘要直接叙述；S3、S4、S5）
