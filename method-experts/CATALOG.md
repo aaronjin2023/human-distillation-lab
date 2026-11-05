@@ -15,7 +15,7 @@
 
 ## 图像设计（5）
 
-- [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) — 上保真＋下转译的骨架与九个变体（#93）
+- [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) — 上保真＋下转译的骨架与十个变体（#93）
 - [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) — 设定图提示词锁角色一致性（#48）
 - [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) — 短剧角色资产图的建标规范（#137）
 - [摄影物理语言八维人像](image-design/eight-dimension-portrait/SKILL.md) — 用摄影物理语言写人像提示词（#257）
