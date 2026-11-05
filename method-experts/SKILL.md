@@ -24,6 +24,7 @@
 | Agent 干完活要验证 | [Agent 完工验证闭环](agent-engineering/agent-completion-verification/SKILL.md) |
 | 设计多步 Agent 编排 | [Loops & Graphs 编排法](agent-engineering/loops-and-graphs/SKILL.md) |
 | 让多 Agent 无人值守跑长程任务 | [长程多 Agent 运行时机制](agent-engineering/sapper-multi-agent-runtime/SKILL.md) |
+| 长篇/连载生成保持设定一致 | [长篇连载一致性工程](agent-engineering/webnovel-consistency/SKILL.md) |
 | 运营小红书账号（生产） | [小红书账号全自动运营](content-operations/xiaohongshu-auto-ops/SKILL.md) |
 | 写 X 爆款长帖 | [X 爆款写作引擎](content-operations/x-viral-writing-engine/SKILL.md) |
 | 小红书卖虚拟资料 | [小红书虚拟资料运营全流程](content-operations/xiaohongshu-virtual-goods-ops/SKILL.md) |
