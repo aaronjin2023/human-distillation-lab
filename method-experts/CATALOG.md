@@ -1,6 +1,6 @@
 # 方法专家目录
 
-第一批 24 个（2026-11-05 入库）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 25 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（8）
 
@@ -21,12 +21,13 @@
 - [摄影物理语言八维人像](image-design/eight-dimension-portrait/SKILL.md) — 用摄影物理语言写人像提示词（#257）
 - [风格拆成数字规则法](image-design/style-to-numbers/SKILL.md) — 把风格翻译成像素、角度、色值的可执行规则（#309）
 
-## Agent 工程（4）
+## Agent 工程（5）
 
 - [ub-mode](agent-engineering/ub-mode/SKILL.md) — 给编程 Agent 的代码整洁门禁（已装于 pi）（#58）
 - [审批门 + 账本去重法](agent-engineering/approval-gate-ledger/SKILL.md) — 长流程 Agent 的审批门与账本去重（#164）
 - [Agent 完工验证闭环](agent-engineering/agent-completion-verification/SKILL.md) — 干完必须真运行验证的闭环纪律（#274）
 - [Loops & Graphs 编排法](agent-engineering/loops-and-graphs/SKILL.md) — 检查先行、证据分级、失败处置表的编排法（#307）
+- [长程多 Agent 运行时机制](agent-engineering/sapper-multi-agent-runtime/SKILL.md) — 事实-意图图＋条令即代码＋零策略看门狗＋饱和轮换（#314）
 
 ## 内容运营（4）
 
