@@ -1,6 +1,6 @@
 # 方法专家目录
 
-共 26 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 27 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（8）
 
@@ -13,13 +13,14 @@
 - [AI 中文短剧四段流水线](video-production/chinese-short-drama-pipeline/SKILL.md) — 四段流水线＋口型三档法（#176）
 - [短片生产四级关卡法](video-production/short-film-four-gates/SKILL.md) — 验参、抽帧、机器验收把返工前移（#297）
 
-## 图像设计（5）
+## 图像设计（6）
 
 - [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) — 上保真＋下转译的骨架与十二个变体（#93）
 - [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) — 设定图提示词锁角色一致性（#48）
 - [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) — 短剧角色资产图的建标规范（#137）
 - [摄影物理语言八维人像](image-design/eight-dimension-portrait/SKILL.md) — 用摄影物理语言写人像提示词（#257）
 - [风格拆成数字规则法](image-design/style-to-numbers/SKILL.md) — 把风格翻译成像素、角度、色值的可执行规则（#309）
+- [诗中有境诗词浮雕海报系统](image-design/poetry-plaster-relief/SKILL.md) — 古典诗词进、石膏微缩浮雕海报出：几何先行、留白为果、7 问自检门（#325）
 
 ## Agent 工程（6）
 

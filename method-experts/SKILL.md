@@ -19,6 +19,7 @@
 | 短剧角色资产建标 | [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) |
 | 写人像生图提示词 | [摄影物理语言八维人像](image-design/eight-dimension-portrait/SKILL.md) |
 | 把一种风格变成可复用规则 | [风格拆成数字规则法](image-design/style-to-numbers/SKILL.md) |
+| 把古典诗词做成浮雕海报 | [诗中有境诗词浮雕海报系统](image-design/poetry-plaster-relief/SKILL.md) |
 | 写代码要整洁门禁 | [ub-mode](agent-engineering/ub-mode/SKILL.md) |
 | 长流程 Agent 要审批与去重 | [审批门 + 账本去重法](agent-engineering/approval-gate-ledger/SKILL.md) |
 | Agent 干完活要验证 | [Agent 完工验证闭环](agent-engineering/agent-completion-verification/SKILL.md) |
