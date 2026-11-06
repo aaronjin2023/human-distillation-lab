@@ -10,6 +10,7 @@
 | 用 Muse 复刻/生产长视频 | [Muse 长视频流水线](video-production/claude-long-video-pipeline/SKILL.md) |
 | 给参考视频写复刻提示词 | [视频复刻提示词结构](video-production/video-replication-prompt/SKILL.md) |
 | 拆解对标视频再复刻 | [对标视频五层拆解法](video-production/benchmark-video-teardown/SKILL.md) |
+| 复刻网页动效并逐帧验收 | [动效复刻逐帧验收闭环](video-production/animation-replication-loop/SKILL.md) |
 | 高速打斗/动作戏运镜 | [高速打斗运镜拼接法](video-production/high-speed-combat-camera/SKILL.md) |
 | 做 AI 漫剧 | [AI 漫剧全流程](video-production/ai-comic-drama-pipeline/SKILL.md) |
 | 做 AI 中文短剧 | [AI 中文短剧四段流水线](video-production/chinese-short-drama-pipeline/SKILL.md) |

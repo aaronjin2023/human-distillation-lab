@@ -1,6 +1,6 @@
 # 方法专家目录
 
-共 27 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 28 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（8）
 
@@ -8,6 +8,7 @@
 - [Muse 长视频流水线](video-production/claude-long-video-pipeline/SKILL.md) — 实测过的 Muse 长视频复刻生产手册（#34）
 - [视频复刻提示词结构](video-production/video-replication-prompt/SKILL.md) — 人物锚定＋0.1 秒级分镜＋转场段对齐音频节拍（#43）
 - [对标视频五层拆解法](video-production/benchmark-video-teardown/SKILL.md) — 用音频原生模型五层拆解对标片再复刻（#111）
+- [动效复刻逐帧验收闭环](video-production/animation-replication-loop/SKILL.md) — 录原版→按栈重建→同法录复刻逐帧对账，80ms/2% 通过线（#337）
 - [高速打斗运镜拼接法](video-production/high-speed-combat-camera/SKILL.md) — 10 单挑＋5 割草运镜公式、0.15 秒定格（#117）
 - [AI 漫剧全流程](video-production/ai-comic-drama-pipeline/SKILL.md) — 前置表格保一致性的漫剧 Skill 体系（#146）
 - [AI 中文短剧四段流水线](video-production/chinese-short-drama-pipeline/SKILL.md) — 四段流水线＋口型三档法（#176）
