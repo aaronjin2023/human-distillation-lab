@@ -15,6 +15,7 @@
 | 做 AI 漫剧 | [AI 漫剧全流程](video-production/ai-comic-drama-pipeline/SKILL.md) |
 | 做 AI 中文短剧 | [AI 中文短剧四段流水线](video-production/chinese-short-drama-pipeline/SKILL.md) |
 | 短片生产怕返工 | [短片生产四级关卡法](video-production/short-film-four-gates/SKILL.md) |
+| 复刻爆款视频怕抽卡烧钱 | [零抽卡视频编译管线](video-production/hypit-zero-gacha-pipeline/SKILL.md) |
 | 照片转绘成对开海报 | [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) |
 | 真人角色定妆/设定图 | [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) |
 | 短剧角色资产建标 | [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) |

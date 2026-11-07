@@ -1,8 +1,8 @@
 # 方法专家目录
 
-共 28 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 29 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
-## 视频制作（8）
+## 视频制作（10）
 
 - [口播数字人短视频工作流](video-production/talking-head-digital-human/SKILL.md) — 稿子切段、积分报价、双道质检的口播成片 SOP（#3）
 - [Muse 长视频流水线](video-production/claude-long-video-pipeline/SKILL.md) — 实测过的 Muse 长视频复刻生产手册（#34）
@@ -13,6 +13,7 @@
 - [AI 漫剧全流程](video-production/ai-comic-drama-pipeline/SKILL.md) — 前置表格保一致性的漫剧 Skill 体系（#146）
 - [AI 中文短剧四段流水线](video-production/chinese-short-drama-pipeline/SKILL.md) — 四段流水线＋口型三档法（#176）
 - [短片生产四级关卡法](video-production/short-film-four-gates/SKILL.md) — 验参、抽帧、机器验收把返工前移（#297）
+- [零抽卡视频编译管线](video-production/hypit-zero-gacha-pipeline/SKILL.md) — 样帧锁画面＋预检核算成本＋分层止损的复刻/原创管线（#363）
 
 ## 图像设计（6）
 
