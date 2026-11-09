@@ -1,8 +1,8 @@
 # 方法专家目录
 
-共 34 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 35 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
-## 视频制作（13）
+## 视频制作（14）
 
 - [口播数字人短视频工作流](video-production/talking-head-digital-human/SKILL.md) — 稿子切段、积分报价、双道质检的口播成片 SOP（#3）
 - [Muse 长视频流水线](video-production/claude-long-video-pipeline/SKILL.md) — 实测过的 Muse 长视频复刻生产手册（#34）
@@ -17,6 +17,7 @@
 - [参考片量化蓝图法](video-production/reference-film-blueprint/SKILL.md) — 逐镜测量真实发布片成十五页蓝图，再沉淀公式与品牌规则照着规划新片（#393）
 - [Muse Space 视频生产系统法](video-production/space-production-system/SKILL.md) — 把 Space 建成可复用的视频生产机器：参数先行、五段流程、角色资产库、自诊断修复（#406）
 - [零成本本地漫剧双模式管线](video-production/local-comic-drama-dual-mode/SKILL.md) — 资产先行＋九宫格分镜＋H3 模板纪律，手动与 Codex 调度双模式本地出片（#408）
+- [云端短剧全流程管线](video-production/cloud-short-drama-pipeline/SKILL.md) — Claude 写剧本分镜＋H3 云端出片，成本烧在前期、声音三级递进、穿帮剪补抽顺序（#409）
 
 ## 图像设计（6）
 
