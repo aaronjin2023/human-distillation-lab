@@ -22,6 +22,7 @@
 | 不用本地显卡、云端做 AI 短剧 | [云端短剧全流程管线](video-production/cloud-short-drama-pipeline/SKILL.md) |
 | 批量做游戏模型资产 | [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) |
 | 一张图变可拆解的 3D 网页与影片 | [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) |
+| 一张图拟合成可打印/可进引擎的 3D 雕塑 | [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) |
 | 照片转绘成对开海报 | [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) |
 | 真人角色定妆/设定图 | [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) |
 | 短剧角色资产建标 | [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) |

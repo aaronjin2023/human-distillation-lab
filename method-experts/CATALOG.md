@@ -1,6 +1,6 @@
 # 方法专家目录
 
-共 35 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 36 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（14）
 
@@ -50,7 +50,8 @@
 - [专家角色×定时循环研究台](data-research/expert-panel-research-loop/SKILL.md) — 多专家角色定时跑研究出报告（#235）
 - [拍照→识别→结构化→统计→预测管道](data-research/photo-to-structured-pipeline/SKILL.md) — 从电表到订货的通用数据管道（#313）
 
-## 3D 资产生产（2）
+## 3D 资产生产（3）
 
 - [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) — 终端驱动无窗口 Blender：先数字后几何、规则权重、数字验收（#360）
 - [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) — 岗位说明书＋逐图清单＋暗像素度量的 Three.js 纯代码重建（#366）
+- [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) — 原图深度法线锚定＋生成视图配准筛查＋留一验证＋逐视图量化验收（#414）
