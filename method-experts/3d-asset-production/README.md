@@ -4,3 +4,5 @@
 
 - [十五步游戏模型管线](kensei-15-step-game-model-pipeline/SKILL.md) — Claude Code 终端驱动无窗口 Blender 做游戏资产：先数字（parts.json）后几何、正交参考图、规则权重治衣服拉伸、间隙/脚滑等数字验收（小本本 #360）。
 - [纯代码 3D 自拆解](cutaway-pure-code-threejs/SKILL.md) — 一张参考图在 Three.js 里纯代码重建为可逐件拆解的物件与影片：岗位说明书、逐图清单、暗像素密度比与比例份额度量、编舞 1:1 移植（小本本 #366）。
+- [单图拟合雕塑法](image-to-sculpt-fitting/SKILL.md) — 一张图拟合成 3D 雕塑网格：原图深度法线锚定、生成视图配准筛查、留一验证、逐视图量化验收（小本本 #414）。
+- [参考图先行 3D 场景迭代法](reference-first-3d-scene-iteration/SKILL.md) — GPT/Codex 代码直搭网页 3D 场景的审美迭代法：参考图冻结五项、风格五项清单与分区标尺、逐个视觉问题迭代、文字失效时先出优化美术图再照图施工（小本本 #419）。

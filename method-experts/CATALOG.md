@@ -1,6 +1,6 @@
 # 方法专家目录
 
-共 38 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 39 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（15）
 
@@ -52,8 +52,9 @@
 - [拍照→识别→结构化→统计→预测管道](data-research/photo-to-structured-pipeline/SKILL.md) — 从电表到订货的通用数据管道（#313）
 - [福利雷达核实巡查三层管线](data-research/offer-radar-verify-patrol/SKILL.md) — 宽网雷达＋触发式核实＋原话锚点巡查的时效信息监控管线（#417）
 
-## 3D 资产生产（3）
+## 3D 资产生产（4）
 
 - [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) — 终端驱动无窗口 Blender：先数字后几何、规则权重、数字验收（#360）
 - [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) — 岗位说明书＋逐图清单＋暗像素度量的 Three.js 纯代码重建（#366）
 - [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) — 原图深度法线锚定＋生成视图配准筛查＋留一验证＋逐视图量化验收（#414）
+- [参考图先行 3D 场景迭代法](3d-asset-production/reference-first-3d-scene-iteration/SKILL.md) — 参考图冻结五项＋风格清单与分区标尺＋逐个视觉问题迭代＋美术图中介照图施工（#419）
