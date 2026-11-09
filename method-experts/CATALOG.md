@@ -1,6 +1,6 @@
 # 方法专家目录
 
-共 37 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 38 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
 ## 视频制作（15）
 
@@ -45,11 +45,12 @@
 - [小红书虚拟资料运营全流程](content-operations/xiaohongshu-virtual-goods-ops/SKILL.md) — AI 铺量、人工把关的虚拟资料生意全流程（#291）
 - [视频课转可查证学习笔记法](content-operations/course-to-verifiable-notes/SKILL.md) — 按环节选件＋可查证笔记的指令纪律（#305）
 
-## 数据与投研（3，只做研究与纸面跟踪）
+## 数据与投研（4，只做研究与纸面跟踪）
 
 - [PanWatch 盯盘三段调度](data-research/panwatch-monitoring/SKILL.md) — 自托管盯盘 Agent 的三段调度（#184）
 - [专家角色×定时循环研究台](data-research/expert-panel-research-loop/SKILL.md) — 多专家角色定时跑研究出报告（#235）
 - [拍照→识别→结构化→统计→预测管道](data-research/photo-to-structured-pipeline/SKILL.md) — 从电表到订货的通用数据管道（#313）
+- [福利雷达核实巡查三层管线](data-research/offer-radar-verify-patrol/SKILL.md) — 宽网雷达＋触发式核实＋原话锚点巡查的时效信息监控管线（#417）
 
 ## 3D 资产生产（3）
 

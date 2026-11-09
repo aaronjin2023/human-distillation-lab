@@ -43,6 +43,7 @@
 | 自托管盯盘/监控 | [PanWatch 盯盘三段调度](data-research/panwatch-monitoring/SKILL.md) |
 | 组专家角色做定时研究 | [专家角色×定时循环研究台](data-research/expert-panel-research-loop/SKILL.md) |
 | 拍照数据变结构化分析 | [拍照→识别→结构化→统计→预测管道](data-research/photo-to-structured-pipeline/SKILL.md) |
+| 监控时效性公开信息（福利/公告类） | [福利雷达核实巡查三层管线](data-research/offer-radar-verify-patrol/SKILL.md) |
 
 ## 加载纪律
 
