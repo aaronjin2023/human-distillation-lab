@@ -18,6 +18,7 @@
 | 复刻爆款视频怕抽卡烧钱 | [零抽卡视频编译管线](video-production/hypit-zero-gacha-pipeline/SKILL.md) |
 | 规划产品发布片/广告片，要有真实参考打底 | [参考片量化蓝图法](video-production/reference-film-blueprint/SKILL.md) |
 | 持续生产同类短视频系列，要先建生产系统 | [Muse Space 视频生产系统法](video-production/space-production-system/SKILL.md) |
+| 本地低成本做 AI 漫剧连续出集 | [零成本本地漫剧双模式管线](video-production/local-comic-drama-dual-mode/SKILL.md) |
 | 批量做游戏模型资产 | [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) |
 | 一张图变可拆解的 3D 网页与影片 | [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) |
 | 照片转绘成对开海报 | [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) |
