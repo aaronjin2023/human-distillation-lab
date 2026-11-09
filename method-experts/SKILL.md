@@ -20,6 +20,7 @@
 | 持续生产同类短视频系列，要先建生产系统 | [Muse Space 视频生产系统法](video-production/space-production-system/SKILL.md) |
 | 本地低成本做 AI 漫剧连续出集 | [零成本本地漫剧双模式管线](video-production/local-comic-drama-dual-mode/SKILL.md) |
 | 不用本地显卡、云端做 AI 短剧 | [云端短剧全流程管线](video-production/cloud-short-drama-pipeline/SKILL.md) |
+| 做 2.5D 动画短片系列（2D 角色×3D 场景） | [2.5D 动画短片工作室法](video-production/25d-motion-studio/SKILL.md) |
 | 批量做游戏模型资产 | [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) |
 | 一张图变可拆解的 3D 网页与影片 | [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) |
 | 一张图拟合成可打印/可进引擎的 3D 雕塑 | [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) |
