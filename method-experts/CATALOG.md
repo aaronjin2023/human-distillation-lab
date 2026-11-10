@@ -20,6 +20,7 @@
 - [云端短剧全流程管线](video-production/cloud-short-drama-pipeline/SKILL.md) — Claude 写剧本分镜＋H3 云端出片，成本烧在前期、声音三级递进、穿帮剪补抽顺序（#409）
 - [2.5D 动画短片工作室法](video-production/25d-motion-studio/SKILL.md) — 参考片测量成合同＋Blender 三遍建景＋接触表批评者审稿循环，量产 65 秒竖屏 2D 角色×3D 场景动画（#416）
 - [透视错觉视频法](video-production/perspective-illusion-video/SKILL.md) — 2° 长焦压平深场景＋移轴变焦揭示纵深＋平面窗口内换位作弊，四遍着色器合成与 blink_map 闪烁计数验收（#420）
+- [AI 打戏六段编排法](video-production/seedance-fight-scene/SKILL.md) — 打戏提示词拆六段互相配合：招式写成可执行动作描述、镜头五件套规格、攻防因果预埋、15 秒节奏结构、角色战斗风格定型（#423）
 
 ## 图像设计（6）
 

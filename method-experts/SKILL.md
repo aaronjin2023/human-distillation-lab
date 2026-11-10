@@ -22,6 +22,7 @@
 | 不用本地显卡、云端做 AI 短剧 | [云端短剧全流程管线](video-production/cloud-short-drama-pipeline/SKILL.md) |
 | 做 2.5D 动画短片系列（2D 角色×3D 场景） | [2.5D 动画短片工作室法](video-production/25d-motion-studio/SKILL.md) |
 | 做透视错觉循环视频（长焦压平→纵深揭示） | [透视错觉视频法](video-production/perspective-illusion-video/SKILL.md) |
+| 做 AI 打戏/二次元战斗短片（攻防编排＋镜头） | [AI 打戏六段编排法](video-production/seedance-fight-scene/SKILL.md) |
 | 批量做游戏模型资产 | [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) |
 | 一张图变可拆解的 3D 网页与影片 | [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) |
 | 一张图拟合成可打印/可进引擎的 3D 雕塑 | [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) |
