@@ -54,9 +54,10 @@
 - [拍照→识别→结构化→统计→预测管道](data-research/photo-to-structured-pipeline/SKILL.md) — 从电表到订货的通用数据管道（#313）
 - [福利雷达核实巡查三层管线](data-research/offer-radar-verify-patrol/SKILL.md) — 宽网雷达＋触发式核实＋原话锚点巡查的时效信息监控管线（#417）
 
-## 3D 资产生产（4）
+## 3D 资产生产（5）
 
 - [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) — 终端驱动无窗口 Blender：先数字后几何、规则权重、数字验收（#360）
 - [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) — 岗位说明书＋逐图清单＋暗像素度量的 Three.js 纯代码重建（#366）
 - [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) — 原图深度法线锚定＋生成视图配准筛查＋留一验证＋逐视图量化验收（#414）
 - [参考图先行 3D 场景迭代法](3d-asset-production/reference-first-3d-scene-iteration/SKILL.md) — 参考图冻结五项＋风格清单与分区标尺＋逐个视觉问题迭代＋美术图中介照图施工（#419）
+- [一段话代码建房终端法](3d-asset-production/paragraph-to-building-terminal/SKILL.md) — 岗位说明书文件＋PLAN/SPLIT/BUILD 先拆分后几何＋anchors 推导组装顺序＋墨线先行两轮制＋单文件终端（#424）
