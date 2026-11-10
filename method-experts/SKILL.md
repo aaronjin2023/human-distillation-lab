@@ -29,6 +29,7 @@
 | 用代码搭 3D 场景、卡在审美对齐 | [参考图先行 3D 场景迭代法](3d-asset-production/reference-first-3d-scene-iteration/SKILL.md) |
 | 从一段文字生成可拆解、带组装动画的 3D 建筑/场景 | [一段话代码建房终端法](3d-asset-production/paragraph-to-building-terminal/SKILL.md) |
 | 评图像编辑模型的连续修改稳定性、或要「只改一处其余保住」的编辑指令 | [连续编辑保持性测评与编辑提示词范式](image-design/edit-preservation-protocol/SKILL.md) |
+| 在 Godot 里搭回合制 RPG 的项目骨架、或给 RPG 代码定结构约束 | [Godot 回合制 RPG 结构法](game-development/godot-turn-based-rpg-structure/SKILL.md) |
 | 照片转绘成对开海报 | [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) |
 | 真人角色定妆/设定图 | [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) |
 | 短剧角色资产建标 | [人物资产图建标法](image-design/character-asset-sheet/SKILL.md) |

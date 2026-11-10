@@ -62,3 +62,7 @@
 - [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) — 原图深度法线锚定＋生成视图配准筛查＋留一验证＋逐视图量化验收（#414）
 - [参考图先行 3D 场景迭代法](3d-asset-production/reference-first-3d-scene-iteration/SKILL.md) — 参考图冻结五项＋风格清单与分区标尺＋逐个视觉问题迭代＋美术图中介照图施工（#419）
 - [一段话代码建房终端法](3d-asset-production/paragraph-to-building-terminal/SKILL.md) — 岗位说明书文件＋PLAN/SPLIT/BUILD 先拆分后几何＋anchors 推导组装顺序＋墨线先行两轮制＋单文件终端（#424）
+
+## 游戏开发（1）
+
+- [Godot 回合制 RPG 结构法](game-development/godot-turn-based-rpg-structure/SKILL.md) — 按状态切三域＋技能做成数据资源与动作类＋就绪度回合制＋域间事件总线＋地图交互一切皆小剧情模板化（#427）
