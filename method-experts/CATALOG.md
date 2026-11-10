@@ -22,7 +22,7 @@
 - [透视错觉视频法](video-production/perspective-illusion-video/SKILL.md) — 2° 长焦压平深场景＋移轴变焦揭示纵深＋平面窗口内换位作弊，四遍着色器合成与 blink_map 闪烁计数验收（#420）
 - [AI 打戏六段编排法](video-production/seedance-fight-scene/SKILL.md) — 打戏提示词拆六段互相配合：招式写成可执行动作描述、镜头五件套规格、攻防因果预埋、15 秒节奏结构、角色战斗风格定型（#423）
 
-## 图像设计（6）
+## 图像设计（7）
 
 - [对开转绘海报家族](image-design/split-poster-transform/SKILL.md) — 上保真＋下转译的骨架与十四个变体（#93）
 - [真人角色定妆四视图](image-design/character-look-sheet/SKILL.md) — 设定图提示词锁角色一致性（#48）
@@ -30,6 +30,7 @@
 - [摄影物理语言八维人像](image-design/eight-dimension-portrait/SKILL.md) — 用摄影物理语言写人像提示词（#257）
 - [风格拆成数字规则法](image-design/style-to-numbers/SKILL.md) — 把风格翻译成像素、角度、色值的可执行规则（#309）
 - [诗中有境诗词浮雕海报系统](image-design/poetry-plaster-relief/SKILL.md) — 古典诗词进、石膏微缩浮雕海报出：几何先行、留白为果、7 问自检门（#325）
+- [连续编辑保持性测评与编辑提示词范式](image-design/edit-preservation-protocol/SKILL.md) — 20 轮接力双层评分＋保留清单先行的「只改一件事」编辑指令＋裁剪即编辑纠错链（#425）
 
 ## Agent 工程（6）
 
