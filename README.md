@@ -15,7 +15,7 @@
 | `human-patterns/frameworks/` | 24 个行为、认知、情绪、社会、文化、发展、群体与身体情境框架 | [说明与选用](human-patterns/README.md) · [浏览目录](human-patterns/CATALOG.md) · [机器目录](human-patterns/catalog.json) |
 | `fictional-characters/` | 文学与影视角色的性格、动机、价值与行为资料；独立保留各叙事版本及情节证据 | [使用说明](fictional-characters/README.md) · [作品目录](fictional-characters/CATALOG.md) · [实际完成数](fictional-characters/verification/build.json) |
 | `commentary-personas/` | DATUMOJ 评论区角色：72 个编号，69 份公开人设及 3 个未揭晓隐藏位；用于互动风格与内容压力测试 | [角色目录](commentary-personas/CATALOG.md) · [加载入口](commentary-personas/SKILL.md) · [来源与范围](commentary-personas/README.md) |
-| `method-experts/` | 方法专家：从日常搜集的帖子、长文与分享会中提炼的可执行方法，45 个专家模式（视频制作 18、图像设计 7、Agent 工程 6、内容运营 4、数据与投研 4、3D 资产生产 5、游戏开发 1），与人物专家区并列；只蒸方法，数字分已核实与作者自述两档 | [收录口径](method-experts/README.md) · [专家目录](method-experts/CATALOG.md) · [加载入口](method-experts/SKILL.md) |
+| `method-experts/` | 方法专家：从日常搜集的帖子、长文与分享会中提炼的可执行方法，46 个专家模式（视频制作 19、图像设计 7、Agent 工程 6、内容运营 4、数据与投研 4、3D 资产生产 5、游戏开发 1），与人物专家区并列；只蒸方法，数字分已核实与作者自述两档 | [收录口径](method-experts/README.md) · [专家目录](method-experts/CATALOG.md) · [加载入口](method-experts/SKILL.md) |
 | `worldviews/` | 100 条：50 种现实思想与信念视角、50 个虚构世界；包含来源、限定版本、六维观察与原创应用 | [世界观目录](worldviews/CATALOG.md) · [加载入口](worldviews/SKILL.md) · [收录口径](worldviews/README.md) |
 | `manga-authors/` | 80位当代漫画家＋20位日系插画／同人画师；5位关联已有条目、95位为本集合新增研究对象；8维绘画方案及300个原创提示词模板 | [作者目录](manga-authors/CATALOG.md) · [加载入口](manga-authors/SKILL.md) · [绘画流程](manga-authors/WORKFLOW.md) |
 | `people/` | 全库3684个专家分类条目的地域、生活年代、民族/文化认同字段；明确区分来源记录、已核读与未知 | [基本资料与筛选](people/README.md) · [完整索引](people/biographical-index.json) · [原人工人物关联](people/index.json) |
