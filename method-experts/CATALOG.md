@@ -1,8 +1,8 @@
 # 方法专家目录
 
-共 46 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
+共 47 个（第一批 24 个 2026-11-05 入库，后续持续补入）。按领域浏览；每条一行：专家名 — 解决什么问题（小本本条目号）。
 
-## 视频制作（19）
+## 视频制作（20）
 
 - [口播数字人短视频工作流](video-production/talking-head-digital-human/SKILL.md) — 稿子切段、积分报价、双道质检的口播成片 SOP（#3）
 - [Muse 长视频流水线](video-production/claude-long-video-pipeline/SKILL.md) — 实测过的 Muse 长视频复刻生产手册（#34）
@@ -23,6 +23,7 @@
 - [AI 打戏六段编排法](video-production/seedance-fight-scene/SKILL.md) — 打戏提示词拆六段互相配合：招式写成可执行动作描述、镜头五件套规格、攻防因果预埋、15 秒节奏结构、角色战斗风格定型（#423）
 - [代码图解科普片工作流](video-production/code-graphic-explainer/SKILL.md) — 不用生成模型做竖屏知识片：拆对标四件套（互动比例/信息差/心理链/评论高赞）＋逐拍脚本定死文案＋Remotion 零件复用＋全片最多渲两遍＋记忆文件夹存纠正原话（#428）
 - [单人 AI 剧组全流程法](video-production/solo-ai-film-crew/SKILL.md) — 一个人指挥 AI 拍多镜头剧情短片：结构绕短板、外貌死词锁一致性、本地全量重配音防吞尾、UI 全代码画、主创＋质检双角色（#438）
+- [导演思维信息控制法](video-production/director-thinking-info-control/SKILL.md) — 分镜前先定信息分配与揭示顺序：五层漏斗、信息差三分配、递进揭示四层、认知/情绪双曲线咬合、每镜一个 KPI（#442）
 
 ## 图像设计（7）
 

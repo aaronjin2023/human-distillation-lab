@@ -25,6 +25,7 @@
 | 做 AI 打戏/二次元战斗短片（攻防编排＋镜头） | [AI 打戏六段编排法](video-production/seedance-fight-scene/SKILL.md) |
 | 做竖屏知识科普片（讲道理/理关系），不用生成模型 | [代码图解科普片工作流](video-production/code-graphic-explainer/SKILL.md) |
 | 一个人拍多镜头剧情短片（剧本→成片全链，含重配音） | [单人 AI 剧组全流程法](video-production/solo-ai-film-crew/SKILL.md) |
+| 剧情短片没电影感/像流水账，分镜前先定信息差与情绪曲线 | [导演思维信息控制法](video-production/director-thinking-info-control/SKILL.md) |
 | 批量做游戏模型资产 | [十五步游戏模型管线](3d-asset-production/kensei-15-step-game-model-pipeline/SKILL.md) |
 | 一张图变可拆解的 3D 网页与影片 | [纯代码 3D 自拆解](3d-asset-production/cutaway-pure-code-threejs/SKILL.md) |
 | 一张图拟合成可打印/可进引擎的 3D 雕塑 | [单图拟合雕塑法](3d-asset-production/image-to-sculpt-fitting/SKILL.md) |
